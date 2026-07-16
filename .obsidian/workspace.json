@@ -17,12 +17,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "База_знаний/Инструменты/Сбор-статистики-скрипты.md",
+                    "file": "База_знаний/log.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Сбор-статистики-скрипты"
+                  "title": "log"
                 }
               }
             ]
@@ -71,7 +71,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "Terminal: ✳ Система управления проектами контекстной рекламы с LLM wiki"
+                  "title": "Terminal: ⠐ Система управления проектами контекстной рекламы с LLM wiki"
                 }
               }
             ]
@@ -238,20 +238,21 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "aad7ea81908996b1",
+  "active": "237ff25a12fbde18",
   "lastOpenFiles": [
     "База_знаний/log.md",
+    "CLAUDE.md.tmp.30808.593952832551",
+    "CLAUDE.md.tmp.30808.3532a78a7779",
+    "База_знаний/index.md.tmp.30808.01c6174821dc",
+    "Инфраструктура.md",
+    "Инфраструктура.md.tmp.30808.1c5aa95d6abb",
+    "База_знаний/Инструменты/Сбор-статистики-скрипты.md",
     "Клиенты/ЕГЭ Merlin/Решения.md.tmp.30808.d15eabee831a",
     "База_знаний/log.md.tmp.30808.347d34bd29c1",
     "База_знаний/index.md.tmp.30808.721870321300",
-    "База_знаний/Инструменты/Сбор-статистики-скрипты.md",
     "База_знаний/Инструменты/Сбор-статистики-скрипты.md.tmp.30808.12986b1665dd",
     "Клиенты/ЕГЭ Merlin/Статистика/metrika_2026-07-11_to_2026-07-15.csv",
     "Клиенты/ЕГЭ Merlin/Статистика/direct_2026-07-11_to_2026-07-15.tsv",
-    "Скрипты/__pycache__/_config.cpython-313.pyc",
-    "Скрипты/__pycache__",
-    "Скрипты/README.md.tmp.30808.114c05c8979f",
-    "Скрипты/requirements.txt.tmp.30808.848a31e09b8b",
     "Скрипты/README.md",
     "Клиенты/ЕГЭ Merlin/_project.md",
     "Клиенты/index.md",
