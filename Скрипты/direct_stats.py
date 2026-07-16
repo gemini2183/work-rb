@@ -114,7 +114,8 @@ def main():
     tsv_text = fetch_direct_report(login, token, date_from, date_to, DEFAULT_FIELDS, goals=goals)
 
     out_dir = client_stats_dir(args.client_folder)
-    out_path = out_dir / f"direct_{date_from}_to_{date_to}.tsv"
+    suffix = f"_goals-{'-'.join(goals)}" if goals else ""
+    out_path = out_dir / f"direct_{date_from}_to_{date_to}{suffix}.tsv"
     out_path.write_text(tsv_text, encoding="utf-8")
     print(f"Сохранено: {out_path}")
 

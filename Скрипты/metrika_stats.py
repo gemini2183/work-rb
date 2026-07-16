@@ -69,7 +69,8 @@ def main():
     csv_text = fetch_metrika_report(counter, token, date_from, date_to, goals=goals)
 
     out_dir = client_stats_dir(args.client_folder)
-    out_path = out_dir / f"metrika_{date_from}_to_{date_to}.csv"
+    suffix = f"_goals-{'-'.join(goals)}" if goals else ""
+    out_path = out_dir / f"metrika_{date_from}_to_{date_to}{suffix}.csv"
     out_path.write_text(csv_text, encoding="utf-8")
     print(f"Сохранено: {out_path}")
 
