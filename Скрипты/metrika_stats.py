@@ -3,12 +3,13 @@
 """Снапшот статистики Яндекс.Метрики (визиты/цели) для одного клиента.
 
 Адаптировано из E:/PythonProjects/RedBird/google-cloud-jobs (metrika-stats-job_src),
-без BigQuery/Google Sheets — один клиент за раз, результат кладётся в
+без BigQuery — один клиент за раз. Счётчик/токен берутся напрямую из общей
+Google-таблицы (вкладка "Metrika"), результат кладётся в
 Клиенты/<client_folder>/Статистика/.
 
 Использование:
-    python metrika_stats.py --client-key EGEMERLIN --client-folder "ЕГЭ Merlin" --days 30
-    python metrika_stats.py --client-key EGEMERLIN --client-folder "ЕГЭ Merlin" \
+    python metrika_stats.py --client "ЕГЭ Merlin" --client-folder "ЕГЭ Merlin" --days 30
+    python metrika_stats.py --client "ЕГЭ Merlin" --client-folder "ЕГЭ Merlin" \
         --date-from 2026-07-01 --date-to 2026-07-16 --goals 123456,789012
 """
 import argparse
@@ -17,7 +18,7 @@ from datetime import date, timedelta
 
 import requests
 
-from _config import load_client_env, client_stats_dir
+from _config import get_client_row, client_stats_dir
 
 DEFAULT_DIMENSIONS = (
     "ym:s:date,ym:s:<attribution>TrafficSource,ym:s:<attribution>SourceEngine,"
@@ -45,7 +46,7 @@ def fetch_metrika_report(counter, token, date_from, date_to, goals=None,
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--client-key", required=True, help="Префикс в .env, напр. EGEMERLIN")
+    ap.add_argument("--client", required=True, help="Значение колонки 'client' на вкладке Metrika")
     ap.add_argument("--client-folder", required=True, help='Папка клиента в Клиенты/, напр. "ЕГЭ Merlin"')
     ap.add_argument("--days", type=int, default=30)
     ap.add_argument("--date-from", help="YYYY-MM-DD, переопределяет --days")
@@ -53,11 +54,11 @@ def main():
     ap.add_argument("--goals", help="Список ID целей через запятую, см. Клиенты/<клиент>/Цели/goals.md")
     args = ap.parse_args()
 
-    env = load_client_env(args.client_key)
-    counter = env.get("YM_COUNTER")
-    token = env.get("YM_TOKEN")
+    row = get_client_row(args.client, tab="Metrika")
+    counter = str(row.get("ym_counter", "")).strip()
+    token = str(row.get("token", "")).strip()
     if not counter or not token:
-        print(f"Не найден {args.client_key}_YM_COUNTER / {args.client_key}_YM_TOKEN в .env")
+        print(f"У клиента '{args.client}' на вкладке 'Metrika' пустой ym_counter/token")
         sys.exit(1)
 
     date_to = args.date_to or str(date.today() - timedelta(1))

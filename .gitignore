@@ -1,3 +1,4 @@
 .env
+Скрипты/secrets/
 __pycache__/
 *.pyc
