@@ -240,6 +240,9 @@
   },
   "active": "237ff25a12fbde18",
   "lastOpenFiles": [
+    "_july_status.txt",
+    "Клиенты/ЕГЭ Merlin/Статистика/direct_2026-07-01_to_2026-07-17_goals-222490461-40404508.tsv",
+    "Клиенты/ЕГЭ Merlin/Решения.md.tmp.18056.4c21f28b2f0b",
     "База_знаний/Инструменты/Товарная-галерея-Мастер-кампаний-недоступность-в-Campaigns-API.md",
     "Клиенты/ЕГЭ Merlin/Статистика/campaigns_settings.csv",
     "Скрипты/direct_campaigns.py",
@@ -249,8 +252,6 @@
     "_full_reconcile.txt",
     "Скрипты/README.md.tmp.18056.fb607aeade02",
     "Клиенты/ЕГЭ Merlin/Статистика/metrika_yadirect-core_2026-06-01_to_2026-07-17_goals-222490461.csv",
-    "Скрипты/__pycache__/metrika_stats.cpython-313.pyc",
-    "Скрипты/metrika_stats_ege_merlin.py",
     "База_знаний/Инструменты/Методология-подсчёта-конверсий-Директ-Метрика.md",
     "База_знаний/Паттерны/Месячный-горизонт-анализа-и-принятия-решений.md",
     "Клиенты/ЕГЭ_Мерлин/_project.md",
@@ -274,7 +275,6 @@
     "Клиенты/_шаблон_клиента/_project.md",
     "База_знаний/index.md",
     "Бэклог_идей.md",
-    "CLAUDE.md",
-    "rrrrr.md"
+    "CLAUDE.md"
   ]
 }
