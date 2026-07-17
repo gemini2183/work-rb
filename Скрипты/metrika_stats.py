@@ -22,8 +22,11 @@ from _config import get_client_row, client_stats_dir
 
 DEFAULT_DIMENSIONS = (
     "ym:s:date,ym:s:<attribution>TrafficSource,ym:s:<attribution>SourceEngine,"
-    "ym:s:<attribution>DirectClickOrder,ym:s:UTMCampaign,ym:s:goal"
+    "ym:s:UTMCampaign,ym:s:UTMContent,ym:s:goal"
 )
+# Набор измерений и порядок колонок 1:1 воспроизводит прод-job
+# E:/PythonProjects/RedBird/google-cloud-jobs/redbird/func/ym2_merlin_ege/main.py
+# (функция ymStats) — не добавлять сюда измерения от себя.
 DEFAULT_METRICS = "ym:s:visits"
 
 
