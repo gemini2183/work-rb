@@ -38,7 +38,13 @@ pip install -r requirements.txt
 ```
 python direct_stats.py --client "ЕГЭ Merlin" --client-folder "ЕГЭ Merlin" --days 30
 python metrika_stats.py --client "ЕГЭ Merlin" --client-folder "ЕГЭ Merlin" --days 30 --goals 123456,789012
+python callibri_stats.py --client "ЕГЭ Merlin" --client-folder "ЕГЭ Merlin" --days 30
 ```
+
+`callibri_stats.py` тянет звонки (колл-трекинг) с вкладки "Calibri" общей
+таблицы — сырые данные без дедупликации и без вычисления источника трафика
+(это делается на этапе анализа, не сбора). Нужен для сверки конверсий, см.
+`База_знаний/Паттерны/Сверка-конверсий-Директ-Метрика-Коллтрекинг.md`.
 
 `--client` — как записано в колонке `client` таблицы (может отличаться от имени
 папки в `Клиенты/`, поэтому `--client-folder` — отдельный параметр).
