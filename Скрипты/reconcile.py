@@ -17,9 +17,13 @@ callibri_stats_<клиент>.py), сюда попадают чистыми.
     callibri_stats.py    (или клиент-специфичный callibri_stats_<клиент>.py)
 за тот же период, файлы должны лежать в Клиенты/<клиент>/Статистика/.
 
+goal_id/ct_goal_id (какая колонка Conversions_<ID>_AUTO в direct-файле — форма,
+какая — звонок) берутся не флагом, а с вкладки "Metrika" общей таблицы по
+--client, как и остальные скрипты сбора.
+
 Использование:
-    python reconcile.py --client-folder "ЕГЭ Merlin" --goal-id 222490461 \
-        --ct-goal-id 40404508 --date-from 2026-06-01 --date-to 2026-07-17
+    python reconcile.py --client "ЕГЭ Merlin" --client-folder "ЕГЭ Merlin" \
+        --date-from 2026-06-01 --date-to 2026-07-17
 """
 import argparse
 import glob
@@ -27,7 +31,7 @@ import re
 
 import pandas as pd
 
-from _config import client_stats_dir
+from _config import client_stats_dir, get_client_row
 
 
 def _find_file(stats_dir, pattern):
@@ -88,16 +92,22 @@ def load_callibri(stats_dir, date_from, date_to):
 
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--client", required=True, help="Значение колонки 'client' на вкладке Metrika")
     ap.add_argument("--client-folder", required=True, help='Папка клиента в Клиенты/, напр. "ЕГЭ Merlin"')
-    ap.add_argument("--goal-id", required=True, help="ID цели формы (Метрика)")
-    ap.add_argument("--ct-goal-id", required=True, help="ID цели звонка (колл-трекинг)")
     ap.add_argument("--date-from", required=True, help="YYYY-MM-DD")
     ap.add_argument("--date-to", required=True, help="YYYY-MM-DD")
     args = ap.parse_args()
 
+    row = get_client_row(args.client, tab="Metrika")
+    goal_id = str(row.get("goal_id", "")).strip()
+    ct_goal_id = str(row.get("ct_goal_id", "")).strip()
+    if not goal_id or not ct_goal_id:
+        print(f"У клиента '{args.client}' на вкладке 'Metrika' пустой goal_id/ct_goal_id")
+        return
+
     stats_dir = client_stats_dir(args.client_folder)
 
-    direct = load_direct(stats_dir, args.date_from, args.date_to, args.goal_id, args.ct_goal_id)
+    direct = load_direct(stats_dir, args.date_from, args.date_to, goal_id, ct_goal_id)
     metrika = load_metrika(stats_dir, args.date_from, args.date_to)
     callibri, no_cid, callibri_total = load_callibri(stats_dir, args.date_from, args.date_to)
 
@@ -110,7 +120,7 @@ def main():
     merged = merged.sort_values("Cost", ascending=False)
 
     pd.set_option("display.width", 200)
-    print(f"Клиент: {args.client_folder} | период {args.date_from} → {args.date_to}")
+    print(f"Клиент: {args.client} | период {args.date_from} → {args.date_to}")
     print()
     print(merged[[
         "CampaignId", "CampaignName", "Cost", "Clicks",
