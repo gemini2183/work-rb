@@ -12,6 +12,10 @@ E:/PythonProjects/RedBird/google-cloud-jobs/redbird/func/ym2_merlin_ege/main.py)
   3. Исключить летнюю кампанию по условию "UTM Content не содержит letnie"
      (см. Клиенты/ЕГЭ Merlin/Цели/goals.md и вкладку "Metrika" общей таблицы,
      колонка conditions).
+  4. Исключить трафик неактивного проекта "Merlin - Курсы Python" по условию
+     "UTM Content не содержит pyton" (1:1 с прод-job'ом). Проект сейчас
+     inactive (вкладка "Calibri" общей таблицы), фильтр оставлен на случай
+     сбора исторических периодов, когда проект ещё делил тот же счётчик.
 
 Для клиентов без спец-условий использовать общий metrika_stats.py напрямую,
 этот скрипт — не общий, только под ЕГЭ Merlin.
@@ -42,6 +46,7 @@ def apply_client_filters(df: pd.DataFrame) -> pd.DataFrame:
     })
     df = df[df["Source"] == "YaDirect"]
     df = df[~df["UTM Content"].astype(str).str.contains("letnie", na=False)]
+    df = df[~df["UTM Content"].astype(str).str.contains("pyton", na=False)]
     return df
 
 
