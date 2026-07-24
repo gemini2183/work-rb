@@ -242,6 +242,7 @@
   },
   "active": "aad7ea81908996b1",
   "lastOpenFiles": [
+    "Скрипты/callibri_stats_ege_merlin.py",
     "Обзор-задач.md",
     "Бэклог_идей.md",
     "CLAUDE.md",
@@ -276,7 +277,6 @@
     "Клиенты/ЕГЭ Merlin/Аудитории/audiences.md",
     "Клиенты/ЕГЭ Merlin/index.md",
     "Клиенты/_шаблон_клиента/Аудитории/audiences.md",
-    "Клиенты/_шаблон_клиента/Семантика/semantics.md",
-    "Клиенты/_шаблон_клиента/Цели/goals.md"
+    "Клиенты/_шаблон_клиента/Семантика/semantics.md"
   ]
 }
