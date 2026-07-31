@@ -151,13 +151,16 @@ def generate_keyword_ideas(ads_client, customer_id, keywords, geo_target_ids, la
     for idea in response:
         metrics = idea.keyword_idea_metrics
         monthly = [
-            {"month": f"{m.month.name}-{m.year}", "searches": m.monthly_searches}
+            {
+                "month": f"{_enum_name('MonthOfYearEnum', 'MonthOfYear', m.month)}-{m.year}",
+                "searches": m.monthly_searches,
+            }
             for m in metrics.monthly_search_volumes
         ]
         rows.append({
             "Keyword": idea.text,
             "Avg_monthly_searches": metrics.avg_monthly_searches,
-            "Competition": metrics.competition.name if metrics.competition else "",
+            "Competition": _enum_name("KeywordPlanCompetitionLevelEnum", "KeywordPlanCompetitionLevel", metrics.competition),
             "Competition_index": metrics.competition_index,
             "Low_top_of_page_bid_micros": metrics.low_top_of_page_bid_micros,
             "High_top_of_page_bid_micros": metrics.high_top_of_page_bid_micros,
