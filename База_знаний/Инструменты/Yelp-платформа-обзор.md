@@ -7,7 +7,10 @@ updated: 2026-08-05
 
 > Дополнено 2026-08-05: подробная механика Yelp Ads (форматы, лимиты
 > символов, таргетинг, CTA, Enhanced Profile) — см. раздел "Платное
-> продвижение: Yelp Ads" ниже.
+> продвижение: Yelp Ads" ниже. Дополнено ещё раз 2026-08-05: механика
+> Keyword Boosting и точная механика назначения клика (bиз-профиль/звонок/
+> сайт/форма заявки) — см. подразделы "Keyword Boosting" и "Call-to-Action
+> и куда именно ведёт клик".
 
 # Yelp — обзор площадки
 
@@ -174,11 +177,33 @@ Showcase Ads и Slideshow Ads (доп. платные форматы, см. ни
 
 ### Таргетинг — полный список механизмов
 
-1. **Категория бизнеса** — базовый таргетинг, к каким запросам вообще
-   привязывается показ.
-2. **Темы/ключевые темы (keyword boosting)** — можно усилить показ по
-   конкретным темам/специализациям в рамках категории (не свободный ввод
-   любых ключевых слов, а выбор/усиление из связанных с категорией тем).
+1. **Категория бизнеса** — базовый таргетинг: Yelp относит каждый
+   пользовательский поисковый запрос к категории и подбирает подходящие
+   объявления ("We assign each search to a category and deliver ads
+   relevant to that category") — это дефолтный механизм без участия бизнеса.
+2. **Keyword Boosting (boost/block тем)** — отдельный инструмент в Ads
+   Dashboard поверх дефолтного категорийного таргетинга:
+   - **Boosted keywords** — темы/запросы, которым отдаётся приоритет:
+     Yelp перераспределяет бюджет так, чтобы объявление чаще показывалось
+     именно по этим запросам (пример из практики: ресторан бустит
+     "Sunday brunch" или "catering", если это направление приоритетнее
+     остальных по марже/спросу).
+   - **Blocked keywords** — темы внутри категории, по которым показ,
+     наоборот, нужно ограничить (нерелевантные для бизнеса запросы,
+     которые всё же попадают в его категорию).
+   - Это **не подбор семантического ядра "с нуля"**, как в Google Ads —
+     Yelp уже определил пул запросов, релевantных категории; boost/block
+     лишь смещает бюджет внутри этого пула. Из документации не до конца
+     ясно, можно ли вписывать полностью произвольную фразу или нужно
+     выбирать из предложенного Yelp списка тем — это стоит проверить
+     напрямую в интерфейсе biz.yelp.com при заведении кампании клиента.
+     Официальных ограничений по количеству boost/block-тем в документации
+     не найдено.
+   - Для LuxeBrokers практический смысл: бустить конкретные высокоценные
+     темы (например "Rolex buyer", "sell diamond ring", "watch appraisal"),
+     а не общую категорию "Jewelry Buyers" целиком, если часть трафика
+     категории малоценна (например, ремонт украшений, если это не профиль
+     бизнеса).
 3. **Гео-таргетинг**:
    - **Radius Targeting** — таргетинг радиусом вокруг адреса бизнеса,
      конкретный доступный радиус зависит от категории.
@@ -199,20 +224,52 @@ Showcase Ads и Slideshow Ads (доп. платные форматы, см. ни
 нет — таргетинг целиком строится вокруг категории + гео + что ищет
 пользователь в моменте.
 
-### Call-to-Action (CTA)
+### Call-to-Action (CTA) и куда именно ведёт клик
 
-Задаётся не произвольным текстом, а выбором цели кампании (`ad_goals`),
-на основе которой Yelp показывает готовую кнопку:
-- **"Get more phone calls"** → кнопка "Call business" / "Call Now"
-- **"Get more website clicks"** → кнопка "Visit website"
-- **Request a Quote** — отдельная опция для форм заявок (доступность
-  зависит от категории)
-- Можно отдать выбор оптимизации на откуп Yelp — система сама тестирует
-  варианты CTA и выбирает более кликабельный; CTA может отличаться на
-  мобильных и десктопе.
+CTA задаётся не произвольным текстом, а выбором цели кампании (`ad_goals`),
+на основе которой Yelp показывает готовую кнопку и определяет **пункт
+назначения клика**. Это два разных слоя: (1) что видит пользователь как
+кнопку, (2) куда физически ведёт клик. Варианты назначения:
 
-CTA-кнопка — часть Enhanced Profile / Page Upgrades, не всегда включена
-по умолчанию в базовый CPC (см. ниже).
+1. **На бизнес-страницу Yelp (дефолт)** — это "посадочная" **внутри самой
+   платформы**, не сайт клиента: карточка со звёздным рейтингом, отзывами,
+   галереей фото, часами работы, ценовой категорией ($–$$$$), секцией
+   "From the Business" (тем самым текстом на 1500 симв.) и кнопками
+   действия внизу/сбоку. Пользователь никуда с Yelp не уходит — вся
+   "продажа" происходит на этой карточке.
+2. **Прямой звонок** (цель "Get more phone calls" → кнопка "Call Now" /
+   "Call business") — на мобильном клик по объявлению сразу инициирует
+   звонок через подменный отслеживаемый номер (`metered_phone_number`,
+   см. раздел про Call tracking выше), минуя переход на страницу.
+3. **Переход на внешний сайт** (цель "Get more website clicks" → кнопка
+   "Visit website") — уводит на сайт клиента; можно указать не главную
+   страницу, а конкретную посадочную под кампанию (по общим данным
+   индустрии узкая посадочная с одним целевым действием конвертит
+   заметно лучше, чем переход на общую главную).
+4. **Request a Quote / Message the Business** — не переход на другой
+   сайт, а **форма внутри Yelp**, прямо на карточке профиля: пользователь
+   коротко описывает запрос (что нужно оценить/продать, иногда можно
+   приложить фото), заявка падает бизнесу в Inbox биз-кабинета Yelp как
+   лид, обрабатывается прямо там же. Именно скорость ответа на такие
+   заявки (см. раздел про органическое ранжирование выше) — заявленный
+   фактор ранжирования.
+
+Можно отдать выбор оптимизации на откуп Yelp — система сама тестирует
+варианты CTA/назначения и выбирает более кликабельный; CTA может
+отличаться на мобильных и десктопе.
+
+CTA-кнопка на самой карточке профиля (не в рекламе, а как постоянный
+элемент страницы) — часть Enhanced Profile / Page Upgrades, не всегда
+включена по умолчанию на бесплатном профиле (см. ниже); при этом
+Request a Quote/Message the Business доступны и на бесплатном claimed-
+профиле без Page Upgrades.
+
+**Для LuxeBrokers**: учитывая, что решение продать украшения/часы —
+доверительная сделка (человек сначала хочет получить оценку, а не сразу
+"купить"), логичнее приоритизировать связку "звонок" + "Request a Quote"
+(конверсия внутри Yelp, где рядом видны отзывы и рейтинг, что снижает
+барьер доверия) — а не сразу уводить клик на внешний сайт, теряя контекст
+доверия, который даёт сама карточка Yelp.
 
 ### Бюджет и ставки
 
@@ -368,6 +425,11 @@ Yelp-политики именно по pawn/loan-рекламе в открыт
 - [Call to Action Best Practices — docs.developer.yelp.com](https://docs.developer.yelp.com/docs/ads-api-call-to-action-best-practices)
 - [A guide to Yelp Page Upgrades — blog.yelp.com](https://blog.yelp.com/businesses/a-guide-to-yelp-page-upgrades/)
 - [Yelp Announces Verified Licenses — blog.yelp.com](https://blog.yelp.com/news/yelp-announces-verified-licenses-bringing-peace-of-mind-to-booking-a-professional/)
+- [How can I select, block and boost keywords — biz.yelp.com официальный support](https://biz.yelp.com/support-center/article/How-can-I-select-block-and-boost-keywords-to-help-target-my-Yelp-Ads)
+- [Yelp introduces Keyword Boosting, rolls out Custom Location Targeting — Search Engine Land](https://searchengineland.com/yelp-introduces-keyword-boosting-rolls-out-custom-location-targeting-to-all-380054)
+- [Getting the most out of your Yelp Ads program — blog.yelp.com](https://blog.yelp.com/businesses/getting-the-most-out-of-your-yelp-ads-program/)
+- [Request a Quote — business.yelp.com](https://business.yelp.com/services/products/request-a-quote/)
+- [Request-a-Quote runbook — docs.developer.yelp.com](https://docs.developer.yelp.com/docs/request-a-quote-runbook)
 - Конкуренты на Yelp (для контекста ниши): [Jewels On Wilshire](https://www.yelp.com/biz/jewels-on-wilshire-beverly-hills), [Premier Jewelry Lenders](https://www.yelp.com/biz/premier-jewelry-lenders-beverly-hills), [Gem and Loan of Beverly Hills](https://www.yelp.com/biz/gem-and-loan-of-beverly-hills-beverly-hills), [Beverly Hills Jewelry Buyers](https://www.yelp.com/biz/beverly-hills-jewelry-buyers-beverly-hills)
 
 ## Статус
