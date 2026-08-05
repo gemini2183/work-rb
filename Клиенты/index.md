@@ -11,3 +11,4 @@ updated: 2026-07-16
 | [[ЕГЭ Merlin/index\|ЕГЭ Merlin]] | Курсы ЕГЭ/ОГЭ, Москва, ~10 филиалов | активный, старт ведения | Июль 2026: бюджет 80 000 ₽, CPL 2 500 ₽, 32 заявки |
 | [[Корогва/index\|Корогва]] | Одежда и флаги (Украина), тёмный мілітарі/дрон-арт (agency Adwhite, Google Ads) | активный, идёт первый проход анализа | План на июль: Google Ads 120 заявок/60000, Merchant 60 заявок/30000 (CPA 500) — факт ещё не посчитан |
 | [[Юристы США/index\|Юристы США]] | Юридические услуги США, personal injury (agency Adwhite, Google Ads); два подпроекта Andverpersonalinjury/Desertinjurylaw временно объединены | черновик, только что заведён | не выяснено |
+| [[LuxeBrokers/index\|LuxeBrokers]] | Скупка люксовых часов/украшений, Beverly Hills/LA (jewelryfastsale.com); Google Ads + профиль Yelp | черновик, только что заведён | не выяснено |
