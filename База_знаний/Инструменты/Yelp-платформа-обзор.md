@@ -297,44 +297,68 @@ Request a Quote/Message the Business доступны и на бесплатно
   отрасли — это стартовая подсказка, не обязательная к принятию.
 - Неизрасходованный остаток бюджета **не переносится** на следующий месяц.
 - **Оплата строго за клик, не за показ.** Дословно из официальной
-  поддержки Yelp, полный абзац: *"Each time your ad is clicked, we will
-  charge you according to your CPC price. You pay a different price per
-  click depending on the supply and demand of that moment, which will
-  depend on factors like how many other businesses like yours are
-  competing for the same clicks, available ad inventory, and consumer
-  interest."* — показ сам по себе бесплатен.
-- **Важный нюанс формулировки**: "your CPC price" в этой фразе — это
-  **не ставка, которую рекламодатель заранее вводит числом**, а цена,
-  которая сложилась лично для него в результате аукциона в конкретный
-  момент показа (сам абзац это разъясняет второй фразой — "a different
-  price... depending on the supply and demand of that moment"). Подтверждено
-  ещё одной официальной формулировкой: при регистрации показывается
-  "estimated cost-per-click", и отдельно оговорено, что фактический CPC
-  может отличаться от этой оценки из-за колебаний спроса/предложения —
-  если бы CPC был вводимой рекламодателем ставкой, разговора об
-  "estimated vs actual" не было бы.
-- **Верхнего предела на цену конкретного клика (max CPC bid) задать
-  нельзя — подтверждённый официальными источниками biz.yelp.com контроль
-  только один: месячный бюджет.** Дословно: *"we will never charge you
-  more than the monthly budget you've set for your advertising spend"*.
-  Цена одного клика — целиком продукт аукциона в моменте (конкуренция за
-  тот же запрос/гео, объём инвентаря, интерес пользователей), рекламодатель
-  её не задаёт числом, в отличие от ручных ставок в Google Ads. Это
-  проверено напрямую в двух официальных статьях поддержки Yelp ("How is
-  the cost-per-click determined", "Why is my average CPC higher than
-  expected") — ни в одной из них нет механизма ограничения цены отдельного
-  клика, только общая формулировка про аукцион + месячный лимит расходов.
-- **Открытый вопрос**: в одном вторичном (не yelp.com) источнике
-  встретились термины "Minimum Bid Price per Click" и "Maximum Monthly CPC
-  Budget Cap", как будто есть настраиваемая минимальная ставка — но это
-  **не подтверждено** ни в одной официальной статье biz.yelp.com,
-  проверенной напрямую. Либо устаревшая/более ранняя версия продукта, либо
-  неточность источника. Не считать фактом, пока не увидим это своими
-  глазами в реальном кабинете biz.yelp.com при заведении кампании клиента.
-- Косвенно повлиять на средний CPC можно не ставкой, а сужением
-  конкуренции за показ: точнее гео (радиус/CLT) и точнее приоритизация
-  через boost/block keywords — это не задаёт цену напрямую, но меняет, за
-  какие именно аукционы вы вообще боретесь.
+  поддержки Yelp: *"Each time your ad is clicked, we will charge you
+  according to your CPC price. You pay a different price per click
+  depending on the supply and demand of that moment..."* — показ сам по
+  себе бесплатен.
+
+**Механика аукциона — откуда берётся ставка, если рекламодатель её не
+вводит.** Первоисточник — юридический документ Yelp Master Advertising
+Terms (biz.yelp.com/tos), дословные цитаты:
+
+1. *"Yelp will implement an auto-bidding strategy whereby Client's bid
+   price per click varies based on relevance, competition, and other
+   factors, in an effort to maximize the number of Clicks that Client
+   receives each month, within Client's Maximum Monthly CPC Budget Cap."*
+   — то есть ставка **есть у каждого рекламодателя**, просто это не
+   число, введённое вручную (как ручные ставки в Google Ads), а
+   **auto-bidding**: алгоритм Yelp сам вычисляет, сколько "предложить" в
+   каждом конкретном аукционе, отталкиваясь от единственного заданного
+   рекламодателем параметра — месячного бюджета — и стараясь потратить
+   его на максимум кликов. Прямой аналог — автостратегии Google Ads
+   (Maximize Clicks/Target CPA), только у Yelp это единственный доступный
+   режим для self-serve рекламодателя, а не один из вариантов на выбор.
+2. *"If there are multiple advertisers in an auction, Yelp's ad delivery
+   system ranks the advertisers based on Predicted Click Through Rate,
+   price, relevance, competition and other factors, and the advertisers
+   with the highest rank win the auction and pay the Final Price per
+   Click."* — конкурирующие рекламодатели ранжируются по комбинации:
+   предсказанный CTR (насколько вероятен клик — зависит от заполненности
+   профиля, рейтинга, релевантности), цена (та самая auto-bid), релевантность
+   запросу и конкуренция в моменте. Выигрывает наивысший ранг, платит
+   "Final Price per Click" — по логике похоже на second-price/generalized-
+   second-price аукцион (как в Google Ads, где платишь не свою ставку, а
+   чуть больше следующего по рангу конкурента), хотя прямого
+   подтверждения именно second-price механики для Yelp текстом не
+   нашлось — это вероятное, не 100% подтверждённое предположение по
+   аналогии с индустрией.
+3. *"For Ad Impressions placed on Yelp-branded properties, the price-per-
+   click is determined by automated auction mechanics among eligible
+   advertisers based on predicted click-through rates, price, relevance,
+   competition, and other factors, as determined and administered by
+   Yelp, and **only up to the maximum bid price if one is indicated on
+   the Purchase Order**"* — важное уточнение к прошлой версии этой
+   заметки: верхний предел ставки (max bid price) **технически
+   существует**, но не как поле в обычном self-serve кабинете
+   biz.yelp.com (там его никто из проверенных источников не нашёл), а как
+   условие уровня **Purchase Order** — это относится к managed/enterprise
+   размещению через сейлз-менеджера Yelp, а не к обычной самостоятельной
+   настройке малого бизнеса через сайт. Для LuxeBrokers стоит прямо
+   спросить представителя Yelp при заведении кампании, доступна ли такая
+   опция в их случае, или это только для крупных контрактов.
+4. Дополнительно: при регистрации Yelp показывает "estimated cost-per-
+   click", и отдельно оговорено, что фактический CPC может отличаться от
+   этой оценки из-за колебаний спроса/предложения — что подтверждает: это
+   не заранее известное рекламодателю число, а расчётный результат.
+
+**Единственный параметр, который рекламодатель однозначно контролирует
+напрямую — месячный бюджет** (потолок расходов). Всё остальное —
+косвенное влияние на то, как auto-bidding и ранжирование работают внутри
+этого бюджета: точнее гео (радиус/CLT) и точнее приоритизация через
+boost/block keywords сужают конкуренцию за показ и меняют, за какие
+именно аукционы вообще идёт борьба, а более сильный профиль (отзывы,
+рейтинг, заполненность) поднимает предсказанный CTR и тем самым ранг в
+аукционе при той же цене.
 - **Разброс CPC по разным источникам противоречив** — от $2–10 в одних
   обзорах до $3–85+ в других (вероятно, вторые цифры учитывают дорогие
   ниши вроде юристов/финансовых услуг). Единого достоверного бенчмарка нет;
@@ -539,6 +563,7 @@ Yelp-политики именно по pawn/loan-рекламе в открыт
 - [Understanding your Yelp Ads Performance — biz.yelp.com официальный support](https://biz.yelp.com/support-center/article/Understanding-your-Yelp-Ads-Performance)
 - [How to manage and measure your Yelp Ads program — business.yelp.com](https://business.yelp.com/resources/articles/how-to-manage-and-measure-your-yelp-ads-program/)
 - [The New Feature You Need To Use For Managing Yelp Ads Keywords — Exprance](https://www.exprance.com/managing-yelp-ads-keywords/)
+- [Master Advertising Terms — biz.yelp.com/tos, первоисточник по механике auto-bidding аукциона](https://biz.yelp.com/tos/master_advertising_terms_en_us_20260511)
 - Конкуренты на Yelp (для контекста ниши): [Jewels On Wilshire](https://www.yelp.com/biz/jewels-on-wilshire-beverly-hills), [Premier Jewelry Lenders](https://www.yelp.com/biz/premier-jewelry-lenders-beverly-hills), [Gem and Loan of Beverly Hills](https://www.yelp.com/biz/gem-and-loan-of-beverly-hills-beverly-hills), [Beverly Hills Jewelry Buyers](https://www.yelp.com/biz/beverly-hills-jewelry-buyers-beverly-hills)
 
 ## Статус
