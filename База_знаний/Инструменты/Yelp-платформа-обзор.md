@@ -297,8 +297,22 @@ Request a Quote/Message the Business доступны и на бесплатно
   отрасли — это стартовая подсказка, не обязательная к принятию.
 - Неизрасходованный остаток бюджета **не переносится** на следующий месяц.
 - **Оплата строго за клик, не за показ.** Дословно из официальной
-  поддержки Yelp: *"Each time your ad is clicked, we will charge you
-  according to your CPC price"* — показ сам по себе бесплатен.
+  поддержки Yelp, полный абзац: *"Each time your ad is clicked, we will
+  charge you according to your CPC price. You pay a different price per
+  click depending on the supply and demand of that moment, which will
+  depend on factors like how many other businesses like yours are
+  competing for the same clicks, available ad inventory, and consumer
+  interest."* — показ сам по себе бесплатен.
+- **Важный нюанс формулировки**: "your CPC price" в этой фразе — это
+  **не ставка, которую рекламодатель заранее вводит числом**, а цена,
+  которая сложилась лично для него в результате аукциона в конкретный
+  момент показа (сам абзац это разъясняет второй фразой — "a different
+  price... depending on the supply and demand of that moment"). Подтверждено
+  ещё одной официальной формулировкой: при регистрации показывается
+  "estimated cost-per-click", и отдельно оговорено, что фактический CPC
+  может отличаться от этой оценки из-за колебаний спроса/предложения —
+  если бы CPC был вводимой рекламодателем ставкой, разговора об
+  "estimated vs actual" не было бы.
 - **Верхнего предела на цену конкретного клика (max CPC bid) задать
   нельзя — подтверждённый официальными источниками biz.yelp.com контроль
   только один: месячный бюджет.** Дословно: *"we will never charge you
