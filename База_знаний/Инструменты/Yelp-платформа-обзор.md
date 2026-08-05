@@ -337,15 +337,42 @@ Terms (biz.yelp.com/tos), дословные цитаты:
    advertisers based on predicted click-through rates, price, relevance,
    competition, and other factors, as determined and administered by
    Yelp, and **only up to the maximum bid price if one is indicated on
-   the Purchase Order**"* — важное уточнение к прошлой версии этой
-   заметки: верхний предел ставки (max bid price) **технически
-   существует**, но не как поле в обычном self-serve кабинете
-   biz.yelp.com (там его никто из проверенных источников не нашёл), а как
-   условие уровня **Purchase Order** — это относится к managed/enterprise
-   размещению через сейлз-менеджера Yelp, а не к обычной самостоятельной
-   настройке малого бизнеса через сайт. Для LuxeBrokers стоит прямо
-   спросить представителя Yelp при заведении кампании, доступна ли такая
-   опция в их случае, или это только для крупных контрактов.
+   the Purchase Order**"* — важное уточнение: верхний предел ставки (max
+   bid price) **технически существует**, но не как поле в обычном
+   self-serve кабинете biz.yelp.com (там его никто из проверенных
+   источников не нашёл), а как условие документа **Purchase Order**.
+
+   **Что это значит практически — два разных канала заведения рекламы у
+   Yelp, не "опция за доплату" внутри одного кабинета:**
+   - **Self-serve** — самостоятельная настройка через biz.yelp.com без
+     участия человека со стороны Yelp: сами задаёте бюджет, категорию,
+     boost/block keywords; ставку считает auto-bidding без видимого
+     предела; бюджет можно менять когда угодно, без контракта на срок.
+     Это то, что описано во всех разделах выше.
+   - **Managed / через Purchase Order** — реклама покупается не через
+     самостоятельную настройку, а **через продавца Yelp (sales rep) или
+     через сертифицированное агентство — Yelp Advertising Partner**
+     (агентская партнёрская программа Yelp, 600+ агентств-участников).
+     Здесь: персональный аккаунт-менеджер сам создаёт/ведёт/оптимизирует
+     кампанию; условия фиксируются в Purchase Order на оговорённый срок
+     (Commitment Period) и не меняются самостоятельно, в отличие от
+     self-serve; именно в этом документе может быть прописан max bid
+     price.
+   - **Про доплату**: прямого подтверждения "managed дороже за клик" не
+     найдено — цена клика формируется тем же аукционом. Наоборот, для
+     клиентов агентств-партнёров Yelp заявлены "bundled pricing, free
+     upgrades, ad credits" (льготные условия именно за то, что размещение
+     идёт через партнёра). То есть managed — это не платный тумблер
+     внутри self-serve кабинета, а другой канал входа в рекламу Yelp
+     вообще, потенциально даже с бонусами, а не наценкой — но и не то же
+     самое, что "просто позвонить в поддержку и попросить лимит ставки"
+     на обычном self-serve аккаунте.
+   - Для LuxeBrokers практический вопрос: заводим ли мы кампанию
+     самостоятельно (self-serve, без предела ставки, полный контроль над
+     бюджетом в реальном времени) или через Yelp Advertising Partner —
+     это организационный вопрос про нас как агентство (есть ли у нас
+     партнёрский статус Yelp), не про самого клиента напрямую — стоит
+     решить отдельно перед запуском.
 4. Дополнительно: при регистрации Yelp показывает "estimated cost-per-
    click", и отдельно оговорено, что фактический CPC может отличаться от
    этой оценки из-за колебаний спроса/предложения — что подтверждает: это
@@ -564,6 +591,9 @@ Yelp-политики именно по pawn/loan-рекламе в открыт
 - [How to manage and measure your Yelp Ads program — business.yelp.com](https://business.yelp.com/resources/articles/how-to-manage-and-measure-your-yelp-ads-program/)
 - [The New Feature You Need To Use For Managing Yelp Ads Keywords — Exprance](https://www.exprance.com/managing-yelp-ads-keywords/)
 - [Master Advertising Terms — biz.yelp.com/tos, первоисточник по механике auto-bidding аукциона](https://biz.yelp.com/tos/master_advertising_terms_en_us_20260511)
+- [Self-service advertising strategies for small businesses — business.yelp.com](https://business.yelp.com/resources/articles/self-service-advertising/)
+- [How Yelp partners with marketing and advertising agencies — business.yelp.com/partners](https://business.yelp.com/resources/articles/how-yelp-partners-directly-with-marketing-and-advertising-agencies/)
+- [Yelp Advertising Partners: FAQ — business.yelp.com/partners/faq](https://business.yelp.com/partners/faq/)
 - Конкуренты на Yelp (для контекста ниши): [Jewels On Wilshire](https://www.yelp.com/biz/jewels-on-wilshire-beverly-hills), [Premier Jewelry Lenders](https://www.yelp.com/biz/premier-jewelry-lenders-beverly-hills), [Gem and Loan of Beverly Hills](https://www.yelp.com/biz/gem-and-loan-of-beverly-hills-beverly-hills), [Beverly Hills Jewelry Buyers](https://www.yelp.com/biz/beverly-hills-jewelry-buyers-beverly-hills)
 
 ## Статус
