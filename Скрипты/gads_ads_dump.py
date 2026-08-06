@@ -19,12 +19,25 @@ from google.ads.googleads.client import GoogleAdsClient
 from _config import client_stats_dir
 from gads_stats import GOOGLE_ADS_YAML, get_ads_service
 
+# ad_group_ad.status приходит из search_stream как int, не как объект с .name
+# (см. аналогичное примечание в gads_semantics.py) — резолвится через enum-клиент.
+_ENUM_CLIENT = None
+
+
+def _enum_name(enum_type_name: str, field_name: str, value: int) -> str:
+    global _ENUM_CLIENT
+    if _ENUM_CLIENT is None:
+        _ENUM_CLIENT = GoogleAdsClient.load_from_storage(GOOGLE_ADS_YAML)
+    enum_msg = getattr(_ENUM_CLIENT.enums, enum_type_name)
+    return enum_msg.DESCRIPTOR.enum_types_by_name[field_name].values_by_number[value].name
+
 
 def fetch_ads(ga_service, customer_id, campaign_name):
     """Группы объявлений + тексты RSA (headlines/descriptions) одной кампании.
 
     Возвращает список словарей: {AdGroup, AdId, Status, Headlines: [...], Descriptions: [...]}.
     Только ENABLED/PAUSED объявления (REMOVED пропускаются — не актуальны для правки).
+    campaign_name сравнивается регистрозависимо (GAQL) — передавать точно как в аккаунте.
     """
     query = f"""
         SELECT
@@ -47,7 +60,7 @@ def fetch_ads(ga_service, customer_id, campaign_name):
             ads.append({
                 "AdGroup": row.ad_group.name,
                 "AdId": row.ad_group_ad.ad.id,
-                "Status": row.ad_group_ad.status.name,
+                "Status": _enum_name("AdGroupAdStatusEnum", "AdGroupAdStatus", row.ad_group_ad.status),
                 "Headlines": [a.text for a in ad.headlines],
                 "Descriptions": [a.text for a in ad.descriptions],
             })
