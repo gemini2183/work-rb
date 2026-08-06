@@ -32,10 +32,20 @@ def _enum_name(enum_type_name: str, field_name: str, value: int) -> str:
     return enum_msg.DESCRIPTOR.enum_types_by_name[field_name].values_by_number[value].name
 
 
+def _pin_label(pinned_field: int) -> str:
+    """UNSPECIFIED/0 -> не закреплён; иначе короткая метка позиции (H1, D2, ...)."""
+    if not pinned_field:
+        return ""
+    name = _enum_name("ServedAssetFieldTypeEnum", "ServedAssetFieldType", pinned_field)
+    # HEADLINE_1 -> H1, DESCRIPTION_2 -> D2
+    return name.replace("HEADLINE_", "H").replace("DESCRIPTION_", "D")
+
+
 def fetch_ads(ga_service, customer_id, campaign_name):
     """Группы объявлений + тексты RSA (headlines/descriptions) одной кампании.
 
-    Возвращает список словарей: {AdGroup, AdId, Status, Headlines: [...], Descriptions: [...]}.
+    Возвращает список словарей: {AdGroup, AdId, Status, FinalUrls, Headlines: [(text, pin)],
+    Descriptions: [(text, pin)]}. pin — "" если не закреплён, иначе "H1".."H3"/"D1".."D2".
     Только ENABLED/PAUSED объявления (REMOVED пропускаются — не актуальны для правки).
     campaign_name сравнивается регистрозависимо (GAQL) — передавать точно как в аккаунте.
     """
@@ -44,6 +54,7 @@ def fetch_ads(ga_service, customer_id, campaign_name):
             ad_group.name,
             ad_group_ad.ad.id,
             ad_group_ad.status,
+            ad_group_ad.ad.final_urls,
             ad_group_ad.ad.responsive_search_ad.headlines,
             ad_group_ad.ad.responsive_search_ad.descriptions
         FROM ad_group_ad
@@ -61,8 +72,9 @@ def fetch_ads(ga_service, customer_id, campaign_name):
                 "AdGroup": row.ad_group.name,
                 "AdId": row.ad_group_ad.ad.id,
                 "Status": _enum_name("AdGroupAdStatusEnum", "AdGroupAdStatus", row.ad_group_ad.status),
-                "Headlines": [a.text for a in ad.headlines],
-                "Descriptions": [a.text for a in ad.descriptions],
+                "FinalUrls": list(row.ad_group_ad.ad.final_urls),
+                "Headlines": [(a.text, _pin_label(a.pinned_field)) for a in ad.headlines],
+                "Descriptions": [(a.text, _pin_label(a.pinned_field)) for a in ad.descriptions],
             })
     return ads
 
@@ -78,13 +90,17 @@ def render_markdown(campaign_name, ads):
         lines.append(f"## {group_name}\n")
         for ad in group_ads:
             lines.append(f"### AdId {ad['AdId']} ({ad['Status']})\n")
+            if ad["FinalUrls"]:
+                lines.append(f"Ссылка: {', '.join(ad['FinalUrls'])}\n")
             lines.append("Заголовки:")
-            for i, h in enumerate(ad["Headlines"], 1):
-                lines.append(f"{i}. {h}")
+            for i, (h, pin) in enumerate(ad["Headlines"], 1):
+                suffix = f" [закреплён: {pin}]" if pin else ""
+                lines.append(f"{i}. {h}{suffix}")
             lines.append("")
             lines.append("Описания:")
-            for i, d in enumerate(ad["Descriptions"], 1):
-                lines.append(f"{i}. {d}")
+            for i, (d, pin) in enumerate(ad["Descriptions"], 1):
+                suffix = f" [закреплён: {pin}]" if pin else ""
+                lines.append(f"{i}. {d}{suffix}")
             lines.append("")
 
     return "\n".join(lines)
