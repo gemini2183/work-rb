@@ -79,7 +79,43 @@ def fetch_ads(ga_service, customer_id, campaign_name):
     return ads
 
 
-def render_markdown(campaign_name, ads):
+def fetch_sitelinks(ga_service, customer_id, campaign_name):
+    """Быстрые ссылки (sitelinks), закреплённые на уровне групп объявлений кампании.
+
+    В Google Ads sitelinks — asset уровня ad_group/campaign/аккаунта, не уровня
+    конкретного объявления: один и тот же набор показывается с любым объявлением
+    группы. Возвращает {ad_group_name: [{LinkText, Description1, Description2,
+    FinalUrl, Status}]}.
+    """
+    query = f"""
+        SELECT
+            campaign.name,
+            ad_group.name,
+            ad_group_asset.status,
+            asset.sitelink_asset.link_text,
+            asset.sitelink_asset.description1,
+            asset.sitelink_asset.description2,
+            asset.final_urls
+        FROM ad_group_asset
+        WHERE campaign.name = '{campaign_name}'
+            AND asset.type = 'SITELINK'
+    """
+
+    by_group = {}
+    for batch in ga_service.search_stream(customer_id=customer_id, query=query):
+        for row in batch.results:
+            sl = row.asset.sitelink_asset
+            by_group.setdefault(row.ad_group.name, []).append({
+                "LinkText": sl.link_text,
+                "Description1": sl.description1,
+                "Description2": sl.description2,
+                "FinalUrl": row.asset.final_urls[0] if row.asset.final_urls else "",
+                "Status": _enum_name("AssetLinkStatusEnum", "AssetLinkStatus", row.ad_group_asset.status),
+            })
+    return by_group
+
+
+def render_markdown(campaign_name, ads, sitelinks_by_group):
     lines = [f"# {campaign_name} — объявления по группам\n"]
 
     by_group = {}
@@ -101,6 +137,14 @@ def render_markdown(campaign_name, ads):
             for i, (d, pin) in enumerate(ad["Descriptions"], 1):
                 suffix = f" [закреплён: {pin}]" if pin else ""
                 lines.append(f"{i}. {d}{suffix}")
+            lines.append("")
+
+        sitelinks = sitelinks_by_group.get(group_name, [])
+        if sitelinks:
+            lines.append("Быстрые ссылки (закреплены на группу, показываются с любым объявлением группы):")
+            for sl in sitelinks:
+                desc = f" — {sl['Description1']} / {sl['Description2']}" if sl["Description1"] else ""
+                lines.append(f"- [{sl['Status']}] {sl['LinkText']}{desc} → {sl['FinalUrl']}")
             lines.append("")
 
     return "\n".join(lines)
@@ -125,10 +169,12 @@ def main():
         print("Объявлений не найдено — проверь точное название кампании и customer_id")
         return
 
+    sitelinks_by_group = fetch_sitelinks(ga_service, customer_id, args.campaign)
+
     out_dir = client_stats_dir(args.client_folder)
     safe_campaign = args.campaign.replace("/", "-").strip()
     out_path = out_dir / f"gads_ads_{safe_campaign}.md"
-    out_path.write_text(render_markdown(args.campaign, ads), encoding="utf-8")
+    out_path.write_text(render_markdown(args.campaign, ads, sitelinks_by_group), encoding="utf-8")
 
     print(f"Сохранено: {out_path} ({len(ads)} объявлений)")
 
