@@ -224,11 +224,25 @@ Showcase Ads и Slideshow Ads (доп. платные форматы, см. ни
      Практический вывод: в self-serve UI решение о boost/block приходится
      принимать **не по цифрам конкретного ключа** (их здесь просто нет),
      а по косвенным сигналам — общей динамике performance после
-     buster/block, здравому смыслу по нише и, возможно, по данным call
-     tracking/сайта отдельно. Не исключено, что разбивка по keywords
-     доступна в другом месте интерфейса или только через managed/API
-     доступ — это ещё предстоит проверить, при следующем заходе в кабинет
-     стоит поискать отдельно.
+     boost/block, здравому смыслу по нише и, возможно, по данным call
+     tracking/сайта отдельно.
+
+     **Дополнительно проверено 2026-08-07 по справочникам** (не только по
+     UI): разбивки по keyword нет нигде в официально задокументированной
+     отчётности Yelp — ни в статье поддержки "Understanding your Yelp Ads
+     Performance" (перечисляет только customer leads по типу действия —
+     звонок/клик на сайт/directions/сообщения и т.д., heat map по гео,
+     impressions, ad clicks, spend, average CPC — про keyword ни слова),
+     ни в справочнике **Reporting API**, ни в support-документации, (`docs.developer.yelp.com/docs/
+     reporting-api`, отчёт Advertiser Metrics): поля отчёта — impressions,
+     clicks, ad cost, ad-driven conversions по типу действия, CTR, average
+     CPC, page views, calls tracked — группировка/фильтрация доступна
+     только по business ID и диапазону дат, **никакого поля-измерения
+     "keyword"/"search term" в отчёте нет**. Вывод: разбивки по ключевым
+     словам у Yelp Ads в принципе не существует ни в одном известном
+     канале (self-serve UI, sasupport-документация, Reporting API) — это
+     не ограничение конкретно интерфейса, а архитектурная особенность
+     продукта. Boost/Block — управляющий, а не аналитический инструмент.
    - Для LuxeBrokers практический смысл: бустить конкретные высокоценные
      темы (например "Rolex buyer", "sell diamond ring", "watch appraisal"),
      а не общую категорию "Jewelry Buyers" целиком, если часть трафика
