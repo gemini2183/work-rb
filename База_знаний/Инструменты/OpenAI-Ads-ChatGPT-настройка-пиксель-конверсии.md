@@ -375,10 +375,15 @@ Google/Директа, но зона данных гораздо новее и �
 ### Вариант А — официальный шаблон OpenAI
 
 Репозиторий: [github.com/openai/ads-measurement-pixel-gtm-template](https://github.com/openai/ads-measurement-pixel-gtm-template).
-На момент фиксации не в Community Template Gallery — импортируется вручную.
+Подтверждено на практике 2026-08-11: шаблон **есть в Community Template
+Gallery** под названием **"OpenAI Ads Measurement Pixel"**, автор `openai`
+(верифицирован, зелёная галочка) — ручной импорт `.tpl` с GitHub не нужен.
 
-1. **Импорт:** GTM → Templates → Tag Templates → New → меню (⋮) → Import →
-   загрузить `template.tpl` из репозитория, подтвердить разрешения.
+1. **Добавление:** Tags → New → "Выберите тип тега" → внизу списка "В галерее
+   общедоступных шаблонов есть ещё больше типов тегов" → в поиске галереи
+   ввести `OpenAI` → выбрать **"OpenAI Ads Measurement Pixel"** (автор
+   `openai`, не путать с "OpenAI Ads Pixel by Stape" — это вариант Б ниже) →
+   "Добавить в рабочую область" → подтвердить запрошенные разрешения.
 2. **Базовый тег (инициализация):** новый тег на этом шаблоне, вставить
    `pixel_id`, отправку события НЕ включать — этот тег только поднимает SDK.
    Триггер — All Pages / Initialization.
