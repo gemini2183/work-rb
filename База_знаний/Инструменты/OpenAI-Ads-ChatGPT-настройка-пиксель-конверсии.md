@@ -1,0 +1,321 @@
+---
+name: openai-ads-chatgpt-настройка-пиксель-конверсии
+description: Полная техническая настройка OpenAI Ads Manager (реклама в ChatGPT) — pixel, Conversions API, события, требования к аккаунту, форматы объявлений, ограничения
+status: не протестировано
+updated: 2026-08-11
+---
+
+# OpenAI Ads (ChatGPT Ads) — настройка от начала до конца
+
+Найдено внешним поиском (официальная документация developers.openai.com/ads +
+несколько практических гайдов по интеграции) — статус "не протестировано",
+пока не проверено на реальном аккаунте клиента. Платформа в активной бета-стадии
+на момент фиксации, детали (лимиты, доступные гео, форматы) могут поменяться
+быстро — при использовании сверяться с актуальным Ads Manager.
+
+## Что это
+
+Реклама, показываемая внутри ответов ChatGPT (не в поиске, не в вебе — прямо
+в чате). Кабинет — [ads.openai.com](https://ads.openai.com) (self-serve Ads
+Manager). Публично открыт для бизнеса США с 5 мая 2026, conversion-optimized
+кампании — с 5 июня 2026.
+
+## Требования к аккаунту и доступу
+
+- Self-serve доступен рекламодателям в США (биллинг/верификация через США).
+- Показ объявлений — пользователям Free и Go тарифов ChatGPT в США, Канаде,
+  Австралии, Новой Зеландии. Платным подписчикам (Plus/Pro/Team и т.п.)
+  реклама не показывается. Меньше 20% подходящих пользователей видят рекламу
+  ежедневно (постепенный rollout).
+- Пользователи младше 18 лет исключены из показа.
+- Минимальный бюджет пилота ($50k) убран — доступно тестирование для SMB.
+- Для conversion-optimized кампаний (bidding по конверсиям) аккаунт должен
+  быть отдельно включён на это — если нет доступа, API вернёт 403, нужно
+  обращаться к партнёру/аккаунт-менеджеру OpenAI.
+
+## Иерархия сущностей
+
+Ad Account → Campaigns → Ad Groups → Ads. Всё должно быть в статусе "включено"
+для показа. Отдельно — Files (загрузка креативов) и Product Feeds (для
+товарных фидов). API-ключ для программного доступа генерируется в
+Settings → Ads Manager.
+
+## Формат объявлений (self-serve, на момент фиксации)
+
+Один формат — `chat_card`:
+- заголовок: 3–50 символов;
+- описание: до 100 символов;
+- изображение + фавикон;
+- целевой URL.
+
+Видео и карусели пока не доступны в self-serve. Таргетинг — по стране и
+"context hints" (описание тем/намерений, НЕ ключевые слова как в Директе/
+Google Ads). В бете недоступны: демографический таргетинг, списки аудиторий,
+ретаргетинг, таргетинг по устройствам/плейсментам.
+
+Из-за формата (context hints, не keywords) — канал вознаграждает конкретные,
+интент-релевантные офферы, а не общие брендовые сообщения.
+
+## Ставки и ориентировочные бюджеты
+
+| Цель | Модель | Стартовая ставка | Наблюдаемые данные |
+|---|---|---|---|
+| Reach | CPM | до $60 max bid | ~$25 по факту |
+| Clicks | CPC | $3–5 старт | бенчмарков мало |
+
+Ориентир по тестовым бюджетам: awareness $10–30k/мес, lead gen $15–40k/мес,
+e-commerce $20–60k/мес. Цифры внешние, не проверены на своих кампаниях —
+использовать только как порядок величины.
+
+## Запрещённые тематики / ограничения контента
+
+Запрещены: знакомства, медицина, финансы, юриспруденция, азартные игры,
+политика, алкоголь. Из инвентаря дополнительно исключены контексты, связанные
+с детской безопасностью, членовредительством, ненавистью, оружием, терроризмом.
+Модерация объявлений ожидается консервативной.
+
+## Технические боты — robots.txt / WAF
+
+- `OAI-AdsBot` — проверяет объявления/лендинги, не используется для обучения
+  моделей. Разрешить.
+- `OAI-SearchBot` — индексирует контент для органических упоминаний в ответах
+  ChatGPT. Разрешить, если нужна видимость в органике.
+- `GPTBot` — используется для обучения моделей. Блокировать, если участие в
+  обучении нежелательно (это отдельный вопрос от рекламы, но relevant при
+  настройке в том же заходе).
+
+IP-диапазоны ботов OpenAI пока не публикует — фильтрация только по User-Agent.
+
+---
+
+## Отслеживание конверсий: два инструмента
+
+Для conversion-optimized campaigns (bidding по факту конверсии) нужен закрытый
+цикл атрибуции. Доступно два механизма, **рекомендуется использовать оба
+вместе** с дедупликацией по общему `event_id`:
+
+1. **JavaScript Pixel** — браузерный, первостороннее cookie `__oppref` на
+   30 дней (не подвержено части браузерных ограничений на 3rd-party cookies,
+   но теряет ad-blocked сессии).
+2. **Conversions API** — серверный, покрывает ad-blocked трафик, офлайн- и
+   серверные конверсии. Более надёжный из двух, документация OpenAI указывает
+   на комбинацию pixel + API как единственную конфигурацию, устойчивую к
+   ad-блокировщикам, cookie-ограничениям и мультисессионным покупкам.
+
+Для conversion-optimized кампаний обязательно ровно **одно** активное
+стандартное событие-цель — кастомные события как цель оптимизации не
+поддерживаются.
+
+### Шаг 1 — создать Pixel
+
+`POST /conversions/pixels`, параметры:
+- `name` (3–1000 символов, произвольное описательное имя);
+- `client_type: "web"`;
+- `automatic_advanced_matching_enabled` (bool, опционально) — автоматическое
+  углублённое сопоставление данных пользователя (хеширует email/телефон и
+  т.п. из форм на странице без ручной настройки). **С 17 августа 2026
+  включается по умолчанию, если поле не передано** — если нужно явно
+  выключить, передавать `false`.
+
+В ответе: `id` (для event settings) и `pixel_id` (для JS-сниппета и
+Conversions API URL).
+
+### Шаг 2 — создать Conversions API ключ
+
+`POST /conversions/api_keys`, единственный параметр — `name` (3–1000
+символов). Ключ предназначен только для серверных вызовов.
+
+**Критично:** хранить ключ в серверном secret-менеджере. Никогда не размещать
+в браузерном коде, client-visible env-переменных, логах или репозитории.
+
+### Шаг 3 — создать Event Setting (цель конверсии)
+
+`POST /conversions/event_settings`, параметры:
+- `name` — отображаемое имя;
+- `event_type` — одно из стандартных событий (см. список ниже) или `custom`;
+- `custom_event_name` — обязателен, если `event_type: custom`;
+- `attribution_window_days` — рекомендуемое значение `30`;
+- `source_ids` — массив с одним ID источника (полученным на шаге 1).
+
+### Шаг 4а — установить JS Pixel на сайт
+
+Сниппет — в `<head>` каждой страницы, максимально высоко, чтобы не терять
+ранние конверсии:
+
+```html
+<script>
+  (function (w, d, s, u) {
+    if (w.oaiq) return;
+    var q = function () {
+      q.q.push(arguments);
+    };
+    q.q = [];
+    w.oaiq = q;
+    var js = d.createElement(s);
+    js.async = true;
+    js.src = u;
+    var f = d.getElementsByTagName(s)[0];
+    f.parentNode.insertBefore(js, f);
+  })(window, document, "script", "https://bzrcdn.openai.com/sdk/oaiq.min.js");
+
+  oaiq("init", {
+    pixelId: "<PIXEL-ID>",
+    debug: true // на проде убрать
+  });
+</script>
+```
+
+`oaiq('init')` автоматически шлёт `page_viewed`. Формат Pixel ID:
+`oai-px-XXXXXXXXXX`.
+
+Событие конверсии на нужной странице (подтверждение заказа, спасибо-страница
+и т.п.):
+
+```js
+oaiq("measure", "order_created", {
+  type: "contents",
+  amount: 2599,
+  currency: "USD",
+  contents: [{ id: "sku_123", name: "Продукт", content_type: "product", quantity: 1 }]
+});
+```
+
+Кастомное событие:
+
+```js
+oaiq("measure", "custom",
+  { type: "custom" },
+  { custom_event_name: "quote_requested" }
+);
+```
+
+Если не используется `automatic_advanced_matching`, данные пользователя можно
+передать вручную при `init` — **только SHA-256 хеши**, не сырые значения:
+
+```js
+oaiq("init", {
+  pixelId: "<PIXEL-ID>",
+  user: {
+    email_sha256: "…",
+    external_id_sha256: "…",
+    country: "US", city: "San Francisco", zip_code: "94107"
+  }
+});
+```
+
+### Шаг 4б — Conversions API (серверная отправка)
+
+Endpoint: `POST https://bzr.openai.com/v1/events?pid=<PIXEL-ID>`
+Заголовки: `Authorization: Bearer <API-KEY>`, `Content-Type: application/json`
+
+```json
+{
+  "validate_only": false,
+  "integration_source": "имя_интеграции",
+  "events": [{
+    "id": "order_12345",
+    "type": "order_created",
+    "timestamp_ms": 1773892800000,
+    "source_url": "https://shop.example.com/checkout/confirmation",
+    "action_source": "web",
+    "user": { "email_sha256": "…" },
+    "data": { "type": "contents", "amount": 2599 }
+  }]
+}
+```
+
+Обязательные поля события: `id`, `type`, `timestamp_ms`, `data`.
+Условно обязательные: `source_url` (если `action_source: "web"`),
+`custom_event_name` (если `type: "custom"`).
+`action_source`: `web` | `mobile_app` | `offline` | `physical_store` |
+`phone_call` | `email` | `other`.
+
+`timestamp_ms` обязан быть в пределах последних 7 дней и не более чем на
+10 минут в будущем — иначе событие отклоняется.
+
+Максимум 1000 событий в одном батче; **если хотя бы одно событие в батче
+некорректно — падает весь батч**, валидировать перед отправкой (можно через
+`validate_only: true`).
+
+Лимиты API в целом: 600 запросов/мин на endpoint, 1200/мин суммарно.
+
+### Дедупликация pixel + API
+
+Чтобы одно и то же событие не считалось дважды при параллельном использовании
+pixel и API:
+- API-поле `id` = pixel `event_id`;
+- один и тот же Pixel ID в обоих каналах;
+- для кастомных событий — идентичный `custom_event_name`.
+
+## Список стандартных событий
+
+| Событие | Назначение |
+|---|---|
+| `app_installed` | установка мобильного приложения |
+| `app_opened` | открытие приложения |
+| `page_viewed` | посещение важной страницы (авто при init) |
+| `contents_viewed` | просмотр товара/статьи |
+| `checkout_started` | начало оформления покупки |
+| `items_added` | добавление в корзину |
+| `appointment_scheduled` | запись на встречу/консультацию |
+| `lead_created` | отправка формы лида |
+| `registration_completed` | завершение регистрации |
+| `order_created` | завершённая покупка |
+| `subscription_created` | активация платной подписки |
+| `trial_started` | начало пробного периода |
+| `custom` | произвольное событие вне таксономии |
+
+Рекомендации по бизнес-моделям: e-commerce → `order_created`; SaaS →
+`subscription_created` + `trial_started`; B2B/услуги → `lead_created` +
+`appointment_scheduled`.
+
+## Conversion-optimized campaigns — как работает биддинг
+
+Оптимизация учитывает выбранное событие-цель вместе с "quality, relevance,
+click likelihood, conversion likelihood" — то есть похоже на смарт-биддинг
+Google/Директа, но зона данных гораздо новее и без опубликованных порогов
+минимального объёма конверсий для обучения. Кампании стартуют в статусе
+`paused`, объявления добавляются, активация — после полной готовности
+трекинга.
+
+## Альтернатива ручной интеграции — GTM-шаблоны (Stape)
+
+Если не хочется кодить сниппет и серверные вызовы руками — есть готовые
+шаблоны Google Tag Manager от Stape: "OpenAI Ads Pixel by Stape" (клиентский
+контейнер) и "OpenAI Ads Conversions API by Stape" (для серверного GTM,
+гибридная схема с дедупликацией через unique event ID). Требует уже
+существующего серверного GTM-контейнера для полной схемы pixel+API. Не
+проверено на практике — фиксирую как вариант для клиентов, у которых уже
+есть server-side GTM (см. [[MCP-серверы-Google-Tag-Manager]]).
+
+## Открытые вопросы / что проверить на практике при первом клиенте
+
+- Реальный доступ к conversion-optimized biddingу (может требовать отдельного
+  одобрения, см. 403 выше).
+- Актуальность лимитов формата `chat_card` и доступности видео/карусели —
+  бета активно развивается.
+- ЕС по некоторым источникам исключён из публичного rollout (GDPR) — сверить
+  актуальный список гео перед подключением клиента вне US/CA/AU/NZ.
+- Поведение `automatic_advanced_matching_enabled` после 17 августа 2026
+  (дефолт меняется на "включено") — проверить, что это не конфликтует с
+  ручной отправкой хешей.
+
+## Источники
+
+- [Overview – Ads | OpenAI Developers](https://developers.openai.com/ads/api-overview)
+- [Conversion setup – Ads | OpenAI Developers](https://developers.openai.com/ads/api-reference/conversion-setup)
+- [Conversions API – Ads | OpenAI Developers](https://developers.openai.com/ads/conversions-api)
+- [Supported Events – Ads | OpenAI Developers](https://developers.openai.com/ads/supported-events)
+- [Conversion-Optimized Campaigns – Ads | OpenAI Developers](https://developers.openai.com/ads/conversion-optimized-campaigns)
+- [Measurement Pixel – Ads | OpenAI Developers](https://developers.openai.com/ads/measurement-pixel)
+- [Conversion Measurement | OpenAI Help Center](https://help.openai.com/en/articles/20001409-conversion-measurement)
+- [ChatGPT Ads Tracking: Configuration Guide (stape.io)](https://stape.io/blog/chatgpt-ads-tracking)
+- [ChatGPT Ads in 2026: CPC Bids, Targeting, OAIQ Pixel (choice.marketing)](https://choice.marketing/blog/chatgpt-ads-2026-field-guide/)
+
+## Зачем это нужно
+
+Первый клиент с доступом к OpenAI Ads Manager — растущий канал, структурно
+непохожий на Директ/Google Ads (context hints вместо ключевых слов, отдельная
+модель pixel+Conversions API вместо стандартных тегов конверсии). Эта
+страница — техническая база для настройки без повторного гугления при
+следующем клиенте.
