@@ -367,15 +367,70 @@ Google/Директа, но зона данных гораздо новее и �
 `paused`, объявления добавляются, активация — после полной готовности
 трекинга.
 
-## Альтернатива ручной интеграции — GTM-шаблоны (Stape)
+## Установка через Google Tag Manager (альтернатива ручному сниппету)
 
-Если не хочется кодить сниппет и серверные вызовы руками — есть готовые
-шаблоны Google Tag Manager от Stape: "OpenAI Ads Pixel by Stape" (клиентский
-контейнер) и "OpenAI Ads Conversions API by Stape" (для серверного GTM,
-гибридная схема с дедупликацией через unique event ID). Требует уже
-существующего серверного GTM-контейнера для полной схемы pixel+API. Не
-проверено на практике — фиксирую как вариант для клиентов, у которых уже
-есть server-side GTM (см. [[MCP-серверы-Google-Tag-Manager]]).
+Если не хочется кодить сниппет и серверные вызовы руками — два варианта
+шаблона, оба не проверены на практике.
+
+### Вариант А — официальный шаблон OpenAI
+
+Репозиторий: [github.com/openai/ads-measurement-pixel-gtm-template](https://github.com/openai/ads-measurement-pixel-gtm-template).
+На момент фиксации не в Community Template Gallery — импортируется вручную.
+
+1. **Импорт:** GTM → Templates → Tag Templates → New → меню (⋮) → Import →
+   загрузить `template.tpl` из репозитория, подтвердить разрешения.
+2. **Базовый тег (инициализация):** новый тег на этом шаблоне, вставить
+   `pixel_id`, отправку события НЕ включать — этот тег только поднимает SDK.
+   Триггер — All Pages / Initialization.
+3. **Тег на каждое событие конверсии:** отдельный тег, тот же шаблон,
+   включить "Send a measurement event when this tag fires", выбрать
+   стандартное событие (или `custom` + имя), назначить триггер (Custom Event
+   на нужное действие — отправку формы, thank-you страницу и т.п.).
+4. **Порядок срабатывания — критично:** в Advanced Settings тега события
+   включить Tag Sequencing → "Fire a tag before this tag fires" → указать
+   базовый инициализирующий тег. Без этого SDK может ещё не успеть
+   загрузиться к моменту события, и оно потеряется.
+5. **Тест:** GTM Preview — проверить, что базовый тег и тег события
+   срабатывают в правильном порядке; в консоли браузера смотреть сообщения
+   `[oaiq]` (если включён debug).
+6. Опубликовать контейнер.
+
+### Вариант Б — шаблон Stape (больше готовых опций)
+
+"OpenAI Ads Pixel by Stape" (клиентский контейнер) + "OpenAI Ads Conversions
+API by Stape" (для серверного GTM, гибридная схема с дедупликацией через
+unique event ID). Полная pixel+API схема требует уже существующего
+серверного GTM-контейнера (см. [[MCP-серверы-Google-Tag-Manager]]).
+
+1. Templates → Search gallery → "OpenAI Ads Pixel" → добавить в workspace.
+2. Новый тег на этом шаблоне, вставить Pixel ID.
+3. Event Name: **Inherit from DataLayer** (авто-маппинг:
+   `page_view`→`page_viewed`, `purchase`→`order_created`,
+   `generate_lead`→`lead_created`) либо **Override** — выбрать событие вручную.
+4. Включить **Automatic Data Layer Mapping** — сам парсит стандартный GA4
+   eCommerce формат (`items[]`, `value`, `currency`) в параметры события.
+5. (опционально) **Advanced Matching** — передать `user_data` (email, phone,
+   город, zip, страна) через dataLayer, шаблон сам хеширует в SHA-256:
+   ```js
+   window.dataLayer.push({
+     'event': 'purchase',
+     'user_data': { 'email': 'user@example.com', 'country': 'US' },
+     'value': 99.99,
+     'currency': 'USD'
+   });
+   ```
+6. (опционально) **Event User Data Enhancement** — сохраняет user_data в
+   localStorage для переиспользования между событиями в рамках сессии.
+7. **Consent:** либо ручной пуш `consentGranted: true/false` в dataLayer,
+   либо автоматически через Google Consent Mode (сигнал `ad_storage`).
+8. Триггер — Custom Event на нужное действие в dataLayer.
+9. Если параллельно используется Conversions API — включить
+   Server-Side Deduplication, передавать одинаковый `event_id`/`transaction_id`
+   в оба канала (см. [[#Дедупликация pixel + API]] выше).
+10. Preview → тест → публикация.
+
+**Ограничение обоих вариантов:** на странице поддерживается только один
+Pixel ID одновременно.
 
 ## Открытые вопросы / что проверить на практике при первом клиенте
 
