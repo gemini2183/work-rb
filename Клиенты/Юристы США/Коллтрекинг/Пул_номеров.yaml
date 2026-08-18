@@ -1,0 +1,15 @@
+# Пул номеров коллтрекинга (Ringostat) для landverpersonalinjury.com
+# (подпроект Andverpersonalinjury). Заполняется вручную по мере того, как
+# пользователь подтверждает правильные пары utm -> номер.
+#
+# Используется скриптом Скрипты/phone_swap_check.py:
+#   python phone_swap_check.py --client-folder "Юристы США"
+
+url: "https://landverpersonalinjury.com/"
+
+# Номер, который должен показываться без UTM / вне пула (органика, прямой заход)
+default: "+18444529465"
+
+pool:
+  - utm: {utm_source: google, utm_medium: cpc}
+    expected: "+18883783267"  # зафиксировано пробным прогоном 2026-08-18, требует подтверждения пользователя
