@@ -3,11 +3,21 @@
 """Проверка подмены номера телефона (коллтрекинг) на сайте по UTM-меткам.
 
 Открывает сайт клиента через headless-браузер (Playwright) с тестовой
-комбинацией UTM-параметров в URL, снимает все tel:-ссылки со страницы после
+комбинацией UTM-параметров в URL, снимает номера телефонов со страницы после
 полной подгрузки JS (подмена делается на клиенте скриптом коллтрекинга —
 Ringostat/Calltouch/CoMagic/Callibri и т.п., в исходном HTML её не видно, см.
 `Клиенты/Юристы США/Решения.md`, запись 2026-08-18), и сверяет с пулом
 допустимых номеров канала.
+
+Номера ищутся в двух источниках: (1) tel:-ссылки по всему HTML, (2) видимый
+посетителю текст страницы (page.inner_text — рендеренный текст видимых
+элементов, БЕЗ содержимого <script>/<style>/скрытых блоков). Второй источник
+нужен, чтобы поймать номер, показанный просто текстом без ссылки. Важно
+использовать именно видимый текст, а не искать по всему HTML — иначе ловятся
+ложные срабатывания на statичные номера в schema.org JSON-LD разметке и
+номера, зашитые как строковые константы внутри кода самого скрипта
+коллтрекинга (оба случая найдены на landverpersonalinjury.com, 2026-08-18 —
+не место реального показа номера, попадать в сверку не должны).
 
 Сервисы коллтрекинга (проверено на Ringostat, 2026-08-18) отдают номер ИЗ
 ПУЛА по сессии/ротации, не жёстко 1 UTM = 1 номер — поэтому сверка идёт не с
@@ -45,6 +55,9 @@ from playwright.sync_api import sync_playwright
 from _config import VAULT_ROOT
 
 TEL_RE = re.compile(r"tel:([0-9+%]+)")
+# видимый текст: разрешаем пробелы/скобки/дефисы между цифрами (написание
+# "+1 844 452 9465" или "(888) 352-9465"), не только слитную запись
+VISIBLE_PHONE_RE = re.compile(r"\+?1?[\s.\-]?\(?\d{3}\)?[\s.\-]?\d{3}[\s.\-]?\d{4}")
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/120.0 Safari/537.36"
@@ -52,25 +65,33 @@ UA = (
 
 
 def normalize_phone(raw: str) -> str:
-    """%20 и прочий мусор из tel: убираем, оставляем только цифры и ведущий +."""
+    """Пробелы/скобки/дефисы/%20 убираем, оставляем только цифры и ведущий +."""
     decoded = raw.replace("%20", "").replace("%2B", "+")
     digits = re.sub(r"[^\d+]", "", decoded)
     return digits
 
 
-def grab_tel_numbers(page, url: str, wait_ms: int) -> set[str]:
+def grab_numbers(page, url: str, wait_ms: int) -> set[str]:
     page.goto(url, wait_until="networkidle", timeout=30000)
     page.wait_for_timeout(wait_ms)
+
     html = page.content()
-    raw_matches = TEL_RE.findall(html)
-    numbers = {normalize_phone(m) for m in raw_matches}
+    tel_matches = TEL_RE.findall(html)
+
+    # только видимый посетителю текст — НЕ весь HTML, иначе ловятся
+    # статичные номера в schema.org JSON-LD и внутри кода <script> самого
+    # скрипта коллтрекинга (не место реального показа номера)
+    visible_text = page.inner_text("body")
+    visible_matches = VISIBLE_PHONE_RE.findall(visible_text)
+
+    numbers = {normalize_phone(m) for m in tel_matches + visible_matches}
     # артефакты незавершённого JS-рендера (напр. "tel:+1+1") отбрасываем
     return {n for n in numbers if len(re.sub(r"\D", "", n)) >= 10}
 
 
 def check_one(page, base_url: str, utm: dict, pool: list[str], wait_ms: int) -> dict:
     url = base_url if not utm else f"{base_url}?{urlencode(utm)}"
-    numbers = grab_tel_numbers(page, url, wait_ms)
+    numbers = grab_numbers(page, url, wait_ms)
     pool_norm = {normalize_phone(p) for p in pool}
     matched = numbers & pool_norm
     ok = bool(matched) if pool_norm else False
