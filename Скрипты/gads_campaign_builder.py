@@ -41,6 +41,26 @@ from gads_ad_adapter import (
 from gads_semantics_generator import generate_phrases
 
 
+def build_campaign_row(campaign_name, budget, status="Paused"):
+    """Строит строку 'Campaign' с минимальными полями.
+
+    Bulksheet-импорт группы/ключи/объявления обычно требует, чтобы кампания
+    уже существовала — эта строка заводит её с нуля прямо тем же CSV. Бюджет
+    и статус обязательны для создания; таргетинг/сети/расписание остаются на
+    ручную настройку в Editor/интерфейсе после импорта — CSV их не задаёт.
+    Статус по умолчанию Paused — чтобы кампания не начала показываться сразу
+    по импорту, до ручной проверки бюджета и таргетинга (см. Решения.md).
+    """
+    return {
+        "Row Type": "Campaign",
+        "Campaign": campaign_name,
+        "Campaign Type": "Search",
+        "Budget": budget,
+        "Status": status,
+        "Networks": "Google search",
+    }
+
+
 def build_keyword_rows(campaign_name, theme_key, theme_data, match_type="PHRASE"):
     """Строит строки 'Keyword' для одной темы -> одна новая группа "<label>"."""
     label = theme_data.get("label", theme_key)
@@ -63,7 +83,8 @@ def build_keyword_rows(campaign_name, theme_key, theme_data, match_type="PHRASE"
 
 
 FIELDNAMES = (
-    ["Row Type", "Campaign", "Ad group", "Keyword", "Match Type", "Final URL"]
+    ["Row Type", "Campaign", "Campaign Type", "Budget", "Status", "Networks",
+     "Ad group", "Keyword", "Match Type", "Final URL"]
     + [f"Headline {i}" for i in range(1, 16)]
     + [f"Headline {i} position" for i in range(1, 16)]
     + [f"Description {i}" for i in range(1, 5)]
@@ -90,6 +111,11 @@ def main():
     ap.add_argument("--match-type", default="PHRASE", choices=["PHRASE", "BROAD", "EXACT"],
                      help="Тип соответствия для сгенерированных ключей. По умолчанию PHRASE "
                           "(консистентно с уже загруженными вручную ключами в LA-кампаниях).")
+    ap.add_argument("--budget", type=float, default=50.0,
+                     help="Дневной бюджет новой кампании в валюте аккаунта. По умолчанию 50 — "
+                          "заглушка, скорректировать вручную в Editor/интерфейсе перед запуском.")
+    ap.add_argument("--no-campaign-row", action="store_true",
+                     help="Не добавлять строку 'Campaign' — использовать, если кампания уже создана вручную")
     ap.add_argument("--no-ads", action="store_true", help="Не добавлять объявления (только группы+ключи)")
     ap.add_argument("--no-sitelinks", action="store_true", help="Не добавлять sitelinks на уровень кампании")
     ap.add_argument("--out", help="Путь к .csv файлу. По умолчанию — Клиенты/<client-folder>/Статистика/gads_campaign_<campaign>.csv")
@@ -104,6 +130,9 @@ def main():
         print(f"ВНИМАНИЕ: тем нет в словаре: {', '.join(missing)} (доступные: {', '.join(dictionary.keys())})")
 
     rows = []
+    if not args.no_campaign_row:
+        rows.append(build_campaign_row(args.campaign, args.budget))
+
     n_groups = 0
     for theme_key in theme_keys:
         if theme_key not in dictionary:
