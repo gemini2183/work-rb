@@ -101,7 +101,7 @@ def main():
         if theme_key not in dictionary:
             continue
         theme_data = dict(dictionary[theme_key])
-        theme_data["text"] = theme_key.replace("_", " ")
+        theme_data.setdefault("text", theme_key.replace("_", " "))
         label = dictionary[theme_key].get("label", theme_key)
 
         phrases = generate_phrases(theme_data, args.geo)

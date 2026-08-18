@@ -4,7 +4,11 @@
 #     (не универсальны — "accident"/"crash" звучат естественно для транспортных
 #     тем, но не для slip and fall/dog bite, см. Клиенты/Юристы США/Решения.md).
 #   suffixes: юридический термин — общий для всех тем (lawyer/attorney).
-# Ключ строится как "<тема> <modifier> <suffix>" -> broad match.
+# Ключ строится как "<текст темы> <modifier> <suffix>" -> broad match.
+# По умолчанию <текст темы> берётся из ключа темы (car -> "car"), но можно
+# переопределить явным полем "text", если базовое слово короче/иное, чем ключ
+# (см. dog_bite: text "dog", а не "dog bite" — иначе с modifier "bite" вышло
+# бы задвоение "dog bite bite lawyer" / неестественное "dog bite attack lawyer").
 # Читается Скрипты/gads_semantics_generator.py. Правится вручную в Obsidian —
 # добавление новой темы или модификатора здесь сразу доступно генератору.
 
@@ -50,7 +54,8 @@ slip_and_fall:
 
 dog_bite:
   label: Dog Bite Injury
-  modifiers: [injury, attack]
+  text: dog
+  modifiers: [bite, attack, injury]
   suffixes: [lawyer, attorney]
 
 catastrophic:
