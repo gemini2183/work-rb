@@ -1,19 +1,31 @@
 #!/usr/bin/env python
 # coding: utf-8
-"""Строит гео-варианты групп объявлений (ключи + RSA) для загрузки через Google Ads Editor.
+"""Строит гео-расширенные группы объявлений (ключи + RSA) для загрузки через Google Ads Editor.
 
-Тянет из кампании все группы объявлений: активные ключевые слова
-(ad_group_criterion) и тексты RSA-объявлений (headlines/descriptions) — тем же
-способом, что gads_semantics.py (fetch_keywords) и gads_ads_dump.py (fetch_ads).
-Для каждой исходной группы строит N новых групп-вариантов, добавляя к каждому
-ключевому слову указанный geo-суффикс (напр. "Los Angeles" и "LA" отдельно) и
-копируя тексты объявлений как есть — RSA не зависят от гео и обычно достаточно
-общие, чтобы не требовать правки под конкретный город; если тексты объявлений
-тоже нужно адаплировать под город, это делается вручную после импорта.
+Берёт из кампании-источника вручную отобранный список групп объявлений (--ad-groups):
+активные ключевые слова (ad_group_criterion) и тексты RSA-объявлений — тем же
+способом, что gads_semantics.py и gads_ads_dump.py, но напрямую через
+ad_group_criterion, а не keyword_view (см. docstring fetch_keywords_by_group —
+keyword_view молча пропускает ключи без статистики за период).
+
+На каждую исходную группу строится ОДНА новая группа "<исходное имя> <group-suffix>"
+(не по группе на geo-вариант!). Внутри неё каждое ключевое слово дублируется по
+числу --geo: например --geo LA --geo "Los Angeles" даёt для ключа "car injury
+lawyer" два новых ключа "car injury lawyer LA" и "car injury lawyer Los Angeles"
+в одной группе "Car Injury LA". Текст объявления один на группу — упоминания
+"CA"/"California" в нём заменяются на --ad-geo-text (по умолчанию "LA", а не
+"Los Angeles" — на аккаунте Andverpersonalinjury проверено, что "Los Angeles"
+почти везде выталкивает заголовки за лимит 30 символов, "LA" почти всегда
+укладывается, см. Клиенты/Юристы США/Решения.md).
+
+Новые группы можно направить в другую (уже существующую) кампанию через
+--target-campaign — например, у Andverpersonalinjury уже есть отдельная
+кампания "search / all injuries / la" для гео-расширения, заполняемая вручную
+по частям; этот скрипт достраивает в неё оставшиеся группы, не трогая исходную
+"search / all injuries".
 
 Только ENABLED-ключи (PAUSED/REMOVED пропускаются — не имеет смысла тиражировать
-неактивную семантику). Названия новых групп — "<исходное имя> - <суффикс>"
-(см. Клиенты/Юристы США/Решения.md, запись про гео-расширение LA).
+неактивную семантику).
 
 Результат — один CSV в формате Google Ads Editor bulk upload (секции Keyword и
 Responsive search ad вперемешку, как их принимает импорт по колонкам Campaign/
@@ -21,8 +33,10 @@ Ad group/Row type) в Клиенты/<client-folder>/Статистика/.
 
 Использование:
     python gads_geo_ad_group_builder.py --customer-id 213-621-6123 \
-        --client-folder "Юристы США" --campaign "Search / All Injuries" \
-        --geo "Los Angeles" --geo "LA"
+        --client-folder "Юристы США" --campaign "search / all injuries" \
+        --target-campaign "search / all injuries / la" \
+        --ad-groups "Bicycle Injury,Dog Bite Injury,Motorcycle Injury,Pedestrian Injury,Slip and Fall Injury,Bus Injury" \
+        --geo "LA" --geo "Los Angeles" --group-suffix "LA" --ad-geo-text "LA"
 """
 import argparse
 import csv
@@ -110,16 +124,25 @@ def fetch_ads_by_group(ga_service, customer_id, campaign_name):
     return by_group
 
 
-def build_rows(campaign_name, keywords_by_group, ads_by_group, geo_suffixes):
-    """Строит плоский список строк для bulksheet CSV — по одной новой группе на (исходная группа x geo)."""
+def build_rows(campaign_name, keywords_by_group, ads_by_group, geo_suffixes, group_suffix,
+               ad_geo_text):
+    """Строит плоский список строк для bulksheet CSV.
+
+    По одной новой группе "<исходное имя> <group_suffix>" на исходную группу
+    (не по группе на geo!) — внутри неё ключи дублируются в вариантах под каждый
+    geo_suffixes (напр. "... LA" и "... Los Angeles" как отдельные ключи одной
+    группы). Текст объявления один на группу — geo-упоминания в нём (CA/California)
+    заменяются на ad_geo_text (обычно короткий вариант "LA", чтобы уложиться в
+    лимит 30 символов заголовка — см. Клиенты/Юристы США/Решения.md).
+    """
     rows = []
     for group_name, keywords in keywords_by_group.items():
         if not keywords:
             continue
-        for geo in geo_suffixes:
-            new_group = f"{group_name} - {geo}"
+        new_group = f"{group_name} {group_suffix}"
 
-            for text, match_type in keywords:
+        for text, match_type in keywords:
+            for geo in geo_suffixes:
                 new_text = f"{text} {geo}"
                 rows.append({
                     "Row Type": "Keyword",
@@ -129,24 +152,36 @@ def build_rows(campaign_name, keywords_by_group, ads_by_group, geo_suffixes):
                     "Match Type": match_type,
                 })
 
-            for ad in ads_by_group.get(group_name, []):
-                row = {
-                    "Row Type": "Responsive search ad",
-                    "Campaign": campaign_name,
-                    "Ad group": new_group,
-                    "Final URL": ad["FinalUrls"][0] if ad["FinalUrls"] else "",
-                }
-                for i, (text, pin) in enumerate(ad["Headlines"], 1):
-                    row[f"Headline {i}"] = text
-                    if pin:
-                        row[f"Headline {i} position"] = pin.replace("H", "")
-                for i, (text, pin) in enumerate(ad["Descriptions"], 1):
-                    row[f"Description {i}"] = text
-                    if pin:
-                        row[f"Description {i} position"] = pin.replace("D", "")
-                rows.append(row)
+        for ad in ads_by_group.get(group_name, []):
+            row = {
+                "Row Type": "Responsive search ad",
+                "Campaign": campaign_name,
+                "Ad group": new_group,
+                "Final URL": ad["FinalUrls"][0] if ad["FinalUrls"] else "",
+            }
+            for i, (text, pin) in enumerate(ad["Headlines"], 1):
+                row[f"Headline {i}"] = _geo_replace(text, ad_geo_text)
+                if pin:
+                    row[f"Headline {i} position"] = pin.replace("H", "")
+            for i, (text, pin) in enumerate(ad["Descriptions"], 1):
+                row[f"Description {i}"] = _geo_replace(text, ad_geo_text)
+                if pin:
+                    row[f"Description {i} position"] = pin.replace("D", "")
+            rows.append(row)
 
     return rows
+
+
+_GEO_PATTERN = None
+
+
+def _geo_replace(text, geo_text):
+    """Заменяет 'CA'/'California' (целыми словами) на geo_text в тексте объявления."""
+    import re
+    global _GEO_PATTERN
+    if _GEO_PATTERN is None:
+        _GEO_PATTERN = re.compile(r"\bCalifornia\b|\bCA\b")
+    return _GEO_PATTERN.sub(geo_text, text)
 
 
 def write_csv(rows, out_path):
@@ -163,39 +198,93 @@ def write_csv(rows, out_path):
             writer.writerow(row)
 
 
+def check_length_limits(rows):
+    """Печатает предупреждения по строкам объявлений, превышающим лимиты Google Ads
+
+    (30 символов на Headline, 90 на Description) — включая случаи, унаследованные
+    из исходного объявления (напр. {KeyWord:...} длиннее 30 уже в исходнике), не
+    только те, что возникли из-за geo-замены.
+    """
+    warnings = []
+    for row in rows:
+        if row["Row Type"] != "Responsive search ad":
+            continue
+        for i in range(1, 16):
+            text = row.get(f"Headline {i}")
+            if text and len(text) > 30:
+                warnings.append(f"  [{row['Ad group']}] Headline {i} ({len(text)} симв.): {text}")
+        for i in range(1, 5):
+            text = row.get(f"Description {i}")
+            if text and len(text) > 90:
+                warnings.append(f"  [{row['Ad group']}] Description {i} ({len(text)} симв.): {text}")
+    if warnings:
+        print(f"\nВНИМАНИЕ: {len(warnings)} строк объявлений превышают лимит символов Google Ads "
+              "(Editor их не примет без ручной правки):")
+        for w in warnings:
+            print(w)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--customer-id", required=True, help="Формат XXX-XXX-XXXX или без дефисов")
     ap.add_argument("--client-folder", required=True, help='Папка клиента в Клиенты/, напр. "Юристы США"')
-    ap.add_argument("--campaign", required=True, help='Точное название кампании, напр. "Search / All Injuries"')
+    ap.add_argument("--campaign", required=True,
+                     help='Точное название кампании-источника (откуда берутся ключи/объявления), '
+                          'напр. "search / all injuries"')
+    ap.add_argument("--target-campaign",
+                     help='Название кампании, ПОД которой в CSV должны оказаться новые группы '
+                          '(напр. уже существующая "search / all injuries / la"). По умолчанию — '
+                          'то же, что --campaign.')
+    ap.add_argument("--ad-groups", required=True,
+                     help='Список исходных групп через запятую, которые нужно взять для гео-расширения '
+                          '(остальные группы кампании игнорируются), напр. '
+                          '"Bicycle Injury,Dog Bite Injury,Motorcycle Injury"')
+    ap.add_argument("--group-suffix", default="LA",
+                     help='Суффикс имени новой группы, напр. "Car Injury" -> "Car Injury LA". По умолчанию "LA".')
     ap.add_argument("--geo", action="append", required=True,
-                     help='Суффикс, добавляемый к ключам и имени группы. Повторить флаг для нескольких '
-                          '(напр. --geo "Los Angeles" --geo "LA")')
+                     help='Вариант geo-суффикса, добавляемый к тексту КАЖДОГО ключевого слова как отдельный '
+                          'дубль внутри новой группы. Повторить флаг для нескольких '
+                          '(напр. --geo "LA" --geo "Los Angeles" даёт по 2 варианта на каждый исходный ключ).')
+    ap.add_argument("--ad-geo-text", default="LA",
+                     help='Чем заменять "CA"/"California" в текстах объявлений (заголовки/описания). '
+                          'По умолчанию "LA" — короче, обычно укладывается в лимит 30 символов заголовка.')
     args = ap.parse_args()
 
     customer_id = args.customer_id.replace("-", "").strip()
+    target_campaign = args.target_campaign or args.campaign
+    selected_groups = [g.strip() for g in args.ad_groups.split(",") if g.strip()]
 
     login_customer_id = GoogleAdsClient.load_from_storage(GOOGLE_ADS_YAML).login_customer_id
     ga_service = get_ads_service(login_customer_id)
 
-    print(f"Клиент: {args.client_folder} | кампания: {args.campaign} | geo: {', '.join(args.geo)}")
+    print(f"Клиент: {args.client_folder} | источник: {args.campaign} -> цель: {target_campaign}")
+    print(f"Группы: {', '.join(selected_groups)} | geo-варианты ключей: {', '.join(args.geo)} "
+          f"| geo в тексте объявления: {args.ad_geo_text}")
 
-    keywords_by_group = fetch_keywords_by_group(ga_service, customer_id, args.campaign)
+    keywords_by_group_all = fetch_keywords_by_group(ga_service, customer_id, args.campaign)
+    ads_by_group_all = fetch_ads_by_group(ga_service, customer_id, args.campaign)
+
+    missing = [g for g in selected_groups if g not in keywords_by_group_all]
+    if missing:
+        print(f"ВНИМАНИЕ: группы не найдены (или без активных ключей) в кампании: {', '.join(missing)}")
+
+    keywords_by_group = {g: keywords_by_group_all[g] for g in selected_groups if g in keywords_by_group_all}
     if not keywords_by_group:
-        print("Активных ключевых слов не найдено — проверь точное название кампании и customer_id")
+        print("Ни одной подходящей группы не найдено — проверь названия --ad-groups")
         return
-    ads_by_group = fetch_ads_by_group(ga_service, customer_id, args.campaign)
+    ads_by_group = {g: ads_by_group_all[g] for g in selected_groups if g in ads_by_group_all}
 
-    rows = build_rows(args.campaign, keywords_by_group, ads_by_group, args.geo)
+    rows = build_rows(target_campaign, keywords_by_group, ads_by_group, args.geo,
+                       args.group_suffix, args.ad_geo_text)
+    check_length_limits(rows)
 
     out_dir = client_stats_dir(args.client_folder)
-    safe_campaign = args.campaign.replace("/", "-").strip()
+    safe_campaign = target_campaign.replace("/", "-").strip()
     safe_geo = "_".join(g.replace(" ", "") for g in args.geo)
     out_path = out_dir / f"gads_geo_bulksheet_{safe_campaign}_{safe_geo}.csv"
     write_csv(rows, out_path)
 
-    n_groups = len(keywords_by_group) * len(args.geo)
-    print(f"Сохранено: {out_path} ({n_groups} новых групп, {len(rows)} строк)")
+    print(f"\nСохранено: {out_path} ({len(keywords_by_group)} новых групп, {len(rows)} строк)")
     print("Импорт: Google Ads Editor -> Account -> Import -> From File, выбрать 'Use Campaign/Ad group "
           "columns' при маппинге, проверить diff перед Post.")
 
