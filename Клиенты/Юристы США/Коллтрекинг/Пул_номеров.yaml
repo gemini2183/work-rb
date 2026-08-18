@@ -1,15 +1,35 @@
-# Пул номеров коллтрекинга (Ringostat) для landverpersonalinjury.com
-# (подпроект Andverpersonalinjury). Заполняется вручную по мере того, как
-# пользователь подтверждает правильные пары utm -> номер.
+# Пулы номеров и правила подмены (Ringostat) для landverpersonalinjury.com
+# (подпроект Andverpersonalinjury). Ringostat не отдаёт эти данные через
+# публичный API (проверено 2026-08-18, см. Клиенты/Юристы США/Решения.md) —
+# ведётся вручную по скриншотам из кабинета Ringostat (раздел "Каналы
+# трафика" + "Пулы номеров"), актуализировать при изменении настроек в
+# кабинете.
+#
+# Ringostat выдаёт номер ИЗ ПУЛА по сессии/ротации, не жёстко 1 UTM = 1
+# номер — поэтому "expected" для канала это список всех номеров пула,
+# совпадение с ЛЮБЫМ из них считается корректным (см. Решения.md, запись
+# 2026-08-18: два прогона с одинаковым utm_source=google&utm_medium=cpc дали
+# разные номера пула "Google Ads", оба валидны).
 #
 # Используется скриптом Скрипты/phone_swap_check.py:
 #   python phone_swap_check.py --client-folder "Юристы США"
 
 url: "https://landverpersonalinjury.com/"
 
-# Номер, который должен показываться без UTM / вне пула (органика, прямой заход)
+# Номер, который должен показываться без UTM / вне зоны действия каналов трафика
 default: "+18444529465"
 
-pool:
-  - utm: {utm_source: google, utm_medium: cpc}
-    expected: "+18883783267"  # зафиксировано пробным прогоном 2026-08-18, требует подтверждения пользователя
+channels:
+  - name: "Google Ads"
+    utm: {utm_source: ".*", utm_medium: "cpc", utm_term: ".*", utm_content: ".*", utm_campaign: ".*"}
+    # тест подставляем конкретными значениями (utm_source: google), правило Ringostat само regex .*
+    utm_test: {utm_source: google, utm_medium: cpc}
+    pool:
+      - "+18883783267"
+      - "+18883448725"
+      - "+18883025461"
+
+  - name: "SEO"
+    utm: {utm_source: ".*", utm_medium: "organic", utm_term: ".*", utm_content: ".*", utm_campaign: ".*"}
+    utm_test: {utm_source: google, utm_medium: organic}
+    pool: []  # TODO: скриншот пула "SEO" ещё не получен от пользователя

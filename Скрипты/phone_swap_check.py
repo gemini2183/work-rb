@@ -2,23 +2,31 @@
 # coding: utf-8
 """Проверка подмены номера телефона (коллтрекинг) на сайте по UTM-меткам.
 
-Открывает сайт клиента через headless-браузер (Playwright) с заданной
+Открывает сайт клиента через headless-браузер (Playwright) с тестовой
 комбинацией UTM-параметров в URL, снимает все tel:-ссылки со страницы после
 полной подгрузки JS (подмена делается на клиенте скриптом коллтрекинга —
 Ringostat/Calltouch/CoMagic/Callibri и т.п., в исходном HTML её не видно, см.
-`Клиенты/Юристы США/Решения.md`, запись 2026-08-18), и сверяет с ожидаемым
-номером из ручного файла пула клиента.
+`Клиенты/Юристы США/Решения.md`, запись 2026-08-18), и сверяет с пулом
+допустимых номеров канала.
 
-Пул номеров — ручной YAML в `Клиенты/<client_folder>/Коллтрекинг/Пул_номеров.yaml`,
-формат:
+Сервисы коллтрекинга (проверено на Ringostat, 2026-08-18) отдают номер ИЗ
+ПУЛА по сессии/ротации, не жёстко 1 UTM = 1 номер — поэтому сверка идёт не с
+одним ожидаемым номером, а со списком номеров пула канала: совпадение с
+ЛЮБЫМ из них считается корректным.
+
+Пул номеров — ручной YAML в `Клиенты/<client_folder>/Коллтрекинг/Пул_номеров.yaml`
+(заполняется по скриншотам из кабинета сервиса коллтрекинга — публичного API
+для выгрузки правил подмены и пулов у Ringostat нет), формат:
 
     url: "https://example.com/"
-    default: "+18444529465"          # номер без UTM / для нераспознанного источника
-    pool:
-      - utm: {utm_source: google, utm_medium: cpc}
-        expected: "+18883783267"
-      - utm: {utm_source: yandex, utm_medium: cpc}
-        expected: "+18001234567"
+    default: "+18444529465"          # номер без UTM / вне зоны действия каналов
+    channels:
+      - name: "Google Ads"
+        utm_test: {utm_source: google, utm_medium: cpc}   # конкретная комбинация для прогона
+        pool: ["+18883783267", "+18883448725", "+18883025461"]
+      - name: "SEO"
+        utm_test: {utm_source: google, utm_medium: organic}
+        pool: ["+18001234567"]
 
 Использование:
     python phone_swap_check.py --client-folder "Юристы США"
@@ -60,16 +68,18 @@ def grab_tel_numbers(page, url: str, wait_ms: int) -> set[str]:
     return {n for n in numbers if len(re.sub(r"\D", "", n)) >= 10}
 
 
-def check_one(page, base_url: str, utm: dict, expected: str, wait_ms: int) -> dict:
+def check_one(page, base_url: str, utm: dict, pool: list[str], wait_ms: int) -> dict:
     url = base_url if not utm else f"{base_url}?{urlencode(utm)}"
     numbers = grab_tel_numbers(page, url, wait_ms)
-    expected_norm = normalize_phone(expected)
-    ok = expected_norm in numbers
+    pool_norm = {normalize_phone(p) for p in pool}
+    matched = numbers & pool_norm
+    ok = bool(matched) if pool_norm else False
     return {
         "utm": utm,
         "url": url,
-        "expected": expected,
+        "pool": pool,
         "found": sorted(numbers),
+        "matched": sorted(matched),
         "ok": ok,
     }
 
@@ -92,16 +102,20 @@ def main():
 
     base_url = config["url"]
     default_expected = config.get("default")
-    pool = config.get("pool", [])
+    channels = config.get("channels", [])
 
     cases = []
     if default_expected:
-        cases.append({"utm": {}, "expected": default_expected})
-    for entry in pool:
-        cases.append({"utm": entry["utm"], "expected": entry["expected"]})
+        cases.append({"name": "default", "utm": {}, "pool": [default_expected]})
+    for ch in channels:
+        pool = ch.get("pool") or []
+        if not pool:
+            print(f"[SKIP] канал '{ch.get('name')}' — пул пуст, пропускаю")
+            continue
+        cases.append({"name": ch.get("name", "?"), "utm": ch["utm_test"], "pool": pool})
 
     if not cases:
-        print("В пуле нет ни 'default', ни записей 'pool' — нечего проверять.")
+        print("Нет ни 'default', ни каналов с непустым пулом — нечего проверять.")
         sys.exit(1)
 
     print(f"Клиент: {args.client_folder} | сайт: {base_url} | случаев: {len(cases)}")
@@ -111,11 +125,12 @@ def main():
         browser = p.chromium.launch()
         page = browser.new_page(user_agent=UA)
         for case in cases:
-            res = check_one(page, base_url, case["utm"], case["expected"], args.wait_ms)
+            res = check_one(page, base_url, case["utm"], case["pool"], args.wait_ms)
+            res["name"] = case["name"]
             results.append(res)
             status = "OK" if res["ok"] else "MISMATCH"
-            label = res["utm"] or "(без UTM / default)"
-            print(f"[{status}] {label} -> ожидали {res['expected']}, нашли {res['found']}")
+            label = f"{case['name']} {res['utm'] or '(без UTM)'}"
+            print(f"[{status}] {label} -> пул {res['pool']}, нашли {res['found']}")
         browser.close()
 
     mismatches = [r for r in results if not r["ok"]]
@@ -125,11 +140,13 @@ def main():
     timestamp = datetime.now().strftime("%Y-%m-%d_%H%M")
     out_path = out_dir / f"phone_swap_check_{timestamp}.csv"
     with open(out_path, "w", encoding="utf-8") as f:
-        f.write("utm,expected,found,ok\n")
+        f.write("channel,utm,pool,found,matched,ok\n")
         for r in results:
             utm_str = ";".join(f"{k}={v}" for k, v in r["utm"].items()) or "default"
+            pool_str = "|".join(r["pool"])
             found_str = "|".join(r["found"])
-            f.write(f'"{utm_str}","{r["expected"]}","{found_str}",{r["ok"]}\n')
+            matched_str = "|".join(r["matched"])
+            f.write(f'"{r["name"]}","{utm_str}","{pool_str}","{found_str}","{matched_str}",{r["ok"]}\n')
 
     print(f"\nСохранено: {out_path}")
     if mismatches:
