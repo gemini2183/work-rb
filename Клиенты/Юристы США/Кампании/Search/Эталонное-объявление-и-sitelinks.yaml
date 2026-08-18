@@ -1,0 +1,109 @@
+# Эталонное RSA-объявление и sitelinks для генерации новых тематических групп
+# (см. Клиенты/Юристы США/Решения.md, запись 2026-08-18 про gads_ad_adapter.py).
+#
+# Источник: аккаунт Andverpersonalinjury (customer_id 213-621-6123), кампания
+# "search / car accident / ca - google search only", группа "Car Injury",
+# AdId 820024267355 (ENABLED — второе объявление той же группы, AdId
+# 812830723434, было на паузе на момент снятия эталона и не учтено).
+# Снято: 2026-08-18.
+#
+# Правило адаптации под новую тему (см. gads_ad_adapter.py):
+#   - headlines с role "themed" — текст заменяется по ad_phrase темы из
+#     Словарь-тем.yaml (плейсхолдер {ad_phrase} в тексте ниже).
+#   - headlines/descriptions с role "universal" — копируются без изменений
+#     в любую новую группу.
+#   - "themed" помечены осознанно после разбора с пользователем: то, что
+#     явно завязано на "car accident" в тексте эталона, помечено themed;
+#     общие блоки про гарантии/бесплатность/24-7 — universal.
+
+final_url: https://landverpersonalinjury.com/
+
+headlines:
+  - text: "Injured in a {ad_phrase}?"
+    pin: H1
+    role: themed
+  - text: "Top {ad_phrase_title} Attorney in CA"
+    pin: H1
+    role: themed
+  - text: "CA {ad_phrase_title} Lawyers"
+    pin: H1
+    role: themed
+  - text: "Top-Rated California Attorneys"
+    pin: H2
+    role: universal
+  - text: "Ex-Insurance Defense Lawyers"
+    pin: H2
+    role: universal
+  - text: "We Fight For Max Compensation"
+    pin: H2
+    role: universal
+  - text: "Millions Secured For Victims"
+    pin: H2
+    role: universal
+  - text: "We Know How Insurers Think"
+    pin: H2
+    role: universal
+  - text: "No Fee Unless We Win"
+    pin: H3
+    role: universal
+  - text: "We Cover All Case Costs"
+    pin: H3
+    role: universal
+  - text: "100% Free Consultation 24/7"
+    pin: H3
+    role: universal
+  - text: "Direct Access To Your Lawyer"
+    pin: H3
+    role: universal
+  - text: "Speak To An Attorney Now"
+    pin: H3
+    role: universal
+  - text: "{{KeyWord:{ad_phrase_title} Lawyer CA}}"
+    pin: H1
+    role: themed
+  - text: "Injured In {{LOCATION(City):California}}?"
+    pin: H1
+    role: universal  # динамическая вставка локации — не завязана на тему
+
+descriptions:
+  - text: "Injured in a CA {ad_phrase}? We cover all case costs. No fee unless we win. Call 24/7"
+    pin: D1
+    role: themed
+  - text: "Former insurance defense attorneys on your side. We know how they think & how to win."
+    pin: D2
+    role: universal
+  - text: "Securing millions for accident victims statewide. Get the max settlement you deserve."
+    pin: D2
+    role: universal
+  - text: "45 years injury law experience. $38.5M+ verdicts. 100% Free injury consultation."
+    pin: D2
+    role: universal
+
+# 6 активных sitelinks (были на уровне ad_group "Car Injury" в кампании-источнике,
+# ещё 6 старых — REMOVED, не перенесены). Решение: одинаковы для ЛЮБОЙ темы,
+# заливаются один раз на уровень КАМПАНИИ (не группы) — см. Решения.md.
+sitelinks:
+  - link_text: "No Fee Unless We Win"
+    final_url: "https://landverpersonalinjury.com#l1"
+    description1: "Pay absolutely nothing upfront."
+    description2: "We only get paid if you win."
+  - link_text: "Former Insurance Attys"
+    final_url: "https://landverpersonalinjury.com/#l2"
+    description1: "We know how insurers think."
+    description2: "Former defense lawyers on your side"
+  - link_text: "No Out-Of-Pocket Costs"
+    final_url: "https://landverpersonalinjury.com/#l3"
+    description1: "Zero costs to start your case."
+    description2: "We handle all legal expenses."
+  - link_text: "Free 24/7 Consultation"
+    final_url: "https://landverpersonalinjury.com/#l4"
+    description1: "Speak with an actual lawyer."
+    description2: "100% free & confidential review."
+  - link_text: "Uber, Lyft & Auto Crashes"
+    final_url: "https://landverpersonalinjury.com/#l5"
+    description1: "Handling CA rideshare accidents."
+    description2: "Rear-end & major auto collisions."
+  - link_text: "Available Statewide in CA"
+    final_url: "https://landverpersonalinjury.com/#l6"
+    description1: "Serving injury victims in CA."
+    description2: "Call us from anywhere in the state."
