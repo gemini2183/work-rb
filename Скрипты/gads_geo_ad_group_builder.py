@@ -53,7 +53,11 @@ def _pin_label(pinned_field: int) -> str:
 def fetch_keywords_by_group(ga_service, customer_id, campaign_name):
     """Активные ключевые слова кампании -> {ad_group_name: [(text, match_type), ...]}.
 
-    Только ENABLED (ad_group_criterion.status и campaign.status) — см. docstring модуля.
+    Только ENABLED ad_group_criterion. Запрос идёт через ad_group_criterion, не
+    keyword_view — keyword_view требует наличия статистики за период и молча
+    пропускает ключи без показов (проверено на аккаунте Andverpersonalinjury:
+    группы с 0 показов за последнее время давали 0 строк через keyword_view,
+    хотя ad_group_criterion.type='KEYWORD' их видит).
     """
     query = f"""
         SELECT
@@ -61,9 +65,9 @@ def fetch_keywords_by_group(ga_service, customer_id, campaign_name):
             ad_group_criterion.keyword.text,
             ad_group_criterion.keyword.match_type,
             ad_group_criterion.status
-        FROM keyword_view
+        FROM ad_group_criterion
         WHERE campaign.name = '{campaign_name}'
-            AND campaign.status = 'ENABLED'
+            AND ad_group_criterion.type = 'KEYWORD'
             AND ad_group_criterion.status = 'ENABLED'
     """
     by_group = {}
