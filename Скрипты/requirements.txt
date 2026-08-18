@@ -3,3 +3,4 @@ numpy
 gspread
 google-auth
 google-ads
+pyyaml
