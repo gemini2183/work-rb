@@ -47,24 +47,30 @@ def load_dictionary(client_folder):
 def generate_phrases(theme_data, geo_suffixes=None):
     """Строит broad-фразы для одной темы -> список строк.
 
-    "<тема-текст> <modifier> <suffix>" на каждую комбинацию modifiers x suffixes;
-    если modifiers пуст (тема без естественного модификатора, напр.
+    "<тема-текст> <modifier> <suffix>" на каждую комбинацию texts x modifiers x
+    suffixes; если modifiers пуст (тема без естественного модификатора, напр.
     wrongful_death) — фраза строится как "<тема-текст> <suffix>" напрямую.
+    "text" может быть одной строкой или списком синонимов базового слова темы
+    (напр. rideshare: text=[uber, lyft, rideshare] -> отдельные фразы на каждый
+    синоним, не один смешанный термин — см. Клиенты/Юристы США/Решения.md).
     Если geo_suffixes задан, каждая фраза дублируется с добавлением geo в конце
     (как отдельная дополнительная фраза, не замена).
     """
-    theme_text = theme_data["text"]
+    theme_texts = theme_data["text"]
+    if isinstance(theme_texts, str):
+        theme_texts = [theme_texts]
     modifiers = theme_data.get("modifiers") or [None]
     suffixes = theme_data.get("suffixes", [])
 
     phrases = []
-    for modifier in modifiers:
-        for suffix in suffixes:
-            parts = [theme_text]
-            if modifier:
-                parts.append(modifier)
-            parts.append(suffix)
-            phrases.append(" ".join(parts))
+    for theme_text in theme_texts:
+        for modifier in modifiers:
+            for suffix in suffixes:
+                parts = [theme_text]
+                if modifier:
+                    parts.append(modifier)
+                parts.append(suffix)
+                phrases.append(" ".join(parts))
 
     if geo_suffixes:
         with_geo = []

@@ -9,6 +9,9 @@
 # переопределить явным полем "text", если базовое слово короче/иное, чем ключ
 # (см. dog_bite: text "dog", а не "dog bite" — иначе с modifier "bite" вышло
 # бы задвоение "dog bite bite lawyer" / неестественное "dog bite attack lawyer").
+# "text" может быть и списком синонимов — тогда фразы строятся отдельно на
+# каждый (см. rideshare: text [uber, lyft, rideshare] -> "uber accident lawyer",
+# "lyft accident lawyer", "rideshare accident lawyer" — не один смешанный термин).
 # Читается Скрипты/gads_semantics_generator.py. Правится вручную в Obsidian —
 # добавление новой темы или модификатора здесь сразу доступно генератору.
 
@@ -39,6 +42,12 @@ bus:
 
 bicycle:
   label: Bicycle Injury
+  modifiers: [accident, crash, injury]
+  suffixes: [lawyer, attorney]
+
+rideshare:
+  label: Rideshare / Uber / Lyft Accidents
+  text: [uber, lyft, rideshare]  # три синонима бренда/категории отдельно, не один смешанный термин
   modifiers: [accident, crash, injury]
   suffixes: [lawyer, attorney]
 
