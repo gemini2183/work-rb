@@ -66,17 +66,49 @@ def _title_case(phrase):
 _SHORTEN_PATTERNS = [" in CA", " CA", "CA "]
 
 
+def _displayed_length(text):
+    """Длина текста, которую реально проверяет Google Ads — см. check_length_limits."""
+    import re
+    resolved = re.sub(r"\{KeyWord:([^}]+)\}", r"\1", text)
+    resolved = re.sub(r"\{LOCATION\([^)]*\):([^}]+)\}", r"\1", resolved)
+    return len(resolved)
+
+
+def _shorten_outside_braces(text, pattern):
+    """Заменяет pattern на пробел, но только ВНЕ {...} вставок — иначе портит
+
+    синтаксис {KeyWord:...}/{LOCATION(...):...} (напр. срезать 'CA' внутри
+    '{KeyWord:Bicycle Accident Lawyer CA}' нельзя — сломает вставку, лимит для
+    неё меряется отдельно через _displayed_length, а не изменением текста).
+    Возвращает None, если pattern не найден вне скобок (нечего коротить).
+    """
+    import re
+    parts = re.split(r"(\{[^}]*\})", text)  # чётные индексы — обычный текст, нечётные — {...}
+    changed = False
+    for i in range(0, len(parts), 2):
+        if pattern in parts[i]:
+            parts[i] = parts[i].replace(pattern, " ", 1)
+            changed = True
+            break
+    if not changed:
+        return None
+    result = "".join(parts)
+    return " ".join(result.split())  # схлопнуть двойные пробелы, кроме как внутри {...} — их там не бывает
+
+
 def adapt_line(text, ad_phrase, limit=None):
     """Подставляет {ad_phrase}/{ad_phrase_title} в текст headline/description; {{...}} -> {...} (экранирование YAML).
 
-    Если limit задан и итоговый текст его превышает (после подстановки —
-    длинные темы вроде "motorcycle accident"/"slip and fall accident" не
-    влезают там, где влезал короткий эталонный "car accident"), пробует
-    укоротить, срезая geo-хвост "in CA"/"CA" по очереди — это не тема-специфика,
-    а общий для всех тем "довесок", им можно пожертвовать первым (см.
-    Клиенты/Юристы США/Решения.md). Если после всех попыток всё ещё длиннее
-    limit — возвращает как есть (уйдёт в предупреждение check_length_limits,
-    останется на ручную правку).
+    Если limit задан и итоговый видимый текст (см. _displayed_length — вставки
+    {KeyWord:...}/{LOCATION(...):...} считаются по тексту после двоеточия, не
+    по всей обёртке) его превышает — длинные темы вроде "motorcycle accident"/
+    "slip and fall accident" не влезают там, где влезал короткий эталонный
+    "car accident" — пробует укоротить, срезая geo-хвост "in CA"/"CA" ВНЕ
+    фигурных скобок вставок (см. _shorten_outside_braces). Это не
+    тема-специфика, а общий для всех тем "довесок", им можно пожертвовать
+    первым (см. Клиенты/Юристы США/Решения.md). Если после всех попыток всё
+    ещё длиннее limit — возвращает как есть (уйдёт в предупреждение
+    check_length_limits, останется на ручную правку).
     """
     ad_phrase_title = _title_case(ad_phrase)
     result = (
@@ -86,19 +118,19 @@ def adapt_line(text, ad_phrase, limit=None):
         .replace("{{", "{")
         .replace("}}", "}")
     )
-    if limit is None or len(result) <= limit:
+    if limit is None or _displayed_length(result) <= limit:
         return result
 
     for pattern in _SHORTEN_PATTERNS:
-        if pattern in result:
-            shortened = result.replace(pattern, " ", 1)
-            shortened = " ".join(shortened.split())  # схлопнуть двойные пробелы
-            # восстановить знак препинания в конце, если replace его не задел
-            if result.rstrip().endswith(("?", ".")) and not shortened.rstrip().endswith(("?", ".")):
-                shortened = shortened.rstrip() + result.rstrip()[-1]
-            if len(shortened) <= limit:
-                return shortened
-            result = shortened  # укоротили, но всё ещё длинно — пробуем следующий паттерн
+        shortened = _shorten_outside_braces(result, pattern)
+        if shortened is None:
+            continue
+        # восстановить знак препинания в конце, если он был потерян
+        if result.rstrip().endswith(("?", ".")) and not shortened.rstrip().endswith(("?", ".")):
+            shortened = shortened.rstrip() + result.rstrip()[-1]
+        result = shortened
+        if _displayed_length(result) <= limit:
+            return result
     return result
 
 
