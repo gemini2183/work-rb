@@ -68,7 +68,7 @@ bicycle:
   ad_phrase: bicycle accident
 
 rideshare:
-  label: Rideshare / Uber / Lyft Accidents
+  label: Rideshare Injury  # имя группы объявлений — короткое, без слэшей, как у остальных тем
   text: [uber, lyft, rideshare]  # три синонима бренда/категории отдельно, не один смешанный термин
   modifiers: [accident, crash, injury]
   suffixes: [lawyer, lawyers, attorney, attorneys, law firm, law firms]

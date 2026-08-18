@@ -169,9 +169,12 @@ def main():
     n_sitelinks = sum(1 for r in rows if r["Row Type"] == "Sitelink")
     print(f"\nСохранено: {out_path}")
     print(f"  {n_groups} групп, {n_keywords} ключей, {n_ads} объявлений, {n_sitelinks} sitelinks")
+    if not args.no_campaign_row:
+        print(f"  + строка Campaign (бюджет {args.budget}/день, статус Paused — исправить перед запуском)")
+        print("ВАЖНО: перед импортом проверить/поправить бюджет и вручную настроить гео-таргетинг "
+              "и стратегию назначения ставок в Editor — CSV их не задаёт.")
     print("Импорт: Google Ads Editor -> Account -> Import -> From File, выбрать 'Use Campaign/Ad group "
-          "columns' при маппинге. Кампанию 'search / all injuries / broad' нужно создать заранее в Editor "
-          "(этот CSV не создаёт саму кампанию/бюджет/таргетинг — только группы/ключи/объявления/sitelinks внутри неё).")
+          "columns' при маппинге, проверить diff перед Post.")
 
 
 if __name__ == "__main__":
