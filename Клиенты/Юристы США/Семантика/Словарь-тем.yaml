@@ -1,0 +1,64 @@
+# Словарь тем и синонимов для генерации базовой (broad) семантики.
+# Формат на тему:
+#   modifiers: существительные/фразы происшествия, специфичные для темы
+#     (не универсальны — "accident"/"crash" звучат естественно для транспортных
+#     тем, но не для slip and fall/dog bite, см. Клиенты/Юристы США/Решения.md).
+#   suffixes: юридический термин — общий для всех тем (lawyer/attorney).
+# Ключ строится как "<тема> <modifier> <suffix>" -> broad match.
+# Читается Скрипты/gads_semantics_generator.py. Правится вручную в Obsidian —
+# добавление новой темы или модификатора здесь сразу доступно генератору.
+
+car:
+  label: Car Injury
+  modifiers: [accident, crash, injury]
+  suffixes: [lawyer, attorney]
+
+motorcycle:
+  label: Motorcycle Injury
+  modifiers: [accident, crash, injury]
+  suffixes: [lawyer, attorney]
+
+truck:
+  label: Truck Injury
+  modifiers: [accident, crash, injury]
+  suffixes: [lawyer, attorney]
+
+18_wheeler:
+  label: 18 wheeler Injury
+  modifiers: [accident, crash, injury]
+  suffixes: [lawyer, attorney]
+
+bus:
+  label: Bus Injury
+  modifiers: [accident, crash, injury]
+  suffixes: [lawyer, attorney]
+
+bicycle:
+  label: Bicycle Injury
+  modifiers: [accident, crash, injury]
+  suffixes: [lawyer, attorney]
+
+pedestrian:
+  label: Pedestrian Injury
+  modifiers: [accident, injury]
+  suffixes: [lawyer, attorney]
+
+slip_and_fall:
+  label: Slip and Fall Injury
+  modifiers: [accident, injury]
+  suffixes: [lawyer, attorney]
+
+dog_bite:
+  label: Dog Bite Injury
+  modifiers: [injury, attack]
+  suffixes: [lawyer, attorney]
+
+catastrophic:
+  label: Catastrophic Injury
+  modifiers: [injury]
+  suffixes: [lawyer, attorney]
+
+wrongful_death:
+  label: Wrongful Death
+  modifiers: []  # тема сама по себе — модификатор не нужен ("wrongful death accident" не говорят)
+  suffixes: [lawyer, attorney]
