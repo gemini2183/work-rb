@@ -143,6 +143,10 @@ def build_rows(campaign_name, keywords_by_group, ads_by_group, geo_suffixes, gro
 
         for text, match_type in keywords:
             for geo in geo_suffixes:
+                if _contains_geo(text, geo):
+                    # ключ уже содержит этот geo-вариант (напр. "...Los Angeles lawyer")
+                    # — не дублировать его же суффиксом ещё раз.
+                    continue
                 new_text = f"{text} {geo}"
                 rows.append({
                     "Row Type": "Keyword",
@@ -160,7 +164,9 @@ def build_rows(campaign_name, keywords_by_group, ads_by_group, geo_suffixes, gro
                 "Final URL": ad["FinalUrls"][0] if ad["FinalUrls"] else "",
             }
             for i, (text, pin) in enumerate(ad["Headlines"], 1):
-                row[f"Headline {i}"] = _geo_replace(text, ad_geo_text)
+                new_text = _geo_replace(text, ad_geo_text)
+                new_text = _shrink_keyword_insertion(new_text, limit=30)
+                row[f"Headline {i}"] = new_text
                 if pin:
                     row[f"Headline {i} position"] = pin.replace("H", "")
             for i, (text, pin) in enumerate(ad["Descriptions"], 1):
@@ -184,6 +190,40 @@ def _geo_replace(text, geo_text):
     return _GEO_PATTERN.sub(geo_text, text)
 
 
+def _contains_geo(keyword_text, geo):
+    """True, если keyword_text уже содержит geo как отдельное слово/фразу (регистронезависимо).
+
+    Нужно, чтобы не дублировать geo-суффикс на ключах, где он уже есть
+    (напр. исходный ключ "trip and fall attorney LA" не должен получить ещё
+    один суффикс "LA" поверх, см. Клиенты/Юристы США/Решения.md).
+    """
+    import re
+    pattern = r"\b" + re.escape(geo) + r"\b"
+    return re.search(pattern, keyword_text, re.IGNORECASE) is not None
+
+
+def _shrink_keyword_insertion(text, limit=30):
+    """Укорачивает дефолтный текст динамической вставки {KeyWord:...} до limit символов.
+
+    Google Ads показывает текст после двоеточия, только если он умещается в
+    заголовок (30 симв.) — иначе объявление с таким дефолтом Editor отклоняет
+    при импорте. Обрезка идёт по границе слов с конца, без многоточия (сам
+    формат {KeyWord:...} не поддерживает произвольные символы после текста).
+    Если фигурных скобок в строке нет — строка возвращается как есть.
+    """
+    import re
+    m = re.match(r"^\{KeyWord:(.+)\}$", text)
+    if not m:
+        return text
+    inner = m.group(1)
+    if len(inner) <= limit:
+        return text
+    words = inner.split(" ")
+    while words and len(" ".join(words)) > limit:
+        words.pop()
+    return "{KeyWord:" + " ".join(words) + "}"
+
+
 def write_csv(rows, out_path):
     fieldnames = ["Row Type", "Campaign", "Ad group", "Keyword", "Match Type", "Final URL"]
     fieldnames += [f"Headline {i}" for i in range(1, 16)]
@@ -198,12 +238,24 @@ def write_csv(rows, out_path):
             writer.writerow(row)
 
 
+def _displayed_length(text):
+    """Длина текста, которую реально проверяет Google Ads на лимит.
+
+    Для {KeyWord:...} лимит применяется к тексту ПОСЛЕ двоеточия (то, что
+    реально показывается как дефолт/подстановка), не к синтаксической обёртке
+    целиком — иначе '{KeyWord:...}' даёт ложное превышение на 11 символов
+    скобок и ключевого слова "KeyWord:", которых пользователь не увидит.
+    """
+    import re
+    m = re.match(r"^\{KeyWord:(.+)\}$", text)
+    return len(m.group(1)) if m else len(text)
+
+
 def check_length_limits(rows):
     """Печатает предупреждения по строкам объявлений, превышающим лимиты Google Ads
 
     (30 символов на Headline, 90 на Description) — включая случаи, унаследованные
-    из исходного объявления (напр. {KeyWord:...} длиннее 30 уже в исходнике), не
-    только те, что возникли из-за geo-замены.
+    из исходного объявления, не только те, что возникли из-за geo-замены.
     """
     warnings = []
     for row in rows:
@@ -211,12 +263,14 @@ def check_length_limits(rows):
             continue
         for i in range(1, 16):
             text = row.get(f"Headline {i}")
-            if text and len(text) > 30:
-                warnings.append(f"  [{row['Ad group']}] Headline {i} ({len(text)} симв.): {text}")
+            n = _displayed_length(text) if text else 0
+            if text and n > 30:
+                warnings.append(f"  [{row['Ad group']}] Headline {i} ({n} симв.): {text}")
         for i in range(1, 5):
             text = row.get(f"Description {i}")
-            if text and len(text) > 90:
-                warnings.append(f"  [{row['Ad group']}] Description {i} ({len(text)} симв.): {text}")
+            n = _displayed_length(text) if text else 0
+            if text and n > 90:
+                warnings.append(f"  [{row['Ad group']}] Description {i} ({n} симв.): {text}")
     if warnings:
         print(f"\nВНИМАНИЕ: {len(warnings)} строк объявлений превышают лимит символов Google Ads "
               "(Editor их не примет без ручной правки):")
