@@ -63,16 +63,43 @@ def _title_case(phrase):
     return " ".join(w.capitalize() for w in phrase.split(" "))
 
 
-def adapt_line(text, ad_phrase):
-    """Подставляет {ad_phrase}/{ad_phrase_title} в текст headline/description; {{...}} -> {...} (экранирование YAML)."""
+_SHORTEN_PATTERNS = [" in CA", " CA", "CA "]
+
+
+def adapt_line(text, ad_phrase, limit=None):
+    """Подставляет {ad_phrase}/{ad_phrase_title} в текст headline/description; {{...}} -> {...} (экранирование YAML).
+
+    Если limit задан и итоговый текст его превышает (после подстановки —
+    длинные темы вроде "motorcycle accident"/"slip and fall accident" не
+    влезают там, где влезал короткий эталонный "car accident"), пробует
+    укоротить, срезая geo-хвост "in CA"/"CA" по очереди — это не тема-специфика,
+    а общий для всех тем "довесок", им можно пожертвовать первым (см.
+    Клиенты/Юристы США/Решения.md). Если после всех попыток всё ещё длиннее
+    limit — возвращает как есть (уйдёт в предупреждение check_length_limits,
+    останется на ручную правку).
+    """
     ad_phrase_title = _title_case(ad_phrase)
-    return (
+    result = (
         text
         .replace("{ad_phrase_title}", ad_phrase_title)
         .replace("{ad_phrase}", ad_phrase)
         .replace("{{", "{")
         .replace("}}", "}")
     )
+    if limit is None or len(result) <= limit:
+        return result
+
+    for pattern in _SHORTEN_PATTERNS:
+        if pattern in result:
+            shortened = result.replace(pattern, " ", 1)
+            shortened = " ".join(shortened.split())  # схлопнуть двойные пробелы
+            # восстановить знак препинания в конце, если replace его не задел
+            if result.rstrip().endswith(("?", ".")) and not shortened.rstrip().endswith(("?", ".")):
+                shortened = shortened.rstrip() + result.rstrip()[-1]
+            if len(shortened) <= limit:
+                return shortened
+            result = shortened  # укоротили, но всё ещё длинно — пробуем следующий паттерн
+    return result
 
 
 def build_ad_row(campaign_name, group_name, reference_ad, ad_phrase):
@@ -84,11 +111,11 @@ def build_ad_row(campaign_name, group_name, reference_ad, ad_phrase):
         "Final URL": reference_ad.get("final_url", ""),
     }
     for i, h in enumerate(reference_ad.get("headlines", []), 1):
-        row[f"Headline {i}"] = adapt_line(h["text"], ad_phrase)
+        row[f"Headline {i}"] = adapt_line(h["text"], ad_phrase, limit=30)
         if h.get("pin"):
             row[f"Headline {i} position"] = h["pin"].replace("H", "")
     for i, d in enumerate(reference_ad.get("descriptions", []), 1):
-        row[f"Description {i}"] = adapt_line(d["text"], ad_phrase)
+        row[f"Description {i}"] = adapt_line(d["text"], ad_phrase, limit=90)
         if d.get("pin"):
             row[f"Description {i} position"] = d["pin"].replace("D", "")
     return row
