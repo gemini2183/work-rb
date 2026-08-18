@@ -6,6 +6,13 @@
 #   suffixes: юридический термин — общий для всех тем (lawyer/lawyers/
 #     attorney/attorneys/law firm/law firms — ед. и мн. число вместе, см.
 #     Клиенты/Юристы США/Решения.md, найдено в ключах, заведённых вручную).
+#   ad_phrase: естественная фраза темы для ПОДСТАНОВКИ В ТЕКСТ ОБЪЯВЛЕНИЯ
+#     (не для генерации ключей!) — напр. "Injured in a {ad_phrase}?". Не всегда
+#     совпадает с "text": car -> ad_phrase "car accident" (а не голое "car"),
+#     dog_bite -> ad_phrase "dog bite" (а не "dog", это text для ключей),
+#     rideshare -> одна фраза "rideshare accident", не по каждому бренду
+#     отдельно — объявление не дублируется на uber/lyft/rideshare, только ключи.
+#     Читается Скрипты/gads_ad_adapter.py.
 # Ключ строится как "<текст темы> <modifier> <suffix>" -> broad match.
 # По умолчанию <текст темы> берётся из ключа темы (car -> "car"), но можно
 # переопределить явным полем "text", если базовое слово короче/иное, чем ключ
@@ -21,66 +28,79 @@ car:
   label: Car Injury
   modifiers: [accident, crash, injury]
   suffixes: [lawyer, lawyers, attorney, attorneys, law firm, law firms]
+  ad_phrase: car accident
 
 auto:
   label: Auto Injury
   text: [auto, automobile, vehicle]  # отдельная тема от "car", не смешивается — см. Клиенты/Юристы США/Решения.md
   modifiers: [accident, crash, injury]
   suffixes: [lawyer, lawyers, attorney, attorneys, law firm, law firms]
+  ad_phrase: auto accident
 
 motorcycle:
   label: Motorcycle Injury
   modifiers: [accident, crash, injury]
   suffixes: [lawyer, lawyers, attorney, attorneys, law firm, law firms]
+  ad_phrase: motorcycle accident
 
 truck:
   label: Truck Injury
   modifiers: [accident, crash, injury]
   suffixes: [lawyer, lawyers, attorney, attorneys, law firm, law firms]
+  ad_phrase: truck accident
 
 18_wheeler:
   label: 18 wheeler Injury
   modifiers: [accident, crash, injury]
   suffixes: [lawyer, lawyers, attorney, attorneys, law firm, law firms]
+  ad_phrase: 18-wheeler accident
 
 bus:
   label: Bus Injury
   modifiers: [accident, crash, injury]
   suffixes: [lawyer, lawyers, attorney, attorneys, law firm, law firms]
+  ad_phrase: bus accident
 
 bicycle:
   label: Bicycle Injury
   modifiers: [accident, crash, injury]
   suffixes: [lawyer, lawyers, attorney, attorneys, law firm, law firms]
+  ad_phrase: bicycle accident
 
 rideshare:
   label: Rideshare / Uber / Lyft Accidents
   text: [uber, lyft, rideshare]  # три синонима бренда/категории отдельно, не один смешанный термин
   modifiers: [accident, crash, injury]
   suffixes: [lawyer, lawyers, attorney, attorneys, law firm, law firms]
+  ad_phrase: rideshare accident  # объявление не дублируется по бренду — одна фраза, не uber/lyft отдельно
 
 pedestrian:
   label: Pedestrian Injury
   modifiers: [accident, injury]
   suffixes: [lawyer, lawyers, attorney, attorneys, law firm, law firms]
+  ad_phrase: pedestrian accident
 
 slip_and_fall:
   label: Slip and Fall Injury
   modifiers: [accident, injury]
   suffixes: [lawyer, lawyers, attorney, attorneys, law firm, law firms]
+  ad_phrase: slip and fall accident
 
 dog_bite:
   label: Dog Bite Injury
   text: dog
   modifiers: [bite, attack, injury]
   suffixes: [lawyer, lawyers, attorney, attorneys, law firm, law firms]
+  ad_phrase: dog bite
 
 catastrophic:
   label: Catastrophic Injury
   modifiers: [injury]
   suffixes: [lawyer, lawyers, attorney, attorneys, law firm, law firms]
+  ad_phrase: catastrophic injury
 
 wrongful_death:
   label: Wrongful Death
   modifiers: []  # тема сама по себе — модификатор не нужен ("wrongful death accident" не говорят)
   suffixes: [lawyer, lawyers, attorney, attorneys, law firm, law firms]
+  ad_phrase: wrongful death case
