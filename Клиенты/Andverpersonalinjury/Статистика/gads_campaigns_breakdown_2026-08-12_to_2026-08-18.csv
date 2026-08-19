@@ -1,0 +1,10 @@
+Campaign,Channel_type,Network,Impressions,Clicks,Cost,Conversions,CPC,Cost_per_conversion
+search / all injuries,SEARCH,SEARCH_PARTNERS,211,29,57.82,0.0,1.99,
+search / all injuries / geo - la specific,SEARCH,SEARCH_PARTNERS,293,60,78.83,0.0,1.31,
+search / all injuries / geo - la specific,SEARCH,SEARCH,4,0,0.0,0.0,,
+search / all injuries / kw -  la specific,SEARCH,SEARCH,10,0,0.0,0.0,,
+search / all injuries / s / lp - tilda,SEARCH,SEARCH,363,9,138.2,0.0,15.36,
+search / all injuries / s& n / lp - tilda,SEARCH,SEARCH_PARTNERS,307,98,206.14,0.0,2.1,
+search / all injuries / s& n / lp - tilda,SEARCH,SEARCH,5,0,0.0,0.0,,
+search / car accident / ca - google search + network,SEARCH,SEARCH_PARTNERS,453,93,161.92,0.0,1.74,
+search / car accident / ca - google search only,SEARCH,SEARCH,141,0,0.0,0.0,,
