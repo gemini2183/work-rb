@@ -318,7 +318,7 @@ CSV включает строку `Campaign` (Search, статус Paused, бю�
 ## Аудит сетей показа (Search vs Search Partners)
 
 ```
-python gads_search_partners_audit.py --customer-id 213-621-6123 --client-folder "Юристы США" --days 30
+python gads_search_partners_audit.py --customer-id 213-621-6123 --client-folder "Andverpersonalinjury" --days 30
 python gads_search_partners_audit.py --client "Клиент - Google Ads" --client-folder "Клиент" --days 30
 ```
 
@@ -339,10 +339,51 @@ conversions в том же SELECT для этого ресурса (см. docstr
 Google_Ads_API (напр. Andverpersonalinjury, customer_id `213-621-6123`, см.
 `Клиенты/Andverpersonalinjury/_project.md`), альтернатива `--client`.
 
+## Полный аудит кампании — список, метрики, настройки, структура, IS
+
+Пять скриптов, каждый под свой шаг аудита (см. полный алгоритм и порядок в
+`База_знаний/Паттерны/Google-Ads-аудит-кампании-алгоритм-и-ошибки-смешения-данных.md`
+— готовые команды для копирования там же). Кратко:
+
+```
+# Список кампаний (статус/тип/бюджет/стратегия ставок) — --all для PAUSED/REMOVED тоже
+python gads_campaigns_list.py --customer-id 213-621-6123 --client-folder "Andverpersonalinjury" --all
+
+# Метрики campaign x channel_type x network (Performance Max НИКОГДА не смешивать с Search
+# в одну сумму — оба могут вернуть Network=SEARCH, это разные сущности, см. паттерн выше)
+python gads_campaigns_breakdown.py --customer-id 213-621-6123 --client-folder "Andverpersonalinjury" --days 30
+python gads_campaigns_breakdown.py --customer-id 213-621-6123 --client-folder "Andverpersonalinjury" \
+    --days 14 --by-day --campaigns "Кампания 1,Кампания 2"
+python gads_campaigns_breakdown.py --customer-id 213-621-6123 --client-folder "Andverpersonalinjury" \
+    --days 30 --search-terms --campaigns "Кампания 1,Кампания 2"
+
+# Настройки кампании: network_settings, гео-таргетинг (расшифровка geo_target_constant), расписание, ставки
+python gads_campaign_settings.py --customer-id 213-621-6123 --client-folder "Andverpersonalinjury" \
+    --campaigns "Кампания 1,Кампания 2"
+
+# Структура: группы объявлений, ключевые слова (все статусы), тексты RSA
+python gads_campaign_inventory.py --customer-id 213-621-6123 --client-folder "Andverpersonalinjury" \
+    --campaigns "Кампания 1,Кампания 2"
+
+# Impression Share и Lost IS (Budget vs Rank) — почему кампания мало откручивается
+python gads_impression_share.py --customer-id 213-621-6123 --client-folder "Andverpersonalinjury" --days 7
+```
+
+`gads_campaigns_breakdown.py` — три режима через флаги (`--by-day`,
+`--search-terms`, без флагов = campaign x channel_type x network), не три
+отдельных скрипта — общая инфраструктура (customer_id/client resolution,
+enum-декодер) переиспользуется. `gads_campaign_settings.py` расшифровывает
+`geoTargetConstants/<id>` в читаемое название через отдельный batched-запрос к
+ресурсу `geo_target_constant` (до 500 ID за раз, лимит GAQL на `IN`) — сырые ID
+без этого шага бесполезны для анализа. `gads_impression_share.py` даёт
+конкретный ответ "бюджет или ставка/Quality Score виноваты в нехватке показов"
+— `Lost_IS_budget` близко к 0 означает, что поднимать дневной бюджет
+бессмысленно, даже если реальный расход намного ниже лимита.
+
 ## Проверка подмены номера коллтрекинга
 
 ```
-python phone_swap_check.py --client-folder "Юристы США"
+python phone_swap_check.py --client-folder "Andverpersonalinjury"
 ```
 
 Проверяет, что сайт клиента правильно подставляет номер коллтрекинга для
