@@ -240,6 +240,8 @@
   },
   "active": "aad7ea81908996b1",
   "lastOpenFiles": [
+    "Клиенты/Andverpersonalinjury/Статистика/gads_campaigns_list.csv",
+    "Скрипты/gads_campaigns_list.py",
     "Клиенты/Andverpersonalinjury/Статистика/gads_campaigns_breakdown_2026-06-01_to_2026-08-19.csv",
     "Скрипты/gads_campaigns_breakdown.py",
     "Бэклог_идей.md.tmp.44772.070780ef5858",
@@ -250,8 +252,6 @@
     "Клиенты/Юристы США/Статистика/gads_campaign_search - all injuries - broad.csv",
     "Скрипты/__pycache__/gads_semantics_generator.cpython-313.pyc",
     "Скрипты/__pycache__/gads_ad_adapter.cpython-313.pyc",
-    "Скрипты/gads_campaign_builder.py",
-    "База_знаний/Инструменты/Ringostat-механизм-подмены-номера.md.tmp.13620.4945b6ee5247",
     "База_знаний/Инструменты/Ringostat-механизм-подмены-номера.md",
     "База_знаний/Инструменты/Yelp-платформа-обзор.md",
     "Клиенты/LuxeBrokers/Yelp-что можно-нельзя-отчётность.md",

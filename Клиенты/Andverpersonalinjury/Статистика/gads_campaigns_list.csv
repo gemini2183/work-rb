@@ -1,0 +1,16 @@
+Campaign,Status,Channel_type,Bidding_strategy,Daily_budget
+search / all injuries / geo - la specific,ENABLED,SEARCH,TARGET_SPEND,120.0
+search / all injuries / kw -  la specific,ENABLED,SEARCH,TARGET_SPEND,120.0
+dspl / ca,PAUSED,DISPLAY,TARGET_SPEND,15.0
+LocalServicesCampaign:SystemGenerated:000658c5f642aebe,PAUSED,LOCAL_SERVICES,MAXIMIZE_CONVERSIONS,264.88
+pmax / ca,PAUSED,PERFORMANCE_MAX,MAXIMIZE_CONVERSIONS,87.0
+Campaign #1,PAUSED,SEARCH,MAXIMIZE_CONVERSIONS,35.0
+search / all injuries,PAUSED,SEARCH,TARGET_SPEND,30.0
+search / all injuries / bh,PAUSED,SEARCH,TARGET_SPEND,35.0
+search / all injuries / s / lp - tilda,PAUSED,SEARCH,TARGET_SPEND,100.0
+search / all injuries / s& n / lp - tilda,PAUSED,SEARCH,MANUAL_CPC,100.0
+search / all injuries / spanish,PAUSED,SEARCH,TARGET_SPEND,35.0
+search / car accident / ca - google search + network,PAUSED,SEARCH,TARGET_SPEND,100.0
+search / car accident / ca - google search + network / spanish,PAUSED,SEARCH,TARGET_SPEND,35.0
+search / car accident / ca - google search only,PAUSED,SEARCH,TARGET_SPEND,100.0
+search / car accident / ca - google search only  / spanish,PAUSED,SEARCH,TARGET_SPEND,150.0
