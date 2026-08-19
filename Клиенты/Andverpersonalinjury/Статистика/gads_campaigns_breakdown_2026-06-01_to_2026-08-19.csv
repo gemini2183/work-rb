@@ -1,0 +1,25 @@
+Campaign,Channel_type,Network,Impressions,Clicks,Cost,Conversions,CPC,Cost_per_conversion
+dspl / ca,DISPLAY,CONTENT,18915,431,29.94,0.0,0.07,
+pmax / ca,PERFORMANCE_MAX,SEARCH,6213,203,1210.21,40.0,5.96,30.26
+pmax / ca,PERFORMANCE_MAX,SEARCH_PARTNERS,822,120,337.85,10.0,2.82,33.78
+pmax / ca,PERFORMANCE_MAX,CONTENT,2362,76,42.47,0.0,0.56,
+pmax / ca,PERFORMANCE_MAX,YOUTUBE,5853,104,20.66,0.0,0.2,
+pmax / ca,PERFORMANCE_MAX,MAPS,1245,24,12.7,1.0,0.53,12.7
+pmax / ca,PERFORMANCE_MAX,DISCOVER,151,5,11.99,0.0,2.4,
+search / all injuries,SEARCH,SEARCH_PARTNERS,2857,466,590.1,1.0,1.27,590.1
+search / all injuries,SEARCH,SEARCH,1647,70,87.73,0.0,1.25,
+search / all injuries / bh,SEARCH,SEARCH_PARTNERS,74,14,22.59,0.0,1.61,
+search / all injuries / bh,SEARCH,SEARCH,28,1,4.8,0.0,4.8,
+search / all injuries / geo - la specific,SEARCH,SEARCH_PARTNERS,371,79,102.95,0.0,1.3,
+search / all injuries / geo - la specific,SEARCH,SEARCH,5,0,0.0,0.0,,
+search / all injuries / kw -  la specific,SEARCH,SEARCH_PARTNERS,159,13,10.27,0.0,0.79,
+search / all injuries / kw -  la specific,SEARCH,SEARCH,144,4,8.07,0.0,2.02,
+search / all injuries / s / lp - tilda,SEARCH,SEARCH,363,9,138.2,0.0,15.36,
+search / all injuries / s& n / lp - tilda,SEARCH,SEARCH_PARTNERS,307,98,206.14,0.0,2.1,
+search / all injuries / s& n / lp - tilda,SEARCH,SEARCH,5,0,0.0,0.0,,
+search / car accident / ca - google search + network,SEARCH,SEARCH_PARTNERS,5814,1357,1493.58,8.0,1.1,186.7
+search / car accident / ca - google search + network,SEARCH,SEARCH,15,0,0.0,0.0,,
+search / car accident / ca - google search + network / spanish,SEARCH,SEARCH,6,1,1.94,0.0,1.94,
+search / car accident / ca - google search + network / spanish,SEARCH,SEARCH_PARTNERS,17,1,0.21,0.0,0.21,
+search / car accident / ca - google search only,SEARCH,SEARCH,2482,41,438.05,1.0,10.68,438.05
+search / car accident / ca - google search only  / spanish,SEARCH,SEARCH,26,0,0.0,0.0,,
