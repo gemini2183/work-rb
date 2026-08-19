@@ -1,0 +1,239 @@
+Campaign,Type,Negative,Geo_target_constant,Proximity_radius,Proximity_radius_units,Geo_name,Geo_target_type
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21132,,,"Alaska,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21133,,,"Alabama,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21135,,,"Arkansas,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21136,,,"Arizona,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21138,,,"Colorado,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21139,,,"Connecticut,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21141,,,"Delaware,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21142,,,"Florida,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21143,,,"Georgia,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21144,,,"Hawaii,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21145,,,"Iowa,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21146,,,"Idaho,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21147,,,"Illinois,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21148,,,"Indiana,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21149,,,"Kansas,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21150,,,"Kentucky,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21151,,,"Louisiana,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21152,,,"Massachusetts,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21153,,,"Maryland,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21154,,,"Maine,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21155,,,"Michigan,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21156,,,"Minnesota,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21157,,,"Missouri,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21158,,,"Mississippi,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21159,,,"Montana,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21160,,,"North Carolina,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21161,,,"North Dakota,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21162,,,"Nebraska,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21163,,,"New Hampshire,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21164,,,"New Jersey,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21165,,,"New Mexico,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21166,,,"Nevada,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21167,,,"New York,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21168,,,"Ohio,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21169,,,"Oklahoma,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21170,,,"Oregon,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21171,,,"Pennsylvania,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21172,,,"Rhode Island,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21173,,,"South Carolina,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21174,,,"South Dakota,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21175,,,"Tennessee,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21176,,,"Texas,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21177,,,"Utah,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21178,,,"Virginia,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21179,,,"Vermont,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21180,,,"Washington,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21182,,,"Wisconsin,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21183,,,"West Virginia,United States",State
+search / all injuries / kw -  la specific,LOCATION,True,geoTargetConstants/21184,,,"Wyoming,United States",State
+search / all injuries / kw -  la specific,LOCATION,False,geoTargetConstants/1013587,,,"Beverly Hills,California,United States",City
+search / all injuries / kw -  la specific,LOCATION,False,geoTargetConstants/1013651,,,"Carlsbad,California,United States",City
+search / all injuries / kw -  la specific,LOCATION,False,geoTargetConstants/1013677,,,"Chula Vista,California,United States",City
+search / all injuries / kw -  la specific,LOCATION,False,geoTargetConstants/1013705,,,"Costa Mesa,California,United States",City
+search / all injuries / kw -  la specific,LOCATION,False,geoTargetConstants/1013714,,,"Culver City,California,United States",City
+search / all injuries / kw -  la specific,LOCATION,False,geoTargetConstants/1013737,,,"Downey,California,United States",City
+search / all injuries / kw -  la specific,LOCATION,False,geoTargetConstants/1013771,,,"Escondido,California,United States",City
+search / all injuries / kw -  la specific,LOCATION,False,geoTargetConstants/1013808,,,"Fullerton,California,United States",City
+search / all injuries / kw -  la specific,LOCATION,False,geoTargetConstants/1013819,,,"Glendale,California,United States",City
+search / all injuries / kw -  la specific,LOCATION,False,geoTargetConstants/1013869,,,"Huntington Beach,California,United States",City
+search / all injuries / kw -  la specific,LOCATION,False,geoTargetConstants/1013880,,,"Inglewood,California,United States",City
+search / all injuries / kw -  la specific,LOCATION,False,geoTargetConstants/1013958,,,"Long Beach,California,United States",City
+search / all injuries / kw -  la specific,LOCATION,False,geoTargetConstants/1013962,,,"Los Angeles,California,United States",City
+search / all injuries / kw -  la specific,LOCATION,False,geoTargetConstants/1014058,,,"Newport Beach,California,United States",City
+search / all injuries / kw -  la specific,LOCATION,False,geoTargetConstants/1014091,,,"Orange County,California,United States",County
+search / all injuries / kw -  la specific,LOCATION,False,geoTargetConstants/1014118,,,"Pasadena,California,United States",City
+search / all injuries / kw -  la specific,LOCATION,False,geoTargetConstants/1014197,,,"Riverside,California,United States",City
+search / all injuries / kw -  la specific,LOCATION,False,geoTargetConstants/1014218,,,"San Diego,California,United States",City
+search / all injuries / kw -  la specific,LOCATION,False,geoTargetConstants/1014255,,,"Santa Monica,California,United States",City
+search / all injuries / kw -  la specific,LOCATION,False,geoTargetConstants/1014327,,,"Temecula,California,United States",City
+search / all injuries / kw -  la specific,LOCATION,False,geoTargetConstants/1014339,,,"Torrance,California,United States",City
+search / all injuries / kw -  la specific,LOCATION,False,geoTargetConstants/1014794,,,"Norwalk,Connecticut,United States",City
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21132,,,"Alaska,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21133,,,"Alabama,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21135,,,"Arkansas,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21136,,,"Arizona,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21138,,,"Colorado,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21139,,,"Connecticut,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21141,,,"Delaware,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21142,,,"Florida,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21143,,,"Georgia,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21144,,,"Hawaii,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21145,,,"Iowa,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21146,,,"Idaho,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21147,,,"Illinois,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21148,,,"Indiana,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21149,,,"Kansas,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21150,,,"Kentucky,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21151,,,"Louisiana,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21152,,,"Massachusetts,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21153,,,"Maryland,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21154,,,"Maine,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21155,,,"Michigan,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21156,,,"Minnesota,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21157,,,"Missouri,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21158,,,"Mississippi,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21159,,,"Montana,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21160,,,"North Carolina,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21161,,,"North Dakota,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21162,,,"Nebraska,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21163,,,"New Hampshire,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21164,,,"New Jersey,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21165,,,"New Mexico,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21166,,,"Nevada,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21167,,,"New York,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21168,,,"Ohio,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21169,,,"Oklahoma,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21170,,,"Oregon,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21171,,,"Pennsylvania,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21172,,,"Rhode Island,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21173,,,"South Carolina,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21174,,,"South Dakota,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21175,,,"Tennessee,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21176,,,"Texas,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21177,,,"Utah,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21178,,,"Virginia,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21179,,,"Vermont,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21180,,,"Washington,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21182,,,"Wisconsin,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21183,,,"West Virginia,United States",State
+search / all injuries / geo - la specific,LOCATION,True,geoTargetConstants/21184,,,"Wyoming,United States",State
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030927,,,"90001,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030928,,,"90002,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030929,,,"90003,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030930,,,"90004,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030931,,,"90005,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030932,,,"90006,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030933,,,"90007,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030934,,,"90008,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030936,,,"90010,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030937,,,"90011,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030938,,,"90012,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030939,,,"90013,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030940,,,"90014,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030941,,,"90015,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030942,,,"90016,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030943,,,"90017,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030944,,,"90018,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030945,,,"90019,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030946,,,"90020,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030947,,,"90021,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030949,,,"90023,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030950,,,"90024,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030951,,,"90025,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030952,,,"90026,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030953,,,"90027,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030954,,,"90028,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030955,,,"90029,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030956,,,"90031,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030957,,,"90032,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030958,,,"90033,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030959,,,"90034,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030960,,,"90035,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030961,,,"90036,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030962,,,"90037,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030963,,,"90038,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030964,,,"90039,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030966,,,"90041,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030967,,,"90042,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030968,,,"90043,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030969,,,"90044,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030970,,,"90045,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030971,,,"90046,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030972,,,"90047,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030973,,,"90048,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030974,,,"90049,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030976,,,"90056,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030977,,,"90057,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030978,,,"90058,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030979,,,"90059,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030980,,,"90061,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030981,,,"90062,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030982,,,"90063,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030983,,,"90064,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030984,,,"90065,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030985,,,"90066,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030986,,,"90067,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030987,,,"90068,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030988,,,"90069,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030989,,,"90071,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030990,,,"90077,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030992,,,"90089,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030993,,,"90094,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030994,,,"90095,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030997,,,"90210,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030998,,,"90211,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9030999,,,"90212,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031003,,,"90230,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031009,,,"90247,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031010,,,"90248,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031022,,,"90272,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031029,,,"90291,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031030,,,"90292,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031031,,,"90293,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031038,,,"90402,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031042,,,"90501,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031043,,,"90502,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031070,,,"90710,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031078,,,"90731,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031079,,,"90732,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031082,,,"90744,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031112,,,"91040,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031113,,,"91042,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031144,,,"91303,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031145,,,"91304,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031146,,,"91306,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031148,,,"91311,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031149,,,"91316,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031152,,,"91324,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031153,,,"91325,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031154,,,"91326,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031157,,,"91330,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031158,,,"91331,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031159,,,"91335,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031160,,,"91340,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031161,,,"91342,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031162,,,"91343,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031163,,,"91344,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031164,,,"91345,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031167,,,"91352,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031170,,,"91356,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031175,,,"91364,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031176,,,"91367,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031183,,,"91401,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031184,,,"91402,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031185,,,"91403,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031186,,,"91405,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031187,,,"91406,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031188,,,"91411,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031189,,,"91423,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031190,,,"91436,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031193,,,"91504,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031194,,,"91505,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031199,,,"91601,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031200,,,"91602,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031201,,,"91604,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031202,,,"91605,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031203,,,"91606,California,United States",Postal Code
+search / all injuries / geo - la specific,LOCATION,False,geoTargetConstants/9031204,,,"91607,California,United States",Postal Code

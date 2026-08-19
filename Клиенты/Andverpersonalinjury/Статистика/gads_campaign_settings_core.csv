@@ -1,0 +1,3 @@
+Campaign,Status,Channel_type,Bidding_strategy,Target_spend_micros,Target_cpa_micros,Daily_budget,Network_google_search,Network_search_partners,Network_display,Network_partner_search,Geo_positive_type,Geo_negative_type
+search / all injuries / kw -  la specific,ENABLED,SEARCH,TARGET_SPEND,,,120.0,True,True,False,False,PRESENCE,PRESENCE
+search / all injuries / geo - la specific,ENABLED,SEARCH,TARGET_SPEND,,,120.0,True,True,False,False,PRESENCE,PRESENCE
