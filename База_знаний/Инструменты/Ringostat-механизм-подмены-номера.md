@@ -8,7 +8,7 @@ updated: 2026-08-18
 # Ringostat: механизм подмены номера
 
 Найдено и проверено на практике при разработке `Скрипты/phone_swap_check.py` и
-настройке коллтрекинга клиента [[../../Клиенты/Юристы США/index|Юристы США]]
+настройке коллтрекинга клиента [[../Andverpersonalinjury/index|Andverpersonalinjury]]
 (подпроект Andverpersonalinjury, landverpersonalinjury.com). Общее знание о
 том, как работает Ringostat — не специфично для этого клиента.
 

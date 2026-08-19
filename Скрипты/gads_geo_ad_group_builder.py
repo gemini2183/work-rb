@@ -16,7 +16,7 @@ lawyer" два новых ключа "car injury lawyer LA" и "car injury lawye
 "CA"/"California" в нём заменяются на --ad-geo-text (по умолчанию "LA", а не
 "Los Angeles" — на аккаунте Andverpersonalinjury проверено, что "Los Angeles"
 почти везде выталкивает заголовки за лимит 30 символов, "LA" почти всегда
-укладывается, см. Клиенты/Юристы США/Решения.md).
+укладывается, см. Клиенты/Andverpersonalinjury/Решения.md).
 
 Новые группы можно направить в другую (уже существующую) кампанию через
 --target-campaign — например, у Andverpersonalinjury уже есть отдельная
@@ -133,7 +133,7 @@ def build_rows(campaign_name, keywords_by_group, ads_by_group, geo_suffixes, gro
     geo_suffixes (напр. "... LA" и "... Los Angeles" как отдельные ключи одной
     группы). Текст объявления один на группу — geo-упоминания в нём (CA/California)
     заменяются на ad_geo_text (обычно короткий вариант "LA", чтобы уложиться в
-    лимит 30 символов заголовка — см. Клиенты/Юристы США/Решения.md).
+    лимит 30 символов заголовка — см. Клиенты/Andverpersonalinjury/Решения.md).
     """
     rows = []
     for group_name, keywords in keywords_by_group.items():
@@ -195,7 +195,7 @@ def _contains_geo(keyword_text, geo):
 
     Нужно, чтобы не дублировать geo-суффикс на ключах, где он уже есть
     (напр. исходный ключ "trip and fall attorney LA" не должен получить ещё
-    один суффикс "LA" поверх, см. Клиенты/Юристы США/Решения.md).
+    один суффикс "LA" поверх, см. Клиенты/Andverpersonalinjury/Решения.md).
     """
     import re
     pattern = r"\b" + re.escape(geo) + r"\b"

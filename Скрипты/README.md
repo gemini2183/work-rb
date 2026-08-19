@@ -1,7 +1,7 @@
 ---
 name: scripts-readme
 description: Как пользоваться скриптами сбора статистики
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Скрипты
@@ -225,7 +225,7 @@ python gads_geo_ad_group_builder.py --customer-id 213-621-6123 \
 columns" при маппинге). Может указывать целевую кампанию (`--target-campaign`),
 отличную от источника — например, у Andverpersonalinjury кампания
 "search / all injuries / la" уже существует и заполняется по частям (см.
-`Клиенты/Юристы США/Решения.md`, запись 2026-08-18).
+`Клиенты/Andverpersonalinjury/Решения.md`, запись 2026-08-18).
 
 Рабочий цикл — диалоговый, не автоматический: сначала выгружается список групп
 кампании-источника (кол-во ключей/объявлений на группу) для отбора, отобранные
@@ -246,7 +246,7 @@ python gads_semantics_generator.py --client-folder "Юристы США" --theme
 "<тема> <modifier> <suffix>" как broad-фразы (напр. "car accident lawyer",
 "car crash attorney"). У каждой темы свой набор modifiers в словаре — не один
 общий на все темы, т.к. "accident"/"crash" естественны для транспортных тем, но
-не для slip_and_fall/dog_bite/wrongful_death (см. `Клиенты/Юристы США/Решения.md`,
+не для slip_and_fall/dog_bite/wrongful_death (см. `Клиенты/Andverpersonalinjury/Решения.md`,
 запись 2026-08-18). `--geo` опционально достраивает гео-вариант на каждую фразу
 (тот же принцип дублирования, что в gads_geo_ad_group_builder.py, но раньше по
 процессу — до группировки по группам объявлений).
@@ -272,7 +272,7 @@ python gads_ad_adapter.py --client-folder "Юристы США" \
 в `Клиенты/<client-folder>/Кампании/Search/Эталонное-объявление-и-sitelinks.yaml`
 (headlines/descriptions с role=themed заменяются по полю `ad_phrase` темы из
 `Словарь-тем.yaml`, role=universal копируются без изменений — см. пример
-разметки в самом YAML-файле эталона и `Клиенты/Юристы США/Решения.md`, запись
+разметки в самом YAML-файле эталона и `Клиенты/Andverpersonalinjury/Решения.md`, запись
 2026-08-18). `--with-sitelinks` добавляет в тот же CSV блок sitelinks на
 уровень КАМПАНИИ (пустой Ad group — не дублируются по группам).
 
@@ -312,8 +312,32 @@ CSV включает строку `Campaign` (Search, статус Paused, бю�
 импорта групп/ключей, поэтому она создаётся тем же файлом, но намеренно на
 паузе: бюджет/гео-таргетинг/стратегия ставок через bulksheet не задаются
 надёжно, нужна ручная проверка перед запуском (см.
-`Клиенты/Юристы США/Решения.md`, запись про "search / all injuries / broad").
+`Клиенты/Andverpersonalinjury/Решения.md`, запись про "search / all injuries / broad").
 `--no-campaign-row` — если кампания уже создана вручную.
+
+## Аудит сетей показа (Search vs Search Partners)
+
+```
+python gads_search_partners_audit.py --customer-id 213-621-6123 --client-folder "Юристы США" --days 30
+python gads_search_partners_audit.py --client "Клиент - Google Ads" --client-folder "Клиент" --days 30
+```
+
+Два отчёта за один запуск: (1) сводка по кампаниям x сеть показа
+(SEARCH/SEARCH_PARTNERS/CONTENT/...) с кликами/расходом/конверсиями по
+каждой — сохраняется в `gads_network_breakdown_*.csv`; (2) список конкретных
+площадок внутри Search Partners (`detail_content_suitability_placement_view`
+— ресурс API с августа 2025, до этого площадки SPN не были видны вообще) —
+`gads_search_partner_placements_*.csv`. Второй отчёт отдаёт ТОЛЬКО
+impressions на каждую площадку — API отклоняет запрос с clicks/cost/
+conversions в том же SELECT для этого ресурса (см. docstring
+`fetch_search_partner_placements` в скрипте, задокументировано также в
+`Инфраструктура.md`, запись 2026-08-19) — для оценки денег/конверсий по
+сети в целом использовать первый отчёт, площадки из второго — только
+качественный список "куда уходят показы".
+
+`--customer-id` — для клиентов, не заведённых строкой в таблице
+Google_Ads_API (напр. Andverpersonalinjury, customer_id `213-621-6123`, см.
+`Клиенты/Andverpersonalinjury/_project.md`), альтернатива `--client`.
 
 ## Проверка подмены номера коллтрекинга
 
@@ -329,7 +353,7 @@ HTML/curl её не видно), подставляет тестовую UTM-к�
 `tel:`-ссылки и сверяет с пулом допустимых номеров этого канала — совпадение
 с ЛЮБЫМ номером пула засчитывается как OK, т.к. сервисы коллтрекинга (см.
 Ringostat) отдают номер из пула по сессии/ротации, а не жёстко один номер на
-одну UTM-комбинацию (см. `Клиенты/Юристы США/Решения.md`, запись 2026-08-18).
+одну UTM-комбинацию (см. `Клиенты/Andverpersonalinjury/Решения.md`, запись 2026-08-18).
 
 Пул номеров и условия подмены — ручной YAML `Клиенты/<клиент>/Коллтрекинг/
 Пул_номеров.yaml` (формат описан в docstring скрипта), заполняется по

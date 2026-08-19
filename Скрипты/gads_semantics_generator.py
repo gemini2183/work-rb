@@ -5,7 +5,7 @@
 Читает Клиенты/<client-folder>/Семантика/Словарь-тем.yaml: на каждую тему
 (car, motorcycle, slip_and_fall, ...) — свой набор modifiers (существительные
 происшествия, специфичные для темы — "accident/crash" звучит для транспортных
-тем, но не для slip and fall/dog bite, см. Клиенты/Юристы США/Решения.md) и
+тем, но не для slip and fall/dog bite, см. Клиенты/Andverpersonalinjury/Решения.md) и
 общий suffixes (lawyer/attorney). Строит все комбинации "<тема> <modifier>
 <suffix>" как broad-фразы.
 
@@ -52,7 +52,7 @@ def generate_phrases(theme_data, geo_suffixes=None):
     wrongful_death) — фраза строится как "<тема-текст> <suffix>" напрямую.
     "text" может быть одной строкой или списком синонимов базового слова темы
     (напр. rideshare: text=[uber, lyft, rideshare] -> отдельные фразы на каждый
-    синоним, не один смешанный термин — см. Клиенты/Юристы США/Решения.md).
+    синоним, не один смешанный термин — см. Клиенты/Andverpersonalinjury/Решения.md).
     Если geo_suffixes задан, каждая фраза дублируется с добавлением geo в конце
     (как отдельная дополнительная фраза, не замена).
     """

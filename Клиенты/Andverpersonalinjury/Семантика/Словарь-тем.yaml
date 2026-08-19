@@ -2,10 +2,10 @@
 # Формат на тему:
 #   modifiers: существительные/фразы происшествия, специфичные для темы
 #     (не универсальны — "accident"/"crash" звучат естественно для транспортных
-#     тем, но не для slip and fall/dog bite, см. Клиенты/Юристы США/Решения.md).
+#     тем, но не для slip and fall/dog bite, см. Клиенты/Andverpersonalinjury/Решения.md).
 #   suffixes: юридический термин — общий для всех тем (lawyer/lawyers/
 #     attorney/attorneys/law firm/law firms — ед. и мн. число вместе, см.
-#     Клиенты/Юристы США/Решения.md, найдено в ключах, заведённых вручную).
+#     Клиенты/Andverpersonalinjury/Решения.md, найдено в ключах, заведённых вручную).
 #   ad_phrase: естественная фраза темы для ПОДСТАНОВКИ В ТЕКСТ ОБЪЯВЛЕНИЯ
 #     (не для генерации ключей!) — напр. "Injured in a {ad_phrase}?". Не всегда
 #     совпадает с "text": car -> ad_phrase "car accident" (а не голое "car"),
@@ -32,7 +32,7 @@ car:
 
 auto:
   label: Auto Injury
-  text: [auto, automobile, vehicle]  # отдельная тема от "car", не смешивается — см. Клиенты/Юристы США/Решения.md
+  text: [auto, automobile, vehicle]  # отдельная тема от "car", не смешивается — см. Клиенты/Andverpersonalinjury/Решения.md
   modifiers: [accident, crash, injury]
   suffixes: [lawyer, lawyers, attorney, attorneys, law firm, law firms]
   ad_phrase: auto accident

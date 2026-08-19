@@ -62,7 +62,7 @@ def displayed_length(text):
 
 ## Проверено на практике
 
-2026-08-18, аккаунт Andverpersonalinjury (клиент [[../../Клиенты/Юристы США/index|Юристы США]]):
+2026-08-18, аккаунт Andverpersonalinjury (клиент [[../Andverpersonalinjury/index|Andverpersonalinjury]]):
 эталонное объявление содержало оба паттерна одновременно
 (`{KeyWord:Car Accident Injury Lawyer CA}` и `Injured In {LOCATION(City):California}?`),
 naive-проверка длины давала ложные предупреждения о превышении лимита на

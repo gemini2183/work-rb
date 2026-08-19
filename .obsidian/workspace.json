@@ -16,14 +16,10 @@
                 "id": "aad7ea81908996b1",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Клиенты/Юристы США/Семантика/semantics.md",
-                    "mode": "source",
-                    "source": false
-                  },
+                  "type": "empty",
+                  "state": {},
                   "icon": "lucide-file",
-                  "title": "semantics"
+                  "title": "Новая вкладка"
                 }
               }
             ]
@@ -73,7 +69,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "Terminal: cmd"
+                  "title": "Terminal: C:\\Windows\\System32\\conhost.exe"
                 }
               }
             ]
