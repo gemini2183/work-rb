@@ -110,6 +110,108 @@ def fetch_campaigns_breakdown(ga_service, customer_id, date_from, date_to, campa
     return df.sort_values(["Channel_type", "Campaign", "Cost"], ascending=[True, True, False]).reset_index(drop=True)
 
 
+def fetch_campaigns_by_day(ga_service, customer_id, date_from, date_to, campaign_names=None):
+    """Campaign x день -> DataFrame. Нужен, чтобы увидеть реальную дату первых
+    показов/кликов кампании, заведённой вручную в кабинете (не через наши
+    скрипты) — --days N не гарантирует, что кампания вообще существовала все N
+    дней назад, могла быть создана позже начала запрошенного периода."""
+    query = f"""
+        SELECT
+            campaign.name,
+            segments.date,
+            metrics.impressions,
+            metrics.clicks,
+            metrics.cost_micros,
+            metrics.conversions
+        FROM campaign
+        WHERE segments.date BETWEEN '{date_from}' AND '{date_to}'
+            AND campaign.status != 'REMOVED'
+    """
+
+    agg = {}
+    for batch in ga_service.search_stream(customer_id=customer_id, query=query):
+        for row in batch.results:
+            if campaign_names and row.campaign.name not in campaign_names:
+                continue
+            k = (row.campaign.name, row.segments.date)
+            m = agg.setdefault(k, {"impressions": 0, "clicks": 0, "cost": 0.0, "conversions": 0.0})
+            m["impressions"] += row.metrics.impressions
+            m["clicks"] += row.metrics.clicks
+            m["cost"] += row.metrics.cost_micros / 1_000_000
+            m["conversions"] += row.metrics.conversions
+
+    if not agg:
+        return pd.DataFrame()
+
+    rows = [
+        {
+            "Campaign": k[0],
+            "Date": k[1],
+            "Impressions": int(m["impressions"]),
+            "Clicks": int(m["clicks"]),
+            "Cost": round(m["cost"], 2),
+            "Conversions": round(m["conversions"], 2),
+        }
+        for k, m in agg.items()
+    ]
+    df = pd.DataFrame(rows)
+    return df.sort_values(["Campaign", "Date"]).reset_index(drop=True)
+
+
+def fetch_search_terms(ga_service, customer_id, date_from, date_to, campaign_names=None):
+    """Search terms (реальные поисковые запросы пользователей) -> DataFrame.
+
+    search_term_view — доступен только для Search-кампаний (не PMax, см.
+    ограничение в Скрипты/README.md про search_term_view + Performance Max).
+    """
+    query = f"""
+        SELECT
+            campaign.name,
+            ad_group.name,
+            search_term_view.search_term,
+            segments.ad_network_type,
+            metrics.impressions,
+            metrics.clicks,
+            metrics.cost_micros,
+            metrics.conversions
+        FROM search_term_view
+        WHERE segments.date BETWEEN '{date_from}' AND '{date_to}'
+            AND campaign.status != 'REMOVED'
+    """
+
+    agg = {}
+    for batch in ga_service.search_stream(customer_id=customer_id, query=query):
+        for row in batch.results:
+            if campaign_names and row.campaign.name not in campaign_names:
+                continue
+            network = _enum_name("AdNetworkTypeEnum", "AdNetworkType", row.segments.ad_network_type)
+            k = (row.campaign.name, row.ad_group.name, row.search_term_view.search_term, network)
+            m = agg.setdefault(k, {"impressions": 0, "clicks": 0, "cost": 0.0, "conversions": 0.0})
+            m["impressions"] += row.metrics.impressions
+            m["clicks"] += row.metrics.clicks
+            m["cost"] += row.metrics.cost_micros / 1_000_000
+            m["conversions"] += row.metrics.conversions
+
+    if not agg:
+        return pd.DataFrame()
+
+    rows = [
+        {
+            "Campaign": k[0],
+            "Ad_group": k[1],
+            "Search_term": k[2],
+            "Network": k[3],
+            "Impressions": int(m["impressions"]),
+            "Clicks": int(m["clicks"]),
+            "Cost": round(m["cost"], 2),
+            "Conversions": round(m["conversions"], 2),
+        }
+        for k, m in agg.items()
+    ]
+    df = pd.DataFrame(rows)
+    return df.sort_values("Clicks", ascending=False).reset_index(drop=True)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--client", help="Значение колонки 'client' на вкладке Google_Ads_API (альтернатива --customer-id)")
@@ -118,6 +220,9 @@ def main():
     ap.add_argument("--days", type=int, default=30)
     ap.add_argument("--date-from", help="YYYY-MM-DD, переопределяет --days")
     ap.add_argument("--date-to", help="YYYY-MM-DD, по умолчанию вчера")
+    ap.add_argument("--campaigns", help="Список названий кампаний через запятую — включает режим --by-day и --search-terms на них")
+    ap.add_argument("--by-day", action="store_true", help="Разбивка campaign x день вместо campaign x channel x network")
+    ap.add_argument("--search-terms", action="store_true", help="Реальные поисковые запросы (search_term_view) вместо агрегата по сетям")
     args = ap.parse_args()
 
     if args.customer_id:
@@ -141,7 +246,28 @@ def main():
     print(f"Клиент: {args.client_folder} | период {date_from} → {date_to}")
 
     out_dir = client_stats_dir(args.client_folder)
-    df = fetch_campaigns_breakdown(ga_service, customer_id, date_from, date_to)
+    campaign_names = {c.strip() for c in args.campaigns.split(",")} if args.campaigns else None
+
+    if args.search_terms:
+        df = fetch_search_terms(ga_service, customer_id, date_from, date_to, campaign_names)
+        out_path = out_dir / f"gads_search_terms_{date_from}_to_{date_to}.csv"
+        df.to_csv(out_path, index=False, encoding="utf-8")
+        print(f"Сохранено: {out_path} ({len(df)} search terms)")
+        if not df.empty:
+            print(df.to_string(index=False))
+        return
+
+    if args.by_day:
+        df = fetch_campaigns_by_day(ga_service, customer_id, date_from, date_to, campaign_names)
+        out_path = out_dir / f"gads_campaigns_by_day_{date_from}_to_{date_to}.csv"
+        df.to_csv(out_path, index=False, encoding="utf-8")
+        print(f"Сохранено: {out_path} ({len(df)} строк campaign x день)")
+        if not df.empty:
+            print(df.to_string(index=False))
+        return
+
+    campaign_filter = (lambda name: name in campaign_names) if campaign_names else None
+    df = fetch_campaigns_breakdown(ga_service, customer_id, date_from, date_to, campaign_filter)
     out_path = out_dir / f"gads_campaigns_breakdown_{date_from}_to_{date_to}.csv"
     df.to_csv(out_path, index=False, encoding="utf-8")
     print(f"Сохранено: {out_path} ({len(df)} строк campaign x channel_type x network)")
