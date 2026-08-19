@@ -104,3 +104,19 @@ wrongful_death:
   modifiers: []  # тема сама по себе — модификатор не нужен ("wrongful death accident" не говорят)
   suffixes: [lawyer, lawyers, attorney, attorneys, law firm, law firms]
   ad_phrase: wrongful death case
+
+personal_injury:
+  label: Personal Injury
+  text: personal injury
+  modifiers: []  # без модификатора — "personal injury accident" не говорят, сам термин уже собирательный
+  suffixes: [lawyer, lawyers, attorney, attorneys, law firm, law firms]
+  ad_phrase: physical injury
+  # Широкий термин "personal injury" неоднозначен в бытовом понимании — часть
+  # аудитории ищет не физическую травму, а моральный/эмоциональный вред
+  # (harassment, discrimination, wrongful termination и т.п., см.
+  # Клиенты/Andverpersonalinjury/Решения.md, 2026-08-19). ad_phrase намеренно
+  # НЕ "personal injury" (это и есть источник двусмысленности), а "physical
+  # injury" — используется в тексте объявления, чтобы явно отсечь нецелевого
+  # кликера ещё до перехода. См. также минус-слова harassment/discrimination
+  # на уровне кампании/группы — та же проблема закрывается с двух сторон
+  # (показ + клик).
