@@ -61,16 +61,26 @@ def fetch_promopages_report(counter, token, date_from, date_to):
     цель) на большом периоде легко упереться в лимит и молча потерять
     строки, если тянуть весь трафик и фильтровать после.
     """
-    filtering = (
-        f"ym:s:goal=.({GOAL_ID}) AND ym:s:UTMSource=~'{UTM_SOURCE_FILTER}'"
+    params = {
+        "dimensions": DIMENSIONS,
+        "metrics": DEFAULT_METRICS,
+        "filters": f"ym:s:goal=.({GOAL_ID}) AND ym:s:UTMSource=~'{UTM_SOURCE_FILTER}'",
+        "date1": date_from,
+        "date2": date_to,
+        "attribution": ATTRIBUTION,
+        "limit": 10000,
+        "offset": 1,
+        "language": "ru",
+        "accuracy": "full",
+        "ids": counter,
+    }
+    # requests urlencode-ит params сам — критично для filters (пробелы вокруг
+    # AND, скобки, апострофы); сборка через f-string в готовый URL их не
+    # энкодит и API молча возвращает 0 строк вместо ошибки.
+    req = requests.get(
+        "https://api-metrika.yandex.ru/stat/v1/data.csv",
+        params=params, headers={"Authorization": f"OAuth {token}"}, timeout=300,
     )
-    url = (
-        f"https://api-metrika.yandex.ru/stat/v1/data.csv"
-        f"?dimensions={DIMENSIONS}&metrics={DEFAULT_METRICS}&filters={filtering}"
-        f"&date1={date_from}&date2={date_to}&attribution={ATTRIBUTION}"
-        f"&limit=10000&offset=1&language=ru&accuracy=full&ids={counter}&oauth_token={token}"
-    )
-    req = requests.get(url, headers={"Authorization": f"OAuth {token}"}, timeout=300)
     if req.status_code != 200:
         raise SystemExit(f"Ошибка {req.status_code}: {req.text[:500]}")
     return req.content.decode("utf-8")
