@@ -164,12 +164,18 @@ def build_candidate_xpath(entry, page):
     if entry["nodeType"] == "text":
         node_filter += " and not(*)"
     elif entry["nodeType"] == "icon-only":
-        # иконка может быть <img> (растровая/svg-файлом) или инлайн <svg> —
-        # nodeType='icon-only' ставится по querySelector('img, svg') на этапе
-        # сбора данных (EXTRACT_JS), фильтр XPath должен проверять оба тега,
-        # иначе для инлайн-svg строится XPath, не совпадающий с реальным
-        # узлом (было найдено на t-sociallinks соцссылке-телефоне ProfiMet)
-        node_filter += " and (img or svg)"
+        # иконка может быть <img> (растровая/svg-файлом) или инлайн <svg>.
+        # <svg> живёт в XML-namespace http://www.w3.org/2000/svg — голый шаг
+        # "svg" в XPath 1.0 ищет элемент БЕЗ namespace и никогда не совпадёт
+        # с настоящим <svg> (проверено: //a[svg] дал 0 совпадений на реальном
+        # инлайн-svg внутри t-sociallinks соцссылки-телефона ProfiMet, хотя
+        # querySelector('svg') в JS находит его без проблем — JS не требует
+        # явного namespace-совпадения). Обход — local-name(), не зависящий
+        # от namespace. Это же ограничение будет действовать и в движке
+        # XPath самого Ringostat, не только в Playwright — значит любой XPath
+        # для inline-svg иконок в кабинете тоже должен использовать
+        # local-name(), а не голый тег svg.
+        node_filter += ' and (*[local-name()="img"] or *[local-name()="svg"])'
 
     best = None
     for anc in entry["ancestors"]:
