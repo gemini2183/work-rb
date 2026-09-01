@@ -115,29 +115,69 @@ EXTRACT_JS = """
 """
 
 
-def build_candidate_xpath(entry):
+# служебные классы Tilda/типовых конструкторов — почти всегда встречаются
+# сотнями раз на странице (сам блок-тип, атом-обёртка), бесполезны как якорь
+GENERIC_CLASS_MARKERS = ("tn-atom", "t-menu", "t-sociallinks", "t396__elem", "t-img", "t-col", "t-container")
+# признаки "содержательности" класса — обычно означают конкретное СОСТОЯНИЕ
+# или РОЛЬ блока (sticky-копия, конкретный виджет), а не общий тип атома
+MEANINGFUL_MARKERS = ("fixed", "sticky", "header", "footer", "popup", "menu", "phone", "callback", "widget")
+
+
+def _class_score(cls: str) -> int:
+    """Эвристическая оценка полезности класса как XPath-якоря: чем выше, тем
+    больше шанс, что класс уникально описывает СОСТОЯНИЕ/РОЛЬ блока, а не
+    просто его общий тип, который на странице встречается сотни раз."""
+    if any(marker in cls for marker in GENERIC_CLASS_MARKERS):
+        return 0
+    score = len(cls)
+    if any(marker in cls.lower() for marker in MEANINGFUL_MARKERS):
+        score += 100
+    # длинные числовые id-подобные суффиксы Tilda (tn-elem__6514636821...) —
+    # уникальны на странице, но хрупкие: слетают при пересборке блока в
+    # редакторе, поэтому не задираем счёт так же сильно, как MEANINGFUL_MARKERS
+    if re.search(r"\d{8,}", cls):
+        score += 20
+    return score
+
+
+def build_candidate_xpath(entry, page):
     """Пробуем собрать устойчивый XPath по классам вместо числовых индексов.
 
-    Ищем ближайшего предка с "содержательным" классом (длиннее нескольких
-    символов, не служебное имя браузера) — по нему делаем contains(), и от
-    него идём к самой ссылке через тип узла (text/icon-only), как в кейсе
-    ProfiMet (t396__artboard-fixed-active + not(*) / img).
+    Идём вверх по предкам, на каждом шаге берём класс с максимальной
+    эвристической оценкой (см. _class_score) и ПРОВЕРЯЕМ через сам браузер,
+    сколько элементов реально матчит `contains(@class, ...)` — годится только
+    класс, дающий небольшое число совпадений (в идеале — совпадающее с
+    числом реальных мест показа номера в этом состоянии, обычно 1-2, не
+    сотни). Без такой проверки эвристика "первый длинный класс" даёт
+    юридически валидный, но бесполезный XPath, матчащий тысячу узлов
+    (проверено на tn-atom/t396__elem — 1016 совпадений на mocnaszklarnia.pl).
     """
-    anchor_class = None
-    for anc in entry["ancestors"]:
-        classes = [c for c in anc["classes"].split() if len(c) > 4]
-        if classes:
-            anchor_class = classes[0]
-            break
-
-    node_filter = "starts-with(@href,\"tel:\")"
+    node_filter = 'starts-with(@href,"tel:")'
     if entry["nodeType"] == "text":
         node_filter += " and not(*)"
     elif entry["nodeType"] == "icon-only":
         node_filter += " and img"
 
-    if anchor_class:
-        return f'//*[contains(@class,"{anchor_class}")]//a[{node_filter}]'
+    best = None
+    for anc in entry["ancestors"]:
+        classes = sorted(anc["classes"].split(), key=_class_score, reverse=True)
+        for cls in classes:
+            if _class_score(cls) == 0:
+                continue
+            candidate = f'//*[contains(@class,"{cls}")]//a[{node_filter}]'
+            try:
+                count = page.locator(f"xpath={candidate}").count()
+            except Exception:
+                continue
+            if 1 <= count <= 3:
+                return candidate
+            if best is None or count < best[1]:
+                best = (candidate, count)
+
+    if best:
+        # ничего идеального не нашли — возвращаем наименее "жадный" вариант,
+        # но явно предупреждаем, что его нужно проверить руками
+        return f"{best[0]}  [ПРОВЕРИТЬ: матчит {best[1]} элементов]"
     return None
 
 
@@ -167,7 +207,7 @@ def run_discovery(url: str, scroll_y: int, wait_ms: int):
                 for e in entries:
                     e["viewport"] = label
                     e["scrollState"] = scroll_state
-                    e["candidateXpath"] = build_candidate_xpath(e)
+                    e["candidateXpath"] = build_candidate_xpath(e, page)
                     all_entries.append(e)
             page.close()
         browser.close()
