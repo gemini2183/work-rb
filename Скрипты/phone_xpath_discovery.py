@@ -164,7 +164,12 @@ def build_candidate_xpath(entry, page):
     if entry["nodeType"] == "text":
         node_filter += " and not(*)"
     elif entry["nodeType"] == "icon-only":
-        node_filter += " and img"
+        # иконка может быть <img> (растровая/svg-файлом) или инлайн <svg> —
+        # nodeType='icon-only' ставится по querySelector('img, svg') на этапе
+        # сбора данных (EXTRACT_JS), фильтр XPath должен проверять оба тега,
+        # иначе для инлайн-svg строится XPath, не совпадающий с реальным
+        # узлом (было найдено на t-sociallinks соцссылке-телефоне ProfiMet)
+        node_filter += " and (img or svg)"
 
     best = None
     for anc in entry["ancestors"]:
