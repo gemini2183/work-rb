@@ -116,27 +116,35 @@ EXTRACT_JS = """
 
 
 # служебные классы Tilda/типовых конструкторов — почти всегда встречаются
-# сотнями раз на странице (сам блок-тип, атом-обёртка), бесполезны как якорь
-GENERIC_CLASS_MARKERS = ("tn-atom", "t-menu", "t-sociallinks", "t396__elem", "t-img", "t-col", "t-container")
+# сотнями раз на странице САМИ ПО СЕБЕ (общий тип атома/обёртки), бесполезны
+# как единственный якорь, но не исключаются полностью — в комбинации с
+# другими предками-фильтрами (contains + and-условие на узел) могут всё же
+# дать мало совпадений, поэтому только снижаем базовый счёт, не обнуляем
+GENERIC_CLASS_MARKERS = ("tn-atom", "t-sociallinks", "t396__elem", "t-img", "t-col", "t-container")
 # признаки "содержательности" класса — обычно означают конкретное СОСТОЯНИЕ
 # или РОЛЬ блока (sticky-копия, конкретный виджет), а не общий тип атома
 MEANINGFUL_MARKERS = ("fixed", "sticky", "header", "footer", "popup", "menu", "phone", "callback", "widget")
+# длинные числовые id-подобные суффиксы Tilda (tn-elem__6514636821...) —
+# уникальны на странице, но хрупкие: подтверждено на практике ProfiMet, что
+# такой id слетает при пересборке блока в редакторе Tilda (старое правило
+# "Header scroll bar" перестало матчить что-либо после переверстки сайта, см.
+# `Клиенты/ProfiMet/Решения.md`) — поэтому такие классы получают низкий
+# приоритет и используются только если ничего стабильнее не нашлось
+FRAGILE_ID_RE = re.compile(r"__\d{10,}")
 
 
 def _class_score(cls: str) -> int:
     """Эвристическая оценка полезности класса как XPath-якоря: чем выше, тем
-    больше шанс, что класс уникально описывает СОСТОЯНИЕ/РОЛЬ блока, а не
-    просто его общий тип, который на странице встречается сотни раз."""
-    if any(marker in cls for marker in GENERIC_CLASS_MARKERS):
-        return 0
+    больше шанс, что класс уникально и УСТОЙЧИВО описывает СОСТОЯНИЕ/РОЛЬ
+    блока, а не просто его общий тип (сотни совпадений) или хрупкий
+    автосгенерированный id (слетает при правках вёрстки)."""
+    if FRAGILE_ID_RE.search(cls):
+        return 1  # хуже любого смыслового класса, но лучше, чем совсем ничего
     score = len(cls)
+    if any(marker in cls for marker in GENERIC_CLASS_MARKERS):
+        score = max(1, score - 20)
     if any(marker in cls.lower() for marker in MEANINGFUL_MARKERS):
         score += 100
-    # длинные числовые id-подобные суффиксы Tilda (tn-elem__6514636821...) —
-    # уникальны на странице, но хрупкие: слетают при пересборке блока в
-    # редакторе, поэтому не задираем счёт так же сильно, как MEANINGFUL_MARKERS
-    if re.search(r"\d{8,}", cls):
-        score += 20
     return score
 
 
@@ -170,7 +178,8 @@ def build_candidate_xpath(entry, page):
             except Exception:
                 continue
             if 1 <= count <= 3:
-                return candidate
+                warning = "  [хрупкий id — может слететь при правках вёрстки]" if FRAGILE_ID_RE.search(cls) else ""
+                return f"{candidate}{warning}"
             if best is None or count < best[1]:
                 best = (candidate, count)
 
