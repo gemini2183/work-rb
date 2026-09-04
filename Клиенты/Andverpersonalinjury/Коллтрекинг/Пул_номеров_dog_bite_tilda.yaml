@@ -1,0 +1,30 @@
+# Пул номеров и правила подмены (Ringostat) для landverpersonalinjury.tilda.ws/dog-bite
+# (отдельная посадочная страница для новой кампании "dog bite", не главная
+# landverpersonalinjury.com — см. Клиенты/Andverpersonalinjury/Коллтрекинг/Пул_номеров.yaml
+# для основного сайта). Кампания dog bite ещё не создана в аккаунте на момент
+# заведения этого файла (2026-09-04) — pool каналов пока пуст, заполнить по
+# факту после импорта кампании и скриншота из кабинета Ringostat.
+#
+# Используется скриптом Скрипты/phone_swap_check.py:
+#   python phone_swap_check.py --client-folder "Andverpersonalinjury" --pool-file "Коллтрекинг/Пул_номеров_dog_bite_tilda.yaml"
+
+url: "https://landverpersonalinjury.tilda.ws/dog-bite"
+
+# Номер со страницы БЕЗ UTM — что реально показано на лендинге до запуска
+# кампании (телефон (844) 4-LAWINJURY / +18444529465, см. разбор страницы
+# WebFetch в начале сессии 2026-09-04) — используется как baseline, чтобы
+# подтвердить: подмена коллтрекинга вообще работает на Tilda-домене, прежде
+# чем проверять конкретные UTM кампании
+default: "+18444529465"
+
+channels:
+  - name: "Google Ads (dog bite, ожидаемо тот же пул что основной сайт)"
+    utm: {utm_source: ".*", utm_medium: "cpc", utm_term: ".*", utm_content: ".*", utm_campaign: ".*"}
+    utm_test: {utm_source: google, utm_medium: cpc}
+    # TODO: не подтверждено, использует ли Ringostat тот же пул "Google Ads",
+    # что и для landverpersonalinjury.com, или для tilda.ws нужен отдельный
+    # пул — свериться в кабинете Ringostat после первого прогона
+    pool:
+      - "+18883783267"
+      - "+18883448725"
+      - "+18883025461"

@@ -1,0 +1,3 @@
+Level,Campaign,Header,Values,Status
+Account,,Types,"Car Accidents, Motorcycle Accidents, Truck/Bus Accidents, Uber/Lyft accidents, Pedestrian Accidents, Brain Injury, Slip/Trip & Fall, Wrongful Death, Dog Bite",REMOVED
+Account,,Types,"Car Accidents, Motorcycle Accidents, Truck/Bus Accidents, Uber/Lyft accidents, Rear-End Collisions, Hit-and-Run Cases",ENABLED
