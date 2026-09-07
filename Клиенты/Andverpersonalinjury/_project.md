@@ -7,6 +7,13 @@ updated: 2026-08-19
 
 # Andverpersonalinjury (Landver Law) — бриф проекта
 
+> **Опечатка в названии папки/клиента**: правильно — "Landverpersonalinjury" (с буквой
+> "L" в начале, как в домене landverpersonalinjury.com и бренде "Landver Law"). Имя
+> "Andverpersonalinjury" — историческая опечатка при заведении клиента, оставлена
+> сознательно, так как на неё уже завязаны папка, ссылки и customer_id в коде
+> (`gads_andverpersonalinjury` в `google-cloud-jobs`, см. ниже) — переименование
+> потребовало бы правки во многих местах ради чисто косметического исправления.
+
 ## Ниша / продукт
 
 Юридические услуги в США — personal injury (травмы/несчастные случаи): car accident,
