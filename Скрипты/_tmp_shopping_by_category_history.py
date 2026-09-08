@@ -10,7 +10,7 @@ from gads_campaigns_breakdown import _enum_name
 from google.ads.googleads.client import GoogleAdsClient
 
 CLIENT_MERCHANT = "Корогва - Merchant Center"
-DATE_FROM = "2026-07-13"
+DATE_FROM = "2026-07-09"
 DATE_TO = "2026-09-07"
 
 row = get_client_row(CLIENT_MERCHANT, tab="Google_Ads_API", agency="adwhite")
