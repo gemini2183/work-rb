@@ -1,0 +1,3 @@
+Campaign,Type,Negative,Geo_target_constant,Proximity_radius,Proximity_radius_units,Geo_name,Geo_target_type
+Merchant_Performance Max-1,LOCATION,False,geoTargetConstants/2804,,,Ukraine,Country
+Merchant_Shopping,LOCATION,False,geoTargetConstants/2804,,,Ukraine,Country
