@@ -408,6 +408,48 @@ enum-декодер) переиспользуется. `gads_campaign_settings.p
 — `Lost_IS_budget` близко к 0 означает, что поднимать дневной бюджет
 бессмысленно, даже если реальный расход намного ниже лимита.
 
+## Сверка звонков Ringostat vs конверсии Google Ads (ProfiMet)
+
+```
+python ringostat_stats_profimet.py --date-from 2026-08-01
+python gads_calls_stats_profimet.py --date-from 2026-08-01 --by-week
+```
+
+Диагностика разрыва "сколько звонков реально зафиксировал коллтрекинг" vs
+"сколько из них дошло до Google Ads как конверсия" — актуально в первую
+очередь для Performance Max, у которого атрибуция и так менее прозрачна, чем
+у Search (см. `gads_semantics.py`, ограничение `search_term_view` для PMax).
+Клиент-специфичные скрипты (customer_id ProfiMet и AUTH_KEY Ringostat
+захардкожены внутри, как и в их прод-аналогах) — НЕ трогают и не заменяют
+прод-пайплайн `E:/PythonProjects/RedBird/google-cloud-jobs/adwhite/func/
+ringostat_profimet2` и `gads_profimet_db`, это read-only копии для разовой
+диагностики этой конкретной задачи.
+
+`ringostat_stats_profimet.py` копирует методологию уникальности звонков 1:1
+из прод-скрипта `ringostat_profimet2` (единое множество caller по всем
+источникам сразу, история для подсчёта — с 2025-08-01, вне зависимости от
+`--date-from`), но в отличие от прод-версии не теряет `utm_campaign`/`pool_name`
+на этапе агрегации — без кампании нельзя сопоставить конкретно PMax.
+Обнаружено эмпирически (см. `Клиенты/ProfiMet/Решения.md`, запись
+2026-09-21): кампания в `utm_campaign` доступна только для звонков через
+динамический канал (переход на сайт, `Google CPC_dyn`) — у ProfiMet id
+кампании закодирован прямо в UTM (`pmax1_<id>_` для Performance Max,
+`s_<id>_search` для Search). Звонки статического канала (номер прямо в
+объявлении, пул `Google CPC calls from ads`) размечены в Ringostat
+искусственной меткой-заглушкой (`utm_campaign=calls_from_ads`) — кампанию
+для них Ringostat физически не знает, в отчёте они помечаются отдельной
+строкой, не путать с "источник не определён" по другой причине.
+
+`gads_calls_stats_profimet.py` тянет конверсии Google Ads по кампаниям,
+отфильтрованные только по conversion actions, которые физически являются
+звонком (найдены прямым запросом `conversion_action` к API 2026-09-21):
+`mocnaszklarnia.pl - GA4 (web) Ringostat_calls` (GA4-событие от Ringostat,
+которое клиент называет целью "Ringostat calls" — не прямой офлайн-импорт
+по номеру/gclid, а импорт из GA4) и связанные `..._static`/`call_static_server`
+(на практике за 2026-08-01+ конверсий не дают), плюс встроенный тип Google
+Ads `AD_CALL` ("Звонки по объявлениям") — отдельный от Ringostat механизм
+замера звонков по номеру в объявлении.
+
 ## Проверка подмены номера коллтрекинга
 
 ```
