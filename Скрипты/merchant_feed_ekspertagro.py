@@ -33,6 +33,7 @@ import argparse
 import json
 import re
 import sys
+from datetime import date
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -200,10 +201,14 @@ def build_xml(items):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
+    default_out = (
+        f"../Клиенты/EkspertAgro/Мерчант/Статистика/"
+        f"google_merchant_feed_{date.today().isoformat()}.xml"
+    )
     parser.add_argument(
         "--out",
-        default="../Клиенты/EkspertAgro/Мерчант/Статистика/google_merchant_feed_new.xml",
-        help="Путь для сохранения XML (по умолчанию — в Статистика/ клиента)",
+        default=default_out,
+        help="Путь для сохранения XML (по умолчанию — в Статистика/ клиента, с датой в имени)",
     )
     parser.add_argument(
         "--dump-json",
