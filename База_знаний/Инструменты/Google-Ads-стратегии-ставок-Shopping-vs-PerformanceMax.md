@@ -99,7 +99,18 @@ WHERE campaign.name = "..."
 
 ## Источники
 
-Официальная документация:
+Официальная документация — специфично про Shopping (основной источник,
+не общие статьи про биддинг вообще):
+- [About automated bidding for Shopping campaigns](https://support.google.com/google-ads/answer/6309029?hl=en) — перечисляет только Maximize Clicks и Target ROAS, Target CPA не упомянут
+- [Set up Maximize clicks for Standard Shopping campaigns](https://support.google.com/google-ads/answer/6309038?hl=en)
+- [Set up Target ROAS bidding for Shopping campaigns](https://support.google.com/google-ads/answer/6309035?hl=en)
+- Отдельного гайда "Set up Target CPA for Shopping campaigns" у Google
+  НЕТ — косвенное третье подтверждение (после скриншота кабинета и
+  профильных статей) отсутствия этой опции у Shopping.
+
+Официальная документация — общая про биддинг (описывает механику
+стратегий вообще, без привязки к типу кампании — источник неточности в
+первой версии этой страницы, см. урок выше):
 - [About Maximize conversions bidding](https://support.google.com/google-ads/answer/7381968?hl=en)
 - [About Maximize conversion value bidding](https://support.google.com/google-ads/answer/7684216?hl=en)
 - [Determine a bid strategy based on your goals](https://support.google.com/google-ads/answer/2472725?hl=en)
@@ -107,7 +118,6 @@ WHERE campaign.name = "..."
 - [About Target ROAS bidding](https://support.google.com/google-ads/answer/6268637?hl=en)
 - [About Target CPA bidding](https://support.google.com/google-ads/answer/6268632?hl=en)
 - [FAQ: changes to Target-based bid strategies](https://support.google.com/google-ads/answer/17125145?hl=en)
-- [About automated bidding for Shopping campaigns](https://support.google.com/google-ads/answer/6309029?hl=en)
 
 Профильные PPC-источники (подтверждают отсутствие Target CPA у Shopping):
 - [The Best Google Shopping Bid Strategy and Tips to Boost ROAS — megadigital](https://megadigital.ai/en/blog/google-shopping-bid-strategy/)
