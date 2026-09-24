@@ -83,6 +83,32 @@ updated: 2026-09-07
    - **Automatically created assets** — выключить. Если оставить включённым,
      Google будет автоматически "сканировать" сайт и генерировать текстовые
      и графические объявления, что противоречит цели feed-only.
+   - **Проверено на практике (2026-09-24, EkspertAgro — Мерчант, кампания
+     `shop_pmax`) через Google Ads API**: в интерфейсе один переключатель
+     "Automatically created assets" на самом деле раскладывается на
+     несколько независимых полей ресурса `campaign.asset_automation_settings`
+     (`AssetAutomationType`): `TEXT_ASSET_AUTOMATION`,
+     `GENERATE_IMAGE_ENHANCEMENT`, `GENERATE_IMAGE_EXTRACTION`,
+     `GENERATE_ENHANCED_YOUTUBE_VIDEOS`,
+     `FINAL_URL_EXPANSION_TEXT_ASSET_AUTOMATION` (плюс ещё несколько
+     значений enum, не встреченных заданными в этой кампании:
+     `GENERATE_VERTICAL_YOUTUBE_VIDEOS`, `GENERATE_SHORTER_YOUTUBE_VIDEOS`,
+     `GENERATE_LANDING_PAGE_PREVIEW`, `GENERATE_DESIGN_VERSIONS_FOR_IMAGES`,
+     `GENERATE_VIDEOS_FROM_OTHER_ASSETS`). У `shop_pmax` все пять
+     встреченных типов стоят в `OPTED_OUT` — то есть настройка из шага 5
+     была применена верно. Проверить конкретную кампанию можно запросом
+     `SELECT campaign.asset_automation_settings FROM campaign WHERE
+     campaign.name = "..."` (поле есть прямо на ресурсе `campaign`, не
+     отдельный ресурс/отчёт).
+   - **Важный вывод из этой проверки:** показы Performance Max на YouTube
+     при полностью выключенной автогенерации — это НЕ обязательно "утечка"
+     через авто-креативы с сайта. Раз вся автогенерация выключена, а показы
+     на YouTube всё равно есть — источник этих показов, вероятнее всего,
+     чистый Shopping/товарный инвентарь в видео-формате (Google может
+     показывать товарные карточки в некоторых плейсментах YouTube без
+     генерации отдельного креатива с сайта), либо остаточный автотаргетинг
+     самого PMax по сетям, который в принципе нельзя отключить (см. риски
+     ниже). Не путать эти два разных источника при диагностике утечек.
 
 6. **Listing group (группа товаров).** Настроить, какие именно товары из
    фида участвуют в кампании — это особенно важно, т.к. практически весь
