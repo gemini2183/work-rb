@@ -183,18 +183,97 @@ def fetch_feed_sizes(ga_service, customer_id, campaign, date_from, date_to):
     return sizes, titles
 
 
+# Регрессионные случаи для разбора размера — накоплены по реальным данным
+# EkspertAgro и явным вопросам пользователя о вариантах написания (пробелы
+# вокруг "x" в любом сочетании, слитно/раздельно, кириллица, суффикс m/м,
+# профиль трубы и толщина в мм как ложные срабатывания). Любая правка
+# _SIZE_WITH_UNIT_RE/_SIZE_ANY_RE/_SPACED_DECIMAL_RE должна проходить
+# `--self-test` целиком, не только на паттерне, который правился — история
+# этого файла (см. Инфраструктура.md, запись 2026-09-24) уже показала, что
+# фикс одного случая молча ломает другой (backtracking, отсутствие \b перед
+# слитным суффиксом).
+_SELF_TEST_CASES = [
+    ("szklarnia 3 x 6", "3x6"),
+    ("szklarnia 3x 6", "3x6"),
+    ("szklarnia 3 x6", "3x6"),
+    ("szklarnia 3x6", "3x6"),
+    ("szklarnia 3x6m", "3x6"),
+    ("szklarnia 3 x6 m", "3x6"),
+    ("szklarnia 3 x6m", "3x6"),
+    ("szklarnia 3x 6m", "3x6"),
+    ("szklarnia 3x 6 m", "3x6"),
+    ("szklarnia 3 x 6m", "3x6"),
+    ("szklarnia 3 x 6 m", "3x6"),
+    ("szklarnia 3x6M", "3x6"),
+    ("szklarnia z poliwęglanu 2x3", "2x3"),
+    ("szklarnia z poliwęglanu 2 x 3", "2x3"),
+    ("szklarnia z poliwęglanu 3х6", "3x6"),  # кириллическая х
+    ("szklarnia 2,5 x 4", "2.5x4"),
+    ("szklarnia 2,5x 4", "2.5x4"),
+    ("szklarnia 2,5 x4", "2.5x4"),
+    ("szklarnia 2,5x4m", "2.5x4"),
+    ("szklarnia 2 5x4", "2.5x4"),  # пробел вместо точки
+    ("szklarnia 3 5x6", "3.5x6"),
+    ("szklarnia 2 5 x 3", "2.5x3"),
+    ("szklarnia 1 5x2", "1.5x2"),
+    ("szklarnia 3x6 producent", "3x6"),
+    ("szklarnia 3x6мм", None),  # толщина, не размер (кириллица)
+    ("szklarnia 3x6mm", None),  # толщина, не размер (латиница)
+    ("теплица своими руками из бруска 50х50 мм", None),
+    ("поликарбонат для теплиц 4 мм", None),
+    ("поликарбонат для теплиц 4мм", None),
+]
+
+_SELF_TEST_TITLE_CASES = [
+    ("Szklarnia Ekspert Tunel 40×20 3x2m z poliwęglanem 4mm", "3x2"),
+    ("Szklarnia Kompakt Ekspert Tunel 40x20 2,5x2m z poliwęglanem 6mm", "2.5x2"),
+    ("Ramka Ekspert Ogrodowa 40x100x196 cm", None),
+    ("Listwa uszczelniająca 4-6 mm PROFIL U 210cm", None),
+    ("Szklarnia Domek NORDIS 2,5x4m profil 40x20mm ścianka 1 mm z poliwęglanem 6mm", "2.5x4"),
+]
+
+
+def run_self_test() -> bool:
+    all_ok = True
+    print("=== extract_size_from_term ===")
+    for text, expected in _SELF_TEST_CASES:
+        got = extract_size_from_term(text)
+        ok = got == expected
+        all_ok &= ok
+        print(f"{'OK' if ok else 'FAIL':5} {text!r:55} got={got!r:10} expected={expected!r}")
+
+    print("\n=== extract_size_from_title ===")
+    for text, expected in _SELF_TEST_TITLE_CASES:
+        got = extract_size_from_title(text)
+        ok = got == expected
+        all_ok &= ok
+        print(f"{'OK' if ok else 'FAIL':5} {text!r:75} got={got!r:10} expected={expected!r}")
+
+    print(f"\n{'ВСЕ ТЕСТЫ ПРОШЛИ' if all_ok else 'ЕСТЬ ПРОВАЛЕННЫЕ ТЕСТЫ'}")
+    return all_ok
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--self-test", action="store_true", help="Прогнать регрессионные тесты разбора размера (без обращения к API) и выйти")
     ap.add_argument("--client", help="Значение колонки 'client' на вкладке Google_Ads_API (альтернатива --customer-id)")
     ap.add_argument("--customer-id", help="customer_id напрямую (с дефисами или без) — если клиент не заведён в таблице")
-    ap.add_argument("--client-folder", required=True, help='Папка клиента в Клиенты/, напр. "EkspertAgro/Мерчант"')
-    ap.add_argument("--campaign", required=True, help="Точное название Shopping-кампании в Поиске")
+    ap.add_argument("--client-folder", help='Папка клиента в Клиенты/, напр. "EkspertAgro/Мерчант" (не нужен с --self-test)')
+    ap.add_argument("--campaign", help="Точное название Shopping-кампании в Поиске (не нужен с --self-test)")
     ap.add_argument("--days", type=int, default=30)
     ap.add_argument("--date-from", help="YYYY-MM-DD, переопределяет --days")
     ap.add_argument("--date-to", help="YYYY-MM-DD, по умолчанию вчера")
     ap.add_argument("--min-cost", type=float, default=0.0, help="Показать в сводке только размеры-сироты с расходом от этой суммы (PLN и т.п., валюта аккаунта)")
     ap.add_argument("--show-zero-clicks", action="store_true", help="Включить в сводку размеры-сироты с 0 кликов (обычно случайный текстовый шум вроде толщины поликарбоната в мм) — по умолчанию скрыты")
     args = ap.parse_args()
+
+    if args.self_test:
+        import sys
+        sys.exit(0 if run_self_test() else 1)
+
+    if not args.client_folder or not args.campaign:
+        print("Нужны --client-folder и --campaign (или используйте --self-test без них)")
+        return
 
     if args.customer_id:
         customer_id = args.customer_id.replace("-", "").strip()

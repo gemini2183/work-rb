@@ -583,6 +583,10 @@ python gads_shopping_size_gap_monitor.py --customer-id 882-613-4558 \
 
 python gads_shopping_size_gap_monitor.py --client "Клиент - Google Ads" \
     --client-folder "Клиент" --campaign "Merchant_Shopping" --days 14
+
+# Прогнать регрессионные тесты разбора размера (без обращения к API) —
+# после любой правки regex в скрипте
+python gads_shopping_size_gap_monitor.py --self-test
 ```
 
 Общий инструмент (не завязан на EkspertAgro) для регулярного контроля
