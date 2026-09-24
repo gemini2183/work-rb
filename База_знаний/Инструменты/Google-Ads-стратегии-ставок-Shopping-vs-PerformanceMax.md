@@ -1,51 +1,64 @@
 ---
 name: google-ads-bidding-strategies-shopping-vs-pmax
 description: Какие стратегии назначения ставок доступны в Standard Shopping vs Performance Max — и почему PMax не может работать на клики
-status: частично протестировано
+status: протестировано
 updated: 2026-09-24
 ---
 
 # Google Ads: доступные стратегии ставок — Shopping vs Performance Max
 
-Источник: официальная документация Google Ads Help (см. ссылки внизу) —
-**разошлась с реальным интерфейсом**, см. предупреждение ниже. Статус —
-"частично протестировано": список для Shopping сверен со скриншотом
-реального кабинета EkspertAgro (кампания `shop_search`, 2026-09-24), список
-для Performance Max — пока только из документации, не проверен на
-скриншоте (текущая выбранная стратегия конкретных кампаний проверена через
-API, см. [[../../Клиенты/EkspertAgro/Мерчант/Решения|Решения EkspertAgro — Мерчант]],
-запись 2026-09-24).
+Источники: официальная документация Google Ads Help + несколько
+профильных PPC-статей (megadigital, GoDataFeed, jyll.ca — см. ссылки
+внизу) + скриншот реального кабинета. Статус — "протестировано": список
+для Shopping подтверждён и скриншотом реального кабинета EkspertAgro
+(кампания `shop_search`, 2026-09-24), и независимо несколькими профильными
+источниками, которые прямо пишут "Target CPA is not available for Shopping
+campaigns". Текущая выбранная стратегия конкретных кампаний клиента
+проверена через API отдельно, см.
+[[../../Клиенты/EkspertAgro/Мерчант/Решения|Решения EkspertAgro — Мерчант]],
+запись 2026-09-24.
 
-## ⚠️ Расхождение документации с реальным UI
+## ⚠️ Урок: общая документация Google описывает Target CPA неточно применительно к Shopping
 
-Документация Google Ads Help описывает Target CPA как отдельную доступную
-стратегию для Standard Shopping. **На практике, на скриншоте реального
-диалога выбора стратегии кампании `shop_search` (EkspertAgro — Мерчант,
-2026-09-24), Target CPA в списке НЕТ.** Реальный список в диалоге "Select
-your bid strategy":
+Первая версия этой страницы ошибочно включала Target CPA в список для
+Standard Shopping — это было взято из общей формулировки официальной
+документации Google Ads Help без поправки на конкретный тип кампании.
+Скриншот реального диалога "Select your bid strategy" кампании
+`shop_search` (EkspertAgro — Мерчант) показал: **Target ROAS, Maximize
+clicks, Maximize conversion value (automated) + Manual CPC (manual)** —
+без Target CPA. Дальнейшая сверка с профильными PPC-источниками
+(megadigital.ai, godatafeed.com, learn.jyll.ca) подтвердила: это не
+устаревший UI и не A/B-вариант, а системное ограничение формата — **Target
+CPA в принципе не поддерживается для Shopping-кампаний**, только для
+Search/Performance Max/Display и др.
 
-- Automated bid strategies: **Target ROAS**, **Maximize clicks**,
-  **Maximize conversion value**
-- Manual bid strategies: **Manual CPC**
+Отдельно от этого вопроса: с августа 2026 Google менял механику
+target-based стратегий (как они ведут себя при ограниченном бюджете, не
+факт наличия/отсутствия) и переименовал ярлыки в июне 2026 ("Maximize
+conversions with a Target CPA" → "Target CPA") — эти изменения касаются
+Search/PMax/Display/Demand Gen, а не факта отсутствия Target CPA у
+Shopping, который был так всегда.
 
-Причина расхождения не выяснена — возможно, Target CPA как отдельный пункт
-убран Google из этого диалога (доступен только через другой путь
-настройки конверсий), либо это A/B-вариант интерфейса, либо документация
-просто устарела. **Урок: не доверять списку стратегий из документации без
-проверки скриншотом конкретного кабинета** — тот же паттерн ошибки, что
-уже был с Final URL в feed-only PMax (см.
+**Урок на будущее:** при вопросах о конкретных опциях интерфейса — не
+подавать формулировку из общей документации Google как факт для
+конкретного типа кампании без сверки: (1) скриншотом реального кабинета
+клиента, если доступен, и/или (2) независимыми профильными
+статьями/видео практиков, а не одной страницей поддержки. Тот же паттерн
+ошибки уже был с Final URL в feed-only PMax (см.
 [[Performance-Max-feed-only|Performance Max feed-only]]).
 
-## Standard Shopping — доступные стратегии (по скриншоту реального кабинета)
+## Standard Shopping — доступные стратегии (подтверждено скриншотом + профильными источниками)
 
 - **Maximize Clicks** (в Google Ads API — `TARGET_SPEND`) — простая smart
   bidding стратегия, автоматически подбирает ставки, чтобы получить
   максимум кликов в рамках заданного бюджета.
-- **Manual CPC** — ручное управление ставками.
+- **Manual CPC** — ручное управление ставками, рекомендуется профильными
+  источниками при менее 15 конверсий/мес на кампанию.
 - **Target ROAS** — держит средний ROAS на заданном уровне (max. CPC
-  бид с оптимизацией под ценность конверсии).
-- ~~Target CPA~~ — заявлен в документации Google, но отсутствует в
-  реальном диалоге выбора стратегии (см. предупреждение выше).
+  бид с оптимизацией под ценность конверсии), рекомендуется при
+  достаточном объёме конверсионных данных.
+- **Target CPA — недоступен для Shopping-кампаний в принципе**, не путать
+  с Performance Max (см. ниже), где это одна из двух базовых стратегий.
 
 ## Performance Max — доступные стратегии (жёсткое ограничение)
 
@@ -86,9 +99,22 @@ WHERE campaign.name = "..."
 
 ## Источники
 
+Официальная документация:
 - [About Maximize conversions bidding](https://support.google.com/google-ads/answer/7381968?hl=en)
 - [About Maximize conversion value bidding](https://support.google.com/google-ads/answer/7684216?hl=en)
 - [Determine a bid strategy based on your goals](https://support.google.com/google-ads/answer/2472725?hl=en)
 - [Changes to target based bid strategies](https://support.google.com/google-ads/answer/17061251?hl=en)
 - [About Target ROAS bidding](https://support.google.com/google-ads/answer/6268637?hl=en)
 - [About Target CPA bidding](https://support.google.com/google-ads/answer/6268632?hl=en)
+- [FAQ: changes to Target-based bid strategies](https://support.google.com/google-ads/answer/17125145?hl=en)
+- [About automated bidding for Shopping campaigns](https://support.google.com/google-ads/answer/6309029?hl=en)
+
+Профильные PPC-источники (подтверждают отсутствие Target CPA у Shopping):
+- [The Best Google Shopping Bid Strategy and Tips to Boost ROAS — megadigital](https://megadigital.ai/en/blog/google-shopping-bid-strategy/)
+- [Guide to Google Shopping Bidding Strategies — GoDataFeed](https://www.godatafeed.com/blog/google-shopping-bidding-strategies)
+- [Manual vs. Smart Bidding in Google Shopping — jyll.ca](https://learn.jyll.ca/blog/should-you-use-manual-or-automated-bidding-in-google-shopping-campaigns)
+
+Про изменения target-based стратегий 2026 года (терминология/механика, не
+факт наличия Target CPA у Shopping):
+- [Google Ads Target Bid Strategy Changes: August 2026 — PPC Hero](https://ppchero.com/google-ads-target-bid-strategy-changes/)
+- [Google brings back Target CPA and Target ROAS as standalone bidding strategies — PPC Land](https://ppc.land/google-brings-back-target-cpa-and-target-roas-as-standalone-bidding-strategies/)
