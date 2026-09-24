@@ -1306,7 +1306,7 @@
 2026-09-04,mini szklarnia ogrodowa,5,0,0.0,0.0,,
 2026-09-04,mini szklarnia poliwęglan,3,0,0.0,0.0,,
 2026-09-04,mini tunel foliowy,1,0,0.0,0.0,,
-2026-09-04,mirpol szklarnia ogrodowa 2x3x2,1,0,0.0,0.0,2x3,False
+2026-09-04,mirpol szklarnia ogrodowa 2x3x2,1,0,0.0,0.0,3x2,True
 2026-09-04,mocna folia na szklarnie,2,0,0.0,0.0,,
 2026-09-04,mocna folia ogrodowa,2,0,0.0,0.0,,
 2026-09-04,mocna szklarnia,3,0,0.0,0.0,,
@@ -11890,7 +11890,7 @@
 2026-09-20,tunel ogrodowy olx,5,0,0.0,0.0,,
 2026-09-20,tunel ogrodowy plonos,1,0,0.0,0.0,,
 2026-09-20,tunel ogrodowy poliwęglan,2,0,0.0,0.0,,
-2026-09-20,tunel ogrodowy szklarniowy 400x250x200m,2,0,0.0,0.0,400x250,False
+2026-09-20,tunel ogrodowy szklarniowy 400x250x200m,2,0,0.0,0.0,250x200,False
 2026-09-20,tunel ogrodowy wyprzedaż,18,1,1.36,0.0,,
 2026-09-20,tunel ogrodowy z poliwęglanu,7,1,0.81,0.0,,
 2026-09-20,tunel ogrodowy z poliwęglanu 3x4,5,1,1.37,0.0,3x4,True
