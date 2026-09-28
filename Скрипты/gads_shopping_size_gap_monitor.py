@@ -82,12 +82,25 @@ _SIZE_ANY_RE = re.compile(
 # действительно существуют в ассортименте, а "5" как отдельная целая ширина
 # ни разу не встречена в данных. \b после "5" не работает как граница перед
 # "x" (обе части \w) — поэтому вместо lookahead на \b здесь явно требуем
-# "x"/"х" следующим символом.
-_SPACED_DECIMAL_RE = re.compile(r"\b(\d)\s+5(?=\s*[xх])", re.IGNORECASE)
+# "x"/"х" следующим символом. Симметричный случай — дробная ВТОРАЯ часть
+# ("szklarnia 2 5x2 5" = "2.5x2.5", обе стороны дробные): после "x N" идёт
+# "5" отдельным токеном в конце слова, без "x" следом (там уже конец текста
+# или граница слова) — нашлось эмпирически на реальном запросе "szklarnia
+# 2 5x2 5" (25.09.2026, ad_group 2x4 в shop_search), где старое правило
+# схлопывало только первую половину ("2.5x2 5" -> распознавалось как
+# "2.5x2", молча теряя вторую дробную часть и ложно совпадая с реально
+# существующим в фиде размером 2.5x2). Используем lookbehind на "x N",
+# т.к. lookbehind в Python требует фиксированной длины — раскладываем на
+# отдельный паттерн по цифре-разделителю перед "5", а не пытаемся обобщить
+# в одно выражение с первым правилом.
+_SPACED_DECIMAL_BEFORE_RE = re.compile(r"\b(\d)\s+5(?=\s*[xх])", re.IGNORECASE)
+_SPACED_DECIMAL_AFTER_RE = re.compile(r"(?<=[xх])\s*(\d)\s+5\b", re.IGNORECASE)
 
 
 def _join_spaced_decimals(text: str) -> str:
-    return _SPACED_DECIMAL_RE.sub(r"\1.5", text)
+    text = _SPACED_DECIMAL_BEFORE_RE.sub(r"\1.5", text)
+    text = _SPACED_DECIMAL_AFTER_RE.sub(r"\1.5", text)
+    return text
 
 
 def _strip_trailing_zeros(n: str) -> str:
@@ -216,6 +229,12 @@ _SELF_TEST_CASES = [
     ("szklarnia 3 5x6", "3.5x6"),
     ("szklarnia 2 5 x 3", "2.5x3"),
     ("szklarnia 1 5x2", "1.5x2"),
+    # Обе части дробные, пробел вместо точки в ОБЕИХ — реальный запрос
+    # "szklarnia 2 5x2 5" (2026-09-28, ad_group 2x4 в shop_search) молча
+    # терял вторую дробную часть и ложно совпадал с существующим в фиде
+    # 2.5x2, вместо реального отсутствующего в каталоге 2.5x2.5.
+    ("szklarnia 2 5x2 5", "2.5x2.5"),
+    ("szklarnia 2x2 5", "2x2.5"),  # дробная только вторая часть
     ("szklarnia 3x6 producent", "3x6"),
     ("szklarnia 3x6мм", None),  # толщина, не размер (кириллица)
     ("szklarnia 3x6mm", None),  # толщина, не размер (латиница)
@@ -264,7 +283,7 @@ def main():
     ap.add_argument("--date-from", help="YYYY-MM-DD, переопределяет --days")
     ap.add_argument("--date-to", help="YYYY-MM-DD, по умолчанию вчера")
     ap.add_argument("--min-cost", type=float, default=0.0, help="Показать в сводке только размеры-сироты с расходом от этой суммы (PLN и т.п., валюта аккаунта)")
-    ap.add_argument("--show-zero-clicks", action="store_true", help="Включить в сводку размеры-сироты с 0 кликов (обычно случайный текстовый шум вроде толщины поликарбоната в мм) — по умолчанию скрыты")
+    ap.add_argument("--hide-zero-impressions", action="store_true", help="Скрыть из сводки размеры-сироты без единого показа (по умолчанию показаны все, включая 0 кликов — только 0 кликов НЕ значит 0 показов/сигнала)")
     args = ap.parse_args()
 
     if args.self_test:
@@ -325,12 +344,12 @@ def main():
         return
 
     orphan_agg = orphans.groupby("size").agg(
-        clicks=("clicks", "sum"), cost=("cost", "sum"), conversions=("conversions", "sum")
+        impressions=("impressions", "sum"), clicks=("clicks", "sum"), cost=("cost", "sum"), conversions=("conversions", "sum")
     ).reset_index()
     orphan_agg["cost_per_conv"] = orphan_agg["cost"] / orphan_agg["conversions"]
-    orphan_agg = orphan_agg.sort_values("cost", ascending=False)
-    if not args.show_zero_clicks:
-        orphan_agg = orphan_agg[orphan_agg["clicks"] > 0]
+    orphan_agg = orphan_agg.sort_values("impressions", ascending=False)
+    if args.hide_zero_impressions:
+        orphan_agg = orphan_agg[orphan_agg["impressions"] > 0]
     orphan_agg = orphan_agg[orphan_agg["cost"] >= args.min_cost]
 
     print(f"\n=== РАЗМЕРЫ-СИРОТЫ (нет в фиде), расход от {args.min_cost} ===")

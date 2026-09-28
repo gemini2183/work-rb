@@ -158,7 +158,7 @@ def main():
     ap.add_argument("--date-to", help="YYYY-MM-DD, по умолчанию вчера")
     ap.add_argument("--no-save-state", action="store_true", help="Не обновлять файл состояния (для разового пересчёта без сдвига даты следующего запуска)")
     ap.add_argument("--exclude-ad-group", action="append", default=[], help="Название Ad Group, которую пропустить (можно повторять) — напр. общую 'all products'")
-    ap.add_argument("--show-zero-clicks", action="store_true", help="Включить в новые размеры и минус-фразы размеры с 0 кликов (обычно текстовый шум) — по умолчанию скрыты")
+    ap.add_argument("--hide-zero-impressions", action="store_true", help="Скрыть новые размеры без единого показа (по умолчанию показаны все — включая 0 кликов, т.к. 0 кликов не значит 0 показов/сигнала)")
     args = ap.parse_args()
 
     if args.customer_id:
@@ -225,17 +225,17 @@ def main():
     print(by_group.to_string())
 
     new_sizes_rows = sized[sized["in_feed"] == False]
-    if not args.show_zero_clicks:
-        new_sizes_rows = new_sizes_rows[new_sizes_rows["clicks"] > 0]
+    if args.hide_zero_impressions:
+        new_sizes_rows = new_sizes_rows[new_sizes_rows["impressions"] > 0]
     if new_sizes_rows.empty:
-        print("\nНовых размеров (вне фида) с реальными кликами за период не найдено ни в одной группе.")
+        print("\nНовых размеров (вне фида) за период не найдено ни в одной группе.")
         if not args.no_save_state:
             save_last_run_date(out_dir, args.campaign, date_to)
         return
 
     per_group_size = new_sizes_rows.groupby(["ad_group", "size"]).agg(
-        clicks=("clicks", "sum"), cost=("cost", "sum"), conversions=("conversions", "sum")
-    ).reset_index().sort_values(["ad_group", "cost"], ascending=[True, False])
+        impressions=("impressions", "sum"), clicks=("clicks", "sum"), cost=("cost", "sum"), conversions=("conversions", "sum")
+    ).reset_index().sort_values(["ad_group", "impressions"], ascending=[True, False])
 
     print("\n=== НОВЫЕ РАЗМЕРЫ (нет в фиде) по группам ===")
     print(per_group_size.to_string(index=False))
