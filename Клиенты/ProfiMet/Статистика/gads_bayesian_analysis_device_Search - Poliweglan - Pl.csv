@@ -1,0 +1,4 @@
+Slice,Weeks_of_data,Total_clicks,Total_conversions,Total_cost,Posterior_mean_CR,Trend,P_worse_by_delta,P_better_by_delta,Expected_wasted_spend,Verdict
+TABLET,8,36,0.0,16.99,0.0063,STRUCTURAL_BREAK,0.77,0.035,13.08,GREY_ZONE_WATCH_BAD
+MOBILE,8,2587,59.26,1436.97,0.0237,NOISE,0.0,0.0,0.14,WITHIN_NORMAL_RANGE
+DESKTOP,8,815,29.33,612.17,0.0362,NOISE,0.0,0.145,0.0,WITHIN_NORMAL_RANGE

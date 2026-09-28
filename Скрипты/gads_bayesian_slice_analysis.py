@@ -307,8 +307,19 @@ def main():
     total_conversions = float(df["Conversions"].sum())
     a0, b0 = campaign_prior(total_clicks, total_conversions, args.prior_strength)
     campaign_cr = total_conversions / total_clicks if total_clicks else 0.0
+
+    # Апостериор КАМПАНИИ (не prior!) — обновление prior всеми данными
+    # периода целиком. Срез сравнивается именно с этим апостериором, не с
+    # сырым prior a0/b0 — иначе сравнение "срез vs почти-ничего-не-знающее
+    # распределение" никогда не даёт высокую P, потому что обе стороны
+    # сравнения одинаково широки и близки друг к другу. Найдено и исправлено
+    # 2026-09-28 при первом прогоне на ProfiMet — P_worse/P_better были
+    # искусственно занижены для всех срезов из-за этой ошибки, см.
+    # Клиенты/ProfiMet/Решения.md.
+    a_campaign = a0 + total_conversions
+    b_campaign = b0 + (total_clicks - total_conversions)
     print(f"Кампания целиком: {total_clicks} кликов, {total_conversions:.2f} конв., CR={campaign_cr:.4f}, "
-          f"prior=Beta({a0:.2f},{b0:.2f})")
+          f"prior=Beta({a0:.2f},{b0:.2f}), апостериор кампании=Beta({a_campaign:.2f},{b_campaign:.2f})")
 
     results = []
     for slice_value, g in df.groupby("Slice"):
@@ -318,8 +329,8 @@ def main():
         a_last, b_last = posteriors[-1]
 
         trend = classify_trend(posteriors, args.min_weeks)
-        p_worse = prob_worse_by_delta(a_last, b_last, a0, b0, args.delta)
-        p_better = prob_better_by_delta(a_last, b_last, a0, b0, args.delta)
+        p_worse = prob_worse_by_delta(a_last, b_last, a_campaign, b_campaign, args.delta)
+        p_better = prob_better_by_delta(a_last, b_last, a_campaign, b_campaign, args.delta)
         total_cost = float(g["Cost"].sum())
         total_slice_clicks = int(g["Clicks"].sum())
         total_slice_conv = float(g["Conversions"].sum())
@@ -328,12 +339,23 @@ def main():
 
         # Итоговая рекомендация — Часть 2.6 п.6: действовать, только если и
         # порог P пройден, И тренд подтверждён (не INSUFFICIENT_HISTORY/NOISE).
+        # "Серая зона" (P в [action_threshold-0.2, action_threshold), тренд
+        # подтверждён) — отдельная категория GREY_ZONE_WATCH: сам метод не
+        # решает, действовать ли здесь — это явно поднимается на решение
+        # пользователя (Часть 3.0: при плане месяца под угрозой порог
+        # смягчается и такой срез уже может стать кандидатом на действие,
+        # при выполняющемся плане — оставляется под наблюдением).
+        grey_zone_low = max(args.action_threshold - 0.2, 0.5)
         if trend == "INSUFFICIENT_HISTORY":
             verdict = "NEED_MORE_DATA"
         elif p_worse >= args.action_threshold and trend in ("TREND_DOWN", "STRUCTURAL_BREAK"):
             verdict = "CANDIDATE_ACTION_BAD"
         elif p_better >= args.action_threshold and trend in ("TREND_UP", "STRUCTURAL_BREAK"):
             verdict = "CANDIDATE_ACTION_GOOD"
+        elif p_worse >= grey_zone_low and trend in ("TREND_DOWN", "STRUCTURAL_BREAK"):
+            verdict = "GREY_ZONE_WATCH_BAD"
+        elif p_better >= grey_zone_low and trend in ("TREND_UP", "STRUCTURAL_BREAK"):
+            verdict = "GREY_ZONE_WATCH_GOOD"
         elif p_worse >= args.action_threshold or p_better >= args.action_threshold:
             verdict = "WATCH_UNCONFIRMED_TREND"  # высокая P, но тренд не подтверждён/шум
         else:
@@ -361,10 +383,12 @@ def main():
     print(res_df.to_string(index=False))
     print(
         "\nVerdict: CANDIDATE_ACTION_BAD/GOOD = порог P пройден И тренд подтверждён (>= "
-        f"{args.min_weeks} нед.) | WATCH_UNCONFIRMED_TREND = высокая P, но тренд не "
-        "подтверждён (возможен шум/слишком мало истории) — наблюдать дальше, не "
-        "действовать | NEED_MORE_DATA = меньше --min-weeks недель истории | "
-        "WITHIN_NORMAL_RANGE = ничего не выделяется"
+        f"{args.min_weeks} нед.) — обычная зона действия | GREY_ZONE_WATCH_BAD/GOOD = "
+        "тренд подтверждён, но P ниже порога действия (серая зона Части 3.0 методологии) "
+        "— решение зависит от состояния KPI месяца, не от одной этой цифры | "
+        "WATCH_UNCONFIRMED_TREND = высокая P, но тренд не подтверждён (возможен шум) — "
+        "наблюдать дальше, не действовать | NEED_MORE_DATA = меньше --min-weeks недель "
+        "истории | WITHIN_NORMAL_RANGE = ничего не выделяется"
     )
 
 

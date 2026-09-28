@@ -408,6 +408,52 @@ enum-декодер) переиспользуется. `gads_campaign_settings.p
 — `Lost_IS_budget` близко к 0 означает, что поднимать дневной бюджет
 бессмысленно, даже если реальный расход намного ниже лимита.
 
+**Известный баг, исправленный 2026-09-28 (ProfiMet):** имя кампании с символом
+`|` (частое в этой вики, напр. "Search | Poliweglan | Pl") падало с `OSError
+[Errno 22] Invalid argument` при сохранении CSV в `gads_campaign_inventory.py`
+и других скриптах, где имя кампании шло в путь файла — старая санитизация
+делала только `.replace("/", "-")`, не трогая `|<>:"\?*` (запрещены Windows).
+Исправлено единой функцией `sanitize_filename()` в `_config.py`, подключена
+во все скрипты, где это нужно (`gads_campaign_inventory.py`, `gads_ads_dump.py`,
+`gads_ad_adapter.py`, `gads_campaign_builder.py`, `gads_geo_ad_group_builder.py`,
+`gads_pmax_asset_groups.py`) — новые скрипты с именем кампании в пути файла
+должны использовать её же, не изобретать локальный `.replace()`.
+
+## Байесовский анализ срезов Search-кампании (тренд vs шум, план/факт)
+
+```
+python gads_bayesian_slice_analysis.py --customer-id 7552781705 \
+    --client-folder "ProfiMet" --campaign "Search | Poliweglan | Pl" \
+    --slice-by ad_group --weeks 8
+
+python gads_bayesian_slice_analysis.py --customer-id 7552781705 \
+    --client-folder "ProfiMet" --campaign "Search | Poliweglan | Pl" \
+    --slice-by device --weeks 8
+```
+
+Реализация методологии
+`База_знаний/Паттерны/Google-Ads-Search-байесовский-анализ-срезов-и-рычагов.md`
+(Часть 2) — регулярный инструмент периодического аудита, не разовый скрипт.
+Для заданного среза (`--slice-by ad_group|device|dow`) считает **sequential
+Bayesian Beta-Binomial апостериор по неделям** (не по одному агрегату на весь
+период и не независимо по каждой неделе) с discount factor (затухание веса
+старых недель), сравнивает с апостериором кампании целиком (НЕ с prior — это
+была первая ошибка реализации 2026-09-28, из-за которой P никогда не
+поднималась выше ~0.3 ни для одного среза, см.
+`Клиенты/ProfiMet/Решения.md`), классифицирует тренд (`TREND_UP`/`TREND_DOWN`/
+`NOISE`/`STRUCTURAL_BREAK`/`INSUFFICIENT_HISTORY`) и выдаёт `Verdict`:
+`CANDIDATE_ACTION_BAD/GOOD` (порог P пройден И тренд подтверждён),
+`GREY_ZONE_WATCH_BAD/GOOD` (тренд подтверждён, P ниже порога — решение
+зависит от состояния KPI месяца, см. Часть 3.0 методологии, не считается тут
+автоматически), `WATCH_UNCONFIRMED_TREND` (высокая P, но тренд не
+подтверждён — возможен шум), `NEED_MORE_DATA`, `WITHIN_NORMAL_RANGE`.
+
+Параметры метода настраиваются флагами (`--prior-strength`, `--discount`,
+`--delta`, `--action-threshold`, `--min-weeks`) — значения по умолчанию не
+откалиброваны под конкретную нишу, это отправная точка, см. docstring
+скрипта. Скрипт только считает и выводит — никаких изменений в аккаунте сам
+не делает.
+
 ## Сверка звонков Ringostat vs конверсии Google Ads (ProfiMet)
 
 ```
