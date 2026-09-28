@@ -37,6 +37,20 @@ def _enum_name(enum_type_name: str, field_name: str, value: int) -> str:
     return enum_msg.DESCRIPTOR.enum_types_by_name[field_name].values_by_number[value].name
 
 
+_MINUTE_OF_HOUR = {"ZERO": 0, "FIFTEEN": 15, "THIRTY": 30, "FORTY_FIVE": 45}
+
+
+def _minute_of_hour(value: int) -> int:
+    """MinuteOfHourEnum -> реальные минуты. НЕ раскодировать умножением на 15 —
+    номера enum-значений (ZERO/FIFTEEN/THIRTY/FORTY_FIVE) не совпадают с их
+    порядковым индексом 0-3 (первые номера зарезервированы под UNSPECIFIED/
+    UNKNOWN), из-за чего сырое value*15 давало "минуты" вроде 75. Баг найден
+    2026-09-28 на ProfiMet, Search | Poliweglan | Pl (см. Клиенты/ProfiMet/
+    Решения.md)."""
+    name = _enum_name("MinuteOfHourEnum", "MinuteOfHour", value)
+    return _MINUTE_OF_HOUR.get(name, 0)
+
+
 def fetch_campaign_core(ga_service, customer_id, campaign_names=None):
     """Базовые настройки кампании -> DataFrame (одна строка на кампанию)."""
     query = """
@@ -207,8 +221,8 @@ def fetch_ad_schedule(ga_service, customer_id, campaign_names=None):
             rows.append({
                 "Campaign": row.campaign.name,
                 "Day": _enum_name("DayOfWeekEnum", "DayOfWeek", sch.day_of_week),
-                "Start": f"{sch.start_hour:02d}:{sch.start_minute * 15:02d}",
-                "End": f"{sch.end_hour:02d}:{sch.end_minute * 15:02d}",
+                "Start": f"{sch.start_hour:02d}:{_minute_of_hour(sch.start_minute):02d}",
+                "End": f"{sch.end_hour:02d}:{_minute_of_hour(sch.end_minute):02d}",
             })
 
     if not rows:
