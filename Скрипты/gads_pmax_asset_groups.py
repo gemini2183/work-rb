@@ -23,7 +23,7 @@ import argparse
 import pandas as pd
 from google.ads.googleads.client import GoogleAdsClient
 
-from _config import client_stats_dir, get_client_row
+from _config import client_stats_dir, get_client_row, sanitize_filename
 from gads_stats import GOOGLE_ADS_YAML, get_ads_service
 
 _ENUM_CLIENT = None
@@ -117,7 +117,7 @@ def main():
     pd.set_option("display.width", 200)
 
     for campaign_name in campaign_names:
-        safe_name = campaign_name.replace("/", "-").replace("\\", "-").strip()
+        safe_name = sanitize_filename(campaign_name)
         print(f"\n=== {campaign_name} ===")
 
         df_list = fetch_asset_groups_list(ga_service, customer_id, campaign_name)

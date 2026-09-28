@@ -52,3 +52,30 @@ def client_stats_dir(client_folder: str) -> Path:
     d = VAULT_ROOT / "Клиенты" / client_folder / "Статистика"
     d.mkdir(parents=True, exist_ok=True)
     return d
+
+
+_WINDOWS_FORBIDDEN_CHARS = '<>:"/\\|?*'
+
+
+def sanitize_filename(name: str) -> str:
+    """Имя кампании/объекта Google Ads -> безопасное для имени файла на Windows.
+
+    Windows запрещает символы <>:"/\\|?* в имени файла — заменяются на "-".
+    Раньше в разных скриптах это делалось по месту через .replace("/", "-"),
+    что пропускало "|" (частый символ в названиях кампаний, напр.
+    "Search | Poliweglan | Pl") и падало с OSError [Errno 22] при попытке
+    сохранить CSV. Найдено и исправлено 2026-09-28 на ProfiMet, см.
+    Клиенты/ProfiMet/Решения.md. Единая функция — чтобы не чинить один и тот
+    же баг по отдельности в каждом скрипте, где имя кампании идёт в путь файла.
+    """
+    result = name.strip()
+    for ch in _WINDOWS_FORBIDDEN_CHARS:
+        result = result.replace(ch, "-")
+    # Схлопнуть повторяющиеся "-" и пробелы, образовавшиеся после замены
+    # (напр. "Search | Poliweglan | Pl" -> "Search - Poliweglan - Pl", не
+    # "Search --- Poliweglan --- Pl").
+    while "  " in result:
+        result = result.replace("  ", " ")
+    while "--" in result:
+        result = result.replace("--", "-")
+    return result.strip(" -")

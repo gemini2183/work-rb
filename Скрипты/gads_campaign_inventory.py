@@ -22,7 +22,7 @@ import argparse
 import pandas as pd
 from google.ads.googleads.client import GoogleAdsClient
 
-from _config import client_stats_dir, get_client_row
+from _config import client_stats_dir, get_client_row, sanitize_filename as _sanitize_filename
 from gads_stats import GOOGLE_ADS_YAML, get_ads_service
 
 _ENUM_CLIENT = None
@@ -131,7 +131,7 @@ def main():
     campaign_names = [c.strip() for c in args.campaigns.split(",")]
 
     for campaign_name in campaign_names:
-        safe_name = campaign_name.replace("/", "-").strip()
+        safe_name = _sanitize_filename(campaign_name)
         print(f"\n=== {campaign_name} ===")
 
         df_kw = fetch_keywords(ga_service, customer_id, campaign_name)

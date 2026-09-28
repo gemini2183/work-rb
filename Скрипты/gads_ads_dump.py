@@ -16,7 +16,7 @@ import argparse
 
 from google.ads.googleads.client import GoogleAdsClient
 
-from _config import client_stats_dir
+from _config import client_stats_dir, sanitize_filename
 from gads_stats import GOOGLE_ADS_YAML, get_ads_service
 
 # ad_group_ad.status приходит из search_stream как int, не как объект с .name
@@ -271,7 +271,7 @@ def main():
     all_account_sitelinks = fetch_all_sitelink_assets(ga_service, customer_id)
 
     out_dir = client_stats_dir(args.client_folder)
-    safe_campaign = args.campaign.replace("/", "-").strip()
+    safe_campaign = sanitize_filename(args.campaign)
     out_path = out_dir / f"gads_ads_{safe_campaign}.md"
     out_path.write_text(
         render_markdown(args.campaign, ads, sitelinks_by_group, campaign_sitelinks,

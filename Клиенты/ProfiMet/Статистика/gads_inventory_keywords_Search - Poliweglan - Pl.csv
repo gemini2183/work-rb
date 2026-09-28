@@ -1,0 +1,172 @@
+Ad_group,Keyword,Match_type,Status
+cieplarnie z poliwęglanu,cieplarnie poliwęglanowe,BROAD,PAUSED
+cieplarnie z poliwęglanu,cieplarnie poliwęglanowe,PHRASE,ENABLED
+cieplarnie z poliwęglanu,cieplarnie z poliwęglanu,BROAD,PAUSED
+cieplarnie z poliwęglanu,cieplarnie z poliwęglanu,PHRASE,ENABLED
+cieplarnie z poliwęglanu,szklarnia,BROAD,ENABLED
+cieplarnie z poliwęglanu,szklarnie,BROAD,ENABLED
+mala szklarnia z poliweglanu,mala szklarnia z poliweglanu,BROAD,ENABLED
+mala szklarnia z poliweglanu,mala szklarnia z poliweglanu,PHRASE,ENABLED
+mala szklarnia z poliweglanu,szklarnie z poliwęglanu,EXACT,ENABLED
+namioty z poliwęglanu,namioty poliwęglanowe,PHRASE,ENABLED
+namioty z poliwęglanu,namioty poliwęglanowe,BROAD,PAUSED
+namioty z poliwęglanu,namioty z poliwęglanu,PHRASE,ENABLED
+namioty z poliwęglanu,namioty z poliwęglanu,BROAD,PAUSED
+namioty z poliwęglanu,szklarnia,BROAD,ENABLED
+namioty z poliwęglanu,szklarnie,BROAD,ENABLED
+szklarnie z poliwęglanu [exact],szklarnia z poliwęglanu,EXACT,ENABLED
+szklarnie z poliwęglanu [exact],szklarnia z poliwęglanu,BROAD,PAUSED
+szklarnie z poliwęglanu [exact],szklarnie poliweglanowe,EXACT,ENABLED
+szklarnie z poliwęglanu [exact],szklarnie poliweglanowe,BROAD,PAUSED
+szklarnie z poliwęglanu [phrase],szklarnie ogrodowe poliwęglan,BROAD,PAUSED
+szklarnie z poliwęglanu [phrase],szklarnie ogrodowe poliwęglan,PHRASE,ENABLED
+szklarnie z poliwęglanu [phrase],szklarnie ogrodowe z poliwęglanu,PHRASE,ENABLED
+szklarnie z poliwęglanu [phrase],szklarnie ogrodowe z poliwęglanu,BROAD,PAUSED
+szklarnie z poliwęglanu [phrase],szklarnie poliweglanowe,PHRASE,ENABLED
+szklarnie z poliwęglanu [phrase],szklarnie poliweglanowe,BROAD,PAUSED
+szklarnie z poliwęglanu [phrase],szklarnie z poliweglanu,BROAD,PAUSED
+szklarnie z poliwęglanu [phrase],szklarnie z poliweglanu,PHRASE,ENABLED
+szklarnie z poliwęglanu [phrase],szklarnie z poliwęglanu,EXACT,ENABLED
+szklarnie z poliwęglanu producent,szklarnie poliwęglanowe producent,BROAD,PAUSED
+szklarnie z poliwęglanu producent,szklarnie poliwęglanowe producent,PHRASE,ENABLED
+szklarnie z poliwęglanu producent,szklarnie z poliwęglanu producent,PHRASE,ENABLED
+szklarnie z poliwęglanu producent,szklarnie z poliwęglanu producent,BROAD,PAUSED
+tunele z poliwęglanu,szklarnia,BROAD,ENABLED
+tunele z poliwęglanu,szklarnie,BROAD,ENABLED
+tunele z poliwęglanu,tunele ogrodnicze z poliwęglanu,BROAD,PAUSED
+tunele z poliwęglanu,tunele ogrodnicze z poliwęglanu,PHRASE,ENABLED
+tunele z poliwęglanu,tunele ogrodowe poliwęglanowe,BROAD,PAUSED
+tunele z poliwęglanu,tunele ogrodowe poliwęglanowe,PHRASE,ENABLED
+tunele z poliwęglanu,tunele ogrodowe z poliwęglanu,BROAD,PAUSED
+tunele z poliwęglanu,tunele ogrodowe z poliwęglanu,PHRASE,ENABLED
+tunele z poliwęglanu,tunele poliwęglanowe,PHRASE,ENABLED
+tunele z poliwęglanu,tunele poliwęglanowe,BROAD,PAUSED
+tunele z poliwęglanu,tunele z poliwęglanu,BROAD,PAUSED
+tunele z poliwęglanu,tunele z poliwęglanu,PHRASE,ENABLED
+wymiary | poliwęglan 2 5х4,szklarnia z poliwęglanu 2 5x4m,BROAD,ENABLED
+wymiary | poliwęglan 2 5х4,szklarnia z poliwęglanu 2 5x4m,PHRASE,ENABLED
+wymiary | poliwęglan 2 5х4,szklarnie poliwęglanowe 2 5x4,BROAD,ENABLED
+wymiary | poliwęglan 2 5х4,szklarnie poliwęglanowe 2 5x4,PHRASE,ENABLED
+wymiary | poliwęglan 2 5х4,szklarnie z poliwęglanu,EXACT,ENABLED
+wymiary | poliwęglan 2 5х4,szklarnie z poliwęglanu 2 5x4,BROAD,ENABLED
+wymiary | poliwęglan 2 5х4,szklarnie z poliwęglanu 2 5x4,PHRASE,ENABLED
+wymiary | poliwęglan 2 5х4,szklarnie z poliwęglanu 2 5x4 producent,BROAD,ENABLED
+wymiary | poliwęglan 2 5х4,szklarnie z poliwęglanu 2 5x4 producent,PHRASE,ENABLED
+wymiary | poliwęglan 2 5х4,tunele z poliwęglanu 2 5x4,BROAD,ENABLED
+wymiary | poliwęglan 2 5х4,tunele z poliwęglanu 2 5x4,PHRASE,ENABLED
+wymiary | poliwęglan 2 5х4,tunele z poliwęglanu 2 5x4m,BROAD,ENABLED
+wymiary | poliwęglan 2 5х4,tunele z poliwęglanu 2 5x4m,PHRASE,ENABLED
+wymiary | poliwęglan 2х3,szklarnia z poliwęglanu 2x3m,PHRASE,REMOVED
+wymiary | poliwęglan 2х3,szklarnie poliwęglanowe 2x3,PHRASE,PAUSED
+wymiary | poliwęglan 2х3,szklarnie poliwęglanowe 2x3,BROAD,PAUSED
+wymiary | poliwęglan 2х3,szklarnie z poliwęglanu 2x3,PHRASE,PAUSED
+wymiary | poliwęglan 2х3,szklarnie z poliwęglanu 2x3,BROAD,PAUSED
+wymiary | poliwęglan 2х3,szklarnie z poliwęglanu 2x3 producent,PHRASE,PAUSED
+wymiary | poliwęglan 2х3,szklarnie z poliwęglanu 2x3 producent,BROAD,PAUSED
+wymiary | poliwęglan 2х3,szklarnie z poliwęglanu 2x3 z montażem,PHRASE,PAUSED
+wymiary | poliwęglan 2х3,szklarnie z poliwęglanu 2x3 z montażem,BROAD,PAUSED
+wymiary | poliwęglan 2х3,tunele z poliwęglanu 2x3,PHRASE,REMOVED
+wymiary | poliwęglan 2х3,tunele z poliwęglanu 2x3,BROAD,REMOVED
+wymiary | poliwęglan 2х3,tunele z poliwęglanu 2x3m,PHRASE,PAUSED
+wymiary | poliwęglan 2х3,tunele z poliwęglanu 2x3m,BROAD,PAUSED
+wymiary | poliwęglan 2х4,szklarnia z poliwęglanu 2x4m,PHRASE,ENABLED
+wymiary | poliwęglan 2х4,szklarnia z poliwęglanu 2x4m,BROAD,ENABLED
+wymiary | poliwęglan 2х4,szklarnie poliwęglanowe 2x4,PHRASE,ENABLED
+wymiary | poliwęglan 2х4,szklarnie poliwęglanowe 2x4,BROAD,PAUSED
+wymiary | poliwęglan 2х4,szklarnie z poliwęglanu 2x4,BROAD,PAUSED
+wymiary | poliwęglan 2х4,szklarnie z poliwęglanu 2x4,PHRASE,ENABLED
+wymiary | poliwęglan 2х4,szklarnie z poliwęglanu 2x4 producent,PHRASE,ENABLED
+wymiary | poliwęglan 2х4,szklarnie z poliwęglanu 2x4 producent,BROAD,PAUSED
+wymiary | poliwęglan 2х4,szklarnie z poliwęglanu 2x4 z montażem,PHRASE,PAUSED
+wymiary | poliwęglan 2х4,szklarnie z poliwęglanu 2x4 z montażem,BROAD,PAUSED
+wymiary | poliwęglan 2х4,tunele z poliwęglanu 2x4,PHRASE,ENABLED
+wymiary | poliwęglan 2х4,tunele z poliwęglanu 2x4,BROAD,ENABLED
+wymiary | poliwęglan 2х4,tunele z poliwęglanu 2x4m,PHRASE,ENABLED
+wymiary | poliwęglan 2х4,tunele z poliwęglanu 2x4m,BROAD,PAUSED
+wymiary | poliwęglan 3х2,szklarnia z poliwęglanu 3x2m,PHRASE,ENABLED
+wymiary | poliwęglan 3х2,szklarnia z poliwęglanu 3x2m,BROAD,PAUSED
+wymiary | poliwęglan 3х2,szklarnie poliwęglanowe 3x2,PHRASE,PAUSED
+wymiary | poliwęglan 3х2,szklarnie poliwęglanowe 3x2,BROAD,PAUSED
+wymiary | poliwęglan 3х2,szklarnie z poliwęglanu 3x2,PHRASE,ENABLED
+wymiary | poliwęglan 3х2,szklarnie z poliwęglanu 3x2,BROAD,ENABLED
+wymiary | poliwęglan 3х2,szklarnie z poliwęglanu 3x2 producent,PHRASE,ENABLED
+wymiary | poliwęglan 3х2,szklarnie z poliwęglanu 3x2 producent,BROAD,PAUSED
+wymiary | poliwęglan 3х2,szklarnie z poliwęglanu 3x2 z montażem,PHRASE,PAUSED
+wymiary | poliwęglan 3х2,szklarnie z poliwęglanu 3x2 z montażem,BROAD,PAUSED
+wymiary | poliwęglan 3х2,tunele z poliwęglanu 3x2,PHRASE,ENABLED
+wymiary | poliwęglan 3х2,tunele z poliwęglanu 3x2,BROAD,PAUSED
+wymiary | poliwęglan 3х2,tunele z poliwęglanu 3x2m,PHRASE,ENABLED
+wymiary | poliwęglan 3х2,tunele z poliwęglanu 3x2m,BROAD,PAUSED
+wymiary | poliwęglan 3х4,szklarnia z poliwęglanu 3x4m,BROAD,PAUSED
+wymiary | poliwęglan 3х4,szklarnia z poliwęglanu 3x4m,PHRASE,ENABLED
+wymiary | poliwęglan 3х4,szklarnie poliwęglanowe 3x4,PHRASE,ENABLED
+wymiary | poliwęglan 3х4,szklarnie poliwęglanowe 3x4,BROAD,PAUSED
+wymiary | poliwęglan 3х4,szklarnie z poliwęglanu 3x4,PHRASE,ENABLED
+wymiary | poliwęglan 3х4,szklarnie z poliwęglanu 3x4,BROAD,PAUSED
+wymiary | poliwęglan 3х4,szklarnie z poliwęglanu 3x4 producent,PHRASE,REMOVED
+wymiary | poliwęglan 3х4,szklarnie z poliwęglanu 3x4 producent,BROAD,REMOVED
+wymiary | poliwęglan 3х4,szklarnie z poliwęglanu 3x4 z montażem,PHRASE,PAUSED
+wymiary | poliwęglan 3х4,szklarnie z poliwęglanu 3x4 z montażem,BROAD,PAUSED
+wymiary | poliwęglan 3х4,tunele z poliwęglanu 3x4,PHRASE,ENABLED
+wymiary | poliwęglan 3х4,tunele z poliwęglanu 3x4,BROAD,ENABLED
+wymiary | poliwęglan 3х4,tunele z poliwęglanu 3x4m,PHRASE,ENABLED
+wymiary | poliwęglan 3х4,tunele z poliwęglanu 3x4m,BROAD,PAUSED
+wymiary | poliwęglan 3х6,6x3,BROAD,ENABLED
+wymiary | poliwęglan 3х6,poliwęglan 3x6,EXACT,ENABLED
+wymiary | poliwęglan 3х6,szklarnia z poliwęglanu 3x6m,BROAD,PAUSED
+wymiary | poliwęglan 3х6,szklarnia z poliwęglanu 3x6m,PHRASE,ENABLED
+wymiary | poliwęglan 3х6,szklarnia z poliwęglanu 6 mm,EXACT,ENABLED
+wymiary | poliwęglan 3х6,szklarnie poliwęglanowe 3x6,PHRASE,ENABLED
+wymiary | poliwęglan 3х6,szklarnie poliwęglanowe 3x6,BROAD,PAUSED
+wymiary | poliwęglan 3х6,szklarnie z poliwęglanu 3x6,PHRASE,ENABLED
+wymiary | poliwęglan 3х6,szklarnie z poliwęglanu 3x6,BROAD,PAUSED
+wymiary | poliwęglan 3х6,szklarnie z poliwęglanu 3x6 producent,PHRASE,ENABLED
+wymiary | poliwęglan 3х6,szklarnie z poliwęglanu 3x6 producent,BROAD,PAUSED
+wymiary | poliwęglan 3х6,szklarnie z poliwęglanu 3x6 z montażem,PHRASE,PAUSED
+wymiary | poliwęglan 3х6,szklarnie z poliwęglanu 3x6 z montażem,BROAD,PAUSED
+wymiary | poliwęglan 3х6,tunele z poliwęglanu 3x6,PHRASE,ENABLED
+wymiary | poliwęglan 3х6,tunele z poliwęglanu 3x6,BROAD,PAUSED
+wymiary | poliwęglan 3х6,tunele z poliwęglanu 3x6m,PHRASE,ENABLED
+wymiary | poliwęglan 3х6,tunele z poliwęglanu 3x6m,BROAD,PAUSED
+wymiary | poliwęglan 3х8,szklarnia z poliwęglanu 3x8m,BROAD,REMOVED
+wymiary | poliwęglan 3х8,szklarnia z poliwęglanu 3x8m,PHRASE,REMOVED
+wymiary | poliwęglan 3х8,szklarnie poliwęglanowe 3x8,PHRASE,ENABLED
+wymiary | poliwęglan 3х8,szklarnie poliwęglanowe 3x8,BROAD,PAUSED
+wymiary | poliwęglan 3х8,szklarnie z poliwęglanu 3x8,PHRASE,ENABLED
+wymiary | poliwęglan 3х8,szklarnie z poliwęglanu 3x8,BROAD,PAUSED
+wymiary | poliwęglan 3х8,szklarnie z poliwęglanu 3x8 producent,PHRASE,ENABLED
+wymiary | poliwęglan 3х8,szklarnie z poliwęglanu 3x8 producent,BROAD,PAUSED
+wymiary | poliwęglan 3х8,szklarnie z poliwęglanu 3x8 z montażem,PHRASE,PAUSED
+wymiary | poliwęglan 3х8,szklarnie z poliwęglanu 3x8 z montażem,BROAD,PAUSED
+wymiary | poliwęglan 3х8,tunele z poliwęglanu 3x8,PHRASE,ENABLED
+wymiary | poliwęglan 3х8,tunele z poliwęglanu 3x8,BROAD,PAUSED
+wymiary | poliwęglan 3х8,tunele z poliwęglanu 3x8m,BROAD,PAUSED
+wymiary | poliwęglan 3х8,tunele z poliwęglanu 3x8m,PHRASE,ENABLED
+wymiary | poliwęglan 4х6,szklarnia z poliwęglanu 4x6m,PHRASE,ENABLED
+wymiary | poliwęglan 4х6,szklarnia z poliwęglanu 4x6m,BROAD,ENABLED
+wymiary | poliwęglan 4х6,szklarnie poliwęglanowe 4x6,PHRASE,ENABLED
+wymiary | poliwęglan 4х6,szklarnie poliwęglanowe 4x6,BROAD,PAUSED
+wymiary | poliwęglan 4х6,szklarnie z poliwęglanu 4x6,PHRASE,ENABLED
+wymiary | poliwęglan 4х6,szklarnie z poliwęglanu 4x6,BROAD,PAUSED
+wymiary | poliwęglan 4х6,szklarnie z poliwęglanu 4x6 producent,PHRASE,ENABLED
+wymiary | poliwęglan 4х6,szklarnie z poliwęglanu 4x6 producent,BROAD,PAUSED
+wymiary | poliwęglan 4х6,szklarnie z poliwęglanu 4x6 z montażem,PHRASE,PAUSED
+wymiary | poliwęglan 4х6,szklarnie z poliwęglanu 4x6 z montażem,BROAD,PAUSED
+wymiary | poliwęglan 4х6,tunele z poliwęglanu 4x6,BROAD,PAUSED
+wymiary | poliwęglan 4х6,tunele z poliwęglanu 4x6,PHRASE,ENABLED
+wymiary | poliwęglan 4х6,tunele z poliwęglanu 4x6m,PHRASE,ENABLED
+wymiary | poliwęglan 4х6,tunele z poliwęglanu 4x6m,BROAD,PAUSED
+wymiary | poliwęglan 4х8,szklarnia z poliwęglanu 4x8m,PHRASE,ENABLED
+wymiary | poliwęglan 4х8,szklarnia z poliwęglanu 4x8m,BROAD,ENABLED
+wymiary | poliwęglan 4х8,szklarnie poliwęglanowe 4x8,PHRASE,ENABLED
+wymiary | poliwęglan 4х8,szklarnie poliwęglanowe 4x8,BROAD,PAUSED
+wymiary | poliwęglan 4х8,szklarnie z poliwęglanu 4x8,PHRASE,ENABLED
+wymiary | poliwęglan 4х8,szklarnie z poliwęglanu 4x8,BROAD,PAUSED
+wymiary | poliwęglan 4х8,szklarnie z poliwęglanu 4x8 producent,PHRASE,ENABLED
+wymiary | poliwęglan 4х8,szklarnie z poliwęglanu 4x8 producent,BROAD,PAUSED
+wymiary | poliwęglan 4х8,szklarnie z poliwęglanu 4x8 z montażem,PHRASE,PAUSED
+wymiary | poliwęglan 4х8,szklarnie z poliwęglanu 4x8 z montażem,BROAD,PAUSED
+wymiary | poliwęglan 4х8,tunele z poliwęglanu 4x8,PHRASE,ENABLED
+wymiary | poliwęglan 4х8,tunele z poliwęglanu 4x8,BROAD,PAUSED
+wymiary | poliwęglan 4х8,tunele z poliwęglanu 4x8m,PHRASE,ENABLED
+wymiary | poliwęglan 4х8,tunele z poliwęglanu 4x8m,BROAD,PAUSED

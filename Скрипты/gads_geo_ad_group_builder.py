@@ -43,7 +43,7 @@ import csv
 
 from google.ads.googleads.client import GoogleAdsClient
 
-from _config import client_stats_dir
+from _config import client_stats_dir, sanitize_filename
 from gads_stats import GOOGLE_ADS_YAML, get_ads_service
 
 _ENUM_CLIENT = None
@@ -336,7 +336,7 @@ def main():
     check_length_limits(rows)
 
     out_dir = client_stats_dir(args.client_folder)
-    safe_campaign = target_campaign.replace("/", "-").strip()
+    safe_campaign = sanitize_filename(target_campaign)
     safe_geo = "_".join(g.replace(" ", "") for g in args.geo)
     out_path = out_dir / f"gads_geo_bulksheet_{safe_campaign}_{safe_geo}.csv"
     write_csv(rows, out_path)

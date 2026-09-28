@@ -271,9 +271,9 @@ def main():
     if args.out:
         out_path = args.out
     else:
-        from _config import client_stats_dir
+        from _config import client_stats_dir, sanitize_filename
         out_dir = client_stats_dir(args.client_folder)
-        safe_campaign = args.campaign.replace("/", "-").strip()
+        safe_campaign = sanitize_filename(args.campaign)
         out_path = out_dir / f"gads_ads_{safe_campaign}.csv"
     write_csv(rows, out_path)
 
