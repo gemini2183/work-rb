@@ -1,8 +1,11 @@
 requests
 numpy
 scipy
+pandas
 gspread
 google-auth
 google-ads
 pyyaml
 playwright
+streamlit
+plotly
