@@ -178,17 +178,77 @@ def detect_anomalies(df: pd.DataFrame, metric: str, x_col: str, z_threshold: flo
     return g
 
 
+def compare_periods(df: pd.DataFrame, n_days: int) -> tuple:
+    """Последние N дней vs предыдущие N дней (не последние N vs весь период
+    до этого) - отвечает на вопрос "стало ли сейчас лучше/хуже, чем недавно",
+    отдельно от долгого тренда за весь диапазон. N=14 по умолчанию — см.
+    обоснование в блок-схеме (2 полные недели, усредняет день недели, менее
+    шумно чем 7 vs 7, отзывчивее чем 30 vs 30)."""
+    max_date = df["Date"].max()
+    recent_start = max_date - pd.Timedelta(days=n_days - 1)
+    prior_start = recent_start - pd.Timedelta(days=n_days)
+    prior_end = recent_start - pd.Timedelta(days=1)
+
+    recent = df[(df["Date"] >= recent_start) & (df["Date"] <= max_date)]
+    prior = df[(df["Date"] >= prior_start) & (df["Date"] <= prior_end)]
+    return aggregate(recent), aggregate(prior), (recent_start.date(), max_date.date()), (prior_start.date(), prior_end.date())
+
+
+def render_period_comparison(df: pd.DataFrame, n_days: int):
+    recent, prior, recent_range, prior_range = compare_periods(df, n_days)
+
+    if prior["Clicks"] == 0:
+        st.caption(f"Недостаточно данных до {recent_range[0]} для сравнения "
+                   f"с предыдущими {n_days} днями.")
+        return
+
+    st.caption(f"Последние {n_days} дн. ({recent_range[0]} → {recent_range[1]}) "
+               f"vs предыдущие {n_days} дн. ({prior_range[0]} → {prior_range[1]})")
+
+    # Три оси: объём / стоимость / качество — каждая отдельным рядом метрик,
+    # не смешивать в один вывод (см. блок-схема, "три независимые оси").
+    st.markdown("**Объём**")
+    cols = st.columns(3)
+    for col, key, label, fmt in [
+        (cols[0], "Impressions", "Показы", "{:,.0f}"),
+        (cols[1], "Clicks", "Клики", "{:,.0f}"),
+        (cols[2], "Conversions", "Конверсии", "{:,.2f}"),
+    ]:
+        delta_pct = (recent[key] - prior[key]) / prior[key] * 100 if prior[key] else None
+        col.metric(label, fmt.format(recent[key]).replace(",", " "),
+                   delta=f"{delta_pct:+.1f}%" if delta_pct is not None else None)
+
+    st.markdown("**Стоимость**")
+    cols = st.columns(3)
+    for col, key, label, suffix in [
+        (cols[0], "CPC", "Ср. цена клика", " €"),
+        (cols[1], "Cost", "Расход", " €"),
+        (cols[2], "CPA", "CPA", " €"),
+    ]:
+        r, p = recent[key], prior[key]
+        delta_pct = (r - p) / p * 100 if (p and r is not None) else None
+        col.metric(label, f"{r}{suffix}" if r is not None else "—",
+                   delta=f"{delta_pct:+.1f}%" if delta_pct is not None else None,
+                   delta_color="inverse")  # рост цены/CPA - это ухудшение, не улучшение
+
+    st.markdown("**Качество**")
+    r, p = recent["CR_%"], prior["CR_%"]
+    delta_pct = (r - p) / p * 100 if (p and r is not None) else None
+    st.metric("Коэфф. конверсии", f"{r}%" if r is not None else "—",
+              delta=f"{delta_pct:+.1f}%" if delta_pct is not None else None)
+
+
 def render_kpi_row(totals: dict):
     cols = st.columns(4)
     cols[0].metric("Показы", f"{totals['Impressions']:,}".replace(",", " "))
     cols[1].metric("Клики", f"{totals['Clicks']:,}".replace(",", " "))
     cols[2].metric("CTR", f"{totals['CTR_%']}%" if totals["CTR_%"] is not None else "—")
-    cols[3].metric("Ср. цена клика", f"{totals['CPC']} zł" if totals["CPC"] is not None else "—")
+    cols[3].metric("Ср. цена клика", f"{totals['CPC']} €" if totals["CPC"] is not None else "—")
 
     cols2 = st.columns(4)
-    cols2[0].metric("Расход", f"{totals['Cost']:,.2f} zł".replace(",", " "))
+    cols2[0].metric("Расход", f"{totals['Cost']:,.2f} €".replace(",", " "))
     cols2[1].metric("Конверсии", totals["Conversions"])
-    cols2[2].metric("CPA", f"{totals['CPA']} zł" if totals["CPA"] is not None else "—")
+    cols2[2].metric("CPA", f"{totals['CPA']} €" if totals["CPA"] is not None else "—")
     cols2[3].metric("Коэфф. конверсии", f"{totals['CR_%']}%" if totals["CR_%"] is not None else "—")
 
 
@@ -204,7 +264,7 @@ def render_dynamics_chart(df: pd.DataFrame, x_col: str, title: str, changes: pd.
     fig = make_subplots(specs=[[{"secondary_y": True}]])
 
     fig.add_trace(
-        go.Bar(x=df[x_col], y=df["Cost"], name="Расход, zł", marker_color="#4C78A8", opacity=0.7),
+        go.Bar(x=df[x_col], y=df["Cost"], name="Расход, €", marker_color="#4C78A8", opacity=0.7),
         secondary_y=False,
     )
     fig.add_trace(
@@ -212,7 +272,12 @@ def render_dynamics_chart(df: pd.DataFrame, x_col: str, title: str, changes: pd.
         secondary_y=False,
     )
     fig.add_trace(
-        go.Scatter(x=df[x_col], y=df["CPA"], name="CPA, zł", mode="lines+markers", marker_color="#E45756"),
+        go.Scatter(x=df[x_col], y=df["Conversions"], name="Конверсии (объём)", mode="lines+markers",
+                    marker_color="#72B7B2", line=dict(width=3)),
+        secondary_y=False,
+    )
+    fig.add_trace(
+        go.Scatter(x=df[x_col], y=df["CPA"], name="CPA, €", mode="lines+markers", marker_color="#E45756"),
         secondary_y=True,
     )
     fig.add_trace(
@@ -300,6 +365,18 @@ def main():
             f"(вероятно 0 показов — напр. выходной по расписанию показа, "
             f"не путать с ошибкой сбора данных)."
         )
+
+    st.divider()
+    st.subheader("Что происходит сейчас — сравнение периодов")
+    st.caption(
+        "Фиксированные календарные горизонты (не подбираются по объёму данных — "
+        "см. блок-схема Шага 1, раздел про N=14 по умолчанию). Статистическая "
+        "уверенность вывода — задача Шага 2 (байесовский анализ срезов), не этого блока."
+    )
+    n_days = st.radio("Горизонт сравнения", [7, 14, 30, 90], index=1, horizontal=True,
+                       help="14 — по умолчанию: 2 полные недели, усредняет день недели, "
+                            "менее шумно чем 7 vs 7, отзывчивее чем 30 vs 30.")
+    render_period_comparison(df, n_days)
 
     st.divider()
     st.subheader("Динамика по неделям")

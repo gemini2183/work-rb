@@ -10,6 +10,15 @@ search_rank_lost_impression_share (ставка или Quality Score), и под
 бюджет бессмысленно. См. шаг 7 в
 База_знаний/Паттерны/Google-Ads-аудит-кампании-алгоритм-и-ошибки-смешения-данных.md.
 
+Top_IS/Absolute_top_IS (search_top_impression_share/search_absolute_top_impression_share)
+— доля показов "над органической выдачей"/на самой первой позиции. Падение
+этих долей год-к-году при растущем Lost_IS_rank — прямая (не косвенная)
+проверка гипотезы "объявление стало показываться на менее заметных позициях",
+которая объясняет часть падения CTR отдельно от вопроса качества самого
+текста объявления (см. Клиенты/ProfiMet/Решения.md, 2026-09-30). Метрики
+доступны за любой исторический период (в отличие от change_event, у
+позиции/IS нет ограничения в 29 дней).
+
 Метрики Impression Share доступны только для Search-кампаний (не PMax/Display)
 и только на уровне campaign, не campaign x network — см. документацию Google
 Ads API (search_impression_share и т.п. поддерживаются ресурсом campaign без
@@ -42,7 +51,9 @@ def fetch_impression_share(ga_service, customer_id, date_from, date_to, campaign
             metrics.search_impression_share,
             metrics.search_budget_lost_impression_share,
             metrics.search_rank_lost_impression_share,
-            metrics.search_exact_match_impression_share
+            metrics.search_exact_match_impression_share,
+            metrics.search_top_impression_share,
+            metrics.search_absolute_top_impression_share
         FROM campaign
         WHERE segments.date BETWEEN '{date_from}' AND '{date_to}'
             AND campaign.status != 'REMOVED'
@@ -58,6 +69,7 @@ def fetch_impression_share(ga_service, customer_id, date_from, date_to, campaign
                 "impressions": 0, "clicks": 0,
                 "is_sum": 0.0, "is_n": 0,
                 "lost_budget_sum": 0.0, "lost_rank_sum": 0.0,
+                "top_sum": 0.0, "abs_top_sum": 0.0,
             })
             m["impressions"] += row.metrics.impressions
             m["clicks"] += row.metrics.clicks
@@ -66,6 +78,8 @@ def fetch_impression_share(ga_service, customer_id, date_from, date_to, campaign
                 m["is_sum"] += row.metrics.search_impression_share
                 m["lost_budget_sum"] += row.metrics.search_budget_lost_impression_share
                 m["lost_rank_sum"] += row.metrics.search_rank_lost_impression_share
+                m["top_sum"] += row.metrics.search_top_impression_share
+                m["abs_top_sum"] += row.metrics.search_absolute_top_impression_share
                 m["is_n"] += 1
 
     if not agg:
@@ -79,6 +93,8 @@ def fetch_impression_share(ga_service, customer_id, date_from, date_to, campaign
             "Impression_share": round(m["is_sum"] / m["is_n"], 4) if m["is_n"] else None,
             "Lost_IS_budget": round(m["lost_budget_sum"] / m["is_n"], 4) if m["is_n"] else None,
             "Lost_IS_rank": round(m["lost_rank_sum"] / m["is_n"], 4) if m["is_n"] else None,
+            "Top_IS": round(m["top_sum"] / m["is_n"], 4) if m["is_n"] else None,
+            "Absolute_top_IS": round(m["abs_top_sum"] / m["is_n"], 4) if m["is_n"] else None,
         }
         for name, m in agg.items()
     ]
