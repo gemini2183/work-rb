@@ -129,8 +129,14 @@ def main():
           f"последние {LAG_DAYS} дн. не берём — конверсии ещё дозревают)"
           + (" [звонков меньше нужного минимума]" if rec["short"] else ""))
     print(f"Звонки Ringostat в Google Ads: {rec['ads']:.0f} | сырые звонки Ringostat (динамические): {rec['ringo']:.0f} | отношение {rec['ratio']:.2f}")
-    src = "по умолчанию (истории мало)" if rec["default"] else f"по истории клиента ({rec['n_hist']} окон)"
-    print(f"Норма клиента: {rec['norm']:.2f}, допуск ±{rec['tol_rel']*100:.0f}% (не меньше {ABS_FLOOR_CALLS} звонков) — {src}")
+    src = "по умолчанию (истории мало)" if rec["default"] else f"по разбросу истории клиента ({rec['n_hist']} окон)"
+    print(f"Ожидаем совпадение (отношение 1.0), допуск ±{rec['tol_rel']*100:.0f}% (не меньше {ABS_FLOOR_CALLS} звонков) — {src}")
+    if rec["ratios"]:
+        print("История отношений Ads/Ringostat по окнам (от свежих к старым): "
+              + ", ".join(f"{x:.2f}" for x in rec["ratios"]))
+    if rec["bias"]:
+        print(f"ВНИМАНИЕ: в истории систематический сдвиг — медиана отношения {rec['hist_median']:.2f}, "
+              f"т.е. Google Ads {'занижает' if rec['hist_median'] < 1 else 'завышает'} звонки хронически, а не разово.")
     print(f"ВЕРДИКТ: {rec['status'].upper()}")
 
     cmp = (conv[(conv.action.isin(acts["ringostat_calls"])) & (conv.date >= rec["start"]) & (conv.date <= rec["end"])]
