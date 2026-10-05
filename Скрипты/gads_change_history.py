@@ -61,6 +61,15 @@ _RELEVANT_FIELD_KEYWORDS = (
 )
 
 
+# (тип ресурса или "*", путь поля) -> (имя enum-типа, имя поля enum) для расшифровки int -> имя
+_ENUM_FIELDS = {
+    ("CAMPAIGN", "status"): ("CampaignStatusEnum", "CampaignStatus"),
+    ("AD_GROUP", "status"): ("AdGroupStatusEnum", "AdGroupStatus"),
+    ("*", "ad_schedule.day_of_week"): ("DayOfWeekEnum", "DayOfWeek"),
+    ("*", "ad_schedule.start_minute"): ("MinuteOfHourEnum", "MinuteOfHour"),
+    ("*", "ad_schedule.end_minute"): ("MinuteOfHourEnum", "MinuteOfHour"),
+}
+
 # change_resource_type -> имя oneof-поля внутри change_event.old_resource/new_resource
 _RESOURCE_ONEOF_FIELD = {
     "CAMPAIGN": "campaign",
@@ -88,7 +97,11 @@ def _extract_value(changed_resource, resource_type: str, changed_field_path: str
             obj = getattr(obj, part)
     except AttributeError:
         return None
-    # enum (status и т.п.) -> имя; *_micros -> единицы валюты, чтобы читалось сразу
+    # enum -> имя (в nested-сообщениях change_event они приходят голым int —
+    # без расшифровки "status: 3 -> 2" читается неверно); *_micros -> единицы валюты
+    enum_spec = _ENUM_FIELDS.get((resource_type, changed_field_path)) or _ENUM_FIELDS.get(("*", changed_field_path))
+    if enum_spec and isinstance(obj, int):
+        return _enum_name(enum_spec[0], enum_spec[1], obj)
     if hasattr(obj, "name") and not isinstance(obj, (str, bytes)):
         return obj.name
     if changed_field_path.endswith("_micros") and isinstance(obj, (int, float)):
