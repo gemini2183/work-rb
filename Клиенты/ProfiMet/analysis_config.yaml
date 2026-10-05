@@ -1,0 +1,25 @@
+# Конфиг универсального анализатора кампаний (Скрипты/campaign_analyzer/).
+# Вся специфика клиента — только здесь; код анализатора от клиента не зависит.
+client: ProfiMet
+customer_id: "7552781705"
+timezone: Europe/Warsaw
+
+# С этой даты в Google Ads есть конверсия Ringostat_calls (раньше сверять нечего)
+history_start: "2026-08-01"
+
+# Определение заявки: формы + звонки по объявлениям + звонки Ringostat (динамические).
+# Названия конверсионных действий Google Ads (primary, metrics.conversions).
+ads_actions:
+  forms: ["form_submit_gtm"]
+  ad_calls: ["Звонки по объявлениям"]
+  ringostat_calls: ["mocnaszklarnia.pl - GA4 (web) Ringostat_calls"]
+
+# Источник первичных звонков для сверки и подмены (адаптер — модуль в Скрипты/)
+ringostat:
+  module: ringostat_stats_profimet
+
+# План: Google-таблица "Цели2 Адвайта", лист "<Месяц> <гг>", строка по client_name
+plan:
+  sheet_id: 1Lbefo3nX1-VZ7OOmJI2zf8B6vDX8PiXIjMjqoa89T7c
+  client_name: "ProfiMet Теплицы Польша"
+  budget_column: AdwordsBudget
