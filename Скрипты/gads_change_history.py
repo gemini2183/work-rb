@@ -61,21 +61,50 @@ _RELEVANT_FIELD_KEYWORDS = (
 )
 
 
-def _extract_value(resource_msg, changed_field_path: str):
-    """Достаёт человекочитаемое значение измененного поля из old/new_resource
-    protobuf-сообщения по dotted-пути из changed_fields (напр.
-    "campaign.target_cpa.target_cpa_micros"). Возвращает None, если поле не
-    установлено (protobuf не различает "0" и "не задано" без HasField, но для
-    наших числовых полей это приемлемое упрощение — 0 в ставке/бюджете само
-    по себе аномалия, стоящая внимания)."""
-    parts = changed_field_path.split(".")
-    obj = resource_msg
+# change_resource_type -> имя oneof-поля внутри change_event.old_resource/new_resource
+_RESOURCE_ONEOF_FIELD = {
+    "CAMPAIGN": "campaign",
+    "CAMPAIGN_BUDGET": "campaign_budget",
+    "AD_GROUP": "ad_group",
+    "CAMPAIGN_CRITERION": "campaign_criterion",
+    "AD_GROUP_CRITERION": "ad_group_criterion",
+}
+
+
+def _extract_value(changed_resource, resource_type: str, changed_field_path: str):
+    """Достаёт значение изменённого поля из change_event.old_resource /
+    new_resource. Пути в changed_fields ОТНОСИТЕЛЬНЫ к самому ресурсу (проверено
+    2026-10-05, ProfiMet: "amount_micros" для CAMPAIGN_BUDGET,
+    "maximize_conversions.target_cpa_micros" для CAMPAIGN) — первый компонент
+    НЕ имя ресурса, его не пропускаем. Возвращает None, если ресурс/поле не
+    удалось достать (напр. тип ресурса не в _RESOURCE_ONEOF_FIELD) — вызывающий
+    код показывает это как "?", не как 0."""
+    oneof = _RESOURCE_ONEOF_FIELD.get(resource_type)
+    if oneof is None:
+        return None
+    obj = getattr(changed_resource, oneof, None)
     try:
-        for part in parts[1:]:  # первый компонент — имя самого ресурса (campaign/ad_group/...), пропускаем
+        for part in changed_field_path.split("."):
             obj = getattr(obj, part)
-        return obj
     except AttributeError:
         return None
+    # enum (status и т.п.) -> имя; *_micros -> единицы валюты, чтобы читалось сразу
+    if hasattr(obj, "name") and not isinstance(obj, (str, bytes)):
+        return obj.name
+    if changed_field_path.endswith("_micros") and isinstance(obj, (int, float)):
+        return round(obj / 1_000_000, 2)
+    return obj
+
+
+def _format_change(old_resource, new_resource, resource_type: str, relevant_fields: list) -> str:
+    """'поле: старое -> новое' для каждого relevant-поля. CREATE даёт пустое
+    old, REMOVE — пустое new (это нормально, не ошибка извлечения)."""
+    parts = []
+    for f in relevant_fields:
+        old = _extract_value(old_resource, resource_type, f)
+        new = _extract_value(new_resource, resource_type, f)
+        parts.append(f"{f}: {'?' if old is None else old} -> {'?' if new is None else new}")
+    return "; ".join(parts)
 
 
 def fetch_change_history(ga_service, customer_id, date_from, date_to, campaign_name=None):
@@ -92,7 +121,10 @@ def fetch_change_history(ga_service, customer_id, date_from, date_to, campaign_n
             change_event.client_type,
             change_event.resource_change_operation,
             change_event.changed_fields,
-            change_event.campaign
+            change_event.campaign,
+            change_event.ad_group,
+            change_event.old_resource,
+            change_event.new_resource
         FROM change_event
         WHERE change_event.change_date_time >= '{date_from} 00:00:00'
             AND change_event.change_date_time <= '{date_to} 23:59:59'
@@ -118,6 +150,7 @@ def fetch_change_history(ga_service, customer_id, date_from, date_to, campaign_n
             rows.append({
                 "Datetime": ce.change_date_time,
                 "Campaign_resource": ce.campaign or "",
+                "Ad_group_resource": ce.ad_group or "",
                 "Resource_type": resource_type,
                 "Operation": operation,
                 "Client_type": client_type,
@@ -125,6 +158,7 @@ def fetch_change_history(ga_service, customer_id, date_from, date_to, campaign_n
                 "Changed_fields": ", ".join(changed_fields),
                 "Relevant_fields": ", ".join(relevant),
                 "Is_relevant": bool(relevant),
+                "Value_changes": _format_change(ce.old_resource, ce.new_resource, resource_type, relevant),
             })
 
     if not rows:
@@ -146,6 +180,17 @@ def fetch_change_history(ga_service, customer_id, date_from, date_to, campaign_n
             lambda r: id_to_name.get(r.rsplit("/", 1)[-1], "") if r else ""
         )
         df = df[df["Campaign_name"] == campaign_name]
+
+    # Имя группы объявлений для правок уровня ad_group (напр. target CPA на группе)
+    if "Ad_group_resource" in df.columns and (df["Ad_group_resource"] != "").any():
+        ag_query = "SELECT ad_group.id, ad_group.name FROM ad_group"
+        ag_names = {}
+        for batch in ga_service.search_stream(customer_id=customer_id, query=ag_query):
+            for row in batch.results:
+                ag_names[str(row.ad_group.id)] = row.ad_group.name
+        df["Ad_group_name"] = df["Ad_group_resource"].apply(
+            lambda r: ag_names.get(r.rsplit("/", 1)[-1], "") if r else ""
+        )
 
     return df.sort_values("Datetime", ascending=False).reset_index(drop=True)
 
@@ -209,7 +254,10 @@ def main():
     relevant_df = df[df["Is_relevant"]]
     print(f"\nИз них потенциально влияющих на метрики (ставки/бюджет/таргетинг/статус): {len(relevant_df)}")
     if not relevant_df.empty:
-        print(relevant_df[["Datetime", "Operation", "Relevant_fields", "User_email", "Client_type"]].to_string(index=False))
+        cols = ["Datetime", "Resource_type", "Operation", "Value_changes", "User_email"]
+        if "Ad_group_name" in relevant_df.columns:
+            cols.insert(2, "Ad_group_name")
+        print(relevant_df[cols].to_string(index=False))
 
         # Группировка по дню — для быстрой сверки "сколько правок в какой день"
         # (диагностика хаотичных частых правок, см. блок-схема, раздел

@@ -242,20 +242,21 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "aad7ea81908996b1",
+  "active": "49438aefe15a1236",
   "lastOpenFiles": [
+    "Клиенты/ProfiMet/Статистика/gads_search_term_by_day_Search - Poliweglan - Pl_2026-08-01_to_2026-10-04.csv",
+    "Клиенты/ProfiMet/Статистика/gads_device_by_day_Search - Poliweglan - Pl_2026-08-01_to_2026-10-04.csv",
+    "Клиенты/ProfiMet/Статистика/gads_hour_by_day_Search - Poliweglan - Pl_2026-08-01_to_2026-10-04.csv",
+    "Клиенты/ProfiMet/Статистика/gads_ad_group_by_day_Search - Poliweglan - Pl_2026-08-01_to_2026-10-04.csv",
+    "Клиенты/ProfiMet/Статистика/gads_conversion_action_by_day_Search - Poliweglan - Pl_2026-08-01_to_2026-10-04.csv",
+    "Скрипты/gads_campaign_segments_by_day.py",
+    "Клиенты/ProfiMet/Статистика/gads_change_history_Search - Poliweglan - Pl_2026-09-06_to_2026-10-05.csv",
     "Клиенты/Франшиза Мокрый Нос Дзен/index.md",
     "Клиенты/ProfiMet/Статистика/gads_change_history_Search - Poliweglan - Pl_2026-09-01_to_2026-09-29.csv",
     "Клиенты/ProfiMet/Статистика/gads_change_history_Search - Poliweglan - Pl_2026-09-01_to_2026-09-30.csv",
     "Скрипты/gads_change_history.py",
     "База_знаний/Паттерны/Алгоритм-анализа-эффективности-кампании-блок-схема.md",
     "Клиенты/ProfiMet/Статистика/gads_campaigns_by_day_2026-08-01_to_2026-09-29.csv",
-    "Скрипты/dashboard_campaign_overview.py",
-    "Клиенты/ProfiMet/Статистика/gads_campaigns_by_day_2026-08-01_to_2026-08-29.csv",
-    "Клиенты/ProfiMet/Статистика/gads_calls_by_campaign_2026-09-22_to_2026-09-29.csv",
-    "Клиенты/ProfiMet/Статистика/ringostat_calls_by_campaign_2026-09-22_to_2026-09-29.csv",
-    "Бэклог_идей.md.tmp.28964.f16df52503ab",
-    "База_знаний/Инструменты/Yelp-платформа-обзор.md.tmp.28964.ae5928a1ec41",
     "Клиенты/ProfiMet/Кампании/Search/Poliweglan.md",
     "База_знаний/Инструменты/Google-Ads-Smart-Bidding-и-корректировки-ставок.md",
     "База_знаний/Паттерны/Google-Ads-Search-байесовский-анализ-срезов-и-рычагов.md",
@@ -285,7 +286,6 @@
     "Скрипты/mobile_after_click.png",
     "Скрипты/mobile_top_burger.png",
     "Клиенты/ProfiMet/Цели/goals.md",
-    "Клиенты/ProfiMet/Семантика/semantics.md",
     "Клиенты/Andverpersonalinjury/Медиа/NPWdaSya3W.png",
     "Клиенты/Andverpersonalinjury/Медиа/clark-van-der-beken-CSkriQWeTVs-unsplash.jpg"
   ]
