@@ -34,7 +34,9 @@ CAMPAIGN_NAME = "dspl_rtg_basket"
 AD_GROUP_NAME = "rtg_cart_60d"
 BUDGET_PLN = 40
 POLAND_GEO = "geoTargetConstants/2616"
-POLISH_LANG = "languageConstants/1030"
+LANGUAGES = ["languageConstants/1030", "languageConstants/1000"]  # pl, en — как в черновике Editor
+AD_GROUP_CPC_PLN = 0.50  # ставка группы из черновика Editor (при Maximize clicks не используется)
+CALL_TO_ACTION = "Otwórz stronę"
 TRACKING_TEMPLATE = (
     "{lpurl}?utm_source=google&utm_medium=cpc&utm_campaign=cid|{campaignid}|"
     "{ifsearch:search}{ifcontent:context}&utm_content=rb|cid|{campaignid}|"
@@ -105,7 +107,7 @@ def build_operations(client, cid, final_url, hour_from, hour_to):
     c.target_spend.SetInParent()  # Maximize clicks
     c.network_settings.target_content_network = True
     c.geo_target_type_setting.positive_geo_target_type = (
-        client.enums.PositiveGeoTargetTypeEnum.PRESENCE)
+        client.enums.PositiveGeoTargetTypeEnum.PRESENCE_OR_INTEREST)
     c.geo_target_type_setting.negative_geo_target_type = (
         client.enums.NegativeGeoTargetTypeEnum.PRESENCE)
     c.contains_eu_political_advertising = (
@@ -115,9 +117,10 @@ def build_operations(client, cid, final_url, hour_from, hour_to):
     cc = new_op().campaign_criterion_operation.create
     cc.campaign = campaign_rn
     cc.location.geo_target_constant = POLAND_GEO
-    cc = new_op().campaign_criterion_operation.create
-    cc.campaign = campaign_rn
-    cc.language.language_constant = POLISH_LANG
+    for lang in LANGUAGES:
+        cc = new_op().campaign_criterion_operation.create
+        cc.campaign = campaign_rn
+        cc.language.language_constant = lang
     for day in ("MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"):
         cc = new_op().campaign_criterion_operation.create
         cc.campaign = campaign_rn
@@ -134,6 +137,7 @@ def build_operations(client, cid, final_url, hour_from, hour_to):
     ag.type_ = client.enums.AdGroupTypeEnum.DISPLAY_STANDARD
     ag.status = client.enums.AdGroupStatusEnum.ENABLED
     ag.optimized_targeting_enabled = False
+    ag.cpc_bid_micros = int(AD_GROUP_CPC_PLN * 1_000_000)
     tr = ag.targeting_setting.target_restrictions.add()
     tr.targeting_dimension = client.enums.TargetingDimensionEnum.AUDIENCE
     tr.bid_only = False  # "Targeting" (ограничивать показ аудиторией), не "Observation"
@@ -155,6 +159,9 @@ def build_operations(client, cid, final_url, hour_from, hour_to):
     for text in DESCRIPTIONS:
         rda.descriptions.add().text = text
     rda.business_name = BUSINESS_NAME
+    rda.call_to_action_text = CALL_TO_ACTION
+    rda.control_spec.enable_asset_enhancements = True  # как в черновике Editor
+    rda.control_spec.enable_autogen_video = True      # как в черновике Editor
     for asset_id in ASSETS_LANDSCAPE:
         rda.marketing_images.add().asset = f"customers/{cid}/assets/{asset_id}"
     for asset_id in ASSETS_SQUARE:
