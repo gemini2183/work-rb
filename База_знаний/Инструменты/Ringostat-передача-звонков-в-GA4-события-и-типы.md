@@ -261,3 +261,15 @@ Ringostat это название параметра в GA4, а не в API (с�
 Не проверено: реальная доля принявших cookie; поведение Ringostat без GA client id (вопрос
 поддержке); работает ли баннер одинаково в реальных браузерах и регионах; влияние на данные
 Consent Mode v2 (advanced) — модельные конверсии в Ads.
+
+**Что за баннер на mocnaszklarnia.pl (проверено по коду страницы, Playwright, 2026-10-06).**
+Не готовая платформа согласий (запросов к Cookiebot/OneTrust и т. п. нет), а **самописный скрипт** в
+коде страницы Tilda (контейнер `#cookieConsentContainer`, функции `acceptAllCookies`,
+`acceptEssentialCookies`, `customizeCookies`). Выбор посетителя: в dataLayer уходит
+`event: consentTypeSelected`, `setReactionType`: `All` / `Essential` / `Analytics` / `Advertising`; в
+браузере ставятся cookie `setTypeAccept` и `acceptBanner` (365 дней). Теги GA4, судя по поведению,
+запускаются в GTM по этому событию; `gtag('consent', ...)` / Consent Mode на странице нет.
+Статистики принявших нигде не копится — доли "принял / отклонил" нет, её надо мерить самим.
+Замечено по ходу (вне задачи звонков, показать клиенту): (1) в "Dostosuj zgody" при снятых обоих
+переключателях выбор записывается как `All` (ветка `else`); (2) до любого клика на сайте уже
+стоят cookie `_fbp` и `_ym_uid` и уходят запросы Facebook и Яндекс.Метрики.
