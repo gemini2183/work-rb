@@ -24,6 +24,14 @@ Ringostat/Calltouch/CoMagic/Callibri и т.п., в исходном HTML её н
 одним ожидаемым номером, а со списком номеров пула канала: совпадение с
 ЛЮБЫМ из них считается корректным.
 
+ПРОВЕРКА СТРОГАЯ (с 2026-10-06): каждый элемент страницы с номером (tel:-ссылка —
+и href, и текст внутри, и текстовые узлы вне ссылок) проверяется отдельно и обязан
+показывать номер из пула. Один не подменённый элемент (hero/footer/финальный
+блок) = MISMATCH с указанием секции и CSS-класса, куда заводить правило. Каждый
+случай прогоняется на десктопе и мобиле (--desktop-only отключает мобилу).
+Сравнение по последним 10 цифрам, написание (+1…/(888)…) не важно. Опциональный
+ключ `ignore_numbers: [...]` в YAML — номера, которые законно не подменяются.
+
 Пул номеров — ручной YAML в `Клиенты/<client_folder>/Коллтрекинг/Пул_номеров.yaml`
 (заполняется по скриншотам из кабинета сервиса коллтрекинга — публичного API
 для выгрузки правил подмены и пулов у Ringostat нет), формат:
@@ -71,36 +79,104 @@ def normalize_phone(raw: str) -> str:
     return digits
 
 
-def grab_numbers(page, url: str, wait_ms: int) -> set[str]:
+def canon(raw: str) -> str | None:
+    """Канонический вид номера для сравнения: последние 10 цифр.
+
+    "+18883025461", "(888) 302-5461", "8883025461" -> "8883025461". Раньше
+    сравнивали строки как есть, из-за чего один номер в разных написаниях
+    считался разными. Артефакты незавершённого JS-рендера ("tel:+1+1") — None.
+    """
+    digits = re.sub(r"\D", "", normalize_phone(raw))
+    return digits[-10:] if len(digits) >= 10 else None
+
+
+# Собирает КАЖДЫЙ элемент страницы с номером отдельно (а не общее множество
+# номеров): tel:-ссылки (и href, и текст внутри) + текстовые узлы с номером вне
+# tel:-ссылок. <script>/<style>/<noscript>/<template> пропускаются — там
+# статичные номера из JSON-LD и кода самого коллтрекинга, не место показа.
+# Скрытые элементы (напр. mobile-bar на десктопе) НЕ пропускаются: на другом
+# экране они видны, и их номер так же обязан быть подменён.
+COLLECT_JS = r"""() => {
+  const out = [];
+  const rx = /\+?1?[\s.\-]?\(?\d{3}\)?[\s.\-]?\d{3}[\s.\-]?\d{4}/g;
+  const sec = el => { const s = el.closest('[id]'); return s ? s.id : ''; };
+  const vis = el => {
+    const r = el.getBoundingClientRect();
+    return r.width > 0 && r.height > 0 && getComputedStyle(el).visibility !== 'hidden';
+  };
+  document.querySelectorAll('a[href^="tel:"]').forEach(a => {
+    out.push({kind: 'tel', href: a.getAttribute('href') || '',
+              text: (a.textContent || '').replace(/\s+/g, ' ').trim().slice(0, 80),
+              cls: String(a.className || '').slice(0, 80), section: sec(a), visible: vis(a)});
+  });
+  const w = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+  let n;
+  while ((n = w.nextNode())) {
+    const el = n.parentElement;
+    if (!el || ['SCRIPT', 'STYLE', 'NOSCRIPT', 'TEMPLATE'].includes(el.tagName)) continue;
+    if (el.closest('a[href^="tel:"]')) continue;
+    const hits = n.textContent.match(rx);
+    if (hits) out.push({kind: 'text', href: '', text: hits.join(' | ').slice(0, 80),
+                        cls: String(el.className || '').slice(0, 80), section: sec(el), visible: vis(el)});
+  }
+  return out;
+}"""
+
+
+def grab_elements(page, url: str, wait_ms: int) -> list[dict]:
     page.goto(url, wait_until="networkidle", timeout=30000)
     page.wait_for_timeout(wait_ms)
-
-    html = page.content()
-    tel_matches = TEL_RE.findall(html)
-
-    # только видимый посетителю текст — НЕ весь HTML, иначе ловятся
-    # статичные номера в schema.org JSON-LD и внутри кода <script> самого
-    # скрипта коллтрекинга (не место реального показа номера)
-    visible_text = page.inner_text("body")
-    visible_matches = VISIBLE_PHONE_RE.findall(visible_text)
-
-    numbers = {normalize_phone(m) for m in tel_matches + visible_matches}
-    # артефакты незавершённого JS-рендера (напр. "tel:+1+1") отбрасываем
-    return {n for n in numbers if len(re.sub(r"\D", "", n)) >= 10}
+    return page.evaluate(COLLECT_JS)
 
 
-def check_one(page, base_url: str, utm: dict, pool: list[str], wait_ms: int) -> dict:
+def element_numbers(el: dict) -> set[str]:
+    """Номера одного элемента: из href и из видимого текста (канонический вид)."""
+    nums = set()
+    if el["href"]:
+        c = canon(el["href"])
+        if c:
+            nums.add(c)
+    for m in VISIBLE_PHONE_RE.findall(el["text"]):
+        c = canon(m)
+        if c:
+            nums.add(c)
+    return nums
+
+
+def check_one(page, base_url: str, utm: dict, pool: list[str], wait_ms: int, ignore: set[str]) -> dict:
+    """Строгая проверка: КАЖДЫЙ элемент с номером должен показывать номер из пула.
+
+    Раньше успехом считалось, если на странице нашёлся хоть один номер пула —
+    поэтому страница, где подмена сработала только в header/mobile-bar, а hero/
+    footer остались с дефолтным номером, проходила как OK (найдено 2026-10-06 на
+    california-car-truck-accident). Теперь любой элемент с номером вне пула
+    (в href или в тексте) — это ошибка, элемент выводится с секцией и классом,
+    чтобы сразу было видно, куда заводить правило коллтрекинга.
+    ok = нет ни одного "плохого" элемента И хотя бы один элемент совпал с пулом.
+    """
     url = base_url if not utm else f"{base_url}?{urlencode(utm)}"
-    numbers = grab_numbers(page, url, wait_ms)
-    pool_norm = {normalize_phone(p) for p in pool}
-    matched = numbers & pool_norm
-    ok = bool(matched) if pool_norm else False
+    pool_norm = {canon(p) for p in pool} - {None}
+    elements = grab_elements(page, url, wait_ms)
+
+    found, matched, bad = set(), set(), []
+    for el in elements:
+        nums = element_numbers(el) - ignore
+        if not nums:
+            continue
+        found |= nums
+        matched |= nums & pool_norm
+        outside = nums - pool_norm
+        if outside:
+            bad.append({**el, "outside": sorted(outside)})
+
+    ok = bool(matched) and not bad if pool_norm else False
     return {
         "utm": utm,
         "url": url,
         "pool": pool,
-        "found": sorted(numbers),
+        "found": sorted(found),
         "matched": sorted(matched),
+        "bad": bad,
         "ok": ok,
     }
 
@@ -110,6 +186,9 @@ def main():
     ap.add_argument("--client-folder", required=True, help='Папка клиента в Клиенты/, напр. "Юристы США"')
     ap.add_argument("--pool-file", default="Коллтрекинг/Пул_номеров.yaml", help="Путь относительно папки клиента")
     ap.add_argument("--wait-ms", type=int, default=5000, help="Пауза после networkidle для JS-подмены номера")
+    ap.add_argument("--desktop-only", action="store_true",
+                    help="Не проверять мобильный экран (по умолчанию каждый случай прогоняется на десктопе и мобиле — "
+                         "на мобиле показываются элементы, скрытые на десктопе, напр. mobile call bar)")
     args = ap.parse_args()
 
     pool_path = VAULT_ROOT / "Клиенты" / args.client_folder / args.pool_file
@@ -124,6 +203,8 @@ def main():
     base_url = config["url"]
     default_expected = config.get("default")
     channels = config.get("channels", [])
+    # номера, которые законно не подменяются (напр. отдельный факс/офис) — игнорируются в строгой проверке
+    ignore = {canon(n) for n in config.get("ignore_numbers", [])} - {None}
 
     cases = []
     if default_expected:
@@ -145,13 +226,20 @@ def main():
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page(user_agent=UA)
+        viewports = [("desktop", 1280, 900)] + ([] if args.desktop_only else [("mobile", 390, 844)])
         for case in cases:
-            res = check_one(page, base_url, case["utm"], case["pool"], args.wait_ms)
-            res["name"] = case["name"]
-            results.append(res)
-            status = "OK" if res["ok"] else "MISMATCH"
-            label = f"{case['name']} {res['utm'] or '(без UTM)'}"
-            print(f"[{status}] {label} -> пул {res['pool']}, нашли {res['found']}")
+            for vp_name, w, h in viewports:
+                page.set_viewport_size({"width": w, "height": h})
+                res = check_one(page, base_url, case["utm"], case["pool"], args.wait_ms, ignore)
+                res["name"] = f"{case['name']} [{vp_name}]"
+                results.append(res)
+                status = "OK" if res["ok"] else "MISMATCH"
+                label = f"{res['name']} {res['utm'] or '(без UTM)'}"
+                print(f"[{status}] {label} -> пул {res['pool']}, нашли {res['found']}")
+                for b in res["bad"]:
+                    print(f"    !! не из пула {b['outside']}: {b['kind']} section={b['section'] or '-'} "
+                          f"class={b['cls'] or '-'} href={b['href'] or '-'} text={b['text']!r} "
+                          f"{'видим' if b['visible'] else 'скрыт'}")
         browser.close()
 
     mismatches = [r for r in results if not r["ok"]]

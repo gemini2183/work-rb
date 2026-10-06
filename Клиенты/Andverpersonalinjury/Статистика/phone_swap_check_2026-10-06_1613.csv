@@ -1,0 +1,5 @@
+channel,utm,pool,found,matched,ok
+"default [desktop]","default","+18444529465","8444529465","8444529465",True
+"default [mobile]","default","+18444529465","8444529465","8444529465",True
+"Google Ads (dog bite, ожидаемо тот же пул что основной сайт) [desktop]","utm_source=google;utm_medium=cpc","+18883783267|+18883448725|+18883025461","8444529465|8883025461","8883025461",False
+"Google Ads (dog bite, ожидаемо тот же пул что основной сайт) [mobile]","utm_source=google;utm_medium=cpc","+18883783267|+18883448725|+18883025461","8444529465|8883025461","8883025461",False
