@@ -177,6 +177,8 @@ def main():
     ap.add_argument("--geo-id", action="append", help="Numeric geo_target_constant id, можно указать несколько раз")
     ap.add_argument("--keywords", help="Seed-ключи через запятую")
     ap.add_argument("--language-id", default="1000", help="language_constant id, по умолчанию 1000=English")
+    ap.add_argument("--out-name", default="gads_keyword_ideas.csv",
+                    help="Имя файла результата в Статистика/ клиента. Если файл уже есть — НЕ перезаписывается, результат пишется с суффиксом времени (2026-10-06 перезаписали им данные dog bite, спас git)")
     args = ap.parse_args()
 
     customer_id = args.customer_id.replace("-", "").strip()
@@ -220,7 +222,11 @@ def main():
 
     if args.client_folder:
         out_dir = client_stats_dir(args.client_folder)
-        path = out_dir / "gads_keyword_ideas.csv"
+        path = out_dir / args.out_name
+        if path.exists():
+            from datetime import datetime
+            path = path.with_name(f"{path.stem}_{datetime.now().strftime('%Y-%m-%d_%H%M')}{path.suffix}")
+            print(f"Файл {args.out_name} уже есть — не перезаписываю, пишу в {path.name}")
         df.to_csv(path, index=False, encoding="utf-8")
         print(f"\nСохранено: {path}")
 
