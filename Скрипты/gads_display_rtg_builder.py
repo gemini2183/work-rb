@@ -63,7 +63,7 @@ DESCRIPTIONS = [
     "Płacisz dopiero przy odbiorze. Bez przedpłaty. Szklarnia prosto od polskiego producenta.",
     "Poliwęglan 4-6 mm z filtrem UV i mocne profile 40x20 mm. Polska produkcja, gwarancja.",
     "Masz pytania o wymiary? Zadzwoń, doradca pomoże dobrać szklarnię. Darmowa dostawa.",
-    "3 prezenty: dodatkowe okno, zestaw do podwiązywania roślin, taśma paroprzepuszczalna.",
+    "Wysokość do 2,4 m, rama 0,8 mm, poliwęglan UV. Zamów dziś i odbierz 3 prezenty gratis.",
 ]
 BUSINESS_NAME = "Profimet"
 ASSETS_LANDSCAPE = [297786040282, 322937504523]                    # 1,91:1
