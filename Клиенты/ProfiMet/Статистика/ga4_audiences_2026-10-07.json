@@ -1,0 +1,1359 @@
+[
+ {
+  "name": "properties/349001266/audiences/4414841168",
+  "displayName": "All Users",
+  "description": "All users",
+  "membershipDurationDays": 540,
+  "adsPersonalizationEnabled": true,
+  "createTime": "2023-01-11T07:26:12.399Z"
+ },
+ {
+  "name": "properties/349001266/audiences/4414841169",
+  "displayName": "Purchasers",
+  "description": "Users who have purchased in the last 540 days",
+  "membershipDurationDays": 540,
+  "adsPersonalizationEnabled": true,
+  "createTime": "2023-01-11T07:26:12.399Z"
+ },
+ {
+  "name": "properties/349001266/audiences/5942521221",
+  "displayName": "Добавили в корзину  - 60 дней - GA4",
+  "description": "Add_to_cart (Достигнутые переходы к цели 4) > 0",
+  "membershipDurationDays": 60,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_WITHIN_SAME_SESSION",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "ua_add_to_cart",
+             "eventParameterFilterExpression": {
+              "andGroup": {
+               "filterExpressions": [
+                {
+                 "orGroup": {
+                  "filterExpressions": [
+                   {
+                    "dimensionOrMetricFilter": {
+                     "fieldName": "event_count",
+                     "numericFilter": {
+                      "operation": "GREATER_THAN",
+                      "value": {
+                       "int64Value": "0"
+                      }
+                     },
+                     "atAnyPointInTime": true
+                    }
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2023-07-27T11:10:30.318Z"
+ },
+ {
+  "name": "properties/349001266/audiences/5942521222",
+  "displayName": "Добавили в корзину  - 45 дней - GA4",
+  "description": "Add_to_cart (Достигнутые переходы к цели 4) > 0",
+  "membershipDurationDays": 45,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_WITHIN_SAME_SESSION",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "ua_add_to_cart",
+             "eventParameterFilterExpression": {
+              "andGroup": {
+               "filterExpressions": [
+                {
+                 "orGroup": {
+                  "filterExpressions": [
+                   {
+                    "dimensionOrMetricFilter": {
+                     "fieldName": "event_count",
+                     "numericFilter": {
+                      "operation": "GREATER_THAN",
+                      "value": {
+                       "int64Value": "0"
+                      }
+                     },
+                     "atAnyPointInTime": true
+                    }
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2023-07-27T11:10:30.318Z"
+ },
+ {
+  "name": "properties/349001266/audiences/5942521223",
+  "displayName": "Лиды - 540 дней - GA4",
+  "description": "Уникальный звонок Ройстат (Достигнутые переходы к цели 5) > 0 Заявка из форм (Достигнутые переходы к",
+  "membershipDurationDays": -1,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_WITHIN_SAME_SESSION",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "уникальный_звонок_ройстат",
+             "eventParameterFilterExpression": {
+              "andGroup": {
+               "filterExpressions": [
+                {
+                 "orGroup": {
+                  "filterExpressions": [
+                   {
+                    "dimensionOrMetricFilter": {
+                     "fieldName": "event_count",
+                     "numericFilter": {
+                      "operation": "GREATER_THAN",
+                      "value": {
+                       "int64Value": "0"
+                      }
+                     },
+                     "atAnyPointInTime": true
+                    }
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            }
+           },
+           {
+            "eventFilter": {
+             "eventName": "заявка_из_форм",
+             "eventParameterFilterExpression": {
+              "andGroup": {
+               "filterExpressions": [
+                {
+                 "orGroup": {
+                  "filterExpressions": [
+                   {
+                    "dimensionOrMetricFilter": {
+                     "fieldName": "event_count",
+                     "numericFilter": {
+                      "operation": "GREATER_THAN",
+                      "value": {
+                       "int64Value": "0"
+                      }
+                     },
+                     "atAnyPointInTime": true
+                    }
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2023-07-27T11:10:30.318Z"
+ },
+ {
+  "name": "properties/349001266/audiences/5942521224",
+  "displayName": "Добавили в корзину 30 дн. - GA4",
+  "description": "Add_to_cart (Достигнутые переходы к цели 4) > 0",
+  "membershipDurationDays": 30,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_WITHIN_SAME_SESSION",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "ua_add_to_cart",
+             "eventParameterFilterExpression": {
+              "andGroup": {
+               "filterExpressions": [
+                {
+                 "orGroup": {
+                  "filterExpressions": [
+                   {
+                    "dimensionOrMetricFilter": {
+                     "fieldName": "event_count",
+                     "numericFilter": {
+                      "operation": "GREATER_THAN",
+                      "value": {
+                       "int64Value": "0"
+                      }
+                     },
+                     "atAnyPointInTime": true
+                    }
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2023-07-27T11:10:30.318Z"
+ },
+ {
+  "name": "properties/349001266/audiences/5942521225",
+  "displayName": "Добавили в корзину - 14 дн. - GA4",
+  "description": "Add_to_cart (Достигнутые переходы к цели 4) > 0",
+  "membershipDurationDays": 14,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_WITHIN_SAME_SESSION",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "ua_add_to_cart",
+             "eventParameterFilterExpression": {
+              "andGroup": {
+               "filterExpressions": [
+                {
+                 "orGroup": {
+                  "filterExpressions": [
+                   {
+                    "dimensionOrMetricFilter": {
+                     "fieldName": "event_count",
+                     "numericFilter": {
+                      "operation": "GREATER_THAN",
+                      "value": {
+                       "int64Value": "0"
+                      }
+                     },
+                     "atAnyPointInTime": true
+                    }
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2023-07-27T11:10:30.318Z"
+ },
+ {
+  "name": "properties/349001266/audiences/5942521226",
+  "displayName": "Добавили в корзину - 6 дн. - GA4",
+  "description": "Add_to_cart (Достигнутые переходы к цели 4) > 0",
+  "membershipDurationDays": 6,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_WITHIN_SAME_SESSION",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "ua_add_to_cart",
+             "eventParameterFilterExpression": {
+              "andGroup": {
+               "filterExpressions": [
+                {
+                 "orGroup": {
+                  "filterExpressions": [
+                   {
+                    "dimensionOrMetricFilter": {
+                     "fieldName": "event_count",
+                     "numericFilter": {
+                      "operation": "GREATER_THAN",
+                      "value": {
+                       "int64Value": "0"
+                      }
+                     },
+                     "atAnyPointInTime": true
+                    }
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2023-07-27T11:10:30.318Z"
+ },
+ {
+  "name": "properties/349001266/audiences/5942521227",
+  "displayName": "Лиды -  30 дн. - GA4",
+  "description": "Заявка из форм (Достигнутые переходы к цели 1) > 0 Уникальный звонок Ройстат (Достигнутые переходы к",
+  "membershipDurationDays": 30,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_WITHIN_SAME_SESSION",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "заявка_из_форм",
+             "eventParameterFilterExpression": {
+              "andGroup": {
+               "filterExpressions": [
+                {
+                 "orGroup": {
+                  "filterExpressions": [
+                   {
+                    "dimensionOrMetricFilter": {
+                     "fieldName": "event_count",
+                     "numericFilter": {
+                      "operation": "GREATER_THAN",
+                      "value": {
+                       "int64Value": "0"
+                      }
+                     },
+                     "atAnyPointInTime": true
+                    }
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            }
+           },
+           {
+            "eventFilter": {
+             "eventName": "уникальный_звонок_ройстат",
+             "eventParameterFilterExpression": {
+              "andGroup": {
+               "filterExpressions": [
+                {
+                 "orGroup": {
+                  "filterExpressions": [
+                   {
+                    "dimensionOrMetricFilter": {
+                     "fieldName": "event_count",
+                     "numericFilter": {
+                      "operation": "GREATER_THAN",
+                      "value": {
+                       "int64Value": "0"
+                      }
+                     },
+                     "atAnyPointInTime": true
+                    }
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2023-07-27T11:10:30.318Z"
+ },
+ {
+  "name": "properties/349001266/audiences/5942521228",
+  "displayName": "Лиды - 45 дней - GA4",
+  "description": "Заявка из форм (Достигнутые переходы к цели 1) > 0 Уникальный звонок Ройстат (Достигнутые переходы к",
+  "membershipDurationDays": 45,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_WITHIN_SAME_SESSION",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "заявка_из_форм",
+             "eventParameterFilterExpression": {
+              "andGroup": {
+               "filterExpressions": [
+                {
+                 "orGroup": {
+                  "filterExpressions": [
+                   {
+                    "dimensionOrMetricFilter": {
+                     "fieldName": "event_count",
+                     "numericFilter": {
+                      "operation": "GREATER_THAN",
+                      "value": {
+                       "int64Value": "0"
+                      }
+                     },
+                     "atAnyPointInTime": true
+                    }
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            }
+           },
+           {
+            "eventFilter": {
+             "eventName": "уникальный_звонок_ройстат",
+             "eventParameterFilterExpression": {
+              "andGroup": {
+               "filterExpressions": [
+                {
+                 "orGroup": {
+                  "filterExpressions": [
+                   {
+                    "dimensionOrMetricFilter": {
+                     "fieldName": "event_count",
+                     "numericFilter": {
+                      "operation": "GREATER_THAN",
+                      "value": {
+                       "int64Value": "0"
+                      }
+                     },
+                     "atAnyPointInTime": true
+                    }
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2023-07-27T11:10:30.318Z"
+ },
+ {
+  "name": "properties/349001266/audiences/5942521229",
+  "displayName": "Лиды 60 дней - GA4",
+  "description": "Заявка из форм (Достигнутые переходы к цели 1) > 0 Уникальный звонок Ройстат (Достигнутые переходы к",
+  "membershipDurationDays": 60,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_WITHIN_SAME_SESSION",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "заявка_из_форм",
+             "eventParameterFilterExpression": {
+              "andGroup": {
+               "filterExpressions": [
+                {
+                 "orGroup": {
+                  "filterExpressions": [
+                   {
+                    "dimensionOrMetricFilter": {
+                     "fieldName": "event_count",
+                     "numericFilter": {
+                      "operation": "GREATER_THAN",
+                      "value": {
+                       "int64Value": "0"
+                      }
+                     },
+                     "atAnyPointInTime": true
+                    }
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            }
+           },
+           {
+            "eventFilter": {
+             "eventName": "уникальный_звонок_ройстат",
+             "eventParameterFilterExpression": {
+              "andGroup": {
+               "filterExpressions": [
+                {
+                 "orGroup": {
+                  "filterExpressions": [
+                   {
+                    "dimensionOrMetricFilter": {
+                     "fieldName": "event_count",
+                     "numericFilter": {
+                      "operation": "GREATER_THAN",
+                      "value": {
+                       "int64Value": "0"
+                      }
+                     },
+                     "atAnyPointInTime": true
+                    }
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2023-07-27T11:10:30.318Z"
+ },
+ {
+  "name": "properties/349001266/audiences/5942521230",
+  "displayName": "Перешли на OLX - 30 дн. - GA4",
+  "description": "Переход на OLX (Достигнутые переходы к цели 2) > 0",
+  "membershipDurationDays": 30,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_WITHIN_SAME_SESSION",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "переход_на_olx",
+             "eventParameterFilterExpression": {
+              "andGroup": {
+               "filterExpressions": [
+                {
+                 "orGroup": {
+                  "filterExpressions": [
+                   {
+                    "dimensionOrMetricFilter": {
+                     "fieldName": "event_count",
+                     "numericFilter": {
+                      "operation": "GREATER_THAN",
+                      "value": {
+                       "int64Value": "0"
+                      }
+                     },
+                     "atAnyPointInTime": true
+                    }
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2023-07-27T11:10:30.318Z"
+ },
+ {
+  "name": "properties/349001266/audiences/6092884128",
+  "displayName": "GA4 - Добавили товар в корзину (14 дн.)",
+  "description": "GA4 - Добавили товар в корзину (14дн.)",
+  "membershipDurationDays": 14,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_ACROSS_ALL_SESSIONS",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "addToCart"
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2023-09-11T08:47:51.277Z"
+ },
+ {
+  "name": "properties/349001266/audiences/6092893301",
+  "displayName": "GA4 - Добавили товар в корзину (45 дн.)",
+  "description": "GA4 - Добавили товар в корзину (45 дн.)",
+  "membershipDurationDays": 45,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_ACROSS_ALL_SESSIONS",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "addToCart"
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2023-09-11T08:46:40.042Z"
+ },
+ {
+  "name": "properties/349001266/audiences/6092903338",
+  "displayName": "GA4 - Добавили товар в корзину (30 дн.)",
+  "description": "GA4 - Добавили товар в корзину (30 дн.)",
+  "membershipDurationDays": 30,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_ACROSS_ALL_SESSIONS",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "addToCart"
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2023-09-11T08:45:09.805Z"
+ },
+ {
+  "name": "properties/349001266/audiences/6092906761",
+  "displayName": "GA4 - Добавили товар в корзину (60 дн.)",
+  "description": "GA4 - Добавили товар в корзину (60 дн.)",
+  "membershipDurationDays": 60,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_ACROSS_ALL_SESSIONS",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "addToCart"
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2023-09-11T08:48:12.851Z"
+ },
+ {
+  "name": "properties/349001266/audiences/6092927276",
+  "displayName": "GA4 - Добавили товар в корзину (6 дн.)",
+  "description": "GA4 - Добавили товар в корзину (6дн.)",
+  "membershipDurationDays": 6,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_ACROSS_ALL_SESSIONS",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "addToCart"
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2023-09-11T08:47:27.398Z"
+ },
+ {
+  "name": "properties/349001266/audiences/6093102258",
+  "displayName": "GA4 - Лиды (60 дн.)",
+  "membershipDurationDays": 60,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_ACROSS_ALL_SESSIONS",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "form_submit"
+            }
+           },
+           {
+            "eventFilter": {
+             "eventName": "Ringostat_calls"
+            }
+           },
+           {
+            "eventFilter": {
+             "eventName": "Ringostat_calls_static"
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2023-09-11T09:48:24.770Z"
+ },
+ {
+  "name": "properties/349001266/audiences/6093125924",
+  "displayName": "GA4 - Лиды (45 дн.)",
+  "membershipDurationDays": 45,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_ACROSS_ALL_SESSIONS",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "form_submit"
+            }
+           },
+           {
+            "eventFilter": {
+             "eventName": "Ringostat_calls"
+            }
+           },
+           {
+            "eventFilter": {
+             "eventName": "Ringostat_calls_static"
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2023-09-11T09:48:01.316Z"
+ },
+ {
+  "name": "properties/349001266/audiences/6093126958",
+  "displayName": "GA4 - Лиды (30 дн.)",
+  "membershipDurationDays": 30,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_ACROSS_ALL_SESSIONS",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "form_submit"
+            }
+           },
+           {
+            "eventFilter": {
+             "eventName": "Ringostat_calls"
+            }
+           },
+           {
+            "eventFilter": {
+             "eventName": "Ringostat_calls_static"
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2023-09-11T09:47:24.907Z"
+ },
+ {
+  "name": "properties/349001266/audiences/6093134548",
+  "displayName": "GA4 - Лиды (540дн.)",
+  "membershipDurationDays": 540,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_ACROSS_ALL_SESSIONS",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "form_submit"
+            }
+           },
+           {
+            "eventFilter": {
+             "eventName": "Ringostat_calls"
+            }
+           },
+           {
+            "eventFilter": {
+             "eventName": "Ringostat_calls_static"
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2023-09-11T09:48:51.035Z"
+ },
+ {
+  "name": "properties/349001266/audiences/6095942420",
+  "displayName": "user_engagement (7 дн.)",
+  "description": "Пользователи, которые недавно были активны",
+  "membershipDurationDays": 7,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_ACROSS_ALL_SESSIONS",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "user_engagement"
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2023-09-12T07:00:09.532Z"
+ },
+ {
+  "name": "properties/349001266/audiences/6095943071",
+  "displayName": "user_engagement (14 дн.)",
+  "description": "Пользователи, которые недавно были активны",
+  "membershipDurationDays": 14,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_ACROSS_ALL_SESSIONS",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "user_engagement"
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2023-09-12T06:59:41.918Z"
+ },
+ {
+  "name": "properties/349001266/audiences/6095976487",
+  "displayName": "user_engagement (30 дн.)",
+  "description": "Пользователи, которые недавно были активны",
+  "membershipDurationDays": 30,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_ACROSS_ALL_SESSIONS",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "user_engagement"
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2023-09-12T06:59:17.712Z"
+ },
+ {
+  "name": "properties/349001266/audiences/6707113245",
+  "displayName": "engage_mid",
+  "description": "engage_mid",
+  "membershipDurationDays": 30,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_ACROSS_ALL_SESSIONS",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "engage_mid"
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2024-02-06T11:02:45.833Z"
+ },
+ {
+  "name": "properties/349001266/audiences/6707135269",
+  "displayName": "engage_hi",
+  "description": "engage_hi",
+  "membershipDurationDays": 30,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_ACROSS_ALL_SESSIONS",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "engage_hi"
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2024-02-06T11:01:04.857Z"
+ },
+ {
+  "name": "properties/349001266/audiences/7808026335",
+  "displayName": "Unique_Calls",
+  "description": "Unique_Calls",
+  "membershipDurationDays": 30,
+  "adsPersonalizationEnabled": true,
+  "eventTrigger": {
+   "eventName": "Unique_Calls",
+   "logCondition": "AUDIENCE_MEMBERSHIP_RENEWED"
+  },
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_ACROSS_ALL_SESSIONS",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "Ringostat_calls",
+             "eventParameterFilterExpression": {
+              "andGroup": {
+               "filterExpressions": [
+                {
+                 "orGroup": {
+                  "filterExpressions": [
+                   {
+                    "dimensionOrMetricFilter": {
+                     "fieldName": "call_unique",
+                     "stringFilter": {
+                      "matchType": "EXACT",
+                      "value": "1"
+                     },
+                     "atAnyPointInTime": true
+                    }
+                   }
+                  ]
+                 }
+                }
+               ]
+              }
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2024-04-03T07:49:49.581Z"
+ },
+ {
+  "name": "properties/349001266/audiences/8409403246",
+  "displayName": "60sec (7)",
+  "description": "60sec (7)",
+  "membershipDurationDays": 30,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_ACROSS_ALL_SESSIONS",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "time_60sec"
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2024-06-26T09:01:56.538Z"
+ },
+ {
+  "name": "properties/349001266/audiences/8409505577",
+  "displayName": "60sec (14)",
+  "membershipDurationDays": 14,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_ACROSS_ALL_SESSIONS",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "time_60sec"
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2024-06-26T09:02:33.285Z"
+ },
+ {
+  "name": "properties/349001266/audiences/15454952521",
+  "displayName": "Profimet — уже купившие клиенты",
+  "description": "Profimet — уже купившие клиенты",
+  "membershipDurationDays": 540,
+  "adsPersonalizationEnabled": true,
+  "filterClauses": [
+   {
+    "clauseType": "INCLUDE",
+    "simpleFilter": {
+     "scope": "AUDIENCE_FILTER_SCOPE_ACROSS_ALL_SESSIONS",
+     "filterExpression": {
+      "andGroup": {
+       "filterExpressions": [
+        {
+         "orGroup": {
+          "filterExpressions": [
+           {
+            "eventFilter": {
+             "eventName": "crm_purchase"
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "createTime": "2026-08-18T06:31:01.451Z"
+ }
+]
