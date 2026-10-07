@@ -161,7 +161,7 @@ def build_operations(client, cid, final_url, hour_from, hour_to):
     rda.business_name = BUSINESS_NAME
     rda.call_to_action_text = CALL_TO_ACTION
     rda.control_spec.enable_asset_enhancements = True  # как в черновике Editor
-    rda.control_spec.enable_autogen_video = True      # как в черновике Editor
+    rda.control_spec.enable_autogen_video = False     # выключено 2026-10-06 по решению пользователя
     for asset_id in ASSETS_LANDSCAPE:
         rda.marketing_images.add().asset = f"customers/{cid}/assets/{asset_id}"
     for asset_id in ASSETS_SQUARE:
