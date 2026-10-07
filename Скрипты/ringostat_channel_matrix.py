@@ -39,7 +39,7 @@ def load_pools(path):
     pools = {}
     for ch in cfg.get("channels", []):
         for n in ch.get("pool", []):
-            pools[digits(n)] = ch["name"]
+            pools.setdefault(digits(n), ch["name"])  # первое совпадение (контрольные каналы не перебивают рабочие)
     return pools
 
 
