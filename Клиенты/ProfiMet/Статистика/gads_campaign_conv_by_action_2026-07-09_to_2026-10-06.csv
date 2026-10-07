@@ -1,0 +1,29 @@
+Campaign,Status,Channel,Action,All_conv,Conv
+Search | Brand | Pl,ENABLED,SEARCH,addToCart_gtm,42.02,0.0
+Search | Brand | Pl,ENABLED,SEARCH,form_submit_gtm,6.0,6.0
+Search | Brand | Pl,ENABLED,SEARCH,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,14.83,14.83
+Search | Brand | Pl,ENABLED,SEARCH,mocnaszklarnia.pl - GA4 (web) addToCart_session,35.04,0.0
+Search | Brand | Pl,ENABLED,SEARCH,mocnaszklarnia.pl - GA4 (web) form_submit,5.65,0.0
+Search | Brand | Pl,ENABLED,SEARCH,Звонки по объявлениям,2.0,2.0
+Search | Brand | Pl,ENABLED,SEARCH,Клик по номеру,11.01,0.0
+Search | Poliweglan | Pl,ENABLED,SEARCH,addToCart_gtm,346.57,0.0
+Search | Poliweglan | Pl,ENABLED,SEARCH,form_submit_gtm,39.78,39.78
+Search | Poliweglan | Pl,ENABLED,SEARCH,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,65.93,65.93
+Search | Poliweglan | Pl,ENABLED,SEARCH,mocnaszklarnia.pl - GA4 (web) addToCart_session,267.75,0.0
+Search | Poliweglan | Pl,ENABLED,SEARCH,mocnaszklarnia.pl - GA4 (web) form_submit,35.33,0.0
+Search | Poliweglan | Pl,ENABLED,SEARCH,Звонки по объявлениям,4.01,4.01
+Search | Poliweglan | Pl,ENABLED,SEARCH,Клик по номеру,25.06,0.0
+demand_gen,PAUSED,DEMAND_GEN,addToCart_gtm,3.0,0.0
+demand_gen,PAUSED,DEMAND_GEN,Клик по номеру,33.0,32.0
+pmax01,PAUSED,PERFORMANCE_MAX,addToCart_gtm,2.0,0.0
+pmax01,PAUSED,PERFORMANCE_MAX,Клик по номеру,12.0,12.0
+pmax1_test,ENABLED,PERFORMANCE_MAX,addToCart_gtm,1656.25,0.0
+pmax1_test,ENABLED,PERFORMANCE_MAX,form_submit_gtm,20.22,20.22
+pmax1_test,ENABLED,PERFORMANCE_MAX,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,55.0,55.0
+pmax1_test,ENABLED,PERFORMANCE_MAX,mocnaszklarnia.pl - GA4 (web) addToCart_session,267.39,0.0
+pmax1_test,ENABLED,PERFORMANCE_MAX,mocnaszklarnia.pl - GA4 (web) form_submit,11.29,0.0
+pmax1_test,ENABLED,PERFORMANCE_MAX,Звонки по объявлениям,6.99,6.99
+pmax1_test,ENABLED,PERFORMANCE_MAX,Клик по номеру,234.93,0.0
+search / szklarnia/tunel (excl. poliweglan),PAUSED,SEARCH,addToCart_gtm,17.16,0.0
+search / szklarnia/tunel (excl. poliweglan),PAUSED,SEARCH,mocnaszklarnia.pl - GA4 (web) addToCart_session,11.0,0.0
+search / szklarnia/tunel (excl. poliweglan),PAUSED,SEARCH,Клик по номеру,1.0,0.0

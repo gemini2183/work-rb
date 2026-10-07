@@ -1,0 +1,72 @@
+List_id,Name,Type,Membership,Life_span_days,Size_display,Size_search,Eligible_display,Eligible_search,Read_only,Description
+6900848825,Перешли на OLX - 30 дн.,REMARKETING,OPEN,30,0,0,True,True,False,Переход на OLX (Достигнутые переходы к цели 2) > 0
+6900850349,Добавили в корзину 30 дн.,REMARKETING,OPEN,30,0,0,True,True,False,Add_to_cart (Достигнутые переходы к цели 4) > 0
+6901132492,AdWords optimized list,LOGICAL,OPEN,30,64000,63000,True,True,True,Combined audience based on available data sources
+6901133815,Лиды -  30 дн.,REMARKETING,OPEN,30,0,0,True,True,False,Заявка из форм (Достигнутые переходы к цели 1) > 0 Уникальный звонок Ройстат (Достигнутые переходы к цели 5) > 0
+6901673793,Все пользователи,REMARKETING,OPEN,30,0,0,True,True,True,Все пользователи
+6907984989,Similar to AdWords optimized list,SIMILAR,OPEN,30,0,0,True,False,False,Similar to UserListId: 6901132492
+6907984992,Similar to Все пользователи,SIMILAR,OPEN,30,0,0,True,True,False,Similar to UserListId: 6901673793
+6909761438,Similar to Добавили в корзину 30 дн.,SIMILAR,OPEN,30,0,0,True,True,False,Similar to UserListId: 6900850349
+6984955448,Лиды - 540 дней,REMARKETING,OPEN,540,0,0,True,True,False,Уникальный звонок Ройстат (Достигнутые переходы к цели 5) > 0 Заявка из форм (Достигнутые переходы к цели 1) > 0
+6984957041,Лиды 60 дней,REMARKETING,OPEN,60,0,0,True,True,False,Заявка из форм (Достигнутые переходы к цели 1) > 0 Уникальный звонок Ройстат (Достигнутые переходы к цели 5) > 0
+6986227657,Все посетители 30 дн.,REMARKETING,OPEN,30,0,0,True,True,False,Все пользователи
+6986257626,Добавили в корзину  - 45 дней,REMARKETING,OPEN,45,0,0,True,True,False,Add_to_cart (Достигнутые переходы к цели 4) > 0
+6986258319,Добавили в корзину  - 60 дней,REMARKETING,OPEN,60,0,0,True,True,False,Add_to_cart (Достигнутые переходы к цели 4) > 0
+6986259573,Лиды - 45 дней,REMARKETING,OPEN,45,0,0,True,True,False,Заявка из форм (Достигнутые переходы к цели 1) > 0 Уникальный звонок Ройстат (Достигнутые переходы к цели 5) > 0
+6987715585,Similar to Добавили в корзину  - 45 дней,SIMILAR,OPEN,30,0,0,True,True,False,Similar to UserListId: 6986257626
+6987715588,Similar to Добавили в корзину  - 60 дней,SIMILAR,OPEN,30,0,0,True,True,False,Similar to UserListId: 6986258319
+6987833611,Similar to Все посетители 30 дн.,SIMILAR,OPEN,30,0,0,True,True,False,Similar to UserListId: 6986227657
+6997178084,Добавили в корзину - 6 дн.,REMARKETING,OPEN,6,0,0,True,True,False,Add_to_cart (Достигнутые переходы к цели 4) > 0
+6997466194,Добавили в корзину - 14 дн.,REMARKETING,OPEN,14,0,0,True,True,False,Add_to_cart (Достигнутые переходы к цели 4) > 0
+7003337195,Similar to Добавили в корзину - 6 дн.,SIMILAR,OPEN,30,0,0,True,False,False,Similar to UserListId: 6997178084
+7003337198,Similar to Добавили в корзину - 14 дн.,SIMILAR,OPEN,30,0,0,True,True,False,Similar to UserListId: 6997466194
+7013621456,Similar to Лиды 60 дней,SIMILAR,OPEN,30,0,0,True,False,False,Similar to UserListId: 6984957041
+7013621459,Similar to Лиды - 540 дней,SIMILAR,OPEN,30,0,0,True,True,False,Similar to UserListId: 6984955448
+7013621462,Similar to Лиды - 45 дней,SIMILAR,OPEN,30,0,0,True,False,False,Similar to UserListId: 6986259573
+7037831488,Similar to Лиды -  30 дн.,SIMILAR,OPEN,30,0,0,True,False,False,Similar to UserListId: 6901133815
+8151899570,Лиды -  30 дн. - GA4,REMARKETING,OPEN,30,0,0,True,True,True,Заявка из форм (Достигнутые переходы к цели 1) > 0 Уникальный звонок Ройстат (Достигнутые переходы к
+8152321027,Добавили в корзину 30 дн. - GA4,REMARKETING,OPEN,30,0,0,True,True,True,Add_to_cart (Достигнутые переходы к цели 4) > 0
+8152321966,Лиды 60 дней - GA4,REMARKETING,OPEN,60,0,0,True,True,True,Заявка из форм (Достигнутые переходы к цели 1) > 0 Уникальный звонок Ройстат (Достигнутые переходы к
+8152321987,Лиды - 45 дней - GA4,REMARKETING,OPEN,45,0,0,True,True,True,Заявка из форм (Достигнутые переходы к цели 1) > 0 Уникальный звонок Ройстат (Достигнутые переходы к
+8152321990,Добавили в корзину  - 60 дней - GA4,REMARKETING,OPEN,60,0,0,True,True,True,Add_to_cart (Достигнутые переходы к цели 4) > 0
+8153403567,Лиды - 540 дней - GA4,REMARKETING,OPEN,540,0,0,True,True,True,Уникальный звонок Ройстат (Достигнутые переходы к цели 5) > 0 Заявка из форм (Достигнутые переходы к
+8153403582,Добавили в корзину - 14 дн. - GA4,REMARKETING,OPEN,14,0,0,True,True,True,Add_to_cart (Достигнутые переходы к цели 4) > 0
+8153403585,Purchasers of mocnaszklarnia.pl - GA4,REMARKETING,OPEN,540,0,0,True,True,True,Users who have purchased in the last 540 days
+8153403588,Добавили в корзину  - 45 дней - GA4,REMARKETING,OPEN,45,0,0,True,True,True,Add_to_cart (Достигнутые переходы к цели 4) > 0
+8153403612,Перешли на OLX - 30 дн. - GA4,REMARKETING,OPEN,30,0,0,True,True,True,Переход на OLX (Достигнутые переходы к цели 2) > 0
+8153403621,All Users of mocnaszklarnia.pl - GA4,REMARKETING,OPEN,540,58000,63000,True,True,True,All users
+8153403636,Добавили в корзину - 6 дн. - GA4,REMARKETING,OPEN,6,0,0,True,True,True,Add_to_cart (Достигнутые переходы к цели 4) > 0
+8365074511,GA4 - Добавили товар в корзину (45 дн.),REMARKETING,OPEN,45,380,120,True,True,True,GA4 - Добавили товар в корзину (45 дн.)
+8365080484,GA4 - Добавили товар в корзину (6 дн.),REMARKETING,OPEN,6,0,0,True,True,True,GA4 - Добавили товар в корзину (6дн.)
+8365537813,GA4 - Лиды (30 дн.),REMARKETING,OPEN,30,8,0,True,True,True,
+8365697315,GA4 - Лиды (540дн.),REMARKETING,OPEN,540,660,400,True,True,True,
+8365949310,GA4 - Добавили товар в корзину (30 дн.),REMARKETING,OPEN,30,16,0,True,True,True,GA4 - Добавили товар в корзину (30 дн.)
+8365996407,GA4 - Добавили товар в корзину (14 дн.),REMARKETING,OPEN,14,16,0,True,True,True,GA4 - Добавили товар в корзину (14дн.)
+8365998003,GA4 - Добавили товар в корзину (60 дн.),REMARKETING,OPEN,60,960,250,True,True,True,GA4 - Добавили товар в корзину (60 дн.)
+8366428920,GA4 - Лиды (45 дн.),REMARKETING,OPEN,45,24,8,True,True,True,
+8366436798,GA4 - Лиды (60 дн.),REMARKETING,OPEN,60,24,8,True,True,True,
+8369312200,user_engagement (7 дн.),REMARKETING,OPEN,7,520,230,True,True,True,"Пользователи, которые недавно были активны"
+8369389340,user_engagement (30 дн.),REMARKETING,OPEN,30,1900,660,True,True,True,"Пользователи, которые недавно были активны"
+8369389682,user_engagement (14 дн.),REMARKETING,OPEN,14,960,430,True,True,True,"Пользователи, которые недавно были активны"
+8575354546,engage_mid,REMARKETING,OPEN,30,1000,630,True,True,True,engage_mid
+8576048211,engage_hi,REMARKETING,OPEN,30,290,190,True,True,True,engage_hi
+8623301032,Корзина 30 или Лиды 45,LOGICAL,OPEN,30,40,8,True,True,False,
+8624241354,Unique_Calls,REMARKETING,OPEN,30,0,0,True,True,True,Unique_Calls
+8637038054,All visitors (AdWords),RULE_BASED,OPEN,30,10000,3800,True,True,True,People who visited pages that contain your remarketing tags
+8637051524,All visitors (AdWords) (system-defined),RULE_BASED,OPEN,30,10000,3800,True,True,True,People who visited pages that contain your remarketing tags
+8637051677,All visitors (AdWords) (system-defined),RULE_BASED,OPEN,30,10000,3800,True,True,True,People who visited pages that contain your remarketing tags
+8637051680,All visitors (AdWords) (system-defined),RULE_BASED,OPEN,30,10000,3800,True,True,True,People who visited pages that contain your remarketing tags
+8637051707,All visitors (AdWords) (system-defined),RULE_BASED,OPEN,30,10000,3800,True,True,True,People who visited pages that contain your remarketing tags
+8637145960,All visitors (AdWords) (system-defined),RULE_BASED,OPEN,30,10000,3800,True,True,True,People who visited pages that contain your remarketing tags
+8637533896,All Converters,RULE_BASED,OPEN,180,5800,1300,True,True,True,People who converted on your site.
+8637977055,All visitors (AdWords) (system-defined),RULE_BASED,OPEN,30,10000,3800,True,True,True,People who visited pages that contain your remarketing tags
+8699804100,60sec (7),REMARKETING,OPEN,30,2800,2200,True,True,True,60sec (7)
+8699804322,60sec (14),REMARKETING,OPEN,14,1600,1400,True,True,True,
+9227774254,addToCart_gtm,REMARKETING,OPEN,30,16,0,True,True,False,
+9305565802,Look-a-like / leads(60),LOOKALIKE,OPEN,30,0,0,True,True,False,
+9305569261,look-a-like / leads (60) new / 5%,LOOKALIKE,OPEN,30,1100000,1100000,True,True,False,
+9340162900,Лиды - авто,LOGICAL,OPEN,30,8,24,True,True,False,
+9340178455,Лиды - авто+га,LOGICAL,OPEN,30,24,24,True,True,False,
+9441800617,Profimet — уже купившие клиенты,CRM_BASED,OPEN,540,10000,11000,True,True,False,"Автоформирование из CRM: клиенты минимум с одной отгрузкой (status=Отгружено). Используется как исключение в поисковых кампаниях, чтобы не платить за клики повторных покупателей."
+9453000403,Profimet — уже купившие клиенты,REMARKETING,OPEN,540,0,0,True,True,True,Profimet — уже купившие клиенты
+9475488813,look-a-like / crm customers / 5%,LOOKALIKE,OPEN,30,1100000,1100000,True,True,False,

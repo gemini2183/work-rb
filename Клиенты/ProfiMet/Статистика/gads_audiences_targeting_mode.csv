@@ -1,0 +1,388 @@
+Campaign,Ad_group,Audience_mode
+Search | Pl,szklarnia z poliwęglanu,OBSERVATION
+Search | Pl,szklarnia ogrodowa,OBSERVATION
+Search | Pl,cena,OBSERVATION
+Search | Pl,z montażem,OBSERVATION
+Search | Pl,producent,OBSERVATION
+Search | Pl,z fundamentem,OBSERVATION
+Search | Pl,wymiary,OBSERVATION
+Search | Pl,kupić,OBSERVATION
+Search | Pl,mała,OBSERVATION
+Search | Pl,szklarnia,OBSERVATION
+Search | Pl,profimet,OBSERVATION
+Search | Pl,reszta,OBSERVATION
+Search | Pl,tunele ogrodowe,OBSERVATION
+Search | Pl,foliak ogrodowy,OBSERVATION
+Search | Pl,szklarnie na pomidory,OBSERVATION
+Search | Pl,namiot ogrodniczy,OBSERVATION
+Remarketing Dspl | Pl,"Добавили в корзину, без заявки",TARGETING
+Remarketing Search | Pl,szklarnia,OBSERVATION
+Remarketing Dspl | Pl,"Без корзины, без заявки",TARGETING
+Remarketing Dspl | Pl,All visitors,TARGETING
+Remarketing Dspl | Pl,"Добавили в корзину, без заявки 8-15",TARGETING
+Display | Pl,Keywords,TARGETING
+Display | Pl,Keywords+OLX,TARGETING
+Display | Pl,Interests,TARGETING
+Display | Pl,Interests+OLX,TARGETING
+Remarketing Dspl | Pl,черновик,TARGETING
+Remarketing Dspl | Pl,"Добавили в корзину, без заявки 15-30",TARGETING
+Search | Pl,dynamic,TARGETING
+Search | Pl,szklarnia mocna,OBSERVATION
+Search | Pl,mini szklarnia,OBSERVATION
+Search | Pl,szklarnia z poliwęglanu [exact],OBSERVATION
+Search | Pl,tunel z poliwęglanu,OBSERVATION
+Search | Pl,szklarnia na zamówienie,OBSERVATION
+Search | Brand | Pl,profimet [exact],OBSERVATION
+Search | Brand | Pl,profimet [phrase],OBSERVATION
+Search | Brand | Pl,szklarnie profimet,OBSERVATION
+Search | Brand | Pl,szklarnie poliweglan profimet,OBSERVATION
+Search | Brand | Pl,mocnaszklarnia pl,OBSERVATION
+Search | Pl,szklarnia geo,OBSERVATION
+Search Dynamic | Pl,dynamic,TARGETING
+Search | Pl,szklarnia domek,OBSERVATION
+Search | Pl,szklarnia z poliwęglanu [broad],OBSERVATION
+Display 2 | Pl,Keywords,TARGETING
+Display 2 | Pl,Целевые запросы,TARGETING
+Display 2 | Pl,Interests,TARGETING
+Display 2 | Pl,Целевые интересы,TARGETING
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х6,OBSERVATION
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х4,OBSERVATION
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х8,OBSERVATION
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х2,OBSERVATION
+Search | Poliweglan | Pl,wymiary | poliwęglan 2х3,OBSERVATION
+Search | Poliweglan | Pl,cieplarnie z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl,namioty z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl - Sketch,szklarnie z poliwęglanu [exact],OBSERVATION
+Search | Poliweglan | Pl - Sketch,szklarnie z poliwęglanu [phrase],OBSERVATION
+Search | Poliweglan | Pl - Sketch,szklarnie z poliwęglanu producent,OBSERVATION
+Search | Poliweglan | Pl - Sketch,tunele z poliwęglanu,OBSERVATION
+Display | Целевые запросы | Pl,Целевые запросы,TARGETING
+Display | Целевые интересы | Pl,Целевые интересы,TARGETING
+Display | Pl,Целевые запросы,TARGETING
+Display | Pl,Целевые интересы,TARGETING
+Search | Poliweglan | Pl,szklarnie z poliwęglanu [exact],OBSERVATION
+Search | Poliweglan | Pl,szklarnie z poliwęglanu [phrase],OBSERVATION
+Search | Poliweglan | Pl,szklarnie z poliwęglanu producent,OBSERVATION
+Search | Poliweglan | Pl,tunele z poliwęglanu,OBSERVATION
+Display 3 | Pl,Keywords,TARGETING
+Display 3 | Pl,Целевые запросы,TARGETING
+Display 3 | Pl,Interests,TARGETING
+Display 3 | Pl,Целевые интересы,TARGETING
+Display 4 | Pl,Keywords,TARGETING
+Display 4 | Pl,Целевые запросы,TARGETING
+Display 4 | Pl,Interests,TARGETING
+Display 4 | Pl,Целевые интересы,TARGETING
+Quiz Search | Pl,szklarnie z poliwęglanu [exact],OBSERVATION
+Quiz Search | Pl,szklarnie z poliwęglanu [phrase],OBSERVATION
+Quiz Search | Pl,szklarnie z poliwęglanu producent,OBSERVATION
+Quiz Search | Pl,tunele z poliwęglanu,OBSERVATION
+Quiz Search | Pl,cieplarnie z poliwęglanu,OBSERVATION
+Quiz Search | Pl,namioty z poliwęglanu,OBSERVATION
+Quiz Search | Pl,szklarnia ogrodowa,OBSERVATION
+Quiz Search | Pl,szklarnia,OBSERVATION
+Quiz Search | Pl,tunele ogrodowe,OBSERVATION
+Remarketing Dspl | Pl,engage_mid,TARGETING
+Display | Pl 23_2 | addToCart,Keywords,TARGETING
+Display | Pl 23_2 | addToCart,Целевые запросы,TARGETING
+Display | Pl 23_2 | addToCart,Целевые интересы,TARGETING
+Remarketing Dspl | Cart,"Корзина, без заявки | sklep",TARGETING
+Remarketing Srch | Cart,szklarnia | lp,OBSERVATION
+Display | addToCart_session | all,Заинтересованные покупатели,TARGETING
+Display | addToCart_session | 45-64,Заинтересованные покупатели,TARGETING
+Display | addToCart_session | 45-64,Ключи,TARGETING
+Display | addToCart_session | 45-64,Целевые запросы,TARGETING
+Display | addToCart_session | 45-64,Целевые интересы,TARGETING
+Remarketing Dspl | Pl,user_engagement,TARGETING
+Display | Pl 23_1,Keywords,TARGETING
+Display | Pl 23_1,Keywords+OLX,TARGETING
+Display | Pl 23_1,Целевые запросы,TARGETING
+Display | Pl 23_1,Interests,TARGETING
+Display | Pl 23_1,Interests+OLX,TARGETING
+Display | Pl 23_1,Целевые интересы,TARGETING
+Search | Poliweglan | Pl,wymiary | poliwęglan 4х6,OBSERVATION
+Search | Poliweglan | Pl,wymiary | poliwęglan 4х8,OBSERVATION
+Search | Poliweglan | Pl,wymiary | poliwęglan 2х4,OBSERVATION
+Dspl2  | Конкуренты,Сайты конкурентов,TARGETING
+Dspl3 | Заинтересованные покупатели,Заинтересованные покупатели,TARGETING
+Remarketing Dspl | Брошенная корзина,"Добавили в корзину, без заявки",TARGETING
+Remarketing Dspl | Брошенная корзина,"Добавили в корзину, без заявки | lp",TARGETING
+Search | Poliweglan | max clicks,wymiary | poliwęglan 3х6,OBSERVATION
+Search | Poliweglan | max clicks,wymiary | poliwęglan 3х4,OBSERVATION
+Search | Poliweglan | max clicks,wymiary | poliwęglan 3х8,OBSERVATION
+Search | Poliweglan | max clicks,wymiary | poliwęglan 2х3,OBSERVATION
+Search | Poliweglan | max clicks,cieplarnie z poliwęglanu,OBSERVATION
+Search | Poliweglan | max clicks,namioty z poliwęglanu,OBSERVATION
+Search | Poliweglan | max clicks,szklarnie z poliwęglanu [phrase],OBSERVATION
+Search | Poliweglan | max clicks,tunele z poliwęglanu,OBSERVATION
+Search | Poliweglan | max clicks,wymiary | poliwęglan 3х2,OBSERVATION
+Search | Poliweglan | max clicks,szklarnie z poliwęglanu [exact],OBSERVATION
+Search | Poliweglan | max clicks,szklarnie z poliwęglanu producent,OBSERVATION
+Search | Poliweglan | max clicks,wymiary | poliwęglan 4х6,OBSERVATION
+Search | Poliweglan | max clicks,wymiary | poliwęglan 4х8,OBSERVATION
+Search | Poliweglan | max clicks,wymiary | poliwęglan 2х4,OBSERVATION
+Display | addToCart_session | 65+,Заинтересованные покупатели,TARGETING
+Display | addToCart_session | 65+,Ключи,TARGETING
+Display | addToCart_session | 65+,Целевые запросы,TARGETING
+Display | addToCart_session | 65+,Целевые интересы,TARGETING
+Dspl5 / Целевые запросы / opt off,Целевые запросы,TARGETING
+Quiz Display | Pl,Keywords,TARGETING
+Quiz Display | Pl,Целевые запросы,TARGETING
+Quiz Display | Pl,Целевые интересы,TARGETING
+Search | sklep,wymiary | poliwęglan 3х6,OBSERVATION
+Search | sklep,wymiary | poliwęglan 3х4,OBSERVATION
+Search | sklep,wymiary | poliwęglan 3х8,OBSERVATION
+Search | sklep,wymiary | poliwęglan 2х3,OBSERVATION
+Search | sklep,wymiary | 3х6,OBSERVATION
+Search | sklep,wymiary | 3х4,OBSERVATION
+Search | sklep,wymiary | 3х8,OBSERVATION
+Search | sklep,wymiary | 2х3,OBSERVATION
+Search | sklep,wymiary | poliwęglan 2х4,OBSERVATION
+Search | sklep,wymiary | 2х4,OBSERVATION
+Search | sklep,wymiary | poliwęglan 4х6,OBSERVATION
+Search | sklep,wymiary | 4х6,OBSERVATION
+Search | sklep,wymiary | poliwęglan 4х8,OBSERVATION
+Search | sklep,wymiary | 4х8,OBSERVATION
+Search | sklep,typ | poliwęglan domek,OBSERVATION
+Search | sklep,typ | domek,OBSERVATION
+Search | szklarnia/tunel,tunele ogrodowe,OBSERVATION
+Search | szklarnia/tunel,szklarnia producent polski,OBSERVATION
+Search | szklarnia/tunel,szklarnia producent,OBSERVATION
+Search | szklarnia/tunel,szklarnia ogrodowa,OBSERVATION
+Search | szklarnia/tunel,szklarnia [exact],OBSERVATION
+Search | szklarnia/tunel,reszta,OBSERVATION
+Search | szklarnia/tunel,kupić,OBSERVATION
+Search | szklarnia/tunel,cena,OBSERVATION
+Display | addToCart_session | 18-44,Заинтересованные покупатели,TARGETING
+Display | addToCart_session | 18-44,Ключи,TARGETING
+Display | addToCart_session | 18-44,Целевые запросы,TARGETING
+Display | addToCart_session | 18-44,Целевые интересы,TARGETING
+Remarketing Dspl | Вовлеченные | engage_hi,engage_hi,TARGETING
+Search | Wymiary  | max clicks,wymiary | 3х6,OBSERVATION
+Search | Wymiary  | max clicks,wymiary | 3х4,OBSERVATION
+Search | Poliweglan | max cpa,wymiary | poliwęglan 3х4,OBSERVATION
+Search | Poliweglan | max cpa,wymiary | poliwęglan 3х8,OBSERVATION
+Search | Poliweglan | max cpa,szklarnie z poliwęglanu [phrase],OBSERVATION
+Search | Poliweglan | max cpa,tunele z poliwęglanu,OBSERVATION
+Search | Poliweglan | max cpa,wymiary | poliwęglan 3х2,OBSERVATION
+Search | Poliweglan | max cpa,wymiary | poliwęglan 4х6,OBSERVATION
+Search | Poliweglan | max cpa,wymiary | poliwęglan 3х6,OBSERVATION
+Search | Poliweglan | max cpa,wymiary | poliwęglan 2х3,OBSERVATION
+Search | Poliweglan | max cpa,cieplarnie z poliwęglanu,OBSERVATION
+Search | Poliweglan | max cpa,namioty z poliwęglanu,OBSERVATION
+Search | Poliweglan | max cpa,szklarnie z poliwęglanu [exact],OBSERVATION
+Search | Poliweglan | max cpa,szklarnie z poliwęglanu producent,OBSERVATION
+Search | Poliweglan | max cpa,wymiary | poliwęglan 4х8,OBSERVATION
+Search | Poliweglan | max cpa,wymiary | poliwęglan 2х4,OBSERVATION
+Dspl2 | desktop,Целевые темы,TARGETING
+Dspl2 | desktop,Целевые интересы,TARGETING
+Dspl2 | desktop,Целевые запросы,TARGETING
+Dspl2 | desktop,Сайты конкурентов,TARGETING
+Dspl2 | desktop,Заинтересованные покупатели,TARGETING
+Search | Producent | max clicks,szklarnie z poliwęglanu producent,OBSERVATION
+Remarketing Dspl | Cart,"Корзина, без заявки | lp",TARGETING
+Dspl2 | интересы х площадки,Целевые темы,TARGETING
+Dspl2 | интересы х площадки,Целевые интересы,TARGETING
+Dspl2 | интересы х площадки,Целевые запросы,TARGETING
+Dspl2 | интересы х площадки,Сайты конкурентов,TARGETING
+Dspl2 | интересы х площадки,Заинтересованные покупатели,TARGETING
+Search | Wyprzedaż | max clicks,szklarnie z poliwęglanu [phrase],OBSERVATION
+Kms2 / Mix / opt off / cpc,Целевые темы,TARGETING
+Kms2 / Mix / opt off / cpc,Целевые интересы,TARGETING
+Kms2 / Mix / opt off / cpc,Целевые запросы,TARGETING
+Kms2 / Mix / opt off / cpc,Сайты конкурентов,TARGETING
+Kms2 / Mix / opt off / cpc,Заинтересованные покупатели,TARGETING
+Dspl3 / Целевые запросы х Целевые темы/ opt on,"Целевые запросы х Целевые темы (садоводство, садовые сооружения)",TARGETING
+Dspl3 | mobile,Заинтересованные покупатели,TARGETING
+Dspl3 | mobile,Целевые темы,TARGETING
+Dspl3 | mobile,Целевые интересы,TARGETING
+Dspl3 | mobile,Сайты конкурентов,TARGETING
+Dspl3 | mobile,Целевые запросы,TARGETING
+Dspl4 | Целевые интересы,Целевые интересы,TARGETING
+Kms1 / Mix / opt off / cpa,Целевые темы,TARGETING
+Kms1 / Mix / opt off / cpa,Целевые интересы,TARGETING
+Kms1 / Mix / opt off / cpa,Целевые запросы,TARGETING
+Kms1 / Mix / opt off / cpa,Сайты конкурентов,TARGETING
+Kms1 / Mix / opt off / cpa,Заинтересованные покупатели,TARGETING
+Dspl2 | Desktop | Leads,Целевые темы,TARGETING
+Dspl2 | Desktop | Leads,Целевые интересы,TARGETING
+Dspl2 | Desktop | Leads,Целевые запросы,TARGETING
+Dspl2 | Desktop | Leads,Сайты конкурентов,TARGETING
+Dspl2 | Desktop | Leads,Заинтересованные покупатели,TARGETING
+Remarketing Dspl | Вовлеченные | engage_mid,engage_mid,TARGETING
+Search | Poliweglan | Pl [broad],wymiary | poliwęglan 3х6,OBSERVATION
+Search | Poliweglan | Pl [broad],wymiary | poliwęglan 3х4,OBSERVATION
+Search | Poliweglan | Pl [broad],wymiary | poliwęglan 3х8,OBSERVATION
+Search | Poliweglan | Pl [broad],wymiary | poliwęglan 2х3,OBSERVATION
+Search | Poliweglan | Pl [broad],cieplarnie z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl [broad],namioty z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl [broad],szklarnie z poliwęglanu [phrase],OBSERVATION
+Search | Poliweglan | Pl [broad],tunele z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl [broad],wymiary | poliwęglan 3х2,OBSERVATION
+Search | Poliweglan | Pl [broad],szklarnie z poliwęglanu [exact],OBSERVATION
+Search | Poliweglan | Pl [broad],szklarnie z poliwęglanu producent,OBSERVATION
+Search | Poliweglan | Pl [broad],wymiary | poliwęglan 4х6,OBSERVATION
+Search | Poliweglan | Pl [broad],wymiary | poliwęglan 4х8,OBSERVATION
+Search | Poliweglan | Pl [broad],wymiary | poliwęglan 2х4,OBSERVATION
+Dspl2 | Целевые темы | Leads,Целевые темы,TARGETING
+Remarketing Dspl | Вовлеченные | engage_mid #2,engage_mid,TARGETING
+Dspl4 / Целевые запросы / opt on,Целевые запросы,TARGETING
+Search | Poliweglan | Pl Поиск - Тест Апрель 2,wymiary | poliwęglan 3х6,OBSERVATION
+Search | Poliweglan | Pl Поиск - Тест Апрель 2,wymiary | poliwęglan 3х4,OBSERVATION
+Search | Poliweglan | Pl Поиск - Тест Апрель 2,wymiary | poliwęglan 3х8,OBSERVATION
+Search | Poliweglan | Pl Поиск - Тест Апрель 2,wymiary | poliwęglan 3х2,OBSERVATION
+Search | Poliweglan | Pl Поиск - Тест Апрель 2,wymiary | poliwęglan 2х3,OBSERVATION
+Search | Poliweglan | Pl Поиск - Тест Апрель 2,cieplarnie z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl Поиск - Тест Апрель 2,namioty z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl Поиск - Тест Апрель 2,szklarnie z poliwęglanu [exact],OBSERVATION
+Search | Poliweglan | Pl Поиск - Тест Апрель 2,szklarnie z poliwęglanu [phrase],OBSERVATION
+Search | Poliweglan | Pl Поиск - Тест Апрель 2,szklarnie z poliwęglanu producent,OBSERVATION
+Search | Poliweglan | Pl Поиск - Тест Апрель 2,tunele z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl Поиск - Тест Апрель 2,wymiary | poliwęglan 4х6,OBSERVATION
+Search | Poliweglan | Pl Поиск - Тест Апрель 2,wymiary | poliwęglan 4х8,OBSERVATION
+Search | Poliweglan | Pl Поиск - Тест Апрель 2,wymiary | poliwęglan 2х4,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Увеличение СПА,wymiary | poliwęglan 3х6,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Увеличение СПА,wymiary | poliwęglan 3х4,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Увеличение СПА,wymiary | poliwęglan 3х8,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Увеличение СПА,wymiary | poliwęglan 3х2,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Увеличение СПА,wymiary | poliwęglan 2х3,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Увеличение СПА,cieplarnie z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Увеличение СПА,namioty z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Увеличение СПА,szklarnie z poliwęglanu [exact],OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Увеличение СПА,szklarnie z poliwęglanu [phrase],OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Увеличение СПА,szklarnie z poliwęglanu producent,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Увеличение СПА,tunele z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Увеличение СПА,wymiary | poliwęglan 4х6,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Увеличение СПА,wymiary | poliwęglan 4х8,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Увеличение СПА,wymiary | poliwęglan 2х4,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116,wymiary | poliwęglan 3х6,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116,wymiary | poliwęglan 3х4,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116,wymiary | poliwęglan 3х8,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116,wymiary | poliwęglan 3х2,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116,wymiary | poliwęglan 2х3,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116,cieplarnie z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116,namioty z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116,szklarnie z poliwęglanu [exact],OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116,szklarnie z poliwęglanu [phrase],OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116,szklarnie z poliwęglanu producent,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116,tunele z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116,wymiary | poliwęglan 4х6,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116,wymiary | poliwęglan 4х8,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116,wymiary | poliwęglan 2х4,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 756,wymiary | poliwęglan 3х6,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 756,wymiary | poliwęglan 3х4,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 756,wymiary | poliwęglan 3х8,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 756,wymiary | poliwęglan 3х2,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 756,wymiary | poliwęglan 2х3,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 756,cieplarnie z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 756,namioty z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 756,szklarnie z poliwęglanu [exact],OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 756,szklarnie z poliwęglanu [phrase],OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 756,szklarnie z poliwęglanu producent,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 756,tunele z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 756,wymiary | poliwęglan 4х6,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 756,wymiary | poliwęglan 4х8,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 756,wymiary | poliwęglan 2х4,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Поиск - Тест - Апрель,wymiary | poliwęglan 3х6,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Поиск - Тест - Апрель,wymiary | poliwęglan 3х4,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Поиск - Тест - Апрель,wymiary | poliwęglan 3х8,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Поиск - Тест - Апрель,wymiary | poliwęglan 3х2,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Поиск - Тест - Апрель,wymiary | poliwęglan 2х3,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Поиск - Тест - Апрель,cieplarnie z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Поиск - Тест - Апрель,namioty z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Поиск - Тест - Апрель,szklarnie z poliwęglanu [exact],OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Поиск - Тест - Апрель,szklarnie z poliwęglanu [phrase],OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Поиск - Тест - Апрель,szklarnie z poliwęglanu producent,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Поиск - Тест - Апрель,tunele z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Поиск - Тест - Апрель,wymiary | poliwęglan 4х6,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Поиск - Тест - Апрель,wymiary | poliwęglan 4х8,OBSERVATION
+Search | Poliweglan | Pl  Экспериментальная группа 116 Поиск - Тест - Апрель,wymiary | poliwęglan 2х4,OBSERVATION
+display / целевые интересы / dspl2,Целевой интерес,TARGETING
+display-rtg / engage_mid / rtg1,engage_mid,TARGETING
+Search | Poliweglan | Pl,wymiary | poliwęglan 2 5х4,OBSERVATION
+display / dspl1,Ключи,TARGETING
+display / dspl1,Намерения / Садовые навесы и уличные постройки,TARGETING
+display / dspl1,Интересы,TARGETING
+Search | Poliweglan | Pl,mala szklarnia z poliweglanu,OBSERVATION
+Search | Poliweglan | Pl Макс клики vs Макс конверсии,wymiary | poliwęglan 3х6,OBSERVATION
+Search | Poliweglan | Pl Макс клики vs Макс конверсии,wymiary | poliwęglan 3х4,OBSERVATION
+Search | Poliweglan | Pl Макс клики vs Макс конверсии,wymiary | poliwęglan 3х8,OBSERVATION
+Search | Poliweglan | Pl Макс клики vs Макс конверсии,wymiary | poliwęglan 3х2,OBSERVATION
+Search | Poliweglan | Pl Макс клики vs Макс конверсии,wymiary | poliwęglan 2х3,OBSERVATION
+Search | Poliweglan | Pl Макс клики vs Макс конверсии,cieplarnie z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl Макс клики vs Макс конверсии,namioty z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl Макс клики vs Макс конверсии,szklarnie z poliwęglanu [exact],OBSERVATION
+Search | Poliweglan | Pl Макс клики vs Макс конверсии,szklarnie z poliwęglanu [phrase],OBSERVATION
+Search | Poliweglan | Pl Макс клики vs Макс конверсии,szklarnie z poliwęglanu producent,OBSERVATION
+Search | Poliweglan | Pl Макс клики vs Макс конверсии,tunele z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl Макс клики vs Макс конверсии,wymiary | poliwęglan 4х6,OBSERVATION
+Search | Poliweglan | Pl Макс клики vs Макс конверсии,wymiary | poliwęglan 4х8,OBSERVATION
+Search | Poliweglan | Pl Макс клики vs Макс конверсии,wymiary | poliwęglan 2х4,OBSERVATION
+Search | Poliweglan | Pl Макс клики vs Макс конверсии,wymiary | poliwęglan 2 5х4,OBSERVATION
+Search | Poliweglan | Pl Макс клики vs Макс конверсии,mala szklarnia z poliweglanu,OBSERVATION
+display / конкуренты / dspl1,Сайты конкурентов,TARGETING
+search / poliweglan - generic,namioty z poliwęglanu,OBSERVATION
+search / poliweglan - generic,szklarnie z poliwęglanu [phrase],OBSERVATION
+search / poliweglan - generic,tunele z poliwęglanu,OBSERVATION
+search / poliweglan - generic,szklarnie z poliwęglanu [exact],OBSERVATION
+search / poliweglan - generic,cieplarnie z poliwęglanu,OBSERVATION
+display / dspl1,Сайты конкурентов,TARGETING
+display / конкуренты / dspl1-2,Сайты конкурентов,TARGETING
+search / poliweglan / broad,szklarnie z poliwęglanu / broad,OBSERVATION
+demand_gen,карусель / интересы / Садовые навесы и уличные постройки,TARGETING
+demand_gen,карусель / конкуренты,TARGETING
+demand_gen,карусель / ключи,TARGETING
+display_rem / basket,basket_no_order,TARGETING
+Search | Poliweglan | Pl Макс клики и Макс конв2,wymiary | poliwęglan 3х6,OBSERVATION
+Search | Poliweglan | Pl Макс клики и Макс конв2,wymiary | poliwęglan 3х4,OBSERVATION
+Search | Poliweglan | Pl Макс клики и Макс конв2,wymiary | poliwęglan 3х8,OBSERVATION
+Search | Poliweglan | Pl Макс клики и Макс конв2,wymiary | poliwęglan 3х2,OBSERVATION
+Search | Poliweglan | Pl Макс клики и Макс конв2,wymiary | poliwęglan 2х3,OBSERVATION
+Search | Poliweglan | Pl Макс клики и Макс конв2,cieplarnie z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl Макс клики и Макс конв2,namioty z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl Макс клики и Макс конв2,szklarnie z poliwęglanu [exact],OBSERVATION
+Search | Poliweglan | Pl Макс клики и Макс конв2,szklarnie z poliwęglanu [phrase],OBSERVATION
+Search | Poliweglan | Pl Макс клики и Макс конв2,szklarnie z poliwęglanu producent,OBSERVATION
+Search | Poliweglan | Pl Макс клики и Макс конв2,tunele z poliwęglanu,OBSERVATION
+Search | Poliweglan | Pl Макс клики и Макс конв2,wymiary | poliwęglan 4х6,OBSERVATION
+Search | Poliweglan | Pl Макс клики и Макс конв2,wymiary | poliwęglan 4х8,OBSERVATION
+Search | Poliweglan | Pl Макс клики и Макс конв2,wymiary | poliwęglan 2х4,OBSERVATION
+Search | Poliweglan | Pl Макс клики и Макс конв2,wymiary | poliwęglan 2 5х4,OBSERVATION
+Search | Poliweglan | Pl Макс клики и Макс конв2,mala szklarnia z poliweglanu,OBSERVATION
+Search | Brand | Pl Макс клики и Макс конв,profimet [exact],OBSERVATION
+Search | Brand | Pl Макс клики и Макс конв,profimet [phrase],OBSERVATION
+Search | Brand | Pl Макс клики и Макс конв,szklarnie profimet,OBSERVATION
+Search | Brand | Pl Макс клики и Макс конв,szklarnie poliweglan profimet,OBSERVATION
+Search | Brand | Pl Макс клики и Макс конв,mocnaszklarnia pl,OBSERVATION
+display-rtg / корзина / rtg2,корзина (14),TARGETING
+search / szklarnia/tunel (excl. poliweglan),tunele warzywne,OBSERVATION
+search / szklarnia/tunel (excl. poliweglan),tunele ogrodnicze,OBSERVATION
+search / szklarnia/tunel (excl. poliweglan),tunele na pomidory,OBSERVATION
+search / szklarnia/tunel (excl. poliweglan),szklarnie na pomidory,OBSERVATION
+search / szklarnia/tunel (excl. poliweglan),cena,OBSERVATION
+search / szklarnia/tunel (excl. poliweglan),szklarnia [exact],OBSERVATION
+search / szklarnia/tunel (excl. poliweglan),szklarnia producent polski,OBSERVATION
+search / szklarnia/tunel (excl. poliweglan),szklarnia ogrodowa,OBSERVATION
+search / szklarnia/tunel (excl. poliweglan),tunele ogrodowe,OBSERVATION
+search / szklarnia/tunel (excl. poliweglan),kupić,OBSERVATION
+search / szklarnia/tunel (excl. poliweglan),szklarnia producent,OBSERVATION
+search / szklarnia/tunel (excl. poliweglan),reszta,OBSERVATION
+display / ключи / dspl2,Целевые ключи,TARGETING
+search / poliweglan / weekend,wymiary | poliwęglan 3х6,OBSERVATION
+search / poliweglan / weekend,namioty z poliwęglanu,OBSERVATION
+search / poliweglan / weekend,wymiary | poliwęglan 2х4,OBSERVATION
+search / poliweglan / weekend,szklarnie z poliwęglanu [phrase],OBSERVATION
+search / poliweglan / weekend,tunele z poliwęglanu,OBSERVATION
+search / poliweglan / weekend,wymiary | poliwęglan 4х6,OBSERVATION
+search / poliweglan / weekend,szklarnie z poliwęglanu producent,OBSERVATION
+search / poliweglan / weekend,wymiary | poliwęglan 4х8,OBSERVATION
+search / poliweglan / weekend,szklarnie z poliwęglanu [exact],OBSERVATION
+search / poliweglan / weekend,wymiary | poliwęglan 3х2,OBSERVATION
+search / poliweglan / weekend,cieplarnie z poliwęglanu,OBSERVATION
+search / poliweglan / weekend,wymiary | poliwęglan 3х4,OBSERVATION
+search / poliweglan / weekend,wymiary | poliwęglan 3х8,OBSERVATION
+search / poliweglan / weekend,wymiary | poliwęglan 2 5х4,OBSERVATION
+search / poliweglan / weekend,mala szklarnia z poliweglanu,OBSERVATION
+search-rtg,корзина 60 дней + широкие ключи,TARGETING
+display / Заинтересованные покупатели / dspl3,зп / садовые навесыи уличные постройки,TARGETING
+dspl_rtg_basket,rtg_cart_30d,TARGETING
+dspl_rtg_basket,rtg_cart_60d,TARGETING

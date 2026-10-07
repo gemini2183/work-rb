@@ -1,0 +1,52 @@
+Level,Campaign,Campaign_status,Channel,Ad_group,Ad_group_status,List_id,Negative,Criterion_status,Bid_modifier
+ad_group,Search | Pl,PAUSED,SEARCH,szklarnia ogrodowa,ENABLED,6901673793,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,szklarnia ogrodowa,ENABLED,6986227657,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,szklarnia ogrodowa,ENABLED,6968068814,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,cena,ENABLED,6901673793,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,cena,ENABLED,6986227657,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,cena,ENABLED,6968068814,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,z montażem,ENABLED,6901673793,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,z montażem,ENABLED,6986227657,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,producent,ENABLED,6901673793,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,producent,ENABLED,6986227657,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,producent,ENABLED,6968068814,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,wymiary,ENABLED,6901673793,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,wymiary,ENABLED,6986227657,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,wymiary,ENABLED,6968068814,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,mała,PAUSED,6901673793,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,mała,PAUSED,6986227657,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,mała,PAUSED,6968068814,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,szklarnia,ENABLED,6901673793,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,szklarnia,ENABLED,6986227657,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,szklarnia,ENABLED,6968068814,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,tunele ogrodowe,ENABLED,6901673793,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,tunele ogrodowe,ENABLED,6986227657,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,tunele ogrodowe,ENABLED,6968068814,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,foliak ogrodowy,PAUSED,6968068814,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,szklarnie na pomidory,ENABLED,6901673793,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,szklarnie na pomidory,ENABLED,6986227657,False,REMOVED,0.0
+ad_group,Search | Pl,PAUSED,SEARCH,szklarnie na pomidory,ENABLED,6968068814,False,REMOVED,0.0
+ad_group,Remarketing Dspl | Pl,PAUSED,DISPLAY,"Добавили в корзину, без заявки",ENABLED,6900850349,False,REMOVED,0.0
+ad_group,Remarketing Dspl | Pl,PAUSED,DISPLAY,All visitors,PAUSED,6900850349,False,ENABLED,0.0
+ad_group,Remarketing Dspl | Pl,PAUSED,DISPLAY,engage_mid,PAUSED,8369389340,False,ENABLED,0.0
+ad_group,Remarketing Dspl | Pl,PAUSED,DISPLAY,user_engagement,PAUSED,8369389340,False,ENABLED,0.0
+ad_group,Remarketing Dspl | Брошенная корзина,PAUSED,DISPLAY,"Добавили в корзину, без заявки | lp",PAUSED,8365537813,True,ENABLED,0.0
+ad_group,Remarketing Dspl | Брошенная корзина,PAUSED,DISPLAY,"Добавили в корзину, без заявки | lp",PAUSED,8365996407,False,ENABLED,0.0
+ad_group,Remarketing Dspl | Вовлеченные | engage_hi,PAUSED,DISPLAY,engage_hi,ENABLED,8576048211,False,ENABLED,0.0
+ad_group,Remarketing Dspl | Вовлеченные | engage_hi,PAUSED,DISPLAY,engage_hi,ENABLED,8151899570,True,ENABLED,0.0
+ad_group,Remarketing Dspl | Вовлеченные | engage_hi,PAUSED,DISPLAY,engage_hi,ENABLED,8152321027,True,ENABLED,0.0
+ad_group,Remarketing Dspl | Вовлеченные | engage_mid,PAUSED,DISPLAY,engage_mid,ENABLED,8151899570,True,ENABLED,0.0
+ad_group,Remarketing Dspl | Вовлеченные | engage_mid,PAUSED,DISPLAY,engage_mid,ENABLED,8152321027,True,ENABLED,0.0
+ad_group,Remarketing Dspl | Вовлеченные | engage_mid,PAUSED,DISPLAY,engage_mid,ENABLED,8575354546,False,ENABLED,0.0
+ad_group,Remarketing Dspl | Вовлеченные | engage_mid #2,PAUSED,DISPLAY,engage_mid,ENABLED,8151899570,True,ENABLED,0.0
+ad_group,Remarketing Dspl | Вовлеченные | engage_mid #2,PAUSED,DISPLAY,engage_mid,ENABLED,8152321027,True,ENABLED,0.0
+ad_group,Remarketing Dspl | Вовлеченные | engage_mid #2,PAUSED,DISPLAY,engage_mid,ENABLED,8575354546,False,ENABLED,0.0
+ad_group,display-rtg / engage_mid / rtg1,PAUSED,DISPLAY,engage_mid,ENABLED,8575354546,False,ENABLED,0.0
+ad_group,display-rtg / корзина / rtg2,PAUSED,DISPLAY,корзина (14),ENABLED,8365996407,False,ENABLED,0.0
+ad_group,demand_gen,PAUSED,DEMAND_GEN,карусель / look-a-like - лиды(60 дн) / 5%,PAUSED,9475488813,False,ENABLED,0.0
+ad_group,search-rtg,PAUSED,SEARCH,корзина 60 дней + широкие ключи,ENABLED,8365998003,False,ENABLED,0.0
+ad_group,demand_gen,PAUSED,DEMAND_GEN,look-a-like / crm customers / 5%,ENABLED,9475488813,False,ENABLED,0.0
+ad_group,dspl_rtg_basket,ENABLED,DISPLAY,rtg_cart_30d,PAUSED,8365998003,False,ENABLED,0.0
+ad_group,dspl_rtg_basket,ENABLED,DISPLAY,rtg_cart_30d,PAUSED,8366436798,True,ENABLED,0.0
+ad_group,dspl_rtg_basket,ENABLED,DISPLAY,rtg_cart_60d,ENABLED,8365998003,False,ENABLED,0.0
+ad_group,dspl_rtg_basket,ENABLED,DISPLAY,rtg_cart_60d,ENABLED,8366436798,True,ENABLED,0.0
