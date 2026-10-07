@@ -1,0 +1,29 @@
+id,Name,Type,RO
+9305565802,Look-a-like / leads(60),LOOKALIKE,False
+8365080484,GA4 - Добавили товар в корзину (6 дн.),REMARKETING,True
+9453000403,Profimet — уже купившие клиенты,REMARKETING,True
+8153403585,Purchasers of mocnaszklarnia.pl - GA4,REMARKETING,True
+8624241354,Unique_Calls,REMARKETING,True
+6901673793,Все пользователи,REMARKETING,True
+8153403588,Добавили в корзину  - 45 дней - GA4,REMARKETING,True
+8152321990,Добавили в корзину  - 60 дней - GA4,REMARKETING,True
+8153403582,Добавили в корзину - 14 дн. - GA4,REMARKETING,True
+8153403636,Добавили в корзину - 6 дн. - GA4,REMARKETING,True
+8152321027,Добавили в корзину 30 дн. - GA4,REMARKETING,True
+8151899570,Лиды -  30 дн. - GA4,REMARKETING,True
+8152321987,Лиды - 45 дней - GA4,REMARKETING,True
+8153403567,Лиды - 540 дней - GA4,REMARKETING,True
+8152321966,Лиды 60 дней - GA4,REMARKETING,True
+8153403612,Перешли на OLX - 30 дн. - GA4,REMARKETING,True
+6907984989,Similar to AdWords optimized list,SIMILAR,False
+6907984992,Similar to Все пользователи,SIMILAR,False
+6987833611,Similar to Все посетители 30 дн.,SIMILAR,False
+6987715585,Similar to Добавили в корзину  - 45 дней,SIMILAR,False
+6987715588,Similar to Добавили в корзину  - 60 дней,SIMILAR,False
+7003337198,Similar to Добавили в корзину - 14 дн.,SIMILAR,False
+7003337195,Similar to Добавили в корзину - 6 дн.,SIMILAR,False
+6909761438,Similar to Добавили в корзину 30 дн.,SIMILAR,False
+7037831488,Similar to Лиды -  30 дн.,SIMILAR,False
+7013621462,Similar to Лиды - 45 дней,SIMILAR,False
+7013621459,Similar to Лиды - 540 дней,SIMILAR,False
+7013621456,Similar to Лиды 60 дней,SIMILAR,False
