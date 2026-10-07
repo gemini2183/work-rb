@@ -244,6 +244,7 @@
   },
   "active": "49438aefe15a1236",
   "lastOpenFiles": [
+    "Скрипты/gads_set_acquisition_mode.py",
     "База_знаний/Инструменты/Google-Ads-списки-аудиторий-из-GA4-механика-и-подводные-камни.md",
     "Клиенты/ProfiMet/Аудитории/Справочник_списков.md",
     "Клиенты/ProfiMet/Статистика/gads_user_lists_register_2026-10-07_final.csv",
@@ -288,7 +289,6 @@
     "Клиенты/SED Латвия/Задачи.md",
     "Клиенты/SED Латвия/index.md",
     "Клиенты/SED Латвия/_project.md",
-    "Клиенты/EkspertAgro/Цели/goals.md",
-    "Клиенты/EkspertAgro/Семантика/semantics.md"
+    "Клиенты/EkspertAgro/Цели/goals.md"
   ]
 }
