@@ -1,0 +1,25 @@
+id,Name,Type,Disp,Search,RO,подкл_кампаний,validate
+6900848825,Перешли на OLX - 30 дн.,REMARKETING,0,0,False,0,OK
+6900850349,Добавили в корзину 30 дн.,REMARKETING,0,0,False,2,OK
+6901133815,Лиды -  30 дн.,REMARKETING,0,0,False,5,OK
+6907984989,Similar to AdWords optimized list,SIMILAR,0,0,False,0,"Creating user list without setting type in oneof user_list field, or creating/updating read-only user list typ"
+6907984992,Similar to Все пользователи,SIMILAR,0,0,False,0,"Creating user list without setting type in oneof user_list field, or creating/updating read-only user list typ"
+6909761438,Similar to Добавили в корзину 30 дн.,SIMILAR,0,0,False,0,"Creating user list without setting type in oneof user_list field, or creating/updating read-only user list typ"
+6984955448,Лиды - 540 дней,REMARKETING,0,0,False,20,OK
+6984957041,Лиды 60 дней,REMARKETING,0,0,False,0,OK
+6986227657,Все посетители 30 дн.,REMARKETING,0,0,False,20,OK
+6986257626,Добавили в корзину  - 45 дней,REMARKETING,0,0,False,20,OK
+6986258319,Добавили в корзину  - 60 дней,REMARKETING,0,0,False,20,OK
+6986259573,Лиды - 45 дней,REMARKETING,0,0,False,4,OK
+6987715585,Similar to Добавили в корзину  - 45 дней,SIMILAR,0,0,False,0,"Creating user list without setting type in oneof user_list field, or creating/updating read-only user list typ"
+6987715588,Similar to Добавили в корзину  - 60 дней,SIMILAR,0,0,False,0,"Creating user list without setting type in oneof user_list field, or creating/updating read-only user list typ"
+6987833611,Similar to Все посетители 30 дн.,SIMILAR,0,0,False,0,"Creating user list without setting type in oneof user_list field, or creating/updating read-only user list typ"
+6997178084,Добавили в корзину - 6 дн.,REMARKETING,0,0,False,20,OK
+6997466194,Добавили в корзину - 14 дн.,REMARKETING,0,0,False,20,OK
+7003337195,Similar to Добавили в корзину - 6 дн.,SIMILAR,0,0,False,0,"Creating user list without setting type in oneof user_list field, or creating/updating read-only user list typ"
+7003337198,Similar to Добавили в корзину - 14 дн.,SIMILAR,0,0,False,0,"Creating user list without setting type in oneof user_list field, or creating/updating read-only user list typ"
+7013621456,Similar to Лиды 60 дней,SIMILAR,0,0,False,0,"Creating user list without setting type in oneof user_list field, or creating/updating read-only user list typ"
+7013621459,Similar to Лиды - 540 дней,SIMILAR,0,0,False,0,"Creating user list without setting type in oneof user_list field, or creating/updating read-only user list typ"
+7013621462,Similar to Лиды - 45 дней,SIMILAR,0,0,False,0,"Creating user list without setting type in oneof user_list field, or creating/updating read-only user list typ"
+7037831488,Similar to Лиды -  30 дн.,SIMILAR,0,0,False,0,"Creating user list without setting type in oneof user_list field, or creating/updating read-only user list typ"
+9305565802,Look-a-like / leads(60),LOOKALIKE,0,0,False,0,"Creating user list without setting type in oneof user_list field, or creating/updating read-only user list typ"

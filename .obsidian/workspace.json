@@ -244,6 +244,7 @@
   },
   "active": "49438aefe15a1236",
   "lastOpenFiles": [
+    "Клиенты/ProfiMet/Статистика/gads_dead_lists_deletable_2026-10-07.csv",
     "Клиенты/ProfiMet/Статистика/gads_exclusions_snapshot_2026-10-07.csv",
     "Скрипты/gads_remove_audience_exclusions.py",
     "Клиенты/ProfiMet/Статистика/gads_exclusions_before_2026-10-07.csv",
@@ -255,7 +256,6 @@
     "Клиенты/ProfiMet/Статистика/gads_audiences_register_2026-10-07.csv",
     "Клиенты/ProfiMet/Статистика/gads_campaign_traffic_2026-07-09_to_2026-10-06.csv",
     "Клиенты/ProfiMet/Статистика/gads_campaign_conv_by_action_2026-07-09_to_2026-10-06.csv",
-    "Клиенты/ProfiMet/Статистика/gads_conversion_actions.csv",
     "База_знаний/Паттерны/Google-Ads-Search-юристы-только-пострадавшие-структура-и-фильтрация.md",
     "Клиенты/Andverpersonalinjury/Кампании/Search/car-truck-tilda-2026-10-06.md",
     "Клиенты/Andverpersonalinjury/Коллтрекинг/Правила_подмены_car_truck_tilda.md",
