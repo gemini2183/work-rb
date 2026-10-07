@@ -36,3 +36,9 @@ Ads считает только тех, кого сопоставил с рек�
 2. Сравнить число пользователей аудитории в GA4 (Data API, измерение `audienceName`, метрика `totalUsers`) с размером списка в Ads: ~40% — норма для событий из браузера с согласием; в разы меньше — признак событий без браузера (серверные, Measurement Protocol).
 3. Профилировать событие по `deviceCategory` и `sessionDefaultChannelGroup`: 100% «desktop» и «Unassigned» — безличные серверные события.
 4. Проверить, не обвалилось ли само событие по неделям (при смене сайта или GTM).
+
+## Метки «Customer Type» (тип клиента) у списков
+
+Источник: официальная справка Google «About audience customer types» (support.google.com/google-ads/answer/14443483) и профильные PPC-новости; **в наших кампаниях не перепроверено.** Метки («Purchasers», «Cart abandoners», «Qualified leads», «Disengaged customers», «High value customers» и др.) ставятся на собственные списки вручную в Audience Manager или автоматически (при настройке целей жизненного цикла, при синхронизации некоторых аудиторий GA4). Используются целью «привлечение новых клиентов»: «Purchasers» определяют существующих клиентов (режимы «ставить выше за новых», «только новые»).
+
+Проверено через API (ProfiMet 2026-10-07): ресурс `user_list_customer_type` (список + категория; PURCHASERS = 3), цель по кампаниям — `campaign_lifecycle_goal.customer_acquisition_goal_settings.optimization_mode` (TARGET_ALL_EQUALLY / TARGET_NEW_CUSTOMER; в запросе `campaign.name` вместе с этим ресурсом даёт ошибку, брать `campaign_lifecycle_goal.campaign` и сопоставлять отдельно), ценности — `customer_lifecycle_goal`. **Подводный камень:** метка «Purchasers» на широком списке (все посетители) при режиме «только новые клиенты» может отсекать всех бывавших на сайте.
