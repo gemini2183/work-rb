@@ -1,0 +1,44 @@
+id,name,type,days,disp,search,ro,desc
+6901132492,AdWords optimized list,LOGICAL,30,64000,63000,True,Combined audience based on available data sources
+6907984989,Similar to AdWords optimized list,SIMILAR,30,0,0,False,Similar to UserListId: 6901132492
+6907984992,Similar to Все пользователи,SIMILAR,30,0,0,False,Similar to UserListId: 6901673793
+6909761438,Similar to Добавили в корзину 30 дн.,SIMILAR,30,0,0,False,Similar to UserListId: 6900850349
+6987715585,Similar to Добавили в корзину  - 45 дней,SIMILAR,30,0,0,False,Similar to UserListId: 6986257626
+6987715588,Similar to Добавили в корзину  - 60 дней,SIMILAR,30,0,0,False,Similar to UserListId: 6986258319
+6987833611,Similar to Все посетители 30 дн.,SIMILAR,30,0,0,False,Similar to UserListId: 6986227657
+7003337195,Similar to Добавили в корзину - 6 дн.,SIMILAR,30,0,0,False,Similar to UserListId: 6997178084
+7003337198,Similar to Добавили в корзину - 14 дн.,SIMILAR,30,0,0,False,Similar to UserListId: 6997466194
+7013621456,Similar to Лиды 60 дней,SIMILAR,30,0,0,False,Similar to UserListId: 6984957041
+7013621459,Similar to Лиды - 540 дней,SIMILAR,30,0,0,False,Similar to UserListId: 6984955448
+7013621462,Similar to Лиды - 45 дней,SIMILAR,30,0,0,False,Similar to UserListId: 6986259573
+7037831488,Similar to Лиды -  30 дн.,SIMILAR,30,0,0,False,Similar to UserListId: 6901133815
+8153403621,All Users of mocnaszklarnia.pl - GA4,REMARKETING,540,58000,63000,True,All users
+8365074511,GA4 - Добавили товар в корзину (45 дн.),REMARKETING,45,380,120,True,GA4 - Добавили товар в корзину (45 дн.)
+8365080484,GA4 - Добавили товар в корзину (6 дн.),REMARKETING,6,0,0,True,GA4 - Добавили товар в корзину (6дн.)
+8365537813,GA4 - Лиды (30 дн.),REMARKETING,30,8,0,True,
+8365697315,GA4 - Лиды (540дн.),REMARKETING,540,660,400,True,
+8365949310,GA4 - Добавили товар в корзину (30 дн.),REMARKETING,30,16,0,True,GA4 - Добавили товар в корзину (30 дн.)
+8365996407,GA4 - Добавили товар в корзину (14 дн.),REMARKETING,14,16,0,True,GA4 - Добавили товар в корзину (14дн.)
+8365998003,GA4 - Добавили товар в корзину (60 дн.),REMARKETING,60,960,250,True,GA4 - Добавили товар в корзину (60 дн.)
+8366428920,GA4 - Лиды (45 дн.),REMARKETING,45,24,8,True,
+8366436798,GA4 - Лиды (60 дн.),REMARKETING,60,24,8,True,
+8369312200,user_engagement (7 дн.),REMARKETING,7,520,230,True,"Пользователи, которые недавно были активны"
+8369389340,user_engagement (30 дн.),REMARKETING,30,1900,660,True,"Пользователи, которые недавно были активны"
+8369389682,user_engagement (14 дн.),REMARKETING,14,960,430,True,"Пользователи, которые недавно были активны"
+8575354546,engage_mid,REMARKETING,30,1000,630,True,engage_mid
+8576048211,engage_hi,REMARKETING,30,290,190,True,engage_hi
+8624241354,Unique_Calls,REMARKETING,30,0,0,True,Unique_Calls
+8637038054,All visitors (AdWords),RULE_BASED,30,10000,3800,True,People who visited pages that contain your remarketing tags
+8637051524,All visitors (AdWords) (system-defined),RULE_BASED,30,10000,3800,True,People who visited pages that contain your remarketing tags
+8637051677,All visitors (AdWords) (system-defined),RULE_BASED,30,10000,3800,True,People who visited pages that contain your remarketing tags
+8637051680,All visitors (AdWords) (system-defined),RULE_BASED,30,10000,3800,True,People who visited pages that contain your remarketing tags
+8637051707,All visitors (AdWords) (system-defined),RULE_BASED,30,10000,3800,True,People who visited pages that contain your remarketing tags
+8637145960,All visitors (AdWords) (system-defined),RULE_BASED,30,10000,3800,True,People who visited pages that contain your remarketing tags
+8637533896,All Converters,RULE_BASED,180,5800,1300,True,People who converted on your site.
+8637977055,All visitors (AdWords) (system-defined),RULE_BASED,30,10000,3800,True,People who visited pages that contain your remarketing tags
+8699804100,60sec (7),REMARKETING,30,2800,2200,True,60sec (7)
+8699804322,60sec (14),REMARKETING,14,1600,1400,True,
+9305565802,Look-a-like / leads(60),LOOKALIKE,30,0,0,False,
+9305569261,look-a-like / leads (60) new / 5%,LOOKALIKE,30,1100000,1100000,False,
+9441800617,Profimet — уже купившие клиенты,CRM_BASED,540,10000,11000,False,"Автоформирование из CRM: клиенты минимум с одной отгрузкой (status=Отгружено). Используется как исключение в поисковых кампаниях, чтобы не платить за клики повторных покупателей."
+9475488813,look-a-like / crm customers / 5%,LOOKALIKE,30,1100000,1100000,False,
