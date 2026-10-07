@@ -1,0 +1,62 @@
+id,name,status,type,last_impr,без_показов_12мес
+17250230764,Sales-Performance Max,PAUSED,PERFORMANCE_MAX,2022-05-17,True
+19226992223,Display | Целевые интересы | Pl,PAUSED,DISPLAY,2022-12-13,True
+19226977088,Display | Целевые запросы | Pl,PAUSED,DISPLAY,2022-12-13,True
+18327605709,Search Dynamic | Pl,PAUSED,SEARCH,2022-12-19,True
+20111912772,Display 3 | Pl,PAUSED,DISPLAY,2023-05-29,True
+20118850443,Display 4 | Pl,PAUSED,DISPLAY,2023-05-29,True
+17251046062,Leads-Discovery,PAUSED,DEMAND_GEN,2023-05-30,True
+18988120032,Display 2 | Pl,PAUSED,DISPLAY,2023-10-09,True
+20581125823,Quiz Display | Pl,PAUSED,DISPLAY,2023-10-09,True
+20513177004,Display | Pl 23_1,PAUSED,DISPLAY,2023-11-24,True
+20833720926,Remarketing Dspl | Cart,PAUSED,DISPLAY,2023-12-10,True
+14646017705,Display | Pl,PAUSED,DISPLAY,2023-12-12,True
+20843929163,Display | addToCart_session | 18-44,PAUSED,DISPLAY,2023-12-12,True
+20847390466,Search | sklep,PAUSED,SEARCH,2023-12-12,True
+20847729793,Display | addToCart_session | 65+,PAUSED,DISPLAY,2023-12-13,True
+20843929610,Display | addToCart_session | 45-64,PAUSED,DISPLAY,2023-12-13,True
+14660224257,Remarketing Dspl | Pl,PAUSED,DISPLAY,2024-02-02,True
+20795446477,Display | Pl 23_2 | addToCart,PAUSED,DISPLAY,2024-02-05,True
+20846783746,Display | addToCart_session | all,PAUSED,DISPLAY,2024-02-05,True
+21280141362,Dspl2 | Desktop | Leads,PAUSED,DISPLAY,2024-05-13,True
+21204897820,Performance Max-4,PAUSED,PERFORMANCE_MAX,2024-05-13,True
+21296329865,Performance Max-7,PAUSED,PERFORMANCE_MAX,2024-05-20,True
+21292695578,Performance Max-6,PAUSED,PERFORMANCE_MAX,2024-05-20,True
+21291046027,Performance Max-5,PAUSED,PERFORMANCE_MAX,2024-05-20,True
+21280029741,Search | Wyprzedaż | max clicks,PAUSED,SEARCH,2024-05-27,True
+21315255340,Dspl2 | интересы х площадки,PAUSED,DISPLAY,2024-05-28,True
+20994515442,Dspl4 | Целевые интересы,PAUSED,DISPLAY,2024-06-11,True
+21300009971,Dspl3 | mobile,PAUSED,DISPLAY,2024-06-20,True
+21280381320,Dspl2 | desktop,PAUSED,DISPLAY,2024-06-20,True
+21252955811,Search | Poliweglan | max clicks,PAUSED,SEARCH,2024-06-25,True
+21281035872,Search | Wymiary  | max clicks,PAUSED,SEARCH,2024-06-25,True
+21287420792,Search | Producent | max clicks,PAUSED,SEARCH,2024-06-25,True
+21408725409,Dspl3 / Целевые запросы х Целевые темы/ opt on,PAUSED,DISPLAY,2024-06-26,True
+20994515454,Dspl5 / Целевые запросы / opt off,PAUSED,DISPLAY,2024-06-26,True
+21309081576,Performance Max-8 / Add to Cart,PAUSED,PERFORMANCE_MAX,2024-06-26,True
+21415213826,Kms1 / Mix / opt off / cpa,PAUSED,DISPLAY,2024-06-26,True
+21415315409,Kms2 / Mix / opt off / cpc,PAUSED,DISPLAY,2024-06-28,True
+20577563474,Quiz Search | Pl,PAUSED,SEARCH,2024-06-28,True
+21408581274,Search | Poliweglan | max cpa,PAUSED,SEARCH,2024-06-29,True
+21651221517,Search | Poliweglan | Pl [broad],PAUSED,SEARCH,2024-09-07,True
+21289987384,Dspl2 | Целевые темы | Leads,PAUSED,DISPLAY,2024-11-29,True
+14596802634,Search | Pl,PAUSED,SEARCH,2024-12-02,True
+20861414561,Performance Max-3,PAUSED,PERFORMANCE_MAX,2024-12-12,True
+21945106998,Performance Max / form_submit / kms2,PAUSED,PERFORMANCE_MAX,2024-12-12,True
+22018286337,Performance Max / add_to_cart,PAUSED,PERFORMANCE_MAX,2025-01-16,True
+21004057813,Remarketing Dspl | Вовлеченные | engage_hi,PAUSED,DISPLAY,2025-02-20,True
+21286243805,Remarketing Dspl | Вовлеченные | engage_mid,PAUSED,DISPLAY,2025-02-20,True
+21001176710,Dspl2  | Конкуренты,PAUSED,DISPLAY,2025-03-27,True
+21414986375,Dspl4 / Целевые запросы / opt on,PAUSED,DISPLAY,2025-03-27,True
+21004510792,Dspl3 | Заинтересованные покупатели,PAUSED,DISPLAY,2025-04-12,True
+22216695521,Search | Poliweglan | Pl  Экспериментальная группа 116,PAUSED,SEARCH,2025-04-25,True
+20993872722,Remarketing Dspl | Брошенная корзина,PAUSED,DISPLAY,2025-06-02,True
+22222479761,Performance Max / form_submit - test,PAUSED,PERFORMANCE_MAX,2025-09-10,True
+23057353328,display / целевые интересы / dspl2,PAUSED,DISPLAY,2025-09-26,True
+23051638776,performance_max / 2509-1,PAUSED,PERFORMANCE_MAX,2025-09-29,True
+23069655253,performance_max / 2509-2,PAUSED,PERFORMANCE_MAX,2025-09-29,True
+20840042099,Remarketing Srch | Cart,PAUSED,SEARCH,никогда,True
+19150700083,Search | Poliweglan | Pl - Sketch,PAUSED,SEARCH,никогда,True
+21959375268,Remarketing Dspl | Вовлеченные | engage_mid #2,PAUSED,DISPLAY,никогда,True
+14660291013,Remarketing Search | Pl,PAUSED,SEARCH,никогда,True
+23050775236,display_rem / basket,PAUSED,DISPLAY,никогда,True
