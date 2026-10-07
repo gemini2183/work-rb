@@ -24,8 +24,6 @@ channels:
       - "+48699586365"
       - "+48579773186"
       - "+48579774037"
-      - "+48579774022"
-      - "+48579773196"
 
   - name: "Google CPC_pmax (google_cpc_pmax)"
     utm_test: {utm_source: google, utm_medium: cpc, utm_campaign: pmax01_test}
@@ -70,8 +68,18 @@ channels:
       - "+48699586365"
       - "+48579773186"
       - "+48579774037"
-      - "+48579774022"
+
+  # Display-ретаргет (статические каналы), добавлено 2026-10-07.
+  - name: "Google CPC_rtg1 (dspl_rtg_basket)"
+    utm_test: {utm_source: google, utm_medium: cpc, utm_campaign: dspl_rtg_basket}
+    pool:
       - "+48579773196"
+
+  - name: "Google CPC_rtg_engage_mid (dspl_rtg_engage_mid)"
+    utm_test: {utm_source: google, utm_medium: cpc, utm_campaign: dspl_rtg_engage_mid}
+    pool:
+      - "+48579774022"
+
 
 # Справочно, НЕ прогоняется phone_swap_check.py: канал "Google CPC calls
 # from ads" — статический пул для звонков напрямую по номеру в объявлении,
