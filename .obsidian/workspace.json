@@ -244,6 +244,7 @@
   },
   "active": "49438aefe15a1236",
   "lastOpenFiles": [
+    "Скрипты/phone_click_probe.py",
     "Скрипты/gads_display_rtg_engage_mid_builder.py",
     "CLAUDE.md.tmp.33116.13059aef77c7",
     "Клиенты/Andverpersonalinjury/Журнал_изменений.md",
@@ -257,7 +258,6 @@
     "Клиенты/ProfiMet/Журнал_изменений.md.tmp.4532.26dd983f006e",
     "Клиенты/ProfiMet/Статистика/gads_customer_type_labels_before_20261007_1252.csv",
     "Скрипты/gads_remove_customer_type_labels.py",
-    "Скрипты/gads_set_acquisition_mode.py",
     "База_знаний/Инструменты/Google-Ads-списки-аудиторий-из-GA4-механика-и-подводные-камни.md",
     "Клиенты/ProfiMet/Аудитории/Справочник_списков.md",
     "Клиенты/ProfiMet/Аудитории/Диагностика_2026-10-07.md",
