@@ -244,6 +244,9 @@
   },
   "active": "49438aefe15a1236",
   "lastOpenFiles": [
+    "Клиенты/Andverpersonalinjury/Журнал_изменений.md",
+    "Клиенты/Andverpersonalinjury/Кампании/OpenAI_Ads/car-truck-tilda-2026-10-07.md",
+    "Клиенты/Andverpersonalinjury/Кампании/OpenAI_Ads",
     "Клиенты/Andverpersonalinjury/ads-cartruck-round1.csv",
     "Клиенты/Andverpersonalinjury/ad-groups-cartruck-round1.csv",
     "Клиенты/Andverpersonalinjury/Статистика/Landver Law Personal Injury Attorneys+Текущее представление+2026-10-072.csv",
@@ -256,8 +259,6 @@
     "База_знаний/Инструменты/Google-Ads-списки-аудиторий-из-GA4-механика-и-подводные-камни.md",
     "Клиенты/ProfiMet/Аудитории/Справочник_списков.md",
     "Клиенты/ProfiMet/Статистика/gads_user_lists_register_2026-10-07_final.csv",
-    "Клиенты/ProfiMet/Статистика/gads_userlists_usage_before_removal_20261007_1219.csv",
-    "Клиенты/ProfiMet/Статистика/gads_userlists_before_removal_20261007_1219.csv",
     "Клиенты/ProfiMet/Аудитории/Диагностика_2026-10-07.md",
     "База_знаний/Паттерны/Google-Ads-Search-юристы-только-пострадавшие-структура-и-фильтрация.md",
     "Клиенты/Andverpersonalinjury/Кампании/Search/car-truck-tilda-2026-10-06.md",
@@ -288,7 +289,6 @@
     "База_знаний/Инструменты/Google-Ads-Calls-номер-звонящего-недоступен-через-API.md",
     "Клиенты/SED Латвия/Решения.md",
     "Клиенты/SED Латвия/Задачи.md",
-    "Клиенты/SED Латвия/index.md",
-    "Клиенты/SED Латвия/_project.md"
+    "Клиенты/SED Латвия/index.md"
   ]
 }

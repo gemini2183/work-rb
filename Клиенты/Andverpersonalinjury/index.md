@@ -17,6 +17,8 @@ compensation. Call 24/7."** См. [[Решения]] 2026-09-08. `Статист
 
 # Andverpersonalinjury (Landver Law) — индекс
 
+2026-10-07: создана новая кампания OpenAI Ads "Landver Law - car+truck injuries - tilda" (через API, на паузе, 4 группы по ситуациям: Early Offer / Case Value / Truck / Lawyer Cost, 8 объявлений на модерации, fixed_bid $5, $40/день, 3 рынка DMA). Ringostat имеет отдельный канал ChatGPT (номер (888) 346-8106). См. [[Кампании/OpenAI_Ads/car-truck-tilda-2026-10-07]], [[Решения]] 2026-10-07, [[Журнал_изменений]], [[Задачи]].
+
 2026-10-06: подготовлена новая Search-кампания "search / car+truck injuries / s / lp - tilda" на
 посадочную landverpersonalinjury.tilda.ws/california-car-truck-accident — 4 группы (Car/Auto/Truck/
 18 Wheeler and Semi), только пострадавшие с травмами, объявления только на фактах страницы,

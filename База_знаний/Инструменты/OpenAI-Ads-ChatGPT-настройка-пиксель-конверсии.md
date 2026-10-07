@@ -666,6 +666,20 @@ Pixel ID одновременно.
 - [ChatGPT Ads Tracking: Configuration Guide (stape.io)](https://stape.io/blog/chatgpt-ads-tracking)
 - [ChatGPT Ads in 2026: CPC Bids, Targeting, OAIQ Pixel (choice.marketing)](https://choice.marketing/blog/chatgpt-ads-2026-field-guide/)
 
+## Ads API: что проверено на реальном аккаунте (2026-10-07)
+
+Статус раздела: проверено чтением и записью на аккаунте Landver Law (клиент Andverpersonalinjury), см. [[../../Клиенты/Andverpersonalinjury/Решения|Решения]] 2026-10-07. Документация: developers.openai.com/ads (страницы `.md` открываются; help.openai.com и openai.com/policies отдают 403 автоматическим клиентам).
+
+- **Ключ.** Ads API использует свой ключ (создаётся в Ads Manager → Settings), база `https://api.ads.openai.com/v1`, заголовок `Authorization: Bearer`. Сервисный ключ платформы разработчиков в нашем случае тоже принимался (поиск локаций, чтение, запись). Python urllib получает 403 (блок по User-Agent), curl работает.
+- **Поиск локаций:** `GET /geo_lookup/search?q=<текст>` (параметр именно `q`). Типы: `region` (штат), `market` (DMA), `postal_code`. Городов нет. LA market `3000192`, San Diego `3000201`, Palm Springs `3000193`, штат California `2000043`, Santa Barbara отдельный market `3000204`. Гео задаётся на уровне кампании (`targeting.locations.include[{id}]`), до 2500 ID.
+- **Бюджет и ставки.** `budget.daily_spend_limit_micros` или `lifetime_spend_limit_micros` на кампании (суммы в микро: $1 = 1 000 000). Ставка — в группе, `bidding_config`: `fixed_bid` (+`max_bid_micros`, это реальный потолок), `maximize_clicks` и `maximize_conversions` (потолка нет, платформа сама выбирает цену, нужен дневной бюджет). Это важно: группы без потолка платят рыночную цену, а не нашу ставку.
+- **Объекты.** `POST /campaigns` (status paused/active, `bidding_type`, `conversion_event_setting_ids`), `POST /ad_groups` (`context_hints` массивом строк), `POST /ads` (`creative`: type chat_card, title 3-50, body до 100, `target_url`, `file_id`, `image_crop`), активация `POST /campaigns|ad_groups|ads/{id}/activate`. `file_id` картинки можно переиспользовать между объявлениями.
+- **Параметры ссылки.** Фиксированные метки — в `target_url`; плейсхолдеры `{campaign_id}`, `{ad_group_id}`, `{ad_id}` — в `landing_page_configuration.query_string_template` (группа или объявление; в публичной документации не описано, найдено в живых объектах). Подставляются ли они реально — не проверено. GA4 читает `utm_campaign`, `utm_content`, а `campaign_id` как кампанию не читает.
+- **Отчёты.** `GET /ad_account/insights` с `aggregation_level` (ad/ad_group/campaign), `fields[]`, `time_ranges[]={"type":"unix_range","start":..,"end":..}`; `end` обязан быть целым часом по времени аккаунта (America/Los_Angeles). Конверсии: `POST /conversions/insights`.
+- **Цели конверсий:** `GET /conversions/event_settings`; одна цель можно привязать к нескольким кампаниям.
+- **Тип группы: фиксированная ставка против "максимизировать клики".** Fixed_bid $8 давал CPC $7-8 (у потолка), maximize_clicks на dog bite — около $9 за клик. Вывод о том, дешевле ли $5, ещё не сделан.
+- **Не проверено:** подстановка плейсхолдеров, видимость кастомной цели phone_click в отчёте, поведение при сбое оплаты.
+
 ## Зачем это нужно
 
 Первый клиент с доступом к OpenAI Ads Manager — растущий канал, структурно
