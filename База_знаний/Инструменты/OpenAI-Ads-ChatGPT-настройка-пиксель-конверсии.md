@@ -678,6 +678,8 @@ Pixel ID одновременно.
 - **Отчёты.** `GET /ad_account/insights` с `aggregation_level` (ad/ad_group/campaign), `fields[]`, `time_ranges[]={"type":"unix_range","start":..,"end":..}`; `end` обязан быть целым часом по времени аккаунта (America/Los_Angeles). Конверсии: `POST /conversions/insights`.
 - **Цели конверсий:** `GET /conversions/event_settings`; одна цель можно привязать к нескольким кампаниям.
 - **Тип группы: фиксированная ставка против "максимизировать клики".** Fixed_bid $8 давал CPC $7-8 (у потолка), maximize_clicks на dog bite — около $9 за клик. Вывод о том, дешевле ли $5, ещё не сделан.
+- **Смена ставки (проверено 2026-10-08):** `POST /ad_groups/{id}` с полным `bidding_config` `{"strategy":"fixed_bid","billing_event_type":"click","max_bid_micros":N}`; чтение сразу после записи может показать старое значение, через несколько секунд — новое. Fixed_bid $5 на Landver car+truck в первые сутки дал 4 показа на 4 группы; подняли до $7 (гипотеза «ниже рынка» не доказана). Операции оформлены скриптом `Скрипты/openai_ads.py` (`groups`, `insights`, `set-bid`), см. `Скрипты/README.md` и [[../Агенты/Протокол_подготовка_и_реализация]].
+- **Insights:** `metadata.readable_time` принимается только при `time_granularity` не `none`; `time_ranges[]` типа `date_range` (`since`, `until` включительно); фильтр `campaign.id` с оператором `IN` работает на `/ad_account/insights`; на `/ads` фильтр `campaign_id` не срабатывает.
 - **Не проверено:** подстановка плейсхолдеров, видимость кастомной цели phone_click в отчёте, поведение при сбое оплаты.
 
 ## Зачем это нужно
