@@ -1,55 +1,55 @@
 Campaign,Type,Negative,Geo_target_constant,Proximity_radius,Proximity_radius_units,Geo_name,Geo_target_type
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/20847,,,"Lower Silesian Voivodeship,Poland",Region
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/20848,,,"Kuyavian-Pomeranian Voivodeship,Poland",Region
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/20849,,,"Lubusz Voivodeship,Poland",Region
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/20850,,,"Lodz Voivodeship,Poland",Region
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/20851,,,"Lublin Voivodeship,Poland",Region
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/20852,,,"Lesser Poland Voivodeship,Poland",Region
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/20853,,,"Masovian Voivodeship,Poland",Region
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/20854,,,"Opole Voivodeship,Poland",Region
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/20855,,,"Podlaskie Voivodeship,Poland",Region
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/20856,,,"Podkarpackie Voivodeship,Poland",Region
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/20857,,,"Pomeranian Voivodeship,Poland",Region
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/20858,,,"Swietokrzyskie Voivodeship,Poland",Region
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/20859,,,"Silesian Voivodeship,Poland",Region
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/20860,,,"Warmian-Masurian Voivodeship,Poland",Region
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/20861,,,"Greater Poland Voivodeship,Poland",Region
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/20862,,,"West Pomeranian Voivodeship,Poland",Region
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011243,,,"Wroclaw,Lower Silesian Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011251,,,"Bydgoszcz,Bydgoszcz,Kuyavian-Pomeranian Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011272,,,"Torun,Kuyavian-Pomeranian Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011308,,,"Zielona Gora,Lubusz Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011367,,,"Krakow,Lesser Poland Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011373,,,"Nowy Sacz,Lesser Poland Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011388,,,"Tarnow,Lesser Poland Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011414,,,"Radom,Masovian Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011419,,,"Warsaw,Warsaw,Masovian Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011435,,,"Bialystok,Podlaskie Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011445,,,"Suwalki,Podlaskie Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011448,,,"Debica,Podkarpackie Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011450,,,"Jaslo,Podkarpackie Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011453,,,"Krosno,Podkarpackie Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011463,,,"Rzeszow,Rzeszow,Podkarpackie Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011475,,,"Gdansk,Pomeranian Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011476,,,"Gdynia,Gdynia,Pomeranian Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011498,,,"Kielce,Swietokrzyskie Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011507,,,"Bielsko-Biala,Silesian Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011515,,,"Czestochowa,Silesian Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011516,,,"Dabrowa Gornicza,Silesian Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011517,,,"Gliwice,Gliwice,Silesian Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011518,,,"Jastrzebie-Zdroj,Silesian Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011519,,,"Jaworzno,Silesian Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011521,,,"Katowice,Silesian Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011536,,,"Ruda Slaska,Silesian Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011537,,,"Rybnik,Silesian Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011539,,,"Sosnowiec,Silesian Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011542,,,"Wadowice,Lesser Poland Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011545,,,"Zabrze,Silesian Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011564,,,"Olsztyn,Warmian-Masurian Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011590,,,"Konin,Greater Poland Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011607,,,"Ostrow Wielkopolski,Greater Poland Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011610,,,"Pila,Greater Poland Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011615,,,"Poznan,Poznan,Greater Poland Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011658,,,"Koszalin,West Pomeranian Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1011672,,,"Szczecin,West Pomeranian Voivodeship,Poland",City
-Search | Poliweglan | Pl,LOCATION,False,geoTargetConstants/1031147,,,"Zywiec,Silesian Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/20847,,,"Lower Silesian Voivodeship,Poland",Region
+pmax1_test,LOCATION,False,geoTargetConstants/20848,,,"Kuyavian-Pomeranian Voivodeship,Poland",Region
+pmax1_test,LOCATION,False,geoTargetConstants/20849,,,"Lubusz Voivodeship,Poland",Region
+pmax1_test,LOCATION,False,geoTargetConstants/20850,,,"Lodz Voivodeship,Poland",Region
+pmax1_test,LOCATION,False,geoTargetConstants/20851,,,"Lublin Voivodeship,Poland",Region
+pmax1_test,LOCATION,False,geoTargetConstants/20852,,,"Lesser Poland Voivodeship,Poland",Region
+pmax1_test,LOCATION,False,geoTargetConstants/20853,,,"Masovian Voivodeship,Poland",Region
+pmax1_test,LOCATION,False,geoTargetConstants/20854,,,"Opole Voivodeship,Poland",Region
+pmax1_test,LOCATION,False,geoTargetConstants/20855,,,"Podlaskie Voivodeship,Poland",Region
+pmax1_test,LOCATION,False,geoTargetConstants/20856,,,"Podkarpackie Voivodeship,Poland",Region
+pmax1_test,LOCATION,False,geoTargetConstants/20857,,,"Pomeranian Voivodeship,Poland",Region
+pmax1_test,LOCATION,False,geoTargetConstants/20858,,,"Swietokrzyskie Voivodeship,Poland",Region
+pmax1_test,LOCATION,False,geoTargetConstants/20859,,,"Silesian Voivodeship,Poland",Region
+pmax1_test,LOCATION,False,geoTargetConstants/20860,,,"Warmian-Masurian Voivodeship,Poland",Region
+pmax1_test,LOCATION,False,geoTargetConstants/20861,,,"Greater Poland Voivodeship,Poland",Region
+pmax1_test,LOCATION,False,geoTargetConstants/20862,,,"West Pomeranian Voivodeship,Poland",Region
+pmax1_test,LOCATION,False,geoTargetConstants/1011243,,,"Wroclaw,Lower Silesian Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011251,,,"Bydgoszcz,Bydgoszcz,Kuyavian-Pomeranian Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011272,,,"Torun,Kuyavian-Pomeranian Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011308,,,"Zielona Gora,Lubusz Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011367,,,"Krakow,Lesser Poland Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011373,,,"Nowy Sacz,Lesser Poland Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011388,,,"Tarnow,Lesser Poland Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011414,,,"Radom,Masovian Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011419,,,"Warsaw,Warsaw,Masovian Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011435,,,"Bialystok,Podlaskie Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011445,,,"Suwalki,Podlaskie Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011448,,,"Debica,Podkarpackie Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011450,,,"Jaslo,Podkarpackie Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011453,,,"Krosno,Podkarpackie Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011463,,,"Rzeszow,Rzeszow,Podkarpackie Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011475,,,"Gdansk,Pomeranian Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011476,,,"Gdynia,Gdynia,Pomeranian Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011498,,,"Kielce,Swietokrzyskie Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011507,,,"Bielsko-Biala,Silesian Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011515,,,"Czestochowa,Silesian Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011516,,,"Dabrowa Gornicza,Silesian Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011517,,,"Gliwice,Gliwice,Silesian Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011518,,,"Jastrzebie-Zdroj,Silesian Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011519,,,"Jaworzno,Silesian Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011521,,,"Katowice,Silesian Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011536,,,"Ruda Slaska,Silesian Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011537,,,"Rybnik,Silesian Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011539,,,"Sosnowiec,Silesian Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011542,,,"Wadowice,Lesser Poland Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011545,,,"Zabrze,Silesian Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011564,,,"Olsztyn,Warmian-Masurian Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011590,,,"Konin,Greater Poland Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011607,,,"Ostrow Wielkopolski,Greater Poland Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011610,,,"Pila,Greater Poland Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011615,,,"Poznan,Poznan,Greater Poland Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011658,,,"Koszalin,West Pomeranian Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1011672,,,"Szczecin,West Pomeranian Voivodeship,Poland",City
+pmax1_test,LOCATION,False,geoTargetConstants/1031147,,,"Zywiec,Silesian Voivodeship,Poland",City

@@ -1,12 +1,6 @@
 Campaign,Day,Start,End
-Search | Poliweglan | Pl,MONDAY,07:45,17:00
-Search | Poliweglan | Pl,MONDAY,17:00,21:00
-Search | Poliweglan | Pl,TUESDAY,07:45,17:00
-Search | Poliweglan | Pl,TUESDAY,17:00,21:00
-Search | Poliweglan | Pl,WEDNESDAY,07:45,17:00
-Search | Poliweglan | Pl,WEDNESDAY,17:00,21:00
-Search | Poliweglan | Pl,THURSDAY,07:45,17:00
-Search | Poliweglan | Pl,THURSDAY,17:00,21:00
-Search | Poliweglan | Pl,FRIDAY,07:45,17:00
-Search | Poliweglan | Pl,FRIDAY,17:00,21:00
-Search | Poliweglan | Pl,SATURDAY,09:00,16:00
+pmax1_test,MONDAY,08:45,17:00
+pmax1_test,TUESDAY,08:45,17:00
+pmax1_test,WEDNESDAY,08:45,17:00
+pmax1_test,THURSDAY,08:45,17:00
+pmax1_test,FRIDAY,08:45,17:00
