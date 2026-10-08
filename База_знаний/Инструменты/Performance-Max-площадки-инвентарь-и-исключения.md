@@ -33,3 +33,11 @@ updated: 2026-10-08
 - Видео в группах ассетов видны через `asset_group_asset` (`field_type = YOUTUBE_VIDEO`). В `pmax1_test` во всех 6 включённых группах по 2 видео; в `pmax01` в единственной включённой группе тоже 2.
 - Настройки автоматизации ассетов кампании: `campaign.asset_automation_settings` (типы `TEXT_ASSET_AUTOMATION`, `GENERATE_IMAGE_ENHANCEMENT`, `GENERATE_IMAGE_EXTRACTION`, `GENERATE_ENHANCED_YOUTUBE_VIDEOS`, `FINAL_URL_EXPANSION_TEXT_ASSET_AUTOMATION`; статусы OPTED_IN / OPTED_OUT). В `pmax1_test`: автогенерация YouTube-видео выключена, расширение URL для текстов выключено.
 - По справке Google (страница про группы ассетов): «Our system is able to automatically generate videos based on the assets provided» — без своих видео Google может создать их сам, если автогенерация включена. Будет ли PMax без видео и с выключенной автогенерацией показываться на YouTube — не проверено, это и есть предмет теста.
+
+## Как собрать список детских YouTube-каналов для исключения (метод, ProfiMet, 2026-10-08)
+1. Выгрузить площадки PMax: `performance_max_placement_view` (`placement` = id видео, `display_name` = название; метрика только показы; сортировать по показам).
+2. По видео найти канал: `https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=<id>&format=json` → `author_name`, `author_url` (@handle). Быстро и без ключа; для удалённых видео ответ 401/403/404.
+3. Идентификатор канала (UC…, 24 знака) со страницы `@handle` — брать из `<link rel="canonical" href=".../channel/UC…">`, **не** из первого `"channelId"` в коде страницы (там бывают чужие каналы); проверять уникальность ID.
+4. Расширить заранее: поиск YouTube по детским запросам на разных языках (`results?search_query=…&sp=EgIQAg%3D%3D`, фильтр «каналы»), брать каналы от 50 тыс. подписчиков; результат вычитывать вручную — попадаются сельхозканалы, религиозные, музыка для сна.
+5. Записать в исключения аккаунта: `customer_negative_criterion` с `youtube_channel.channel_id`, пачками по 100, сначала `validate_only`. Скрипт — `Скрипты/gads_exclude_youtube_channels.py`.
+6. Результат ProfiMet: 726 каналов; топ-4000 видео выборки (88.8 тыс. показов) на 66% приходятся на эти каналы (по показам, не по расходу). Эффект на долю расхода YouTube — измерять через 2 недели (`segments.ad_network_type`).
