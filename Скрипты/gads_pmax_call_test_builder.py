@@ -27,7 +27,7 @@ from google.ads.googleads.errors import GoogleAdsException
 from gads_stats import GOOGLE_ADS_YAML
 
 CAMPAIGN_NAME = "pmax01_call_test"
-ASSET_GROUP_NAME = "call_test_search_themes"
+GROUPS = [("call_test_search_themes", "themes"), ("call_test_interests", "interests"), ("call_test_competitors", "competitors")]
 SRC_CAMPAIGN_ID = 23775369828
 SRC_ASSET_GROUP = "search themes"
 BUDGET_EUR = 40
@@ -171,19 +171,6 @@ def build_operations(client, cid, src, ca_rn):
         ca.asset = asset_rn
         ca.field_type = getattr(E.AssetFieldTypeEnum, ft)
 
-    ag = new_op().asset_group_operation.create
-    ag.resource_name = asset_group_rn
-    ag.name = ASSET_GROUP_NAME
-    ag.campaign = campaign_rn
-    ag.final_urls.append(FINAL_URL)
-    ag.status = E.AssetGroupStatusEnum.ENABLED
-
-    def link(asset_rn, field):
-        aga = new_op().asset_group_asset_operation.create
-        aga.asset_group = asset_group_rn
-        aga.asset = asset_rn
-        aga.field_type = getattr(E.AssetFieldTypeEnum, field)
-
     def new_text_asset(text):
         counter[0] += 1
         rn = f"customers/{cid}/assets/-{counter[0]}"
@@ -192,42 +179,66 @@ def build_operations(client, cid, src, ca_rn):
         a.text_asset.text = text
         return rn
 
+    # Общий набор ассетов: тексты и картинки одинаковые во всех группах (группы различаются только сигналами)
+    shared = []  # (resource_name ассета, тип поля)
     missing = []
     for field, keep in (("HEADLINE", KEEP_HEADLINES), ("LONG_HEADLINE", KEEP_LONG), ("DESCRIPTION", KEEP_DESCRIPTIONS)):
         for t in keep:
             rn = src["text"].get((field, t))
             if rn:
-                link(rn, field)
+                shared.append((rn, field))
             else:
                 missing.append((field, t))
-                link(new_text_asset(t), field)  # если такого ассета нет — создадим новый с тем же текстом
+                shared.append((new_text_asset(t), field))  # если такого ассета нет — создадим новый с тем же текстом
     for t in NEW_HEADLINES:
-        link(new_text_asset(t), "HEADLINE")
+        shared.append((new_text_asset(t), "HEADLINE"))
     for t in NEW_DESCRIPTIONS:
-        link(new_text_asset(t), "DESCRIPTION")
+        shared.append((new_text_asset(t), "DESCRIPTION"))
     for ft, rn in src["images"]:
-        link(rn, ft)
+        shared.append((rn, ft))
 
-    for theme in src["themes"]:
-        sig = new_op().asset_group_signal_operation.create
-        sig.asset_group = asset_group_rn
-        sig.search_theme.text = theme
-
-    # Аудитория-сигнал: новая аудитория конкурентов (старую `Конкуренты` не меняем) + 4 интереса покупателей (in-market)
-    aud_rn = f"customers/{cid}/audiences/-91"
+    # Аудитории-сигналы (две отдельные): интересы покупателей и конкуренты (новая аудитория; старую `Конкуренты` не меняем)
+    aud_interests_rn = f"customers/{cid}/audiences/-91"
     au = new_op().audience_operation.create
-    au.resource_name = aud_rn
-    au.name = f"Сигнал call_test {ts[:8]}: интересы покупателей + конкуренты"
-    au.description = "In-market: Lawn Care & Gardening Supplies, Outdoor Items, Landscape Design, Business & Industrial Products; конкуренты"
+    au.resource_name = aud_interests_rn
+    au.name = f"Сигнал call_test {ts[:8]}: интересы покупателей (in-market)"
+    au.description = "In-market: Lawn Care & Gardening Supplies, Business & Industrial Products, Outdoor Items, Landscape Design"
     dim = au.dimensions.add()
     for uid in INMARKET_IDS:
         seg = dim.audience_segments.segments.add()
         seg.user_interest.user_interest_category = f"customers/{cid}/userInterests/{uid}"
+    aud_comp_rn = f"customers/{cid}/audiences/-92"
+    au = new_op().audience_operation.create
+    au.resource_name = aud_comp_rn
+    au.name = f"Сигнал call_test {ts[:8]}: конкуренты"
+    au.description = "Домены конкурентов (Auction insights 2026-10-08)"
+    dim = au.dimensions.add()
     seg = dim.audience_segments.segments.add()
     seg.custom_audience.custom_audience = ca_rn
-    sig = new_op().asset_group_signal_operation.create
-    sig.asset_group = asset_group_rn
-    sig.audience.audience = aud_rn
+
+    # Три группы: по одной на тип сигнала (практика агентства: разные сигналы в разных группах, алгоритм сам делит расход)
+    for idx, (gname, kind) in enumerate(GROUPS):
+        ag_rn = f"customers/{cid}/assetGroups/-{3 + idx}"
+        ag = new_op().asset_group_operation.create
+        ag.resource_name = ag_rn
+        ag.name = gname
+        ag.campaign = campaign_rn
+        ag.final_urls.append(FINAL_URL)
+        ag.status = E.AssetGroupStatusEnum.ENABLED
+        for asset_rn, field in shared:
+            aga = new_op().asset_group_asset_operation.create
+            aga.asset_group = ag_rn
+            aga.asset = asset_rn
+            aga.field_type = getattr(E.AssetFieldTypeEnum, field)
+        if kind == "themes":
+            for theme in src["themes"]:
+                sig = new_op().asset_group_signal_operation.create
+                sig.asset_group = ag_rn
+                sig.search_theme.text = theme
+        else:
+            sig = new_op().asset_group_signal_operation.create
+            sig.asset_group = ag_rn
+            sig.audience.audience = aud_interests_rn if kind == "interests" else aud_comp_rn
     return ops, missing
 
 
