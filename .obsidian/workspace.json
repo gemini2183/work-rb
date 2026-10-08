@@ -244,6 +244,7 @@
   },
   "active": "aad7ea81908996b1",
   "lastOpenFiles": [
+    "Скрипты/gads_spend_guard.py",
     "Скрипты/gads_demand_gen_builder.py",
     "Клиенты/ProfiMet/Креативы/DG_карусель_карточки/_превью_карусели_по_моделям.jpg",
     "Клиенты/ProfiMet/Креативы/DG_карусель_карточки/card5_1200x1200.jpg",
@@ -276,7 +277,6 @@
     "Клиенты/ProfiMet/Статистика/snapshot_before_remove_texts_23775369828_20261008_1425.csv",
     "Скрипты/gads_add_asset_group_texts.py",
     "Клиенты/ProfiMet/Статистика/snapshot_before_remove_texts_23775369828_20261008_1415.csv",
-    "Скрипты/gads_remove_asset_group_texts.py",
     "Клиенты/ProfiMet/Кампании/РСЯ_КМС/pmax01_call_test.md",
     "Клиенты/ProfiMet/План_тестов_2026-10.md",
     "База_знаний/Инструменты/Demand-Gen-каналы-и-миграция-Display.md",

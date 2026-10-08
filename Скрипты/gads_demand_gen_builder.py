@@ -31,7 +31,7 @@ from gads_stats import GOOGLE_ADS_YAML
 
 CAMPAIGN_NAME = "dg_lookalike_test"
 AD_GROUP_NAME = "dg_lookalike_crm_2_5"
-BUDGET_EUR = 30  # валюта аккаунта; по прошлым записям бюджеты в тех же единицах
+BUDGET_EUR = 20  # старт 20 (решение пользователя 2026-10-08 после перерасхода pmax01); после 2-3 нормальных дней поднять до 30
 POLAND_GEO = "geoTargetConstants/2616"
 LANGUAGES = ["languageConstants/1030", "languageConstants/1000"]  # pl, en
 WEEKDAYS = ("MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY")
