@@ -49,7 +49,7 @@ updated: 2026-10-08
 | Проверка канала Ringostat по имени кампании на живом сайте | Ч | `ringostat_channel_matrix.py` | — |
 | Создание тестовой PMax на паузе | З | `gads_pmax_call_test_builder.py` | параметры из файла плана, не из кода |
 | Создание Display-ретаргета | З | `gads_display_rtg_builder.py`, `gads_display_rtg_engage_mid_builder.py` | общий сборщик вместо двух копий |
-| Создание Demand Gen | З | нет | сборщик (каналы, аудитории, объявления-изображения, цели); API умеет (`DemandGenMultiAssetAdInfo`, `channel_controls`, `optimized_targeting_enabled`) |
+| Создание Demand Gen | З | нет | сборщик, включая создание look-alike списка через API (`validate_only` прошёл 08.10) (каналы, аудитории, объявления-изображения, цели); API умеет (`DemandGenMultiAssetAdInfo`, `channel_controls`, `optimized_targeting_enabled`) |
 | Цели кампании, цель по CPA/бюджет, статус | З | `gads_set_campaign_goals.py`, `gads_set_campaign_tcpa_budget.py`, `gads_set_campaign_status.py` | — |
 | Исключения площадок YouTube; снятие исключений аудиторий | З | `gads_exclude_youtube_channels.py`, `gads_remove_audience_exclusions.py` | — |
 | Записи после изменения: журнал, лог кампании, реестр экспериментов, задача | З (вики) | вручную | шаблон записи, который заполняется из прочитанного состояния |
