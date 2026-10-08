@@ -23,7 +23,7 @@ from google.ads.googleads.errors import GoogleAdsException
 from _config import client_stats_dir
 from gads_stats import GOOGLE_ADS_YAML
 
-BATCH = 500
+BATCH = 100
 
 
 def existing_channels(ga, cid, client):
