@@ -28,3 +28,8 @@ updated: 2026-10-08
 
 ## Что нашли на ProfiMet (`pmax1_test`, 2026-10-08, конверсии Ads)
 01.09–08.10: Search 42% расхода, 68% конверсий, CPA 23 €; Discover 31%, 21%, 57 €; YouTube 27%, 11%, 88 €. YouTube-показы — в основном детские ролики («Śpiewające Brzdące», «Baby Shark», «Peppa» и т. п.) и новостные клипы. Полная таблица — [[../../Клиенты/ProfiMet/Кампании/РСЯ_КМС/pmax1_test]]. Гипотеза: исключения площадок снизят долю YouTube; не проверено.
+
+## Видео в PMax и автогенерация ассетов (ProfiMet, API, 2026-10-08)
+- Видео в группах ассетов видны через `asset_group_asset` (`field_type = YOUTUBE_VIDEO`). В `pmax1_test` во всех 6 включённых группах по 2 видео; в `pmax01` в единственной включённой группе тоже 2.
+- Настройки автоматизации ассетов кампании: `campaign.asset_automation_settings` (типы `TEXT_ASSET_AUTOMATION`, `GENERATE_IMAGE_ENHANCEMENT`, `GENERATE_IMAGE_EXTRACTION`, `GENERATE_ENHANCED_YOUTUBE_VIDEOS`, `FINAL_URL_EXPANSION_TEXT_ASSET_AUTOMATION`; статусы OPTED_IN / OPTED_OUT). В `pmax1_test`: автогенерация YouTube-видео выключена, расширение URL для текстов выключено.
+- По справке Google (страница про группы ассетов): «Our system is able to automatically generate videos based on the assets provided» — без своих видео Google может создать их сам, если автогенерация включена. Будет ли PMax без видео и с выключенной автогенерацией показываться на YouTube — не проверено, это и есть предмет теста.
