@@ -50,6 +50,12 @@ NEW_HEADLINES = ["Od Producenta", "Producent szklarni od 16 lat"]
 NEW_DESCRIPTIONS = ["Szklarnie od producenta. Płatność przy odbiorze.",
                     "Poliwęglan 4-6 mm z filtrem UV i mocne profile 40x20 mm. Polska produkcja, gwarancja."]
 IMAGE_FIELDS = ("MARKETING_IMAGE", "SQUARE_MARKETING_IMAGE", "PORTRAIT_MARKETING_IMAGE")
+# In-market интересы списка покупателей CRM (индексы 2.9x / 2.6x / 2.3x / 1.9x; Клиенты/ProfiMet/Аудитории/Инсайты_2026-10-08.md)
+INMARKET_IDS = [80896, 80883, 80501, 80494]  # Lawn Care & Gardening Supplies, Business & Industrial Products, Outdoor Items, Landscape Design
+# Конкуренты: прежние 12 адресов аудитории `Конкуренты` без своего сайта и дубля + 5 подтверждённых по Auction insights (Клиенты/ProfiMet/Конкуренты.md)
+COMPETITOR_DOMAINS = ["e-szklarnia.pl", "ekotunele.pl", "ekoszklarnia.pl", "wesoly-rolnik.online", "poliszklarnia.pl", "szklarnie24.pl",
+                      "szklarnie-online.pl", "www.moja-szklarnia-ogrodowa.pl", "dobraszklarnia.pl", "wm-szklarnia.pl", "nowaszklarnia.pl",
+                      "www.agroszklarnia.pl", "tunelefoliowe.eu", "alistan-shop.com", "cieplarnia.pl", "wesolyrolnik.pl", "szklarnie-online.eu"]
 LANGUAGES = ["languageConstants/1000", "languageConstants/1030"]
 WEEKDAYS = ("MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY")
 
@@ -103,7 +109,7 @@ def read_source(client, ga, cid):
     return src
 
 
-def build_operations(client, cid, src):
+def build_operations(client, cid, src, ca_rn):
     E = client.enums
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
     budget_rn = f"customers/{cid}/campaignBudgets/-1"
@@ -206,7 +212,46 @@ def build_operations(client, cid, src):
         sig = new_op().asset_group_signal_operation.create
         sig.asset_group = asset_group_rn
         sig.search_theme.text = theme
+
+    # Аудитория-сигнал: новая аудитория конкурентов (старую `Конкуренты` не меняем) + 4 интереса покупателей (in-market)
+    aud_rn = f"customers/{cid}/audiences/-91"
+    au = new_op().audience_operation.create
+    au.resource_name = aud_rn
+    au.name = f"Сигнал call_test {ts[:8]}: интересы покупателей + конкуренты"
+    au.description = "In-market: Lawn Care & Gardening Supplies, Outdoor Items, Landscape Design, Business & Industrial Products; конкуренты"
+    dim = au.dimensions.add()
+    for uid in INMARKET_IDS:
+        seg = dim.audience_segments.segments.add()
+        seg.user_interest.user_interest_category = f"customers/{cid}/userInterests/{uid}"
+    seg = dim.audience_segments.segments.add()
+    seg.custom_audience.custom_audience = ca_rn
+    sig = new_op().asset_group_signal_operation.create
+    sig.asset_group = asset_group_rn
+    sig.audience.audience = aud_rn
     return ops, missing
+
+
+def create_custom_audience(client, cid, execute):
+    """Новая аудитория конкурентов (старую `Конкуренты` не трогаем). Отдельный вызов: в пакетный Mutate её включить нельзя.
+    Без --execute только проверяется (validate_only), а в основной пакет подставляется существующая аудитория как заглушка."""
+    E = client.enums
+    op = client.get_type("CustomAudienceOperation")
+    ca = op.create
+    ca.name = f"Конкуренты ProfiMet {datetime.now():%Y%m%d}"
+    ca.description = "Домены конкурентов из Auction insights 2026-10-08 (без собственного сайта)"
+    ca.type_ = E.CustomAudienceTypeEnum.AUTO
+    for domain in COMPETITOR_DOMAINS:
+        m = ca.members.add()
+        m.member_type = E.CustomAudienceMemberTypeEnum.URL
+        m.url = domain
+    req = client.get_type("MutateCustomAudiencesRequest")
+    req.customer_id = cid
+    req.operations.append(op)
+    req.validate_only = not execute
+    resp = client.get_service("CustomAudienceService").mutate_custom_audiences(request=req)
+    if execute:
+        return resp.results[0].resource_name
+    return f"customers/{cid}/customAudiences/910784616"  # заглушка для проверки основного пакета
 
 
 def main():
@@ -220,7 +265,13 @@ def main():
     ga = client.get_service("GoogleAdsService")
     src = read_source(client, ga, cid)
     print(f"из `{SRC_ASSET_GROUP}`: текстовых ассетов {len(src['text'])}, картинок {len(src['images'])}, поисковых тем {len(src['themes'])}, гео {len(src['geo'])}, окон расписания {len(src['schedule'])}, ассетов кампании {len(src['campaign_assets'])}")
-    ops, missing = build_operations(client, cid, src)
+    try:
+        ca_rn = create_custom_audience(client, cid, args.execute)
+    except GoogleAdsException as ex:
+        print("ОШИБКА при создании аудитории конкурентов:", [e.message for e in ex.failure.errors][:3])
+        raise SystemExit(1)
+    print("аудитория конкурентов:", "создана " + ca_rn if args.execute else "проверка пройдена (validate_only)")
+    ops, missing = build_operations(client, cid, src, ca_rn)
     if missing:
         print("НЕ найдены существующие ассеты (будут созданы заново с тем же текстом):", missing)
     print(f"операций в запросе: {len(ops)}")
