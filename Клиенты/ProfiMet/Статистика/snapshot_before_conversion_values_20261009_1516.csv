@@ -1,0 +1,11 @@
+﻿resource_name,id,name,primary,default_value,always_use_default_value
+customers/7552781705/conversionActions/779002043,779002043,Add_to_cart (Все данные по веб-сайту),False,1.0,False
+customers/7552781705/conversionActions/779278702,779278702,Заявка из форм (Все данные по веб-сайту),False,1.0,False
+customers/7552781705/conversionActions/933558643,933558643,Звонки по объявлениям,True,1.0,True
+customers/7552781705/conversionActions/6632904949,6632904949,mocnaszklarnia.pl - GA4 (web) addToCart,True,1.0,False
+customers/7552781705/conversionActions/6633110055,6633110055,mocnaszklarnia.pl - GA4 (web) form_submit,False,1.0,False
+customers/7552781705/conversionActions/6634145207,6634145207,mocnaszklarnia.pl - GA4 (web) Ringostat_calls_static,True,1.0,False
+customers/7552781705/conversionActions/6634145438,6634145438,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,True,1.0,False
+customers/7552781705/conversionActions/6704818958,6704818958,mocnaszklarnia.pl - GA4 (web) addToCart_session,True,1.0,False
+customers/7552781705/conversionActions/7342589016,7342589016,call_static_server,True,1.0,True
+customers/7552781705/conversionActions/7832373577,7832373577,"Ringostat — уникальный звонок (офлайн, gclid)",False,1.0,False

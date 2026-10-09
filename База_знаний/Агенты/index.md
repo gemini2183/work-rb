@@ -49,6 +49,8 @@ updated: 2026-10-08
 | Состояние групп объявлений, аудитории и каналы Demand Gen (`optimized_targeting`, `channel_controls`) | Ч | нет (одноразовые запросы 08.10) | инструмент для Demand Gen |
 | Сверка звонков Ringostat и конверсий Ads по кампании | Ч | `ringostat_stats_profimet.py` + `gads_calls_stats_profimet.py` | один отчёт «заявки кампании» = Ringostat + формы + звонки из объявлений |
 | Проверка канала Ringostat по имени кампании на живом сайте | Ч | `ringostat_channel_matrix.py` | — |
+| Правка кампанийных минус-слов по Search Terms (добавить/снять по тексту + типу соответствия) | З | `gads_add_campaign_negatives.py`, `gads_remove_campaign_negatives.py` (2026-10-09, Landver) | чтение Search Terms с кластеризацией запросов в предложение минусов; API скрывает запросы ниже порога |
+| Смена типа ставки групп OpenAI Ads (fixed_bid ↔ maximize_clicks) и чтение Insights по группам | З/Ч | `openai_ads.py set-bid`, `set-maxclicks`, `insights` | сравнение кампаний (гео, ставка, лимит) в один отчёт |
 | Создание тестовой PMax на паузе | З | `gads_pmax_call_test_builder.py` | параметры из файла плана, не из кода |
 | Создание Display-ретаргета | З | `gads_display_rtg_builder.py`, `gads_display_rtg_engage_mid_builder.py` | общий сборщик вместо двух копий |
 | Создание Demand Gen | З | `gads_demand_gen_builder.py` (validate_only пройден 08.10) | параметры из файла плана; включая создание look-alike списка через API (`validate_only` прошёл 08.10) (каналы, аудитории, объявления-изображения, цели); API умеет (`DemandGenMultiAssetAdInfo`, `channel_controls`, `optimized_targeting_enabled`) |

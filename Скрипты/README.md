@@ -880,3 +880,10 @@ python gads_search_generic_builder.py --customer-id 7552781705 --read-back-only
 Создаёт `dg_interest_nodiscover` (Э-11): Gmail + Display без Discover и YouTube, группы `inmarket` (in-market категории по id из `user_interest`) и `intent_queries` (пользовательская аудитория), исключение CRM-покупателей, карусель на готовых карточках `dg_lookalike_test` и мультиассет. По умолчанию validate_only, на паузе, `--read-back-only` читает созданное. Цели ставятся отдельно `gads_set_campaign_goals.py`. Для новой Demand Gen копировать и менять константы (имя, аудитории, каналы).
 
 `gads_standardize_assets.py --price-only [--execute]` — заменяет только ценовой ассет (набор `PRICE_OFFERINGS` в начале файла) во всех целевых кампаниях, включая эталонную и кампании на паузе. Перед запуском сверять цены с главной; заголовок и подпись позиции ≤25 знаков (скрипт проверяет).
+
+## Кампанийные минус-слова: `gads_add_campaign_negatives.py` и `gads_remove_campaign_negatives.py` (ЗАПИСЬ, по умолчанию validate_only)
+Добавляют/снимают кампанийные минус-слова по точному тексту и типу соответствия (`--texts "а;б" --match EXACT|PHRASE|BROAD`), только в одной кампании (`--campaign` — точное имя). Add пропускает уже существующие; remove пишет снимок «до» всех минусов кампании в `Статистика/`. Оба читают обратно. Пример (Landver, 2026-10-09): `python gads_remove_campaign_negatives.py --customer-id 213-621-6123 --client-folder Andverpersonalinjury --campaign "search / car+truck injuries / s / lp - tilda" --texts "near me" --match BROAD [--execute]`.
+Для OpenAI Ads в `openai_ads.py` добавлена подкоманда `set-maxclicks --campaign ID [--groups …] [--execute]` — перевод групп на maximize_clicks.
+
+`gads_set_conversion_values.py --customer-id … --client-folder … [--execute]` — обнуляет ценность у всех включённых лид-конверсий (значение 0, «всегда по умолчанию»), кроме содержащих «Отгружено» (реальная сумма продаж); снимок «до» в Статистика/, чтение обратно. Старые действия Universal Analytics Google менять не даёт — скрипт сообщает и продолжает.
+

@@ -6,6 +6,7 @@
     groups   — группы кампании: статус и ставка;
     insights — показы/клики/расход/CTR/CPC по группам (или кампании) за период;
     set-bid  — смена fixed_bid у групп кампании.
+    set-maxclicks — перевод групп на maximize_clicks (без ставки; формат взят у групп dog bite).
 
 БЕЗОПАСНОСТЬ: set-bid по умолчанию только показывает план «было → станет» и ничего
 не пишет. Реальная запись — только с флагом --execute, после неё группы читаются
@@ -126,6 +127,28 @@ def cmd_set_bid(a):
         print(f"{after[g['id']]['name']}  {after[g['id']]['status']}  {bid_text(after[g['id']])}")
 
 
+def cmd_set_maxclicks(a):
+    groups = list_groups(a.campaign)
+    if a.groups:
+        wanted = set(a.groups)
+        groups = [g for g in groups if g["id"] in wanted]
+    if not groups:
+        sys.exit("Группы не найдены")
+    print("Объект | Действие | Было → Станет")
+    for g in groups:
+        print(f"{g['name']} ({g['id']}) | тип ставки | {bid_text(g)} → maximize_clicks (без ставки)")
+    if not a.execute:
+        print("\nПлан. Записи не было (добавьте --execute).")
+        return
+    for g in groups:
+        call("POST", f"/ad_groups/{g['id']}", body={"bidding_config": {
+            "strategy": "maximize_clicks", "billing_event_type": "click"}})
+    print("\nПрочитано обратно из аккаунта:")
+    after = {g["id"]: g for g in list_groups(a.campaign)}
+    for g in groups:
+        print(f"{after[g['id']]['name']}  {after[g['id']]['status']}  {bid_text(after[g['id']])}")
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -140,6 +163,9 @@ def main():
     s.add_argument("--bid", required=True, type=float, help="ставка в долларах")
     s.add_argument("--groups", nargs="*", help="ID групп; по умолчанию все группы кампании")
     s.add_argument("--execute", action="store_true"); s.set_defaults(f=cmd_set_bid)
+    m = sub.add_parser("set-maxclicks"); m.add_argument("--campaign", required=True)
+    m.add_argument("--groups", nargs="*", help="ID групп; по умолчанию все группы кампании")
+    m.add_argument("--execute", action="store_true"); m.set_defaults(f=cmd_set_maxclicks)
     a = p.parse_args()
     a.f(a)
 
