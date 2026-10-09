@@ -43,14 +43,18 @@ TARGETS = {  # id: (имя, канал)
 FIELDS = {"SEARCH": ["SITELINK", "CALLOUT", "STRUCTURED_SNIPPET", "AD_IMAGE", "PRICE"],
           "PMAX": ["SITELINK", "CALLOUT", "STRUCTURED_SNIPPET", "PRICE"]}
 BASE = "https://mocnaszklarnia.pl/"
-# Цены: MOCNA 1299 и NORDSTAR 1949 подтверждены чтением главной 2026-10-09; HOBBY, MAXI, MINI — из чтения главной 2026-10-08
-# (цены «от», для длины 2 м, поликарбонат 4 мм). Перед включением новых кампаний сверить ещё раз.
-PRICE_OFFERINGS = [  # (заголовок <=25, описание <=25, цена zł, якорь)
-    ("MOCNA", "Szerokość 3 m", 1299, "#profimet-mocna"),
-    ("NORDSTAR", "Szerokość 2,5 m", 1949, "#bs9"),
-    ("Domek HOBBY", "Dach dwuspadowy, 2,1 m", 1599, "#bs9"),
-    ("MOCNA MAXI", "Szerokość 4 m", 2249, "#bs9"),
-    ("MINI", "Szerokość 2 m", 1199, "#bs9"),
+# Цены «от» (поликарбонат 4 мм) сверены с текстом главной 2026-10-09; MAXI и Went Plus — минимальная длина 4 м, остальные 2 м.
+# Подписи только из фактов сайта: оплата при получении, доставка по Польше бесплатно 3–7 дней, 3 подарка, гарантия 5 лет на
+# поликарбонат; без «HIT», «Najniższa cena», «Nowość» (не подтверждены клиентом). Решение пользователя 2026-10-09.
+PRICE_OFFERINGS = [  # (заголовок <=25, подпись <=25, цена zł, якорь)
+    ("Szklarnia MOCNA 3 m", "Płać przy odbiorze", 1299, "#mocna"),
+    ("NORDSTAR, proste ściany", "Dostawa gratis, 3-7 dni", 1949, "#nordstar"),
+    ("Domek HOBBY, dwuspadowy", "3 prezenty gratis", 1599, "#hobby"),
+    ("MOCNA MAXI, wys. 2,2 m", "Szer. 4 m, dostawa gratis", 2249, "#maxi"),
+    ("Szklarnia MINI 2 m", "Na małą działkę", 1199, "#mini"),
+    ("MOCNA KOMPAKT 2,5 m", "Gwarancja do 5 lat", 1299, "#kompakt"),
+    ("MOCNA Went Plus 3 m", "Z wentylacją", 1729, "#wentplus"),
+    ("STANDARD PLUS 3 m", "Profil 20x20 mm", 1199, "#standard"),
 ]
 
 
@@ -78,6 +82,7 @@ def main():
     ap.add_argument("--execute", action="store_true", help="Реально записать. Без флага — validate_only")
     ap.add_argument("--only-campaign-id", type=int, help="привести к стандарту только эту кампанию (Search)")
     ap.add_argument("--price-asset-id", type=int, help="использовать готовый ценовой ассет вместо создания нового")
+    ap.add_argument("--price-only", action="store_true", help="заменить только ценовой ассет во всех целевых кампаниях и в эталонной")
     args = ap.parse_args()
 
     cid = args.customer_id.replace("-", "").strip()
@@ -92,7 +97,10 @@ def main():
     print("Эталон (кампания", SOURCE_CAMPAIGN, "):", {k: len(v) for k, v in std.items()})
     assert std.get("SITELINK") and std.get("CALLOUT") and std.get("STRUCTURED_SNIPPET") and std.get("AD_IMAGE"), "эталон неполный"
 
-    targets = TARGETS
+    targets = dict(TARGETS)
+    if args.price_only:
+        targets[SOURCE_CAMPAIGN] = ("search / szklarnia generic", "SEARCH")
+        targets[23439487425] = ("search / szklarnia/tunel (excl. poliweglan)", "SEARCH")  # на паузе, но актуальная (решение 2026-10-09)
     if args.only_campaign_id:
         nm = next(iter(ga.search(customer_id=cid, query=f"SELECT campaign.name FROM campaign WHERE campaign.id = {args.only_campaign_id}"))).campaign.name
         targets = {args.only_campaign_id: (nm, "SEARCH")}
@@ -107,7 +115,7 @@ def main():
     a.price_asset.price_qualifier = E.PriceExtensionPriceQualifierEnum.FROM
     a.price_asset.language_code = "pl"
     for header, desc, price, anchor in PRICE_OFFERINGS:
-        assert len(header) <= 25 and len(desc) <= 25, (header, desc)
+        assert len(header) <= 25 and len(desc) <= 25, (header, len(header), desc, len(desc))
         o = a.price_asset.price_offerings.add()
         o.header = header
         o.description = desc
@@ -121,7 +129,7 @@ def main():
     snapshot = []
     summary = []
     for camp_id, (name, channel) in targets.items():
-        fields = FIELDS[channel]
+        fields = ["PRICE"] if args.price_only else FIELDS[channel]
         current = read_links(client, ga, cid, camp_id, fields)
         remove, add = [], []
         for field in fields:
@@ -176,7 +184,7 @@ def main():
     print(f"\nЗаписано ({len(ops)} операций). Чтение обратно:")
     for camp_id, (name, channel) in targets.items():
         counts = {}
-        for r in read_links(client, ga, cid, camp_id, FIELDS[channel]):
+        for r in read_links(client, ga, cid, camp_id, ["PRICE"] if args.price_only else FIELDS[channel]):
             counts[(r["field"], r["status"])] = counts.get((r["field"], r["status"]), 0) + 1
         print(" ", name, dict(sorted(counts.items())))
 
