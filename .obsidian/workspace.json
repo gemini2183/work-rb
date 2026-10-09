@@ -244,6 +244,8 @@
   },
   "active": "aad7ea81908996b1",
   "lastOpenFiles": [
+    "Клиенты/ProfiMet/Статистика/snapshot_before_attribution_20261009_1520.csv",
+    "Скрипты/gads_set_conversion_attribution.py",
     "Клиенты/ProfiMet/Статистика/snapshot_before_conversion_values_20261009_1516.csv",
     "Скрипты/gads_set_conversion_values.py",
     "Клиенты/Andverpersonalinjury/Статистика/gads_campaign_negatives_before_removal_20261009_1513.csv",
@@ -253,8 +255,6 @@
     "Скрипты/__pycache__/openai_ads.cpython-313.pyc",
     "Клиенты/Andverpersonalinjury/Статистика/gads_campaign_negatives_before_removal_20261009_1505.csv",
     "Скрипты/gads_remove_campaign_negatives.py",
-    "Скрипты/__pycache__/gads_offline_unique_calls.cpython-313.pyc",
-    "Клиенты/Andverpersonalinjury/Статистика/gads_impression_share_2026-10-06_to_2026-10-08.csv",
     "База_знаний/Инструменты/Google-Ads-задержка-статистики-и-перерасход-бюджета.md",
     "База_знаний/Инструменты/Google-Ads-RLSA-минимум-списка-для-Search.md",
     "Клиенты/ProfiMet/Кампании/РСЯ_КМС/dg_lookalike_test.md",

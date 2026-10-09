@@ -1,0 +1,9 @@
+﻿resource,name,type,model
+customers/7552781705/conversionActions/779002043,Add_to_cart (Все данные по веб-сайту),UNIVERSAL_ANALYTICS_GOAL,GOOGLE_SEARCH_ATTRIBUTION_DATA_DRIVEN
+customers/7552781705/conversionActions/779278702,Заявка из форм (Все данные по веб-сайту),UNIVERSAL_ANALYTICS_GOAL,GOOGLE_SEARCH_ATTRIBUTION_DATA_DRIVEN
+customers/7552781705/conversionActions/933558643,Звонки по объявлениям,AD_CALL,GOOGLE_SEARCH_ATTRIBUTION_DATA_DRIVEN
+customers/7552781705/conversionActions/6793834996,form_submit_gtm,WEBPAGE,GOOGLE_SEARCH_ATTRIBUTION_DATA_DRIVEN
+customers/7552781705/conversionActions/7342456219,addToCart_gtm,WEBPAGE,GOOGLE_SEARCH_ATTRIBUTION_DATA_DRIVEN
+customers/7552781705/conversionActions/7342589016,call_static_server,UPLOAD_CLICKS,GOOGLE_SEARCH_ATTRIBUTION_DATA_DRIVEN
+customers/7552781705/conversionActions/7707807805,"PROFIMET — Отгружено (офлайн, gclid)",UPLOAD_CLICKS,GOOGLE_SEARCH_ATTRIBUTION_DATA_DRIVEN
+customers/7552781705/conversionActions/7832373577,"Ringostat — уникальный звонок (офлайн, gclid)",UPLOAD_CLICKS,GOOGLE_SEARCH_ATTRIBUTION_DATA_DRIVEN

@@ -887,3 +887,5 @@ python gads_search_generic_builder.py --customer-id 7552781705 --read-back-only
 
 `gads_set_conversion_values.py --customer-id … --client-folder … [--execute]` — обнуляет ценность у всех включённых лид-конверсий (значение 0, «всегда по умолчанию»), кроме содержащих «Отгружено» (реальная сумма продаж); снимок «до» в Статистика/, чтение обратно. Старые действия Universal Analytics Google менять не даёт — скрипт сообщает и продолжает.
 
+`gads_set_conversion_attribution.py --customer-id … --client-folder … [--execute]` — переводит включённые конверсионные действия с атрибуцией «управляемая данными» на «последний клик»; GA4-действия пропускает (их модель задаёт GA4), старые UA Google менять не даёт. Снимок «до», чтение обратно.
+
