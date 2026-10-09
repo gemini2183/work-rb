@@ -24,6 +24,8 @@ ID индекса в OpenAI = 9 000 000 + индекс; каждый всё ра
     python openai_ads_geo.py resolve --locations <файл> --zips <US.txt> --out <plan.json>
     python openai_ads_geo.py apply   --campaign cmpn_... --plan <plan.json>              # план
     python openai_ads_geo.py apply   --campaign cmpn_... --plan <plan.json> --execute    # запись
+    python openai_ads_geo.py apply   --campaign cmpn_... --plan <plan.json> --keep-current --only "Riverside,Temecula"
+        # оставить текущие рынки/индексы и добавить индексы только этих городов (план без --execute)
 
 Ключ и вызовы API — как в openai_ads.py (переменная OPENAI_ADS_API_KEY, curl, значение не печатается).
 """
@@ -128,18 +130,29 @@ def loc_text(x):
 
 def cmd_apply(a):
     plan = json.load(open(a.plan, encoding="utf-8"))
-    new = []  # [{"id":..}] без дублей, порядок: рынки, затем индексы
+    old = current_locations(a.campaign)
+    only = {n.strip().lower() for n in a.only.split(",")} if a.only else None
+    new = []  # [{"id":..}] без дублей
     seen = set()
+    if a.keep_current:  # оставить всё, что уже стоит, и только добавить
+        for x in old:
+            seen.add(x["id"]); new.append({"id": x["id"]})
     for loc in plan["locations"]:
+        if only is not None and loc["name"].lower() not in only:
+            continue
         for m in loc["markets"]:
             if m["id"] not in seen:
                 seen.add(m["id"]); new.append({"id": m["id"]})
-    for z, info in sorted(plan["zip_info"].items()):
-        if info["id"] not in seen:
-            seen.add(info["id"]); new.append({"id": info["id"]})
+        for z in loc["zips"]:
+            info = plan["zip_info"].get(z)
+            if info and info["id"] not in seen:
+                seen.add(info["id"]); new.append({"id": info["id"]})
+    if only is None:  # без --only берём весь план, как раньше
+        for z, info in sorted(plan["zip_info"].items()):
+            if info["id"] not in seen:
+                seen.add(info["id"]); new.append({"id": info["id"]})
     if len(new) > MAX_LOCATIONS:
         sys.exit(f"Больше лимита: {len(new)} > {MAX_LOCATIONS}")
-    old = current_locations(a.campaign)
     old_ids = {x["id"] for x in old}
     new_ids = {x["id"] for x in new}
     print("Объект | Действие | Было → Станет")
@@ -168,6 +181,9 @@ def main():
     r.add_argument("--out", required=True); r.set_defaults(f=cmd_resolve)
     s = sub.add_parser("apply")
     s.add_argument("--campaign", required=True); s.add_argument("--plan", required=True)
+    s.add_argument("--keep-current", action="store_true",
+                   help="оставить уже стоящие локации (рынки и индексы), только добавить")
+    s.add_argument("--only", help="названия локаций из плана через запятую: берутся только их рынки/индексы")
     s.add_argument("--execute", action="store_true"); s.set_defaults(f=cmd_apply)
     a = p.parse_args()
     a.f(a)
