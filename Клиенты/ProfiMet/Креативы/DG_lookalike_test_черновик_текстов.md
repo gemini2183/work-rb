@@ -22,7 +22,7 @@ updated: 2026-10-08
 | D2 | Płatność przy odbiorze, bez przedpłaty. Zamówienie potwierdzamy telefonicznie. | 78 / 90 | предоплата не нужна, подтверждение по телефону |
 | D3 | Dostawa w całej Polsce w 3-7 dni, darmowa od 1200 zł. Kurier rozładowuje u klienta. | 83 / 90 | доставка по Польше 3–7 дней, курьер разгружает |
 | D4 | Gwarancja: 2 lata na ramę i 5 lat na poliwęglan. Doradca pomoże dobrać rozmiar. | 79 / 90 | гарантия, консультант подбирает размеры |
-| D5 | Przy zamówieniu do 31 października 3 prezenty gratis. Zapytaj o szczegóły. | 74 / 90 | акция до 31.10 (состав не называем); после 31.10 убрать |
+| D5 | Przy zamówieniu do 31 października 3 prezenty gratis. Zapytaj o szczegóły. | 74 / 90 | акция ежемесячная (состав не называем); в тексте явная дата «31 października» — менять её каждый месяц, сам текст не убирать |
 
 ## Карусель (5 карточек, 1:1 и 4:5)
 | Карточка | Заголовок | Знаков / 30 | Картинка (папка `Креативы/pmax1_test/`) | Откуда факт |

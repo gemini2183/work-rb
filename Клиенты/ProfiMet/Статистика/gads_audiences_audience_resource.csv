@@ -36,3 +36,6 @@ Audience_id,Name,Status,Description
 344872198,competitors,ENABLED,
 344873035,зп - садовые навксы и уличные постройки,ENABLED,
 346026439,AssetGroupPersona_6704461273_2026-04-22T15:20:36.907996Z,ENABLED,
+361391465,Сигнал call_test 20261008: интересы покупателей (in-market),ENABLED,"In-market: Lawn Care & Gardening Supplies, Business & Industrial Products, Outdoor Items, Landscape Design"
+361391468,Сигнал call_test 20261008: конкуренты,ENABLED,Домены конкурентов (Auction insights 2026-10-08)
+361776052,dg_lookalike_test look-alike без CRM-покупателей 20261008_162645,ENABLED,Look-alike от CRM-покупателей; исключены сами CRM-покупатели

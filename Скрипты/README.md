@@ -854,3 +854,24 @@ python gads_audiences_audit.py --customer-id 7552781705 --client-folder "ProfiMe
 
 ## openai_ads.py — OpenAI Ads (ChatGPT): чтение Insights и смена ставок (ЗАПИСЬ только с --execute)
 Подкоманды: `groups --campaign ID` (статус и ставка групп), `insights --campaign ID --since ГГГГ-ММ-ДД --until ГГГГ-ММ-ДД [--level campaign|ad_group|ad] [--granularity none|daily|hourly]` (показы/клики/расход/CTR/CPC), `set-bid --campaign ID --bid 7 [--groups ID…] [--execute]` (fixed_bid у групп; без `--execute` печатает только план «было → станет»; с ним пишет и читает обратно). Ключ — переменная окружения `OPENAI_ADS_API_KEY` (если процесс её не видит, читается из пользовательской области Windows); значение нигде не печатается. HTTP через curl (urllib получает 403). Поле времени `metadata.readable_time` API принимает только при `--granularity` не `none`. Запуск из корня вики: `python Скрипты/openai_ads.py …`. Другие записи (создание, активация, бюджет) сюда не входят.
+
+## Создание Search-кампании на паузе: `gads_search_generic_builder.py` (ProfiMet)
+
+Образец для новой Search-кампании через API: бюджет, кампания (Maximize clicks с потолком цены клика, пауза, AI Max и автоассеты выключены, без партнёров), гео/язык/расписание, исключение CRM-покупателей, минус-слова, группы с ключами (фраза/точное), RSA с закреплением H1/D1, ассеты по стандарту ([[Клиенты/ProfiMet/Креативы/Ассеты_аудит_и_стандарт_2026-10-09]]: сайтлинки без Roistat, уточнения, сниппет, картинки, название и лого). По умолчанию validate_only; запись с `--execute`; `--read-back-only` читает созданную кампанию по имени, ничего не создавая (если чтение обратно упало после записи — не запускать `--execute` повторно, иначе дубль). Копировать и менять константы: имя, группы, ключи, тексты.
+
+```
+python gads_search_generic_builder.py --customer-id 7552781705              # проверка
+python gads_search_generic_builder.py --customer-id 7552781705 --execute    # запись, на паузе
+python gads_search_generic_builder.py --customer-id 7552781705 --read-back-only
+```
+
+## Ассеты: стандартизация, отвязка из групп PMax, снятие Roistat (ProfiMet, запись, по умолчанию validate_only)
+
+- `gads_standardize_assets.py --customer-id … --client-folder … [--only-campaign-id … --price-asset-id …] [--execute]` — приводит сайтлинки, уточнения, сниппет, картинки (Search) и цены включённых кампаний к набору эталонной кампании (`search / szklarnia generic`); снятые привязки пишет в снимок «до», читает обратно. Список целевых кампаний и тексты цен — константы в начале файла; перед запуском на новых кампаниях менять их, цены сверять с главной.
+- `gads_remove_asset_group_assets.py … --campaign-id … --asset-ids …` — отвязывает ассеты (например, автовидео Google) от групп ассетов PMax.
+- `gads_strip_roistat.py … [--execute]` — убирает `roistat*` из конечных URL объявлений, групп ассетов и сайтлинков; «расширенные текстовые» объявления Google не даёт править — пропускает.
+
+## Офлайн-выгрузка уникальных звонков Ringostat → Google Ads (ProfiMet): `gads_offline_unique_calls.py`
+
+`--create-action [--execute]` создаёт конверсию «Ringostat — уникальный звонок (офлайн, gclid)» (вторичная; создана 2026-10-09, id 7832373577). `--upload [--days 90] [--execute]` выбирает из Ringostat уникальные звонки Google CPC с gclid (gclid в `utm_content` как `gclid_<значение>`), ведёт реестр `Статистика/offline_unique_calls_uploaded.csv`. Старый `ConversionUploadService` для аккаунта закрыт (`CUSTOMER_NOT_ALLOWLISTED_FOR_THIS_FEATURE`), поэтому выгрузка идёт через Data Manager API (`events:ingest`, область `datamanager`, токен — `secrets/datamanager_token.json`, получается `datamanager_auth.py`; `--loop-min 60` — регулярный запуск). Без `--execute` — `validateOnly`. См. `Клиенты/ProfiMet/Журнал_изменений.md` И-034.
+

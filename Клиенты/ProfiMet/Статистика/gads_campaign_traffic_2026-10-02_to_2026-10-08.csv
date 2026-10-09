@@ -1,0 +1,96 @@
+Campaign,Status,Channel,Impr,Clicks,Cost
+Display 2 | Pl,PAUSED,DISPLAY,0,0,0.0
+Display 3 | Pl,PAUSED,DISPLAY,0,0,0.0
+Display 4 | Pl,PAUSED,DISPLAY,0,0,0.0
+Display | Pl,PAUSED,DISPLAY,0,0,0.0
+Display | Pl 23_1,PAUSED,DISPLAY,0,0,0.0
+Display | Pl 23_2 | addToCart,PAUSED,DISPLAY,0,0,0.0
+Display | addToCart_session | 18-44,PAUSED,DISPLAY,0,0,0.0
+Display | addToCart_session | 45-64,PAUSED,DISPLAY,0,0,0.0
+Display | addToCart_session | 65+,PAUSED,DISPLAY,0,0,0.0
+Display | addToCart_session | all,PAUSED,DISPLAY,0,0,0.0
+Display | Целевые запросы | Pl,PAUSED,DISPLAY,0,0,0.0
+Display | Целевые интересы | Pl,PAUSED,DISPLAY,0,0,0.0
+Dspl2  | Конкуренты,PAUSED,DISPLAY,0,0,0.0
+Dspl2 | Desktop | Leads,PAUSED,DISPLAY,0,0,0.0
+Dspl2 | desktop,PAUSED,DISPLAY,0,0,0.0
+Dspl2 | Целевые темы | Leads,PAUSED,DISPLAY,0,0,0.0
+Dspl2 | интересы х площадки,PAUSED,DISPLAY,0,0,0.0
+Dspl3 / Целевые запросы х Целевые темы/ opt on,PAUSED,DISPLAY,0,0,0.0
+Dspl3 | mobile,PAUSED,DISPLAY,0,0,0.0
+Dspl3 | Заинтересованные покупатели,PAUSED,DISPLAY,0,0,0.0
+Dspl4 / Целевые запросы / opt on,PAUSED,DISPLAY,0,0,0.0
+Dspl4 | Целевые интересы,PAUSED,DISPLAY,0,0,0.0
+Dspl5 / Целевые запросы / opt off,PAUSED,DISPLAY,0,0,0.0
+Kms1 / Mix / opt off / cpa,PAUSED,DISPLAY,0,0,0.0
+Kms2 / Mix / opt off / cpc,PAUSED,DISPLAY,0,0,0.0
+Leads-Discovery,PAUSED,DEMAND_GEN,0,0,0.0
+Performance Max / add_to_cart,PAUSED,PERFORMANCE_MAX,0,0,0.0
+Performance Max / form_submit - test,PAUSED,PERFORMANCE_MAX,0,0,0.0
+Performance Max / form_submit / kms2,PAUSED,PERFORMANCE_MAX,0,0,0.0
+Performance Max-3,PAUSED,PERFORMANCE_MAX,0,0,0.0
+Performance Max-4,PAUSED,PERFORMANCE_MAX,0,0,0.0
+Performance Max-5,PAUSED,PERFORMANCE_MAX,0,0,0.0
+Performance Max-6,PAUSED,PERFORMANCE_MAX,0,0,0.0
+Performance Max-7,PAUSED,PERFORMANCE_MAX,0,0,0.0
+Performance Max-8 / Add to Cart,PAUSED,PERFORMANCE_MAX,0,0,0.0
+Quiz Display | Pl,PAUSED,DISPLAY,0,0,0.0
+Quiz Search | Pl,PAUSED,SEARCH,0,0,0.0
+Remarketing Dspl | Cart,PAUSED,DISPLAY,0,0,0.0
+Remarketing Dspl | Pl,PAUSED,DISPLAY,0,0,0.0
+Remarketing Dspl | Брошенная корзина,PAUSED,DISPLAY,0,0,0.0
+Remarketing Dspl | Вовлеченные | engage_hi,PAUSED,DISPLAY,0,0,0.0
+Remarketing Dspl | Вовлеченные | engage_mid,PAUSED,DISPLAY,0,0,0.0
+Remarketing Dspl | Вовлеченные | engage_mid #2,PAUSED,DISPLAY,0,0,0.0
+Remarketing Search | Pl,PAUSED,SEARCH,0,0,0.0
+Remarketing Srch | Cart,PAUSED,SEARCH,0,0,0.0
+Sales-Performance Max,PAUSED,PERFORMANCE_MAX,0,0,0.0
+Search Dynamic | Pl,PAUSED,SEARCH,0,0,0.0
+Search | Brand | Pl,ENABLED,SEARCH,356,109,135.38
+Search | Brand | Pl Макс клики и Макс конв,PAUSED,SEARCH,0,0,0.0
+Search | Pl,PAUSED,SEARCH,0,0,0.0
+Search | Poliweglan | Pl,ENABLED,SEARCH,3131,287,237.97
+Search | Poliweglan | Pl  Экспериментальная группа 116,PAUSED,SEARCH,0,0,0.0
+Search | Poliweglan | Pl  Экспериментальная группа 116 Поиск - Тест - Апрель,ENABLED,SEARCH,0,0,0.0
+Search | Poliweglan | Pl  Экспериментальная группа 116 Увеличение СПА,ENABLED,SEARCH,0,0,0.0
+Search | Poliweglan | Pl  Экспериментальная группа 756,ENABLED,SEARCH,0,0,0.0
+Search | Poliweglan | Pl - Sketch,PAUSED,SEARCH,0,0,0.0
+Search | Poliweglan | Pl [broad],PAUSED,SEARCH,0,0,0.0
+Search | Poliweglan | Pl Макс клики vs Макс конверсии,REMOVED,SEARCH,0,0,0.0
+Search | Poliweglan | Pl Макс клики и Макс конв2,PAUSED,SEARCH,0,0,0.0
+Search | Poliweglan | Pl Поиск - Тест Апрель 2,ENABLED,SEARCH,0,0,0.0
+Search | Poliweglan | max clicks,PAUSED,SEARCH,0,0,0.0
+Search | Poliweglan | max cpa,PAUSED,SEARCH,0,0,0.0
+Search | Producent | max clicks,PAUSED,SEARCH,0,0,0.0
+Search | Wymiary  | max clicks,PAUSED,SEARCH,0,0,0.0
+Search | Wyprzedaż | max clicks,PAUSED,SEARCH,0,0,0.0
+Search | sklep,PAUSED,SEARCH,0,0,0.0
+Search | szklarnia/tunel,PAUSED,SEARCH,0,0,0.0
+demand_gen,PAUSED,DEMAND_GEN,4535,256,27.51
+dg_lookalike_test,ENABLED,DEMAND_GEN,0,0,0.0
+display / dspl1,PAUSED,DISPLAY,0,0,0.0
+display / Заинтересованные покупатели / dspl3,PAUSED,DISPLAY,0,0,0.0
+display / ключи / dspl2,PAUSED,DISPLAY,0,0,0.0
+display / конкуренты / dspl1,PAUSED,DISPLAY,0,0,0.0
+display / конкуренты / dspl1-2,PAUSED,DISPLAY,0,0,0.0
+display / целевые интересы / dspl2,PAUSED,DISPLAY,0,0,0.0
+display-rtg / engage_mid / rtg1,PAUSED,DISPLAY,0,0,0.0
+display-rtg / корзина / rtg2,PAUSED,DISPLAY,0,0,0.0
+display_rem / basket,PAUSED,DISPLAY,0,0,0.0
+dspl_rtg_basket,ENABLED,DISPLAY,0,0,0.0
+dspl_rtg_engage_mid,ENABLED,DISPLAY,0,0,0.0
+performance_max / 2509-1,PAUSED,PERFORMANCE_MAX,0,0,0.0
+performance_max / 2509-2,PAUSED,PERFORMANCE_MAX,0,0,0.0
+performance_max / 2510-1,PAUSED,PERFORMANCE_MAX,0,0,0.0
+pmax01,PAUSED,PERFORMANCE_MAX,22526,831,143.5
+pmax01_call_test,ENABLED,PERFORMANCE_MAX,4324,20,1.5
+pmax1_2,PAUSED,PERFORMANCE_MAX,0,0,0.0
+pmax1_test,ENABLED,PERFORMANCE_MAX,46039,1786,164.5
+pmax2,PAUSED,PERFORMANCE_MAX,0,0,0.0
+pmax2 / 2601_1,PAUSED,PERFORMANCE_MAX,0,0,0.0
+pmax3,PAUSED,PERFORMANCE_MAX,0,0,0.0
+search / poliweglan - generic,PAUSED,SEARCH,0,0,0.0
+search / poliweglan / broad,PAUSED,SEARCH,0,0,0.0
+search / poliweglan / weekend,PAUSED,SEARCH,0,0,0.0
+search / szklarnia/tunel (excl. poliweglan),ENABLED,SEARCH,632,37,15.75
+search-rtg,PAUSED,SEARCH,0,0,0.0

@@ -1,2 +1,2 @@
 Campaign,Status,Channel_type,Bidding_strategy,Target_spend_micros,Target_cpa_micros,Daily_budget,Network_google_search,Network_search_partners,Network_display,Network_partner_search,Geo_positive_type,Geo_negative_type
-pmax1_test,ENABLED,PERFORMANCE_MAX,MAXIMIZE_CONVERSIONS,,32000000,120.0,True,True,True,False,PRESENCE_OR_INTEREST,PRESENCE
+search / szklarnia/tunel (excl. poliweglan),ENABLED,SEARCH,TARGET_SPEND,,,50.0,True,True,False,False,PRESENCE_OR_INTEREST,PRESENCE

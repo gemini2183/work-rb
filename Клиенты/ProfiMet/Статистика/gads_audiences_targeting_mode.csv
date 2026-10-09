@@ -385,4 +385,5 @@ search / poliweglan / weekend,mala szklarnia z poliweglanu,OBSERVATION
 search-rtg,корзина 60 дней + широкие ключи,TARGETING
 display / Заинтересованные покупатели / dspl3,зп / садовые навесыи уличные постройки,TARGETING
 dspl_rtg_basket,rtg_cart_30d,TARGETING
+dspl_rtg_engage_mid,rtg_engage_mid_30d,TARGETING
 dspl_rtg_basket,rtg_cart_60d,TARGETING

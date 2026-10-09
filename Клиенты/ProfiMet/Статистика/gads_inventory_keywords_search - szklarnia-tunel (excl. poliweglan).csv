@@ -1,0 +1,133 @@
+Ad_group,Keyword,Match_type,Status
+cena,male,BROAD,ENABLED
+cena,małe,BROAD,ENABLED
+cena,namiot,BROAD,ENABLED
+cena,namioty,BROAD,ENABLED
+cena,szklarnia ceny,PHRASE,ENABLED
+cena,szklarnia ile kosztuje,PHRASE,ENABLED
+cena,szklarnie ogrodowe ceny,PHRASE,ENABLED
+cena,szklarnie tanie,PHRASE,ENABLED
+cena,wyprzedaż,BROAD,ENABLED
+kupić,mala,BROAD,ENABLED
+kupić,male,BROAD,ENABLED
+kupić,mała,BROAD,ENABLED
+kupić,małe,BROAD,ENABLED
+kupić,namiot,BROAD,ENABLED
+kupić,namioty,BROAD,ENABLED
+kupić,szklarnia ogrodowa jaką kupić,PHRASE,ENABLED
+kupić,szklarnia ogrodowa kupic,PHRASE,ENABLED
+kupić,szklarnie gdzie kupić,PHRASE,ENABLED
+kupić,szklarnie kupić,PHRASE,ENABLED
+kupić,wyprzedaż,BROAD,ENABLED
+reszta,gotowe szklarnie,PHRASE,ENABLED
+reszta,mala,BROAD,ENABLED
+reszta,male,BROAD,ENABLED
+reszta,mała,BROAD,ENABLED
+reszta,małe,BROAD,ENABLED
+reszta,namiot,BROAD,ENABLED
+reszta,namioty,BROAD,ENABLED
+reszta,ogrodowa szklarnia,EXACT,ENABLED
+reszta,plastikowa szklarnia,PHRASE,ENABLED
+reszta,szklarnia dla roślin,PHRASE,ENABLED
+reszta,szklarnia ogrodowa,BROAD,ENABLED
+reszta,szklarnie ogrodowe,EXACT,ENABLED
+reszta,wyprzedaż,BROAD,ENABLED
+szklarnia [exact],3x4,BROAD,ENABLED
+szklarnia [exact],3x6,BROAD,ENABLED
+szklarnia [exact],namiot,BROAD,ENABLED
+szklarnia [exact],namioty,BROAD,ENABLED
+szklarnia [exact],ogrodowa,BROAD,ENABLED
+szklarnia [exact],ogrodowe,BROAD,ENABLED
+szklarnia [exact],producent,BROAD,ENABLED
+szklarnia [exact],szklarnia,EXACT,ENABLED
+szklarnia [exact],tunel,BROAD,ENABLED
+szklarnia [exact],tunele,BROAD,ENABLED
+szklarnia [exact],wyprzedaż,BROAD,ENABLED
+szklarnia ogrodowa,3x4,BROAD,ENABLED
+szklarnia ogrodowa,3x6,BROAD,ENABLED
+szklarnia ogrodowa,folię,BROAD,ENABLED
+szklarnia ogrodowa,mala,BROAD,ENABLED
+szklarnia ogrodowa,male,BROAD,ENABLED
+szklarnia ogrodowa,mała,BROAD,ENABLED
+szklarnia ogrodowa,namiot,BROAD,ENABLED
+szklarnia ogrodowa,namioty,BROAD,ENABLED
+szklarnia ogrodowa,szklarnia,EXACT,ENABLED
+szklarnia ogrodowa,szklarnie ogrodowe,PHRASE,ENABLED
+szklarnia ogrodowa,tunel,BROAD,ENABLED
+szklarnia ogrodowa,tunele,BROAD,ENABLED
+szklarnia ogrodowa,wyprzedaż,BROAD,ENABLED
+szklarnia producent,namiot,BROAD,ENABLED
+szklarnia producent,namioty,BROAD,ENABLED
+szklarnia producent,producent szklarni,PHRASE,ENABLED
+szklarnia producent,producent szklarni ogrodowych,PHRASE,ENABLED
+szklarnia producent,szklarnie producent,PHRASE,ENABLED
+szklarnia producent,tunel,BROAD,ENABLED
+szklarnia producent,tunele,BROAD,ENABLED
+szklarnia producent,wyprzedaż,BROAD,ENABLED
+szklarnia producent polski,namiot,BROAD,ENABLED
+szklarnia producent polski,namioty,BROAD,ENABLED
+szklarnia producent polski,polski producent szklarni,PHRASE,ENABLED
+szklarnia producent polski,polski producent szklarni ogrodowych,PHRASE,ENABLED
+szklarnia producent polski,polskie szklarnie,PHRASE,ENABLED
+szklarnia producent polski,szklarnie polskiej produkcji,PHRASE,ENABLED
+szklarnia producent polski,tunel,BROAD,ENABLED
+szklarnia producent polski,tunele,BROAD,ENABLED
+szklarnia producent polski,wyprzedaż,BROAD,ENABLED
+szklarnie na pomidory,mala,BROAD,ENABLED
+szklarnie na pomidory,male,BROAD,ENABLED
+szklarnie na pomidory,mała,BROAD,ENABLED
+szklarnie na pomidory,namiot,BROAD,ENABLED
+szklarnie na pomidory,namioty,BROAD,ENABLED
+szklarnie na pomidory,szklarnia poliwęglan,EXACT,ENABLED
+szklarnie na pomidory,szklarnia z poliwęglanu,EXACT,ENABLED
+szklarnie na pomidory,szklarnie na pomidory,PHRASE,ENABLED
+szklarnie na pomidory,szklarnie poliweglanowe,EXACT,ENABLED
+szklarnie na pomidory,szklarnie z poliwęglanu,EXACT,ENABLED
+szklarnie na pomidory,wyprzedaż,BROAD,ENABLED
+tunele na pomidory,mala,BROAD,ENABLED
+tunele na pomidory,male,BROAD,ENABLED
+tunele na pomidory,mała,BROAD,ENABLED
+tunele na pomidory,namiot,BROAD,ENABLED
+tunele na pomidory,namioty,BROAD,ENABLED
+tunele na pomidory,szklarnia poliwęglan,EXACT,ENABLED
+tunele na pomidory,szklarnia z poliwęglanu,EXACT,ENABLED
+tunele na pomidory,szklarnie poliweglanowe,EXACT,ENABLED
+tunele na pomidory,szklarnie z poliwęglanu,EXACT,ENABLED
+tunele na pomidory,tunele na pomidory,PHRASE,ENABLED
+tunele na pomidory,wyprzedaż,BROAD,ENABLED
+tunele ogrodnicze,mala,BROAD,ENABLED
+tunele ogrodnicze,male,BROAD,ENABLED
+tunele ogrodnicze,mała,BROAD,ENABLED
+tunele ogrodnicze,namiot,BROAD,ENABLED
+tunele ogrodnicze,namioty,BROAD,ENABLED
+tunele ogrodnicze,szklarnia poliwęglan,EXACT,ENABLED
+tunele ogrodnicze,szklarnia z poliwęglanu,EXACT,ENABLED
+tunele ogrodnicze,szklarnie poliweglanowe,EXACT,ENABLED
+tunele ogrodnicze,szklarnie z poliwęglanu,EXACT,ENABLED
+tunele ogrodnicze,tunele ogrodnicze,PHRASE,ENABLED
+tunele ogrodnicze,wyprzedaż,BROAD,ENABLED
+tunele ogrodowe,mala,BROAD,ENABLED
+tunele ogrodowe,male,BROAD,ENABLED
+tunele ogrodowe,mała,BROAD,ENABLED
+tunele ogrodowe,namiot,BROAD,ENABLED
+tunele ogrodowe,namioty,BROAD,ENABLED
+tunele ogrodowe,szklarnia poliwęglan,EXACT,ENABLED
+tunele ogrodowe,szklarnia z poliwęglanu,EXACT,ENABLED
+tunele ogrodowe,szklarnie poliweglanowe,EXACT,ENABLED
+tunele ogrodowe,szklarnie z poliwęglanu,EXACT,ENABLED
+tunele ogrodowe,tunele ogrodowe,PHRASE,ENABLED
+tunele ogrodowe,wyprzedaż,BROAD,ENABLED
+tunele warzywne,mala,BROAD,ENABLED
+tunele warzywne,male,BROAD,ENABLED
+tunele warzywne,mała,BROAD,ENABLED
+tunele warzywne,namiot,BROAD,ENABLED
+tunele warzywne,namioty,BROAD,ENABLED
+tunele warzywne,szklarnia poliwęglan,EXACT,ENABLED
+tunele warzywne,szklarnia z poliwęglanu,EXACT,ENABLED
+tunele warzywne,szklarnie poliweglanowe,EXACT,ENABLED
+tunele warzywne,szklarnie z poliwęglanu,EXACT,ENABLED
+tunele warzywne,tunel na warzywa,PHRASE,ENABLED
+tunele warzywne,tunel pod warzywa,PHRASE,ENABLED
+tunele warzywne,tunel warzywny,PHRASE,ENABLED
+tunele warzywne,tunele warzywne,PHRASE,ENABLED
+tunele warzywne,wyprzedaż,BROAD,ENABLED

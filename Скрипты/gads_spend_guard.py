@@ -99,7 +99,13 @@ def main():
 
     while True:
         for campaign_id in args.campaign_ids:
-            s = read_state(ga, cid, campaign_id, args.since)
+            try:
+                s = read_state(ga, cid, campaign_id, args.since)
+            except Exception as ex:  # сбой сети/API не должен ронять сторожа: пропускаем проверку, пробуем снова
+                now = datetime.now()
+                print(f"{now:%H:%M:%S} кампания {campaign_id}: ошибка чтения, пропуск ({type(ex).__name__}: {str(ex)[:120]})")
+                log_row([now.isoformat(timespec="seconds"), campaign_id, "", "", "", "", "", "", "ошибка чтения: " + type(ex).__name__, ""])
+                continue
             now = datetime.now()
             event, inertia = "", ""
             if campaign_id in paused_at:

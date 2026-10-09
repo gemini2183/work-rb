@@ -1,6 +1,7 @@
 Campaign,Day,Start,End
-pmax1_test,MONDAY,08:45,17:00
-pmax1_test,TUESDAY,08:45,17:00
-pmax1_test,WEDNESDAY,08:45,17:00
-pmax1_test,THURSDAY,08:45,17:00
-pmax1_test,FRIDAY,08:45,17:00
+search / szklarnia/tunel (excl. poliweglan),MONDAY,07:00,17:00
+search / szklarnia/tunel (excl. poliweglan),TUESDAY,07:00,17:00
+search / szklarnia/tunel (excl. poliweglan),WEDNESDAY,07:00,17:00
+search / szklarnia/tunel (excl. poliweglan),THURSDAY,07:00,17:00
+search / szklarnia/tunel (excl. poliweglan),FRIDAY,07:00,17:00
+search / szklarnia/tunel (excl. poliweglan),SATURDAY,09:00,16:00

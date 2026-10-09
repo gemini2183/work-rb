@@ -1,0 +1,24 @@
+Campaign,Status,Channel,Action,All_conv,Conv
+Search | Brand | Pl,ENABLED,SEARCH,addToCart_gtm,3.1,0.0
+Search | Brand | Pl,ENABLED,SEARCH,form_submit_gtm,2.0,2.0
+Search | Brand | Pl,ENABLED,SEARCH,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+Search | Brand | Pl,ENABLED,SEARCH,mocnaszklarnia.pl - GA4 (web) addToCart_session,4.0,0.0
+Search | Brand | Pl,ENABLED,SEARCH,mocnaszklarnia.pl - GA4 (web) form_submit,1.0,0.0
+Search | Brand | Pl,ENABLED,SEARCH,Клик по номеру,5.0,0.0
+Search | Poliweglan | Pl,ENABLED,SEARCH,addToCart_gtm,6.0,0.0
+Search | Poliweglan | Pl,ENABLED,SEARCH,form_submit_gtm,4.0,4.0
+Search | Poliweglan | Pl,ENABLED,SEARCH,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,4.0,4.0
+Search | Poliweglan | Pl,ENABLED,SEARCH,mocnaszklarnia.pl - GA4 (web) addToCart_session,3.0,0.0
+Search | Poliweglan | Pl,ENABLED,SEARCH,mocnaszklarnia.pl - GA4 (web) form_submit,3.0,0.0
+Search | Poliweglan | Pl,ENABLED,SEARCH,Клик по номеру,3.0,0.0
+demand_gen,PAUSED,DEMAND_GEN,Клик по номеру,1.0,0.0
+pmax01,PAUSED,PERFORMANCE_MAX,addToCart_gtm,13.0,0.0
+pmax01,PAUSED,PERFORMANCE_MAX,Клик по номеру,1.0,1.0
+pmax1_test,ENABLED,PERFORMANCE_MAX,addToCart_gtm,17.58,0.0
+pmax1_test,ENABLED,PERFORMANCE_MAX,form_submit_gtm,1.0,1.0
+pmax1_test,ENABLED,PERFORMANCE_MAX,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,6.0,6.0
+pmax1_test,ENABLED,PERFORMANCE_MAX,mocnaszklarnia.pl - GA4 (web) addToCart_session,3.0,0.0
+pmax1_test,ENABLED,PERFORMANCE_MAX,mocnaszklarnia.pl - GA4 (web) form_submit,1.0,0.0
+pmax1_test,ENABLED,PERFORMANCE_MAX,Звонки по объявлениям,1.0,1.0
+pmax1_test,ENABLED,PERFORMANCE_MAX,Клик по номеру,7.0,0.0
+search / szklarnia/tunel (excl. poliweglan),ENABLED,SEARCH,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0

@@ -43,10 +43,16 @@ ad_group,Remarketing Dspl | Вовлеченные | engage_mid #2,PAUSED,DISPLA
 ad_group,Remarketing Dspl | Вовлеченные | engage_mid #2,PAUSED,DISPLAY,engage_mid,ENABLED,8575354546,False,ENABLED,0.0
 ad_group,display-rtg / engage_mid / rtg1,PAUSED,DISPLAY,engage_mid,ENABLED,8575354546,False,ENABLED,0.0
 ad_group,display-rtg / корзина / rtg2,PAUSED,DISPLAY,корзина (14),ENABLED,8365996407,False,ENABLED,0.0
-ad_group,demand_gen,PAUSED,DEMAND_GEN,карусель / look-a-like - лиды(60 дн) / 5%,PAUSED,9475488813,False,ENABLED,0.0
 ad_group,search-rtg,PAUSED,SEARCH,корзина 60 дней + широкие ключи,ENABLED,8365998003,False,ENABLED,0.0
+ad_group,demand_gen,PAUSED,DEMAND_GEN,карусель / look-a-like - лиды(60 дн) / 5%,PAUSED,9475488813,False,ENABLED,0.0
 ad_group,demand_gen,PAUSED,DEMAND_GEN,look-a-like / crm customers / 5%,ENABLED,9475488813,False,ENABLED,0.0
 ad_group,dspl_rtg_basket,ENABLED,DISPLAY,rtg_cart_30d,PAUSED,8365998003,False,ENABLED,0.0
 ad_group,dspl_rtg_basket,ENABLED,DISPLAY,rtg_cart_30d,PAUSED,8366436798,True,ENABLED,0.0
 ad_group,dspl_rtg_basket,ENABLED,DISPLAY,rtg_cart_60d,ENABLED,8365998003,False,ENABLED,0.0
 ad_group,dspl_rtg_basket,ENABLED,DISPLAY,rtg_cart_60d,ENABLED,8366436798,True,ENABLED,0.0
+ad_group,dg_lookalike_test,ENABLED,DEMAND_GEN,dg_lookalike_crm_2_5,ENABLED,9441800617,True,ENABLED,0.0
+ad_group,dg_lookalike_test,ENABLED,DEMAND_GEN,dg_lookalike_crm_2_5,ENABLED,9484178885,False,ENABLED,0.0
+ad_group,dspl_rtg_engage_mid,ENABLED,DISPLAY,rtg_engage_mid_30d,ENABLED,8365998003,True,ENABLED,0.0
+ad_group,dspl_rtg_engage_mid,ENABLED,DISPLAY,rtg_engage_mid_30d,ENABLED,8366436798,True,ENABLED,0.0
+ad_group,dspl_rtg_engage_mid,ENABLED,DISPLAY,rtg_engage_mid_30d,ENABLED,8575354546,False,ENABLED,0.0
+ad_group,dspl_rtg_engage_mid,ENABLED,DISPLAY,rtg_engage_mid_30d,ENABLED,9441800617,True,ENABLED,0.0

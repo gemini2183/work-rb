@@ -1,0 +1,8 @@
+{
+  "name": "Search | Brand | Pl",
+  "status": "ENABLED",
+  "strategy": "MAXIMIZE_CONVERSIONS",
+  "tcpa": 0.0,
+  "budget": 1000.0,
+  "budget_resource": "customers/7552781705/campaignBudgets/12080620266"
+}
