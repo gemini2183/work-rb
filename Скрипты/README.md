@@ -875,3 +875,7 @@ python gads_search_generic_builder.py --customer-id 7552781705 --read-back-only
 
 `--create-action [--execute]` создаёт конверсию «Ringostat — уникальный звонок (офлайн, gclid)» (вторичная; создана 2026-10-09, id 7832373577). `--upload [--days 90] [--execute]` выбирает из Ringostat уникальные звонки Google CPC с gclid (gclid в `utm_content` как `gclid_<значение>`), ведёт реестр `Статистика/offline_unique_calls_uploaded.csv`. Старый `ConversionUploadService` для аккаунта закрыт (`CUSTOMER_NOT_ALLOWLISTED_FOR_THIS_FEATURE`), поэтому выгрузка идёт через Data Manager API (`events:ingest`, область `datamanager`, токен — `secrets/datamanager_token.json`, получается `datamanager_auth.py`; `--loop-min 60` — регулярный запуск). Без `--execute` — `validateOnly`. См. `Клиенты/ProfiMet/Журнал_изменений.md` И-034.
 
+## Demand Gen с двумя группами аудиторий: `gads_demand_gen_interest_builder.py` (ProfiMet)
+
+Создаёт `dg_interest_nodiscover` (Э-11): Gmail + Display без Discover и YouTube, группы `inmarket` (in-market категории по id из `user_interest`) и `intent_queries` (пользовательская аудитория), исключение CRM-покупателей, карусель на готовых карточках `dg_lookalike_test` и мультиассет. По умолчанию validate_only, на паузе, `--read-back-only` читает созданное. Цели ставятся отдельно `gads_set_campaign_goals.py`. Для новой Demand Gen копировать и менять константы (имя, аудитории, каналы).
+
