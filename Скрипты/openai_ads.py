@@ -26,15 +26,18 @@ User-Agent).
     python openai_ads.py set-bid  --campaign cmpn_... --bid 7 --execute    # запись
 """
 import argparse
+import functools
 import json
 import os
 import subprocess
 import sys
+import time
 
 BASE = "https://api.ads.openai.com/v1"
 KEY_ENV = "OPENAI_ADS_API_KEY"
 
 
+@functools.lru_cache(maxsize=1)
 def get_key():
     key = os.environ.get(KEY_ENV)
     if not key and sys.platform == "win32":
@@ -59,8 +62,12 @@ def call(method, path, params=None, body=None):
         for k, v in params:
             cmd += ["--data-urlencode", f"{k}={v}"]
     cmd.append(url)
-    res = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
-    text, _, code = res.stdout.rpartition("\n")
+    for attempt in range(8):  # 429: лимит частоты, ждём и повторяем
+        res = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
+        text, _, code = res.stdout.rpartition("\n")
+        if code != "429":
+            break
+        time.sleep(1 + attempt)
     if not code.startswith("2"):
         sys.exit(f"HTTP {code} {method} {path}: {text[:500]}")
     return json.loads(text)

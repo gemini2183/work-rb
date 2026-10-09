@@ -1,0 +1,46 @@
+# Список локаций клиента (44), как в Google Ads. Источник: пользователь, 2026-10-09 (вставил из кабинета Google Ads).
+# Формат строки: Название|тип (city / county / market). Читает Скрипты/openai_ads_geo.py.
+Apple Valley|city
+Banning|city
+Bermuda Dunes|city
+Beverly Hills|city
+Carlsbad|city
+Cathedral City|city
+Chula Vista|city
+Coachella|city
+Costa Mesa|city
+Culver City|city
+Desert Hot Springs|city
+Downey|city
+East Hemet|city
+Escondido|city
+Fullerton|city
+Glendale|city
+Hemet|city
+Hesperia|city
+Huntington Beach|city
+Indian Wells|city
+Indio|city
+Inglewood|city
+Joshua Tree|city
+La Quinta|city
+Long Beach|city
+Los Angeles|city
+Morongo Valley|city
+Newport Beach|city
+Norwalk|city
+Orange County|county
+Palm Desert|city
+Palm Springs|market
+Pasadena|city
+Rancho Mirage|city
+Riverside|city
+San Diego|city
+Santa Monica|city
+Temecula|city
+Thousand Palms|city
+Torrance|city
+Twentynine Palms|city
+Victorville|city
+Yucaipa|city
+Yucca Valley|city
