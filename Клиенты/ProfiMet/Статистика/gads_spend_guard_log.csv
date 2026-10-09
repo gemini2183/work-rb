@@ -246,3 +246,7 @@ time,campaign_id,name,status,budget,cost_today,conv_today,total,event,inertia_af
 2026-10-09T15:46:24,24341712952,search / szklarnia generic,2,25.0,13.09,0.0,13.09,,
 2026-10-09T15:46:25,24332648825,dg_lookalike_test,2,20.0,0.0,0.0,0.0,,
 2026-10-09T15:46:26,24342129286,dg_interest_nodiscover,2,25.0,0.0,0.0,0.0,,
+2026-10-09T15:48:12,24342129286,dg_interest_nodiscover,2,25.0,0.0,0.0,0.0,,
+2026-10-09T15:48:26,24341712952,search / szklarnia generic,2,25.0,13.59,0.0,13.59,,
+2026-10-09T15:48:26,24332648825,dg_lookalike_test,2,20.0,0.0,0.0,0.0,,
+2026-10-09T15:48:27,24342129286,dg_interest_nodiscover,2,25.0,0.0,0.0,0.0,,
