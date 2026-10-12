@@ -188,6 +188,8 @@ def main():
     mode = ("БОЕВОЙ: пауза" + (" + возобновление" if args.allow_reenable else "")) if args.execute else "DRY-RUN"
     print(f"=== сторож по цене заявки, {mode}; цели: {targets}; grace {args.grace}, предупреждение {args.warn_share:.0%}, "
           f"возврат {args.resume_share:.0%}, жёсткий предел {args.abs_mult}× бюджета ===")
+    notify(f"🛡 Сторож по цене заявки запущен ({mode}). Цели заявки: {targets}, кредит {args.grace:g}, "
+           f"проверка каждые {args.loop_min or 0:g} мин")
 
     while True:
         today = date.today().isoformat()
