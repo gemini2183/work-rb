@@ -1,0 +1,545 @@
+camp,group,group_status,kw,mt,status,rn,changed,imp,clk,cost,conv
+diamonds,jewelry / diamonds,ENABLED,sell diamonds,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/172907249994~296858797149,старше 90 дн,35.0,2.0,14.65,0.0
+diamonds,jewelry / diamonds,ENABLED,cash for diamonds,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/172907249994~306211583460,старше 90 дн,487.0,40.0,291.753136,7.998602
+diamonds,jewelry / diamonds,ENABLED,diamonds buyer,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/172907249994~487871982361,старше 90 дн,288.0,26.0,276.5601,8.0
+diamonds,jewelry / diamonds,ENABLED,we buy diamonds,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/172907249994~516211642530,старше 90 дн,124.0,12.0,98.369478,3.0
+diamonds,jewelry / diamonds,ENABLED,place that buys diamonds,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/172907249994~2328591005200,старше 90 дн,151.0,5.0,24.2,1.0
+diamonds,jewelry / diamonds,ENABLED,store that buys diamonds,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/172907249994~2328591007360,старше 90 дн,232.0,10.0,79.972209,2.0
+diamonds,jewelry / diamond ring,ENABLED,sell diamond ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/172907250154~372334704463,старше 90 дн,341.0,18.0,149.154333,4.000496
+diamonds,jewelry / diamond earrings,ENABLED,sell diamond earrings,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/188924689679~1038231457593,старше 90 дн,21.0,0.0,0.0,0.0
+watches / lux,watches / lux / generic,ENABLED,sell luxury watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347038~341698383787,старше 90 дн,189.0,11.0,151.03,1.0
+watches / lux,watches / lux / generic,ENABLED,sell gold watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347038~489709947778,2026-08-24,50.0,8.0,124.03,1.0
+watches / lux,watches / lux / generic,ENABLED,sell expensive watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347038~493632986286,2026-08-24,352.0,23.0,376.179582,6.0
+watches / lux,watches / lux / generic,ENABLED,cash for luxury watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347038~817493142684,старше 90 дн,588.0,54.0,1097.659944,13.0
+watches / lux,watches / lux / generic,ENABLED,luxury watches buyer,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347038~891809753440,2026-08-24,121.0,11.0,185.486772,2.0
+watches / lux,watches / lux / generic,ENABLED,sell high-end watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347038~2176416797999,2026-08-24,151.0,11.0,252.47691,3.0
+watches / lux,watches / lux / generic,ENABLED,cash for high-end watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347038~2328591004920,2026-09-18,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / generic,ENABLED,high-end watches buyer,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347038~2328591005160,2026-09-17,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / generic,ENABLED,sell swiss watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347038~2328591007080,старше 90 дн,23.0,0.0,0.0,0.0
+watches / lux,watches / lux / generic,ENABLED,we buy high-end watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347038~2328591007800,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / generic,ENABLED,we buy luxury watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347038~2328591007880,старше 90 дн,208.0,12.0,156.69,2.0
+watches / lux,watches / lux / generic,ENABLED,sell diamonds watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347038~2373723720645,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell my omega watch,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~4191568871,старше 90 дн,63.0,5.0,79.01,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell omega,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~4488134317,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell my patek philippe watch,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~4517013136,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell my omega,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~8038695161,старше 90 дн,43.0,3.0,50.8,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell chopard watch,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~11187045452,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell patek philippe watch,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~11187249302,старше 90 дн,2.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell tudor watch,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~12121978178,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell your breitling,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~12398104838,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell your omega watch,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~14965814546,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell my tudor watch,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~14966523566,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,omega watch buyers,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~307283202156,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell patek philippe,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~310088384761,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,cartier watch buyers,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~313438732070,старше 90 дн,108.0,13.0,172.57,1.0
+watches / lux,watches / lux / brands / other,ENABLED,sell omega seamaster,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~327303660870,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell omega speedmaster,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~328371766029,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,best place to sell breitling watch,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~332404761284,старше 90 дн,2.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell used cartier watch,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~345573498680,старше 90 дн,62.0,5.0,68.22386,1.0
+watches / lux,watches / lux / brands / other,ENABLED,sell used omega watch,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~345758100850,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell my patek,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~346684170178,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell my omega seamaster,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~362593183105,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell breitling,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~389856316540,2026-10-06,12.0,2.0,80.576072,1.0
+watches / lux,watches / lux / brands / other,ENABLED,sell omega watch,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~389899508540,старше 90 дн,11.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell omega watch near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~435019136605,старше 90 дн,16.0,3.0,44.34,1.0
+watches / lux,watches / lux / brands / other,ENABLED,sell a. lange & söhne,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~444797688691,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell girard-perregaux,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~444797689331,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell jaeger-lecoultre,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~444797689611,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell ulysse nardin,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~444797689891,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell vacheron constantin,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~444797690091,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell my omega speedmaster,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~449776083735,старше 90 дн,7.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell audemars piguet,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~476175512624,старше 90 дн,12.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell cartier watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~487505195664,2026-08-24,59.0,3.0,45.5,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell breitling watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~493632985846,старше 90 дн,41.0,4.0,55.45,1.0
+watches / lux,watches / lux / brands / other,ENABLED,sell cartier santos watch,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~792626113396,старше 90 дн,2.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell hublot,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~822718333916,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell richard mille,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~860498858830,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell patek watch,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~904474210024,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell my omega watch near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~912696765288,старше 90 дн,4.0,1.0,41.88,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell tudor watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~977029906962,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell iwc watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~977032946102,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell heuer watches,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/170730347198~977161767013,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell panerai watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~977175745893,старше 90 дн,4.0,1.0,21.07,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell breguet watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~977390748694,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell chopard watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~978620926064,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell zenith watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~1001363921194,2026-09-18,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell parmigiani fleurier,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~1694769928519,2026-09-18,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell harry winston watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~2316823715241,2026-09-17,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell tag heuer,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/170730347198~2316825369293,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell seiko watches,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/170730347198~2316975937613,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell blancpain watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~2316986177483,2026-08-02,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell piaget watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~2318268080385,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell glashütte original,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~2318824621120,2026-09-18,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell bulgari watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~2328591005720,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell graff watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~2328591006160,2026-09-18,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell tiffany watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~2328591007120,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell van cleef watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~2328591007320,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell iwc schaffhausen,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~2370509049060,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell schaffhausen watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~2371123807180,2026-09-18,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell tag watches,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/170730347198~2371472062982,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell söhne watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~2371472063022,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,sell grand seiko watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~2371472063222,старше 90 дн,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / other,ENABLED,swll mille watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347198~2373723720685,2026-09-18,0.0,0.0,0.0,0.0
+watches / lux,watches / lux / brands / rolex,ENABLED,sell rolex,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347238~300333894213,старше 90 дн,286.0,16.0,296.848351,2.583333
+watches / lux,watches / lux / brands / rolex,ENABLED,rolex watch buyers,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347238~390402590359,старше 90 дн,38.0,6.0,108.51448,1.0
+watches / lux,watches / lux / brands / rolex,ENABLED,best place to sell rolex,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347238~410371988364,старше 90 дн,181.0,20.0,262.09,1.5
+watches / lux,watches / lux / brands / rolex,ENABLED,rolex buyer,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347238~427167835816,старше 90 дн,186.0,17.0,284.80566,4.583334
+watches / lux,watches / lux / brands / rolex,ENABLED,sell rolex watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347238~482922053754,старше 90 дн,140.0,10.0,240.878656,3.0
+watches / lux,watches / lux / brands / rolex,ENABLED,sell your rolex,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347238~491717098238,старше 90 дн,221.0,17.0,310.732057,4.0
+watches / lux,watches / lux / brands / rolex,ENABLED,we buy rolex,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347238~517443288224,2026-08-24,107.0,10.0,221.264304,2.5
+watches / lux,watches / lux / brands / rolex,ENABLED,sell rolex near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347238~766769724143,старше 90 дн,69.0,7.0,134.08,2.0
+watches / lux,watches / lux / brands / rolex,ENABLED,rolex buyers near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347238~912387485460,старше 90 дн,60.0,6.0,137.224772,2.0
+watches / lux,watches / lux / brands / rolex,ENABLED,sell rolex best price,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347238~981394384291,старше 90 дн,73.0,6.0,84.555939,2.583333
+watches / lux,watches / lux / brands / rolex,ENABLED,sell rolex beverly hills,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170730347238~2335673895035,старше 90 дн,11.0,1.0,13.67,0.0
+watches / lux,watches / lux / brands / rolex,ENABLED,sell rolex nearby,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/170730347238~2374812954423,2026-09-23,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / sell,ENABLED,sell jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389743986~299634150902,старше 90 дн,1051.0,63.0,443.811261,7.032877
+jewelry / non-lux,jewelry / non-lux / generic / buyers,ENABLED,jewelry buyer,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744146~299634150702,старше 90 дн,518.0,26.0,249.058912,5.000496
+jewelry / non-lux,jewelry / non-lux / generic / buyers,ENABLED,we buy jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744146~466161154058,старше 90 дн,542.0,31.0,212.173849,5.328209
+jewelry / non-lux,jewelry / non-lux / generic / near me,ENABLED,jewelry buyer nearby,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744186~2311556474546,старше 90 дн,351.0,21.0,272.323166,6.833333
+jewelry / non-lux,jewelry / non-lux / generic / near me,ENABLED,sell jewelry nearby,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744186~2396152439034,старше 90 дн,357.0,21.0,171.160585,3.0
+jewelry / non-lux,jewelry / non-lux / generic / near me,ENABLED,we buy jewelry nearby,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744186~2396152439194,старше 90 дн,588.0,28.0,193.294138,6.499504
+jewelry / non-lux,jewelry / non-lux / generic / near me,ENABLED,cash for jewelry nearby,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744186~2396152439234,2026-09-18,272.0,16.0,159.344566,4.4
+jewelry / non-lux,jewelry / non-lux / generic / cash,ENABLED,cash for jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744226~317177681751,2026-08-24,804.0,49.0,415.906248,8.669998
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,ENABLED,sell jewelry beverly hills,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744386~2334198471085,2026-08-24,152.0,17.0,121.431262,3.5
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,ENABLED,cash for jewelry beverly hills,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744386~2339810196145,старше 90 дн,57.0,6.0,24.092704,0.0
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,ENABLED,jewelry buyer beverly hills,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744386~2339810196225,старше 90 дн,249.0,13.0,84.836359,1.0
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,ENABLED,we buy jewelry beverly hills,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744386~2339810196385,2026-09-18,61.0,2.0,23.884606,1.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,ENABLED,sell your engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744426~2092753335,старше 90 дн,26.0,1.0,6.502965,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,ENABLED,sell my engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744426~2193905858,старше 90 дн,12.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,ENABLED,sell used engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744426~4062631574,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,ENABLED,i want to sell my engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744426~4864743409,старше 90 дн,1.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,ENABLED,best way to sell engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744426~7525734931,старше 90 дн,18.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,ENABLED,sell old engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744426~10114915803,старше 90 дн,56.0,1.0,6.348602,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,ENABLED,sell engagement ring for cash,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744426~295233904067,старше 90 дн,5.0,1.0,6.1,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,ENABLED,best place to sell your engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744426~296983942488,старше 90 дн,7.0,1.0,12.38,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,ENABLED,places to sell engagement rings,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744426~296983943968,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,ENABLED,best place to sell engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744426~298003943415,старше 90 дн,5.0,1.0,4.36,1.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,ENABLED,best place to sell my engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744426~298003943455,старше 90 дн,91.0,5.0,45.70188,1.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,ENABLED,sell engagement ring near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744426~298058298455,старше 90 дн,6.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,ENABLED,engagement ring resale,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744426~298359604470,старше 90 дн,6.0,1.0,22.98,1.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,ENABLED,selling engagement ring after divorce,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744426~300394347111,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,ENABLED,sell engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744426~341757322279,старше 90 дн,40.0,3.0,33.01,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,ENABLED,best place to sell engagement ring near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744426~350305443530,старше 90 дн,6.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,ENABLED,sell my old engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744426~354549698307,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,ENABLED,sell my engagement ring near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744426~356069907481,старше 90 дн,15.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,ENABLED,sell your engagement ring near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744426~542798111022,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,sell wedding band,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~403188910,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,i want to sell my wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~4317240925,старше 90 дн,7.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,sell your wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~6432113303,старше 90 дн,1.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,sell used wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~6432115463,старше 90 дн,2.0,1.0,5.36,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,sell my wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~7539139185,старше 90 дн,96.0,7.0,51.990878,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,sell old wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~10114914363,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,best place to sell wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~31658195153,старше 90 дн,3.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,best place to sell my wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~296667608786,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,sell wedding ring near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~296667609826,старше 90 дн,4.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,places to sell wedding rings,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~298058297935,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,best way to sell wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~298268201428,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,wedding ring resale,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~298359606190,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,sell my wedding band,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~299539900770,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,sell platinum wedding band,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~299539905490,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,sell wedding ring after divorce,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~299677929977,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,sell wedding ring set,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~301075436581,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,best place to sell your wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~303123644103,старше 90 дн,1.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,best way to sell your wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~306177669101,старше 90 дн,1.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,sell wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~309134324520,старше 90 дн,21.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,want to sell my wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~334812671973,старше 90 дн,2.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,sell my wedding ring near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~357245517741,старше 90 дн,3.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,sell wedding set,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~367354643936,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,best place to sell old wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~379694026234,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,best way to sell wedding ring set,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~379694026994,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,sell mens wedding band,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~445766629397,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,best place to sell wedding ring near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~774686297495,старше 90 дн,5.0,1.0,3.76,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,ENABLED,sell wedding band near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744466~830787055639,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / ring,ENABLED,sell ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169389744626~487514289806,старше 90 дн,221.0,10.0,122.182486,3.0
+jewelry / non-lux,jewelry / non-lux / items / ring,ENABLED,sell ring,EXACT,ENABLED,customers/9534865605/adGroupCriteria/169389744626~678748476672,старше 90 дн,43.0,5.0,58.330644,1.5
+jewelry / non-lux,jewelry / lux / generic / sell,ENABLED,sell your fine jewelry,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201482139572~842846134246,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / sell,ENABLED,sell expensive jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201482139572~1927968959946,старше 90 дн,110.0,5.0,46.61,0.666667
+jewelry / non-lux,jewelry / lux / generic / sell,ENABLED,sell fine jewelry,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201482139572~1933036304149,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / sell,ENABLED,sell designer jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201482139572~2270931511576,старше 90 дн,218.0,19.0,214.533768,8.0
+jewelry / non-lux,jewelry / lux / generic / sell,ENABLED,sell high-end jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201482139572~2328591006360,2026-08-24,22.0,2.0,16.56,1.0
+jewelry / non-lux,jewelry / lux / generic / sell,ENABLED,sell luxury jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201482139572~2328591006440,старше 90 дн,133.0,9.0,39.23838,4.0
+jewelry / non-lux,jewelry / lux / generic / buyers,ENABLED,fine jewelry buyers,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201482139732~374241942697,старше 90 дн,139.0,5.0,29.378437,1.0
+jewelry / non-lux,jewelry / lux / generic / buyers,ENABLED,fine jewelry buyers near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201482139732~1929448841410,старше 90 дн,253.0,7.0,72.57588,2.0
+jewelry / non-lux,jewelry / lux / generic / buyers,ENABLED,luxury jewelry buyer,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201482139732~1929448845810,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / buyers,ENABLED,high-end jewelry buyer,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201482139732~2328591005000,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / buyers,ENABLED,we buy high-end jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201482139732~2328591007640,2026-09-18,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / buyers,ENABLED,we buy luxury jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201482139732~2328591007840,старше 90 дн,21.0,7.0,80.96318,2.0
+jewelry / non-lux,jewelry / lux / generic / cash,ENABLED,cash for high-end jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201482139772~2328591004760,2026-08-24,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / cash,ENABLED,cash for luxury jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201482139772~2328591004960,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / cash,ENABLED,cash for fine jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201482139772~2373546884525,старше 90 дн,415.0,24.0,260.962947,5.999544
+jewelry / non-lux,jewelry / lux / generic / near me,ENABLED,sell designer jewelry nearby,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201482139812~2373546884085,2026-09-18,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / near me,ENABLED,sell fine jewelry nearby,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201482139812~2373546884125,2026-09-17,35.0,2.0,6.61,0.0
+jewelry / non-lux,jewelry / lux / generic / near me,ENABLED,sell high-end jewelry nearby,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201482139812~2373546884285,2026-09-18,0.0,0.0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / near me,ENABLED,sell luxury jewelry nearby,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201482139812~2373546884325,старше 90 дн,115.0,4.0,21.06,0.0
+jewelry / non-lux,jewelry / lux / generic / near me,ENABLED,sell your fine jewelry nearby,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201482139812~2373546884365,2026-09-18,109.0,6.0,23.63,0.0
+jewelry / lux,jewelry / lux / brands / other,ENABLED,sell chopard ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/167223577102~12074608028,старше 90 дн,2.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,ENABLED,sell bvlgari ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/167223577102~12074644928,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,ENABLED,sell david yurman,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/167223577102~48145630500,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,ENABLED,sell david yurman ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/167223577102~135939079996,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,ENABLED,sell bvlgari necklace,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/167223577102~160059644700,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,ENABLED,sell david yurman bracelet,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/167223577102~331412262125,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,ENABLED,sell bulgari jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/167223577102~2328591005680,2026-08-24,3.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,ENABLED,sell chopard jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/167223577102~2328591005880,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,ENABLED,sell graff jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/167223577102~2328591006120,2026-08-24,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,ENABLED,sell bvlgari jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/167223577102~2335247103033,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,ENABLED,sell david yurman jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/167223577102~2339011469172,старше 90 дн,6.0,2.0,16.240358,2.066666
+jewelry / lux,jewelry / lux / brands / other,ENABLED,sell boucheron jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/167223577102~2372971816069,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,ENABLED,sell messika jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/167223577102~2372971816229,2026-08-25,3.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,ENABLED,sell de beers jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/167223577102~2372971816269,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,ENABLED,sell stephen webster jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/167223577102~2372971870709,2026-09-18,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,ENABLED,sell jacob & co jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/167223577102~2372971883189,2026-09-18,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,ENABLED,sell roberto coin jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/167223577102~2372971883269,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,sell my tiffany jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~12734098516,старше 90 дн,45.0,3.0,26.766564,1.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,sell my tiffany ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~35450039591,старше 90 дн,1.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,sell my tiffany necklace,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~44044292462,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,sell your tiffany jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~47823741384,старше 90 дн,30.0,3.0,26.87,1.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,sell tiffany earrings,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~54175875503,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,where to sell tiffany jewelry near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~305764556293,старше 90 дн,3.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,best way to sell tiffany jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~309062765661,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,sell used tiffany jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~332079943425,старше 90 дн,55.0,5.0,41.97,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,resell tiffany jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~341874328738,старше 90 дн,80.0,6.0,53.21,1.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,sell tiffany and co jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~356263460107,старше 90 дн,12.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,sell old tiffany jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~377346346780,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,resell tiffany ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~385773943363,старше 90 дн,2.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,sell my tiffany diamond ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~386070061429,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,where can i sell my tiffany bracelet,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~410012289732,старше 90 дн,5.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,sell my tiffany bracelet,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~426842416768,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,sell my tiffany engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~445254606362,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,sell tiffany diamond ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~445673001513,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,sell tiffany ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~536793632806,2026-08-24,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,where can i sell my tiffany jewelry near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~559170170614,старше 90 дн,6.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,sell tiffany engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~590558443366,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,best place to sell tiffany,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~949371847659,старше 90 дн,3.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,tiffany ring resale,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~949371848139,старше 90 дн,40.0,6.0,54.08,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,sell tiffany jewelry near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~1210676635107,старше 90 дн,3.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,sell tiffany bracelet,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~1460729721281,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,sell tiffany necklace,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~1460729721321,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,sell second hand tiffany jewellery,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~1649869977808,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,who buys tiffany jewelry near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~1674319372951,старше 90 дн,17.0,2.0,16.96,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,sell tiffany jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~1763726312100,старше 90 дн,5.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,where to sell tiffany bracelet,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~2171425905054,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,ENABLED,sell tiffany co jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443879~2671838513952,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,ENABLED,sell cartier,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443919~299641205427,старше 90 дн,202.0,8.0,125.92504,4.0
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,ENABLED,sell cartier watch,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/169112443919~369194196414,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,ENABLED,sell cartier ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443919~486905120839,старше 90 дн,66.0,7.0,96.55,2.0
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,ENABLED,sell cartier jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443919~487205924771,2026-08-24,106.0,7.0,93.84,0.0
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,ENABLED,sell cartier love ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/169112443919~694873051635,старше 90 дн,6.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,ENABLED,sell cartier bracelet,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/169112443919~1460069335653,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,ENABLED,sell cartier love bracelet,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/169112443919~1958210299672,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / sell,PAUSED,sell your fine jewelry,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/170864506538~842846134246,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / sell,PAUSED,sell expensive jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170864506538~1927968959946,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / sell,PAUSED,sell fine jewelry,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/170864506538~1933036304149,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / sell,PAUSED,sell designer jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170864506538~2270931511576,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / sell,PAUSED,sell high-end jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170864506538~2328591006360,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / sell,PAUSED,sell luxury jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170864506538~2328591006440,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / buyers,PAUSED,fine jewelry buyers,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170864506698~374241942697,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / buyers,PAUSED,fine jewelry buyers near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170864506698~1929448841410,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / buyers,PAUSED,luxury jewelry buyer,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170864506698~1929448845810,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / buyers,PAUSED,high-end jewelry buyer,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170864506698~2328591005000,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / buyers,PAUSED,we buy high-end jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170864506698~2328591007640,2026-09-23,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / buyers,PAUSED,we buy luxury jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170864506698~2328591007840,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / near me,PAUSED,sell designer jewelry nearby,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170864506738~2373546884085,2026-09-23,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / near me,PAUSED,sell fine jewelry nearby,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170864506738~2373546884125,2026-09-23,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / near me,PAUSED,sell high-end jewelry nearby,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170864506738~2373546884285,2026-09-23,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / near me,PAUSED,sell luxury jewelry nearby,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170864506738~2373546884325,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / near me,PAUSED,sell your fine jewelry nearby,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170864506738~2373546884365,2026-09-23,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / cash,PAUSED,cash for high-end jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170864506778~2328591004760,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / cash,PAUSED,cash for luxury jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170864506778~2328591004960,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / cash,PAUSED,cash for fine jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/170864506778~2373546884525,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / van cleef,ENABLED,sell van cleef and arpels,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/192710825907~12121865588,старше 90 дн,9.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / van cleef,ENABLED,sell van cleef,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/192710825907~305321279750,старше 90 дн,61.0,5.0,44.25,0.0
+jewelry / lux,jewelry / lux / brands / van cleef,ENABLED,sell van cleef and arpels jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/192710825907~344059512870,старше 90 дн,10.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / van cleef,ENABLED,sell van cleef necklace,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/192710825907~1674319369911,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / van cleef,ENABLED,sell van cleef jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/192710825907~2328591007160,2026-08-24,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,ENABLED,sell cartier love bangle,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/195112752363~437315040206,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,ENABLED,sell my cartier bangle,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/195112752363~437315040366,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,ENABLED,sell my cartier bracelet,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/195112752363~555385391656,старше 90 дн,72.0,3.0,36.25,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,ENABLED,sell my cartier bracelet near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/195112752363~1174580398458,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,ENABLED,best place to sell cartier love bracelet,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/195112752363~1391092386667,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,ENABLED,sell cartier bracelet,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/195112752363~1460069335653,старше 90 дн,3.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,ENABLED,sell cartier love bracelet,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/195112752363~1958210299672,старше 90 дн,3.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,ENABLED,sell pre owned cartier love bracelet,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/195112752363~2189764737505,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,ENABLED,sell cartier love bracelet near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/195112752363~2219151948180,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,ENABLED,sell cartier bangle,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/195112752363~2335247103753,2026-08-24,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,ENABLED,sell cartier bracelet,EXACT,ENABLED,customers/9534865605/adGroupCriteria/195112752363~2335247124393,старше 90 дн,25.0,3.0,53.16,1.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,PAUSED,sell your engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835248~2092753335,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,PAUSED,sell my engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835248~2193905858,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,PAUSED,sell used engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835248~4062631574,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,PAUSED,i want to sell my engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835248~4864743409,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,PAUSED,best way to sell engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835248~7525734931,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,PAUSED,sell old engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835248~10114915803,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,PAUSED,sell engagement ring for cash,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835248~295233904067,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,PAUSED,best place to sell your engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835248~296983942488,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,PAUSED,places to sell engagement rings,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835248~296983943968,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,PAUSED,best place to sell engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835248~298003943415,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,PAUSED,best place to sell my engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835248~298003943455,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,PAUSED,sell engagement ring near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835248~298058298455,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,PAUSED,engagement ring resale,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835248~298359604470,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,PAUSED,selling engagement ring after divorce,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835248~300394347111,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,PAUSED,sell engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835248~341757322279,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,PAUSED,best place to sell engagement ring near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835248~350305443530,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,PAUSED,sell my old engagement ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835248~354549698307,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,PAUSED,sell my engagement ring near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835248~356069907481,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,PAUSED,sell your engagement ring near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835248~542798111022,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,sell wedding band,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~403188910,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,i want to sell my wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~4317240925,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,sell your wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~6432113303,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,sell used wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~6432115463,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,sell my wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~7539139185,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,sell old wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~10114914363,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,best place to sell wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~31658195153,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,best place to sell my wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~296667608786,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,sell wedding ring near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~296667609826,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,places to sell wedding rings,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~298058297935,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,best way to sell wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~298268201428,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,wedding ring resale,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~298359606190,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,sell my wedding band,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~299539900770,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,sell platinum wedding band,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~299539905490,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,sell wedding ring after divorce,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~299677929977,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,sell wedding ring set,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~301075436581,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,best place to sell your wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~303123644103,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,best way to sell your wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~306177669101,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,sell wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~309134324520,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,want to sell my wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~334812671973,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,sell my wedding ring near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~357245517741,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,sell wedding set,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~367354643936,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,best place to sell old wedding ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~379694026234,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,best way to sell wedding ring set,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~379694026994,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,sell mens wedding band,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~445766629397,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,best place to sell wedding ring near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~774686297495,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,PAUSED,sell wedding band near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835408~830787055639,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / ring,PAUSED,sell ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201088835448~487514289806,старше 90 дн,0.0,0.0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / ring,PAUSED,sell ring,EXACT,ENABLED,customers/9534865605/adGroupCriteria/201088835448~678748476672,старше 90 дн,0.0,0.0,0.0,0.0
+silver,Silver,PAUSED,sell silver bars,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/174937740671~1705081451,2026-09-16,2.0,0.0,0.0,0.0
+silver,Silver,PAUSED,sell silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/174937740671~299634151182,2026-09-16,0.0,0.0,0.0,0.0
+silver,Silver,PAUSED,sell silver jewerly,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/174937740671~2383870780455,старше 90 дн,0.0,0.0,0.0,0.0
+silver,Silver,PAUSED,sell silver cultery,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/174937740671~2501032271411,2026-09-16,0.0,0.0,0.0,0.0
+silver,Silver,PAUSED,sel silver bullions,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/174937740671~2501032273331,2026-09-16,0.0,0.0,0.0,0.0
+silver,Silver Coins,PAUSED,silver coin buyer,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/174937740711~314042518228,старше 90 дн,0.0,0.0,0.0,0.0
+silver,Silver Coins,PAUSED,sell silver coins,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/174937740711~350889868035,старше 90 дн,0.0,0.0,0.0,0.0
+silver,Silver Coins,PAUSED,cash for silver coins,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/174937740711~487432604869,старше 90 дн,0.0,0.0,0.0,0.0
+silver,Silver Coins,PAUSED,sell silver coins for cash,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/174937740711~553169412637,старше 90 дн,0.0,0.0,0.0,0.0
+silver,Silver Chain,PAUSED,sell silver chain,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/174937740871~495230613323,старше 90 дн,0.0,0.0,0.0,0.0
+silver,Silver Ring,PAUSED,sell silver ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/174937740911~495230614203,старше 90 дн,0.0,0.0,0.0,0.0
+silver,Sterling Silver - New,ENABLED,sell sterling silver,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~588621063,2026-10-05,11.0,0.0,0.0,0.0
+silver,Sterling Silver - New,ENABLED,selling sterling silver,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~734412665,2026-10-05,11.0,1.0,4.93,0.0
+silver,Sterling Silver - New,ENABLED,where to sell sterling silver,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~7535495081,2026-10-05,28.0,1.0,5.0,0.0
+silver,Sterling Silver - New,ENABLED,where can i sell sterling silver,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~10628515624,2026-10-05,32.0,3.0,14.55,0.0
+silver,Sterling Silver - New,ENABLED,sell sterling silver near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~134729886023,2026-10-05,27.0,2.0,5.77,0.0
+silver,Sterling Silver - New,ENABLED,sterling silver buyers near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~134833285979,2026-10-05,14.0,0.0,0.0,0.0
+silver,Sterling Silver - New,ENABLED,where can i sell my sterling silver,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~295428466256,2026-10-05,0.0,0.0,0.0,0.0
+silver,Sterling Silver - New,ENABLED,where to sell sterling silver near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~295428466496,2026-10-05,4.0,0.0,0.0,0.0
+silver,Sterling Silver - New,ENABLED,places that buy sterling silver near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~295836618379,2026-10-05,29.0,1.0,4.78,0.0
+silver,Sterling Silver - New,ENABLED,sterling silver buyers,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~301324757012,2026-10-05,0.0,0.0,0.0,0.0
+silver,Sterling Silver - New,ENABLED,buyers of sterling silver flatware,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~302272606942,2026-10-05,29.0,3.0,13.8,0.0
+silver,Sterling Silver - New,ENABLED,who buys sterling silver,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~303684835811,2026-10-05,3.0,0.0,0.0,0.0
+silver,Sterling Silver - New,ENABLED,we buy sterling silver,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~306039728135,2026-10-05,0.0,0.0,0.0,0.0
+silver,Sterling Silver - New,ENABLED,places that buy sterling silver,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~319983285786,2026-10-05,21.0,2.0,9.84,0.0
+silver,Sterling Silver - New,ENABLED,who buys sterling silver near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~357714919090,2026-10-05,2.0,0.0,0.0,0.0
+silver,Sterling Silver - New,ENABLED,can i sell sterling silver,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~377294556142,2026-10-05,0.0,0.0,0.0,0.0
+silver,Sterling Silver - New,ENABLED,sterling silver buyer near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~773429517968,2026-10-05,7.0,1.0,4.86,0.0
+silver,Sterling Silver - New,ENABLED,where can i sell sterling silver near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~773429550448,2026-10-05,20.0,3.0,13.05,0.0
+silver,Sterling Silver - New,ENABLED,where can you sell sterling silver,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~773429553728,2026-10-05,2.0,0.0,0.0,0.0
+silver,Sterling Silver - New,ENABLED,selling sterling silver near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~854041836951,2026-10-05,4.0,0.0,0.0,0.0
+silver,Sterling Silver - New,ENABLED,best place to sell sterling silver near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~965507155112,2026-10-05,9.0,1.0,4.74,0.0
+silver,Sterling Silver - New,ENABLED,cash for sterling silver near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~965507182312,2026-10-05,38.0,4.0,20.61,0.0
+silver,Sterling Silver - New,ENABLED,where is the best place to sell sterling silver,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~1297825671298,2026-10-05,0.0,0.0,0.0,0.0
+silver,Sterling Silver - New,ENABLED,we buy sterling silver near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~1432090104430,2026-10-05,0.0,0.0,0.0,0.0
+silver,Sterling Silver - New,ENABLED,sterling silver buyers in my area,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~1678829251893,2026-10-05,0.0,0.0,0.0,0.0
+silver,Sterling Silver - New,ENABLED,sell sterling silver near me near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585741~2529537031644,2026-10-05,0.0,0.0,0.0,0.0
+silver,Silver Coins - New,ENABLED,sell silver coins,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585781~504582963,2026-10-05,0.0,0.0,0.0,0.0
+silver,Silver Coins - New,ENABLED,cash for silver coins,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585781~6195951916,2026-10-05,0.0,0.0,0.0,0.0
+silver,Silver Coins - New,ENABLED,sell silver coins for cash,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585781~11371768313,2026-10-05,0.0,0.0,0.0,0.0
+silver,Silver Coins - New,ENABLED,silver coin buyer,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585781~306606493565,2026-10-05,0.0,0.0,0.0,0.0
+silver,Silver Coins - New,ENABLED,gold and silver coin buyers near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/197772585781~769318179596,2026-10-05,32.0,2.0,2.54,0.0
+silver,Silver - New,PAUSED,sell silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~170943280,2026-10-01,47.0,3.0,23.36,0.0
+silver,Silver - New,PAUSED,selling silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~170943400,2026-10-01,41.0,2.0,10.36,0.0
+silver,Silver - New,PAUSED,silver buyers,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~469122982,2026-10-01,70.0,5.0,40.37,1.0
+silver,Silver - New,PAUSED,sell silver coins,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~504582963,2026-10-01,39.0,3.0,33.4,0.0
+silver,Silver - New,PAUSED,where to sell silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~568522983,2026-10-01,94.0,9.0,59.99,0.0
+silver,Silver - New,PAUSED,selling sterling silver,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~734412665,2026-10-01,46.0,4.0,29.43,0.5
+silver,Silver - New,PAUSED,sell gold and silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~836700459,2026-10-01,68.0,4.0,26.85,0.0
+silver,Silver - New,PAUSED,sell silver bars,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~1705081451,2026-10-01,22.0,3.0,20.12,0.0
+silver,Silver - New,PAUSED,who buys silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~3633585383,2026-10-01,4.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,gold and silver buyers,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~4639456662,2026-10-01,213.0,12.0,82.45,1.0
+silver,Silver - New,PAUSED,gold and silver buyer,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~4639503162,2026-10-01,113.0,7.0,59.48,1.0
+silver,Silver - New,PAUSED,buy and sell gold and silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~4639519362,2026-09-22,56.0,1.0,5.3,0.0
+silver,Silver - New,PAUSED,cash for gold and silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~5804135781,2026-10-01,138.0,4.0,31.62,0.0
+silver,Silver - New,PAUSED,cash for silver coins,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~6195951916,2026-10-01,61.0,7.0,70.91,0.0
+silver,Silver - New,PAUSED,sell my silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~6679520870,2026-10-01,24.0,2.0,15.38,1.0
+silver,Silver - New,PAUSED,where can i sell silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~7057478320,2026-10-01,26.0,2.0,10.94,0.0
+silver,Silver - New,PAUSED,cash for silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~7133854613,2026-10-01,12.0,2.0,10.22,0.0
+silver,Silver - New,PAUSED,where to sell sterling silver,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~7535495081,2026-10-01,75.0,8.0,67.31,0.0
+silver,Silver - New,PAUSED,where can i sell my silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~7535826281,2026-10-01,29.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,where can i sell sterling silver,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~10628515624,2026-10-01,2.0,1.0,8.23,0.0
+silver,Silver - New,PAUSED,sell my gold and silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~11163680241,2026-10-01,19.0,1.0,7.59,0.0
+silver,Silver - New,PAUSED,we buy gold and silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~11185551941,2026-10-01,74.0,6.0,46.62,0.0
+silver,Silver - New,PAUSED,sell silver coins for cash,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~11371768313,2026-10-01,73.0,2.0,27.5,0.0
+silver,Silver - New,PAUSED,where to sell silver and gold,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~11556474191,2026-10-01,1.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,sell silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~18897263768,2026-10-01,131.0,7.0,44.04,0.0
+silver,Silver - New,PAUSED,places that buy silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~20327362693,2026-10-01,2.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,silver buyers near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~21514729808,2026-10-01,42.0,1.0,8.86,0.0
+silver,Silver - New,PAUSED,cash for gold and silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~52476162156,2026-10-01,69.0,4.0,30.92,0.0
+silver,Silver - New,PAUSED,gold and silver buyers near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~52492738476,2026-10-01,102.0,6.0,43.51,0.0
+silver,Silver - New,PAUSED,sell gold and silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~52528818516,2026-10-01,6.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,who buys gold and silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~55278712195,2026-10-01,5.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,who buys silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~63717230800,2026-10-01,16.0,3.0,14.88,0.0
+silver,Silver - New,PAUSED,we buy gold and silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~74167431438,2026-10-01,25.0,2.0,12.71,0.0
+silver,Silver - New,PAUSED,cash for silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~75012312664,2026-10-01,20.0,4.0,24.32,0.0
+silver,Silver - New,PAUSED,sell sterling silver near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~134729886023,2026-10-01,20.0,4.0,77.89,0.0
+silver,Silver - New,PAUSED,sterling silver buyers near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~134833285979,2026-10-01,2.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,where to sell silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~136438689196,2026-10-01,30.0,1.0,7.59,0.0
+silver,Silver - New,PAUSED,places that buy silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~294977139966,2026-10-01,3.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,where can i sell my sterling silver,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~295428466256,2026-10-01,5.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,where to sell sterling silver near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~295428466496,2026-10-01,2.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,place that buys silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~295836616459,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,places that buy gold and silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~295836617419,2026-10-01,1.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,places that buy sterling silver near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~295836618379,2026-10-01,1.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,places to sell gold and silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~295836619419,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,sell my silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~296073465974,2026-10-01,9.0,1.0,6.41,0.0
+silver,Silver - New,PAUSED,sell silver and gold near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~296073467214,2026-10-01,2.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,silver and gold buyers near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~296668778121,2026-10-01,2.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,silver buyer near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~296668781201,2026-10-01,31.0,1.0,3.25,0.0
+silver,Silver - New,PAUSED,we buy silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~296668792481,2026-10-01,12.0,1.0,6.65,0.0
+silver,Silver - New,PAUSED,where can i sell my gold and silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~296668796121,2026-10-01,50.0,4.0,28.81,0.0
+silver,Silver - New,PAUSED,where can i sell my silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~296668797721,2026-10-01,5.0,1.0,6.55,0.0
+silver,Silver - New,PAUSED,where can i sell silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~296668798281,2026-10-01,4.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,buy and sell gold and silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~297426989898,2026-09-22,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,buy and sell silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~297426990458,2026-09-22,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,gold and silver buyer near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~298096234755,2026-10-01,14.0,2.0,13.23,0.0
+silver,Silver - New,PAUSED,sterling silver buyers,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~301324757012,2026-10-01,11.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,who buys sterling silver,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~303684835811,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,we buy sterling silver,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~306039728135,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,silver coin buyer,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~306606493565,2026-10-01,113.0,9.0,131.96,0.0
+silver,Silver - New,PAUSED,silver buyers in my area,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~315484986134,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,places that buy sterling silver,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~319983285786,2026-10-01,2.0,1.0,5.35,0.0
+silver,Silver - New,PAUSED,best place to sell silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~328911721916,2026-10-01,36.0,9.0,72.86,0.0
+silver,Silver - New,PAUSED,sell silver gold,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~329552511591,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,buy sell silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~332079742985,2026-09-22,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,sell silver beverly hills,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~334448153692,2026-10-01,8.0,1.0,6.51,0.0
+silver,Silver - New,PAUSED,sell 925 silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~336115462023,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,sell your silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~344098064586,2026-10-01,1.0,1.0,6.22,0.0
+silver,Silver - New,PAUSED,where can i sell 925 silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~344098064626,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,selling silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~354411577126,2026-10-01,12.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,we buy silver and gold near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~355664512283,2026-10-01,1.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,who buys sterling silver near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~357714919090,2026-10-01,11.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,who buys silver and gold near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~358026499415,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,selling gold and silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~359994039038,2026-10-01,1.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,can i sell sterling silver,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~377294556142,2026-10-01,14.0,1.0,8.82,0.5
+silver,Silver - New,PAUSED,stores that buy silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~384845991804,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,where to sale silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~487968542392,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,where to sell gold and silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~487968543272,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,sell silver for cash near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~509243381476,2026-10-01,22.0,6.0,35.73,0.0
+silver,Silver - New,PAUSED,silver buyers near me open now,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~509959763933,2026-10-01,2.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,sell silver near me near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~511123105561,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,silver buyers near me near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~511123105841,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,store that buys silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~590202877385,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,sell silver bullion near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~598004201195,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,sell silver near me open now,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~598004201955,2026-10-01,4.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,buy sell gold silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~601494113195,2026-09-22,5.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,stores that buy gold and silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~601494115595,2026-10-01,10.0,1.0,8.8,0.0
+silver,Silver - New,PAUSED,where to sell my silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~601494115915,2026-10-01,19.0,1.0,7.91,0.0
+silver,Silver - New,PAUSED,jewelry store that buys silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~767239354493,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,gold and silver coin buyers near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~769318179596,2026-10-01,287.0,18.0,150.05,1.0
+silver,Silver - New,PAUSED,silver sell near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~769318254676,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,we buy gold silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~769318271276,2026-10-01,5.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,buy sell gold and silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~770056660268,2026-09-22,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,places near me that buy gold and silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~773429457808,2026-10-01,14.0,1.0,5.46,0.0
+silver,Silver - New,PAUSED,sell my silver and gold,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~773429492608,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,sell silver gold near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~773429497368,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,sterling silver buyer near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~773429517968,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,where can i sell sterling silver near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~773429550448,2026-10-01,33.0,3.0,72.92,0.0
+silver,Silver - New,PAUSED,where can you sell sterling silver,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~773429553728,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,silver and gold buyer near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~831270315323,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,sell 925 silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~832051262570,2026-10-01,3.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,jewelry stores that buy silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~845596908405,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,stores that buy gold and silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~850354389089,2026-10-01,6.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,silver buyer near me open now,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~853731986805,2026-10-01,17.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,selling sterling silver near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~854041836951,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,where to sell 925 silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~863442772051,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,best place to sell sterling silver near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~965507155112,2026-10-01,15.0,1.0,22.45,0.0
+silver,Silver - New,PAUSED,cash for sterling silver near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~965507182312,2026-10-01,64.0,6.0,69.84,2.0
+silver,Silver - New,PAUSED,old silver buyers near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~990879852477,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,gold and silver buyers near me open now,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~1211212698950,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,where is the best place to sell sterling silver,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~1297825671298,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,we buy gold and silver near me near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~1299058578227,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,sell silver open now,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~1340347574347,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,we buy sterling silver near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~1432090104430,2026-10-01,14.0,2.0,11.64,0.0
+silver,Silver - New,PAUSED,where can i sell my 925 silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~1599159748296,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,i want to sell my silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~1637222535834,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,highest paying silver buyers near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~1638432881937,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,sterling silver buyers in my area,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~1678829251893,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,where can i sell silver for cash near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~1730774290513,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,places that buy silver near me near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~1882358192878,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,who buys silver near me near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~1896078354930,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,gold and silver buyers near me near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2024439455517,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,jewelry store that buys silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2173464909811,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,who buys silver near me for cash,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2393977365588,2026-10-01,31.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,where can i sell 925 silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2464468964116,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,can you sell 925 silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2478605640144,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,golden silver buyers near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2479012435636,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,where can i sell gold or silver near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2492449850540,2026-10-01,20.0,1.0,3.54,0.0
+silver,Silver - New,PAUSED,gold silver buyers near me open now,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2498755513363,2026-10-01,3.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,places that buy gold and silver near me open now,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2499521808704,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,sell silver cultery,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2501032271411,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,silver gold sell near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2529537031124,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,immediate cash for silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2529537031164,2026-10-01,7.0,1.0,8.68,0.0
+silver,Silver - New,PAUSED,silver sell near me near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2529537031324,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,we buy silver near me open now,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2529537031364,2026-10-01,1.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,sell my silver near me open now,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2529537031404,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,where can i sell silver around me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2529537031564,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,where can i sell my silver for cash,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2529537031604,2026-10-01,45.0,6.0,33.16,1.0
+silver,Silver - New,PAUSED,sell sterling silver near me near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/201002005672~2529537031644,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,sell silver for cash near me open now,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2529537031804,2026-10-01,1.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,jewelry store near me that buys silver,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2529537031844,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,silver buyers near me open now near me,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2529537031884,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,best place to sell silver near me open now,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2529537032044,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,sell gold and silver near me open now,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2657873430472,2026-10-01,0.0,0.0,0.0,0.0
+silver,Silver - New,PAUSED,gold and silver buyers open now,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/201002005672~2686351704712,2026-10-01,42.0,5.0,25.81,0.0
+gold_,Gold,ENABLED,sell gold,PHRASE,PAUSED,customers/9534865605/adGroupCriteria/175659427361~160944979,старше 90 дн,0.0,0.0,0.0,0.0
+gold_,Gold Jewelry,ENABLED,sell gold jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/175659427401~309134322360,старше 90 дн,626.0,32.0,136.405,1.333333
+gold_,Cash For Gold,ENABLED,cash for gold,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/175659427561~303314367766,старше 90 дн,967.0,41.0,194.854776,3.666667
+gold_,Gold Coins,ENABLED,sell gold coins,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/175659427601~1276703911,старше 90 дн,10.0,2.0,59.517886,1.5
+gold_,Gold Coins,ENABLED,gold coin buyer,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/175659427601~314042517828,старше 90 дн,97.0,8.0,91.159716,1.5
+gold_,Gold Coins,ENABLED,cash for gold coins,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/175659427601~451133134052,старше 90 дн,13.0,0.0,0.0,0.0
+gold_,Gold Coins,ENABLED,sell gold coins for cash,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/175659427601~464668755282,старше 90 дн,13.0,0.0,0.0,0.0
+gold_,Gold Bars,ENABLED,sell gold bars,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/175659427641~426929068214,старше 90 дн,72.0,4.0,15.91,0.0
+gold_,Gold Bars,ENABLED,sell gold bars nearby,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/175659427641~2338375686883,старше 90 дн,107.0,7.0,41.22,0.0
+gold_,Gold Chain,ENABLED,sell gold chain,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/175659427801~372334704623,старше 90 дн,51.0,6.0,26.57,0.0
+gold_,Gold Beverly Hills,ENABLED,gold buyer in beverly hills,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/175659427841~2333217487608,2026-09-18,25.0,0.0,0.0,0.0
+gold_,Gold Beverly Hills,ENABLED,sell gold beverly hills,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/175659427841~2338375686923,старше 90 дн,73.0,5.0,43.379022,3.0
+gold_,Gold Beverly Hills,ENABLED,we buy gold beverly hills,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/175659427841~2338375687123,2026-08-12,56.0,5.0,18.33,0.0
+gold_,Gold Near Me,ENABLED,gold buyers near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/175659427881~448361226415,старше 90 дн,1241.0,70.0,311.24688,5.5
+gold_,Gold Near Me,ENABLED,sell gold near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/175659427881~451192480703,старше 90 дн,1172.0,41.0,177.657758,3.0
+gold_,Gold Near Me,ENABLED,sell gold nearby,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/175659427881~464288057190,старше 90 дн,463.0,20.0,144.273175,4.0
+gold_,Gold Buyer,ENABLED,gold buyer,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/175659428041~299634150622,старше 90 дн,1592.0,68.0,279.059669,6.5
+gold_,Gold Buyer,ENABLED,we buy gold,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/175659428041~312081275734,старше 90 дн,1729.0,75.0,433.248349,3.001297
+gold_,Gold Ring,ENABLED,sell gold ring,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/175659428081~309134322680,старше 90 дн,27.0,1.0,3.76,0.0
+gold_,gold_ / harvest 10-26,ENABLED,who buys gold,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/209483876588~160651078,старше 90 дн,0.0,0.0,0.0,0.0
+gold_,gold_ / harvest 10-26,ENABLED,scrap gold buyers,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/209483876588~629298502,старше 90 дн,0.0,0.0,0.0,0.0
+gold_,gold_ / harvest 10-26,ENABLED,sell scrap gold,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/209483876588~836707959,старше 90 дн,0.0,0.0,0.0,0.0
+gold_,gold_ / harvest 10-26,ENABLED,sell my gold,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/209483876588~1740256959,старше 90 дн,0.0,0.0,0.0,0.0
+gold_,gold_ / harvest 10-26,ENABLED,where to sell gold jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/209483876588~3520874460,старше 90 дн,0.0,0.0,0.0,0.0
+gold_,gold_ / harvest 10-26,ENABLED,where can i sell my gold,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/209483876588~3562346802,старше 90 дн,0.0,0.0,0.0,0.0
+gold_,gold_ / harvest 10-26,ENABLED,best place to sell gold,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/209483876588~3562348482,старше 90 дн,0.0,0.0,0.0,0.0
+gold_,gold_ / harvest 10-26,ENABLED,sell broken gold jewelry,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/209483876588~5347404597,старше 90 дн,0.0,0.0,0.0,0.0
+gold_,gold_ / harvest 10-26,ENABLED,who pays the most for gold,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/209483876588~13703883817,старше 90 дн,0.0,0.0,0.0,0.0
+gold_,gold_ / harvest 10-26,ENABLED,cash for gold near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/209483876588~18750275288,старше 90 дн,0.0,0.0,0.0,0.0
+gold_,gold_ / harvest 10-26,ENABLED,who buys gold near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/209483876588~61903186356,старше 90 дн,0.0,0.0,0.0,0.0
+gold_,gold_ / harvest 10-26,ENABLED,gold exchange near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/209483876588~62938642960,старше 90 дн,0.0,0.0,0.0,0.0
+gold_,gold_ / harvest 10-26,ENABLED,sell gold jewelry near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/209483876588~82874537395,старше 90 дн,0.0,0.0,0.0,0.0
+gold_,gold_ / harvest 10-26,ENABLED,sell my gold near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/209483876588~298096240555,старше 90 дн,0.0,0.0,0.0,0.0
+gold_,gold_ / harvest 10-26,ENABLED,who pays the most for gold near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/209483876588~302592135725,старше 90 дн,0.0,0.0,0.0,0.0
+gold_,gold_ / harvest 10-26,ENABLED,gold cash near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/209483876588~321903561349,старше 90 дн,0.0,0.0,0.0,0.0
+gold_,gold_ / harvest 10-26,ENABLED,sell broken gold chain,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/209483876588~905174919542,старше 90 дн,0.0,0.0,0.0,0.0
+gold_,gold_ / harvest 10-26,ENABLED,free gold appraisal near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/209483876588~2281675840042,старше 90 дн,0.0,0.0,0.0,0.0
+watches / non-lux,watches / non-lux / generic,ENABLED,sell watches for cash,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/202016544864~10232887397,старше 90 дн,238.0,11.0,36.447613,2.5
+watches / non-lux,watches / non-lux / generic,ENABLED,sell my watch for cash,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/202016544864~13427920577,старше 90 дн,431.0,33.0,184.178469,6.5
+watches / non-lux,watches / non-lux / generic,ENABLED,we buy watches near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/202016544864~307283202396,старше 90 дн,789.0,37.0,217.961593,8.0
+watches / non-lux,watches / non-lux / generic,ENABLED,sell vintage watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/202016544864~308741345515,старше 90 дн,0.0,0.0,0.0,0.0
+watches / non-lux,watches / non-lux / generic,ENABLED,vintage watch buyers near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/202016544864~314430515666,старше 90 дн,0.0,0.0,0.0,0.0
+watches / non-lux,watches / non-lux / generic,ENABLED,cash for watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/202016544864~317177682191,2026-08-24,369.0,7.0,30.589493,0.0
+watches / non-lux,watches / non-lux / generic,ENABLED,sell your watch near me,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/202016544864~329701576020,старше 90 дн,885.0,42.0,194.129992,10.0
+watches / non-lux,watches / non-lux / generic,ENABLED,sell watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/202016544864~487505195904,2026-08-24,177.0,7.0,56.027716,4.0
+watches / non-lux,watches / non-lux / generic,ENABLED,we buy watches,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/202016544864~905534584980,2026-08-24,950.0,51.0,302.070402,10.0
+watches / non-lux,watches / non-lux / generic,ENABLED,watches buyer,PHRASE,ENABLED,customers/9534865605/adGroupCriteria/202016544864~2479479490458,2026-08-24,915.0,39.0,154.666623,5.0
