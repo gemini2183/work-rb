@@ -438,8 +438,11 @@ def main():
                         events.append("бюджет общий для нескольких кампаний — управление пропущено")
                     else:
                         pb = budget_state.setdefault(campaign_id, {})
-                        pb.setdefault("floor", base_arg.get(campaign_id, bud_now))
-                        pb.setdefault("base", base_arg.get(campaign_id, bud_now))
+                        if campaign_id in base_arg:   # явно заданный базовый бюджет важнее сохранённого (бюджет могли поднять руками)
+                            pb["base"] = base_arg[campaign_id]
+                            pb["floor"] = base_arg[campaign_id]
+                        pb.setdefault("floor", bud_now)
+                        pb.setdefault("base", bud_now)
                         ceiling = max_budget.get(campaign_id, pb["base"])
                         can_write = args.execute and args.allow_budget
 
