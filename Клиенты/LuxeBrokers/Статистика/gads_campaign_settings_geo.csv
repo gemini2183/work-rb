@@ -1,0 +1,31 @@
+Campaign,Type,Negative,Geo_target_constant,Proximity_radius,Proximity_radius_units,Geo_name,Geo_target_type
+jewelry / non-lux,LOCATION,False,geoTargetConstants/1013587,,,"Beverly Hills,California,United States",City
+jewelry / non-lux,LOCATION,False,geoTargetConstants/1014390,,,"West Hollywood,California,United States",City
+jewelry / non-lux,LOCATION,False,geoTargetConstants/9060324,,,"Century City,California,United States",Neighborhood
+jewelry / non-lux,LOCATION,False,geoTargetConstants/9061087,,,"Beverlywood,California,United States",Neighborhood
+jewelry / non-lux,LOCATION,False,geoTargetConstants/9061090,,,"Carthay Circle,California,United States",Neighborhood
+jewelry / non-lux,LOCATION,False,geoTargetConstants/9061092,,,"Cheviot Hills,California,United States",Neighborhood
+jewelry / non-lux,LOCATION,False,geoTargetConstants/9061096,,,"Hancock Park,California,United States",Neighborhood
+jewelry / non-lux,LOCATION,False,geoTargetConstants/9061098,,,"Hollywood,California,United States",Neighborhood
+jewelry / non-lux,LOCATION,False,geoTargetConstants/9061106,,,"Melrose,California,United States",Neighborhood
+jewelry / non-lux,LOCATION,False,geoTargetConstants/9061107,,,"Mid-City,Los Angeles,California,United States",Neighborhood
+jewelry / non-lux,LOCATION,False,geoTargetConstants/9061110,,,"La Brea,California,United States",Neighborhood
+jewelry / non-lux,LOCATION,False,geoTargetConstants/9061111,,,"Pico-Robertson,California,United States",Neighborhood
+jewelry / non-lux,LOCATION,False,geoTargetConstants/9198049,,,"Beverly Grove,California,United States",Neighborhood
+jewelry / non-lux,LOCATION,False,geoTargetConstants/9223411,,,"Mid-Wilshire,California,United States",Neighborhood
+jewelry / non-lux,PROXIMITY,False,,5.0,KILOMETERS,(не удалось разрешить),
+watches / non-lux,LOCATION,False,geoTargetConstants/1013587,,,"Beverly Hills,California,United States",City
+watches / non-lux,LOCATION,False,geoTargetConstants/1014390,,,"West Hollywood,California,United States",City
+watches / non-lux,LOCATION,False,geoTargetConstants/9060324,,,"Century City,California,United States",Neighborhood
+watches / non-lux,LOCATION,False,geoTargetConstants/9061087,,,"Beverlywood,California,United States",Neighborhood
+watches / non-lux,LOCATION,False,geoTargetConstants/9061090,,,"Carthay Circle,California,United States",Neighborhood
+watches / non-lux,LOCATION,False,geoTargetConstants/9061092,,,"Cheviot Hills,California,United States",Neighborhood
+watches / non-lux,LOCATION,False,geoTargetConstants/9061096,,,"Hancock Park,California,United States",Neighborhood
+watches / non-lux,LOCATION,False,geoTargetConstants/9061098,,,"Hollywood,California,United States",Neighborhood
+watches / non-lux,LOCATION,False,geoTargetConstants/9061106,,,"Melrose,California,United States",Neighborhood
+watches / non-lux,LOCATION,False,geoTargetConstants/9061107,,,"Mid-City,Los Angeles,California,United States",Neighborhood
+watches / non-lux,LOCATION,False,geoTargetConstants/9061110,,,"La Brea,California,United States",Neighborhood
+watches / non-lux,LOCATION,False,geoTargetConstants/9061111,,,"Pico-Robertson,California,United States",Neighborhood
+watches / non-lux,LOCATION,False,geoTargetConstants/9198049,,,"Beverly Grove,California,United States",Neighborhood
+watches / non-lux,LOCATION,False,geoTargetConstants/9223411,,,"Mid-Wilshire,California,United States",Neighborhood
+watches / non-lux,PROXIMITY,False,,5.0,KILOMETERS,(не удалось разрешить),
