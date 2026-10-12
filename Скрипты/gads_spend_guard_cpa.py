@@ -272,6 +272,12 @@ def main():
     ap.add_argument("--base-budget", action="append", metavar="ID=EUR", help="базовый (стартовый) дневной бюджет")
     ap.add_argument("--max-budget", action="append", metavar="ID=EUR", help="потолок дневного бюджета")
     ap.add_argument("--step-pct", type=float, default=20.0, help="шаг роста базового бюджета, %%")
+    ap.add_argument("--big-step-pct", type=float, default=35.0, help="большой шаг при большом запасе по цене, %%")
+    ap.add_argument("--big-step-cpa-share", type=float, default=0.6, help="большой шаг, если цена заявки ≤ доли цели")
+    ap.add_argument("--big-step-min-leads", type=float, default=5.0, help="и заявок в день в среднем не меньше")
+    ap.add_argument("--constrained-share", type=float, default=0.8,
+                    help="день подходит для роста, только если расход ≥ доли базового бюджета (упиралась в лимит)")
+    ap.add_argument("--plan-daily", type=float, help="дневной план проекта, €: сумма базовых бюджетов под сторожем не выше")
     ap.add_argument("--efficient-days", type=int, default=3, help="сколько эффективных дней подряд для шага роста")
     ap.add_argument("--day-min-leads", type=int, default=2, help="минимум заявок за день, чтобы день считался эффективным")
     ap.add_argument("--flex-min-leads", type=int, default=3)
@@ -473,21 +479,40 @@ def main():
                                 nn = calls_map.get((d, name), 0) + int(round(forms_h.get((campaign_id, d), 0.0)))
                                 hist.append((d, c, nn))
                             changed_on = pb.get("changed_on", "")
+                            streak_days = []
                             for d, c, nn in hist:
                                 if d < changed_on:
                                     break
-                                if c > 0 and nn >= args.day_min_leads and c / nn <= T:
+                                # подходящий день: цена ≤ цели И кампания упиралась в бюджет (иначе подъём лишь добавляет риск)
+                                if (c > 0 and nn >= args.day_min_leads and c / nn <= T
+                                        and c >= args.constrained_share * pb["base"]):
                                     streak += 1
+                                    streak_days.append((c, nn))
                                 else:
                                     break
                             y = hist[0]
                             last_bad = (y[1] > 0 and y[1] > (args.grace + y[2]) * T)
                             new_base = None
                             if streak >= args.efficient_days:
-                                cand = min(ceiling, math.ceil(pb["base"] * (1 + args.step_pct / 100)))
+                                window = streak_days[:args.efficient_days]
+                                sum_c = sum(x[0] for x in window)
+                                sum_n = sum(x[1] for x in window)
+                                avg_cpa = sum_c / sum_n if sum_n else 1e9
+                                avg_leads = sum_n / len(window)
+                                big = avg_cpa <= args.big_step_cpa_share * T and avg_leads >= args.big_step_min_leads
+                                step = args.big_step_pct if big else args.step_pct
+                                cand = min(ceiling, math.ceil(pb["base"] * (1 + step / 100)))
+                                if args.plan_daily:   # сумма базовых бюджетов под сторожем не выше дневного плана
+                                    others = sum(v.get("base", 0) for k, v in budget_state.items()
+                                                 if k != campaign_id and k in targets)
+                                    cand = min(cand, max(pb["base"], math.floor(args.plan_daily - others)))
                                 if cand > pb["base"]:
                                     new_base = cand
-                                    why = f"{streak} эффективных дня подряд (цена заявки ≤ {T:g} €)"
+                                    why = (f"{streak} дня подряд цена ≤ {T:g} € и расход ≥ {args.constrained_share:.0%} бюджета, "
+                                           f"шаг +{step:g}%" + (" (большой запас по цене)" if big else ""))
+                                else:
+                                    events.append(f"рост бюджета не выполнен: потолок {ceiling:g} € или дневной план "
+                                                  f"{args.plan_daily or 0:g} € (сумма базовых других кампаний)")
                             elif last_bad and pb["base"] > pb["floor"]:
                                 new_base = max(pb["floor"], math.floor(pb["base"] / (1 + args.step_pct / 100)))
                                 why = f"вчера расход {y[1]:.0f} € при {y[2]} заявках — выше допустимого"
@@ -497,8 +522,9 @@ def main():
                                     pb["changed_on"] = today
                                     bud_now = new_base
                             else:
-                                events.append(f"базовый бюджет {pb['base']:g} € без изменений "
-                                              f"(эффективных дней подряд: {streak} из {args.efficient_days})")
+                                events.append(f"базовый бюджет {pb['base']:g} € без изменений (подходящих дней подряд: "
+                                              f"{streak} из {args.efficient_days}; нужно: цена ≤ цели и расход ≥ "
+                                              f"{args.constrained_share:.0%} бюджета)")
                             pb["day_done"] = today
 
                         # 2) дневной люфт: эффективна и упирается в бюджет → поднять выше факта
