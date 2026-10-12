@@ -2,7 +2,7 @@
 name: performance-max-площадки-инвентарь-и-исключения
 description: Как ограничить мусорный трафик PMax на YouTube/Discover/Display: типы инвентаря, исключения площадок, отчёт по каналам, как снять разбивку через API
 status: частично протестировано (разбивка по каналам и площадкам через API на ProfiMet 2026-10-08; сами исключения не применялись)
-updated: 2026-10-08
+updated: 2026-10-12
 ---
 
 # PMax: каналы, площадки, типы инвентаря и исключения
@@ -20,6 +20,15 @@ updated: 2026-10-08
 ## Что убирает конкретные площадки
 - **Исключения площадок на уровне аккаунта** (Tools → Content suitability): YouTube-каналы, ролики, сайты, приложения; PMax их соблюдает; до 20 000 за раз, всего до 65 000 ([Exclude placements at the account level](https://support.google.com/google-ads/answer/7331110?hl=en), из выдачи). Действуют на **все кампании аккаунта**.
 - **Минус-слова** в PMax — только Search и Shopping; для Display и видео используются исключаемые ключевые слова контента (Content Suitability).
+
+## Исключить приложения целиком (категории) — найдено 2026-10-12, не протестировано
+- **Только на уровне аккаунта**, на уровне отдельной PMax-кампании нельзя. Справка Google ([Exclude placements at the account level](https://support.google.com/google-ads/answer/7331110?hl=en)): "For Performance Max campaigns, placement exclusions are managed at the account level", действуют на все кампании аккаунта.
+- **Расхождение источников:** страница справки при чтении 2026-10-12 описывает сайты и YouTube и **не упоминает приложения**; про категории приложений пишет практик ([Nils Rooijmans, дек. 2024, обновление 01.2025](https://nilsrooijmans.com/?p=2770)): All campaigns → Audiences, keywords and content → Content → Exclusions → Edit exclusions → Account → «App categories (140)», отметить вручную все категории Apple App Store и Google Play (итог должен быть 140). Ярлык `mobileappcategory::69500` на уровне аккаунта не сработал; Google Ads Editor счётов уровня аккаунта не поддерживал. Эффекта в цифрах автор не приводит. Не сверено со скриншотом реального кабинета.
+- **Что исключение не решает:** категории приложений не убирают сайты. На ExpertAgro `general_pmax` в день всплеска 10.10 основная масса показов пришлась на сайты (taboolanews.com 6 807 из 16 208 показов кампании), приложение в топ-15 одно (309 показов).
+- Одиночное приложение/сайт — через `customer_negative_criterion` (placement), как для YouTube-каналов ниже; запись только по протоколу «таблица → «да»».
+
+## Отчёт по площадкам: задержка (ExpertAgro, 2026-10-12)
+`performance_max_placement_view` и вкладка «Where ads showed» за **сегодня** пустые (0 строк и в API, и в интерфейсе); за вчера и ранее данные есть. Показывает только показы, без кликов и расхода.
 
 ## Как снять разбивку через API (ProfiMet, google-ads 29, API v23)
 - По каналам: `FROM campaign` с `segments.ad_network_type` (значения SEARCH, DISCOVER, YOUTUBE, CONTENT, SEARCH_PARTNERS, MIXED), метрики расход, клики, конверсии.
