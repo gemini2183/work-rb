@@ -354,6 +354,9 @@ def main():
                 st.clear()
                 st.update({"date": today, "calls_max": 0, "leads_max": 0, "reenabled": 0, "warned": False,
                            "paused_by_guard": False, "no_resume": False, "flex_count": 0, "samples": []})
+            for k, v in (("calls_max", 0), ("leads_max", 0), ("reenabled", 0), ("warned", False),
+                         ("paused_by_guard", False), ("no_resume", False), ("flex_count", 0), ("samples", [])):
+                st.setdefault(k, v)   # состояние за сегодня могло быть создано прежней версией скрипта
             name = s["name"]
             st["calls_max"] = max(st["calls_max"], calls_map.get((today, name), 0))
             st["leads_max"] = max(st["leads_max"], leads_by.get(name, 0))
