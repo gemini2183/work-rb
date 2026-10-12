@@ -1210,3 +1210,4 @@ time,campaign_id,name,status,budget,cost_today,conv_today,total,event,inertia_af
 2026-10-12T12:31:41,24342129286,dg_interest_nodiscover,2,25.0,0.0,0.0,0.0,,
 2026-10-12T12:31:42,24332648825,dg_lookalike_test,2,20.0,0.0,0.0,0.0,,
 2026-10-12T12:32:17,24332178236,pmax01_call_test,2,40.0,46.87,1.0,,,
+2026-10-12T12:34:17,24332178236,pmax01_call_test,2,40.0,46.87,1.0,,,
