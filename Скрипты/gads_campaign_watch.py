@@ -32,13 +32,13 @@ from gads_stats import GOOGLE_ADS_YAML
 
 def read_state(ga, E, cid, campaign_id):
     camp = None
-    for r in ga.search(customer_id=cid, query=(
+    for r in ga.search(timeout=60, customer_id=cid, query=(
             "SELECT campaign.name, campaign.status, campaign.primary_status, campaign_budget.amount_micros, metrics.cost_micros, "
             "metrics.clicks, metrics.impressions, metrics.conversions FROM campaign "
             f"WHERE campaign.id = {campaign_id} AND segments.date DURING TODAY")):
         camp = r
     if camp is None:  # нет строки за сегодня (ни показов, ни расхода)
-        for r in ga.search(customer_id=cid, query=(
+        for r in ga.search(timeout=60, customer_id=cid, query=(
                 "SELECT campaign.name, campaign.status, campaign.primary_status, campaign_budget.amount_micros FROM campaign "
                 f"WHERE campaign.id = {campaign_id}")):
             camp = r
@@ -56,10 +56,10 @@ def read_state(ga, E, cid, campaign_id):
     # Группы ассетов (есть только у PMax); для других типов запрос вернёт пусто или ошибку — не критично
     try:
         names = {}
-        for r in ga.search(customer_id=cid, query=(
+        for r in ga.search(timeout=60, customer_id=cid, query=(
                 f"SELECT asset_group.id, asset_group.name, asset_group.status FROM asset_group WHERE campaign.id = {campaign_id}")):
             names[r.asset_group.id] = [r.asset_group.name, E.AssetGroupStatusEnum.AssetGroupStatus.Name(r.asset_group.status), 0.0, 0]
-        for r in ga.search(customer_id=cid, query=(
+        for r in ga.search(timeout=60, customer_id=cid, query=(
                 "SELECT asset_group.id, metrics.cost_micros, metrics.impressions FROM asset_group "
                 f"WHERE campaign.id = {campaign_id} AND segments.date DURING TODAY")):
             if r.asset_group.id in names:
