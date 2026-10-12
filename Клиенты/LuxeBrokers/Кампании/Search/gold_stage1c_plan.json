@@ -1,0 +1,99 @@
+{
+  "_comment": "Этап 1c: пересмотр всех групп gold_ (12.10). Делегировано пользователем: «включи всё, что надо… добавь объявления новые». Включить ключ «sell gold» в группе Gold; новое RSA в 5 групп без него; поставить на паузу 6 дублирующих полностью закреплённых объявлений.",
+  "customer_id": "9534865605",
+  "campaign": "gold_",
+  "set_keyword_status": [
+    {
+      "group": "Gold",
+      "text": "sell gold",
+      "match": "PHRASE",
+      "status": "ENABLED"
+    }
+  ],
+  "pause_ads": [
+    781839748697,
+    781839748700,
+    781839748703,
+    781839748706,
+    781839748715,
+    781839748724
+  ],
+  "rsa": {
+    "final_url": "https://jewelryfastsale.com/gold-silver",
+    "path1": "Beverly Hills",
+    "path2": "",
+    "ad_groups": [
+      "Gold",
+      "Gold Coins",
+      "Gold Bars",
+      "Gold Chain",
+      "Gold Ring"
+    ],
+    "also_new_group": false,
+    "headlines": [
+      {
+        "text": "We Buy Gold in Beverly Hills",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Cash for Gold & Scrap Gold",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Sell Gold. Get Paid Same Visit",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Scrap & Broken Gold Accepted"
+      },
+      {
+        "text": "Rings, Chains & Bracelets"
+      },
+      {
+        "text": "Gold Bars & Gold Coins Bought"
+      },
+      {
+        "text": "Free Online Gold Appraisal"
+      },
+      {
+        "text": "Free Evaluation. No Obligation"
+      },
+      {
+        "text": "No Fees. No Commissions"
+      },
+      {
+        "text": "Paid in Cash or Bank Transfer"
+      },
+      {
+        "text": "Deal in Up to 10 Minutes"
+      },
+      {
+        "text": "Open Daily 10 AM to 7 PM"
+      },
+      {
+        "text": "Private & Confidential"
+      },
+      {
+        "text": "Visit Us in Beverly Hills"
+      },
+      {
+        "text": "Call for a Free Evaluation"
+      }
+    ],
+    "descriptions": [
+      {
+        "text": "We buy gold jewelry, scrap, broken chains, coins and bars. Free evaluation, no obligation.",
+        "pin": "DESCRIPTION_1"
+      },
+      {
+        "text": "Paid in cash or bank transfer. No fees or commissions. Deals take up to 10 minutes."
+      },
+      {
+        "text": "Visit us in Beverly Hills daily 10 AM to 7 PM or send photos for a free online appraisal."
+      },
+      {
+        "text": "Private, confidential service. We sort gold by purity for a fair evaluation."
+      }
+    ]
+  }
+}

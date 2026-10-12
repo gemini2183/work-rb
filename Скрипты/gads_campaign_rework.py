@@ -9,7 +9,7 @@
   * добавить RSA в указанные группы (и в новую), закрепления заголовков/описаний;
   * поставить на паузу объявления по id;
   * создать сайтлинки / выноски / структурированный сниппет, привязать к кампании, отвязать старые;
-  * сменить статус групп (`set_group_status`: [{"group": имя, "status": ENABLED|PAUSED}]).
+  * сменить статус групп (`set_group_status`) и ключей (`set_keyword_status`: [{"group", "text", "match", "status"}]).
 
 Режимы:
   без флагов     — ТОЛЬКО проверка (validate_only): Google проверяет весь пакет, ничего не создаёт;
@@ -137,6 +137,23 @@ def main():
         u.resource_name = groups[item["group"]][1]
         u.status = getattr(E.AdGroupStatusEnum, item["status"])
         op.ad_group_operation.update_mask.CopyFrom(field_mask_pb2.FieldMask(paths=["status"]))
+        ops.append(op)
+
+    # 0c. статус ключевых слов (включение / пауза) — по группе, тексту и типу соответствия
+    for item in plan.get("set_keyword_status", []):
+        rows_k = q(f"SELECT ad_group.name, ad_group_criterion.resource_name, ad_group_criterion.keyword.text, ad_group_criterion.keyword.match_type "
+                   f"FROM ad_group_criterion WHERE campaign.id = {camp_id} AND ad_group.name = '{item['group']}' "
+                   f"AND ad_group_criterion.type = 'KEYWORD' AND ad_group_criterion.negative = FALSE AND ad_group_criterion.status != 'REMOVED'")
+        hit = [r.ad_group_criterion.resource_name for r in rows_k
+               if r.ad_group_criterion.keyword.text.lower() == item["text"].lower()
+               and nm('KeywordMatchTypeEnum', 'KeywordMatchType', r.ad_group_criterion.keyword.match_type) == item["match"]]
+        if len(hit) != 1:
+            sys.exit(f"Ключ {item} найден {len(hit)} раз(а)")
+        op = mop()
+        u = op.ad_group_criterion_operation.update
+        u.resource_name = hit[0]
+        u.status = getattr(E.AdGroupCriterionStatusEnum, item["status"])
+        op.ad_group_criterion_operation.update_mask.CopyFrom(field_mask_pb2.FieldMask(paths=["status"]))
         ops.append(op)
 
     # 1. список минусов
@@ -355,6 +372,12 @@ def main():
     for item in plan.get("set_group_status", []):
         for r in q(f"SELECT ad_group.name, ad_group.status FROM ad_group WHERE campaign.id = {camp_id} AND ad_group.name = '{item['group']}'"):
             print("группа:", r.ad_group.name, "|", nm('AdGroupStatusEnum', 'AdGroupStatus', r.ad_group.status))
+    for item in plan.get("set_keyword_status", []):
+        for r in q(f"SELECT ad_group.name, ad_group_criterion.keyword.text, ad_group_criterion.status FROM ad_group_criterion WHERE campaign.id = {camp_id} "
+                   f"AND ad_group.name = '{item['group']}' AND ad_group_criterion.type = 'KEYWORD' AND ad_group_criterion.negative = FALSE"):
+            if r.ad_group_criterion.keyword.text.lower() == item["text"].lower():
+                print("ключ:", r.ad_group.name, "|", r.ad_group_criterion.keyword.text, "|",
+                      nm('AdGroupCriterionStatusEnum', 'AdGroupCriterionStatus', r.ad_group_criterion.status))
     print("объявления кампании (включённые / на паузе) по группам:")
     cnt = {}
     for r in q(f"SELECT ad_group.name, ad_group_ad.status FROM ad_group_ad WHERE campaign.id = {camp_id} AND ad_group_ad.status != 'REMOVED'"):
