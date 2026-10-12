@@ -1,0 +1,69 @@
+camp,group,strength,status
+diamonds,jewelry / diamonds,GOOD,ENABLED
+diamonds,jewelry / diamond ring,GOOD,ENABLED
+diamonds,jewelry / diamond earrings,GOOD,ENABLED
+watches / lux,watches / lux / generic,GOOD,ENABLED
+watches / lux,watches / lux / brands / other,AVERAGE,ENABLED
+watches / lux,watches / lux / brands / rolex,AVERAGE,ENABLED
+watches / lux,watches / lux / brands / rolex,POOR,ENABLED
+jewelry / non-lux,jewelry / non-lux / generic / sell,EXCELLENT,ENABLED
+jewelry / non-lux,jewelry / non-lux / generic / buyers,EXCELLENT,ENABLED
+jewelry / non-lux,jewelry / non-lux / generic / near me,EXCELLENT,ENABLED
+jewelry / non-lux,jewelry / non-lux / generic / cash,EXCELLENT,ENABLED
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,EXCELLENT,ENABLED
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,POOR,PAUSED
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,EXCELLENT,ENABLED
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,POOR,PAUSED
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,EXCELLENT,ENABLED
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,POOR,PAUSED
+jewelry / non-lux,jewelry / non-lux / items / ring,EXCELLENT,ENABLED
+jewelry / non-lux,jewelry / non-lux / items / ring,EXCELLENT,ENABLED
+jewelry / non-lux,jewelry / lux / generic / sell,EXCELLENT,ENABLED
+jewelry / non-lux,jewelry / lux / generic / buyers,EXCELLENT,ENABLED
+jewelry / non-lux,jewelry / lux / generic / cash,EXCELLENT,ENABLED
+jewelry / non-lux,jewelry / lux / generic / near me,EXCELLENT,ENABLED
+jewelry / lux,jewelry / lux / brands / other,AVERAGE,ENABLED
+jewelry / lux,jewelry / lux / brands / tiffany,AVERAGE,ENABLED
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,GOOD,ENABLED
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,POOR,PAUSED
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,PENDING,PAUSED
+jewelry / lux,jewelry / lux / generic / sell,GOOD,ENABLED
+jewelry / lux,jewelry / lux / generic / buyers,GOOD,ENABLED
+jewelry / lux,jewelry / lux / generic / near me,AVERAGE,ENABLED
+jewelry / lux,jewelry / lux / generic / cash,GOOD,ENABLED
+jewelry / lux,jewelry / lux / brands / van cleef,GOOD,ENABLED
+jewelry / lux,jewelry / lux / brands / cartier / braclete,GOOD,ENABLED
+jewelry / lux,jewelry / non-lux / items / engagement ring,GOOD,ENABLED
+jewelry / lux,jewelry / non-lux / items / engagement ring,PENDING,PAUSED
+jewelry / lux,jewelry / non-lux / items / wedding ring,GOOD,ENABLED
+jewelry / lux,jewelry / non-lux / items / wedding ring,PENDING,PAUSED
+jewelry / lux,jewelry / non-lux / items / ring,POOR,ENABLED
+jewelry / lux,jewelry / non-lux / items / ring,GOOD,ENABLED
+silver,Silver,GOOD,ENABLED
+silver,Silver Coins,POOR,ENABLED
+silver,Silver Chain,POOR,ENABLED
+silver,Silver Ring,POOR,ENABLED
+silver,Sterling Silver - New,PENDING,ENABLED
+silver,Silver Coins - New,PENDING,ENABLED
+silver,Silver - New,AVERAGE,ENABLED
+gold_,Gold,PENDING,ENABLED
+gold_,Gold,PENDING,ENABLED
+gold_,Gold Jewelry,GOOD,ENABLED
+gold_,Gold Jewelry,GOOD,ENABLED
+gold_,Cash For Gold,GOOD,ENABLED
+gold_,Cash For Gold,GOOD,ENABLED
+gold_,Gold Coins,GOOD,ENABLED
+gold_,Gold Coins,GOOD,ENABLED
+gold_,Gold Bars,GOOD,ENABLED
+gold_,Gold Bars,GOOD,ENABLED
+gold_,Gold Chain,GOOD,ENABLED
+gold_,Gold Chain,GOOD,ENABLED
+gold_,Gold Beverly Hills,GOOD,ENABLED
+gold_,Gold Beverly Hills,GOOD,ENABLED
+gold_,Gold Near Me,GOOD,ENABLED
+gold_,Gold Near Me,GOOD,ENABLED
+gold_,Gold Buyer,GOOD,ENABLED
+gold_,Gold Buyer,GOOD,ENABLED
+gold_,Gold Ring,GOOD,ENABLED
+gold_,Gold Ring,GOOD,ENABLED
+watches / non-lux,watches / non-lux / generic,PENDING,ENABLED

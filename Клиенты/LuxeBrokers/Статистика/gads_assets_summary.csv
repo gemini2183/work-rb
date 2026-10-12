@@ -1,0 +1,166 @@
+camp,type,status,lvl
+diamonds,LEAD_FORM,PAUSED,campaign
+watches / lux,LEAD_FORM,PAUSED,campaign
+jewelry / non-lux,LEAD_FORM,PAUSED,campaign
+jewelry / lux,LEAD_FORM,PAUSED,campaign
+silver,LEAD_FORM,ENABLED,campaign
+gold_,LEAD_FORM,PAUSED,campaign
+watches / non-lux,LEAD_FORM,PAUSED,campaign
+diamonds,STRUCTURED_SNIPPET,ENABLED,campaign
+watches / lux,STRUCTURED_SNIPPET,ENABLED,campaign
+jewelry / non-lux,STRUCTURED_SNIPPET,ENABLED,campaign
+jewelry / lux,STRUCTURED_SNIPPET,ENABLED,campaign
+silver,STRUCTURED_SNIPPET,ENABLED,campaign
+gold_,STRUCTURED_SNIPPET,ENABLED,campaign
+watches / non-lux,STRUCTURED_SNIPPET,ENABLED,campaign
+silver,SITELINK,REMOVED,campaign
+silver,SITELINK,REMOVED,campaign
+silver,SITELINK,REMOVED,campaign
+silver,SITELINK,REMOVED,campaign
+jewelry / non-lux,SITELINK,REMOVED,campaign
+silver,SITELINK,REMOVED,campaign
+jewelry / non-lux,SITELINK,REMOVED,campaign
+silver,SITELINK,REMOVED,campaign
+silver,SITELINK,ENABLED,campaign
+gold_,SITELINK,ENABLED,campaign
+silver,SITELINK,ENABLED,campaign
+gold_,SITELINK,ENABLED,campaign
+silver,SITELINK,ENABLED,campaign
+gold_,SITELINK,ENABLED,campaign
+silver,SITELINK,ENABLED,campaign
+gold_,SITELINK,ENABLED,campaign
+silver,SITELINK,ENABLED,campaign
+gold_,SITELINK,ENABLED,campaign
+silver,SITELINK,ENABLED,campaign
+gold_,SITELINK,ENABLED,campaign
+diamonds,CALLOUT,ENABLED,campaign
+watches / lux,CALLOUT,ENABLED,campaign
+jewelry / non-lux,CALLOUT,ENABLED,campaign
+jewelry / lux,CALLOUT,ENABLED,campaign
+silver,CALLOUT,ENABLED,campaign
+gold_,CALLOUT,ENABLED,campaign
+watches / non-lux,CALLOUT,ENABLED,campaign
+diamonds,CALLOUT,ENABLED,campaign
+watches / lux,CALLOUT,ENABLED,campaign
+jewelry / non-lux,CALLOUT,ENABLED,campaign
+jewelry / lux,CALLOUT,ENABLED,campaign
+silver,CALLOUT,ENABLED,campaign
+gold_,CALLOUT,ENABLED,campaign
+watches / non-lux,CALLOUT,ENABLED,campaign
+diamonds,CALLOUT,ENABLED,campaign
+watches / lux,CALLOUT,ENABLED,campaign
+jewelry / non-lux,CALLOUT,ENABLED,campaign
+jewelry / lux,CALLOUT,ENABLED,campaign
+silver,CALLOUT,ENABLED,campaign
+gold_,CALLOUT,ENABLED,campaign
+watches / non-lux,CALLOUT,ENABLED,campaign
+diamonds,BUSINESS_NAME,PAUSED,campaign
+watches / lux,BUSINESS_NAME,PAUSED,campaign
+jewelry / non-lux,BUSINESS_NAME,PAUSED,campaign
+jewelry / lux,BUSINESS_NAME,PAUSED,campaign
+watches / non-lux,BUSINESS_NAME,PAUSED,campaign
+diamonds,BUSINESS_LOGO,ENABLED,campaign
+watches / lux,BUSINESS_LOGO,ENABLED,campaign
+jewelry / non-lux,BUSINESS_LOGO,ENABLED,campaign
+jewelry / lux,BUSINESS_LOGO,ENABLED,campaign
+watches / non-lux,BUSINESS_LOGO,ENABLED,campaign
+diamonds,AD_IMAGE,ENABLED,campaign
+watches / lux,AD_IMAGE,ENABLED,campaign
+jewelry / non-lux,AD_IMAGE,ENABLED,campaign
+jewelry / lux,AD_IMAGE,ENABLED,campaign
+silver,AD_IMAGE,ENABLED,campaign
+gold_,AD_IMAGE,ENABLED,campaign
+watches / non-lux,AD_IMAGE,ENABLED,campaign
+diamonds,AD_IMAGE,ENABLED,campaign
+watches / lux,AD_IMAGE,ENABLED,campaign
+jewelry / non-lux,AD_IMAGE,ENABLED,campaign
+jewelry / lux,AD_IMAGE,ENABLED,campaign
+silver,AD_IMAGE,ENABLED,campaign
+gold_,AD_IMAGE,ENABLED,campaign
+watches / non-lux,AD_IMAGE,ENABLED,campaign
+diamonds,AD_IMAGE,ENABLED,campaign
+watches / lux,AD_IMAGE,ENABLED,campaign
+jewelry / non-lux,AD_IMAGE,ENABLED,campaign
+jewelry / lux,AD_IMAGE,ENABLED,campaign
+silver,AD_IMAGE,ENABLED,campaign
+gold_,AD_IMAGE,ENABLED,campaign
+watches / non-lux,AD_IMAGE,ENABLED,campaign
+diamonds,AD_IMAGE,ENABLED,campaign
+watches / lux,AD_IMAGE,ENABLED,campaign
+jewelry / non-lux,AD_IMAGE,ENABLED,campaign
+jewelry / lux,AD_IMAGE,ENABLED,campaign
+silver,AD_IMAGE,ENABLED,campaign
+gold_,AD_IMAGE,ENABLED,campaign
+watches / non-lux,AD_IMAGE,ENABLED,campaign
+diamonds,AD_IMAGE,ENABLED,campaign
+watches / lux,AD_IMAGE,ENABLED,campaign
+jewelry / non-lux,AD_IMAGE,ENABLED,campaign
+jewelry / lux,AD_IMAGE,ENABLED,campaign
+silver,AD_IMAGE,ENABLED,campaign
+gold_,AD_IMAGE,ENABLED,campaign
+watches / non-lux,AD_IMAGE,ENABLED,campaign
+diamonds,AD_IMAGE,ENABLED,campaign
+watches / lux,AD_IMAGE,ENABLED,campaign
+jewelry / non-lux,AD_IMAGE,ENABLED,campaign
+jewelry / lux,AD_IMAGE,ENABLED,campaign
+silver,AD_IMAGE,ENABLED,campaign
+gold_,AD_IMAGE,ENABLED,campaign
+watches / non-lux,AD_IMAGE,ENABLED,campaign
+diamonds,AD_IMAGE,ENABLED,campaign
+watches / lux,AD_IMAGE,ENABLED,campaign
+jewelry / non-lux,AD_IMAGE,ENABLED,campaign
+jewelry / lux,AD_IMAGE,ENABLED,campaign
+silver,AD_IMAGE,ENABLED,campaign
+gold_,AD_IMAGE,ENABLED,campaign
+watches / non-lux,AD_IMAGE,ENABLED,campaign
+diamonds,AD_IMAGE,ENABLED,campaign
+watches / lux,AD_IMAGE,ENABLED,campaign
+jewelry / non-lux,AD_IMAGE,ENABLED,campaign
+jewelry / lux,AD_IMAGE,ENABLED,campaign
+silver,AD_IMAGE,ENABLED,campaign
+gold_,AD_IMAGE,ENABLED,campaign
+watches / non-lux,AD_IMAGE,ENABLED,campaign
+diamonds,AD_IMAGE,ENABLED,campaign
+watches / lux,AD_IMAGE,ENABLED,campaign
+jewelry / non-lux,AD_IMAGE,ENABLED,campaign
+jewelry / lux,AD_IMAGE,ENABLED,campaign
+silver,AD_IMAGE,ENABLED,campaign
+gold_,AD_IMAGE,ENABLED,campaign
+watches / non-lux,AD_IMAGE,ENABLED,campaign
+diamonds,AD_IMAGE,ENABLED,campaign
+watches / lux,AD_IMAGE,ENABLED,campaign
+jewelry / non-lux,AD_IMAGE,ENABLED,campaign
+jewelry / lux,AD_IMAGE,ENABLED,campaign
+silver,AD_IMAGE,ENABLED,campaign
+gold_,AD_IMAGE,ENABLED,campaign
+watches / non-lux,AD_IMAGE,ENABLED,campaign
+diamonds,AD_IMAGE,ENABLED,campaign
+watches / lux,AD_IMAGE,ENABLED,campaign
+jewelry / non-lux,AD_IMAGE,ENABLED,campaign
+jewelry / lux,AD_IMAGE,ENABLED,campaign
+silver,AD_IMAGE,ENABLED,campaign
+gold_,AD_IMAGE,ENABLED,campaign
+watches / non-lux,AD_IMAGE,ENABLED,campaign
+diamonds,AD_IMAGE,ENABLED,campaign
+watches / lux,AD_IMAGE,ENABLED,campaign
+jewelry / non-lux,AD_IMAGE,ENABLED,campaign
+jewelry / lux,AD_IMAGE,ENABLED,campaign
+silver,AD_IMAGE,ENABLED,campaign
+gold_,AD_IMAGE,ENABLED,campaign
+watches / non-lux,AD_IMAGE,ENABLED,campaign
+diamonds,AD_IMAGE,ENABLED,campaign
+watches / lux,AD_IMAGE,ENABLED,campaign
+jewelry / non-lux,AD_IMAGE,ENABLED,campaign
+jewelry / lux,AD_IMAGE,ENABLED,campaign
+watches / non-lux,AD_IMAGE,ENABLED,campaign
+(account),SITELINK,ENABLED,customer
+(account),SITELINK,ENABLED,customer
+(account),SITELINK,ENABLED,customer
+(account),SITELINK,ENABLED,customer
+(account),SITELINK,ENABLED,customer
+(account),SITELINK,ENABLED,customer
+(account),CALL,PAUSED,customer
+(account),CALL,PAUSED,customer
+(account),CALL,ENABLED,customer
+(account),BUSINESS_LOGO,ENABLED,customer
+(account),BUSINESS_MESSAGE,ENABLED,customer

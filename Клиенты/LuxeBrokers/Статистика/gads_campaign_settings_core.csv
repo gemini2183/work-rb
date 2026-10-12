@@ -1,3 +1,6 @@
 Campaign,Status,Channel_type,Bidding_strategy,Target_spend_micros,Target_cpa_micros,Daily_budget,Network_google_search,Network_search_partners,Network_display,Network_partner_search,Geo_positive_type,Geo_negative_type
-jewelry / non-lux,ENABLED,SEARCH,MAXIMIZE_CONVERSIONS,,29800000,154.37,True,False,False,False,PRESENCE_OR_INTEREST,PRESENCE
-watches / non-lux,ENABLED,SEARCH,MAXIMIZE_CONVERSIONS,,30000000,350.0,True,False,False,False,PRESENCE_OR_INTEREST,PRESENCE
+diamonds,ENABLED,SEARCH,MAXIMIZE_CONVERSIONS,,40000000.0,350.0,True,False,False,False,PRESENCE_OR_INTEREST,PRESENCE
+watches / lux,ENABLED,SEARCH,MAXIMIZE_CONVERSIONS,,78510000.0,250.0,True,False,False,False,PRESENCE_OR_INTEREST,PRESENCE
+jewelry / lux,ENABLED,SEARCH,MAXIMIZE_CONVERSIONS,,47000000.0,250.0,True,False,False,False,PRESENCE_OR_INTEREST,PRESENCE
+silver,ENABLED,SEARCH,TARGET_SPEND,,,75.0,True,False,False,False,PRESENCE_OR_INTEREST,PRESENCE
+gold_,ENABLED,SEARCH,MAXIMIZE_CONVERSIONS,,40000000.0,250.0,True,False,False,False,PRESENCE_OR_INTEREST,PRESENCE

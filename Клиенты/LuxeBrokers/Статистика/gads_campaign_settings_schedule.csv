@@ -1,15 +1,43 @@
 Campaign,Day,Start,End
-jewelry / non-lux,MONDAY,09:30,19:30
-jewelry / non-lux,TUESDAY,09:30,19:30
-jewelry / non-lux,WEDNESDAY,09:30,19:30
-jewelry / non-lux,THURSDAY,09:30,19:30
-jewelry / non-lux,FRIDAY,09:30,19:30
-jewelry / non-lux,SATURDAY,09:30,19:30
-jewelry / non-lux,SUNDAY,09:30,19:30
-watches / non-lux,MONDAY,10:00,19:00
-watches / non-lux,TUESDAY,10:00,19:00
-watches / non-lux,WEDNESDAY,10:00,19:00
-watches / non-lux,THURSDAY,10:00,19:00
-watches / non-lux,FRIDAY,10:00,19:00
-watches / non-lux,SATURDAY,10:00,19:00
-watches / non-lux,SUNDAY,10:00,19:00
+diamonds,MONDAY,09:30,19:30
+diamonds,TUESDAY,09:30,19:30
+diamonds,WEDNESDAY,09:30,19:30
+diamonds,THURSDAY,09:30,19:30
+diamonds,FRIDAY,09:30,19:30
+diamonds,SATURDAY,09:30,19:30
+diamonds,SUNDAY,09:30,19:30
+watches / lux,MONDAY,09:30,19:30
+watches / lux,TUESDAY,09:30,19:30
+watches / lux,WEDNESDAY,09:30,19:30
+watches / lux,THURSDAY,09:30,19:30
+watches / lux,FRIDAY,09:30,19:30
+watches / lux,SATURDAY,09:30,19:30
+watches / lux,SUNDAY,09:30,19:30
+jewelry / lux,MONDAY,09:30,19:30
+jewelry / lux,TUESDAY,09:30,19:30
+jewelry / lux,WEDNESDAY,09:30,19:30
+jewelry / lux,THURSDAY,09:30,19:30
+jewelry / lux,FRIDAY,09:30,19:30
+jewelry / lux,SATURDAY,09:30,19:30
+jewelry / lux,SUNDAY,09:30,19:30
+silver,MONDAY,09:00,18:00
+silver,MONDAY,18:00,20:00
+silver,TUESDAY,09:00,18:00
+silver,TUESDAY,18:00,20:00
+silver,WEDNESDAY,09:00,18:00
+silver,WEDNESDAY,18:00,20:00
+silver,THURSDAY,09:00,18:00
+silver,THURSDAY,18:00,20:00
+silver,FRIDAY,09:00,18:00
+silver,FRIDAY,18:00,20:00
+silver,SATURDAY,09:00,18:00
+silver,SATURDAY,18:00,20:00
+silver,SUNDAY,09:00,18:00
+silver,SUNDAY,18:00,20:00
+gold_,MONDAY,09:30,19:30
+gold_,TUESDAY,09:30,19:30
+gold_,WEDNESDAY,09:30,19:30
+gold_,THURSDAY,09:30,19:30
+gold_,FRIDAY,09:30,19:30
+gold_,SATURDAY,09:30,19:30
+gold_,SUNDAY,09:30,19:30

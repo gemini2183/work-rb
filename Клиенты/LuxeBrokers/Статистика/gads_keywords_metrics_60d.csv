@@ -1,0 +1,1160 @@
+camp,group,kw,mt,neg,status,imp,clk,cost,conv
+jewelry / lux,jewelry / lux / brands / other,diamonds,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,diamond,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,buyer,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,thousand oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,buyers,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,sell chopard ring,PHRASE,False,ENABLED,2,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,sell bvlgari ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,sell david yurman,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,sell david yurman ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,sell bvlgari necklace,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,sell david yurman bracelet,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,엘에이 돌 반지 파는 곳,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,sell bulgari jewelry,PHRASE,False,ENABLED,3,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,sell chopard jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,sell graff jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,sell bvlgari jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,sell david yurman jewelry,PHRASE,False,ENABLED,6,2,16.240358,2.066666
+jewelry / lux,jewelry / lux / brands / other,sell boucheron jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,sell messika jewelry,PHRASE,False,ENABLED,3,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,sell de beers jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,sell stephen webster jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,sell jacob & co jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / other,sell roberto coin jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,thousand oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,sell my tiffany jewelry,PHRASE,False,ENABLED,45,3,26.766564,1.0
+jewelry / lux,jewelry / lux / brands / tiffany,sell my tiffany ring,PHRASE,False,ENABLED,1,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,sell my tiffany necklace,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,sell your tiffany jewelry,PHRASE,False,ENABLED,30,3,26.87,1.0
+jewelry / lux,jewelry / lux / brands / tiffany,sell tiffany earrings,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,where to sell tiffany jewelry near me,PHRASE,False,ENABLED,3,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,best way to sell tiffany jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,sell used tiffany jewelry,PHRASE,False,ENABLED,55,5,41.97,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,resell tiffany jewelry,PHRASE,False,ENABLED,80,6,53.21,1.0
+jewelry / lux,jewelry / lux / brands / tiffany,sell tiffany and co jewelry,PHRASE,False,ENABLED,12,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,sell old tiffany jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,resell tiffany ring,PHRASE,False,ENABLED,2,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,sell my tiffany diamond ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,where can i sell my tiffany bracelet,PHRASE,False,ENABLED,5,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,sell my tiffany bracelet,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,sell my tiffany engagement ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,sell tiffany diamond ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,sell tiffany ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,where can i sell my tiffany jewelry near me,PHRASE,False,ENABLED,6,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,sell tiffany engagement ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,best place to sell tiffany,PHRASE,False,ENABLED,3,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,tiffany ring resale,PHRASE,False,ENABLED,40,6,54.08,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,sell tiffany jewelry near me,PHRASE,False,ENABLED,3,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,sell tiffany bracelet,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,sell tiffany necklace,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,sell second hand tiffany jewellery,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,who buys tiffany jewelry near me,PHRASE,False,ENABLED,17,2,16.96,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,sell tiffany jewelry,PHRASE,False,ENABLED,5,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,엘에이 돌 반지 파는 곳,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,where to sell tiffany bracelet,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / tiffany,sell tiffany co jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,diamonds,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,diamond,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,buyer,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,thousand oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,buyers,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,sell cartier,PHRASE,False,ENABLED,202,8,125.92504,4.0
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,sell cartier watch,PHRASE,False,PAUSED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,sell cartier ring,PHRASE,False,ENABLED,66,7,96.55,2.0
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,sell cartier jewelry,PHRASE,False,ENABLED,106,7,93.84,0.0
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,sell cartier love ring,PHRASE,False,ENABLED,6,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,sell cartier bracelet,PHRASE,False,PAUSED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,sell cartier love bracelet,PHRASE,False,PAUSED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,엘에이 돌 반지 파는 곳,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / sell,buy,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / sell,tiffany,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / sell,cash,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / sell,buyer,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / sell,gemstones,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / sell,thousand oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / sell,buys,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / sell,buyers,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / sell,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / sell,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / sell,sell jewelry,PHRASE,False,ENABLED,1051,63,443.811261,7.032877
+jewelry / non-lux,jewelry / non-lux / generic / sell,엘에이 돌 반지 파는 곳,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / buyers,sell,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / buyers,diamonds,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / buyers,cash,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / buyers,diamond,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / buyers,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / buyers,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / buyers,jewelry buyer,PHRASE,False,ENABLED,518,26,249.058912,5.000496
+jewelry / non-lux,jewelry / non-lux / generic / buyers,we buy jewelry,PHRASE,False,ENABLED,542,31,212.173849,5.328209
+jewelry / non-lux,jewelry / non-lux / generic / near me,diamonds,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / near me,diamond,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / near me,thousand oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / near me,buyers,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / near me,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / near me,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / near me,엘에이 돌 반지 파는 곳,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / near me,jewelry buyer nearby,PHRASE,False,ENABLED,351,21,272.323166,6.833333
+jewelry / non-lux,jewelry / non-lux / generic / near me,sell jewelry nearby,PHRASE,False,ENABLED,357,21,171.160585,3.0
+jewelry / non-lux,jewelry / non-lux / generic / near me,we buy jewelry nearby,PHRASE,False,ENABLED,588,28,193.294138,6.499504
+jewelry / non-lux,jewelry / non-lux / generic / near me,cash for jewelry nearby,PHRASE,False,ENABLED,272,16,159.344566,4.4
+jewelry / non-lux,jewelry / non-lux / generic / cash,sell,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / cash,diamonds,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / cash,diamond,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / cash,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / cash,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / cash,cash for jewelry,PHRASE,False,ENABLED,804,49,415.906248,8.669998
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,diamonds,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,diamond,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,thousand oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,buyers,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,엘에이 돌 반지 파는 곳,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,sell jewelry beverly hills,PHRASE,False,ENABLED,152,17,121.431262,3.5
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,cash for jewelry beverly hills,PHRASE,False,ENABLED,57,6,24.092704,0.0
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,jewelry buyer beverly hills,PHRASE,False,ENABLED,249,13,84.836359,1.0
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,we buy jewelry beverly hills,PHRASE,False,ENABLED,61,2,23.884606,1.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,diamonds,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,diamond,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,buyer,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,thousand oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,buyers,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,sell your engagement ring,PHRASE,False,ENABLED,26,1,6.502965,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,sell my engagement ring,PHRASE,False,ENABLED,12,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,sell used engagement ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,i want to sell my engagement ring,PHRASE,False,ENABLED,1,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,best way to sell engagement ring,PHRASE,False,ENABLED,18,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,sell old engagement ring,PHRASE,False,ENABLED,56,1,6.348602,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,sell engagement ring for cash,PHRASE,False,ENABLED,5,1,6.1,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,best place to sell your engagement ring,PHRASE,False,ENABLED,7,1,12.38,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,places to sell engagement rings,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,best place to sell engagement ring,PHRASE,False,ENABLED,5,1,4.36,1.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,best place to sell my engagement ring,PHRASE,False,ENABLED,91,5,45.70188,1.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,sell engagement ring near me,PHRASE,False,ENABLED,6,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,engagement ring resale,PHRASE,False,ENABLED,6,1,22.98,1.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,selling engagement ring after divorce,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,sell engagement ring,PHRASE,False,ENABLED,40,3,33.01,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,best place to sell engagement ring near me,PHRASE,False,ENABLED,6,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,sell my old engagement ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,sell my engagement ring near me,PHRASE,False,ENABLED,15,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,sell your engagement ring near me,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,엘에이 돌 반지 파는 곳,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,diamonds,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,diamond,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,buyer,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,thousand oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,buyers,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,sell wedding band,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,i want to sell my wedding ring,PHRASE,False,ENABLED,7,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,sell your wedding ring,PHRASE,False,ENABLED,1,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,sell used wedding ring,PHRASE,False,ENABLED,2,1,5.36,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,sell my wedding ring,PHRASE,False,ENABLED,96,7,51.990878,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,sell old wedding ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,best place to sell wedding ring,PHRASE,False,ENABLED,3,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,best place to sell my wedding ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,sell wedding ring near me,PHRASE,False,ENABLED,4,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,places to sell wedding rings,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,best way to sell wedding ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,wedding ring resale,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,sell my wedding band,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,sell platinum wedding band,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,sell wedding ring after divorce,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,sell wedding ring set,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,best place to sell your wedding ring,PHRASE,False,ENABLED,1,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,best way to sell your wedding ring,PHRASE,False,ENABLED,1,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,sell wedding ring,PHRASE,False,ENABLED,21,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,want to sell my wedding ring,PHRASE,False,ENABLED,2,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,sell my wedding ring near me,PHRASE,False,ENABLED,3,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,sell wedding set,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,best place to sell old wedding ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,best way to sell wedding ring set,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,sell mens wedding band,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,best place to sell wedding ring near me,PHRASE,False,ENABLED,5,1,3.76,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,sell wedding band near me,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,엘에이 돌 반지 파는 곳,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / ring,diamonds,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / ring,diamond,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / ring,buyer,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / ring,thousand oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / ring,buyers,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / ring,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / ring,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / non-lux / items / ring,sell ring,PHRASE,False,ENABLED,221,10,122.182486,3.0
+jewelry / non-lux,jewelry / non-lux / items / ring,sell ring,EXACT,False,ENABLED,43,5,58.330644,1.5
+jewelry / non-lux,jewelry / non-lux / items / ring,엘에이 돌 반지 파는 곳,BROAD,True,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / generic,rolex,BROAD,True,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / generic,chorno 24,EXACT,True,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / generic,sell luxury watches,PHRASE,False,ENABLED,189,11,151.03,1.0
+watches / lux,watches / lux / generic,sell gold watches,PHRASE,False,ENABLED,50,8,124.03,1.0
+watches / lux,watches / lux / generic,sell expensive watches,PHRASE,False,ENABLED,352,23,376.179582,6.0
+watches / lux,watches / lux / generic,cash for luxury watches,PHRASE,False,ENABLED,588,54,1097.659944,13.0
+watches / lux,watches / lux / generic,luxury watches buyer,PHRASE,False,ENABLED,121,11,185.486772,2.0
+watches / lux,watches / lux / generic,sell high-end watches,PHRASE,False,ENABLED,151,11,252.47691,3.0
+watches / lux,watches / lux / generic,cash for high-end watches,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / generic,high-end watches buyer,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / generic,sell swiss watches,PHRASE,False,ENABLED,23,0,0.0,0.0
+watches / lux,watches / lux / generic,we buy high-end watches,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / generic,we buy luxury watches,PHRASE,False,ENABLED,208,12,156.69,2.0
+watches / lux,watches / lux / generic,sell diamonds watches,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell my omega watch,PHRASE,False,ENABLED,63,5,79.01,0.0
+watches / lux,watches / lux / brands / other,sell omega,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell my patek philippe watch,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell my omega,PHRASE,False,ENABLED,43,3,50.8,0.0
+watches / lux,watches / lux / brands / other,sell chopard watch,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell patek philippe watch,PHRASE,False,ENABLED,2,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell tudor watch,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell your breitling,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell your omega watch,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell my tudor watch,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,omega watch buyers,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell patek philippe,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,chorno 24,EXACT,True,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,cartier watch buyers,PHRASE,False,ENABLED,108,13,172.57,1.0
+watches / lux,watches / lux / brands / other,sell omega seamaster,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell omega speedmaster,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,best place to sell breitling watch,PHRASE,False,ENABLED,2,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell used cartier watch,PHRASE,False,ENABLED,62,5,68.22386,1.0
+watches / lux,watches / lux / brands / other,sell used omega watch,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell my patek,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell my omega seamaster,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell breitling,PHRASE,False,ENABLED,12,2,80.576072,1.0
+watches / lux,watches / lux / brands / other,sell omega watch,PHRASE,False,ENABLED,11,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell omega watch near me,PHRASE,False,ENABLED,16,3,44.34,1.0
+watches / lux,watches / lux / brands / other,sell a. lange & söhne,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell girard-perregaux,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell jaeger-lecoultre,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell ulysse nardin,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell vacheron constantin,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell my omega speedmaster,PHRASE,False,ENABLED,7,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell audemars piguet,PHRASE,False,ENABLED,12,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell cartier watches,PHRASE,False,ENABLED,59,3,45.5,0.0
+watches / lux,watches / lux / brands / other,sell breitling watches,PHRASE,False,ENABLED,41,4,55.45,1.0
+watches / lux,watches / lux / brands / other,sell cartier santos watch,PHRASE,False,ENABLED,2,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell hublot,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell richard mille,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell patek watch,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell my omega watch near me,PHRASE,False,ENABLED,4,1,41.88,0.0
+watches / lux,watches / lux / brands / other,sell tudor watches,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell iwc watches,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell heuer watches,PHRASE,False,PAUSED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell panerai watches,PHRASE,False,ENABLED,4,1,21.07,0.0
+watches / lux,watches / lux / brands / other,sell breguet watches,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell chopard watches,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell zenith watches,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell parmigiani fleurier,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell harry winston watches,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell tag heuer,PHRASE,False,PAUSED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell seiko watches,PHRASE,False,PAUSED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell blancpain watches,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell piaget watches,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell glashütte original,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell bulgari watches,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell graff watches,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell tiffany watches,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell van cleef watches,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell iwc schaffhausen,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell schaffhausen watches,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell tag watches,PHRASE,False,PAUSED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell söhne watches,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,sell grand seiko watches,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / other,swll mille watches,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / rolex,sell rolex,PHRASE,False,ENABLED,286,16,296.848351,2.583333
+watches / lux,watches / lux / brands / rolex,chorno 24,EXACT,True,ENABLED,0,0,0.0,0.0
+watches / lux,watches / lux / brands / rolex,rolex watch buyers,PHRASE,False,ENABLED,38,6,108.51448,1.0
+watches / lux,watches / lux / brands / rolex,best place to sell rolex,PHRASE,False,ENABLED,181,20,262.09,1.5
+watches / lux,watches / lux / brands / rolex,rolex buyer,PHRASE,False,ENABLED,186,17,284.80566,4.583334
+watches / lux,watches / lux / brands / rolex,sell rolex watches,PHRASE,False,ENABLED,140,10,240.878656,3.0
+watches / lux,watches / lux / brands / rolex,sell your rolex,PHRASE,False,ENABLED,221,17,310.732057,4.0
+watches / lux,watches / lux / brands / rolex,we buy rolex,PHRASE,False,ENABLED,107,10,221.264304,2.5
+watches / lux,watches / lux / brands / rolex,sell rolex near me,PHRASE,False,ENABLED,69,7,134.08,2.0
+watches / lux,watches / lux / brands / rolex,rolex buyers near me,PHRASE,False,ENABLED,60,6,137.224772,2.0
+watches / lux,watches / lux / brands / rolex,sell rolex best price,PHRASE,False,ENABLED,73,6,84.555939,2.583333
+watches / lux,watches / lux / brands / rolex,sell rolex beverly hills,PHRASE,False,ENABLED,11,1,13.67,0.0
+watches / lux,watches / lux / brands / rolex,sell rolex nearby,PHRASE,False,PAUSED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / sell,diamonds,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / sell,diamond,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / sell,thousand oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / sell,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / sell,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / sell,sell your fine jewelry,PHRASE,False,PAUSED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / sell,sell expensive jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / sell,sell fine jewelry,PHRASE,False,PAUSED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / sell,엘에이 돌 반지 파는 곳,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / sell,sell designer jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / sell,sell high-end jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / sell,sell luxury jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / buyers,sell,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / buyers,diamonds,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / buyers,cash,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / buyers,diamond,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / buyers,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / buyers,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / buyers,fine jewelry buyers,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / buyers,fine jewelry buyers near me,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / buyers,luxury jewelry buyer,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / buyers,high-end jewelry buyer,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / buyers,we buy high-end jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / buyers,we buy luxury jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / near me,diamonds,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / near me,diamond,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / near me,thousand oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / near me,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / near me,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / near me,엘에이 돌 반지 파는 곳,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / near me,sell designer jewelry nearby,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / near me,sell fine jewelry nearby,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / near me,sell high-end jewelry nearby,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / near me,sell luxury jewelry nearby,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / near me,sell your fine jewelry nearby,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / cash,sell,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / cash,diamonds,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / cash,diamond,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / cash,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / cash,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / cash,cash for high-end jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / cash,cash for luxury jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / generic / cash,cash for fine jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+diamonds,jewelry / diamonds,ring,BROAD,True,ENABLED,0,0,0.0,0.0
+diamonds,jewelry / diamonds,rings,BROAD,True,ENABLED,0,0,0.0,0.0
+diamonds,jewelry / diamonds,sell diamonds,PHRASE,False,ENABLED,35,2,14.65,0.0
+diamonds,jewelry / diamonds,cash for diamonds,PHRASE,False,ENABLED,487,40,291.753136,7.998602
+diamonds,jewelry / diamonds,diamonds buyer,PHRASE,False,ENABLED,288,26,276.5601,8.0
+diamonds,jewelry / diamonds,we buy diamonds,PHRASE,False,ENABLED,124,12,98.369478,3.0
+diamonds,jewelry / diamonds,place that buys diamonds,PHRASE,False,ENABLED,151,5,24.2,1.0
+diamonds,jewelry / diamonds,store that buys diamonds,PHRASE,False,ENABLED,232,10,79.972209,2.0
+diamonds,jewelry / diamond ring,thousand oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+diamonds,jewelry / diamond ring,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+diamonds,jewelry / diamond ring,sell engagement ring,EXACT,True,ENABLED,0,0,0.0,0.0
+diamonds,jewelry / diamond ring,selling engagement ring,EXACT,True,ENABLED,0,0,0.0,0.0
+diamonds,jewelry / diamond ring,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+diamonds,jewelry / diamond ring,sell diamond ring,PHRASE,False,ENABLED,341,18,149.154333,4.000496
+diamonds,jewelry / diamond ring,엘에이 돌 반지 파는 곳,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver,redding,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver,gold eagle,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver,santa monica,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver,donde,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver,glendale,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver,camarillo,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver,oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver,oro,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver,vender,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver,buy gold,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver,cash for gold,PHRASE,True,ENABLED,0,0,0.0,0.0
+silver,Silver,apmex,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver,gold for cash,PHRASE,True,ENABLED,0,0,0.0,0.0
+silver,Silver,sell silver bars,PHRASE,False,ENABLED,2,0,0.0,0.0
+silver,Silver,sell silver,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver,quiero vender oro,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver,best company to buy gold from,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver,selling gold in usa,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver,www golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver,golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver,오늘 금 3.75 g 팔때 가격,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver,순금 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver,24k 순금 1 돈 가격 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver,sell silver jewerly,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Silver,sell silver cultery,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Silver,sel silver bullions,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Silver Coins,redding,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins,gold eagle,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins,santa monica,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins,glendale,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins,camarillo,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins,oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins,buy gold,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins,spot price,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins,apmex,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins,quiero vender oro,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins,silver coin buyer,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Silver Coins,selling gold in usa,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins,www golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins,golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins,sell silver coins,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Silver Coins,cash for silver coins,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Silver Coins,sell silver coins for cash,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Silver Coins,오늘 금 3.75 g 팔때 가격,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins,순금 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins,24k 순금 1 돈 가격 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Chain,coins,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Chain,redding,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Chain,gold eagle,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Chain,coin,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Chain,santa monica,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Chain,glendale,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Chain,camarillo,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Chain,oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Chain,buy gold,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Chain,spot price,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Chain,apmex,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Chain,quiero vender oro,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Chain,selling gold in usa,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Chain,www golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Chain,golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Chain,sell silver chain,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Silver Chain,오늘 금 3.75 g 팔때 가격,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Chain,순금 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Chain,24k 순금 1 돈 가격 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Ring,coins,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Ring,redding,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Ring,gold eagle,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Ring,coin,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Ring,santa monica,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Ring,glendale,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Ring,camarillo,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Ring,oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Ring,buy gold,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Ring,spot price,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Ring,apmex,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Ring,quiero vender oro,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Ring,selling gold in usa,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Ring,www golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Ring,golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Ring,sell silver ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Silver Ring,오늘 금 3.75 g 팔때 가격,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Ring,순금 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Ring,24k 순금 1 돈 가격 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,coins,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,redding,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,gold eagle,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,coin,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,santa monica,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,donde,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,glendale,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,camarillo,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,oro,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,vender,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,buy gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,sell gold,PHRASE,False,PAUSED,0,0,0.0,0.0
+gold_,Gold,cash for gold,PHRASE,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,apmex,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,gold for cash,PHRASE,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,quiero vender oro,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,best company to buy gold from,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,selling gold in usa,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,www golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,오늘 금 3.75 g 팔때 가격,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,순금 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold,24k 순금 1 돈 가격 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Jewelry,coins,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Jewelry,redding,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Jewelry,gold eagle,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Jewelry,coin,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Jewelry,santa monica,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Jewelry,glendale,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Jewelry,camarillo,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Jewelry,oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Jewelry,buy gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Jewelry,spot price,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Jewelry,apmex,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Jewelry,quiero vender oro,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Jewelry,sell gold jewelry,PHRASE,False,ENABLED,626,32,136.405,1.333333
+gold_,Gold Jewelry,selling gold in usa,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Jewelry,www golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Jewelry,golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Jewelry,오늘 금 3.75 g 팔때 가격,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Jewelry,순금 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Jewelry,24k 순금 1 돈 가격 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,coins,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,redding,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,gold eagle,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,coin,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,santa monica,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,glendale,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,camarillo,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,buy gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,where sell gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,selling gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,gold exchange,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,apmex,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,where to sell gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,gold buyers,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,buy and sell gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,sell gold nuggets,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,sell my gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,buy my gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,where can i sell my gold jewelry,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,sell your gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,where can i sell gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,best place to sell gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,local gold buyers,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,best places to sell gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,best place to sell gold jewelry,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,when to sell gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,best price to sell gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,where to sell raw gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,where can you sell gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,we buy gold and diamonds,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,best places to sell gold jewelry,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,good time to sell gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,where can i sale my gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,gold buyer near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,gold buyers near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,places that buy gold near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,where can i sell gold near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,we buy gold near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,gold and diamond buyers near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,sell my gold near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,selling gold near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,sell gold jewelry near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,where to sell gold near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,sell gold coins near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,best gold buyers near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,buy and sell gold near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,selling gold jewelry near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,buy sell gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,gold buy and sell prices,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,best place to sell gold near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,quiero vender oro,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,cash for gold,PHRASE,False,ENABLED,967,41,194.854776,3.666667
+gold_,Cash For Gold,gold exchange near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,gold jewelry buyers near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,sell your gold near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,sale gold near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,price to sell gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,sell gold best price,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,private gold buyers,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,sell 14k gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,selling gold in usa,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,www golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,we buy gold places,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,sell gold per gram price,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,gold to cash converter,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,buyers of raw gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,where to sell your gold near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,best places to sell gold near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,place that buy gold near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,place that buys gold near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,gold sale near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,top gold buyers near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,where to sale gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,to sell gold near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,selling gold per gram,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,place to sell gold near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,sell gold at spot price,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,sell gold by weight,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,price to sell gold today,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,i want to sale my gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,today's price for selling gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,sell and buy gold near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,gold sell near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,reputable gold buyers near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,nearest place that buys gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,a place that buys gold near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,best place to sell my gold near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,gold resale value,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,safe place to sell gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,gold buy and sell price,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,sell gold hollywood,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,sell gold near me open now,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,cash for gold downey,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,where i can sell gold near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,best place to sale gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,where to sell my gold jewelry near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,gold buyers beverly hills,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,where to sell gold near me now,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,where to sell 18k gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,sell gold open now,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,gold buyers in woodland hills,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,where can i sell my gold for the most money,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,where to sell gold nuggets near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,best gold prices to sell near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,gold sell and buy price,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,current price of gold to sell,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,where can i sell gold for the highest price,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,오늘 금 3.75 g 팔때 가격,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,순금 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,where to sell gold near me open now,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,best place to sale gold near me,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,wilshire gold exchange,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,gold buyers in riverside ca,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,24k 순금 1 돈 가격 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,cash for gold commentary,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,sell gold burbank ca,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Cash For Gold,gold buyers in santa ana,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Coins,redding,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Coins,gold eagle,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Coins,santa monica,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Coins,glendale,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Coins,camarillo,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Coins,oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Coins,buy gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Coins,spot price,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Coins,apmex,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Coins,sell gold coins,PHRASE,False,ENABLED,10,2,59.517886,1.5
+gold_,Gold Coins,quiero vender oro,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Coins,gold coin buyer,PHRASE,False,ENABLED,97,8,91.159716,1.5
+gold_,Gold Coins,selling gold in usa,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Coins,www golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Coins,golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Coins,cash for gold coins,PHRASE,False,ENABLED,13,0,0.0,0.0
+gold_,Gold Coins,sell gold coins for cash,PHRASE,False,ENABLED,13,0,0.0,0.0
+gold_,Gold Coins,오늘 금 3.75 g 팔때 가격,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Coins,순금 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Coins,24k 순금 1 돈 가격 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Bars,coins,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Bars,redding,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Bars,gold eagle,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Bars,coin,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Bars,santa monica,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Bars,glendale,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Bars,camarillo,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Bars,oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Bars,buy gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Bars,spot price,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Bars,apmex,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Bars,quiero vender oro,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Bars,selling gold in usa,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Bars,www golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Bars,golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Bars,sell gold bars,PHRASE,False,ENABLED,72,4,15.91,0.0
+gold_,Gold Bars,오늘 금 3.75 g 팔때 가격,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Bars,순금 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Bars,24k 순금 1 돈 가격 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Bars,sell gold bars nearby,PHRASE,False,ENABLED,107,7,41.22,0.0
+gold_,Gold Chain,coins,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Chain,redding,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Chain,gold eagle,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Chain,coin,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Chain,santa monica,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Chain,glendale,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Chain,camarillo,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Chain,oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Chain,buy gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Chain,spot price,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Chain,apmex,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Chain,quiero vender oro,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Chain,selling gold in usa,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Chain,www golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Chain,golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Chain,sell gold chain,PHRASE,False,ENABLED,51,6,26.57,0.0
+gold_,Gold Chain,오늘 금 3.75 g 팔때 가격,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Chain,순금 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Chain,24k 순금 1 돈 가격 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,coins,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,redding,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,gold eagle,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,coin,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,santa monica,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,donde,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,glendale,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,camarillo,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,oro,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,vender,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,buy gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,cash for gold,PHRASE,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,apmex,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,gold for cash,PHRASE,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,quiero vender oro,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,best company to buy gold from,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,selling gold in usa,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,www golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,오늘 금 3.75 g 팔때 가격,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,순금 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,24k 순금 1 돈 가격 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Beverly Hills,gold buyer in beverly hills,PHRASE,False,ENABLED,25,0,0.0,0.0
+gold_,Gold Beverly Hills,sell gold beverly hills,PHRASE,False,ENABLED,73,5,43.379022,3.0
+gold_,Gold Beverly Hills,we buy gold beverly hills,PHRASE,False,ENABLED,56,5,18.33,0.0
+gold_,Gold Near Me,coins,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,redding,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,gold eagle,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,coin,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,santa monica,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,donde,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,glendale,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,camarillo,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,oro,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,vender,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,buy gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,cash for gold,PHRASE,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,apmex,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,where to sell gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,gold buyers,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,gold for cash,PHRASE,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,sell my gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,what places buy gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,quiero vender oro,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,best company to buy gold from,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,selling gold in usa,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,www golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,places that buys gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,gold buyers near me,PHRASE,False,ENABLED,1241,70,311.24688,5.5
+gold_,Gold Near Me,sell gold near me,PHRASE,False,ENABLED,1172,41,177.657758,3.0
+gold_,Gold Near Me,sell gold nearby,PHRASE,False,ENABLED,463,20,144.273175,4.0
+gold_,Gold Near Me,오늘 금 3.75 g 팔때 가격,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,순금 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Near Me,24k 순금 1 돈 가격 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,coins,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,redding,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,gold eagle,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,coin,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,santa monica,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,donde,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,glendale,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,camarillo,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,oro,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,vender,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,buy gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,cash for gold,PHRASE,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,apmex,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,gold for cash,PHRASE,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,gold buyer,PHRASE,False,ENABLED,1592,68,279.059669,6.5
+gold_,Gold Buyer,quiero vender oro,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,best company to buy gold from,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,we buy gold,PHRASE,False,ENABLED,1729,75,433.248349,3.001297
+gold_,Gold Buyer,selling gold in usa,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,www golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,오늘 금 3.75 g 팔때 가격,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,순금 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Buyer,24k 순금 1 돈 가격 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Ring,coins,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Ring,redding,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Ring,gold eagle,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Ring,coin,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Ring,santa monica,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Ring,glendale,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Ring,camarillo,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Ring,oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Ring,buy gold,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Ring,spot price,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Ring,apmex,BROAD,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Ring,quiero vender oro,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Ring,sell gold ring,PHRASE,False,ENABLED,27,1,3.76,0.0
+gold_,Gold Ring,selling gold in usa,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Ring,www golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Ring,golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Ring,오늘 금 3.75 g 팔때 가격,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Ring,순금 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+gold_,Gold Ring,24k 순금 1 돈 가격 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+diamonds,jewelry / diamond earrings,thousand oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+diamonds,jewelry / diamond earrings,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+diamonds,jewelry / diamond earrings,sell engagement ring,EXACT,True,ENABLED,0,0,0.0,0.0
+diamonds,jewelry / diamond earrings,selling engagement ring,EXACT,True,ENABLED,0,0,0.0,0.0
+diamonds,jewelry / diamond earrings,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+diamonds,jewelry / diamond earrings,sell diamond earrings,PHRASE,False,ENABLED,21,0,0.0,0.0
+diamonds,jewelry / diamond earrings,엘에이 돌 반지 파는 곳,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / van cleef,thousand oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / van cleef,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / van cleef,sell van cleef and arpels,PHRASE,False,ENABLED,9,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / van cleef,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / van cleef,sell van cleef,PHRASE,False,ENABLED,61,5,44.25,0.0
+jewelry / lux,jewelry / lux / brands / van cleef,sell van cleef and arpels jewelry,PHRASE,False,ENABLED,10,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / van cleef,sell van cleef necklace,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / van cleef,엘에이 돌 반지 파는 곳,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / van cleef,sell van cleef jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,diamonds,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,diamond,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,buyer,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,thousand oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,buyers,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,sell cartier love bangle,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,sell my cartier bangle,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,sell my cartier bracelet,PHRASE,False,ENABLED,72,3,36.25,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,sell my cartier bracelet near me,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,best place to sell cartier love bracelet,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,sell cartier bracelet,PHRASE,False,ENABLED,3,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,sell cartier love bracelet,PHRASE,False,ENABLED,3,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,엘에이 돌 반지 파는 곳,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,sell pre owned cartier love bracelet,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,sell cartier love bracelet near me,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,sell cartier bangle,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / lux / brands / cartier / braclete,sell cartier bracelet,EXACT,False,ENABLED,25,3,53.16,1.0
+silver,Sterling Silver - New,redding,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,gold eagle,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,santa monica,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,donde,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,glendale,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,camarillo,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,oro,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,vender,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,buy gold,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,cash for gold,PHRASE,True,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,apmex,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,sell sterling silver,PHRASE,False,ENABLED,11,0,0.0,0.0
+silver,Sterling Silver - New,selling sterling silver,PHRASE,False,ENABLED,11,1,4.93,0.0
+silver,Sterling Silver - New,gold for cash,PHRASE,True,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,where to sell sterling silver,PHRASE,False,ENABLED,28,1,5.0,0.0
+silver,Sterling Silver - New,where can i sell sterling silver,PHRASE,False,ENABLED,32,3,14.55,0.0
+silver,Sterling Silver - New,sell sterling silver near me,PHRASE,False,ENABLED,27,2,5.77,0.0
+silver,Sterling Silver - New,sterling silver buyers near me,PHRASE,False,ENABLED,14,0,0.0,0.0
+silver,Sterling Silver - New,where can i sell my sterling silver,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,where to sell sterling silver near me,PHRASE,False,ENABLED,4,0,0.0,0.0
+silver,Sterling Silver - New,places that buy sterling silver near me,PHRASE,False,ENABLED,29,1,4.78,0.0
+silver,Sterling Silver - New,quiero vender oro,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,sterling silver buyers,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,buyers of sterling silver flatware,PHRASE,False,ENABLED,29,3,13.8,0.0
+silver,Sterling Silver - New,who buys sterling silver,PHRASE,False,ENABLED,3,0,0.0,0.0
+silver,Sterling Silver - New,best company to buy gold from,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,we buy sterling silver,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,selling gold in usa,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,www golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,places that buy sterling silver,PHRASE,False,ENABLED,21,2,9.84,0.0
+silver,Sterling Silver - New,who buys sterling silver near me,PHRASE,False,ENABLED,2,0,0.0,0.0
+silver,Sterling Silver - New,can i sell sterling silver,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,sterling silver buyer near me,PHRASE,False,ENABLED,7,1,4.86,0.0
+silver,Sterling Silver - New,where can i sell sterling silver near me,PHRASE,False,ENABLED,20,3,13.05,0.0
+silver,Sterling Silver - New,where can you sell sterling silver,PHRASE,False,ENABLED,2,0,0.0,0.0
+silver,Sterling Silver - New,selling sterling silver near me,PHRASE,False,ENABLED,4,0,0.0,0.0
+silver,Sterling Silver - New,best place to sell sterling silver near me,PHRASE,False,ENABLED,9,1,4.74,0.0
+silver,Sterling Silver - New,cash for sterling silver near me,PHRASE,False,ENABLED,38,4,20.61,0.0
+silver,Sterling Silver - New,where is the best place to sell sterling silver,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,we buy sterling silver near me,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,오늘 금 3.75 g 팔때 가격,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,sterling silver buyers in my area,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,순금 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,24k 순금 1 돈 가격 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Sterling Silver - New,sell sterling silver near me near me,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,redding,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,gold eagle,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,santa monica,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,donde,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,glendale,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,camarillo,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,oro,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,vender,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,buy gold,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,cash for gold,PHRASE,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,sell silver coins,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,apmex,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,gold for cash,PHRASE,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,cash for silver coins,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,sell silver coins for cash,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,quiero vender oro,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,best company to buy gold from,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,silver coin buyer,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,selling gold in usa,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,www golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,gold and silver coin buyers near me,PHRASE,False,ENABLED,32,2,2.54,0.0
+silver,Silver Coins - New,오늘 금 3.75 g 팔때 가격,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,순금 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver Coins - New,24k 순금 1 돈 가격 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver - New,redding,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver - New,gold eagle,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver - New,santa monica,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver - New,donde,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver - New,glendale,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver - New,camarillo,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver - New,oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver - New,oro,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver - New,vender,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver - New,buy gold,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver - New,sell silver,PHRASE,False,PAUSED,47,3,23.36,0.0
+silver,Silver - New,selling silver,PHRASE,False,PAUSED,41,2,10.36,0.0
+silver,Silver - New,cash for gold,PHRASE,True,ENABLED,0,0,0.0,0.0
+silver,Silver - New,silver buyers,PHRASE,False,PAUSED,70,5,40.37,1.0
+silver,Silver - New,sell silver coins,PHRASE,False,ENABLED,39,3,33.4,0.0
+silver,Silver - New,apmex,BROAD,True,ENABLED,0,0,0.0,0.0
+silver,Silver - New,where to sell silver,PHRASE,False,PAUSED,94,9,59.99,0.0
+silver,Silver - New,selling sterling silver,PHRASE,False,ENABLED,46,4,29.43,0.5
+silver,Silver - New,sell gold and silver,PHRASE,False,PAUSED,68,4,26.85,0.0
+silver,Silver - New,gold for cash,PHRASE,True,ENABLED,0,0,0.0,0.0
+silver,Silver - New,sell silver bars,PHRASE,False,PAUSED,22,3,20.12,0.0
+silver,Silver - New,who buys silver,PHRASE,False,PAUSED,4,0,0.0,0.0
+silver,Silver - New,gold and silver buyers,PHRASE,False,PAUSED,213,12,82.45,1.0
+silver,Silver - New,gold and silver buyer,PHRASE,False,PAUSED,113,7,59.48,1.0
+silver,Silver - New,buy and sell gold and silver,PHRASE,False,PAUSED,56,1,5.3,0.0
+silver,Silver - New,cash for gold and silver,PHRASE,False,PAUSED,138,4,31.62,0.0
+silver,Silver - New,cash for silver coins,PHRASE,False,ENABLED,61,7,70.91,0.0
+silver,Silver - New,sell my silver,PHRASE,False,PAUSED,24,2,15.38,1.0
+silver,Silver - New,where can i sell silver,PHRASE,False,PAUSED,26,2,10.94,0.0
+silver,Silver - New,cash for silver,PHRASE,False,PAUSED,12,2,10.22,0.0
+silver,Silver - New,where to sell sterling silver,PHRASE,False,ENABLED,75,8,67.31,0.0
+silver,Silver - New,where can i sell my silver,PHRASE,False,PAUSED,29,0,0.0,0.0
+silver,Silver - New,where can i sell sterling silver,PHRASE,False,ENABLED,2,1,8.23,0.0
+silver,Silver - New,sell my gold and silver,PHRASE,False,PAUSED,19,1,7.59,0.0
+silver,Silver - New,we buy gold and silver,PHRASE,False,PAUSED,74,6,46.62,0.0
+silver,Silver - New,sell silver coins for cash,PHRASE,False,ENABLED,73,2,27.5,0.0
+silver,Silver - New,where to sell silver and gold,PHRASE,False,PAUSED,1,0,0.0,0.0
+silver,Silver - New,sell silver near me,PHRASE,False,PAUSED,131,7,44.04,0.0
+silver,Silver - New,places that buy silver,PHRASE,False,PAUSED,2,0,0.0,0.0
+silver,Silver - New,silver buyers near me,PHRASE,False,PAUSED,42,1,8.86,0.0
+silver,Silver - New,cash for gold and silver near me,PHRASE,False,PAUSED,69,4,30.92,0.0
+silver,Silver - New,gold and silver buyers near me,PHRASE,False,PAUSED,102,6,43.51,0.0
+silver,Silver - New,sell gold and silver near me,PHRASE,False,PAUSED,6,0,0.0,0.0
+silver,Silver - New,who buys gold and silver near me,PHRASE,False,PAUSED,5,0,0.0,0.0
+silver,Silver - New,who buys silver near me,PHRASE,False,PAUSED,16,3,14.88,0.0
+silver,Silver - New,we buy gold and silver near me,PHRASE,False,PAUSED,25,2,12.71,0.0
+silver,Silver - New,cash for silver near me,PHRASE,False,PAUSED,20,4,24.32,0.0
+silver,Silver - New,sell sterling silver near me,PHRASE,False,ENABLED,20,4,77.89,0.0
+silver,Silver - New,sterling silver buyers near me,PHRASE,False,ENABLED,2,0,0.0,0.0
+silver,Silver - New,where to sell silver near me,PHRASE,False,PAUSED,30,1,7.59,0.0
+silver,Silver - New,places that buy silver near me,PHRASE,False,PAUSED,3,0,0.0,0.0
+silver,Silver - New,where can i sell my sterling silver,PHRASE,False,ENABLED,5,0,0.0,0.0
+silver,Silver - New,where to sell sterling silver near me,PHRASE,False,ENABLED,2,0,0.0,0.0
+silver,Silver - New,place that buys silver near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,places that buy gold and silver near me,PHRASE,False,PAUSED,1,0,0.0,0.0
+silver,Silver - New,places that buy sterling silver near me,PHRASE,False,ENABLED,1,0,0.0,0.0
+silver,Silver - New,places to sell gold and silver near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,sell my silver near me,PHRASE,False,PAUSED,9,1,6.41,0.0
+silver,Silver - New,sell silver and gold near me,PHRASE,False,PAUSED,2,0,0.0,0.0
+silver,Silver - New,silver and gold buyers near me,PHRASE,False,PAUSED,2,0,0.0,0.0
+silver,Silver - New,silver buyer near me,PHRASE,False,PAUSED,31,1,3.25,0.0
+silver,Silver - New,we buy silver near me,PHRASE,False,PAUSED,12,1,6.65,0.0
+silver,Silver - New,where can i sell my gold and silver,PHRASE,False,PAUSED,50,4,28.81,0.0
+silver,Silver - New,where can i sell my silver near me,PHRASE,False,PAUSED,5,1,6.55,0.0
+silver,Silver - New,where can i sell silver near me,PHRASE,False,PAUSED,4,0,0.0,0.0
+silver,Silver - New,buy and sell gold and silver near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,buy and sell silver near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,gold and silver buyer near me,PHRASE,False,PAUSED,14,2,13.23,0.0
+silver,Silver - New,quiero vender oro,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver - New,sterling silver buyers,PHRASE,False,ENABLED,11,0,0.0,0.0
+silver,Silver - New,who buys sterling silver,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Silver - New,best company to buy gold from,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver - New,we buy sterling silver,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Silver - New,silver coin buyer,PHRASE,False,ENABLED,113,9,131.96,0.0
+silver,Silver - New,silver buyers in my area,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,selling gold in usa,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver - New,www golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver - New,golddealer com,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver - New,places that buy sterling silver,PHRASE,False,ENABLED,2,1,5.35,0.0
+silver,Silver - New,best place to sell silver near me,PHRASE,False,PAUSED,36,9,72.86,0.0
+silver,Silver - New,sell silver gold,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,buy sell silver near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,sell silver beverly hills,PHRASE,False,PAUSED,8,1,6.51,0.0
+silver,Silver - New,sell 925 silver,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,sell your silver near me,PHRASE,False,PAUSED,1,1,6.22,0.0
+silver,Silver - New,where can i sell 925 silver,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,selling silver near me,PHRASE,False,PAUSED,12,0,0.0,0.0
+silver,Silver - New,we buy silver and gold near me,PHRASE,False,PAUSED,1,0,0.0,0.0
+silver,Silver - New,who buys sterling silver near me,PHRASE,False,ENABLED,11,0,0.0,0.0
+silver,Silver - New,who buys silver and gold near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,selling gold and silver near me,PHRASE,False,PAUSED,1,0,0.0,0.0
+silver,Silver - New,can i sell sterling silver,PHRASE,False,ENABLED,14,1,8.82,0.5
+silver,Silver - New,stores that buy silver near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,where to sale silver,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,where to sell gold and silver near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,sell silver for cash near me,PHRASE,False,PAUSED,22,6,35.73,0.0
+silver,Silver - New,silver buyers near me open now,PHRASE,False,PAUSED,2,0,0.0,0.0
+silver,Silver - New,sell silver near me near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,silver buyers near me near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,store that buys silver near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,sell silver bullion near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,sell silver near me open now,PHRASE,False,PAUSED,4,0,0.0,0.0
+silver,Silver - New,buy sell gold silver near me,PHRASE,False,PAUSED,5,0,0.0,0.0
+silver,Silver - New,stores that buy gold and silver near me,PHRASE,False,PAUSED,10,1,8.8,0.0
+silver,Silver - New,where to sell my silver near me,PHRASE,False,PAUSED,19,1,7.91,0.0
+silver,Silver - New,jewelry store that buys silver near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,gold and silver coin buyers near me,PHRASE,False,ENABLED,287,18,150.05,1.0
+silver,Silver - New,silver sell near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,we buy gold silver near me,PHRASE,False,PAUSED,5,0,0.0,0.0
+silver,Silver - New,buy sell gold and silver near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,places near me that buy gold and silver,PHRASE,False,PAUSED,14,1,5.46,0.0
+silver,Silver - New,sell my silver and gold,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,sell silver gold near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,sterling silver buyer near me,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Silver - New,where can i sell sterling silver near me,PHRASE,False,ENABLED,33,3,72.92,0.0
+silver,Silver - New,where can you sell sterling silver,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Silver - New,silver and gold buyer near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,sell 925 silver near me,PHRASE,False,PAUSED,3,0,0.0,0.0
+silver,Silver - New,jewelry stores that buy silver near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,stores that buy gold and silver,PHRASE,False,PAUSED,6,0,0.0,0.0
+silver,Silver - New,silver buyer near me open now,PHRASE,False,PAUSED,17,0,0.0,0.0
+silver,Silver - New,selling sterling silver near me,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Silver - New,where to sell 925 silver,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,best place to sell sterling silver near me,PHRASE,False,ENABLED,15,1,22.45,0.0
+silver,Silver - New,cash for sterling silver near me,PHRASE,False,ENABLED,64,6,69.84,2.0
+silver,Silver - New,old silver buyers near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,gold and silver buyers near me open now,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,where is the best place to sell sterling silver,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Silver - New,we buy gold and silver near me near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,sell silver open now,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,we buy sterling silver near me,PHRASE,False,ENABLED,14,2,11.64,0.0
+silver,Silver - New,where can i sell my 925 silver,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,오늘 금 3.75 g 팔때 가격,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver - New,i want to sell my silver near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,highest paying silver buyers near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,sterling silver buyers in my area,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Silver - New,where can i sell silver for cash near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,순금 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver - New,places that buy silver near me near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,who buys silver near me near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,gold and silver buyers near me near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,jewelry store that buys silver,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,24k 순금 1 돈 가격 팔때,EXACT,True,ENABLED,0,0,0.0,0.0
+silver,Silver - New,who buys silver near me for cash,PHRASE,False,PAUSED,31,0,0.0,0.0
+silver,Silver - New,where can i sell 925 silver near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,can you sell 925 silver,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,golden silver buyers near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,where can i sell gold or silver near me,PHRASE,False,PAUSED,20,1,3.54,0.0
+silver,Silver - New,gold silver buyers near me open now,PHRASE,False,PAUSED,3,0,0.0,0.0
+silver,Silver - New,places that buy gold and silver near me open now,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,sell silver cultery,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,silver gold sell near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,immediate cash for silver,PHRASE,False,PAUSED,7,1,8.68,0.0
+silver,Silver - New,silver sell near me near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,we buy silver near me open now,PHRASE,False,PAUSED,1,0,0.0,0.0
+silver,Silver - New,sell my silver near me open now,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,where can i sell silver around me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,where can i sell my silver for cash,PHRASE,False,PAUSED,45,6,33.16,1.0
+silver,Silver - New,sell sterling silver near me near me,PHRASE,False,ENABLED,0,0,0.0,0.0
+silver,Silver - New,sell silver for cash near me open now,PHRASE,False,PAUSED,1,0,0.0,0.0
+silver,Silver - New,jewelry store near me that buys silver,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,silver buyers near me open now near me,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,best place to sell silver near me open now,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,sell gold and silver near me open now,PHRASE,False,PAUSED,0,0,0.0,0.0
+silver,Silver - New,gold and silver buyers open now,PHRASE,False,PAUSED,42,5,25.81,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,diamonds,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,diamond,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,buyer,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,thousand oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,buyers,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,sell your engagement ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,sell my engagement ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,sell used engagement ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,i want to sell my engagement ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,best way to sell engagement ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,sell old engagement ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,sell engagement ring for cash,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,best place to sell your engagement ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,places to sell engagement rings,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,best place to sell engagement ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,best place to sell my engagement ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,sell engagement ring near me,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,engagement ring resale,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,selling engagement ring after divorce,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,sell engagement ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,best place to sell engagement ring near me,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,sell my old engagement ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,sell my engagement ring near me,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,sell your engagement ring near me,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / engagement ring,엘에이 돌 반지 파는 곳,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,diamonds,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,diamond,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,buyer,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,thousand oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,buyers,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,sell wedding band,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,i want to sell my wedding ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,sell your wedding ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,sell used wedding ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,sell my wedding ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,sell old wedding ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,best place to sell wedding ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,best place to sell my wedding ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,sell wedding ring near me,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,places to sell wedding rings,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,best way to sell wedding ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,wedding ring resale,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,sell my wedding band,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,sell platinum wedding band,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,sell wedding ring after divorce,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,sell wedding ring set,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,best place to sell your wedding ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,best way to sell your wedding ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,sell wedding ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,want to sell my wedding ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,sell my wedding ring near me,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,sell wedding set,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,best place to sell old wedding ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,best way to sell wedding ring set,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,sell mens wedding band,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,best place to sell wedding ring near me,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,sell wedding band near me,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / wedding ring,엘에이 돌 반지 파는 곳,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / ring,diamonds,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / ring,diamond,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / ring,buyer,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / ring,thousand oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / ring,buyers,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / ring,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / ring,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / ring,sell ring,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / ring,sell ring,EXACT,False,ENABLED,0,0,0.0,0.0
+jewelry / lux,jewelry / non-lux / items / ring,엘에이 돌 반지 파는 곳,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / sell,diamonds,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / sell,diamond,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / sell,thousand oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / sell,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / sell,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / sell,sell your fine jewelry,PHRASE,False,PAUSED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / sell,sell expensive jewelry,PHRASE,False,ENABLED,110,5,46.61,0.666667
+jewelry / non-lux,jewelry / lux / generic / sell,sell fine jewelry,PHRASE,False,PAUSED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / sell,엘에이 돌 반지 파는 곳,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / sell,sell designer jewelry,PHRASE,False,ENABLED,218,19,214.533768,8.0
+jewelry / non-lux,jewelry / lux / generic / sell,sell high-end jewelry,PHRASE,False,ENABLED,22,2,16.56,1.0
+jewelry / non-lux,jewelry / lux / generic / sell,sell luxury jewelry,PHRASE,False,ENABLED,133,9,39.23838,4.0
+jewelry / non-lux,jewelry / lux / generic / buyers,sell,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / buyers,diamonds,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / buyers,cash,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / buyers,diamond,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / buyers,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / buyers,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / buyers,fine jewelry buyers,PHRASE,False,ENABLED,139,5,29.378437,1.0
+jewelry / non-lux,jewelry / lux / generic / buyers,fine jewelry buyers near me,PHRASE,False,ENABLED,253,7,72.57588,2.0
+jewelry / non-lux,jewelry / lux / generic / buyers,luxury jewelry buyer,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / buyers,high-end jewelry buyer,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / buyers,we buy high-end jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / buyers,we buy luxury jewelry,PHRASE,False,ENABLED,21,7,80.96318,2.0
+jewelry / non-lux,jewelry / lux / generic / cash,sell,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / cash,diamonds,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / cash,diamond,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / cash,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / cash,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / cash,cash for high-end jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / cash,cash for luxury jewelry,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / cash,cash for fine jewelry,PHRASE,False,ENABLED,415,24,260.962947,5.999544
+jewelry / non-lux,jewelry / lux / generic / near me,diamonds,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / near me,diamond,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / near me,thousand oaks,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / near me,tustin,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / near me,pulseras para vender,EXACT,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / near me,엘에이 돌 반지 파는 곳,BROAD,True,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / near me,sell designer jewelry nearby,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / near me,sell fine jewelry nearby,PHRASE,False,ENABLED,35,2,6.61,0.0
+jewelry / non-lux,jewelry / lux / generic / near me,sell high-end jewelry nearby,PHRASE,False,ENABLED,0,0,0.0,0.0
+jewelry / non-lux,jewelry / lux / generic / near me,sell luxury jewelry nearby,PHRASE,False,ENABLED,115,4,21.06,0.0
+jewelry / non-lux,jewelry / lux / generic / near me,sell your fine jewelry nearby,PHRASE,False,ENABLED,109,6,23.63,0.0
+watches / non-lux,watches / non-lux / generic,rolex,BROAD,True,ENABLED,0,0,0.0,0.0
+watches / non-lux,watches / non-lux / generic,repair,BROAD,True,ENABLED,0,0,0.0,0.0
+watches / non-lux,watches / non-lux / generic,fix,BROAD,True,ENABLED,0,0,0.0,0.0
+watches / non-lux,watches / non-lux / generic,samsung,BROAD,True,ENABLED,0,0,0.0,0.0
+watches / non-lux,watches / non-lux / generic,repairs,BROAD,True,ENABLED,0,0,0.0,0.0
+watches / non-lux,watches / non-lux / generic,repairing,BROAD,True,ENABLED,0,0,0.0,0.0
+watches / non-lux,watches / non-lux / generic,fixing,BROAD,True,ENABLED,0,0,0.0,0.0
+watches / non-lux,watches / non-lux / generic,watchmaker,BROAD,True,ENABLED,0,0,0.0,0.0
+watches / non-lux,watches / non-lux / generic,fixes,BROAD,True,ENABLED,0,0,0.0,0.0
+watches / non-lux,watches / non-lux / generic,watch makers,BROAD,True,ENABLED,0,0,0.0,0.0
+watches / non-lux,watches / non-lux / generic,resizing,BROAD,True,ENABLED,0,0,0.0,0.0
+watches / non-lux,watches / non-lux / generic,sell watches for cash,PHRASE,False,ENABLED,238,11,36.447613,2.5
+watches / non-lux,watches / non-lux / generic,sell my watch for cash,PHRASE,False,ENABLED,431,33,184.178469,6.5
+watches / non-lux,watches / non-lux / generic,watch specialist,BROAD,True,ENABLED,0,0,0.0,0.0
+watches / non-lux,watches / non-lux / generic,we buy watches near me,PHRASE,False,ENABLED,789,37,217.961593,8.0
+watches / non-lux,watches / non-lux / generic,sell vintage watches,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / non-lux,watches / non-lux / generic,chorno 24,EXACT,True,ENABLED,0,0,0.0,0.0
+watches / non-lux,watches / non-lux / generic,vintage watch buyers near me,PHRASE,False,ENABLED,0,0,0.0,0.0
+watches / non-lux,watches / non-lux / generic,cash for watches,PHRASE,False,ENABLED,369,7,30.589493,0.0
+watches / non-lux,watches / non-lux / generic,sell your watch near me,PHRASE,False,ENABLED,885,42,194.129992,10.0
+watches / non-lux,watches / non-lux / generic,sell watches,PHRASE,False,ENABLED,177,7,56.027716,4.0
+watches / non-lux,watches / non-lux / generic,fast fix jewelry & watch repairs near me,EXACT,True,ENABLED,0,0,0.0,0.0
+watches / non-lux,watches / non-lux / generic,we buy watches,PHRASE,False,ENABLED,950,51,302.070402,10.0
+watches / non-lux,watches / non-lux / generic,watches buyer,PHRASE,False,ENABLED,915,39,154.666623,5.0

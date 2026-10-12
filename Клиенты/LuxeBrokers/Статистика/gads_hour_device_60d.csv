@@ -1,0 +1,190 @@
+camp,hour,device,imp,clk,cost,conv
+diamonds,9,DESKTOP,4,0,0.0,0.0
+diamonds,9,MOBILE,55,2,20.58477,1.0
+diamonds,10,DESKTOP,10,3,19.12,0.0
+diamonds,10,MOBILE,162,16,122.395251,1.667164
+diamonds,11,DESKTOP,2,0,0.0,0.0
+diamonds,11,MOBILE,202,10,72.4679,3.0
+diamonds,12,DESKTOP,1,0,0.0,0.0
+diamonds,12,MOBILE,189,16,158.249413,6.0
+diamonds,13,DESKTOP,14,1,3.68,0.0
+diamonds,13,MOBILE,211,19,147.865432,2.998602
+diamonds,14,DESKTOP,7,1,19.66,1.0
+diamonds,14,MOBILE,203,12,126.304056,1.0
+diamonds,15,DESKTOP,6,0,0.0,0.0
+diamonds,15,MOBILE,170,8,69.758082,2.333332
+diamonds,16,DESKTOP,5,0,0.0,0.0
+diamonds,16,MOBILE,178,8,52.98,2.0
+diamonds,17,DESKTOP,7,1,4.98,0.0
+diamonds,17,MOBILE,142,12,89.424352,3.0
+diamonds,17,TABLET,2,0,0.0,0.0
+diamonds,18,MOBILE,87,2,8.77,0.0
+diamonds,19,MOBILE,22,2,18.42,2.0
+gold_,9,DESKTOP,18,1,4.41,1.0
+gold_,9,MOBILE,225,9,37.469244,1.0
+gold_,9,TABLET,8,0,0.0,0.0
+gold_,10,DESKTOP,37,2,7.76,0.0
+gold_,10,MOBILE,610,21,86.911346,1.0
+gold_,10,TABLET,1,0,0.0,0.0
+gold_,11,DESKTOP,44,0,0.0,0.0
+gold_,11,MOBILE,734,36,179.637188,5.0
+gold_,11,TABLET,4,0,0.0,0.0
+gold_,12,DESKTOP,87,6,23.22,0.0
+gold_,12,MOBILE,734,28,141.978962,2.001297
+gold_,12,TABLET,5,0,0.0,0.0
+gold_,13,DESKTOP,53,2,7.8,1.0
+gold_,13,MOBILE,801,31,141.865,2.0
+gold_,13,TABLET,13,0,0.0,0.0
+gold_,14,DESKTOP,59,5,19.84,1.0
+gold_,14,MOBILE,816,39,243.737736,3.0
+gold_,14,TABLET,4,0,0.0,0.0
+gold_,15,DESKTOP,85,5,19.66,0.0
+gold_,15,MOBILE,822,35,231.095248,5.0
+gold_,15,TABLET,15,2,7.99,0.0
+gold_,16,DESKTOP,57,1,3.93,0.0
+gold_,16,MOBILE,838,44,231.894438,3.0
+gold_,16,TABLET,9,0,0.0,0.0
+gold_,17,DESKTOP,61,3,11.91,0.0
+gold_,17,MOBILE,1095,54,284.618088,6.0
+gold_,17,TABLET,5,1,3.64,0.0
+gold_,18,DESKTOP,34,2,7.92,0.0
+gold_,18,MOBILE,776,43,222.484981,2.0
+gold_,18,TABLET,2,0,0.0,0.0
+gold_,19,DESKTOP,12,2,7.93,0.0
+gold_,19,MOBILE,264,10,39.98,0.0
+gold_,19,TABLET,6,3,8.91,0.0
+jewelry / lux,9,DESKTOP,1,0,0.0,0.0
+jewelry / lux,9,MOBILE,29,3,29.070358,0.533333
+jewelry / lux,10,DESKTOP,8,2,27.61,0.0
+jewelry / lux,10,MOBILE,77,8,75.54,3.0
+jewelry / lux,11,DESKTOP,17,2,23.12,0.0
+jewelry / lux,11,MOBILE,97,6,68.609616,1.0
+jewelry / lux,12,DESKTOP,23,0,0.0,0.0
+jewelry / lux,12,MOBILE,85,7,78.33,3.0
+jewelry / lux,12,TABLET,1,0,0.0,0.0
+jewelry / lux,13,DESKTOP,8,0,0.0,0.0
+jewelry / lux,13,MOBILE,88,3,71.451988,1.0
+jewelry / lux,14,DESKTOP,19,1,12.23,0.0
+jewelry / lux,14,MOBILE,80,8,83.05,0.0
+jewelry / lux,15,DESKTOP,17,0,0.0,0.0
+jewelry / lux,15,MOBILE,92,8,87.98,0.0
+jewelry / lux,15,TABLET,1,0,0.0,0.0
+jewelry / lux,16,DESKTOP,13,2,11.08,1.0
+jewelry / lux,16,MOBILE,80,3,34.36,0.0
+jewelry / lux,17,DESKTOP,2,0,0.0,0.0
+jewelry / lux,17,MOBILE,57,3,40.96,1.0
+jewelry / lux,18,DESKTOP,5,0,0.0,0.0
+jewelry / lux,18,MOBILE,60,2,23.14,0.0
+jewelry / lux,19,MOBILE,24,2,19.54,1.533333
+jewelry / non-lux,9,DESKTOP,5,0,0.0,0.0
+jewelry / non-lux,9,MOBILE,199,12,98.894484,2.533334
+jewelry / non-lux,9,TABLET,2,0,0.0,0.0
+jewelry / non-lux,10,DESKTOP,32,1,5.860153,0.0
+jewelry / non-lux,10,MOBILE,743,46,519.73738,12.899999
+jewelry / non-lux,10,TABLET,3,2,9.790191,1.0
+jewelry / non-lux,11,DESKTOP,47,0,0.0,0.0
+jewelry / non-lux,11,MOBILE,839,59,442.349858,9.333334
+jewelry / non-lux,11,TABLET,2,0,0.0,0.0
+jewelry / non-lux,12,DESKTOP,38,1,7.87,1.0
+jewelry / non-lux,12,MOBILE,865,44,403.07953,9.328209
+jewelry / non-lux,12,TABLET,2,0,0.0,0.0
+jewelry / non-lux,13,DESKTOP,31,1,10.53,0.0
+jewelry / non-lux,13,MOBILE,943,52,453.078508,12.5
+jewelry / non-lux,13,TABLET,2,0,0.0,0.0
+jewelry / non-lux,14,DESKTOP,50,7,67.529839,2.0
+jewelry / non-lux,14,MOBILE,976,42,336.232042,4.499543
+jewelry / non-lux,14,TABLET,6,0,0.0,0.0
+jewelry / non-lux,15,DESKTOP,64,10,58.25,2.0
+jewelry / non-lux,15,MOBILE,860,53,448.663606,13.498552
+jewelry / non-lux,15,TABLET,2,0,0.0,0.0
+jewelry / non-lux,16,DESKTOP,22,3,16.133915,0.0
+jewelry / non-lux,16,MOBILE,861,50,416.225458,7.590988
+jewelry / non-lux,16,TABLET,1,0,0.0,0.0
+jewelry / non-lux,17,DESKTOP,29,0,0.0,0.0
+jewelry / non-lux,17,MOBILE,692,36,304.177452,7.0
+jewelry / non-lux,18,DESKTOP,10,0,0.0,0.0
+jewelry / non-lux,18,MOBILE,451,27,135.847489,5.996669
+jewelry / non-lux,19,DESKTOP,3,0,0.0,0.0
+jewelry / non-lux,19,MOBILE,125,5,45.29,0.0
+jewelry / non-lux,19,TABLET,1,0,0.0,0.0
+silver,9,DESKTOP,59,4,31.24,0.0
+silver,9,MOBILE,273,20,135.56,0.0
+silver,9,TABLET,5,0,0.0,0.0
+silver,10,DESKTOP,49,8,92.48,0.0
+silver,10,MOBILE,236,11,86.8,1.0
+silver,10,TABLET,1,0,0.0,0.0
+silver,11,DESKTOP,53,2,15.0,0.0
+silver,11,MOBILE,287,13,97.62,1.0
+silver,11,TABLET,3,0,0.0,0.0
+silver,12,DESKTOP,77,0,0.0,0.0
+silver,12,MOBILE,324,18,121.82,1.0
+silver,12,TABLET,7,0,0.0,0.0
+silver,13,DESKTOP,78,6,53.8,0.0
+silver,13,MOBILE,295,19,146.81,1.0
+silver,14,DESKTOP,38,5,54.85,0.0
+silver,14,MOBILE,265,23,214.53,4.0
+silver,14,TABLET,7,1,19.01,0.0
+silver,15,DESKTOP,57,6,39.17,0.0
+silver,15,MOBILE,253,18,151.93,0.0
+silver,15,TABLET,9,0,0.0,0.0
+silver,16,DESKTOP,56,2,30.47,0.0
+silver,16,MOBILE,247,27,214.8,0.0
+silver,16,TABLET,3,0,0.0,0.0
+silver,17,DESKTOP,53,5,44.2,0.0
+silver,17,MOBILE,194,20,160.39,1.0
+silver,17,TABLET,2,0,0.0,0.0
+silver,18,DESKTOP,15,3,13.17,0.0
+silver,18,MOBILE,122,11,58.35,0.0
+silver,19,DESKTOP,7,0,0.0,0.0
+silver,19,MOBILE,88,6,27.23,0.0
+watches / lux,9,DESKTOP,19,0,0.0,0.0
+watches / lux,9,MOBILE,110,6,75.571367,2.0
+watches / lux,10,DESKTOP,64,4,59.19,0.0
+watches / lux,10,MOBILE,300,21,351.482864,7.0
+watches / lux,10,TABLET,2,0,0.0,0.0
+watches / lux,11,DESKTOP,67,4,48.07,0.0
+watches / lux,11,MOBILE,332,34,739.388583,5.0
+watches / lux,11,TABLET,4,0,0.0,0.0
+watches / lux,12,DESKTOP,67,2,56.34,1.0
+watches / lux,12,MOBILE,303,37,694.329186,8.0
+watches / lux,13,DESKTOP,73,4,53.781551,0.0
+watches / lux,13,MOBILE,344,33,543.008357,4.0
+watches / lux,14,DESKTOP,91,4,100.65,3.0
+watches / lux,14,MOBILE,326,30,646.94736,10.583333
+watches / lux,15,DESKTOP,72,5,97.619852,2.0
+watches / lux,15,MOBILE,266,24,382.19132,4.166667
+watches / lux,15,TABLET,2,1,14.79,0.0
+watches / lux,16,DESKTOP,105,2,29.82,0.0
+watches / lux,16,MOBILE,224,16,324.067048,6.0
+watches / lux,16,TABLET,7,2,22.4,1.0
+watches / lux,17,DESKTOP,60,3,28.26,0.0
+watches / lux,17,MOBILE,240,24,388.254709,4.0
+watches / lux,17,TABLET,2,0,0.0,0.0
+watches / lux,18,DESKTOP,46,2,33.94,0.0
+watches / lux,18,MOBILE,247,21,326.09948,1.0
+watches / lux,19,DESKTOP,25,2,20.724614,0.0
+watches / lux,19,MOBILE,104,5,60.711068,0.0
+watches / non-lux,10,DESKTOP,7,0,0.0,0.0
+watches / non-lux,10,MOBILE,533,23,136.880268,4.0
+watches / non-lux,10,TABLET,3,0,0.0,0.0
+watches / non-lux,11,DESKTOP,18,1,2.562053,0.0
+watches / non-lux,11,MOBILE,645,41,272.994354,9.0
+watches / non-lux,12,DESKTOP,10,0,0.0,0.0
+watches / non-lux,12,MOBILE,760,32,184.821419,7.0
+watches / non-lux,12,TABLET,2,0,0.0,0.0
+watches / non-lux,13,DESKTOP,13,0,0.0,0.0
+watches / non-lux,13,MOBILE,797,41,193.300752,9.5
+watches / non-lux,14,DESKTOP,13,1,0.3,0.0
+watches / non-lux,14,MOBILE,758,42,214.616738,8.5
+watches / non-lux,14,TABLET,1,0,0.0,0.0
+watches / non-lux,15,DESKTOP,13,1,2.04,0.0
+watches / non-lux,15,MOBILE,761,29,161.845225,7.0
+watches / non-lux,15,TABLET,2,0,0.0,0.0
+watches / non-lux,16,DESKTOP,10,3,4.27887,0.0
+watches / non-lux,16,MOBILE,751,24,162.966239,4.0
+watches / non-lux,16,TABLET,2,0,0.0,0.0
+watches / non-lux,17,DESKTOP,1,1,2.59,0.0
+watches / non-lux,17,MOBILE,702,32,130.641642,6.0
+watches / non-lux,18,DESKTOP,7,0,0.0,0.0
+watches / non-lux,18,MOBILE,269,7,27.705427,0.0
+watches / non-lux,18,TABLET,2,0,0.0,0.0
