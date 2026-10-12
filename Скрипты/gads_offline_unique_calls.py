@@ -220,7 +220,12 @@ def main():
     if args.upload:
         while True:
             print(datetime.now(TZ).strftime("[%Y-%m-%d %H:%M:%S]"), "запуск выгрузки", flush=True)
-            upload(client, ga, cid, args.client_folder, args.days, args.execute)
+            try:
+                upload(client, ga, cid, args.client_folder, args.days, args.execute)
+            except Exception as ex:  # в режиме цикла сбой сети/API не должен ронять выгрузку: пробуем в следующий час
+                if not args.loop_min:
+                    raise
+                print(f"ОШИБКА выгрузки, повтор через {args.loop_min} мин: {type(ex).__name__}: {str(ex)[:160]}", flush=True)
             if not args.loop_min:
                 break
             import time
