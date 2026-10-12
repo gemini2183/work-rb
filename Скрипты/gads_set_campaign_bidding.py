@@ -31,7 +31,7 @@ def main():
     ap.add_argument("--customer-id", required=True)
     ap.add_argument("--client-folder", required=True)
     ap.add_argument("--campaign-id", required=True)
-    ap.add_argument("--strategy", required=True, choices=["MAXIMIZE_CLICKS", "MAXIMIZE_CONVERSIONS"])
+    ap.add_argument("--strategy", required=True, choices=["MAXIMIZE_CLICKS", "MAXIMIZE_CONVERSIONS", "MANUAL_CPC"])
     ap.add_argument("--cpc-ceiling", type=float, help="потолок цены клика (для MAXIMIZE_CLICKS), в валюте аккаунта")
     ap.add_argument("--execute", action="store_true", help="Реально записать. Без флага — validate_only")
     args = ap.parse_args()
@@ -66,6 +66,11 @@ def main():
     if args.strategy == "MAXIMIZE_CLICKS":
         op.update.target_spend.cpc_bid_ceiling_micros = int(round(args.cpc_ceiling * 1_000_000))
         paths = ["target_spend.cpc_bid_ceiling_micros"]
+    elif args.strategy == "MANUAL_CPC":
+        # ручные ставки на уровне групп/ключей, без enhanced CPC; ставки групп надо выставить ДО смены
+        # (gads_exact_groups.py), иначе $0,01 группы остановит показы
+        op.update.manual_cpc.enhanced_cpc_enabled = False
+        paths = ["manual_cpc"]
     else:
         op.update.maximize_conversions.target_cpa_micros = 0
         paths = ["maximize_conversions.target_cpa_micros"]
