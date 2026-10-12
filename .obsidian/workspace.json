@@ -244,6 +244,8 @@
   },
   "active": "49438aefe15a1236",
   "lastOpenFiles": [
+    "Клиенты/LuxeBrokers/Эксперименты.md",
+    "Клиенты/LuxeBrokers/Журнал_изменений.md",
     "Клиенты/Andverpersonalinjury/Статистика/negatives_conflicts_20261012_1706.csv",
     "Клиенты/Andverpersonalinjury/Статистика/gads_campaign_negatives_before_removal_20261012_1705.csv",
     "Клиенты/Andverpersonalinjury/Статистика/snapshot_before_bidding_24331208797_20261012_1705.json",
@@ -254,7 +256,6 @@
     "Клиенты/Andverpersonalinjury/Статистика/snapshot_before_exact_groups_20261012_1703.json",
     "Скрипты/gads_campaign_rework.py",
     "Клиенты/LuxeBrokers/Кампании/Search/gold_stage1_plan.json",
-    "Клиенты/Andverpersonalinjury/Статистика/snapshot_before_bidding_24331208797_20261012_1701.json",
     "Клиенты/LuxeBrokers/Кампании/Search/gold_.md",
     "База_знаний/Паттерны/Google-Ads-Search-точное-соответствие-из-истории-запросов.md",
     "База_знаний/Агенты/Сторож_цены_заявки_и_бюджета.md",
@@ -288,7 +289,6 @@
     "База_знаний/Агенты/Контролёр_фактов_и_текстов.md",
     "База_знаний/Агенты/Аналитик_PMax_диагностика.md",
     "База_знаний/Агенты/index.md",
-    "Клиенты/ProfiMet/Креативы/Факты_сайта_2026-10-08.md",
-    "Клиенты/ProfiMet/Кампании/РСЯ_КМС/pmax01_call_test.md"
+    "Клиенты/ProfiMet/Креативы/Факты_сайта_2026-10-08.md"
   ]
 }

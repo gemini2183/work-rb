@@ -943,3 +943,12 @@ python gads_exact_groups.py --customer-id 213-621-6123 --client-folder Andverper
     --exact-bid 50 --phrase-bid 25 [--execute]
 ```
 Порядок на кампании с автостратегией: сначала этот скрипт (ставки групп были $0,01), потом `gads_set_campaign_bidding.py --strategy MANUAL_CPC` (добавлено 2026-10-12; без enhanced CPC, потолок цены клика при этом не используется).
+
+## Переработка Search-кампании по файлу плана: `gads_campaign_rework.py` (ЗАПИСЬ)
+
+```
+python gads_campaign_rework.py --plan "Клиенты/LuxeBrokers/Кампании/Search/gold_stage1_plan.json"            # только проверка (validate_only)
+python gads_campaign_rework.py --plan "Клиенты/LuxeBrokers/Кампании/Search/gold_stage1_plan.json" --execute  # запись, чтение обратно
+```
+
+Один JSON описывает пакет: список минусов (`negative_list`: имя, файл со словами `[[текст, тип], …]`, какие списки отвязать), `remove_campaign_negatives`, `pause_ads` (id), `new_group` (имя, статус, ключи, соответствие), `rsa` (URL, пути, группы, заголовки/описания с `pin`), `sitelinks` (текст, описания, url, anchor, `utm_query`, `tracking_url_template`), `callouts`, `snippet`. Пакет атомарный; перед записью — снимок «до» (ссылки на подключения списков, статусы объявлений, привязки активов) для отката; пауза объявлений идёт первой (лимит 3 включённых RSA в группе). Не умеет: ставки / целевой CPA / бюджет (есть `gads_set_campaign_tcpa_budget.py`), гео-критерии, включение группы (отдельное «да»).
