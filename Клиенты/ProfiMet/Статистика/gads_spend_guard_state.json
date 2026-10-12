@@ -6,7 +6,14 @@
   "reenabled": 0,
   "warned": false,
   "paused_by_guard": false,
-  "no_resume": false
+  "no_resume": false,
+  "samples": [
+   [
+    "2026-10-12T13:46:27",
+    62.420996,
+    3
+   ]
+  ]
  },
  "23775369828": {
   "date": "2026-10-12",
@@ -15,6 +22,27 @@
   "reenabled": 0,
   "warned": false,
   "paused_by_guard": false,
-  "no_resume": false
+  "no_resume": false,
+  "samples": [
+   [
+    "2026-10-12T13:46:29",
+    36.472232,
+    2
+   ]
+  ]
+ },
+ "_budget": {
+  "24332178236": {
+   "floor": 40.0,
+   "base": 40.0,
+   "flexed": false,
+   "day_done": "2026-10-12"
+  },
+  "23775369828": {
+   "floor": 120.0,
+   "base": 120.0,
+   "flexed": false,
+   "day_done": "2026-10-12"
+  }
  }
 }

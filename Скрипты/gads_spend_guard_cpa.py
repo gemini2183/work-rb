@@ -1,53 +1,62 @@
 #!/usr/bin/env python
 # coding: utf-8
-"""Сторож по ЦЕНЕ ЗАЯВКИ: пауза и возобновление кампании по реальным заявкам (Ringostat + Supabase), а не по лагающим
-конверсиям Google Ads. Решение пользователя 2026-10-12 после того, как `gads_spend_guard.py` остановил `pmax01_call_test`
-при 1 конверсии в Ads (через 20 минут их стало 3, по Ringostat — 3 уникальных звонка, ≈18 € за звонок).
+"""Сторож по ЦЕНЕ ЗАЯВКИ + управление дневным бюджетом: пауза и возобновление по реальным заявкам (Ringostat + Supabase),
+а не по лагающим конверсиям Google Ads; бюджет растёт «по чуть-чуть» только за доказанную эффективность.
+Решение пользователя 2026-10-12 (после того, как `gads_spend_guard.py` остановил `pmax01_call_test` при 1 конверсии в Ads,
+а через 20 минут их стало 3 — ≈18 € за звонок по Ringostat; и после всплеска ExpertAgro: 600 zł за полчаса при бюджете 300).
 
-Идея: «допустимый расход» растёт с каждой заявкой, как банк.
-    допустимый расход A = (grace + n) × T,   n — реальные заявки за сегодня, T — целевая цена заявки, grace — «кредит»
-    в долях T на первую заявку (по умолчанию 1.0).
-Эквивалент в цене заявки (grace = 1): n=1 → 200% от T, n=2 → 150%, n=3 → 133%, n=5 → 120%, n=10 → 110%. При малой
-выборке цена заявки скачет в разы, поэтому плоская линия «95%/105%» шумит: единая формула даёт запас на малых n и
-сходится к ~100–110% на больших.
+ТРИ СЛОЯ
+1) Цена заявки (всегда включён). «Допустимый расход» растёт с каждой заявкой, как банк:
+       A = (grace + n) × T,   n — реальные заявки за сегодня, T — целевая цена заявки, grace — аванс в долях T.
+   ВКЛЮЧЕНА и расход ≥ A → ПАУЗА; расход ≥ warn-share × A → предупреждение; НА ПАУЗЕ ПО НАШЕЙ ПРИЧИНЕ СЕГОДНЯ, заявок
+   стало больше и расход ≤ resume-share × A → ВОЗОБНОВИТЬ (не более --max-reenable раз в день, нужен --allow-reenable).
+   Запасные правила: жёсткий предел --abs-mult × текущий бюджет (страховка от ложных звонков/сбоя источников) и «темп»:
+   за --pace-min минут расход вырос на ≥ --pace-share бюджета, а заявок не прибавилось → пауза.
+2) Дневной «люфт» бюджета (--flex): кампания эффективна сегодня (заявок ≥ --flex-min-leads, цена ≤ --flex-cpa-share × T) и
+   расход дошёл до --flex-cost-share бюджета → бюджет на сегодня поднимается выше фактического расхода (не выше
+   --max-budget, не чаще --flex-max-per-day раз); в --restore-at бюджет возвращается к базовому. Если сторож был
+   остановлен и люфт остался висеть — при следующем запуске/дне он будет откатан.
+3) Базовый бюджет (--flex): утром первого тика дня — если последние --efficient-days календарных дня подряд (уже на
+   текущем бюджете) были эффективны (расход > 0, заявок ≥ --day-min-leads, цена ≤ T) → базовый бюджет +--step-pct%
+   (до --max-budget); если вчера «плохой день» (расход выше A) → на один шаг вниз, но не ниже стартового.
+   Так бюджет растёт только за подтверждённые дни и не даёт «сливов» от внезапных скачков.
 
-Правила (на кампанию, раз в --loop-min минут):
-  1. ВКЛЮЧЕНА и расход ≥ A                      → ПАУЗА (причина «цена заявки»), кроме жёсткого предела ниже.
-  2. ВКЛЮЧЕНА и расход ≥ warn-share × A          → ПРЕДУПРЕЖДЕНИЕ (один раз), без действий.
-  3. ВКЛЮЧЕНА и расход ≥ abs-mult × дневной бюджет → ПАУЗА «жёсткий предел» независимо от заявок (страховка от сбоя
-     источников заявок и от дрейфа учёта); в этот день не возобновляется.
-  4. НА ПАУЗЕ ПО НАШЕЙ ПРИЧИНЕ СЕГОДНЯ, заявок стало больше, чем на момент паузы, и расход ≤ resume-share × A
-     → ВОЗОБНОВИТЬ (не более --max-reenable раз в день). Только с --allow-reenable и --execute.
-  5. На паузе по решению пользователя (мы её не ставили) → не трогаем. Пауза сторожа в прошлый день → не возобновляем
-     (новый день — новое решение человека).
-Если кампанию включили руками после паузы сторожа — это записывается событием, правила работают как обычно
-(т.е. включённая, но неэффективная кампания будет остановлена снова; поправка — через --target / --grace).
+ЧЕСТНЫЕ ОГРАНИЧЕНИЯ
+  • Google может потратить до 2× дневного бюджета за день; расход в API отстаёт на 15–60+ минут. Единственный тормоз
+    в реальном времени — сам уровень бюджета, поэтому он растёт ступенями. Сторож не может предотвратить скачок за
+    полчаса целиком, он ограничивает его цену.
+  • Звонки/формы без привязки к кампании (форма без UTM — известный баг GTM-тега) не учитываются, число пишется в консоль.
+  • История дней: звонки Ringostat (уникальные, по utm_campaign) + формы `form_submit_gtm` из Ads по дате конверсии;
+    сегодня: Ringostat + заявки Supabase. Число заявок за день не убывает (при сбое источника берётся последнее известное).
+  • Бюджет общий для нескольких кампаний (shared) — управление пропускается.
+  • Лимит правок бюджета в сутки у Google — не проверено на практике, поэтому люфт ≤ 2 раз в день.
 
-Источники заявок — ровно та логика, что в проекте мониторинга `E:\\PythonProjects\\RedBird\\monitoring scripts`
-(модули `sources.ringostat`, `sources.supabase`; описание — Инфраструктура.md, запись 2026-10-12): уникальные звонки
-Ringostat по `utm_campaign` (ID кампании в utm или имя кампании) + заявки с формы из Supabase. Оговорки:
-  • звонки/формы без привязки к кампании (форма без UTM — известный баг GTM-тега) НЕ учитываются, их число пишется в лог;
-  • расход из API Ads отстаёт на 15–60+ минут, поэтому цена заявки по расходу занижена — отсюда жёсткий предел;
-  • «монотонность»: число заявок за день не убывает (при сбое Ringostat/Supabase берётся последнее известное).
-Ключи Ringostat/Supabase/Telegram читаются из yaml монитора и нигде не печатаются.
+Источники заявок — логика проекта мониторинга `E:\\PythonProjects\\RedBird\\monitoring scripts` (модули `sources.ringostat`,
+`sources.supabase`, `reports.telegram`; конфиг `config\\profimet.yaml`; ключи не печатаются). Описание — Инфраструктура.md.
 
-БЕЗОПАСНОСТЬ: по умолчанию dry-run (только печать и лог). Пауза — с --execute; возобновление — с --execute И
---allow-reenable. Telegram — только с --telegram. Состояние — `Статистика/gads_spend_guard_state.json`.
+БЕЗОПАСНОСТЬ: по умолчанию dry-run. Пауза — с --execute; возобновление — --execute + --allow-reenable; правки бюджета —
+--execute + --allow-budget (без --flex бюджет не трогается вообще). Telegram — только с --telegram.
+Состояние — `Статистика/gads_spend_guard_state.json`, лог — `gads_spend_guard_cpa_log.csv`.
 
 Использование:
-    python gads_spend_guard_cpa.py --customer-id 7552781705 --target 24332178236=45 --target 23775369828=48 \
+    python gads_spend_guard_cpa.py --customer-id 7552781705 --target 24332178236=25 --target 23775369828=22 --grace 2.0 \
         --loop-min 2 --execute --allow-reenable --telegram
+    # + управление бюджетом:
+    ... --flex --allow-budget --base-budget 24332178236=40 --base-budget 23775369828=120 \
+        --max-budget 24332178236=80 --max-budget 23775369828=150
 Без --loop-min — одна проверка.
 """
 import argparse
 import csv
 import json
-import os
+import math
 import sys
 import time
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
+import pandas as pd
+import requests
 import yaml
 from google.ads.googleads.client import GoogleAdsClient
 from google.protobuf import field_mask_pb2
@@ -61,10 +70,13 @@ STATS = Path(__file__).resolve().parent.parent / "Клиенты" / "ProfiMet" /
 LOG = STATS / "gads_spend_guard_cpa_log.csv"
 STATE = STATS / "gads_spend_guard_state.json"
 UNRESOLVED = "__unresolved_pmax__"   # чтобы UTM без ID и имени не склеивались в «первую попавшуюся PMax»
+FORM_ACTION = "form_submit_gtm"
 
 LOG_HEADER = ["time", "campaign_id", "name", "status", "budget", "cost_today", "target_cpa", "calls", "leads",
               "n", "allowance", "cost_share_of_allowance", "cpa_real", "event", "inertia_after_pause"]
 
+
+# ---------- запись в кабинет ----------
 
 def enable(client, cid, campaign_id):
     svc = client.get_service("CampaignService")
@@ -74,6 +86,26 @@ def enable(client, cid, campaign_id):
     op.update_mask.CopyFrom(field_mask_pb2.FieldMask(paths=["status"]))
     svc.mutate_campaigns(customer_id=cid, operations=[op])
 
+
+def set_budget(client, cid, resource_name, amount_eur):
+    svc = client.get_service("CampaignBudgetService")
+    op = client.get_type("CampaignBudgetOperation")
+    op.update.resource_name = resource_name
+    op.update.amount_micros = int(round(amount_eur)) * 1_000_000   # целые евро
+    op.update_mask.CopyFrom(field_mask_pb2.FieldMask(paths=["amount_micros"]))
+    svc.mutate_campaign_budgets(customer_id=cid, operations=[op])
+
+
+def read_budget(ga, cid, campaign_id):
+    """→ (resource_name, сумма в €, общий ли бюджет)."""
+    for r in ga.search(customer_id=cid, query=(
+            "SELECT campaign.campaign_budget, campaign_budget.amount_micros, campaign_budget.explicitly_shared "
+            f"FROM campaign WHERE campaign.id = {campaign_id}")):
+        return r.campaign.campaign_budget, r.campaign_budget.amount_micros / 1e6, r.campaign_budget.explicitly_shared
+    return None, None, None
+
+
+# ---------- лог и состояние ----------
 
 def log_row(row):
     LOG.parent.mkdir(parents=True, exist_ok=True)
@@ -97,6 +129,8 @@ def save_state(state):
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
+# ---------- источники заявок ----------
+
 def load_monitoring(mon_dir, cfg_path):
     """Подключает модули проекта мониторинга (Ringostat/Supabase/Telegram) и конфиг клиента. Секреты не печатаются."""
     if mon_dir not in sys.path:
@@ -116,14 +150,54 @@ def all_campaign_names(ga, cid):
     return out
 
 
-def real_conversions(cfg, m_ringostat, m_supabase, id_to_name):
-    """→ ({имя_кампании: уникальные_звонки}, {имя_кампании: формы}, формы_без_кампании). Ошибки источников не роняют цикл."""
-    calls, leads_by, unattributed = {}, {}, 0
-    try:
-        for name, d in (m_ringostat.get_calls_today(cfg, id_to_name, UNRESOLVED) or {}).items():
-            calls[name] = int(d.get("unique", 0))
-    except Exception as ex:
-        print(f"  Ringostat: ошибка {type(ex).__name__}: {str(ex)[:100]} — берём последнее известное")
+def calls_by_day(cfg, m, id_to_name):
+    """Уникальные звонки Google Ads по (дата, кампания) за последние 10 дней — та же логика, что в мониторе
+    (`sources.ringostat.get_calls_today`), но по дням. None — источник недоступен."""
+    rs = cfg["ringostat"]
+    today = date.today()
+    google_keywords = list(rs.get("source_filter", {}).get("include_keywords", ["google", "dspl", "kms"]))
+    if "performance_max" not in google_keywords:
+        google_keywords.append("performance_max")
+    excluded = set(rs.get("excluded_campaigns", []))
+    regex = rs.get("campaign_id_regex", r"s_(\d+)_")
+    kw = rs.get("pmax_keywords", ["pmax", "performance max"])
+    resp = requests.get(
+        "https://api.ringostat.net/calls/list",
+        params={"export_type": "json", "from": rs["date_from"], "to": today.strftime("%Y-%m-%d 23:59:59"),
+                "fields": "calldate,caller,utm_source,utm_medium,utm_campaign,pool_name"},
+        headers={"Content-Type": "application/json; charset=utf-8", "Auth-key": rs["auth_key"]}, timeout=180)
+    if resp.status_code != 200:
+        return None
+    data = resp.json()
+    if not data:
+        return {}
+    df = pd.DataFrame(data)
+    for c in ("utm_source", "utm_medium", "utm_campaign"):
+        df[c] = df[c].fillna("")
+    df["call_date"] = df["calldate"].apply(m._parse_local_date)
+    df = df[df["call_date"].notna()].copy()
+    df["date_only"] = df["call_date"].dt.date
+    df["category"] = df.apply(
+        lambda r: m.categorize_source(str(r["utm_source"]), str(r["utm_medium"]), google_keywords), axis=1)
+    df.loc[df["utm_campaign"].isin(excluded), "category"] = "No Source"
+    tracked = df[df["category"].isin(m.TRACKED_CATEGORIES)].copy()
+    if tracked.empty:
+        return {}
+    cl = m._classify_calls(tracked)
+    cl = cl[(cl["category"] == m.GOOGLE_ADS) & (cl["call_type"] == "unique")]
+    cl = cl[cl["date_only"] >= today - timedelta(days=10)].copy()
+    if cl.empty:
+        return {}
+    cl["camp"] = cl.apply(lambda r: m._resolve_campaign_name(r, id_to_name, UNRESOLVED, regex, kw, ""), axis=1)
+    out = {}
+    for (d, c), g in cl.groupby(["date_only", "camp"]):
+        out[(d.isoformat(), c)] = len(g)
+    return out
+
+
+def leads_today(cfg, m_ringostat, m_supabase, id_to_name):
+    """→ ({имя_кампании: формы}, формы_без_кампании). Ошибка источника не роняет цикл (пустой результат)."""
+    leads_by, unattributed = {}, 0
     try:
         rs = cfg.get("ringostat", {})
         regex = rs.get("campaign_id_regex", r"s_(\d+)_")
@@ -140,29 +214,71 @@ def real_conversions(cfg, m_ringostat, m_supabase, id_to_name):
                 leads_by[name] = leads_by.get(name, 0) + 1
     except Exception as ex:
         print(f"  Supabase: ошибка {type(ex).__name__}: {str(ex)[:100]} — берём последнее известное")
-    return calls, leads_by, unattributed
+    return leads_by, unattributed
 
 
-def parse_targets(items):
+def ads_history(ga, cid, campaign_ids, days=8):
+    """Расход и формы (`form_submit_gtm`) по (id кампании, дата) за последние дни из Google Ads."""
+    since = (date.today() - timedelta(days=days)).isoformat()
+    until = date.today().isoformat()
+    ids = ",".join(campaign_ids)
+    cost, forms = {}, {}
+    for r in ga.search(customer_id=cid, query=(
+            "SELECT campaign.id, segments.date, metrics.cost_micros FROM campaign "
+            f"WHERE campaign.id IN ({ids}) AND segments.date BETWEEN '{since}' AND '{until}'")):
+        cost[(str(r.campaign.id), r.segments.date)] = r.metrics.cost_micros / 1e6
+    for r in ga.search(customer_id=cid, query=(
+            "SELECT campaign.id, segments.date, segments.conversion_action_name, metrics.all_conversions FROM campaign "
+            f"WHERE campaign.id IN ({ids}) AND segments.date BETWEEN '{since}' AND '{until}' "
+            "AND metrics.all_conversions > 0")):
+        if r.segments.conversion_action_name == FORM_ACTION:
+            k = (str(r.campaign.id), r.segments.date)
+            forms[k] = forms.get(k, 0.0) + r.metrics.all_conversions
+    return cost, forms
+
+
+# ---------- вспомогательное ----------
+
+def parse_map(items):
     out = {}
-    for it in items:
+    for it in items or []:
         k, v = it.split("=", 1)
         out[k.strip()] = float(v.replace(",", "."))
     return out
 
 
+def parse_hhmm(s):
+    h, m = s.split(":")
+    return int(h) * 60 + int(m)
+
+
 def main():
-    ap = argparse.ArgumentParser(description="Сторож по цене заявки (Ringostat + Supabase)")
+    ap = argparse.ArgumentParser(description="Сторож по цене заявки + управление бюджетом (Ringostat + Supabase)")
     ap.add_argument("--customer-id", required=True)
     ap.add_argument("--target", action="append", required=True, metavar="ID=EUR",
-                    help="целевая цена заявки по кампании, можно несколько раз: 24332178236=45")
-    ap.add_argument("--grace", type=float, default=1.0, help="кредит на первую заявку в долях цели (по умолчанию 1.0)")
+                    help="целевая цена заявки по кампании, можно несколько раз: 24332178236=25")
+    ap.add_argument("--grace", type=float, default=2.0, help="аванс на первую заявку в долях цели (по умолчанию 2.0)")
     ap.add_argument("--warn-share", type=float, default=0.9)
     ap.add_argument("--resume-share", type=float, default=0.85)
-    ap.add_argument("--abs-mult", type=float, default=3.0, help="жёсткий предел от дневного бюджета независимо от заявок")
+    ap.add_argument("--abs-mult", type=float, default=3.0, help="жёсткий предел от текущего дневного бюджета")
     ap.add_argument("--max-reenable", type=int, default=2)
+    ap.add_argument("--pace-share", type=float, default=0.4, help="«темп»: рост расхода за окно ≥ доли бюджета при 0 новых заявок")
+    ap.add_argument("--pace-min", type=float, default=30.0, help="окно «темпа», минут")
     ap.add_argument("--watch-min", type=float, default=30.0, help="сколько минут после паузы писать «инерцию»")
     ap.add_argument("--loop-min", type=float, help="повторять каждые N минут; без флага — одна проверка")
+    # управление бюджетом
+    ap.add_argument("--flex", action="store_true", help="включить управление бюджетом (дневной люфт и базовый шаг)")
+    ap.add_argument("--allow-budget", action="store_true", help="разрешить реальные правки бюджета (нужен и --execute)")
+    ap.add_argument("--base-budget", action="append", metavar="ID=EUR", help="базовый (стартовый) дневной бюджет")
+    ap.add_argument("--max-budget", action="append", metavar="ID=EUR", help="потолок дневного бюджета")
+    ap.add_argument("--step-pct", type=float, default=20.0, help="шаг роста базового бюджета, %%")
+    ap.add_argument("--efficient-days", type=int, default=3, help="сколько эффективных дней подряд для шага роста")
+    ap.add_argument("--day-min-leads", type=int, default=2, help="минимум заявок за день, чтобы день считался эффективным")
+    ap.add_argument("--flex-min-leads", type=int, default=3)
+    ap.add_argument("--flex-cpa-share", type=float, default=0.8, help="люфт, если цена заявки ≤ доли цели")
+    ap.add_argument("--flex-cost-share", type=float, default=0.85, help="люфт, если расход ≥ доли текущего бюджета")
+    ap.add_argument("--flex-max-per-day", type=int, default=2)
+    ap.add_argument("--restore-at", default="23:30", help="во сколько вернуть бюджет к базовому (ЧЧ:ММ)")
     ap.add_argument("--execute", action="store_true", help="реально ставить на паузу (без флага — dry-run)")
     ap.add_argument("--allow-reenable", action="store_true", help="разрешить автоматическое возобновление (нужен и --execute)")
     ap.add_argument("--telegram", action="store_true", help="слать события в Telegram чат монитора")
@@ -171,12 +287,16 @@ def main():
     args = ap.parse_args()
 
     cid = args.customer_id.replace("-", "").strip()
-    targets = parse_targets(args.target)
+    targets = parse_map(args.target)
+    base_arg = parse_map(args.base_budget)
+    max_budget = parse_map(args.max_budget)
+    restore_min = parse_hhmm(args.restore_at)
     client = GoogleAdsClient.load_from_storage(GOOGLE_ADS_YAML)
     ga = client.get_service("GoogleAdsService")
     enums = client.enums.CampaignStatusEnum
     m_ringostat, m_supabase, m_telegram, cfg = load_monitoring(args.monitoring_dir, args.monitoring_config)
     state = load_state()
+    budget_state = state.setdefault("_budget", {})
 
     def notify(text):
         if args.telegram:
@@ -186,19 +306,32 @@ def main():
                 print(f"  Telegram: ошибка {type(ex).__name__}")
 
     mode = ("БОЕВОЙ: пауза" + (" + возобновление" if args.allow_reenable else "")) if args.execute else "DRY-RUN"
-    print(f"=== сторож по цене заявки, {mode}; цели: {targets}; grace {args.grace}, предупреждение {args.warn_share:.0%}, "
-          f"возврат {args.resume_share:.0%}, жёсткий предел {args.abs_mult}× бюджета ===")
-    notify(f"🛡 Сторож по цене заявки запущен ({mode}). Цели заявки: {targets}, кредит {args.grace:g}, "
+    if args.flex:
+        mode += ", бюджет: " + ("ПИШЕТ" if (args.execute and args.allow_budget) else "только план")
+    print(f"=== сторож по цене заявки, {mode}; цели: {targets}; аванс {args.grace}, предупреждение {args.warn_share:.0%}, "
+          f"возврат {args.resume_share:.0%}, предел {args.abs_mult}× бюджета, темп {args.pace_share:.0%}/{args.pace_min:g} мин ===")
+    notify(f"🛡 Сторож по цене заявки запущен ({mode}). Цели заявки: {targets}, аванс {args.grace:g}, "
            f"проверка каждые {args.loop_min or 0:g} мин")
 
+    calls_cache = {}
     while True:
+        now0 = datetime.now()
         today = date.today().isoformat()
         try:
             id_to_name = all_campaign_names(ga, cid)
         except Exception as ex:
-            print(f"{datetime.now():%H:%M:%S} ошибка списка кампаний: {type(ex).__name__}")
+            print(f"{now0:%H:%M:%S} ошибка списка кампаний: {type(ex).__name__}")
             id_to_name = {}
-        calls, leads_by, unattributed = real_conversions(cfg, m_ringostat, m_supabase, id_to_name)
+        try:
+            calls_map = calls_by_day(cfg, m_ringostat, id_to_name)
+        except Exception as ex:
+            print(f"  Ringostat: ошибка {type(ex).__name__}: {str(ex)[:100]} — берём последнее известное")
+            calls_map = None
+        if calls_map is not None:
+            calls_cache = calls_map
+        else:
+            calls_map = calls_cache
+        leads_by, unattributed = leads_today(cfg, m_ringostat, m_supabase, id_to_name)
 
         for campaign_id, T in targets.items():
             now = datetime.now()
@@ -213,9 +346,9 @@ def main():
             if st.get("date") != today:   # новый день: счётчики и «пауза сторожа» обнуляются
                 st.clear()
                 st.update({"date": today, "calls_max": 0, "leads_max": 0, "reenabled": 0, "warned": False,
-                           "paused_by_guard": False, "no_resume": False})
+                           "paused_by_guard": False, "no_resume": False, "flex_count": 0, "samples": []})
             name = s["name"]
-            st["calls_max"] = max(st["calls_max"], calls.get(name, 0))
+            st["calls_max"] = max(st["calls_max"], calls_map.get((today, name), 0))
             st["leads_max"] = max(st["leads_max"], leads_by.get(name, 0))
             n = st["calls_max"] + st["leads_max"]
             cost, budget = s["cost"], s["budget"]
@@ -223,26 +356,45 @@ def main():
             share = cost / allowance if allowance else 0.0
             cpa_real = round(cost / n, 1) if n else ""
             status = s["status"]
-            event = ""
+            events = []
             inertia = ""
+            paused_now = resumed_now = False
 
+            # --- темп: рост расхода за окно без новых заявок
+            pace_hit = False
+            samples = st.setdefault("samples", [])
+            samples.append([now.isoformat(timespec="seconds"), cost, n])
+            samples[:] = [x for x in samples if (now - datetime.fromisoformat(x[0])).total_seconds() <= 3600]
+            ref = None
+            for x in samples:   # самая свежая точка не моложе окна
+                if (now - datetime.fromisoformat(x[0])).total_seconds() >= args.pace_min * 60:
+                    ref = x
+            if ref and budget and n == ref[2] and cost - ref[1] >= args.pace_share * budget:
+                pace_hit = True
+
+            # --- пауза / возобновление по цене заявки
             if status == enums.ENABLED:
                 if st.get("paused_by_guard"):
-                    event = "ручное включение после паузы сторожа; "
+                    events.append("ручное включение после паузы сторожа")
                     st["paused_by_guard"] = False
+                reason = None
                 if budget and cost >= args.abs_mult * budget:
-                    event += f"ПАУЗА жёсткий предел: расход {cost:.2f} ≥ {args.abs_mult}× бюджета {budget:.2f} (заявок {n})"
-                    do_pause, st["no_resume"], reason = True, True, "жёсткий предел"
+                    reason = "жёсткий предел"
+                    st["no_resume"] = True
+                    events.append(f"ПАУЗА жёсткий предел: расход {cost:.2f} ≥ {args.abs_mult}× бюджета {budget:.2f} (заявок {n})")
                 elif cost >= allowance:
-                    event += (f"ПАУЗА цена заявки: расход {cost:.2f} ≥ допустимого {allowance:.2f} "
-                              f"= ({args.grace:g}+{n})×{T:g}")
-                    do_pause, reason = True, "цена заявки"
-                else:
-                    do_pause, reason = False, ""
-                    if cost >= args.warn_share * allowance and not st["warned"]:
-                        event += f"ПРЕДУПРЕЖДЕНИЕ: расход {cost:.2f} = {share:.0%} допустимого {allowance:.2f} (заявок {n})"
-                        st["warned"] = True
-                if do_pause:
+                    reason = "цена заявки"
+                    events.append(f"ПАУЗА цена заявки: расход {cost:.2f} ≥ допустимого {allowance:.2f} "
+                                  f"= ({args.grace:g}+{n})×{T:g}")
+                elif pace_hit:
+                    reason = "темп"
+                    events.append(f"ПАУЗА темп: за {args.pace_min:g} мин расход +{cost - ref[1]:.2f} при {n} заявках "
+                                  f"(бюджет {budget:.2f})")
+                elif cost >= args.warn_share * allowance and not st["warned"]:
+                    events.append(f"ПРЕДУПРЕЖДЕНИЕ: расход {cost:.2f} = {share:.0%} допустимого {allowance:.2f} (заявок {n})")
+                    st["warned"] = True
+                    notify(f"⚠️ {name}: расход {cost:.2f} € = {share:.0%} допустимого {allowance:.2f} € (заявок {n})")
+                if reason:
                     if args.execute:
                         pause(client, cid, campaign_id)
                         st["paused_by_guard"] = True
@@ -250,29 +402,124 @@ def main():
                         st["cost_at_pause"] = cost
                         st["n_at_pause"] = n
                         st["pause_reason"] = reason
+                        paused_now = True
                         notify(f"⛔ {name}: ПАУЗА ({reason}). Расход {cost:.2f} €, заявок {n}, "
                                f"допустимо {allowance:.2f} €, цель {T:g} €")
                     else:
-                        event += " (dry-run, не выполнено)"
+                        events[-1] += " (dry-run, не выполнено)"
             elif st.get("paused_by_guard"):
                 t0 = datetime.fromisoformat(st["paused_at"])
                 if (now - t0).total_seconds() / 60 <= args.watch_min:
                     inertia = round(cost - st.get("cost_at_pause", cost), 2)
                 if (not st.get("no_resume") and st.get("n_at_pause", 0) < n and cost <= args.resume_share * allowance
                         and st["reenabled"] < args.max_reenable):
-                    event = (f"ВОЗОБНОВЛЕНИЕ: заявок стало {n} (было {st.get('n_at_pause')} при паузе), "
-                             f"расход {cost:.2f} ≤ {args.resume_share:.0%} от допустимого {allowance:.2f}")
+                    msg = (f"ВОЗОБНОВЛЕНИЕ: заявок стало {n} (было {st.get('n_at_pause')} при паузе), "
+                           f"расход {cost:.2f} ≤ {args.resume_share:.0%} от допустимого {allowance:.2f}")
                     if args.execute and args.allow_reenable:
                         enable(client, cid, campaign_id)
                         st["paused_by_guard"] = False
                         st["reenabled"] += 1
                         st["warned"] = False
+                        resumed_now = True
                         notify(f"✅ {name}: ВОЗОБНОВЛЕНА — поздние заявки (теперь {n}), расход {cost:.2f} €, "
                                f"допустимо {allowance:.2f} €")
                     else:
-                        event += " (dry-run или без --allow-reenable, не выполнено)"
+                        msg += " (dry-run или без --allow-reenable, не выполнено)"
+                    events.append(msg)
             # иначе: на паузе по решению человека — не трогаем
 
+            # --- бюджет
+            if args.flex:
+                try:
+                    res, bud_now, shared = read_budget(ga, cid, campaign_id)
+                    if res is None:
+                        raise RuntimeError("бюджет не найден")
+                    if shared:
+                        events.append("бюджет общий для нескольких кампаний — управление пропущено")
+                    else:
+                        pb = budget_state.setdefault(campaign_id, {})
+                        pb.setdefault("floor", base_arg.get(campaign_id, bud_now))
+                        pb.setdefault("base", base_arg.get(campaign_id, bud_now))
+                        ceiling = max_budget.get(campaign_id, pb["base"])
+                        can_write = args.execute and args.allow_budget
+
+                        def apply_budget(value, why):
+                            """Ставит бюджет (или только планирует). Возвращает True, если запись выполнена."""
+                            value = int(round(value))
+                            msg = f"БЮДЖЕТ {bud_now:g} → {value} €: {why}"
+                            if can_write:
+                                set_budget(client, cid, res, value)
+                                events.append(msg)
+                                notify(f"💶 {name}: {msg}")
+                                return True
+                            events.append(msg + " (план, не выполнено)")
+                            return False
+
+                        # 1) утренний шаг: откат висящего люфта, базовый шаг вверх/вниз по истории
+                        if pb.get("day_done") != today:
+                            if pb.get("flexed") and bud_now != pb["base"]:
+                                if apply_budget(pb["base"], "откат люфта прошлого дня к базовому"):
+                                    bud_now = pb["base"]
+                            pb["flexed"] = False
+                            cost_h, forms_h = ads_history(ga, cid, [campaign_id])
+                            streak, last_bad = 0, False
+                            days = [(date.today() - timedelta(days=i)).isoformat() for i in range(1, 8)]
+                            hist = []
+                            for d in days:
+                                c = cost_h.get((campaign_id, d), 0.0)
+                                nn = calls_map.get((d, name), 0) + int(round(forms_h.get((campaign_id, d), 0.0)))
+                                hist.append((d, c, nn))
+                            changed_on = pb.get("changed_on", "")
+                            for d, c, nn in hist:
+                                if d < changed_on:
+                                    break
+                                if c > 0 and nn >= args.day_min_leads and c / nn <= T:
+                                    streak += 1
+                                else:
+                                    break
+                            y = hist[0]
+                            last_bad = (y[1] > 0 and y[1] > (args.grace + y[2]) * T)
+                            new_base = None
+                            if streak >= args.efficient_days:
+                                cand = min(ceiling, math.ceil(pb["base"] * (1 + args.step_pct / 100)))
+                                if cand > pb["base"]:
+                                    new_base = cand
+                                    why = f"{streak} эффективных дня подряд (цена заявки ≤ {T:g} €)"
+                            elif last_bad and pb["base"] > pb["floor"]:
+                                new_base = max(pb["floor"], math.floor(pb["base"] / (1 + args.step_pct / 100)))
+                                why = f"вчера расход {y[1]:.0f} € при {y[2]} заявках — выше допустимого"
+                            if new_base is not None and new_base != pb["base"]:
+                                if apply_budget(new_base, "базовый шаг: " + why):
+                                    pb["base"] = new_base
+                                    pb["changed_on"] = today
+                                    bud_now = new_base
+                            else:
+                                events.append(f"базовый бюджет {pb['base']:g} € без изменений "
+                                              f"(эффективных дней подряд: {streak} из {args.efficient_days})")
+                            pb["day_done"] = today
+
+                        # 2) дневной люфт: эффективна и упирается в бюджет → поднять выше факта
+                        enabled_now = (status == enums.ENABLED and not paused_now) or resumed_now
+                        if (enabled_now and n >= args.flex_min_leads and cost / n <= args.flex_cpa_share * T
+                                and cost >= args.flex_cost_share * bud_now and st["flex_count"] < args.flex_max_per_day
+                                and bud_now < ceiling):
+                            target = min(ceiling, math.ceil(max(cost * 1.3, bud_now * 1.25)))
+                            if target > bud_now:
+                                if apply_budget(target, f"люфт: заявок {n}, цена {cost / n:.1f} € ≤ {args.flex_cpa_share:.0%} "
+                                                        f"цели, расход {cost:.1f} ≥ {args.flex_cost_share:.0%} бюджета"):
+                                    pb["flexed"] = True
+                                    st["flex_count"] += 1
+                                    bud_now = target
+
+                        # 3) вечерний возврат люфта
+                        if pb.get("flexed") and now.hour * 60 + now.minute >= restore_min and bud_now != pb["base"]:
+                            if apply_budget(pb["base"], "вечерний возврат к базовому"):
+                                pb["flexed"] = False
+                                bud_now = pb["base"]
+                except Exception as ex:
+                    events.append(f"бюджет: ошибка {type(ex).__name__}: {str(ex)[:120]}")
+
+            event = "; ".join(events)
             print(f"{now:%H:%M:%S} {name}: статус {'ВКЛ' if status == enums.ENABLED else 'ПАУЗА'}, расход {cost:.2f}/"
                   f"бюджет {budget:.2f}, заявок {n} (звонки {st['calls_max']} + формы {st['leads_max']}), допустимо "
                   f"{allowance:.2f} ({share:.0%}), цена заявки {cpa_real or '—'} {event} {inertia}")
