@@ -96,11 +96,16 @@ def fetch_calls(date_from, date_to):
     return df
 
 
-def load_ledger(path):
+def load_ledger(path, resend_before=None):
+    """Множество уже отправленных id. resend_before «ГГГГ-ММ-ДД ЧЧ:ММ:СС» — записи реестра, отправленные РАНЬШЕ этого момента,
+    считаются неотправленными (нужно, когда Google отклонил загрузку целиком, напр. TOO_RECENT_CONVERSION_ACTION 2026-10-09)."""
     if not path.exists():
         return set()
     with open(path, encoding="utf-8-sig") as f:
-        return {row["uniqueid"] for row in csv.DictReader(f)}
+        rows = list(csv.DictReader(f))
+    if resend_before:
+        rows = [r for r in rows if r.get("uploaded_at", "") >= resend_before]
+    return {row["uniqueid"] for row in rows}
 
 
 DM_URL = "https://datamanager.googleapis.com/v1/events:ingest"
@@ -145,7 +150,7 @@ def send_batch(headers, cid, action_id, events, execute):
     return "", bad, []
 
 
-def upload(client, ga, cid, folder, days, execute):
+def upload(client, ga, cid, folder, days, execute, resend_before=None):
     action = find_action(client, ga, cid)
     if not action:
         raise SystemExit("конверсия не создана: сначала --create-action --execute")
@@ -162,7 +167,7 @@ def upload(client, ga, cid, folder, days, execute):
     with_gclid = g[g.gclid.notna()].copy()
     print(f"уникальных Google CPC: {len(g)}; с gclid: {len(with_gclid)}; без gclid: {len(g) - len(with_gclid)}")
     ledger_path = client_stats_dir(folder) / LEDGER_NAME
-    done = load_ledger(ledger_path)
+    done = load_ledger(ledger_path, resend_before)
     todo = with_gclid[~with_gclid.uniqueid.astype(str).isin(done)].copy()
     print("уже выгружено ранее:", len(with_gclid) - len(todo), "| к выгрузке:", len(todo))
     if todo.empty:
@@ -209,6 +214,7 @@ def main():
     ap.add_argument("--create-action", action="store_true")
     ap.add_argument("--upload", action="store_true")
     ap.add_argument("--days", type=int, default=90)
+    ap.add_argument("--resend-before", help="«ГГГГ-ММ-ДД ЧЧ:ММ:СС»: повторно отправить звонки, записанные в реестр раньше этого момента")
     ap.add_argument("--execute", action="store_true", help="Реально записать. Без флага — только проверка")
     ap.add_argument("--loop-min", type=int, default=0, help="повторять --upload каждые N минут, пока процесс открыт (0 = один раз)")
     args = ap.parse_args()
@@ -221,7 +227,7 @@ def main():
         while True:
             print(datetime.now(TZ).strftime("[%Y-%m-%d %H:%M:%S]"), "запуск выгрузки", flush=True)
             try:
-                upload(client, ga, cid, args.client_folder, args.days, args.execute)
+                upload(client, ga, cid, args.client_folder, args.days, args.execute, args.resend_before)
             except Exception as ex:  # в режиме цикла сбой сети/API не должен ронять выгрузку: пробуем в следующий час
                 if not args.loop_min:
                     raise
