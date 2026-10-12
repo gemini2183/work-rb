@@ -138,18 +138,18 @@
         "anchor": "form"
       },
       {
-        "text": "Scrap, Coins & Bars",
+        "text": "Scrap & Broken Gold",
         "d1": "Chains, earrings, mixed lots",
-        "d2": "Bullion and coins bought",
+        "d2": "Sorted by purity",
         "url": "https://jewelryfastsale.com/gold-silver",
         "anchor": "types"
       },
       {
-        "text": "Customer Reviews",
-        "d1": "Real sellers share feedback",
-        "d2": "Gold, scrap and jewelry",
+        "text": "Gold Coins & Bars",
+        "d1": "Priced by purity & weight",
+        "d2": "Bullion and coins bought",
         "url": "https://jewelryfastsale.com/gold-silver",
-        "anchor": "gallery"
+        "anchor": "types"
       },
       {
         "text": "How to Sell Gold",
@@ -163,7 +163,7 @@
         "d1": "Open daily 10 AM to 7 PM",
         "d2": "Beverly Hills, CA",
         "url": "https://jewelryfastsale.com/gold-silver",
-        "anchor": "home"
+        "anchor": "form"
       }
     ],
     "unlink_existing": true
