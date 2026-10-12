@@ -1,0 +1,188 @@
+camp,type,detail,negative,bid_mod,status,last_change
+diamonds,LANGUAGE,languageConstants/1000,False,,ENABLED,старше 90 дн / нет
+diamonds,DEVICE,DESKTOP,False,,ENABLED,старше 90 дн / нет
+diamonds,DEVICE,MOBILE,False,,ENABLED,старше 90 дн / нет
+diamonds,DEVICE,TABLET,False,,ENABLED,старше 90 дн / нет
+diamonds,AD_SCHEDULE,MONDAY 9-19,False,,ENABLED,старше 90 дн / нет
+diamonds,AD_SCHEDULE,TUESDAY 9-19,False,,ENABLED,старше 90 дн / нет
+diamonds,AD_SCHEDULE,WEDNESDAY 9-19,False,,ENABLED,старше 90 дн / нет
+diamonds,AD_SCHEDULE,THURSDAY 9-19,False,,ENABLED,старше 90 дн / нет
+diamonds,AD_SCHEDULE,FRIDAY 9-19,False,,ENABLED,старше 90 дн / нет
+diamonds,AD_SCHEDULE,SATURDAY 9-19,False,,ENABLED,старше 90 дн / нет
+diamonds,AD_SCHEDULE,SUNDAY 9-19,False,,ENABLED,старше 90 дн / нет
+diamonds,LOCATION,geoTargetConstants/1013587,False,1.3,ENABLED,старше 90 дн / нет
+diamonds,LOCATION,geoTargetConstants/1014390,False,,ENABLED,старше 90 дн / нет
+diamonds,LOCATION,geoTargetConstants/9060324,False,,ENABLED,старше 90 дн / нет
+diamonds,LOCATION,geoTargetConstants/9061087,False,,ENABLED,старше 90 дн / нет
+diamonds,LOCATION,geoTargetConstants/9061090,False,,ENABLED,старше 90 дн / нет
+diamonds,LOCATION,geoTargetConstants/9061092,False,,ENABLED,старше 90 дн / нет
+diamonds,LOCATION,geoTargetConstants/9061096,False,,ENABLED,старше 90 дн / нет
+diamonds,LOCATION,geoTargetConstants/9061098,False,,ENABLED,старше 90 дн / нет
+diamonds,LOCATION,geoTargetConstants/9061106,False,,ENABLED,старше 90 дн / нет
+diamonds,LOCATION,geoTargetConstants/9061107,False,,ENABLED,старше 90 дн / нет
+diamonds,LOCATION,geoTargetConstants/9061110,False,,ENABLED,старше 90 дн / нет
+diamonds,LOCATION,geoTargetConstants/9061111,False,,ENABLED,старше 90 дн / нет
+diamonds,LOCATION,geoTargetConstants/9198049,False,,ENABLED,старше 90 дн / нет
+diamonds,LOCATION,geoTargetConstants/9223411,False,,ENABLED,старше 90 дн / нет
+diamonds,PROXIMITY,5.0 km,False,,ENABLED,старше 90 дн / нет
+watches / lux,LANGUAGE,languageConstants/1000,False,,ENABLED,старше 90 дн / нет
+watches / lux,DEVICE,DESKTOP,False,,ENABLED,старше 90 дн / нет
+watches / lux,DEVICE,MOBILE,False,,ENABLED,старше 90 дн / нет
+watches / lux,DEVICE,TABLET,False,,ENABLED,старше 90 дн / нет
+watches / lux,AD_SCHEDULE,MONDAY 9-19,False,,ENABLED,старше 90 дн / нет
+watches / lux,AD_SCHEDULE,TUESDAY 9-19,False,,ENABLED,2026-09-21
+watches / lux,AD_SCHEDULE,WEDNESDAY 9-19,False,,ENABLED,2026-09-21
+watches / lux,AD_SCHEDULE,THURSDAY 9-19,False,,ENABLED,2026-09-21
+watches / lux,AD_SCHEDULE,FRIDAY 9-19,False,,ENABLED,2026-09-21
+watches / lux,AD_SCHEDULE,SATURDAY 9-19,False,,ENABLED,2026-09-21
+watches / lux,AD_SCHEDULE,SUNDAY 9-19,False,,ENABLED,2026-09-21
+watches / lux,LOCATION,geoTargetConstants/1013587,False,1.5,ENABLED,старше 90 дн / нет
+watches / lux,LOCATION,geoTargetConstants/1014390,False,1.3,ENABLED,старше 90 дн / нет
+watches / lux,LOCATION,geoTargetConstants/9060324,False,,ENABLED,старше 90 дн / нет
+watches / lux,LOCATION,geoTargetConstants/9061087,False,,ENABLED,старше 90 дн / нет
+watches / lux,LOCATION,geoTargetConstants/9061090,False,,ENABLED,старше 90 дн / нет
+watches / lux,LOCATION,geoTargetConstants/9061092,False,,ENABLED,старше 90 дн / нет
+watches / lux,LOCATION,geoTargetConstants/9061096,False,,ENABLED,старше 90 дн / нет
+watches / lux,LOCATION,geoTargetConstants/9061098,False,,ENABLED,старше 90 дн / нет
+watches / lux,LOCATION,geoTargetConstants/9061106,False,,ENABLED,старше 90 дн / нет
+watches / lux,LOCATION,geoTargetConstants/9061107,False,,ENABLED,старше 90 дн / нет
+watches / lux,LOCATION,geoTargetConstants/9061110,False,,ENABLED,старше 90 дн / нет
+watches / lux,LOCATION,geoTargetConstants/9061111,False,,ENABLED,старше 90 дн / нет
+watches / lux,LOCATION,geoTargetConstants/9198049,False,,ENABLED,старше 90 дн / нет
+watches / lux,LOCATION,geoTargetConstants/9223411,False,,ENABLED,старше 90 дн / нет
+watches / lux,PROXIMITY,5.0 km,False,0.8,ENABLED,старше 90 дн / нет
+jewelry / non-lux,LANGUAGE,languageConstants/1000,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,DEVICE,DESKTOP,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,DEVICE,MOBILE,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,DEVICE,TABLET,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,AD_SCHEDULE,MONDAY 9-19,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,AD_SCHEDULE,TUESDAY 9-19,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,AD_SCHEDULE,WEDNESDAY 9-19,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,AD_SCHEDULE,THURSDAY 9-19,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,AD_SCHEDULE,FRIDAY 9-19,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,AD_SCHEDULE,SATURDAY 9-19,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,AD_SCHEDULE,SUNDAY 9-19,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,LOCATION,geoTargetConstants/1013587,False,1.4,ENABLED,старше 90 дн / нет
+jewelry / non-lux,LOCATION,geoTargetConstants/1014390,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,LOCATION,geoTargetConstants/9060324,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,LOCATION,geoTargetConstants/9061087,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,LOCATION,geoTargetConstants/9061090,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,LOCATION,geoTargetConstants/9061092,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,LOCATION,geoTargetConstants/9061096,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,LOCATION,geoTargetConstants/9061098,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,LOCATION,geoTargetConstants/9061106,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,LOCATION,geoTargetConstants/9061107,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,LOCATION,geoTargetConstants/9061110,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,LOCATION,geoTargetConstants/9061111,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,LOCATION,geoTargetConstants/9198049,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,LOCATION,geoTargetConstants/9223411,False,,ENABLED,старше 90 дн / нет
+jewelry / non-lux,PROXIMITY,5.0 km,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,LANGUAGE,languageConstants/1000,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,DEVICE,DESKTOP,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,DEVICE,MOBILE,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,DEVICE,TABLET,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,AD_SCHEDULE,MONDAY 9-19,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,AD_SCHEDULE,TUESDAY 9-19,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,AD_SCHEDULE,WEDNESDAY 9-19,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,AD_SCHEDULE,THURSDAY 9-19,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,AD_SCHEDULE,FRIDAY 9-19,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,AD_SCHEDULE,SATURDAY 9-19,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,AD_SCHEDULE,SUNDAY 9-19,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,LOCATION,geoTargetConstants/1013587,False,1.5,ENABLED,старше 90 дн / нет
+jewelry / lux,LOCATION,geoTargetConstants/1014390,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,LOCATION,geoTargetConstants/9060324,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,LOCATION,geoTargetConstants/9061087,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,LOCATION,geoTargetConstants/9061090,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,LOCATION,geoTargetConstants/9061092,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,LOCATION,geoTargetConstants/9061096,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,LOCATION,geoTargetConstants/9061098,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,LOCATION,geoTargetConstants/9061106,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,LOCATION,geoTargetConstants/9061107,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,LOCATION,geoTargetConstants/9061110,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,LOCATION,geoTargetConstants/9061111,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,LOCATION,geoTargetConstants/9198049,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,LOCATION,geoTargetConstants/9223411,False,,ENABLED,старше 90 дн / нет
+jewelry / lux,PROXIMITY,5.0 km,False,,ENABLED,старше 90 дн / нет
+silver,LANGUAGE,languageConstants/1000,False,,ENABLED,старше 90 дн / нет
+silver,DEVICE,DESKTOP,False,,ENABLED,старше 90 дн / нет
+silver,DEVICE,MOBILE,False,,ENABLED,старше 90 дн / нет
+silver,DEVICE,TABLET,False,,ENABLED,старше 90 дн / нет
+silver,AD_SCHEDULE,MONDAY 9-18,False,,ENABLED,старше 90 дн / нет
+silver,AD_SCHEDULE,MONDAY 18-20,False,0.7,ENABLED,старше 90 дн / нет
+silver,AD_SCHEDULE,TUESDAY 9-18,False,,ENABLED,старше 90 дн / нет
+silver,AD_SCHEDULE,TUESDAY 18-20,False,0.7,ENABLED,старше 90 дн / нет
+silver,AD_SCHEDULE,WEDNESDAY 9-18,False,,ENABLED,старше 90 дн / нет
+silver,AD_SCHEDULE,WEDNESDAY 18-20,False,0.7,ENABLED,старше 90 дн / нет
+silver,AD_SCHEDULE,THURSDAY 9-18,False,,ENABLED,старше 90 дн / нет
+silver,AD_SCHEDULE,THURSDAY 18-20,False,0.7,ENABLED,старше 90 дн / нет
+silver,AD_SCHEDULE,FRIDAY 9-18,False,,ENABLED,старше 90 дн / нет
+silver,AD_SCHEDULE,FRIDAY 18-20,False,0.7,ENABLED,старше 90 дн / нет
+silver,AD_SCHEDULE,SATURDAY 9-18,False,,ENABLED,старше 90 дн / нет
+silver,AD_SCHEDULE,SATURDAY 18-20,False,0.7,ENABLED,старше 90 дн / нет
+silver,AD_SCHEDULE,SUNDAY 9-18,False,,ENABLED,старше 90 дн / нет
+silver,AD_SCHEDULE,SUNDAY 18-20,False,0.7,ENABLED,старше 90 дн / нет
+silver,LOCATION,geoTargetConstants/1013587,False,,ENABLED,старше 90 дн / нет
+silver,LOCATION,geoTargetConstants/1014390,False,,ENABLED,старше 90 дн / нет
+silver,LOCATION,geoTargetConstants/9030930,False,,ENABLED,старше 90 дн / нет
+silver,LOCATION,geoTargetConstants/9030945,False,,ENABLED,старше 90 дн / нет
+silver,LOCATION,geoTargetConstants/9030960,False,,ENABLED,старше 90 дн / нет
+silver,LOCATION,geoTargetConstants/9030961,False,,ENABLED,старше 90 дн / нет
+silver,LOCATION,geoTargetConstants/9030986,False,,ENABLED,старше 90 дн / нет
+silver,LOCATION,geoTargetConstants/9061087,False,,ENABLED,старше 90 дн / нет
+silver,LOCATION,geoTargetConstants/9061092,False,,ENABLED,старше 90 дн / нет
+silver,LOCATION,geoTargetConstants/9061107,False,,ENABLED,старше 90 дн / нет
+silver,LOCATION,geoTargetConstants/9061111,False,,ENABLED,старше 90 дн / нет
+silver,LOCATION,geoTargetConstants/9198049,False,,ENABLED,старше 90 дн / нет
+silver,PROXIMITY,5.0 km,False,,ENABLED,старше 90 дн / нет
+gold_,LANGUAGE,languageConstants/1000,False,,ENABLED,старше 90 дн / нет
+gold_,DEVICE,DESKTOP,False,,ENABLED,старше 90 дн / нет
+gold_,DEVICE,MOBILE,False,,ENABLED,старше 90 дн / нет
+gold_,DEVICE,TABLET,False,,ENABLED,старше 90 дн / нет
+gold_,AD_SCHEDULE,MONDAY 9-19,False,,ENABLED,старше 90 дн / нет
+gold_,AD_SCHEDULE,TUESDAY 9-19,False,,ENABLED,старше 90 дн / нет
+gold_,AD_SCHEDULE,WEDNESDAY 9-19,False,,ENABLED,старше 90 дн / нет
+gold_,AD_SCHEDULE,THURSDAY 9-19,False,,ENABLED,старше 90 дн / нет
+gold_,AD_SCHEDULE,FRIDAY 9-19,False,,ENABLED,старше 90 дн / нет
+gold_,AD_SCHEDULE,SATURDAY 9-19,False,,ENABLED,старше 90 дн / нет
+gold_,AD_SCHEDULE,SUNDAY 9-19,False,,ENABLED,старше 90 дн / нет
+gold_,LOCATION,geoTargetConstants/1013587,False,,ENABLED,старше 90 дн / нет
+gold_,LOCATION,geoTargetConstants/1014390,False,,ENABLED,старше 90 дн / нет
+gold_,LOCATION,geoTargetConstants/9060324,False,,ENABLED,старше 90 дн / нет
+gold_,LOCATION,geoTargetConstants/9061087,False,,ENABLED,старше 90 дн / нет
+gold_,LOCATION,geoTargetConstants/9061090,False,,ENABLED,старше 90 дн / нет
+gold_,LOCATION,geoTargetConstants/9061092,False,,ENABLED,старше 90 дн / нет
+gold_,LOCATION,geoTargetConstants/9061096,False,,ENABLED,старше 90 дн / нет
+gold_,LOCATION,geoTargetConstants/9061098,False,,ENABLED,старше 90 дн / нет
+gold_,LOCATION,geoTargetConstants/9061106,False,,ENABLED,старше 90 дн / нет
+gold_,LOCATION,geoTargetConstants/9061107,False,,ENABLED,старше 90 дн / нет
+gold_,LOCATION,geoTargetConstants/9061110,False,,ENABLED,старше 90 дн / нет
+gold_,LOCATION,geoTargetConstants/9061111,False,,ENABLED,старше 90 дн / нет
+gold_,LOCATION,geoTargetConstants/9198049,False,,ENABLED,старше 90 дн / нет
+gold_,LOCATION,geoTargetConstants/9223411,False,,ENABLED,старше 90 дн / нет
+gold_,PROXIMITY,5.0 km,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,LANGUAGE,languageConstants/1000,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,DEVICE,DESKTOP,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,DEVICE,MOBILE,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,DEVICE,TABLET,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,AD_SCHEDULE,MONDAY 10-19,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,AD_SCHEDULE,TUESDAY 10-19,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,AD_SCHEDULE,WEDNESDAY 10-19,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,AD_SCHEDULE,THURSDAY 10-19,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,AD_SCHEDULE,FRIDAY 10-19,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,AD_SCHEDULE,SATURDAY 10-19,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,AD_SCHEDULE,SUNDAY 10-19,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,LOCATION,geoTargetConstants/1013587,False,1.5,ENABLED,старше 90 дн / нет
+watches / non-lux,LOCATION,geoTargetConstants/1014390,False,1.3,ENABLED,старше 90 дн / нет
+watches / non-lux,LOCATION,geoTargetConstants/9060324,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,LOCATION,geoTargetConstants/9061087,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,LOCATION,geoTargetConstants/9061090,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,LOCATION,geoTargetConstants/9061092,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,LOCATION,geoTargetConstants/9061096,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,LOCATION,geoTargetConstants/9061098,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,LOCATION,geoTargetConstants/9061106,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,LOCATION,geoTargetConstants/9061107,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,LOCATION,geoTargetConstants/9061110,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,LOCATION,geoTargetConstants/9061111,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,LOCATION,geoTargetConstants/9198049,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,LOCATION,geoTargetConstants/9223411,False,,ENABLED,старше 90 дн / нет
+watches / non-lux,PROXIMITY,5.0 km,False,,ENABLED,старше 90 дн / нет

@@ -1,0 +1,353 @@
+camp,group,type,detail,negative,bid_mod,last_change
+diamonds,jewelry / diamonds,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+diamonds,jewelry / diamonds,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+diamonds,jewelry / diamonds,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+diamonds,jewelry / diamonds,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+diamonds,jewelry / diamonds,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+diamonds,jewelry / diamonds,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+diamonds,jewelry / diamonds,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+diamonds,jewelry / diamond ring,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+diamonds,jewelry / diamond ring,AGE_RANGE,AGE_RANGE_25_34,False,,старше 90 дн / нет
+diamonds,jewelry / diamond ring,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+diamonds,jewelry / diamond ring,AGE_RANGE,AGE_RANGE_45_54,False,,старше 90 дн / нет
+diamonds,jewelry / diamond ring,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+diamonds,jewelry / diamond ring,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+diamonds,jewelry / diamond ring,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+diamonds,jewelry / diamond ring,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+diamonds,jewelry / diamond ring,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+diamonds,jewelry / diamond ring,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+diamonds,jewelry / diamond earrings,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+diamonds,jewelry / diamond earrings,AGE_RANGE,AGE_RANGE_25_34,False,,старше 90 дн / нет
+diamonds,jewelry / diamond earrings,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+diamonds,jewelry / diamond earrings,AGE_RANGE,AGE_RANGE_45_54,False,,старше 90 дн / нет
+diamonds,jewelry / diamond earrings,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+diamonds,jewelry / diamond earrings,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+diamonds,jewelry / diamond earrings,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+diamonds,jewelry / diamond earrings,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+diamonds,jewelry / diamond earrings,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+diamonds,jewelry / diamond earrings,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+watches / lux,watches / lux / generic,GENDER,MALE,False,,старше 90 дн / нет
+watches / lux,watches / lux / generic,GENDER,FEMALE,False,,старше 90 дн / нет
+watches / lux,watches / lux / generic,GENDER,UNDETERMINED,False,,старше 90 дн / нет
+watches / lux,watches / lux / generic,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+watches / lux,watches / lux / generic,AGE_RANGE,AGE_RANGE_25_34,False,,старше 90 дн / нет
+watches / lux,watches / lux / generic,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+watches / lux,watches / lux / generic,AGE_RANGE,AGE_RANGE_45_54,False,,старше 90 дн / нет
+watches / lux,watches / lux / generic,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+watches / lux,watches / lux / generic,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+watches / lux,watches / lux / generic,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+watches / lux,watches / lux / generic,INCOME_RANGE,INCOME_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+watches / lux,watches / lux / generic,INCOME_RANGE,INCOME_RANGE_0_50,False,,старше 90 дн / нет
+watches / lux,watches / lux / generic,INCOME_RANGE,INCOME_RANGE_50_60,False,,старше 90 дн / нет
+watches / lux,watches / lux / generic,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+watches / lux,watches / lux / generic,INCOME_RANGE,INCOME_RANGE_70_80,False,,старше 90 дн / нет
+watches / lux,watches / lux / generic,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+watches / lux,watches / lux / generic,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+watches / lux,watches / lux / brands / other,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+watches / lux,watches / lux / brands / other,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+watches / lux,watches / lux / brands / other,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+watches / lux,watches / lux / brands / other,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+watches / lux,watches / lux / brands / other,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+watches / lux,watches / lux / brands / other,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+watches / lux,watches / lux / brands / rolex,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+watches / lux,watches / lux / brands / rolex,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+watches / lux,watches / lux / brands / rolex,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+watches / lux,watches / lux / brands / rolex,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+watches / lux,watches / lux / brands / rolex,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+watches / lux,watches / lux / brands / rolex,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / sell,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / sell,AGE_RANGE,AGE_RANGE_25_34,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / sell,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / sell,AGE_RANGE,AGE_RANGE_45_54,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / sell,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / sell,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / sell,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / sell,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / sell,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / sell,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / buyers,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / buyers,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / buyers,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / buyers,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / buyers,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / buyers,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / buyers,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / near me,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / near me,AGE_RANGE,AGE_RANGE_25_34,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / near me,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / near me,AGE_RANGE,AGE_RANGE_45_54,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / near me,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / near me,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / near me,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / near me,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / near me,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / near me,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / cash,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / cash,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / cash,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / cash,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / cash,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / cash,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / cash,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,AGE_RANGE,AGE_RANGE_25_34,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,AGE_RANGE,AGE_RANGE_45_54,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / generic / beverly hills,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,AGE_RANGE,AGE_RANGE_25_34,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,AGE_RANGE,AGE_RANGE_45_54,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / engagement ring,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,AGE_RANGE,AGE_RANGE_25_34,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,AGE_RANGE,AGE_RANGE_45_54,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / wedding ring,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / ring,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / ring,AGE_RANGE,AGE_RANGE_25_34,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / ring,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / ring,AGE_RANGE,AGE_RANGE_45_54,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / ring,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / ring,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / ring,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / ring,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / ring,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / non-lux / items / ring,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / sell,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / sell,AGE_RANGE,AGE_RANGE_25_34,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / sell,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / sell,AGE_RANGE,AGE_RANGE_45_54,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / sell,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / sell,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / sell,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / sell,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / sell,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / sell,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / buyers,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / buyers,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / buyers,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / buyers,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / buyers,INCOME_RANGE,INCOME_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / buyers,INCOME_RANGE,INCOME_RANGE_50_60,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / buyers,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / buyers,INCOME_RANGE,INCOME_RANGE_70_80,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / buyers,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / buyers,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / cash,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / cash,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / cash,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / cash,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / cash,INCOME_RANGE,INCOME_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / cash,INCOME_RANGE,INCOME_RANGE_50_60,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / cash,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / cash,INCOME_RANGE,INCOME_RANGE_70_80,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / cash,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / cash,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / near me,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / near me,AGE_RANGE,AGE_RANGE_25_34,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / near me,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / near me,AGE_RANGE,AGE_RANGE_45_54,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / near me,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / near me,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / near me,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / near me,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / near me,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / non-lux,jewelry / lux / generic / near me,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / other,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / other,AGE_RANGE,AGE_RANGE_25_34,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / other,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / other,AGE_RANGE,AGE_RANGE_45_54,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / other,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / other,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / other,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / other,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / other,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / other,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / tiffany,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / tiffany,AGE_RANGE,AGE_RANGE_25_34,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / tiffany,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / tiffany,AGE_RANGE,AGE_RANGE_45_54,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / tiffany,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / tiffany,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / tiffany,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / tiffany,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / tiffany,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / tiffany,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,AGE_RANGE,AGE_RANGE_25_34,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,AGE_RANGE,AGE_RANGE_45_54,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / cartier / jewelry,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / sell,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / sell,AGE_RANGE,AGE_RANGE_25_34,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / sell,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / sell,AGE_RANGE,AGE_RANGE_45_54,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / sell,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / sell,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / sell,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / sell,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / sell,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / sell,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / buyers,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / buyers,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / buyers,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / buyers,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / buyers,INCOME_RANGE,INCOME_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / buyers,INCOME_RANGE,INCOME_RANGE_50_60,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / buyers,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / buyers,INCOME_RANGE,INCOME_RANGE_70_80,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / buyers,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / buyers,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / near me,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / near me,AGE_RANGE,AGE_RANGE_25_34,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / near me,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / near me,AGE_RANGE,AGE_RANGE_45_54,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / near me,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / near me,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / near me,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / near me,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / near me,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / near me,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / cash,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / cash,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / cash,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / cash,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / cash,INCOME_RANGE,INCOME_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / cash,INCOME_RANGE,INCOME_RANGE_50_60,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / cash,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / cash,INCOME_RANGE,INCOME_RANGE_70_80,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / cash,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / generic / cash,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / van cleef,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / van cleef,AGE_RANGE,AGE_RANGE_25_34,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / van cleef,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / van cleef,AGE_RANGE,AGE_RANGE_45_54,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / van cleef,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / van cleef,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / van cleef,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / van cleef,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / van cleef,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / van cleef,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / cartier / braclete,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / cartier / braclete,AGE_RANGE,AGE_RANGE_25_34,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / cartier / braclete,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / cartier / braclete,AGE_RANGE,AGE_RANGE_45_54,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / cartier / braclete,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / cartier / braclete,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / cartier / braclete,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / cartier / braclete,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / cartier / braclete,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / lux,jewelry / lux / brands / cartier / braclete,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / engagement ring,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / engagement ring,AGE_RANGE,AGE_RANGE_25_34,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / engagement ring,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / engagement ring,AGE_RANGE,AGE_RANGE_45_54,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / engagement ring,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / engagement ring,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / engagement ring,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / engagement ring,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / engagement ring,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / engagement ring,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / wedding ring,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / wedding ring,AGE_RANGE,AGE_RANGE_25_34,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / wedding ring,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / wedding ring,AGE_RANGE,AGE_RANGE_45_54,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / wedding ring,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / wedding ring,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / wedding ring,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / wedding ring,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / wedding ring,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / wedding ring,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / ring,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / ring,AGE_RANGE,AGE_RANGE_25_34,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / ring,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / ring,AGE_RANGE,AGE_RANGE_45_54,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / ring,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / ring,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / ring,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / ring,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / ring,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+jewelry / lux,jewelry / non-lux / items / ring,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+silver,Silver,INCOME_RANGE,INCOME_RANGE_0_50,False,0.2,старше 90 дн / нет
+silver,Silver,INCOME_RANGE,INCOME_RANGE_60_70,False,1.15,старше 90 дн / нет
+silver,Silver Coins,INCOME_RANGE,INCOME_RANGE_0_50,False,0.2,старше 90 дн / нет
+silver,Silver Coins,INCOME_RANGE,INCOME_RANGE_60_70,False,1.15,старше 90 дн / нет
+silver,Silver Chain,INCOME_RANGE,INCOME_RANGE_0_50,False,0.2,старше 90 дн / нет
+silver,Silver Chain,INCOME_RANGE,INCOME_RANGE_60_70,False,1.15,старше 90 дн / нет
+silver,Silver Ring,INCOME_RANGE,INCOME_RANGE_0_50,False,0.2,старше 90 дн / нет
+silver,Silver Ring,INCOME_RANGE,INCOME_RANGE_60_70,False,1.15,старше 90 дн / нет
+silver,Sterling Silver - New,INCOME_RANGE,INCOME_RANGE_0_50,False,0.2,2026-10-05
+silver,Sterling Silver - New,INCOME_RANGE,INCOME_RANGE_60_70,False,1.15,2026-10-05
+silver,Silver Coins - New,INCOME_RANGE,INCOME_RANGE_0_50,False,0.2,2026-10-05
+silver,Silver Coins - New,INCOME_RANGE,INCOME_RANGE_60_70,False,1.15,2026-10-05
+silver,Silver - New,INCOME_RANGE,INCOME_RANGE_0_50,False,0.2,2026-09-21
+silver,Silver - New,INCOME_RANGE,INCOME_RANGE_60_70,False,1.15,2026-09-21
+gold_,Gold,INCOME_RANGE,INCOME_RANGE_0_50,False,,старше 90 дн / нет
+gold_,Gold,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+gold_,Gold Jewelry,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+gold_,Gold Jewelry,INCOME_RANGE,INCOME_RANGE_0_50,False,,старше 90 дн / нет
+gold_,Gold Jewelry,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+gold_,Gold Jewelry,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+gold_,Cash For Gold,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+gold_,Cash For Gold,INCOME_RANGE,INCOME_RANGE_0_50,False,,старше 90 дн / нет
+gold_,Cash For Gold,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+gold_,Cash For Gold,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
+gold_,Gold Coins,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+gold_,Gold Coins,INCOME_RANGE,INCOME_RANGE_0_50,False,,старше 90 дн / нет
+gold_,Gold Coins,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+gold_,Gold Bars,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+gold_,Gold Bars,INCOME_RANGE,INCOME_RANGE_0_50,False,,старше 90 дн / нет
+gold_,Gold Bars,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+gold_,Gold Chain,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+gold_,Gold Chain,INCOME_RANGE,INCOME_RANGE_0_50,False,,старше 90 дн / нет
+gold_,Gold Chain,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+gold_,Gold Beverly Hills,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+gold_,Gold Beverly Hills,INCOME_RANGE,INCOME_RANGE_0_50,False,,старше 90 дн / нет
+gold_,Gold Beverly Hills,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+gold_,Gold Near Me,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+gold_,Gold Near Me,INCOME_RANGE,INCOME_RANGE_0_50,False,,старше 90 дн / нет
+gold_,Gold Near Me,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+gold_,Gold Buyer,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+gold_,Gold Buyer,INCOME_RANGE,INCOME_RANGE_0_50,False,,старше 90 дн / нет
+gold_,Gold Buyer,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+gold_,Gold Ring,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+gold_,Gold Ring,INCOME_RANGE,INCOME_RANGE_0_50,False,,старше 90 дн / нет
+gold_,Gold Ring,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+watches / non-lux,watches / non-lux / generic,GENDER,MALE,False,,старше 90 дн / нет
+watches / non-lux,watches / non-lux / generic,GENDER,FEMALE,False,,старше 90 дн / нет
+watches / non-lux,watches / non-lux / generic,GENDER,UNDETERMINED,False,,старше 90 дн / нет
+watches / non-lux,watches / non-lux / generic,AGE_RANGE,AGE_RANGE_18_24,False,,старше 90 дн / нет
+watches / non-lux,watches / non-lux / generic,AGE_RANGE,AGE_RANGE_25_34,False,,старше 90 дн / нет
+watches / non-lux,watches / non-lux / generic,AGE_RANGE,AGE_RANGE_35_44,False,,старше 90 дн / нет
+watches / non-lux,watches / non-lux / generic,AGE_RANGE,AGE_RANGE_45_54,False,,старше 90 дн / нет
+watches / non-lux,watches / non-lux / generic,AGE_RANGE,AGE_RANGE_55_64,False,,старше 90 дн / нет
+watches / non-lux,watches / non-lux / generic,AGE_RANGE,AGE_RANGE_65_UP,False,,старше 90 дн / нет
+watches / non-lux,watches / non-lux / generic,AGE_RANGE,AGE_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+watches / non-lux,watches / non-lux / generic,INCOME_RANGE,INCOME_RANGE_UNDETERMINED,False,,старше 90 дн / нет
+watches / non-lux,watches / non-lux / generic,INCOME_RANGE,INCOME_RANGE_0_50,False,,старше 90 дн / нет
+watches / non-lux,watches / non-lux / generic,INCOME_RANGE,INCOME_RANGE_50_60,False,,старше 90 дн / нет
+watches / non-lux,watches / non-lux / generic,INCOME_RANGE,INCOME_RANGE_60_70,False,,старше 90 дн / нет
+watches / non-lux,watches / non-lux / generic,INCOME_RANGE,INCOME_RANGE_70_80,False,,старше 90 дн / нет
+watches / non-lux,watches / non-lux / generic,INCOME_RANGE,INCOME_RANGE_80_90,False,,старше 90 дн / нет
+watches / non-lux,watches / non-lux / generic,INCOME_RANGE,INCOME_RANGE_90_UP,False,,старше 90 дн / нет
