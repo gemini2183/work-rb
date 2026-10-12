@@ -8,7 +8,8 @@
   * создать группу объявлений (по умолчанию на паузе) с ключами PHRASE / EXACT / BROAD;
   * добавить RSA в указанные группы (и в новую), закрепления заголовков/описаний;
   * поставить на паузу объявления по id;
-  * создать сайтлинки / выноски / структурированный сниппет, привязать к кампании, отвязать старые.
+  * создать сайтлинки / выноски / структурированный сниппет, привязать к кампании, отвязать старые;
+  * сменить статус групп (`set_group_status`: [{"group": имя, "status": ENABLED|PAUSED}]).
 
 Режимы:
   без флагов     — ТОЛЬКО проверка (validate_only): Google проверяет весь пакет, ничего не создаёт;
@@ -125,6 +126,17 @@ def main():
         u.resource_name = ads[ad_id][0]
         u.status = E.AdGroupAdStatusEnum.PAUSED
         op.ad_group_ad_operation.update_mask.CopyFrom(field_mask_pb2.FieldMask(paths=["status"]))
+        ops.append(op)
+
+    # 0b. статус групп (например, включение после модерации) — отдельное согласование
+    for item in plan.get("set_group_status", []):
+        if item["group"] not in groups:
+            sys.exit(f"Группа '{item['group']}' не найдена в кампании")
+        op = mop()
+        u = op.ad_group_operation.update
+        u.resource_name = groups[item["group"]][1]
+        u.status = getattr(E.AdGroupStatusEnum, item["status"])
+        op.ad_group_operation.update_mask.CopyFrom(field_mask_pb2.FieldMask(paths=["status"]))
         ops.append(op)
 
     # 1. список минусов
@@ -340,6 +352,9 @@ def main():
         kws = q(f"SELECT ad_group_criterion.keyword.text, ad_group_criterion.keyword.match_type, ad_group_criterion.status FROM ad_group_criterion "
                 f"WHERE ad_group.name = '{ng['name']}' AND campaign.id = {camp_id} AND ad_group_criterion.type='KEYWORD'")
         print("ключей в новой группе:", len(kws), "| типы:", sorted({nm('KeywordMatchTypeEnum', 'KeywordMatchType', k.ad_group_criterion.keyword.match_type) for k in kws}))
+    for item in plan.get("set_group_status", []):
+        for r in q(f"SELECT ad_group.name, ad_group.status FROM ad_group WHERE campaign.id = {camp_id} AND ad_group.name = '{item['group']}'"):
+            print("группа:", r.ad_group.name, "|", nm('AdGroupStatusEnum', 'AdGroupStatus', r.ad_group.status))
     print("объявления кампании (включённые / на паузе) по группам:")
     cnt = {}
     for r in q(f"SELECT ad_group.name, ad_group_ad.status FROM ad_group_ad WHERE campaign.id = {camp_id} AND ad_group_ad.status != 'REMOVED'"):

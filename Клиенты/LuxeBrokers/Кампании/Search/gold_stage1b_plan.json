@@ -1,0 +1,8 @@
+{
+  "_comment": "Этап 1.9: включение группы harvest в gold_ после модерации. Согласовано пользователем 2026-10-12 («Харвест включаем»).",
+  "customer_id": "9534865605",
+  "campaign": "gold_",
+  "set_group_status": [
+    {"group": "gold_ / harvest 10-26", "status": "ENABLED"}
+  ]
+}
