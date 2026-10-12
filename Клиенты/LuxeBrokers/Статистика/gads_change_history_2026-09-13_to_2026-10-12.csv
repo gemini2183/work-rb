@@ -1,0 +1,301 @@
+Datetime,Campaign_resource,Resource_type,Operation,Client_type,User_email,Changed_fields,Relevant_fields,Is_relevant
+2026-10-12 04:09:30.350671,,ASSET,CREATE,INTERNAL_TOOL,infobox.anton@gmail.com,"id, resource_name",,False
+2026-10-12 04:09:30.155071,,ASSET,CREATE,INTERNAL_TOOL,infobox.anton@gmail.com,"id, resource_name",,False
+2026-10-12 04:09:30.103247,,ASSET,CREATE,INTERNAL_TOOL,infobox.anton@gmail.com,"id, resource_name",,False
+2026-10-11 23:59:15.853951,,ASSET,CREATE,INTERNAL_TOOL,infobox.anton@gmail.com,"id, resource_name",,False
+2026-10-11 23:59:15.795279,,ASSET,CREATE,INTERNAL_TOOL,infobox.anton@gmail.com,"id, resource_name",,False
+2026-10-11 23:59:15.602335,,ASSET,CREATE,INTERNAL_TOOL,infobox.anton@gmail.com,"id, resource_name",,False
+2026-10-09 13:29:03.749879,customers/9534865605/campaigns/21874137004,CAMPAIGN,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,ai_max_setting.enable_ai_max,,False
+2026-10-09 13:27:40.006104,customers/9534865605/campaigns/23733296589,CAMPAIGN,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ai_max_setting.enable_ai_max, asset_automation_settings",,False
+2026-10-09 01:09:28.261519,,CUSTOMER_ASSET,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-08 09:08:36.164431,,ASSET,CREATE,INTERNAL_TOOL,infobox.anton@gmail.com,"id, resource_name",,False
+2026-10-08 07:32:53.534447,,CUSTOMER_ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-08 07:32:53.534447,,ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"call_asset.call_conversion_action, call_asset.call_conversion_reporting_state, call_asset.country_code, call_asset.phone_number, id, resource_name",,False
+2026-10-05 08:32:51.768951,customers/9534865605/campaigns/21874137004,CAMPAIGN,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,maximize_conversions.target_cpa_micros,maximize_conversions.target_cpa_micros,True
+2026-10-05 08:32:51.768951,customers/9534865605/campaigns/21874137004,CAMPAIGN_BUDGET,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,amount_micros,amount_micros,True
+2026-10-05 08:29:52.581926,customers/9534865605/campaigns/21874137004,CAMPAIGN,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,asset_automation_settings,,False
+2026-10-05 08:29:17.290015,customers/9534865605/campaigns/21874137004,CAMPAIGN_BUDGET,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,amount_micros,amount_micros,True
+2026-10-05 08:14:18.845151,customers/9534865605/campaigns/22021627355,AD_GROUP_BID_MODIFIER,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,bid_modifier,,False
+2026-10-05 08:14:18.845151,customers/9534865605/campaigns/22021627355,AD_GROUP_BID_MODIFIER,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,bid_modifier,,False
+2026-10-05 08:14:18.845151,customers/9534865605/campaigns/22021627355,AD_GROUP_BID_MODIFIER,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,bid_modifier,,False
+2026-10-05 08:13:59.451023,customers/9534865605/campaigns/22021627355,AD_GROUP_BID_MODIFIER,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_group, bid_modifier, criterion_id, device.type, resource_name",,False
+2026-10-05 08:13:59.451023,customers/9534865605/campaigns/22021627355,AD_GROUP_BID_MODIFIER,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_group, bid_modifier, criterion_id, device.type, resource_name",,False
+2026-10-05 08:13:59.451023,customers/9534865605/campaigns/22021627355,AD_GROUP_BID_MODIFIER,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_group, bid_modifier, criterion_id, device.type, resource_name",,False
+2026-10-05 08:13:09.589164,customers/9534865605/campaigns/22021627355,CAMPAIGN,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,target_spend.cpc_bid_ceiling_micros,target_spend.cpc_bid_ceiling_micros,True
+2026-10-05 07:41:42.14634,customers/9534865605/campaigns/22021627355,CAMPAIGN,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,target_spend.cpc_bid_ceiling_micros,target_spend.cpc_bid_ceiling_micros,True
+2026-10-05 07:41:08.934319,customers/9534865605/campaigns/22021627355,CAMPAIGN_BUDGET,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,amount_micros,amount_micros,True
+2026-10-05 03:36:28.643855,,ASSET,CREATE,INTERNAL_TOOL,infobox.anton@gmail.com,"id, resource_name",,False
+2026-10-05 03:36:28.613391,,ASSET,CREATE,INTERNAL_TOOL,infobox.anton@gmail.com,"id, resource_name",,False
+2026-10-05 03:36:28.560895,,ASSET,CREATE,INTERNAL_TOOL,infobox.anton@gmail.com,"id, resource_name",,False
+2026-10-05 03:36:27.516623,,ASSET,CREATE,INTERNAL_TOOL,infobox.anton@gmail.com,"id, resource_name",,False
+2026-10-02 02:19:53.835375,,ASSET,CREATE,INTERNAL_TOOL,infobox.anton@gmail.com,"id, resource_name",,False
+2026-10-02 02:19:53.828927,,ASSET,CREATE,INTERNAL_TOOL,infobox.anton@gmail.com,"id, resource_name",,False
+2026-10-02 02:19:53.786239,,ASSET,CREATE,INTERNAL_TOOL,infobox.anton@gmail.com,"id, resource_name",,False
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:43:53.640858,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-10-01 07:42:07.311898,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-29 09:24:03.150079,,ASSET,CREATE,INTERNAL_TOOL,infobox.anton@gmail.com,"id, resource_name",,False
+2026-09-29 05:38:39.837978,customers/9534865605/campaigns/21874137004,CAMPAIGN,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ai_max_setting.enable_ai_max, asset_automation_settings",,False
+2026-09-29 05:37:55.645562,customers/9534865605/campaigns/22021627355,CAMPAIGN_BUDGET,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,amount_micros,amount_micros,True
+2026-09-29 05:36:48.674799,customers/9534865605/campaigns/22025494312,CAMPAIGN_ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-29 05:36:48.674799,customers/9534865605/campaigns/22025494312,CAMPAIGN_ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-29 05:36:48.674799,customers/9534865605/campaigns/22025494312,CAMPAIGN_ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-29 05:36:48.674799,customers/9534865605/campaigns/22025494312,CAMPAIGN_ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-29 05:36:48.674799,customers/9534865605/campaigns/22025494312,CAMPAIGN_ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-29 05:36:48.674799,customers/9534865605/campaigns/22025494312,CAMPAIGN_ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-29 05:36:34.258303,customers/9534865605/campaigns/22021627355,CAMPAIGN_ASSET,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"asset, campaign, field_type, resource_name, source, status",status,True
+2026-09-29 05:36:34.258303,,ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"final_urls, id, resource_name, sitelink_asset.description1, sitelink_asset.description2, sitelink_asset.link_text",,False
+2026-09-29 05:36:34.258303,customers/9534865605/campaigns/22021627355,CAMPAIGN_ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-29 05:36:12.353519,customers/9534865605/campaigns/22021627355,CAMPAIGN_ASSET,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"asset, campaign, field_type, resource_name, source, status",status,True
+2026-09-29 05:36:12.353519,,ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"final_urls, id, resource_name, sitelink_asset.description1, sitelink_asset.description2, sitelink_asset.link_text",,False
+2026-09-29 05:36:12.353519,customers/9534865605/campaigns/22021627355,CAMPAIGN_ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-29 05:35:50.046559,customers/9534865605/campaigns/22021627355,CAMPAIGN_ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-29 05:35:50.046559,,ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"final_urls, id, resource_name, sitelink_asset.description1, sitelink_asset.description2, sitelink_asset.link_text",,False
+2026-09-29 05:35:50.046559,customers/9534865605/campaigns/22021627355,CAMPAIGN_ASSET,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"asset, campaign, field_type, resource_name, source, status",status,True
+2026-09-29 05:35:37.686111,customers/9534865605/campaigns/22021627355,CAMPAIGN_ASSET,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"asset, campaign, field_type, resource_name, source, status",status,True
+2026-09-29 05:35:37.686111,,ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"final_urls, id, resource_name, sitelink_asset.description1, sitelink_asset.description2, sitelink_asset.link_text",,False
+2026-09-29 05:35:37.686111,customers/9534865605/campaigns/22021627355,CAMPAIGN_ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-29 05:35:27.426639,,ASSET,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,final_urls,,False
+2026-09-29 05:35:16.197631,customers/9534865605/campaigns/22021627355,CAMPAIGN_ASSET,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"asset, campaign, field_type, resource_name, source, status",status,True
+2026-09-29 05:35:16.197631,,ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"final_urls, id, resource_name, sitelink_asset.description1, sitelink_asset.description2, sitelink_asset.link_text",,False
+2026-09-29 05:35:16.197631,customers/9534865605/campaigns/22021627355,CAMPAIGN_ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-29 05:34:59.483167,,ASSET,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,final_urls,,False
+2026-09-29 05:34:30.778063,customers/9534865605/campaigns/22021627355,CAMPAIGN_ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-29 05:34:30.778063,,ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"final_urls, id, resource_name, sitelink_asset.description1, sitelink_asset.description2, sitelink_asset.link_text",,False
+2026-09-29 05:34:30.778063,customers/9534865605/campaigns/22021627355,CAMPAIGN_ASSET,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"asset, campaign, field_type, resource_name, source, status",status,True
+2026-09-29 05:34:12.896575,,ASSET,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,final_urls,,False
+2026-09-29 05:34:02.615023,,ASSET,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,final_urls,,False
+2026-09-29 05:33:51.229791,customers/9534865605/campaigns/22021627355,CAMPAIGN_ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-29 05:33:51.229791,customers/9534865605/campaigns/22021627355,CAMPAIGN_ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-29 05:33:51.229791,customers/9534865605/campaigns/22021627355,CAMPAIGN_ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-29 05:33:51.229791,customers/9534865605/campaigns/22021627355,CAMPAIGN_ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-29 05:33:51.229791,customers/9534865605/campaigns/22021627355,CAMPAIGN_ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-29 05:33:51.229791,customers/9534865605/campaigns/22021627355,CAMPAIGN_ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-25 06:44:38.313347,customers/9534865605/campaigns/21863567679,CAMPAIGN,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,maximize_conversions.target_cpa_micros,maximize_conversions.target_cpa_micros,True
+2026-09-25 06:44:15.500612,customers/9534865605/campaigns/22025494312,CAMPAIGN_BUDGET,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,amount_micros,amount_micros,True
+2026-09-25 06:42:45.18391,customers/9534865605/campaigns/22025494312,CAMPAIGN,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,maximize_conversions.target_cpa_micros,maximize_conversions.target_cpa_micros,True
+2026-09-22 03:06:52.444036,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-22 03:06:52.444036,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-22 03:06:52.444036,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-22 03:06:52.444036,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-22 03:06:52.444036,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-22 03:06:52.444036,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-21 08:47:51.508047,customers/9534865605/campaigns/22021627355,CAMPAIGN_CRITERION,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"campaign, criterion_id, keyword.match_type, keyword.text, negative, resource_name",,False
+2026-09-21 08:47:51.508047,customers/9534865605/campaigns/22021627355,CAMPAIGN_CRITERION,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"campaign, criterion_id, keyword.match_type, keyword.text, negative, resource_name",,False
+2026-09-21 08:47:51.508047,customers/9534865605/campaigns/22021627355,CAMPAIGN_CRITERION,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"campaign, criterion_id, keyword.match_type, keyword.text, negative, resource_name",,False
+2026-09-21 08:47:51.508047,customers/9534865605/campaigns/22021627355,CAMPAIGN_CRITERION,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"campaign, criterion_id, keyword.match_type, keyword.text, negative, resource_name",,False
+2026-09-21 08:47:51.508047,customers/9534865605/campaigns/22021627355,CAMPAIGN_CRITERION,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"campaign, criterion_id, keyword.match_type, keyword.text, negative, resource_name",,False
+2026-09-21 08:47:51.508047,customers/9534865605/campaigns/22021627355,CAMPAIGN_CRITERION,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"campaign, criterion_id, keyword.match_type, keyword.text, negative, resource_name",,False
+2026-09-21 08:47:51.508047,customers/9534865605/campaigns/22021627355,CAMPAIGN_CRITERION,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"campaign, criterion_id, keyword.match_type, keyword.text, negative, resource_name",,False
+2026-09-21 08:47:51.508047,customers/9534865605/campaigns/22021627355,CAMPAIGN_CRITERION,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"campaign, criterion_id, keyword.match_type, keyword.text, negative, resource_name",,False
+2026-09-21 08:47:51.508047,customers/9534865605/campaigns/22021627355,CAMPAIGN_CRITERION,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"campaign, criterion_id, keyword.match_type, keyword.text, negative, resource_name",,False
+2026-09-21 08:47:22.649186,customers/9534865605/campaigns/22021627355,CAMPAIGN_BUDGET,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,amount_micros,amount_micros,True
+2026-09-21 08:35:00.209082,customers/9534865605/campaigns/22021627355,CAMPAIGN,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,target_spend.cpc_bid_ceiling_micros,target_spend.cpc_bid_ceiling_micros,True
+2026-09-21 08:34:39.340225,customers/9534865605/campaigns/21863784402,CAMPAIGN_BUDGET,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,amount_micros,amount_micros,True
+2026-09-21 08:34:11.53271,customers/9534865605/campaigns/23733296589,CAMPAIGN_BUDGET,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,amount_micros,amount_micros,True
+2026-09-21 08:34:03.422061,customers/9534865605/campaigns/23733296589,CAMPAIGN,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,maximize_conversions.target_cpa_micros,maximize_conversions.target_cpa_micros,True
+2026-09-21 08:32:17.637274,customers/9534865605/campaigns/21863567679,CAMPAIGN_BUDGET,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,amount_micros,amount_micros,True
+2026-09-21 08:29:55.44581,customers/9534865605/campaigns/21863784402,CAMPAIGN_BUDGET,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,amount_micros,amount_micros,True
+2026-09-21 08:29:06.989855,customers/9534865605/campaigns/21863784402,CAMPAIGN_CRITERION,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, campaign, criterion_id, resource_name","ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute",True
+2026-09-21 08:29:06.989855,customers/9534865605/campaigns/21863784402,CAMPAIGN_CRITERION,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, campaign, criterion_id, resource_name","ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute",True
+2026-09-21 08:29:06.989855,customers/9534865605/campaigns/21863784402,CAMPAIGN_CRITERION,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, campaign, criterion_id, resource_name","ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute",True
+2026-09-21 08:29:06.989855,customers/9534865605/campaigns/21863784402,CAMPAIGN_CRITERION,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, campaign, criterion_id, resource_name","ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute",True
+2026-09-21 08:29:06.989855,customers/9534865605/campaigns/21863784402,CAMPAIGN_CRITERION,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, campaign, criterion_id, resource_name","ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute",True
+2026-09-21 08:29:06.989855,customers/9534865605/campaigns/21863784402,CAMPAIGN_CRITERION,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, campaign, criterion_id, resource_name","ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute",True
+2026-09-16 23:38:04.519341,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-16 23:37:49.818525,customers/9534865605/campaigns/22021627355,CAMPAIGN,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-16 23:37:44.057119,customers/9534865605/campaigns/22021627355,AD_GROUP,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-16 23:37:44.057119,customers/9534865605/campaigns/22021627355,AD_GROUP,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-16 23:37:44.057119,customers/9534865605/campaigns/22021627355,AD_GROUP,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-16 23:37:19.993413,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_group, criterion_id, keyword.text, negative, resource_name, status",status,True
+2026-09-16 23:37:19.993413,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_group, criterion_id, keyword.text, negative, resource_name, status",status,True
+2026-09-16 23:37:19.993413,customers/9534865605/campaigns/22021627355,AD_GROUP_CRITERION,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_group, criterion_id, keyword.text, negative, resource_name, status",status,True
+2026-09-16 23:35:10.594415,customers/9534865605/campaigns/21874148347,AD_GROUP_BID_MODIFIER,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_group, bid_modifier, criterion_id, device.type, resource_name",,False
+2026-09-16 23:35:10.594415,customers/9534865605/campaigns/21874148347,AD_GROUP_BID_MODIFIER,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_group, bid_modifier, criterion_id, device.type, resource_name",,False
+2026-09-16 23:35:10.594415,customers/9534865605/campaigns/21874148347,AD_GROUP_BID_MODIFIER,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_group, bid_modifier, criterion_id, device.type, resource_name",,False
+2026-09-16 23:35:10.594415,customers/9534865605/campaigns/21874148347,AD_GROUP_BID_MODIFIER,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_group, bid_modifier, criterion_id, device.type, resource_name",,False
+2026-09-16 23:35:10.594415,customers/9534865605/campaigns/21874148347,AD_GROUP_BID_MODIFIER,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_group, bid_modifier, criterion_id, device.type, resource_name",,False
+2026-09-16 23:35:10.594415,customers/9534865605/campaigns/21874148347,AD_GROUP_BID_MODIFIER,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_group, bid_modifier, criterion_id, device.type, resource_name",,False
+2026-09-16 23:35:10.594415,customers/9534865605/campaigns/21874148347,AD_GROUP_BID_MODIFIER,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_group, bid_modifier, criterion_id, device.type, resource_name",,False
+2026-09-16 23:35:10.594415,customers/9534865605/campaigns/21874148347,AD_GROUP_BID_MODIFIER,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_group, bid_modifier, criterion_id, device.type, resource_name",,False
+2026-09-16 23:35:10.594415,customers/9534865605/campaigns/21874148347,AD_GROUP_BID_MODIFIER,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_group, bid_modifier, criterion_id, device.type, resource_name",,False
+2026-09-16 23:35:05.252503,customers/9534865605/campaigns/21874148347,CAMPAIGN,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"maximize_conversions.target_cpa_micros, target_spend.cpc_bid_ceiling_micros","maximize_conversions.target_cpa_micros, target_spend.cpc_bid_ceiling_micros",True
+2026-09-16 23:34:25.063871,customers/9534865605/campaigns/21874148347,AD_GROUP,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
+2026-09-16 23:33:20.228278,customers/9534865605/campaigns/23733296589,CAMPAIGN,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,maximize_conversions.target_cpa_micros,maximize_conversions.target_cpa_micros,True
+2026-09-16 23:33:04.983387,customers/9534865605/campaigns/21863567679,CAMPAIGN,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,maximize_conversions.target_cpa_micros,maximize_conversions.target_cpa_micros,True
+2026-09-16 23:32:28.505853,customers/9534865605/campaigns/21874137004,CAMPAIGN_BUDGET,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,amount_micros,amount_micros,True
+2026-09-16 23:32:23.614104,customers/9534865605/campaigns/21863567679,CAMPAIGN_BUDGET,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,amount_micros,amount_micros,True
+2026-09-16 23:32:17.526535,customers/9534865605/campaigns/21874148347,CAMPAIGN_BUDGET,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,amount_micros,amount_micros,True
+2026-09-16 23:32:09.931928,customers/9534865605/campaigns/23733296589,CAMPAIGN_BUDGET,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,amount_micros,amount_micros,True
+2026-09-16 23:31:25.632883,customers/9534865605/campaigns/22025494312,CAMPAIGN_BUDGET,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,amount_micros,amount_micros,True
+2026-09-16 23:30:58.285678,customers/9534865605/campaigns/22025494312,CAMPAIGN,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"maximize_conversions.target_cpa_micros, target_spend.cpc_bid_ceiling_micros","maximize_conversions.target_cpa_micros, target_spend.cpc_bid_ceiling_micros",True
+2026-09-15 00:02:49.337567,customers/9534865605/campaigns/21863784402,CAMPAIGN_CRITERION,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, campaign, criterion_id, negative, resource_name, status","ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, status",True
+2026-09-15 00:02:49.337567,customers/9534865605/campaigns/21863784402,CAMPAIGN_CRITERION,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, campaign, criterion_id, negative, resource_name, status","ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, status",True
+2026-09-15 00:02:49.337567,customers/9534865605/campaigns/21863784402,CAMPAIGN_CRITERION,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, campaign, criterion_id, negative, resource_name, status","ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, status",True
+2026-09-15 00:02:49.337567,customers/9534865605/campaigns/21863784402,CAMPAIGN_CRITERION,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, campaign, criterion_id, negative, resource_name, status","ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, status",True
+2026-09-15 00:02:49.337567,customers/9534865605/campaigns/21863784402,CAMPAIGN_CRITERION,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, campaign, criterion_id, negative, resource_name, status","ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, status",True
+2026-09-15 00:02:49.337567,customers/9534865605/campaigns/21863784402,CAMPAIGN_CRITERION,REMOVE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,"ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, campaign, criterion_id, negative, resource_name, status","ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, status",True
