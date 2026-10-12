@@ -918,3 +918,17 @@ python gads_search_terms_head.py --customer-id 213-621-6123 --client-folder "And
 ```
 
 Ограничения: PMax не покрыт (`search_term_view` пуст); охват отчёта у Landver — 40% показов чистого поиска (остальное скрыто порогом приватности Google); `--campaign-contains` — подстрока без регистра, тему (dog bite / ДТП) отдельно отсекать по колонке Campaign.
+
+## Конфликты минус-слов: `gads_negatives_conflicts.py` (ТОЛЬКО ЧТЕНИЕ)
+
+Читает минусы кампании (кампанийные + подключённые общие списки; уровень группы только числом) и проверяет по правилам совпадения Google (широкий — все слова в любом порядке, фразовый — подряд, точный — целиком; без стемминга), какие минусы блокируют заданные фразы: `--candidates` (CSV с колонкой `keyword`, опционально `group`) и/или `--own-keywords` (позитивные ключи самой кампании). Пишет `Статистика/negatives_conflicts_<дата>.csv`.
+
+```
+python gads_negatives_conflicts.py --customer-id 213-621-6123 --client-folder "Andverpersonalinjury" \
+    --campaign "search / car+truck injuries / s / lp - tilda" --candidates exact_candidates.csv --own-keywords
+```
+Первый прогон (Landver, 2026-10-12): 1 657 минусов, 11 блокировок из 287 проверок; среди них широкие «costa», «mission», «viejo», режущие города из гео кампании.
+
+## Объёмы по заданному списку: `gads_keyword_volumes.py` (ТОЛЬКО ЧТЕНИЕ)
+
+`generate_keyword_historical_metrics`: по каждой фразе из CSV (колонка `keyword`) — средний месячный объём и диапазон ставок «верх страницы». Отличие от `gads_keyword_ideas.py`: тот подбирает идеи по seed-словам, этот отвечает по списку, который собрали мы сами. Гео по умолчанию California (21137) — оценка сверху для кампании с гео из городов. Planner объединяет близкие варианты (одинаковые объёмы у разных формулировок — кластер).
