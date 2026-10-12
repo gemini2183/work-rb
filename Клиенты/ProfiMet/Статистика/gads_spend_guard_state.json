@@ -1,0 +1,20 @@
+{
+ "24332178236": {
+  "date": "2026-10-12",
+  "calls_max": 3,
+  "leads_max": 0,
+  "reenabled": 0,
+  "warned": false,
+  "paused_by_guard": false,
+  "no_resume": false
+ },
+ "23775369828": {
+  "date": "2026-10-12",
+  "calls_max": 2,
+  "leads_max": 0,
+  "reenabled": 0,
+  "warned": false,
+  "paused_by_guard": false,
+  "no_resume": false
+ }
+}
