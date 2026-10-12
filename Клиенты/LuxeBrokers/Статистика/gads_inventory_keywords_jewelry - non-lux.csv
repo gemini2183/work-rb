@@ -1,0 +1,164 @@
+Ad_group,Keyword,Match_type,Status
+jewelry / lux / generic / buyers,Fine Jewelry Buyers,PHRASE,ENABLED
+jewelry / lux / generic / buyers,Fine Jewelry Buyers Near Me,PHRASE,ENABLED
+jewelry / lux / generic / buyers,High-End Jewelry Buyer,PHRASE,ENABLED
+jewelry / lux / generic / buyers,Luxury Jewelry Buyer,PHRASE,ENABLED
+jewelry / lux / generic / buyers,We Buy High-End Jewelry,PHRASE,ENABLED
+jewelry / lux / generic / buyers,We Buy Luxury Jewelry,PHRASE,ENABLED
+jewelry / lux / generic / buyers,cash,BROAD,ENABLED
+jewelry / lux / generic / buyers,diamond,BROAD,ENABLED
+jewelry / lux / generic / buyers,diamonds,BROAD,ENABLED
+jewelry / lux / generic / buyers,pulseras para vender,EXACT,ENABLED
+jewelry / lux / generic / buyers,sell,BROAD,ENABLED
+jewelry / lux / generic / buyers,tustin,BROAD,ENABLED
+jewelry / lux / generic / cash,Cash For Fine Jewelry,PHRASE,ENABLED
+jewelry / lux / generic / cash,Cash For High-End Jewelry,PHRASE,ENABLED
+jewelry / lux / generic / cash,Cash For Luxury Jewelry,PHRASE,ENABLED
+jewelry / lux / generic / cash,diamond,BROAD,ENABLED
+jewelry / lux / generic / cash,diamonds,BROAD,ENABLED
+jewelry / lux / generic / cash,pulseras para vender,EXACT,ENABLED
+jewelry / lux / generic / cash,sell,BROAD,ENABLED
+jewelry / lux / generic / cash,tustin,BROAD,ENABLED
+jewelry / lux / generic / near me,Sell Designer Jewelry Nearby,PHRASE,ENABLED
+jewelry / lux / generic / near me,Sell Fine Jewelry Nearby,PHRASE,ENABLED
+jewelry / lux / generic / near me,Sell High-End Jewelry Nearby,PHRASE,ENABLED
+jewelry / lux / generic / near me,Sell Luxury Jewelry Nearby,PHRASE,ENABLED
+jewelry / lux / generic / near me,Sell Your Fine Jewelry Nearby,PHRASE,ENABLED
+jewelry / lux / generic / near me,diamond,BROAD,ENABLED
+jewelry / lux / generic / near me,diamonds,BROAD,ENABLED
+jewelry / lux / generic / near me,pulseras para vender,EXACT,ENABLED
+jewelry / lux / generic / near me,thousand oaks,BROAD,ENABLED
+jewelry / lux / generic / near me,tustin,BROAD,ENABLED
+jewelry / lux / generic / near me,엘에이 돌 반지 파는 곳,BROAD,ENABLED
+jewelry / lux / generic / sell,Sell Designer Jewelry,PHRASE,ENABLED
+jewelry / lux / generic / sell,Sell Expensive Jewelry,PHRASE,ENABLED
+jewelry / lux / generic / sell,Sell Fine Jewelry,PHRASE,PAUSED
+jewelry / lux / generic / sell,Sell High-End Jewelry,PHRASE,ENABLED
+jewelry / lux / generic / sell,Sell Luxury Jewelry,PHRASE,ENABLED
+jewelry / lux / generic / sell,Sell Your Fine Jewelry,PHRASE,PAUSED
+jewelry / lux / generic / sell,diamond,BROAD,ENABLED
+jewelry / lux / generic / sell,diamonds,BROAD,ENABLED
+jewelry / lux / generic / sell,pulseras para vender,EXACT,ENABLED
+jewelry / lux / generic / sell,thousand oaks,BROAD,ENABLED
+jewelry / lux / generic / sell,tustin,BROAD,ENABLED
+jewelry / lux / generic / sell,엘에이 돌 반지 파는 곳,BROAD,ENABLED
+jewelry / non-lux / generic / beverly hills,Cash For Jewelry Beverly Hills,PHRASE,ENABLED
+jewelry / non-lux / generic / beverly hills,Jewelry Buyer Beverly Hills,PHRASE,ENABLED
+jewelry / non-lux / generic / beverly hills,Sell Jewelry Beverly Hills,PHRASE,ENABLED
+jewelry / non-lux / generic / beverly hills,We Buy Jewelry Beverly Hills,PHRASE,ENABLED
+jewelry / non-lux / generic / beverly hills,buyers,BROAD,ENABLED
+jewelry / non-lux / generic / beverly hills,diamond,BROAD,ENABLED
+jewelry / non-lux / generic / beverly hills,diamonds,BROAD,ENABLED
+jewelry / non-lux / generic / beverly hills,pulseras para vender,EXACT,ENABLED
+jewelry / non-lux / generic / beverly hills,thousand oaks,BROAD,ENABLED
+jewelry / non-lux / generic / beverly hills,tustin,BROAD,ENABLED
+jewelry / non-lux / generic / beverly hills,엘에이 돌 반지 파는 곳,BROAD,ENABLED
+jewelry / non-lux / generic / buyers,Jewelry Buyer,PHRASE,ENABLED
+jewelry / non-lux / generic / buyers,We Buy Jewelry,PHRASE,ENABLED
+jewelry / non-lux / generic / buyers,cash,BROAD,ENABLED
+jewelry / non-lux / generic / buyers,diamond,BROAD,ENABLED
+jewelry / non-lux / generic / buyers,diamonds,BROAD,ENABLED
+jewelry / non-lux / generic / buyers,pulseras para vender,EXACT,ENABLED
+jewelry / non-lux / generic / buyers,sell,BROAD,ENABLED
+jewelry / non-lux / generic / buyers,tustin,BROAD,ENABLED
+jewelry / non-lux / generic / cash,Cash For Jewelry,PHRASE,ENABLED
+jewelry / non-lux / generic / cash,diamond,BROAD,ENABLED
+jewelry / non-lux / generic / cash,diamonds,BROAD,ENABLED
+jewelry / non-lux / generic / cash,pulseras para vender,EXACT,ENABLED
+jewelry / non-lux / generic / cash,sell,BROAD,ENABLED
+jewelry / non-lux / generic / cash,tustin,BROAD,ENABLED
+jewelry / non-lux / generic / near me,Cash For Jewelry Nearby,PHRASE,ENABLED
+jewelry / non-lux / generic / near me,Jewelry Buyer Nearby,PHRASE,ENABLED
+jewelry / non-lux / generic / near me,Sell Jewelry Nearby,PHRASE,ENABLED
+jewelry / non-lux / generic / near me,We Buy Jewelry Nearby,PHRASE,ENABLED
+jewelry / non-lux / generic / near me,buyers,BROAD,ENABLED
+jewelry / non-lux / generic / near me,diamond,BROAD,ENABLED
+jewelry / non-lux / generic / near me,diamonds,BROAD,ENABLED
+jewelry / non-lux / generic / near me,pulseras para vender,EXACT,ENABLED
+jewelry / non-lux / generic / near me,thousand oaks,BROAD,ENABLED
+jewelry / non-lux / generic / near me,tustin,BROAD,ENABLED
+jewelry / non-lux / generic / near me,엘에이 돌 반지 파는 곳,BROAD,ENABLED
+jewelry / non-lux / generic / sell,Sell Jewelry,PHRASE,ENABLED
+jewelry / non-lux / generic / sell,buy,BROAD,ENABLED
+jewelry / non-lux / generic / sell,buyer,BROAD,ENABLED
+jewelry / non-lux / generic / sell,buyers,BROAD,ENABLED
+jewelry / non-lux / generic / sell,buys,BROAD,ENABLED
+jewelry / non-lux / generic / sell,cash,BROAD,ENABLED
+jewelry / non-lux / generic / sell,gemstones,BROAD,ENABLED
+jewelry / non-lux / generic / sell,pulseras para vender,EXACT,ENABLED
+jewelry / non-lux / generic / sell,thousand oaks,BROAD,ENABLED
+jewelry / non-lux / generic / sell,tiffany,BROAD,ENABLED
+jewelry / non-lux / generic / sell,tustin,BROAD,ENABLED
+jewelry / non-lux / generic / sell,엘에이 돌 반지 파는 곳,BROAD,ENABLED
+jewelry / non-lux / items / engagement ring,Sell Engagement Ring,PHRASE,ENABLED
+jewelry / non-lux / items / engagement ring,best place to sell engagement ring,PHRASE,ENABLED
+jewelry / non-lux / items / engagement ring,best place to sell engagement ring near me,PHRASE,ENABLED
+jewelry / non-lux / items / engagement ring,best place to sell my engagement ring,PHRASE,ENABLED
+jewelry / non-lux / items / engagement ring,best place to sell your engagement ring,PHRASE,ENABLED
+jewelry / non-lux / items / engagement ring,best way to sell engagement ring,PHRASE,ENABLED
+jewelry / non-lux / items / engagement ring,buyer,BROAD,ENABLED
+jewelry / non-lux / items / engagement ring,buyers,BROAD,ENABLED
+jewelry / non-lux / items / engagement ring,diamond,BROAD,ENABLED
+jewelry / non-lux / items / engagement ring,diamonds,BROAD,ENABLED
+jewelry / non-lux / items / engagement ring,engagement ring resale,PHRASE,ENABLED
+jewelry / non-lux / items / engagement ring,i want to sell my engagement ring,PHRASE,ENABLED
+jewelry / non-lux / items / engagement ring,places to sell engagement rings,PHRASE,ENABLED
+jewelry / non-lux / items / engagement ring,pulseras para vender,EXACT,ENABLED
+jewelry / non-lux / items / engagement ring,sell engagement ring for cash,PHRASE,ENABLED
+jewelry / non-lux / items / engagement ring,sell engagement ring near me,PHRASE,ENABLED
+jewelry / non-lux / items / engagement ring,sell my engagement ring,PHRASE,ENABLED
+jewelry / non-lux / items / engagement ring,sell my engagement ring near me,PHRASE,ENABLED
+jewelry / non-lux / items / engagement ring,sell my old engagement ring,PHRASE,ENABLED
+jewelry / non-lux / items / engagement ring,sell old engagement ring,PHRASE,ENABLED
+jewelry / non-lux / items / engagement ring,sell used engagement ring,PHRASE,ENABLED
+jewelry / non-lux / items / engagement ring,sell your engagement ring,PHRASE,ENABLED
+jewelry / non-lux / items / engagement ring,sell your engagement ring near me,PHRASE,ENABLED
+jewelry / non-lux / items / engagement ring,selling engagement ring after divorce,PHRASE,ENABLED
+jewelry / non-lux / items / engagement ring,thousand oaks,BROAD,ENABLED
+jewelry / non-lux / items / engagement ring,tustin,BROAD,ENABLED
+jewelry / non-lux / items / engagement ring,엘에이 돌 반지 파는 곳,BROAD,ENABLED
+jewelry / non-lux / items / ring,Sell Ring,PHRASE,ENABLED
+jewelry / non-lux / items / ring,Sell Ring,EXACT,ENABLED
+jewelry / non-lux / items / ring,buyer,BROAD,ENABLED
+jewelry / non-lux / items / ring,buyers,BROAD,ENABLED
+jewelry / non-lux / items / ring,diamond,BROAD,ENABLED
+jewelry / non-lux / items / ring,diamonds,BROAD,ENABLED
+jewelry / non-lux / items / ring,pulseras para vender,EXACT,ENABLED
+jewelry / non-lux / items / ring,thousand oaks,BROAD,ENABLED
+jewelry / non-lux / items / ring,tustin,BROAD,ENABLED
+jewelry / non-lux / items / ring,엘에이 돌 반지 파는 곳,BROAD,ENABLED
+jewelry / non-lux / items / wedding ring,Sell Wedding Ring,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,best place to sell my wedding ring,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,best place to sell old wedding ring,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,best place to sell wedding ring,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,best place to sell wedding ring near me,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,best place to sell your wedding ring,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,best way to sell wedding ring,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,best way to sell wedding ring set,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,best way to sell your wedding ring,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,buyer,BROAD,ENABLED
+jewelry / non-lux / items / wedding ring,buyers,BROAD,ENABLED
+jewelry / non-lux / items / wedding ring,diamond,BROAD,ENABLED
+jewelry / non-lux / items / wedding ring,diamonds,BROAD,ENABLED
+jewelry / non-lux / items / wedding ring,i want to sell my wedding ring,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,places to sell wedding rings,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,pulseras para vender,EXACT,ENABLED
+jewelry / non-lux / items / wedding ring,sell mens wedding band,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,sell my wedding band,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,sell my wedding ring,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,sell my wedding ring near me,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,sell old wedding ring,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,sell platinum wedding band,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,sell used wedding ring,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,sell wedding band,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,sell wedding band near me,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,sell wedding ring after divorce,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,sell wedding ring near me,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,sell wedding ring set,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,sell wedding set,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,sell your wedding ring,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,thousand oaks,BROAD,ENABLED
+jewelry / non-lux / items / wedding ring,tustin,BROAD,ENABLED
+jewelry / non-lux / items / wedding ring,want to sell my wedding ring,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,wedding ring resale,PHRASE,ENABLED
+jewelry / non-lux / items / wedding ring,엘에이 돌 반지 파는 곳,BROAD,ENABLED
