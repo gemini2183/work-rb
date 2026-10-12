@@ -5,22 +5,45 @@
   "negative_list": {
     "name": "Negative gold_ v2",
     "members_file": "Клиенты/LuxeBrokers/Статистика/gold_negative_v2_2026-10-12.json",
-    "detach_lists": ["Negative init", "Temp"]
+    "detach_lists": [
+      "Negative init",
+      "Temp"
+    ]
   },
   "remove_campaign_negatives": [
-    {"text": "hollywood", "match": "BROAD"}
+    {
+      "text": "hollywood",
+      "match": "BROAD"
+    }
   ],
-  "pause_ads": [781839748709, 781839748712, 781839748718, 781839748721],
+  "pause_ads": [
+    781839748709,
+    781839748712,
+    781839748718,
+    781839748721
+  ],
   "new_group": {
     "name": "gold_ / harvest 10-26",
     "status": "PAUSED",
     "cpc_bid_micros": 10000,
     "keywords": [
-      "who buys gold near me", "who buys gold", "sell my gold near me", "sell my gold",
-      "who pays the most for gold", "who pays the most for gold near me", "gold cash near me",
-      "cash for gold near me", "where can i sell my gold", "where to sell gold jewelry",
-      "sell gold jewelry near me", "best place to sell gold", "gold exchange near me",
-      "sell scrap gold", "scrap gold buyers", "sell broken gold jewelry", "sell broken gold chain",
+      "who buys gold near me",
+      "who buys gold",
+      "sell my gold near me",
+      "sell my gold",
+      "who pays the most for gold",
+      "who pays the most for gold near me",
+      "gold cash near me",
+      "cash for gold near me",
+      "where can i sell my gold",
+      "where to sell gold jewelry",
+      "sell gold jewelry near me",
+      "best place to sell gold",
+      "gold exchange near me",
+      "sell scrap gold",
+      "scrap gold buyers",
+      "sell broken gold jewelry",
+      "sell broken gold chain",
       "free gold appraisal near me"
     ],
     "match": "PHRASE"
@@ -29,50 +52,139 @@
     "final_url": "https://jewelryfastsale.com/gold-silver",
     "path1": "Beverly Hills",
     "path2": "",
-    "ad_groups": ["Gold Near Me", "Gold Buyer", "Cash For Gold", "Gold Jewelry", "Gold Beverly Hills"],
+    "ad_groups": [
+      "Gold Near Me",
+      "Gold Buyer",
+      "Cash For Gold",
+      "Gold Jewelry",
+      "Gold Beverly Hills"
+    ],
     "also_new_group": true,
     "headlines": [
-      {"text": "We Buy Gold in Beverly Hills", "pin": "HEADLINE_1"},
-      {"text": "Cash for Gold & Scrap Gold", "pin": "HEADLINE_1"},
-      {"text": "Sell Gold. Get Paid Same Visit", "pin": "HEADLINE_1"},
-      {"text": "Scrap & Broken Gold Accepted"},
-      {"text": "Rings, Chains & Bracelets"},
-      {"text": "Gold Bars & Gold Coins Bought"},
-      {"text": "Free Online Gold Appraisal"},
-      {"text": "Free Evaluation. No Obligation"},
-      {"text": "No Fees. No Commissions"},
-      {"text": "Paid in Cash or Bank Transfer"},
-      {"text": "Deal in Up to 10 Minutes"},
-      {"text": "Open Daily 10 AM to 7 PM"},
-      {"text": "Private & Confidential"},
-      {"text": "Visit Us in Beverly Hills"},
-      {"text": "Call for a Free Evaluation"}
+      {
+        "text": "We Buy Gold in Beverly Hills",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Cash for Gold & Scrap Gold",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Sell Gold. Get Paid Same Visit",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Scrap & Broken Gold Accepted"
+      },
+      {
+        "text": "Rings, Chains & Bracelets"
+      },
+      {
+        "text": "Gold Bars & Gold Coins Bought"
+      },
+      {
+        "text": "Free Online Gold Appraisal"
+      },
+      {
+        "text": "Free Evaluation. No Obligation"
+      },
+      {
+        "text": "No Fees. No Commissions"
+      },
+      {
+        "text": "Paid in Cash or Bank Transfer"
+      },
+      {
+        "text": "Deal in Up to 10 Minutes"
+      },
+      {
+        "text": "Open Daily 10 AM to 7 PM"
+      },
+      {
+        "text": "Private & Confidential"
+      },
+      {
+        "text": "Visit Us in Beverly Hills"
+      },
+      {
+        "text": "Call for a Free Evaluation"
+      }
     ],
     "descriptions": [
-      {"text": "We buy gold jewelry, scrap, broken chains, coins and bars. Free evaluation, no obligation.", "pin": "DESCRIPTION_1"},
-      {"text": "Paid in cash or bank transfer. No fees or commissions. Deals take up to 10 minutes."},
-      {"text": "Visit us in Beverly Hills daily 10 AM to 7 PM or send photos for a free online appraisal."},
-      {"text": "Private, confidential service. We sort gold by purity for a fair evaluation."}
+      {
+        "text": "We buy gold jewelry, scrap, broken chains, coins and bars. Free evaluation, no obligation.",
+        "pin": "DESCRIPTION_1"
+      },
+      {
+        "text": "Paid in cash or bank transfer. No fees or commissions. Deals take up to 10 minutes."
+      },
+      {
+        "text": "Visit us in Beverly Hills daily 10 AM to 7 PM or send photos for a free online appraisal."
+      },
+      {
+        "text": "Private, confidential service. We sort gold by purity for a fair evaluation."
+      }
     ]
   },
   "sitelinks": {
     "tracking_url_template": "{lpurl}",
     "utm_query": "utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_content=sitelink",
     "items": [
-      {"text": "Free Gold Appraisal", "d1": "Send photos, get an offer", "d2": "No obligation to sell", "url": "https://jewelryfastsale.com/gold-silver", "anchor": "form"},
-      {"text": "Scrap & Broken Gold", "d1": "Chains, earrings, mixed lots", "d2": "Sorted by purity", "url": "https://jewelryfastsale.com/gold-silver", "anchor": "types"},
-      {"text": "Gold Coins & Bars", "d1": "Priced by purity & weight", "d2": "Bullion and coins bought", "url": "https://jewelryfastsale.com/gold-silver", "anchor": "gallery"},
-      {"text": "How to Sell Gold", "d1": "Visit us, get evaluated", "d2": "Paid in cash or transfer", "url": "https://jewelryfastsale.com/gold-silver", "anchor": "how"},
-      {"text": "Hours & Location", "d1": "Open daily 10 AM to 7 PM", "d2": "Beverly Hills, CA", "url": "https://jewelryfastsale.com/gold-silver", "anchor": "home"}
+      {
+        "text": "Free Gold Appraisal",
+        "d1": "Send photos, get an offer",
+        "d2": "No obligation to sell",
+        "url": "https://jewelryfastsale.com/gold-silver",
+        "anchor": "form"
+      },
+      {
+        "text": "Scrap, Coins & Bars",
+        "d1": "Chains, earrings, mixed lots",
+        "d2": "Bullion and coins bought",
+        "url": "https://jewelryfastsale.com/gold-silver",
+        "anchor": "types"
+      },
+      {
+        "text": "Customer Reviews",
+        "d1": "Real sellers share feedback",
+        "d2": "Gold, scrap and jewelry",
+        "url": "https://jewelryfastsale.com/gold-silver",
+        "anchor": "gallery"
+      },
+      {
+        "text": "How to Sell Gold",
+        "d1": "Visit us, get evaluated",
+        "d2": "Paid in cash or transfer",
+        "url": "https://jewelryfastsale.com/gold-silver",
+        "anchor": "how"
+      },
+      {
+        "text": "Hours & Location",
+        "d1": "Open daily 10 AM to 7 PM",
+        "d2": "Beverly Hills, CA",
+        "url": "https://jewelryfastsale.com/gold-silver",
+        "anchor": "home"
+      }
     ],
     "unlink_existing": true
   },
   "callouts": [
-    "Paid in Cash or Transfer", "Open Daily 10 AM to 7 PM", "Free Evaluation", "Scrap & Broken Gold OK", "Beverly Hills Location"
+    "Paid in Cash or Transfer",
+    "Open Daily 10 AM to 7 PM",
+    "Free Evaluation",
+    "Scrap & Broken Gold OK",
+    "Beverly Hills Location"
   ],
   "snippet": {
     "header": "Types",
-    "values": ["Gold Jewelry", "Scrap Gold", "Gold Coins", "Gold Bars", "Silver", "Platinum"],
+    "values": [
+      "Gold Jewelry",
+      "Scrap Gold",
+      "Gold Coins",
+      "Gold Bars",
+      "Silver",
+      "Platinum"
+    ],
     "unlink_existing": true
   }
 }

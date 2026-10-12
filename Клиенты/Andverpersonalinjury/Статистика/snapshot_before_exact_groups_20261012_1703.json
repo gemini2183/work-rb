@@ -1,0 +1,34 @@
+{
+ "groups": {
+  "Car Accident": {
+   "id": 196130859330,
+   "rn": "customers/2136216123/adGroups/196130859330",
+   "bid": 0.01,
+   "status": 2
+  },
+  "Auto Accident": {
+   "id": 196130859490,
+   "rn": "customers/2136216123/adGroups/196130859490",
+   "bid": 0.01,
+   "status": 2
+  },
+  "Truck Accident": {
+   "id": 196130859530,
+   "rn": "customers/2136216123/adGroups/196130859530",
+   "bid": 0.01,
+   "status": 2
+  },
+  "18 Wheeler and Semi": {
+   "id": 196130859570,
+   "rn": "customers/2136216123/adGroups/196130859570",
+   "bid": 0.01,
+   "status": 2
+  }
+ },
+ "keyword_counts": {
+  "Car Accident": 25,
+  "Auto Accident": 24,
+  "Truck Accident": 28,
+  "18 Wheeler and Semi": 31
+ }
+}

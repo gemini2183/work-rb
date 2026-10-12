@@ -134,73 +134,114 @@ def main():
         req.operations.append(op)
 
     # --- шаг 2: новые группы + ключи + объявления одним вызовом
-    mreq = client.get_type("MutateGoogleAdsRequest")
-    mreq.customer_id = cid
-    mreq.validate_only = not args.execute
     ag_svc = client.get_service("AdGroupService")
-    tmp = -1
-    for name, info in new_plan.items():
-        if info["exists"]:
-            print(f"пропуск создания группы «{name}» (уже есть)")
-            continue
-        ag_rn = ag_svc.ad_group_path(cid, tmp)
-        tmp -= 1
-        mo = client.get_type("MutateOperation")
-        g = mo.ad_group_operation.create
-        g.resource_name = ag_rn
-        g.name = name
-        g.campaign = camp_rn
-        g.status = client.enums.AdGroupStatusEnum.ENABLED
-        g.type_ = client.enums.AdGroupTypeEnum.SEARCH_STANDARD
-        g.cpc_bid_micros = micros(args.exact_bid)
-        mreq.mutate_operations.append(mo)
-        for kw in info["todo"]:
-            mo = client.get_type("MutateOperation")
-            c = mo.ad_group_criterion_operation.create
-            c.ad_group = ag_rn
-            c.status = client.enums.AdGroupCriterionStatusEnum.ENABLED
-            c.keyword.text = kw
-            c.keyword.match_type = client.enums.KeywordMatchTypeEnum.EXACT
-            mreq.mutate_operations.append(mo)
-        src = ads[info["src"]]
-        mo = client.get_type("MutateOperation")
-        aa = mo.ad_group_ad_operation.create
-        aa.ad_group = ag_rn
-        aa.status = client.enums.AdGroupAdStatusEnum.ENABLED
-        aa.ad.final_urls.extend(src["final_urls"])
-        rsa = aa.ad.responsive_search_ad
-        rsa.path1, rsa.path2 = src["path1"], src["path2"]
-        for text, pin in src["headlines"]:
-            h = client.get_type("AdTextAsset")
-            h.text = text
-            if pin:
-                h.pinned_field = pin
-            rsa.headlines.append(h)
-        for text, pin in src["descriptions"]:
-            d = client.get_type("AdTextAsset")
-            d.text = text
-            if pin:
-                d.pinned_field = pin
-            rsa.descriptions.append(d)
-        mreq.mutate_operations.append(mo)
+    ALLOWED_EXEMPT = {"HEALTH_IN_PERSONALIZED_ADS"}  # только эта политика, только исключаемая, только то, что вернул Google
 
+    def build(exempt, validate_only):
+        mreq = client.get_type("MutateGoogleAdsRequest")
+        mreq.customer_id = cid
+        mreq.validate_only = validate_only
+        op_kw = {}
+        tmp = -1
+        for name, info in new_plan.items():
+            if info["exists"]:
+                continue
+            ag_rn = ag_svc.ad_group_path(cid, tmp)
+            tmp -= 1
+            mo = client.get_type("MutateOperation")
+            g = mo.ad_group_operation.create
+            g.resource_name = ag_rn
+            g.name = name
+            g.campaign = camp_rn
+            g.status = client.enums.AdGroupStatusEnum.ENABLED
+            g.type_ = client.enums.AdGroupTypeEnum.SEARCH_STANDARD
+            g.cpc_bid_micros = micros(args.exact_bid)
+            mreq.mutate_operations.append(mo)
+            for kw in info["todo"]:
+                mo = client.get_type("MutateOperation")
+                c = mo.ad_group_criterion_operation.create
+                c.ad_group = ag_rn
+                c.status = client.enums.AdGroupCriterionStatusEnum.ENABLED
+                c.keyword.text = kw
+                c.keyword.match_type = client.enums.KeywordMatchTypeEnum.EXACT
+                if kw in exempt:
+                    key = client.get_type("PolicyViolationKey")
+                    key.policy_name, key.violating_text = exempt[kw]
+                    mo.ad_group_criterion_operation.exempt_policy_violation_keys.append(key)
+                op_kw[len(mreq.mutate_operations)] = kw
+                mreq.mutate_operations.append(mo)
+            src = ads[info["src"]]
+            mo = client.get_type("MutateOperation")
+            aa = mo.ad_group_ad_operation.create
+            aa.ad_group = ag_rn
+            aa.status = client.enums.AdGroupAdStatusEnum.ENABLED
+            aa.ad.final_urls.extend(src["final_urls"])
+            rsa = aa.ad.responsive_search_ad
+            rsa.path1, rsa.path2 = src["path1"], src["path2"]
+            for text, pin in src["headlines"]:
+                h = client.get_type("AdTextAsset")
+                h.text = text
+                if pin:
+                    h.pinned_field = pin
+                rsa.headlines.append(h)
+            for text, pin in src["descriptions"]:
+                d = client.get_type("AdTextAsset")
+                d.text = text
+                if pin:
+                    d.pinned_field = pin
+                rsa.descriptions.append(d)
+            mreq.mutate_operations.append(mo)
+        return mreq, op_kw
+
+    def explain(ex):
+        print("ОШИБКА от Google Ads:")
+        for err in ex.failure.errors[:12]:
+            print("  -", err.message)
+            d = err.details.policy_violation_details
+            if d.key.policy_name:
+                print(f"      политика: {d.key.policy_name}; текст: «{d.key.violating_text}»; можно исключение: {d.is_exemptible}")
+
+    exempt = {}  # ключевая фраза -> (политика, violating_text)
     try:
+        # поиск исключаемых нарушений политики (validate_only), максимум 3 прохода
+        for _ in range(3):
+            mreq, op_kw = build(exempt, True)
+            if not mreq.mutate_operations:
+                break
+            try:
+                ga.mutate(request=mreq)
+                break
+            except GoogleAdsException as ex:
+                found = 0
+                for err in ex.failure.errors:
+                    d = err.details.policy_violation_details
+                    els = err.location.field_path_elements
+                    idx = els[0].index if els and els[0].field_name == "mutate_operations" else None
+                    kw = op_kw.get(idx)
+                    if kw and d.key.policy_name in ALLOWED_EXEMPT and d.is_exemptible and kw not in exempt:
+                        exempt[kw] = (d.key.policy_name, d.key.violating_text)
+                        found += 1
+                if not found:
+                    explain(ex)
+                    raise SystemExit(1)
+        else:
+            raise SystemExit("не удалось пройти проверку за 3 прохода")
+        if exempt:
+            print(f"\nИсключения политики HEALTH_IN_PERSONALIZED_ADS для {len(exempt)} ключей (флаг тот же, что у всех "
+                  f"ключей кампании; показ при нём ELIGIBLE):")
+            for kw in sorted(exempt):
+                print("   ", kw)
+
         if req.operations:
             client.get_service("AdGroupService").mutate_ad_groups(request=req)
             print("\nШаг 1 (ставки существующих групп):", "ВЫПОЛНЕНО" if args.execute else "validate_only OK")
         if mreq.mutate_operations:
-            ga.mutate(request=mreq)
+            if args.execute:
+                mreq, _ = build(exempt, False)
+                ga.mutate(request=mreq)
             print("Шаг 2 (новые группы, ключи, объявления):", "ВЫПОЛНЕНО" if args.execute else "validate_only OK")
     except GoogleAdsException as ex:
-        print("ОШИБКА от Google Ads:")
-        for err in ex.failure.errors[:12]:
-            print("  -", err.message)
-            if err.details.policy_violation_details.key.policy_name:
-                d = err.details.policy_violation_details
-                print(f"      политика: {d.key.policy_name}; текст: «{d.key.violating_text}»; "
-                      f"можно исключение: {d.is_exemptible}; {d.external_policy_description[:200]}")
-            loc = [(e.field_name, e.index if e.HasField('index') else None) for e in err.location.field_path_elements]
-            print("      где:", loc)
+        explain(ex)
         raise SystemExit(1)
 
     if not args.execute:
