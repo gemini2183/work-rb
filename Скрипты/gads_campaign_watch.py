@@ -80,6 +80,7 @@ def main():
     ap.add_argument("--alert-delta", type=float, default=20.0, help="ALERT, если расход за интервал >= N")
     ap.add_argument("--alert-cost", type=float, default=0.0, help="ALERT, если расход за день >= N (0 — выключено)")
     ap.add_argument("--stall-ticks", type=int, default=6, help="ALERT, если показы не росли N проверок подряд при ENABLED")
+    ap.add_argument("--wake-impr", type=int, default=50, help="ALERT «показы пошли», если прирост показов за интервал >= N")
     ap.add_argument("--stall-min-impr", type=int, default=5, help="прирост показов за интервал меньше N считается «не росли»")
     args = ap.parse_args()
 
@@ -132,6 +133,8 @@ def main():
                     stall_alerted = True
                 if d_impr >= args.stall_min_impr:
                     stall_alerted = False
+                if d_impr >= args.wake_impr:
+                    alerts.append(f"показы пошли: +{d_impr} за интервал (≥ {args.wake_impr})")
         if args.alert_cost and s["cost"] >= args.alert_cost and not cost_alerted:
             alerts.append(f"расход за день {s['cost']:.1f} >= {args.alert_cost:.0f}")
             cost_alerted = True
