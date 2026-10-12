@@ -281,7 +281,8 @@ def main():
     ap.add_argument("--efficient-days", type=int, default=3, help="сколько эффективных дней подряд для шага роста")
     ap.add_argument("--day-min-leads", type=int, default=2, help="минимум заявок за день, чтобы день считался эффективным")
     ap.add_argument("--flex-min-leads", type=int, default=3)
-    ap.add_argument("--flex-cpa-share", type=float, default=0.8, help="люфт, если цена заявки ≤ доли цели")
+    ap.add_argument("--flex-cpa-share", type=float, default=1.0,
+                    help="люфт, если цена заявки ≤ доли цели (1.0 = «эффективно» = цена в цели; решение пользователя 2026-10-12)")
     ap.add_argument("--flex-cost-share", type=float, default=0.85, help="люфт, если расход ≥ доли текущего бюджета")
     ap.add_argument("--flex-max-per-day", type=int, default=2)
     ap.add_argument("--restore-at", default="23:30", help="во сколько вернуть бюджет к базовому (ЧЧ:ММ)")
@@ -466,8 +467,8 @@ def main():
 
                         # 1) утренний шаг: откат висящего люфта, базовый шаг вверх/вниз по истории
                         if pb.get("day_done") != today:
-                            if pb.get("flexed") and bud_now != pb["base"]:
-                                if apply_budget(pb["base"], "откат люфта прошлого дня к базовому"):
+                            if (pb.get("flexed") or campaign_id in base_arg) and bud_now != pb["base"]:
+                                if apply_budget(pb["base"], "утро: возврат к базовому бюджету (откат люфта или ручного подъёма)"):
                                     bud_now = pb["base"]
                             pb["flexed"] = False
                             cost_h, forms_h = ads_history(ga, cid, [campaign_id])
@@ -541,7 +542,8 @@ def main():
                                     bud_now = target
 
                         # 3) вечерний возврат люфта
-                        if pb.get("flexed") and now.hour * 60 + now.minute >= restore_min and bud_now != pb["base"]:
+                        if ((pb.get("flexed") or campaign_id in base_arg)
+                                and now.hour * 60 + now.minute >= restore_min and bud_now != pb["base"]):
                             if apply_budget(pb["base"], "вечерний возврат к базовому"):
                                 pb["flexed"] = False
                                 bud_now = pb["base"]
