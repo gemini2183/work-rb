@@ -1,0 +1,11 @@
+# Конфиг клиента для Скрипты/campaign_analyzer (создан 2026-10-12 — пока только секция plan, остальное не заполнено).
+client: LuxeBrokers
+customer_id: "9534865605"
+timezone: America/Los_Angeles
+
+# План: Google-таблица "Цели2 Адвайта", лист "<Месяц> <гг>", строка по client_name.
+# Октябрь 26: 143 заявки / CPA 70 / бюджет 10000 (колонка AdwordsBudget).
+plan:
+  sheet_id: 1Lbefo3nX1-VZ7OOmJI2zf8B6vDX8PiXIjMjqoa89T7c
+  client_name: "LuxeBrokers"
+  budget_column: AdwordsBudget

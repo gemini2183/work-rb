@@ -1,0 +1,68 @@
+camp,kw,exists,camp_neg,group_neg,vol_bh,vol_la
+gold_,who buys gold near me,False,,,-,-
+gold_,who buys gold,False,,,10,20
+gold_,sell my gold near me,False,,sell my gold near me,10,50
+gold_,sell my gold,False,,sell my gold,10,70
+gold_,who pays the most for gold,False,,,-,-
+gold_,who pays the most for gold near me,False,,,10,10
+gold_,gold cash near me,False,,,20,390
+gold_,gold buyers near me,True,,"gold buyer near me,gold buyers near me",40,720
+gold_,cash for gold near me,False,,cash for gold,20,390
+gold_,where can i sell my gold,False,,,-,-
+gold_,where to sell gold jewelry,False,,,-,-
+gold_,sell gold jewelry near me,False,,sell gold jewelry near me,10,30
+gold_,sell gold coins,True,,"coin,coins",10,40
+gold_,gold coin buyers,False,,"coin,coins",10,10
+gold_,best place to sell gold,False,,best place to sell gold,10,110
+gold_,gold exchange near me,False,,gold exchange near me,-,-
+jewelry / non-lux,sell my jewelry near me,False,,sell,10,20
+jewelry / non-lux,sell my jewelry,False,,sell,10,20
+jewelry / non-lux,where can i sell my jewelry,False,,sell,-,-
+jewelry / non-lux,who buys jewelry near me,False,,"buy,buys",10,10
+jewelry / non-lux,who buys jewelry,False,,"buy,buys",10,10
+jewelry / non-lux,jewelry purchasers near me,False,,,10,90
+jewelry / non-lux,best place to sell your jewelry,False,,sell,10,40
+jewelry / non-lux,places that buy jewelry near me,False,,"buy,buys",-,-
+jewelry / non-lux,jewelry selling near me,False,,,-,-
+jewelry / non-lux,sell designer jewelry,True,,sell,10,10
+jewelry / non-lux,who buys designer jewelry,False,,"buy,buys",0,10
+jewelry / non-lux,wedding ring buyers,False,,"buyer,buyers",0,10
+jewelry / non-lux,sell my ring near me,False,,sell,10,10
+jewelry / non-lux,sell my wedding ring,True,,sell,10,10
+jewelry / non-lux,sell my engagement ring,True,,sell,10,10
+jewelry / non-lux,sell luxury bags,False,,sell,10,50
+jewelry / non-lux,sell designer handbags near me,False,,sell,10,20
+jewelry / non-lux,sell my purse for cash,False,,"cash,sell",-,-
+diamonds,who buys diamonds,False,,,0,10
+diamonds,who buys diamonds near me,False,,,10,10
+diamonds,diamonds we buy,False,,,-,-
+diamonds,where can i sell my diamonds,False,,,-,-
+diamonds,where to sell diamonds,False,,,-,-
+diamonds,sell my diamond ring,False,,"ring,rings",10,10
+diamonds,diamond ring buyers near me,False,,"ring,rings",10,10
+diamonds,sell my diamond engagement ring,False,,"ring,rings",0,10
+diamonds,loose diamond buyers,False,loose,,0,10
+diamonds,diamond buyers near me,False,,,10,90
+diamonds,sell loose diamonds,False,loose,,10,10
+watches / lux,where can i sell my rolex,False,,rolex,-,-
+watches / lux,where to sell my rolex watch,False,,rolex,-,-
+watches / lux,sell my rolex for cash,False,,rolex,10,10
+watches / lux,who buys rolex near me,False,,rolex,-,-
+watches / lux,who buys rolexes near me,False,,rolex,-,-
+watches / lux,sell my rolex near me,False,,rolex,10,20
+watches / lux,where can i sell my breitling watch,False,,,-,-
+watches / lux,where can i sell my tag heuer watch,False,,,-,-
+watches / lux,sell my tag heuer watch,False,,,0,10
+watches / lux,who buys omega watches near me,False,,,-,-
+watches / lux,sell old watches for cash,False,,,0,10
+watches / lux,where to sell a gold watch,False,,,-,-
+watches / non-lux,places to sell my watch,False,,,-,-
+watches / non-lux,where can i sell my old watch,False,,,-,-
+watches / non-lux,where can i sell my used watches,False,,,-,-
+watches / non-lux,sell my old watch,False,,,0,10
+watches / non-lux,sell my watch near me,False,,,10,20
+watches / non-lux,who buys watches near me,False,,,-,-
+watches / non-lux,who buys watches,False,,,-,-
+watches / non-lux,watch buying,False,,,-,-
+watches / non-lux,sell old watches for cash,False,,,0,10
+watches / non-lux,sell used watches near me,False,,,-,-

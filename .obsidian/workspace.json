@@ -244,17 +244,18 @@
   },
   "active": "49438aefe15a1236",
   "lastOpenFiles": [
+    "Клиенты/LuxeBrokers/analysis_config.yaml",
+    "Клиенты/LuxeBrokers/План_наращивания_объёма_2026-10.md",
+    "Клиенты/ProfiMet/Статистика/snapshot_before_adgroup_lists_24335049091_20261012_1612.json",
+    "Клиенты/ProfiMet/Статистика/snapshot_before_adgroup_lists_24335049091_20261012_1611.json",
+    "Клиенты/ProfiMet/Статистика/snapshot_before_bidding_24332648825_20261012_1611.json",
+    "Скрипты/gads_adgroup_user_list_exclusion.py",
+    "Скрипты/gads_set_campaign_bidding.py",
+    "Клиенты/LuxeBrokers/Статистика/gads_keyword_candidates_2026-10-12.csv",
     "Клиенты/LuxeBrokers/Статистика/kwideas_la_2026-10-12.csv",
     "Клиенты/LuxeBrokers/Статистика/kwideas_bh_wh_2026-10-12.csv",
     "Клиенты/LuxeBrokers/Статистика/gads_terms_uncovered_sell_intent.csv",
     "Клиенты/LuxeBrokers/Статистика/gads_ads_strength.csv",
-    "Клиенты/LuxeBrokers/Статистика/gads_assets_summary.csv",
-    "Клиенты/LuxeBrokers/Статистика/gads_hour_device_60d.csv",
-    "Клиенты/LuxeBrokers/Статистика/gads_search_terms_60d.csv",
-    "Клиенты/LuxeBrokers/Статистика/gads_keywords_metrics_60d.csv",
-    "Клиенты/LuxeBrokers/Статистика/gads_campaign_settings_schedule.csv",
-    "Клиенты/LuxeBrokers/Статистика/gads_campaign_settings_geo.csv",
-    "Клиенты/LuxeBrokers/Статистика/gads_campaign_settings_core.csv",
     "База_знаний/Инструменты/Google-Ads-задержка-статистики-и-перерасход-бюджета.md",
     "База_знаний/Инструменты/Google-Ads-RLSA-минимум-списка-для-Search.md",
     "Клиенты/ProfiMet/Кампании/РСЯ_КМС/dg_lookalike_test.md",
@@ -288,7 +289,6 @@
     "База_знаний/Инструменты/Google-Ads-Auction-insights-и-потеря-показов.md",
     "Клиенты/ProfiMet/Статистика/ringostat_pools_before_20261007.md",
     "Клиенты/Andverpersonalinjury/Журнал_изменений.md",
-    "Клиенты/Andverpersonalinjury/Кампании/OpenAI_Ads/car-truck-tilda-2026-10-07.md",
-    "Клиенты/ProfiMet/Журнал_изменений.md"
+    "Клиенты/Andverpersonalinjury/Кампании/OpenAI_Ads/car-truck-tilda-2026-10-07.md"
   ]
 }

@@ -1,0 +1,30 @@
+[
+ {
+  "ad_group_id": 203942389907,
+  "ad_group": "rtg_engage_mid_30d",
+  "resource": "customers/7552781705/adGroupCriteria/203942389907~2223922149755",
+  "negative": true,
+  "list": "customers/7552781705/userLists/8365998003"
+ },
+ {
+  "ad_group_id": 203942389907,
+  "ad_group": "rtg_engage_mid_30d",
+  "resource": "customers/7552781705/adGroupCriteria/203942389907~2278566244720",
+  "negative": true,
+  "list": "customers/7552781705/userLists/8366436798"
+ },
+ {
+  "ad_group_id": 203942389907,
+  "ad_group": "rtg_engage_mid_30d",
+  "resource": "customers/7552781705/adGroupCriteria/203942389907~2279505696421",
+  "negative": false,
+  "list": "customers/7552781705/userLists/8575354546"
+ },
+ {
+  "ad_group_id": 203942389907,
+  "ad_group": "rtg_engage_mid_30d",
+  "resource": "customers/7552781705/adGroupCriteria/203942389907~2493877526069",
+  "negative": true,
+  "list": "customers/7552781705/userLists/9441800617"
+ }
+]

@@ -1,0 +1,7 @@
+{
+ "name": "dg_lookalike_test",
+ "status": "ENABLED",
+ "strategy": "MAXIMIZE_CONVERSIONS",
+ "target_cpa": 0.0,
+ "cpc_ceiling": 0.0
+}
