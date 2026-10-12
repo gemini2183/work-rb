@@ -49,7 +49,11 @@ updated: 2026-10-08
 | Состояние групп объявлений, аудитории и каналы Demand Gen (`optimized_targeting`, `channel_controls`) | Ч | нет (одноразовые запросы 08.10) | инструмент для Demand Gen |
 | Сверка звонков Ringostat и конверсий Ads по кампании | Ч | `ringostat_stats_profimet.py` + `gads_calls_stats_profimet.py` | один отчёт «заявки кампании» = Ringostat + формы + звонки из объявлений |
 | Проверка канала Ringostat по имени кампании на живом сайте | Ч | `ringostat_channel_matrix.py` | — |
-| Правка кампанийных минус-слов по Search Terms (добавить/снять по тексту + типу соответствия) | З | `gads_add_campaign_negatives.py`, `gads_remove_campaign_negatives.py` (2026-10-09, Landver) | чтение Search Terms с кластеризацией запросов в предложение минусов; API скрывает запросы ниже порога |
+| Правка кампанийных минус-слов по Search Terms (добавить/снять по тексту + типу соответствия) | З | `gads_add_campaign_negatives.py`, `gads_remove_campaign_negatives.py` (2026-10-09, Landver) |
+| Голова спроса: search terms по сети и типу соответствия, охват отчёта запросов | Ч | `gads_search_terms_head.py` (2026-10-12, Landver) | разметка названий фирм/людей (сейчас вручную) |
+| Конфликты минус-слов с кандидатами и своими ключами (кампанийные + общие списки) | Ч | `gads_negatives_conflicts.py` (2026-10-12) | минусы уровня группы |
+| Объёмы Keyword Planner по заданному списку фраз | Ч | `gads_keyword_volumes.py` (2026-10-12) | — |
+| Точные группы рядом с фразовыми: ставки групп, новые группы с ключами и копией объявления; смена стратегии на Manual CPC | З | `gads_exact_groups.py`, `gads_set_campaign_bidding.py --strategy MANUAL_CPC` (2026-10-12, Landver; без `--execute` — validate_only) | 18 Wheeler/Auto-группы, пауза/удаление групп, перенос частых запросов из фразовых в точные раз в неделю (сейчас вручную) | чтение Search Terms с кластеризацией запросов в предложение минусов; API скрывает запросы ниже порога |
 | Смена типа ставки групп OpenAI Ads (fixed_bid ↔ maximize_clicks) и чтение Insights по группам | З/Ч | `openai_ads.py set-bid`, `set-maxclicks`, `insights` | сравнение кампаний (гео, ставка, лимит) в один отчёт |
 | Создание тестовой PMax на паузе | З | `gads_pmax_call_test_builder.py` | параметры из файла плана, не из кода |
 | Создание Display-ретаргета | З | `gads_display_rtg_builder.py`, `gads_display_rtg_engage_mid_builder.py` | общий сборщик вместо двух копий |
