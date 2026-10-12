@@ -193,8 +193,14 @@ def main():
             print("Шаг 2 (новые группы, ключи, объявления):", "ВЫПОЛНЕНО" if args.execute else "validate_only OK")
     except GoogleAdsException as ex:
         print("ОШИБКА от Google Ads:")
-        for err in ex.failure.errors[:8]:
+        for err in ex.failure.errors[:12]:
             print("  -", err.message)
+            if err.details.policy_violation_details.key.policy_name:
+                d = err.details.policy_violation_details
+                print(f"      политика: {d.key.policy_name}; текст: «{d.key.violating_text}»; "
+                      f"можно исключение: {d.is_exemptible}; {d.external_policy_description[:200]}")
+            loc = [(e.field_name, e.index if e.HasField('index') else None) for e in err.location.field_path_elements]
+            print("      где:", loc)
         raise SystemExit(1)
 
     if not args.execute:

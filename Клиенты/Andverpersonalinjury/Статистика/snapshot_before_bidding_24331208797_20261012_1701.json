@@ -1,0 +1,7 @@
+{
+ "name": "search / car+truck injuries / s / lp - tilda",
+ "status": "ENABLED",
+ "strategy": "TARGET_SPEND",
+ "target_cpa": 0.0,
+ "cpc_ceiling": 50.0
+}

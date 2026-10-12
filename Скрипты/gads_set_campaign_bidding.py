@@ -70,7 +70,7 @@ def main():
         # ручные ставки на уровне групп/ключей, без enhanced CPC; ставки групп надо выставить ДО смены
         # (gads_exact_groups.py), иначе $0,01 группы остановит показы
         op.update.manual_cpc.enhanced_cpc_enabled = False
-        paths = ["manual_cpc"]
+        paths = ["manual_cpc.enhanced_cpc_enabled"]
     else:
         op.update.maximize_conversions.target_cpa_micros = 0
         paths = ["maximize_conversions.target_cpa_micros"]

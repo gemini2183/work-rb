@@ -244,6 +244,8 @@
   },
   "active": "49438aefe15a1236",
   "lastOpenFiles": [
+    "Клиенты/Andverpersonalinjury/Статистика/snapshot_before_bidding_24331208797_20261012_1701.json",
+    "Клиенты/Andverpersonalinjury/Статистика/snapshot_before_exact_groups_20261012_1701.json",
     "Клиенты/Andverpersonalinjury/Статистика/gads_campaign_negatives_before_removal_20261012_1700.csv",
     "Клиенты/Andverpersonalinjury/Статистика/snapshot_before_bidding_24331208797_20261012_1700.json",
     "Клиенты/Andverpersonalinjury/Статистика/snapshot_before_exact_groups_20261012_1700.json",
@@ -254,8 +256,6 @@
     "Клиенты/Andverpersonalinjury/Статистика/exact_plan_car_truck_2026-10-12.csv",
     "Клиенты/Andverpersonalinjury/Статистика/negatives_conflicts_20261012_1652.csv",
     "Клиенты/Andverpersonalinjury/Статистика/gads_keyword_volumes_20261012_1652.csv",
-    "Клиенты/Andverpersonalinjury/Статистика/exact_candidates_car_truck_2026-10-12.csv",
-    "Скрипты/gads_keyword_volumes.py",
     "База_знаний/Паттерны/Google-Ads-Search-точное-соответствие-из-истории-запросов.md",
     "База_знаний/Агенты/Сторож_цены_заявки_и_бюджета.md",
     "База_знаний/Инструменты/GTM-сохранение-UTM-в-браузере-для-форм.md",
