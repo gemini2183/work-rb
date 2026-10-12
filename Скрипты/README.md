@@ -907,3 +907,14 @@ python gads_search_generic_builder.py --customer-id 7552781705 --read-back-only
 **Дополнение 2026-10-12 — `gads_offline_unique_calls.py --resend-before "ГГГГ-ММ-ДД ЧЧ:ММ:СС"`:** повторная отправка звонков, записанных в реестр раньше указанного момента (когда Google отклонил загрузку целиком, как 09.10: `TOO_RECENT_CONVERSION_ACTION`). Всегда сначала без `--execute` (проверка `validateOnly`), снимок реестра «до» копировать рядом. Дубли по order_id Google игнорирует.
 
 **Дополнение 2026-10-12 — два небольших инструмента записи (по умолчанию validate_only, запись с `--execute`, снимок «до» в Статистику клиента, чтение обратно):** `gads_adgroup_user_list_exclusion.py --campaign-id … --list-id … --action remove|add` — снять/вернуть исключение списка аудитории на уровне группы объявлений; `gads_set_campaign_bidding.py --campaign-id … --strategy MAXIMIZE_CLICKS --cpc-ceiling … | MAXIMIZE_CONVERSIONS` — переключение стратегии (для Demand Gen на MAXIMIZE_CLICKS Google API отвечает «операция недопустима в этом контексте»).
+
+## Голова спроса по запросам: `gads_search_terms_head.py` (ТОЛЬКО ЧТЕНИЕ)
+
+`search_term_view` с сегментами «сеть показа» (SEARCH / SEARCH_PARTNERS) и «тип соответствия запроса» (EXACT / NEAR_EXACT / PHRASE / NEAR_PHRASE / BROAD) за период. Пишет сырые строки в `Статистика/gads_search_terms_head_<от>_to_<до>.csv`, печатает: итоги по сети, охват отчёта (сколько показов/кликов/расхода `search_term_view` скрывает по сравнению с итогами кампаний), матрицу «тип соответствия × сеть», топ запросов по показам в каждой сети с накопленной долей. Выводов не делает. Зачем: решение «завести частые запросы в точное соответствие» нельзя принимать по общему списку — см. [[../База_знаний/Паттерны/Google-Ads-Search-точное-соответствие-из-истории-запросов]].
+
+```
+python gads_search_terms_head.py --customer-id 213-621-6123 --client-folder "Andverpersonalinjury" \
+    --date-from 2026-01-01 --date-to 2026-10-11 --campaign-contains "search" --top 40
+```
+
+Ограничения: PMax не покрыт (`search_term_view` пуст); охват отчёта у Landver — 40% показов чистого поиска (остальное скрыто порогом приватности Google); `--campaign-contains` — подстрока без регистра, тему (dog bite / ДТП) отдельно отсекать по колонке Campaign.
