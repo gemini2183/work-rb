@@ -97,7 +97,7 @@ def same(a, b):
 
 def collect_texts(ga, cid, campaign_ids):
     """→ список (кампания, вид, id объекта, текст)."""
-    where = f"campaign.id IN ({','.join(campaign_ids)})" if campaign_ids else "campaign.status = 'ENABLED'"
+    where = (f"campaign.id IN ({','.join(campaign_ids)})" if campaign_ids else "campaign.status = 'ENABLED'") +         " AND campaign.experiment_type != 'EXPERIMENT'"   # пробные кампании остановленных экспериментов не показываются
     out = []
 
     def run(label, q, fn):
@@ -113,7 +113,7 @@ def collect_texts(ga, cid, campaign_ids):
             out.append((r.campaign.name, "RSA заголовок", str(a.id), h.text))
         for d in a.responsive_search_ad.descriptions:
             out.append((r.campaign.name, "RSA описание", str(a.id), d.text))
-    run("RSA", "SELECT campaign.name, campaign.status, ad_group.status, ad_group_ad.status, ad_group_ad.ad.id, ad_group_ad.ad.responsive_search_ad.headlines, "
+    run("RSA", "SELECT campaign.name, campaign.status, campaign.experiment_type, ad_group.status, ad_group_ad.status, ad_group_ad.ad.id, ad_group_ad.ad.responsive_search_ad.headlines, "
         "ad_group_ad.ad.responsive_search_ad.descriptions FROM ad_group_ad "
         f"WHERE {where} AND ad_group_ad.status = 'ENABLED' AND ad_group.status = 'ENABLED' AND campaign.status = 'ENABLED'", rsa)
 
@@ -134,7 +134,7 @@ def collect_texts(ga, cid, campaign_ids):
                     out.append((cn, "цена (ассет)", aid, t))
         if a.promotion_asset.promotion_target:
             out.append((cn, "промо", aid, a.promotion_asset.promotion_target))
-    run("ассеты кампаний", "SELECT campaign.name, campaign.status, campaign_asset.status, asset.id, asset.sitelink_asset.link_text, asset.sitelink_asset.description1, "
+    run("ассеты кампаний", "SELECT campaign.name, campaign.status, campaign.experiment_type, campaign_asset.status, asset.id, asset.sitelink_asset.link_text, asset.sitelink_asset.description1, "
         "asset.sitelink_asset.description2, asset.callout_asset.callout_text, asset.structured_snippet_asset.values, "
         "asset.price_asset.price_offerings, asset.promotion_asset.promotion_target FROM campaign_asset "
         f"WHERE {where} AND campaign_asset.status = 'ENABLED' AND campaign.status = 'ENABLED'", casset)
@@ -143,7 +143,7 @@ def collect_texts(ga, cid, campaign_ids):
         t = r.asset.text_asset.text
         if t:
             out.append((r.campaign.name, "PMax " + r.asset_group.name[:20], str(r.asset.id), t))
-    run("PMax", "SELECT campaign.name, campaign.status, asset_group.status, asset_group_asset.status, asset_group_asset.field_type, asset_group.name, asset.id, asset.text_asset.text FROM asset_group_asset "
+    run("PMax", "SELECT campaign.name, campaign.status, campaign.experiment_type, asset_group.status, asset_group_asset.status, asset_group_asset.field_type, asset_group.name, asset.id, asset.text_asset.text FROM asset_group_asset "
         f"WHERE {where} AND asset_group_asset.status = 'ENABLED' AND asset_group.status = 'ENABLED' AND campaign.status = 'ENABLED' "
         "AND asset_group_asset.field_type IN ('HEADLINE','LONG_HEADLINE','DESCRIPTION')", pmax)
 
@@ -151,7 +151,7 @@ def collect_texts(ga, cid, campaign_ids):
         a = r.ad_group_ad.ad.demand_gen_multi_asset_ad
         for x in list(a.headlines) + list(a.descriptions):
             out.append((r.campaign.name, "Demand Gen", str(r.ad_group_ad.ad.id), x.text))
-    run("Demand Gen", "SELECT campaign.name, campaign.status, ad_group_ad.status, ad_group_ad.ad.id, ad_group_ad.ad.demand_gen_multi_asset_ad.headlines, "
+    run("Demand Gen", "SELECT campaign.name, campaign.status, campaign.experiment_type, ad_group_ad.status, ad_group_ad.ad.id, ad_group_ad.ad.demand_gen_multi_asset_ad.headlines, "
         "ad_group_ad.ad.demand_gen_multi_asset_ad.descriptions FROM ad_group_ad "
         f"WHERE {where} AND ad_group_ad.status = 'ENABLED' AND campaign.status = 'ENABLED'", dg)
     def disp(r):
@@ -161,7 +161,7 @@ def collect_texts(ga, cid, campaign_ids):
             out.append((cn, "Display", aid, x.text))
         if a.business_name:
             out.append((cn, "Display", aid, a.business_name))
-    run("Display", "SELECT campaign.name, campaign.status, ad_group_ad.status, ad_group_ad.ad.id, "
+    run("Display", "SELECT campaign.name, campaign.status, campaign.experiment_type, ad_group_ad.status, ad_group_ad.ad.id, "
         "ad_group_ad.ad.responsive_display_ad.headlines, ad_group_ad.ad.responsive_display_ad.long_headline, "
         "ad_group_ad.ad.responsive_display_ad.descriptions, ad_group_ad.ad.responsive_display_ad.business_name FROM ad_group_ad "
         f"WHERE {where} AND ad_group_ad.status = 'ENABLED' AND campaign.status = 'ENABLED'", disp)
