@@ -1,0 +1,17 @@
+{
+  "_comment": "2026-10-13: п. 6 плана — 10 фраз продавца в watches / non-lux (было 10 ключей, ≈10 показов в день). Согласовано пользователем 2026-10-13 («ДА ДА ДА»). Проверено: дублей нет, минусы кампании / списков / группы не блокируют.",
+  "customer_id": "9534865605",
+  "campaign": "watches / non-lux",
+  "add_keywords": [
+    {"group": "watches / non-lux / generic", "text": "places to sell my watch", "match": "PHRASE"},
+    {"group": "watches / non-lux / generic", "text": "where can i sell my old watch", "match": "PHRASE"},
+    {"group": "watches / non-lux / generic", "text": "where can i sell my used watches", "match": "PHRASE"},
+    {"group": "watches / non-lux / generic", "text": "sell my old watch", "match": "PHRASE"},
+    {"group": "watches / non-lux / generic", "text": "sell my watch near me", "match": "PHRASE"},
+    {"group": "watches / non-lux / generic", "text": "who buys watches near me", "match": "PHRASE"},
+    {"group": "watches / non-lux / generic", "text": "who buys watches", "match": "PHRASE"},
+    {"group": "watches / non-lux / generic", "text": "watch buying", "match": "PHRASE"},
+    {"group": "watches / non-lux / generic", "text": "sell old watches for cash", "match": "PHRASE"},
+    {"group": "watches / non-lux / generic", "text": "sell used watches near me", "match": "PHRASE"}
+  ]
+}

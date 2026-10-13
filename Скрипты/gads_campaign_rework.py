@@ -11,7 +11,8 @@
   * создать сайтлинки / выноски / структурированный сниппет, привязать к кампании, отвязать старые;
   * сменить статус групп (`set_group_status`) и ключей (`set_keyword_status`: [{"group", "text", "match", "status"}]);
   * только отвязать общие списки минусов от кампании (`detach_lists`: ["имя списка"]) — без создания нового;
-  * добавить гео-критерии кампании (`add_locations`: [{"id": <geoTargetConstant id>, "label": "..."}]) — без ставок.
+  * добавить гео-критерии кампании (`add_locations`: [{"id": <geoTargetConstant id>, "label": "..."}]) — без ставок;
+  * добавить ключи в существующие группы (`add_keywords`: [{"group", "text", "match"}]) — включённые; дубль в кампании — остановка.
 
 Режимы:
   без флагов     — ТОЛЬКО проверка (validate_only): Google проверяет весь пакет, ничего не создаёт;
@@ -223,6 +224,25 @@ def main():
         c.location.geo_target_constant = rn_const
         ops.append(op)
 
+    # 2c. добавить ключи в СУЩЕСТВУЮЩИЕ группы: {"add_keywords": [{"group": "...", "text": "...", "match": "PHRASE"}]};
+    #     дубли (тот же текст в любой группе кампании) — остановка, а не молчаливое пропускание
+    if plan.get("add_keywords"):
+        have_kw = {r.ad_group_criterion.keyword.text.lower() for r in q(
+            f"SELECT ad_group_criterion.keyword.text FROM ad_group_criterion WHERE campaign.id = {camp_id} "
+            f"AND ad_group_criterion.type = 'KEYWORD' AND ad_group_criterion.negative = FALSE AND ad_group_criterion.status != 'REMOVED'")}
+        for item in plan["add_keywords"]:
+            if item["group"] not in groups:
+                sys.exit(f"Группа '{item['group']}' не найдена в кампании")
+            if item["text"].lower() in have_kw:
+                sys.exit(f"Ключ '{item['text']}' уже есть в кампании")
+            op = mop()
+            c = op.ad_group_criterion_operation.create
+            c.ad_group = groups[item["group"]][1]
+            c.status = E.AdGroupCriterionStatusEnum.ENABLED
+            c.keyword.text = item["text"]
+            c.keyword.match_type = getattr(E.KeywordMatchTypeEnum, item.get("match", "PHRASE"))
+            ops.append(op)
+
     # 3. новая группа + ключи
     ng = plan.get("new_group")
     new_group_rn = None
@@ -413,6 +433,17 @@ def main():
         print(f"локаций в кампании: {len(got)} (было {len(have_loc)})")
         for rn_const, label in want.items():
             print(f"  локация {label} {rn_const}: {'есть' if rn_const in got else 'НЕТ'}")
+    if plan.get("add_keywords"):
+        want_kw = {i["text"].lower() for i in plan["add_keywords"]}
+        rows_kw = q(f"SELECT ad_group.name, ad_group_criterion.keyword.text, ad_group_criterion.keyword.match_type, ad_group_criterion.status "
+                    f"FROM ad_group_criterion WHERE campaign.id = {camp_id} AND ad_group_criterion.type = 'KEYWORD' "
+                    f"AND ad_group_criterion.negative = FALSE AND ad_group_criterion.status != 'REMOVED'")
+        got_kw = [r for r in rows_kw if r.ad_group_criterion.keyword.text.lower() in want_kw]
+        print(f"добавленных ключей прочитано: {len(got_kw)} из {len(want_kw)}; всего позитивных ключей в кампании: {len(rows_kw)}")
+        for r in got_kw:
+            print("  ключ:", r.ad_group.name, "|", r.ad_group_criterion.keyword.text, "|",
+                  nm('KeywordMatchTypeEnum', 'KeywordMatchType', r.ad_group_criterion.keyword.match_type), "|",
+                  nm('AdGroupCriterionStatusEnum', 'AdGroupCriterionStatus', r.ad_group_criterion.status))
     print("объявления кампании (включённые / на паузе) по группам:")
     cnt = {}
     for r in q(f"SELECT ad_group.name, ad_group_ad.status FROM ad_group_ad WHERE campaign.id = {camp_id} AND ad_group_ad.status != 'REMOVED'"):

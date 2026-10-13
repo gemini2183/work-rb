@@ -562,8 +562,28 @@
    "ENABLED",
    "Gold"
   ],
+  "781839748697": [
+   "customers/9534865605/adGroupAds/175659427361~781839748697",
+   "PAUSED",
+   "Gold"
+  ],
+  "827871365438": [
+   "customers/9534865605/adGroupAds/175659427361~827871365438",
+   "ENABLED",
+   "Gold"
+  ],
   "725213998926": [
    "customers/9534865605/adGroupAds/175659427401~725213998926",
+   "ENABLED",
+   "Gold Jewelry"
+  ],
+  "781839748709": [
+   "customers/9534865605/adGroupAds/175659427401~781839748709",
+   "PAUSED",
+   "Gold Jewelry"
+  ],
+  "827740816503": [
+   "customers/9534865605/adGroupAds/175659427401~827740816503",
    "ENABLED",
    "Gold Jewelry"
   ],
@@ -572,8 +592,28 @@
    "ENABLED",
    "Cash For Gold"
   ],
+  "781839748712": [
+   "customers/9534865605/adGroupAds/175659427561~781839748712",
+   "PAUSED",
+   "Cash For Gold"
+  ],
+  "827740816500": [
+   "customers/9534865605/adGroupAds/175659427561~827740816500",
+   "ENABLED",
+   "Cash For Gold"
+  ],
   "725213998932": [
    "customers/9534865605/adGroupAds/175659427601~725213998932",
+   "ENABLED",
+   "Gold Coins"
+  ],
+  "781839748715": [
+   "customers/9534865605/adGroupAds/175659427601~781839748715",
+   "PAUSED",
+   "Gold Coins"
+  ],
+  "827871365441": [
+   "customers/9534865605/adGroupAds/175659427601~827871365441",
    "ENABLED",
    "Gold Coins"
   ],
@@ -582,8 +622,28 @@
    "ENABLED",
    "Gold Bars"
   ],
+  "781839748700": [
+   "customers/9534865605/adGroupAds/175659427641~781839748700",
+   "PAUSED",
+   "Gold Bars"
+  ],
+  "827871365444": [
+   "customers/9534865605/adGroupAds/175659427641~827871365444",
+   "ENABLED",
+   "Gold Bars"
+  ],
   "725213998938": [
    "customers/9534865605/adGroupAds/175659427801~725213998938",
+   "ENABLED",
+   "Gold Chain"
+  ],
+  "781839748724": [
+   "customers/9534865605/adGroupAds/175659427801~781839748724",
+   "PAUSED",
+   "Gold Chain"
+  ],
+  "827871365447": [
+   "customers/9534865605/adGroupAds/175659427801~827871365447",
    "ENABLED",
    "Gold Chain"
   ],
@@ -592,8 +652,28 @@
    "ENABLED",
    "Gold Beverly Hills"
   ],
+  "781839748703": [
+   "customers/9534865605/adGroupAds/175659427841~781839748703",
+   "PAUSED",
+   "Gold Beverly Hills"
+  ],
+  "827740816506": [
+   "customers/9534865605/adGroupAds/175659427841~827740816506",
+   "ENABLED",
+   "Gold Beverly Hills"
+  ],
   "725213998944": [
    "customers/9534865605/adGroupAds/175659427881~725213998944",
+   "ENABLED",
+   "Gold Near Me"
+  ],
+  "781839748718": [
+   "customers/9534865605/adGroupAds/175659427881~781839748718",
+   "PAUSED",
+   "Gold Near Me"
+  ],
+  "827740816494": [
+   "customers/9534865605/adGroupAds/175659427881~827740816494",
    "ENABLED",
    "Gold Near Me"
   ],
@@ -602,115 +682,35 @@
    "ENABLED",
    "Gold Buyer"
   ],
-  "725213998950": [
-   "customers/9534865605/adGroupAds/175659428081~725213998950",
-   "ENABLED",
-   "Gold Ring"
-  ],
-  "781839748697": [
-   "customers/9534865605/adGroupAds/175659427361~781839748697",
-   "PAUSED",
-   "Gold"
-  ],
-  "781839748700": [
-   "customers/9534865605/adGroupAds/175659427641~781839748700",
-   "PAUSED",
-   "Gold Bars"
-  ],
-  "781839748703": [
-   "customers/9534865605/adGroupAds/175659427841~781839748703",
-   "PAUSED",
-   "Gold Beverly Hills"
-  ],
-  "781839748706": [
-   "customers/9534865605/adGroupAds/175659428081~781839748706",
-   "PAUSED",
-   "Gold Ring"
-  ],
-  "781839748709": [
-   "customers/9534865605/adGroupAds/175659427401~781839748709",
-   "PAUSED",
-   "Gold Jewelry"
-  ],
-  "781839748712": [
-   "customers/9534865605/adGroupAds/175659427561~781839748712",
-   "PAUSED",
-   "Cash For Gold"
-  ],
-  "781839748715": [
-   "customers/9534865605/adGroupAds/175659427601~781839748715",
-   "PAUSED",
-   "Gold Coins"
-  ],
-  "781839748718": [
-   "customers/9534865605/adGroupAds/175659427881~781839748718",
-   "PAUSED",
-   "Gold Near Me"
-  ],
   "781839748721": [
    "customers/9534865605/adGroupAds/175659428041~781839748721",
    "PAUSED",
    "Gold Buyer"
-  ],
-  "781839748724": [
-   "customers/9534865605/adGroupAds/175659427801~781839748724",
-   "PAUSED",
-   "Gold Chain"
-  ],
-  "827740816494": [
-   "customers/9534865605/adGroupAds/175659427881~827740816494",
-   "ENABLED",
-   "Gold Near Me"
   ],
   "827740816497": [
    "customers/9534865605/adGroupAds/175659428041~827740816497",
    "ENABLED",
    "Gold Buyer"
   ],
-  "827740816500": [
-   "customers/9534865605/adGroupAds/175659427561~827740816500",
+  "725213998950": [
+   "customers/9534865605/adGroupAds/175659428081~725213998950",
    "ENABLED",
-   "Cash For Gold"
+   "Gold Ring"
   ],
-  "827740816503": [
-   "customers/9534865605/adGroupAds/175659427401~827740816503",
-   "ENABLED",
-   "Gold Jewelry"
-  ],
-  "827740816506": [
-   "customers/9534865605/adGroupAds/175659427841~827740816506",
-   "ENABLED",
-   "Gold Beverly Hills"
-  ],
-  "827740816509": [
-   "customers/9534865605/adGroupAds/209483876588~827740816509",
-   "ENABLED",
-   "gold_ / harvest 10-26"
-  ],
-  "827871365438": [
-   "customers/9534865605/adGroupAds/175659427361~827871365438",
-   "ENABLED",
-   "Gold"
-  ],
-  "827871365441": [
-   "customers/9534865605/adGroupAds/175659427601~827871365441",
-   "ENABLED",
-   "Gold Coins"
-  ],
-  "827871365444": [
-   "customers/9534865605/adGroupAds/175659427641~827871365444",
-   "ENABLED",
-   "Gold Bars"
-  ],
-  "827871365447": [
-   "customers/9534865605/adGroupAds/175659427801~827871365447",
-   "ENABLED",
-   "Gold Chain"
+  "781839748706": [
+   "customers/9534865605/adGroupAds/175659428081~781839748706",
+   "PAUSED",
+   "Gold Ring"
   ],
   "827871365450": [
    "customers/9534865605/adGroupAds/175659428081~827871365450",
    "ENABLED",
    "Gold Ring"
+  ],
+  "827740816509": [
+   "customers/9534865605/adGroupAds/209483876588~827740816509",
+   "ENABLED",
+   "gold_ / harvest 10-26"
   ]
  },
  "campaign_assets": [
