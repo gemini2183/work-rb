@@ -1,0 +1,4 @@
+time,campaign_id,name,status,budget,cost_today,target_cpa,calls,leads,n,allowance,cost_share_of_allowance,cpa_real,event,inertia_after_pause
+2026-10-13T10:58:46,23593683252,general_pmax,2,292.93,47.03,110.0,0,1,1,330.0,0.143,47.0,,
+2026-10-13T10:58:46,24210390946,shop_search,2,300.0,10.43,110.0,0,0,0,220.0,0.047,,,
+2026-10-13T10:58:47,24230255260,shop_pmax,2,250.0,1.86,110.0,0,0,0,220.0,0.008,,,
