@@ -109,6 +109,7 @@ def main():
     ap.add_argument("--map", required=True)
     ap.add_argument("--execute", action="store_true")
     ap.add_argument("--pause-old", metavar="MAP_CSV", help="ШАГ 2: поставить старые на паузу там, где новые одобрены (файл соответствий из шага 1); с --execute пишет")
+    ap.add_argument("--copy-mode", action="store_true", help="не править на месте, а создавать копию и ставить старое на паузу (по умолчанию правка на месте)")
     ap.add_argument("--examples", action="store_true", help="показать итоговое объявление целиком (по одному на кампанию)")
     a = ap.parse_args()
     cid = a.customer_id.replace("-", "")
@@ -177,6 +178,63 @@ def main():
         for t, ids in unresolved.items():
             print(f"  [{len(ids)} объявл.] {t}")
     if not rows:
+        return
+    if not a.copy_mode:
+        ad_svc2 = client.get_service("AdService")
+        ops = []
+        for r in rows:
+            op = client.get_type("AdOperation")
+            ad = op.update
+            ad.resource_name = f"customers/{cid}/ads/{r['ad_id']}"
+            for t, p in r["new_h"]:
+                h = client.get_type("AdTextAsset"); h.text = t
+                if p:
+                    h.pinned_field = p
+                ad.responsive_search_ad.headlines.append(h)
+            for t, p in r["new_d"]:
+                d = client.get_type("AdTextAsset"); d.text = t
+                if p:
+                    d.pinned_field = p
+                ad.responsive_search_ad.descriptions.append(d)
+            op.update_mask.paths.extend(["responsive_search_ad.headlines", "responsive_search_ad.descriptions"])
+            ops.append((r, op))
+        if not a.execute:
+            ok = 0
+            for r, op in ops:
+                req = client.get_type("MutateAdsRequest")
+                req.customer_id = cid
+                req.operations.append(op)
+                req.validate_only = True
+                try:
+                    ad_svc2.mutate_ads(request=req)
+                    ok += 1
+                except Exception as ex:
+                    print(f"  validate ОШИБКА {r['ad_id']}: {str(ex)[:300]}")
+            print(f"\nПРАВКА НА МЕСТЕ, validate_only: прошло {ok} из {len(ops)}. Ничего не записано (добавьте --execute).")
+            return
+        snap = client_stats_dir(a.client_folder) / f"snapshot_before_rsa_edit_{datetime.now():%Y%m%d_%H%M}.csv"
+        with open(snap, "w", newline="", encoding="utf-8-sig") as f:
+            w = csv.writer(f)
+            w.writerow(["ad_id", "campaign", "ad_group", "headlines(pin)", "descriptions(pin)", "path1", "path2", "final_urls"])
+            for r in rows:
+                w.writerow([r["ad_id"], r["campaign"], r["ad_group"],
+                            " | ".join(f"{t}[{p}]" for t, p in r["headlines"]),
+                            " | ".join(f"{t}[{p}]" for t, p in r["descriptions"]), r["path1"], r["path2"], " ".join(r["final_urls"])])
+        print("Снимок «до»:", snap)
+        done = 0
+        for r, op in ops:
+            ad_svc2.mutate_ads(customer_id=cid, operations=[op])
+            done += 1
+            print(f"  {r['campaign'].split('|')[-1].strip()} / {r['ad_group'][:30]}: объявление {r['ad_id']} отредактировано на месте")
+        print(f"отредактировано: {done} из {len(ops)}")
+        back = {x["ad_id"]: x for x in read_ads(ga, cid, a.campaign_ids)}
+        bad = 0
+        for r in rows:
+            cur = back.get(r["ad_id"])
+            if not cur or [t for t, _ in cur["headlines"]] != [t for t, _ in r["new_h"]] or                     [t for t, _ in cur["descriptions"]] != [t for t, _ in r["new_d"]]:
+                bad += 1
+        print(f"Прочитано обратно: тексты совпали у {len(rows) - bad} из {len(rows)}"
+              + ("" if not bad else f"; НЕ совпали / не найдены: {bad} (возможно, на проверке Google, смотреть статусы)"))
         return
     ad_svc = client.get_service("AdGroupAdService")
     ops_all = []
