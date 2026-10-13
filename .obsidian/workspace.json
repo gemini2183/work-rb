@@ -244,17 +244,18 @@
   },
   "active": "49438aefe15a1236",
   "lastOpenFiles": [
+    "Клиенты/EkspertAgro/Мерчант/Статистика/shop_nontarget_review_shop_search_2026-09-28_to_2026-10-12.csv",
+    "Клиенты/EkspertAgro/Мерчант/Статистика/shop_nontarget_group_phrases_shop_search_2026-09-28_to_2026-10-12.csv",
+    "Клиенты/EkspertAgro/Мерчант/Статистика/shop_nontarget_size_phrases_shop_search_2026-09-28_to_2026-10-12.csv",
+    "Клиенты/EkspertAgro/Мерчант/Статистика/shop_nontarget_exact_shop_search_2026-09-28_to_2026-10-12.csv",
+    "Скрипты/__pycache__/gads_shared_negatives_add.cpython-313.pyc",
+    "Скрипты/gads_shopping_nontarget_negatives_plan.py",
+    "Скрипты/gads_shopping_nontarget_negatives_plan.py.tmp.9268.c31a383c8ae2",
     "Клиенты/EkspertAgro/Мерчант/Журнал_изменений.md",
     "Клиенты/EkspertAgro/Мерчант/Статистика/shared_negatives_размеры_-_есть_в_запросах_нет_в_фиде_before_2026-10-13_1115.csv",
     "Клиенты/EkspertAgro/Мерчант/Статистика/shared_negatives_Shop_-_запросы_без_размера_2_before_2026-10-13_1115.csv",
     "Скрипты/gads_shared_negatives_add.py",
     "Клиенты/ProfiMet/Статистика/gads_change_history_Search - Brand - Pl_2026-09-14_to_2026-10-13.csv",
-    "Скрипты/__pycache__/gads_shopping_size_negatives_by_group.cpython-313.pyc",
-    "Скрипты/__pycache__/gads_negatives_conflicts.cpython-313.pyc",
-    "Клиенты/EkspertAgro/Статистика/gads_spend_guard_state.json",
-    "Клиенты/EkspertAgro/Статистика/gads_spend_guard_cpa_log.csv",
-    "Клиенты/EkspertAgro/analysis_config.yaml",
-    "Клиенты/EkspertAgro/Статистика/gads_spend_guard_state_plan.json",
     "Клиенты/LuxeBrokers/Эксперименты.md",
     "Клиенты/LuxeBrokers/Журнал_изменений.md",
     "Клиенты/LuxeBrokers/Кампании/Search/gold_.md",
@@ -288,7 +289,6 @@
     "База_знаний/Агенты/Сборщик_тестовой_PMax.md",
     "База_знаний/Агенты/Отчёт_клиенту_ежемесячный.md",
     "База_знаний/Агенты/Контролёр_фактов_и_текстов.md",
-    "База_знаний/Агенты/Аналитик_PMax_диагностика.md",
-    "База_знаний/Агенты/index.md"
+    "База_знаний/Агенты/Аналитик_PMax_диагностика.md"
   ]
 }
