@@ -72,6 +72,7 @@ LOG = STATS / "gads_spend_guard_cpa_log.csv"
 STATE = STATS / "gads_spend_guard_state.json"
 UNRESOLVED = "__unresolved_pmax__"   # чтобы UTM без ID и имени не склеивались в «первую попавшуюся PMax»
 FORM_ACTION = "form_submit_gtm"
+AD_CALL_ACTIONS = []   # названия конверсий «звонок по номеру из объявления» (Google Ads; Ringostat их по кампании не определяет)
 
 LOG_HEADER = ["time", "campaign_id", "name", "status", "budget", "cost_today", "target_cpa", "calls", "leads",
               "n", "allowance", "cost_share_of_allowance", "cpa_real", "event", "inertia_after_pause"]
@@ -232,10 +233,25 @@ def ads_history(ga, cid, campaign_ids, days=8):
             "SELECT campaign.id, segments.date, segments.conversion_action_name, metrics.all_conversions FROM campaign "
             f"WHERE campaign.id IN ({ids}) AND segments.date BETWEEN '{since}' AND '{until}' "
             "AND metrics.all_conversions > 0")):
-        if r.segments.conversion_action_name == FORM_ACTION:
+        if r.segments.conversion_action_name == FORM_ACTION or r.segments.conversion_action_name in AD_CALL_ACTIONS:
             k = (str(r.campaign.id), r.segments.date)
             forms[k] = forms.get(k, 0.0) + r.metrics.all_conversions
     return cost, forms
+
+
+def ad_calls_today(ga, cid, campaign_ids):
+    """{id кампании: звонки по номеру из объявлений сегодня} — только из Google Ads (в Ringostat у них нет кампании)."""
+    out = {}
+    if not AD_CALL_ACTIONS or not campaign_ids:
+        return out
+    names = ",".join("'" + n.replace("'", "\\'") + "'" for n in AD_CALL_ACTIONS)
+    ids = ",".join(campaign_ids)
+    for r in ga.search(customer_id=cid, query=(
+            "SELECT campaign.id, segments.conversion_action_name, metrics.all_conversions FROM campaign "
+            f"WHERE campaign.id IN ({ids}) AND segments.date DURING TODAY "
+            f"AND segments.conversion_action_name IN ({names})")):
+        out[str(r.campaign.id)] = out.get(str(r.campaign.id), 0.0) + r.metrics.all_conversions
+    return out
 
 
 # ---------- вспомогательное ----------
@@ -306,19 +322,20 @@ def load_guard_config(path):
         defaults["monitoring_config"] = str(Path(MONITORING_DIR) / "config" / cfg["monitoring_config"])
     extra = {"flex_ids": set(flex_ids), "hard_mult_by": hard_mult_by, "total_limit_by": total_limit_by,
              "since_by": since_by, "stats": client_dir / "Статистика", "form_action": cfg.get("form_action", FORM_ACTION),
+             "ad_call_actions": list(cfg.get("ad_call_actions") or []),
              "plan": plan}
     return defaults, extra, rows
 
 
 def main():
-    global STATS, LOG, STATE, FORM_ACTION
+    global STATS, LOG, STATE, FORM_ACTION, AD_CALL_ACTIONS
     pre = argparse.ArgumentParser(add_help=False)
     pre.add_argument("--client")
     pre.add_argument("--config")
     known, _ = pre.parse_known_args()
     cfg_path = known.config or (str(CLIENTS_DIR / known.client / "guard_config.yaml") if known.client else None)
     cfg_defaults, extra, cfg_rows = {}, {"flex_ids": None, "hard_mult_by": {}, "total_limit_by": {}, "since_by": {},
-                                         "stats": None, "form_action": FORM_ACTION, "plan": None}, []
+                                         "stats": None, "form_action": FORM_ACTION, "ad_call_actions": [], "plan": None}, []
     if cfg_path:
         cfg_defaults, extra, cfg_rows = load_guard_config(cfg_path)
 
@@ -376,6 +393,7 @@ def main():
     if extra["stats"]:
         STATS = extra["stats"]
     FORM_ACTION = extra["form_action"]
+    AD_CALL_ACTIONS = extra["ad_call_actions"]
     # режим «только план» пишет в ОТДЕЛЬНЫЕ файлы: боевой процесс и пробный прогон не должны делить состояние
     suffix = "" if args.execute else "_plan"
     LOG = STATS / f"gads_spend_guard_cpa_log{suffix}.csv"
@@ -449,6 +467,11 @@ def main():
         else:
             calls_map = calls_cache
         leads_by, unattributed = leads_today(cfg, m_ringostat, m_supabase, id_to_name)
+        try:
+            adcalls_now = ad_calls_today(ga, cid, list(targets))
+        except Exception as ex:
+            print(f"  Звонки из объявлений (Ads): ошибка {type(ex).__name__} — берём последнее известное")
+            adcalls_now = {}
 
         for campaign_id, T in targets.items():
             now = datetime.now()
@@ -470,7 +493,8 @@ def main():
             name = s["name"]
             st["calls_max"] = max(st["calls_max"], calls_map.get((today, name), 0))
             st["leads_max"] = max(st["leads_max"], leads_by.get(name, 0))
-            n = st["calls_max"] + st["leads_max"]
+            st["adcalls_max"] = max(st.get("adcalls_max", 0), int(round(adcalls_now.get(campaign_id, 0.0))))
+            n = st["calls_max"] + st["leads_max"] + st["adcalls_max"]
             cost, budget = s["cost"], s["budget"]
             allowance = (args.grace + n) * T
             share = cost / allowance if allowance else 0.0
@@ -679,10 +703,10 @@ def main():
 
             event = "; ".join(events)
             print(f"{now:%H:%M:%S} {name}: статус {'ВКЛ' if status == enums.ENABLED else 'ПАУЗА'}, расход {cost:.2f}/"
-                  f"бюджет {budget:.2f}, заявок {n} (звонки {st['calls_max']} + формы {st['leads_max']}), допустимо "
+                  f"бюджет {budget:.2f}, заявок {n} (звонки {st['calls_max']} + формы {st['leads_max']} + из объявлений {st['adcalls_max']}), допустимо "
                   f"{allowance:.2f} ({share:.0%}), цена заявки {cpa_real or '—'} {event} {inertia}")
             log_row([now.isoformat(timespec="seconds"), campaign_id, name, status, budget, round(cost, 2), T,
-                     st["calls_max"], st["leads_max"], n, round(allowance, 2), round(share, 3), cpa_real, event, inertia])
+                     st["calls_max"] + st["adcalls_max"], st["leads_max"], n, round(allowance, 2), round(share, 3), cpa_real, event, inertia])
 
         if unattributed:
             print(f"  (форм без кампании/UTM сегодня: {unattributed} — не учтены ни в одной кампании)")

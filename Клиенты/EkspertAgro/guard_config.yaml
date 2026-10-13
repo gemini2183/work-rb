@@ -6,6 +6,7 @@
 customer_id: "8826134558"
 monitoring_config: experagro.yaml    # Ringostat + Supabase (expertagro_leads) + Telegram (его kpi 150 устарел, цель — из таблицы)
 form_action: form_submit_web         # конверсия «форма» в Google Ads аккаунта TIG / ЭкспертАгро
+ad_call_actions: ["Calls from ads"]   # звонки по номеру из объявлений: только из Google Ads, по кампании (в Ringostat кампании у них нет)
 
 loop_min: 2
 heartbeat_min: 120

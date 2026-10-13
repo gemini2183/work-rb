@@ -6,6 +6,7 @@
 customer_id: "7552781705"
 monitoring_config: profimet.yaml     # Клиенты/…/monitoring scripts/monitoring/config/<файл> (Ringostat, Supabase, Telegram)
 form_action: form_submit_gtm         # название конверсии «форма» в Google Ads (для истории дней)
+ad_call_actions: ["Звонки по объявлениям"]   # звонки по номеру из объявлений: только из Google Ads, по кампании (в Ringostat кампании у них нет)
 
 loop_min: 2              # период проверки, минут
 heartbeat_min: 120       # раз в N минут сообщение «сторож жив» в Telegram; тишина = процесс остановлен
