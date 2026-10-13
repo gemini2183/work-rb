@@ -108,9 +108,41 @@ def main():
     ap.add_argument("--campaign-ids", nargs="+", required=True)
     ap.add_argument("--map", required=True)
     ap.add_argument("--execute", action="store_true")
+    ap.add_argument("--pause-old", metavar="MAP_CSV", help="ШАГ 2: поставить старые на паузу там, где новые одобрены (файл соответствий из шага 1); с --execute пишет")
     ap.add_argument("--examples", action="store_true", help="показать итоговое объявление целиком (по одному на кампанию)")
     a = ap.parse_args()
     cid = a.customer_id.replace("-", "")
+    if a.pause_old:
+        client = GoogleAdsClient.load_from_storage(GOOGLE_ADS_YAML)
+        ga = client.get_service("GoogleAdsService")
+        with open(a.pause_old, encoding="utf-8-sig") as f:
+            pairs = list(csv.DictReader(f))
+        ids = ",".join(p["new_ad_id"] for p in pairs)
+        q = ("SELECT ad_group_ad.ad.id, ad_group_ad.status, ad_group_ad.policy_summary.approval_status, ad_group_ad.policy_summary.review_status "
+             f"FROM ad_group_ad WHERE ad_group_ad.ad.id IN ({ids})")
+        st = {}
+        for r in ga.search(customer_id=cid, query=q):
+            st[str(r.ad_group_ad.ad.id)] = (int(r.ad_group_ad.policy_summary.approval_status), int(r.ad_group_ad.status))
+        APPROVED = int(client.enums.PolicyApprovalStatusEnum.APPROVED)
+        ok = [p for p in pairs if st.get(p["new_ad_id"], (0, 0))[0] == APPROVED]
+        wait = [p for p in pairs if p not in ok]
+        print(f"новых одобрено: {len(ok)} из {len(pairs)}; ждут проверки: {len(wait)}")
+        for p in wait[:10]:
+            print("  ждёт:", p["new_ad_id"], "(старое", p["old_ad_id"] + ")")
+        if not a.execute or not ok:
+            print("ПЛАН: поставлю на паузу старых:", len(ok), "(добавьте --execute)")
+            return
+        svc = client.get_service("AdGroupAdService")
+        ops = []
+        for p in ok:
+            op = client.get_type("AdGroupAdOperation")
+            op.update.resource_name = p["old_ad_res"]
+            op.update.status = client.enums.AdGroupAdStatusEnum.PAUSED
+            op.update_mask.paths.append("status")
+            ops.append(op)
+        svc.mutate_ad_group_ads(customer_id=cid, operations=ops)
+        print("поставлено на паузу старых:", len(ops))
+        return
     rep = yaml.safe_load(Path(a.map).read_text(encoding="utf-8"))
     rep.setdefault("headlines", {}); rep.setdefault("descriptions", {})
     client = GoogleAdsClient.load_from_storage(GOOGLE_ADS_YAML)
@@ -201,11 +233,18 @@ def main():
                         " | ".join(f"{t}[{p}]" for t, p in r["descriptions"]), r["path1"], r["path2"], " ".join(r["final_urls"])])
     print("Снимок «до»:", snap)
     done = 0
-    for r, ops in ops_all:
-        resp = ad_svc.mutate_ad_group_ads(customer_id=cid, operations=ops)
-        done += 1
-        print(f"  {r['campaign']} / {r['ad_group'][:30]}: старое {r['ad_id']} → пауза; новое {resp.results[1].resource_name.split('~')[-1]}")
-    print(f"выполнено: {done} из {len(ops_all)}")
+    map_path = client_stats_dir(a.client_folder) / f"rsa_replace_map_{datetime.now():%Y%m%d_%H%M}.csv"
+    with open(map_path, "w", newline="", encoding="utf-8-sig") as mf:
+        w = csv.writer(mf)
+        w.writerow(["old_ad_id", "old_ad_res", "new_ad_id", "new_ad_res", "campaign", "ad_group"])
+        for r, ops in ops_all:
+            resp = ad_svc.mutate_ad_group_ads(customer_id=cid, operations=[ops[1]])   # ШАГ 1: только новое, старое пока работает
+            new_res = resp.results[0].resource_name
+            w.writerow([r["ad_id"], r["ad_res"], new_res.split("~")[-1], new_res, r["campaign"], r["ad_group"]])
+            done += 1
+            print(f"  {r['campaign']} / {r['ad_group'][:30]}: создано новое {new_res.split('~')[-1]} (старое {r['ad_id']} пока работает)")
+    print(f"создано: {done} из {len(ops_all)}. Файл соответствий: {map_path}")
+    print("ШАГ 2 (когда Google одобрит новые, обычно часы): --pause-old", map_path, "[--execute]")
 
 
 if __name__ == "__main__":
