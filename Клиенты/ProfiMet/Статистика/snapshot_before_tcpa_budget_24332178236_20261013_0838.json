@@ -1,0 +1,8 @@
+{
+  "name": "pmax01_call_test",
+  "status": "ENABLED",
+  "strategy": "MAXIMIZE_CONVERSIONS",
+  "tcpa": 12.0,
+  "budget": 100.0,
+  "budget_resource": "customers/7552781705/campaignBudgets/15926100449"
+}

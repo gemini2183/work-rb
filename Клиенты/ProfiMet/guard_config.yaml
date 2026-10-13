@@ -1,0 +1,36 @@
+# Универсальный сторож расхода и цены заявки: Скрипты/gads_spend_guard_cpa.py --client ProfiMet
+# Файл описывает ЧТО охранять. Боевой режим (--execute) задаётся только флагом запуска, не здесь.
+# Правила и обоснование: База_знаний/Паттерны/Сторож-цены-заявки-допустимый-расход-и-бюджет-по-шагам.md
+# Плейбук: База_знаний/Агенты/Сторож_цены_заявки_и_бюджета.md
+
+customer_id: "7552781705"
+monitoring_config: profimet.yaml     # Клиенты/…/monitoring scripts/monitoring/config/<файл> (Ringostat, Supabase, Telegram)
+form_action: form_submit_gtm         # название конверсии «форма» в Google Ads (для истории дней)
+
+loop_min: 2              # период проверки, минут
+heartbeat_min: 120       # раз в N минут сообщение «сторож жив» в Telegram; тишина = процесс остановлен
+grace: 2.0               # аванс: допустимый расход = (grace + число заявок) × цель
+abs_mult: 3.0            # жёсткий предел по умолчанию: расход ≥ N × дневной бюджет → пауза
+plan_daily: 195          # сумма базовых бюджетов под управлением не выше (план 6000 € / дни месяца)
+restore_at: "23:30"      # вечерний возврат люфта к базовому бюджету
+
+allow_reenable: true     # автоматически включать обратно, если заявки догнали (нужен и --execute)
+allow_budget: true       # менять дневной бюджет (нужен и --execute)
+telegram: true           # в режиме плана сообщения не уходят, пока --telegram не указан явно
+
+campaigns:
+  # --- PMax: цена заявки + управление бюджетом (база утром, люфт днём, возврат вечером)
+  - {id: 24332178236, name: pmax01_call_test, target: 25, budget_control: true, base_budget: 50,  max_budget: 100}
+  - {id: 23775369828, name: pmax1_test,       target: 22, budget_control: true, base_budget: 120, max_budget: 120}
+
+  # --- Тесты на первом бюджете: только пауза. Цель = бюджет ÷ 2, чтобы поведение совпало со старым правилом
+  #     «≥95% бюджета и 0 заявок → пауза»; плюс 1.5 × бюджета и 250 € общего расхода с даты запуска теста.
+  - {id: 24332648825, name: dg_lookalike_test,       target: 12.5, hard_mult: 1.5, total_limit: 250, since: "2026-10-12"}
+  - {id: 24342129286, name: dg_interest_nodiscover,  target: 12.5, hard_mult: 1.5, total_limit: 250, since: "2026-10-12"}
+  - {id: 24335049091, name: dspl_rtg_engage_mid,     target: 10,   hard_mult: 1.5, total_limit: 250, since: "2026-10-12"}
+  - {id: 24331349689, name: dspl_rtg_basket,         target: 10,   hard_mult: 1.5, total_limit: 250, since: "2026-10-12"}
+  - {id: 24341712952, name: "search / szklarnia generic", target: 12.5, hard_mult: 1.5, total_limit: 250, since: "2026-10-12"}
+
+  # --- НЕ включены (основной объём Search; пауза по цене заявки там — отдельное решение пользователя):
+  # - {id: 19153311519, name: "Search | Brand | Pl",      target: plan}
+  # - {id: 19158580966, name: "Search | Poliweglan | Pl", target: plan}

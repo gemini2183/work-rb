@@ -952,3 +952,26 @@ python gads_campaign_rework.py --plan "Клиенты/LuxeBrokers/Кампани
 ```
 
 Один JSON описывает пакет: список минусов (`negative_list`: имя, файл со словами `[[текст, тип], …]`, какие списки отвязать), `remove_campaign_negatives`, `pause_ads` (id), `new_group` (имя, статус, ключи, соответствие), `rsa` (URL, пути, группы, заголовки/описания с `pin`), `sitelinks` (текст, описания, url, anchor, `utm_query`, `tracking_url_template`), `callouts`, `snippet`, `set_group_status` (статус групп), `set_keyword_status` (статус ключа по группе + тексту + соответствию). Пакет атомарный; перед записью — снимок «до» (ссылки на подключения списков, статусы объявлений, привязки активов) для отката; пауза объявлений идёт первой (лимит 3 включённых RSA в группе). Не умеет: ставки / целевой CPA / бюджет (есть `gads_set_campaign_tcpa_budget.py`), гео-критерии, включение группы (отдельное «да»).
+
+
+## Универсальный сторож: `gads_spend_guard_cpa.py --client <Имя>` (с 2026-10-13)
+Один процесс на клиента вместо отдельного сторожа на каждый тип кампании. Настройки — `Клиенты/<Имя>/guard_config.yaml`
+(аккаунт, конфиг мониторинга Ringostat/Supabase/Telegram, название конверсии «форма», список кампаний: `target` — число или
+`plan` (CPA из «Цели2 Адвайта» через `read_plan`), `budget_control` + `base_budget` (число или `auto` = 2 × цель) + `max_budget`,
+`hard_mult`, `total_limit` + `since`). Флаги командной строки важнее файла; `--execute` в файл не пишется никогда.
+
+```
+python gads_spend_guard_cpa.py --client ProfiMet --print-config          # итоговые правила, без API
+python gads_spend_guard_cpa.py --client ProfiMet --once                  # один такт, ТОЛЬКО ПЛАН (файлы *_plan)
+python gads_spend_guard_cpa.py --client ProfiMet --execute --telegram    # боевой цикл (loop_min из файла)
+# без --once и без --execute цикл тоже идёт (loop_min из файла) — это цикл плана, ничего не пишет в кабинет
+```
+- Режим плана пишет лог и состояние в `gads_spend_guard_cpa_log_plan.csv` / `gads_spend_guard_state_plan.json`: боевой
+  процесс и пробный прогон больше не делят состояние (так 13.10 пробный прогон пометил «утро сделано» и боевой запуск пропустил
+  откат бюджета). Кроме того, отметка «утро сделано» ставится только после реальной записи.
+- Управление бюджетом — только у кампаний с `budget_control: true`; остальные под охраной «пауза по цене заявки/темпу/пределу».
+- `hard_mult` и `total_limit`+`since` на кампанию заменяют старый `gads_spend_guard.py` (≥1.5× бюджета, 250 € общего расхода).
+- `heartbeat_min` — сообщение «сторож жив» в Telegram раз в N минут; тишина дольше интервала = процесс не работает.
+- В режиме плана Telegram не шлёт, пока `--telegram` не указан явно (проверка канала).
+Новый клиент: скопировать `Клиенты/ProfiMet/guard_config.yaml`, поменять `customer_id`, `monitoring_config`, `form_action`,
+список кампаний; сначала `--print-config`, затем тактом плана, боевой — только после «да».

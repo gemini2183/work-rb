@@ -66,7 +66,8 @@ from gads_stats import GOOGLE_ADS_YAML
 
 MONITORING_DIR = r"E:\PythonProjects\RedBird\monitoring scripts\monitoring"
 MONITORING_CFG = MONITORING_DIR + r"\config\profimet.yaml"
-STATS = Path(__file__).resolve().parent.parent / "Клиенты" / "ProfiMet" / "Статистика"
+CLIENTS_DIR = Path(__file__).resolve().parent.parent / "Клиенты"
+STATS = CLIENTS_DIR / "ProfiMet" / "Статистика"
 LOG = STATS / "gads_spend_guard_cpa_log.csv"
 STATE = STATS / "gads_spend_guard_state.json"
 UNRESOLVED = "__unresolved_pmax__"   # чтобы UTM без ID и имени не склеивались в «первую попавшуюся PMax»
@@ -252,10 +253,85 @@ def parse_hhmm(s):
     return int(h) * 60 + int(m)
 
 
+def load_guard_config(path):
+    """Читает `Клиенты/<Имя>/guard_config.yaml` и приводит к значениям по умолчанию для аргументов командной строки.
+    Флаги командной строки всегда важнее файла. Файл НЕ содержит `execute` — боевой режим включается только флагом.
+    Возвращает (defaults для argparse, доп. настройки по кампаниям, описание кампаний для печати)."""
+    cfg = yaml.safe_load(Path(path).read_text(encoding="utf-8")) or {}
+    client_dir = Path(path).resolve().parent
+    plan = None
+    camps = cfg.get("campaigns") or []
+    if any(str(c.get("target", "")).strip().lower() == "plan" for c in camps):
+        sys.path.insert(0, str(Path(__file__).resolve().parent / "campaign_analyzer"))
+        from sources import read_plan   # noqa: E402  (план месяца из «Цели2 Адвайта», см. analysis_config.yaml клиента)
+        acfg = yaml.safe_load((client_dir / "analysis_config.yaml").read_text(encoding="utf-8"))
+        plan = read_plan(acfg, pd.Timestamp(date.today()))
+    targets, bases, maxes, flex_ids = [], [], [], []
+    hard_mult_by, total_limit_by, since_by, rows = {}, {}, {}, []
+    for c in camps:
+        cid_ = str(c["id"])
+        t = c.get("target")
+        t = plan["cpa"] if str(t).strip().lower() == "plan" else float(t)
+        targets.append(f"{cid_}={t:g}")
+        control = bool(c.get("budget_control", False))
+        base = c.get("base_budget")
+        if control:
+            flex_ids.append(cid_)
+            base = 2 * t if str(base).strip().lower() == "auto" else float(base)
+            mx = float(c.get("max_budget", base))
+            bases.append(f"{cid_}={base:g}")
+            maxes.append(f"{cid_}={mx:g}")
+        if c.get("hard_mult") is not None:
+            hard_mult_by[cid_] = float(c["hard_mult"])
+        if c.get("total_limit") is not None:
+            total_limit_by[cid_] = float(c["total_limit"])
+            since_by[cid_] = str(c.get("since") or date.today().replace(day=1).isoformat())
+        rows.append((cid_, c.get("name", ""), t, control, base if control else None,
+                     float(c.get("max_budget", base)) if control else None,
+                     hard_mult_by.get(cid_), total_limit_by.get(cid_), since_by.get(cid_)))
+    defaults = {"customer_id": str(cfg.get("customer_id", "")) or None,
+                "target": targets or None,
+                "base_budget": bases or None,
+                "max_budget": maxes or None,
+                "flex": bool(flex_ids),
+                "allow_budget": bool(cfg.get("allow_budget", False)),
+                "allow_reenable": bool(cfg.get("allow_reenable", False)),
+                "telegram": bool(cfg.get("telegram", False))}
+    for k_cfg, k_arg in (("grace", "grace"), ("plan_daily", "plan_daily"), ("loop_min", "loop_min"),
+                         ("heartbeat_min", "heartbeat_min"), ("restore_at", "restore_at"),
+                         ("pace_share", "pace_share"), ("pace_min", "pace_min"), ("abs_mult", "abs_mult")):
+        if cfg.get(k_cfg) is not None:
+            defaults[k_arg] = cfg[k_cfg]
+    if cfg.get("monitoring_config"):
+        defaults["monitoring_config"] = str(Path(MONITORING_DIR) / "config" / cfg["monitoring_config"])
+    extra = {"flex_ids": set(flex_ids), "hard_mult_by": hard_mult_by, "total_limit_by": total_limit_by,
+             "since_by": since_by, "stats": client_dir / "Статистика", "form_action": cfg.get("form_action", FORM_ACTION),
+             "plan": plan}
+    return defaults, extra, rows
+
+
 def main():
+    global STATS, LOG, STATE, FORM_ACTION
+    pre = argparse.ArgumentParser(add_help=False)
+    pre.add_argument("--client")
+    pre.add_argument("--config")
+    known, _ = pre.parse_known_args()
+    cfg_path = known.config or (str(CLIENTS_DIR / known.client / "guard_config.yaml") if known.client else None)
+    cfg_defaults, extra, cfg_rows = {}, {"flex_ids": None, "hard_mult_by": {}, "total_limit_by": {}, "since_by": {},
+                                         "stats": None, "form_action": FORM_ACTION, "plan": None}, []
+    if cfg_path:
+        cfg_defaults, extra, cfg_rows = load_guard_config(cfg_path)
+
     ap = argparse.ArgumentParser(description="Сторож по цене заявки + управление бюджетом (Ringostat + Supabase)")
-    ap.add_argument("--customer-id", required=True)
-    ap.add_argument("--target", action="append", required=True, metavar="ID=EUR",
+    ap.add_argument("--client", help="имя папки клиента: настройки берутся из Клиенты/<Имя>/guard_config.yaml "
+                                     "(флаги командной строки важнее файла)")
+    ap.add_argument("--config", help="путь к guard_config.yaml, если не в стандартном месте")
+    ap.add_argument("--print-config", action="store_true", help="показать итоговые правила по кампаниям и выйти (без API)")
+    ap.add_argument("--once", action="store_true", help="одна проверка и выход (игнорирует loop_min из конфига)")
+    ap.add_argument("--heartbeat-min", type=float, default=0.0,
+                    help="раз в N минут слать в Telegram «сторож жив» (0 — выключено); тишина = процесс не работает")
+    ap.add_argument("--customer-id")
+    ap.add_argument("--target", action="append", metavar="ID=EUR",
                     help="целевая цена заявки по кампании, можно несколько раз: 24332178236=25")
     ap.add_argument("--grace", type=float, default=2.0, help="аванс на первую заявку в долях цели (по умолчанию 2.0)")
     ap.add_argument("--warn-share", type=float, default=0.9)
@@ -291,13 +367,45 @@ def main():
     ap.add_argument("--telegram", action="store_true", help="слать события в Telegram чат монитора")
     ap.add_argument("--monitoring-dir", default=MONITORING_DIR)
     ap.add_argument("--monitoring-config", default=MONITORING_CFG)
+    ap.set_defaults(**{k: v for k, v in cfg_defaults.items() if v is not None})
     args = ap.parse_args()
+    if not args.customer_id or not args.target:
+        ap.error("нужны --customer-id и хотя бы один --target (или --client с guard_config.yaml)")
+    if args.once:
+        args.loop_min = 0
+    if extra["stats"]:
+        STATS = extra["stats"]
+    FORM_ACTION = extra["form_action"]
+    # режим «только план» пишет в ОТДЕЛЬНЫЕ файлы: боевой процесс и пробный прогон не должны делить состояние
+    suffix = "" if args.execute else "_plan"
+    LOG = STATS / f"gads_spend_guard_cpa_log{suffix}.csv"
+    STATE = STATS / f"gads_spend_guard_state{suffix}.json"
+    tg_explicit = "--telegram" in sys.argv
 
     cid = args.customer_id.replace("-", "").strip()
     targets = parse_map(args.target)
     base_arg = parse_map(args.base_budget)
     max_budget = parse_map(args.max_budget)
     restore_min = parse_hhmm(args.restore_at)
+    flex_ids = extra["flex_ids"] if extra["flex_ids"] is not None else set(targets)
+    hard_mult_by, total_limit_by, since_by = extra["hard_mult_by"], extra["total_limit_by"], extra["since_by"]
+
+    if args.print_config:
+        print(f"клиент: {args.client or '(без конфига)'} | аккаунт {cid} | файлы: {LOG.name}, {STATE.name}")
+        print(f"режим: {'БОЕВОЙ' if args.execute else 'план'} | возобновление: {args.allow_reenable} | "
+              f"запись бюджета: {args.allow_budget} | Telegram: {args.telegram} | пульс: {args.heartbeat_min:g} мин | "
+              f"аванс {args.grace:g}, предел {args.abs_mult:g}× бюджета, дневной план {args.plan_daily or '—'}")
+        if extra.get("plan"):
+            print(f"план месяца ({extra['plan']['tab']}): заявок {extra['plan']['leads']:g}, CPA {extra['plan']['cpa']:g}, "
+                  f"бюджет {extra['plan']['budget']:g}")
+        print(f"{'ID':<12}{'имя':<30}{'цель':>7}{'бюджет':>10}{'потолок':>9}{'x бюджета':>11}   {'лимит всего'}")
+        for r in cfg_rows or [(i, "", t, i in flex_ids, base_arg.get(i), max_budget.get(i), None, None, None)
+                              for i, t in targets.items()]:
+            cid_, nm, t, ctl, base, mx, hm, tl, since = r
+            print(f"{cid_:<12}{nm:<30}{t:>7g}{(f'{base:g}' if ctl else 'без упр.'):>10}"
+                  f"{(f'{mx:g}' if ctl else '—'):>9}{(f'{hm:g}' if hm else f'{args.abs_mult:g}'):>11}"
+                  f"   {(f'{tl:g} € с {since}' if tl else '—')}")
+        return
     client = GoogleAdsClient.load_from_storage(GOOGLE_ADS_YAML)
     ga = client.get_service("GoogleAdsService")
     enums = client.enums.CampaignStatusEnum
@@ -306,7 +414,8 @@ def main():
     budget_state = state.setdefault("_budget", {})
 
     def notify(text):
-        if args.telegram:
+        # в режиме «только план» сообщения уходят, только если --telegram указан явно (проверка канала)
+        if args.telegram and (args.execute or tg_explicit):
             try:
                 m_telegram.send_text(cfg["telegram"]["bot_token"], cfg["telegram"]["chat_id"], text)
             except Exception as ex:
@@ -321,6 +430,7 @@ def main():
            f"проверка каждые {args.loop_min or 0:g} мин")
 
     calls_cache = {}
+    last_hb = time.time()
     while True:
         now0 = datetime.now()
         today = date.today().isoformat()
@@ -343,7 +453,7 @@ def main():
         for campaign_id, T in targets.items():
             now = datetime.now()
             try:
-                s = read_state(ga, cid, campaign_id, None)
+                s = read_state(ga, cid, campaign_id, since_by.get(campaign_id))
             except Exception as ex:
                 print(f"{now:%H:%M:%S} кампания {campaign_id}: ошибка чтения Ads ({type(ex).__name__}), пропуск")
                 log_row([now.isoformat(timespec="seconds"), campaign_id, "", "", "", "", T, "", "", "", "", "", "",
@@ -379,8 +489,12 @@ def main():
             for x in samples:   # самая свежая точка не моложе окна
                 if (now - datetime.fromisoformat(x[0])).total_seconds() >= args.pace_min * 60:
                     ref = x
-            if ref and budget and n == ref[2] and cost - ref[1] >= args.pace_share * budget:
-                pace_hit = True
+            if ref and budget and n == ref[2]:
+                # приводим рост к окну: после перезапуска/сбоя ближайшая «старая» точка может быть на 40+ минут раньше
+                # (13.10: +20.8 € за 44 мин приняли за «+20.8 € за 30 мин» и поставили кампанию на паузу)
+                age_min = max((now - datetime.fromisoformat(ref[0])).total_seconds() / 60, args.pace_min)
+                if (cost - ref[1]) * (args.pace_min / age_min) >= args.pace_share * budget:
+                    pace_hit = True
 
             # --- пауза / возобновление по цене заявки
             if status == enums.ENABLED:
@@ -388,18 +502,26 @@ def main():
                     events.append("ручное включение после паузы сторожа")
                     st["paused_by_guard"] = False
                 reason = None
-                if budget and cost >= args.abs_mult * budget:
+                hard_mult = hard_mult_by.get(campaign_id, args.abs_mult)
+                total_lim = total_limit_by.get(campaign_id)
+                if budget and cost >= hard_mult * budget:
                     reason = "жёсткий предел"
                     st["no_resume"] = True
-                    events.append(f"ПАУЗА жёсткий предел: расход {cost:.2f} ≥ {args.abs_mult}× бюджета {budget:.2f} (заявок {n})")
+                    events.append(f"ПАУЗА жёсткий предел: расход {cost:.2f} ≥ {hard_mult:g}× бюджета {budget:.2f} (заявок {n})")
+                elif total_lim and s.get("total") is not None and s["total"] >= total_lim:
+                    reason = "общий лимит"
+                    st["no_resume"] = True
+                    events.append(f"ПАУЗА общий лимит: с {since_by.get(campaign_id)} потрачено {s['total']:.2f} ≥ "
+                                  f"{total_lim:g} € (заявок сегодня {n})")
                 elif cost >= allowance:
                     reason = "цена заявки"
                     events.append(f"ПАУЗА цена заявки: расход {cost:.2f} ≥ допустимого {allowance:.2f} "
                                   f"= ({args.grace:g}+{n})×{T:g}")
                 elif pace_hit:
                     reason = "темп"
-                    events.append(f"ПАУЗА темп: за {args.pace_min:g} мин расход +{cost - ref[1]:.2f} при {n} заявках "
-                                  f"(бюджет {budget:.2f})")
+                    events.append(f"ПАУЗА темп: за {age_min:.0f} мин расход +{cost - ref[1]:.2f} "
+                                  f"(≈ {(cost - ref[1]) * args.pace_min / age_min:.2f} за {args.pace_min:g} мин) "
+                                  f"при {n} заявках (бюджет {budget:.2f})")
                 elif cost >= args.warn_share * allowance and not st["warned"]:
                     events.append(f"ПРЕДУПРЕЖДЕНИЕ: расход {cost:.2f} = {share:.0%} допустимого {allowance:.2f} (заявок {n})")
                     st["warned"] = True
@@ -438,8 +560,8 @@ def main():
                     events.append(msg)
             # иначе: на паузе по решению человека — не трогаем
 
-            # --- бюджет
-            if args.flex:
+            # --- бюджет (только у кампаний с budget_control в конфиге; в режиме без конфига — у всех под охраной)
+            if args.flex and campaign_id in flex_ids:
                 try:
                     res, bud_now, shared = read_budget(ga, cid, campaign_id)
                     if res is None:
@@ -473,7 +595,8 @@ def main():
                             if (pb.get("flexed") or campaign_id in base_arg) and bud_now != pb["base"]:
                                 if apply_budget(pb["base"], "утро: возврат к базовому бюджету (откат люфта или ручного подъёма)"):
                                     bud_now = pb["base"]
-                            pb["flexed"] = False
+                            if can_write:   # в режиме «только план» состояние не трогаем (иначе боевой запуск пропустит утро)
+                                pb["flexed"] = False
                             cost_h, forms_h = ads_history(ga, cid, [campaign_id])
                             streak, last_bad = 0, False
                             days = [(date.today() - timedelta(days=i)).isoformat() for i in range(1, 8)]
@@ -529,7 +652,8 @@ def main():
                                 events.append(f"базовый бюджет {pb['base']:g} € без изменений (подходящих дней подряд: "
                                               f"{streak} из {args.efficient_days}; нужно: цена ≤ цели и расход ≥ "
                                               f"{args.constrained_share:.0%} бюджета)")
-                            pb["day_done"] = today
+                            if can_write:   # утро «сделано» только после реальной записи, не после плана
+                                pb["day_done"] = today
 
                         # 2) дневной люфт: эффективна и упирается в бюджет → поднять выше факта
                         enabled_now = (status == enums.ENABLED and not paused_now) or resumed_now
@@ -563,6 +687,13 @@ def main():
         if unattributed:
             print(f"  (форм без кампании/UTM сегодня: {unattributed} — не учтены ни в одной кампании)")
         save_state(state)
+        if args.heartbeat_min and time.time() - last_hb >= args.heartbeat_min * 60:
+            last_hb = time.time()
+            on_pause = [n_ for n_ in (id_to_name.get(i, i) for i in targets)
+                        if state.get(next((i for i in targets if id_to_name.get(i) == n_), ""), {}).get("paused_by_guard")]
+            notify(f"🟢 Сторож жив ({datetime.now():%H:%M}): кампаний {len(targets)}, на паузе по нашему правилу "
+                   f"{len(on_pause)}" + (f" ({', '.join(on_pause)})" if on_pause else "") +
+                   f", форм без кампании {unattributed}. Тишина дольше интервала = процесс остановлен.")
         if not args.loop_min:
             break
         time.sleep(args.loop_min * 60)
