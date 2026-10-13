@@ -243,9 +243,9 @@ def cmd_set_image(a):
         print(f"записано: {ad['name']} → {fid}")
     time.sleep(3)
     print("\nПрочитано обратно из аккаунта:")
-    after = {ad["id"]: ad for ad in list_ads(a.campaign)}
     for ad, _ in todo:
-        x = after[ad["id"]]
+        # прямое чтение объявления: сразу после записи список по группе мог не отдать объявление (13.10 — CT-L2)
+        x = call("GET", f"/ads/{ad['id']}")
         cr = x["creative"]
         print(f"{x['name']}  {x['status']}/{x.get('review_status')}  {cr.get('title')} | {cr.get('file_id')} | {crop_text(cr)}")
 
