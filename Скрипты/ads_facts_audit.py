@@ -154,6 +154,17 @@ def collect_texts(ga, cid, campaign_ids):
     run("Demand Gen", "SELECT campaign.name, campaign.status, ad_group_ad.status, ad_group_ad.ad.id, ad_group_ad.ad.demand_gen_multi_asset_ad.headlines, "
         "ad_group_ad.ad.demand_gen_multi_asset_ad.descriptions FROM ad_group_ad "
         f"WHERE {where} AND ad_group_ad.status = 'ENABLED' AND campaign.status = 'ENABLED'", dg)
+    def disp(r):
+        a = r.ad_group_ad.ad.responsive_display_ad
+        cn, aid = r.campaign.name, str(r.ad_group_ad.ad.id)
+        for x in list(a.headlines) + list(a.long_headline.text and [a.long_headline] or []) + list(a.descriptions):
+            out.append((cn, "Display", aid, x.text))
+        if a.business_name:
+            out.append((cn, "Display", aid, a.business_name))
+    run("Display", "SELECT campaign.name, campaign.status, ad_group_ad.status, ad_group_ad.ad.id, "
+        "ad_group_ad.ad.responsive_display_ad.headlines, ad_group_ad.ad.responsive_display_ad.long_headline, "
+        "ad_group_ad.ad.responsive_display_ad.descriptions, ad_group_ad.ad.responsive_display_ad.business_name FROM ad_group_ad "
+        f"WHERE {where} AND ad_group_ad.status = 'ENABLED' AND campaign.status = 'ENABLED'", disp)
     return out
 
 
