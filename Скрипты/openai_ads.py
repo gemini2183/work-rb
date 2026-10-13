@@ -7,9 +7,12 @@
     insights — показы/клики/расход/CTR/CPC по группам (или кампании) за период;
     set-bid  — смена fixed_bid у групп кампании.
     set-maxclicks — перевод групп на maximize_clicks (без ставки; формат взят у групп dog bite).
+    ads      — объявления кампании: статус, модерация, заголовок, file_id, обрезка картинки;
+    set-image — замена картинки у объявлений по файлу соответствий (ad_id → файл); загрузка
+                файла (POST /upload) и обновление creative (POST /ads/{id}); без --execute план.
 
-БЕЗОПАСНОСТЬ: set-bid по умолчанию только показывает план «было → станет» и ничего
-не пишет. Реальная запись — только с флагом --execute, после неё группы читаются
+БЕЗОПАСНОСТЬ: set-bid и set-image по умолчанию только показывают план «было → станет» и ничего
+не пишут. Реальная запись — только с флагом --execute, после неё группы читаются
 обратно и печатается фактическое состояние. Другие записи (создание, активация,
 бюджеты) сюда сознательно не входят.
 
@@ -156,6 +159,97 @@ def cmd_set_maxclicks(a):
         print(f"{after[g['id']]['name']}  {after[g['id']]['status']}  {bid_text(after[g['id']])}")
 
 
+def list_ads(campaign):
+    """Объявления всех групп кампании (фильтр campaign_id на /ads не срабатывает — идём по группам)."""
+    out = []
+    for g in list_groups(campaign):
+        for ad in call("GET", "/ads", [("ad_group_id", g["id"])]).get("data", []):
+            ad["_group_name"] = g["name"]
+            out.append(ad)
+    return out
+
+
+def crop_text(cr):
+    c = cr.get("image_crop") or {}
+    return f"x{c.get('x', 0):.2f} y{c.get('y', 0):.2f} w{c.get('width', 1):.2f} h{c.get('height', 1):.2f}"
+
+
+def cmd_ads(a):
+    for ad in list_ads(a.campaign):
+        cr = ad.get("creative", {})
+        print(f"{ad['id']}  {ad['_group_name']}  {ad['status']}/{ad.get('review_status')}  "
+              f"{ad.get('name')} | {cr.get('title')} | {cr.get('file_id')} | {crop_text(cr)}")
+
+
+def upload_image(path):
+    """POST /upload (multipart). Путь копируется под ASCII-имя: curl на Windows путается в кириллице."""
+    import shutil
+    import tempfile
+    tmp = os.path.join(tempfile.gettempdir(), "oai_ads_upload_" + str(int(time.time() * 1000)) + os.path.splitext(path)[1])
+    shutil.copyfile(path, tmp)
+    try:
+        cmd = ["curl", "-sS", "-X", "POST", "-w", "\n%{http_code}", "-H", f"Authorization: Bearer {get_key()}",
+               "-F", f"file=@{tmp}", BASE + "/upload"]
+        res = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
+        text, _, code = res.stdout.rpartition("\n")
+    finally:
+        os.remove(tmp)
+    if not code.startswith("2"):
+        sys.exit(f"HTTP {code} POST /upload: {text[:500]}")
+    data = json.loads(text)
+    fid = data.get("file_id") or data.get("id") or (data.get("data") or {}).get("file_id")
+    if not fid:
+        sys.exit(f"В ответе /upload нет file_id: {text[:300]}")
+    return fid
+
+
+def cmd_set_image(a):
+    """Замена картинки у объявлений. Файл соответствий: JSON {"ad_id": "путь к файлу от корня вики"}.
+    Остальные поля creative берутся из текущего объявления без изменений; картинка кадрируется
+    целиком (квадрат 1:1). Снимок «до» пишется в Клиенты/<клиент>/Статистика при --execute."""
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    mapping = json.load(open(a.map, encoding="utf-8"))
+    ads = {ad["id"]: ad for ad in list_ads(a.campaign)}
+    unknown = [k for k in mapping if k not in ads]
+    if unknown:
+        sys.exit(f"Объявления не найдены в кампании: {unknown}")
+    only = set(a.only) if a.only else set(mapping)
+    todo = [(ads[k], os.path.join(root, v)) for k, v in mapping.items() if k in only]
+    for ad, path in todo:
+        if not os.path.exists(path):
+            sys.exit(f"Нет файла {path}")
+    print("Объект | Действие | Было → Станет")
+    for ad, path in todo:
+        cr = ad["creative"]
+        print(f"{ad['name']} ({ad['id']}, {ad['_group_name']}, {ad['status']}/{ad.get('review_status')}) | картинка | "
+              f"{cr.get('file_id')} {crop_text(cr)} → {os.path.basename(path)} (целиком 1:1)")
+    if not a.execute:
+        print("\nПлан. Записи не было (добавьте --execute). Текст, ссылка и статус объявлений не меняются.")
+        return
+    snap_dir = os.path.join(root, "Клиенты", a.client_folder, "Статистика")
+    os.makedirs(snap_dir, exist_ok=True)
+    snap = os.path.join(snap_dir, f"openai_ads_creatives_before_{time.strftime('%Y%m%d_%H%M')}.json")
+    json.dump([{k: v for k, v in ad.items() if k != "_group_name"} for ad in ads.values()],
+              open(snap, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    print(f"\nСнимок «до»: {snap}")
+    for ad, path in todo:
+        cr = ad["creative"]
+        fid = upload_image(path)
+        new = {"type": cr["type"], "title": cr["title"], "body": cr["body"], "target_url": cr["target_url"],
+               "file_id": fid, "image_crop": {"x": 0, "y": 0, "width": 1, "height": 1}}
+        if cr.get("price"):
+            new["price"] = cr["price"]
+        call("POST", f"/ads/{ad['id']}", body={"creative": new})
+        print(f"записано: {ad['name']} → {fid}")
+    time.sleep(3)
+    print("\nПрочитано обратно из аккаунта:")
+    after = {ad["id"]: ad for ad in list_ads(a.campaign)}
+    for ad, _ in todo:
+        x = after[ad["id"]]
+        cr = x["creative"]
+        print(f"{x['name']}  {x['status']}/{x.get('review_status')}  {cr.get('title')} | {cr.get('file_id')} | {crop_text(cr)}")
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -173,6 +267,12 @@ def main():
     m = sub.add_parser("set-maxclicks"); m.add_argument("--campaign", required=True)
     m.add_argument("--groups", nargs="*", help="ID групп; по умолчанию все группы кампании")
     m.add_argument("--execute", action="store_true"); m.set_defaults(f=cmd_set_maxclicks)
+    d = sub.add_parser("ads"); d.add_argument("--campaign", required=True); d.set_defaults(f=cmd_ads)
+    im = sub.add_parser("set-image"); im.add_argument("--campaign", required=True)
+    im.add_argument("--map", required=True, help="JSON {ad_id: путь к картинке от корня вики}")
+    im.add_argument("--only", nargs="*", help="ad_id из файла соответствий; по умолчанию все")
+    im.add_argument("--client-folder", default="Andverpersonalinjury", help="куда писать снимок «до»")
+    im.add_argument("--execute", action="store_true"); im.set_defaults(f=cmd_set_image)
     a = p.parse_args()
     a.f(a)
 
