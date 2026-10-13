@@ -1,0 +1,741 @@
+{
+ "campaign": "jewelry / non-lux",
+ "campaign_id": 21874137004,
+ "campaign_shared_sets": [
+  [
+   "Negative init",
+   "customers/9534865605/campaignSharedSets/21874137004~11159389879"
+  ],
+  [
+   "Temp",
+   "customers/9534865605/campaignSharedSets/21874137004~11159397115"
+  ],
+  [
+   "Gold",
+   "customers/9534865605/campaignSharedSets/21874137004~11169037605"
+  ],
+  [
+   "luxury",
+   "customers/9534865605/campaignSharedSets/21874137004~11302682651"
+  ],
+  [
+   "brands irrel / jewelry",
+   "customers/9534865605/campaignSharedSets/21874137004~11832699486"
+  ],
+  [
+   "brands jew / target",
+   "customers/9534865605/campaignSharedSets/21874137004~12044065194"
+  ]
+ ],
+ "campaign_negatives": [
+  [
+   "auctions",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10000090"
+  ],
+  [
+   "cartier",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10001091"
+  ],
+  [
+   "fake",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10001161"
+  ],
+  [
+   "replica",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10001201"
+  ],
+  [
+   "bulova",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10001311"
+  ],
+  [
+   "exchange program",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10025556"
+  ],
+  [
+   "diamonds",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10056350"
+  ],
+  [
+   "savannah",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10064891"
+  ],
+  [
+   "redding",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10065591"
+  ],
+  [
+   "detroit",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10066141"
+  ],
+  [
+   "pearls",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10067901"
+  ],
+  [
+   "watch",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10087921"
+  ],
+  [
+   "watches",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10087931"
+  ],
+  [
+   "lab",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10106501"
+  ],
+  [
+   "recycle",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10114291"
+  ],
+  [
+   "reviews",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10117821"
+  ],
+  [
+   "swap",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10187261"
+  ],
+  [
+   "gold",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10249261"
+  ],
+  [
+   "vendor",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10266611"
+  ],
+  [
+   "gold eagle",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10293851"
+  ],
+  [
+   "santa monica",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10320971"
+  ],
+  [
+   "diamond",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10417531"
+  ],
+  [
+   "marketplace",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10453181"
+  ],
+  [
+   "pearl",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10547551"
+  ],
+  [
+   "opal",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10664286"
+  ],
+  [
+   "boa",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~10763342"
+  ],
+  [
+   "donde",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~11112142"
+  ],
+  [
+   "tungsten",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~11163581"
+  ],
+  [
+   "chatsworth",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~11499631"
+  ],
+  [
+   "glendale",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~11501891"
+  ],
+  [
+   "pasadena",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~11843220"
+  ],
+  [
+   "thousand oaks",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~11843390"
+  ],
+  [
+   "market place",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~12036790"
+  ],
+  [
+   "tourneau",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~12274071"
+  ],
+  [
+   "camarillo",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~12703016"
+  ],
+  [
+   "don",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~12710746"
+  ],
+  [
+   "oaks",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~12728506"
+  ],
+  [
+   "oro",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~12771066"
+  ],
+  [
+   "what is",
+   "PHRASE",
+   "customers/9534865605/campaignCriteria/21874137004~12967060"
+  ],
+  [
+   "tustin",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~13734116"
+  ],
+  [
+   "pawnshop",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~13766300"
+  ],
+  [
+   "grown",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~15805531"
+  ],
+  [
+   "circa",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~16045986"
+  ],
+  [
+   "vender",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~16078106"
+  ],
+  [
+   "app",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~17359491"
+  ],
+  [
+   "iwatch",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~19690266"
+  ],
+  [
+   "placer gold",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~21047421"
+  ],
+  [
+   "buy gold",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~23412140"
+  ],
+  [
+   "flipping",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~25728810"
+  ],
+  [
+   "pawning",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~28448596"
+  ],
+  [
+   "watchfinder",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~112604939"
+  ],
+  [
+   "rolex store",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~328798644"
+  ],
+  [
+   "rebag",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~426590641"
+  ],
+  [
+   "apmex",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~557430235"
+  ],
+  [
+   "sell pearls",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~588664563"
+  ],
+  [
+   "chrono24",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~1138720887"
+  ],
+  [
+   "shopify",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~1521992189"
+  ],
+  [
+   "rolex geneve",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~2008108353"
+  ],
+  [
+   "chrono 24",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~2500618345"
+  ],
+  [
+   "gold selling price",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~3562314822"
+  ],
+  [
+   "selling price of gold",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~3562315542"
+  ],
+  [
+   "sell gold price",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~3562325022"
+  ],
+  [
+   "hodinkee",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~15662066054"
+  ],
+  [
+   "poshmark",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~31141738457"
+  ],
+  [
+   "swisswatchexpo",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~31163711657"
+  ],
+  [
+   "bob's watches",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~297037121888"
+  ],
+  [
+   "chronos 24",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~298027033603"
+  ],
+  [
+   "gold selling price today",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~298045561359"
+  ],
+  [
+   "24k jewelry store beverly hills",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~300731201233"
+  ],
+  [
+   "authorized rolex dealer",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~300755096534"
+  ],
+  [
+   "chrone 24",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~302093559769"
+  ],
+  [
+   "is this",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~302649793871"
+  ],
+  [
+   "best company to buy gold from",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~304191041464"
+  ],
+  [
+   "bob's watches",
+   "PHRASE",
+   "customers/9534865605/campaignCriteria/21874137004~307096853002"
+  ],
+  [
+   "selling gold in usa",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~317264307056"
+  ],
+  [
+   "www golddealer com",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~317361198947"
+  ],
+  [
+   "trading watches",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~318740151741"
+  ],
+  [
+   "golddealer com",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~319290053024"
+  ],
+  [
+   "bobswatch",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~323058028066"
+  ],
+  [
+   "crown and caliber",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~329608637164"
+  ],
+  [
+   "14k jewelry beverly hills",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~329686426268"
+  ],
+  [
+   "labgrown",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~338061289123"
+  ],
+  [
+   "donde puedo empeñar oro",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~342737025291"
+  ],
+  [
+   "crono 24",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~343424043564"
+  ],
+  [
+   "watchfinder usa",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~362491477405"
+  ],
+  [
+   "wannabuyawatch",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~368687643001"
+  ],
+  [
+   "crownandcaliber",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~371462979596"
+  ],
+  [
+   "secondary watch market",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~386207330766"
+  ],
+  [
+   "watchguys",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~386917794475"
+  ],
+  [
+   "cronos 24",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~412517199527"
+  ],
+  [
+   "thewatchbox",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~457491821173"
+  ],
+  [
+   "donde vender reloj antiguo",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~467898321788"
+  ],
+  [
+   "crown caliber",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~615186983655"
+  ],
+  [
+   "crome 24",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~835233291481"
+  ],
+  [
+   "ocrolexguy",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~873072311435"
+  ],
+  [
+   "tourneau sell watch",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~1100709595363"
+  ],
+  [
+   "오늘 금 3.75 g 팔때 가격",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~1635989265986"
+  ],
+  [
+   "순금 팔때",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~1797705303576"
+  ],
+  [
+   "sell a watch com",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~1944079083490"
+  ],
+  [
+   "grailzee",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~1959490876033"
+  ],
+  [
+   "hodinkee sell watch",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~2174158021339"
+  ],
+  [
+   "tradewatchescom",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~2227849488194"
+  ],
+  [
+   "24k 순금 1 돈 가격 팔때",
+   "EXACT",
+   "customers/9534865605/campaignCriteria/21874137004~2274361009372"
+  ],
+  [
+   "卖 表",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~2335468781466"
+  ],
+  [
+   "https www thewatchbox com",
+   "BROAD",
+   "customers/9534865605/campaignCriteria/21874137004~2374433216544"
+  ]
+ ],
+ "ads": {
+  "719781659477": [
+   "customers/9534865605/adGroupAds/169389743986~719781659477",
+   "ENABLED",
+   "jewelry / non-lux / generic / sell"
+  ],
+  "719781659480": [
+   "customers/9534865605/adGroupAds/169389744146~719781659480",
+   "ENABLED",
+   "jewelry / non-lux / generic / buyers"
+  ],
+  "719781659483": [
+   "customers/9534865605/adGroupAds/169389744186~719781659483",
+   "ENABLED",
+   "jewelry / non-lux / generic / near me"
+  ],
+  "719781659486": [
+   "customers/9534865605/adGroupAds/169389744226~719781659486",
+   "ENABLED",
+   "jewelry / non-lux / generic / cash"
+  ],
+  "719781659489": [
+   "customers/9534865605/adGroupAds/169389744386~719781659489",
+   "ENABLED",
+   "jewelry / non-lux / generic / beverly hills"
+  ],
+  "787664388890": [
+   "customers/9534865605/adGroupAds/169389744386~787664388890",
+   "PAUSED",
+   "jewelry / non-lux / generic / beverly hills"
+  ],
+  "719781659492": [
+   "customers/9534865605/adGroupAds/169389744426~719781659492",
+   "ENABLED",
+   "jewelry / non-lux / items / engagement ring"
+  ],
+  "787664388893": [
+   "customers/9534865605/adGroupAds/169389744426~787664388893",
+   "PAUSED",
+   "jewelry / non-lux / items / engagement ring"
+  ],
+  "719781659495": [
+   "customers/9534865605/adGroupAds/169389744466~719781659495",
+   "ENABLED",
+   "jewelry / non-lux / items / wedding ring"
+  ],
+  "787664388896": [
+   "customers/9534865605/adGroupAds/169389744466~787664388896",
+   "PAUSED",
+   "jewelry / non-lux / items / wedding ring"
+  ],
+  "719781659498": [
+   "customers/9534865605/adGroupAds/169389744626~719781659498",
+   "ENABLED",
+   "jewelry / non-lux / items / ring"
+  ],
+  "787664388899": [
+   "customers/9534865605/adGroupAds/169389744626~787664388899",
+   "ENABLED",
+   "jewelry / non-lux / items / ring"
+  ],
+  "808140240162": [
+   "customers/9534865605/adGroupAds/201482139572~808140240162",
+   "ENABLED",
+   "jewelry / lux / generic / sell"
+  ],
+  "808140240165": [
+   "customers/9534865605/adGroupAds/201482139732~808140240165",
+   "ENABLED",
+   "jewelry / lux / generic / buyers"
+  ],
+  "808140240168": [
+   "customers/9534865605/adGroupAds/201482139772~808140240168",
+   "ENABLED",
+   "jewelry / lux / generic / cash"
+  ],
+  "808140240171": [
+   "customers/9534865605/adGroupAds/201482139812~808140240171",
+   "ENABLED",
+   "jewelry / lux / generic / near me"
+  ]
+ },
+ "campaign_assets": [
+  [
+   "customers/9534865605/campaignAssets/21874137004~165010433117~LEAD_FORM",
+   "LEAD_FORM",
+   165010433117
+  ],
+  [
+   "customers/9534865605/campaignAssets/21874137004~151684357895~STRUCTURED_SNIPPET",
+   "STRUCTURED_SNIPPET",
+   151684357895
+  ],
+  [
+   "customers/9534865605/campaignAssets/21874137004~151741284624~CALLOUT",
+   "CALLOUT",
+   151741284624
+  ],
+  [
+   "customers/9534865605/campaignAssets/21874137004~151741284627~CALLOUT",
+   "CALLOUT",
+   151741284627
+  ],
+  [
+   "customers/9534865605/campaignAssets/21874137004~151741284630~CALLOUT",
+   "CALLOUT",
+   151741284630
+  ],
+  [
+   "customers/9534865605/campaignAssets/21874137004~164551065757~BUSINESS_NAME",
+   "BUSINESS_NAME",
+   164551065757
+  ],
+  [
+   "customers/9534865605/campaignAssets/21874137004~164528289422~BUSINESS_LOGO",
+   "BUSINESS_LOGO",
+   164528289422
+  ],
+  [
+   "customers/9534865605/campaignAssets/21874137004~154609149386~AD_IMAGE",
+   "AD_IMAGE",
+   154609149386
+  ],
+  [
+   "customers/9534865605/campaignAssets/21874137004~154609163093~AD_IMAGE",
+   "AD_IMAGE",
+   154609163093
+  ],
+  [
+   "customers/9534865605/campaignAssets/21874137004~154609184612~AD_IMAGE",
+   "AD_IMAGE",
+   154609184612
+  ],
+  [
+   "customers/9534865605/campaignAssets/21874137004~154622847307~AD_IMAGE",
+   "AD_IMAGE",
+   154622847307
+  ],
+  [
+   "customers/9534865605/campaignAssets/21874137004~154622855986~AD_IMAGE",
+   "AD_IMAGE",
+   154622855986
+  ],
+  [
+   "customers/9534865605/campaignAssets/21874137004~154622873350~AD_IMAGE",
+   "AD_IMAGE",
+   154622873350
+  ],
+  [
+   "customers/9534865605/campaignAssets/21874137004~154662650067~AD_IMAGE",
+   "AD_IMAGE",
+   154662650067
+  ],
+  [
+   "customers/9534865605/campaignAssets/21874137004~154662652659~AD_IMAGE",
+   "AD_IMAGE",
+   154662652659
+  ],
+  [
+   "customers/9534865605/campaignAssets/21874137004~154662682050~AD_IMAGE",
+   "AD_IMAGE",
+   154662682050
+  ],
+  [
+   "customers/9534865605/campaignAssets/21874137004~154662692598~AD_IMAGE",
+   "AD_IMAGE",
+   154662692598
+  ],
+  [
+   "customers/9534865605/campaignAssets/21874137004~154662721557~AD_IMAGE",
+   "AD_IMAGE",
+   154662721557
+  ],
+  [
+   "customers/9534865605/campaignAssets/21874137004~154662721656~AD_IMAGE",
+   "AD_IMAGE",
+   154662721656
+  ],
+  [
+   "customers/9534865605/campaignAssets/21874137004~164561564002~AD_IMAGE",
+   "AD_IMAGE",
+   164561564002
+  ]
+ ]
+}

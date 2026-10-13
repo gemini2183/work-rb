@@ -1,0 +1,8 @@
+{
+  "_comment": "2026-10-13: вернуть паузный ключ «sell tag heuer» в watches / lux. Согласовано пользователем 2026-10-13 («ТУТ ВСЕ ДА»).",
+  "customer_id": "9534865605",
+  "campaign": "watches / lux",
+  "set_keyword_status": [
+    {"group": "watches / lux / brands / other", "text": "sell tag heuer", "match": "PHRASE", "status": "ENABLED"}
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "_comment": "2026-10-13: отвязать общий список «watces / generic» от watches / non-lux (на watches / lux и остальных остаётся). Согласовано пользователем 2026-10-13 («ТУТ ВСЕ ДА»).",
+  "customer_id": "9534865605",
+  "campaign": "watches / non-lux",
+  "detach_lists": ["watces / generic"]
+}

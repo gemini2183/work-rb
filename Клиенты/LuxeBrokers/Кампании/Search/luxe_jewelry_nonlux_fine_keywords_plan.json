@@ -1,0 +1,9 @@
+{
+  "_comment": "2026-10-13: вернуть два паузных ключа «fine jewelry» в jewelry / non-lux. Согласовано пользователем 2026-10-13 («ТУТ ВСЕ ДА»).",
+  "customer_id": "9534865605",
+  "campaign": "jewelry / non-lux",
+  "set_keyword_status": [
+    {"group": "jewelry / lux / generic / sell", "text": "sell fine jewelry", "match": "PHRASE", "status": "ENABLED"},
+    {"group": "jewelry / lux / generic / sell", "text": "sell your fine jewelry", "match": "PHRASE", "status": "ENABLED"}
+  ]
+}

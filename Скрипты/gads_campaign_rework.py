@@ -9,7 +9,8 @@
   * добавить RSA в указанные группы (и в новую), закрепления заголовков/описаний;
   * поставить на паузу объявления по id;
   * создать сайтлинки / выноски / структурированный сниппет, привязать к кампании, отвязать старые;
-  * сменить статус групп (`set_group_status`) и ключей (`set_keyword_status`: [{"group", "text", "match", "status"}]).
+  * сменить статус групп (`set_group_status`) и ключей (`set_keyword_status`: [{"group", "text", "match", "status"}]);
+  * только отвязать общие списки минусов от кампании (`detach_lists`: ["имя списка"]) — без создания нового.
 
 Режимы:
   без флагов     — ТОЛЬКО проверка (validate_only): Google проверяет весь пакет, ничего не создаёт;
@@ -186,6 +187,15 @@ def main():
             op = mop()
             op.campaign_shared_set_operation.remove = hit[0]
             ops.append(op)
+
+    # 1b. только отвязать общие списки (без создания нового): {"detach_lists": ["имя списка"]}
+    for name in plan.get("detach_lists", []):
+        hit = [rn for n, rn in before["campaign_shared_sets"] if n == name]
+        if len(hit) != 1:
+            sys.exit(f"Список '{name}' не подключён к кампании (найдено {len(hit)})")
+        op = mop()
+        op.campaign_shared_set_operation.remove = hit[0]
+        ops.append(op)
 
     # 2. кампанийные минусы на удаление
     for item in plan.get("remove_campaign_negatives", []):
