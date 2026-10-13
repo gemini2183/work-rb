@@ -18,6 +18,7 @@ validate_only.
     ... --execute        # записать (после «да»)
 """
 import argparse
+import collections
 import csv
 import re
 from datetime import datetime
@@ -71,6 +72,11 @@ def plan(ads, rep):
     for ad in ads:
         new_h = [(rep["headlines"].get(t, t), p) for t, p in ad["headlines"]]
         new_d = [(rep["descriptions"].get(t, t), p) for t, p in ad["descriptions"]]
+        added = []
+        for add in rep.get("add_headlines", []):
+            if len(new_h) < 15 and add.lower() not in {t.lower() for t, _ in new_h}:
+                new_h.append((add, 0))
+                added.append(add)
         changed = new_h != ad["headlines"] or new_d != ad["descriptions"]
         for t, _ in ad["headlines"] + ad["descriptions"]:
             if SUSPECT.search(t) and t not in rep["headlines"] and t not in rep["descriptions"]:
@@ -91,7 +97,7 @@ def plan(ads, rep):
         if errs:
             problems.append((ad["ad_id"], errs))
             continue
-        rows.append({**ad, "new_h": new_h, "new_d": new_d})
+        rows.append({**ad, "new_h": new_h, "new_d": new_d, "added": added})
     return rows, problems, unresolved
 
 
@@ -102,6 +108,7 @@ def main():
     ap.add_argument("--campaign-ids", nargs="+", required=True)
     ap.add_argument("--map", required=True)
     ap.add_argument("--execute", action="store_true")
+    ap.add_argument("--examples", action="store_true", help="показать итоговое объявление целиком (по одному на кампанию)")
     a = ap.parse_args()
     cid = a.customer_id.replace("-", "")
     rep = yaml.safe_load(Path(a.map).read_text(encoding="utf-8"))
@@ -118,6 +125,21 @@ def main():
         by.setdefault(r["campaign"], []).append(r)
     for c, rs in by.items():
         print(f"  {c}: {len(rs)} объявлений")
+    n_add = collections.Counter(len(r["added"]) for r in rows)
+    print("новых заголовков добавлено (0/1/2 на объявление):", dict(sorted(n_add.items())))
+    if a.examples:
+        seen = set()
+        for r in rows:
+            if r["campaign"] in seen:
+                continue
+            seen.add(r["campaign"])
+            print(f"\n--- ПРИМЕР: {r['campaign']} / {r['ad_group']} (id {r['ad_id']}) ---")
+            old_h = {t for t, _ in r["headlines"]}
+            old_d = {t for t, _ in r["descriptions"]}
+            for t, pin in r["new_h"]:
+                print(f"  H{' [закреплён]' if pin else ''}{' *ИЗМЕНЕНО/НОВОЕ*' if t not in old_h else ''}: {t}")
+            for t, pin in r["new_d"]:
+                print(f"  D{' [закреплён]' if pin else ''}{' *ИЗМЕНЕНО*' if t not in old_d else ''}: {t}")
     if unresolved:
         print("\nТРЕБУЮТ РЕШЕНИЯ (подозрительные фразы без замены в карте):")
         for t, ids in unresolved.items():

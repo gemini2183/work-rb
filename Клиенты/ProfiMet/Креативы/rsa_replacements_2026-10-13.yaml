@@ -9,8 +9,8 @@ headlines:
   "3 Prezenty Gratis": "4 Prezenty Gratis"
   "3 prezenty do szklarni": "4 prezenty do szklarni"
 descriptions:
-  "Wytrzyma ponad 10 lat. Płatność przy odbiorze. Produkcja własna. Kupuj od producenta!": "Zapłać przy odbiorze, bez przedpłaty. 5 lat gwarancji na poliwęglan. Kupuj od producenta!"
-  "Wytrzyma ponad 10 lat. Płatność przy odbiorze. . Kupuj od producenta!": "Zapłać przy odbiorze, bez przedpłaty. 5 lat gwarancji na poliwęglan. Kupuj od producenta!"
+  "Wytrzyma ponad 10 lat. Płatność przy odbiorze. Produkcja własna. Kupuj od producenta!": "Ocena klientów 4,9 – ponad 80 opinii. Zapłać przy odbiorze, bez przedpłaty. Od producenta!"
+  "Wytrzyma ponad 10 lat. Płatność przy odbiorze. . Kupuj od producenta!": "Ocena klientów 4,9 – ponad 80 opinii. Zapłać przy odbiorze, bez przedpłaty. Od producenta!"
   "Najniższe ceny od producenta. 3 prezenty gratis. Płatność przy odbiorze. Darmowa dostawa.": "Prosto od producenta: 4 prezenty gratis, płatność przy odbiorze, dostawa w 3-7 dni."
   "Poliwęglan 4-6mm UV + profile 40x20mm. Najsilniejsze szklarnie. Gwarancja fabryczna!": "Poliwęglan 4-6mm UV + profile 40x20mm. Montaż bez spawania. Gwarancja do 5 lat!"
   "Certyfikowany producent. 100% produkcja w Polsce od 2008. 100 000+ zamówień rocznie!": "Certyfikat Jakości „Wyprodukowano w Polsce”. 16 lat produkcji. 45 000+ zamówień rocznie!"
@@ -18,8 +18,12 @@ descriptions:
   "Darmowa dostawa. Płatność przy odbiorze. 3 Prezenty Gratis": "Darmowa dostawa. Płatność przy odbiorze. 4 Prezenty Gratis"
   "Szklarnie z poliwęglanu w promocji! 3 prezenty gratis. Dostawa 3-7 dni gratis.": "Szklarnie z poliwęglanu w promocji! 4 prezenty gratis. Dostawa 3-7 dni gratis."
   "Własna produkcja od 16 lat. Stal ocynkowana, montaż bez spawania. 3 prezenty gratis.": "Własna produkcja od 16 lat. Stal ocynkowana, montaż bez spawania. 4 prezenty gratis."
-  "Dajemy gwarancję jakości, ochrony terminów i najlepszej ceny na rynku.": "Gwarancja: 2 lata na ramę i 5 lat na poliwęglan. Zamów prosto od producenta!"
+  "Dajemy gwarancję jakości, ochrony terminów i najlepszej ceny na rynku.": "Dwie szklarnie na jeden adres = rabat 100 zł. Gwarancja 5 lat na poliwęglan."
   "Produkcja, sprzedaż i instalacja ocynkowanych szklarni z poliwęglanu.": "Produkcja i sprzedaż ocynkowanych szklarni z poliwęglanu. Prosto od producenta."
   "Duży wybór szklarni z poliwęglanu. Niskie ceny. Darmowa dostawa. Instalacja.": "10+ modeli szklarni z poliwęglanu. Niskie ceny, darmowa dostawa. Płatność przy odbiorze."
   "Duży wybór z poliwęglanu. Niskie ceny. Darmowa dostawa. Instalacja.": "10+ modeli z poliwęglanu. Niskie ceny, darmowa dostawa. Płatność przy odbiorze."
   "Duży wybór tuneli z poliwęglanu. Niskie ceny. Darmowa dostawa. Instalacja.": "10+ modeli tuneli z poliwęglanu. Niskie ceny, darmowa dostawa. Płatność przy odbiorze."
+# Новые заголовки добавляются, только если у объявления есть свободный слот (максимум 15) и такого текста ещё нет.
+add_headlines:
+  - "Ocena 4,9 – Ponad 80 Opinii"
+  - "Rabat 100 zł za 2 Szklarnie"
