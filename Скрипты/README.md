@@ -1066,3 +1066,17 @@ python Скрипты/image_tool.py generate --backend openai|gemini --model <и
 - `fit`: для каждого формата кадрирует наибольшую область нужной пропорции вокруг фокуса (или вписывает на поле), масштабирует до рекомендуемого размера, сжимает JPG до лимита; печатает долю сохранённой площади и апскейл. Рядом пишет `<файл>.meta.json` с происхождением.
 - `generate`: без `--execute` печатает план. Ключ — `OPENAI_API_KEY` или `GEMINI_API_KEY` в окружении (`OPENAI_ADS_API_KEY` не подходит). Имя модели обязательно. Результат всегда помечен `ai_generated: true` в `.meta.json`; `check` напоминает про метку ИИ. **Не запускался** — нет ключа.
 - Проверено 2026-10-13 на файлах ProfiMet (`DG_карусель_карточки`, `pmax1_test`, `logo`): `check` нашёл PNG под расширением `.jpg` и логотип 32×32 ниже минимума; `fit` — кадрирование и поля.
+
+## OpenAI Ads: картинки объявлений — `openai_ads.py ads` и `set-image` (ЗАПИСЬ, по умолчанию план)
+
+```
+python Скрипты/openai_ads.py ads --campaign cmpn_...
+python Скрипты/openai_ads.py set-image --campaign cmpn_... --map <json> [--only ad_id ...] [--client-folder Andverpersonalinjury]          # план
+python Скрипты/openai_ads.py set-image --campaign cmpn_... --map <json> --only ad_id ... --execute                                      # запись
+```
+
+- `ads`: объявления всех групп кампании, статус и модерация, заголовок, `file_id`, обрезка. Обход по группам: фильтр `campaign_id` на `/ads` не срабатывает.
+- `set-image`: файл соответствий — JSON `{ad_id: путь к картинке от корня вики}`. План печатает «было → станет» (file_id и обрезка → файл). С `--execute`: снимок «до» всех объявлений в `Клиенты/<клиент>/Статистика/openai_ads_creatives_before_*.json`; загрузка файла `POST /upload` (multipart, имя копируется под ASCII — curl на Windows путается в кириллице); `POST /ads/{id}` с `creative` целиком (type, title, body, target_url, file_id, image_crop 0/0/1/1, price если был); чтение обратно прямым `GET /ads/{id}`.
+- API: `POST /ads/{id}` обновляет `creative` на месте; `image_crop` — квадратная обрезка в долях исходника; загрузка — не меньше 640×640. После записи объявление уходит на повторную модерацию (`active/in_review`, 13.10 у всех шести).
+- Опробовано 2026-10-13 на Landver Law car+truck: 6 объявлений заменены. Первые версии списка после записи не отдали CT-L2 (запаздывание), поэтому чтение обратно сделано прямым запросом.
+- Не умеет: создание объявлений, пауза и архив (в API есть `POST /ads/{id}/pause` и `/archive`, команд пока нет).
