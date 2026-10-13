@@ -244,6 +244,7 @@
   },
   "active": "49438aefe15a1236",
   "lastOpenFiles": [
+    "Клиенты/EkspertAgro/analysis_config.yaml",
     "Клиенты/EkspertAgro/Статистика/gads_spend_guard_state_plan.json",
     "Клиенты/EkspertAgro/Статистика/gads_spend_guard_cpa_log_plan.csv",
     "Клиенты/EkspertAgro/guard_config.yaml",
@@ -256,7 +257,6 @@
     "Клиенты/LuxeBrokers/Журнал_изменений.md",
     "Клиенты/Andverpersonalinjury/Статистика/negatives_conflicts_20261012_1706.csv",
     "Клиенты/Andverpersonalinjury/Статистика/gads_campaign_negatives_before_removal_20261012_1705.csv",
-    "Клиенты/Andverpersonalinjury/Статистика/snapshot_before_bidding_24331208797_20261012_1705.json",
     "Клиенты/LuxeBrokers/Кампании/Search/gold_.md",
     "База_знаний/Паттерны/Google-Ads-Search-точное-соответствие-из-истории-запросов.md",
     "База_знаний/Агенты/Сторож_цены_заявки_и_бюджета.md",

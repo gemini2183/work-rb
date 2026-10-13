@@ -4,12 +4,12 @@
 # Валюта аккаунта — PLN: все суммы ниже в злотых.
 
 customer_id: "8826134558"
-monitoring_config: experagro.yaml    # Ringostat + Supabase (expertagro_leads) + Telegram; там же kpi.base_conversion_cost: 150
+monitoring_config: experagro.yaml    # Ringostat + Supabase (expertagro_leads) + Telegram (его kpi 150 устарел, цель — из таблицы)
 form_action: form_submit_web         # конверсия «форма» в Google Ads аккаунта TIG / ЭкспертАгро
 
 loop_min: 2
 heartbeat_min: 120
-grace: 2.0               # допустимый расход = (2 + заявки) × цель; при 0 заявок = 2 × 150 = 300 zł
+grace: 2.0               # допустимый расход = (2 + заявки) × цель; при 0 заявок = 2 × 110 = 220 zł
 abs_mult: 3.0            # жёсткий предел: расход ≥ 3 × дневной бюджет → пауза
 pace_share: 0.4          # «темп»: +40% бюджета за 30 минут без новых заявок → пауза (12.10: 600 zł за полчаса при бюджете 300)
 pace_min: 30
@@ -19,7 +19,9 @@ allow_budget: false      # управление бюджетом не включ
 telegram: true           # в режиме плана сообщения не уходят, пока --telegram не указан явно
 
 campaigns:
-  # Цель 150 zł за заявку — KPI из конфига мониторинга (kpi.base_conversion_cost), подтвердить с пользователем.
-  - {id: 23593683252, name: general_pmax, target: 150}   # бюджет 293 zł, MAXIMIZE_CONVERSIONS
-  - {id: 24210390946, name: shop_search,  target: 150}   # бюджет 300 zł, SHOPPING, TARGET_SPEND
-  - {id: 24230255260, name: shop_pmax,    target: 150}   # бюджет 250 zł, MAXIMIZE_CONVERSIONS
+  # Цель заявки — из таблицы «Цели2 Адвайта», лист «Октябрь 26» (прочитано 2026-10-13): CPA 110 zł у обеих рекламных строк
+#   «Ekspertagro - Теплицы Польша» (план 59 заявок, бюджет 6500 zł) → general_pmax;
+#   «Ekspertagro - Мерчант» (план 39 заявок, бюджет 4300 zł) → shop_search, shop_pmax.
+  - {id: 23593683252, name: general_pmax, target: 110}   # бюджет 293 zł, MAXIMIZE_CONVERSIONS
+  - {id: 24210390946, name: shop_search,  target: 110}   # бюджет 300 zł, SHOPPING, TARGET_SPEND
+  - {id: 24230255260, name: shop_pmax,    target: 110}   # бюджет 250 zł, MAXIMIZE_CONVERSIONS
