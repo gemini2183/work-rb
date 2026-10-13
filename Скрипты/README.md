@@ -1080,3 +1080,22 @@ python Скрипты/openai_ads.py set-image --campaign cmpn_... --map <json> -
 - API: `POST /ads/{id}` обновляет `creative` на месте; `image_crop` — квадратная обрезка в долях исходника; загрузка — не меньше 640×640. После записи объявление уходит на повторную модерацию (`active/in_review`, 13.10 у всех шести).
 - Опробовано 2026-10-13 на Landver Law car+truck: 6 объявлений заменены. Первые версии списка после записи не отдали CT-L2 (запаздывание), поэтому чтение обратно сделано прямым запросом.
 - Не умеет: создание объявлений, пауза и архив (в API есть `POST /ads/{id}/pause` и `/archive`, команд пока нет).
+
+
+## Оценки качества ключей Search: `gads_quality_score_keywords.py` (только чтение, с 2026-10-13)
+Для включённых ключей кампании(й) за период: Quality Score, ожидаемый CTR, релевантность объявления, посадочная страница (BELOW_AVERAGE / AVERAGE / ABOVE_AVERAGE) и показы, клики, расход, конверсии; CSV в `Клиенты/<Имя>/Статистика/gads_quality_score_keywords_<конец периода>.csv`. Нужен, чтобы до и после правок страницы / объявлений видеть, какая из трёх частей изменилась. У ключей без показов приходит UNSPECIFIED / 0 — не ошибка.
+
+```
+python gads_quality_score_keywords.py --customer-id 953-486-5605 --client-folder LuxeBrokers --campaign gold_ --since 2026-09-15 --until 2026-10-12 --min-impr 100
+python gads_quality_score_keywords.py ... --campaign gold_ --campaign "jewelry / non-lux"     # несколько кампаний
+```
+Quality Score — диагностика Google, не цель; в аукционе работают сами три оценки (справка Google). Базовый снимок LuxeBrokers gold_ на 12.10 — файл `gads_quality_score_keywords_2026-10-12.csv`, сравнение 20.10 и 27.10 ([[Клиенты/LuxeBrokers/Эксперименты]] Э-4).
+
+## Аудит посадочной страницы браузером: `site_page_audit.py` (только чтение, с 2026-10-13)
+Playwright, телефон и компьютер: title, description, og:title, теги h1-h4, картинки без alt, время загрузки, число запросов и вес, тяжёлые файлы, ссылки на мессенджеры / телефон / соцсети с номером блока и позицией, внутренние ссылки со статусом (битые 404), карты и виджеты, плавающие кнопки, формы, якоря; скриншот первого экрана. Формы не отправляет. Результат: `Статистика/<клиент>/site_audit_<дата>/audit.json` + скриншоты.
+
+```
+python site_page_audit.py --url https://jewelryfastsale.com/gold-silver --client-folder LuxeBrokers
+python site_page_audit.py --url ... --client-folder ... --no-links-check
+```
+Ограничения: вес по заголовкам `content-length` (часть ресурсов без него); скорость — в быстрой сети, не как у посетителя (для замера нужен pagespeed.web.dev, без ключа API упирается в квоту); «виден» по геометрии, боковые панели за краем экрана нужно смотреть на скриншоте.
