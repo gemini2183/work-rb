@@ -27,33 +27,105 @@ updated: 2026-10-13
 
 Важно: оценку 1–10 Google называет диагностикой, а не целью. В аукционе работают сами три оценки в реальном времени. Практический смысл: сейчас gold_ теряет 65% показов по рейтингу (бюджет не ограничивает, тратится ≈ 47 $ из 250 $), и лучшая страница и тексты — единственный способ вернуть показы без роста цены клика.
 
-## 2. Страница /gold-silver: что есть → что сделать
+## 2. Страница /gold-silver: задачи для исполнителя
 
-Что на странице сейчас (проверено в браузере):
-- Главный экран: «WE BUY GOLD AND SILVER», телефон, часы, кнопка «Get a free online appraisal». **Нет слов «Beverly Hills» и «near me»**, адрес только в подвале.
-- **Ни одного тега заголовка h1–h4 с текстом** (заголовки сделаны оформлением, а не тегами) — поисковая система и Google не видят структуру.
-- Title: «Jewelry Fast Sale — Purchase/Repurchase of Gold and Silver»; description повторяет то же самое («Purchase/Repurchase of Gold and Silver»).
-- 54 картинки, ни у одной нет alt. Картинки PNG весят ≈ 1,5 МБ (самые тяжёлые 482 / 304 / 288 КБ), всего ≈ 2,9 МБ и 124 запроса; на быстром канале в браузере страница грузится 2,2 с на мобильном. На реальном мобильном 4G — медленнее (PageSpeed получить не удалось, квота; пользователю прогнать https://pagespeed.web.dev для /gold-silver).
-- Блоки: Types of products (шесть карточек), How to sell (4 шага), Gallery, 8 отзывов (без источника и звёзд), форма «Free online appraisal» с загрузкой файлов, адрес, телефон.
-- Якоря #home, #types, #how, #gallery, #form на странице есть (проверено).
-- Лишнее и противоречия: фраза «I'm available for business trips to other cities for projects lasting a month or longer» (от первого лица, уводит от «приезжайте»); выплата в шапке «cash or to a bank account», в шаге 3 «check or bank transfer».
+Как устроена страница (проверено в браузере 13.10): 19 блоков Tilda, почти все — Zero Block. Ни в одном нет тега заголовка h1–h4 с текстом. Блоки названы по id из кода страницы (rec…), чтобы их можно было найти: в редакторе Tilda у каждого блока виден такой номер в настройках блока.
+Названия пунктов меню Tilda ниже даны по общему знанию (настройки страницы → SEO; у текстового элемента Zero Block выбор тега) — **у меня нет доступа к редактору, пункты не проверены в вашем кабинете, названия могут отличаться**.
 
-### Правки (по приоритету)
+### Задача 1. Сделать заголовок первого экрана настоящим H1
+- **Где:** Zero Block `rec4298993003` (первый экран, большой «WE BUY / GOLD AND SILVER»).
+- **Сейчас:** «WE BUY GOLD AND SILVER» оформлено крупным текстом без тега заголовка; слов «Beverly Hills» и «near me» на экране нет.
+- **Сделать:** текст заголовка заменить на «Gold Buyers in Beverly Hills: We Buy Gold, Scrap & Broken Gold» (62 знака) и поставить тег H1 (на странице должен быть ровно один H1). Если на телефоне уходит в 4+ строки — короткий вариант: H1 «Gold Buyers in Beverly Hills» (28), а «We Buy Gold, Scrap & Broken Gold» вынести в подзаголовок.
+- **Под H1 добавить строку:** «Sell gold near you. Free evaluation, paid in cash or bank transfer, deal in up to 10 minutes.»
+- **Проверка:** в коде страницы поиск `<h1` находит один тег с этим текстом.
 
-| № | Что сделать | Где | Зачем | Нужно от клиента |
+### Задача 2. Title и description страницы
+- **Где:** настройки страницы → SEO.
+- **Сейчас:** title «Jewelry Fast Sale — Purchase/Repurchase of Gold and Silver»; description «Purchase/Repurchase of Gold and Silver» (то же самое, одной фразой).
+- **Сделать:** title «Sell Gold in Beverly Hills | Cash for Gold Buyers» (49 знаков); description «We buy gold jewelry, scrap, broken chains, coins and bars in Beverly Hills. Free evaluation, cash or bank transfer. Open daily 10 AM–7 PM.» (≈ 140 знаков). Если в настройках отдельно задан заголовок для соцсетей (og:title) — поставить тот же title (сейчас он повторяет старый).
+
+### Задача 3. Адрес и часы на первом экране
+- **Где:** тот же `rec4298993003`, под подзаголовком из задачи 1.
+- **Сейчас:** в шапке телефон «+1 (213) 794-76-66» и «Daily 10 am to 7 pm»; адрес есть только в нижнем блоке `rec4298994203`.
+- **Сделать:** добавить строку «131 N Robertson Blvd, Beverly Hills, CA 90211 · Open daily 10 AM – 7 PM». **Адрес подтвердить:** на сайте 131 N Robertson Blvd, в брифе 8308 Wilshire Blvd — до ответа клиента не публиковать.
+- **Номер:** не вписывать вручную другой; использовать тот же номер/элемент, что в шапке (подмену делает Ringostat). После правки сделать тестовый звонок и убедиться, что звонок виден в Ringostat.
+
+### Задача 4. Одна формулировка про оплату
+- **Где (3 места):** первый экран `rec4298993003` («Payment in cash or to a bank account»); блок How to sell `rec4298993603`, шаг 04 («Receive immediate payment by check or bank transfer.»); будущий FAQ.
+- **Сделать:** везде «Paid in cash or bank transfer» (в шаге 04: «Receive immediate payment in cash or by bank transfer.»). Если клиент подтвердит, что чек тоже возможен — везде «cash, check or bank transfer».
+
+### Задача 5. Убрать фразу про выезды
+- **Где:** блок меню `rec4298993103` (бургер-меню, видно при открытии меню на телефоне), не главный экран.
+- **Сейчас:** «I'm available for business trips to other cities for projects lasting a month or longer.»
+- **Сделать:** удалить фразу (она от первого лица и уводит от «приезжайте»).
+
+### Задача 6. Новый блок «How we calculate your offer»
+- **Где:** между блоком Types of products `rec4298993403` и How to sell `rec4298993603`.
+- **Текст:** заголовок «How we calculate your offer». Абзац: «Your offer is based on three things: the karat (purity) of your gold, its weight, and the current gold price. We test and weigh your items and explain how the offer is calculated before you decide.» *(«test and weigh» — подтвердить у клиента; в отзыве написано «tested my scrap jewelry … right in front of me»).*
+- **Таблица проб:** 10K — 41,7%, 14K — 58,3%, 18K — 75,0%, 22K — 91,7%, 24K — 99,9% (чистота золота по пробе — общая арифметика). Процент выплаты и коэффициенты **не писать**.
+
+### Задача 7. Блок FAQ
+- **Где:** после отзывов, перед формой `rec4298994203`.
+- **Публикуем сразу (по тексту страницы):**
+  1. «Do you buy broken or scrap gold?» — «Yes. We buy broken chains, single earrings, damaged pieces and mixed lots.»
+  2. «Do you buy gold coins and bars?» — «Yes. Pricing depends on type, purity, weight and market conditions.»
+  3. «How fast do I get paid?» — «The average transaction takes up to 10 minutes.»
+  4. «Is the evaluation free?» — «Yes, a free evaluation with no obligation to sell.»
+  5. «Can I send photos first?» — «Yes. Use the form for a free online appraisal.»
+- **После ответа клиента:** «Do I need an appointment?», «What should I bring? (ID?)», «How is my offer calculated?»
+
+### Задача 8. Галерея под золото
+- **Где:** блок Gallery `rec4298993903`.
+- **Сейчас:** 12 фото, все ювелирные люкс-бренды (Cartier, Van Cleef & Arpels, Chopard, Tiffany, Bulgari); ни одного лома, цепочек, монет или слитков, а страница — под запросы про золото.
+- **Сделать:** добавить 4–6 фото золота (цепочки и лом, монеты, слитки) и поставить их первыми. Фото — только реальные от клиента (не стоковые под видом клиентских).
+
+### Задача 9. Отзывы: источник
+- **Где:** блок Customer reviews `rec4298994003` (6 отзывов с пятью звёздами).
+- **Сейчас:** источник не указан; отзыв Shoshana Zakaria — про ремонт часов («fix my watches for Free»), к золоту не относится.
+- **Сделать:** под заголовком «CUSTOMER REVIEWS» добавить «Reviews from Google» или «from Yelp» (как есть на самом деле) со ссылкой на профиль; отзыв про часы перенести в конец. Не добавлять рейтинг и число отзывов без источника.
+
+### Задача 10. Alt у картинок
+Сейчас у всех картинок alt пустой. Тексты (по фото на странице):
+
+| Блок | Картинка | Alt |
+|---|---|---|
+| Первый экран | золотой браслет-цепь слева | Gold chain bracelet |
+| Первый экран | серебряный браслет с подвеской справа | Silver charm bracelet |
+| Types | Cash for Gold | Gold bracelets and rings we buy for cash |
+| Types | Gold Jewelry | Gold jewelry: rings, chains and bracelets we buy |
+| Types | Scrap & Broken Gold | Scrap and broken gold chains we buy |
+| Types | Gold Coins | Gold coins we buy |
+| Types | Gold Bars | Gold bars we buy |
+| Types | Silver & Platinum | Silver chain bracelet, we also buy silver and platinum |
+| How to sell | шаг 01 | Send photos of your items from your phone |
+| How to sell | шаг 02 | Schedule a visit |
+| How to sell | шаг 03 | Offer for your items |
+| How to sell | шаг 04 | Payment by bank transfer |
+| Gallery | 12 фото | по предмету, например «Cartier Love bracelet», «Van Cleef & Arpels necklace» |
+
+### Задача 11. Сжать 7 тяжёлых картинок
+
+| Блок | Файл | Размер | Размеры | Цель |
 |---|---|---|---|---|
-| 1 | Сделать главный заголовок настоящим H1 с ключевой фразой: «Gold Buyers in Beverly Hills: We Buy Gold, Scrap & Broken Gold» (62 знака). Под ним подзаголовок: «Sell gold near you. Free evaluation, paid in cash or bank transfer, deals in up to 10 minutes.» | Главный экран, первый блок | Страница должна отвечать словами запроса «gold buyers near me / sell gold near me / we buy gold» | нет |
-| 2 | Переписать title: «Sell Gold in Beverly Hills \| Cash for Gold Buyers» (49 знаков) и description: «We buy gold jewelry, scrap, broken chains, coins and bars in Beverly Hills. Free evaluation, cash or bank transfer. Open daily 10 AM–7 PM.» (≈ 140 знаков) | Настройки страницы Tilda → SEO | Сейчас они повторяют друг друга и не содержат ни «sell gold», ни города | нет |
-| 3 | На главном экране рядом с телефоном вывести адрес и часы одной строкой: «131 N Robertson Blvd, Beverly Hills, CA 90211 · Daily 10 AM–7 PM» и кнопку «Call now» (ссылка `tel:`) | Шапка и главный экран | Тот, кто ищет «near me», должен видеть, где вы, не дойдя до подвала | **Какой адрес верный:** 131 N Robertson Blvd (на сайте) или 8308 Wilshire Blvd (в брифе) |
-| 4 | Добавить блок «How we calculate your offer» (3–4 строки): оценка по пробе (karat) и весу, по текущей цене золота; пробу проверяем при вас. Рядом таблица проб 10K / 14K / 18K / 22K / 24K. **Проценты и коэффициент выплаты — не писать, пока клиент не даст** | После блока Types of products | Прозрачность — часть оценки посадочной; сейчас на странице нет ни слова о том, как формируется цена | Как именно считают оффер, что можно публиковать |
-| 5 | Добавить блок FAQ из 6–8 вопросов (см. раздел 4) | Перед формой | Закрывает запросы вроде «do you buy broken gold», «what do I need to bring» | Ответы на пункты, помеченные «подтвердить» |
-| 6 | Отзывы: подписать источник («Google» / «Yelp») и дать ссылку; добавить общий рейтинг и число отзывов, если есть | Блок Customer reviews | Доверие | Откуда взяты отзывы, рейтинг |
-| 7 | Убрать фразу про выезды «I'm available for business trips…» и привести выплату к одной формулировке: «Paid in cash or bank transfer» | Главный экран, шаг 3 «Get paid» | Расхождение подрывает доверие; фраза уводит от «приезжайте» | Подтвердить, что чек («check») тоже возможен |
-| 8 | Заполнить alt у картинок: минимум у карточек Types of products и галереи («Gold chains we buy in Beverly Hills», «Gold coins and bars bought for cash» и т.п.) | Tilda: у каждого блока с картинкой → «Alt» | 54 картинки без описаний | нет |
-| 9 | Сжать картинки: четыре самых тяжёлых PNG (482 / 304 / 300 / 288 КБ) → WebP или JPEG ≤ 150 КБ; общий вес страницы ≤ 1,5 МБ | Tilda → загрузить заново | Скорость на мобильном — часть посадочной | нет |
-| 10 | На мобильном: закреплённая нижняя кнопка «Call» + «Free appraisal»; форма не длиннее трёх полей (имя, телефон, фото/описание) | Мобильная версия | Простота действия | нет |
+| Форма `rec4298994203` | `xo0mj11nnclvdpz6yecu.png` | 482 КБ | 926×1328 | WebP/JPG ≤ 120 КБ |
+| Форма | `packshot-front_colli.png` | 304 КБ | 718×767 | ≤ 100 КБ |
+| How to sell `rec4298993603` | `Frame_24.jpg` | 300 КБ | 1311×705 | ≤ 120 КБ |
+| Первый экран `rec4298993003` | `2amFCETnxN39uGLAIpso.png` | 288 КБ | 1000×1000 | ≤ 100 КБ |
+| How to sell | `2.png` (шаг 02) | 184 КБ | 866×470 | ≤ 80 КБ |
+| How to sell | `4.png` (шаг 04) | 111 КБ | 866×470 | ≤ 60 КБ |
+| How to sell | `3.png` (шаг 03) | 92 КБ | 866×470 | ≤ 60 КБ |
 
-Второй этап (не сейчас): отдельные страницы или чётко названные разделы под группы «Gold Coins», «Gold Bars», «Scrap & Broken Gold» с якорями `#scrap`, `#coins`, `#bars`, `#jewelry` и своими заголовками; в группах объявлений потом ставить URL на эти разделы. Делать, только если после пунктов 1–10 «посадочная» останется «ниже среднего» у нескольких ключей.
+Перезалить в блоке сжатыми файлами (WebP или JPG). Итого страница теряет ≈ 1 МБ.
+
+### Задача 12. Бренд на странице
+- **Сейчас:** в шапке логотип «LUXEBROKERS — Watches · Jewelry · Diamonds», в блоке Types и в title — «Jewelry Fast Sale».
+- **Сделать:** решить с клиентом, какое имя показываем человеку, который пришёл из объявления gold_, и привести к одному. Без ответа клиента не менять.
+
+### Задача 13. Мобильная версия (проверено, править почти нечего)
+- Телефон уже в шапке на первом экране и является ссылкой `tel:`; кнопка «Get a free online appraisal» тоже на первом экране. Отдельная закреплённая кнопка звонка — по желанию, не обязательна.
+- Пример «23 000$» на иллюстрации шага 03 — уточнить у клиента, что это пример, а не обещание суммы.
+
+Второй этап (не сейчас): отдельные страницы или чётко названные разделы под группы «Gold Coins», «Gold Bars», «Scrap & Broken Gold» со своими заголовками. Делать, только если после задач 1–12 «посадочная» останется «ниже среднего» у нескольких ключей.
 
 ## 3. Объявления: что добавить в заголовки по группам
 
@@ -100,9 +172,10 @@ updated: 2026-10-13
 - Быстрого пересчёта не обещаю: Google оценивает по накопленным данным; **оценки на странице пересчитываются не мгновенно**.
 - Эффект на заявки читать вместе с этапом 2 (целевая цена 40 → 50 $) и кольцом 1 по гео, поэтому дату правок страницы записать в [[Журнал_изменений]].
 
-## 7. Вопросы клиенту (ответы нужны для пунктов 3, 4, 5, 6, 7)
+## 7. Вопросы клиенту (ответы нужны для задач 3, 4, 6, 7, 9, 12)
 
 1. Какой адрес верный: 131 N Robertson Blvd или 8308 Wilshire Blvd?
+1а. Какое имя показываем на странице: LuxeBrokers или Jewelry Fast Sale?
 2. Нужна ли запись заранее? Что взять с собой (документ с фото)?
 3. Как формируется оффер: по пробе и весу, по текущей цене золота? Что из этого можно публиковать?
 4. Откуда отзывы (Google / Yelp), какой рейтинг?
