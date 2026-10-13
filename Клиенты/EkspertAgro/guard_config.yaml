@@ -1,0 +1,25 @@
+# Универсальный сторож расхода и цены заявки: Скрипты/gads_spend_guard_cpa.py --client EkspertAgro
+# Файл описывает ЧТО охранять. Боевой режим (--execute) задаётся только флагом запуска, не здесь.
+# СТАТУС: черновик 2026-10-13, только режим плана (--once), боевой запуск — по решению пользователя.
+# Валюта аккаунта — PLN: все суммы ниже в злотых.
+
+customer_id: "8826134558"
+monitoring_config: experagro.yaml    # Ringostat + Supabase (expertagro_leads) + Telegram; там же kpi.base_conversion_cost: 150
+form_action: form_submit_web         # конверсия «форма» в Google Ads аккаунта TIG / ЭкспертАгро
+
+loop_min: 2
+heartbeat_min: 120
+grace: 2.0               # допустимый расход = (2 + заявки) × цель; при 0 заявок = 2 × 150 = 300 zł
+abs_mult: 3.0            # жёсткий предел: расход ≥ 3 × дневной бюджет → пауза
+pace_share: 0.4          # «темп»: +40% бюджета за 30 минут без новых заявок → пауза (12.10: 600 zł за полчаса при бюджете 300)
+pace_min: 30
+
+allow_reenable: false    # пока выключено: возобновление включаем отдельным решением
+allow_budget: false      # управление бюджетом не включено (нет budget_control у кампаний)
+telegram: true           # в режиме плана сообщения не уходят, пока --telegram не указан явно
+
+campaigns:
+  # Цель 150 zł за заявку — KPI из конфига мониторинга (kpi.base_conversion_cost), подтвердить с пользователем.
+  - {id: 23593683252, name: general_pmax, target: 150}   # бюджет 293 zł, MAXIMIZE_CONVERSIONS
+  - {id: 24210390946, name: shop_search,  target: 150}   # бюджет 300 zł, SHOPPING, TARGET_SPEND
+  - {id: 24230255260, name: shop_pmax,    target: 150}   # бюджет 250 zł, MAXIMIZE_CONVERSIONS

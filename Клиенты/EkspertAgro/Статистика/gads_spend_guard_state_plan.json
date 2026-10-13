@@ -1,0 +1,54 @@
+{
+ "_budget": {},
+ "23593683252": {
+  "date": "2026-10-13",
+  "calls_max": 0,
+  "leads_max": 1,
+  "reenabled": 0,
+  "warned": false,
+  "paused_by_guard": false,
+  "no_resume": false,
+  "flex_count": 0,
+  "samples": [
+   [
+    "2026-10-13T10:34:42",
+    29.997897,
+    1
+   ]
+  ]
+ },
+ "24210390946": {
+  "date": "2026-10-13",
+  "calls_max": 0,
+  "leads_max": 0,
+  "reenabled": 0,
+  "warned": false,
+  "paused_by_guard": false,
+  "no_resume": false,
+  "flex_count": 0,
+  "samples": [
+   [
+    "2026-10-13T10:34:42",
+    7.54,
+    0
+   ]
+  ]
+ },
+ "24230255260": {
+  "date": "2026-10-13",
+  "calls_max": 0,
+  "leads_max": 0,
+  "reenabled": 0,
+  "warned": false,
+  "paused_by_guard": false,
+  "no_resume": false,
+  "flex_count": 0,
+  "samples": [
+   [
+    "2026-10-13T10:34:43",
+    1.583024,
+    0
+   ]
+  ]
+ }
+}
