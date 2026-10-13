@@ -244,6 +244,8 @@
   },
   "active": "49438aefe15a1236",
   "lastOpenFiles": [
+    "Клиенты/LuxeBrokers/Статистика/gold_stage3_ring1_geo_plan_before.json",
+    "Клиенты/LuxeBrokers/Кампании/Search/gold_stage3_ring1_geo_plan.json",
     "Клиенты/ProfiMet/Креативы/Факты_сайта_2026-10-13.md",
     "Клиенты/ProfiMet/Креативы/сайт_скриншоты/2026-10-13_0.png",
     "Клиенты/ProfiMet/Креативы/сайт_скриншоты",
@@ -255,7 +257,6 @@
     "Клиенты/ProfiMet/Креативы/rsa_replacements_2026-10-13.yaml",
     "Скрипты/gads_rsa_text_replace.py",
     "Клиенты/LuxeBrokers/Статистика/luxe_watches_nonlux_detach_watces_plan_before.json",
-    "Клиенты/LuxeBrokers/Статистика/luxe_watches_lux_tagheuer_plan_before.json",
     "Клиенты/EkspertAgro/Хроника_2026-10.md",
     "Клиенты/EkspertAgro/Журнал_изменений.md",
     "Клиенты/EkspertAgro/Мерчант/Журнал_изменений.md",
@@ -288,7 +289,6 @@
     "Клиенты/ProfiMet/Хроника_2026-10.md",
     "Клиенты/ProfiMet/Эксперименты.md",
     "База_знаний/Агенты/Протокол_подготовка_и_реализация.md",
-    "База_знаний/Агенты/Сборщик_тестовой_PMax.md",
-    "База_знаний/Агенты/Отчёт_клиенту_ежемесячный.md"
+    "База_знаний/Агенты/Сборщик_тестовой_PMax.md"
   ]
 }

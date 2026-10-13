@@ -10,7 +10,8 @@
   * поставить на паузу объявления по id;
   * создать сайтлинки / выноски / структурированный сниппет, привязать к кампании, отвязать старые;
   * сменить статус групп (`set_group_status`) и ключей (`set_keyword_status`: [{"group", "text", "match", "status"}]);
-  * только отвязать общие списки минусов от кампании (`detach_lists`: ["имя списка"]) — без создания нового.
+  * только отвязать общие списки минусов от кампании (`detach_lists`: ["имя списка"]) — без создания нового;
+  * добавить гео-критерии кампании (`add_locations`: [{"id": <geoTargetConstant id>, "label": "..."}]) — без ставок.
 
 Режимы:
   без флагов     — ТОЛЬКО проверка (validate_only): Google проверяет весь пакет, ничего не создаёт;
@@ -92,6 +93,9 @@ def main():
     before["campaign_negatives"] = [(r.campaign_criterion.keyword.text, nm('KeywordMatchTypeEnum', 'KeywordMatchType', r.campaign_criterion.keyword.match_type), r.campaign_criterion.resource_name) for r in q(
         f"SELECT campaign_criterion.resource_name, campaign_criterion.keyword.text, campaign_criterion.keyword.match_type FROM campaign_criterion "
         f"WHERE campaign.id = {camp_id} AND campaign_criterion.type = 'KEYWORD' AND campaign_criterion.negative = TRUE")]
+    before["campaign_locations"] = [(r.campaign_criterion.location.geo_target_constant, r.campaign_criterion.negative, r.campaign_criterion.resource_name) for r in q(
+        f"SELECT campaign_criterion.resource_name, campaign_criterion.location.geo_target_constant, campaign_criterion.negative FROM campaign_criterion "
+        f"WHERE campaign.id = {camp_id} AND campaign_criterion.type = 'LOCATION'")]
     ads = {}
     for r in q(f"SELECT ad_group_ad.resource_name, ad_group_ad.ad.id, ad_group_ad.status, ad_group.name FROM ad_group_ad "
                f"WHERE campaign.id = {camp_id} AND ad_group_ad.status != 'REMOVED'"):
@@ -204,6 +208,19 @@ def main():
             sys.exit(f"Кампанийный минус {item} найден {len(hit)} раз(а)")
         op = mop()
         op.campaign_criterion_operation.remove = hit[0]
+        ops.append(op)
+
+    # 2b. добавить гео-критерии (отдельными строками — эффект читается по `location_view`):
+    #     {"add_locations": [{"id": 1013714, "label": "Culver City"}]}; ставка не задаётся
+    have_loc = {c for c, neg, rn in before["campaign_locations"]}
+    for item in plan.get("add_locations", []):
+        rn_const = f"geoTargetConstants/{item['id']}"
+        if rn_const in have_loc:
+            sys.exit(f"Локация {item.get('label', '')} {rn_const} уже есть в кампании")
+        op = mop()
+        c = op.campaign_criterion_operation.create
+        c.campaign = camp_rn
+        c.location.geo_target_constant = rn_const
         ops.append(op)
 
     # 3. новая группа + ключи
@@ -388,6 +405,14 @@ def main():
             if r.ad_group_criterion.keyword.text.lower() == item["text"].lower():
                 print("ключ:", r.ad_group.name, "|", r.ad_group_criterion.keyword.text, "|",
                       nm('AdGroupCriterionStatusEnum', 'AdGroupCriterionStatus', r.ad_group_criterion.status))
+    if plan.get("add_locations"):
+        want = {f"geoTargetConstants/{i['id']}": i.get("label", "") for i in plan["add_locations"]}
+        locs = q(f"SELECT campaign_criterion.location.geo_target_constant, campaign_criterion.negative FROM campaign_criterion "
+                 f"WHERE campaign.id = {camp_id} AND campaign_criterion.type = 'LOCATION'")
+        got = {r.campaign_criterion.location.geo_target_constant for r in locs}
+        print(f"локаций в кампании: {len(got)} (было {len(have_loc)})")
+        for rn_const, label in want.items():
+            print(f"  локация {label} {rn_const}: {'есть' if rn_const in got else 'НЕТ'}")
     print("объявления кампании (включённые / на паузе) по группам:")
     cnt = {}
     for r in q(f"SELECT ad_group.name, ad_group_ad.status FROM ad_group_ad WHERE campaign.id = {camp_id} AND ad_group_ad.status != 'REMOVED'"):

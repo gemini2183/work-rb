@@ -1,0 +1,15 @@
+{
+  "_comment": "2026-10-13: gold_ этап 3 «кольцо 1» по гео — досрочно (в плане было 19.10), по решению пользователя «если нет, то давай расширять». 5 районов отдельными критериями без ставок + удалить кампанийный минус «santa monica» (BROAD). Прежние 14 районов и радиус 5 км не меняются.",
+  "customer_id": "9534865605",
+  "campaign": "gold_",
+  "add_locations": [
+    {"id": 1013714, "label": "Culver City (City)"},
+    {"id": 9230076, "label": "Koreatown (Neighborhood)"},
+    {"id": 9061122, "label": "Westwood, Los Angeles County (Neighborhood)"},
+    {"id": 9060325, "label": "Downtown Los Angeles (Neighborhood)"},
+    {"id": 1014255, "label": "Santa Monica (City)"}
+  ],
+  "remove_campaign_negatives": [
+    {"text": "santa monica", "match": "BROAD"}
+  ]
+}
