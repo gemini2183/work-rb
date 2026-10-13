@@ -244,6 +244,8 @@
   },
   "active": "49438aefe15a1236",
   "lastOpenFiles": [
+    "Клиенты/ProfiMet/Креативы/rsa_fix_2026-10-13.yaml",
+    "Клиенты/ProfiMet/Креативы/rsa_tasty_2026-10-13.yaml",
     "База_знаний/Инструменты/Google-Ads-Quality-Score-компоненты-и-как-поднять.md",
     "Клиенты/LuxeBrokers/ТЗ_gold_Quality_Score_посадочная.md",
     "Клиенты/LuxeBrokers/Статистика/gold_stage3_ring1_geo_plan_before.json",
@@ -257,7 +259,6 @@
     "Клиенты/ProfiMet/Креативы/facts_registry.yaml",
     "Скрипты/__pycache__/gads_rsa_text_replace.cpython-313.pyc",
     "Клиенты/ProfiMet/Креативы/rsa_replacements_2026-10-13.yaml",
-    "Скрипты/gads_rsa_text_replace.py",
     "Клиенты/EkspertAgro/Хроника_2026-10.md",
     "Клиенты/EkspertAgro/Журнал_изменений.md",
     "Клиенты/EkspertAgro/Мерчант/Журнал_изменений.md",
@@ -288,7 +289,6 @@
     "База_знаний/Инструменты/Demand-Gen-look-alike-уровень-охвата-и-список-основы.md",
     "База_знаний/Агенты/Проект_агента_месячного_отчёта.md",
     "Клиенты/ProfiMet/Хроника_2026-10.md",
-    "Клиенты/ProfiMet/Эксперименты.md",
-    "База_знаний/Агенты/Протокол_подготовка_и_реализация.md"
+    "Клиенты/ProfiMet/Эксперименты.md"
   ]
 }

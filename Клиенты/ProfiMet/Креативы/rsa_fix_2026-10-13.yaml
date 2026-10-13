@@ -1,0 +1,25 @@
+# ШАГ 1 (срочно): исправление неверных фактов В СТАРЫХ объявлениях на месте. Только факты сайта, без новых хуков.
+# Основание: Факты_сайта_2026-10-13.md. Решения пользователя: «Darmowa dostawa» без суммы, монтаж не предлагаем, «Oficjalny sklep» остаётся.
+headlines:
+  "100 000+ Zamówienia Rocznie": "45 000+ Zamówień Rocznie"
+  "Eksport do 11 Krajów UE": "Sprzedaż do 11 Krajów"
+  "Najdłużej na Rynku - 16 Lat": "16 Lat Doświadczenia"
+  "3 Prezenty Gratis": "4 Prezenty Gratis"
+  "3 prezenty do szklarni": "4 prezenty do szklarni"
+  "Sprzedaż, dostawa, montaż": "Sprzedaż i Dostawa w 3-7 Dni"
+  "Rób zakupy z zyskiem": "Gwarancja 5 Lat na Poliwęglan"
+descriptions:
+  "Wytrzyma ponad 10 lat. Płatność przy odbiorze. Produkcja własna. Kupuj od producenta!": "Gwarancja 5 lat na poliwęglan. Płatność przy odbiorze. Kupuj od producenta!"
+  "Wytrzyma ponad 10 lat. Płatność przy odbiorze. . Kupuj od producenta!": "Gwarancja 5 lat na poliwęglan. Płatność przy odbiorze. Kupuj od producenta!"
+  "Najniższe ceny od producenta. 3 prezenty gratis. Płatność przy odbiorze. Darmowa dostawa.": "Ceny od producenta. 4 prezenty gratis. Płatność przy odbiorze. Darmowa dostawa."
+  "Poliwęglan 4-6mm UV + profile 40x20mm. Najsilniejsze szklarnie. Gwarancja fabryczna!": "Poliwęglan 4-6mm UV + profile 40x20mm. Montaż bez spawania. Gwarancja do 5 lat!"
+  "Certyfikowany producent. 100% produkcja w Polsce od 2008. 100 000+ zamówień rocznie!": "Certyfikat Jakości „Wyprodukowano w Polsce”. 16 lat produkcji. 45 000+ zamówień rocznie!"
+  "Szklarnie od producenta — polska produkcja. Modele 2025 roku w najniższych cenach!": "Szklarnie od producenta, polska produkcja. Zapłać przy odbiorze. Dostawa 3-7 dni."
+  "Darmowa dostawa. Płatność przy odbiorze. 3 Prezenty Gratis": "Darmowa dostawa. Płatność przy odbiorze. 4 Prezenty Gratis"
+  "Szklarnie z poliwęglanu w promocji! 3 prezenty gratis. Dostawa 3-7 dni gratis.": "Szklarnie z poliwęglanu w promocji! 4 prezenty gratis. Dostawa 3-7 dni gratis."
+  "Własna produkcja od 16 lat. Stal ocynkowana, montaż bez spawania. 3 prezenty gratis.": "Własna produkcja od 16 lat. Stal ocynkowana, montaż bez spawania. 4 prezenty gratis."
+  "Dajemy gwarancję jakości, ochrony terminów i najlepszej ceny na rynku.": "Gwarancja: 2 lata na ramę i 5 lat na poliwęglan. Zamów prosto od producenta!"
+  "Produkcja, sprzedaż i instalacja ocynkowanych szklarni z poliwęglanu.": "Produkcja i sprzedaż ocynkowanych szklarni z poliwęglanu. Prosto od producenta."
+  "Duży wybór szklarni z poliwęglanu. Niskie ceny. Darmowa dostawa. Instalacja.": "10+ modeli szklarni z poliwęglanu. Niskie ceny, darmowa dostawa. Płatność przy odbiorze."
+  "Duży wybór z poliwęglanu. Niskie ceny. Darmowa dostawa. Instalacja.": "10+ modeli z poliwęglanu. Niskie ceny, darmowa dostawa. Płatność przy odbiorze."
+  "Duży wybór tuneli z poliwęglanu. Niskie ceny. Darmowa dostawa. Instalacja.": "10+ modeli tuneli z poliwęglanu. Niskie ceny, darmowa dostawa. Płatność przy odbiorze."

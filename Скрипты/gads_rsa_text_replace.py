@@ -109,6 +109,7 @@ def main():
     ap.add_argument("--map", required=True)
     ap.add_argument("--execute", action="store_true")
     ap.add_argument("--pause-old", metavar="MAP_CSV", help="ШАГ 2: поставить старые на паузу там, где новые одобрены (файл соответствий из шага 1); с --execute пишет")
+    ap.add_argument("--per-group-best", action="store_true", help="в каждой группе объявлений брать одно объявление — с наибольшим числом показов за 30 дней (для создания одного нового варианта на группу)")
     ap.add_argument("--copy-mode", action="store_true", help="не править на месте, а создавать копию и ставить старое на паузу (по умолчанию правка на месте)")
     ap.add_argument("--examples", action="store_true", help="показать итоговое объявление целиком (по одному на кампанию)")
     a = ap.parse_args()
@@ -158,6 +159,19 @@ def main():
         by.setdefault(r["campaign"], []).append(r)
     for c, rs in by.items():
         print(f"  {c}: {len(rs)} объявлений")
+    if a.per_group_best and rows:
+        imp = {}
+        q = ("SELECT ad_group_ad.ad.id, metrics.impressions FROM ad_group_ad "
+             f"WHERE campaign.id IN ({','.join(a.campaign_ids)}) AND segments.date DURING LAST_30_DAYS")
+        for x in ga.search(customer_id=cid, query=q):
+            imp[str(x.ad_group_ad.ad.id)] = imp.get(str(x.ad_group_ad.ad.id), 0) + x.metrics.impressions
+        best = {}
+        for r in rows:
+            k = r["ad_group_res"]
+            if k not in best or imp.get(str(r["ad_id"]), 0) > imp.get(str(best[k]["ad_id"]), 0):
+                best[k] = r
+        rows = list(best.values())
+        print(f"по одному объявлению на группу: {len(rows)} (из {len(ads)})")
     n_add = collections.Counter(len(r["added"]) for r in rows)
     print("новых заголовков добавлено (0/1/2 на объявление):", dict(sorted(n_add.items())))
     if a.examples:
