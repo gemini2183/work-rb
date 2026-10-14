@@ -27,3 +27,4 @@ campaigns:
   - {id: 24210390946, name: shop_search,  target: 110}   # бюджет 300 zł, SHOPPING, TARGET_SPEND
   - {id: 24230255260, name: shop_pmax,    target: 110}   # бюджет 250 zł, MAXIMIZE_CONVERSIONS
   - {id: 24353873699, name: general_search_rozmiary, target: 110}   # general / search / rozmiary / katalog, бюджет 150 zł (потолок), Maximize clicks; включена 14.10 (Э-003..Э-005); «Теплицы Польша», цель 110 из таблицы
+  - {id: 24360520273, name: general_pmax_rozmiary, target: 110}   # новая PMax, бюджет 110 zł (потолок), создана 14.10 на ПАУЗЕ (Э-007); цель 110 из таблицы «Цели2 Адвайта»

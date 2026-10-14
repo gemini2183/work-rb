@@ -169,6 +169,13 @@ def build_operations(client, cid):
             text_assets[text] = rn
         return text_assets[text]
 
+    # 1) все текстовые ассеты создаются ДО групп: Google проверяет минимум ассетов у группы, когда после операции
+    #    группы идёт любая операция, кроме привязки ассетов (проверено validate_only 14.10)
+    for _, g in sizes():
+        for t in headlines(g) + long_headlines(g) + descriptions(g):
+            text_asset(t)
+
+    # 2) группы: сразу за операцией группы — только привязки ассетов, затем сигналы
     for i, (name, g) in enumerate(sizes(), start=1):
         ag_rn = f"customers/{cid}/assetGroups/-{50 + i}"
         ag = new_op().asset_group_operation.create
@@ -187,11 +194,11 @@ def build_operations(client, cid):
             aga.field_type = getattr(E.AssetFieldTypeEnum, field)
 
         for t in headlines(g):
-            link(text_asset(t), "HEADLINE")
+            link(text_assets[t], "HEADLINE")
         for t in long_headlines(g):
-            link(text_asset(t), "LONG_HEADLINE")
+            link(text_assets[t], "LONG_HEADLINE")
         for t in descriptions(g):
-            link(text_asset(t), "DESCRIPTION")
+            link(text_assets[t], "DESCRIPTION")
         for aid, ft in IMAGES:
             link(f"customers/{cid}/assets/{aid}", ft)
         for theme in g["phrase"]:

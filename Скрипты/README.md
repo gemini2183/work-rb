@@ -878,6 +878,16 @@ python gads_search_ekspertagro_size_builder.py --customer-id 8826134558 --execut
 python gads_search_ekspertagro_size_builder.py --customer-id 8826134558 --read-back-only
 ```
 
+## PMax по размеру с каталогом Tilda: `gads_pmax_ekspertagro_size_builder.py` (ExpertAgro, запись, по умолчанию validate_only)
+
+Создаёт PMax на паузе: бюджет, кампания (Maximize conversions без цели CPA, автогенерация выкл.), гео/язык/расписание, логотип/название/звонковый ассет (существующие), аудитория-сигнал, группы ассетов по размеру (тексты берутся из `gads_search_ekspertagro_size_builder.py`), реальные фото, поисковые темы. После создания — `gads_set_campaign_goals.py` (цели ставок). `--read-back-only` читает кампанию по имени; после падения чтения обратно не запускать `--execute` повторно.
+
+```
+python gads_pmax_ekspertagro_size_builder.py --customer-id 8826134558              # проверка
+python gads_pmax_ekspertagro_size_builder.py --customer-id 8826134558 --execute    # запись, на паузе
+python gads_set_campaign_goals.py --customer-id 8826134558 --campaign-id <id> --off CONTACT:WEBSITE PHONE_CALL_LEAD:WEBSITE ADD_TO_CART:WEBSITE PURCHASE:WEBSITE --on SUBMIT_LEAD_FORM:WEBSITE PHONE_CALL_LEAD:CALL_FROM_ADS --snapshot-dir "../Клиенты/EkspertAgro/Статистика" [--execute]
+```
+
 ## Переименование кампании: `gads_rename_campaign.py` (запись, по умолчанию validate_only)
 
 `--customer-id … --campaign-id … --new-name "…" [--execute]` — печатает «было → станет», проверяет, что имя свободно, читает обратно. Имя кампании — ключ для внешних выгрузок (ExpertAgro: слово `shop` в названии отделяет «Мерчант» от «Теплицы»), поэтому перед переименованием сверять правила выгрузок.

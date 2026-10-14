@@ -1,0 +1,15 @@
+Создано (кампания на паузе): id 24360520273, операций 202
+
+=== Чтение обратно из аккаунта ===
+24360520273 | general_pmax_rozmiary | PAUSED | PERFORMANCE_MAX | MAXIMIZE_CONVERSIONS | цель CPA 0.0 | бюджет 110.0
+  суффикс: utm_source=google&utm_medium=cpc&utm_campaign=general_pmax_rozmiary
+группа 2x4 [ENABLED] URL https://ekspertagro.pl/szklarni?tfc_charact:9246142%5B1500649011%5D=2m&tfc_charact:9246152%5B1500649011%5D=4m&tfc_div=:::&utm_content=ag_2x4
+   ассеты: {'HEADLINE': 13, 'SQUARE_MARKETING_IMAGE': 2, 'MARKETING_IMAGE': 2, 'PORTRAIT_MARKETING_IMAGE': 2, 'DESCRIPTION': 5, 'LONG_HEADLINE': 2} | сигналы: {'тема': 8, 'аудитория': 1}
+группа 3x4 [ENABLED] URL https://ekspertagro.pl/szklarni?tfc_charact:9246142%5B1500649011%5D=3m&tfc_charact:9246152%5B1500649011%5D=4m&tfc_div=:::&utm_content=ag_3x4
+   ассеты: {'HEADLINE': 13, 'SQUARE_MARKETING_IMAGE': 2, 'MARKETING_IMAGE': 2, 'PORTRAIT_MARKETING_IMAGE': 2, 'DESCRIPTION': 5, 'LONG_HEADLINE': 2} | сигналы: {'тема': 8, 'аудитория': 1}
+группа 3x6 [ENABLED] URL https://ekspertagro.pl/szklarni?tfc_charact:9246142%5B1500649011%5D=3m&tfc_charact:9246152%5B1500649011%5D=6m&tfc_div=:::&utm_content=ag_3x6
+   ассеты: {'HEADLINE': 13, 'SQUARE_MARKETING_IMAGE': 2, 'MARKETING_IMAGE': 2, 'PORTRAIT_MARKETING_IMAGE': 2, 'DESCRIPTION': 5, 'LONG_HEADLINE': 2} | сигналы: {'тема': 8, 'аудитория': 1}
+группа 4x6 [ENABLED] URL https://ekspertagro.pl/szklarni?tfc_charact:9246142%5B1500649011%5D=4m&tfc_charact:9246152%5B1500649011%5D=6m&tfc_div=:::&utm_content=ag_4x6
+   ассеты: {'HEADLINE': 13, 'SQUARE_MARKETING_IMAGE': 2, 'MARKETING_IMAGE': 2, 'PORTRAIT_MARKETING_IMAGE': 2, 'DESCRIPTION': 5, 'LONG_HEADLINE': 2} | сигналы: {'тема': 8, 'аудитория': 1}
+ассеты кампании: {('LOGO', 'ENABLED'): 1, ('BUSINESS_NAME', 'ENABLED'): 1, ('CALL', 'ENABLED'): 1}
+критерии кампании: {('LANGUAGE', False): 2, ('LOCATION', False): 1, ('DEVICE', False): 4, ('AD_SCHEDULE', False): 6}
