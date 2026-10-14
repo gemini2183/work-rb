@@ -85,3 +85,17 @@ Google поэтапно переводит LSA в модель Performance Max p
 автоматически при миграции** — рекомендуется заранее сохранять историю.
 
 Источник: [Local Services Ads transition to Performance Max — Google Ads Help](https://support.google.com/google-ads/answer/17213585)
+
+## Номер телефона в LSA и колл-трекинг (добавлено 2026-10-14, не проверено на практике)
+
+Запрос по [[../../Клиенты/Andverpersonalinjury/index|Andverpersonalinjury]]: заменить номер в LSA на статический номер Ringostat.
+
+**Официально (Google, Local Services Help):**
+- В объявлении показывается не бизнес-номер, а динамический Google forwarding number; выбрать его нельзя («There is no way to choose your tracking number»). Он пересылает звонок на «business phone number» из профиля LSA. [Manage leads and jobs](https://support.google.com/localservices/answer/6224859)
+- Смена business phone number — в списке правок, которые делает только поддержка LSA, с верификацией (документы: DBA, регистрация бизнеса). В кабинете (Profile & Budget) поля для самостоятельной правки нет. [Edit your ad or business information](https://support.google.com/localservices/answer/7435507)
+- В том же разделе: «Note that your business phone number must not be a tracking number» — прямое противоречие идее ставить туда номер колл-трекера.
+- Business Profile к LSA только привязывается (linking); в официальной справке нет утверждения, что телефон LSA подтягивается из Business Profile и правится там.
+
+**Неофициально (практики, вендоры колл-трекинга):** номер колл-трекера в LSA ставят, меняя его через поддержку Google (WhatConverts, CallRail, ветка Local Search Forum); двойная пересылка (Google → трекер → офис) работает; возможна повторная верификация. Конверсии в Google Ads не вернутся, если не настроены Enhanced Conversions. Источники: [WhatConverts](https://www.whatconverts.com/help/docs/using-whatconverts/lead-tracking/call-tracking/add-a-phone-number-to-track-google-local-service-ads-calls/), [CallRail](https://support.callrail.com/hc/en-us/articles/41591539899277-How-to-set-up-Google-Local-Services-Ads-with-CallRail), [Local Search Forum](https://localsearchforum.com/threads/call-tracking-for-local-service-ads.57124/).
+
+**Отдельная история (не путать):** сентябрь 2026 — в Google Ads объявления с локациями показывают номер Business Profile вместо номера из call asset; Google ответил, что при location+call assets звонок может идти на номер локации. Это про Google Ads, не доказательство, что LSA берёт номер из Business Profile. [SERoundtable](https://www.seroundtable.com/google-lsa-phone-number-42160.html)
