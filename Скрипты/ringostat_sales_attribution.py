@@ -150,6 +150,114 @@ def sale_label_kind(src):
     return "другое"
 
 
+def fmt_phone(p):
+    d = re.sub(r"\D", "", str(p or ""))
+    d = d[-9:]
+    return f"+48 {d[:3]} {d[3:6]} {d[6:]}" if len(d) == 9 else str(p)
+
+
+def human_gap(minutes):
+    m = int(minutes)
+    if m < 0:
+        return f"на {-m} мин раньше звонка"
+    if m < 1:
+        return "в первую минуту звонка"
+    if m < 60:
+        return f"через {m} мин"
+    if m < 48 * 60:
+        return f"через {m // 60} ч {m % 60:02d} мин"
+    return f"через {round(m / 1440)} дн."
+
+
+def build_report(out, path):
+    """Отчёт для клиента (xlsx): сводка по каналам + список номеров для перепроверки. Без разбивки по кампаниям."""
+    from openpyxl import Workbook
+    from openpyxl.styles import Alignment, Font, PatternFill
+
+    kind = out["источник продажи"].map(sale_label_kind)
+    fixed = out["вердикт"] == "НЕ_ПРИСВОЕНО"
+    ad_first = out["вердикт"].isin(["НЕ_ПРИСВОЕНО", "СОВПАЛО", "ДРУГОЙ_ИСТОЧНИК"])
+    names = [("Телефон", "Телефон", "Телефон"), ("Нет метки", "Нет метки", "Нет метки"),
+             ("Facebook", "Facebook", "Facebook"), ("Google Ads", "Google Ads", "Google Ads")]
+    label_of = lambda v: str(v).replace("Ekspertagro ", "")
+
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "Сводка"
+    bold, head = Font(bold=True), PatternFill("solid", fgColor="DDEBF7")
+    ws.append(["Продажи EkspertAgro: источник в CRM и первый контакт по Ringostat"])
+    ws["A1"].font = Font(bold=True, size=14)
+    d0, d1 = out["дата продажи"].min()[:10], out["дата продажи"].max()[:10]
+    ws.append([f"Продажи в выгрузке: {len(out)} шт., {d0} — {d1}. Номера сопоставлены со звонками Ringostat по схеме уникальности."])
+    ws.append([])
+    ws.append(["1. Источник в продаже и первый контакт"])
+    ws.cell(ws.max_row, 1).font = bold
+    ws.append(["Источник в продаже", "Продаж", "Из них первый контакт — рекламный звонок (Google Ads / Facebook)"])
+    for c in ws[ws.max_row]:
+        c.font, c.fill = bold, head
+    for key, lab, _ in names:
+        m = out["источник продажи"].map(label_of) == key
+        ws.append([lab, int(m.sum()), int((m & ad_first).sum())])
+    ws.append(["Всего", len(out), int(ad_first.sum())])
+    ws.cell(ws.max_row, 1).font = bold
+    ws.append([])
+    ws.append(["2. Как изменится число продаж по каналам, если записать их на первый рекламный контакт"])
+    ws.cell(ws.max_row, 1).font = bold
+    ws.append(["Канал", "Сейчас", "Станет", "Изменение"])
+    for c in ws[ws.max_row]:
+        c.font, c.fill = bold, head
+    cat = out["категория"]
+    for key, lab, _ in names:
+        now = int((out["источник продажи"].map(label_of) == key).sum())
+        if key in ("Google Ads", "Facebook"):
+            after = now + int((fixed & (cat == key)).sum())
+        else:
+            after = now - int((fixed & (out["источник продажи"].map(label_of) == key)).sum())
+        lab2 = {"Телефон": "Телефон (без рекламного звонка)", "Нет метки": "Нет метки"}.get(key, key)
+        ws.append([lab2, now, after, f"{after - now:+d}"])
+    ws.append(["Всего", len(out), len(out), "0"])
+    ws.cell(ws.max_row, 1).font = bold
+    ws.append([])
+    ws.append(["Как читать: продажа переносится в рекламный канал, если до неё есть звонок с рекламным UTM, а в CRM стоит «Телефон» или «Нет метки». "
+               "Совпадение номера и времени — признак, а не доказательство; поэтому список номеров ниже нужен для ручной проверки."])
+    ws.column_dimensions["A"].width = 42
+    ws.column_dimensions["B"].width = 12
+    ws.column_dimensions["C"].width = 62
+    ws.column_dimensions["D"].width = 14
+
+    w2 = wb.create_sheet("Номера для проверки")
+    w2.append(["№", "Телефон", "Заказ", "Продажа записана (время Варшавы)", "Источник в CRM сейчас",
+               "Первый рекламный звонок (время Варшавы)", "Канал звонка", "Когда записана продажа", "Разговор, сек", "Что проверить"])
+    for c in w2[1]:
+        c.font, c.fill = bold, head
+        c.alignment = Alignment(wrap_text=True, vertical="top")
+    sub = out[fixed].sort_values("дата продажи", ascending=False)
+    for i, (_, r) in enumerate(sub.iterrows(), 1):
+        gap = int(r["минут"])
+        if gap > 60 * 24 * 60:
+            note = "Звонок старый (больше 2 месяцев), дата продажи похожа на заглушку — проверить вручную"
+        elif gap > 30:
+            note = "Проверить, не перезвонил ли менеджер позже (после пропущенного или короткого звонка)"
+        else:
+            note = "Продажа оформлена по входящему звонку"
+        sec = re.search(r"(\d+)с", str(r["дозвон"]))
+        w2.append([i, fmt_phone(r["телефон"]), r["заказ"], r["дата продажи"], label_of(r["источник продажи"]),
+                   str(r["первый контакт"])[:16], r["категория"], human_gap(gap), int(sec.group(1)) if sec else "", note])
+    other = out[out["вердикт"] == "ДРУГОЙ_ИСТОЧНИК"]
+    if not other.empty:
+        w2.append([])
+        w2.append(["Проверить отдельно: в CRM стоит рекламный источник, но первый звонок из другого канала"])
+        w2.cell(w2.max_row, 1).font = bold
+        for _, r in other.iterrows():
+            w2.append(["", fmt_phone(r["телефон"]), r["заказ"], r["дата продажи"], label_of(r["источник продажи"]),
+                       str(r["первый контакт"])[:16], r["категория"], human_gap(int(r["минут"])), "", "Какой канал верный"])
+    for col, w in zip("ABCDEFGHIJ", (5, 18, 12, 20, 22, 22, 14, 22, 12, 60)):
+        w2.column_dimensions[col].width = w
+    w2.freeze_panes = "A2"
+    wb.save(path)
+    print(f"(отчёт для клиента: {path})")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--sales", required=True)
@@ -159,6 +267,7 @@ def main():
     ap.add_argument("--forms-tz", default="Europe/Moscow", help="часовой пояс выгрузки Tilda (по умолчанию аккаунта — Москва, UTC+3)")
     ap.add_argument("--tol-hours", type=float, default=0.5, help="контакт, начавшийся не позже чем через N часов ПОСЛЕ продажи, тоже считается (шум часов)")
     ap.add_argument("--out", default=None)
+    ap.add_argument("--report-xlsx", default=None, help="отчёт для клиента: сводка по каналам + номера для перепроверки")
     a = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
 
@@ -179,7 +288,7 @@ def main():
         row = {"дата продажи": s["ts"].tz_convert("Europe/Warsaw").strftime("%Y-%m-%d %H:%M"), "заказ": s.get("Заказ"), "телефон": s.get("Телефон"),
                "источник продажи": s.get("Источник"), "UTM продажи": s.get("UTM"), "автор": s.get("Автор"),
                "звонков до продажи": 0 if before is None else len(before),
-               "первый контакт": "", "контакт→продажа": "", "категория": "", "кампания/пул": "", "дозвон": "", "наш unique": "",
+               "первый контакт": "", "контакт→продажа": "", "минут": "", "категория": "", "кампания/пул": "", "дозвон": "", "наш unique": "",
                "unique по Ringostat": "", "форма до продажи": ", ".join(
                    f"{f['ts'].tz_convert('Europe/Warsaw'):%m-%d %H:%M} {f['form']} {f['utm_source']}/{f['utm_campaign']}" for f in f_before)}
         if before is None or before.empty:
@@ -194,6 +303,7 @@ def main():
             row.update({
                 "первый контакт": f"{f['ts'].tz_convert('Europe/Warsaw'):%Y-%m-%d %H:%M} ({f['call_type']})",
                 "контакт→продажа": f"{(s['ts'] - f['ts']).total_seconds() / 3600:.1f} ч",
+                "минут": round((s["ts"] - f["ts"]).total_seconds() / 60),
                 "категория": f["category"],
                 "кампания/пул": f"{f['utm_campaign'] or '—'} | {f['pool_name'] or '—'}",
                 "дозвон": f"{f['disposition']} {f['billsec']}с",
@@ -222,6 +332,8 @@ def main():
     if a.out:
         out.to_csv(a.out, index=False, encoding="utf-8-sig")
         print(f"\n(сохранено: {a.out})")
+    if a.report_xlsx:
+        build_report(out, a.report_xlsx)
 
 
 if __name__ == "__main__":
