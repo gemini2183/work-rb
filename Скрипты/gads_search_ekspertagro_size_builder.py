@@ -61,8 +61,8 @@ NEGATIVES = [
 ]
 
 
-def group_spec(length, other_price):
-    s = f"3x{length}"
+def group_spec(length, other_price, width=3, profile="40x20"):
+    s = f"{width}x{length}"
     phrase = [f"szklarnia z poliwęglanu {s}", f"szklarnie z poliwęglanu {s}", f"szklarnia {s}",
               f"szklarnia poliwęglan {s}", f"szklarnia ogrodowa {s}", f"tunel ogrodowy {s}",
               f"tunel z poliwęglanu {s}", f"tunel poliwęglan {s}"]
@@ -72,16 +72,22 @@ def group_spec(length, other_price):
     headlines = [
         f"Szklarnie {s} od Producenta", f"Szklarnia {s} od {other_price} zł", f"Tunel {s} z Poliwęglanu",
         "Płatność przy Odbiorze", "Darmowa Dostawa po Polsce", "Producent Szklarni od 2008 r.",
-        "Poliwęglan 4 lub 6 mm", "Profil Ocynkowany 40x20 mm", "Żywotność ponad 15 lat",
+        "Poliwęglan 4 lub 6 mm", f"Profil Ocynkowany {profile} mm", "Żywotność ponad 15 lat",
         "Wybierz Model i Cenę", "Faktura VAT", "Rabat od 100 zł przy 2 szt.",
     ]
     d1 = f"Szklarnie {s} m z poliwęglanu 4 i 6 mm od producenta. Zobacz modele i ceny w katalogu."
-    return {"name": s, "url": catalog_url(length), "phrase": phrase, "exact": exact, "h1": h1,
-            "headlines": headlines, "d1": d1, "path2": s}
+    d3 = f"Własna produkcja od 2008 roku. Stal ocynkowana {profile} mm, żywotność ponad 15 lat."
+    url = f"{SITE}szklarni?{W}={width}m&{L}={length}m&tfc_div=:::"
+    return {"name": s, "url": url, "phrase": phrase, "exact": exact, "h1": h1,
+            "headlines": headlines, "d1": d1, "d3": d3, "path2": s}
 
 
-# Цена «от» — минимальная в каталоге 14.10 для размера (3x6: 1 949 zł; 3x4: 1 599 zł).
+# Цена «от» — минимальная в каталоге 14.10 для размера (3x6: 1 949 zł; 3x4: 1 599 zł; 2x4: 1 499 zł; 4x6: 2 799 zł).
 GROUPS = [group_spec(6, 1949), group_spec(4, 1599)]
+EXTRA = {  # добавляются отдельным вызовом --add-sizes (согласовано пользователем 2026-10-14)
+    "2x4": group_spec(4, 1499, width=2, profile="20x20"),   # Mini Ekspert Tunel 20×20
+    "4x6": group_spec(6, 2799, width=4, profile="40x20"),   # Tytan Ekspert Tunel 40x20
+}
 D2 = "Płatność przy odbiorze i darmowa dostawa po Polsce. Montaż według instrukcji w zestawie."
 DESCRIPTIONS = [
     "Własna produkcja od 2008 roku. Stal ocynkowana 40x20 mm, żywotność ponad 15 lat.",
@@ -100,11 +106,11 @@ CALLOUTS = ["Płatność przy odbiorze", "Darmowa dostawa", "Producent od 2008 r
 
 
 def check_limits():
-    for g in GROUPS:
+    for g in GROUPS + list(EXTRA.values()):
         assert len(g["h1"]) <= 30, g["h1"]
         assert all(len(h) <= 30 for h in g["headlines"]), g["headlines"]
         assert len(g["headlines"]) + 1 <= 15
-        assert len(g["d1"]) <= 90
+        assert len(g["d1"]) <= 90 and len(g.get("d3", "")) <= 90
         assert all(len(k) <= 80 for k in g["phrase"] + g["exact"])
     assert all(len(d) <= 90 for d in [D2] + DESCRIPTIONS)
     for a, b, c_, _ in SITELINKS:
@@ -215,7 +221,7 @@ def build_operations(client, cid):
                 a.pinned_field = E.ServedAssetFieldTypeEnum.HEADLINE_1
             rsa.headlines.append(a)
         for text, pin in [(g["d1"], E.ServedAssetFieldTypeEnum.DESCRIPTION_1),
-                          (D2, E.ServedAssetFieldTypeEnum.DESCRIPTION_2)] + [(d, None) for d in DESCRIPTIONS]:
+                          (D2, E.ServedAssetFieldTypeEnum.DESCRIPTION_2)] +                          [(g.get("d3", DESCRIPTIONS[0]), None), (DESCRIPTIONS[1], None)]:
             a = client.get_type("AdTextAsset")
             a.text = text
             if pin is not None:
@@ -250,6 +256,70 @@ def build_operations(client, cid):
         a.resource_name = rn
         a.callout_asset.callout_text = text
         link(rn, E_.CALLOUT)
+    return ops
+
+
+def build_add_group_operations(client, cid, campaign_id, groups, ga):
+    """Добавляет группы в УЖЕ существующую кампанию; снимает минус-слово размера, если он блокирует новые ключи."""
+    E = client.enums
+    campaign_rn = f"customers/{cid}/campaigns/{campaign_id}"
+    ops = []
+
+    def new_op():
+        op = client.get_type("MutateOperation")
+        ops.append(op)
+        return op
+
+    # конфликт «минус-слово ↔ новые ключи»: широкий/фразовый минус, все слова которого есть в ключе
+    new_tokens = [set(k.lower().split()) for g in groups for k in g["phrase"] + g["exact"]]
+    q = ("SELECT campaign.id, campaign_criterion.resource_name, campaign_criterion.keyword.text, "
+         "campaign_criterion.keyword.match_type FROM campaign_criterion "
+         f"WHERE campaign.id = {campaign_id} AND campaign_criterion.negative = TRUE AND campaign_criterion.type = KEYWORD")
+    removed = []
+    for r in ga.search(customer_id=cid, query=q):
+        txt = r.campaign_criterion.keyword.text
+        toks = set(txt.lower().split())
+        if any(toks and toks <= t for t in new_tokens):
+            op = new_op().campaign_criterion_operation
+            op.remove = r.campaign_criterion.resource_name
+            removed.append(txt)
+    print("снимается минус-слово, блокирующее новые ключи:", removed or "нет")
+
+    for i, g in enumerate(groups, start=1):
+        ag_rn = f"customers/{cid}/adGroups/-{50 + i}"
+        ag = new_op().ad_group_operation.create
+        ag.resource_name = ag_rn
+        ag.name = g["name"]
+        ag.campaign = campaign_rn
+        ag.status = E.AdGroupStatusEnum.ENABLED
+        ag.type_ = E.AdGroupTypeEnum.SEARCH_STANDARD
+        for kw, mt in [(k, E.KeywordMatchTypeEnum.PHRASE) for k in g["phrase"]] +                       [(k, E.KeywordMatchTypeEnum.EXACT) for k in g["exact"]]:
+            agc = new_op().ad_group_criterion_operation.create
+            agc.ad_group = ag_rn
+            agc.status = E.AdGroupCriterionStatusEnum.ENABLED
+            agc.keyword.text = kw
+            agc.keyword.match_type = mt
+        aga = new_op().ad_group_ad_operation.create
+        aga.ad_group = ag_rn
+        aga.status = E.AdGroupAdStatusEnum.ENABLED
+        aga.ad.final_urls.append(g["url"])
+        rsa = aga.ad.responsive_search_ad
+        rsa.path1 = "szklarnie"
+        rsa.path2 = g["path2"]
+        for text, pin in [(g["h1"], True)] + [(h, False) for h in g["headlines"]]:
+            a = client.get_type("AdTextAsset")
+            a.text = text
+            if pin:
+                a.pinned_field = E.ServedAssetFieldTypeEnum.HEADLINE_1
+            rsa.headlines.append(a)
+        for text, pin in [(g["d1"], E.ServedAssetFieldTypeEnum.DESCRIPTION_1),
+                          (D2, E.ServedAssetFieldTypeEnum.DESCRIPTION_2),
+                          (g.get("d3", DESCRIPTIONS[0]), None), (DESCRIPTIONS[1], None)]:
+            a = client.get_type("AdTextAsset")
+            a.text = text
+            if pin is not None:
+                a.pinned_field = pin
+            rsa.descriptions.append(a)
     return ops
 
 
@@ -313,6 +383,7 @@ def main():
     ap.add_argument("--customer-id", required=True)
     ap.add_argument("--execute", action="store_true", help="Реально создать объекты. Без флага — только validate_only")
     ap.add_argument("--read-back-only", action="store_true", help="Ничего не создавать, прочитать кампанию по имени")
+    ap.add_argument("--add-sizes", default="", help="Добавить группы в существующую кампанию, например 2x4,4x6")
     args = ap.parse_args()
     cid = args.customer_id.replace("-", "").strip()
     client = GoogleAdsClient.load_from_storage(GOOGLE_ADS_YAML)
@@ -323,6 +394,35 @@ def main():
 
     check_limits()
     existing = campaign_exists(client, cid)
+    if args.add_sizes:
+        sizes = [x.strip() for x in args.add_sizes.split(",") if x.strip()]
+        assert all(x in EXTRA for x in sizes), f"неизвестный размер, доступны {list(EXTRA)}"
+        assert len(existing) == 1, f"нужна ровно одна кампания «{CAMPAIGN_NAME}», найдено {existing}"
+        camp_id = existing[0]
+        ga = client.get_service("GoogleAdsService")
+        have = {r.ad_group.name for r in ga.search(customer_id=cid, query=(
+            f"SELECT campaign.id, ad_group.name FROM ad_group WHERE campaign.id = {camp_id} AND ad_group.status != 'REMOVED'"))}
+        todo = [EXTRA[x] for x in sizes if x not in have]
+        print("уже есть:", sorted(have), "| добавляю:", [g["name"] for g in todo])
+        if not todo:
+            return
+        try:
+            ops = build_add_group_operations(client, cid, camp_id, todo, ga)
+            request = client.get_type("MutateGoogleAdsRequest")
+            request.customer_id = cid
+            request.mutate_operations.extend(ops)
+            request.validate_only = not args.execute
+            ga.mutate(request=request)
+        except GoogleAdsException as ex:
+            print("ОШИБКА от Google Ads:")
+            for err in ex.failure.errors:
+                loc = " > ".join(str(e.field_name) for e in err.location.field_path_elements)
+                print(f"  - {err.message} [{loc}]")
+            raise SystemExit(1)
+        print(f"{'Записано' if args.execute else 'Проверка пройдена, НИЧЕГО не создано'} ({len(ops)} операций).")
+        if args.execute:
+            read_back(client, cid, camp_id)
+        return
     if existing and args.execute:
         print(f"СТОП: кампания «{CAMPAIGN_NAME}» уже есть (id {existing}). Повторная запись создала бы дубль.")
         raise SystemExit(1)
