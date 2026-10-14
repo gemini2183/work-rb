@@ -39,5 +39,9 @@ updated: 2026-10-14
 Суффикс URL кампании: `utm_source=google&utm_medium=cpc&utm_campaign=general_pmax_rozmiary` (без `utm_content`, он в URL группы).
 Картинки (реальные фото сайта, не «Улучшенное изображение»): 334849195421, 334849207652, 334849355174, 334938102400, 334938554638, 334938661390; логотип 315822292116; название бизнеса — существующий ассет «TIG» (314556660604).
 Тексты — как в Search (см. Журнал Э-003/Э-004) + 2 длинных заголовка и короткое описание ≤60: «Płatność przy odbiorze. Darmowa dostawa po Polsce.» (50).
-Не переносим из старой `general_pmax`: «Rabat 20% na profesjonalny montaż», «Eksport do 7 krajów Europy», «15+ lat doświadczenia» — на сайте не подтверждены.
+Сверка текстов старой `general_pmax` с сайтом (14.10: текст DOM включая скрытые блоки + скриншоты главной 11 из 12 срезов и «О нас» 1 из 3; «Wysyłka i płatność» только текстом):
+- «Rabat 20% na profesjonalny montaż» — НЕ найдено ни в тексте, ни на скриншотах; на сайте есть только «rabaty już od 100 zł przy zamówieniu co najmniej dwóch szklarń» и вариант в опроснике «Zlecę montaż profesjonalistom»; не переносим.
+- «Eksport do 7 krajów Europy» — ПОДТВЕРЖДЕНО: подвал и «О нас» — «Sprzedajemy szklarnie w 7 krajach Europy» (поимённо названы 5: Litwa, Łotwa, Niemcy, Czechy, Słowacja); в первом разборе я ошибочно назвал это неподтверждённым.
+- «15+ lat doświadczenia» — формулировки нет; на сайте «od 2008 roku» (≈18 лет) и «Żywotność ponad 15 lat» (срок службы); не переносим как цитату.
+- Найдено только по скриншоту (в текстовом разборе не было): баннер «Kup szklarnię jesienią i odbierz 4 prezenty! Od 250 do 400 zł korzyści! Promocja trwa do 31 października» с подарками (окно боковое, профиль U, магнитная насадка, паропроницаемая лента — «0 zł»). В тексты не включено: срочная акция, решение пользователя.
 Проверить до записи: попадает ли `utm_campaign=general_pmax_rozmiary` в канал Ringostat «Google CPC General - pmax» (условие `general_pmax` — точное или «содержит» — не проверено); если точное, звонки пойдут в общий пул General.
