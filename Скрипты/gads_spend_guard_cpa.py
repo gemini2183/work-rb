@@ -64,6 +64,13 @@ from google.protobuf import field_mask_pb2
 from gads_spend_guard import pause, read_state
 from gads_stats import GOOGLE_ADS_YAML
 
+# консоль Windows в cp1251 не печатает «×»/«≤» из сообщений — 14.10 из-за этого процесс упал на старте
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
 MONITORING_DIR = r"E:\PythonProjects\RedBird\monitoring scripts\monitoring"
 MONITORING_CFG = MONITORING_DIR + r"\config\profimet.yaml"
 CLIENTS_DIR = Path(__file__).resolve().parent.parent / "Клиенты"
