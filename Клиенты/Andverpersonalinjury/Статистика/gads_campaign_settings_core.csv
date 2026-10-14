@@ -1,2 +1,2 @@
 Campaign,Status,Channel_type,Bidding_strategy,Target_spend_micros,Target_cpa_micros,Daily_budget,Network_google_search,Network_search_partners,Network_display,Network_partner_search,Geo_positive_type,Geo_negative_type
-search / car+truck injuries / s / lp - tilda,ENABLED,SEARCH,TARGET_SPEND,,,200.0,True,False,False,False,PRESENCE,PRESENCE
+search / car+truck injuries / s / lp - tilda,ENABLED,SEARCH,MANUAL_CPC,,,200.0,True,False,False,False,PRESENCE,PRESENCE

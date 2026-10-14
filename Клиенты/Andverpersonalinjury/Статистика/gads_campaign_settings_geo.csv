@@ -3,6 +3,7 @@ search / car+truck injuries / s / lp - tilda,LOCATION,True,geoTargetConstants/21
 search / car+truck injuries / s / lp - tilda,LOCATION,True,geoTargetConstants/21133,,,"Alabama,United States",State
 search / car+truck injuries / s / lp - tilda,LOCATION,True,geoTargetConstants/21135,,,"Arkansas,United States",State
 search / car+truck injuries / s / lp - tilda,LOCATION,True,geoTargetConstants/21136,,,"Arizona,United States",State
+search / car+truck injuries / s / lp - tilda,LOCATION,False,geoTargetConstants/21137,,,"California,United States",State
 search / car+truck injuries / s / lp - tilda,LOCATION,True,geoTargetConstants/21138,,,"Colorado,United States",State
 search / car+truck injuries / s / lp - tilda,LOCATION,True,geoTargetConstants/21139,,,"Connecticut,United States",State
 search / car+truck injuries / s / lp - tilda,LOCATION,True,geoTargetConstants/21141,,,"Delaware,United States",State
