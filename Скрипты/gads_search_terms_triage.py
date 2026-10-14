@@ -107,6 +107,10 @@ def main():
     cand_mask = df["class"].isin(["ИМЯ", "ИНФО", "ИСПАНСКИЙ", "ДРУГОЙ"]) & \
         ((df.impr >= args.min_impr) | (df.clicks > 0)) & ~df.term.isin(negs) & ~df.term.isin(own)
     cand = df[cand_mask].sort_values(["class", "impr"], ascending=[True, False])
+    long_terms = cand[cand.term.str.split().str.len() > 10]
+    cand = cand[cand.term.str.split().str.len() <= 10]  # лимит Google: ключ/минус не длиннее 10 слов
+    if len(long_terms):
+        print("Длиннее 10 слов (Google не примет как минус, решать вручную):", "; ".join(long_terms.term))
     print(f"Кандидаты в EXACT-минусы ({len(cand)}), ещё не в минусах и не наши ключи:")
     print(cand[["class", "term", "impr", "clicks", "cost"]].to_string(index=False))
     for cls in ("СПОРНЫЙ", "ОБЩИЙ"):
