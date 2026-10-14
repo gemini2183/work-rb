@@ -50,6 +50,7 @@ updated: 2026-10-13
 | Статистика по дням, сетям, устройствам, конверсионным действиям за период | Ч | `gads_pmax_channel_split.py` (только сети) | дни/устройства/действия в одном вызове, не только PMax и Demand Gen |
 | Состояние групп объявлений, аудитории и каналы Demand Gen (`optimized_targeting`, `channel_controls`) | Ч | нет (одноразовые запросы 08.10) | инструмент для Demand Gen |
 | Сверка звонков Ringostat и конверсий Ads по кампании | Ч | `ringostat_stats_profimet.py` + `gads_calls_stats_profimet.py` | один отчёт «заявки кампании» = Ringostat + формы + звонки из объявлений |
+| Заявка (форма Tilda) → клик в Ads: из какой сети пришла заявка / фейк (по gclid в URL) | Ч | `gads_click_view_by_gclid.py` | площадка не отдаётся API; нужна выгрузка заявок с URL (Tilda xlsx) и статус «фейк» из Ringostat |
 | Проверка канала Ringostat по имени кампании на живом сайте | Ч | `ringostat_channel_matrix.py` | — |
 | Правка кампанийных минус-слов по Search Terms (добавить/снять по тексту + типу соответствия) | З | `gads_add_campaign_negatives.py`, `gads_remove_campaign_negatives.py` (2026-10-09, Landver) |
 | Голова спроса: search terms по сети и типу соответствия, охват отчёта запросов | Ч | `gads_search_terms_head.py` (2026-10-12, Landver) | разметка названий фирм/людей (сейчас вручную) |
