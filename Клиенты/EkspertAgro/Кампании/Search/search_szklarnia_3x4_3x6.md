@@ -22,6 +22,9 @@ updated: 2026-10-14
 - **3x4** → https://ekspertagro.pl/szklarni?tfc_charact:9246142%5B1500649011%5D=3m&tfc_charact:9246152%5B1500649011%5D=4m&tfc_div=:::
   - те же формулы с «3x4».
 
+## Расширение 14.10 (Э-004)
+Добавлены группы **2x4** (Mini, профиль 20x20, от 1 499 zł) и **4x6** (Tytan, 40x20, от 2 799 zł); минус-слово «4x6» снято. Не добавлены 3x8 и 4x6-аналоги без подтверждённого результата: 3x8 — 108 кликов, 0 конв.; 4x8 — 179 кликов, 1 конв., 381 zł.
+
 ## Минус-слова (кампания)
 folia, foliowa, foliowy, namiot, namioty, olx, allegro, castorama, leroy, obi, używana, używane, diy, jak zrobić, profimet, mocna szklarnia, mocnaszklarnia, a также размеры вне задачи (2x3, 3x5, 4x6, 3x8) — чтобы группы не перетекали.
 

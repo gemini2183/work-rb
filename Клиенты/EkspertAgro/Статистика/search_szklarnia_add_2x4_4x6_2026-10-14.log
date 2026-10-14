@@ -1,0 +1,86 @@
+уже есть: ['3x4', '3x6'] | добавляю: ['2x4', '4x6']
+снимается минус-слово, блокирующее новые ключи: ['4x6']
+Записано (31 операций).
+
+=== Чтение обратно из аккаунта ===
+24353873699 | search / szklarnia 3x4-3x6 | PAUSED | TARGET_SPEND | потолок клика 2.5 | AI Max False | партнёры False | КМС False | бюджет 150.0
+  суффикс: utm_source=google&utm_medium=cpc&utm_campaign=s_{campaignid}_{ifsearch:search}{ifcontent:context}&utm_content=rb_cid_{campaignid}_{ifsearch:search}{ifcontent:context}|gid_{adgroupid}|aid_{creative}|pos_{adposition}|dev_{device}|plc_{placement}|region_id_{loc_physical_ms}|targetid_{targetid}|gclid_{gclid}&utm_term={keyword}
+группа: 4x6 ENABLED
+группа: 3x6 ENABLED
+группа: 3x4 ENABLED
+группа: 2x4 ENABLED
+ключей: {('4x6', 'EXACT'): 5, ('4x6', 'PHRASE'): 8, ('3x6', 'PHRASE'): 8, ('3x6', 'EXACT'): 5, ('3x4', 'PHRASE'): 8, ('3x4', 'EXACT'): 5, ('2x4', 'EXACT'): 5, ('2x4', 'PHRASE'): 8}
+объявление 4x6: URL ['https://ekspertagro.pl/szklarni?tfc_charact:9246142%5B1500649011%5D=4m&tfc_charact:9246152%5B1500649011%5D=6m&tfc_div=:::']
+   H01 [27] Szklarnia 4x6 z Poliwęglanu <HEADLINE_1>
+   H02 [27] Szklarnie 4x6 od Producenta 
+   H03 [24] Szklarnia 4x6 od 2799 zł 
+   H04 [23] Tunel 4x6 z Poliwęglanu 
+   H05 [22] Płatność przy Odbiorze 
+   H06 [25] Darmowa Dostawa po Polsce 
+   H07 [29] Producent Szklarni od 2008 r. 
+   H08 [21] Poliwęglan 4 lub 6 mm 
+   H09 [26] Profil Ocynkowany 40x20 mm 
+   H10 [22] Żywotność ponad 15 lat 
+   H11 [20] Wybierz Model i Cenę 
+   H12 [11] Faktura VAT 
+   H13 [27] Rabat od 100 zł przy 2 szt. 
+   D1 [86] Szklarnie 4x6 m z poliwęglanu 4 i 6 mm od producenta. Zobacz modele i ceny w katalogu. <DESCRIPTION_1>
+   D2 [88] Płatność przy odbiorze i darmowa dostawa po Polsce. Montaż według instrukcji w zestawie. <DESCRIPTION_2>
+   D3 [80] Własna produkcja od 2008 roku. Stal ocynkowana 40x20 mm, żywotność ponad 15 lat. 
+   D4 [86] Rabat od 100 zł przy zamówieniu dwóch szklarni na jeden adres. Wystawiamy fakturę VAT. 
+объявление 3x6: URL ['https://ekspertagro.pl/szklarni?tfc_charact:9246142%5B1500649011%5D=3m&tfc_charact:9246152%5B1500649011%5D=6m&tfc_div=:::']
+   H01 [27] Szklarnia 3x6 z Poliwęglanu <HEADLINE_1>
+   H02 [27] Szklarnie 3x6 od Producenta 
+   H03 [24] Szklarnia 3x6 od 1949 zł 
+   H04 [23] Tunel 3x6 z Poliwęglanu 
+   H05 [22] Płatność przy Odbiorze 
+   H06 [25] Darmowa Dostawa po Polsce 
+   H07 [29] Producent Szklarni od 2008 r. 
+   H08 [21] Poliwęglan 4 lub 6 mm 
+   H09 [26] Profil Ocynkowany 40x20 mm 
+   H10 [22] Żywotność ponad 15 lat 
+   H11 [20] Wybierz Model i Cenę 
+   H12 [11] Faktura VAT 
+   H13 [27] Rabat od 100 zł przy 2 szt. 
+   D1 [86] Szklarnie 3x6 m z poliwęglanu 4 i 6 mm od producenta. Zobacz modele i ceny w katalogu. <DESCRIPTION_1>
+   D2 [88] Płatność przy odbiorze i darmowa dostawa po Polsce. Montaż według instrukcji w zestawie. <DESCRIPTION_2>
+   D3 [80] Własna produkcja od 2008 roku. Stal ocynkowana 40x20 mm, żywotność ponad 15 lat. 
+   D4 [86] Rabat od 100 zł przy zamówieniu dwóch szklarni na jeden adres. Wystawiamy fakturę VAT. 
+объявление 3x4: URL ['https://ekspertagro.pl/szklarni?tfc_charact:9246142%5B1500649011%5D=3m&tfc_charact:9246152%5B1500649011%5D=4m&tfc_div=:::']
+   H01 [27] Szklarnia 3x4 z Poliwęglanu <HEADLINE_1>
+   H02 [27] Szklarnie 3x4 od Producenta 
+   H03 [24] Szklarnia 3x4 od 1599 zł 
+   H04 [23] Tunel 3x4 z Poliwęglanu 
+   H05 [22] Płatność przy Odbiorze 
+   H06 [25] Darmowa Dostawa po Polsce 
+   H07 [29] Producent Szklarni od 2008 r. 
+   H08 [21] Poliwęglan 4 lub 6 mm 
+   H09 [26] Profil Ocynkowany 40x20 mm 
+   H10 [22] Żywotność ponad 15 lat 
+   H11 [20] Wybierz Model i Cenę 
+   H12 [11] Faktura VAT 
+   H13 [27] Rabat od 100 zł przy 2 szt. 
+   D1 [86] Szklarnie 3x4 m z poliwęglanu 4 i 6 mm od producenta. Zobacz modele i ceny w katalogu. <DESCRIPTION_1>
+   D2 [88] Płatność przy odbiorze i darmowa dostawa po Polsce. Montaż według instrukcji w zestawie. <DESCRIPTION_2>
+   D3 [80] Własna produkcja od 2008 roku. Stal ocynkowana 40x20 mm, żywotność ponad 15 lat. 
+   D4 [86] Rabat od 100 zł przy zamówieniu dwóch szklarni na jeden adres. Wystawiamy fakturę VAT. 
+объявление 2x4: URL ['https://ekspertagro.pl/szklarni?tfc_charact:9246142%5B1500649011%5D=2m&tfc_charact:9246152%5B1500649011%5D=4m&tfc_div=:::']
+   H01 [27] Szklarnia 2x4 z Poliwęglanu <HEADLINE_1>
+   H02 [27] Szklarnie 2x4 od Producenta 
+   H03 [24] Szklarnia 2x4 od 1499 zł 
+   H04 [23] Tunel 2x4 z Poliwęglanu 
+   H05 [22] Płatność przy Odbiorze 
+   H06 [25] Darmowa Dostawa po Polsce 
+   H07 [29] Producent Szklarni od 2008 r. 
+   H08 [21] Poliwęglan 4 lub 6 mm 
+   H09 [26] Profil Ocynkowany 20x20 mm 
+   H10 [22] Żywotność ponad 15 lat 
+   H11 [20] Wybierz Model i Cenę 
+   H12 [11] Faktura VAT 
+   H13 [27] Rabat od 100 zł przy 2 szt. 
+   D1 [86] Szklarnie 2x4 m z poliwęglanu 4 i 6 mm od producenta. Zobacz modele i ceny w katalogu. <DESCRIPTION_1>
+   D2 [88] Płatność przy odbiorze i darmowa dostawa po Polsce. Montaż według instrukcji w zestawie. <DESCRIPTION_2>
+   D3 [80] Własna produkcja od 2008 roku. Stal ocynkowana 20x20 mm, żywotność ponad 15 lat. 
+   D4 [86] Rabat od 100 zł przy zamówieniu dwóch szklarni na jeden adres. Wystawiamy fakturę VAT. 
+критерии кампании (тип, минус?): {('LANGUAGE', False): 2, ('LOCATION', False): 1, ('DEVICE', False): 3, ('AD_SCHEDULE', False): 6, ('KEYWORD', True): 21, ('USER_LIST', True): 1}
+ассеты кампании (тип, статус): {('SITELINK', 'ENABLED'): 6, ('CALLOUT', 'ENABLED'): 6}
