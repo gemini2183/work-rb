@@ -973,6 +973,15 @@ python gads_adgroup_exact_keywords.py --customer-id 213-621-6123 --client-folder
     --set-bid "Auto Accident=15" [--execute]
 ```
 
+## Регулярный разбор запросов: `gads_search_terms_triage.py` (ТОЛЬКО ЧТЕНИЕ)
+
+Читает `search_term_view` кампании за период, делит запросы на классы (ИМЯ / ИНФО / ИСПАНСКИЙ / ДРУГОЙ / СПОРНЫЙ / ОБЩИЙ / ЦЕЛЕВОЙ — эвристика по словарю), исключает уже добавленные минусы и собственные ключи, печатает кандидатов в EXACT-минусы и готовую команду для `gads_add_campaign_negatives.py` (по умолчанию validate_only). Классы СПОРНЫЙ (pedestrian, bicycle, motorcycle, wrongful death, rideshare) и ОБЩИЙ («accident lawyer» без car/truck) автоматически не минусуются — решает человек. Файл с классами — `Статистика/search_terms_triage_<от>_to_<до>.csv`. Добавлен 2026-10-14 (Landver car+truck): решение пользователя регулярно минусовать неоднозначный трафик.
+
+```
+python gads_search_terms_triage.py --customer-id 213-621-6123 --client-folder Andverpersonalinjury \
+    --campaign "search / car+truck injuries / s / lp - tilda" --date-from 2026-10-14 --date-to 2026-10-17
+```
+
 ## Переработка Search-кампании по файлу плана: `gads_campaign_rework.py` (ЗАПИСЬ)
 
 ```
