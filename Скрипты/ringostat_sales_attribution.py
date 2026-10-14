@@ -190,16 +190,22 @@ def build_report(out, path):
     d0, d1 = out["дата продажи"].min()[:10], out["дата продажи"].max()[:10]
     ws.append([f"Продажи в выгрузке: {len(out)} шт., {d0} — {d1}. Номера сопоставлены со звонками Ringostat по схеме уникальности."])
     ws.append([])
-    ws.append(["1. Источник в продаже и первый контакт"])
+    ws.append(["1. Сколько продаж записано не на тот канал"])
     ws.cell(ws.max_row, 1).font = bold
-    ws.append(["Источник в продаже", "Продаж", "Из них первый контакт — рекламный звонок (Google Ads / Facebook)"])
+    ws.append(["Источник в CRM сейчас", "Продаж", "Записано верно", "Перенести в рекламу (был рекламный звонок)", "Спорные"])
     for c in ws[ws.max_row]:
         c.font, c.fill = bold, head
+        c.alignment = Alignment(wrap_text=True, vertical="top")
+    disputed = out["вердикт"] == "ДРУГОЙ_ИСТОЧНИК"
     for key, lab, _ in names:
         m = out["источник продажи"].map(label_of) == key
-        ws.append([lab, int(m.sum()), int((m & ad_first).sum())])
-    ws.append(["Всего", len(out), int(ad_first.sum())])
+        n_fix, n_dis = int((m & fixed).sum()), int((m & disputed).sum())
+        ws.append([lab, int(m.sum()), int(m.sum()) - n_fix - n_dis, n_fix, n_dis])
+    ws.append(["Всего", len(out), len(out) - int(fixed.sum()) - int(disputed.sum()), int(fixed.sum()), int(disputed.sum())])
     ws.cell(ws.max_row, 1).font = bold
+    ws.append(["Перенести — в CRM «Телефон» или «Нет метки», но номер раньше звонил из рекламы Google Ads / Facebook. "
+               "Спорные — в CRM рекламный источник, а первый звонок пришёл из другого рекламного канала. "
+               "Остальные продажи записаны верно: у Google Ads и Facebook они пришли через сайт с рекламной меткой."])
     ws.append([])
     ws.append(["2. Как изменится число продаж по каналам, если записать их на первый рекламный контакт"])
     ws.cell(ws.max_row, 1).font = bold
@@ -222,12 +228,13 @@ def build_report(out, path):
                "Совпадение номера и времени — признак, а не доказательство; поэтому список номеров ниже нужен для ручной проверки."])
     ws.column_dimensions["A"].width = 42
     ws.column_dimensions["B"].width = 12
-    ws.column_dimensions["C"].width = 62
-    ws.column_dimensions["D"].width = 14
+    ws.column_dimensions["C"].width = 22
+    ws.column_dimensions["D"].width = 30
+    ws.column_dimensions["E"].width = 12
 
     w2 = wb.create_sheet("Номера для проверки")
     w2.append(["№", "Телефон", "Заказ", "Продажа записана (время Варшавы)", "Источник в CRM сейчас",
-               "Первый рекламный звонок (время Варшавы)", "Канал звонка", "Когда записана продажа", "Разговор, сек", "Что проверить"])
+               "Первый рекламный звонок (время Варшавы)", "Канал звонка", "Через сколько после начала звонка продажа записана в CRM", "Разговор, сек", "Что проверить"])
     for c in w2[1]:
         c.font, c.fill = bold, head
         c.alignment = Alignment(wrap_text=True, vertical="top")
