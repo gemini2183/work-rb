@@ -244,6 +244,8 @@
   },
   "active": "49438aefe15a1236",
   "lastOpenFiles": [
+    "Клиенты/Andverpersonalinjury/Статистика/search_terms_triage_2026-10-06_to_2026-10-14.csv",
+    "Скрипты/gads_search_terms_triage.py",
     "Клиенты/EkspertAgro/Статистика/pmax_23593683252_conv_by_action_2026-10-09_2026-10-14.csv",
     "Клиенты/EkspertAgro/Статистика/pmax_23593683252_placements_2026-10-09_2026-10-14.csv",
     "Клиенты/EkspertAgro/Статистика/pmax_23593683252_network_by_day_2026-10-09_2026-10-14.csv",
@@ -254,8 +256,6 @@
     "Скрипты/__pycache__/gads_exact_groups.cpython-313.pyc",
     "Клиенты/Andverpersonalinjury/Статистика/exact_add_car_truck_2026-10-14.csv",
     "Скрипты/gads_adgroup_exact_keywords.py",
-    "Клиенты/Andverpersonalinjury/Статистика/_tmp_terms_cls.csv",
-    "Клиенты/Andverpersonalinjury/Статистика/gads_search_terms_head_2026-10-13_to_2026-10-13.csv",
     "База_знаний/Агенты/Разбор_списка_задач_клиента.md",
     "Клиенты/ProfiMet/Задачи_подробности_2026-10-14.md",
     "Клиенты/LuxeBrokers/Статистика/site_audit_2026-10-13/mobile_first_screen.png",
