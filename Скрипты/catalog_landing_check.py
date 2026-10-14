@@ -10,6 +10,9 @@
 Ключи фильтров `tfc_charact:…` — внутренние ID Tilda: после правки каталога клиентом они могут смениться, тогда ссылка
 молча покажет весь каталог. Скрипт нужен до включения кампании и после любых правок каталога.
 
+ВНИМАНИЕ: Tilda автоматически блокирует IP при частых автоматических запросах (HTTP 410, «Your request has been
+automatically blocked»). Запускать редко и один раз за сессию; не гонять по несколько раз подряд.
+
 Использование:
     python catalog_landing_check.py --customer-id 8826134558 --campaign-id 24353873699 \
         --expected-numbers 48225987216,48225987224,48222565341
@@ -59,7 +62,11 @@ def main():
     with sync_playwright() as p:
         b = p.chromium.launch()
         pg = b.new_page(viewport={"width": 1366, "height": 900}, locale="pl-PL")
-        pg.goto(ALL_CATALOG, wait_until="domcontentloaded", timeout=60000)
+        resp = pg.goto(ALL_CATALOG, wait_until="domcontentloaded", timeout=60000)
+        if resp is not None and resp.status >= 400:
+            raise SystemExit(f"Сайт ответил HTTP {resp.status}: возможно, Tilda автоматически заблокировала IP за частые "
+                             "автоматические запросы (страница «Request with error: 410»). Подождать и не повторять "
+                             "прогон подряд; проверить, открывается ли сайт в обычном браузере.")
         pg.wait_for_timeout(5000)
         total = len(pg.evaluate(CARD_JS))
         print(f"Весь каталог без фильтра (видимых карточек до прокрутки): {total}\n")
