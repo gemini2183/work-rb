@@ -244,6 +244,8 @@
   },
   "active": "49438aefe15a1236",
   "lastOpenFiles": [
+    "Клиенты/EkspertAgro/Статистика/gads_pmax_asset_groups_daily_general_pmax_2026-10-05_to_2026-10-14.csv",
+    "Клиенты/EkspertAgro/Статистика/gads_pmax_asset_groups_list_general_pmax.csv",
     "Клиенты/Andverpersonalinjury/Статистика/search_terms_triage_2026-10-06_to_2026-10-14.csv",
     "Скрипты/gads_search_terms_triage.py",
     "Клиенты/EkspertAgro/Статистика/pmax_23593683252_conv_by_action_2026-10-09_2026-10-14.csv",
@@ -254,8 +256,6 @@
     "База_знаний/Паттерны/Поведение-на-сайте-диагностика-реклама-или-сайт.md",
     "Клиенты/Andverpersonalinjury/Статистика/snapshot_before_adgroup_keywords_20261014_1156.json",
     "Скрипты/__pycache__/gads_exact_groups.cpython-313.pyc",
-    "Клиенты/Andverpersonalinjury/Статистика/exact_add_car_truck_2026-10-14.csv",
-    "Скрипты/gads_adgroup_exact_keywords.py",
     "База_знаний/Агенты/Разбор_списка_задач_клиента.md",
     "Клиенты/ProfiMet/Задачи_подробности_2026-10-14.md",
     "Клиенты/LuxeBrokers/Статистика/site_audit_2026-10-13/mobile_first_screen.png",
