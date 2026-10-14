@@ -962,6 +962,16 @@ python gads_exact_groups.py --customer-id 213-621-6123 --client-folder Andverper
 ```
 Порядок на кампании с автостратегией: сначала этот скрипт (ставки групп были $0,01), потом `gads_set_campaign_bidding.py --strategy MANUAL_CPC` (добавлено 2026-10-12; без enhanced CPC, потолок цены клика при этом не используется).
 
+## Точные ключи в существующие группы и ставка группы: `gads_adgroup_exact_keywords.py` (ЗАПИСЬ, по умолчанию validate_only)
+
+Добавляет точные ключи в УЖЕ существующие группы (в отличие от `gads_exact_groups.py`, который кладёт ключи только в новые «- Exact») и/или меняет ставку отдельных групп, не трогая остальные. План — CSV `keyword,group` (полное имя группы), ставка — `--set-bid "Имя группы=15"` (можно повторять). Пропускает ключи, которые уже есть как EXACT; исключаемую политику HEALTH_IN_PERSONALIZED_ADS обрабатывает как `gads_exact_groups.py`; снимок «до» в `Статистика/`, после `--execute` читает обратно. Добавлен 2026-10-14 (Landver car+truck).
+
+```
+python gads_adgroup_exact_keywords.py --customer-id 213-621-6123 --client-folder Andverpersonalinjury \
+    --campaign "search / car+truck injuries / s / lp - tilda" --plan-csv "<…>/exact_add_car_truck_2026-10-14.csv" \
+    --set-bid "Auto Accident=15" [--execute]
+```
+
 ## Переработка Search-кампании по файлу плана: `gads_campaign_rework.py` (ЗАПИСЬ)
 
 ```
