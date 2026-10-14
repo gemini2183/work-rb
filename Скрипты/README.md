@@ -866,6 +866,16 @@ python gads_search_generic_builder.py --customer-id 7552781705 --execute    # з
 python gads_search_generic_builder.py --customer-id 7552781705 --read-back-only
 ```
 
+## Search на размеры с посадкой на каталог Tilda: `gads_search_ekspertagro_size_builder.py` (ExpertAgro, запись, по умолчанию validate_only)
+
+Бюджет, кампания (Maximize clicks с потолком клика, пауза, AI Max и автотексты выкл.), гео/язык/расписание, исключение списка покупателей, минус-слова, 2 группы по размеру (фраза/точное) с RSA и закреплением H1/D1/D2, сайтлинки и уточнения. UTM — `final_url_suffix`, не шаблон (в URL каталога уже есть `?`). Перед `--execute` проверяет, что кампании с таким именем нет. Копировать и менять константы (имя, группы, ключи, тексты, URL фильтров).
+
+```
+python gads_search_ekspertagro_size_builder.py --customer-id 8826134558              # проверка
+python gads_search_ekspertagro_size_builder.py --customer-id 8826134558 --execute    # запись, на паузе
+python gads_search_ekspertagro_size_builder.py --customer-id 8826134558 --read-back-only
+```
+
 ## Ассеты: стандартизация, отвязка из групп PMax, снятие Roistat (ProfiMet, запись, по умолчанию validate_only)
 
 - `gads_standardize_assets.py --customer-id … --client-folder … [--only-campaign-id … --price-asset-id …] [--execute]` — приводит сайтлинки, уточнения, сниппет, картинки (Search) и цены включённых кампаний к набору эталонной кампании (`search / szklarnia generic`); снятые привязки пишет в снимок «до», читает обратно. Список целевых кампаний и тексты цен — константы в начале файла; перед запуском на новых кампаниях менять их, цены сверять с главной.
