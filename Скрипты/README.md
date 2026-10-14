@@ -876,6 +876,10 @@ python gads_search_ekspertagro_size_builder.py --customer-id 8826134558 --execut
 python gads_search_ekspertagro_size_builder.py --customer-id 8826134558 --read-back-only
 ```
 
+## Переименование кампании: `gads_rename_campaign.py` (запись, по умолчанию validate_only)
+
+`--customer-id … --campaign-id … --new-name "…" [--execute]` — печатает «было → станет», проверяет, что имя свободно, читает обратно. Имя кампании — ключ для внешних выгрузок (ExpertAgro: слово `shop` в названии отделяет «Мерчант» от «Теплицы»), поэтому перед переименованием сверять правила выгрузок.
+
 ## Ассеты: стандартизация, отвязка из групп PMax, снятие Roistat (ProfiMet, запись, по умолчанию validate_only)
 
 - `gads_standardize_assets.py --customer-id … --client-folder … [--only-campaign-id … --price-asset-id …] [--execute]` — приводит сайтлинки, уточнения, сниппет, картинки (Search) и цены включённых кампаний к набору эталонной кампании (`search / szklarnia generic`); снятые привязки пишет в снимок «до», читает обратно. Список целевых кампаний и тексты цен — константы в начале файла; перед запуском на новых кампаниях менять их, цены сверять с главной.

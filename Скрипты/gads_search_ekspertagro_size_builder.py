@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-"""Создаёт Search-кампанию `search / szklarnia 3x4-3x6` (ExpertAgro, Теплицы Польша) через Google Ads API.
+"""Создаёт Search-кампанию `general / search / rozmiary / katalog` (ExpertAgro, Теплицы Польша) через Google Ads API.
 
 План и основание — Клиенты/EkspertAgro/Кампании/Search/search_szklarnia_3x4_3x6.md (согласовано пользователем 2026-10-14).
 Две группы по размеру (3x6, 3x4), посадка — каталог Tilda с фильтром ширина+длина, фразовое/точное соответствие.
@@ -30,7 +30,7 @@ from google.ads.googleads.errors import GoogleAdsException
 
 from gads_stats import GOOGLE_ADS_YAML
 
-CAMPAIGN_NAME = "search / szklarnia 3x4-3x6"
+CAMPAIGN_NAME = "general / search / rozmiary / katalog"  # переименована 14.10 (было «search / szklarnia 3x4-3x6»)
 BUDGET_PLN = 150          # потолок, не прогноз расхода (ожидаемо 17-45 zł/день), ≈ 1.4 × цель заявки 110 zł
 CPC_CEILING_PLN = 2.50    # верх страницы по Keyword Planner 2.15-2.43 zł
 POLAND_GEO = "geoTargetConstants/2616"
