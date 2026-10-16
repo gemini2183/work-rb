@@ -1,0 +1,5 @@
+Campaign,Status,Channel_type,Bidding_strategy,Target_spend_micros,Target_cpa_micros,Daily_budget,Network_google_search,Network_search_partners,Network_display,Network_partner_search,Geo_positive_type,Geo_negative_type
+shop_search,ENABLED,SHOPPING,TARGET_SPEND,,,300.0,True,False,False,False,PRESENCE_OR_INTEREST,PRESENCE
+shop_pmax,ENABLED,PERFORMANCE_MAX,MAXIMIZE_CONVERSIONS,,50000000.0,50.0,True,True,True,False,PRESENCE_OR_INTEREST,PRESENCE
+general / search / rozmiary / katalog,ENABLED,SEARCH,TARGET_SPEND,,,150.0,True,False,False,False,PRESENCE_OR_INTEREST,PRESENCE
+general_pmax_rozmiary,ENABLED,PERFORMANCE_MAX,MAXIMIZE_CONVERSIONS,,,50.0,True,True,True,False,PRESENCE_OR_INTEREST,PRESENCE

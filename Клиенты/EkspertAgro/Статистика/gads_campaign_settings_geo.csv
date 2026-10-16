@@ -1,0 +1,5 @@
+Campaign,Type,Negative,Geo_target_constant,Proximity_radius,Proximity_radius_units,Geo_name,Geo_target_type
+shop_search,LOCATION,False,geoTargetConstants/2616,,,Poland,Country
+shop_pmax,LOCATION,False,geoTargetConstants/2616,,,Poland,Country
+general / search / rozmiary / katalog,LOCATION,False,geoTargetConstants/2616,,,Poland,Country
+general_pmax_rozmiary,LOCATION,False,geoTargetConstants/2616,,,Poland,Country
