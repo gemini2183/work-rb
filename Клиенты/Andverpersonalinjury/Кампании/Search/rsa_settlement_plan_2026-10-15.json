@@ -1,0 +1,80 @@
+{
+ "customer_id": "2136216123",
+ "campaign": "search / car+truck injuries / s / lp - tilda",
+ "pause_ads": [
+  828218074964
+ ],
+ "rsa": {
+  "ad_groups": [
+   "Car Accident - Settlement"
+  ],
+  "final_url": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident",
+  "path1": "car-accident",
+  "path2": "case-value",
+  "headlines": [
+   {
+    "text": "What Is Your Crash Case Worth?",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "Car Accident Settlement Help",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "Injured? Know Your Case Value",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "Calculators Can't See Injuries"
+   },
+   {
+    "text": "Get a Real Attorney Review"
+   },
+   {
+    "text": "Insurance Offer Too Low?"
+   },
+   {
+    "text": "Early Offer? Talk to Us First"
+   },
+   {
+    "text": "Before You Accept an Offer"
+   },
+   {
+    "text": "Free Case Review"
+   },
+   {
+    "text": "No Fee Unless We Win"
+   },
+   {
+    "text": "Hit by Another Driver?"
+   },
+   {
+    "text": "20+ Years in California"
+   },
+   {
+    "text": "4.8-Star Client Rating"
+   },
+   {
+    "text": "Trial-Focused Representation"
+   },
+   {
+    "text": "Beverly Hills Law Firm"
+   }
+  ],
+  "descriptions": [
+   {
+    "text": "Injured in a car crash? We represent injury victims only. Free review of your case.",
+    "pin": "DESCRIPTION_1"
+   },
+   {
+    "text": "An online calculator can't see your injuries, treatment or who was at fault. We can."
+   },
+   {
+    "text": "Don't accept an insurance offer before a free case review with a California attorney."
+   },
+   {
+    "text": "Free case review. Contingency fee, litigation costs advanced. Call Landver Law today."
+   }
+  ]
+ }
+}

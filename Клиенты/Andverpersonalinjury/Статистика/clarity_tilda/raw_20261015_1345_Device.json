@@ -1,0 +1,46 @@
+[
+ {
+  "metricName": "DeadClickCount",
+  "information": []
+ },
+ {
+  "metricName": "ExcessiveScroll",
+  "information": []
+ },
+ {
+  "metricName": "RageClickCount",
+  "information": []
+ },
+ {
+  "metricName": "QuickbackClick",
+  "information": []
+ },
+ {
+  "metricName": "ScriptErrorCount",
+  "information": []
+ },
+ {
+  "metricName": "ErrorClickCount",
+  "information": []
+ },
+ {
+  "metricName": "ScrollDepth",
+  "information": []
+ },
+ {
+  "metricName": "Traffic",
+  "information": [
+   {
+    "totalSessionCount": 0,
+    "totalBotSessionCount": 2,
+    "distinctUserCount": 0,
+    "pagesPerSessionPercentage": null,
+    "Device": "PC"
+   }
+  ]
+ },
+ {
+  "metricName": "EngagementTime",
+  "information": []
+ }
+]

@@ -1,0 +1,553 @@
+{
+ "account": "6353362488",
+ "container": "261134482",
+ "workspace_name": "ldv-tracking-2026-10-15",
+ "version_name": "ldv tracking: block_view, block_time, engaged, faq, email, tel place, Clarity",
+ "version_notes": "Landver tilda car+truck, 2026-10-15. Откат: опубликовать версию 5.",
+ "built_in_variables": [
+  "clickElement",
+  "clickClasses",
+  "clickUrl",
+  "clickText"
+ ],
+ "variables": [
+  {
+   "name": "ldv block name (visibility)",
+   "type": "jsm",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "javascript",
+     "value": "function(){var e={{Click Element}};return ((e&&e.id)||'').replace(/^ldv-/,'').replace(/-/g,'_');}"
+    }
+   ]
+  },
+  {
+   "name": "ldv tel place",
+   "type": "jsm",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "javascript",
+     "value": "function(){var e={{Click Element}};var a=e&&e.closest?e.closest('a'):null;var c=(a&&a.className)||'';var m={'ldv-h__phone':'header','ldv-mob-call':'mobile_bar','ldv-ai-hero__call':'hero','ldv-fr__phone':'final_form','ldv-ft__phone':'footer'};for(var k in m){if(String(c).indexOf(k)>-1)return m[k];}return 'other';}"
+    }
+   ]
+  },
+  {
+   "name": "ldv faq question",
+   "type": "jsm",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "javascript",
+     "value": "function(){var e={{Click Element}};var b=e&&e.closest?e.closest('.ldv-faq__question'):null;return b?b.innerText.replace(/^\\s*\\d+\\s*/,'').replace(/\\s+/g,' ').trim().slice(0,100):'';}"
+    }
+   ]
+  },
+  {
+   "name": "dlv block_name",
+   "type": "v",
+   "parameter": [
+    {
+     "type": "integer",
+     "key": "dataLayerVersion",
+     "value": "2"
+    },
+    {
+     "type": "boolean",
+     "key": "setDefaultValue",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "name",
+     "value": "block_name"
+    }
+   ]
+  },
+  {
+   "name": "dlv block_seconds",
+   "type": "v",
+   "parameter": [
+    {
+     "type": "integer",
+     "key": "dataLayerVersion",
+     "value": "2"
+    },
+    {
+     "type": "boolean",
+     "key": "setDefaultValue",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "name",
+     "value": "block_seconds"
+    }
+   ]
+  }
+ ],
+ "triggers": [
+  {
+   "name": "ldv block visible",
+   "type": "elementVisibility",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "selectorType",
+     "value": "CSS"
+    },
+    {
+     "type": "template",
+     "key": "elementSelector",
+     "value": "#ldv-ai-hero, #ldv-your-crash, #ldv-crash-scenarios, #ldv-case-examples, #ldv-truck-cases, #ldv-evidence, #ldv-mid-review, #ldv-public-library, #ldv-injuries, #ldv-early-offer, #ldv-case-value, #ldv-case-process, #ldv-why-landver, #ldv-reviews, #ldv-faq, #ldv-final-review, #ldv-footer"
+    },
+    {
+     "type": "template",
+     "key": "firingFrequency",
+     "value": "ONCE_PER_ELEMENT"
+    },
+    {
+     "type": "template",
+     "key": "onScreenRatio",
+     "value": "10"
+    },
+    {
+     "type": "boolean",
+     "key": "useOnScreenDuration",
+     "value": "true"
+    },
+    {
+     "type": "template",
+     "key": "onScreenDuration",
+     "value": "1000"
+    },
+    {
+     "type": "boolean",
+     "key": "useDomChangeListener",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "name": "ldv event block_time",
+   "type": "customEvent",
+   "customEventFilter": [
+    {
+     "type": "equals",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{_event}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "block_time"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ldv event stay_10s",
+   "type": "customEvent",
+   "customEventFilter": [
+    {
+     "type": "equals",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{_event}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "stay_10s"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ldv event engaged_30s",
+   "type": "customEvent",
+   "customEventFilter": [
+    {
+     "type": "equals",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{_event}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "engaged_30s"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ldv event engaged_90s",
+   "type": "customEvent",
+   "customEventFilter": [
+    {
+     "type": "equals",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{_event}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "engaged_90s"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ldv faq question click",
+   "type": "click",
+   "filter": [
+    {
+     "type": "cssSelector",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{Click Element}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": ".ldv-faq__question, .ldv-faq__question *"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ldv mailto click",
+   "type": "linkClick",
+   "filter": [
+    {
+     "type": "contains",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{Click URL}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "mailto:"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "tags": [
+  {
+   "name": "GA4 - block_view",
+   "type": "gaawe",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "block_view"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "G-JPLC4Q41PS"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "block_name"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{ldv block name (visibility)}}"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "firingTriggerNames": [
+    "ldv block visible"
+   ]
+  },
+  {
+   "name": "GA4 - block_time",
+   "type": "gaawe",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "block_time"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "G-JPLC4Q41PS"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "block_name"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{dlv block_name}}"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "block_seconds"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{dlv block_seconds}}"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "firingTriggerNames": [
+    "ldv event block_time"
+   ]
+  },
+  {
+   "name": "GA4 - stay_10s",
+   "type": "gaawe",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "stay_10s"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "G-JPLC4Q41PS"
+    }
+   ],
+   "firingTriggerNames": [
+    "ldv event stay_10s"
+   ]
+  },
+  {
+   "name": "GA4 - engaged_30s",
+   "type": "gaawe",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "engaged_30s"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "G-JPLC4Q41PS"
+    }
+   ],
+   "firingTriggerNames": [
+    "ldv event engaged_30s"
+   ]
+  },
+  {
+   "name": "GA4 - engaged_90s",
+   "type": "gaawe",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "engaged_90s"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "G-JPLC4Q41PS"
+    }
+   ],
+   "firingTriggerNames": [
+    "ldv event engaged_90s"
+   ]
+  },
+  {
+   "name": "GA4 - faq_open",
+   "type": "gaawe",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "faq_open"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "G-JPLC4Q41PS"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "faq_question"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{ldv faq question}}"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "firingTriggerNames": [
+    "ldv faq question click"
+   ]
+  },
+  {
+   "name": "GA4 - email_click",
+   "type": "gaawe",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "email_click"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "G-JPLC4Q41PS"
+    }
+   ],
+   "firingTriggerNames": [
+    "ldv mailto click"
+   ]
+  },
+  {
+   "name": "ldv block_time script",
+   "type": "html",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "html",
+     "value": "<script>\n(function () {\n  if (window.__ldvBlockTime) return;\n  window.__ldvBlockTime = true;\n  var IDS = ['ldv-ai-hero', 'ldv-your-crash', 'ldv-crash-scenarios', 'ldv-case-examples', 'ldv-truck-cases',\n    'ldv-evidence', 'ldv-mid-review', 'ldv-public-library', 'ldv-injuries', 'ldv-early-offer', 'ldv-case-value',\n    'ldv-case-process', 'ldv-why-landver', 'ldv-reviews', 'ldv-faq', 'ldv-final-review', 'ldv-footer'];\n  var STEPS = [[10, 'stay_10s'], [30, 'engaged_30s'], [90, 'engaged_90s']];\n  var TICK = 500, IDLE = 10000, FLUSH = 30000;\n  var acc = {}, total = 0, current = 'header', lastTick = Date.now(), lastActive = Date.now(), lastFlush = Date.now();\n  window.dataLayer = window.dataLayer || [];\n\n  function nameOf(id) { return id.replace(/^ldv-/, '').replace(/-/g, '_'); }\n  function currentBlock() {\n    var mid = window.innerHeight / 2, name = 'header';\n    for (var i = 0; i < IDS.length; i++) {\n      var el = document.getElementById(IDS[i]);\n      if (el && el.getBoundingClientRect().top <= mid) name = nameOf(IDS[i]);\n    }\n    return name;\n  }\n  function flush(final) {\n    for (var k in acc) {\n      var s = final ? Math.round(acc[k]) : Math.floor(acc[k]);\n      if (s >= 1) {\n        window.dataLayer.push({ event: 'block_time', block_name: k, block_seconds: s });\n        acc[k] -= s;\n      }\n    }\n    lastFlush = Date.now();\n  }\n  function active() { lastActive = Date.now(); }\n  ['scroll', 'mousemove', 'keydown', 'touchstart', 'click', 'wheel'].forEach(function (e) {\n    window.addEventListener(e, active, { passive: true });\n  });\n  setInterval(function () {\n    var now = Date.now(), dt = now - lastTick;\n    lastTick = now;\n    var block = currentBlock();\n    if (document.visibilityState === 'visible' && now - lastActive <= IDLE && dt < 5000) {\n      acc[block] = (acc[block] || 0) + dt / 1000;\n      total += dt / 1000;\n      while (STEPS.length && total >= STEPS[0][0]) {\n        window.dataLayer.push({ event: STEPS[0][1] });\n        STEPS.shift();\n      }\n    }\n    if (block !== current) { flush(false); current = block; }\n    else if (now - lastFlush >= FLUSH) { flush(false); }\n  }, TICK);\n  document.addEventListener('visibilitychange', function () {\n    if (document.visibilityState === 'hidden') flush(true);\n  });\n  window.addEventListener('pagehide', function () { flush(true); });\n})();\n</script>"
+    },
+    {
+     "type": "boolean",
+     "key": "supportDocumentWrite",
+     "value": "false"
+    }
+   ],
+   "firingTriggerIds": [
+    "2147479553"
+   ]
+  },
+  {
+   "name": "Microsoft Clarity (tilda, yy4382dsrf)",
+   "type": "html",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "html",
+     "value": "<script type=\"text/javascript\">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src=\"https://www.clarity.ms/tag/\"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,\"clarity\",\"script\",\"yy4382dsrf\");</script>"
+    },
+    {
+     "type": "boolean",
+     "key": "supportDocumentWrite",
+     "value": "false"
+    }
+   ],
+   "firingTriggerIds": [
+    "2147479553"
+   ]
+  }
+ ],
+ "update_tags": [
+  {
+   "name": "GA4 - click_tel",
+   "set_event_parameters": {
+    "click_place": "{{ldv tel place}}"
+   }
+  }
+ ]
+}

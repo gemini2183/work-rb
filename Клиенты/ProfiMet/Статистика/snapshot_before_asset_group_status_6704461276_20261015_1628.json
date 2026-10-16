@@ -1,0 +1,9 @@
+{
+  "campaign": "pmax1_test",
+  "name": "ци - целевые ключи",
+  "status": "ENABLED",
+  "ad_strength": "AVERAGE",
+  "final_urls": [
+    "https://mocnaszklarnia.pl/"
+  ]
+}

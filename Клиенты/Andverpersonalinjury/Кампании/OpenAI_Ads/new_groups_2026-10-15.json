@@ -1,0 +1,200 @@
+{
+ "campaign_id": "cmpn_6ac654ebdf448199826b33648b3f1a89",
+ "bidding": "maximize_clicks",
+ "status_after_create": "paused",
+ "version": 3,
+ "note": "v3: к v2 добавлены file_id (кадры 13.10, уже загружены в аккаунт; повтор кадров между группами неизбежен — 6 разных кадров на 10 объявлений, внутри группы кадры разные)",
+ "groups": [
+  {
+   "group": "Car Crash Injury - Claim Denied or Lowball",
+   "context_hints": [
+    "user was injured in a car crash in California and the at-fault driver's insurance company denied the injury claim or says the user was partly at fault",
+    "user was injured in a car crash in California and the insurer's settlement offer does not cover medical bills and lost income from the injuries",
+    "user asks what to do after an insurance company denied or lowballed a car crash injury claim in California"
+   ],
+   "ads": [
+    {
+     "ad_name": "CT-D1",
+     "title": "Injured in a Crash, Claim Denied?",
+     "copy": "Free review of your California car crash injury claim. No fee unless we win.",
+     "link": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=denied_d1",
+     "file_id": "file_00000000287c820b8b0c8188e8aafbe9",
+     "image_note": "O1",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    },
+    {
+     "ad_name": "CT-D2",
+     "title": "Crash Injury Offer Too Low?",
+     "copy": "Free California case review. We represent car crash injury victims only.",
+     "link": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=denied_d2",
+     "file_id": "file_00000000bef4820ebabbb17cf0ee0cf5",
+     "image_note": "V2",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    }
+   ]
+  },
+  {
+   "group": "Car Crash Injury - Uninsured and Hit-and-Run",
+   "context_hints": [
+    "user was injured in a car crash in California caused by an uninsured or underinsured driver and asks how to get compensation for the injuries",
+    "user was injured in a hit-and-run car crash in California and asks what options they have for medical bills and compensation",
+    "user was injured in a car crash in California, was not at fault, and asks who pays for the medical bills and lost income"
+   ],
+   "ads": [
+    {
+     "ad_name": "CT-U1",
+     "title": "Injured by an Uninsured Driver?",
+     "copy": "Free review of your California car crash injury claim. No fee unless we win.",
+     "link": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=uninsured_u1",
+     "file_id": "file_0000000018a881f8a1098944f8698a52",
+     "image_note": "V1",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    },
+    {
+     "ad_name": "CT-U2",
+     "title": "Injured in a Hit-and-Run Crash?",
+     "copy": "Hurt in a hit-and-run car crash in California? Free case review.",
+     "link": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=uninsured_u2",
+     "file_id": "file_00000000f78c820e918d06d86a5a6fc8",
+     "image_note": "L2",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    }
+   ]
+  },
+  {
+   "group": "Car Crash Injury - Pain and Treatment",
+   "context_hints": [
+    "user has neck, back or head pain after a car crash in California and asks whether to talk to an injury lawyer",
+    "user was diagnosed with whiplash, a concussion or a back injury after a car crash in California and asks about their rights",
+    "user is still in medical treatment after a car crash injury in California and asks if it is too early to contact an injury lawyer"
+   ],
+   "ads": [
+    {
+     "ad_name": "CT-S1",
+     "title": "Still Treating After a Car Crash?",
+     "copy": "It is not too early to ask. Free review of your California crash injury claim.",
+     "link": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=symptoms_s1",
+     "file_id": "file_000000007f748211851896f32f4edf8e",
+     "image_note": "L1",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    },
+    {
+     "ad_name": "CT-S2",
+     "title": "Whiplash or Back Pain After a Crash?",
+     "copy": "Know your options before you accept any offer. Free California case review.",
+     "link": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=symptoms_s2",
+     "file_id": "file_00000000287c820b8b0c8188e8aafbe9",
+     "image_note": "O1",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    }
+   ]
+  },
+  {
+   "group": "Car Crash Injury - Rear-End, T-Bone, Freeway",
+   "context_hints": [
+    "user was injured in a rear-end car crash in California and asks about their injury claim",
+    "user was injured in a T-bone or intersection car crash in California and asks who is at fault and how an injury claim works",
+    "user was injured in a freeway or highway car crash in California and asks about compensation for the injuries"
+   ],
+   "ads": [
+    {
+     "ad_name": "CT-X1",
+     "title": "Injured in a Rear-End Crash?",
+     "copy": "Free review of your California crash injury claim. We represent injury victims only.",
+     "link": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=crashtype_x1",
+     "file_id": "file_0000000018a881f8a1098944f8698a52",
+     "image_note": "V1",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    },
+    {
+     "ad_name": "CT-X2",
+     "title": "Injured in an Intersection Crash?",
+     "copy": "Not sure who is at fault? Free California crash injury case review.",
+     "link": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=crashtype_x2",
+     "file_id": "file_00000000bef4820ebabbb17cf0ee0cf5",
+     "image_note": "V2",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    }
+   ]
+  },
+  {
+   "group": "Car Crash Injury - Serious",
+   "context_hints": [
+    "user was hospitalized or needs surgery after a car crash injury in California and asks about compensation for medical bills and future care",
+    "user has a broken bone, spinal injury or head injury from a car crash in California and asks how an injury claim works",
+    "user is unable to work because of a car crash injury in California and asks how to get compensation for lost income"
+   ],
+   "ads": [
+    {
+     "ad_name": "CT-H1",
+     "title": "Hospitalized After a Car Crash?",
+     "copy": "Serious injury cases need more than a fast demand letter. Free case review.",
+     "link": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=serious_h1",
+     "file_id": "file_000000007f748211851896f32f4edf8e",
+     "image_note": "L1",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    },
+    {
+     "ad_name": "CT-H2",
+     "title": "Can't Work After a Car Crash?",
+     "copy": "Find out what your car crash injury claim may cover. Free case review.",
+     "link": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=serious_h2",
+     "file_id": "file_00000000f78c820e918d06d86a5a6fc8",
+     "image_note": "L2",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    }
+   ]
+  }
+ ],
+ "query_string_template": "campaign_id={campaign_id}&ad_group_id={ad_group_id}&ad_id={ad_id}"
+}

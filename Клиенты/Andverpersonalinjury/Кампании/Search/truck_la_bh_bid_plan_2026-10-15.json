@@ -1,0 +1,8 @@
+{
+  "campaign": "search / car+truck injuries / s / lp - tilda",
+  "_note": "Согласовано 2026-10-15: ставки двух ключей LA/BH в Truck Accident - Exact $70 -> $54 (с +30% по гео ~$70)",
+  "keyword_bids": [
+    {"group": "Truck Accident - Exact", "text": "los angeles truck accident lawyer", "match": "EXACT", "bid": 54},
+    {"group": "Truck Accident - Exact", "text": "beverly hills truck accident lawyer", "match": "EXACT", "bid": 54}
+  ]
+}

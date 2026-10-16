@@ -1,0 +1,27 @@
+{
+ "campaign": "Search | Poliweglan | Pl",
+ "pause_groups": [
+  "mala szklarnia z poliweglanu",
+  "wymiary | poliwęglan 3х6",
+  "wymiary | poliwęglan 4х6",
+  "wymiary | poliwęglan 2х4",
+  "wymiary | poliwęglan 3х2",
+  "wymiary | poliwęglan 3х8",
+  "wymiary | poliwęglan 2 5х4",
+  "namioty z poliwęglanu"
+ ],
+ "group_tcpa": [
+  {
+   "group": "wymiary | poliwęglan 3х4",
+   "tcpa": 18.0
+  },
+  {
+   "group": "wymiary | poliwęglan 4х8",
+   "tcpa": 18.0
+  },
+  {
+   "group": "szklarnie z poliwęglanu producent",
+   "tcpa": 18.0
+  }
+ ]
+}

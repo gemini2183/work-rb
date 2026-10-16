@@ -9,6 +9,9 @@
     python gads_ad_schedule.py --customer-id 7552781705 --client-folder ProfiMet --campaign-id 19153311519            # показать
     python gads_ad_schedule.py ... --remove-window 17:00-21:00                       # план удаления (validate_only)
     python gads_ad_schedule.py ... --remove-window 17:00-21:00 --execute             # удалить, прочитать обратно
+    python gads_ad_schedule.py ... --set-window 10:00-15:00                          # план: заменить все интервалы на одно окно
+                                                                                      # в те же дни (множитель ставки сохраняется)
+    python gads_ad_schedule.py ... --set-window 10:00-15:00 --execute                # записать, прочитать обратно
 
 Перед записью снимок интервалов пишется в `Статистика/snapshot_before_ad_schedule_<id>_<время>.csv`; откат — заново создать
 интервалы из снимка (день, начало, конец, множитель ставки).
@@ -49,19 +52,75 @@ def show(rows, title):
         print(f"   {r['day']} {r['start']}–{r['end']} | множитель {r['bid_modifier']} | id {r['id']}")
 
 
+MIN_ENUM = {0: "ZERO", 15: "FIFTEEN", 30: "THIRTY", 45: "FORTY_FIVE"}
+DAY_ENUM = {"пн": "MONDAY", "вт": "TUESDAY", "ср": "WEDNESDAY", "чт": "THURSDAY", "пт": "FRIDAY", "сб": "SATURDAY", "вс": "SUNDAY"}
+
+
+def set_window(client, ga, cid, a, rows):
+    """Заменяет все интервалы одним окном в те же дни (атомарно: удаление старых + создание новых)."""
+    start, end = a.set_window.split("-")
+    sh, sm = (int(x) for x in start.split(":"))
+    eh, em = (int(x) for x in end.split(":"))
+    if sm not in MIN_ENUM or em not in MIN_ENUM:
+        raise SystemExit("минуты — только 00/15/30/45")
+    days = sorted({r["day"] for r in rows}, key=lambda d: list(DAYS.values()).index(d))
+    mods = {r["day"]: r["bid_modifier"] for r in rows}
+    print(f"\nПЛАН: {len(rows)} старых интервалов удалить; создать {len(days)}: {', '.join(days)} {start}–{end}")
+    snap = client_stats_dir(a.client_folder) / f"snapshot_before_ad_schedule_{a.campaign_id}_{datetime.now():%Y%m%d_%H%M}.csv"
+    with open(snap, "w", newline="", encoding="utf-8-sig") as f:
+        w = csv.DictWriter(f, fieldnames=["id", "day", "start", "end", "bid_modifier", "resource"])
+        w.writeheader()
+        w.writerows(rows)
+    print("Снимок «до»:", snap)
+    camp_rn = client.get_service("CampaignService").campaign_path(cid, a.campaign_id)
+    ops = []
+    for r in rows:
+        op = client.get_type("CampaignCriterionOperation")
+        op.remove = r["resource"]
+        ops.append(op)
+    for d in days:
+        op = client.get_type("CampaignCriterionOperation")
+        c = op.create
+        c.campaign = camp_rn
+        c.ad_schedule.day_of_week = getattr(client.enums.DayOfWeekEnum, DAY_ENUM[d])
+        c.ad_schedule.start_hour, c.ad_schedule.end_hour = sh, eh
+        c.ad_schedule.start_minute = getattr(client.enums.MinuteOfHourEnum, MIN_ENUM[sm])
+        c.ad_schedule.end_minute = getattr(client.enums.MinuteOfHourEnum, MIN_ENUM[em])
+        if mods.get(d):
+            c.bid_modifier = mods[d]
+        ops.append(op)
+    svc = client.get_service("CampaignCriterionService")
+    req = client.get_type("MutateCampaignCriteriaRequest")
+    req.customer_id = cid
+    req.operations.extend(ops)
+    req.validate_only = True
+    svc.mutate_campaign_criteria(request=req)
+    print("validate_only OK")
+    if not a.execute:
+        print("ПЛАН. Ничего не записано (добавьте --execute).")
+        return
+    req.validate_only = False
+    svc.mutate_campaign_criteria(request=req)
+    show(read_schedule(ga, cid, a.campaign_id), "прочитано обратно")
+
+
 def main():
     ap = argparse.ArgumentParser(description="Расписание показов кампании: показать / удалить интервалы")
     ap.add_argument("--customer-id", required=True)
     ap.add_argument("--client-folder", required=True)
     ap.add_argument("--campaign-id", required=True)
     ap.add_argument("--remove-window", help="удалить интервалы с точным окном ЧЧ:ММ-ЧЧ:ММ, например 17:00-21:00")
-    ap.add_argument("--execute", action="store_true", help="реально записать (без флага — только план)")
+    ap.add_argument("--set-window", help="заменить ВСЕ интервалы одним окном ЧЧ:ММ-ЧЧ:ММ в те же дни, что есть сейчас")
+    ap.add_argument("--execute", action="store_true", help="реально записать (без флага — validate_only/план)")
     a = ap.parse_args()
     cid = a.customer_id.replace("-", "")
     client = GoogleAdsClient.load_from_storage(GOOGLE_ADS_YAML)
     ga = client.get_service("GoogleAdsService")
     rows = read_schedule(ga, cid, a.campaign_id)
     show(rows, f"расписание кампании {a.campaign_id} сейчас")
+    if a.set_window:
+        set_window(client, ga, cid, a, rows)
+        return
     if not a.remove_window:
         return
     start, end = a.remove_window.split("-")

@@ -1,0 +1,77 @@
+﻿Группа;Статус группы;Ключ;Соответствие;Макс. цена клика ключа, €;Действующая, €
+cieplarnie z poliwęglanu;включена;cieplarnie poliwęglanowe;фраза;0.42;0.42
+cieplarnie z poliwęglanu;включена;cieplarnie z poliwęglanu;фраза;0.42;0.42
+mala szklarnia z poliweglanu;включена;mala szklarnia z poliweglanu;широкое;0.45;0.45
+mala szklarnia z poliweglanu;включена;mala szklarnia z poliweglanu;фраза;0.45;0.45
+szklarnie z poliwęglanu [exact];включена;szklarnia z poliwęglanu;точное;0.48;0.48
+szklarnie z poliwęglanu [exact];включена;szklarnie poliweglanowe;точное;0.48;0.48
+szklarnie z poliwęglanu [phrase];включена;szklarnie ogrodowe poliwęglan;фраза;0.43;0.43
+szklarnie z poliwęglanu [phrase];включена;szklarnie ogrodowe z poliwęglanu;фраза;0.43;0.43
+szklarnie z poliwęglanu [phrase];включена;szklarnie poliweglanowe;фраза;0.43;0.43
+szklarnie z poliwęglanu [phrase];включена;szklarnie z poliweglanu;фраза;0.43;0.43
+szklarnie z poliwęglanu producent;включена;szklarnie poliwęglanowe producent;фраза;0.41;0.41
+szklarnie z poliwęglanu producent;включена;szklarnie z poliwęglanu producent;фраза;0.41;0.41
+tunele z poliwęglanu;включена;tunele ogrodnicze z poliwęglanu;фраза;0.72;0.72
+tunele z poliwęglanu;включена;tunele ogrodowe poliwęglanowe;фраза;0.72;0.72
+tunele z poliwęglanu;включена;tunele ogrodowe z poliwęglanu;фраза;0.72;0.72
+tunele z poliwęglanu;включена;tunele poliwęglanowe;фраза;0.72;0.72
+tunele z poliwęglanu;включена;tunele z poliwęglanu;фраза;0.72;0.72
+wymiary | poliwęglan 3х4;включена;szklarnia z poliwęglanu 3x4m;фраза;0.46;0.46
+wymiary | poliwęglan 3х4;включена;szklarnie poliwęglanowe 3x4;фраза;0.46;0.46
+wymiary | poliwęglan 3х4;включена;szklarnie z poliwęglanu 3x4;фраза;0.46;0.46
+wymiary | poliwęglan 3х4;включена;tunele z poliwęglanu 3x4;фраза;0.46;0.46
+wymiary | poliwęglan 3х4;включена;tunele z poliwęglanu 3x4;широкое;0.46;0.46
+wymiary | poliwęglan 3х4;включена;tunele z poliwęglanu 3x4m;фраза;0.46;0.46
+wymiary | poliwęglan 4х8;включена;szklarnia z poliwęglanu 4x8m;фраза;0.47;0.47
+wymiary | poliwęglan 4х8;включена;szklarnia z poliwęglanu 4x8m;широкое;0.47;0.47
+wymiary | poliwęglan 4х8;включена;szklarnie poliwęglanowe 4x8;фраза;0.47;0.47
+wymiary | poliwęglan 4х8;включена;szklarnie z poliwęglanu 4x8;фраза;0.47;0.47
+wymiary | poliwęglan 4х8;включена;szklarnie z poliwęglanu 4x8 producent;фраза;0.47;0.47
+wymiary | poliwęglan 4х8;включена;tunele z poliwęglanu 4x8;фраза;0.47;0.47
+wymiary | poliwęglan 4х8;включена;tunele z poliwęglanu 4x8m;фраза;0.47;0.47
+namioty z poliwęglanu;ПАУЗА;namioty poliwęglanowe;фраза;0.37;0.37
+namioty z poliwęglanu;ПАУЗА;namioty z poliwęglanu;фраза;0.37;0.37
+wymiary | poliwęglan 2 5х4;ПАУЗА;szklarnia z poliwęglanu 2 5x4m;широкое;0.42;0.42
+wymiary | poliwęglan 2 5х4;ПАУЗА;szklarnia z poliwęglanu 2 5x4m;фраза;0.42;0.42
+wymiary | poliwęglan 2 5х4;ПАУЗА;szklarnie poliwęglanowe 2 5x4;широкое;0.42;0.42
+wymiary | poliwęglan 2 5х4;ПАУЗА;szklarnie poliwęglanowe 2 5x4;фраза;0.42;0.42
+wymiary | poliwęglan 2 5х4;ПАУЗА;szklarnie z poliwęglanu 2 5x4;широкое;0.42;0.42
+wymiary | poliwęglan 2 5х4;ПАУЗА;szklarnie z poliwęglanu 2 5x4;фраза;0.42;0.42
+wymiary | poliwęglan 2 5х4;ПАУЗА;szklarnie z poliwęglanu 2 5x4 producent;широкое;0.42;0.42
+wymiary | poliwęglan 2 5х4;ПАУЗА;szklarnie z poliwęglanu 2 5x4 producent;фраза;0.42;0.42
+wymiary | poliwęglan 2 5х4;ПАУЗА;tunele z poliwęglanu 2 5x4;широкое;0.42;0.42
+wymiary | poliwęglan 2 5х4;ПАУЗА;tunele z poliwęglanu 2 5x4;фраза;0.42;0.42
+wymiary | poliwęglan 2 5х4;ПАУЗА;tunele z poliwęglanu 2 5x4m;широкое;0.42;0.42
+wymiary | poliwęglan 2 5х4;ПАУЗА;tunele z poliwęglanu 2 5x4m;фраза;0.42;0.42
+wymiary | poliwęglan 2х4;ПАУЗА;szklarnia z poliwęglanu 2x4m;фраза;0.35;0.35
+wymiary | poliwęglan 2х4;ПАУЗА;szklarnia z poliwęglanu 2x4m;широкое;0.35;0.35
+wymiary | poliwęglan 2х4;ПАУЗА;szklarnie poliwęglanowe 2x4;фраза;0.35;0.35
+wymiary | poliwęglan 2х4;ПАУЗА;szklarnie z poliwęglanu 2x4;фраза;0.35;0.35
+wymiary | poliwęglan 2х4;ПАУЗА;szklarnie z poliwęglanu 2x4 producent;фраза;0.35;0.35
+wymiary | poliwęglan 2х4;ПАУЗА;tunele z poliwęglanu 2x4;фраза;0.35;0.35
+wymiary | poliwęglan 2х4;ПАУЗА;tunele z poliwęglanu 2x4;широкое;0.35;0.35
+wymiary | poliwęglan 2х4;ПАУЗА;tunele z poliwęglanu 2x4m;фраза;0.35;0.35
+wymiary | poliwęglan 3х2;ПАУЗА;szklarnia z poliwęglanu 3x2m;фраза;0.38;0.38
+wymiary | poliwęglan 3х2;ПАУЗА;szklarnie z poliwęglanu 3x2;фраза;0.38;0.38
+wymiary | poliwęglan 3х2;ПАУЗА;szklarnie z poliwęglanu 3x2;широкое;0.38;0.38
+wymiary | poliwęglan 3х2;ПАУЗА;szklarnie z poliwęglanu 3x2 producent;фраза;0.38;0.38
+wymiary | poliwęglan 3х2;ПАУЗА;tunele z poliwęglanu 3x2;фраза;0.38;0.38
+wymiary | poliwęglan 3х2;ПАУЗА;tunele z poliwęglanu 3x2m;фраза;0.38;0.38
+wymiary | poliwęglan 3х6;ПАУЗА;szklarnia z poliwęglanu 3x6m;фраза;0.33;0.33
+wymiary | poliwęglan 3х6;ПАУЗА;szklarnie poliwęglanowe 3x6;фраза;0.33;0.33
+wymiary | poliwęglan 3х6;ПАУЗА;szklarnie z poliwęglanu 3x6;фраза;0.33;0.33
+wymiary | poliwęglan 3х6;ПАУЗА;szklarnie z poliwęglanu 3x6 producent;фраза;0.33;0.33
+wymiary | poliwęglan 3х6;ПАУЗА;tunele z poliwęglanu 3x6;фраза;0.33;0.33
+wymiary | poliwęglan 3х6;ПАУЗА;tunele z poliwęglanu 3x6m;фраза;0.33;0.33
+wymiary | poliwęglan 3х8;ПАУЗА;szklarnie poliwęglanowe 3x8;фраза;0.43;0.43
+wymiary | poliwęglan 3х8;ПАУЗА;szklarnie z poliwęglanu 3x8;фраза;0.43;0.43
+wymiary | poliwęglan 3х8;ПАУЗА;szklarnie z poliwęglanu 3x8 producent;фраза;0.43;0.43
+wymiary | poliwęglan 3х8;ПАУЗА;tunele z poliwęglanu 3x8;фраза;0.43;0.43
+wymiary | poliwęglan 3х8;ПАУЗА;tunele z poliwęglanu 3x8m;фраза;0.43;0.43
+wymiary | poliwęglan 4х6;ПАУЗА;szklarnia z poliwęglanu 4x6m;фраза;0.25;0.25
+wymiary | poliwęglan 4х6;ПАУЗА;szklarnia z poliwęglanu 4x6m;широкое;0.25;0.25
+wymiary | poliwęglan 4х6;ПАУЗА;szklarnie poliwęglanowe 4x6;фраза;0.25;0.25
+wymiary | poliwęglan 4х6;ПАУЗА;szklarnie z poliwęglanu 4x6;фраза;0.25;0.25
+wymiary | poliwęglan 4х6;ПАУЗА;szklarnie z poliwęglanu 4x6 producent;фраза;0.25;0.25
+wymiary | poliwęglan 4х6;ПАУЗА;tunele z poliwęglanu 4x6;фраза;0.25;0.25
+wymiary | poliwęglan 4х6;ПАУЗА;tunele z poliwęglanu 4x6m;фраза;0.25;0.25

@@ -1,0 +1,527 @@
+{
+ "campaign": "Search | Poliweglan | Pl",
+ "group_bids": [
+  {
+   "group": "wymiary | poliwęglan 3х6",
+   "bid": 0.33
+  },
+  {
+   "group": "wymiary | poliwęglan 3х4",
+   "bid": 0.46
+  },
+  {
+   "group": "wymiary | poliwęglan 3х8",
+   "bid": 0.43
+  },
+  {
+   "group": "wymiary | poliwęglan 3х2",
+   "bid": 0.38
+  },
+  {
+   "group": "wymiary | poliwęglan 2х3",
+   "bid": 0.43
+  },
+  {
+   "group": "cieplarnie z poliwęglanu",
+   "bid": 0.42
+  },
+  {
+   "group": "namioty z poliwęglanu",
+   "bid": 0.37
+  },
+  {
+   "group": "szklarnie z poliwęglanu [exact]",
+   "bid": 0.48
+  },
+  {
+   "group": "szklarnie z poliwęglanu [phrase]",
+   "bid": 0.43
+  },
+  {
+   "group": "szklarnie z poliwęglanu producent",
+   "bid": 0.41
+  },
+  {
+   "group": "tunele z poliwęglanu",
+   "bid": 0.72
+  },
+  {
+   "group": "wymiary | poliwęglan 4х6",
+   "bid": 0.25
+  },
+  {
+   "group": "wymiary | poliwęglan 4х8",
+   "bid": 0.47
+  },
+  {
+   "group": "wymiary | poliwęglan 2х4",
+   "bid": 0.35
+  },
+  {
+   "group": "wymiary | poliwęglan 2 5х4",
+   "bid": 0.42
+  },
+  {
+   "group": "mala szklarnia z poliweglanu",
+   "bid": 0.45
+  }
+ ],
+ "keyword_bids": [
+  {
+   "group": "wymiary | poliwęglan 3х6",
+   "text": "szklarnie z poliwęglanu 3x6",
+   "match": "PHRASE",
+   "bid": 0.33
+  },
+  {
+   "group": "wymiary | poliwęglan 3х6",
+   "text": "szklarnia z poliwęglanu 3x6m",
+   "match": "PHRASE",
+   "bid": 0.33
+  },
+  {
+   "group": "wymiary | poliwęglan 3х6",
+   "text": "tunele z poliwęglanu 3x6",
+   "match": "PHRASE",
+   "bid": 0.33
+  },
+  {
+   "group": "wymiary | poliwęglan 3х6",
+   "text": "szklarnie z poliwęglanu 3x6 producent",
+   "match": "PHRASE",
+   "bid": 0.33
+  },
+  {
+   "group": "wymiary | poliwęglan 3х6",
+   "text": "szklarnie poliwęglanowe 3x6",
+   "match": "PHRASE",
+   "bid": 0.33
+  },
+  {
+   "group": "wymiary | poliwęglan 3х6",
+   "text": "tunele z poliwęglanu 3x6m",
+   "match": "PHRASE",
+   "bid": 0.33
+  },
+  {
+   "group": "wymiary | poliwęglan 3х4",
+   "text": "tunele z poliwęglanu 3x4",
+   "match": "PHRASE",
+   "bid": 0.46
+  },
+  {
+   "group": "wymiary | poliwęglan 3х4",
+   "text": "szklarnie z poliwęglanu 3x4",
+   "match": "PHRASE",
+   "bid": 0.46
+  },
+  {
+   "group": "wymiary | poliwęglan 3х4",
+   "text": "tunele z poliwęglanu 3x4",
+   "match": "BROAD",
+   "bid": 0.46
+  },
+  {
+   "group": "wymiary | poliwęglan 3х4",
+   "text": "szklarnia z poliwęglanu 3x4m",
+   "match": "PHRASE",
+   "bid": 0.46
+  },
+  {
+   "group": "wymiary | poliwęglan 3х4",
+   "text": "szklarnie poliwęglanowe 3x4",
+   "match": "PHRASE",
+   "bid": 0.46
+  },
+  {
+   "group": "wymiary | poliwęglan 3х4",
+   "text": "tunele z poliwęglanu 3x4m",
+   "match": "PHRASE",
+   "bid": 0.46
+  },
+  {
+   "group": "wymiary | poliwęglan 3х8",
+   "text": "tunele z poliwęglanu 3x8",
+   "match": "PHRASE",
+   "bid": 0.43
+  },
+  {
+   "group": "wymiary | poliwęglan 3х8",
+   "text": "szklarnie poliwęglanowe 3x8",
+   "match": "PHRASE",
+   "bid": 0.43
+  },
+  {
+   "group": "wymiary | poliwęglan 3х8",
+   "text": "szklarnie z poliwęglanu 3x8",
+   "match": "PHRASE",
+   "bid": 0.43
+  },
+  {
+   "group": "wymiary | poliwęglan 3х8",
+   "text": "szklarnie z poliwęglanu 3x8 producent",
+   "match": "PHRASE",
+   "bid": 0.43
+  },
+  {
+   "group": "wymiary | poliwęglan 3х8",
+   "text": "tunele z poliwęglanu 3x8m",
+   "match": "PHRASE",
+   "bid": 0.43
+  },
+  {
+   "group": "wymiary | poliwęglan 3х2",
+   "text": "szklarnia z poliwęglanu 3x2m",
+   "match": "PHRASE",
+   "bid": 0.38
+  },
+  {
+   "group": "wymiary | poliwęglan 3х2",
+   "text": "szklarnie z poliwęglanu 3x2",
+   "match": "PHRASE",
+   "bid": 0.38
+  },
+  {
+   "group": "wymiary | poliwęglan 3х2",
+   "text": "szklarnie z poliwęglanu 3x2 producent",
+   "match": "PHRASE",
+   "bid": 0.38
+  },
+  {
+   "group": "wymiary | poliwęglan 3х2",
+   "text": "tunele z poliwęglanu 3x2",
+   "match": "PHRASE",
+   "bid": 0.38
+  },
+  {
+   "group": "wymiary | poliwęglan 3х2",
+   "text": "tunele z poliwęglanu 3x2m",
+   "match": "PHRASE",
+   "bid": 0.38
+  },
+  {
+   "group": "wymiary | poliwęglan 3х2",
+   "text": "szklarnie z poliwęglanu 3x2",
+   "match": "BROAD",
+   "bid": 0.38
+  },
+  {
+   "group": "cieplarnie z poliwęglanu",
+   "text": "cieplarnie poliwęglanowe",
+   "match": "PHRASE",
+   "bid": 0.42
+  },
+  {
+   "group": "cieplarnie z poliwęglanu",
+   "text": "cieplarnie z poliwęglanu",
+   "match": "PHRASE",
+   "bid": 0.42
+  },
+  {
+   "group": "namioty z poliwęglanu",
+   "text": "namioty z poliwęglanu",
+   "match": "PHRASE",
+   "bid": 0.37
+  },
+  {
+   "group": "namioty z poliwęglanu",
+   "text": "namioty poliwęglanowe",
+   "match": "PHRASE",
+   "bid": 0.37
+  },
+  {
+   "group": "szklarnie z poliwęglanu [exact]",
+   "text": "szklarnia z poliwęglanu",
+   "match": "EXACT",
+   "bid": 0.48
+  },
+  {
+   "group": "szklarnie z poliwęglanu [exact]",
+   "text": "szklarnie poliweglanowe",
+   "match": "EXACT",
+   "bid": 0.48
+  },
+  {
+   "group": "szklarnie z poliwęglanu [phrase]",
+   "text": "szklarnie ogrodowe z poliwęglanu",
+   "match": "PHRASE",
+   "bid": 0.43
+  },
+  {
+   "group": "szklarnie z poliwęglanu [phrase]",
+   "text": "szklarnie ogrodowe poliwęglan",
+   "match": "PHRASE",
+   "bid": 0.43
+  },
+  {
+   "group": "szklarnie z poliwęglanu [phrase]",
+   "text": "szklarnie poliweglanowe",
+   "match": "PHRASE",
+   "bid": 0.43
+  },
+  {
+   "group": "szklarnie z poliwęglanu [phrase]",
+   "text": "szklarnie z poliweglanu",
+   "match": "PHRASE",
+   "bid": 0.43
+  },
+  {
+   "group": "szklarnie z poliwęglanu producent",
+   "text": "szklarnie z poliwęglanu producent",
+   "match": "PHRASE",
+   "bid": 0.41
+  },
+  {
+   "group": "szklarnie z poliwęglanu producent",
+   "text": "szklarnie poliwęglanowe producent",
+   "match": "PHRASE",
+   "bid": 0.41
+  },
+  {
+   "group": "tunele z poliwęglanu",
+   "text": "tunele ogrodnicze z poliwęglanu",
+   "match": "PHRASE",
+   "bid": 0.72
+  },
+  {
+   "group": "tunele z poliwęglanu",
+   "text": "tunele ogrodowe z poliwęglanu",
+   "match": "PHRASE",
+   "bid": 0.72
+  },
+  {
+   "group": "tunele z poliwęglanu",
+   "text": "tunele z poliwęglanu",
+   "match": "PHRASE",
+   "bid": 0.72
+  },
+  {
+   "group": "tunele z poliwęglanu",
+   "text": "tunele poliwęglanowe",
+   "match": "PHRASE",
+   "bid": 0.72
+  },
+  {
+   "group": "tunele z poliwęglanu",
+   "text": "tunele ogrodowe poliwęglanowe",
+   "match": "PHRASE",
+   "bid": 0.72
+  },
+  {
+   "group": "wymiary | poliwęglan 4х6",
+   "text": "szklarnia z poliwęglanu 4x6m",
+   "match": "PHRASE",
+   "bid": 0.25
+  },
+  {
+   "group": "wymiary | poliwęglan 4х6",
+   "text": "szklarnie poliwęglanowe 4x6",
+   "match": "PHRASE",
+   "bid": 0.25
+  },
+  {
+   "group": "wymiary | poliwęglan 4х6",
+   "text": "szklarnie z poliwęglanu 4x6",
+   "match": "PHRASE",
+   "bid": 0.25
+  },
+  {
+   "group": "wymiary | poliwęglan 4х6",
+   "text": "szklarnie z poliwęglanu 4x6 producent",
+   "match": "PHRASE",
+   "bid": 0.25
+  },
+  {
+   "group": "wymiary | poliwęglan 4х6",
+   "text": "tunele z poliwęglanu 4x6",
+   "match": "PHRASE",
+   "bid": 0.25
+  },
+  {
+   "group": "wymiary | poliwęglan 4х6",
+   "text": "tunele z poliwęglanu 4x6m",
+   "match": "PHRASE",
+   "bid": 0.25
+  },
+  {
+   "group": "wymiary | poliwęglan 4х6",
+   "text": "szklarnia z poliwęglanu 4x6m",
+   "match": "BROAD",
+   "bid": 0.25
+  },
+  {
+   "group": "wymiary | poliwęglan 4х8",
+   "text": "szklarnia z poliwęglanu 4x8m",
+   "match": "PHRASE",
+   "bid": 0.47
+  },
+  {
+   "group": "wymiary | poliwęglan 4х8",
+   "text": "szklarnie poliwęglanowe 4x8",
+   "match": "PHRASE",
+   "bid": 0.47
+  },
+  {
+   "group": "wymiary | poliwęglan 4х8",
+   "text": "szklarnie z poliwęglanu 4x8",
+   "match": "PHRASE",
+   "bid": 0.47
+  },
+  {
+   "group": "wymiary | poliwęglan 4х8",
+   "text": "szklarnie z poliwęglanu 4x8 producent",
+   "match": "PHRASE",
+   "bid": 0.47
+  },
+  {
+   "group": "wymiary | poliwęglan 4х8",
+   "text": "tunele z poliwęglanu 4x8",
+   "match": "PHRASE",
+   "bid": 0.47
+  },
+  {
+   "group": "wymiary | poliwęglan 4х8",
+   "text": "tunele z poliwęglanu 4x8m",
+   "match": "PHRASE",
+   "bid": 0.47
+  },
+  {
+   "group": "wymiary | poliwęglan 4х8",
+   "text": "szklarnia z poliwęglanu 4x8m",
+   "match": "BROAD",
+   "bid": 0.47
+  },
+  {
+   "group": "wymiary | poliwęglan 2х4",
+   "text": "szklarnie z poliwęglanu 2x4",
+   "match": "PHRASE",
+   "bid": 0.35
+  },
+  {
+   "group": "wymiary | poliwęglan 2х4",
+   "text": "szklarnia z poliwęglanu 2x4m",
+   "match": "PHRASE",
+   "bid": 0.35
+  },
+  {
+   "group": "wymiary | poliwęglan 2х4",
+   "text": "szklarnie poliwęglanowe 2x4",
+   "match": "PHRASE",
+   "bid": 0.35
+  },
+  {
+   "group": "wymiary | poliwęglan 2х4",
+   "text": "szklarnie z poliwęglanu 2x4 producent",
+   "match": "PHRASE",
+   "bid": 0.35
+  },
+  {
+   "group": "wymiary | poliwęglan 2х4",
+   "text": "tunele z poliwęglanu 2x4",
+   "match": "PHRASE",
+   "bid": 0.35
+  },
+  {
+   "group": "wymiary | poliwęglan 2х4",
+   "text": "tunele z poliwęglanu 2x4m",
+   "match": "PHRASE",
+   "bid": 0.35
+  },
+  {
+   "group": "wymiary | poliwęglan 2х4",
+   "text": "tunele z poliwęglanu 2x4",
+   "match": "BROAD",
+   "bid": 0.35
+  },
+  {
+   "group": "wymiary | poliwęglan 2х4",
+   "text": "szklarnia z poliwęglanu 2x4m",
+   "match": "BROAD",
+   "bid": 0.35
+  },
+  {
+   "group": "wymiary | poliwęglan 2 5х4",
+   "text": "szklarnie poliwęglanowe 2 5x4",
+   "match": "BROAD",
+   "bid": 0.42
+  },
+  {
+   "group": "wymiary | poliwęglan 2 5х4",
+   "text": "szklarnie z poliwęglanu 2 5x4 producent",
+   "match": "BROAD",
+   "bid": 0.42
+  },
+  {
+   "group": "wymiary | poliwęglan 2 5х4",
+   "text": "szklarnie z poliwęglanu 2 5x4",
+   "match": "BROAD",
+   "bid": 0.42
+  },
+  {
+   "group": "wymiary | poliwęglan 2 5х4",
+   "text": "tunele z poliwęglanu 2 5x4m",
+   "match": "BROAD",
+   "bid": 0.42
+  },
+  {
+   "group": "wymiary | poliwęglan 2 5х4",
+   "text": "szklarnia z poliwęglanu 2 5x4m",
+   "match": "BROAD",
+   "bid": 0.42
+  },
+  {
+   "group": "wymiary | poliwęglan 2 5х4",
+   "text": "tunele z poliwęglanu 2 5x4",
+   "match": "BROAD",
+   "bid": 0.42
+  },
+  {
+   "group": "wymiary | poliwęglan 2 5х4",
+   "text": "szklarnia z poliwęglanu 2 5x4m",
+   "match": "PHRASE",
+   "bid": 0.42
+  },
+  {
+   "group": "wymiary | poliwęglan 2 5х4",
+   "text": "szklarnie z poliwęglanu 2 5x4",
+   "match": "PHRASE",
+   "bid": 0.42
+  },
+  {
+   "group": "wymiary | poliwęglan 2 5х4",
+   "text": "tunele z poliwęglanu 2 5x4m",
+   "match": "PHRASE",
+   "bid": 0.42
+  },
+  {
+   "group": "wymiary | poliwęglan 2 5х4",
+   "text": "tunele z poliwęglanu 2 5x4",
+   "match": "PHRASE",
+   "bid": 0.42
+  },
+  {
+   "group": "wymiary | poliwęglan 2 5х4",
+   "text": "szklarnie z poliwęglanu 2 5x4 producent",
+   "match": "PHRASE",
+   "bid": 0.42
+  },
+  {
+   "group": "wymiary | poliwęglan 2 5х4",
+   "text": "szklarnie poliwęglanowe 2 5x4",
+   "match": "PHRASE",
+   "bid": 0.42
+  },
+  {
+   "group": "mala szklarnia z poliweglanu",
+   "text": "mala szklarnia z poliweglanu",
+   "match": "BROAD",
+   "bid": 0.45
+  },
+  {
+   "group": "mala szklarnia z poliweglanu",
+   "text": "mala szklarnia z poliweglanu",
+   "match": "PHRASE",
+   "bid": 0.45
+  }
+ ]
+}

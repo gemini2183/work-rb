@@ -73,7 +73,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "Terminal: cmd"
+                  "title": "Terminal: C:\\Windows\\System32\\conhost.exe"
                 }
               }
             ]
@@ -244,17 +244,22 @@
   },
   "active": "49438aefe15a1236",
   "lastOpenFiles": [
-    "Клиенты/EkspertAgro/Креативы/search_акция_2026-10.yaml",
-    "Клиенты/EkspertAgro/Креативы/pmax_акция_2026-10.json",
-    "Клиенты/EkspertAgro/Креативы",
-    "Клиенты/EkspertAgro/Статистика/gads_campaign_goals_before_24360520273_20261014_1641.csv",
-    "Клиенты/EkspertAgro/Статистика/general_pmax_rozmiary_create_2026-10-14.log",
-    "Скрипты/__pycache__/gads_pmax_ekspertagro_size_builder.cpython-313.pyc",
-    "Скрипты/sedGZI3eU",
-    "Скрипты/__pycache__/gads_search_ekspertagro_size_builder.cpython-313.pyc",
-    "Скрипты/gads_pmax_ekspertagro_size_builder.py",
-    "Скрипты/sedAfPv4U",
-    "Клиенты/EkspertAgro/Статистика/report_sales_attribution_2026-10-14.xlsx",
+    "Клиенты/Andverpersonalinjury/Трекинг/gtm_block_time.js",
+    "Клиенты/Andverpersonalinjury/Трекинг",
+    "База_знаний/Инструменты/Microsoft-Clarity-Data-Export-API.md",
+    "Клиенты/Andverpersonalinjury/Статистика/snapshot_before_adgroup_plan_20261015_1415.json",
+    "Клиенты/Andverpersonalinjury/Кампании/Search/truck_la_bh_bid_plan_2026-10-15.json",
+    "Клиенты/Andverpersonalinjury/Статистика/snapshot_before_adgroup_plan_20261015_1410.json",
+    "Клиенты/Andverpersonalinjury/Кампании/Search/la_bh_bid_plan_2026-10-15.json",
+    "База_знаний/Инструменты/Google-Ads-корректировка-по-местоположению-уровень-кампании.md",
+    "Клиенты/Andverpersonalinjury/Статистика/rsa_settlement_plan_2026-10-15_before.json",
+    "Клиенты/Andverpersonalinjury/Статистика/rsa_la_bh_plan_2026-10-15_before.json",
+    "Клиенты/Andverpersonalinjury/Кампании/Search/rsa_settlement_plan_2026-10-15.json",
+    "Клиенты/Andverpersonalinjury/Кампании/Search/rsa_la_bh_plan_2026-10-15.json",
+    "Клиенты/Andverpersonalinjury/Статистика/site_audit_2026-10-15/audit.json",
+    "Клиенты/Andverpersonalinjury/Статистика/site_audit_2026-10-15/mobile_first_screen.png",
+    "Клиенты/Andverpersonalinjury/Статистика/site_audit_2026-10-15/desktop_first_screen.png",
+    "Клиенты/Andverpersonalinjury/Эксперименты.md",
     "Клиенты/EkspertAgro/Кампании/РСЯ_КМС/План_PMax_и_DG_lookalike_2026-10-14.md",
     "Клиенты/EkspertAgro/Кампании/Search/search_szklarnia_3x4_3x6.md",
     "База_знаний/Паттерны/Поведение-на-сайте-диагностика-реклама-или-сайт.md",
@@ -270,8 +275,6 @@
     "Клиенты/Andverpersonalinjury/Медиа/Кандидаты_2026-10-13/V2_free_review_landscape_1200x628.jpg",
     "Клиенты/Andverpersonalinjury/Медиа/Кандидаты_2026-10-13/V1_case_value_square_1200x1200.jpg",
     "Клиенты/Andverpersonalinjury/Медиа/Кандидаты_2026-10-13/V1_case_value_landscape_1200x628.jpg",
-    "Клиенты/Andverpersonalinjury/Медиа/Кандидаты_2026-10-13/T2_preserve_evidence_square_1200x1200.jpg",
-    "Клиенты/Andverpersonalinjury/Медиа/Кандидаты_2026-10-13/T2_preserve_evidence_landscape_1200x628.jpg",
     "База_знаний/Паттерны/Юристы-Калифорния-картинки-в-рекламе-что-нельзя-и-как-проверять.md",
     "База_знаний/Инструменты/Google-Ads-изображения-ассеты-требования-и-ИИ-метки.md",
     "База_знаний/Агенты/Создатель_картинок.md",
@@ -286,9 +289,6 @@
     "Клиенты/LuxeBrokers/Эксперименты.md",
     "Клиенты/LuxeBrokers/Журнал_изменений.md",
     "Клиенты/LuxeBrokers/Кампании/Search/gold_.md",
-    "База_знаний/Паттерны/Google-Ads-Search-точное-соответствие-из-истории-запросов.md",
-    "База_знаний/Агенты/Сторож_цены_заявки_и_бюджета.md",
-    "База_знаний/Инструменты/GTM-сохранение-UTM-в-браузере-для-форм.md",
-    "База_знаний/Инструменты/PMax-заявки-по-группам-активов-и-что-различается.md"
+    "База_знаний/Паттерны/Google-Ads-Search-точное-соответствие-из-истории-запросов.md"
   ]
 }

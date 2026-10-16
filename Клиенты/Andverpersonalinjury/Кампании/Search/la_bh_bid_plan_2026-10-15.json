@@ -1,0 +1,5 @@
+{
+  "campaign": "search / car+truck injuries / s / lp - tilda",
+  "_note": "Согласовано 2026-10-15: +30% по местоположению LA/BH на кампании остаётся; ставка группы LA/BH $70 -> $54, чтобы для людей из LA выходило ~$70 без двойного повышения",
+  "group_bids": [{"group": "Car Accident - LA/BH Exact", "bid": 54}]
+}

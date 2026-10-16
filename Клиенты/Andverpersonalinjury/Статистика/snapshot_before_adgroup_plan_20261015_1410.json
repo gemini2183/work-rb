@@ -1,0 +1,1058 @@
+{
+ "plan": {
+  "campaign": "search / car+truck injuries / s / lp - tilda",
+  "_note": "Согласовано 2026-10-15: +30% по местоположению LA/BH на кампании остаётся; ставка группы LA/BH $70 -> $54, чтобы для людей из LA выходило ~$70 без двойного повышения",
+  "group_bids": [
+   {
+    "group": "Car Accident - LA/BH Exact",
+    "bid": 54
+   }
+  ]
+ },
+ "groups": {
+  "Car Accident": {
+   "rn": "customers/2136216123/adGroups/196130859330",
+   "bid": 15.0,
+   "status": "ENABLED"
+  },
+  "Auto Accident": {
+   "rn": "customers/2136216123/adGroups/196130859490",
+   "bid": 15.0,
+   "status": "PAUSED"
+  },
+  "Truck Accident": {
+   "rn": "customers/2136216123/adGroups/196130859530",
+   "bid": 25.0,
+   "status": "ENABLED"
+  },
+  "18 Wheeler and Semi": {
+   "rn": "customers/2136216123/adGroups/196130859570",
+   "bid": 25.0,
+   "status": "ENABLED"
+  },
+  "Car Accident - Settlement": {
+   "rn": "customers/2136216123/adGroups/202050998078",
+   "bid": 25.0,
+   "status": "ENABLED"
+  },
+  "Car Accident - LA/BH Exact": {
+   "rn": "customers/2136216123/adGroups/203847030449",
+   "bid": 70.0,
+   "status": "ENABLED"
+  },
+  "Car Accident - Exact": {
+   "rn": "customers/2136216123/adGroups/209483864308",
+   "bid": 50.0,
+   "status": "ENABLED"
+  },
+  "Truck Accident - Exact": {
+   "rn": "customers/2136216123/adGroups/209483864548",
+   "bid": 50.0,
+   "status": "ENABLED"
+  }
+ },
+ "keywords": {
+  "Car Accident | car accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~37039590",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | car accident attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~42051120",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | car wreck lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~96357619",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | car accident lawyers | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~101833675",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | car crash lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~104177957",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | car crash attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~104177977",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | car wreck attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~104178137",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | car accident lawyer los angeles | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~167192696",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | car accident injury lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~186013412",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | car injury attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~292434726",
+   "status": "PAUSED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | car injury lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~292434816",
+   "status": "PAUSED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | car accident law firm | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~304984047",
+   "status": "PAUSED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | car accident attorney los angeles | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~383847327",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | los angeles car accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~534545103",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | car accident injury attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~1069320691",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | beverly hills car accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~1224869317",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | car collision lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~1258329843",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | attorney for car accident | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~2213149511",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | lawyer for car accident | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~3626804135",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | rear end accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~3957653854",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | car accident lawyer beverly hills | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~3963117368",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | car accident personal injury lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~4229970601",
+   "status": "PAUSED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | rear end collision lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~4987277740",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | personal injury lawyer car accident | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~10109176925",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Car Accident | injured in car accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859330~318393574742",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | auto accident attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~37053960",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | auto accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~37055030",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | automobile accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~37055620",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | automobile accident attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~37055900",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | auto injury lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~96342434",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | los angeles auto accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~111547978",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | auto accident lawyers | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~137747604",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | auto injury attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~269147602",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | auto accident law firm | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~304982307",
+   "status": "PAUSED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | auto accident attorney los angeles | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~383847987",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | traffic accident attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~447330275",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | traffic accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~447330395",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | vehicle accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~534544443",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | motor vehicle accident attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~534544533",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | vehicle accident attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~534550233",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | motor vehicle accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~759874769",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | auto accident injury lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~836981364",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | auto accident injury attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~1069321021",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | la auto accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~1214880485",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | auto accident lawyer los angeles | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~1214883605",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | beverly hills auto accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~1224869197",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | automobile accident injury lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~4659464391",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | vehicle accident injury lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~297376486538",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Auto Accident | auto accident personal injury lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859490~299552640450",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 15.0
+  },
+  "Truck Accident | truck accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~121697141",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | truck accident attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~121697161",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | truck injury attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~292435446",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | truck injury lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~292435596",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | trucking accident attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~301398712",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | trucking accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~301399132",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | truck accident law firm | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~304988967",
+   "status": "PAUSED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | los angeles truck accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~328829467",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | truck wreck lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~350554887",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | truck crash attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~350559747",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | truck accident attorney los angeles | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~383847447",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | truck accident lawyers | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~394334409",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | truck accident lawyer los angeles | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~831495408",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | truck crash lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~906116155",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | commercial truck accident attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~1152079092",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | truck accident injury lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~1195284793",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | truck accident injury attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~1195284823",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | truck wreck attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~1573732529",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | attorney for truck accident | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~2213175671",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | truck collision attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~3744901381",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | truck collision lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~3744904201",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | lawyer for truck accident | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~6050007743",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | commercial truck accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~15882301858",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | commercial truck crash lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~295335761906",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | delivery truck accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~321143530015",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | beverly hills truck accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~333599300384",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | delivery van accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~486870137483",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Truck Accident | trucking company accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859530~1617050895599",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | tractor trailer accident attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~306643162",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | tractor trailer accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~325526533",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | 18 wheeler accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~537919956",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | 18 wheeler accident attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~866782335",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | big rig accident attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~867409889",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | big rig accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~867410009",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | semi truck accident attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~1422440712",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | semi truck accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~1422445122",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | 18 wheeler injury lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~1783996736",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | 18 wheeler accident law firm | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~1783997816",
+   "status": "PAUSED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | 18 wheeler crash lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~2227679256",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | 18 wheeler crash attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~3898141639",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | big rig crash lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~3898157299",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | semi truck wreck attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~5514633864",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | 18 wheeler lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~7231387553",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | 18 wheeler injury attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~11815528147",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | tractor trailer crash lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~294690330896",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | semi truck crash lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~295265682426",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | eighteen wheeler accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~295335762226",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | 18 wheeler attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~295587536390",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | tractor trailer wreck attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~295645892082",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | 18 wheeler wreck attorney | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~296491648251",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | 18 wheeler wreck lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~296491648291",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | semi accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~296616548599",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | big rig wreck lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~296776609808",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | lawyer for 18 wheeler accident | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~307266248065",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | lawyer for semi truck accident | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~307745761179",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | 18 wheeler accident lawyer los angeles | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~314325372709",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | los angeles 18 wheeler accident lawyer | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~314325381549",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | semi truck accident lawyer los angeles | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~315608140021",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "18 Wheeler and Semi | big rig accident lawyer los angeles | PHRASE": {
+   "rn": "customers/2136216123/adGroupCriteria/196130859570~334602272148",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Car Accident - Settlement | car accident claim | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/202050998078~15012993",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Car Accident - Settlement | car accident compensation | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/202050998078~38080103",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Car Accident - Settlement | car accident settlement | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/202050998078~89625457",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Car Accident - Settlement | average car accident settlement | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/202050998078~679455759",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Car Accident - Settlement | car accident settlement calculator | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/202050998078~986605187",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Car Accident - Settlement | personal injury settlement calculator | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/202050998078~1190863554",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Car Accident - Settlement | car accident payout | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/202050998078~298222281596",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 25.0
+  },
+  "Car Accident - LA/BH Exact | los angeles car accident lawyer | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/203847030449~15434433",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 70.0
+  },
+  "Car Accident - LA/BH Exact | car accident lawyer los angeles | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/203847030449~15647503",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 70.0
+  },
+  "Car Accident - LA/BH Exact | beverly hills car accident attorney | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/203847030449~390347407",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 70.0
+  },
+  "Car Accident - LA/BH Exact | beverly hills car accident lawyer | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/203847030449~390347527",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 70.0
+  },
+  "Car Accident - LA/BH Exact | los angeles car accident attorney | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/203847030449~400807644",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 70.0
+  },
+  "Car Accident - LA/BH Exact | car accident attorney los angeles | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/203847030449~2112437120",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 70.0
+  },
+  "Car Accident - LA/BH Exact | car accident lawyer beverly hills | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/203847030449~2112559160",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 70.0
+  },
+  "Car Accident - LA/BH Exact | car accident lawyer los angeles ca | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/203847030449~18354219445",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 70.0
+  },
+  "Car Accident - LA/BH Exact | motor vehicle accident attorney los angeles | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/203847030449~385577861500",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 70.0
+  },
+  "Car Accident - Exact | car accident lawyer | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~10050513",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | glendale car accident lawyer | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~396597373",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | long beach car accident attorney | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~493742094",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | pasadena car accident lawyer | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~595736162",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | santa ana car accident attorney | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~595736822",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | bakersfield car accident lawyer | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~724770985",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | newport beach car accident lawyer | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~927710693",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | car accident lawyer beverly hills | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~2112559160",
+   "status": "PAUSED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | car accident lawyer anaheim | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~2112703880",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | car accident attorney irvine | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~2115015560",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | car accident lawyer irvine | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~2115017300",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | santa monica car accident lawyer | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~4882339640",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | victorville car accident lawyers | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~4883564180",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | car accident lawyer huntington beach | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~6682769285",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | car accident lawyer riverside | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~7152688354",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | car accident lawyer torrance | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~10668676759",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | car accident lawyer los angeles ca | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~18354219445",
+   "status": "PAUSED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | car accident lawyer fullerton | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~30223276357",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | san diego car accident lawyer | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~311912786092",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | car accident lawyer fresno | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~316503722876",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | car accident lawyer chula vista | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~317240504328",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | car accident lawyer mission viejo | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~322495030289",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | car accident lawyer laguna niguel | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~323131178331",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | car accident attorney woodland hills | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~328063350716",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | car accident lawyer palm springs | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~334441809823",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | car accident lawyer carlsbad | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~349811439261",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | motor vehicle accident attorney los angeles | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~385577861500",
+   "status": "PAUSED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | garden grove car accident lawyer | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~409126465420",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | simi valley car accident lawyer | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~436709061549",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Car Accident - Exact | car accident lawyer costa mesa | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864308~559788157872",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Truck Accident - Exact | los angeles truck accident lawyer | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864548~112439050",
+   "status": "ENABLED",
+   "bid": 70.0,
+   "effective_bid": 70.0
+  },
+  "Truck Accident - Exact | truck accident lawyer glendale | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864548~33627156351",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Truck Accident - Exact | riverside truck accident attorney | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864548~337216958332",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Truck Accident - Exact | stockton truck accident lawyer | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864548~355500082002",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Truck Accident - Exact | truck accident lawyer pasadena | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864548~365738533862",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Truck Accident - Exact | truck accident lawyer san diego | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864548~365738534102",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Truck Accident - Exact | truck accident lawyer long beach | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864548~385404520256",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Truck Accident - Exact | newport beach truck accident lawyer | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864548~391024885834",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Truck Accident - Exact | orange county truck accident lawyer | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864548~391024888794",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Truck Accident - Exact | irvine truck accident lawyer | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864548~418833021334",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Truck Accident - Exact | santa ana truck accident lawyer | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864548~419658511344",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Truck Accident - Exact | anaheim truck accident attorney | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864548~420457107023",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 50.0
+  },
+  "Truck Accident - Exact | beverly hills truck accident lawyer | EXACT": {
+   "rn": "customers/2136216123/adGroupCriteria/209483864548~525160931672",
+   "status": "ENABLED",
+   "bid": 70.0,
+   "effective_bid": 70.0
+  }
+ }
+}

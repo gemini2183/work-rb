@@ -1,0 +1,53 @@
+[
+ {
+  "metricName": "DeadClickCount",
+  "information": []
+ },
+ {
+  "metricName": "ExcessiveScroll",
+  "information": []
+ },
+ {
+  "metricName": "RageClickCount",
+  "information": []
+ },
+ {
+  "metricName": "QuickbackClick",
+  "information": []
+ },
+ {
+  "metricName": "ScriptErrorCount",
+  "information": []
+ },
+ {
+  "metricName": "ErrorClickCount",
+  "information": []
+ },
+ {
+  "metricName": "ScrollDepth",
+  "information": []
+ },
+ {
+  "metricName": "Traffic",
+  "information": [
+   {
+    "totalSessionCount": 0,
+    "totalBotSessionCount": 1,
+    "distinctUserCount": 0,
+    "pagesPerSessionPercentage": null,
+    "Url": "https://gtm-msr.appspot.com/render?id=GTM-KVLHDKJJ"
+   },
+   {
+    "totalSessionCount": 0,
+    "totalBotSessionCount": 1,
+    "distinctUserCount": 0,
+    "pagesPerSessionPercentage": null,
+    "Url": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=test&utm_medium=test"
+   }
+  ]
+ },
+ {
+  "metricName": "EngagementTime",
+  "information": []
+ }
+]

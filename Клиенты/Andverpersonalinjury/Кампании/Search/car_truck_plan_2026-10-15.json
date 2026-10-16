@@ -1,0 +1,51 @@
+{
+  "campaign": "search / car+truck injuries / s / lp - tilda",
+  "_note": "Согласовано пользователем 2026-10-15 («да на весь план»): пауза мусорных ключей, группа LA/BH со ставкой $70, тест Settlement $25",
+  "pause_groups": ["Auto Accident"],
+  "pause_keywords": [
+    {"group": "Car Accident", "text": "car accident personal injury lawyer", "match": "PHRASE"},
+    {"group": "Car Accident", "text": "car injury lawyer", "match": "PHRASE"},
+    {"group": "Car Accident", "text": "car injury attorney", "match": "PHRASE"},
+    {"group": "Car Accident - Exact", "text": "car accident lawyer los angeles ca", "match": "EXACT"},
+    {"group": "Car Accident - Exact", "text": "motor vehicle accident attorney los angeles", "match": "EXACT"},
+    {"group": "Car Accident - Exact", "text": "car accident lawyer beverly hills", "match": "EXACT"}
+  ],
+  "keyword_bids": [
+    {"group": "Truck Accident - Exact", "text": "los angeles truck accident lawyer", "match": "EXACT", "bid": 70},
+    {"group": "Truck Accident - Exact", "text": "beverly hills truck accident lawyer", "match": "EXACT", "bid": 70}
+  ],
+  "new_groups": [
+    {
+      "name": "Car Accident - LA/BH Exact",
+      "bid": 70,
+      "status": "ENABLED",
+      "copy_ad_from": "Car Accident - Exact",
+      "keywords": [
+        {"text": "car accident lawyer los angeles", "match": "EXACT"},
+        {"text": "los angeles car accident lawyer", "match": "EXACT"},
+        {"text": "car accident attorney los angeles", "match": "EXACT"},
+        {"text": "los angeles car accident attorney", "match": "EXACT"},
+        {"text": "car accident lawyer beverly hills", "match": "EXACT"},
+        {"text": "beverly hills car accident lawyer", "match": "EXACT"},
+        {"text": "beverly hills car accident attorney", "match": "EXACT"},
+        {"text": "car accident lawyer los angeles ca", "match": "EXACT"},
+        {"text": "motor vehicle accident attorney los angeles", "match": "EXACT"}
+      ]
+    },
+    {
+      "name": "Car Accident - Settlement",
+      "bid": 25,
+      "status": "ENABLED",
+      "copy_ad_from": "Car Accident - Exact",
+      "keywords": [
+        {"text": "car accident settlement", "match": "EXACT"},
+        {"text": "car accident claim", "match": "EXACT"},
+        {"text": "car accident settlement calculator", "match": "EXACT"},
+        {"text": "car accident compensation", "match": "EXACT"},
+        {"text": "personal injury settlement calculator", "match": "EXACT"},
+        {"text": "average car accident settlement", "match": "EXACT"},
+        {"text": "car accident payout", "match": "EXACT"}
+      ]
+    }
+  ]
+}

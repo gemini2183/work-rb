@@ -8,6 +8,9 @@
     set-bid  — смена fixed_bid у групп кампании.
     set-maxclicks — перевод групп на maximize_clicks (без ставки; формат взят у групп dog bite).
     ads      — объявления кампании: статус, модерация, заголовок, file_id, обрезка картинки;
+    activate — включить группы и их объявления (paused → active; объявления только approved); без --execute план;
+    create-groups — создать группы с подсказками и объявлениями по JSON-плану (всё на паузе; без --execute только план
+                с проверками: имя уникально, лимиты 3–50 / до 100 знаков, file_id есть в аккаунте); активация — отдельно;
     set-image — замена картинки у объявлений по файлу соответствий (ad_id → файл); загрузка
                 файла (POST /upload) и обновление creative (POST /ads/{id}); без --execute план.
 
@@ -54,9 +57,11 @@ def get_key():
     return key
 
 
-def call(method, path, params=None, body=None):
+def call(method, path, params=None, body=None, idem=None):
     cmd = ["curl", "-sS", "-X", method, "-w", "\n%{http_code}",
            "-H", f"Authorization: Bearer {get_key()}"]
+    if idem:  # POST создания групп maximize_clicks требует Idempotency-Key (400 без него); ключ детерминированный
+        cmd += ["-H", f"Idempotency-Key: {idem}"]
     if body is not None:
         cmd += ["-H", "Content-Type: application/json", "-d", json.dumps(body)]
     url = BASE + path
@@ -135,6 +140,114 @@ def cmd_set_bid(a):
     after = {g["id"]: g for g in list_groups(a.campaign)}
     for g in groups:
         print(f"{after[g['id']]['name']}  {after[g['id']]['status']}  {bid_text(after[g['id']])}")
+
+
+def cmd_create_groups(a):
+    """Создание групп (context_hints, maximize_clicks) и объявлений (chat_card) на паузе по файлу плана.
+
+    Формат плана: {campaign_id, bidding, query_string_template, groups: [{group, context_hints[], ads: [{ad_name, title,
+    copy, link, file_id, image_crop}]}]}. Активация сюда сознательно не входит (отдельное «да»)."""
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    path = a.plan if os.path.isabs(a.plan) else os.path.join(root, a.plan)
+    with open(path, encoding="utf-8") as f:
+        spec = json.load(f)
+    camp = spec["campaign_id"]
+    qs = spec.get("query_string_template") or "campaign_id={campaign_id}&ad_group_id={ad_group_id}&ad_id={ad_id}"
+    have = {g["name"] for g in list_groups(camp)}
+    used_files = set()
+    for ad in list_ads(camp):
+        fid = (ad.get("creative") or {}).get("file_id")
+        if fid:
+            used_files.add(fid)
+    errors = []
+    print("Группа | Объявление | Заголовок | Текст | file_id")
+    for g in spec["groups"]:
+        if g["group"] in have:
+            errors.append(f"группа «{g['group']}» уже есть")
+        if not g.get("context_hints"):
+            errors.append(f"у «{g['group']}» нет context_hints")
+        for ad in g["ads"]:
+            t, c = ad["title"], ad["copy"]
+            if not 3 <= len(t) <= 50:
+                errors.append(f"{ad['ad_name']}: заголовок {len(t)} знаков (нужно 3–50)")
+            if len(c) > 100:
+                errors.append(f"{ad['ad_name']}: текст {len(c)} знаков (до 100)")
+            if ad.get("file_id") not in used_files:
+                errors.append(f"{ad['ad_name']}: file_id {ad.get('file_id')} нет среди картинок кампании")
+            print(f"{g['group']} | {ad['ad_name']} | {t} [{len(t)}] | {c} [{len(c)}] | ...{str(ad.get('file_id'))[-8:]}")
+    print(f"\nГрупп {len(spec['groups'])}, объявлений {sum(len(g['ads']) for g in spec['groups'])}; "
+          f"ставка: {spec.get('bidding', 'maximize_clicks')}; статус после создания: paused")
+    if errors:
+        sys.exit("ОСТАНОВКА:\n  - " + "\n  - ".join(errors))
+    if not a.execute:
+        print("\nПлан. Записи не было (добавьте --execute).")
+        return
+    created = []
+    for g in spec["groups"]:
+        body = {"campaign_id": camp, "name": g["group"], "status": "paused", "context_hints": g["context_hints"],
+                "bidding_config": {"strategy": spec.get("bidding", "maximize_clicks"), "billing_event_type": "click"},
+                "landing_page_configuration": {"query_string_template": qs}}
+        import hashlib
+        idem_g = "ldv-" + hashlib.sha1((camp + "|" + g["group"]).encode("utf-8")).hexdigest()[:32]
+        gid = call("POST", "/ad_groups", body=body, idem=idem_g)["id"]
+        created.append(gid)
+        print(f"создана группа {g['group']} {gid}")
+        for ad in g["ads"]:
+            cr = {"type": "chat_card", "title": ad["title"], "body": ad["copy"], "target_url": ad["link"],
+                  "file_id": ad["file_id"], "image_crop": ad.get("image_crop") or {"x": 0, "y": 0, "width": 1, "height": 1}}
+            idem_a = "ldv-" + hashlib.sha1((gid + "|" + ad["ad_name"]).encode("utf-8")).hexdigest()[:32]
+            aid = call("POST", "/ads", body={"ad_group_id": gid, "name": ad["ad_name"], "creative": cr,
+                                             "status": "paused"}, idem=idem_a)["id"]
+            print(f"   объявление {ad['ad_name']} {aid}")
+    time.sleep(5)  # чтение сразу после записи может отдать старое состояние
+    print("\nПрочитано обратно из аккаунта (группы и объявления кампании):")
+    groups = {g["id"]: g for g in list_groups(camp)}
+    for gid in created:
+        g = groups.get(gid)
+        print(f"  {g['name'] if g else gid}  {g['status'] if g else 'НЕ НАЙДЕНА'}  {bid_text(g) if g else ''}  "
+              f"hints {len(g.get('context_hints') or []) if g else 0}")
+    for ad in list_ads(camp):
+        if ad["id"] and any(ad.get("_group_name") == g["group"] for g in spec["groups"]):
+            print(f"  {ad['_group_name']} | {ad.get('name')} | {ad['status']}/{ad.get('review_status')} | "
+                  f"{(ad.get('creative') or {}).get('title')}")
+
+
+def cmd_activate(a):
+    """Включение групп и их объявлений: POST /ad_groups/{id}/activate и /ads/{id}/activate. Берёт только paused;
+    объявления — только approved (in_review/rejected пропускаются и печатаются). Без --execute — план."""
+    groups = [g for g in list_groups(a.campaign) if g["id"] in set(a.groups)]
+    if len(groups) != len(set(a.groups)):
+        sys.exit("Часть групп не найдена в кампании: " + ", ".join(sorted(set(a.groups) - {g["id"] for g in groups})))
+    ads = [ad for ad in list_ads(a.campaign) if ad.get("_group_name") in {g["name"] for g in groups}]
+    print("Объект | Действие | Было → Станет")
+    todo_g = [g for g in groups if g["status"] == "paused"]
+    for g in groups:
+        print(f"группа {g['name']} ({g['id']}) | включить | {g['status']} → "
+              f"{'active' if g['status'] == 'paused' else g['status'] + ' (без изменений)'}")
+    todo_a, skipped = [], []
+    for ad in ads:
+        if ad["status"] == "paused" and ad.get("review_status") == "approved":
+            todo_a.append(ad)
+            print(f"объявление {ad['_group_name']} | {ad.get('name')} ({ad['id']}) | включить | paused/approved → active")
+        else:
+            skipped.append(ad)
+            print(f"объявление {ad['_group_name']} | {ad.get('name')} | ПРОПУСК | {ad['status']}/{ad.get('review_status')}")
+    if not a.execute:
+        print("\nПлан. Записи не было (добавьте --execute).")
+        return
+    for g in todo_g:
+        call("POST", f"/ad_groups/{g['id']}/activate")
+    for ad in todo_a:
+        call("POST", f"/ads/{ad['id']}/activate")
+    time.sleep(5)
+    print("\nПрочитано обратно из аккаунта:")
+    after_g = {g["id"]: g for g in list_groups(a.campaign)}
+    for g in groups:
+        print(f"  {after_g[g['id']]['name']}  {after_g[g['id']]['status']}  {bid_text(after_g[g['id']])}")
+    names = {g["name"] for g in groups}
+    for ad in list_ads(a.campaign):
+        if ad.get("_group_name") in names:
+            print(f"  {ad['_group_name']} | {ad.get('name')} | {ad['status']}/{ad.get('review_status')}")
 
 
 def cmd_set_maxclicks(a):
@@ -268,6 +381,12 @@ def main():
     m.add_argument("--groups", nargs="*", help="ID групп; по умолчанию все группы кампании")
     m.add_argument("--execute", action="store_true"); m.set_defaults(f=cmd_set_maxclicks)
     d = sub.add_parser("ads"); d.add_argument("--campaign", required=True); d.set_defaults(f=cmd_ads)
+    ac = sub.add_parser("activate"); ac.add_argument("--campaign", required=True)
+    ac.add_argument("--groups", nargs="+", required=True, help="ID групп (adgrp_…)")
+    ac.add_argument("--execute", action="store_true"); ac.set_defaults(f=cmd_activate)
+    cg = sub.add_parser("create-groups")
+    cg.add_argument("--plan", required=True, help="JSON-план (путь от корня вики или абсолютный)")
+    cg.add_argument("--execute", action="store_true"); cg.set_defaults(f=cmd_create_groups)
     im = sub.add_parser("set-image"); im.add_argument("--campaign", required=True)
     im.add_argument("--map", required=True, help="JSON {ad_id: путь к картинке от корня вики}")
     im.add_argument("--only", nargs="*", help="ad_id из файла соответствий; по умолчанию все")

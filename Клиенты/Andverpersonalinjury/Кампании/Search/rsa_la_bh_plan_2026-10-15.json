@@ -1,0 +1,80 @@
+{
+ "customer_id": "2136216123",
+ "campaign": "search / car+truck injuries / s / lp - tilda",
+ "pause_ads": [
+  828091956180
+ ],
+ "rsa": {
+  "ad_groups": [
+   "Car Accident - LA/BH Exact"
+  ],
+  "final_url": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident",
+  "path1": "car-accident",
+  "path2": "los-angeles",
+  "headlines": [
+   {
+    "text": "Los Angeles Car Crash Lawyer",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "LA Car Accident Injury Lawyer",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "Beverly Hills Car Crash Lawyer",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "{KeyWord:LA Car Accident Lawyer}"
+   },
+   {
+    "text": "Office on Wilshire Blvd"
+   },
+   {
+    "text": "Beverly Hills Office"
+   },
+   {
+    "text": "Injured in a Crash in LA?"
+   },
+   {
+    "text": "Hit by Another Driver?"
+   },
+   {
+    "text": "Free Case Review"
+   },
+   {
+    "text": "No Fee Unless We Win"
+   },
+   {
+    "text": "20+ Years in California"
+   },
+   {
+    "text": "4.8-Star Client Rating"
+   },
+   {
+    "text": "Trial-Focused Representation"
+   },
+   {
+    "text": "Early Offer? Talk to Us First"
+   },
+   {
+    "text": "Know What Your Case Is Worth"
+   }
+  ],
+  "descriptions": [
+   {
+    "text": "Injured in a car crash in Los Angeles? We represent injury victims only. Free case review.",
+    "pin": "DESCRIPTION_1"
+   },
+   {
+    "text": "Visit our Beverly Hills office at 8730 Wilshire Blvd or call for a free case review."
+   },
+   {
+    "text": "Free case review. Contingency fee, litigation costs advanced. Call Landver Law today."
+   },
+   {
+    "text": "We investigate the crash, document your injuries and build the case for trial."
+   }
+  ]
+ }
+}

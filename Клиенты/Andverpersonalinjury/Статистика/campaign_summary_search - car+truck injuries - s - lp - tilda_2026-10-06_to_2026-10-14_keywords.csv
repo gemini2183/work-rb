@@ -1,0 +1,66 @@
+﻿group,keyword,match,status,impr,clicks,cost,conv
+Auto Accident,traffic accident lawyer,PHRASE,ENABLED,133,5,470.23,0.0
+Car Accident,car accident law firm,PHRASE,ENABLED,110,5,123.53,0.0
+Car Accident,attorney for car accident,PHRASE,ENABLED,13,3,73.16,0.0
+Car Accident - Exact,car accident lawyer beverly hills,EXACT,ENABLED,20,1,64.29,0.0
+Car Accident,car accident personal injury lawyer,PHRASE,ENABLED,64,2,56.85,0.0
+Auto Accident,auto accident law firm,PHRASE,ENABLED,29,2,56.82,0.0
+Auto Accident,motor vehicle accident attorney,PHRASE,ENABLED,25,2,49.75,0.0
+Car Accident - Exact,car accident lawyer,EXACT,ENABLED,106,1,49.1,0.0
+Car Accident - Exact,car accident lawyer los angeles ca,EXACT,ENABLED,16,1,48.98,0.0
+Auto Accident,vehicle accident attorney,PHRASE,ENABLED,31,2,44.4,0.0
+Auto Accident,auto injury lawyer,PHRASE,ENABLED,37,1,31.21,0.0
+Auto Accident,automobile accident injury lawyer,PHRASE,ENABLED,4,1,29.46,0.0
+Truck Accident,truck wreck attorney,PHRASE,ENABLED,1,1,24.82,0.0
+Car Accident,car accident lawyer,PHRASE,ENABLED,23,0,0.0,0.0
+Car Accident,car accident attorney,PHRASE,ENABLED,16,0,0.0,0.0
+Car Accident,car crash lawyer,PHRASE,ENABLED,1,0,0.0,0.0
+Car Accident,car crash attorney,PHRASE,ENABLED,23,0,0.0,0.0
+Car Accident,car wreck attorney,PHRASE,ENABLED,20,0,0.0,0.0
+Car Accident,car accident lawyer los angeles,PHRASE,ENABLED,9,0,0.0,0.0
+Car Accident,car injury attorney,PHRASE,ENABLED,46,0,0.0,0.0
+Car Accident,car injury lawyer,PHRASE,ENABLED,44,0,0.0,0.0
+Car Accident,car accident attorney los angeles,PHRASE,ENABLED,2,0,0.0,0.0
+Car Accident,los angeles car accident lawyer,PHRASE,ENABLED,4,0,0.0,0.0
+Car Accident,beverly hills car accident lawyer,PHRASE,ENABLED,4,0,0.0,0.0
+Car Accident,car collision lawyer,PHRASE,ENABLED,19,0,0.0,0.0
+Car Accident,lawyer for car accident,PHRASE,ENABLED,1,0,0.0,0.0
+Car Accident,personal injury lawyer car accident,PHRASE,ENABLED,8,0,0.0,0.0
+Auto Accident,auto accident attorney,PHRASE,ENABLED,2,0,0.0,0.0
+Auto Accident,auto accident lawyer,PHRASE,ENABLED,1,0,0.0,0.0
+Auto Accident,automobile accident lawyer,PHRASE,ENABLED,2,0,0.0,0.0
+Auto Accident,automobile accident attorney,PHRASE,ENABLED,15,0,0.0,0.0
+Auto Accident,auto injury attorney,PHRASE,ENABLED,57,0,0.0,0.0
+Auto Accident,traffic accident attorney,PHRASE,ENABLED,9,0,0.0,0.0
+Auto Accident,vehicle accident lawyer,PHRASE,ENABLED,2,0,0.0,0.0
+Auto Accident,motor vehicle accident lawyer,PHRASE,ENABLED,28,0,0.0,0.0
+Auto Accident,vehicle accident injury lawyer,PHRASE,ENABLED,15,0,0.0,0.0
+Auto Accident,auto accident personal injury lawyer,PHRASE,ENABLED,3,0,0.0,0.0
+Truck Accident,truck accident lawyer,PHRASE,ENABLED,60,0,0.0,0.0
+Truck Accident,truck injury lawyer,PHRASE,ENABLED,1,0,0.0,0.0
+Truck Accident,truck accident lawyer los angeles,PHRASE,ENABLED,15,0,0.0,0.0
+Truck Accident,truck accident injury lawyer,PHRASE,ENABLED,1,0,0.0,0.0
+Truck Accident,truck accident injury attorney,PHRASE,ENABLED,2,0,0.0,0.0
+Truck Accident,truck collision attorney,PHRASE,ENABLED,4,0,0.0,0.0
+18 Wheeler and Semi,semi accident lawyer,PHRASE,ENABLED,8,0,0.0,0.0
+18 Wheeler and Semi,big rig wreck lawyer,PHRASE,ENABLED,8,0,0.0,0.0
+18 Wheeler and Semi,lawyer for semi truck accident,PHRASE,ENABLED,3,0,0.0,0.0
+Car Accident - Exact,glendale car accident lawyer,EXACT,ENABLED,6,0,0.0,0.0
+Car Accident - Exact,long beach car accident attorney,EXACT,ENABLED,4,0,0.0,0.0
+Car Accident - Exact,santa ana car accident attorney,EXACT,ENABLED,4,0,0.0,0.0
+Car Accident - Exact,newport beach car accident lawyer,EXACT,ENABLED,3,0,0.0,0.0
+Car Accident - Exact,car accident lawyer anaheim,EXACT,ENABLED,6,0,0.0,0.0
+Car Accident - Exact,car accident attorney irvine,EXACT,ENABLED,3,0,0.0,0.0
+Car Accident - Exact,car accident lawyer irvine,EXACT,ENABLED,50,0,0.0,0.0
+Car Accident - Exact,car accident lawyer riverside,EXACT,ENABLED,6,0,0.0,0.0
+Car Accident - Exact,car accident lawyer torrance,EXACT,ENABLED,6,0,0.0,0.0
+Car Accident - Exact,car accident lawyer fullerton,EXACT,ENABLED,4,0,0.0,0.0
+Car Accident - Exact,san diego car accident lawyer,EXACT,ENABLED,11,0,0.0,0.0
+Car Accident - Exact,car accident lawyer fresno,EXACT,ENABLED,3,0,0.0,0.0
+Car Accident - Exact,car accident lawyer mission viejo,EXACT,ENABLED,37,0,0.0,0.0
+Car Accident - Exact,car accident lawyer costa mesa,EXACT,ENABLED,4,0,0.0,0.0
+Truck Accident - Exact,los angeles truck accident lawyer,EXACT,ENABLED,23,0,0.0,0.0
+Truck Accident - Exact,stockton truck accident lawyer,EXACT,ENABLED,1,0,0.0,0.0
+Truck Accident - Exact,irvine truck accident lawyer,EXACT,ENABLED,2,0,0.0,0.0
+Truck Accident - Exact,anaheim truck accident attorney,EXACT,ENABLED,1,0,0.0,0.0
+Truck Accident - Exact,beverly hills truck accident lawyer,EXACT,ENABLED,10,0,0.0,0.0

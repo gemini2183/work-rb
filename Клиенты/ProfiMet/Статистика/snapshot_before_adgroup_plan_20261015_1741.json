@@ -1,0 +1,1541 @@
+{
+ "plan": {
+  "campaign": "Search | Poliweglan | Pl",
+  "group_bids": [
+   {
+    "group": "wymiary | poliwęglan 3х6",
+    "bid": 0.33
+   },
+   {
+    "group": "wymiary | poliwęglan 3х4",
+    "bid": 0.46
+   },
+   {
+    "group": "wymiary | poliwęglan 3х8",
+    "bid": 0.43
+   },
+   {
+    "group": "wymiary | poliwęglan 3х2",
+    "bid": 0.38
+   },
+   {
+    "group": "wymiary | poliwęglan 2х3",
+    "bid": 0.43
+   },
+   {
+    "group": "cieplarnie z poliwęglanu",
+    "bid": 0.42
+   },
+   {
+    "group": "namioty z poliwęglanu",
+    "bid": 0.37
+   },
+   {
+    "group": "szklarnie z poliwęglanu [exact]",
+    "bid": 0.48
+   },
+   {
+    "group": "szklarnie z poliwęglanu [phrase]",
+    "bid": 0.43
+   },
+   {
+    "group": "szklarnie z poliwęglanu producent",
+    "bid": 0.41
+   },
+   {
+    "group": "tunele z poliwęglanu",
+    "bid": 0.72
+   },
+   {
+    "group": "wymiary | poliwęglan 4х6",
+    "bid": 0.25
+   },
+   {
+    "group": "wymiary | poliwęglan 4х8",
+    "bid": 0.47
+   },
+   {
+    "group": "wymiary | poliwęglan 2х4",
+    "bid": 0.35
+   },
+   {
+    "group": "wymiary | poliwęglan 2 5х4",
+    "bid": 0.42
+   },
+   {
+    "group": "mala szklarnia z poliweglanu",
+    "bid": 0.45
+   }
+  ],
+  "keyword_bids": [
+   {
+    "group": "wymiary | poliwęglan 3х6",
+    "text": "szklarnie z poliwęglanu 3x6",
+    "match": "PHRASE",
+    "bid": 0.33
+   },
+   {
+    "group": "wymiary | poliwęglan 3х6",
+    "text": "szklarnia z poliwęglanu 3x6m",
+    "match": "PHRASE",
+    "bid": 0.33
+   },
+   {
+    "group": "wymiary | poliwęglan 3х6",
+    "text": "tunele z poliwęglanu 3x6",
+    "match": "PHRASE",
+    "bid": 0.33
+   },
+   {
+    "group": "wymiary | poliwęglan 3х6",
+    "text": "szklarnie z poliwęglanu 3x6 producent",
+    "match": "PHRASE",
+    "bid": 0.33
+   },
+   {
+    "group": "wymiary | poliwęglan 3х6",
+    "text": "szklarnie poliwęglanowe 3x6",
+    "match": "PHRASE",
+    "bid": 0.33
+   },
+   {
+    "group": "wymiary | poliwęglan 3х6",
+    "text": "tunele z poliwęglanu 3x6m",
+    "match": "PHRASE",
+    "bid": 0.33
+   },
+   {
+    "group": "wymiary | poliwęglan 3х4",
+    "text": "tunele z poliwęglanu 3x4",
+    "match": "PHRASE",
+    "bid": 0.46
+   },
+   {
+    "group": "wymiary | poliwęglan 3х4",
+    "text": "szklarnie z poliwęglanu 3x4",
+    "match": "PHRASE",
+    "bid": 0.46
+   },
+   {
+    "group": "wymiary | poliwęglan 3х4",
+    "text": "tunele z poliwęglanu 3x4",
+    "match": "BROAD",
+    "bid": 0.46
+   },
+   {
+    "group": "wymiary | poliwęglan 3х4",
+    "text": "szklarnia z poliwęglanu 3x4m",
+    "match": "PHRASE",
+    "bid": 0.46
+   },
+   {
+    "group": "wymiary | poliwęglan 3х4",
+    "text": "szklarnie poliwęglanowe 3x4",
+    "match": "PHRASE",
+    "bid": 0.46
+   },
+   {
+    "group": "wymiary | poliwęglan 3х4",
+    "text": "tunele z poliwęglanu 3x4m",
+    "match": "PHRASE",
+    "bid": 0.46
+   },
+   {
+    "group": "wymiary | poliwęglan 3х8",
+    "text": "tunele z poliwęglanu 3x8",
+    "match": "PHRASE",
+    "bid": 0.43
+   },
+   {
+    "group": "wymiary | poliwęglan 3х8",
+    "text": "szklarnie poliwęglanowe 3x8",
+    "match": "PHRASE",
+    "bid": 0.43
+   },
+   {
+    "group": "wymiary | poliwęglan 3х8",
+    "text": "szklarnie z poliwęglanu 3x8",
+    "match": "PHRASE",
+    "bid": 0.43
+   },
+   {
+    "group": "wymiary | poliwęglan 3х8",
+    "text": "szklarnie z poliwęglanu 3x8 producent",
+    "match": "PHRASE",
+    "bid": 0.43
+   },
+   {
+    "group": "wymiary | poliwęglan 3х8",
+    "text": "tunele z poliwęglanu 3x8m",
+    "match": "PHRASE",
+    "bid": 0.43
+   },
+   {
+    "group": "wymiary | poliwęglan 3х2",
+    "text": "szklarnia z poliwęglanu 3x2m",
+    "match": "PHRASE",
+    "bid": 0.38
+   },
+   {
+    "group": "wymiary | poliwęglan 3х2",
+    "text": "szklarnie z poliwęglanu 3x2",
+    "match": "PHRASE",
+    "bid": 0.38
+   },
+   {
+    "group": "wymiary | poliwęglan 3х2",
+    "text": "szklarnie z poliwęglanu 3x2 producent",
+    "match": "PHRASE",
+    "bid": 0.38
+   },
+   {
+    "group": "wymiary | poliwęglan 3х2",
+    "text": "tunele z poliwęglanu 3x2",
+    "match": "PHRASE",
+    "bid": 0.38
+   },
+   {
+    "group": "wymiary | poliwęglan 3х2",
+    "text": "tunele z poliwęglanu 3x2m",
+    "match": "PHRASE",
+    "bid": 0.38
+   },
+   {
+    "group": "wymiary | poliwęglan 3х2",
+    "text": "szklarnie z poliwęglanu 3x2",
+    "match": "BROAD",
+    "bid": 0.38
+   },
+   {
+    "group": "cieplarnie z poliwęglanu",
+    "text": "cieplarnie poliwęglanowe",
+    "match": "PHRASE",
+    "bid": 0.42
+   },
+   {
+    "group": "cieplarnie z poliwęglanu",
+    "text": "cieplarnie z poliwęglanu",
+    "match": "PHRASE",
+    "bid": 0.42
+   },
+   {
+    "group": "namioty z poliwęglanu",
+    "text": "namioty z poliwęglanu",
+    "match": "PHRASE",
+    "bid": 0.37
+   },
+   {
+    "group": "namioty z poliwęglanu",
+    "text": "namioty poliwęglanowe",
+    "match": "PHRASE",
+    "bid": 0.37
+   },
+   {
+    "group": "szklarnie z poliwęglanu [exact]",
+    "text": "szklarnia z poliwęglanu",
+    "match": "EXACT",
+    "bid": 0.48
+   },
+   {
+    "group": "szklarnie z poliwęglanu [exact]",
+    "text": "szklarnie poliweglanowe",
+    "match": "EXACT",
+    "bid": 0.48
+   },
+   {
+    "group": "szklarnie z poliwęglanu [phrase]",
+    "text": "szklarnie ogrodowe z poliwęglanu",
+    "match": "PHRASE",
+    "bid": 0.43
+   },
+   {
+    "group": "szklarnie z poliwęglanu [phrase]",
+    "text": "szklarnie ogrodowe poliwęglan",
+    "match": "PHRASE",
+    "bid": 0.43
+   },
+   {
+    "group": "szklarnie z poliwęglanu [phrase]",
+    "text": "szklarnie poliweglanowe",
+    "match": "PHRASE",
+    "bid": 0.43
+   },
+   {
+    "group": "szklarnie z poliwęglanu [phrase]",
+    "text": "szklarnie z poliweglanu",
+    "match": "PHRASE",
+    "bid": 0.43
+   },
+   {
+    "group": "szklarnie z poliwęglanu producent",
+    "text": "szklarnie z poliwęglanu producent",
+    "match": "PHRASE",
+    "bid": 0.41
+   },
+   {
+    "group": "szklarnie z poliwęglanu producent",
+    "text": "szklarnie poliwęglanowe producent",
+    "match": "PHRASE",
+    "bid": 0.41
+   },
+   {
+    "group": "tunele z poliwęglanu",
+    "text": "tunele ogrodnicze z poliwęglanu",
+    "match": "PHRASE",
+    "bid": 0.72
+   },
+   {
+    "group": "tunele z poliwęglanu",
+    "text": "tunele ogrodowe z poliwęglanu",
+    "match": "PHRASE",
+    "bid": 0.72
+   },
+   {
+    "group": "tunele z poliwęglanu",
+    "text": "tunele z poliwęglanu",
+    "match": "PHRASE",
+    "bid": 0.72
+   },
+   {
+    "group": "tunele z poliwęglanu",
+    "text": "tunele poliwęglanowe",
+    "match": "PHRASE",
+    "bid": 0.72
+   },
+   {
+    "group": "tunele z poliwęglanu",
+    "text": "tunele ogrodowe poliwęglanowe",
+    "match": "PHRASE",
+    "bid": 0.72
+   },
+   {
+    "group": "wymiary | poliwęglan 4х6",
+    "text": "szklarnia z poliwęglanu 4x6m",
+    "match": "PHRASE",
+    "bid": 0.25
+   },
+   {
+    "group": "wymiary | poliwęglan 4х6",
+    "text": "szklarnie poliwęglanowe 4x6",
+    "match": "PHRASE",
+    "bid": 0.25
+   },
+   {
+    "group": "wymiary | poliwęglan 4х6",
+    "text": "szklarnie z poliwęglanu 4x6",
+    "match": "PHRASE",
+    "bid": 0.25
+   },
+   {
+    "group": "wymiary | poliwęglan 4х6",
+    "text": "szklarnie z poliwęglanu 4x6 producent",
+    "match": "PHRASE",
+    "bid": 0.25
+   },
+   {
+    "group": "wymiary | poliwęglan 4х6",
+    "text": "tunele z poliwęglanu 4x6",
+    "match": "PHRASE",
+    "bid": 0.25
+   },
+   {
+    "group": "wymiary | poliwęglan 4х6",
+    "text": "tunele z poliwęglanu 4x6m",
+    "match": "PHRASE",
+    "bid": 0.25
+   },
+   {
+    "group": "wymiary | poliwęglan 4х6",
+    "text": "szklarnia z poliwęglanu 4x6m",
+    "match": "BROAD",
+    "bid": 0.25
+   },
+   {
+    "group": "wymiary | poliwęglan 4х8",
+    "text": "szklarnia z poliwęglanu 4x8m",
+    "match": "PHRASE",
+    "bid": 0.47
+   },
+   {
+    "group": "wymiary | poliwęglan 4х8",
+    "text": "szklarnie poliwęglanowe 4x8",
+    "match": "PHRASE",
+    "bid": 0.47
+   },
+   {
+    "group": "wymiary | poliwęglan 4х8",
+    "text": "szklarnie z poliwęglanu 4x8",
+    "match": "PHRASE",
+    "bid": 0.47
+   },
+   {
+    "group": "wymiary | poliwęglan 4х8",
+    "text": "szklarnie z poliwęglanu 4x8 producent",
+    "match": "PHRASE",
+    "bid": 0.47
+   },
+   {
+    "group": "wymiary | poliwęglan 4х8",
+    "text": "tunele z poliwęglanu 4x8",
+    "match": "PHRASE",
+    "bid": 0.47
+   },
+   {
+    "group": "wymiary | poliwęglan 4х8",
+    "text": "tunele z poliwęglanu 4x8m",
+    "match": "PHRASE",
+    "bid": 0.47
+   },
+   {
+    "group": "wymiary | poliwęglan 4х8",
+    "text": "szklarnia z poliwęglanu 4x8m",
+    "match": "BROAD",
+    "bid": 0.47
+   },
+   {
+    "group": "wymiary | poliwęglan 2х4",
+    "text": "szklarnie z poliwęglanu 2x4",
+    "match": "PHRASE",
+    "bid": 0.35
+   },
+   {
+    "group": "wymiary | poliwęglan 2х4",
+    "text": "szklarnia z poliwęglanu 2x4m",
+    "match": "PHRASE",
+    "bid": 0.35
+   },
+   {
+    "group": "wymiary | poliwęglan 2х4",
+    "text": "szklarnie poliwęglanowe 2x4",
+    "match": "PHRASE",
+    "bid": 0.35
+   },
+   {
+    "group": "wymiary | poliwęglan 2х4",
+    "text": "szklarnie z poliwęglanu 2x4 producent",
+    "match": "PHRASE",
+    "bid": 0.35
+   },
+   {
+    "group": "wymiary | poliwęglan 2х4",
+    "text": "tunele z poliwęglanu 2x4",
+    "match": "PHRASE",
+    "bid": 0.35
+   },
+   {
+    "group": "wymiary | poliwęglan 2х4",
+    "text": "tunele z poliwęglanu 2x4m",
+    "match": "PHRASE",
+    "bid": 0.35
+   },
+   {
+    "group": "wymiary | poliwęglan 2х4",
+    "text": "tunele z poliwęglanu 2x4",
+    "match": "BROAD",
+    "bid": 0.35
+   },
+   {
+    "group": "wymiary | poliwęglan 2х4",
+    "text": "szklarnia z poliwęglanu 2x4m",
+    "match": "BROAD",
+    "bid": 0.35
+   },
+   {
+    "group": "wymiary | poliwęglan 2 5х4",
+    "text": "szklarnie poliwęglanowe 2 5x4",
+    "match": "BROAD",
+    "bid": 0.42
+   },
+   {
+    "group": "wymiary | poliwęglan 2 5х4",
+    "text": "szklarnie z poliwęglanu 2 5x4 producent",
+    "match": "BROAD",
+    "bid": 0.42
+   },
+   {
+    "group": "wymiary | poliwęglan 2 5х4",
+    "text": "szklarnie z poliwęglanu 2 5x4",
+    "match": "BROAD",
+    "bid": 0.42
+   },
+   {
+    "group": "wymiary | poliwęglan 2 5х4",
+    "text": "tunele z poliwęglanu 2 5x4m",
+    "match": "BROAD",
+    "bid": 0.42
+   },
+   {
+    "group": "wymiary | poliwęglan 2 5х4",
+    "text": "szklarnia z poliwęglanu 2 5x4m",
+    "match": "BROAD",
+    "bid": 0.42
+   },
+   {
+    "group": "wymiary | poliwęglan 2 5х4",
+    "text": "tunele z poliwęglanu 2 5x4",
+    "match": "BROAD",
+    "bid": 0.42
+   },
+   {
+    "group": "wymiary | poliwęglan 2 5х4",
+    "text": "szklarnia z poliwęglanu 2 5x4m",
+    "match": "PHRASE",
+    "bid": 0.42
+   },
+   {
+    "group": "wymiary | poliwęglan 2 5х4",
+    "text": "szklarnie z poliwęglanu 2 5x4",
+    "match": "PHRASE",
+    "bid": 0.42
+   },
+   {
+    "group": "wymiary | poliwęglan 2 5х4",
+    "text": "tunele z poliwęglanu 2 5x4m",
+    "match": "PHRASE",
+    "bid": 0.42
+   },
+   {
+    "group": "wymiary | poliwęglan 2 5х4",
+    "text": "tunele z poliwęglanu 2 5x4",
+    "match": "PHRASE",
+    "bid": 0.42
+   },
+   {
+    "group": "wymiary | poliwęglan 2 5х4",
+    "text": "szklarnie z poliwęglanu 2 5x4 producent",
+    "match": "PHRASE",
+    "bid": 0.42
+   },
+   {
+    "group": "wymiary | poliwęglan 2 5х4",
+    "text": "szklarnie poliwęglanowe 2 5x4",
+    "match": "PHRASE",
+    "bid": 0.42
+   },
+   {
+    "group": "mala szklarnia z poliweglanu",
+    "text": "mala szklarnia z poliweglanu",
+    "match": "BROAD",
+    "bid": 0.45
+   },
+   {
+    "group": "mala szklarnia z poliweglanu",
+    "text": "mala szklarnia z poliweglanu",
+    "match": "PHRASE",
+    "bid": 0.45
+   }
+  ]
+ },
+ "groups": {
+  "wymiary | poliwęglan 3х6": {
+   "rn": "customers/7552781705/adGroups/144005753173",
+   "bid": 8.0,
+   "tcpa": 0.0,
+   "status": "PAUSED"
+  },
+  "wymiary | poliwęglan 3х4": {
+   "rn": "customers/7552781705/adGroups/144005753213",
+   "bid": 8.0,
+   "tcpa": 18.0,
+   "status": "ENABLED"
+  },
+  "wymiary | poliwęglan 3х8": {
+   "rn": "customers/7552781705/adGroups/144005753253",
+   "bid": 8.0,
+   "tcpa": 0.0,
+   "status": "PAUSED"
+  },
+  "wymiary | poliwęglan 3х2": {
+   "rn": "customers/7552781705/adGroups/144005753413",
+   "bid": 8.0,
+   "tcpa": 0.0,
+   "status": "PAUSED"
+  },
+  "wymiary | poliwęglan 2х3": {
+   "rn": "customers/7552781705/adGroups/144005753453",
+   "bid": 8.0,
+   "tcpa": 0.0,
+   "status": "PAUSED"
+  },
+  "cieplarnie z poliwęglanu": {
+   "rn": "customers/7552781705/adGroups/144444639979",
+   "bid": 8.0,
+   "tcpa": 0.0,
+   "status": "ENABLED"
+  },
+  "namioty z poliwęglanu": {
+   "rn": "customers/7552781705/adGroups/144444640019",
+   "bid": 8.0,
+   "tcpa": 0.0,
+   "status": "PAUSED"
+  },
+  "szklarnie z poliwęglanu [exact]": {
+   "rn": "customers/7552781705/adGroups/148039625950",
+   "bid": 8.0,
+   "tcpa": 16.83,
+   "status": "ENABLED"
+  },
+  "szklarnie z poliwęglanu [phrase]": {
+   "rn": "customers/7552781705/adGroups/148039625990",
+   "bid": 8.0,
+   "tcpa": 15.0,
+   "status": "ENABLED"
+  },
+  "szklarnie z poliwęglanu producent": {
+   "rn": "customers/7552781705/adGroups/148039626150",
+   "bid": 10.0,
+   "tcpa": 18.0,
+   "status": "ENABLED"
+  },
+  "tunele z poliwęglanu": {
+   "rn": "customers/7552781705/adGroups/148039626190",
+   "bid": 8.0,
+   "tcpa": 0.0,
+   "status": "ENABLED"
+  },
+  "wymiary | poliwęglan 4х6": {
+   "rn": "customers/7552781705/adGroups/157478963675",
+   "bid": 8.0,
+   "tcpa": 15.0,
+   "status": "PAUSED"
+  },
+  "wymiary | poliwęglan 4х8": {
+   "rn": "customers/7552781705/adGroups/157478963715",
+   "bid": 8.0,
+   "tcpa": 18.0,
+   "status": "ENABLED"
+  },
+  "wymiary | poliwęglan 2х4": {
+   "rn": "customers/7552781705/adGroups/157478963755",
+   "bid": 8.0,
+   "tcpa": 0.0,
+   "status": "PAUSED"
+  },
+  "wymiary | poliwęglan 2 5х4": {
+   "rn": "customers/7552781705/adGroups/186328500855",
+   "bid": 8.0,
+   "tcpa": 0.0,
+   "status": "PAUSED"
+  },
+  "mala szklarnia z poliweglanu": {
+   "rn": "customers/7552781705/adGroups/187715757242",
+   "bid": 8.0,
+   "tcpa": 0.0,
+   "status": "PAUSED"
+  }
+ },
+ "keywords": {
+  "wymiary | poliwęglan 3х6 | szklarnie z poliwęglanu 3x6 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753173~410411931542",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х6 | szklarnie z poliwęglanu 3x6 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753173~412237829485",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х6 | szklarnia z poliwęglanu 3x6m | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753173~797755336218",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х6 | szklarnia z poliwęglanu 3x6m | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753173~893341379165",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х6 | tunele z poliwęglanu 3x6 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753173~1198274828624",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х6 | szklarnie z poliwęglanu 3x6 producent | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753173~1211338228051",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х6 | tunele z poliwęglanu 3x6 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753173~1662000575183",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х6 | szklarnie z poliwęglanu 3x6 producent | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753173~1817247378220",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х6 | szklarnie poliwęglanowe 3x6 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753173~1927537035722",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х6 | szklarnie z poliwęglanu 3x6 z montażem | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753173~1927537036442",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х6 | tunele z poliwęglanu 3x6m | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753173~1927537037162",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х6 | szklarnie z poliwęglanu 3x6 z montażem | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753173~2278145526467",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х6 | tunele z poliwęglanu 3x6m | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753173~2278145527827",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х6 | szklarnie poliwęglanowe 3x6 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753173~2345117888637",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х4 | tunele z poliwęglanu 3x4 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753213~1198274828584",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х4 | szklarnie z poliwęglanu 3x4 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753213~1198853624631",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х4 | szklarnie z poliwęglanu 3x4 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753213~1623911037277",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х4 | tunele z poliwęglanu 3x4 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753213~1673786539668",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х4 | szklarnia z poliwęglanu 3x4m | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753213~1674351692137",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х4 | szklarnia z poliwęglanu 3x4m | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753213~1927537035322",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х4 | szklarnie poliwęglanowe 3x4 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753213~1927537035562",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х4 | szklarnie z poliwęglanu 3x4 z montażem | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753213~1927537036282",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х4 | tunele z poliwęglanu 3x4m | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753213~1927537037002",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х4 | szklarnie z poliwęglanu 3x4 z montażem | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753213~2278145526427",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х4 | tunele z poliwęglanu 3x4m | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753213~2278145527667",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х4 | szklarnie poliwęglanowe 3x4 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753213~2345117888597",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х8 | tunele z poliwęglanu 3x8 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753253~410411944462",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х8 | tunele z poliwęglanu 3x8 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753253~412237840445",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х8 | tunele z poliwęglanu 3x8m | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753253~1665740066132",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х8 | szklarnie poliwęglanowe 3x8 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753253~1927537035762",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х8 | szklarnie z poliwęglanu 3x8 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753253~1927537036482",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х8 | szklarnie z poliwęglanu 3x8 producent | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753253~1927537036522",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х8 | szklarnie z poliwęglanu 3x8 z montażem | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753253~1927537036682",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х8 | tunele z poliwęglanu 3x8m | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753253~1927537037202",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х8 | szklarnie z poliwęglanu 3x8 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753253~2275564213408",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х8 | szklarnie z poliwęglanu 3x8 producent | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753253~2278145526627",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х8 | szklarnie z poliwęglanu 3x8 z montażem | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753253~2278145526667",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х8 | szklarnie poliwęglanowe 3x8 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753253~2345117888797",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х2 | szklarnia z poliwęglanu 3x2m | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753413~1927537035282",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х2 | szklarnie poliwęglanowe 3x2 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753413~1927537035522",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х2 | szklarnie z poliwęglanu 3x2 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753413~1927537036042",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х2 | szklarnie z poliwęglanu 3x2 producent | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753413~1927537036202",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х2 | szklarnie z poliwęglanu 3x2 z montażem | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753413~1927537036242",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х2 | tunele z poliwęglanu 3x2 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753413~1927537036922",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х2 | tunele z poliwęglanu 3x2m | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753413~1927537036962",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х2 | szklarnie z poliwęglanu 3x2 producent | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753413~2278145526227",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х2 | szklarnie z poliwęglanu 3x2 z montażem | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753413~2278145526387",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х2 | tunele z poliwęglanu 3x2 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753413~2278145527587",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х2 | tunele z poliwęglanu 3x2m | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753413~2278145527627",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х2 | szklarnia z poliwęglanu 3x2m | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753413~2345117888117",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х2 | szklarnie poliwęglanowe 3x2 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753413~2345117888557",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 3х2 | szklarnie z poliwęglanu 3x2 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753413~2345117889357",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х3 | szklarnie poliwęglanowe 2x3 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753453~1927537035482",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х3 | szklarnie z poliwęglanu 2x3 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753453~1927537035802",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х3 | szklarnie z poliwęglanu 2x3 producent | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753453~1927537035962",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х3 | szklarnie z poliwęglanu 2x3 z montażem | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753453~1927537036002",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х3 | tunele z poliwęglanu 2x3m | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753453~1927537036762",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х3 | tunele z poliwęglanu 2x3m | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753453~2278145527347",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х3 | szklarnie poliwęglanowe 2x3 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753453~2345117888357",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х3 | szklarnie z poliwęglanu 2x3 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753453~2345117889037",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х3 | szklarnie z poliwęglanu 2x3 producent | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753453~2345117889077",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х3 | szklarnie z poliwęglanu 2x3 z montażem | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144005753453~2345117889117",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "cieplarnie z poliwęglanu | cieplarnie z poliwęglanu | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144444639979~655642960765",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "cieplarnie z poliwęglanu | cieplarnie poliwęglanowe | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144444639979~885495801481",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "cieplarnie z poliwęglanu | cieplarnie poliwęglanowe | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144444639979~1129645205974",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "cieplarnie z poliwęglanu | cieplarnie z poliwęglanu | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144444639979~1193767552074",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "namioty z poliwęglanu | namioty z poliwęglanu | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144444640019~349768874762",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "namioty z poliwęglanu | namioty z poliwęglanu | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144444640019~412237763245",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "namioty z poliwęglanu | namioty poliwęglanowe | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/144444640019~1928237021439",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "namioty z poliwęglanu | namioty poliwęglanowe | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/144444640019~2345117887917",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "szklarnie z poliwęglanu [exact] | szklarnia z poliwęglanu | EXACT": {
+   "rn": "customers/7552781705/adGroupCriteria/148039625950~302713119531",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "szklarnie z poliwęglanu [exact] | szklarnia z poliwęglanu | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/148039625950~304185003722",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "szklarnie z poliwęglanu [exact] | szklarnie poliweglanowe | EXACT": {
+   "rn": "customers/7552781705/adGroupCriteria/148039625950~391908886735",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "szklarnie z poliwęglanu [exact] | szklarnie poliweglanowe | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/148039625950~412237826325",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "szklarnie z poliwęglanu [phrase] | szklarnie ogrodowe z poliwęglanu | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/148039625990~48329816472",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "szklarnie z poliwęglanu [phrase] | szklarnie ogrodowe poliwęglan | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/148039625990~304185004202",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "szklarnie z poliwęglanu [phrase] | szklarnie ogrodowe z poliwęglanu | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/148039625990~312139493900",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "szklarnie z poliwęglanu [phrase] | szklarnie z poliweglanu | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/148039625990~317153849981",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "szklarnie z poliwęglanu [phrase] | szklarnie ogrodowe poliwęglan | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/148039625990~410411923822",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "szklarnie z poliwęglanu [phrase] | szklarnie poliweglanowe | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/148039625990~410411927742",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "szklarnie z poliwęglanu [phrase] | szklarnie z poliweglanu | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/148039625990~410411931022",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "szklarnie z poliwęglanu [phrase] | szklarnie poliweglanowe | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/148039625990~412237826325",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "szklarnie z poliwęglanu producent | szklarnie z poliwęglanu producent | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/148039626150~349768887082",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "szklarnie z poliwęglanu producent | szklarnie z poliwęglanu producent | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/148039626150~375381157385",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "szklarnie z poliwęglanu producent | szklarnie poliwęglanowe producent | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/148039626150~1074218763025",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "szklarnie z poliwęglanu producent | szklarnie poliwęglanowe producent | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/148039626150~1129645212614",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "tunele z poliwęglanu | tunele ogrodnicze z poliwęglanu | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/148039626190~297729952064",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "tunele z poliwęglanu | tunele ogrodowe z poliwęglanu | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/148039626190~297729952464",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "tunele z poliwęglanu | tunele z poliwęglanu | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/148039626190~301989545494",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "tunele z poliwęglanu | tunele ogrodnicze z poliwęglanu | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/148039626190~324038247499",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "tunele z poliwęglanu | tunele ogrodowe z poliwęglanu | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/148039626190~324038248019",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "tunele z poliwęglanu | tunele z poliwęglanu | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/148039626190~357830665802",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "tunele z poliwęglanu | tunele poliwęglanowe | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/148039626190~410411943982",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "tunele z poliwęglanu | tunele poliwęglanowe | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/148039626190~412237839965",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "tunele z poliwęglanu | tunele ogrodowe poliwęglanowe | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/148039626190~1598780037546",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "tunele z poliwęglanu | tunele ogrodowe poliwęglanowe | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/148039626190~1926675070460",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х6 | tunele z poliwęglanu 4x6 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963675~1660415888094",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х6 | szklarnia z poliwęglanu 4x6m | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963675~2262843211122",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х6 | szklarnie poliwęglanowe 4x6 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963675~2262843213002",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х6 | szklarnie z poliwęglanu 4x6 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963675~2262843213322",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х6 | szklarnie z poliwęglanu 4x6 producent | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963675~2262843213482",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х6 | szklarnie z poliwęglanu 4x6 z montażem | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963675~2262843213522",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х6 | tunele z poliwęglanu 4x6 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963675~2262843215482",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х6 | tunele z poliwęglanu 4x6m | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963675~2262843215642",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х6 | szklarnie z poliwęglanu 4x6 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963675~2278145526707",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х6 | szklarnie z poliwęglanu 4x6 producent | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963675~2278145526867",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х6 | szklarnie z poliwęglanu 4x6 z montażem | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963675~2278145526907",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х6 | tunele z poliwęglanu 4x6m | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963675~2278145527867",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х6 | szklarnia z poliwęglanu 4x6m | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963675~2345117888157",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х6 | szklarnie poliwęglanowe 4x6 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963675~2345117888837",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х8 | szklarnia z poliwęglanu 4x8m | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963715~2262843211162",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х8 | szklarnie poliwęglanowe 4x8 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963715~2262843213042",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х8 | szklarnie z poliwęglanu 4x8 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963715~2262843213562",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х8 | szklarnie z poliwęglanu 4x8 producent | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963715~2262843213722",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х8 | szklarnie z poliwęglanu 4x8 z montażem | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963715~2262843213762",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х8 | tunele z poliwęglanu 4x8 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963715~2262843215682",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х8 | tunele z poliwęglanu 4x8m | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963715~2262843215722",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х8 | szklarnie z poliwęglanu 4x8 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963715~2278145526947",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х8 | szklarnie z poliwęglanu 4x8 producent | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963715~2278145527107",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х8 | szklarnie z poliwęglanu 4x8 z montażem | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963715~2278145527147",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х8 | tunele z poliwęglanu 4x8 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963715~2278145527907",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х8 | tunele z poliwęglanu 4x8m | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963715~2278145528067",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х8 | szklarnia z poliwęglanu 4x8m | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963715~2345117888317",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 4х8 | szklarnie poliwęglanowe 4x8 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963715~2345117888877",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х4 | szklarnie z poliwęglanu 2x4 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963755~1664333228124",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х4 | szklarnie z poliwęglanu 2x4 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963755~1670302633804",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х4 | szklarnia z poliwęglanu 2x4m | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963755~2262843211082",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х4 | szklarnie poliwęglanowe 2x4 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963755~2262843212842",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х4 | szklarnie z poliwęglanu 2x4 producent | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963755~2262843213242",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х4 | szklarnie z poliwęglanu 2x4 z montażem | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963755~2262843213282",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х4 | tunele z poliwęglanu 2x4 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963755~2262843215402",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х4 | tunele z poliwęglanu 2x4m | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963755~2262843215442",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х4 | tunele z poliwęglanu 2x4 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963755~2278145527387",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х4 | tunele z poliwęglanu 2x4m | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963755~2278145527427",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х4 | szklarnia z poliwęglanu 2x4m | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963755~2345117888077",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х4 | szklarnie poliwęglanowe 2x4 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963755~2345117888397",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х4 | szklarnie z poliwęglanu 2x4 producent | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963755~2345117889277",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2х4 | szklarnie z poliwęglanu 2x4 z montażem | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/157478963755~2345117889317",
+   "status": "PAUSED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2 5х4 | szklarnie poliwęglanowe 2 5x4 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/186328500855~2476851136262",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2 5х4 | szklarnie z poliwęglanu 2 5x4 producent | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/186328500855~2479870421433",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2 5х4 | szklarnie z poliwęglanu 2 5x4 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/186328500855~2479870488193",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2 5х4 | tunele z poliwęglanu 2 5x4m | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/186328500855~2479870488233",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2 5х4 | szklarnia z poliwęglanu 2 5x4m | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/186328500855~2479870491553",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2 5х4 | tunele z poliwęglanu 2 5x4 | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/186328500855~2480848523998",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2 5х4 | szklarnia z poliwęglanu 2 5x4m | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/186328500855~2496812158487",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2 5х4 | szklarnie z poliwęglanu 2 5x4 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/186328500855~2508350975517",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2 5х4 | tunele z poliwęglanu 2 5x4m | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/186328500855~2508350975677",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2 5х4 | tunele z poliwęglanu 2 5x4 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/186328500855~2508350975717",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2 5х4 | szklarnie z poliwęglanu 2 5x4 producent | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/186328500855~2508350975757",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "wymiary | poliwęglan 2 5х4 | szklarnie poliwęglanowe 2 5x4 | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/186328500855~2508350975917",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "mala szklarnia z poliweglanu | mala szklarnia z poliweglanu | BROAD": {
+   "rn": "customers/7552781705/adGroupCriteria/187715757242~2283453094525",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  },
+  "mala szklarnia z poliweglanu | mala szklarnia z poliweglanu | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/187715757242~2465919815474",
+   "status": "ENABLED",
+   "bid": 1.0,
+   "effective_bid": 1.0
+  }
+ }
+}

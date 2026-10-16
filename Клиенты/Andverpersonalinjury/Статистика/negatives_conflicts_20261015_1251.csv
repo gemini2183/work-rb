@@ -1,0 +1,16 @@
+source,group,keyword,blocked,blockers
+кандидат,,car accident settlement calculator,False,
+кандидат,,car accident claim,False,
+кандидат,,car accident compensation,False,
+кандидат,,car accident settlement,False,
+кандидат,,car accident settlement amounts,False,
+кандидат,,average car accident settlement,False,
+кандидат,,car accident injury settlement,False,
+кандидат,,how much is my car accident claim worth,True,кампания: «how» [BROAD] | кампания: «how much» [BROAD]
+кандидат,,car accident payout,False,
+кандидат,,truck accident settlement,False,
+кандидат,,truck accident settlement amounts,False,
+кандидат,,personal injury settlement calculator,False,
+кандидат,,car accident claim california,False,
+кандидат,,car accident settlement california,False,
+кандидат,,what is my car accident case worth,True,кампания: «what» [BROAD] | список «gen / init»: «what is» [BROAD]
