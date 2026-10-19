@@ -1,0 +1,115 @@
+{
+ "_comment": "2026-10-19: п. 5 плана — watches / lux: 6 фраз по Rolex в существующую группу watches / lux / brands / rolex (решение пользователя 12.10) + harvest-группа из 5 фраз (breitling, tag heuer ×2, omega, gold watch); «sell old watches for cash» не берём — она уже в watches / non-lux (И-015). Копия объявления 719670558690 (watches / lux / generic, GOOD, 130 кликов, 28 заявок с 12.10). Ждёт «да».",
+ "customer_id": "9534865605",
+ "campaign": "watches / lux",
+ "add_keywords": [
+  {
+   "group": "watches / lux / brands / rolex",
+   "text": "where can i sell my rolex",
+   "match": "PHRASE"
+  },
+  {
+   "group": "watches / lux / brands / rolex",
+   "text": "where to sell my rolex watch",
+   "match": "PHRASE"
+  },
+  {
+   "group": "watches / lux / brands / rolex",
+   "text": "sell my rolex for cash",
+   "match": "PHRASE"
+  },
+  {
+   "group": "watches / lux / brands / rolex",
+   "text": "who buys rolex near me",
+   "match": "PHRASE"
+  },
+  {
+   "group": "watches / lux / brands / rolex",
+   "text": "who buys rolexes near me",
+   "match": "PHRASE"
+  },
+  {
+   "group": "watches / lux / brands / rolex",
+   "text": "sell my rolex near me",
+   "match": "PHRASE"
+  }
+ ],
+ "new_group": {
+  "name": "watches / lux / harvest 10-26",
+  "status": "PAUSED",
+  "cpc_bid_micros": 10000,
+  "match": "PHRASE",
+  "keywords": [
+   "where can i sell my breitling watch",
+   "where can i sell my tag heuer watch",
+   "sell my tag heuer watch",
+   "who buys omega watches near me",
+   "where to sell a gold watch"
+  ]
+ },
+ "rsa": {
+  "final_url": "https://jewelryfastsale.com/",
+  "path1": "Beverly Hills",
+  "path2": "",
+  "ad_groups": [],
+  "also_new_group": true,
+  "headlines": [
+   {
+    "text": "Best Deals on Luxury Watches",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "Best Prices Paid"
+   },
+   {
+    "text": "Top Dollar for Luxury Watches",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "Get the Best Deal for Watches",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "High Cash for Luxury Watches",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "Maximize Your Earnings"
+   },
+   {
+    "text": "Fast & Fair. Highest Offers"
+   },
+   {
+    "text": "Sell with Confidence"
+   },
+   {
+    "text": "Free Appraisals"
+   },
+   {
+    "text": "Expert Buyers & Best Prices"
+   },
+   {
+    "text": "Instant Cash, No Hassle"
+   },
+   {
+    "text": "Get Top Dollar Offer"
+   },
+   {
+    "text": "{KeyWord:Sell Your Luxury Watches Today}",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "Sell To Trusted Buyer"
+   }
+  ],
+  "descriptions": [
+   {
+    "text": "Sell your watches to a trusted buyer. Fast, easy, and secure transactions.",
+    "pin": "DESCRIPTION_1"
+   },
+   {
+    "text": "We guarantee the best prices and a hassle-free process. Contact us for a free evaluation"
+   }
+  ]
+ }
+}

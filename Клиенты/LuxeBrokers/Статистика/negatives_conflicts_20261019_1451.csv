@@ -1,0 +1,12 @@
+source,group,keyword,blocked,blockers
+кандидат,,who buys diamonds,False,
+кандидат,,who buys diamonds near me,False,
+кандидат,,diamonds we buy,False,
+кандидат,,where can i sell my diamonds,False,
+кандидат,,where to sell diamonds,False,
+кандидат,,sell my diamond ring,False,
+кандидат,,diamond ring buyers near me,False,
+кандидат,,sell my diamond engagement ring,False,
+кандидат,,loose diamond buyers,True,кампания: «loose» [BROAD]
+кандидат,,diamond buyers near me,False,
+кандидат,,sell loose diamonds,True,кампания: «loose» [BROAD]

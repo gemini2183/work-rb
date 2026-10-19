@@ -1,0 +1,82 @@
+{
+ "_comment": "2026-10-19: п. 5 плана — harvest-группа в diamonds (9 фраз из 11: «loose diamond buyers» и «sell loose diamonds» блокирует кампанийный минус loose [BROAD], минус не снимаем), копия объявления 719663500044 (группа jewelry / diamonds, GOOD, 95 кликов, 22 заявки с 12.10). Ждёт «да».",
+ "customer_id": "9534865605",
+ "campaign": "diamonds",
+ "new_group": {
+  "name": "diamonds / harvest 10-26",
+  "status": "PAUSED",
+  "cpc_bid_micros": 10000,
+  "match": "PHRASE",
+  "keywords": [
+   "who buys diamonds",
+   "who buys diamonds near me",
+   "diamonds we buy",
+   "where can i sell my diamonds",
+   "where to sell diamonds",
+   "sell my diamond ring",
+   "diamond ring buyers near me",
+   "sell my diamond engagement ring",
+   "diamond buyers near me"
+  ]
+ },
+ "rsa": {
+  "final_url": "https://jewelryfastsale.com/",
+  "path1": "Beverly Hills",
+  "path2": "",
+  "ad_groups": [],
+  "also_new_group": true,
+  "headlines": [
+   {
+    "text": "Sell Diamonds for Cash",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "Top Dollar for Your Diamonds",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "Best Price for Your Diamonds",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "Get the Best Deal for Diamonds",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "Quick & Easy Diamonds Selling",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "Luxury Jewelry Buyers Near You"
+   },
+   {
+    "text": "Sell with Confidence"
+   },
+   {
+    "text": "Free Appraisals"
+   },
+   {
+    "text": "Expert Buyers & Best Prices"
+   },
+   {
+    "text": "Instant Cash, No Hassle"
+   },
+   {
+    "text": "Get Top Dollar Offers"
+   },
+   {
+    "text": "{KeyWord:Sell Your Diamonds Today}",
+    "pin": "HEADLINE_1"
+   }
+  ],
+  "descriptions": [
+   {
+    "text": "Sell your diamonds to a trusted buyer. Fast, easy, and secure transactions.",
+    "pin": "DESCRIPTION_1"
+   },
+   {
+    "text": "We guarantee the best prices and a hassle-free process. Contact us for a free evaluation"
+   }
+  ]
+ }
+}

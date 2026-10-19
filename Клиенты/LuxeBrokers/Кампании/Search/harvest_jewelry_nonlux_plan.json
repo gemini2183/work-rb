@@ -1,0 +1,100 @@
+{
+ "_comment": "2026-10-19: п. 5 плана наращивания — harvest-группа фраз продавца в jewelry / non-lux (12 фраз), копия объявления 719781659483 (группа near me, EXCELLENT, 89 кликов, 21 заявка с 12.10). Подготовлено, ждёт «да». Минусы кампании и 6 общих списков фразы не блокируют (gads_negatives_conflicts.py 19.10), дублей по тексту нет.",
+ "customer_id": "9534865605",
+ "campaign": "jewelry / non-lux",
+ "new_group": {
+  "name": "jewelry / non-lux / harvest 10-26",
+  "status": "PAUSED",
+  "cpc_bid_micros": 10000,
+  "match": "PHRASE",
+  "keywords": [
+   "sell my jewelry near me",
+   "sell my jewelry",
+   "where can i sell my jewelry",
+   "who buys jewelry near me",
+   "who buys jewelry",
+   "jewelry purchasers near me",
+   "best place to sell your jewelry",
+   "places that buy jewelry near me",
+   "jewelry selling near me",
+   "who buys designer jewelry",
+   "wedding ring buyers",
+   "sell my ring near me"
+  ]
+ },
+ "rsa": {
+  "final_url": "https://jewelryfastsale.com/",
+  "path1": "Beverly Hills",
+  "path2": "",
+  "ad_groups": [],
+  "also_new_group": true,
+  "headlines": [
+   {
+    "text": "Sell Jewelry Fast & Securely"
+   },
+   {
+    "text": "Sell Jewelry in Beverly Hills",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "Jewelry Buyer in Beverly Hills",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "We Buy Jewelry Beverly Hills",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "Jewelry Selling Beverly Hills",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "Maximize Your Earnings"
+   },
+   {
+    "text": "Reliable Buyers Near You"
+   },
+   {
+    "text": "Sell with Confidence"
+   },
+   {
+    "text": "Free Appraisals"
+   },
+   {
+    "text": "Expert Buyers & Best Prices"
+   },
+   {
+    "text": "Instant Cash, No Hassle"
+   },
+   {
+    "text": "Get Top Dollar Offers"
+   },
+   {
+    "text": "{KeyWord:Sell Your Luxury Jewelry Today}",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "High Cash for Luxury Jewelry"
+   },
+   {
+    "text": "Best Deals on Luxury Jewelry"
+   }
+  ],
+  "descriptions": [
+   {
+    "text": "Sell your jewelry to a trusted buyer. Fast, easy, and secure transactions.",
+    "pin": "DESCRIPTION_1"
+   },
+   {
+    "text": "We guarantee top prices and a hassle-free process. Contact us for a free evaluation"
+   },
+   {
+    "text": "Sell your jewelry for top dollar. We buy all types of jewelry and offer instant payment.",
+    "pin": "DESCRIPTION_1"
+   },
+   {
+    "text": "Get a free, no-obligation appraisal from our experts."
+   }
+  ]
+ }
+}
