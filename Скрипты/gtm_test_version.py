@@ -108,6 +108,10 @@ def tel_places(ctx, url, gtm_url_handler, grant, hits):
                 status = "не кликнулось (" + str(e2).splitlines()[0][:50] + ")"
         pg.wait_for_timeout(2500)
         got = [h.get("ep.click_place", "<пусто>") for h in hits[before:] if h.get("en") == "click_tel"]
+        if len(got) > 1:
+            for h in hits[before:]:
+                if h.get("en") == "click_tel":
+                    print("      сырое событие:", {k: v for k, v in h.items() if k in ("en", "ep.click_place", "_et", "_s", "sid", "sct", "dl", "tid", "_p", "gcs", "gcd", "ec_seq")})
         res.append((i, desc, status, got))
         pg.close()
     return res
