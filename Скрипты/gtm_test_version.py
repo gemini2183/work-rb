@@ -93,7 +93,7 @@ def tel_places(ctx, url, gtm_url_handler, grant, hits):
             state = {k: ("granted" if k in grant else "denied")
                      for k in ("ad_storage", "ad_user_data", "ad_personalization", "analytics_storage")}
             pg.evaluate("window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('consent','update'," + repr(state) + ")")
-        pg.wait_for_timeout(1200)
+        pg.wait_for_timeout(1200 + int(os.environ.get("PRECLICK_MS", "0")))  # PRECLICK_MS — выдержка перед кликом (чтобы раньше ушли time_*/stay_*)
         pg.evaluate("document.addEventListener('click',e=>{const a=e.target.closest&&e.target.closest('a[href^=\"tel:\"]');if(a)e.preventDefault()},true)")
         desc = pg.evaluate("""(i)=>{const a=document.querySelectorAll('a[href^="tel:"]')[i];const r=a.closest('[id^=rec]');const el=a.closest('.tn-elem');
             const b=a.getBoundingClientRect();return (r?r.id:'?')+' / elem '+(el?el.getAttribute('data-elem-id'):'-')+' / '+Math.round(b.width)+'x'+Math.round(b.height)}""", i)
