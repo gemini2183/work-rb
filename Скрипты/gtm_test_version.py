@@ -157,7 +157,8 @@ def main():
                     host = urlparse(u).netloc
                     if "/g/collect" in u or "/j/collect" in u:
                         if os.environ.get("RAW") and "click_tel" in (u + (r.request.post_data or "")):
-                            print("      RAW", r.request.method, u[:400].split("?", 1)[-1], "| BODY:", (r.request.post_data or "")[:300])
+                            qs = u.split("?", 1)[-1]
+                            print("      RAW", "|".join(x for x in qs.split("&") if x.split("=")[0] in ("gtm", "en", "ep.click_place", "_et", "_s", "_eu", "ep.block_name", "dt", "dr", "ur", "tfd", "ecid", "_dbg", "_fv", "_nsi", "_ss", "seg", "sid")), "| BODY:", (r.request.post_data or "")[:200])
                         hits.extend(parse_collect(r.request))
                         return r.fulfill(status=204, body="")  # «успех» без отправки: иначе Google Tag повторяет оборванные запросы
                     if "googletagmanager.com/gtm.js" in u and f"id={gtm_id}" in u:
