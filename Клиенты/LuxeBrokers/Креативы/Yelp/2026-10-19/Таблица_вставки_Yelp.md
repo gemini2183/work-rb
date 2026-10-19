@@ -38,6 +38,12 @@ updated: 2026-10-19
 Вариант J (конкретные вещи, 103 знака): Broken chains, old coins, spare silver? We buy gold & silver in Beverly Hills. Free evaluation, no fees.
 Развернётся ли обрезанный текст в карточке или виден только на странице профиля — не знаем (в документации Yelp не нашли); проверить, найдя своё объявление в живой выдаче Yelp (телефон и компьютер).
 
+Варианты с перечислением (решение пользователя 19.10: показ идёт тем, кто уже ищет, поэтому перечисляем, что принимаем, + бесплатно, без комиссий, скорость; город убираем — адрес в карточке, Beverly Hills на баннере; все перечисленные позиции есть на сайте: coins, bars, scrap & broken gold, gold jewelry, silver and platinum):
+Вариант K (111 знаков, рекомендую): We buy gold coins, bars, scrap & jewelry, plus silver & platinum. Free evaluation, no fees, deals up to 10 min.
+Вариант L (111): Gold coins, bars, scrap, broken jewelry, silver, platinum — we buy. Free evaluation, no fees, cash or transfer.
+Вариант M (105, с призывом): Coins, bars, scrap, jewelry, silver, platinum: free evaluation, no fees, cash or bank transfer. Call now!
+Не пишем: «guaranteed», «highest price in town», любые цифры цен и процентов — подтверждений нет.
+
 ## Слова (Keyword Boosting)
 Boost (серебро, по образцу золотых): Sell Silver, Silver Buyers, Cash For Silver, Sell Silver Coins, Sell Silver Bullion, Best Place To Sell Silver, Sell Sterling Silver.
 Block (по образцу «Buy Gold Bullion»): Buy Silver Bullion.
