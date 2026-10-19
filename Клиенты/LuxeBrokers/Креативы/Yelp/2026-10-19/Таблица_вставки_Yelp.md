@@ -32,6 +32,12 @@ updated: 2026-10-19
 Вариант F (106): Sell gold and silver for cash in Beverly Hills. Free evaluation, no fees, bank transfer or cash. Call now!
 Вариант G (104, с монетами и слитками): We buy gold & silver, coins and bars in Beverly Hills. Free evaluation, no fees, cash or bank transfer.
 
+Варианты с «крючком» (все видны целиком, факты те же: free evaluation, no fees, cash or bank transfer, deals take up to 10 minutes — с сайта):
+Вариант H (вопрос, 104 знака): Old gold or silver at home? Free evaluation in Beverly Hills, no fees, cash or bank transfer. Call now!
+Вариант I (выгода и скорость, 104 знака): Turn old gold & silver into cash. Free evaluation, no fees, deals take up to 10 minutes. Beverly Hills.
+Вариант J (конкретные вещи, 103 знака): Broken chains, old coins, spare silver? We buy gold & silver in Beverly Hills. Free evaluation, no fees.
+Развернётся ли обрезанный текст в карточке или виден только на странице профиля — не знаем (в документации Yelp не нашли); проверить, найдя своё объявление в живой выдаче Yelp (телефон и компьютер).
+
 ## Слова (Keyword Boosting)
 Boost (серебро, по образцу золотых): Sell Silver, Silver Buyers, Cash For Silver, Sell Silver Coins, Sell Silver Bullion, Best Place To Sell Silver, Sell Sterling Silver.
 Block (по образцу «Buy Gold Bullion»): Buy Silver Bullion.
