@@ -4,7 +4,7 @@
 
 Как: создаёт среду GTM на указанной версии (type=user), открывает сайт в Playwright, подменяя `gtm.js` на версию из среды
 (`gtm_preview=env-N`, `gtm_auth=<код>`), блокирует всё, кроме сайта, Tilda и GTM, запросы GA4 (`/g/collect`) ПЕРЕХВАТЫВАЕТ,
-разбирает и обрывает — в аналитику ничего не уходит; форма сайта не отправляется. Согласие задаётся из командной строки.
+разбирает и отвечает сам (204) — в аналитику ничего не уходит; форма сайта не отправляется. Согласие задаётся из командной строки.
 Сценарий: плавная прокрутка всей страницы (блоки), клик по каждой видимой ссылке `tel:` (место номера), затем отчёт —
 какие события GA4 ушли и с какими параметрами. Повтор в мобильном окне. В конце среда удаляется.
 
@@ -156,7 +156,7 @@ def main():
                     host = urlparse(u).netloc
                     if "/g/collect" in u or "/j/collect" in u:
                         hits.extend(parse_collect(r.request))
-                        return r.abort()
+                        return r.fulfill(status=204, body="")  # «успех» без отправки: иначе Google Tag повторяет оборванные запросы
                     if "googletagmanager.com/gtm.js" in u and f"id={gtm_id}" in u:
                         return r.continue_(url=f"{u}&gtm_preview=env-{env_id}&gtm_auth={code}&gtm_cookies_win=x")
                     if any(k in host for k in ALLOWED):
