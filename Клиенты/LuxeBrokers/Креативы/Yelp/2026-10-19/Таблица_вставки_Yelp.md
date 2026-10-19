@@ -44,6 +44,12 @@ updated: 2026-10-19
 Вариант M (105, с призывом): Coins, bars, scrap, jewelry, silver, platinum: free evaluation, no fees, cash or bank transfer. Call now!
 Не пишем: «guaranteed», «highest price in town», любые цифры цен и процентов — подтверждений нет.
 
+Варианты с усилителем (решение пользователя 19.10: добавить «top dollar» или что-то цепляющее; усилитель без цифр и без «guaranteed», по правилу от 29.09 допустим без источника):
+Вариант N (109 знаков, рекомендую): Top dollar for your gold & silver: coins, bars, scrap, jewelry. Free evaluation, no fees, deals up to 10 min.
+Вариант O (111): Get top dollar for old gold & silver. We buy coins, bars, scrap & jewelry. Free evaluation, no fees, fast cash.
+Вариант P (109): Top cash offers for gold & silver: coins, bars, scrap, jewelry. Free evaluation, no fees, deals up to 10 min.
+Не берём «Cash in minutes» и «cash on the spot»: оплата может быть переводом, сайт говорит только «сделка до 10 минут».
+
 ## Слова (Keyword Boosting)
 Boost (серебро, по образцу золотых): Sell Silver, Silver Buyers, Cash For Silver, Sell Silver Coins, Sell Silver Bullion, Best Place To Sell Silver, Sell Sterling Silver.
 Block (по образцу «Buy Gold Bullion»): Buy Silver Bullion.
