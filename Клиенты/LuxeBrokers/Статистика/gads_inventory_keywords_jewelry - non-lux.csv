@@ -32,10 +32,10 @@ jewelry / lux / generic / near me,tustin,BROAD,ENABLED
 jewelry / lux / generic / near me,엘에이 돌 반지 파는 곳,BROAD,ENABLED
 jewelry / lux / generic / sell,Sell Designer Jewelry,PHRASE,ENABLED
 jewelry / lux / generic / sell,Sell Expensive Jewelry,PHRASE,ENABLED
-jewelry / lux / generic / sell,Sell Fine Jewelry,PHRASE,PAUSED
+jewelry / lux / generic / sell,Sell Fine Jewelry,PHRASE,ENABLED
 jewelry / lux / generic / sell,Sell High-End Jewelry,PHRASE,ENABLED
 jewelry / lux / generic / sell,Sell Luxury Jewelry,PHRASE,ENABLED
-jewelry / lux / generic / sell,Sell Your Fine Jewelry,PHRASE,PAUSED
+jewelry / lux / generic / sell,Sell Your Fine Jewelry,PHRASE,ENABLED
 jewelry / lux / generic / sell,diamond,BROAD,ENABLED
 jewelry / lux / generic / sell,diamonds,BROAD,ENABLED
 jewelry / lux / generic / sell,pulseras para vender,EXACT,ENABLED
