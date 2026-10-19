@@ -7,6 +7,8 @@ updated: 2026-10-19
 
 # Yelp LuxeBrokers — таблица вставки (19.10.2026)
 
+**Выбор пользователя 19.10:** главный баннер — вариант A (`hero_A_dark_1200x1200.jpg`, тёмный); текст объявления — вариант N: «Top dollar for your gold & silver: coins, bars, scrap, jewelry. Free evaluation, no fees, deals up to 10 min.» (109 знаков); слова серебра для boost — все семь из списка; золотые украшения в галерее оставляем. Остальные варианты ниже (E–P, hero B) — архив.
+
 Подписи: поле Caption на Yelp — до 140 знаков (экран Photos > Edit). Факты — только со страницы `jewelryfastsale.com/gold-silver` (мета-описание от 19.10: free evaluation, cash or bank transfer, silver and platinum too; на странице «Types of products we buy»: coins, bars, scrap & broken gold, gold jewelry в любом состоянии; «no fees» — из текста страницы от 29.09). Что именно клиент покупает из серебра (монеты, слитки, столовое, украшения 925, лом), **не подтверждено** — подписи к серебру общие.
 
 | № | Куда | Файл (`Клиенты\LuxeBrokers\Креативы\Yelp\2026-10-19\`) | Что на фото | Подпись (знаков) | Статус |
@@ -49,6 +51,13 @@ updated: 2026-10-19
 Вариант O (111): Get top dollar for old gold & silver. We buy coins, bars, scrap & jewelry. Free evaluation, no fees, fast cash.
 Вариант P (109): Top cash offers for gold & silver: coins, bars, scrap, jewelry. Free evaluation, no fees, deals up to 10 min.
 Не берём «Cash in minutes» и «cash on the spot»: оплата может быть переводом, сайт говорит только «сделка до 10 минут».
+
+**Серебро, уточнение пользователя 19.10:** клиент покупает самое популярное серебро из запросов Google (со слов пользователя, с клиентом не сверено). По нашим запросам Google за 60 дней: монеты — 124 запроса, 445 показов, 32 клика; sterling / 925 — 48 запросов, 201 показ, 15 кликов, 2 заявки; столовое серебро — 34 запроса, 102 показа, 10 кликов, 1 заявка; слитки — 15 запросов, 27 показов, 5 кликов; украшения из серебра на Yelp закрыты блоком Jewelry. Подписи к серебру теперь конкретные:
+- Монеты (72): Silver coins and rounds: free evaluation, paid by cash or bank transfer.
+- Слитки (78): Silver bars and bullion: bring them in for a free evaluation in Beverly Hills.
+- Столовое серебро (70): Sterling silver flatware and serving pieces: free evaluation, no fees. — фото №12 разрешено к использованию.
+Дополнительные слова для boost по серебру: Sell Silverware, Sell Sterling Silver Flatware, Silver Coin Buyers.
+Необязательная правка текста N с «sterling» (119 знаков, обрезка 117 — «Free evaluation, no fees, deals up to 10 min.» уйдёт в обрез): Top dollar for your gold & silver: coins, bars, sterling, scrap, jewelry. Free evaluation, no fees, deals up to 10 min.
 
 ## Слова (Keyword Boosting)
 Boost (серебро, по образцу золотых): Sell Silver, Silver Buyers, Cash For Silver, Sell Silver Coins, Sell Silver Bullion, Best Place To Sell Silver, Sell Sterling Silver.
