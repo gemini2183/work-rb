@@ -244,6 +244,8 @@
   },
   "active": "49438aefe15a1236",
   "lastOpenFiles": [
+    "Клиенты/ProfiMet/Трекинг/gtm_plan_probeB.json",
+    "Клиенты/ProfiMet/Трекинг/gtm_plan_probeA.json",
     "Скрипты/__pycache__/gtm_test_version.cpython-313.pyc",
     "Скрипты/gtm_test_version.py",
     "Клиенты/ProfiMet/Трекинг/gtm_plan_2026-10-19.json",
@@ -253,8 +255,6 @@
     "Скрипты/__pycache__/profimet_sales_vs_ringostat.cpython-313.pyc",
     "Клиенты/ProfiMet/Статистика/ringostat_unique_missing_2026-10-19.csv",
     "Клиенты/ProfiMet/Статистика/sales_attribution_check_2026-10-19.csv",
-    "Скрипты/profimet_sales_vs_ringostat.py",
-    "Скрипты/profimet_sales_vs_ringostat.py.tmp.38624.260a58311a4d",
     "База_знаний/Паттерны/Атрибуция-продаж-повторные-касания-как-убедить-клиента.md",
     "Клиенты/ProfiMet/Запрос_выгрузка_продаж_2026-10-16.md",
     "База_знаний/Инструменты/Microsoft-Clarity-Data-Export-API.md",

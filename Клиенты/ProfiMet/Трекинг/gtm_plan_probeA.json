@@ -1,0 +1,33 @@
+{
+ "account": "6003760261",
+ "container": "44158621",
+ "workspace_name": "pm-probe-A-click-place-only-2",
+ "version_name": "probe A: click_place only v2",
+ "version_notes": "Проба, не публиковать.",
+ "built_in_variables": [
+  "clickElement"
+ ],
+ "variables": [
+  {
+   "name": "pm tel place",
+   "type": "jsm",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "javascript",
+     "value": "function(){var e={{Click Element}};var a=e&&e.closest?e.closest('a'):null;if(!a)return 'other';var r=a.closest('[id^=rec]');var rid=r?r.id:'';var el=a.closest('.tn-elem');var eid=el?el.getAttribute('data-elem-id'):'';var m={rec2905989103:'header',rec2907495403:'sticky_header',rec2940700303:'menu',rec2906074503:'discount_block'};if(rid==='rec2907407503'){return eid==='1786435131250000006'?'final_button':(eid==='1786435131495000017'?'final_footer':'other');}return m[rid]||'other';}"
+    }
+   ]
+  }
+ ],
+ "triggers": [],
+ "tags": [],
+ "update_tags": [
+  {
+   "name": "GA 4 - click_tel",
+   "set_event_parameters": {
+    "click_place": "{{pm tel place}}"
+   }
+  }
+ ]
+}
