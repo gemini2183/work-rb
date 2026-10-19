@@ -67,22 +67,46 @@ def run_scenario(pg, grant, wait_s):
         pg.wait_for_timeout(1700)
         y += vh * 0.6
     pg.wait_for_timeout(wait_s * 1000)
-    pg.evaluate("""()=>{document.addEventListener('click',e=>{const a=e.target.closest&&e.target.closest('a[href^="tel:"]');if(a)e.preventDefault()},true)}""")
     n = pg.evaluate("document.querySelectorAll('a[href^=\"tel:\"]').length")
     clicked = 0
+    pg.wait_for_timeout(2500)
+    return n, clicked
+
+
+def tel_places(ctx, url, gtm_url_handler, grant, hits):
+    """Каждую ссылку tel: проверяем на отдельной загрузке страницы (click_tel срабатывает раз за загрузку)."""
+    res = []
+    probe = ctx.new_page()
+    probe.goto(url, wait_until="domcontentloaded", timeout=60000)
+    probe.wait_for_timeout(3000)
+    n = probe.evaluate("document.querySelectorAll('a[href^=\"tel:\"]').length")
+    probe.close()
     for i in range(n):
+        pg = ctx.new_page()
+        before = len(hits)
+        pg.goto(url, wait_until="domcontentloaded", timeout=60000)
+        pg.wait_for_timeout(3000)
+        if grant != ["none"]:
+            state = {k: ("granted" if k in grant else "denied")
+                     for k in ("ad_storage", "ad_user_data", "ad_personalization", "analytics_storage")}
+            pg.evaluate("window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('consent','update'," + repr(state) + ")")
+        pg.wait_for_timeout(1200)
+        pg.evaluate("document.addEventListener('click',e=>{const a=e.target.closest&&e.target.closest('a[href^=\"tel:\"]');if(a)e.preventDefault()},true)")
+        desc = pg.evaluate("""(i)=>{const a=document.querySelectorAll('a[href^="tel:"]')[i];const r=a.closest('[id^=rec]');const el=a.closest('.tn-elem');
+            const b=a.getBoundingClientRect();return (r?r.id:'?')+' / elem '+(el?el.getAttribute('data-elem-id'):'-')+' / '+Math.round(b.width)+'x'+Math.round(b.height)}""", i)
         try:
             loc = pg.locator('a[href^="tel:"]').nth(i)
             loc.scroll_into_view_if_needed(timeout=3000)
-            pg.wait_for_timeout(400)
-            loc.click(timeout=3000, force=True, no_wait_after=True)
-            clicked += 1
-            pg.wait_for_timeout(900)
-            pg.reload(wait_until="domcontentloaded") if False else None
-        except Exception as e:  # невидимые ссылки пропускаем
-            print(f"    tel #{i}: пропуск ({str(e).splitlines()[0][:60]})")
-    pg.wait_for_timeout(2500)
-    return n, clicked
+            pg.wait_for_timeout(500)
+            loc.click(timeout=3000, no_wait_after=True)
+            status = "клик"
+        except Exception as e:
+            status = "не кликнулось (" + str(e).splitlines()[0][:50] + ")"
+        pg.wait_for_timeout(2500)
+        got = [h.get("ep.click_place", "<пусто>") for h in hits[before:] if h.get("en") == "click_tel"]
+        res.append((i, desc, status, got))
+        pg.close()
+    return res
 
 
 def main():
@@ -148,6 +172,9 @@ def main():
                     print(f"  {en}: {c}")
                     for pv, pc in sorted(params[en].items()):
                         print(f"      {pv} ×{pc}")
+                print(f"  места номера ({name}), по одной загрузке на ссылку:")
+                for i, desc, status, got in tel_places(ctx, a.url, None, a.grant, hits):
+                    print(f"    #{i} {desc}: {status} -> click_place {got or 'событие не ушло'}")
                 ctx.close()
             br.close()
     finally:
