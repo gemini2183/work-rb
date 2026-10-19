@@ -13,6 +13,10 @@
                 с проверками: имя уникально, лимиты 3–50 / до 100 знаков, file_id есть в аккаунте); активация — отдельно;
     set-image — замена картинки у объявлений по файлу соответствий (ad_id → файл); загрузка
                 файла (POST /upload) и обновление creative (POST /ads/{id}); без --execute план.
+    pause    — поставить на паузу группы и/или объявления (POST /ad_groups/{id}/pause, /ads/{id}/pause); без --execute план;
+    campaign — статус кампании (activate/pause) и дневной лимит (POST /campaigns/{id}); без --execute план, перед записью
+               и после неё печатается состояние кампании;
+    copy-ads — копии существующих объявлений в той же группе с другой ссылкой (на паузе, модерация отдельно); без --execute план.
 
 БЕЗОПАСНОСТЬ: set-bid и set-image по умолчанию только показывают план «было → станет» и ничего
 не пишут. Реальная запись — только с флагом --execute, после неё группы читаются
@@ -363,6 +367,100 @@ def cmd_set_image(a):
         print(f"{x['name']}  {x['status']}/{x.get('review_status')}  {cr.get('title')} | {cr.get('file_id')} | {crop_text(cr)}")
 
 
+def get_campaign(campaign):
+    return call("GET", f"/campaigns/{campaign}")
+
+
+def cmd_pause(a):
+    """Пауза групп и/или объявлений кампании по ID. Без --execute — план «было → станет»."""
+    groups = {g["id"]: g for g in list_groups(a.campaign)}
+    ads = {ad["id"]: ad for ad in list_ads(a.campaign)}
+    bad = [x for x in (a.groups or []) if x not in groups] + [x for x in (a.ads or []) if x not in ads]
+    if bad:
+        sys.exit("Не найдены в кампании: " + ", ".join(bad))
+    print("Объект | Действие | Было → Станет")
+    for gid in a.groups or []:
+        print(f"группа {groups[gid]['name']} ({gid}) | пауза | {groups[gid]['status']} → paused")
+    for aid in a.ads or []:
+        print(f"объявление {ads[aid]['_group_name']} | {ads[aid].get('name')} ({aid}) | пауза | {ads[aid]['status']} → paused")
+    if not a.execute:
+        print("\nПлан. Записи не было (добавьте --execute).")
+        return
+    for gid in a.groups or []:
+        call("POST", f"/ad_groups/{gid}/pause")
+    for aid in a.ads or []:
+        call("POST", f"/ads/{aid}/pause")
+    time.sleep(5)
+    print("\nПрочитано обратно из аккаунта:")
+    after_g = {g["id"]: g for g in list_groups(a.campaign)}
+    for gid in a.groups or []:
+        print(f"  группа {after_g[gid]['name']}  {after_g[gid]['status']}")
+    after_a = {ad["id"]: ad for ad in list_ads(a.campaign)}
+    for aid in a.ads or []:
+        print(f"  объявление {after_a[aid].get('name')}  {after_a[aid]['status']}/{after_a[aid].get('review_status')}")
+
+
+def cmd_campaign(a):
+    """Статус кампании и дневной лимит. Без --execute — план; после записи кампания читается обратно."""
+    c = get_campaign(a.campaign)
+    cur_lim = ((c.get("budget") or {}).get("daily_spend_limit_micros") or 0) / 1e6
+    print("Объект | Действие | Было → Станет")
+    if a.daily_limit is not None:
+        print(f"кампания {c['name']} | дневной лимит | ${cur_lim:g} → ${a.daily_limit:g}")
+    if a.status:
+        print(f"кампания {c['name']} | статус | {c['status']} → {a.status}")
+    if not a.execute:
+        print("\nПлан. Записи не было (добавьте --execute).")
+        return
+    if a.daily_limit is not None:
+        call("POST", f"/campaigns/{a.campaign}", body={"budget": {"daily_spend_limit_micros": int(round(a.daily_limit * 1e6))}})
+    if a.status == "active":
+        call("POST", f"/campaigns/{a.campaign}/activate")
+    elif a.status == "paused":
+        call("POST", f"/campaigns/{a.campaign}/pause")
+    time.sleep(5)
+    c2 = get_campaign(a.campaign)
+    print("\nПрочитано обратно из аккаунта:")
+    print(f"  {c2['name']}  статус {c2['status']}  дневной лимит ${((c2.get('budget') or {}).get('daily_spend_limit_micros') or 0) / 1e6:g}")
+
+
+def cmd_copy_ads(a):
+    """Копии объявлений в той же группе с новой ссылкой и суффиксом в имени; создаются на паузе (модерация и включение отдельно)."""
+    import hashlib
+    ads = {ad["id"]: ad for ad in list_ads(a.campaign)}
+    bad = [x for x in a.ads if x not in ads]
+    if bad:
+        sys.exit("Не найдены в кампании: " + ", ".join(bad))
+    groups = {g["name"]: g["id"] for g in list_groups(a.campaign)}
+    plan = []
+    print("Группа | Исходное | Новое имя | Заголовок | Текст | Ссылка")
+    for aid in a.ads:
+        src = ads[aid]
+        cr = dict(src["creative"])
+        link = a.link + ("&" if "?" in a.link else "?") + "utm_content=" + (a.utm_content + "_" + (src.get("name") or aid).split()[-1].lower())
+        new_name = f"{src.get('name')} {a.suffix}"
+        plan.append((src, cr, link, new_name))
+        print(f"{src['_group_name']} | {src.get('name')} | {new_name} | {cr.get('title')} | {cr.get('body')} | {link}")
+    if not a.execute:
+        print("\nПлан. Записи не было (добавьте --execute). Объявления создаются на паузе.")
+        return
+    created = []
+    for src, cr, link, new_name in plan:
+        body_cr = {"type": cr.get("type", "chat_card"), "title": cr["title"], "body": cr["body"], "target_url": link,
+                   "file_id": cr["file_id"], "image_crop": cr.get("image_crop") or {"x": 0, "y": 0, "width": 1, "height": 1}}
+        gid = groups[src["_group_name"]]
+        idem = "ldv-" + hashlib.sha1((gid + "|" + new_name).encode("utf-8")).hexdigest()[:32]
+        aid = call("POST", "/ads", body={"ad_group_id": gid, "name": new_name, "creative": body_cr, "status": "paused"}, idem=idem)["id"]
+        created.append(aid)
+        print(f"создано {new_name} {aid}")
+    time.sleep(5)
+    print("\nПрочитано обратно из аккаунта:")
+    for ad in list_ads(a.campaign):
+        if ad["id"] in created:
+            print(f"  {ad['_group_name']} | {ad.get('name')} | {ad['status']}/{ad.get('review_status')} | "
+                  f"{(ad.get('creative') or {}).get('target_url')}")
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -392,6 +490,16 @@ def main():
     im.add_argument("--only", nargs="*", help="ad_id из файла соответствий; по умолчанию все")
     im.add_argument("--client-folder", default="Andverpersonalinjury", help="куда писать снимок «до»")
     im.add_argument("--execute", action="store_true"); im.set_defaults(f=cmd_set_image)
+    ps = sub.add_parser("pause"); ps.add_argument("--campaign", required=True)
+    ps.add_argument("--groups", nargs="*", help="ID групп (adgrp_…)"); ps.add_argument("--ads", nargs="*", help="ID объявлений (ad_…)")
+    ps.add_argument("--execute", action="store_true"); ps.set_defaults(f=cmd_pause)
+    cp = sub.add_parser("campaign"); cp.add_argument("--campaign", required=True)
+    cp.add_argument("--daily-limit", type=float, help="дневной лимит, $"); cp.add_argument("--status", choices=["active", "paused"])
+    cp.add_argument("--execute", action="store_true"); cp.set_defaults(f=cmd_campaign)
+    ca = sub.add_parser("copy-ads"); ca.add_argument("--campaign", required=True)
+    ca.add_argument("--ads", nargs="+", required=True, help="ID исходных объявлений")
+    ca.add_argument("--link", required=True, help="ссылка с utm без utm_content"); ca.add_argument("--utm-content", default="copy")
+    ca.add_argument("--suffix", default="tilda"); ca.add_argument("--execute", action="store_true"); ca.set_defaults(f=cmd_copy_ads)
     a = p.parse_args()
     a.f(a)
 
