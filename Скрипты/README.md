@@ -1268,3 +1268,13 @@ PYTHONIOENCODING=utf-8 python profimet_sales_vs_ringostat.py [--window-days 60] 
 `python gtm_test_version.py --account <A> --container <C> --version <N> --url https://… --grant analytics_storage [--events …] [--no-mobile]` — создаёт среду GTM на версии N, открывает сайт в Playwright (desktop и mobile) с подменой `gtm.js`, блокирует чужие домены, GA4-запросы перехватывает и отвечает 204 (в аналитику ничего не уходит), прокручивает страницу и кликает по каждой ссылке `tel:` на отдельной загрузке, печатает события GA4 с параметрами `block_name`, `block_seconds`, `click_place`, затем удаляет среду. Согласие: `--grant ad_storage analytics_storage …` или `--grant none` (контроль). Запускать до `gtm_publish_version.py`. Ограничение: тест не заменяет проверку на реальном трафике; программный клик (`dispatch_event`) используется, когда элемент перекрыт.
 
 `gtm_apply_plan.py` теперь умеет менять согласие у существующего тега: в `update_tags` ключ `set_consent: ["analytics_storage"]`.
+
+## openai_ads.py — новые подкоманды 2026-10-19 (pause, campaign, copy-ads)
+
+Все три по умолчанию показывают план «было → станет», запись только с `--execute`, после записи читают состояние обратно.
+```
+python openai_ads.py pause    --campaign cmpn_… --groups adgrp_… --ads ad_…      # пауза групп и/или объявлений
+python openai_ads.py campaign --campaign cmpn_… --daily-limit 40 --status active # дневной лимит и статус кампании
+python openai_ads.py copy-ads --campaign cmpn_… --ads ad_… --link "<url с utm>" --utm-content cella_test --suffix tilda
+```
+Эндпоинты pause/campaign получены по аналогии с `activate`; `/campaigns/{id}` с `budget.daily_spend_limit_micros` проверен записью 19.10 (лимит $250 → $40), `/ad_groups/{id}/pause` и `/ads/{id}/pause` проверены тогда же. Статус кампании (`--status`) в тот день не менялся — `/campaigns/{id}/activate` не проверен.
