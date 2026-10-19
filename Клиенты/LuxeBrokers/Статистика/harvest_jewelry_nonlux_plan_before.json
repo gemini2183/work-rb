@@ -652,9 +652,19 @@
    "ENABLED",
    "jewelry / non-lux / generic / beverly hills"
   ],
+  "787664388890": [
+   "customers/9534865605/adGroupAds/169389744386~787664388890",
+   "PAUSED",
+   "jewelry / non-lux / generic / beverly hills"
+  ],
   "719781659492": [
    "customers/9534865605/adGroupAds/169389744426~719781659492",
    "ENABLED",
+   "jewelry / non-lux / items / engagement ring"
+  ],
+  "787664388893": [
+   "customers/9534865605/adGroupAds/169389744426~787664388893",
+   "PAUSED",
    "jewelry / non-lux / items / engagement ring"
   ],
   "719781659495": [
@@ -662,25 +672,15 @@
    "ENABLED",
    "jewelry / non-lux / items / wedding ring"
   ],
-  "719781659498": [
-   "customers/9534865605/adGroupAds/169389744626~719781659498",
-   "ENABLED",
-   "jewelry / non-lux / items / ring"
-  ],
-  "787664388890": [
-   "customers/9534865605/adGroupAds/169389744386~787664388890",
-   "PAUSED",
-   "jewelry / non-lux / generic / beverly hills"
-  ],
-  "787664388893": [
-   "customers/9534865605/adGroupAds/169389744426~787664388893",
-   "PAUSED",
-   "jewelry / non-lux / items / engagement ring"
-  ],
   "787664388896": [
    "customers/9534865605/adGroupAds/169389744466~787664388896",
    "PAUSED",
    "jewelry / non-lux / items / wedding ring"
+  ],
+  "719781659498": [
+   "customers/9534865605/adGroupAds/169389744626~719781659498",
+   "ENABLED",
+   "jewelry / non-lux / items / ring"
   ],
   "787664388899": [
    "customers/9534865605/adGroupAds/169389744626~787664388899",

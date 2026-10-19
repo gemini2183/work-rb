@@ -1,5 +1,5 @@
 {
- "_comment": "2026-10-19: п. 5 плана наращивания — harvest-группа фраз продавца в jewelry / non-lux (12 фраз), копия объявления 719781659483 (группа near me, EXCELLENT, 89 кликов, 21 заявка с 12.10). Подготовлено, ждёт «да». Минусы кампании и 6 общих списков фразы не блокируют (gads_negatives_conflicts.py 19.10), дублей по тексту нет.",
+ "_comment": "2026-10-19: п. 5 плана наращивания — harvest-группа фраз продавца в jewelry / non-lux (12 фраз), копия объявления 719781659483 (группа near me, EXCELLENT, 89 кликов, 21 заявка с 12.10). Подготовлено, ждёт «да». Минусы кампании и 6 общих списков фразы не блокируют (gads_negatives_conflicts.py 19.10), дублей по тексту нет. Правка 19.10 по решению пользователя: заголовки без слова Luxury (3 шт.). Первый из трёх планов одобрен пользователем 19.10.",
  "customer_id": "9534865605",
  "campaign": "jewelry / non-lux",
  "new_group": {
@@ -70,14 +70,14 @@
     "text": "Get Top Dollar Offers"
    },
    {
-    "text": "{KeyWord:Sell Your Luxury Jewelry Today}",
+    "text": "{KeyWord:Sell Your Jewelry Today}",
     "pin": "HEADLINE_1"
    },
    {
-    "text": "High Cash for Luxury Jewelry"
+    "text": "High Cash for Your Jewelry"
    },
    {
-    "text": "Best Deals on Luxury Jewelry"
+    "text": "Best Deals on Your Jewelry"
    }
   ],
   "descriptions": [
