@@ -14,6 +14,7 @@
 """
 import argparse
 import io
+import os
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -155,6 +156,8 @@ def main():
                     u = r.request.url
                     host = urlparse(u).netloc
                     if "/g/collect" in u or "/j/collect" in u:
+                        if os.environ.get("RAW") and "click_tel" in (u + (r.request.post_data or "")):
+                            print("      RAW", r.request.method, u[:400].split("?", 1)[-1], "| BODY:", (r.request.post_data or "")[:300])
                         hits.extend(parse_collect(r.request))
                         return r.fulfill(status=204, body="")  # «успех» без отправки: иначе Google Tag повторяет оборванные запросы
                     if "googletagmanager.com/gtm.js" in u and f"id={gtm_id}" in u:
