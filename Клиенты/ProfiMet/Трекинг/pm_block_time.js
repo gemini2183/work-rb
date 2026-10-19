@@ -18,11 +18,6 @@
     rec2907407503: 'final_contact'
   };
   var IDS = Object.keys(NAMES);
-  // по одному «якорному» блоку на имя: block_view считаем один раз на имя (составные блоки — reviews, faq, accessories)
-  var VIEW_IDS = ['rec2905989103', 'rec2907573403', 'rec2999230203', 'rec2958154103', 'rec3211747203', 'rec3210912503',
-    'rec3211915203', 'rec3212364203', 'rec3219096603', 'rec3219324903', 'rec3219455303', 'rec3221657503', 'rec3015645203',
-    'rec2906074503', 'rec2908500503', 'rec2906175303', 'rec3008493103', 'rec2906212003', 'rec2906284003', 'rec2907392403',
-    'rec2907407503'];
   var TICK = 500, IDLE = 10000, FLUSH = 30000;
   var acc = {}, current = 'top', lastTick = Date.now(), lastActive = Date.now(), lastFlush = Date.now();
   window.dataLayer = window.dataLayer || [];
@@ -45,25 +40,6 @@
       }
     }
     lastFlush = Date.now();
-  }
-  // block_view: блок виден минимум на 10% хотя бы 1 секунду, один раз за загрузку страницы (вместо триггера «видимость элемента» GTM:
-  // он давал лишнее событие click_tel без параметра)
-  if ('IntersectionObserver' in window) {
-    var timers = {}, seen = {};
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) {
-        var id = en.target.id;
-        if (en.isIntersecting && en.intersectionRatio >= 0.1) {
-          if (!seen[id] && !timers[id]) {
-            timers[id] = setTimeout(function () {
-              seen[id] = true;
-              window.dataLayer.push({ event: 'block_view', block_name: nameOf(id) });
-            }, 1000);
-          }
-        } else if (timers[id]) { clearTimeout(timers[id]); timers[id] = null; }
-      });
-    }, { threshold: [0, 0.1] });
-    VIEW_IDS.forEach(function (id) { var el = document.getElementById(id); if (el) io.observe(el); });
   }
   function active() { lastActive = Date.now(); }
   ['scroll', 'mousemove', 'keydown', 'touchstart', 'click', 'wheel'].forEach(function (e) {

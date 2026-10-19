@@ -1,8 +1,8 @@
 {
  "account": "6003760261",
  "container": "44158621",
- "workspace_name": "pm-behavior-2026-10-19-v2",
- "version_name": "pm behavior v2: block_view (dataLayer), block_time, click_place, consent analytics_storage",
+ "workspace_name": "pm-behavior-2026-10-19-v3",
+ "version_name": "pm behavior v3: block_time, click_place, consent analytics_storage",
  "version_notes": "ProfiMet, 2026-10-19. Откат: опубликовать версию 63.",
  "built_in_variables": [
   "clickElement"
@@ -64,27 +64,6 @@
  ],
  "triggers": [
   {
-   "name": "pm event block_view",
-   "type": "customEvent",
-   "customEventFilter": [
-    {
-     "type": "equals",
-     "parameter": [
-      {
-       "type": "template",
-       "key": "arg0",
-       "value": "{{_event}}"
-      },
-      {
-       "type": "template",
-       "key": "arg1",
-       "value": "block_view"
-      }
-     ]
-    }
-   ]
-  },
-  {
    "name": "pm event block_time",
    "type": "customEvent",
    "customEventFilter": [
@@ -107,68 +86,6 @@
   }
  ],
  "tags": [
-  {
-   "name": "GA4 - block_view",
-   "type": "gaawe",
-   "parameter": [
-    {
-     "type": "boolean",
-     "key": "sendEcommerceData",
-     "value": "false"
-    },
-    {
-     "type": "template",
-     "key": "eventName",
-     "value": "block_view"
-    },
-    {
-     "type": "template",
-     "key": "measurementIdOverride",
-     "value": "{{GA4 ID}}"
-    },
-    {
-     "type": "template",
-     "key": "measurementId",
-     "value": "none"
-    },
-    {
-     "type": "list",
-     "key": "eventSettingsTable",
-     "list": [
-      {
-       "type": "map",
-       "map": [
-        {
-         "type": "template",
-         "key": "parameter",
-         "value": "block_name"
-        },
-        {
-         "type": "template",
-         "key": "parameterValue",
-         "value": "{{dlv block_name}}"
-        }
-       ]
-      }
-     ]
-    }
-   ],
-   "firingTriggerNames": [
-    "pm event block_view"
-   ],
-   "consentSettings": {
-    "consentStatus": "needed",
-    "consentType": {
-     "type": "list",
-     "list": [
-      {
-       "type": "template",
-       "value": "analytics_storage"
-      }
-     ]
-    }
-   }
-  },
   {
    "name": "GA4 - block_time",
    "type": "gaawe",
@@ -253,7 +170,7 @@
     {
      "type": "template",
      "key": "html",
-     "value": "<script>\n(function () {\n  if (window.__pmBlockTime) return;\n  window.__pmBlockTime = true;\n  var NAMES = {\n    rec2905989103: 'hero', rec2907573403: 'materials', rec2999230203: 'models_intro', rec2958154103: 'mocna',\n    rec3211747203: 'nordstar', rec3210912503: 'hobby', rec3211915203: 'went_plus', rec3212364203: 'standard_plus',\n    rec3219096603: 'kompakt', rec3219324903: 'mini', rec3219455303: 'maxi', rec3221657503: 'szeroka',\n    rec3015645203: 'all_models_cta', rec2906074503: 'discount_100', rec2907832003: 'accessories', rec2908500503: 'accessories',\n    rec2906175303: 'features', rec3008493103: 'reviews', rec3008527103: 'reviews', rec3008441503: 'reviews',\n    rec2906212003: 'about_company', rec2906284003: 'delivery_payment', rec2907388203: 'faq', rec2907392403: 'faq',\n    rec2907407503: 'final_contact'\n  };\n  var IDS = Object.keys(NAMES);\n  // по одному «якорному» блоку на имя: block_view считаем один раз на имя (составные блоки — reviews, faq, accessories)\n  var VIEW_IDS = ['rec2905989103', 'rec2907573403', 'rec2999230203', 'rec2958154103', 'rec3211747203', 'rec3210912503',\n    'rec3211915203', 'rec3212364203', 'rec3219096603', 'rec3219324903', 'rec3219455303', 'rec3221657503', 'rec3015645203',\n    'rec2906074503', 'rec2908500503', 'rec2906175303', 'rec3008493103', 'rec2906212003', 'rec2906284003', 'rec2907392403',\n    'rec2907407503'];\n  var TICK = 500, IDLE = 10000, FLUSH = 30000;\n  var acc = {}, current = 'top', lastTick = Date.now(), lastActive = Date.now(), lastFlush = Date.now();\n  window.dataLayer = window.dataLayer || [];\n\n  function nameOf(id) { return NAMES[id]; }\n  function currentBlock() {\n    var mid = window.innerHeight / 2, name = 'top';\n    for (var i = 0; i < IDS.length; i++) {\n      var el = document.getElementById(IDS[i]);\n      if (el && el.getBoundingClientRect().top <= mid) name = nameOf(IDS[i]);\n    }\n    return name;\n  }\n  function flush(final) {\n    for (var k in acc) {\n      var s = final ? Math.round(acc[k]) : Math.floor(acc[k]);\n      if (s >= 1) {\n        window.dataLayer.push({ event: 'block_time', block_name: k, block_seconds: s });\n        acc[k] -= s;\n      }\n    }\n    lastFlush = Date.now();\n  }\n  // block_view: блок виден минимум на 10% хотя бы 1 секунду, один раз за загрузку страницы (вместо триггера «видимость элемента» GTM:\n  // он давал лишнее событие click_tel без параметра)\n  if ('IntersectionObserver' in window) {\n    var timers = {}, seen = {};\n    var io = new IntersectionObserver(function (entries) {\n      entries.forEach(function (en) {\n        var id = en.target.id;\n        if (en.isIntersecting && en.intersectionRatio >= 0.1) {\n          if (!seen[id] && !timers[id]) {\n            timers[id] = setTimeout(function () {\n              seen[id] = true;\n              window.dataLayer.push({ event: 'block_view', block_name: nameOf(id) });\n            }, 1000);\n          }\n        } else if (timers[id]) { clearTimeout(timers[id]); timers[id] = null; }\n      });\n    }, { threshold: [0, 0.1] });\n    VIEW_IDS.forEach(function (id) { var el = document.getElementById(id); if (el) io.observe(el); });\n  }\n  function active() { lastActive = Date.now(); }\n  ['scroll', 'mousemove', 'keydown', 'touchstart', 'click', 'wheel'].forEach(function (e) {\n    window.addEventListener(e, active, { passive: true });\n  });\n  setInterval(function () {\n    var now = Date.now(), dt = now - lastTick;\n    lastTick = now;\n    var block = currentBlock();\n    if (document.visibilityState === 'visible' && now - lastActive <= IDLE && dt < 5000) {\n      acc[block] = (acc[block] || 0) + dt / 1000;\n    }\n    if (block !== current) { flush(false); current = block; }\n    else if (now - lastFlush >= FLUSH) { flush(false); }\n  }, TICK);\n  document.addEventListener('visibilitychange', function () {\n    if (document.visibilityState === 'hidden') flush(true);\n  });\n  window.addEventListener('pagehide', function () { flush(true); });\n})();\n</script>"
+     "value": "<script>\n(function () {\n  if (window.__pmBlockTime) return;\n  window.__pmBlockTime = true;\n  var NAMES = {\n    rec2905989103: 'hero', rec2907573403: 'materials', rec2999230203: 'models_intro', rec2958154103: 'mocna',\n    rec3211747203: 'nordstar', rec3210912503: 'hobby', rec3211915203: 'went_plus', rec3212364203: 'standard_plus',\n    rec3219096603: 'kompakt', rec3219324903: 'mini', rec3219455303: 'maxi', rec3221657503: 'szeroka',\n    rec3015645203: 'all_models_cta', rec2906074503: 'discount_100', rec2907832003: 'accessories', rec2908500503: 'accessories',\n    rec2906175303: 'features', rec3008493103: 'reviews', rec3008527103: 'reviews', rec3008441503: 'reviews',\n    rec2906212003: 'about_company', rec2906284003: 'delivery_payment', rec2907388203: 'faq', rec2907392403: 'faq',\n    rec2907407503: 'final_contact'\n  };\n  var IDS = Object.keys(NAMES);\n  var TICK = 500, IDLE = 10000, FLUSH = 30000;\n  var acc = {}, current = 'top', lastTick = Date.now(), lastActive = Date.now(), lastFlush = Date.now();\n  window.dataLayer = window.dataLayer || [];\n\n  function nameOf(id) { return NAMES[id]; }\n  function currentBlock() {\n    var mid = window.innerHeight / 2, name = 'top';\n    for (var i = 0; i < IDS.length; i++) {\n      var el = document.getElementById(IDS[i]);\n      if (el && el.getBoundingClientRect().top <= mid) name = nameOf(IDS[i]);\n    }\n    return name;\n  }\n  function flush(final) {\n    for (var k in acc) {\n      var s = final ? Math.round(acc[k]) : Math.floor(acc[k]);\n      if (s >= 1) {\n        window.dataLayer.push({ event: 'block_time', block_name: k, block_seconds: s });\n        acc[k] -= s;\n      }\n    }\n    lastFlush = Date.now();\n  }\n  function active() { lastActive = Date.now(); }\n  ['scroll', 'mousemove', 'keydown', 'touchstart', 'click', 'wheel'].forEach(function (e) {\n    window.addEventListener(e, active, { passive: true });\n  });\n  setInterval(function () {\n    var now = Date.now(), dt = now - lastTick;\n    lastTick = now;\n    var block = currentBlock();\n    if (document.visibilityState === 'visible' && now - lastActive <= IDLE && dt < 5000) {\n      acc[block] = (acc[block] || 0) + dt / 1000;\n    }\n    if (block !== current) { flush(false); current = block; }\n    else if (now - lastFlush >= FLUSH) { flush(false); }\n  }, TICK);\n  document.addEventListener('visibilitychange', function () {\n    if (document.visibilityState === 'hidden') flush(true);\n  });\n  window.addEventListener('pagehide', function () { flush(true); });\n})();\n</script>"
     },
     {
      "type": "boolean",
