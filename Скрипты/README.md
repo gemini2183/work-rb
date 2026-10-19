@@ -1255,3 +1255,10 @@ python gads_channel_audit.py --customer-id 755-278-1705 --client-folder ProfiMet
 python ga4_behavior.py --property 549802233 --client-folder Andverpersonalinjury --from 2026-10-15 --to 2026-10-19 [--exclude-countries Spain] [--exclude-cities Vilnius]
 ```
 Печатает и пишет в `Статистика/ga4_behavior_<с>_to_<по>.txt`: состав сеансов по стране и городу (виден тестовый трафик), источник и устройство, события по названиям, показ блоков (block_view), секунды (block_time), клики по телефону по местам и вопросы FAQ. Ключ — `GA4_KEY_FILE` или путь по умолчанию внутри скрипта (ключ сервисного аккаунта ga4-analytics, в вики не копировать). Контекст — `База_знаний/Паттерны/Поведение-на-сайте-диагностика-реклама-или-сайт.md`.
+
+## Сверка выгрузки продаж CRM ↔ Ringostat (ProfiMet): `profimet_sales_vs_ringostat.py` (только чтение)
+
+```
+PYTHONIOENCODING=utf-8 python profimet_sales_vs_ringostat.py [--window-days 60] [--tol-min 10] [--cache путь.pkl] > вывод.txt
+```
+Читает Google-таблицу продаж клиента (id в константе `SHEET_ID`, нужен доступ сервисного аккаунта `rb-cloud-admin@…` как «Читатель») и звонки Ringostat. **Проверка 1 (атрибуция):** по каждому проданному заказу сайтов `mocnaszklarnia.pl` / `szklarniaprofimet.pl` — все касания того же номера за окно до первой строки заказа, вердикт `СОВПАЛО / НЕ_ПРИСВОЕНО` (учтён «Телефон»/«Нет метки», а раньше был рекламный контакт) `/ ДРУГОЙ_РЕКЛАМНЫЙ_ИСТОЧНИК / НЕТ_РЕКЛАМНОГО_КАСАНИЯ`, плюс первый звонок номера по Ringostat. **Проверка 2 (полнота):** все уникальные (`unique_call=1`) звонки Google Ads и Facebook с 2025-08-01 ищутся в файле по номеру и времени; распределение отклонений по времени, таблица по месяцам, причины пропусков. Пишет `Клиенты/ProfiMet/Статистика/sales_attribution_check_<дата>.csv` и `ringostat_unique_missing_<дата>.csv`. Запускать без `-I`. Лист Ekspertagro.pl в расчёт не входит (другой клиент). Для EkspertAgro — `ringostat_sales_attribution.py`.

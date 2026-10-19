@@ -16,7 +16,8 @@
   variables: [{name, type, parameter}]                              (формат ресурса GTM API v2)
   triggers:  [{name, type, filter|customEventFilter|autoEventFilter, parameter}]
   tags:      [{name, type, parameter, firingTriggerNames: [...], firingTriggerIds: [...]}]
-  update_tags: [{name, set_event_parameters: {имя: значение}}]      (для тегов gaawe: добавить параметры события)
+  update_tags: [{name, set_event_parameters: {имя: значение}, set_consent: ["analytics_storage"]}]
+               (для тегов gaawe: добавить параметры события; set_consent — заменить требуемые типы согласия)
   Имена триггеров резолвятся в id (созданные в этом пакете + существующие).
 
     python gtm_apply_plan.py --plan "Клиенты/Andverpersonalinjury/Трекинг/gtm_plan_2026-10-15.json"
@@ -91,7 +92,8 @@ def main():
     for t in plan.get("tags", []):
         print("  + тег", t["name"], "<-", t.get("firingTriggerNames") or t.get("firingTriggerIds"))
     for u in plan.get("update_tags", []):
-        print("  ~ тег", u["name"], "параметры:", list(u["set_event_parameters"]))
+        print("  ~ тег", u["name"], "параметры:", list(u.get("set_event_parameters", {})),
+              "согласие:", u.get("set_consent", "без изменений"))
     if errors:
         print("\nОСТАНОВКА:")
         for e in errors:
@@ -140,12 +142,16 @@ def main():
         print("  тег", t["name"], r["tagId"])
     for u in plan.get("update_tags", []):
         tag = call(s, "GET", f"{wp}/tags/{existing_tags[u['name']]['tagId']}")
-        params = [x for x in tag.get("parameter", []) if x.get("key") != "eventSettingsTable"]
-        rows = [{"type": "map", "map": [{"type": "template", "key": "parameter", "value": k},
-                                         {"type": "template", "key": "parameterValue", "value": v}]}
-                for k, v in u["set_event_parameters"].items()]
-        params.append({"type": "list", "key": "eventSettingsTable", "list": rows})
-        tag["parameter"] = params
+        if u.get("set_event_parameters"):
+            params = [x for x in tag.get("parameter", []) if x.get("key") != "eventSettingsTable"]
+            rows = [{"type": "map", "map": [{"type": "template", "key": "parameter", "value": k},
+                                             {"type": "template", "key": "parameterValue", "value": v}]}
+                    for k, v in u["set_event_parameters"].items()]
+            params.append({"type": "list", "key": "eventSettingsTable", "list": rows})
+            tag["parameter"] = params
+        if u.get("set_consent"):
+            tag["consentSettings"] = {"consentStatus": "needed", "consentType": {
+                "type": "list", "list": [{"type": "template", "value": c} for c in u["set_consent"]]}}
         call(s, "PUT", f"{wp}/tags/{tag['tagId']}?fingerprint={tag['fingerprint']}", json=tag)
         print("  правка тега", u["name"])
 
