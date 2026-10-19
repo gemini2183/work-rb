@@ -244,6 +244,7 @@
   },
   "active": "49438aefe15a1236",
   "lastOpenFiles": [
+    "Скрипты/v_D.txt",
     "Скрипты/v_C.txt",
     "Клиенты/ProfiMet/Трекинг/gtm_plan_probeD.json",
     "Клиенты/ProfiMet/Трекинг/gtm_plan_probeC.json",
@@ -254,7 +255,6 @@
     "Скрипты/__pycache__/gtm_test_version.cpython-313.pyc",
     "Скрипты/gtm_test_version.py",
     "Клиенты/ProfiMet/Трекинг/gtm_plan_2026-10-19.json",
-    "Клиенты/ProfiMet/Трекинг/build_gtm_plan.py",
     "База_знаний/Паттерны/Атрибуция-продаж-повторные-касания-как-убедить-клиента.md",
     "Клиенты/ProfiMet/Запрос_выгрузка_продаж_2026-10-16.md",
     "База_знаний/Инструменты/Microsoft-Clarity-Data-Export-API.md",
