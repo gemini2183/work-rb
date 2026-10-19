@@ -1,0 +1,6 @@
+{
+ "_comment": "2026-10-19: gold_ — убрать таргетинг Downtown Los Angeles (кольцо 1 от 13.10, И-012). Основание: 14–18.10 по location_view 519 показов, 33 клика, 232 $ (68% расхода кампании), 1 заявка (232 $ за заявку при допустимых 79–88 $). Решение пользователя 19.10: «давай его исключать». Откат: add_locations id 9060325 (gold_stage3_ring1_geo_plan.json).",
+ "customer_id": "9534865605",
+ "campaign": "gold_",
+ "remove_locations": [{"id": 9060325, "label": "Downtown Los Angeles (Neighborhood)"}]
+}

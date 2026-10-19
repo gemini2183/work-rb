@@ -12,6 +12,7 @@
   * сменить статус групп (`set_group_status`) и ключей (`set_keyword_status`: [{"group", "text", "match", "status"}]);
   * только отвязать общие списки минусов от кампании (`detach_lists`: ["имя списка"]) — без создания нового;
   * добавить гео-критерии кампании (`add_locations`: [{"id": <geoTargetConstant id>, "label": "..."}]) — без ставок;
+  * убрать гео-критерии кампании (`remove_locations`: [{"id": <geoTargetConstant id>, "label": "..."}]) — район перестаёт таргетироваться;
   * добавить ключи в существующие группы (`add_keywords`: [{"group", "text", "match"}]) — включённые; дубль в кампании — остановка.
 
 Режимы:
@@ -224,6 +225,17 @@ def main():
         c.location.geo_target_constant = rn_const
         ops.append(op)
 
+    # 2b'. убрать гео-критерии кампании (район перестаёт таргетироваться; откат — add_locations по снимку «до»):
+    #      {"remove_locations": [{"id": 9060325, "label": "Downtown Los Angeles"}]}
+    loc_rn = {c: rn for c, neg, rn in before["campaign_locations"] if not neg}
+    for item in plan.get("remove_locations", []):
+        rn_const = f"geoTargetConstants/{item['id']}"
+        if rn_const not in loc_rn:
+            sys.exit(f"Локации {item.get('label', '')} {rn_const} нет среди таргетируемых в кампании")
+        op = mop()
+        op.campaign_criterion_operation.remove = loc_rn[rn_const]
+        ops.append(op)
+
     # 2c. добавить ключи в СУЩЕСТВУЮЩИЕ группы: {"add_keywords": [{"group": "...", "text": "...", "match": "PHRASE"}]};
     #     дубли (тот же текст в любой группе кампании) — остановка, а не молчаливое пропускание
     if plan.get("add_keywords"):
@@ -433,6 +445,14 @@ def main():
         print(f"локаций в кампании: {len(got)} (было {len(have_loc)})")
         for rn_const, label in want.items():
             print(f"  локация {label} {rn_const}: {'есть' if rn_const in got else 'НЕТ'}")
+    if plan.get("remove_locations"):
+        locs = q(f"SELECT campaign_criterion.location.geo_target_constant, campaign_criterion.negative FROM campaign_criterion "
+                 f"WHERE campaign.id = {camp_id} AND campaign_criterion.type = 'LOCATION'")
+        got = {r.campaign_criterion.location.geo_target_constant for r in locs}
+        print(f"локаций в кампании: {len(got)} (было {len(before['campaign_locations'])})")
+        for i in plan["remove_locations"]:
+            rn_const = f"geoTargetConstants/{i['id']}"
+            print(f"  локация {i.get('label', '')} {rn_const}: {'ЕЩЁ ЕСТЬ' if rn_const in got else 'убрана'}")
     if plan.get("add_keywords"):
         want_kw = {i["text"].lower() for i in plan["add_keywords"]}
         rows_kw = q(f"SELECT ad_group.name, ad_group_criterion.keyword.text, ad_group_criterion.keyword.match_type, ad_group_criterion.status "
