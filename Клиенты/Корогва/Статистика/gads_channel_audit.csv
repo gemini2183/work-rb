@@ -1,0 +1,4 @@
+campaign_id,Campaign,Type,Bidding,Search,SearchPartners,Display,Budget_day,Shared_budget,Total_budget,cost_CONTENT,cost_DISCOVER,cost_GMAIL,cost_SEARCH,cost_SEARCH_PARTNERS,cost_YOUTUBE,cost_total
+23988795967,Merchant_Performance Max-1,PERFORMANCE_MAX,MAXIMIZE_CONVERSION_VALUE,True,True,True,700.0,False,0,965.94,1632.06,0.0,17793.97,0.0,20.97,20412.94
+24002677828,Merchant_Shopping- прапори,SHOPPING,TARGET_ROAS,True,True,False,700.0,False,0,0.0,0.0,0.0,20802.18,2.18,0.0,20804.36
+24237106451,Merchant_Demand Gen,DEMAND_GEN,TARGET_CPA,True,True,True,400.0,False,0,0.0,331.42,0.0,0.0,0.0,600.0,931.42

@@ -6,6 +6,8 @@ customer_id: "7552781705"
 
 site_urls:
   - https://mocnaszklarnia.pl/
+  - https://mocnaszklarnia.pl/ofirmie      # «О компании»: 16 лет, личная гарантия качества (чисел гарантии нет)
+  - https://mocnaszklarnia.pl/produkty     # каталог: модели «+ PREZENT» (числа подарков нет), цен нет
 
 # Как достать значение со страницы сайта (regex по тексту страницы; pick: mode — самое частое, first — первое)
 site_extract:
@@ -21,6 +23,7 @@ site_extract:
   reviews:          {regex: 'Ponad\s+(\d+)\s+recenzji', pick: first}
   multi_discount:   {regex: 'rabat o wysokości\s+(\d+)\s*z[łl]', pick: first}
   countries:        {regex: 'geografia sprzedaży szklarni\s*(\d+)\s+krajów', pick: first}
+  experience_about: {regex: 'Od\s+(\d+)\s+lat\s+zajmujemy', pick: first}   # страница /ofirmie и /produkty
 
 # Подтверждённые значения (сравниваются с сайтом; расхождение = «сайт изменился, обновить рекламу»)
 expected:
@@ -36,7 +39,8 @@ expected:
   reviews: "80"
   multi_discount: "100"
   countries: "11"
-verified: "2026-10-13: отрисованная страница mocnaszklarnia.pl (Playwright/Chrome) + скриншоты пользователя (значок ECJiP «Wyprodukowano w Polsce»)"
+  experience_about: "16"
+verified: "2026-10-19: добавлены /ofirmie и /produkty (отдельной страницы «Доставка и оплата» на сайте нет — в sitemap 6 страниц: /, /produkty, /ofirmie, /cookies, /polityka-prywatnosci, /thanks; условия доставки и гарантия — на главной). 2026-10-13: отрисованная страница mocnaszklarnia.pl (Playwright/Chrome) + скриншоты пользователя (значок ECJiP «Wyprodukowano w Polsce»)"
 
 # Утверждения в рекламных текстах, которые надо сверять с фактом (группа 1 regex — значение)
 claims:

@@ -1,0 +1,8 @@
+campaign_id,Campaign,Type,Bidding,Search,SearchPartners,Display,Budget_day,Shared_budget,Total_budget,cost_SEARCH,cost_total
+21863567679,diamonds,SEARCH,MAXIMIZE_CONVERSIONS,True,False,False,350.0,False,0,465.44,465.44
+21863784402,watches / lux,SEARCH,MAXIMIZE_CONVERSIONS,True,False,False,250.0,False,0,2659.33,2659.33
+21874137004,jewelry / non-lux,SEARCH,MAXIMIZE_CONVERSIONS,True,False,False,154.37,False,0,1874.22,1874.22
+21874148347,jewelry / lux,SEARCH,MAXIMIZE_CONVERSIONS,True,False,False,250.0,False,0,227.31,227.31
+22021627355,silver,SEARCH,TARGET_SPEND,True,False,False,75.0,False,0,1837.3,1837.3
+22025494312,gold_,SEARCH,MAXIMIZE_CONVERSIONS,True,False,False,250.0,False,0,1496.59,1496.59
+23733296589,watches / non-lux,SEARCH,MAXIMIZE_CONVERSIONS,True,False,False,350.0,False,0,1058.77,1058.77

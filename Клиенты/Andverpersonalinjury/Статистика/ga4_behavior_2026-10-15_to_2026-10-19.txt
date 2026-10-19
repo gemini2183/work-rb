@@ -1,0 +1,59 @@
+GA4 549802233 | 2026-10-15 → 2026-10-19 | исключено: страны ['Spain'], города —
+
+== 1. Состав сеансов по стране и городу (БЕЗ исключений) — тестовый трафик виден здесь
+страна | город | сеансы | вовлечённые
+Spain | Barcelona | 23 | 4
+United States | New York | 4 | 1
+United States | Stockton | 3 | 1
+(not set) | (not set) | 2 | 0
+United States | (not set) | 2 | 0
+United States | Anaheim | 1 | 0
+United States | Bloomfield | 1 | 0
+United States | Chicago | 1 | 0
+United States | City of Atwater | 1 | 1
+United States | Lakeport | 1 | 0
+United States | Long Beach | 1 | 0
+
+== 2. Источник/канал и устройство (после исключений)
+источник / канал | устройство | сеансы | вовлечённые | ср. время вовлечения, с
+google / cpc | mobile | 6 | 3 | 57
+(direct) / (none) | mobile | 5 | 0 | 0
+(direct) / (none) | desktop | 3 | 0 | 0
+google / cpc | desktop | 2 | 0 | 6
+chatgpt.com / cpc | mobile | 1 | 0 | 0
+
+== 3. События (после исключений): число событий и сеансов с событием
+событие | событий | пользователей
+block_time | 20 | 8
+page_view | 17 | 16
+session_start | 17 | 16
+block_view | 16 | 7
+first_visit | 16 | 16
+stay_10s | 3 | 3
+user_engagement | 1 | 1
+
+== 4. Блоки: показ блока (block_view) и секунды (block_time)
+блок | block_view событий | block_view пользователей
+ai_hero | 7 | 6
+your_crash | 5 | 5
+case_examples | 1 | 1
+crash_scenarios | 1 | 1
+faq | 1 | 1
+truck_cases | 1 | 1
+
+== 4b. Секунды по блокам (block_time)
+блок | событий | секунд всего
+ai_hero | 11 | 56
+your_crash | 3 | 25
+crash_scenarios | 2 | 2
+truck_cases | 2 | 3
+case_examples | 1 | 1
+header | 1 | 6
+
+== 5. Клики по телефону по местам
+место | кликов | пользователей
+(нет данных)
+
+== 5b. Вопросы FAQ, которые открывали
+вопрос | раз | пользователей
+(нет данных)
