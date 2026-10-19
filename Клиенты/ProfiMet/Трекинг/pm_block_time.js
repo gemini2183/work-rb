@@ -1,6 +1,7 @@
 // GTM: пользовательский HTML-тег «pm block_time» (ProfiMet, mocnaszklarnia.pl, главная). Триггер: All Pages.
-// По образцу Landver (Клиенты/Andverpersonalinjury/Трекинг/gtm_block_time.js), но без stay_10s / engaged_*: в контейнере ProfiMet
-// уже есть time_15sec…time_300sec и engage_low/mid/hi — не дублируем.
+// По образцу Landver (Клиенты/Andverpersonalinjury/Трекинг/gtm_block_time.js). Кроме block_time пушит stay_10s / engaged_30s / engaged_90s
+// по АКТИВНОМУ времени (вкладка видима, есть движение/прокрутка/клики не реже раз в 10 с). Существующие time_15sec…time_300sec в GTM —
+// обычные таймеры с момента загрузки (не знают про простой и скрытую вкладку), поэтому это не дубль, а другая метрика.
 // Считает секунды на каждом блоке и пушит в dataLayer: {event: 'block_time', block_name: '<имя блока>', block_seconds: <целые секунды>}
 // Правила: блок = последний, верх которого выше середины экрана; таймер стоит, если вкладка скрыта или 10 с нет
 // движения/прокрутки/кликов; отправка block_time при смене блока, каждые 30 с и при уходе. Блоки Tilda — по id `rec…`.
@@ -18,8 +19,9 @@
     rec2907407503: 'final_contact'
   };
   var IDS = Object.keys(NAMES);
+  var STEPS = [[10, 'stay_10s'], [30, 'engaged_30s'], [90, 'engaged_90s']];
   var TICK = 500, IDLE = 10000, FLUSH = 30000;
-  var acc = {}, current = 'top', lastTick = Date.now(), lastActive = Date.now(), lastFlush = Date.now();
+  var acc = {}, total = 0, current = 'top', lastTick = Date.now(), lastActive = Date.now(), lastFlush = Date.now();
   window.dataLayer = window.dataLayer || [];
 
   function nameOf(id) { return NAMES[id]; }
@@ -51,6 +53,11 @@
     var block = currentBlock();
     if (document.visibilityState === 'visible' && now - lastActive <= IDLE && dt < 5000) {
       acc[block] = (acc[block] || 0) + dt / 1000;
+      total += dt / 1000;
+      while (STEPS.length && total >= STEPS[0][0]) {
+        window.dataLayer.push({ event: STEPS[0][1] });
+        STEPS.shift();
+      }
     }
     if (block !== current) { flush(false); current = block; }
     else if (now - lastFlush >= FLUSH) { flush(false); }

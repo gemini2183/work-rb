@@ -67,7 +67,9 @@ def run_scenario(pg, grant, wait_s):
         pg.mouse.wheel(0, vh * 0.6)
         pg.wait_for_timeout(1700)
         y += vh * 0.6
-    pg.wait_for_timeout(wait_s * 1000)
+    for k in range(max(1, wait_s // 3)):  # держим «активность» (движение мыши), чтобы таймеры активного времени шли
+        pg.mouse.move(200 + (k % 5) * 40, 300 + (k % 3) * 30)
+        pg.wait_for_timeout(3000)
     n = pg.evaluate("document.querySelectorAll('a[href^=\"tel:\"]').length")
     clicked = 0
     pg.wait_for_timeout(2500)

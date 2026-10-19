@@ -48,8 +48,8 @@ TEL_PLACE_JS = ("function(){var e={{Click Element}};var a=e&&e.closest?e.closest
 
 plan = {
     "account": "6003760261", "container": "44158621",
-    "workspace_name": "pm-behavior-2026-10-19-v3",
-    "version_name": "pm behavior v3: block_time, click_place, consent analytics_storage",
+    "workspace_name": "pm-behavior-2026-10-19-v4",
+    "version_name": "pm behavior v4: block_time, stay_10s/engaged_30s/engaged_90s (active time), click_place, consent analytics_storage",
     "version_notes": "ProfiMet, 2026-10-19. Откат: опубликовать версию 63.",
     "built_in_variables": ["clickElement"],
     "variables": [
@@ -58,12 +58,16 @@ plan = {
         dlv("dlv block_seconds", "block_seconds"),
     ],
     "triggers": [
+        *[{"name": f"pm event {e}", "type": "customEvent",
+           "customEventFilter": [{"type": "equals", "parameter": [tmpl("arg0", "{{_event}}"), tmpl("arg1", e)]}]}
+          for e in ("stay_10s", "engaged_30s", "engaged_90s")],
         {"name": "pm event block_time", "type": "customEvent",
          "customEventFilter": [{"type": "equals", "parameter": [tmpl("arg0", "{{_event}}"), tmpl("arg1", "block_time")]}]},
     ],
     "tags": [
         ga4_event("GA4 - block_time", "block_time",
                   {"block_name": "{{dlv block_name}}", "block_seconds": "{{dlv block_seconds}}"}, ["pm event block_time"]),
+        *[ga4_event(f"GA4 - {e}", e, None, [f"pm event {e}"]) for e in ("stay_10s", "engaged_30s", "engaged_90s")],
         {"name": "pm block_time script", "type": "html",
          "parameter": [tmpl("html", html_block_time), {"type": "boolean", "key": "supportDocumentWrite", "value": "false"}],
          "firingTriggerIds": [ALL_PAGES]},
