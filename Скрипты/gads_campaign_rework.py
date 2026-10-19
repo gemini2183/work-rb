@@ -237,16 +237,18 @@ def main():
         ops.append(op)
 
     # 2c. добавить ключи в СУЩЕСТВУЮЩИЕ группы: {"add_keywords": [{"group": "...", "text": "...", "match": "PHRASE"}]};
-    #     дубли (тот же текст в любой группе кампании) — остановка, а не молчаливое пропускание
+    #     дубли (тот же текст И тот же тип соответствия в любой группе кампании) — остановка, а не молчаливое пропускание;
+    #     тот же текст в другом типе (например, EXACT рядом с PHRASE) — допустимо
     if plan.get("add_keywords"):
-        have_kw = {r.ad_group_criterion.keyword.text.lower() for r in q(
-            f"SELECT ad_group_criterion.keyword.text FROM ad_group_criterion WHERE campaign.id = {camp_id} "
+        have_kw = {(r.ad_group_criterion.keyword.text.lower(),
+                    nm('KeywordMatchTypeEnum', 'KeywordMatchType', r.ad_group_criterion.keyword.match_type)) for r in q(
+            f"SELECT ad_group_criterion.keyword.text, ad_group_criterion.keyword.match_type FROM ad_group_criterion WHERE campaign.id = {camp_id} "
             f"AND ad_group_criterion.type = 'KEYWORD' AND ad_group_criterion.negative = FALSE AND ad_group_criterion.status != 'REMOVED'")}
         for item in plan["add_keywords"]:
             if item["group"] not in groups:
                 sys.exit(f"Группа '{item['group']}' не найдена в кампании")
-            if item["text"].lower() in have_kw:
-                sys.exit(f"Ключ '{item['text']}' уже есть в кампании")
+            if (item["text"].lower(), item.get("match", "PHRASE")) in have_kw:
+                sys.exit(f"Ключ '{item['text']}' ({item.get('match', 'PHRASE')}) уже есть в кампании")
             op = mop()
             c = op.ad_group_criterion_operation.create
             c.ad_group = groups[item["group"]][1]
@@ -454,11 +456,12 @@ def main():
             rn_const = f"geoTargetConstants/{i['id']}"
             print(f"  локация {i.get('label', '')} {rn_const}: {'ЕЩЁ ЕСТЬ' if rn_const in got else 'убрана'}")
     if plan.get("add_keywords"):
-        want_kw = {i["text"].lower() for i in plan["add_keywords"]}
+        want_kw = {(i["text"].lower(), i.get("match", "PHRASE")) for i in plan["add_keywords"]}
         rows_kw = q(f"SELECT ad_group.name, ad_group_criterion.keyword.text, ad_group_criterion.keyword.match_type, ad_group_criterion.status "
                     f"FROM ad_group_criterion WHERE campaign.id = {camp_id} AND ad_group_criterion.type = 'KEYWORD' "
                     f"AND ad_group_criterion.negative = FALSE AND ad_group_criterion.status != 'REMOVED'")
-        got_kw = [r for r in rows_kw if r.ad_group_criterion.keyword.text.lower() in want_kw]
+        got_kw = [r for r in rows_kw if (r.ad_group_criterion.keyword.text.lower(),
+                  nm('KeywordMatchTypeEnum', 'KeywordMatchType', r.ad_group_criterion.keyword.match_type)) in want_kw]
         print(f"добавленных ключей прочитано: {len(got_kw)} из {len(want_kw)}; всего позитивных ключей в кампании: {len(rows_kw)}")
         for r in got_kw:
             print("  ключ:", r.ad_group.name, "|", r.ad_group_criterion.keyword.text, "|",

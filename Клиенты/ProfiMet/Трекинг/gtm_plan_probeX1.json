@@ -1,0 +1,268 @@
+{
+ "account": "6003760261",
+ "container": "44158621",
+ "workspace_name": "pm-probe-X1b",
+ "version_name": "probe X1b: active time with param",
+ "version_notes": "Проба, не публиковать.",
+ "built_in_variables": [],
+ "variables": [],
+ "triggers": [
+  {
+   "name": "pm event stay_10s",
+   "type": "customEvent",
+   "customEventFilter": [
+    {
+     "type": "equals",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{_event}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "stay_10s"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "pm event engaged_30s",
+   "type": "customEvent",
+   "customEventFilter": [
+    {
+     "type": "equals",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{_event}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "engaged_30s"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "pm event engaged_90s",
+   "type": "customEvent",
+   "customEventFilter": [
+    {
+     "type": "equals",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{_event}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "engaged_90s"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "tags": [
+  {
+   "name": "GA4 - stay_10s",
+   "type": "gaawe",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "stay_10s"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "{{GA4 ID}}"
+    },
+    {
+     "type": "template",
+     "key": "measurementId",
+     "value": "none"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "active_seconds"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "10"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "firingTriggerNames": [
+    "pm event stay_10s"
+   ],
+   "consentSettings": {
+    "consentStatus": "needed",
+    "consentType": {
+     "type": "list",
+     "list": [
+      {
+       "type": "template",
+       "value": "analytics_storage"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "name": "GA4 - engaged_30s",
+   "type": "gaawe",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "engaged_30s"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "{{GA4 ID}}"
+    },
+    {
+     "type": "template",
+     "key": "measurementId",
+     "value": "none"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "active_seconds"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "30"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "firingTriggerNames": [
+    "pm event engaged_30s"
+   ],
+   "consentSettings": {
+    "consentStatus": "needed",
+    "consentType": {
+     "type": "list",
+     "list": [
+      {
+       "type": "template",
+       "value": "analytics_storage"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "name": "GA4 - engaged_90s",
+   "type": "gaawe",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "engaged_90s"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "{{GA4 ID}}"
+    },
+    {
+     "type": "template",
+     "key": "measurementId",
+     "value": "none"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "active_seconds"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "90"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "firingTriggerNames": [
+    "pm event engaged_90s"
+   ],
+   "consentSettings": {
+    "consentStatus": "needed",
+    "consentType": {
+     "type": "list",
+     "list": [
+      {
+       "type": "template",
+       "value": "analytics_storage"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "update_tags": [
+  {
+   "name": "pm block_time script",
+   "set_html": "<script>\n(function () {\n  if (window.__pmBlockTime) return;\n  window.__pmBlockTime = true;\n  var NAMES = {\n    rec2905989103: 'hero', rec2907573403: 'materials', rec2999230203: 'models_intro', rec2958154103: 'mocna',\n    rec3211747203: 'nordstar', rec3210912503: 'hobby', rec3211915203: 'went_plus', rec3212364203: 'standard_plus',\n    rec3219096603: 'kompakt', rec3219324903: 'mini', rec3219455303: 'maxi', rec3221657503: 'szeroka',\n    rec3015645203: 'all_models_cta', rec2906074503: 'discount_100', rec2907832003: 'accessories', rec2908500503: 'accessories',\n    rec2906175303: 'features', rec3008493103: 'reviews', rec3008527103: 'reviews', rec3008441503: 'reviews',\n    rec2906212003: 'about_company', rec2906284003: 'delivery_payment', rec2907388203: 'faq', rec2907392403: 'faq',\n    rec2907407503: 'final_contact'\n  };\n  var IDS = Object.keys(NAMES);\n  var STEPS = [[10, 'stay_10s'], [30, 'engaged_30s'], [90, 'engaged_90s']];\n  var TICK = 500, IDLE = 10000, FLUSH = 30000;\n  var acc = {}, total = 0, current = 'top', lastTick = Date.now(), lastActive = Date.now(), lastFlush = Date.now();\n  window.dataLayer = window.dataLayer || [];\n\n  function nameOf(id) { return NAMES[id]; }\n  function currentBlock() {\n    var mid = window.innerHeight / 2, name = 'top';\n    for (var i = 0; i < IDS.length; i++) {\n      var el = document.getElementById(IDS[i]);\n      if (el && el.getBoundingClientRect().top <= mid) name = nameOf(IDS[i]);\n    }\n    return name;\n  }\n  function flush(final) {\n    for (var k in acc) {\n      var s = final ? Math.round(acc[k]) : Math.floor(acc[k]);\n      if (s >= 1) {\n        window.dataLayer.push({ event: 'block_time', block_name: k, block_seconds: s });\n        acc[k] -= s;\n      }\n    }\n    lastFlush = Date.now();\n  }\n  function active() { lastActive = Date.now(); }\n  ['scroll', 'mousemove', 'keydown', 'touchstart', 'click', 'wheel'].forEach(function (e) {\n    window.addEventListener(e, active, { passive: true });\n  });\n  setInterval(function () {\n    var now = Date.now(), dt = now - lastTick;\n    lastTick = now;\n    var block = currentBlock();\n    if (document.visibilityState === 'visible' && now - lastActive <= IDLE && dt < 5000) {\n      acc[block] = (acc[block] || 0) + dt / 1000;\n      total += dt / 1000;\n      while (STEPS.length && total >= STEPS[0][0]) {\n        window.dataLayer.push({ event: STEPS[0][1] });\n        STEPS.shift();\n      }\n    }\n    if (block !== current) { flush(false); current = block; }\n    else if (now - lastFlush >= FLUSH) { flush(false); }\n  }, TICK);\n  document.addEventListener('visibilitychange', function () {\n    if (document.visibilityState === 'hidden') flush(true);\n  });\n  window.addEventListener('pagehide', function () { flush(true); });\n})();\n</script>"
+  }
+ ]
+}

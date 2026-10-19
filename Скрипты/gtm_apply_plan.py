@@ -17,7 +17,7 @@
   triggers:  [{name, type, filter|customEventFilter|autoEventFilter, parameter}]
   tags:      [{name, type, parameter, firingTriggerNames: [...], firingTriggerIds: [...]}]
   update_tags: [{name, set_event_parameters: {имя: значение}, set_consent: ["analytics_storage"]}]
-               (для тегов gaawe: добавить параметры события; set_consent — заменить требуемые типы согласия)
+               (для тегов gaawe: добавить параметры события; set_consent — заменить требуемые типы согласия; set_html — новый код HTML-тега)
   Имена триггеров резолвятся в id (созданные в этом пакете + существующие).
 
     python gtm_apply_plan.py --plan "Клиенты/Andverpersonalinjury/Трекинг/gtm_plan_2026-10-15.json"
@@ -92,7 +92,7 @@ def main():
     for t in plan.get("tags", []):
         print("  + тег", t["name"], "<-", t.get("firingTriggerNames") or t.get("firingTriggerIds"))
     for u in plan.get("update_tags", []):
-        print("  ~ тег", u["name"], "параметры:", list(u.get("set_event_parameters", {})),
+        print("  ~ тег", u["name"], "параметры:", list(u.get("set_event_parameters", {})), "html:", bool(u.get("set_html")),
               "согласие:", u.get("set_consent", "без изменений"))
     if errors:
         print("\nОСТАНОВКА:")
@@ -149,6 +149,10 @@ def main():
                     for k, v in u["set_event_parameters"].items()]
             params.append({"type": "list", "key": "eventSettingsTable", "list": rows})
             tag["parameter"] = params
+        if u.get("set_html"):  # заменить код пользовательского HTML-тега
+            for x in tag.get("parameter", []):
+                if x.get("key") == "html":
+                    x["value"] = u["set_html"]
         if u.get("set_consent"):
             tag["consentSettings"] = {"consentStatus": "needed", "consentType": {
                 "type": "list", "list": [{"type": "template", "value": c} for c in u["set_consent"]]}}

@@ -1,0 +1,8 @@
+{
+  "name": "gold_",
+  "status": "ENABLED",
+  "strategy": "MAXIMIZE_CONVERSIONS",
+  "tcpa": 40.0,
+  "budget": 250.0,
+  "budget_resource": "customers/9534865605/campaignBudgets/15497145284"
+}

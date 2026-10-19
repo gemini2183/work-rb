@@ -1,0 +1,17 @@
+{
+ "_comment": "2026-10-19: EXACT-копии фразовых ключей с большим числом показов и низкой долей показа вверху страницы (14–18.10). Одобрено пользователем 19.10 («да»). Фразовые ключи остаются. Откат: поставить EXACT-ключи на паузу.",
+ "customer_id": "9534865605",
+ "campaign": "jewelry / non-lux",
+ "add_keywords": [
+  {
+   "group": "jewelry / non-lux / generic / sell",
+   "text": "sell jewelry",
+   "match": "EXACT"
+  },
+  {
+   "group": "jewelry / non-lux / generic / buyers",
+   "text": "we buy jewelry",
+   "match": "EXACT"
+  }
+ ]
+}

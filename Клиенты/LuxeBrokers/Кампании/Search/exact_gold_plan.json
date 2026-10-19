@@ -1,0 +1,32 @@
+{
+ "_comment": "2026-10-19: EXACT-копии фразовых ключей с большим числом показов и низкой долей показа вверху страницы (14–18.10). Одобрено пользователем 19.10 («да»). Фразовые ключи остаются. Откат: поставить EXACT-ключи на паузу.",
+ "customer_id": "9534865605",
+ "campaign": "gold_",
+ "add_keywords": [
+  {
+   "group": "Gold",
+   "text": "sell gold",
+   "match": "EXACT"
+  },
+  {
+   "group": "Gold Buyer",
+   "text": "we buy gold",
+   "match": "EXACT"
+  },
+  {
+   "group": "Cash For Gold",
+   "text": "cash for gold",
+   "match": "EXACT"
+  },
+  {
+   "group": "Gold Near Me",
+   "text": "sell gold near me",
+   "match": "EXACT"
+  },
+  {
+   "group": "Gold Near Me",
+   "text": "gold buyers near me",
+   "match": "EXACT"
+  }
+ ]
+}
