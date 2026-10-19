@@ -1,0 +1,5 @@
+channel,utm,pool,found,matched,ok
+"default [desktop]","default","+12137947666","2137947666","2137947666",True
+"default [mobile]","default","+12137947666","2137947666","2137947666",True
+"Google Ads (cpc) [desktop]","utm_source=google;utm_medium=cpc;utm_campaign=gold_test","+12133296035|+12133296024|+12133295162|+12133010476|+12133295137|+12133295019|+12133295047","2133295246","",False
+"Google Ads (cpc) [mobile]","utm_source=google;utm_medium=cpc;utm_campaign=gold_test","+12133296035|+12133296024|+12133295162|+12133010476|+12133295137|+12133295019|+12133295047","2133295246","",False
