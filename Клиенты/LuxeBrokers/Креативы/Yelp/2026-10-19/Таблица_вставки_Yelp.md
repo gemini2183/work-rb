@@ -26,8 +26,11 @@ updated: 2026-10-19
 Порядок в галерее: 1 баннер, затем 2, 3, 4, 6, 7, 5, 11, остальные. Ad photo выбирается из галереи (Smart selection тестирует фото из галереи, база знаний Yelp-платформа-обзор).
 
 ## Текст объявления («Write your ad text»)
-Вариант 1 (172 знака): Cash for gold and silver in Beverly Hills. We buy coins, bars, scrap and broken gold — silver and platinum too. Free evaluation, no fees, cash or bank transfer. Call today!
-Вариант 2 (130 знаков): We buy gold and silver in Beverly Hills. Free evaluation, no fees, paid by cash or bank transfer. Coins, bars, scrap — call today!
+Лимит поля 1 500 знаков (счётчик 1361 при 139 знаках — остаток). В превью виден только первый ≈ 117 знаков, дальше обрезка: поэтому весь смысл и призыв — в первых ≈ 105 знаках. Сейчас стоит: «Your gold is worth more than you think — find out with a free instant appraisal. No fees, no obligation, cash paid on the spot. Call today!» (139) — в превью обрезано после «cash paid on», призыв не виден, серебра нет.
+
+Вариант E (рекомендую, 101 знак, виден целиком): We buy gold and silver in Beverly Hills. Free evaluation, no fees, cash or bank transfer. Call today!
+Вариант F (106): Sell gold and silver for cash in Beverly Hills. Free evaluation, no fees, bank transfer or cash. Call now!
+Вариант G (104, с монетами и слитками): We buy gold & silver, coins and bars in Beverly Hills. Free evaluation, no fees, cash or bank transfer.
 
 ## Слова (Keyword Boosting)
 Boost (серебро, по образцу золотых): Sell Silver, Silver Buyers, Cash For Silver, Sell Silver Coins, Sell Silver Bullion, Best Place To Sell Silver, Sell Sterling Silver.
