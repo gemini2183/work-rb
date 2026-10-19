@@ -101,7 +101,11 @@ def tel_places(ctx, url, gtm_url_handler, grant, hits):
             loc.click(timeout=3000, no_wait_after=True)
             status = "клик"
         except Exception as e:
-            status = "не кликнулось (" + str(e).splitlines()[0][:50] + ")"
+            try:  # перекрыто баннером/скрыто — шлём событие клика прямо в элемент (проверяет правила GTM, не геометрию)
+                pg.locator('a[href^="tel:"]').nth(i).dispatch_event("click")
+                status = "программный клик (элемент перекрыт: " + str(e).splitlines()[0][:40] + ")"
+            except Exception as e2:
+                status = "не кликнулось (" + str(e2).splitlines()[0][:50] + ")"
         pg.wait_for_timeout(2500)
         got = [h.get("ep.click_place", "<пусто>") for h in hits[before:] if h.get("en") == "click_tel"]
         res.append((i, desc, status, got))
