@@ -65,7 +65,9 @@ from _config import VAULT_ROOT
 TEL_RE = re.compile(r"tel:([0-9+%]+)")
 # видимый текст: разрешаем пробелы/скобки/дефисы между цифрами (написание
 # "+1 844 452 9465" или "(888) 352-9465"), не только слитную запись
-VISIBLE_PHONE_RE = re.compile(r"\+?1?[\s.\-]?\(?\d{3}\)?[\s.\-]?\d{3}[\s.\-]?\d{4}")
+# любой номер из 9–13 цифр с пробелами/скобками/дефисами (США 10 цифр, Польша +48 + 9 = 11); прежний шаблон 3-3-4 цифры
+# обрезал 11-значный польский номер до 10 цифр и давал ложный MISMATCH (ProfiMet, 2026-10-20)
+VISIBLE_PHONE_RE = re.compile(r"\+?\d[\d\s().\-]{7,18}\d")
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/120.0 Safari/537.36"
@@ -87,7 +89,7 @@ def canon(raw: str) -> str | None:
     считался разными. Артефакты незавершённого JS-рендера ("tel:+1+1") — None.
     """
     digits = re.sub(r"\D", "", normalize_phone(raw))
-    return digits[-10:] if len(digits) >= 10 else None
+    return digits[-9:] if len(digits) >= 9 else None  # последние 9 цифр: США (10), Польша (9 + код 48), Латвия
 
 
 # Собирает КАЖДЫЙ элемент страницы с номером отдельно (а не общее множество
@@ -98,7 +100,7 @@ def canon(raw: str) -> str | None:
 # экране они видны, и их номер так же обязан быть подменён.
 COLLECT_JS = r"""() => {
   const out = [];
-  const rx = /\+?1?[\s.\-]?\(?\d{3}\)?[\s.\-]?\d{3}[\s.\-]?\d{4}/g;
+  const rx = /\+?\d[\d\s().\-]{7,18}\d/g;
   const sec = el => { const s = el.closest('[id]'); return s ? s.id : ''; };
   const vis = el => {
     const r = el.getBoundingClientRect();
