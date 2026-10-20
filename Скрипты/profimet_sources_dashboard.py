@@ -69,6 +69,43 @@ def fb_daily(frm, to):
     return d
 
 
+GA4_KEY = r"E:/PythonProjects/RedBird/google-cloud-jobs/adwhite/func/ga4_profimet/redbird-196813-ga4.json"  # сервисный аккаунт ga4-analytics (в вики не копировать)
+GA4_PROPERTY = "349001266"
+MODE_OUR = "Наш (60 дней, формы из CRM)"
+MODE_CLIENT = "Как у клиента (звонки за всю историю, формы GA4)"
+
+
+def ga4_forms_daily(frm, to):
+    """Формы из GA4: СЕАНСЫ с событием form_submit по дате и источнику сеанса (так считает клиентский дашборд, подтверждено 2026-10-20):
+    google / cpc → Google Ads, любой источник с facebook → Facebook, остальное → «Нет метки»."""
+    from google.auth.transport.requests import AuthorizedSession
+    s = AuthorizedSession(Credentials.from_service_account_file(GA4_KEY, scopes=["https://www.googleapis.com/auth/analytics.readonly"]))
+    body = {"dateRanges": [{"startDate": str(frm), "endDate": str(to)}], "dimensions": [{"name": "date"}, {"name": "sessionSourceMedium"}],
+            "metrics": [{"name": "sessions"}], "limit": 100000,
+            "dimensionFilter": {"filter": {"fieldName": "eventName", "stringFilter": {"value": "form_submit"}}}}
+    r = s.post(f"https://analyticsdata.googleapis.com/v1beta/properties/{GA4_PROPERTY}:runReport", json=body, timeout=120)
+    r.raise_for_status()
+    rows = []
+    for x in r.json().get("rows", []):
+        d, sm = x["dimensionValues"][0]["value"], x["dimensionValues"][1]["value"].lower()
+        src = "Google Ads" if sm == "google / cpc" else "Facebook" if "facebook" in sm else "Нет метки"
+        rows.append({"day": pd.Timestamp(d).date(), "src2": src, "forms_c": int(float(x["metricValues"][0]["value"]))})
+    df = pd.DataFrame(rows, columns=["day", "src2", "forms_c"])
+    return df.groupby(["day", "src2"], as_index=False)["forms_c"].sum()
+
+
+def client_like_daily(ringo, ga4f):
+    """Конверсии «как у клиента»: звонки — первый звонок номера за всю историю Ringostat (входящие, отслеживаемые каналы,
+    Google Ads и Facebook), формы — сеансы GA4. По дате и источнику."""
+    r = ringo[(ringo["call_type"] == "in") & ringo["our_unique"] & ringo["category"].isin(["Google Ads", "Facebook"])].copy()
+    r["day"] = r["ts"].dt.tz_convert(W).dt.date
+    r["src2"] = r["category"]
+    calls = r.groupby(["day", "src2"]).size().rename("calls_c").reset_index()
+    out = pd.merge(calls, ga4f, on=["day", "src2"], how="outer").fillna(0)
+    out["calls_c"], out["forms_c"] = out["calls_c"].astype(int), out["forms_c"].astype(int)
+    return out
+
+
 def contacts_with_new_flag(sheet):
     """Обращения (звонок/форма) листа с флагом «новое по правилу 60 дн» (лестница: окно от последнего засчитанного)."""
     s = sheet[(sheet["site"] == SITE) & sheet["type"].isin(["звонок", "форма"]) & (sheet["p9"] != "")].copy()
@@ -106,17 +143,33 @@ def sales_with_source(sheet):
     return pd.DataFrame(rows)
 
 
-def build(frm, to, ads, fb, contacts, sales, usd_eur):
+def build(frm, to, ads, fb, contacts, sales, usd_eur, client=None, mode="our"):
     f, t = pd.Timestamp(frm).date(), pd.Timestamp(to).date()
     a = ads[(ads["date"] >= f) & (ads["date"] <= t)]
     b = fb[(fb["date"] >= f) & (fb["date"] <= t)]
     paid = {"Google Ads": (a["cost"].sum(), a["clicks"].sum(), a["impr"].sum()),
             "Facebook": (b["cost"].sum() * usd_eur, b["clicks"].sum(), b["impr"].sum())}
     c = contacts[contacts["new"] & (contacts["day"] >= f) & (contacts["day"] <= t)]
+    cl = client[(client["day"] >= f) & (client["day"] <= t)] if client is not None else None
     sl = sales[(sales["sale_date"] >= f) & (sales["sale_date"] <= t)]
     out, notes = [], []
+    if mode == "client":
+        notes.append("Режим «как у клиента»: звонки — первый звонок номера за всю историю Ringostat; формы — сеансы GA4 form_submit по источнику сеанса; "
+                     "«Телефон» и «Прочее» без конверсий. Продажи — по нашему правилу (выгрузка CRM) в обоих режимах.")
     for src in SOURCES:
         cost, clk, imp = paid.get(src, (None, None, None))
+        if mode == "client":
+            x = cl[cl["src2"] == src]
+            calls_c, forms_c = int(x["calls_c"].sum()), int(x["forms_c"].sum())
+            if src in ("Google Ads", "Facebook"):
+                conv, calls = calls_c + forms_c, calls_c
+            elif src == "Нет метки":
+                conv, calls = forms_c, None
+            else:
+                conv = calls = None
+            out.append({"Источник": src, "Цена": cost, "Клики": clk, "Показы": imp, "Конверсии": conv, "Звонки": calls,
+                        "Продажи": int((sl["src2"] == src).sum())})
+            continue
         cc = c[c["src2"] == src]
         conv, calls = len(cc), int((cc["type"] == "звонок").sum())
         # Структура колонок как у клиентского дашборда: конверсиями считаются Google Ads, Facebook, «Нет метки» (звонки — только
@@ -223,11 +276,13 @@ ol.d{{margin:12px 0;padding-left:20px;font-size:13px;color:var(--mut)}}
 MONTHS_RU = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"]
 
 
-def daily_table(frm, to, ads, fb, contacts, sales):
+def daily_table(frm, to, ads, fb, contacts, sales, client):
     """Длинная таблица «дата × источник»: расход/клики/показы (Google — евро, Facebook — доллары как в BigQuery), конверсии,
-    звонки (из конверсий), продажи. Из неё формулы листа «Дашборд» собирают любой период."""
+    звонки (из конверсий), продажи, а также конверсии и звонки «как у клиента» (режим переключается на листе «Дашборд»). Из неё формулы
+    листа «Дашборд» собирают любой период."""
     cm = contacts[contacts["new"]].groupby(["day", "src2"]).agg(conv=("type", "size"), calls=("type", lambda s: int((s == "звонок").sum())))
     sm = sales.groupby(["sale_date", "src2"]).size()
+    cdx = client.set_index(["day", "src2"])
     a, b = ads.set_index("date"), fb.set_index("date")
     rows = []
     for d in pd.date_range(frm, to).date:
@@ -241,8 +296,12 @@ def daily_table(frm, to, ads, fb, contacts, sales):
                     cost, clk, imp = 0.0, 0, 0
             conv = int(cm["conv"].get((d, src), 0)) if (d, src) in cm.index else 0
             calls = int(cm["calls"].get((d, src), 0)) if (d, src) in cm.index else 0
+            calls_c = int(cdx["calls_c"].get((d, src), 0)) if (d, src) in cdx.index else 0
+            forms_c = int(cdx["forms_c"].get((d, src), 0)) if (d, src) in cdx.index else 0
             rows.append({"Дата": d, "Источник": src, "Цена": cost, "Клики": clk, "Показы": imp, "Конверсии": conv,
-                         "Звонки": calls, "Продажи": int(sm.get((d, src), 0))})
+                         "Звонки": calls, "Продажи": int(sm.get((d, src), 0)),
+                         "Конверсии_клиент": calls_c + forms_c if src in ("Google Ads", "Facebook") else (forms_c if src == "Нет метки" else 0),
+                         "Звонки_клиент": calls_c if src in ("Google Ads", "Facebook") else 0})
     return pd.DataFrame(rows)
 
 
@@ -260,14 +319,16 @@ def write_xlsx_dynamic(path, daily, usd_eur, frm, to):
     bold, head, inp = Font(bold=True), PatternFill("solid", fgColor="DDEBF7"), PatternFill("solid", fgColor="FFF2CC")
 
     # --- Данные
-    wd.append(["Дата", "Источник", "Цена (Google — €, Facebook — $ как в BigQuery)", "Клики", "Показы", "Конверсии (новые обращения)", "из них звонки", "Продажи"])
+    wd.append(["Дата", "Источник", "Цена (Google — €, Facebook — $ как в BigQuery)", "Клики", "Показы", "Конверсии (наш режим: новые обращения CRM)", "из них звонки", "Продажи",
+               "Конверсии (как у клиента: звонки + формы GA4)", "из них звонки (первый звонок за всю историю)"])
     for c in wd[1]:
         c.font, c.fill = bold, head
     for _, r in daily.iterrows():
-        wd.append([r["Дата"], r["Источник"], r["Цена"], r["Клики"], r["Показы"], r["Конверсии"], r["Звонки"], r["Продажи"]])
+        wd.append([r["Дата"], r["Источник"], r["Цена"], r["Клики"], r["Показы"], r["Конверсии"], r["Звонки"], r["Продажи"],
+                   r["Конверсии_клиент"], r["Звонки_клиент"]])
         wd.cell(wd.max_row, 1).number_format = "DD.MM.YYYY"
     wd.freeze_panes = "A2"
-    for col, w in zip("ABCDEFGH", (12, 12, 22, 10, 12, 18, 14, 10)):
+    for col, w in zip("ABCDEFGHIJ", (12, 12, 22, 10, 12, 20, 14, 10, 24, 24)):
         wd.column_dimensions[col].width = w
 
     # --- Списки: готовые периоды (динамические от сегодняшней даты и статические месяцы/недели)
@@ -306,15 +367,19 @@ def write_xlsx_dynamic(path, daily, usd_eur, frm, to):
     ws["D4"], ws["E4"] = "Свой период: конец", t0.date()
     ws["A5"], ws["B5"] = "Курс USD→EUR для Facebook (допущение, можно менять)", usd_eur
     ws["A6"], ws["B6"] = "Данные есть по", "=MAX('Данные'!$A:$A)"
+    ws["A7"], ws["B7"] = "Режим подсчёта конверсий и звонков", MODE_OUR
     for ref in ("B3", "B4", "B6", "E3", "E4"):
         ws[ref].number_format = "DD.MM.YYYY"
-    for ref in ("B2", "E3", "E4", "B5"):
+    for ref in ("B2", "E3", "E4", "B5", "B7"):
         ws[ref].fill = inp
-    for ref in ("A2", "A3", "A4", "A5", "A6", "D3", "D4"):
+    for ref in ("A2", "A3", "A4", "A5", "A6", "A7", "D3", "D4"):
         ws[ref].font = bold
     dv = DataValidation(type="list", formula1=f"='Списки'!$A$2:$A${last_list}", allow_blank=False, showDropDown=False)
     ws.add_data_validation(dv)
     dv.add("B2")
+    dv2 = DataValidation(type="list", formula1=f'"{MODE_OUR},{MODE_CLIENT}"', allow_blank=False, showDropDown=False)
+    ws.add_data_validation(dv2)
+    dv2.add("B7")
 
     cols = ["Источник", "Цена", "Клики", "Показы", "Цена клика", "CTR %", "Конверсии", "% конверсии", "Цена заявки", "Звонки", "Продажи", "% продажи", "Цена продажи"]
     for j, c in enumerate(cols, 1):
@@ -333,10 +398,10 @@ def write_xlsx_dynamic(path, daily, usd_eur, frm, to):
         ws.cell(r, 4, f"={S('E', r)}" if paid else D)
         ws.cell(r, 5, f'=IFERROR(B{r}/C{r},"")' if paid else D)
         ws.cell(r, 6, f'=IFERROR(C{r}/D{r}*100,"")' if paid else D)
-        ws.cell(r, 7, f"={S('F', r)}" if has_conv else D)
+        ws.cell(r, 7, f'=IF(LEFT($B$7,3)="Как",{S("I", r)},{S("F", r)})' if has_conv else D)
         ws.cell(r, 8, f'=IFERROR(G{r}/C{r}*100,"")' if paid else D)
         ws.cell(r, 9, f'=IFERROR(B{r}/G{r},"")' if paid else D)
-        ws.cell(r, 10, f"={S('G', r)}" if has_calls else D)
+        ws.cell(r, 10, f'=IF(LEFT($B$7,3)="Как",{S("J", r)},{S("G", r)})' if has_calls else D)
         ws.cell(r, 11, f"={S('H', r)}")
         ws.cell(r, 12, f'=IFERROR(K{r}/G{r}*100,"")' if has_conv else D)
         ws.cell(r, 13, f'=IFERROR(B{r}/K{r},"")' if paid else D)
@@ -361,9 +426,11 @@ def write_xlsx_dynamic(path, daily, usd_eur, frm, to):
         for j, f in fm.items():
             ws.cell(r, j).number_format = f
             ws.cell(r, j).alignment = Alignment(horizontal="right")
-    ws["A16"] = f'="Телефон: новых обращений "&{S("F", 12)}&" (из них звонков "&{S("G", 12)}&") — в «Конверсии» и «Звонки» не включены"'
-    ws["A17"] = f'="Нет метки: из "&G11&" конверсий звонков "&{S("G", 11)}&" — в колонке «Звонки» не показаны"'
-    ws["A18"] = f'="Прочее: новых обращений "&{S("F", 13)}&" — в «Конверсии» и «Звонки» не включены"'
+    ws["A16"] = ('=IF(LEFT($B$7,3)="Как","Режим «как у клиента»: звонки — первый звонок номера за всю историю Ringostat; формы — сеансы GA4 form_submit по источнику сеанса; '
+                 'Телефон и Прочее без конверсий. Продажи — по нашему правилу (выгрузка CRM) в обоих режимах.",'
+                 + f'"Телефон: новых обращений "&{S("F", 12)}&" (из них звонков "&{S("G", 12)}&") — в «Конверсии» и «Звонки» не включены")')
+    ws["A17"] = f'=IF(LEFT($B$7,3)="Как","","Нет метки: из "&G11&" конверсий звонков "&{S("G", 11)}&" — в колонке «Звонки» не показаны")'
+    ws["A18"] = f'=IF(LEFT($B$7,3)="Как","","Прочее: новых обращений "&{S("F", 13)}&" — в «Конверсии» и «Звонки» не включены")'
     ws.column_dimensions["A"].width = 46
     for col in "BCDEFGHIJKLM":
         ws.column_dimensions[col].width = 14
@@ -374,6 +441,9 @@ def write_xlsx_dynamic(path, daily, usd_eur, frm, to):
     # --- Как считается
     wh.column_dimensions["A"].width = 150
     for t in DEFINITIONS + ["Курс USD→EUR для Facebook — ячейка B5 листа «Дашборд» (допущение; в BigQuery расход хранится в долларах).",
+                            "Режим B7: «Наш» — конверсии и звонки по нашему правилу 60 дней из выгрузки CRM; «Как у клиента» — звонки: первый звонок номера за всю "
+                            "историю Ringostat (входящие, отслеживаемые каналы), формы: сеансы GA4 form_submit по источнику сеанса (google / cpc → Google Ads, facebook* → Facebook, "
+                            "остальное → Нет метки); подтверждено на двух периодах скринов клиента 2026-10-20. Продажи в обоих режимах одинаковые (наше правило).",
                             "Период выбирается в ячейке B2 листа «Дашборд»; для «Свой период» даты вводятся в E3 и E4. «Текущий месяц» и «Текущая неделя» считаются "
                             "от сегодняшней даты, но данных нет позже даты, указанной в B6 (данные обновляются повторным запуском скрипта profimet_sources_dashboard.py)."]:
         wh.append([t])
@@ -403,7 +473,8 @@ def refresh_google_sheet(file_id, daily, frm, to):
         return v.item() if hasattr(v, "item") else v
 
     # Сначала готовим и проверяем ВСЕ данные (json.dumps упадёт на NaN), и только потом очищаем листы: сбой не оставит таблицу пустой.
-    rows = [[clean(x) for x in (ser(r["Дата"]), r["Источник"], r["Цена"], r["Клики"], r["Показы"], r["Конверсии"], r["Звонки"], r["Продажи"])]
+    rows = [[clean(x) for x in (ser(r["Дата"]), r["Источник"], r["Цена"], r["Клики"], r["Показы"], r["Конверсии"], r["Звонки"], r["Продажи"],
+                                      r["Конверсии_клиент"], r["Звонки_клиент"])]
             for _, r in daily.iterrows()]
     f0, t0 = pd.Timestamp(frm), pd.Timestamp(to)
     st = [[f"Весь период ({f0:%d.%m.%Y}–{t0:%d.%m.%Y})", ser(f0.date()), ser(t0.date())]]
@@ -413,7 +484,7 @@ def refresh_google_sheet(file_id, daily, frm, to):
     json.dumps(rows), json.dumps(st)
 
     # Данные: очистить и записать заново (даты — числами: так таблица не зависит от локали)
-    s.post(base + "/values/Данные!A2:H5000:clear", json={}, timeout=60).raise_for_status()
+    s.post(base + "/values/Данные!A2:J5000:clear", json={}, timeout=60).raise_for_status()
     s.put(base + "/values/Данные!A2?valueInputOption=USER_ENTERED", json={"values": rows}, timeout=120).raise_for_status()
 
     # Списки: статическая часть (весь период, месяцы, недели, «Свой период») начиная с 8-й строки; динамические 2–7 не трогаем
@@ -448,16 +519,54 @@ def periods(frm, to, by):
             cur += pd.Timedelta(days=7)
 
 
+def rebuild_google_sheet(file_id, xlsx_path):
+    """Полная пересборка Google Таблицы из xlsx (структура листов и формул): загрузка через Drive API с конвертацией, затем то, что
+    конвертация теряет: русская локаль и часовой пояс, выпадающие списки периода (B2) и режима (B7), формат дат. Выбор периода/режима
+    возвращается к значениям по умолчанию. Нужен доступ «Редактор» сервисному аккаунту."""
+    import json
+    from google.auth.transport.requests import AuthorizedSession
+    creds = Credentials.from_service_account_file(str(SERVICE_ACCOUNT_FILE), scopes=["https://www.googleapis.com/auth/drive"])
+    s = AuthorizedSession(creds)
+    b = "xxBOUNDARYxx"
+    body = (f"--{b}\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n" + json.dumps({"mimeType": "application/vnd.google-apps.spreadsheet"}) +
+            f"\r\n--{b}\r\nContent-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\r\n\r\n").encode() + open(xlsx_path, "rb").read() \
+        + f"\r\n--{b}--".encode()
+    s.patch(f"https://www.googleapis.com/upload/drive/v3/files/{file_id}?uploadType=multipart&supportsAllDrives=true", data=body,
+            headers={"Content-Type": f"multipart/related; boundary={b}"}, timeout=180).raise_for_status()
+    s2 = AuthorizedSession(Credentials.from_service_account_file(str(SERVICE_ACCOUNT_FILE), scopes=["https://www.googleapis.com/auth/spreadsheets"]))
+    base = f"https://sheets.googleapis.com/v4/spreadsheets/{file_id}"
+    meta = s2.get(base + "?fields=sheets(properties(sheetId,title))", timeout=60).json()
+    ids = {x["properties"]["title"]: x["properties"]["sheetId"] for x in meta["sheets"]}
+    n = len(s2.get(base + "/values/Списки!A2:A200", timeout=60).json()["values"])
+    dash = ids["Дашборд"]
+    msg = "Выберите период из списка. Для произвольных дат выберите «Свой период» и впишите даты в E3 и E4."
+    req = [{"updateSpreadsheetProperties": {"properties": {"locale": "ru_RU", "timeZone": "Europe/Warsaw"}, "fields": "locale,timeZone"}},
+           {"setDataValidation": {"range": {"sheetId": dash, "startRowIndex": 1, "endRowIndex": 2, "startColumnIndex": 1, "endColumnIndex": 2},
+            "rule": {"condition": {"type": "ONE_OF_RANGE", "values": [{"userEnteredValue": f"='Списки'!$A$2:$A${n + 1}"}]}, "strict": True, "showCustomUi": True,
+                     "inputMessage": msg}}},
+           {"setDataValidation": {"range": {"sheetId": dash, "startRowIndex": 6, "endRowIndex": 7, "startColumnIndex": 1, "endColumnIndex": 2},
+            "rule": {"condition": {"type": "ONE_OF_LIST", "values": [{"userEnteredValue": MODE_OUR}, {"userEnteredValue": MODE_CLIENT}]},
+                     "strict": True, "showCustomUi": True, "inputMessage": "Наш режим или «как у клиента» (звонки за всю историю + формы GA4)."}}},
+           {"repeatCell": {"range": {"sheetId": dash, "startRowIndex": 2, "endRowIndex": 4, "startColumnIndex": 4, "endColumnIndex": 5},
+                           "cell": {"userEnteredFormat": {"numberFormat": {"type": "DATE", "pattern": "dd.mm.yyyy"}}}, "fields": "userEnteredFormat.numberFormat"}}]
+    s2.post(base + ":batchUpdate", json={"requests": req}, timeout=60).raise_for_status()
+    return n
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--from", dest="frm", default="2026-08-01")
     ap.add_argument("--to", dest="to", default=(date.today() - timedelta(days=1)).isoformat())
     ap.add_argument("--by", choices=["month", "week"], default=None)
-    ap.add_argument("--usd-eur", type=float, default=0.85, help="курс для расхода Facebook (в BigQuery — доллары); ПАРАМЕТР, не факт")
+    ap.add_argument("--usd-eur", type=float, default=0.8244,
+                    help="курс для расхода Facebook (в BigQuery — доллары); 0.8244 — курс, который даёт расход клиентского дашборда (509.12 € = 617.56 $ × 0.8244, "
+                         "01.10–19.10.2026); допущение, не рыночный курс")
     ap.add_argument("--cache", default=None, help="pickle (sheet, ringo_full), как у profimet_season_audit.py")
     ap.add_argument("--no-open", action="store_true", help="не открывать страницу в браузере после запуска")
     ap.add_argument("--update-sheet", nargs="?", const=DASHBOARD_SHEET_ID, default=None, metavar="ID",
                     help="обновить данные в Google Таблице дашборда (по умолчанию — «ProfiMet — по источникам (дашборд)»): листы «Данные» и «Списки»")
+    ap.add_argument("--rebuild-sheet", nargs="?", const=DASHBOARD_SHEET_ID, default=None, metavar="ID",
+                    help="полностью пересобрать Google Таблицу из xlsx (если менялась структура формул); выбор периода и режима сбрасывается")
     a = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
 
@@ -469,27 +578,36 @@ def main():
             pickle.dump((sheet, ringo), open(a.cache, "wb"))
     ads, fb = ads_daily(a.frm, a.to), fb_daily(a.frm, a.to)
     contacts, sales = contacts_with_new_flag(sheet), sales_with_source(sheet)
+    client = client_like_daily(ringo, ga4_forms_daily(a.frm, a.to))
 
-    total = build(a.frm, a.to, ads, fb, contacts, sales, a.usd_eur)
-    show(total, f"ProfiMet, по источникам, {a.frm} — {a.to}")
     out_dir = client_stats_dir("ProfiMet")
+    total = build(a.frm, a.to, ads, fb, contacts, sales, a.usd_eur)
+    total_c = build(a.frm, a.to, ads, fb, contacts, sales, a.usd_eur, client=client, mode="client")
+    show(total, f"ПО-НАШЕМУ (60 дней, формы из CRM), {a.frm} — {a.to}")
+    show(total_c, f"КАК У КЛИЕНТА (звонки за всю историю, формы GA4), {a.frm} — {a.to}")
     total.to_csv(out_dir / f"dashboard_sources_{a.frm}_{a.to}.csv", index=False, encoding="utf-8-sig")
+    total_c.to_csv(out_dir / f"dashboard_sources_client_mode_{a.frm}_{a.to}.csv", index=False, encoding="utf-8-sig")
     if a.by:
         for s, e, label in periods(a.frm, a.to, a.by):
-            show(build(s, e, ads, fb, contacts, sales, a.usd_eur), f"{label}: {s} — {e}")
+            show(build(s, e, ads, fb, contacts, sales, a.usd_eur), f"{label} (наш): {s} — {e}")
+            show(build(s, e, ads, fb, contacts, sales, a.usd_eur, client=client, mode="client"), f"{label} (как у клиента): {s} — {e}")
 
-    # страница: весь период + каждый месяц (всегда), открывается в браузере
-    frames = [(f"Весь период: {a.frm} — {a.to}", total)]
+    # страница: весь период и каждый месяц в обоих режимах, открывается в браузере
+    frames = [(f"Весь период, наш режим: {a.frm} — {a.to}", total), (f"Весь период, как у клиента: {a.frm} — {a.to}", total_c)]
     for s, e, label in periods(a.frm, a.to, "month"):
-        frames.append((f"{label}: {s} — {e}", build(s, e, ads, fb, contacts, sales, a.usd_eur)))
+        frames.append((f"{label}, наш режим: {s} — {e}", build(s, e, ads, fb, contacts, sales, a.usd_eur)))
+        frames.append((f"{label}, как у клиента: {s} — {e}", build(s, e, ads, fb, contacts, sales, a.usd_eur, client=client, mode="client")))
     meta = (f"Данные выгрузки CRM до {sheet['ts'].max().tz_convert(W):%d.%m.%Y %H:%M}; расход Facebook — BigQuery (доллары) × {a.usd_eur} "
             f"(курс — параметр); сформировано {pd.Timestamp.now(tz=W):%d.%m.%Y %H:%M}.")
     html_path = out_dir / f"dashboard_sources_{a.frm}_{a.to}.html"
     write_html(html_path, frames, meta)
     xlsx_path = out_dir / f"dashboard_sources_{a.frm}_{a.to}.xlsx"
-    daily = daily_table(a.frm, a.to, ads, fb, contacts, sales)
+    daily = daily_table(a.frm, a.to, ads, fb, contacts, sales, client)
     write_xlsx_dynamic(xlsx_path, daily, a.usd_eur, a.frm, a.to)
-    if a.update_sheet:
+    if a.rebuild_sheet:
+        n = rebuild_google_sheet(a.rebuild_sheet, xlsx_path)
+        print(f"Google Таблица пересобрана: https://docs.google.com/spreadsheets/d/{a.rebuild_sheet}/edit — периодов в списке {n}")
+    elif a.update_sheet:
         n, last = refresh_google_sheet(a.update_sheet, daily, a.frm, a.to)
         print(f"Google Таблица обновлена: https://docs.google.com/spreadsheets/d/{a.update_sheet}/edit — строк данных {n}, периодов в списке {last - 1}")
     print(f"\nСтраница: {html_path}\nТаблица Excel (можно загрузить в Google Таблицы): {xlsx_path}")
