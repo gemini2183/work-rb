@@ -128,7 +128,9 @@ COLLECT_JS = r"""() => {
   document.body.querySelectorAll('*').forEach(el => {
     if (['SCRIPT', 'STYLE', 'NOSCRIPT', 'TEMPLATE'].includes(el.tagName.toUpperCase())) return;
     if (el.closest('a[href^="tel:"]')) return;
-    const hits = (el.textContent || '').match(rx);
+    const full = el.textContent || '';
+    if (full.length > 1500) return;  // большие контейнеры не сканируем: номер, разбитый тегами, лежит в коротком блоке (иначе прогон зависает)
+    const hits = full.match(rx);
     if (!hits) return;
     for (const h of hits) {
       const d = digitsOf(h);
