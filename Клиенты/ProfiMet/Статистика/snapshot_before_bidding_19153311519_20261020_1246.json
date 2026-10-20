@@ -1,0 +1,7 @@
+{
+ "name": "Search | Brand | Pl",
+ "status": "ENABLED",
+ "strategy": "MAXIMIZE_CONVERSIONS",
+ "target_cpa": 14.06,
+ "cpc_ceiling": 0.0
+}
