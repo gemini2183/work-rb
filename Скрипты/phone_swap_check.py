@@ -124,7 +124,13 @@ COLLECT_JS = r"""() => {
 
 
 def grab_elements(page, url: str, wait_ms: int) -> list[dict]:
-    page.goto(url, wait_until="networkidle", timeout=30000)
+    # `networkidle` на сайтах с фоновой сетевой активностью (чат, трекеры) не наступает никогда (ekspertagro.pl, 2026-10-02):
+    # ждём `load`, затем пробуем `networkidle` ограниченное время и в любом случае даём паузу на подмену.
+    page.goto(url, wait_until="load", timeout=45000)
+    try:
+        page.wait_for_load_state("networkidle", timeout=8000)
+    except Exception:
+        pass
     page.wait_for_timeout(wait_ms)
     return page.evaluate(COLLECT_JS)
 
@@ -225,12 +231,21 @@ def main():
     results = []
     with sync_playwright() as p:
         browser = p.chromium.launch()
-        page = browser.new_page(user_agent=UA)
         viewports = [("desktop", 1280, 900)] + ([] if args.desktop_only else [("mobile", 390, 844)])
         for case in cases:
             for vp_name, w, h in viewports:
-                page.set_viewport_size({"width": w, "height": h})
-                res = check_one(page, base_url, case["utm"], case["pool"], args.wait_ms, ignore)
+                # новый контекст на каждый прогон: Ringostat помнит UTM-сессию посетителя, иначе следующий прогон
+                # получает номер предыдущего (проверено 2026-10-02)
+                ctx = browser.new_context(user_agent=UA, viewport={"width": w, "height": h})
+                page = ctx.new_page()
+                try:
+                    res = check_one(page, base_url, case["utm"], case["pool"], args.wait_ms, ignore)
+                except Exception as e:
+                    res = {"utm": case["utm"], "url": base_url, "pool": case["pool"], "found": [], "matched": [], "bad": [], "ok": False,
+                           "error": str(e)[:150]}
+                    print(f"    ошибка прогона: {res['error']}")
+                finally:
+                    ctx.close()
                 res["name"] = f"{case['name']} [{vp_name}]"
                 results.append(res)
                 status = "OK" if res["ok"] else "MISMATCH"
