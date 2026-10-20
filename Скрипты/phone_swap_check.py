@@ -121,6 +121,34 @@ COLLECT_JS = r"""() => {
     if (hits) out.push({kind: 'text', href: '', text: hits.join(' | ').slice(0, 80),
                         cls: String(el.className || '').slice(0, 80), section: sec(el), visible: vis(el)});
   }
+  // Номер, разбитый тегами на куски (напр. «+48 <span>794</span> 771 451»): ни один текстовый узел целиком его не содержит,
+  // поэтому обход узлов выше его пропускает. Ищем по textContent элемента: берём самый глубокий элемент, внутри которого
+  // номер ещё целиком, и только если нет ни одного своего текстового узла и ни одного дочернего элемента с тем же номером.
+  const digitsOf = s => (s || '').replace(/\D/g, '');
+  document.body.querySelectorAll('*').forEach(el => {
+    if (['SCRIPT', 'STYLE', 'NOSCRIPT', 'TEMPLATE'].includes(el.tagName.toUpperCase())) return;
+    if (el.closest('a[href^="tel:"]')) return;
+    const hits = (el.textContent || '').match(rx);
+    if (!hits) return;
+    for (const h of hits) {
+      const d = digitsOf(h);
+      if (d.length < 9) continue;
+      const own = Array.from(el.childNodes).filter(x => x.nodeType === 3).some(x => digitsOf(x.textContent).includes(d));
+      const inChild = Array.from(el.children).some(c => digitsOf(c.textContent).includes(d));
+      if (own || inChild) continue;
+      out.push({kind: 'split', href: '', text: h.replace(/\s+/g, ' ').trim().slice(0, 80),
+                cls: String(el.className || '').slice(0, 80), section: sec(el), visible: vis(el)});
+    }
+  });
+  // Ссылки на мессенджеры и т.п. с номером в адресе (wa.me, viber:, sms:): подменить нельзя, это справочно, не ошибка.
+  document.querySelectorAll('a[href]').forEach(a => {
+    const h = a.getAttribute('href') || '';
+    if (/^tel:/i.test(h)) return;
+    if (/^(whatsapp:|viber:|sms:|callto:|skype:|tg:)/i.test(h) || /^https?:\/\/(wa\.me|api\.whatsapp\.com|t\.me|viber\.click)/i.test(h)) {
+      out.push({kind: 'link-other', href: h.slice(0, 100), text: (a.textContent || '').replace(/\s+/g, ' ').trim().slice(0, 40),
+                cls: String(a.className || '').slice(0, 60), section: sec(a), visible: vis(a)});
+    }
+  });
   return out;
 }"""
 
@@ -166,8 +194,11 @@ def check_one(page, base_url: str, utm: dict, pool: list[str], wait_ms: int, ign
     pool_norm = {canon(p) for p in pool} - {None}
     elements = grab_elements(page, url, wait_ms)
 
-    found, matched, bad = set(), set(), []
+    found, matched, bad, info = set(), set(), [], []
     for el in elements:
+        if el["kind"] == "link-other":  # мессенджеры: показываем справочно, в проверку не входят
+            info.append(el)
+            continue
         nums = element_numbers(el) - ignore
         if not nums:
             continue
@@ -185,6 +216,7 @@ def check_one(page, base_url: str, utm: dict, pool: list[str], wait_ms: int, ign
         "found": sorted(found),
         "matched": sorted(matched),
         "bad": bad,
+        "info": info,
         "ok": ok,
     }
 
@@ -197,6 +229,10 @@ def main():
     ap.add_argument("--desktop-only", action="store_true",
                     help="Не проверять мобильный экран (по умолчанию каждый случай прогоняется на десктопе и мобиле — "
                          "на мобиле показываются элементы, скрытые на десктопе, напр. mobile call bar)")
+    ap.add_argument("--sitemap", action="store_true",
+                    help="Дополнительно проверить ВСЕ страницы из sitemap.xml сайта (по UTM первого канала): номера на других "
+                         "страницах, куда посетитель переходит с рекламной посадочной")
+    ap.add_argument("--pages-only", action="store_true", help="Только страницы (из `pages:` в YAML и/или sitemap), без каналов")
     args = ap.parse_args()
 
     pool_path = VAULT_ROOT / "Клиенты" / args.client_folder / args.pool_file
@@ -215,14 +251,34 @@ def main():
     ignore = {canon(n) for n in config.get("ignore_numbers", [])} - {None}
 
     cases = []
-    if default_expected:
-        cases.append({"name": "default", "utm": {}, "pool": [default_expected]})
-    for ch in channels:
-        pool = ch.get("pool") or []
-        if not pool:
-            print(f"[SKIP] канал '{ch.get('name')}' — пул пуст, пропускаю")
-            continue
-        cases.append({"name": ch.get("name", "?"), "utm": ch["utm_test"], "pool": pool})
+    if not args.pages_only:
+        if default_expected:
+            cases.append({"name": "default", "utm": {}, "pool": [default_expected]})
+        for ch in channels:
+            pool = ch.get("pool") or []
+            if not pool:
+                print(f"[SKIP] канал '{ch.get('name')}' — пул пуст, пропускаю")
+                continue
+            # `ua` — свой User-Agent канала (напр. встроенный браузер Facebook), `url` — своя страница для случая
+            cases.append({"name": ch.get("name", "?"), "utm": ch["utm_test"], "pool": pool, "ua": ch.get("ua"), "url": ch.get("url")})
+
+    # другие страницы сайта: из `pages:` в YAML и/или из sitemap.xml; номера проверяются по UTM и пулу ПЕРВОГО канала
+    extra_pages = list(config.get("pages", []))
+    if args.sitemap:
+        try:
+            import requests
+            from urllib.parse import urlsplit
+            u = urlsplit(base_url)
+            sm = requests.get(f"{u.scheme}://{u.netloc}/sitemap.xml", timeout=30, headers={"User-Agent": UA}).text
+            extra_pages += re.findall(r"<loc>([^<]+)</loc>", sm)
+        except Exception as e:
+            print(f"[WARN] sitemap не прочитан: {e}")
+    first = next((c for c in channels if c.get("pool")), None)
+    if first and extra_pages:
+        for pg_url in dict.fromkeys(extra_pages):  # без повторов, с сохранением порядка
+            if pg_url.rstrip("/") == base_url.rstrip("/") and not args.pages_only:
+                continue  # главная уже проверена как база каналов
+            cases.append({"name": f"страница {pg_url}", "utm": first["utm_test"], "pool": first["pool"], "ua": None, "url": pg_url})
 
     if not cases:
         print("Нет ни 'default', ни каналов с непустым пулом — нечего проверять.")
@@ -238,13 +294,13 @@ def main():
             for vp_name, w, h in viewports:
                 # новый контекст на каждый прогон: Ringostat помнит UTM-сессию посетителя, иначе следующий прогон
                 # получает номер предыдущего (проверено 2026-10-02)
-                ctx = browser.new_context(user_agent=UA, viewport={"width": w, "height": h})
+                ctx = browser.new_context(user_agent=case.get("ua") or UA, viewport={"width": w, "height": h})
                 page = ctx.new_page()
                 try:
-                    res = check_one(page, base_url, case["utm"], case["pool"], args.wait_ms, ignore)
+                    res = check_one(page, case.get("url") or base_url, case["utm"], case["pool"], args.wait_ms, ignore)
                 except Exception as e:
-                    res = {"utm": case["utm"], "url": base_url, "pool": case["pool"], "found": [], "matched": [], "bad": [], "ok": False,
-                           "error": str(e)[:150]}
+                    res = {"utm": case["utm"], "url": case.get("url") or base_url, "pool": case["pool"], "found": [], "matched": [], "bad": [],
+                           "info": [], "ok": False, "error": str(e)[:150]}
                     print(f"    ошибка прогона: {res['error']}")
                 finally:
                     ctx.close()
@@ -253,10 +309,17 @@ def main():
                 status = "OK" if res["ok"] else "MISMATCH"
                 label = f"{res['name']} {res['utm'] or '(без UTM)'}"
                 print(f"[{status}] {label} -> пул {res['pool']}, нашли {res['found']}")
+                seen_bad = set()
                 for b in res["bad"]:
+                    key = (b["kind"], b["section"], b["cls"], tuple(b["outside"]))
+                    if key in seen_bad:
+                        continue
+                    seen_bad.add(key)
                     print(f"    !! не из пула {b['outside']}: {b['kind']} section={b['section'] or '-'} "
                           f"class={b['cls'] or '-'} href={b['href'] or '-'} text={b['text']!r} "
                           f"{'видим' if b['visible'] else 'скрыт'}")
+                for i in res.get("info", [])[:3]:
+                    print(f"    i  справочно (мессенджер, не подменяется): href={i['href']} text={i['text']!r}")
         browser.close()
 
     mismatches = [r for r in results if not r["ok"]]
