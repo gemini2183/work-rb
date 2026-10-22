@@ -1,0 +1,13 @@
+﻿ts,caller,dst,disposition,billsec,utm_source,utm_medium,utm_campaign,pool_name,client,prod_unique,unique_call
+2026-01-19 14:35:04+00:00,anonymous,48222927145,PROPER,31,Google CPC Merchant,Google CPC Merchant,Google CPC Merchant,Google CPC Merchant,Мерчант,True,1
+2026-02-12 09:52:03+00:00,anonymous,48225987224,REPEATED,28,google,cpc,s_23337339547_search,Google CPC General,Теплицы,True,0
+2026-02-19 09:30:08+00:00,anonymous,48225987224,REPEATED,31,google,cpc,s_23337339547_search,Google CPC General,Теплицы,False,0
+2026-04-08 07:07:24+00:00,anonymous,48222927145,PROPER,35,Google CPC Merchant,Google CPC Merchant,Google CPC Merchant,Google CPC General - pm,Мерчант,True,0
+2026-04-08 07:09:48+00:00,anonymous,48222927145,REPEATED,142,Google CPC Merchant,Google CPC Merchant,Google CPC Merchant,Google CPC General - pm,Мерчант,False,0
+2026-04-29 08:39:15+00:00,anonymous,48222927145,REPEATED,256,Google CPC Merchant,Google CPC Merchant,Google CPC Merchant,Google CPC General - pm,Мерчант,False,0
+2026-05-13 10:16:22+00:00,anonymous,48222927145,REPEATED,28,Google CPC Merchant,Google CPC Merchant,Google CPC Merchant,Google CPC General - pm,Мерчант,False,0
+2026-06-08 10:46:11+00:00,anonymous,48222927145,REPEATED,31,Google CPC Merchant,Google CPC Merchant,Google CPC Merchant,Google CPC General - pm,Мерчант,True,0
+2026-06-08 10:55:29+00:00,anonymous,48222927145,REPEATED,28,Google CPC Merchant,Google CPC Merchant,Google CPC Merchant,Google CPC General - pm,Мерчант,False,0
+2026-06-08 10:56:51+00:00,anonymous,48222927145,REPEATED,27,Google CPC Merchant,Google CPC Merchant,Google CPC Merchant,Google CPC General - pm,Мерчант,False,0
+2026-06-14 06:25:50+00:00,anonymous,48222927145,REPEATED,23,Google CPC Merchant,Google CPC Merchant,Google CPC Merchant,Google CPC General - pm,Мерчант,False,0
+2026-10-21 06:58:51+00:00,48603226911,48222565341,PROPER,949,facebook,cpc,RB+/+camp+/+vid+/+lal_t+/+initChec,Google CPC General,ФБ,False,0
