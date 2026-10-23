@@ -1,0 +1,100 @@
+GA4 549802233 | 2026-10-15 → 2026-10-22 | исключено: страны ['Spain'], города —
+
+== 1. Состав сеансов по стране и городу (БЕЗ исключений) — тестовый трафик виден здесь
+страна | город | сеансы | вовлечённые
+Spain | Barcelona | 27 | 8
+United States | New York | 7 | 3
+United States | Los Angeles | 6 | 4
+United States | Stockton | 3 | 1
+(not set) | (not set) | 2 | 0
+United States | (not set) | 2 | 0
+United States | Visalia | 2 | 0
+Afghanistan | Kabul | 1 | 1
+United States |  | 1 | 1
+United States | Anaheim | 1 | 0
+United States | Ashburn | 1 | 0
+United States | Bloomfield | 1 | 0
+United States | Box Elder | 1 | 0
+United States | Brookings | 1 | 1
+United States | Calabasas | 1 | 1
+United States | Cazadero | 1 | 0
+United States | Chicago | 1 | 0
+United States | City of Atwater | 1 | 1
+United States | Clovis | 1 | 0
+United States | Copperopolis | 1 | 0
+United States | Daly City | 1 | 0
+United States | Edmonds | 1 | 0
+United States | Fontana | 1 | 0
+United States | Gerlach | 1 | 0
+United States | Happy Valley | 1 | 0
+
+== 2. Источник/канал и устройство (после исключений)
+источник / канал | устройство | сеансы | вовлечённые | ср. время вовлечения, с
+google / cpc | mobile | 16 | 4 | 111
+(direct) / (none) | mobile | 9 | 1 | 4
+google / cpc | desktop | 8 | 4 | 280
+chatgpt.com / cpc | mobile | 5 | 1 | 23
+google / organic | desktop | 4 | 3 | 10
+(direct) / (none) | desktop | 3 | 0 | 0
+(data not available) | desktop | 1 | 1 | 0
+(data not available) | mobile | 1 | 1 | 9
+chatgpt.com / cpc | desktop | 1 | 0 | 1
+
+== 3. События (после исключений): число событий и сеансов с событием
+событие | событий | пользователей
+block_time | 120 | 32
+block_view | 72 | 30
+page_view | 56 | 46
+session_start | 48 | 46
+first_visit | 46 | 46
+stay_10s | 11 | 11
+scroll | 4 | 4
+engaged_30s | 3 | 3
+user_engagement | 3 | 3
+
+== 4. Блоки: показ блока (block_view) и секунды (block_time)
+блок | block_view событий | block_view пользователей
+ai_hero | 32 | 27
+your_crash | 11 | 11
+crash_scenarios | 4 | 4
+injuries | 4 | 4
+case_examples | 3 | 3
+faq | 3 | 3
+footer | 3 | 3
+truck_cases | 3 | 3
+evidence | 2 | 2
+public_library | 2 | 2
+early_offer | 1 | 1
+final_review | 1 | 1
+mid_review | 1 | 1
+reviews | 1 | 1
+why_landver | 1 | 1
+
+== 4b. Секунды по блокам (block_time)
+блок | событий | секунд всего
+ai_hero | 57 | 233
+your_crash | 10 | 43
+crash_scenarios | 7 | 14
+truck_cases | 7 | 8
+case_examples | 6 | 25
+footer | 6 | 33
+faq | 4 | 32
+header | 4 | 16
+public_library | 4 | 10
+injuries | 3 | 3
+reviews | 3 | 3
+evidence | 2 | 2
+why_landver | 2 | 2
+case_process | 1 | 1
+case_value | 1 | 1
+early_offer | 1 | 1
+final_review | 1 | 1
+mid_review | 1 | 1
+
+== 5. Клики по телефону по местам
+место | кликов | пользователей
+(нет данных)
+
+== 5b. Вопросы FAQ, которые открывали
+вопрос | раз | пользователей
+(нет данных)
