@@ -1,0 +1,39 @@
+<!-- Landver Law: Car page, подвал (Tilda T123 «HTML»). v1, 2026-10-23. Ставится последним, после формы B.
+     Тексты — с подвала текущей страницы клиента. У «Terms of Use» и «Privacy Policy» на текущей странице нет ссылок (простой текст) — здесь так же;
+     для страницы с формой сбора телефона политику конфиденциальности лучше связать с реальной страницей клиента. -->
+<style>
+.ldvf{background:#0d151b;color:#ddd7ce;font-family:Manrope,Arial,sans-serif;padding:40px 16px 110px}
+.ldvf *,.ldvf *::before,.ldvf *::after{box-sizing:border-box}
+.ldvf__in{max-width:860px;margin:0 auto}
+.ldvf__logo{margin:0 0 4px;font-size:22px;font-weight:800;color:#fffdfa;letter-spacing:-.01em}
+.ldvf__tag{margin:0 0 14px;font-size:10px;font-weight:800;letter-spacing:.16em;color:#c9a56a}
+.ldvf p{margin:0 0 12px;font-size:14px;line-height:1.55}
+.ldvf a{color:#efaa9e}
+.ldvf__contact{display:grid;gap:10px;margin:18px 0;padding:18px 0;border-top:1px solid rgba(255,255,255,.1);border-bottom:1px solid rgba(255,255,255,.1)}
+.ldvf__contact small{display:block;font-size:10.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#929a9e}
+.ldvf__contact span{font-size:15.5px;color:#fffdfa;font-weight:600}
+.ldvf__legal b{display:block;margin:0 0 8px;font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#c9a56a}
+.ldvf__legal p{font-size:12.5px;color:#929a9e}
+.ldvf__bottom{margin-top:16px;font-size:12.5px;color:#929a9e}
+.ldvf__bottom span+span::before,.ldvf__bottom a+span::before{content:" \00b7  "}
+@media(min-width:700px){.ldvf{padding:56px 24px 56px}.ldvf__contact{grid-template-columns:repeat(3,1fr)}}
+</style>
+<footer class="ldvf">
+  <div class="ldvf__in">
+    <div class="ldvf__logo">LANDVER LAW</div>
+    <div class="ldvf__tag">PERSONAL INJURY ATTORNEYS</div>
+    <p>Landver Law represents injured individuals and families in California personal injury matters, including serious car and commercial-truck collisions. Serving injured people across California. Each case depends on its own facts, evidence and applicable law.</p>
+    <div class="ldvf__contact">
+      <div><small>Phone &middot; 24/7</small><span><a class="ldvq-phone" href="tel:+18444529465" data-ldv-cta="footer_call" style="color:#fffdfa;text-decoration:none">(844) 452-9465</a></span></div>
+      <div><small>Email</small><span><a href="mailto:info@landverpersonalinjury.com" style="color:#fffdfa;text-decoration:none">info@landverpersonalinjury.com</a></span></div>
+      <div><small>Main office &middot; Beverly Hills</small><span>8730 Wilshire Blvd, Suite 416<br>Beverly Hills, CA 90211</span></div>
+    </div>
+    <div class="ldvf__legal">
+      <b>Attorney Advertising &middot; Legal Disclaimer</b>
+      <p>This website is provided for general informational purposes only and does not constitute legal advice. Viewing this website, contacting Landver Law, or submitting information through a website form does not by itself create an attorney-client relationship. An attorney-client relationship is established only after the firm has agreed to representation and the applicable engagement documents have been completed.</p>
+      <p>Past results, public case examples, testimonials and reviews do not guarantee, predict or imply a similar result in any other matter. Every case depends on its individual facts, injuries, evidence, liability, insurance coverage and applicable law.</p>
+      <p>Before representation is confirmed: please do not use a website form to send information that is highly confidential or subject to an immediate deadline. If your matter is time-sensitive, contact the firm directly.</p>
+    </div>
+    <div class="ldvf__bottom"><span>&copy; 2026 Landver Injury Law APC. All Rights Reserved.</span> <span>Terms of Use</span> <a href="https://landverpersonalinjury.com/site-map/" target="_blank" rel="noopener">Site Map</a> <span>Privacy Policy</span></div>
+  </div>
+</footer>

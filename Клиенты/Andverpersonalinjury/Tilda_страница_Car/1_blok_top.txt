@@ -1,0 +1,75 @@
+<!-- Landver Law: легковая страница (Car), БЛОК 1: шапка, первый экран, закреплённая плашка (Tilda T123 «HTML»). v1, 2026-10-23.
+     Сразу под этим блоком ставится форма Tilda A (компактная: отступы сверху и снизу минимальные, чтобы форма была видна на первом экране телефона). -->
+<style>
+/* шапка и закреплённая плашка */
+.ldvh{background:#0d151b;border-bottom:1px solid rgba(255,255,255,.08);font-family:Manrope,Arial,sans-serif}
+.ldvh__in{max-width:1100px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.ldvh__logo{display:flex;flex-direction:column;text-decoration:none;color:#fffdfa;line-height:1.1}
+.ldvh__logo b{font-size:21px;font-weight:800;letter-spacing:-.01em}
+.ldvh__logo span{margin-top:3px;font-size:9.5px;font-weight:800;letter-spacing:.16em;color:#c9a56a}
+.ldvh__tel{display:none;flex-direction:column;text-align:right;text-decoration:none;color:#fffdfa;font-size:17px;font-weight:800;line-height:1.15}
+.ldvh__tel small{font-size:9.5px;font-weight:800;letter-spacing:.12em;color:#b9b4ab}
+.ldvh__cta{display:inline-flex;align-items:center;min-height:44px;padding:10px 16px;border-radius:10px;background:#e8563f;color:#fff;font-size:13.5px;font-weight:800;letter-spacing:.02em;text-transform:uppercase;text-decoration:none;white-space:nowrap}
+.ldvh__cta:hover{background:#cf4633;color:#fff}
+.ldvs{position:fixed;left:0;right:0;bottom:0;z-index:999;display:flex;gap:8px;padding:8px 10px calc(8px + env(safe-area-inset-bottom));background:rgba(13,21,27,.97);border-top:1px solid rgba(255,255,255,.12);font-family:Manrope,Arial,sans-serif}
+.ldvs a{flex:1;display:flex;align-items:center;justify-content:center;min-height:50px;padding:8px 10px;border-radius:10px;font-size:14.5px;font-weight:800;line-height:1.15;text-align:center;text-decoration:none}
+.ldvs__call{color:#fffdfa;border:2px solid rgba(255,255,255,.4)}
+.ldvs__form{color:#fff;background:#e8563f;border:2px solid #e8563f}
+@media(min-width:700px){.ldvh__in{padding:14px 24px}.ldvh__tel{display:flex}.ldvs{display:none}}
+
+
+.ldvc{background:#101820;color:#fffdfa;font-family:Manrope,Arial,sans-serif;padding:20px 16px 24px}
+.ldvc *,.ldvc *::before,.ldvc *::after{box-sizing:border-box}
+.ldvc__wrap{max-width:760px;margin:0 auto}
+.ldvc__h1{margin:0 0 10px;font-weight:800;font-size:clamp(30px,7.2vw,52px);line-height:1.08;letter-spacing:-.02em;color:#fffdfa}
+.ldvc__h1 span{display:block;font-family:"DM Serif Display",Georgia,serif;font-weight:400;color:#efaa9e;letter-spacing:0}
+.ldvc__sub{margin:0 0 14px;font-size:clamp(16px,2.4vw,19px);line-height:1.5;color:#ddd7ce}
+.ldvc__trust{list-style:none;margin:0 0 16px;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.ldvc__trust li{font-size:13px;font-weight:700;line-height:1.2;padding:7px 11px;border-radius:999px;background:#17242b;border:1px solid rgba(201,165,106,.35);color:#f6f2ea}
+.ldvc__trust li b{color:#c9a56a;font-weight:800}
+.ldvc__btns{display:grid;gap:10px}
+.ldvc__btn{display:flex;align-items:center;justify-content:center;min-height:56px;padding:14px 18px;border-radius:12px;font:800 16.5px/1.2 Manrope,Arial,sans-serif;text-align:center;text-decoration:none;border:2px solid #e8563f}
+.ldvc__btn--primary{background:#e8563f;color:#fff}
+.ldvc__btn--primary:hover{background:#cf4633;border-color:#cf4633;color:#fff}
+.ldvc__btn--ghost{background:transparent;color:#fffdfa;border-color:rgba(255,255,255,.4)}
+.ldvc__btn--ghost:hover{border-color:#fffdfa;color:#fff}
+.ldvc__anchor{display:block;height:0;scroll-margin-top:72px}
+@media(min-width:700px){.ldvc{padding:44px 24px 40px}}
+
+</style>
+
+<header class="ldvh">
+  <div class="ldvh__in">
+    <a class="ldvh__logo" href="#ldvq" aria-label="Landver Law, Personal Injury Attorneys"><b>LANDVER LAW</b><span>PERSONAL INJURY ATTORNEYS</span></a>
+    <a class="ldvh__tel ldvq-phone" href="tel:+18444529465" data-ldv-cta="header_call"><small>FREE CONSULTATION &middot; 24/7</small>(844) 452-9465</a>
+    <a class="ldvh__cta" href="#ldv-form" data-ldv-cta="header_form">Free case review</a>
+  </div>
+</header>
+
+<section class="ldvc" id="ldvc" aria-labelledby="ldvc-h1">
+  <div class="ldvc__wrap">
+    <h1 class="ldvc__h1" id="ldvc-h1">California Car Accident Lawyer. <span>Free Case Review.</span></h1>
+    <p class="ldvc__sub">Injured in a car or auto accident? Tell us what happened. An attorney reviews your case for free. No fee unless we win.</p>
+    <ul class="ldvc__trust">
+      <li><b>&#9733; 4.8</b> &middot; 45 Google reviews</li>
+      <li>Serving all of California</li>
+      <li>Call 24/7</li>
+      <li>Practicing since 2004</li>
+    </ul>
+    <div class="ldvc__btns">
+      <a class="ldvc__btn ldvc__btn--primary ldvq-phone" href="tel:+18444529465" data-ldv-cta="hero_call">Call (844) 452-9465 &middot; 24/7</a>
+    </div>
+    <a id="ldv-form" class="ldvc__anchor" aria-hidden="true" tabindex="-1"></a>
+  </div>
+</section>
+
+<div class="ldvs">
+  <a class="ldvs__call ldvq-phone" href="tel:+18444529465" data-ldv-cta="sticky_call">Call now &middot; 24/7</a>
+  <a class="ldvs__form" href="#ldv-form" data-ldv-cta="sticky_form">Leave my number</a>
+</div>
+<script>
+document.addEventListener('click', function (e) {
+  var a = e.target.closest ? e.target.closest('[data-ldv-cta]') : null;
+  if (a) { (window.dataLayer = window.dataLayer || []).push({ event: 'ldv_cta', cta_place: a.getAttribute('data-ldv-cta') }); }
+});
+</script>

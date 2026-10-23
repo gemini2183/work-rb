@@ -1,0 +1,451 @@
+<!-- Landver Law: легковая страница (Car), БЛОК 2: всё под формой A (Tilda T123 «HTML»). v1, 2026-10-23.
+     Порядок: как проходит звонок, ситуации, что делает страховая, адвокат, отзывы, квиз «Not ready to call?», вопросы, финальный призыв.
+     В конце якорь #ldv-form-2: сразу под блоком ставится форма B (копия формы A). -->
+<style>
+
+.ldvp{font-family:Manrope,Arial,sans-serif;color:#17242b;-webkit-font-smoothing:antialiased}
+.ldvp *,.ldvp *::before,.ldvp *::after{box-sizing:border-box}
+.ldvp__sec{padding:44px 16px}
+.ldvp__sec--cream{background:#f6f2ea}
+.ldvp__sec--white{background:#fffdfa}
+.ldvp__sec--dark{background:#101820;color:#fffdfa}
+.ldvp__in{max-width:860px;margin:0 auto}
+.ldvp__eyebrow{margin:0 0 8px;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#b65241}
+.ldvp__sec--dark .ldvp__eyebrow{color:#c9a56a}
+.ldvp__h2{margin:0 0 14px;font-size:clamp(26px,5.4vw,38px);line-height:1.15;font-weight:800;letter-spacing:-.015em}
+.ldvp__lead{margin:0 0 22px;font-size:16.5px;line-height:1.55;color:#4d5a60}
+.ldvp__sec--dark .ldvp__lead{color:#ddd7ce}
+.ldvp__cards{display:grid;gap:12px;margin:0 0 20px}
+.ldvp__card{padding:18px;border-radius:14px;background:#fffdfa;border:1px solid #ddd7ce}
+.ldvp__card b{display:block;margin:0 0 6px;font-size:17.5px;line-height:1.3;font-weight:800}
+.ldvp__card p{margin:0;font-size:15.5px;line-height:1.5;color:#4d5a60}
+.ldvp__card i{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;margin:0 0 10px;border-radius:50%;background:#e8563f;color:#fff;font-style:normal;font-size:14px;font-weight:800}
+.ldvp__note{margin:0 0 22px;font-size:14px;line-height:1.5;color:#68747a}
+.ldvp__btn{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:14px 24px;border-radius:12px;background:#e8563f;border:2px solid #e8563f;color:#fff;font:800 16.5px/1.2 Manrope,Arial,sans-serif;text-decoration:none;text-align:center}
+.ldvp__btn:hover{background:#cf4633;border-color:#cf4633;color:#fff}
+.ldvp__btn--ghost{background:transparent;color:#17242b;border-color:#17242b}
+.ldvp__btn--ghost:hover{background:#17242b;color:#fff;border-color:#17242b}
+.ldvp__sec--dark .ldvp__btn--ghost{color:#fffdfa;border-color:rgba(255,255,255,.45)}
+.ldvp__sec--dark .ldvp__btn--ghost:hover{background:#fffdfa;color:#101820;border-color:#fffdfa}
+.ldvp__btns{display:grid;gap:10px;margin:18px 0 0}
+.ldvp__rows{display:grid;gap:12px;margin:0}
+.ldvp__row{padding:16px 18px;border-radius:14px;background:#f6f2ea;border-left:5px solid #e8563f}
+.ldvp__row b{display:block;margin:0 0 4px;font-size:17px;font-weight:800}
+.ldvp__row p{margin:0;font-size:15.5px;line-height:1.5;color:#4d5a60}
+.ldvp__steps{display:grid;gap:14px;margin:0;padding:0;list-style:none;counter-reset:s}
+.ldvp__steps li{counter-increment:s;position:relative;padding:4px 0 4px 52px;font-size:16.5px;line-height:1.5;color:#17242b}
+.ldvp__steps li::before{content:counter(s);position:absolute;left:0;top:0;width:38px;height:38px;border-radius:50%;background:#101820;color:#fff;font-weight:800;font-size:17px;line-height:38px;text-align:center}
+.ldvp__steps b{display:block;font-size:17.5px;font-weight:800}
+.ldvp__atty{display:grid;gap:22px;align-items:center}
+.ldvp__atty img{display:block;width:100%;max-width:260px;height:auto;aspect-ratio:2/3;object-fit:cover;border-radius:16px;margin:0 auto}
+.ldvp__facts{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px;padding:0;list-style:none}
+.ldvp__facts li{padding:7px 12px;border-radius:999px;background:#17242b;border:1px solid rgba(201,165,106,.4);font-size:13.5px;font-weight:700;color:#f6f2ea}
+.ldvp__facts b{color:#c9a56a}
+.ldvp__src{margin:14px 0 0;font-size:12.5px;line-height:1.5;color:#929a9e}
+.ldvp__rate{display:flex;align-items:baseline;gap:12px;margin:0 0 18px;flex-wrap:wrap}
+.ldvp__rate b{font-size:44px;line-height:1;font-weight:800}
+.ldvp__rate span{font-size:15px;color:#4d5a60}
+.ldvp__stars{color:#c9893a;letter-spacing:2px;font-size:20px}
+.ldvp__rev{margin:0;padding:18px;border-radius:14px;background:#fffdfa;border:1px solid #ddd7ce}
+.ldvp__rev p{margin:8px 0 10px;font-size:16px;line-height:1.5;font-weight:600}
+.ldvp__rev small{display:block;font-size:13px;color:#68747a}
+.ldvp__faq details{border-bottom:1px solid #ddd7ce;background:#fffdfa}
+.ldvp__faq details:first-child{border-top:1px solid #ddd7ce}
+.ldvp__faq summary{list-style:none;cursor:pointer;display:flex;align-items:flex-start;justify-content:space-between;gap:14px;padding:16px 4px;font-size:16.5px;line-height:1.35;font-weight:800;-webkit-tap-highlight-color:transparent}
+.ldvp__faq summary::-webkit-details-marker{display:none}
+.ldvp__faq summary::after{content:"+";flex:0 0 auto;width:28px;height:28px;border-radius:50%;background:#f6f2ea;text-align:center;font-size:20px;line-height:28px;font-weight:700;color:#b65241}
+.ldvp__faq details[open] summary::after{content:"\2212"}
+.ldvp__faq details p{margin:0;padding:0 4px 18px;font-size:15.5px;line-height:1.6;color:#4d5a60}
+.ldvp__ticks{margin:0 0 12px;padding:0;list-style:none}
+.ldvp__ticks li{position:relative;margin:0 0 9px;padding-left:30px;font-size:16.5px;line-height:1.45}
+.ldvp__ticks li::before{content:"\2713";position:absolute;left:0;top:0;color:#e8563f;font-weight:800}
+.ldvp__fee{margin:0 0 6px;font-size:16px;font-weight:800;color:#c9a56a}
+.ldvp__fine{margin:16px 0 0;font-size:12.5px;line-height:1.5;color:#929a9e}
+.ldvp__anchor{display:block;height:0;scroll-margin-top:72px}
+@media(min-width:700px){
+  .ldvp__sec{padding:64px 24px}
+  .ldvp__cards{grid-template-columns:1fr 1fr}
+  .ldvp__rows--3{grid-template-columns:repeat(3,1fr)}
+  .ldvp__btns{grid-template-columns:auto auto;justify-content:start}
+  .ldvp__atty{grid-template-columns:240px 1fr;gap:36px}
+  .ldvp__revs{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+}
+.ldvp__revs{display:grid;gap:12px;margin:0 0 14px}
+
+
+.ldvq{background:#101820;color:#fffdfa;font-family:Manrope,Arial,sans-serif;padding:28px 16px 40px;box-sizing:border-box}
+.ldvq *,.ldvq *::before,.ldvq *::after{box-sizing:border-box}
+.ldvq__wrap{max-width:760px;margin:0 auto}
+.ldvq__h1{margin:0 0 14px;font-weight:800;font-size:clamp(30px,7vw,52px);line-height:1.08;letter-spacing:-.02em;color:#fffdfa}
+.ldvq__h1 span{display:block;font-family:"DM Serif Display",Georgia,serif;font-weight:400;color:#efaa9e;letter-spacing:0}
+.ldvq__sub{margin:0 0 16px;font-size:clamp(16px,2.4vw,19px);line-height:1.55;color:#ddd7ce}
+.ldvq__why{margin:-6px 0 16px;font-size:13.5px;line-height:1.45;color:#b9b4ab}
+.ldvq__trust{list-style:none;margin:0 0 22px;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.ldvq__trust li{font-size:13px;font-weight:700;line-height:1.2;padding:7px 11px;border-radius:999px;background:#17242b;border:1px solid rgba(201,165,106,.35);color:#f6f2ea}
+.ldvq__trust li b{color:#c9a56a;font-weight:800}
+.ldvq__card{scroll-margin-top:72px;background:#17242b;border:1px solid rgba(255,255,255,.09);border-radius:18px;padding:22px 18px;box-shadow:0 18px 50px rgba(0,0,0,.28)}
+.ldvq__progress{display:flex;gap:6px;margin:0 0 14px}
+.ldvq__progress i{flex:1;height:5px;border-radius:3px;background:rgba(255,255,255,.14)}
+.ldvq__progress i.is-done{background:#e8563f}
+.ldvq__step{margin:0 0 6px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#c9a56a}
+.ldvq__q{margin:0 0 6px;font-size:clamp(21px,4.6vw,28px);line-height:1.22;font-weight:800;color:#fffdfa;outline:none}
+.ldvq__hint{margin:0 0 16px;font-size:14.5px;line-height:1.45;color:#b9b4ab}
+.ldvq__opts{display:grid;gap:10px}
+.ldvq__opt{display:flex;align-items:center;gap:12px;width:100%;min-height:56px;padding:13px 16px;text-align:left;font:700 16.5px/1.3 Manrope,Arial,sans-serif;color:#fffdfa;background:#0d151b;border:1.5px solid rgba(255,255,255,.14);border-radius:12px;cursor:pointer;transition:border-color .15s,background .15s,transform .05s;-webkit-tap-highlight-color:transparent}
+.ldvq__opt::before{content:"";flex:0 0 20px;height:20px;border-radius:50%;border:2px solid rgba(255,255,255,.35)}
+.ldvq__opt:hover,.ldvq__opt:focus-visible{border-color:#e8563f;background:#14212a;outline:none}
+.ldvq__opt:active{transform:scale(.99)}
+.ldvq__opt.is-picked{border-color:#e8563f;background:#2a1c1b}
+.ldvq__opt.is-picked::before{border-color:#e8563f;background:#e8563f;box-shadow:inset 0 0 0 3px #2a1c1b}
+.ldvq__back{margin:14px 0 0;padding:6px 0;background:none;border:0;font:600 14px Manrope,Arial,sans-serif;color:#b9b4ab;cursor:pointer;text-decoration:underline}
+.ldvq__back:hover{color:#fffdfa}
+.ldvq__tier{margin:0 0 10px;font-size:clamp(22px,5vw,30px);line-height:1.2;font-weight:800;color:#fffdfa;outline:none}
+.ldvq__p{margin:0 0 14px;font-size:16px;line-height:1.55;color:#ddd7ce}
+.ldvq__chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 18px}
+.ldvq__chips span{font-size:12.5px;line-height:1.25;padding:6px 10px;border-radius:8px;background:#0d151b;border:1px solid rgba(255,255,255,.1);color:#ddd7ce}
+.ldvq__chips b{color:#c9a56a;font-weight:700}
+.ldvq__h3{margin:20px 0 10px;font-size:18px;line-height:1.3;font-weight:800;color:#fffdfa}
+.ldvq__list{margin:0 0 6px;padding:0;list-style:none;counter-reset:m}
+.ldvq__list li{counter-increment:m;position:relative;margin:0 0 8px;padding:12px 14px 12px 46px;border-radius:12px;background:#0d151b;border:1px solid rgba(232,86,63,.28);font-size:15.5px;line-height:1.45;color:#f6f2ea}
+.ldvq__list li::before{content:counter(m);position:absolute;left:13px;top:11px;width:24px;height:24px;border-radius:50%;background:#e8563f;color:#fff;font-weight:800;font-size:13px;line-height:24px;text-align:center}
+.ldvq__turn{margin:16px 0 10px;font-size:17px;line-height:1.4;font-weight:800;color:#efaa9e}
+.ldvq__own{margin:0 0 18px;padding:14px 16px;border-radius:12px;background:rgba(201,165,106,.12);border-left:4px solid #c9a56a;font-size:16px;line-height:1.45;font-weight:700;color:#fffdfa}
+.ldvq__ticks{margin:0 0 10px;padding:0;list-style:none}
+.ldvq__ticks li{position:relative;margin:0 0 7px;padding-left:28px;font-size:15.5px;line-height:1.45;color:#f6f2ea}
+.ldvq__ticks li::before{content:"\2713";position:absolute;left:0;top:0;color:#e8563f;font-weight:800}
+.ldvq__fee{margin:0 0 16px;font-size:15px;font-weight:800;color:#c9a56a}
+.ldvq__btns{display:grid;gap:10px;margin:0 0 12px}
+.ldvq__btn{display:flex;align-items:center;justify-content:center;min-height:56px;padding:14px 18px;border-radius:12px;font:800 16.5px/1.2 Manrope,Arial,sans-serif;text-align:center;text-decoration:none;cursor:pointer;border:2px solid #e8563f;transition:background .15s,color .15s}
+.ldvq__btn--primary{background:#e8563f;color:#fff}
+.ldvq__btn--primary:hover{background:#cf4633;border-color:#cf4633;color:#fff}
+.ldvq__btn--call{background:transparent;color:#fffdfa;border-color:rgba(255,255,255,.4)}
+.ldvq__btn--call:hover{border-color:#fffdfa;color:#fff}
+.ldvq__fine{margin:0 0 6px;font-size:12.5px;line-height:1.5;color:#929a9e}
+.ldvq__restart{margin:6px 0 0;padding:4px 0;background:none;border:0;font:600 13.5px Manrope,Arial,sans-serif;color:#b9b4ab;cursor:pointer;text-decoration:underline}
+.ldvq__anchor{display:block;height:0;scroll-margin-top:72px}
+@media(min-width:700px){.ldvq{padding:48px 24px 56px}.ldvq__card{padding:30px 30px}.ldvq__btns{grid-template-columns:1fr 1fr}.ldvq__opts{grid-template-columns:1fr 1fr}.ldvq__opts--single{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.ldvq__opt{transition:none}}
+
+
+.ldvp__chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px;padding:0;list-style:none}
+.ldvp__chips li{padding:9px 14px;border-radius:999px;background:#fffdfa;border:1px solid #ddd7ce;font-size:15px;font-weight:700;color:#17242b}
+.ldvq--mid{padding:44px 16px}
+.ldvq--mid .ldvq__q2{margin:0 0 8px;font-size:clamp(24px,5.4vw,36px);line-height:1.15;font-weight:800;letter-spacing:-.015em;color:#fffdfa}
+.ldvq--mid .ldvq__eyebrow{margin:0 0 8px;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#c9a56a}
+@media(min-width:700px){.ldvq--mid{padding:64px 24px}}
+
+</style>
+
+<div class="ldvp">
+
+  <section class="ldvp__sec ldvp__sec--cream" id="ldv-how">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">How it works</p>
+      <h2 class="ldvp__h2">What happens when you call a car accident lawyer</h2>
+      <ol class="ldvp__steps">
+        <li><b>Tell us what happened</b>The crash, your injuries, your treatment so far. You don't need documents yet.</li>
+        <li><b>We set up a free review of your case with an attorney</b>Free, with no obligation.</li>
+        <li><b>The attorney explains what applies to you and what to avoid</b>You decide whether to move forward.</li>
+      </ol>
+      <div class="ldvp__btns">
+        <a class="ldvp__btn" href="#ldv-form" data-ldv-cta="how_form">Get my free case review</a>
+        <a class="ldvp__btn ldvp__btn--ghost ldvq-phone" href="tel:+18444529465" data-ldv-cta="how_call">Call (844) 452-9465 &middot; 24/7</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--white" id="ldv-situations">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Car accident cases</p>
+      <h2 class="ldvp__h2">Common car accident situations Landver Law reviews</h2>
+      <ul class="ldvp__chips">
+        <li>Rear-end car crash</li>
+        <li>Intersection / T-bone crash</li>
+        <li>Multi-vehicle collision</li>
+        <li>DUI or wrong-way crash</li>
+        <li>Rideshare or work-vehicle crash</li>
+        <li>Pedestrian or cyclist hit by a car</li>
+      </ul>
+      <p class="ldvp__note">Not sure which one fits? That is okay. Tell us what happened and an attorney will review it. Every case depends on its own facts, injuries, evidence, liability and insurance coverage.</p>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--cream" id="ldv-insurers">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Before you talk to the insurer</p>
+      <h2 class="ldvp__h2">What insurance companies often do first after a car accident</h2>
+      <div class="ldvp__rows ldvp__rows--3">
+        <div class="ldvp__row" style="background:#fffdfa"><b>Ask for a recorded statement</b><p>Know who is asking and why before you agree. Avoid guessing about facts you don't know.</p></div>
+        <div class="ldvp__row" style="background:#fffdfa"><b>Make a quick offer</b><p>If you sign a release, the claim may be closed before the full medical picture is known.</p></div>
+        <div class="ldvp__row" style="background:#fffdfa"><b>Point to your share of the blame</b><p>California reduces compensation by your percentage of fault, and the insurer's first number is not always the final one.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--dark" id="ldv-attorney">
+    <div class="ldvp__in ldvp__atty">
+      <img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/Landver0290.jpg" width="800" height="1200" loading="lazy" alt="Alina Landver, car accident attorney at Landver Law in Beverly Hills">
+      <div>
+        <p class="ldvp__eyebrow">Your attorney</p>
+        <h2 class="ldvp__h2">Your California car accident attorney: Alina Landver, Esq., MBA</h2>
+        <ul class="ldvp__facts">
+          <li>Managing Partner &middot; Trial Attorney</li>
+          <li><b>California Bar</b> 231077</li>
+          <li><b>Admitted</b> June 2004</li>
+        </ul>
+        <p class="ldvp__lead">Alina Landver began her career representing corporate clients on the defense side before focusing on injured plaintiffs. That background gives the firm a perspective on how claims may be challenged, discounted or prepared for litigation.</p>
+        <p class="ldvp__src">Attorney status and admission date are based on State Bar of California records. Statements about Landver Law's experience are based on information published by the firm. Prior experience does not guarantee a particular outcome in any individual matter.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--cream" id="ldv-reviews">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Client reviews</p>
+      <h2 class="ldvp__h2">What people say after working with Landver Law</h2>
+      <div class="ldvp__rate"><b>4.8</b><div><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><span>out of 5 &middot; 45 Google reviews</span></div></div>
+      <div class="ldvp__revs">
+        <blockquote class="ldvp__rev"><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;Best attorney ever!&rdquo;</p><small>M. M. &middot; Google Review &middot; January 2026</small></blockquote>
+        <blockquote class="ldvp__rev"><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;Great experience working with Landver Law Alina Landver esq.&rdquo;</p><small>D. O. Rothschild &middot; Google Review &middot; January 2026</small></blockquote>
+        <blockquote class="ldvp__rev"><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;The attorney treated my case with great seriousness from the start.&rdquo;</p><small>Elsy Castellanos &middot; Google Review &middot; October 2025</small></blockquote>
+      </div>
+      <p class="ldvp__note">A review is someone else's experience, not a promise about yours. Reviews shown are excerpts from publicly displayed Google reviews. Rating and review count can change over time. Testimonials do not constitute a guarantee, warranty or prediction regarding the outcome of any legal matter.</p>
+    </div>
+  </section>
+
+  <!-- Квиз вторым путём -->
+  <section class="ldvq ldvq--mid" id="ldvq" aria-labelledby="ldvq-h2">
+    <div class="ldvq__wrap">
+      <p class="ldvq__eyebrow">Not ready to call?</p>
+      <h2 class="ldvq__q2" id="ldvq-h2">Answer 5 quick questions to see what applies to your case</h2>
+      <p class="ldvq__sub">See what can raise or lower the value of a car accident claim like yours, and what to avoid before you talk to the insurance company. Not a settlement calculator: no honest formula can name a number from a few answers.</p>
+      <div class="ldvq__card" id="ldvq-card" aria-live="polite">
+        <noscript><p class="ldvq__p">Please call us: <a href="tel:+18444529465" style="color:#efaa9e">(844) 452-9465</a> &middot; 24/7</p></noscript>
+      </div>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--white" id="ldv-faq">
+    <div class="ldvp__in ldvp__faq">
+      <p class="ldvp__eyebrow">Frequently asked questions</p>
+      <h2 class="ldvp__h2">Questions about car accidents and hiring a lawyer</h2>
+      <details><summary>Do I need a lawyer after a car accident in California?</summary>
+        <p>If you were injured, a free case review can tell you whether a lawyer can help. You do not have to decide alone or know the legal terms. Landver Law reviews your situation at no cost, and there is no fee unless we win.</p></details>
+      <details><summary>How much does a car accident lawyer cost?</summary>
+        <p>The initial case review is free, and there is no fee unless we win. Landver Law handles personal-injury matters on a contingency basis, advances litigation costs and collects its legal fee when a recovery is obtained. Exact financial terms are confirmed in the written attorney-client agreement before representation begins.</p></details>
+      <details><summary>My medical treatment is still ongoing. Is it too early to contact a lawyer?</summary>
+        <p>No. You do not have to wait until treatment is finished before asking for a case review. In a serious injury case, the eventual medical outcome may still be uncertain. The important starting point is understanding what happened, what treatment has occurred so far and what evidence may need to be preserved.</p></details>
+      <details><summary>What if I may have been partly responsible for the accident?</summary>
+        <p>Partial responsibility does not automatically mean there is no claim. California uses comparative fault. If an injured person's own negligence contributed to the harm, damages can be reduced according to that person's percentage of responsibility. Do not assume the insurance company's initial fault assessment is necessarily the final allocation of responsibility.</p></details>
+      <details><summary>The insurance company is asking for a recorded statement. What should I do?</summary>
+        <p>First identify who is requesting the statement and which insurer they represent. Obligations can differ depending on whether the request comes from your own insurer or another party's insurer. Avoid guessing about facts you do not know, minimizing injuries that are still being evaluated or signing releases you do not understand. If you are unsure about a recorded statement or release, consider getting legal advice before agreeing to it.</p></details>
+      <details><summary>I already received a settlement offer. Can I still have the case reviewed?</summary>
+        <p>If you have not finalized the settlement and signed a release, you can still ask for legal advice about the situation. An early offer may arrive before the long-term medical picture, future treatment, income loss or permanent limitations are fully understood. If a release has already been signed, tell the lawyer immediately because that can materially change the analysis.</p></details>
+      <details><summary>How long do I have to bring an injury claim in California?</summary>
+        <p>For many California personal-injury lawsuits, the general deadline is two years from the date of injury. But that is not a universal rule. Different facts can create different deadlines, and claims involving a California government agency can require an administrative claim much earlier. For many injury claims against a California government agency, the administrative claim deadline is generally six months from the injury. Do not use the general two-year period to assume your own deadline.</p></details>
+      <p class="ldvp__note" style="margin-top:16px">This FAQ provides general information and is not legal advice. Deadlines, liability, insurance obligations and available claims depend on the specific facts and applicable law. An attorney-client relationship is not created by viewing this page or submitting a request for an initial case review.</p>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--dark" id="ldv-final">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Free case review</p>
+      <h2 class="ldvp__h2">Get your free car accident case review</h2>
+      <p class="ldvp__lead">Call or leave your number. We'll set up a free review of your case with an attorney, who can tell you:</p>
+      <ul class="ldvp__ticks">
+        <li>what applies to YOUR case, not general advice</li>
+        <li>what NOT to do so you don't lose compensation</li>
+        <li>your next steps, in plain language</li>
+        <li>where your case stands, based on what you tell us</li>
+      </ul>
+      <p class="ldvp__fee">No fee unless we win.</p>
+      <div class="ldvp__btns">
+        <a class="ldvp__btn" href="#ldv-form-2" data-ldv-cta="final_form">Get my free case review</a>
+        <a class="ldvp__btn ldvp__btn--ghost ldvq-phone" href="tel:+18444529465" data-ldv-cta="final_call">Call (844) 452-9465 &middot; 24/7</a>
+      </div>
+      <p class="ldvp__fine">Free. No obligation. Submitting a form does not by itself create an attorney-client relationship.</p>
+    </div>
+    <a id="ldv-form-2" class="ldvp__anchor" aria-hidden="true" tabindex="-1"></a>
+  </section>
+
+</div>
+
+<script>
+(function () {
+  'use strict';
+  var PHONE_TEL = 'tel:+18444529465';
+  var PHONE_TXT = '(844) 452-9465';
+
+  var Q = [
+    { key: 'injury_type', name: 'Injury', q: 'What was the most serious injury?', hint: 'Pick the closest one. You can explain details later.',
+      o: [['head', 'Head or brain injury'], ['spine', 'Neck or back (spine)'], ['fracture', 'Broken bone'],
+          ['soft', 'Soft tissue (sprain, whiplash, bruising)'], ['other', 'Other / not sure yet']] },
+    { key: 'treatment_status', name: 'Treatment', q: 'Where is your treatment right now?', hint: 'This is not a medical diagnosis.',
+      o: [['hospital', 'Hospital or ER so far'], ['ongoing', 'Ongoing treatment (doctor, therapy)'], ['surgery', 'Surgery recommended or completed'],
+          ['none', 'No treatment yet'], ['diagnosing', 'Still being diagnosed']] },
+    { key: 'work_missed', name: 'Missed work', q: 'Have you missed work?', hint: 'Include reduced hours.',
+      o: [['none', 'No'], ['days', 'A few days'], ['weeks', 'Several weeks'], ['cant', "I can't return to my job"]] },
+    { key: 'fault', name: 'Fault', q: 'Who was at fault?', hint: 'Not sure is a fine answer.', single: true,
+      o: [['other', 'The other driver'], ['shared', 'Shared or disputed'], ['unsure', "I'm not sure"]] },
+    { key: 'insurer_status', name: 'Insurer', q: 'Has an insurance company contacted you?', hint: "Yours or the other driver's.",
+      o: [['none', 'No, not yet'], ['statement', 'Yes, they asked for a statement'], ['offer', "Yes, they made an offer (I haven't signed)"], ['signed', 'I already signed something']] }
+  ];
+
+  var TIER_TITLE = {
+    serious: 'Your answers suggest a serious injury situation.',
+    moderate: 'Your answers suggest a moderate injury situation.',
+    developing: 'Your injury picture is still developing.'
+  };
+  var PERSONAL = {
+    offer: 'An offer is on the table. Before you answer it, find out what it may leave out.',
+    statement: 'They asked for a statement. Before you give one, find out what it may be used for.',
+    signed: 'You already signed. Tell us today, because the next steps are different.',
+    nocontact: 'The insurer may call soon. Know what to say, and what not to, before they do.',
+    notreat: "Treatment hasn't started. Waiting can hurt the claim. Tell us what happened so far."
+  };
+
+  var card = document.getElementById('ldvq-card');
+  if (!card) return;
+  var answers = {};   // key -> value
+  var step = 0;       // 0..4 вопросы, 5 результат
+  var started = false;
+  var dl = (window.dataLayer = window.dataLayer || []);
+
+  function push(o) { try { dl.push(o); } catch (e) {} }
+  function label(qi, val) { var o = Q[qi].o, i; for (i = 0; i < o.length; i++) { if (o[i][0] === val) return o[i][1]; } return ''; }
+
+  function tier(a) {
+    if (a.treatment_status === 'none' || a.treatment_status === 'diagnosing') return 'developing';
+    if (a.treatment_status === 'surgery' || a.injury_type === 'head' || a.work_missed === 'cant' ||
+        ((a.injury_type === 'spine' || a.injury_type === 'fracture') && (a.treatment_status === 'hospital' || a.treatment_status === 'ongoing'))) return 'serious';
+    return 'moderate';
+  }
+  function personal(a) {
+    if (a.insurer_status === 'signed') return PERSONAL.signed;
+    if (a.insurer_status === 'offer') return PERSONAL.offer;
+    if (a.insurer_status === 'statement') return PERSONAL.statement;
+    if (a.treatment_status === 'none') return PERSONAL.notreat;
+    return PERSONAL.nocontact;
+  }
+  function summary(a) {
+    var parts = [], i;
+    for (i = 0; i < Q.length; i++) { if (a[Q[i].key]) parts.push(Q[i].name + ': ' + label(i, a[Q[i].key])); }
+    if (parts.length === Q.length) parts.push('Result: ' + tier(a));
+    return parts.length ? parts.join(' | ') : 'Quiz not completed';
+  }
+
+  /* ---- запись в скрытые поля форм страницы (создаём поля, если их нет) ---- */
+  function setHidden(form, name, value) {
+    var el = form.querySelector('input[name="' + name + '"]');
+    if (!el) { el = document.createElement('input'); el.type = 'hidden'; el.name = name; form.appendChild(el); }
+    el.value = value;
+  }
+  function fillForms(ctaSource) {
+    var forms = document.querySelectorAll('form'), i, f, k;
+    for (i = 0; i < forms.length; i++) {
+      f = forms[i];
+      if (!f.querySelector('input[type="tel"], input[name="phone"], input[name="Phone"]')) continue;
+      for (k = 0; k < Q.length; k++) { if (answers[Q[k].key]) setHidden(f, Q[k].key, label(k, answers[Q[k].key])); }
+      if (Object.keys(answers).length === Q.length) setHidden(f, 'result_tier', tier(answers));
+      setHidden(f, 'quiz_summary', summary(answers));
+      if (ctaSource) setHidden(f, 'cta_source', ctaSource);
+    }
+    try { sessionStorage.setItem('ldvq_answers', JSON.stringify(answers)); } catch (e) {}
+  }
+
+  /* ---- отрисовка ---- */
+  function el(tag, cls, html) { var e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; }
+  function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;'); }
+
+  function renderQuestion() {
+    var q = Q[step], i, prog = el('div', 'ldvq__progress');
+    prog.setAttribute('role', 'img'); prog.setAttribute('aria-label', 'Question ' + (step + 1) + ' of ' + Q.length);
+    for (i = 0; i < Q.length; i++) prog.appendChild(el('i', i <= step ? 'is-done' : ''));
+    card.innerHTML = '';
+    card.appendChild(prog);
+    card.appendChild(el('p', 'ldvq__step', 'Question ' + (step + 1) + ' of ' + Q.length));
+    var h = el('h2', 'ldvq__q', esc(q.q)); h.tabIndex = -1; h.id = 'ldvq-q'; card.appendChild(h);
+    card.appendChild(el('p', 'ldvq__hint', esc(q.hint)));
+    var opts = el('div', 'ldvq__opts' + (q.single ? ' ldvq__opts--single' : ''));
+    opts.setAttribute('role', 'group'); opts.setAttribute('aria-labelledby', 'ldvq-q');
+    q.o.forEach(function (o) {
+      var ob = el('button', 'ldvq__opt' + (answers[q.key] === o[0] ? ' is-picked' : ''), esc(o[1]));
+      ob.type = 'button'; ob.setAttribute('data-v', o[0]);
+      ob.addEventListener('click', function () { pick(o[0], ob); });
+      opts.appendChild(ob);
+    });
+    card.appendChild(opts);
+    if (step > 0) {
+      var b = el('button', 'ldvq__back', '&larr; Back'); b.type = 'button';
+      b.addEventListener('click', function () { step--; renderQuestion(); focusHead(); });
+      card.appendChild(b);
+    }
+  }
+
+  function pick(val, btn) {
+    var q = Q[step];
+    if (!started) { started = true; push({ event: 'quiz_start' }); }
+    answers[q.key] = val;
+    btn.classList.add('is-picked');
+    push({ event: 'quiz_step', quiz_step: step + 1, quiz_question: q.key, quiz_answer: val });
+    fillForms();
+    setTimeout(function () {
+      if (step < Q.length - 1) { step++; renderQuestion(); focusHead(); }
+      else { step = Q.length; renderResult(); focusHead(true); }
+    }, 170);
+  }
+
+  function renderResult() {
+    var a = answers, t = tier(a), i, c;
+    push({ event: 'quiz_complete', result_tier: t, insurer_status: a.insurer_status, treatment_status: a.treatment_status });
+    fillForms();
+    card.innerHTML = '';
+    var h = el('h2', 'ldvq__tier', esc(TIER_TITLE[t])); h.tabIndex = -1; h.id = 'ldvq-q'; card.appendChild(h);
+    card.appendChild(el('p', 'ldvq__p',
+      'The same type of crash can end in a few thousand dollars or in seven figures. The difference is rarely the crash itself. It is what happens in the next few weeks.' +
+      (t === 'developing' ? ' That is often when the costliest mistakes are made.' : '')));
+    var chips = el('div', 'ldvq__chips');
+    for (i = 0; i < Q.length; i++) chips.appendChild(el('span', '', '<b>' + esc(Q[i].name) + ':</b> ' + esc(label(i, a[Q[i].key]))));
+    card.appendChild(chips);
+    card.appendChild(el('h3', 'ldvq__h3', '3 mistakes that can cost you money right now'));
+    var ul = el('ul', 'ldvq__list');
+    ['Giving the insurer a recorded statement before you know what applies to you.',
+     "Gaps in treatment, which insurers may use to argue the injury isn't from the crash.",
+     'Signing a quick offer. A signed release can close the claim for good.'].forEach(function (s) { ul.appendChild(el('li', '', esc(s))); });
+    card.appendChild(ul);
+    card.appendChild(el('p', 'ldvq__turn', 'But these 3 are the general ones. Your case has its own.'));
+    card.appendChild(el('p', 'ldvq__own', esc(personal(a))));
+    card.appendChild(el('h3', 'ldvq__h3', 'Call or leave your number. We’ll set up a free review of your case with an attorney, who can tell you:'));
+    var tk = el('ul', 'ldvq__ticks');
+    ['what applies to YOUR case, not general advice', "what NOT to do so you don't lose compensation",
+     'your next steps, in plain language', 'where your case stands, based on what you tell us'].forEach(function (s) { tk.appendChild(el('li', '', esc(s))); });
+    card.appendChild(tk);
+    card.appendChild(el('p', 'ldvq__fee', 'No fee unless we win.'));
+    var btns = el('div', 'ldvq__btns');
+    var call = el('a', 'ldvq__btn ldvq__btn--call ldvq-phone', 'Call ' + PHONE_TXT + ' &middot; 24/7'); call.href = PHONE_TEL;
+    call.addEventListener('click', function () { push({ event: 'quiz_cta', cta: 'call', result_tier: t }); });
+    var form = el('a', 'ldvq__btn ldvq__btn--primary', 'Get my free case review'); form.href = '#ldv-form-2';
+    form.addEventListener('click', function () { fillForms('quiz_result'); push({ event: 'quiz_cta', cta: 'form', result_tier: t }); });
+    btns.appendChild(form); btns.appendChild(call);
+    card.appendChild(btns);
+    card.appendChild(el('p', 'ldvq__fine', 'Free. No obligation. This is general information from your answers, not legal or medical advice or a promise of results. Submitting a form does not by itself create an attorney-client relationship.'));
+    var r = el('button', 'ldvq__restart', 'Change my answers'); r.type = 'button';
+    r.addEventListener('click', function () { push({ event: 'quiz_restart' }); step = 0; renderQuestion(); focusHead(true); });
+    card.appendChild(r);
+  }
+
+  function focusHead(scroll) {
+    var h = document.getElementById('ldvq-q');
+    if (h) { try { h.focus({ preventScroll: true }); } catch (e) {} }
+    if (scroll) {
+      var r = card.getBoundingClientRect();
+      if (r.top < 0 || r.top > window.innerHeight * 0.5) {
+        try { card.scrollIntoView({ behavior: 'smooth', block: 'start' }); } catch (e) { card.scrollIntoView(); }
+      }
+    }
+  }
+
+  renderQuestion();
+  window.addEventListener('pageshow', function () { fillForms(); });
+})();
+</script>
