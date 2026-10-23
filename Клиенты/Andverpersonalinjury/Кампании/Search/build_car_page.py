@@ -51,10 +51,15 @@ top_css = """
 .ldvc__anchor{display:block;height:0;scroll-margin-top:72px}
 .ldvc__micro{margin:10px 0 0;font-size:13.5px;font-weight:700;color:#b9b4ab}
 .ldvc__photo{display:none}
+.ldvc__who{display:flex;align-items:center;gap:12px;margin:0 0 12px}
+.ldvc__who img{flex:0 0 56px;width:56px;height:56px;border-radius:50%;object-fit:cover;object-position:50% 14%;border:2px solid #c9a56a}
+.ldvc__who span{font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#c9a56a;line-height:1.35}
+.ldvc__who b{display:block;font-size:15px;letter-spacing:0;text-transform:none;color:#fffdfa}
 @media(min-width:700px){.ldvc{padding:44px 24px 40px}}
 @media(min-width:900px){
   .ldvc__wrap{max-width:1040px}
   .ldvc__grid{display:grid;grid-template-columns:1.2fr .8fr;gap:44px;align-items:center}
+  .ldvc__who{display:none}
   .ldvc__photo{display:block;position:relative;border-radius:18px;overflow:hidden;box-shadow:0 18px 50px rgba(0,0,0,.35);max-height:520px}
   .ldvc__photo img{display:block;width:100%;height:520px;object-fit:cover;object-position:50% 20%}
   .ldvc__cap{position:absolute;left:0;right:0;bottom:0;padding:44px 18px 16px;background:linear-gradient(to top,rgba(13,21,27,.92),rgba(13,21,27,0));display:flex;flex-direction:column;gap:2px}
@@ -75,10 +80,11 @@ top = f"""<!-- Landver Law: легковая страница (Car), БЛОК 1:
   <div class="ldvc__wrap ldvc__grid">
    <div class="ldvc__text">
     <p class="ldvc__eyebrow">Free case review &middot; Answered 24/7</p>
-    <h1 class="ldvc__h1" id="ldvc-h1">California Car Accident Lawyer <span>Before you give a statement or sign anything, have an attorney review your case.</span></h1>
+    <h1 class="ldvc__h1" id="ldvc-h1">California Car Accident Lawyer <span>She began her career on the defense side. She knows how insurers undervalue claims.</span></h1>
+    <div class="ldvc__who"><img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/Landver0290.jpg" width="56" height="56" loading="lazy" alt="Alina Landver, Managing Partner and Trial Attorney"><span><b>Alina Landver, Esq., MBA</b>Managing Partner &middot; Trial Attorney</span></div>
     <ul class="ldvc__why">
-      <li>Your attorney began her career on the defense side, so she knows how claims get challenged.</li>
-      <li>The free review shows where your case stands, what to do next and what to avoid.</li>
+      <li>Over 20 years in State and Federal Court throughout California.</li>
+      <li>The free review shows where your case stands and what to do next, before you give a statement or sign anything.</li>
       <li>If you decide to hire the firm, you pay no fee unless you win. <a href="#ldv-fee" data-ldv-cta="hero_fee">See how it works</a></li>
     </ul>
     <ul class="ldvc__trust">
@@ -179,7 +185,7 @@ body = f"""<!-- Landver Law: легковая страница (Car), БЛОК 2
         <li>The first review is free. It is how you and the firm find out whether Landver Law can help with your case.</li>
         <li>If you hire the firm, you sign a written agreement first. It states the fee, and you can read it before you sign.</li>
         <li>The attorney fee is paid out of what is recovered. If nothing is recovered, you owe no attorney fee.</li>
-        <li>Landver Law advances litigation costs.</li>
+        <li>There are no upfront costs.</li>
       </ul>
       <p class="ldvp__note">So the firm is paid only when you are. Exact financial terms are confirmed in the written attorney-client agreement before representation begins.</p>
     </div>
@@ -212,7 +218,7 @@ body = f"""<!-- Landver Law: легковая страница (Car), БЛОК 2
           <li><b>California Bar</b> 231077</li>
           <li><b>Admitted</b> June 2004</li>
         </ul>
-        <p class="ldvp__lead">Alina Landver began her career representing corporate clients on the defense side before focusing on injured plaintiffs. That background gives the firm a perspective on how claims may be challenged, discounted or prepared for litigation.</p>
+        <p class="ldvp__lead">Alina Landver has practiced personal injury law for over 20 years in State and Federal Court throughout California. She began her career on the defense side, representing corporate clients, which gives her direct insight into how insurers undervalue claims.</p>
         <p class="ldvp__src">Attorney status and admission date are based on State Bar of California records. Statements about Landver Law's experience are based on information published by the firm. Prior experience does not guarantee a particular outcome in any individual matter.</p>
       </div>
     </div>
@@ -224,9 +230,9 @@ body = f"""<!-- Landver Law: легковая страница (Car), БЛОК 2
       <h2 class="ldvp__h2">What people say after working with Landver Law</h2>
       <div class="ldvp__rate"><b>4.8</b><div><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><span>out of 5 &middot; 45 Google reviews</span></div></div>
       <div class="ldvp__revs">
-        <blockquote class="ldvp__rev"><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;Best attorney ever!&rdquo;</p><small>M. M. &middot; Google Review &middot; January 2026</small></blockquote>
-        <blockquote class="ldvp__rev"><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;Great experience working with Landver Law Alina Landver esq.&rdquo;</p><small>D. O. Rothschild &middot; Google Review &middot; January 2026</small></blockquote>
-        <blockquote class="ldvp__rev"><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;The attorney treated my case with great seriousness from the start.&rdquo;</p><small>Elsy Castellanos &middot; Google Review &middot; October 2025</small></blockquote>
+        <blockquote class="ldvp__rev"><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;They walked me through every step of my case and took care of virtually everything, which made my life easier. Everyone on the team was so helpful and knowledgeable, always available when I needed help with any question I may have had.&rdquo;</p><small>Francis Padilla &middot; Google Review &middot; September 2025</small></blockquote>
+        <blockquote class="ldvp__rev"><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;The attorney treated my case with great seriousness from the start. They were very clear in communication, answered all my questions, and fought relentlessly for me.&rdquo;</p><small>Elsy Castellanos &middot; Google Review &middot; October 2025</small></blockquote>
+        <blockquote class="ldvp__rev"><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;Landver Law Personnel, and especially Alina Landver came to my, and my family rescue several times in the past 10 years. No matter if the case is big or small, we always felt we are treated with the best advise. Always ready to listen and act on our behalf.&rdquo;</p><small>Nureet Cohen &middot; Google Review &middot; August 2025</small></blockquote>
       </div>
       <p class="ldvp__note">A review is someone else's experience, not a promise about yours. Reviews shown are excerpts from publicly displayed Google reviews. Rating and review count can change over time. Testimonials do not constitute a guarantee, warranty or prediction regarding the outcome of any legal matter.</p>
     </div>
@@ -311,3 +317,29 @@ preview = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta n
 </body></html>"""
 (OUT / "0_maket_prosmotr.html").write_text(preview, encoding="utf-8")
 print("OK", OUT)
+
+
+# ------------------------------------------------------------------ ОПЦИОНАЛЬНЫЙ блок «результаты» (НЕ в странице, только после подтверждения клиента)
+results = f"""<!-- Landver Law: ОПЦИОНАЛЬНЫЙ блок «Recent settlements and verdicts» (Tilda T123). НЕ ВСТАВЛЯТЬ до подтверждения клиента:
+     1) что это настоящие результаты Landver Law (на старой Tilda-странице клиента похожие суммы подписаны «Not a Landver Law Result»);
+     2) что формулировки и обстоятельства дел корректны для рекламы (B&P 6158.3, не юридическая консультация).
+     Суммы и тексты — с главной страницы landverpersonalinjury.com (23.10.2026). Ставится после блока про адвоката, перед отзывами. -->
+<style>
+{body_css}
+</style>
+<div class="ldvp">
+  <section class="ldvp__sec ldvp__sec--white" id="ldv-results">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Results</p>
+      <h2 class="ldvp__h2">Recent settlements and verdicts</h2>
+      <div class="ldvp__cards">
+        <div class="ldvp__card"><b>$38.5M &middot; Motor vehicle accident</b><p>A highway rear-end collision caused severe spinal injuries and a prolonged recovery. The firm built a comprehensive evidentiary record and secured a top verdict.</p></div>
+        <div class="ldvp__card"><b>$35.2M &middot; Truck accident</b><p>One of the firm's most contested cases. The result was a top verdict for the client.</p></div>
+        <div class="ldvp__card"><b>$18.5M &middot; Motorcycle accident</b><p>A driver's failure to yield resulted in severe fractures and an extensive recovery.</p></div>
+      </div>
+      <p class="ldvp__note">Past results do not guarantee, predict or imply a similar outcome in any other matter. Every case depends on its own facts, injuries, evidence, liability, insurance coverage and applicable law.</p>
+    </div>
+  </section>
+</div>
+"""
+(OUT / "OPTIONAL_blok_results_NE_VSTAVLYAT_bez_podtverzhdeniya_klienta.txt").write_text(results, encoding="utf-8")
