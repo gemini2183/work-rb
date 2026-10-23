@@ -11,7 +11,7 @@ URL (предложение): `landverpersonalinjury.tilda.ws/california-car-acc
 
 ## Структура (телефон, ~7–8 экранов)
 
-0. Шапка без меню: логотип, телефон, кнопка «Get my action plan». Закреплённая плашка на телефоне: CALL NOW | GET MY ACTION PLAN.
+0. Шапка без меню: логотип, телефон, кнопка «Get my free case review». Закреплённая плашка на телефоне: CALL NOW · 24/7 | GET MY FREE CASE REVIEW.
 1. Первый экран + квиз (вопрос 1 уже на первом экране).
 2. Квиз, вопросы 2–5 (тот же блок).
 3. Экран результата (вариант 2) + форма контакта.
@@ -59,14 +59,16 @@ URL (предложение): `landverpersonalinjury.tilda.ws/california-car-acc
 - No contact yet: The insurer may call soon. Know what to say, and what not to, before they do.
 - No treatment yet: Treatment hasn't started. Waiting can hurt the claim. Tell us what happened so far.
 
-**In one free call, an attorney's team will tell you:**
+**Call or leave your number. We'll set up a free review of your case with an attorney, who can tell you:** (осторожный вариант: инструкцию колл-центру пока не отправляем, решение пользователя 2026-10-23; жёсткий вариант «In one free call you'll get: what NOT to do right now…» — только после отправки инструкции клиенту)
 ✓ what applies to YOUR case, not general advice
 ✓ what NOT to do so you don't lose compensation
 ✓ your next steps, in plain language
 ✓ where your case stands, based on what you tell us
 No fee unless we win.
 
-**Кнопки:** [Call (844) 452-9465]  [Get my action plan: First name, Phone]
+**Кнопки:** [Get my free case review] (прокрутка к форме Tilda)  [Call (844) 452-9465 · 24/7]
+**Форма Tilda под квизом:** заголовок «Get my free case review»; подзаголовок «Leave your name and phone. We'll contact you to set up your free review with an attorney.»; поля First name, Phone number; кнопка «Get my free case review».
+**После отправки:** Thank you. We've received your request and will contact you to set up your free case review. Prefer to talk now? Call (844) 452-9465 · 24/7.
 **Мелкий шрифт:** Free. No obligation. A review, not a promise of results. Submitting this form does not by itself create an attorney-client relationship.
 
 ## 4. Блоки под квизом
@@ -85,8 +87,8 @@ No fee unless we win.
 
 **What happens when you call**
 1. Tell us what happened: the crash, your injuries, your treatment so far.
-2. We explain what applies to your case and what to avoid doing.
-3. You decide whether to move forward. No obligation.
+2. We set up a free review of your case with an attorney.
+3. The attorney explains what applies to you and what to avoid. You decide whether to move forward. No obligation.
 
 **Meet your attorney:** Alina Landver, Esq., MBA, Managing Partner · Trial Attorney. Admitted to the California Bar in June 2004 (Bar No. 231077). Began her career representing corporate clients on the defense side, which helps show how insurers challenge claims. Beverly Hills office, 8730 Wilshire Blvd, Suite 416.
 
@@ -114,3 +116,15 @@ No fee unless we win.
 - инструкция колл-центру (3 правила «что не делать» в первом звонке) — отправить клиенту вместе с запуском, иначе 3.9 остаётся осторожным вариантом;
 - названия уровней «serious / moderate / developing»;
 - вопрос про грузовик в этой версии не задаём (страница под легковые); если нужны грузовые, добавить в вопрос 1.
+
+## Код квиза (готов, проверен локально 2026-10-23)
+
+Файл: `Клиенты/Andverpersonalinjury/Кампании/Search/settlement_quiz_t123.html` — один блок T123 (стили, разметка, скрипт; H1, подзаголовок, полоса доверия, квиз из 5 вопросов, экран результата, кнопки). Проверка в Playwright на локальной копии: 12 сценариев (все три уровня и все пять персональных строк), кнопка «Back», «Change my answers», события dataLayer, скрытые поля, ссылка tel, якорь `#ldv-form`, нет горизонтальной прокрутки на 390 px, нет ошибок в консоли. На живой Tilda не проверено.
+
+Как поставить:
+1. В копии страницы Tilda убрать верхние блоки, вставить блок T123 с содержимым файла.
+2. Сразу под ним — обычная форма Tilda (имя, телефон). Скрытые поля код создаёт сам; надёжнее в конструкторе формы завести одно скрытое поле с именем `quiz_summary` (там все ответы строкой и уровень) — тогда оно точно уйдёт в письмо/интеграцию.
+3. Закреплённая плашка: CALL NOW · 24/7 | GET MY FREE CASE REVIEW (ссылка `#ldv-form`).
+4. Ringostat: добавить правило подмены номера для ссылки с классом `ldvq-phone` (и для номера в шапке/плашке) на новом URL; прогнать `phone_swap_check.py` до включения трафика.
+5. GTM: события `quiz_start`, `quiz_step`, `quiz_complete`, `quiz_cta`, `quiz_restart` приходят в dataLayer; триггеры и теги GA4 — отдельным планом `gtm_apply_plan.py`.
+6. Закрыть страницу от индексации (noindex), ссылку не публиковать, кроме группы Settlement.

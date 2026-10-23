@@ -1,0 +1,256 @@
+<!-- Landver Law: Settlement quiz (Tilda T123 «HTML»). v1, 2026-10-23. Тексты — Settlement-страница-черновик-2026-10-23.md.
+     Вставить одним блоком T123 вверху страницы (вместо первого экрана). Под блоком — обычная форма Tilda (имя, телефон).
+     Ответы пишутся в скрытые поля всех форм страницы с полем телефона: quiz_summary (одно поле, достаточно его), а также
+     injury_type, treatment_status, work_missed, fault, insurer_status, result_tier, cta_source — поля создаются кодом, если их нет.
+     События в dataLayer: quiz_start, quiz_step, quiz_complete, quiz_cta, quiz_restart. -->
+<style>
+.ldvq{background:#101820;color:#fffdfa;font-family:Manrope,Arial,sans-serif;padding:28px 16px 40px;box-sizing:border-box}
+.ldvq *,.ldvq *::before,.ldvq *::after{box-sizing:border-box}
+.ldvq__wrap{max-width:760px;margin:0 auto}
+.ldvq__h1{margin:0 0 14px;font-weight:800;font-size:clamp(30px,7vw,52px);line-height:1.08;letter-spacing:-.02em;color:#fffdfa}
+.ldvq__h1 span{display:block;font-family:"DM Serif Display",Georgia,serif;font-weight:400;color:#efaa9e;letter-spacing:0}
+.ldvq__sub{margin:0 0 16px;font-size:clamp(16px,2.4vw,19px);line-height:1.55;color:#ddd7ce}
+.ldvq__trust{list-style:none;margin:0 0 22px;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.ldvq__trust li{font-size:13px;font-weight:700;line-height:1.2;padding:7px 11px;border-radius:999px;background:#17242b;border:1px solid rgba(201,165,106,.35);color:#f6f2ea}
+.ldvq__trust li b{color:#c9a56a;font-weight:800}
+.ldvq__card{scroll-margin-top:72px;background:#17242b;border:1px solid rgba(255,255,255,.09);border-radius:18px;padding:22px 18px;box-shadow:0 18px 50px rgba(0,0,0,.28)}
+.ldvq__progress{display:flex;gap:6px;margin:0 0 14px}
+.ldvq__progress i{flex:1;height:5px;border-radius:3px;background:rgba(255,255,255,.14)}
+.ldvq__progress i.is-done{background:#e8563f}
+.ldvq__step{margin:0 0 6px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#c9a56a}
+.ldvq__q{margin:0 0 6px;font-size:clamp(21px,4.6vw,28px);line-height:1.22;font-weight:800;color:#fffdfa;outline:none}
+.ldvq__hint{margin:0 0 16px;font-size:14.5px;line-height:1.45;color:#b9b4ab}
+.ldvq__opts{display:grid;gap:10px}
+.ldvq__opt{display:flex;align-items:center;gap:12px;width:100%;min-height:56px;padding:13px 16px;text-align:left;font:700 16.5px/1.3 Manrope,Arial,sans-serif;color:#fffdfa;background:#0d151b;border:1.5px solid rgba(255,255,255,.14);border-radius:12px;cursor:pointer;transition:border-color .15s,background .15s,transform .05s;-webkit-tap-highlight-color:transparent}
+.ldvq__opt::before{content:"";flex:0 0 20px;height:20px;border-radius:50%;border:2px solid rgba(255,255,255,.35)}
+.ldvq__opt:hover,.ldvq__opt:focus-visible{border-color:#e8563f;background:#14212a;outline:none}
+.ldvq__opt:active{transform:scale(.99)}
+.ldvq__opt.is-picked{border-color:#e8563f;background:#2a1c1b}
+.ldvq__opt.is-picked::before{border-color:#e8563f;background:#e8563f;box-shadow:inset 0 0 0 3px #2a1c1b}
+.ldvq__back{margin:14px 0 0;padding:6px 0;background:none;border:0;font:600 14px Manrope,Arial,sans-serif;color:#b9b4ab;cursor:pointer;text-decoration:underline}
+.ldvq__back:hover{color:#fffdfa}
+.ldvq__tier{margin:0 0 10px;font-size:clamp(22px,5vw,30px);line-height:1.2;font-weight:800;color:#fffdfa;outline:none}
+.ldvq__p{margin:0 0 14px;font-size:16px;line-height:1.55;color:#ddd7ce}
+.ldvq__chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 18px}
+.ldvq__chips span{font-size:12.5px;line-height:1.25;padding:6px 10px;border-radius:8px;background:#0d151b;border:1px solid rgba(255,255,255,.1);color:#ddd7ce}
+.ldvq__chips b{color:#c9a56a;font-weight:700}
+.ldvq__h3{margin:20px 0 10px;font-size:18px;line-height:1.3;font-weight:800;color:#fffdfa}
+.ldvq__list{margin:0 0 6px;padding:0;list-style:none;counter-reset:m}
+.ldvq__list li{counter-increment:m;position:relative;margin:0 0 8px;padding:12px 14px 12px 46px;border-radius:12px;background:#0d151b;border:1px solid rgba(232,86,63,.28);font-size:15.5px;line-height:1.45;color:#f6f2ea}
+.ldvq__list li::before{content:counter(m);position:absolute;left:13px;top:11px;width:24px;height:24px;border-radius:50%;background:#e8563f;color:#fff;font-weight:800;font-size:13px;line-height:24px;text-align:center}
+.ldvq__turn{margin:16px 0 10px;font-size:17px;line-height:1.4;font-weight:800;color:#efaa9e}
+.ldvq__own{margin:0 0 18px;padding:14px 16px;border-radius:12px;background:rgba(201,165,106,.12);border-left:4px solid #c9a56a;font-size:16px;line-height:1.45;font-weight:700;color:#fffdfa}
+.ldvq__ticks{margin:0 0 10px;padding:0;list-style:none}
+.ldvq__ticks li{position:relative;margin:0 0 7px;padding-left:28px;font-size:15.5px;line-height:1.45;color:#f6f2ea}
+.ldvq__ticks li::before{content:"\2713";position:absolute;left:0;top:0;color:#e8563f;font-weight:800}
+.ldvq__fee{margin:0 0 16px;font-size:15px;font-weight:800;color:#c9a56a}
+.ldvq__btns{display:grid;gap:10px;margin:0 0 12px}
+.ldvq__btn{display:flex;align-items:center;justify-content:center;min-height:56px;padding:14px 18px;border-radius:12px;font:800 16.5px/1.2 Manrope,Arial,sans-serif;text-align:center;text-decoration:none;cursor:pointer;border:2px solid #e8563f;transition:background .15s,color .15s}
+.ldvq__btn--primary{background:#e8563f;color:#fff}
+.ldvq__btn--primary:hover{background:#cf4633;border-color:#cf4633;color:#fff}
+.ldvq__btn--call{background:transparent;color:#fffdfa;border-color:rgba(255,255,255,.4)}
+.ldvq__btn--call:hover{border-color:#fffdfa;color:#fff}
+.ldvq__fine{margin:0 0 6px;font-size:12.5px;line-height:1.5;color:#929a9e}
+.ldvq__restart{margin:6px 0 0;padding:4px 0;background:none;border:0;font:600 13.5px Manrope,Arial,sans-serif;color:#b9b4ab;cursor:pointer;text-decoration:underline}
+.ldvq__anchor{display:block;height:0;scroll-margin-top:72px}
+@media(min-width:700px){.ldvq{padding:48px 24px 56px}.ldvq__card{padding:30px 30px}.ldvq__btns{grid-template-columns:1fr 1fr}.ldvq__opts{grid-template-columns:1fr 1fr}.ldvq__opts--single{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.ldvq__opt{transition:none}}
+</style>
+
+<section class="ldvq" id="ldvq" aria-labelledby="ldvq-h1">
+  <div class="ldvq__wrap">
+    <h1 class="ldvq__h1" id="ldvq-h1">What Is Your California Car Accident <span>Claim Worth?</span></h1>
+    <p class="ldvq__sub">Answer 5 quick questions. See what can raise or lower the value of a case like yours, and what to avoid before you talk to the insurance company.</p>
+    <ul class="ldvq__trust">
+      <li><b>&#9733; 4.8</b> &middot; 45 Google reviews</li>
+      <li>Practicing since 2004</li>
+      <li>Free case review</li>
+      <li>No fee unless we win</li>
+      <li>Call 24/7</li>
+    </ul>
+    <div class="ldvq__card" id="ldvq-card" aria-live="polite">
+      <noscript><p class="ldvq__p">Please call us: <a href="tel:+18444529465" style="color:#efaa9e">(844) 452-9465</a> &middot; 24/7</p></noscript>
+    </div>
+    <a id="ldv-form" class="ldvq__anchor" aria-hidden="true" tabindex="-1"></a>
+  </div>
+</section>
+
+<script>
+(function () {
+  'use strict';
+  var PHONE_TEL = 'tel:+18444529465';
+  var PHONE_TXT = '(844) 452-9465';
+
+  var Q = [
+    { key: 'injury_type', name: 'Injury', q: 'What was the most serious injury?', hint: 'Pick the closest one. You can explain details later.',
+      o: [['head', 'Head or brain injury'], ['spine', 'Neck or back (spine)'], ['fracture', 'Broken bone'],
+          ['soft', 'Soft tissue (sprain, whiplash, bruising)'], ['other', 'Other / not sure yet']] },
+    { key: 'treatment_status', name: 'Treatment', q: 'Where is your treatment right now?', hint: 'This is not a medical diagnosis.',
+      o: [['hospital', 'Hospital or ER so far'], ['ongoing', 'Ongoing treatment (doctor, therapy)'], ['surgery', 'Surgery recommended or completed'],
+          ['none', 'No treatment yet'], ['diagnosing', 'Still being diagnosed']] },
+    { key: 'work_missed', name: 'Missed work', q: 'Have you missed work?', hint: 'Include reduced hours.',
+      o: [['none', 'No'], ['days', 'A few days'], ['weeks', 'Several weeks'], ['cant', "I can't return to my job"]] },
+    { key: 'fault', name: 'Fault', q: 'Who was at fault?', hint: 'Not sure is a fine answer.', single: true,
+      o: [['other', 'The other driver'], ['shared', 'Shared or disputed'], ['unsure', "I'm not sure"]] },
+    { key: 'insurer_status', name: 'Insurer', q: 'Has an insurance company contacted you?', hint: "Yours or the other driver's.",
+      o: [['none', 'No, not yet'], ['statement', 'Yes, they asked for a statement'], ['offer', "Yes, they made an offer (I haven't signed)"], ['signed', 'I already signed something']] }
+  ];
+
+  var TIER_TITLE = {
+    serious: 'Your answers suggest a serious injury situation.',
+    moderate: 'Your answers suggest a moderate injury situation.',
+    developing: 'Your injury picture is still developing.'
+  };
+  var PERSONAL = {
+    offer: 'An offer is on the table. Before you answer it, find out what it may leave out.',
+    statement: 'They asked for a statement. Before you give one, find out what it may be used for.',
+    signed: 'You already signed. Tell us today, because the next steps are different.',
+    nocontact: 'The insurer may call soon. Know what to say, and what not to, before they do.',
+    notreat: "Treatment hasn't started. Waiting can hurt the claim. Tell us what happened so far."
+  };
+
+  var card = document.getElementById('ldvq-card');
+  if (!card) return;
+  var answers = {};   // key -> value
+  var step = 0;       // 0..4 вопросы, 5 результат
+  var started = false;
+  var dl = (window.dataLayer = window.dataLayer || []);
+
+  function push(o) { try { dl.push(o); } catch (e) {} }
+  function label(qi, val) { var o = Q[qi].o, i; for (i = 0; i < o.length; i++) { if (o[i][0] === val) return o[i][1]; } return ''; }
+
+  function tier(a) {
+    if (a.treatment_status === 'none' || a.treatment_status === 'diagnosing') return 'developing';
+    if (a.treatment_status === 'surgery' || a.injury_type === 'head' || a.work_missed === 'cant' ||
+        ((a.injury_type === 'spine' || a.injury_type === 'fracture') && (a.treatment_status === 'hospital' || a.treatment_status === 'ongoing'))) return 'serious';
+    return 'moderate';
+  }
+  function personal(a) {
+    if (a.insurer_status === 'signed') return PERSONAL.signed;
+    if (a.insurer_status === 'offer') return PERSONAL.offer;
+    if (a.insurer_status === 'statement') return PERSONAL.statement;
+    if (a.treatment_status === 'none') return PERSONAL.notreat;
+    return PERSONAL.nocontact;
+  }
+  function summary(a) {
+    var parts = [], i;
+    for (i = 0; i < Q.length; i++) { if (a[Q[i].key]) parts.push(Q[i].name + ': ' + label(i, a[Q[i].key])); }
+    if (parts.length === Q.length) parts.push('Result: ' + tier(a));
+    return parts.length ? parts.join(' | ') : 'Quiz not completed';
+  }
+
+  /* ---- запись в скрытые поля форм страницы (создаём поля, если их нет) ---- */
+  function setHidden(form, name, value) {
+    var el = form.querySelector('input[name="' + name + '"]');
+    if (!el) { el = document.createElement('input'); el.type = 'hidden'; el.name = name; form.appendChild(el); }
+    el.value = value;
+  }
+  function fillForms(ctaSource) {
+    var forms = document.querySelectorAll('form'), i, f, k;
+    for (i = 0; i < forms.length; i++) {
+      f = forms[i];
+      if (!f.querySelector('input[type="tel"], input[name="phone"], input[name="Phone"]')) continue;
+      for (k = 0; k < Q.length; k++) { if (answers[Q[k].key]) setHidden(f, Q[k].key, label(k, answers[Q[k].key])); }
+      if (Object.keys(answers).length === Q.length) setHidden(f, 'result_tier', tier(answers));
+      setHidden(f, 'quiz_summary', summary(answers));
+      if (ctaSource) setHidden(f, 'cta_source', ctaSource);
+    }
+    try { sessionStorage.setItem('ldvq_answers', JSON.stringify(answers)); } catch (e) {}
+  }
+
+  /* ---- отрисовка ---- */
+  function el(tag, cls, html) { var e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; }
+  function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;'); }
+
+  function renderQuestion() {
+    var q = Q[step], i, prog = el('div', 'ldvq__progress');
+    prog.setAttribute('role', 'img'); prog.setAttribute('aria-label', 'Question ' + (step + 1) + ' of ' + Q.length);
+    for (i = 0; i < Q.length; i++) prog.appendChild(el('i', i <= step ? 'is-done' : ''));
+    card.innerHTML = '';
+    card.appendChild(prog);
+    card.appendChild(el('p', 'ldvq__step', 'Question ' + (step + 1) + ' of ' + Q.length));
+    var h = el('h2', 'ldvq__q', esc(q.q)); h.tabIndex = -1; h.id = 'ldvq-q'; card.appendChild(h);
+    card.appendChild(el('p', 'ldvq__hint', esc(q.hint)));
+    var opts = el('div', 'ldvq__opts' + (q.single ? ' ldvq__opts--single' : ''));
+    opts.setAttribute('role', 'group'); opts.setAttribute('aria-labelledby', 'ldvq-q');
+    q.o.forEach(function (o) {
+      var ob = el('button', 'ldvq__opt' + (answers[q.key] === o[0] ? ' is-picked' : ''), esc(o[1]));
+      ob.type = 'button'; ob.setAttribute('data-v', o[0]);
+      ob.addEventListener('click', function () { pick(o[0], ob); });
+      opts.appendChild(ob);
+    });
+    card.appendChild(opts);
+    if (step > 0) {
+      var b = el('button', 'ldvq__back', '&larr; Back'); b.type = 'button';
+      b.addEventListener('click', function () { step--; renderQuestion(); focusHead(); });
+      card.appendChild(b);
+    }
+  }
+
+  function pick(val, btn) {
+    var q = Q[step];
+    if (!started) { started = true; push({ event: 'quiz_start' }); }
+    answers[q.key] = val;
+    btn.classList.add('is-picked');
+    push({ event: 'quiz_step', quiz_step: step + 1, quiz_question: q.key, quiz_answer: val });
+    fillForms();
+    setTimeout(function () {
+      if (step < Q.length - 1) { step++; renderQuestion(); focusHead(); }
+      else { step = Q.length; renderResult(); focusHead(true); }
+    }, 170);
+  }
+
+  function renderResult() {
+    var a = answers, t = tier(a), i, c;
+    push({ event: 'quiz_complete', result_tier: t, insurer_status: a.insurer_status, treatment_status: a.treatment_status });
+    fillForms();
+    card.innerHTML = '';
+    var h = el('h2', 'ldvq__tier', esc(TIER_TITLE[t])); h.tabIndex = -1; h.id = 'ldvq-q'; card.appendChild(h);
+    card.appendChild(el('p', 'ldvq__p',
+      'The same type of crash can end in a few thousand dollars or in seven figures. The difference is rarely the crash itself. It is what happens in the next few weeks.' +
+      (t === 'developing' ? ' That is often when the costliest mistakes are made.' : '')));
+    var chips = el('div', 'ldvq__chips');
+    for (i = 0; i < Q.length; i++) chips.appendChild(el('span', '', '<b>' + esc(Q[i].name) + ':</b> ' + esc(label(i, a[Q[i].key]))));
+    card.appendChild(chips);
+    card.appendChild(el('h3', 'ldvq__h3', '3 mistakes that can cost you money right now'));
+    var ul = el('ul', 'ldvq__list');
+    ['Giving the insurer a recorded statement before you know what applies to you.',
+     "Gaps in treatment, which insurers may use to argue the injury isn't from the crash.",
+     'Signing a quick offer. A signed release can close the claim for good.'].forEach(function (s) { ul.appendChild(el('li', '', esc(s))); });
+    card.appendChild(ul);
+    card.appendChild(el('p', 'ldvq__turn', 'But these 3 are the general ones. Your case has its own.'));
+    card.appendChild(el('p', 'ldvq__own', esc(personal(a))));
+    card.appendChild(el('h3', 'ldvq__h3', 'Call or leave your number. We’ll set up a free review of your case with an attorney, who can tell you:'));
+    var tk = el('ul', 'ldvq__ticks');
+    ['what applies to YOUR case, not general advice', "what NOT to do so you don't lose compensation",
+     'your next steps, in plain language', 'where your case stands, based on what you tell us'].forEach(function (s) { tk.appendChild(el('li', '', esc(s))); });
+    card.appendChild(tk);
+    card.appendChild(el('p', 'ldvq__fee', 'No fee unless we win.'));
+    var btns = el('div', 'ldvq__btns');
+    var call = el('a', 'ldvq__btn ldvq__btn--call ldvq-phone', 'Call ' + PHONE_TXT + ' &middot; 24/7'); call.href = PHONE_TEL;
+    call.addEventListener('click', function () { push({ event: 'quiz_cta', cta: 'call', result_tier: t }); });
+    var form = el('a', 'ldvq__btn ldvq__btn--primary', 'Get my free case review'); form.href = '#ldv-form';
+    form.addEventListener('click', function () { fillForms('quiz_result'); push({ event: 'quiz_cta', cta: 'form', result_tier: t }); });
+    btns.appendChild(form); btns.appendChild(call);
+    card.appendChild(btns);
+    card.appendChild(el('p', 'ldvq__fine', 'Free. No obligation. This is general information from your answers, not legal or medical advice or a promise of results. Submitting a form does not by itself create an attorney-client relationship.'));
+    var r = el('button', 'ldvq__restart', 'Change my answers'); r.type = 'button';
+    r.addEventListener('click', function () { push({ event: 'quiz_restart' }); step = 0; renderQuestion(); focusHead(true); });
+    card.appendChild(r);
+  }
+
+  function focusHead(scroll) {
+    var h = document.getElementById('ldvq-q');
+    if (h) { try { h.focus({ preventScroll: true }); } catch (e) {} }
+    if (scroll) {
+      var r = card.getBoundingClientRect();
+      if (r.top < 0 || r.top > window.innerHeight * 0.5) {
+        try { card.scrollIntoView({ behavior: 'smooth', block: 'start' }); } catch (e) { card.scrollIntoView(); }
+      }
+    }
+  }
+
+  renderQuestion();
+  window.addEventListener('pageshow', function () { fillForms(); });
+})();
+</script>
