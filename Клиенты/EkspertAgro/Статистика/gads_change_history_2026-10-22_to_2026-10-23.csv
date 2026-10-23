@@ -1,0 +1,3 @@
+Datetime,Campaign_resource,Resource_type,Operation,Client_type,User_email,Changed_fields,Relevant_fields,Is_relevant
+2026-10-22 13:01:48.706488,customers/8826134558/campaigns/24360520273,CAMPAIGN,UPDATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,status,status,True
+2026-10-22 10:37:44.307525,customers/8826134558/campaigns/24210390946,CAMPAIGN,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True
