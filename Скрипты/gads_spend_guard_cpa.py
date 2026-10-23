@@ -173,7 +173,7 @@ def calls_by_day(cfg, m, id_to_name):
     resp = requests.get(
         "https://api.ringostat.net/calls/list",
         params={"export_type": "json", "from": rs["date_from"], "to": today.strftime("%Y-%m-%d 23:59:59"),
-                "fields": "calldate,caller,utm_source,utm_medium,utm_campaign,pool_name"},
+                "fields": "calldate,caller,call_type,utm_source,utm_medium,utm_campaign,pool_name"},
         headers={"Content-Type": "application/json; charset=utf-8", "Auth-key": rs["auth_key"]}, timeout=180)
     if resp.status_code != 200:
         return None
@@ -189,15 +189,26 @@ def calls_by_day(cfg, m, id_to_name):
     df["category"] = df.apply(
         lambda r: m.categorize_source(str(r["utm_source"]), str(r["utm_medium"]), google_keywords), axis=1)
     df.loc[df["utm_campaign"].isin(excluded), "category"] = "No Source"
-    tracked = df[df["category"].isin(m.TRACKED_CATEGORIES)].copy()
-    if tracked.empty:
+    # Как в мониторе после 2026-10-21 (sources.ringostat.get_calls_today): только входящие, цепочка окон по chain_key
+    df = df[df["call_type"] == "in"].copy()
+    if rs.get("unique_scheme", "channels") == "clients":
+        df["client"] = df.apply(m._determine_client, axis=1)
+        chain = df[df["client"].notna()].copy()
+        chain["chain_key"] = chain["client"] + "|" + chain["caller"].astype(str)
+    else:
+        chain = df
+        if not rs.get("count_other_channels", False):
+            chain = df[df["category"].isin(m.TRACKED_CATEGORIES)].copy()
+        chain["chain_key"] = chain["caller"].astype(str)
+    if chain[chain["category"] == m.GOOGLE_ADS].empty:
         return {}
-    cl = m._classify_calls(tracked)
-    cl = cl[(cl["category"] == m.GOOGLE_ADS) & (cl["call_type"] == "unique")]
+    cl = m._mark_new_calls(chain, int(rs.get("unique_window_days", 60)))
+    cl = cl[(cl["category"] == m.GOOGLE_ADS) & (cl["call_type_unique"] == "unique")]
     cl = cl[cl["date_only"] >= today - timedelta(days=10)].copy()
     if cl.empty:
         return {}
-    cl["camp"] = cl.apply(lambda r: m._resolve_campaign_name(r, id_to_name, UNRESOLVED, regex, kw, ""), axis=1)
+    static = rs.get("pmax_static_name", "")
+    cl["camp"] = cl.apply(lambda r: m._resolve_campaign_name(r, id_to_name, UNRESOLVED, regex, kw, static), axis=1)
     out = {}
     for (d, c), g in cl.groupby(["date_only", "camp"]):
         out[(d.isoformat(), c)] = len(g)

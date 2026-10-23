@@ -28,6 +28,7 @@
 """
 import argparse
 import pickle
+import re
 import sys
 from datetime import date, timedelta
 from pathlib import Path
@@ -141,6 +142,94 @@ def sales_with_source(sheet):
         src = (t.iloc[0]["src"] if not t.empty else grp.iloc[0]["src"]) or "Нет метки"
         rows.append({"order": order, "sale_date": pd.Timestamp(min(sd)).date(), "src2": src if src in SOURCES else "Прочее"})
     return pd.DataFrame(rows)
+
+
+def _last9(x):
+    d = re.sub(r"\D", "", str(x or ""))
+    return d[-9:] if len(d) >= 9 else ""
+
+
+def read_client_list(path):
+    """Список продаж дашборда клиента (TSV из его вкладки «Ads + FB»: Дата, Заказ, Телефон, Товар, Кол-во, Источник, UTM, Площадка, Автор) → одна строка на заказ."""
+    c = pd.read_csv(path, sep="	", dtype=str).fillna("")
+    c["qty"] = c["Кол-во"].replace("", "1").astype(int)
+    return c.groupby("Заказ", sort=False).agg(
+        client_date=("Дата", "min"), client_phone=("Телефон", "first"), product=("Товар", lambda s: "; ".join(s)), qty=("qty", "sum"),
+        client_source=("Источник", "first"), platform=("Площадка", "first"), author=("Автор", "first")).reset_index().rename(columns={"Заказ": "key"})
+
+
+def client_scheme_orders(sheet, client=None, frm=None, to=None):
+    """Заказы «по схеме клиента» из выгрузки CRM (лист mocnaszklarnia.pl).
+    Продажа = заказ с датой продажи; отменён, если дата отмены не раньше даты продажи (отмена до продажи и новая продажа: заказ действует).
+    Источник заказа по правилу клиента: есть строка-форма → источник формы (Google Ads, Facebook, иначе «Нет метки»); формы нет → заказ менеджера, «Телефон».
+    Дата заказа (оценка, UTC): даты создания в выгрузке нет; берём дату продажи, если первая строка позже продажи или раньше продажи больше чем на 7 дней, иначе первую строку.
+    В схему входят действующие заказы, у которых либо есть форма, либо первое обращение за 60 дн не «Телефон» и не Google SEO.
+    Возвращает (заказы схемы, расхождения с дашбордом клиента); без списка клиента расхождения пустые."""
+    pm = sheet[sheet["site"] == SITE].sort_values("ts", kind="mergesort")
+    other_keys = set(sheet.loc[(sheet["site"] != SITE) & (sheet["order"] != ""), "order"].str[:8])
+    rows = []
+    for order, g in pm[pm["order"] != ""].groupby("order"):
+        g = g.sort_values("ts", kind="mergesort")
+        sale = min([d for d in g["sale_date"] if d] or [""])
+        canc = max([d for d in g["cancel_date"] if d] or [""])
+        created = g.iloc[0]["ts"]
+        forms = g[g["type"] == "форма"]
+        rule = ((forms.iloc[0]["src"] if forms.iloc[0]["src"] in ("Google Ads", "Facebook") else "Нет метки") if len(forms) else "Телефон")
+        hist = pm[(pm["p9"] == g.iloc[0]["p9"]) & (pm["ts"] <= created + pd.Timedelta(minutes=3))]
+        w = hist[hist["ts"] >= created - pd.Timedelta(days=WINDOW)]
+        first60 = (w.iloc[0]["src"] or "Нет метки") if len(w) else ""
+        ad_touch = bool(len(hist[hist["src"].isin(["Google Ads", "Facebook"]) | hist["gclid"].ne("")]))
+        active = bool(sale) and (not canc or canc < sale)
+        # Дата заказа (оценка): даты создания в выгрузке нет. Дата продажи, если первая строка позже продажи или раньше продажи больше чем на 7 дней,
+        # иначе первая строка. На 01–20.10 совпало с датой клиента у 74 из 75 общих заказов (по первой строке только у 71).
+        fr = created.tz_convert("UTC").tz_localize(None)
+        est = pd.Timestamp(sale) if (sale and (pd.Timestamp(sale) < fr.normalize() or (pd.Timestamp(sale) - fr.normalize()).days > 7)) else fr
+        art = False
+        rows.append({"order": order, "key": order[:8], "p9": g.iloc[0]["p9"], "phone": g.iloc[0]["phone"], "created": created,
+                     "day": est.date(), "est": est, "sale": sale, "active": active, "art": art, "has_form": len(forms) > 0, "first60": first60, "ad_touch": ad_touch,
+                     "rule": rule, "first_src": g.iloc[0]["src"] or "Нет метки", "first_type": g.iloc[0]["type"]})
+    O = pd.DataFrame(rows)
+    if frm is not None:
+        f0, t0 = pd.Timestamp(frm).date(), pd.Timestamp(to).date()
+        O["in_period"] = (O["day"] >= f0) & (O["day"] <= t0)
+    else:
+        O["in_period"] = True
+    O["selected"] = O["active"] & ~O["art"] & (O["has_form"] | ~O["first60"].isin(["Телефон", "Google SEO"])) & O["in_period"]
+    act = O[O["active"]]
+    O["repeat"] = [bool(len(act[(act["p9"] == r.p9) & (act["order"] != r.order) &
+                                 (pd.to_datetime(act["sale"]) <= r.created.tz_convert("UTC").tz_localize(None) - pd.Timedelta(days=7))])) for r in O.itertuples()]
+    qty = client.set_index("key")["qty"].to_dict() if client is not None else {}
+    O["qty"] = [qty.get(k, 1) for k in O["key"]]
+    sel = O[O["selected"]].copy()
+    if client is None:
+        return sel, pd.DataFrame()
+    ck = client.set_index("key")
+    sel["in_client"] = sel["key"].isin(ck.index)
+    diff = []
+    by_key = O.drop_duplicates("key").set_index("key")
+    for r in client.itertuples():
+        if r.key in set(sel["key"]):
+            rule = sel[sel["key"] == r.key].iloc[0]["rule"]
+            if rule != r.client_source:
+                diff.append(("Источник у клиента другой", r.key, r.client_date, r.client_source, rule,
+                             f"Правило клиента даёт «{rule}», у клиента «{r.client_source}» (вероятно, менеджер выбрал источник вручную)", "", ""))
+            continue
+        if r.key in by_key.index:
+            o = by_key.loc[r.key]
+            why = (f"Дата заказа по выгрузке CRM (оценка) {o['est']:%d.%m.%Y}, вне периода, у клиента {r.client_date[:10]}" if not o["in_period"] else
+                   "В выгрузке CRM заказ отменён или без продажи" if not o["active"] else "По правилу клиента не отнесён к рекламному дашборду")
+        elif r.key in other_keys:
+            why = "Заказ найден только на листе другого сайта"
+        elif len(pm[pm["p9"] == _last9(r.client_phone)]):
+            why = "Заказа с таким номером в выгрузке CRM нет, есть только обращения с этим телефоном"
+        else:
+            why = "В выгрузке CRM нет ни заказа, ни обращений с этим телефоном"
+        diff.append(("Есть у клиента, нет у нас", r.key, r.client_date, r.client_source, "", why, "", ""))
+    for r in sel[~sel["in_client"]].itertuples():
+        diff.append(("Есть у нас, нет у клиента", r.key, r.est.strftime("%Y-%m-%d %H:%M"), "", r.rule,
+                     "Повторная покупка: человек уже покупал раньше" if r.repeat else "Причина неизвестна",
+                     r.first60 or "нет в выгрузке CRM", "да" if r.ad_touch else "нет"))
+    return sel, pd.DataFrame(diff, columns=["Раздел", "Заказ", "Дата", "Источник у клиента", "Наш расчёт: источник заказа по схеме клиента", "Причина", "Первое обращение за 60 дней", "Было рекламное касание"])
 
 
 def build(frm, to, ads, fb, contacts, sales, usd_eur, client=None, mode="our"):
@@ -276,12 +365,13 @@ ol.d{{margin:12px 0;padding-left:20px;font-size:13px;color:var(--mut)}}
 MONTHS_RU = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"]
 
 
-def daily_table(frm, to, ads, fb, contacts, sales, client):
+def daily_table(frm, to, ads, fb, contacts, sales, client, scheme=None):
     """Длинная таблица «дата × источник»: расход/клики/показы (Google — евро, Facebook — доллары как в BigQuery), конверсии,
     звонки (из конверсий), продажи, а также конверсии и звонки «как у клиента» (режим переключается на листе «Дашборд»). Из неё формулы
     листа «Дашборд» собирают любой период."""
     cm = contacts[contacts["new"]].groupby(["day", "src2"]).agg(conv=("type", "size"), calls=("type", lambda s: int((s == "звонок").sum())))
     sm = sales.groupby(["sale_date", "src2"]).size()
+    sc = scheme.groupby(["day", "rule"])["qty"].sum() if scheme is not None else None
     cdx = client.set_index(["day", "src2"])
     a, b = ads.set_index("date"), fb.set_index("date")
     rows = []
@@ -300,12 +390,13 @@ def daily_table(frm, to, ads, fb, contacts, sales, client):
             forms_c = int(cdx["forms_c"].get((d, src), 0)) if (d, src) in cdx.index else 0
             rows.append({"Дата": d, "Источник": src, "Цена": cost, "Клики": clk, "Показы": imp, "Конверсии": conv,
                          "Звонки": calls, "Продажи": int(sm.get((d, src), 0)),
+                         "Продажи_клиент": int(sc.get((d, src), 0)) if sc is not None else int(sm.get((d, src), 0)),
                          "Конверсии_клиент": calls_c + forms_c if src in ("Google Ads", "Facebook") else (forms_c if src == "Нет метки" else 0),
                          "Звонки_клиент": calls_c if src in ("Google Ads", "Facebook") else 0})
     return pd.DataFrame(rows)
 
 
-def write_xlsx_dynamic(path, daily, usd_eur, frm, to):
+def write_xlsx_dynamic(path, daily, usd_eur, frm, to, orders_tbl=None, diff_tbl=None):
     """Книга для Google Таблиц: «Дашборд» (выпадающий выбор периода + формулы), «Данные» (по дням), «Списки» (периоды), «Как считается»."""
     from openpyxl import Workbook
     from openpyxl.styles import Alignment, Font, PatternFill
@@ -320,15 +411,16 @@ def write_xlsx_dynamic(path, daily, usd_eur, frm, to):
 
     # --- Данные
     wd.append(["Дата", "Источник", "Цена (Google — €, Facebook — $ как в BigQuery)", "Клики", "Показы", "Конверсии (наш режим: новые обращения CRM)", "из них звонки", "Продажи",
-               "Конверсии (как у клиента: звонки + формы GA4)", "из них звонки (первый звонок за всю историю)"])
+               "Конверсии (как у клиента: звонки + формы GA4)", "из них звонки (первый звонок за всю историю)",
+               "Продажи (как у клиента: по правилу клиента, количество товара)"])
     for c in wd[1]:
         c.font, c.fill = bold, head
     for _, r in daily.iterrows():
         wd.append([r["Дата"], r["Источник"], r["Цена"], r["Клики"], r["Показы"], r["Конверсии"], r["Звонки"], r["Продажи"],
-                   r["Конверсии_клиент"], r["Звонки_клиент"]])
+                   r["Конверсии_клиент"], r["Звонки_клиент"], r["Продажи_клиент"]])
         wd.cell(wd.max_row, 1).number_format = "DD.MM.YYYY"
     wd.freeze_panes = "A2"
-    for col, w in zip("ABCDEFGHIJ", (12, 12, 22, 10, 12, 20, 14, 10, 24, 24)):
+    for col, w in zip("ABCDEFGHIJK", (12, 12, 22, 10, 12, 20, 14, 10, 24, 24, 28)):
         wd.column_dimensions[col].width = w
 
     # --- Списки: готовые периоды (динамические от сегодняшней даты и статические месяцы/недели)
@@ -402,7 +494,7 @@ def write_xlsx_dynamic(path, daily, usd_eur, frm, to):
         ws.cell(r, 8, f'=IFERROR(G{r}/C{r}*100,"")' if paid else D)
         ws.cell(r, 9, f'=IFERROR(B{r}/G{r},"")' if paid else D)
         ws.cell(r, 10, f'=IF(LEFT($B$7,3)="Как",{S("J", r)},{S("G", r)})' if has_calls else D)
-        ws.cell(r, 11, f"={S('H', r)}")
+        ws.cell(r, 11, f'=IF(LEFT($B$7,3)="Как",{S("K", r)},{S("H", r)})')
         ws.cell(r, 12, f'=IFERROR(K{r}/G{r}*100,"")' if has_conv else D)
         ws.cell(r, 13, f'=IFERROR(B{r}/K{r},"")' if paid else D)
     ws.cell(14, 1, "Итого")
@@ -427,7 +519,7 @@ def write_xlsx_dynamic(path, daily, usd_eur, frm, to):
             ws.cell(r, j).number_format = f
             ws.cell(r, j).alignment = Alignment(horizontal="right")
     ws["A16"] = ('=IF(LEFT($B$7,3)="Как","Режим «как у клиента»: звонки — первый звонок номера за всю историю Ringostat; формы — сеансы GA4 form_submit по источнику сеанса; '
-                 'Телефон и Прочее без конверсий. Продажи — по нашему правилу (выгрузка CRM) в обоих режимах.",'
+                 'Телефон и Прочее без конверсий. Продажи — по правилу клиента: источник из формы заказа, иначе «Телефон»; заказы на листе «Заказы по схеме клиента», расхождения на листе «Расхождения».",'
                  + f'"Телефон: новых обращений "&{S("F", 12)}&" (из них звонков "&{S("G", 12)}&") — в «Конверсии» и «Звонки» не включены")')
     ws["A17"] = f'=IF(LEFT($B$7,3)="Как","","Нет метки: из "&G11&" конверсий звонков "&{S("G", 11)}&" — в колонке «Звонки» не показаны")'
     ws["A18"] = f'=IF(LEFT($B$7,3)="Как","","Прочее: новых обращений "&{S("F", 13)}&" — в «Конверсии» и «Звонки» не включены")'
@@ -443,11 +535,35 @@ def write_xlsx_dynamic(path, daily, usd_eur, frm, to):
     for t in DEFINITIONS + ["Курс USD→EUR для Facebook — ячейка B5 листа «Дашборд» (допущение; в BigQuery расход хранится в долларах).",
                             "Режим B7: «Наш» — конверсии и звонки по нашему правилу 60 дней из выгрузки CRM; «Как у клиента» — звонки: первый звонок номера за всю "
                             "историю Ringostat (входящие, отслеживаемые каналы), формы: сеансы GA4 form_submit по источнику сеанса (google / cpc → Google Ads, facebook* → Facebook, "
-                            "остальное → Нет метки); подтверждено на двух периодах скринов клиента 2026-10-20. Продажи в обоих режимах одинаковые (наше правило).",
+                            "остальное → Нет метки); подтверждено на двух периодах скринов клиента 2026-10-20. Продажи в режиме «Как у клиента»: источник заказа по правилу клиента (есть форма → источник формы, нет формы → «Телефон»), "
+                            "дата заказа = дата первой строки (UTC), количество товара из списка клиента, где он есть, иначе 1; в режиме «Наш» продажи по первому обращению за 60 дней.",
+                            "Лист «Заказы по схеме клиента»: правила, которые использует клиент (как мы их поняли), применены к данным нашей выгрузки CRM. Поэтому в нём есть заказы, которых нет в дашборде клиента, и нет заказов клиента, которых нет в выгрузке CRM; все такие случаи с причинами на листе «Расхождения».",
                             "Период выбирается в ячейке B2 листа «Дашборд»; для «Свой период» даты вводятся в E3 и E4. «Текущий месяц» и «Текущая неделя» считаются "
                             "от сегодняшней даты, но данных нет позже даты, указанной в B6 (данные обновляются повторным запуском скрипта profimet_sources_dashboard.py)."]:
         wh.append([t])
         wh.cell(wh.max_row, 1).alignment = Alignment(wrap_text=True, vertical="top")
+    if orders_tbl is not None:
+        wo = wb.create_sheet("Заказы по схеме клиента")
+        wo.append(list(orders_tbl.columns))
+        for c in wo[1]:
+            c.font, c.fill = bold, head
+        for row in orders_tbl.itertuples(index=False):
+            wo.append(list(row))
+        wo.freeze_panes = "A2"
+        for i, w in enumerate((18, 10, 16, 40, 8, 22, 22, 14, 14, 30), 1):
+            wo.column_dimensions[chr(64 + i)].width = w
+    if diff_tbl is not None and len(diff_tbl):
+        wr = wb.create_sheet("Расхождения")
+        wr.append(list(diff_tbl.columns))
+        for c in wr[1]:
+            c.font, c.fill = bold, head
+        for row in diff_tbl.itertuples(index=False):
+            wr.append(list(row))
+        wr.freeze_panes = "A2"
+        for i, w in enumerate((26, 10, 18, 20, 22, 90, 22, 18), 1):
+            wr.column_dimensions[chr(64 + i)].width = w
+        for rr in wr.iter_rows(min_row=2):
+            rr[5].alignment = Alignment(wrap_text=True, vertical="top")
     wb.save(path)
 
 
@@ -474,7 +590,7 @@ def refresh_google_sheet(file_id, daily, frm, to):
 
     # Сначала готовим и проверяем ВСЕ данные (json.dumps упадёт на NaN), и только потом очищаем листы: сбой не оставит таблицу пустой.
     rows = [[clean(x) for x in (ser(r["Дата"]), r["Источник"], r["Цена"], r["Клики"], r["Показы"], r["Конверсии"], r["Звонки"], r["Продажи"],
-                                      r["Конверсии_клиент"], r["Звонки_клиент"])]
+                                      r["Конверсии_клиент"], r["Звонки_клиент"], r["Продажи_клиент"])]
             for _, r in daily.iterrows()]
     f0, t0 = pd.Timestamp(frm), pd.Timestamp(to)
     st = [[f"Весь период ({f0:%d.%m.%Y}–{t0:%d.%m.%Y})", ser(f0.date()), ser(t0.date())]]
@@ -484,7 +600,7 @@ def refresh_google_sheet(file_id, daily, frm, to):
     json.dumps(rows), json.dumps(st)
 
     # Данные: очистить и записать заново (даты — числами: так таблица не зависит от локали)
-    s.post(base + "/values/Данные!A2:J5000:clear", json={}, timeout=60).raise_for_status()
+    s.post(base + "/values/Данные!A2:K5000:clear", json={}, timeout=60).raise_for_status()
     s.put(base + "/values/Данные!A2?valueInputOption=USER_ENTERED", json={"values": rows}, timeout=120).raise_for_status()
 
     # Списки: статическая часть (весь период, месяцы, недели, «Свой период») начиная с 8-й строки; динамические 2–7 не трогаем
@@ -563,6 +679,7 @@ def main():
                          "01.10–19.10.2026); допущение, не рыночный курс")
     ap.add_argument("--cache", default=None, help="pickle (sheet, ringo_full), как у profimet_season_audit.py")
     ap.add_argument("--no-open", action="store_true", help="не открывать страницу в браузере после запуска")
+    ap.add_argument("--client-list", default=None, help="список продаж дашборда клиента (TSV): даёт количество товара, товар, площадку, автора и лист «Расхождения»")
     ap.add_argument("--update-sheet", nargs="?", const=DASHBOARD_SHEET_ID, default=None, metavar="ID",
                     help="обновить данные в Google Таблице дашборда (по умолчанию — «ProfiMet — по источникам (дашборд)»): листы «Данные» и «Списки»")
     ap.add_argument("--rebuild-sheet", nargs="?", const=DASHBOARD_SHEET_ID, default=None, metavar="ID",
@@ -602,8 +719,21 @@ def main():
     html_path = out_dir / f"dashboard_sources_{a.frm}_{a.to}.html"
     write_html(html_path, frames, meta)
     xlsx_path = out_dir / f"dashboard_sources_{a.frm}_{a.to}.xlsx"
-    daily = daily_table(a.frm, a.to, ads, fb, contacts, sales, client)
-    write_xlsx_dynamic(xlsx_path, daily, a.usd_eur, a.frm, a.to)
+    cl = read_client_list(a.client_list) if a.client_list else None
+    scheme, diff = client_scheme_orders(sheet, cl, a.frm, a.to)
+    daily = daily_table(a.frm, a.to, ads, fb, contacts, sales, client, scheme)
+    orders_tbl = scheme.merge(cl, on="key", how="left") if cl is not None else scheme.assign(product="", platform="", author="", client_source="")
+    orders_tbl = orders_tbl.sort_values("est", ascending=False)
+    orders_tbl = pd.DataFrame({
+        "Дата заказа (оценка) UTC": orders_tbl["est"].dt.strftime("%Y-%m-%d %H:%M"), "Заказ": orders_tbl["key"],
+        "Телефон": orders_tbl["phone"], "Товар": orders_tbl["product"].fillna(""), "Кол-во": orders_tbl["qty_x"] if "qty_x" in orders_tbl else orders_tbl["qty"],
+        "Наш расчёт: источник заказа по схеме клиента": orders_tbl["rule"], "Дашборд клиента: источник заказа": orders_tbl["client_source"].fillna(""),
+        "Есть у клиента": ["да" if (isinstance(x, str) and x) else "нет" for x in orders_tbl["client_source"]] if cl is not None else "",
+        "Площадка": orders_tbl["platform"].fillna(""), "Автор": orders_tbl["author"].fillna("")})
+    write_xlsx_dynamic(xlsx_path, daily, a.usd_eur, a.frm, a.to, orders_tbl, diff)
+    print(f"{chr(10)}По схеме клиента из выгрузки CRM: заказов {len(scheme)}, количество товара {int(scheme['qty'].sum())}; расхождений с дашбордом клиента: {len(diff)}")
+    if len(diff):
+        print(diff["Раздел"].value_counts().to_string())
     if a.rebuild_sheet:
         n = rebuild_google_sheet(a.rebuild_sheet, xlsx_path)
         print(f"Google Таблица пересобрана: https://docs.google.com/spreadsheets/d/{a.rebuild_sheet}/edit — периодов в списке {n}")

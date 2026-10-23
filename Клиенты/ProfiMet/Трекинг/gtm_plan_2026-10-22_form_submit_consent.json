@@ -1,0 +1,14 @@
+{
+  "account": "6003760261",
+  "container": "44158621",
+  "workspace_name": "pm-form-submit-consent-2026-10-22",
+  "version_name": "pm form_submit: consent analytics_storage only",
+  "version_notes": "ProfiMet, 2026-10-22. Tag GA 4 - form submit: consent ad_storage, ad_personalization, ad_user_data, analytics_storage -> analytics_storage. Reason: form_submit lost for visitors who accepted only Analytics (21.10 14:06, 14:12). Rollback: publish version 81.",
+  "built_in_variables": [],
+  "variables": [],
+  "triggers": [],
+  "tags": [],
+  "update_tags": [
+    {"name": "GA 4 - form submit", "set_consent": ["analytics_storage"]}
+  ]
+}

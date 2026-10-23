@@ -130,6 +130,7 @@ def main():
     ap.add_argument("--gtm-id", default=None, help="публичный id контейнера GTM-XXXX (по умолчанию из API)")
     ap.add_argument("--grant", nargs="+", default=["analytics_storage"], help="типы согласия или none")
     ap.add_argument("--events", nargs="*", default=[], help="показывать только эти события")
+    ap.add_argument("--push-event", default=None, help="после сценария отправить в dataLayer это событие (например submit_form: проверка тегов формы; форма не отправляется, Supabase заблокирован)")
     ap.add_argument("--no-mobile", action="store_true")
     ap.add_argument("--wait", type=int, default=8)
     ap.add_argument("--keep-env", action="store_true")
@@ -172,6 +173,9 @@ def main():
                 pg.goto(a.url, wait_until="domcontentloaded", timeout=60000)
                 pg.wait_for_timeout(3000)
                 n, clicked = run_scenario(pg, a.grant, a.wait)
+                if a.push_event:
+                    pg.evaluate("window.dataLayer.push({event:%r})" % a.push_event)
+                    pg.wait_for_timeout(3000)
                 print(f"\n=== {name}: ссылок tel: {n}, кликов {clicked}; запросов GA4 перехвачено событий: {len(hits)}")
                 cnt, params = Counter(), defaultdict(Counter)
                 for h in hits:
