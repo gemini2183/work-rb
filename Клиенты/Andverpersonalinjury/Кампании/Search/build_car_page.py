@@ -89,7 +89,7 @@ top = f"""<!-- Landver Law: легковая страница (Car), БЛОК 1:
     <div class="ldvc__btns">
       <a class="ldvc__btn ldvc__btn--primary ldvq-phone" href="tel:+18444529465" data-ldv-cta="hero_call">Call (844) 452-9465 &middot; 24/7</a>
     </div>
-    <p class="ldvc__micro">Answered 24/7</p>
+    <p class="ldvc__micro">No pressure: you decide after the review. Answered 24/7.</p>
     <a id="ldv-form" class="ldvc__anchor" aria-hidden="true" tabindex="-1"></a>
    </div>
    <div class="ldvc__photo">
@@ -162,7 +162,7 @@ body = f"""<!-- Landver Law: легковая страница (Car), БЛОК 2
       <ol class="ldvp__steps">
         <li><b>Tell us what happened</b>The crash, your injuries, your treatment so far. You don't need documents yet.</li>
         <li><b>We set up a free review of your case with an attorney</b>Free, with no obligation.</li>
-        <li><b>The attorney explains what applies to you and what to avoid</b>You decide whether to move forward.</li>
+        <li><b>The attorney explains what applies to you and what to avoid</b>Then you decide: hire the firm now, later, or not at all. No pressure.</li>
       </ol>
       <div class="ldvp__btns">
         <a class="ldvp__btn" href="#ldv-form" data-ldv-cta="how_form">Get my free case review</a>
