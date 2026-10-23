@@ -21,7 +21,7 @@ URL (предложение): `landverpersonalinjury.tilda.ws/california-car-acc
 
 **H1:** What Is Your California Car Accident Claim Worth?
 **Подзаголовок:** Answer 5 quick questions. See what can raise or lower the value of a case like yours, and what to avoid before you talk to the insurance company.
-**Полоса доверия:** ★ 4.8 · 45 Google reviews  |  Practicing since 2004  |  Free case review  |  [No fee unless we win]
+**Полоса доверия:** ★ 4.8 · 45 Google reviews  |  Practicing since 2004  |  Free case review  |  No fee unless we win
 **Квиз:** «Question 1 of 5», крупные кнопки-ответы.
 
 ## 2. Вопросы квиза (значения идут в скрытые поля формы)
@@ -64,7 +64,7 @@ URL (предложение): `landverpersonalinjury.tilda.ws/california-car-acc
 ✓ what NOT to do so you don't lose compensation
 ✓ your next steps, in plain language
 ✓ where your case stands, based on what you tell us
-[No fee unless we win.]
+No fee unless we win.
 
 **Кнопки:** [Call (844) 452-9465]  [Get my action plan: First name, Phone]
 **Мелкий шрифт:** Free. No obligation. A review, not a promise of results. Submitting this form does not by itself create an attorney-client relationship.
@@ -107,7 +107,7 @@ URL (предложение): `landverpersonalinjury.tilda.ws/california-car-acc
 5. Через 1–2 недели — перечитать оценку Google «посадочная» по ключам группы, снять поведение по шагам квиза.
 
 ## Подтвердить до публикации
-- [No fee unless we win] на странице;
+- «No fee unless we win» — подтверждено пользователем 2026-10-23, можно ставить;
 - что в разговоре люди реально получают «next steps» и оценку, как обещает текст;
 - кто и когда отвечает на (844) 452-9465 (24/7?) и скорость обратного звонка, если обещаем «мы перезвоним»;
 - названия уровней «serious / moderate / developing»;
