@@ -74,7 +74,7 @@ top = f"""<!-- Landver Law: легковая страница (Car), БЛОК 1:
   <div class="ldvc__wrap ldvc__grid">
    <div class="ldvc__text">
     <p class="ldvc__eyebrow">Free case review &middot; Answered 24/7</p>
-    <h1 class="ldvc__h1" id="ldvc-h1">California Car Accident Lawyer <span>Hear what an attorney says before the insurance company decides what your case is worth.</span></h1>
+    <h1 class="ldvc__h1" id="ldvc-h1">California Car Accident Lawyer <span>Before you give a statement or sign anything, have an attorney review your case. Free.</span></h1>
     <ul class="ldvc__why">
       <li>Your attorney began her career on the defense side, so she knows how claims get challenged.</li>
       <li>Cases are prepared with trial in mind, not just a fast demand letter.</li>
