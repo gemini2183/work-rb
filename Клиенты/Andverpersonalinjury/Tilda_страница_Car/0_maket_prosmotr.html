@@ -28,6 +28,7 @@
 .ldvc__h1{margin:0 0 14px;font-weight:800;font-size:clamp(30px,7vw,50px);line-height:1.08;letter-spacing:-.02em;color:#fffdfa}
 .ldvc__h1 span{display:block;margin-top:8px;font-family:"DM Serif Display",Georgia,serif;font-weight:400;font-size:clamp(21px,4.6vw,30px);line-height:1.2;color:#efaa9e;letter-spacing:0}
 .ldvc__eyebrow{margin:0 0 8px;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#c9a56a}
+.ldvc__why a{color:#efaa9e;text-decoration:underline}
 .ldvc__why{list-style:none;margin:0 0 14px;padding:0}
 .ldvc__why li{position:relative;margin:0 0 8px;padding-left:28px;font-size:16px;line-height:1.4;font-weight:600;color:#f6f2ea}
 .ldvc__why li::before{content:"✓";position:absolute;left:0;top:0;color:#e8563f;font-weight:800}
@@ -73,7 +74,7 @@
     <ul class="ldvc__why">
       <li>Your attorney began her career on the defense side, so she knows how claims get challenged.</li>
       <li>Cases are prepared with trial in mind, not just a fast demand letter.</li>
-      <li>Free, no obligation, and no fee unless we win.</li>
+      <li>You pay an attorney fee only if you win. <a href="#ldv-fee" data-ldv-cta="hero_fee">See how it works</a></li>
     </ul>
     <ul class="ldvc__trust">
       <li><b>&#9733; 4.8</b> &middot; 45 Google reviews</li>
@@ -83,7 +84,7 @@
     <div class="ldvc__btns">
       <a class="ldvc__btn ldvc__btn--primary ldvq-phone" href="tel:+18444529465" data-ldv-cta="hero_call">Call (844) 452-9465 &middot; 24/7</a>
     </div>
-    <p class="ldvc__micro">Free &middot; No obligation &middot; Answered 24/7</p>
+    <p class="ldvc__micro">Answered 24/7</p>
     <a id="ldv-form" class="ldvc__anchor" aria-hidden="true" tabindex="-1"></a>
    </div>
    <div class="ldvc__photo">
@@ -110,7 +111,7 @@ document.addEventListener('click', function (e) {
 <form class="t-form" id="formA"><input type="text" name="name" placeholder="First name" style="box-sizing:border-box;width:100%;height:50px;margin:0 0 8px;padding:0 14px;font-size:16px;border:1px solid #ddd7ce;border-radius:10px">
 <input type="tel" name="phone" placeholder="Phone number" style="box-sizing:border-box;width:100%;height:50px;margin:0 0 8px;padding:0 14px;font-size:16px;border:1px solid #ddd7ce;border-radius:10px">
 <button type="button" style="box-sizing:border-box;width:100%;height:54px;border:0;border-radius:12px;background:#e8563f;color:#fff;font:800 17px Manrope,Arial,sans-serif">Get my free case review</button></form>
-<p style="margin:8px 0 0;font-size:12px;line-height:1.4;color:#68747a">Free. No obligation. Submitting this form does not by itself create an attorney-client relationship.</p></div></div>
+<p style="margin:8px 0 0;font-size:12px;line-height:1.4;color:#68747a">Submitting this form does not by itself create an attorney-client relationship.</p></div></div>
 <!-- Landver Law: легковая страница (Car), БЛОК 2: всё под формой A (Tilda T123 «HTML»). v1, 2026-10-23.
      Порядок: как проходит звонок, ситуации, что делает страховая, адвокат, отзывы, квиз «Not ready to call?», вопросы, финальный призыв.
      В конце якорь #ldv-form-2: сразу под блоком ставится форма B (копия формы A). -->
@@ -192,9 +193,6 @@ document.addEventListener('click', function (e) {
 .ldvq__h1{margin:0 0 14px;font-weight:800;font-size:clamp(30px,7vw,52px);line-height:1.08;letter-spacing:-.02em;color:#fffdfa}
 .ldvq__h1 span{display:block;font-family:"DM Serif Display",Georgia,serif;font-weight:400;color:#efaa9e;letter-spacing:0}
 .ldvq__sub{margin:0 0 16px;font-size:clamp(16px,2.4vw,19px);line-height:1.55;color:#ddd7ce}
-.ldvq__defense{margin:0 0 10px;font-size:15.5px;line-height:1.45;color:#f6f2ea}
-.ldvq__defense b{color:#efaa9e;font-weight:800}
-.ldvq__photo{display:none}
 .ldvq__why{margin:-6px 0 16px;font-size:13.5px;line-height:1.45;color:#b9b4ab}
 .ldvq__trust{list-style:none;margin:0 0 22px;padding:0;display:flex;flex-wrap:wrap;gap:8px}
 .ldvq__trust li{font-size:13px;font-weight:700;line-height:1.2;padding:7px 11px;border-radius:999px;background:#17242b;border:1px solid rgba(201,165,106,.35);color:#f6f2ea}
@@ -240,20 +238,12 @@ document.addEventListener('click', function (e) {
 .ldvq__restart{margin:6px 0 0;padding:4px 0;background:none;border:0;font:600 13.5px Manrope,Arial,sans-serif;color:#b9b4ab;cursor:pointer;text-decoration:underline}
 .ldvq__anchor{display:block;height:0;scroll-margin-top:72px}
 @media(min-width:700px){.ldvq{padding:48px 24px 56px}.ldvq__card{padding:30px 30px}.ldvq__btns{grid-template-columns:1fr 1fr}.ldvq__opts{grid-template-columns:1fr 1fr}.ldvq__opts--single{grid-template-columns:1fr}}
-@media(min-width:900px){
-  .ldvq__wrap{max-width:1100px}
-  .ldvq__grid{display:grid;grid-template-columns:1.25fr .75fr;gap:44px;align-items:start}
-  .ldvq__photo{display:block;position:sticky;top:24px;border-radius:18px;overflow:hidden;box-shadow:0 18px 50px rgba(0,0,0,.35)}
-  .ldvq__photo img{display:block;width:100%;height:560px;object-fit:cover;object-position:50% 20%}
-  .ldvq__cap{position:absolute;left:0;right:0;bottom:0;padding:44px 18px 16px;background:linear-gradient(to top,rgba(13,21,27,.92),rgba(13,21,27,0));display:flex;flex-direction:column;gap:2px}
-  .ldvq__cap b{font-size:17px;font-weight:800;color:#fffdfa}
-  .ldvq__cap span{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#c9a56a}
-}
 @media(prefers-reduced-motion:reduce){.ldvq__opt{transition:none}}
 
 
 .ldvp__chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px;padding:0;list-style:none}
 .ldvp__chips li{padding:9px 14px;border-radius:999px;background:#fffdfa;border:1px solid #ddd7ce;font-size:15px;font-weight:700;color:#17242b}
+#ldv-fee{scroll-margin-top:72px}
 .ldvq--mid{padding:44px 16px}
 .ldvq--mid .ldvq__q2{margin:0 0 8px;font-size:clamp(24px,5.4vw,36px);line-height:1.15;font-weight:800;letter-spacing:-.015em;color:#fffdfa}
 .ldvq--mid .ldvq__eyebrow{margin:0 0 8px;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#c9a56a}
@@ -291,7 +281,21 @@ document.addEventListener('click', function (e) {
     </div>
   </section>
 
-  <section class="ldvp__sec ldvp__sec--white" id="ldv-situations">
+  <section class="ldvp__sec ldvp__sec--white" id="ldv-fee">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">How the fee works</p>
+      <h2 class="ldvp__h2">Why is the first review free, and how does Landver Law get paid?</h2>
+      <ul class="ldvp__ticks">
+        <li>The first review is free. It is how you and the firm find out whether Landver Law can help with your case.</li>
+        <li>If you hire the firm, you sign a written agreement first. It states the fee, and you can read it before you sign.</li>
+        <li>The attorney fee is paid out of what is recovered. If nothing is recovered, you owe no attorney fee.</li>
+        <li>Landver Law advances litigation costs.</li>
+      </ul>
+      <p class="ldvp__note">So the firm is paid only when you are. Exact financial terms are confirmed in the written attorney-client agreement before representation begins.</p>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--cream" id="ldv-situations">
     <div class="ldvp__in">
       <p class="ldvp__eyebrow">Car accident cases</p>
       <h2 class="ldvp__h2">Common car accident situations Landver Law reviews</h2>
@@ -388,7 +392,7 @@ document.addEventListener('click', function (e) {
         <a class="ldvp__btn" href="#ldv-form-2" data-ldv-cta="final_form">Get my free case review</a>
         <a class="ldvp__btn ldvp__btn--ghost ldvq-phone" href="tel:+18444529465" data-ldv-cta="final_call">Call (844) 452-9465 &middot; 24/7</a>
       </div>
-      <p class="ldvp__fine">Free. No obligation. Submitting a form does not by itself create an attorney-client relationship.</p>
+      <p class="ldvp__fine">Submitting a form does not by itself create an attorney-client relationship.</p>
     </div>
     <a id="ldv-form-2" class="ldvp__anchor" aria-hidden="true" tabindex="-1"></a>
   </section>
@@ -581,7 +585,7 @@ document.addEventListener('click', function (e) {
 <form class="t-form" id="formB"><input type="text" name="name" placeholder="First name" style="box-sizing:border-box;width:100%;height:50px;margin:0 0 8px;padding:0 14px;font-size:16px;border:1px solid #ddd7ce;border-radius:10px">
 <input type="tel" name="phone" placeholder="Phone number" style="box-sizing:border-box;width:100%;height:50px;margin:0 0 8px;padding:0 14px;font-size:16px;border:1px solid #ddd7ce;border-radius:10px">
 <button type="button" style="box-sizing:border-box;width:100%;height:54px;border:0;border-radius:12px;background:#e8563f;color:#fff;font:800 17px Manrope,Arial,sans-serif">Get my free case review</button></form>
-<p style="margin:8px 0 0;font-size:12px;line-height:1.4;color:#68747a">Free. No obligation. Submitting this form does not by itself create an attorney-client relationship.</p></div></div>
+<p style="margin:8px 0 0;font-size:12px;line-height:1.4;color:#68747a">Submitting this form does not by itself create an attorney-client relationship.</p></div></div>
 <!-- Landver Law: Car page, подвал (Tilda T123 «HTML»). v1, 2026-10-23. Ставится последним, после формы B.
      Тексты — с подвала текущей страницы клиента. У «Terms of Use» и «Privacy Policy» на текущей странице нет ссылок (простой текст) — здесь так же;
      для страницы с формой сбора телефона политику конфиденциальности лучше связать с реальной страницей клиента. -->

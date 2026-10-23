@@ -30,7 +30,7 @@
 
 ## Шаг 3. Формы
 
-Общие настройки: фон кремовый `#f6f2ea`; кнопка `#e8563f`; поля «First name» и «Phone number» (обе обязательные); скрытое поле с именем `quiz_summary`; текст кнопки `Get my free case review`; сообщение после отправки: `Thank you. We've received your request and will contact you to set up your free case review. Prefer to talk now? Call (844) 452-9465 · 24/7.`; под формой: `Free. No obligation. Submitting this form does not by itself create an attorney-client relationship.`
+Общие настройки: фон кремовый `#f6f2ea`; кнопка `#e8563f`; поля «First name» и «Phone number» (обе обязательные); скрытое поле с именем `quiz_summary`; текст кнопки `Get my free case review`; сообщение после отправки: `Thank you. We've received your request and will contact you to set up your free case review. Prefer to talk now? Call (844) 452-9465 · 24/7.`; под формой: `Submitting this form does not by itself create an attorney-client relationship.`
 
 **Форма A** (сразу под блоком 1) должна быть компактной, иначе на телефоне она уйдёт за границу первого экрана: отступ сверху и снизу в настройках блока 20 px, заголовок `Prefer we call you? Leave your number.`, подзаголовок `Leave your name and phone. We'll contact you to set up your free review with an attorney.`
 

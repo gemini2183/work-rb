@@ -34,6 +34,7 @@ top_css = """
 .ldvc__h1{margin:0 0 14px;font-weight:800;font-size:clamp(30px,7vw,50px);line-height:1.08;letter-spacing:-.02em;color:#fffdfa}
 .ldvc__h1 span{display:block;margin-top:8px;font-family:"DM Serif Display",Georgia,serif;font-weight:400;font-size:clamp(21px,4.6vw,30px);line-height:1.2;color:#efaa9e;letter-spacing:0}
 .ldvc__eyebrow{margin:0 0 8px;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#c9a56a}
+.ldvc__why a{color:#efaa9e;text-decoration:underline}
 .ldvc__why{list-style:none;margin:0 0 14px;padding:0}
 .ldvc__why li{position:relative;margin:0 0 8px;padding-left:28px;font-size:16px;line-height:1.4;font-weight:600;color:#f6f2ea}
 .ldvc__why li::before{content:"✓";position:absolute;left:0;top:0;color:#e8563f;font-weight:800}
@@ -78,7 +79,7 @@ top = f"""<!-- Landver Law: легковая страница (Car), БЛОК 1:
     <ul class="ldvc__why">
       <li>Your attorney began her career on the defense side, so she knows how claims get challenged.</li>
       <li>Cases are prepared with trial in mind, not just a fast demand letter.</li>
-      <li>Free, no obligation, and no fee unless we win.</li>
+      <li>You pay an attorney fee only if you win. <a href="#ldv-fee" data-ldv-cta="hero_fee">See how it works</a></li>
     </ul>
     <ul class="ldvc__trust">
       <li><b>&#9733; 4.8</b> &middot; 45 Google reviews</li>
@@ -88,7 +89,7 @@ top = f"""<!-- Landver Law: легковая страница (Car), БЛОК 1:
     <div class="ldvc__btns">
       <a class="ldvc__btn ldvc__btn--primary ldvq-phone" href="tel:+18444529465" data-ldv-cta="hero_call">Call (844) 452-9465 &middot; 24/7</a>
     </div>
-    <p class="ldvc__micro">Free &middot; No obligation &middot; Answered 24/7</p>
+    <p class="ldvc__micro">Answered 24/7</p>
     <a id="ldv-form" class="ldvc__anchor" aria-hidden="true" tabindex="-1"></a>
    </div>
    <div class="ldvc__photo">
@@ -106,6 +107,7 @@ top = f"""<!-- Landver Law: легковая страница (Car), БЛОК 1:
 extra_css = """
 .ldvp__chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px;padding:0;list-style:none}
 .ldvp__chips li{padding:9px 14px;border-radius:999px;background:#fffdfa;border:1px solid #ddd7ce;font-size:15px;font-weight:700;color:#17242b}
+#ldv-fee{scroll-margin-top:72px}
 .ldvq--mid{padding:44px 16px}
 .ldvq--mid .ldvq__q2{margin:0 0 8px;font-size:clamp(24px,5.4vw,36px);line-height:1.15;font-weight:800;letter-spacing:-.015em;color:#fffdfa}
 .ldvq--mid .ldvq__eyebrow{margin:0 0 8px;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#c9a56a}
@@ -169,7 +171,21 @@ body = f"""<!-- Landver Law: легковая страница (Car), БЛОК 2
     </div>
   </section>
 
-  <section class="ldvp__sec ldvp__sec--white" id="ldv-situations">
+  <section class="ldvp__sec ldvp__sec--white" id="ldv-fee">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">How the fee works</p>
+      <h2 class="ldvp__h2">Why is the first review free, and how does Landver Law get paid?</h2>
+      <ul class="ldvp__ticks">
+        <li>The first review is free. It is how you and the firm find out whether Landver Law can help with your case.</li>
+        <li>If you hire the firm, you sign a written agreement first. It states the fee, and you can read it before you sign.</li>
+        <li>The attorney fee is paid out of what is recovered. If nothing is recovered, you owe no attorney fee.</li>
+        <li>Landver Law advances litigation costs.</li>
+      </ul>
+      <p class="ldvp__note">So the firm is paid only when you are. Exact financial terms are confirmed in the written attorney-client agreement before representation begins.</p>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--cream" id="ldv-situations">
     <div class="ldvp__in">
       <p class="ldvp__eyebrow">Car accident cases</p>
       <h2 class="ldvp__h2">Common car accident situations Landver Law reviews</h2>
@@ -253,7 +269,7 @@ body = f"""<!-- Landver Law: легковая страница (Car), БЛОК 2
         <a class="ldvp__btn" href="#ldv-form-2" data-ldv-cta="final_form">Get my free case review</a>
         <a class="ldvp__btn ldvp__btn--ghost ldvq-phone" href="tel:+18444529465" data-ldv-cta="final_call">Call (844) 452-9465 &middot; 24/7</a>
       </div>
-      <p class="ldvp__fine">Free. No obligation. Submitting a form does not by itself create an attorney-client relationship.</p>
+      <p class="ldvp__fine">Submitting a form does not by itself create an attorney-client relationship.</p>
     </div>
     <a id="ldv-form-2" class="ldvp__anchor" aria-hidden="true" tabindex="-1"></a>
   </section>
@@ -280,7 +296,7 @@ def form(i, compact):
 <form class="t-form" id="form{i}"><input type="text" name="name" placeholder="First name" style="box-sizing:border-box;width:100%;height:50px;margin:0 0 8px;padding:0 14px;font-size:16px;border:1px solid #ddd7ce;border-radius:10px">
 <input type="tel" name="phone" placeholder="Phone number" style="box-sizing:border-box;width:100%;height:50px;margin:0 0 8px;padding:0 14px;font-size:16px;border:1px solid #ddd7ce;border-radius:10px">
 <button type="button" style="box-sizing:border-box;width:100%;height:54px;border:0;border-radius:12px;background:#e8563f;color:#fff;font:800 17px Manrope,Arial,sans-serif">Get my free case review</button></form>
-<p style="margin:8px 0 0;font-size:12px;line-height:1.4;color:#68747a">Free. No obligation. Submitting this form does not by itself create an attorney-client relationship.</p></div></div>"""
+<p style="margin:8px 0 0;font-size:12px;line-height:1.4;color:#68747a">Submitting this form does not by itself create an attorney-client relationship.</p></div></div>"""
 
 
 preview = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
