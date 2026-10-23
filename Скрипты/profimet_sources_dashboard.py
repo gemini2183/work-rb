@@ -158,6 +158,15 @@ def read_client_list(path):
         client_source=("Источник", "first"), platform=("Площадка", "first"), author=("Автор", "first")).reset_index().rename(columns={"Заказ": "key"})
 
 
+def _ga_paid_phones():
+    """Телефоны форм, которые Google Analytics показывает с платного клика (cpc): по последнему `forms_reconcile_*.csv` (profimet_forms_reconcile.py)."""
+    files = sorted(client_stats_dir("ProfiMet").glob("forms_reconcile_*.csv"))
+    if not files:
+        return set()
+    f = pd.read_csv(files[-1], dtype=str).fillna("")
+    return set(f.loc[f["ga_sm"].str.contains("cpc"), "phone"].map(_last9)) - {""}
+
+
 def client_scheme_orders(sheet, client=None, frm=None, to=None):
     """Заказы «по схеме клиента» из выгрузки CRM (лист mocnaszklarnia.pl).
     Продажа = заказ с датой продажи; отменён, если дата отмены не раньше даты продажи (отмена до продажи и новая продажа: заказ действует).
@@ -167,6 +176,7 @@ def client_scheme_orders(sheet, client=None, frm=None, to=None):
     Возвращает (заказы схемы, расхождения с дашбордом клиента); без списка клиента расхождения пустые."""
     pm = sheet[sheet["site"] == SITE].sort_values("ts", kind="mergesort")
     other_keys = set(sheet.loc[(sheet["site"] != SITE) & (sheet["order"] != ""), "order"].str[:8])
+    ga_paid = _ga_paid_phones()
     rows = []
     for order, g in pm[pm["order"] != ""].groupby("order"):
         g = g.sort_values("ts", kind="mergesort")
@@ -178,7 +188,7 @@ def client_scheme_orders(sheet, client=None, frm=None, to=None):
         hist = pm[(pm["p9"] == g.iloc[0]["p9"]) & (pm["ts"] <= created + pd.Timedelta(minutes=3))]
         w = hist[hist["ts"] >= created - pd.Timedelta(days=WINDOW)]
         first60 = (w.iloc[0]["src"] or "Нет метки") if len(w) else ""
-        ad_touch = bool(len(hist[hist["src"].isin(["Google Ads", "Facebook"]) | hist["gclid"].ne("")]))
+        ad_touch = bool(len(hist[hist["src"].isin(["Google Ads", "Facebook"]) | hist["gclid"].ne("")])) or g.iloc[0]["p9"] in ga_paid
         active = bool(sale) and (not canc or canc < sale)
         # Дата заказа (оценка): даты создания в выгрузке нет. Дата продажи, если первая строка позже продажи или раньше продажи больше чем на 7 дней,
         # иначе первая строка. На 01–20.10 совпало с датой клиента у 74 из 75 общих заказов (по первой строке только у 71).
