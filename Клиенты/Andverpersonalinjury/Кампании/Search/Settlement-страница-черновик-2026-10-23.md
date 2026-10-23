@@ -128,3 +128,19 @@ No fee unless we win.
 4. Ringostat: добавить правило подмены номера для ссылки с классом `ldvq-phone` (и для номера в шапке/плашке) на новом URL; прогнать `phone_swap_check.py` до включения трафика.
 5. GTM: события `quiz_start`, `quiz_step`, `quiz_complete`, `quiz_cta`, `quiz_restart` приходят в dataLayer; триггеры и теги GA4 — отдельным планом `gtm_apply_plan.py`.
 6. Закрыть страницу от индексации (noindex), ссылку не публиковать, кроме группы Settlement.
+
+## Страница целиком — сборка в Tilda (2026-10-23, проверено локально, на живой Tilda не проверено)
+
+Файлы (все в `D:\GitHub\work-rb\Клиенты\Andverpersonalinjury\Кампании\Search\`):
+- `settlement_quiz_t123.html` — блок 1: шапка, первый экран, квиз, закреплённая плашка на телефоне;
+- `settlement_body_t123.html` — блок 2: почему сумма разная, что делает страховая, что будет на звонке, адвокат, отзывы, FAQ (6), финальный призыв, якорь `#ldv-form-2`;
+- `settlement_footer_t123.html` — блок 3: подвал с дисклеймерами;
+- `settlement_page_preview.html` — локальный макет всей страницы для просмотра (формы Tilda в нём имитированы), открыть двойным щелчком.
+
+Порядок блоков в Tilda (новая страница = дубликат, старые блоки удалить): 1 → Форма A → 2 → Форма B (копия A) → 3.
+
+Форма Tilda (A и B одинаковые): фон кремовый `#f6f2ea`, заголовок «Get my free case review», подзаголовок «Leave your name and phone. We'll contact you to set up your free review with an attorney.», поля First name и Phone number (обязательные), скрытое поле `quiz_summary` (остальные поля код создаёт сам), кнопка «Get my free case review» цвета `#e8563f`, мелкий текст «Free. No obligation. Submitting this form does not by itself create an attorney-client relationship.», сообщение после отправки «Thank you. We've received your request and will contact you to set up your free case review. Prefer to talk now? Call (844) 452-9465 · 24/7.»
+
+Что отличается от текущей страницы клиента: фото адвоката подтянуто по ссылке с домена клиента (то же фото, что на текущей странице); FAQ №1 дополнен «there is no fee unless we win»; у «Terms of Use» и «Privacy Policy» в подвале нет ссылок (как на текущей странице) — для формы со сбором телефона лучше привязать реальные страницы.
+Высота: ≈8 440 px на телефоне 390 px (~10 экранов), 6 300 px на десктопе; горизонтальной прокрутки нет, ошибок консоли нет.
+События dataLayer: к квизовым добавлено `ldv_cta` с `cta_place` (header_call/form, sticky_call/form, why_form, how_form/call, final_form/call, footer_call).

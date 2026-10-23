@@ -55,7 +55,30 @@
 .ldvq__anchor{display:block;height:0;scroll-margin-top:72px}
 @media(min-width:700px){.ldvq{padding:48px 24px 56px}.ldvq__card{padding:30px 30px}.ldvq__btns{grid-template-columns:1fr 1fr}.ldvq__opts{grid-template-columns:1fr 1fr}.ldvq__opts--single{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.ldvq__opt{transition:none}}
+/* шапка и закреплённая плашка */
+.ldvh{background:#0d151b;border-bottom:1px solid rgba(255,255,255,.08);font-family:Manrope,Arial,sans-serif}
+.ldvh__in{max-width:1100px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.ldvh__logo{display:flex;flex-direction:column;text-decoration:none;color:#fffdfa;line-height:1.1}
+.ldvh__logo b{font-size:21px;font-weight:800;letter-spacing:-.01em}
+.ldvh__logo span{margin-top:3px;font-size:9.5px;font-weight:800;letter-spacing:.16em;color:#c9a56a}
+.ldvh__tel{display:none;flex-direction:column;text-align:right;text-decoration:none;color:#fffdfa;font-size:17px;font-weight:800;line-height:1.15}
+.ldvh__tel small{font-size:9.5px;font-weight:800;letter-spacing:.12em;color:#b9b4ab}
+.ldvh__cta{display:inline-flex;align-items:center;min-height:44px;padding:10px 16px;border-radius:10px;background:#e8563f;color:#fff;font-size:13.5px;font-weight:800;letter-spacing:.02em;text-transform:uppercase;text-decoration:none;white-space:nowrap}
+.ldvh__cta:hover{background:#cf4633;color:#fff}
+.ldvs{position:fixed;left:0;right:0;bottom:0;z-index:999;display:flex;gap:8px;padding:8px 10px calc(8px + env(safe-area-inset-bottom));background:rgba(13,21,27,.97);border-top:1px solid rgba(255,255,255,.12);font-family:Manrope,Arial,sans-serif}
+.ldvs a{flex:1;display:flex;align-items:center;justify-content:center;min-height:50px;padding:8px 10px;border-radius:10px;font-size:14.5px;font-weight:800;line-height:1.15;text-align:center;text-decoration:none}
+.ldvs__call{color:#fffdfa;border:2px solid rgba(255,255,255,.4)}
+.ldvs__form{color:#fff;background:#e8563f;border:2px solid #e8563f}
+@media(min-width:700px){.ldvh__in{padding:14px 24px}.ldvh__tel{display:flex}.ldvs{display:none}}
 </style>
+
+<header class="ldvh">
+  <div class="ldvh__in">
+    <a class="ldvh__logo" href="#ldvq" aria-label="Landver Law, Personal Injury Attorneys"><b>LANDVER LAW</b><span>PERSONAL INJURY ATTORNEYS</span></a>
+    <a class="ldvh__tel ldvq-phone" href="tel:+18444529465" data-ldv-cta="header_call"><small>FREE CONSULTATION &middot; 24/7</small>(844) 452-9465</a>
+    <a class="ldvh__cta" href="#ldv-form" data-ldv-cta="header_form">Free case review</a>
+  </div>
+</header>
 
 <section class="ldvq" id="ldvq" aria-labelledby="ldvq-h1">
   <div class="ldvq__wrap">
@@ -74,6 +97,17 @@
     <a id="ldv-form" class="ldvq__anchor" aria-hidden="true" tabindex="-1"></a>
   </div>
 </section>
+
+<div class="ldvs">
+  <a class="ldvs__call ldvq-phone" href="tel:+18444529465" data-ldv-cta="sticky_call">Call now &middot; 24/7</a>
+  <a class="ldvs__form" href="#ldv-form" data-ldv-cta="sticky_form">Get my free case review</a>
+</div>
+<script>
+document.addEventListener('click', function (e) {
+  var a = e.target.closest ? e.target.closest('[data-ldv-cta]') : null;
+  if (a) { (window.dataLayer = window.dataLayer || []).push({ event: 'ldv_cta', cta_place: a.getAttribute('data-ldv-cta') }); }
+});
+</script>
 
 <script>
 (function () {
