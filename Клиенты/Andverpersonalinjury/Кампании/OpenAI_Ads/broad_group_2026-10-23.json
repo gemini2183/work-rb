@@ -1,0 +1,47 @@
+{
+ "campaign_id": "cmpn_6ac654ebdf448199826b33648b3f1a89",
+ "bidding": "maximize_clicks",
+ "status_after_create": "paused",
+ "version": 1,
+ "note": "Э-07 (проект): широкая группа для проверки объёма показов; тексты и картинки как у уже одобренных CT-V2 и CT-L1, ссылки с новыми utm_content",
+ "groups": [
+  {
+   "group": "Car Crash - Broad (volume test)",
+   "context_hints": [
+    "user asks what to do after a car accident in California",
+    "user asks whether they need a lawyer after a car or truck accident in California",
+    "user asks about car accident injuries, insurance claims or compensation in California"
+   ],
+   "ads": [
+    {
+     "ad_name": "CT-B1",
+     "title": "CA Car Crash Injury Lawyers | Free Review",
+     "copy": "Free review of your crash injury claim. No fee unless we win.",
+     "link": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=broad_b1",
+     "file_id": "file_00000000bef4820ebabbb17cf0ee0cf5",
+     "image_note": "V2",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    },
+    {
+     "ad_name": "CT-B2",
+     "title": "Hurt in a Crash? No Fee Unless We Win",
+     "copy": "Contingency fee, litigation costs advanced. Free California case review.",
+     "link": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=broad_b2",
+     "file_id": "file_000000007f748211851896f32f4edf8e",
+     "image_note": "L1",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    }
+   ]
+  }
+ ]
+}
