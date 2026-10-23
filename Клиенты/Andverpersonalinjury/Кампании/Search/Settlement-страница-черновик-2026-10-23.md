@@ -7,7 +7,7 @@ updated: 2026-10-23
 
 Черновик по сессии 2026-10-23. Основание — аудит страницы california-car-truck-accident ([[../../Хроника_2026-10]], «аудит посадочной»), метод — [[../../../../База_знаний/Паттерны/Юристы-PI-посадочная-ДТП-аудит-соответствие-запросу-и-доверие]]. Эксперимент Э-08 заводится в момент запуска. Факты о фирме (Бар, 2004, 4.8/45, отзывы, FAQ, дисклеймеры) взяты с текущей страницы клиента дословно или близко к тексту; в `[скобках]` то, что нужно подтвердить до публикации.
 
-URL (предложение): `landverpersonalinjury.tilda.ws/california-car-accident-settlement`. Только группа Settlement. Страница не индексируется (noindex), чтобы не дублировать основную.
+URL (предложение): `landverpersonalinjury.tilda.ws/california-car-accident-settlement`. Только группа Settlement. Страницу не линкуем нигде на сайте. `noindex` НЕ ставим: у Google нет документа о влиянии обычного noindex на оценку рекламы, а для Dynamic-групп он назван причиной «страница не сканируется» — не рисковать без проверки.
 
 ## Структура (телефон, ~7–8 экранов)
 
@@ -127,7 +127,7 @@ No fee unless we win.
 3. Закреплённая плашка: CALL NOW · 24/7 | GET MY FREE CASE REVIEW (ссылка `#ldv-form`).
 4. Ringostat: добавить правило подмены номера для ссылки с классом `ldvq-phone` (и для номера в шапке/плашке) на новом URL; прогнать `phone_swap_check.py` до включения трафика.
 5. GTM: события `quiz_start`, `quiz_step`, `quiz_complete`, `quiz_cta`, `quiz_restart` приходят в dataLayer; триггеры и теги GA4 — отдельным планом `gtm_apply_plan.py`.
-6. Закрыть страницу от индексации (noindex), ссылку не публиковать, кроме группы Settlement.
+6. noindex не ставить (см. выше); ссылку не публиковать, кроме группы Settlement.
 
 ## Страница целиком — сборка в Tilda (2026-10-23, проверено локально, на живой Tilda не проверено)
 
@@ -144,3 +144,17 @@ No fee unless we win.
 Что отличается от текущей страницы клиента: фото адвоката подтянуто по ссылке с домена клиента (то же фото, что на текущей странице); FAQ №1 дополнен «there is no fee unless we win»; у «Terms of Use» и «Privacy Policy» в подвале нет ссылок (как на текущей странице) — для формы со сбором телефона лучше привязать реальные страницы.
 Высота: ≈8 440 px на телефоне 390 px (~10 экранов), 6 300 px на десктопе; горизонтальной прокрутки нет, ошибок консоли нет.
 События dataLayer: к квизовым добавлено `ldv_cta` с `cta_place` (header_call/form, sticky_call/form, why_form, how_form/call, final_form/call, footer_call).
+
+## Настройки Tilda для оценки Google «посадочная» (2026-10-23)
+
+Что Google пишет сам (Ads Help, «Optimize your ads and landing pages»): страница должна «closely match your ad and keywords», давать «useful, original information», быть простой в навигации, быстрой на телефоне и «easy to contact». Вес факторов Google не раскрывает, оценка качества «not an input in the ad auction», но качество посадочной входит в Ad Rank. Гарантии высокой оценки нет; после запуска читаем статус по ключам через 1–2 недели.
+
+В Tilda (Настройки страницы → SEO) — то, чего нет в блоках кода:
+- Title (57 знаков): Car Accident Settlement Value in California | Landver Law
+- Description (153 знака): Answer 5 quick questions to see what can raise or lower a California car accident settlement and what to avoid before talking to the insurer. Free review.
+- Заголовки для соцсетей (OG): те же Title и Description.
+- Адрес страницы: california-car-accident-settlement.
+
+Что уже сделано в коде под оценку: H1 повторяет слова ключей («California Car Accident Settlement Worth»), подзаголовок «car accident claim», строка «Not a settlement calculator…» для запросов «calculator» (согласована с объявлением «Calculators Can't See Injuries»), H2 «car accident settlements», два вопроса FAQ под «settlement worth» и «average car accident settlement» без цифр, один H1, осмысленные H2, alt у фото, фото 107 КБ с ленивой загрузкой и размерами (не тормозит), нет всплывающих окон, навигация только якоря, контакты и адрес на виду, текст оригинальный и по теме.
+
+Что остаётся открытым: у клиента нет страниц Privacy Policy и Terms of Use (на landverpersonalinjury.com адреса `/privacy-policy/` и `/terms-of-use/` дают 404; в подвале клиента это простой текст) — для формы со сбором телефона лучше завести страницу и поставить ссылку (вопрос клиенту); вопросы квиза строятся кодом, поэтому Google (AdsBot) может их не увидеть — важные слова вынесены в статический текст.
