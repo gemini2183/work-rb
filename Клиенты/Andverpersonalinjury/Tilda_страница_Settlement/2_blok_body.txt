@@ -1,0 +1,205 @@
+<!-- Landver Law: Settlement page, нижние блоки (Tilda T123 «HTML»). v1, 2026-10-23.
+     Ставится ПОСЛЕ формы A (под квизом). Содержит: почему сумма так отличается, что делает страховая, что будет на звонке,
+     адвокат, отзывы, FAQ, финальный призыв. В конце — якорь #ldv-form-2: сразу под этим блоком ставится форма B (копия формы A).
+     Факты о фирме (Bar, 2004, 4.8/45, отзывы, FAQ, дисклеймеры) — с текущей страницы клиента; FAQ №1 слегка изменён (добавлено «no fee unless we win»). -->
+<style>
+.ldvp{font-family:Manrope,Arial,sans-serif;color:#17242b;-webkit-font-smoothing:antialiased}
+.ldvp *,.ldvp *::before,.ldvp *::after{box-sizing:border-box}
+.ldvp__sec{padding:44px 16px}
+.ldvp__sec--cream{background:#f6f2ea}
+.ldvp__sec--white{background:#fffdfa}
+.ldvp__sec--dark{background:#101820;color:#fffdfa}
+.ldvp__in{max-width:860px;margin:0 auto}
+.ldvp__eyebrow{margin:0 0 8px;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#b65241}
+.ldvp__sec--dark .ldvp__eyebrow{color:#c9a56a}
+.ldvp__h2{margin:0 0 14px;font-size:clamp(26px,5.4vw,38px);line-height:1.15;font-weight:800;letter-spacing:-.015em}
+.ldvp__lead{margin:0 0 22px;font-size:16.5px;line-height:1.55;color:#4d5a60}
+.ldvp__sec--dark .ldvp__lead{color:#ddd7ce}
+.ldvp__cards{display:grid;gap:12px;margin:0 0 20px}
+.ldvp__card{padding:18px;border-radius:14px;background:#fffdfa;border:1px solid #ddd7ce}
+.ldvp__card b{display:block;margin:0 0 6px;font-size:17.5px;line-height:1.3;font-weight:800}
+.ldvp__card p{margin:0;font-size:15.5px;line-height:1.5;color:#4d5a60}
+.ldvp__card i{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;margin:0 0 10px;border-radius:50%;background:#e8563f;color:#fff;font-style:normal;font-size:14px;font-weight:800}
+.ldvp__note{margin:0 0 22px;font-size:14px;line-height:1.5;color:#68747a}
+.ldvp__btn{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:14px 24px;border-radius:12px;background:#e8563f;border:2px solid #e8563f;color:#fff;font:800 16.5px/1.2 Manrope,Arial,sans-serif;text-decoration:none;text-align:center}
+.ldvp__btn:hover{background:#cf4633;border-color:#cf4633;color:#fff}
+.ldvp__btn--ghost{background:transparent;color:#17242b;border-color:#17242b}
+.ldvp__btn--ghost:hover{background:#17242b;color:#fff;border-color:#17242b}
+.ldvp__sec--dark .ldvp__btn--ghost{color:#fffdfa;border-color:rgba(255,255,255,.45)}
+.ldvp__sec--dark .ldvp__btn--ghost:hover{background:#fffdfa;color:#101820;border-color:#fffdfa}
+.ldvp__btns{display:grid;gap:10px;margin:18px 0 0}
+.ldvp__rows{display:grid;gap:12px;margin:0}
+.ldvp__row{padding:16px 18px;border-radius:14px;background:#f6f2ea;border-left:5px solid #e8563f}
+.ldvp__row b{display:block;margin:0 0 4px;font-size:17px;font-weight:800}
+.ldvp__row p{margin:0;font-size:15.5px;line-height:1.5;color:#4d5a60}
+.ldvp__steps{display:grid;gap:14px;margin:0;padding:0;list-style:none;counter-reset:s}
+.ldvp__steps li{counter-increment:s;position:relative;padding:4px 0 4px 52px;font-size:16.5px;line-height:1.5;color:#17242b}
+.ldvp__steps li::before{content:counter(s);position:absolute;left:0;top:0;width:38px;height:38px;border-radius:50%;background:#101820;color:#fff;font-weight:800;font-size:17px;line-height:38px;text-align:center}
+.ldvp__steps b{display:block;font-size:17.5px;font-weight:800}
+.ldvp__atty{display:grid;gap:22px;align-items:center}
+.ldvp__atty img{display:block;width:100%;max-width:260px;height:auto;aspect-ratio:2/3;object-fit:cover;border-radius:16px;margin:0 auto}
+.ldvp__facts{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px;padding:0;list-style:none}
+.ldvp__facts li{padding:7px 12px;border-radius:999px;background:#17242b;border:1px solid rgba(201,165,106,.4);font-size:13.5px;font-weight:700;color:#f6f2ea}
+.ldvp__facts b{color:#c9a56a}
+.ldvp__src{margin:14px 0 0;font-size:12.5px;line-height:1.5;color:#929a9e}
+.ldvp__rate{display:flex;align-items:baseline;gap:12px;margin:0 0 18px;flex-wrap:wrap}
+.ldvp__rate b{font-size:44px;line-height:1;font-weight:800}
+.ldvp__rate span{font-size:15px;color:#4d5a60}
+.ldvp__stars{color:#c9893a;letter-spacing:2px;font-size:20px}
+.ldvp__rev{margin:0;padding:18px;border-radius:14px;background:#fffdfa;border:1px solid #ddd7ce}
+.ldvp__rev p{margin:8px 0 10px;font-size:16px;line-height:1.5;font-weight:600}
+.ldvp__rev small{display:block;font-size:13px;color:#68747a}
+.ldvp__faq details{border-bottom:1px solid #ddd7ce;background:#fffdfa}
+.ldvp__faq details:first-child{border-top:1px solid #ddd7ce}
+.ldvp__faq summary{list-style:none;cursor:pointer;display:flex;align-items:flex-start;justify-content:space-between;gap:14px;padding:16px 4px;font-size:16.5px;line-height:1.35;font-weight:800;-webkit-tap-highlight-color:transparent}
+.ldvp__faq summary::-webkit-details-marker{display:none}
+.ldvp__faq summary::after{content:"+";flex:0 0 auto;width:28px;height:28px;border-radius:50%;background:#f6f2ea;text-align:center;font-size:20px;line-height:28px;font-weight:700;color:#b65241}
+.ldvp__faq details[open] summary::after{content:"\2212"}
+.ldvp__faq details p{margin:0;padding:0 4px 18px;font-size:15.5px;line-height:1.6;color:#4d5a60}
+.ldvp__ticks{margin:0 0 12px;padding:0;list-style:none}
+.ldvp__ticks li{position:relative;margin:0 0 9px;padding-left:30px;font-size:16.5px;line-height:1.45}
+.ldvp__ticks li::before{content:"\2713";position:absolute;left:0;top:0;color:#e8563f;font-weight:800}
+.ldvp__fee{margin:0 0 6px;font-size:16px;font-weight:800;color:#c9a56a}
+.ldvp__fine{margin:16px 0 0;font-size:12.5px;line-height:1.5;color:#929a9e}
+.ldvp__anchor{display:block;height:0;scroll-margin-top:72px}
+@media(min-width:700px){
+  .ldvp__sec{padding:64px 24px}
+  .ldvp__cards{grid-template-columns:1fr 1fr}
+  .ldvp__rows--3{grid-template-columns:repeat(3,1fr)}
+  .ldvp__btns{grid-template-columns:auto auto;justify-content:start}
+  .ldvp__atty{grid-template-columns:240px 1fr;gap:36px}
+  .ldvp__revs{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+}
+.ldvp__revs{display:grid;gap:12px;margin:0 0 14px}
+</style>
+
+<div class="ldvp">
+
+  <!-- 1. Почему сумма так отличается -->
+  <section class="ldvp__sec ldvp__sec--cream" id="ldv-why">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Understanding case value</p>
+      <h2 class="ldvp__h2">Why car accident settlements can differ so much for the same crash</h2>
+      <p class="ldvp__lead">The type of crash is only the beginning. These four things decide most of it.</p>
+      <div class="ldvp__cards">
+        <div class="ldvp__card"><i>1</i><b>Your medical record</b><p>What treatment you've had, what's still ahead, and whether the record shows the injury came from the crash.</p></div>
+        <div class="ldvp__card"><i>2</i><b>Your lost income</b><p>Missed work, reduced hours, or a job you can no longer do the same way.</p></div>
+        <div class="ldvp__card"><i>3</i><b>Who was at fault</b><p>California reduces compensation by your share of fault, so how fault is shown matters.</p></div>
+        <div class="ldvp__card"><i>4</i><b>The insurance involved</b><p>Which policies apply, and what the insurer says early on.</p></div>
+      </div>
+      <p class="ldvp__note">No formula can set a case value from the crash type alone. Every case depends on its own facts, evidence, injuries, treatment, liability and insurance coverage.</p>
+      <a class="ldvp__btn" href="#ldv-form" data-ldv-cta="why_form">Get my free case review</a>
+    </div>
+  </section>
+
+  <!-- 2. Что делает страховая -->
+  <section class="ldvp__sec ldvp__sec--white" id="ldv-insurers">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Before you talk to the insurer</p>
+      <h2 class="ldvp__h2">What insurance companies often do first</h2>
+      <div class="ldvp__rows ldvp__rows--3">
+        <div class="ldvp__row"><b>Ask for a recorded statement</b><p>Know who is asking and why before you agree. Avoid guessing about facts you don't know.</p></div>
+        <div class="ldvp__row"><b>Make a quick offer</b><p>If you sign a release, the claim may be closed before the full medical picture is known.</p></div>
+        <div class="ldvp__row"><b>Point to your share of the blame</b><p>California reduces compensation by your percentage of fault, and the insurer's first number is not always the final one.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Что будет, когда позвоните -->
+  <section class="ldvp__sec ldvp__sec--cream" id="ldv-how">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">How it works</p>
+      <h2 class="ldvp__h2">What happens when you call</h2>
+      <ol class="ldvp__steps">
+        <li><b>Tell us what happened</b>The crash, your injuries, your treatment so far. You don't need documents yet.</li>
+        <li><b>We set up a free review of your case with an attorney</b>Free, with no obligation.</li>
+        <li><b>The attorney explains what applies to you and what to avoid</b>You decide whether to move forward.</li>
+      </ol>
+      <div class="ldvp__btns">
+        <a class="ldvp__btn" href="#ldv-form" data-ldv-cta="how_form">Get my free case review</a>
+        <a class="ldvp__btn ldvp__btn--ghost ldvq-phone" href="tel:+18444529465" data-ldv-cta="how_call">Call (844) 452-9465 &middot; 24/7</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Адвокат -->
+  <section class="ldvp__sec ldvp__sec--dark" id="ldv-attorney">
+    <div class="ldvp__in ldvp__atty">
+      <img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/Landver0290.jpg" width="800" height="1200" loading="lazy" alt="Alina Landver, Managing Partner and Trial Attorney at Landver Law">
+      <div>
+        <p class="ldvp__eyebrow">Your attorney</p>
+        <h2 class="ldvp__h2">Alina Landver, Esq., MBA</h2>
+        <ul class="ldvp__facts">
+          <li>Managing Partner &middot; Trial Attorney</li>
+          <li><b>California Bar</b> 231077</li>
+          <li><b>Admitted</b> June 2004</li>
+        </ul>
+        <p class="ldvp__lead">Alina Landver began her career representing corporate clients on the defense side before focusing on injured plaintiffs. That background gives the firm a perspective on how claims may be challenged, discounted or prepared for litigation.</p>
+        <p class="ldvp__src">Attorney status and admission date are based on State Bar of California records. Statements about Landver Law's experience are based on information published by the firm. Prior experience does not guarantee a particular outcome in any individual matter.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Отзывы -->
+  <section class="ldvp__sec ldvp__sec--cream" id="ldv-reviews">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Client reviews</p>
+      <h2 class="ldvp__h2">What people say after working with Landver Law</h2>
+      <div class="ldvp__rate"><b>4.8</b><div><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><span>out of 5 &middot; 45 Google reviews</span></div></div>
+      <div class="ldvp__revs">
+        <blockquote class="ldvp__rev"><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;Best attorney ever!&rdquo;</p><small>M. M. &middot; Google Review &middot; January 2026</small></blockquote>
+        <blockquote class="ldvp__rev"><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;Great experience working with Landver Law Alina Landver esq.&rdquo;</p><small>D. O. Rothschild &middot; Google Review &middot; January 2026</small></blockquote>
+        <blockquote class="ldvp__rev"><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;The attorney treated my case with great seriousness from the start.&rdquo;</p><small>Elsy Castellanos &middot; Google Review &middot; October 2025</small></blockquote>
+      </div>
+      <p class="ldvp__note">A review is someone else's experience, not a promise about yours. Reviews shown are excerpts from publicly displayed Google reviews. Rating and review count can change over time. Testimonials do not constitute a guarantee, warranty or prediction regarding the outcome of any legal matter.</p>
+    </div>
+  </section>
+
+  <!-- 6. FAQ -->
+  <section class="ldvp__sec ldvp__sec--white" id="ldv-faq">
+    <div class="ldvp__in ldvp__faq">
+      <p class="ldvp__eyebrow">Frequently asked questions</p>
+      <h2 class="ldvp__h2">Questions people ask after a crash</h2>
+      <details><summary>How much is my car accident settlement worth?</summary>
+        <p>No honest calculator can give you a number from a few answers, because the value depends on your medical record, your lost income, who was at fault and the insurance involved. The 5 questions above show which of these apply to you. A free case review with an attorney looks at your own facts.</p></details>
+      <details><summary>What is the average car accident settlement in California?</summary>
+        <p>Published averages mix small claims with catastrophic injuries, so an average rarely describes any one case. Two similar crashes can end very differently depending on injuries, treatment, fault and insurance coverage. That is why a review of your own situation matters more than an average.</p></details>
+      <details><summary>How much does it cost to hire Landver Law?</summary>
+        <p>The initial case review is free, and there is no fee unless we win. Landver Law handles personal-injury matters on a contingency basis, advances litigation costs and collects its legal fee when a recovery is obtained. Exact financial terms are confirmed in the written attorney-client agreement before representation begins.</p></details>
+      <details><summary>My medical treatment is still ongoing. Is it too early to contact a lawyer?</summary>
+        <p>No. You do not have to wait until treatment is finished before asking for a case review. In a serious injury case, the eventual medical outcome may still be uncertain. The important starting point is understanding what happened, what treatment has occurred so far and what evidence may need to be preserved.</p></details>
+      <details><summary>What if I may have been partly responsible for the accident?</summary>
+        <p>Partial responsibility does not automatically mean there is no claim. California uses comparative fault. If an injured person's own negligence contributed to the harm, damages can be reduced according to that person's percentage of responsibility. Do not assume the insurance company's initial fault assessment is necessarily the final allocation of responsibility.</p></details>
+      <details><summary>The insurance company is asking for a recorded statement. What should I do?</summary>
+        <p>First identify who is requesting the statement and which insurer they represent. Obligations can differ depending on whether the request comes from your own insurer or another party's insurer. Avoid guessing about facts you do not know, minimizing injuries that are still being evaluated or signing releases you do not understand. If you are unsure about a recorded statement or release, consider getting legal advice before agreeing to it.</p></details>
+      <details><summary>I already received a settlement offer. Can I still have the case reviewed?</summary>
+        <p>If you have not finalized the settlement and signed a release, you can still ask for legal advice about the situation. An early offer may arrive before the long-term medical picture, future treatment, income loss or permanent limitations are fully understood. If a release has already been signed, tell the lawyer immediately because that can materially change the analysis.</p></details>
+      <details><summary>How long do I have to bring an injury claim in California?</summary>
+        <p>For many California personal-injury lawsuits, the general deadline is two years from the date of injury. But that is not a universal rule. Different facts can create different deadlines, and claims involving a California government agency can require an administrative claim much earlier. For many injury claims against a California government agency, the administrative claim deadline is generally six months from the injury. Do not use the general two-year period to assume your own deadline.</p></details>
+      <p class="ldvp__note" style="margin-top:16px">This FAQ provides general information and is not legal advice. Deadlines, liability, insurance obligations and available claims depend on the specific facts and applicable law. An attorney-client relationship is not created by viewing this page or submitting a request for an initial case review.</p>
+    </div>
+  </section>
+
+  <!-- 7. Финальный призыв -->
+  <section class="ldvp__sec ldvp__sec--dark" id="ldv-final">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Free case review</p>
+      <h2 class="ldvp__h2">Don't guess what your case is worth. Get your case reviewed.</h2>
+      <p class="ldvp__lead">Call or leave your number. We'll set up a free review of your case with an attorney, who can tell you:</p>
+      <ul class="ldvp__ticks">
+        <li>what applies to YOUR case, not general advice</li>
+        <li>what NOT to do so you don't lose compensation</li>
+        <li>your next steps, in plain language</li>
+        <li>where your case stands, based on what you tell us</li>
+      </ul>
+      <p class="ldvp__fee">No fee unless we win.</p>
+      <div class="ldvp__btns">
+        <a class="ldvp__btn" href="#ldv-form-2" data-ldv-cta="final_form">Get my free case review</a>
+        <a class="ldvp__btn ldvp__btn--ghost ldvq-phone" href="tel:+18444529465" data-ldv-cta="final_call">Call (844) 452-9465 &middot; 24/7</a>
+      </div>
+      <p class="ldvp__fine">Free. No obligation. Submitting a form does not by itself create an attorney-client relationship.</p>
+    </div>
+    <a id="ldv-form-2" class="ldvp__anchor" aria-hidden="true" tabindex="-1"></a>
+  </section>
+
+</div>
