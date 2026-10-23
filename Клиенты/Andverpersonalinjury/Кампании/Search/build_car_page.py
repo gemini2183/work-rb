@@ -31,8 +31,12 @@ top_css = """
 .ldvc{background:#101820;color:#fffdfa;font-family:Manrope,Arial,sans-serif;padding:20px 16px 24px}
 .ldvc *,.ldvc *::before,.ldvc *::after{box-sizing:border-box}
 .ldvc__wrap{max-width:760px;margin:0 auto}
-.ldvc__h1{margin:0 0 10px;font-weight:800;font-size:clamp(30px,7.2vw,52px);line-height:1.08;letter-spacing:-.02em;color:#fffdfa}
-.ldvc__h1 span{display:block;font-family:"DM Serif Display",Georgia,serif;font-weight:400;color:#efaa9e;letter-spacing:0}
+.ldvc__h1{margin:0 0 14px;font-weight:800;font-size:clamp(30px,7vw,50px);line-height:1.08;letter-spacing:-.02em;color:#fffdfa}
+.ldvc__h1 span{display:block;margin-top:8px;font-family:"DM Serif Display",Georgia,serif;font-weight:400;font-size:clamp(21px,4.6vw,30px);line-height:1.2;color:#efaa9e;letter-spacing:0}
+.ldvc__eyebrow{margin:0 0 8px;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#c9a56a}
+.ldvc__why{list-style:none;margin:0 0 14px;padding:0}
+.ldvc__why li{position:relative;margin:0 0 8px;padding-left:28px;font-size:16px;line-height:1.4;font-weight:600;color:#f6f2ea}
+.ldvc__why li::before{content:"✓";position:absolute;left:0;top:0;color:#e8563f;font-weight:800}
 .ldvc__sub{margin:0 0 14px;font-size:clamp(16px,2.4vw,19px);line-height:1.5;color:#ddd7ce}
 .ldvc__trust{list-style:none;margin:0 0 16px;padding:0;display:flex;flex-wrap:wrap;gap:8px}
 .ldvc__trust li{font-size:13px;font-weight:700;line-height:1.2;padding:7px 11px;border-radius:999px;background:#17242b;border:1px solid rgba(201,165,106,.35);color:#f6f2ea}
@@ -44,7 +48,18 @@ top_css = """
 .ldvc__btn--ghost{background:transparent;color:#fffdfa;border-color:rgba(255,255,255,.4)}
 .ldvc__btn--ghost:hover{border-color:#fffdfa;color:#fff}
 .ldvc__anchor{display:block;height:0;scroll-margin-top:72px}
+.ldvc__micro{margin:10px 0 0;font-size:13.5px;font-weight:700;color:#b9b4ab}
+.ldvc__photo{display:none}
 @media(min-width:700px){.ldvc{padding:44px 24px 40px}}
+@media(min-width:900px){
+  .ldvc__wrap{max-width:1040px}
+  .ldvc__grid{display:grid;grid-template-columns:1.2fr .8fr;gap:44px;align-items:center}
+  .ldvc__photo{display:block;position:relative;border-radius:18px;overflow:hidden;box-shadow:0 18px 50px rgba(0,0,0,.35);max-height:520px}
+  .ldvc__photo img{display:block;width:100%;height:520px;object-fit:cover;object-position:50% 20%}
+  .ldvc__cap{position:absolute;left:0;right:0;bottom:0;padding:44px 18px 16px;background:linear-gradient(to top,rgba(13,21,27,.92),rgba(13,21,27,0));display:flex;flex-direction:column;gap:2px}
+  .ldvc__cap b{font-size:17px;font-weight:800;color:#fffdfa}
+  .ldvc__cap span{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#c9a56a}
+}
 """
 top = f"""<!-- Landver Law: легковая страница (Car), БЛОК 1: шапка, первый экран, закреплённая плашка (Tilda T123 «HTML»). v1, 2026-10-23.
      Сразу под этим блоком ставится форма Tilda A (компактная: отступы сверху и снизу минимальные, чтобы форма была видна на первом экране телефона). -->
@@ -56,19 +71,30 @@ top = f"""<!-- Landver Law: легковая страница (Car), БЛОК 1:
 {hdr_html}
 
 <section class="ldvc" id="ldvc" aria-labelledby="ldvc-h1">
-  <div class="ldvc__wrap">
-    <h1 class="ldvc__h1" id="ldvc-h1">California Car Accident Lawyer. <span>Free Case Review.</span></h1>
-    <p class="ldvc__sub">Injured in a car or auto accident? Tell us what happened. An attorney reviews your case for free. No fee unless we win.</p>
+  <div class="ldvc__wrap ldvc__grid">
+   <div class="ldvc__text">
+    <p class="ldvc__eyebrow">Free case review &middot; Answered 24/7</p>
+    <h1 class="ldvc__h1" id="ldvc-h1">California Car Accident Lawyer <span>Hear what an attorney says before the insurance company decides what your case is worth.</span></h1>
+    <ul class="ldvc__why">
+      <li>Your attorney began her career on the defense side, so she knows how claims get challenged.</li>
+      <li>Cases are prepared with trial in mind, not just a fast demand letter.</li>
+      <li>Free, no obligation, and no fee unless we win.</li>
+    </ul>
     <ul class="ldvc__trust">
       <li><b>&#9733; 4.8</b> &middot; 45 Google reviews</li>
       <li>Serving all of California</li>
-      <li>Call 24/7</li>
       <li>Practicing since 2004</li>
     </ul>
     <div class="ldvc__btns">
       <a class="ldvc__btn ldvc__btn--primary ldvq-phone" href="tel:+18444529465" data-ldv-cta="hero_call">Call (844) 452-9465 &middot; 24/7</a>
     </div>
+    <p class="ldvc__micro">Free &middot; No obligation &middot; Answered 24/7</p>
     <a id="ldv-form" class="ldvc__anchor" aria-hidden="true" tabindex="-1"></a>
+   </div>
+   <div class="ldvc__photo">
+     <img src="https://landverpersonalinjury.com/wp-content/uploads/2025/06/Landver0374-scaled-1-e1750710392686.jpg" width="807" height="1200" loading="lazy" alt="Alina Landver in court">
+     <div class="ldvc__cap"><b>Alina Landver, Esq., MBA</b><span>Managing Partner &middot; Trial Attorney</span></div>
+   </div>
   </div>
 </section>
 
@@ -115,6 +141,18 @@ body = f"""<!-- Landver Law: легковая страница (Car), БЛОК 2
 
 <div class="ldvp">
 
+  <section class="ldvp__sec ldvp__sec--white" id="ldv-insurers">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Before you talk to the insurer</p>
+      <h2 class="ldvp__h2">What insurance companies often do first after a car accident</h2>
+      <div class="ldvp__rows ldvp__rows--3">
+        <div class="ldvp__row"><b>Ask for a recorded statement</b><p>Know who is asking and why before you agree. Avoid guessing about facts you don't know.</p></div>
+        <div class="ldvp__row"><b>Make a quick offer</b><p>If you sign a release, the claim may be closed before the full medical picture is known.</p></div>
+        <div class="ldvp__row"><b>Point to your share of the blame</b><p>California reduces compensation by your percentage of fault, and the insurer's first number is not always the final one.</p></div>
+      </div>
+    </div>
+  </section>
+
   <section class="ldvp__sec ldvp__sec--cream" id="ldv-how">
     <div class="ldvp__in">
       <p class="ldvp__eyebrow">How it works</p>
@@ -144,18 +182,6 @@ body = f"""<!-- Landver Law: легковая страница (Car), БЛОК 2
         <li>Pedestrian or cyclist hit by a car</li>
       </ul>
       <p class="ldvp__note">Not sure which one fits? That is okay. Tell us what happened and an attorney will review it. Every case depends on its own facts, injuries, evidence, liability and insurance coverage.</p>
-    </div>
-  </section>
-
-  <section class="ldvp__sec ldvp__sec--cream" id="ldv-insurers">
-    <div class="ldvp__in">
-      <p class="ldvp__eyebrow">Before you talk to the insurer</p>
-      <h2 class="ldvp__h2">What insurance companies often do first after a car accident</h2>
-      <div class="ldvp__rows ldvp__rows--3">
-        <div class="ldvp__row" style="background:#fffdfa"><b>Ask for a recorded statement</b><p>Know who is asking and why before you agree. Avoid guessing about facts you don't know.</p></div>
-        <div class="ldvp__row" style="background:#fffdfa"><b>Make a quick offer</b><p>If you sign a release, the claim may be closed before the full medical picture is known.</p></div>
-        <div class="ldvp__row" style="background:#fffdfa"><b>Point to your share of the blame</b><p>California reduces compensation by your percentage of fault, and the insurer's first number is not always the final one.</p></div>
-      </div>
     </div>
   </section>
 

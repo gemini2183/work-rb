@@ -138,6 +138,18 @@
 
 <div class="ldvp">
 
+  <section class="ldvp__sec ldvp__sec--white" id="ldv-insurers">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Before you talk to the insurer</p>
+      <h2 class="ldvp__h2">What insurance companies often do first after a car accident</h2>
+      <div class="ldvp__rows ldvp__rows--3">
+        <div class="ldvp__row"><b>Ask for a recorded statement</b><p>Know who is asking and why before you agree. Avoid guessing about facts you don't know.</p></div>
+        <div class="ldvp__row"><b>Make a quick offer</b><p>If you sign a release, the claim may be closed before the full medical picture is known.</p></div>
+        <div class="ldvp__row"><b>Point to your share of the blame</b><p>California reduces compensation by your percentage of fault, and the insurer's first number is not always the final one.</p></div>
+      </div>
+    </div>
+  </section>
+
   <section class="ldvp__sec ldvp__sec--cream" id="ldv-how">
     <div class="ldvp__in">
       <p class="ldvp__eyebrow">How it works</p>
@@ -167,18 +179,6 @@
         <li>Pedestrian or cyclist hit by a car</li>
       </ul>
       <p class="ldvp__note">Not sure which one fits? That is okay. Tell us what happened and an attorney will review it. Every case depends on its own facts, injuries, evidence, liability and insurance coverage.</p>
-    </div>
-  </section>
-
-  <section class="ldvp__sec ldvp__sec--cream" id="ldv-insurers">
-    <div class="ldvp__in">
-      <p class="ldvp__eyebrow">Before you talk to the insurer</p>
-      <h2 class="ldvp__h2">What insurance companies often do first after a car accident</h2>
-      <div class="ldvp__rows ldvp__rows--3">
-        <div class="ldvp__row" style="background:#fffdfa"><b>Ask for a recorded statement</b><p>Know who is asking and why before you agree. Avoid guessing about facts you don't know.</p></div>
-        <div class="ldvp__row" style="background:#fffdfa"><b>Make a quick offer</b><p>If you sign a release, the claim may be closed before the full medical picture is known.</p></div>
-        <div class="ldvp__row" style="background:#fffdfa"><b>Point to your share of the blame</b><p>California reduces compensation by your percentage of fault, and the insurer's first number is not always the final one.</p></div>
-      </div>
     </div>
   </section>
 
