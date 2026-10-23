@@ -73,6 +73,8 @@ for _stream in (sys.stdout, sys.stderr):
 
 MONITORING_DIR = r"E:\PythonProjects\RedBird\monitoring scripts\monitoring"
 MONITORING_CFG = MONITORING_DIR + r"\config\profimet.yaml"
+CUR = "€"   # подпись валюты в сообщениях: из guard_config.yaml (`currency`) или из валюты аккаунта (PLN → zł)
+CURRENCY_LABELS = {"PLN": "zł", "EUR": "€", "USD": "$", "UAH": "₴", "GBP": "£"}
 CLIENTS_DIR = Path(__file__).resolve().parent.parent / "Клиенты"
 STATS = CLIENTS_DIR / "ProfiMet" / "Статистика"
 LOG = STATS / "gads_spend_guard_cpa_log.csv"
@@ -333,7 +335,8 @@ def load_guard_config(path):
                 "telegram": bool(cfg.get("telegram", False))}
     for k_cfg, k_arg in (("grace", "grace"), ("plan_daily", "plan_daily"), ("loop_min", "loop_min"),
                          ("heartbeat_min", "heartbeat_min"), ("restore_at", "restore_at"),
-                         ("pace_share", "pace_share"), ("pace_min", "pace_min"), ("abs_mult", "abs_mult")):
+                         ("pace_share", "pace_share"), ("pace_min", "pace_min"), ("abs_mult", "abs_mult"),
+                         ("pace_min_allow_share", "pace_min_allow_share")):
         if cfg.get(k_cfg) is not None:
             defaults[k_arg] = cfg[k_cfg]
     if cfg.get("monitoring_config"):
@@ -341,19 +344,20 @@ def load_guard_config(path):
     extra = {"flex_ids": set(flex_ids), "hard_mult_by": hard_mult_by, "total_limit_by": total_limit_by,
              "since_by": since_by, "stats": client_dir / "Статистика", "form_action": cfg.get("form_action", FORM_ACTION),
              "ad_call_actions": list(cfg.get("ad_call_actions") or []),
-             "plan": plan}
+             "plan": plan, "currency": cfg.get("currency")}
     return defaults, extra, rows
 
 
 def main():
-    global STATS, LOG, STATE, FORM_ACTION, AD_CALL_ACTIONS
+    global STATS, LOG, STATE, FORM_ACTION, AD_CALL_ACTIONS, CUR
     pre = argparse.ArgumentParser(add_help=False)
     pre.add_argument("--client")
     pre.add_argument("--config")
     known, _ = pre.parse_known_args()
     cfg_path = known.config or (str(CLIENTS_DIR / known.client / "guard_config.yaml") if known.client else None)
     cfg_defaults, extra, cfg_rows = {}, {"flex_ids": None, "hard_mult_by": {}, "total_limit_by": {}, "since_by": {},
-                                         "stats": None, "form_action": FORM_ACTION, "ad_call_actions": [], "plan": None}, []
+                                         "stats": None, "form_action": FORM_ACTION, "ad_call_actions": [], "plan": None,
+                                         "currency": None}, []
     if cfg_path:
         cfg_defaults, extra, cfg_rows = load_guard_config(cfg_path)
 
@@ -375,6 +379,9 @@ def main():
     ap.add_argument("--max-reenable", type=int, default=2)
     ap.add_argument("--pace-share", type=float, default=0.4, help="«темп»: рост расхода за окно ≥ доли бюджета при 0 новых заявок")
     ap.add_argument("--pace-min", type=float, default=30.0, help="окно «темпа», минут")
+    ap.add_argument("--pace-min-allow-share", type=float, default=0.0,
+                    help="«темп» срабатывает, только если расход дня уже ≥ этой доли допустимого (0 — как раньше). "
+                         "23.10 ExpertAgro: пауза при 43 из 330 zł и 1 заявке из-за бюджета 50 zł")
     ap.add_argument("--watch-min", type=float, default=30.0, help="сколько минут после паузы писать «инерцию»")
     ap.add_argument("--loop-min", type=float, help="повторять каждые N минут; без флага — одна проверка")
     # управление бюджетом
@@ -411,6 +418,8 @@ def main():
     if extra["stats"]:
         STATS = extra["stats"]
     FORM_ACTION = extra["form_action"]
+    if extra.get("currency"):
+        CUR = str(extra["currency"])
     AD_CALL_ACTIONS = extra["ad_call_actions"]
     # режим «только план» пишет в ОТДЕЛЬНЫЕ файлы: боевой процесс и пробный прогон не должны делить состояние
     suffix = "" if args.execute else "_plan"
@@ -440,11 +449,17 @@ def main():
             cid_, nm, t, ctl, base, mx, hm, tl, since = r
             print(f"{cid_:<12}{nm:<30}{t:>7g}{(f'{base:g}' if ctl else 'без упр.'):>10}"
                   f"{(f'{mx:g}' if ctl else '—'):>9}{(f'{hm:g}' if hm else f'{args.abs_mult:g}'):>11}"
-                  f"   {(f'{tl:g} € с {since}' if tl else '—')}")
+                  f"   {(f'{tl:g} {CUR} с {since}' if tl else '—')}")
         return
     client = GoogleAdsClient.load_from_storage(GOOGLE_ADS_YAML)
     ga = client.get_service("GoogleAdsService")
     enums = client.enums.CampaignStatusEnum
+    if not extra.get("currency"):   # валюта аккаунта, а не вшитое «€» (23.10: ExpertAgro в PLN получал сообщения в евро)
+        try:
+            code = next(iter(ga.search(customer_id=cid, query="SELECT customer.currency_code FROM customer"))).customer.currency_code
+            CUR = CURRENCY_LABELS.get(code, code)
+        except Exception as ex:
+            print(f"  валюта аккаунта не прочитана ({type(ex).__name__}), подпись по умолчанию: {CUR}")
     m_ringostat, m_supabase, m_telegram, cfg = load_monitoring(args.monitoring_dir, args.monitoring_config)
     state = load_state()
     budget_state = state.setdefault("_budget", {})
@@ -535,7 +550,8 @@ def main():
                 # приводим рост к окну: после перезапуска/сбоя ближайшая «старая» точка может быть на 40+ минут раньше
                 # (13.10: +20.8 € за 44 мин приняли за «+20.8 € за 30 мин» и поставили кампанию на паузу)
                 age_min = max((now - datetime.fromisoformat(ref[0])).total_seconds() / 60, args.pace_min)
-                if (cost - ref[1]) * (args.pace_min / age_min) >= args.pace_share * budget:
+                if ((cost - ref[1]) * (args.pace_min / age_min) >= args.pace_share * budget
+                        and cost >= args.pace_min_allow_share * allowance):
                     pace_hit = True
 
             # --- пауза / возобновление по цене заявки
@@ -554,7 +570,7 @@ def main():
                     reason = "общий лимит"
                     st["no_resume"] = True
                     events.append(f"ПАУЗА общий лимит: с {since_by.get(campaign_id)} потрачено {s['total']:.2f} ≥ "
-                                  f"{total_lim:g} € (заявок сегодня {n})")
+                                  f"{total_lim:g} {CUR} (заявок сегодня {n})")
                 elif cost >= allowance:
                     reason = "цена заявки"
                     events.append(f"ПАУЗА цена заявки: расход {cost:.2f} ≥ допустимого {allowance:.2f} "
@@ -567,7 +583,7 @@ def main():
                 elif cost >= args.warn_share * allowance and not st["warned"]:
                     events.append(f"ПРЕДУПРЕЖДЕНИЕ: расход {cost:.2f} = {share:.0%} допустимого {allowance:.2f} (заявок {n})")
                     st["warned"] = True
-                    notify(f"⚠️ {name}: расход {cost:.2f} € = {share:.0%} допустимого {allowance:.2f} € (заявок {n})")
+                    notify(f"⚠️ {name}: расход {cost:.2f} {CUR} = {share:.0%} допустимого {allowance:.2f} {CUR} (заявок {n})")
                 if reason:
                     if args.execute:
                         pause(client, cid, campaign_id)
@@ -577,8 +593,8 @@ def main():
                         st["n_at_pause"] = n
                         st["pause_reason"] = reason
                         paused_now = True
-                        notify(f"⛔ {name}: ПАУЗА ({reason}). Расход {cost:.2f} €, заявок {n}, "
-                               f"допустимо {allowance:.2f} €, цель {T:g} €")
+                        notify(f"⛔ {name}: ПАУЗА ({reason}). Расход {cost:.2f} {CUR}, заявок {n}, "
+                               f"допустимо {allowance:.2f} {CUR}, цель {T:g} {CUR}")
                     else:
                         events[-1] += " (dry-run, не выполнено)"
             elif st.get("paused_by_guard"):
@@ -595,8 +611,8 @@ def main():
                         st["reenabled"] += 1
                         st["warned"] = False
                         resumed_now = True
-                        notify(f"✅ {name}: ВОЗОБНОВЛЕНА — поздние заявки (теперь {n}), расход {cost:.2f} €, "
-                               f"допустимо {allowance:.2f} €")
+                        notify(f"✅ {name}: ВОЗОБНОВЛЕНА — поздние заявки (теперь {n}), расход {cost:.2f} {CUR}, "
+                               f"допустимо {allowance:.2f} {CUR}")
                     else:
                         msg += " (dry-run или без --allow-reenable, не выполнено)"
                     events.append(msg)
@@ -623,7 +639,7 @@ def main():
                         def apply_budget(value, why):
                             """Ставит бюджет (или только планирует). Возвращает True, если запись выполнена."""
                             value = int(round(value))
-                            msg = f"БЮДЖЕТ {bud_now:g} → {value} €: {why}"
+                            msg = f"БЮДЖЕТ {bud_now:g} → {value} {CUR}: {why}"
                             if can_write:
                                 set_budget(client, cid, res, value)
                                 events.append(msg)
@@ -677,21 +693,21 @@ def main():
                                     cand = min(cand, max(pb["base"], math.floor(args.plan_daily - others)))
                                 if cand > pb["base"]:
                                     new_base = cand
-                                    why = (f"{streak} дня подряд цена ≤ {T:g} € и расход ≥ {args.constrained_share:.0%} бюджета, "
+                                    why = (f"{streak} дня подряд цена ≤ {T:g} {CUR} и расход ≥ {args.constrained_share:.0%} бюджета, "
                                            f"шаг +{step:g}%" + (" (большой запас по цене)" if big else ""))
                                 else:
-                                    events.append(f"рост бюджета не выполнен: потолок {ceiling:g} € или дневной план "
-                                                  f"{args.plan_daily or 0:g} € (сумма базовых других кампаний)")
+                                    events.append(f"рост бюджета не выполнен: потолок {ceiling:g} {CUR} или дневной план "
+                                                  f"{args.plan_daily or 0:g} {CUR} (сумма базовых других кампаний)")
                             elif last_bad and pb["base"] > pb["floor"]:
                                 new_base = max(pb["floor"], math.floor(pb["base"] / (1 + args.step_pct / 100)))
-                                why = f"вчера расход {y[1]:.0f} € при {y[2]} заявках — выше допустимого"
+                                why = f"вчера расход {y[1]:.0f} {CUR} при {y[2]} заявках — выше допустимого"
                             if new_base is not None and new_base != pb["base"]:
                                 if apply_budget(new_base, "базовый шаг: " + why):
                                     pb["base"] = new_base
                                     pb["changed_on"] = today
                                     bud_now = new_base
                             else:
-                                events.append(f"базовый бюджет {pb['base']:g} € без изменений (подходящих дней подряд: "
+                                events.append(f"базовый бюджет {pb['base']:g} {CUR} без изменений (подходящих дней подряд: "
                                               f"{streak} из {args.efficient_days}; нужно: цена ≤ цели и расход ≥ "
                                               f"{args.constrained_share:.0%} бюджета)")
                             if can_write:   # утро «сделано» только после реальной записи, не после плана
@@ -704,7 +720,7 @@ def main():
                                 and bud_now < ceiling):
                             target = min(ceiling, math.ceil(max(cost * 1.3, bud_now * 1.25)))
                             if target > bud_now:
-                                if apply_budget(target, f"люфт: заявок {n}, цена {cost / n:.1f} € ≤ {args.flex_cpa_share:.0%} "
+                                if apply_budget(target, f"люфт: заявок {n}, цена {cost / n:.1f} {CUR} ≤ {args.flex_cpa_share:.0%} "
                                                         f"цели, расход {cost:.1f} ≥ {args.flex_cost_share:.0%} бюджета"):
                                     pb["flexed"] = True
                                     st["flex_count"] += 1
