@@ -1,0 +1,7 @@
+{
+ "name": "dg_search_segment",
+ "status": "PAUSED",
+ "strategy": "TARGET_SPEND",
+ "target_cpa": 0.0,
+ "cpc_ceiling": 0.0
+}
