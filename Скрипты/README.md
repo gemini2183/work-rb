@@ -927,6 +927,10 @@ python gads_set_campaign_goals.py --customer-id 8826134558 --campaign-id <id> --
 
 Создаёт `dg_interest_nodiscover` (Э-11): Gmail + Display без Discover и YouTube, группы `inmarket` (in-market категории по id из `user_interest`) и `intent_queries` (пользовательская аудитория), исключение CRM-покупателей, карусель на готовых карточках `dg_lookalike_test` и мультиассет. По умолчанию validate_only, на паузе, `--read-back-only` читает созданное. Цели ставятся отдельно `gads_set_campaign_goals.py`. Для новой Demand Gen копировать и менять константы (имя, аудитории, каналы).
 
+## Demand Gen по сегменту «искали эти запросы»: `gads_dg_search_segment_builder.py` (Landver)
+
+Создаёт `dg_search_segment` (Э-10): пользовательский сегмент типа `SEARCH` (`CustomAudienceTypeEnum.SEARCH`, ключи в `SEARCH_KEYWORDS`), загрузку картинок, бюджет, кампанию Demand Gen на паузе («Максимум кликов»), гео и язык копией критериев действующей Search (`SOURCE_CAMPAIGN_ID`), группу без канала Display и без оптимизированного таргетинга, два мультиассет-объявления. По умолчанию validate_only (сегмент и картинки подменяются существующими объектами аккаунта), запись с `--execute`, `--read-back-only` читает созданное. Выяснено проверкой 2026-10-26: потолок цены клика (`target_spend.cpc_bid_ceiling_micros`) при создании Demand Gen API отклоняет («operation is not allowed for the given context»), создание с `target_spend` без потолка проходит; потолок отдельным шагом `gads_set_campaign_bidding.py` на Demand Gen не проверялся. Для нового клиента копировать и менять константы.
+
 `gads_standardize_assets.py --price-only [--execute]` — заменяет только ценовой ассет (набор `PRICE_OFFERINGS` в начале файла) во всех целевых кампаниях, включая эталонную и кампании на паузе. Перед запуском сверять цены с главной; заголовок и подпись позиции ≤25 знаков (скрипт проверяет).
 
 ## Кампанийные минус-слова: `gads_add_campaign_negatives.py` и `gads_remove_campaign_negatives.py` (ЗАПИСЬ, по умолчанию validate_only)
