@@ -244,6 +244,7 @@
   },
   "active": "49438aefe15a1236",
   "lastOpenFiles": [
+    "Скрипты/direct_epk_cycle.py",
     "Скрипты/direct_test_finish.py",
     "Клиенты/Andverpersonalinjury/Трекинг/gtm_plan_spec_test.json",
     "Клиенты/Andverpersonalinjury/Трекинг/spec_car_accident_lawyer.json",
@@ -256,7 +257,6 @@
     "Скрипты/page_tracking_check.py",
     "Скрипты/direct_campaign_create.py",
     "Клиенты/Andverpersonalinjury/Статистика/snapshot_before_adgroup_keywords_20261026_0955.json",
-    "Клиенты/Andverpersonalinjury/Статистика/snapshot_before_final_url_20261026_0955.csv",
     "База_знаний/Инструменты/Яндекс-Директ-API-доступ-redbird-analytics-и-запись.md",
     "База_знаний/Агенты/Запуск_трекинга_новой_посадочной.md",
     "База_знаний/Инструменты/Tilda-формы-окно-и-события-для-GTM.md",
