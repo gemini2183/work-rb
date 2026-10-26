@@ -6,9 +6,9 @@
 на какие цели настроены кампании, какая цена заявки на бренде и небренде, есть ли
 фид и откуда он. Результат — CSV в Клиенты/<папка>/Статистика/ и сводка в консоль.
 
-Токен клиента — только из файла (--token-file). Файл удаляется сразу после чтения,
-токен остаётся только в памяти процесса: в vault, историю команд и переменные
-окружения он не попадает. В кабинет скрипт ничего не пишет (только методы get и отчёты).
+Токен клиента — только из файла (--token-file), лежит вне vault (Temp): в git, историю
+команд и переменные окружения он не попадает. Файл остаётся на время аудита и удаляется
+по окончании (--delete-token или вручную). В кабинет скрипт ничего не пишет (только get и отчёты).
 
 Использование:
     python direct_express_audit.py --login irinanovotelmc \
@@ -267,18 +267,19 @@ def main():
     ap.add_argument("--login", required=True)
     ap.add_argument("--token-file", required=True)
     ap.add_argument("--client-folder", required=True)
+    ap.add_argument("--delete-token", action="store_true",
+                    help="удалить файл токена после запуска (по умолчанию остаётся до конца аудита)")
     ap.add_argument("--months", type=int, default=12)
     ap.add_argument("--brand-regex", default=DEFAULT_BRAND_RE)
     args = ap.parse_args()
 
     token = read_token(args.token_file)
     api = Direct(args.login, token)
-    try:
-        run(api, args)
-    except SystemExit:
-        print("Запуск не завершён: файл токена оставлен для повтора, после отладки удалить вручную")
-        raise
-    delete_token_file(args.token_file)
+    run(api, args)
+    if args.delete_token:
+        delete_token_file(args.token_file)
+    else:
+        print(f"Файл токена оставлен для следующих запусков: {args.token_file}. Удалить по окончании аудита (--delete-token).")
 
 
 def run(api, args):

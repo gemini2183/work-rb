@@ -1,0 +1,215 @@
+{
+ "account": "6353362488",
+ "container": "261134482",
+ "workspace_name": "ldv-settlement-isolated",
+ "version_name": "ldv settlement page: isolated objects (block_view, faq_open), old objects untouched",
+ "version_notes": "Только новые объекты с условием Page Path содержит /california-car-accident-settlement. Старые теги, триггеры и переменные не изменены.",
+ "built_in_variables": [
+  "pagePath",
+  "clickElement"
+ ],
+ "variables": [
+  {
+   "name": "ldv block name [settlement]",
+   "type": "jsm",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "javascript",
+     "value": "function(){var e={{Click Element}};if(!e)return '';var m={\"ldvq-top\": \"hero\", \"ldvq-card\": \"quiz\", \"ldv-why\": \"why\", \"ldv-form-2-section\": \"form_b\", \"ldv-form\": \"form_a\"};return m[e.id||'']||(e.id||'').replace(/^ldv-/,'').replace(/-/g,'_');}"
+    }
+   ]
+  }
+ ],
+ "triggers": [
+  {
+   "name": "ldv block visible [settlement]",
+   "type": "elementVisibility",
+   "filter": [
+    {
+     "type": "contains",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{Page Path}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "/california-car-accident-settlement"
+      }
+     ]
+    }
+   ],
+   "parameter": [
+    {
+     "type": "template",
+     "key": "selectorType",
+     "value": "CSS"
+    },
+    {
+     "type": "template",
+     "key": "elementSelector",
+     "value": "#ldvq-top, #ldvq-card, #ldv-why, #ldv-form-2-section, .vb-f3a#ldv-form"
+    },
+    {
+     "type": "template",
+     "key": "firingFrequency",
+     "value": "ONCE_PER_ELEMENT"
+    },
+    {
+     "type": "template",
+     "key": "onScreenRatio",
+     "value": "10"
+    },
+    {
+     "type": "boolean",
+     "key": "useOnScreenDuration",
+     "value": "true"
+    },
+    {
+     "type": "template",
+     "key": "onScreenDuration",
+     "value": "1000"
+    },
+    {
+     "type": "boolean",
+     "key": "useDomChangeListener",
+     "value": "false"
+    }
+   ]
+  },
+  {
+   "name": "ldv faq question click [settlement]",
+   "type": "click",
+   "filter": [
+    {
+     "type": "cssSelector",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{Click Element}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "#ldv-faq summary, #ldv-faq summary *"
+      }
+     ]
+    },
+    {
+     "type": "contains",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{Page Path}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "/california-car-accident-settlement"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "tags": [
+  {
+   "name": "GA4 - block_view [settlement]",
+   "type": "gaawe",
+   "firingTriggerNames": [
+    "ldv block visible [settlement]"
+   ],
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "block_view"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "G-JPLC4Q41PS"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "block_name"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{ldv block name [settlement]}}"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "GA4 - faq_open [settlement]",
+   "type": "gaawe",
+   "firingTriggerNames": [
+    "ldv faq question click [settlement]"
+   ],
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "faq_open"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "G-JPLC4Q41PS"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "faq_question"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{ldv faq question}}"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "update_tags": [],
+ "update_variables": [],
+ "update_triggers": []
+}
