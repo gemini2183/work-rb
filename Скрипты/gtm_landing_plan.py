@@ -44,7 +44,8 @@ DEFAULT_SPEC = {
     "extra_block_selectors": [],           # CSS-селекторы блоков без id (например форма: ".ldv2-native")
     "cta_attr": "data-ldv-cta",            # атрибут кнопки со своим «местом»
     "tel_place_map": {},                   # {часть класса ссылки: место} для кнопок без атрибута (создаются скриптом страницы), например {"quiz__call": "quiz_result"}
-    "faq_selector": "details summary",     # вопрос FAQ (клик)
+    "faq_selector": "details summary",     # вопрос FAQ (клик); строка или список (контейнер общий — перечислять селекторы ВСЕХ страниц, иначе старые перестанут срабатывать)
+    "form_place_events": {},               # {"submit_formA": "inline_a", "submit_formB": "inline_b"}: если на странице несколько форм в потоке — место формы по имени события Tilda; пусто = как раньше (popup / inline)
     "popup_hook": "",                      # хук окна формы Tilda, например "#accident-case-review"; пусто = не создавать
     "scroll_thresholds": "25,50,75",
     "events": [                            # события, которые страница пушит в dataLayer -> GA4 (параметры: {GA4: dataLayer})
@@ -184,11 +185,20 @@ def main():
             plan["update_variables"].append({"name": name, "set_parameter": {"javascript": code}}); updated.append("переменная " + name)
         else:
             ensure_var(jsm(name, code))
-    ensure_var(jsm("ldv form place", "function(){return document.querySelector('.t-popup_show')?'popup':'inline';}"))
+    if spec["form_place_events"]:
+        fp_code = ("function(){if(document.querySelector('.t-popup_show'))return 'popup';var m=" + json.dumps(spec["form_place_events"]) +
+                   ";return m[{{_event}}]||'inline';}")
+        if "ldv form place" in have_var:
+            plan["update_variables"].append({"name": "ldv form place", "set_parameter": {"javascript": fp_code}}); updated.append("переменная ldv form place (форма A/B по событию)")
+        else:
+            ensure_var(jsm("ldv form place", fp_code))
+    else:
+        ensure_var(jsm("ldv form place", "function(){return document.querySelector('.t-popup_show')?'popup':'inline';}"))
     if spec["result_tier_field"]:
         ensure_var(jsm("ldv quiz result", "function(){var i=document.querySelectorAll('input[name=\"" + spec["result_tier_field"] + "\"]');"
                                            "for(var k=0;k<i.length;k++){if(i[k].value)return i[k].value;}return 'none';}"))
-    ensure_var(jsm("ldv faq question", "function(){var e={{Click Element}};var b=e&&e.closest?e.closest('" + spec["faq_selector"].split()[-1] + "'):null;"
+    faq_list = spec["faq_selector"] if isinstance(spec["faq_selector"], list) else [spec["faq_selector"]]
+    ensure_var(jsm("ldv faq question", "function(){var e={{Click Element}};var b=e&&e.closest?e.closest('" + faq_list[0].split()[-1] + "'):null;"
                                        "return b?b.innerText.replace(/^\\s*\\d+\\s*/,'').replace(/\\s+/g,' ').trim().slice(0,100):'';}"))
     for v in ("block_name", "block_seconds", "form_place", "cta_place"):
         ensure_var(dlv("dlv " + v, v))
@@ -226,7 +236,7 @@ def main():
         ensure_tag("GA4 - click_tel", "click_tel", {"click_place": "{{ldv tel place}}"}, ["click_tel 2"])
     ensure_trg({"name": "ldv mailto click", "type": "linkClick", "filter": [{"type": "contains", "parameter": [tmpl("arg0", "{{Click URL}}"), tmpl("arg1", "mailto:")]}]})
     ensure_tag("GA4 - email_click", "email_click", None, ["ldv mailto click"])
-    faq_sel = spec["faq_selector"] + ", " + spec["faq_selector"] + " *"
+    faq_sel = ", ".join(f"{x}, {x} *" for x in faq_list)
     if "ldv faq question click" in have_trg:
         plan["update_triggers"].append({"name": "ldv faq question click", "set_filter_arg1": faq_sel + ", .ldv-faq__question, .ldv-faq__question *"}); updated.append("триггер ldv faq question click")
     else:

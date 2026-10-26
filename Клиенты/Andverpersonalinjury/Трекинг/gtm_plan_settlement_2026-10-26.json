@@ -1,0 +1,62 @@
+{
+ "account": "6353362488",
+ "container": "261134482",
+ "workspace_name": "ldv-settlement-page-spec",
+ "version_name": "ldv settlement page: blocks, quiz call place, FAQ, form A/B place",
+ "version_notes": "Страница california-car-accident-settlement: блоки ldvq-top, ldvq-card, ldv-why, секция формы A (.vb-f3a#ldv-form), ldv-form-2-section; место кнопки звонка из результата квиза; FAQ #ldv-faq; form_place inline_a/inline_b по событию submit_formA/submit_formB. Страницы Car и car-truck не затрагиваются (списки объединены).",
+ "built_in_variables": [
+  "clickElement",
+  "clickClasses",
+  "clickUrl",
+  "clickText",
+  "scrollDepthThreshold"
+ ],
+ "variables": [],
+ "triggers": [],
+ "tags": [],
+ "update_tags": [
+  {
+   "name": "ldv block_time script",
+   "set_html": "<script>\n(function () {\n  if (window.__ldvBlockTime) return;\n  window.__ldvBlockTime = true;\n  var NAMES = {\"ldvc\": \"hero\", \"ldv-form-section\": \"form_a\", \"ldvq\": \"quiz\", \"ldvq-top\": \"hero\", \"ldvq-card\": \"quiz\", \"ldv-form-2-section\": \"form_b\", \".vb-f3a#ldv-form\": \"form_a\", \"ldv-form\": \"form_a\", \".ldv2-native\": \"form_a\"};\n  var IDS = [\"ldv-ai-hero\", \"ldv-your-crash\", \"ldv-crash-scenarios\", \"ldv-case-examples\", \"ldv-truck-cases\", \"ldv-evidence\", \"ldv-mid-review\", \"ldv-public-library\", \"ldv-injuries\", \"ldv-early-offer\", \"ldv-case-value\", \"ldv-case-process\", \"ldv-why-landver\", \"ldv-reviews\", \"ldv-faq\", \"ldv-final-review\", \"ldv-footer\", \"ldvc\", \"ldv-form-section\", \"ldv-insurers\", \"ldv-how\", \"ldv-fee\", \"ldv-team\", \"ldv-situations\", \"ldv-attorney\", \"ldvq\", \"ldv-final\", \"ldvq-top\", \"ldvq-card\", \"ldv-why\", \"ldv-form-2-section\", \".vb-f3a#ldv-form\", \".ldv2-native\"];\n  var PREFIX = \"ldv-\";\n  var STEPS = [[10, 'stay_10s'], [30, 'engaged_30s'], [90, 'engaged_90s']];\n  var TICK = 500, IDLE = 10000, FLUSH = 30000;\n  var acc = {}, total = 0, current = 'header', lastTick = Date.now(), lastActive = Date.now(), lastFlush = Date.now();\n  window.dataLayer = window.dataLayer || [];\n  function nameOf(id) { return NAMES[id] || id.replace(new RegExp('^' + PREFIX), '').replace(/-/g, '_'); }\n  function find(id) { return /^[.#\\[]/.test(id) ? document.querySelector(id) : document.getElementById(id); }\n  function currentBlock() {\n    var mid = window.innerHeight / 2, name = 'header', best = -1e9;\n    for (var i = 0; i < IDS.length; i++) {\n      var el = find(IDS[i]);\n      if (!el) continue;\n      var top = el.getBoundingClientRect().top;\n      if (top <= mid && top > best) { best = top; name = nameOf(IDS[i]); }\n    }\n    return name;\n  }\n  function flush(final) {\n    for (var k in acc) {\n      var s = final ? Math.round(acc[k]) : Math.floor(acc[k]);\n      if (s >= 1) { window.dataLayer.push({ event: 'block_time', block_name: k, block_seconds: s }); acc[k] -= s; }\n    }\n    lastFlush = Date.now();\n  }\n  function active() { lastActive = Date.now(); }\n  ['scroll', 'mousemove', 'keydown', 'touchstart', 'click', 'wheel'].forEach(function (e) { window.addEventListener(e, active, { passive: true }); });\n  setInterval(function () {\n    var now = Date.now(), dt = now - lastTick;\n    lastTick = now;\n    var block = currentBlock();\n    if (document.visibilityState === 'visible' && now - lastActive <= IDLE && dt < 5000) {\n      acc[block] = (acc[block] || 0) + dt / 1000;\n      total += dt / 1000;\n      while (STEPS.length && total >= STEPS[0][0]) { window.dataLayer.push({ event: STEPS[0][1] }); STEPS.shift(); }\n    }\n    if (block !== current) { flush(false); current = block; }\n    else if (now - lastFlush >= FLUSH) { flush(false); }\n  }, TICK);\n  document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'hidden') flush(true); });\n  window.addEventListener('pagehide', function () { flush(true); });\n})();\n</script>"
+  },
+  {
+   "name": "GA4 - form_submit",
+   "set_event_parameters": {
+    "form_place": "{{ldv form place}}",
+    "quiz_result": "{{ldv quiz result}}"
+   }
+  }
+ ],
+ "update_variables": [
+  {
+   "name": "ldv block name (visibility)",
+   "set_parameter": {
+    "javascript": "function(){var e={{Click Element}};if(!e)return '';var m={\"ldvc\": \"hero\", \"ldv-form-section\": \"form_a\", \"ldvq\": \"quiz\", \"ldvq-top\": \"hero\", \"ldvq-card\": \"quiz\", \"ldv-form-2-section\": \"form_b\", \".vb-f3a#ldv-form\": \"form_a\", \"ldv-form\": \"form_a\"};if(e.matches&&e.matches(\".ldv2-native\"))return 'form_a';var id=e.id||'';return m[id]||id.replace(/^ldv-/,'').replace(/-/g,'_');}"
+   }
+  },
+  {
+   "name": "ldv tel place",
+   "set_parameter": {
+    "javascript": "function(){var e={{Click Element}};var d=e&&e.closest?e.closest('[data-ldv-cta]'):null;if(d)return d.getAttribute('data-ldv-cta');var a=e&&e.closest?e.closest('a'):null;var c=String((a&&a.className)||'');var m={\"ldvq5__button--call\": \"quiz_result\", \"ldv-h__phone\": \"header\", \"ldv-mob-call\": \"mobile_bar\", \"ldv-ai-hero__call\": \"hero\", \"ldv-fr__phone\": \"final_form\", \"ldv-ft__phone\": \"footer\", \"ldvq__btn--call\": \"quiz_result\", \"vb-q7k__btn-call\": \"quiz_result\"};for(var k in m){if(c.indexOf(k)>-1)return m[k];}return 'other';}"
+   }
+  },
+  {
+   "name": "ldv form place",
+   "set_parameter": {
+    "javascript": "function(){if(document.querySelector('.t-popup_show'))return 'popup';var m={\"submit_formA\": \"inline_a\", \"submit_formB\": \"inline_b\"};return m[{{_event}}]||'inline';}"
+   }
+  }
+ ],
+ "update_triggers": [
+  {
+   "name": "ldv block visible",
+   "set_parameter": {
+    "elementSelector": "#ldv-ai-hero, #ldv-your-crash, #ldv-crash-scenarios, #ldv-case-examples, #ldv-truck-cases, #ldv-evidence, #ldv-mid-review, #ldv-public-library, #ldv-injuries, #ldv-early-offer, #ldv-case-value, #ldv-case-process, #ldv-why-landver, #ldv-reviews, #ldv-faq, #ldv-final-review, #ldv-footer, #ldvc, #ldv-form-section, #ldv-insurers, #ldv-how, #ldv-fee, #ldv-team, #ldv-situations, #ldv-attorney, #ldvq, #ldv-final, #ldvq-top, #ldvq-card, #ldv-why, #ldv-form-2-section, .vb-f3a#ldv-form, .ldv2-native"
+   }
+  },
+  {
+   "name": "ldv faq question click",
+   "set_filter_arg1": ".ldv6__faq-item summary, .ldv6__faq-item summary *, #ldv-faq summary, #ldv-faq summary *, .ldv-faq__question, .ldv-faq__question *"
+  }
+ ]
+}

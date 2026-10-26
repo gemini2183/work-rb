@@ -72,7 +72,11 @@ python metrika_stats.py --client "ЕГЭ Merlin" --client-folder "ЕГЭ Merlin"
 python callibri_stats.py --client "ЕГЭ Merlin" --client-folder "ЕГЭ Merlin" --days 30
 ```
 
-`direct_campaign_create.py` — запись в Директ: создаёт пустую текстовую кампанию
+**Устарело: `direct_campaign_create.py`, `direct_test_cycle.py`, `direct_test_finish.py` создают старый TEXT_CAMPAIGN через v5 — для новых кампаний использовать `direct_epk_cycle.py` (ЕПК, v501).**
+
+`direct_epk_cycle.py` — актуальный тестовый цикл записи: ЕПК (UnifiedCampaign) -> группа -> ResponsiveAd -> ключ -> ставка -> минус-фразы -> чтение обратно, `--delete` удаляет созданную кампанию. Без `--execute` только план.
+
+`direct_campaign_create.py` — (устарело) запись в Директ: создаёт пустую текстовую кампанию
 (без групп и объявлений, статус DRAFT/OFF). Без `--execute` только читает кабинет и
 показывает план; с ним пишет и читает кампании обратно. Логин/токен — вкладка "Директ".
 

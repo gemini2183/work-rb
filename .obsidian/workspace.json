@@ -244,19 +244,20 @@
   },
   "active": "49438aefe15a1236",
   "lastOpenFiles": [
+    "Клиенты/Andverpersonalinjury/Трекинг/gtm_plan_settlement_2026-10-26.json",
+    "Клиенты/Andverpersonalinjury/Трекинг/spec_car_accident_settlement.json",
+    "Клиенты/Andverpersonalinjury/Статистика/gads_impression_share_2026-10-19_to_2026-10-26.csv",
+    "Клиенты/Andverpersonalinjury/Статистика/campaign_summary_search - car+truck injuries - s - lp - tilda_2026-10-19_to_2026-10-26_terms.csv",
+    "Клиенты/Andverpersonalinjury/Статистика/campaign_summary_search - car+truck injuries - s - lp - tilda_2026-10-19_to_2026-10-26_keywords.csv",
+    "База_знаний/Инструменты/Яндекс-Директ-API-доступ-redbird-analytics-и-запись.md.tmp.30980.df1c2375ccca",
+    "Клиенты/Andverpersonalinjury/Статистика/search_terms_triage_2026-10-23_to_2026-10-26.csv",
+    "Клиенты/Andverpersonalinjury/Статистика/search_terms_triage_2026-10-06_to_2026-10-26.csv",
+    "Клиенты/Andverpersonalinjury/Статистика/page_tracking_check_landverpersonalinjury_tilda_ws_california-car-accident-settlement_2026-10-26.md",
     "Скрипты/direct_epk_cycle.py",
     "Скрипты/direct_test_finish.py",
     "Клиенты/Andverpersonalinjury/Трекинг/gtm_plan_spec_test.json",
-    "Клиенты/Andverpersonalinjury/Трекинг/spec_car_accident_lawyer.json",
-    "Скрипты/gtm_landing_plan.py",
     "Клиенты/Andverpersonalinjury/Статистика/ringostat_rules_landverpersonalinjury_tilda_ws_california-car-accident-lawyer_2026-10-26.md",
-    "Скрипты/ringostat_xpath_plan.py",
-    "База_знаний/Инструменты/Яндекс-Директ-API-доступ-redbird-analytics-и-запись.md.tmp.30980.59d222d9b7b8",
-    "Скрипты/direct_test_cycle.py",
     "Клиенты/Andverpersonalinjury/Статистика/page_tracking_check_landverpersonalinjury_tilda_ws_california-car-accident-lawyer_2026-10-26.md",
-    "Скрипты/page_tracking_check.py",
-    "Скрипты/direct_campaign_create.py",
-    "Клиенты/Andverpersonalinjury/Статистика/snapshot_before_adgroup_keywords_20261026_0955.json",
     "База_знаний/Инструменты/Яндекс-Директ-API-доступ-redbird-analytics-и-запись.md",
     "База_знаний/Агенты/Запуск_трекинга_новой_посадочной.md",
     "База_знаний/Инструменты/Tilda-формы-окно-и-события-для-GTM.md",
@@ -288,7 +289,6 @@
     "Клиенты/LuxeBrokers/Креативы/Yelp/2026-10-19/серебро/joanna-kosinska-GAFqiZB7efE-unsplash.jpg",
     "Клиенты/LuxeBrokers/Креативы/Yelp/2026-10-19/gallery_square/08_silver_bars_square_1200x1200.jpg",
     "Клиенты/LuxeBrokers/Креативы/Yelp/2026-10-19/gallery_square/07_silver_coins_square_1200x1200.jpg",
-    "Клиенты/LuxeBrokers/Креативы/Yelp/2026-10-19/Таблица_вставки_Yelp.md",
-    "Клиенты/LuxeBrokers/Креативы/Yelp/Лицензии-изображений.md"
+    "Клиенты/LuxeBrokers/Креативы/Yelp/2026-10-19/Таблица_вставки_Yelp.md"
   ]
 }

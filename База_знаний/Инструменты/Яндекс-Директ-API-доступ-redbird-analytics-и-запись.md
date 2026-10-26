@@ -1,7 +1,7 @@
 ---
 name: яндекс-директ-api-доступ-redbird-analytics-и-запись
-description: Что может агентский аккаунт redbird.analytics в API Яндекс.Директа (чтение проверено, запись не проверена), что нужно для полного управления кампаниями
-status: не протестировано
+description: Что может агентский аккаунт redbird.analytics в API Яндекс.Директа; актуальный метод создания кампаний через ЕПК (UnifiedCampaign, v501), проверенный записью
+status: протестировано
 updated: 2026-10-26
 ---
 
@@ -13,7 +13,25 @@ updated: 2026-10-26
 - Сервис `agencyclients` отвечает **54 «Нет прав для доступа в агентский сервис»**: redbird.analytics не является агентством в смысле Директа, это **представитель** в кабинетах клиентов. Списка клиентов по токену не получить, каждый кабинет подключается отдельно через `Client-Login`.
 - В 13 активных кабинетах листа «Директ» права `EDIT_CAMPAIGNS`, `IMPORT_XLS`, `TRANSFER_MONEY` = YES. Но токен redbird.analytics стоит только у 2 активных (Груминг - Северная 3, Транзит); у остальных 11 в листе токены самих клиентов, это права владельца, не наши.
 
-## Запись проверена 2026-10-26 (`campaigns.add`)
+## АКТУАЛЬНЫЙ метод создания кампании: Единая перфоманс-кампания (проверено 2026-10-26)
+
+В интерфейсе Директа создаётся только ЕПК (места показа: поиск, сеть, вместе; Мастер кампаний отдельно). Сверено с документацией ([campaigns.add UnifiedCampaign](https://yandex.ru/dev/direct/doc/ru/campaigns/add-unified-campaign.md), [adgroups.add](https://yandex.ru/dev/direct/doc/ru/adgroups/add), [ads.add](https://yandex.ru/dev/direct/doc/ru/ads/add)) и проверено записью в кабинет Груминг - Северная 3 скриптом `Скрипты/direct_epk_cycle.py`.
+
+- **Адрес:** `https://api.direct.yandex.com/json/v501/` (для ЕПК по документации; с `/json/` обязательно, без него ответ приходит XML-ошибкой SOAP).
+- **Кампания:** `campaigns.add`, структура `UnifiedCampaign.BiddingStrategy.Search` + `.Network` (оба обязательны). Тип читается как `UNIFIED_CAMPAIGN`.
+- **Группа:** `adgroups.add`, `UnifiedAdGroup.OfferRetargeting` (YES/NO), обязательны `Name`, `CampaignId`, `RegionIds`. Тип `UNIFIED_AD_GROUP`.
+- **Объявление:** `ads.add`, структура `ResponsiveAd` (комбинаторное): `Titles` 1–7 (до 56 знаков), `Texts` 1–3 (до 81), `Href` или `BusinessId`; необязательны картинки, видео, быстрые ссылки, цена. Тип `RESPONSIVE_AD`. Без предупреждений, в отличие от `TextAd`.
+- **Ключ, пауза, ставка, минус-фразы, удаление:** `keywords.add`, `keywords.suspend`, `keywordbids.set` (`SearchBid`), `campaigns.update`/`adgroups.update` (`NegativeKeywords`), `campaigns.delete` — всё работает на v501. Ставка применяется при ручной стратегии `HIGHEST_POSITION`, прочитана 35 ₽.
+- **Места показа задаются стратегиями:**
+  - Только поиск: Search = любая стратегия, Network = `SERVING_OFF` (создано и прочитано).
+  - Только РСЯ: Search = `SERVING_OFF`, Network = стратегия, например `WB_MAXIMUM_CLICKS` (принято, предупреждение 10176 «при отключённом поиске задайте стратегию сети»).
+  - Поиск и сеть вместе: Search = `WB_MAXIMUM_CLICKS`, Network = `NETWORK_DEFAULT` (сеть следует за поиском) — принято. Два одинаковых `WB_MAXIMUM_CLICKS` и `HIGHEST_POSITION` + `NETWORK_DEFAULT` дают ошибку 4000 «Стратегии не совместимы».
+  - Тип площадок в поиске (`PlacementTypes`: `SearchResults`, `ProductGallery`, `Maps`, `SearchOrganizationList`) в запись входил как YES/NO, проверка работы показов не делалась.
+- **Не проверено:** включение и модерация, Мастер кампаний, цели Метрики и стратегии на конверсии (`PriorityGoals`), `PackageBiddingStrategy`, картинки и видео.
+
+## УСТАРЕЛО: запись как TEXT_CAMPAIGN (первый тест, не использовать для новых кампаний)
+
+Первый тест 2026-10-26 создал `TEXT_CAMPAIGN` через v5 — API его принял, хотя интерфейс уже даёт создавать только ЕПК. В API-документации закрытие `TextCampaign` прямо не объявлено, но это остаток старого метода. Результаты ниже верны как факты про старый тип; тестовые кампании 715470053, 715471036, 715471095 удалены.
 
 Кабинет Груминг - Северная 3 (login `porg-w3seuhbn`), токен redbird.analytics: создана кампания 715470053 «Тестовая кампания для тестирования API» (TEXT_CAMPAIGN, DRAFT/OFF, стратегия «максимум кликов» с недельным лимитом 300 ₽ на поиске, сети выключены). Читается обратно, 5 рабочих кампаний кабинета не затронуты. Скрипт: `Скрипты/direct_campaign_create.py` (по умолчанию план, запись с `--execute`). Кампания пустая и показываться не может; удалить можно `campaigns.delete` (пока не удалена).
 

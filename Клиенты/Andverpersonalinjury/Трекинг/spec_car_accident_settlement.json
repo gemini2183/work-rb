@@ -1,0 +1,20 @@
+{
+ "_comment": "Settlement-страница. Контейнер общий со страницей Car: списки блоков, мест звонка и FAQ — ОБЪЕДИНЕНИЕ с spec_car_accident_lawyer.json, иначе планировщик затрёт охват Car. В Settlement id 'ldv-form' повторяется (пустой якорь в блоке квиза и секция формы), поэтому секция формы взята селектором .vb-f3a#ldv-form.",
+ "account": "6353362488",
+ "container": "261134482",
+ "measurement_id": "G-JPLC4Q41PS",
+ "workspace_name": "ldv-settlement-page-spec",
+ "version_name": "ldv settlement page: blocks, quiz call place, FAQ, form A/B place",
+ "version_notes": "Страница california-car-accident-settlement: блоки ldvq-top, ldvq-card, ldv-why, секция формы A (.vb-f3a#ldv-form), ldv-form-2-section; место кнопки звонка из результата квиза; FAQ #ldv-faq; form_place inline_a/inline_b по событию submit_formA/submit_formB. Страницы Car и car-truck не затрагиваются (списки объединены).",
+ "block_ids": ["ldv-ai-hero", "ldv-your-crash", "ldv-crash-scenarios", "ldv-case-examples", "ldv-truck-cases", "ldv-evidence", "ldv-mid-review", "ldv-public-library", "ldv-injuries", "ldv-early-offer", "ldv-case-value", "ldv-case-process", "ldv-why-landver", "ldv-reviews", "ldv-faq", "ldv-final-review", "ldv-footer", "ldvc", "ldv-form-section", "ldv-insurers", "ldv-how", "ldv-fee", "ldv-team", "ldv-situations", "ldv-attorney", "ldvq", "ldv-final",
+               "ldvq-top", "ldvq-card", "ldv-why", "ldv-form-2-section", ".vb-f3a#ldv-form"],
+ "block_names": {"ldvc": "hero", "ldv-form-section": "form_a", "ldvq": "quiz",
+                 "ldvq-top": "hero", "ldvq-card": "quiz", "ldv-form-2-section": "form_b", ".vb-f3a#ldv-form": "form_a", "ldv-form": "form_a"},
+ "extra_block_selectors": [".ldv2-native"],
+ "cta_attr": "data-ldv-cta",
+ "tel_place_map": {"ldvq5__button--call": "quiz_result", "ldv-h__phone": "header", "ldv-mob-call": "mobile_bar", "ldv-ai-hero__call": "hero", "ldv-fr__phone": "final_form", "ldv-ft__phone": "footer",
+                   "ldvq__btn--call": "quiz_result", "vb-q7k__btn-call": "quiz_result"},
+ "faq_selector": [".ldv6__faq-item summary", "#ldv-faq summary"],
+ "form_place_events": {"submit_formA": "inline_a", "submit_formB": "inline_b"},
+ "popup_hook": ""
+}
