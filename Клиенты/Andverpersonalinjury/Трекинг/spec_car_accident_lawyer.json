@@ -1,0 +1,14 @@
+{
+ "account": "6353362488",
+ "container": "261134482",
+ "measurement_id": "G-JPLC4Q41PS",
+ "workspace_name": "ldv-car-page-spec-test",
+ "version_name": "ldv car page (spec)",
+ "block_ids": ["ldv-ai-hero", "ldv-your-crash", "ldv-crash-scenarios", "ldv-case-examples", "ldv-truck-cases", "ldv-evidence", "ldv-mid-review", "ldv-public-library", "ldv-injuries", "ldv-early-offer", "ldv-case-value", "ldv-case-process", "ldv-why-landver", "ldv-reviews", "ldv-faq", "ldv-final-review", "ldv-footer", "ldvc", "ldv-form-section", "ldv-insurers", "ldv-how", "ldv-fee", "ldv-team", "ldv-situations", "ldv-attorney", "ldvq", "ldv-final"],
+ "block_names": {"ldvc": "hero", "ldv-form-section": "form_a", "ldvq": "quiz"},
+ "extra_block_selectors": [".ldv2-native"],
+ "cta_attr": "data-ldv-cta",
+ "tel_place_map": {"ldvq5__button--call": "quiz_result", "ldv-h__phone": "header", "ldv-mob-call": "mobile_bar", "ldv-ai-hero__call": "hero", "ldv-fr__phone": "final_form", "ldv-ft__phone": "footer"},
+ "faq_selector": ".ldv6__faq-item summary",
+ "popup_hook": "#accident-case-review"
+}

@@ -72,6 +72,20 @@ python metrika_stats.py --client "ЕГЭ Merlin" --client-folder "ЕГЭ Merlin"
 python callibri_stats.py --client "ЕГЭ Merlin" --client-folder "ЕГЭ Merlin" --days 30
 ```
 
+`direct_campaign_create.py` — запись в Директ: создаёт пустую текстовую кампанию
+(без групп и объявлений, статус DRAFT/OFF). Без `--execute` только читает кабинет и
+показывает план; с ним пишет и читает кампании обратно. Логин/токен — вкладка "Директ".
+
+```
+python direct_campaign_create.py --client "Груминг - Северная 3" --name "Название"            # план
+python direct_campaign_create.py --client "Груминг - Северная 3" --name "Название" --execute  # запись
+```
+
+`direct_test_cycle.py` — тестовый цикл записи внутри существующей кампании: группа ->
+объявление -> ключ (на паузе) -> правка ставки, затем чтение обратно. Без `--execute` печатает
+план. Образец для будущего скрипта записи Директа; итоги теста — в странице базы знаний
+`Яндекс-Директ-API-доступ-redbird-analytics-и-запись`.
+
 `callibri_stats.py` тянет звонки (колл-трекинг) с вкладки "Calibri" общей
 таблицы — сырые данные без дедупликации и без вычисления источника трафика.
 Использовать напрямую только для клиентов без спец-условий; для ЕГЭ Merlin —
@@ -1361,3 +1375,20 @@ python ga4_custom_definitions.py --property 549802233 --dim quiz_answer "Quiz an
 
 ## GTM: правка существующих переменных и триггеров, сценарий кликов в проверке (2026-10-24)
 `gtm_apply_plan.py`: в плане `update_variables: [{name, set_parameter: {javascript: "…"}}]` и `update_triggers: [{name, set_parameter: {elementSelector: "…"}, set_filter_arg1: "CSS-селектор клика"}]`. `gtm_test_version.py`: `--click "<css>" "<css>" …` (клики по порядку после прокрутки; повтор селектора — несколько кликов, так проходится квиз), `--eval "<js>" …` (выполнить и напечатать результат; открыть окно формы — создать ссылку `#хук` и кликнуть), `--no-prevent` (не отменять переход по `tel:`), `--no-tel-places` (пропустить медленную проверку «на отдельной загрузке»); в выводе все параметры событий. Пример (Landver, версия 7): `python gtm_test_version.py --account 6353362488 --container 261134482 --version 7 --url "https://landverpersonalinjury.tilda.ws/california-car-accident-lawyer?utm_source=google&utm_medium=cpc&utm_campaign=probe" --grant analytics_storage --no-prevent --no-tel-places --click "#ldvq5-card button.ldvq5__option" … --push-event submit_form5114761803`. Перед запуском убедиться, что нет старых сред `claude-test-*` (если предыдущий запуск был прерван — удалить через API `environments`).
+
+## Смена конечного URL объявлений: `gads_ad_final_url.py` (ЗАПИСЬ только с `--execute`, с 2026-10-26)
+По группам Search-кампании меняет `final_urls` у объявлений, у которых сейчас ровно `--from-url` (включённые и на паузе, не удалённые); остальные пропускает и печатает. По умолчанию `validate_only` (Google проверяет), снимок «до» в Статистика/ клиента, после записи читает обратно и печатает команду отката. Метки UTM сохраняются шаблоном отслеживания кампании. Применён: Landver 26.10 (И-073). После записи объявления на повторной проверке Google (`REVIEW_IN_PROGRESS`).
+```
+python gads_ad_final_url.py --customer-id 213-621-6123 --client-folder Andverpersonalinjury --campaign "search / car+truck injuries / s / lp - tilda" --groups "Car Accident" "Car Accident - Exact" --from-url https://…/old --to-url https://…/new [--execute]
+```
+
+## Трекинг посадочной: `page_tracking_check.py`, `ringostat_xpath_plan.py`, `gtm_landing_plan.py` (2026-10-26, из сессии Landver 24–26.10)
+Три инструмента «проверка и настройка новой посадочной», только чтение (пишут отчёт/план в файл). Порядок и ловушки — `База_знаний/Агенты/Запуск_трекинга_новой_посадочной.md`.
+- `page_tracking_check.py --url … [--client-folder …] [--click "<css>" …] [--faq "<css>"] [--no-mobile]` — за один запуск: мета и h1, ошибки консоли, GTM/GA4/Ringostat/Clarity/пиксели, все ссылки `tel:` (текст, класс, `data-*`, видимость, вложенные `<a>`) и подмена при метках Google против страницы без меток (чистый профиль), формы (id, поля, скрытые, окно или нет), хуки окон, якоря `#…` (в том числе «якорь высотой 0 → ближайшая форма ниже»), события, которые страница пушит сама, и список событий GA4 с параметрами, которые ушли бы с текущим контейнером (запросы GA4 перехватываются, пиксели блокируются; формы не отправляются). Не покрывает реальную отправку, звонок, согласие, конверсии Ads.
+- `ringostat_xpath_plan.py --url … [--client-folder …] --name-prefix <метка> [--ignore-existing]` — читает действующие XPath проекта из клиентского скрипта Ringostat, проверяет, какие `tel:`-ссылки они покрывают, для остальных строит XPath (по уникальному `data-*`, иначе по уникальному классу, иначе по тексту = хрупко) и маску из внутренностей ссылки (цифры → `#`; без номера в тексте — скрытый span `+###########`), группирует по маске, проверяет число совпадений и полное покрытие; печатает JS для ввода в форму «Добавить XPath» (Chrome после «да»). Не охватывает кнопки, которые создаёт скрипт страницы после загрузки.
+- `gtm_landing_plan.py --spec <json> --out <plan.json>` — идемпотентный JSON-план для `gtm_apply_plan.py` по описанию страницы (id блоков, имена блоков, атрибут места кнопки, FAQ, хук окна, события страницы → GA4): читает живую версию контейнера; создаёт нужное, правит существующее, остальное пропускает; печатает список параметров для регистрации в GA4. Образец spec — `Клиенты/Andverpersonalinjury/Трекинг/spec_car_accident_lawyer.json` (на контейнере Landver даёт «создать 0», 6 перезаписей равнозначным кодом).
+```
+python page_tracking_check.py --url https://site/page --client-folder <Имя> --click "#quiz button.opt" --click "#quiz button.opt" --faq "details summary"
+python ringostat_xpath_plan.py --url https://site/page --client-folder <Имя> --name-prefix <метка>
+python gtm_landing_plan.py --spec "Клиенты/<Имя>/Трекинг/spec_<стр>.json" --out "Клиенты/<Имя>/Трекинг/gtm_plan_<дата>.json"
+```
