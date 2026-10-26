@@ -1,0 +1,18 @@
+# Быстрые ссылки новых страниц (Landver, 26.10.2026). Тексты — только из того, что написано на самих страницах.
+# Привязка на уровне групп: перекрывает кампанийные ссылки (они остаются для Truck / 18 Wheeler).
+- groups: ["Car Accident", "Car Accident - Exact", "Car Accident - LA/BH Exact"]
+  sitelinks:
+    - {text: "Free Case Review", desc1: "Tell us what happened.", desc2: "No obligation to hire the firm.", url: "https://landverpersonalinjury.tilda.ws/california-car-accident-lawyer#ldv-form-section"}
+    - {text: "No Fee Unless We Win", desc1: "The first review is free.", desc2: "No upfront costs.", url: "https://landverpersonalinjury.tilda.ws/california-car-accident-lawyer#ldv-fee"}
+    - {text: "Meet Your Attorney", desc1: "Alina Landver, Esq., MBA.", desc2: "20+ years in California courts.", url: "https://landverpersonalinjury.tilda.ws/california-car-accident-lawyer#ldv-attorney"}
+    - {text: "Client Reviews", desc1: "4.8 stars, 45 Google reviews.", desc2: "Read what clients say.", url: "https://landverpersonalinjury.tilda.ws/california-car-accident-lawyer#ldv-reviews"}
+    - {text: "Before the Insurer Calls", desc1: "Recorded statements, quick offers.", desc2: "What to know first.", url: "https://landverpersonalinjury.tilda.ws/california-car-accident-lawyer#ldv-insurers"}
+    - {text: "Common Questions", desc1: "Costs, timing, partial fault.", desc2: "Answers after a car accident.", url: "https://landverpersonalinjury.tilda.ws/california-car-accident-lawyer#ldv-faq"}
+- groups: ["Car Accident - Settlement"]
+  sitelinks:
+    - {text: "Free Case Review", desc1: "Leave your name and phone.", desc2: "No obligation.", url: "https://landverpersonalinjury.tilda.ws/california-car-accident-settlement#ldv-final"}
+    - {text: "What Moves Case Value", desc1: "Medical record, income, fault.", desc2: "Four things decide most.", url: "https://landverpersonalinjury.tilda.ws/california-car-accident-settlement#ldv-why"}
+    - {text: "Before the Insurer Calls", desc1: "Recorded statements, quick offers.", desc2: "What to know first.", url: "https://landverpersonalinjury.tilda.ws/california-car-accident-settlement#ldv-insurers"}
+    - {text: "Meet Your Attorney", desc1: "Alina Landver, Esq., MBA.", desc2: "20+ years in California courts.", url: "https://landverpersonalinjury.tilda.ws/california-car-accident-settlement#ldv-attorney"}
+    - {text: "Client Reviews", desc1: "4.8 stars, 45 Google reviews.", desc2: "Read what clients say.", url: "https://landverpersonalinjury.tilda.ws/california-car-accident-settlement#ldv-reviews"}
+    - {text: "Common Questions", desc1: "Average settlement, costs, fault.", desc2: "Answers after a crash.", url: "https://landverpersonalinjury.tilda.ws/california-car-accident-settlement#ldv-faq"}
