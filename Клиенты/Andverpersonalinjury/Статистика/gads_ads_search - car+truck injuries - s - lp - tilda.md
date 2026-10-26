@@ -47,7 +47,7 @@
 
 ### AdId 827196760553 (ENABLED)
 
-Ссылка: https://landverpersonalinjury.tilda.ws/california-car-truck-accident
+Ссылка: https://landverpersonalinjury.tilda.ws/california-car-accident-lawyer
 
 Заголовки:
 1. Auto Accident Injury Lawyer [закреплён: H1]
@@ -90,7 +90,7 @@
 
 ### AdId 827196760550 (ENABLED)
 
-Ссылка: https://landverpersonalinjury.tilda.ws/california-car-truck-accident
+Ссылка: https://landverpersonalinjury.tilda.ws/california-car-accident-lawyer
 
 Заголовки:
 1. Car Accident Injury Lawyer [закреплён: H1]
@@ -133,7 +133,7 @@
 
 ### AdId 827740790382 (ENABLED)
 
-Ссылка: https://landverpersonalinjury.tilda.ws/california-car-truck-accident
+Ссылка: https://landverpersonalinjury.tilda.ws/california-car-accident-lawyer
 
 Заголовки:
 1. Car Accident Injury Lawyer [закреплён: H1]
@@ -176,7 +176,7 @@
 
 ### AdId 828091956180 (PAUSED)
 
-Ссылка: https://landverpersonalinjury.tilda.ws/california-car-truck-accident
+Ссылка: https://landverpersonalinjury.tilda.ws/california-car-accident-lawyer
 
 Заголовки:
 1. Car Accident Injury Lawyer [закреплён: H1]
@@ -203,7 +203,7 @@
 
 ### AdId 828225363029 (ENABLED)
 
-Ссылка: https://landverpersonalinjury.tilda.ws/california-car-truck-accident
+Ссылка: https://landverpersonalinjury.tilda.ws/california-car-accident-lawyer
 
 Заголовки:
 1. Los Angeles Car Crash Lawyer [закреплён: H1]
@@ -244,7 +244,7 @@
 
 ## Car Accident - Settlement
 
-### AdId 828099786840 (ENABLED)
+### AdId 828099786840 (PAUSED)
 
 Ссылка: https://landverpersonalinjury.tilda.ws/california-car-truck-accident
 
@@ -297,6 +297,33 @@
 2. We investigate the crash, document your injuries and build the case for trial.
 3. Free case review. Contingency fee, litigation costs advanced. Call Landver Law today.
 4. 20+ years in California. Trial-focused preparation and former defense-side insight.
+
+### AdId 828606548602 (ENABLED)
+
+Ссылка: https://landverpersonalinjury.tilda.ws/california-car-truck-accident
+
+Заголовки:
+1. What Is Your Car Case Worth? [закреплён: H1]
+2. Car Accident Settlement Help [закреплён: H1]
+3. Car Crash Case Value Review [закреплён: H1]
+4. Calculators Can't See Injuries
+5. Get a Real Attorney Review
+6. Insurance Offer Too Low?
+7. Early Offer? Talk to Us First
+8. Before You Accept an Offer
+9. Free Case Review
+10. No Fee Unless We Win
+11. Hit by Another Driver?
+12. 20+ Years in California
+13. 4.8-Star Client Rating
+14. Trial-Focused Representation
+15. Beverly Hills Law Firm
+
+Описания:
+1. Injured in a car crash? We represent injury victims only. Free review of your case. [закреплён: D1]
+2. An online calculator can't see your injuries, treatment or who was at fault. We can.
+3. Don't accept an insurance offer before a free case review with a California attorney.
+4. Free case review. Contingency fee, litigation costs advanced. Call Landver Law today.
 
 Быстрые ссылки, реально показывающиеся с этой группой:
 - (уровень кампании) No Fee Unless We Win — Pay absolutely nothing upfront. / We only get paid if you win. → https://landverpersonalinjury.tilda.ws/#l1
