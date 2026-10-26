@@ -167,8 +167,52 @@ def fetch_campaigns(api):
     return camps
 
 
-def fetch_feeds(api):
-    params = {"SelectionCriteria": {},
+def structure(api, camps, out_dir):
+    """Группы, объявления и ключи по кампаниям, которые работали последние ~4 месяца: что внутри «Сем.фид» и «Ключи»."""
+    cutoff = (date.today() - timedelta(days=120)).isoformat()
+    sel = [c for c in camps if c.get("State") in ("ON", "SUSPENDED", "OFF")
+           or (c.get("EndDate") or "9999") >= cutoff or (c.get("StartDate") or "") >= cutoff]
+    ids = [c["Id"] for c in sel]
+    name = {c["Id"]: c["Name"] for c in camps}
+    kw_rows, ad_rows, gr_rows = [], [], []
+    for i in range(0, len(ids), 10):
+        chunk = ids[i:i + 10]
+        gs, e = api.get_all("adgroups", {"SelectionCriteria": {"CampaignIds": chunk},
+                                         "FieldNames": ["Id", "Name", "CampaignId", "Type", "Status"]}, "AdGroups")
+        gr_rows += gs or []
+        ks, e2 = api.get_all("keywords", {"SelectionCriteria": {"CampaignIds": chunk},
+                                          "FieldNames": ["Id", "Keyword", "CampaignId", "AdGroupId", "State", "Status"]}, "Keywords")
+        if ks is None:
+            print(f"  keywords.get ошибка: {e2}")
+        kw_rows += ks or []
+        ads, e3 = api.get_all("ads", {"SelectionCriteria": {"CampaignIds": chunk},
+                                      "FieldNames": ["Id", "AdGroupId", "CampaignId", "Type", "Status", "State"],
+                                      "TextAdFieldNames": ["Title", "Title2", "Text", "Href"]}, "Ads")
+        if ads is None:
+            print(f"  ads.get ошибка: {e3}")
+        ad_rows += ads or []
+    kdf, adf, gdf = pd.DataFrame(kw_rows), pd.DataFrame(ad_rows), pd.DataFrame(gr_rows)
+    if not kdf.empty:
+        kdf.to_csv(out_dir / "express_keywords.csv", index=False, encoding="utf-8")
+    if not adf.empty:
+        adf.to_csv(out_dir / "express_ads.csv", index=False, encoding="utf-8")
+    print(f"Кампаний в обзоре структуры: {len(ids)}")
+    for cid in ids:
+        ng = int((gdf["CampaignId"] == cid).sum()) if not gdf.empty else 0
+        nk = int((kdf["CampaignId"] == cid).sum()) if not kdf.empty else 0
+        na = int((adf["CampaignId"] == cid).sum()) if not adf.empty else 0
+        print(f"  {cid} | групп {ng} | ключей {nk} | объявлений {na} | {name[cid][:90]}")
+        if not kdf.empty and nk:
+            print("     ключи (первые 8): " + "; ".join(kdf[kdf["CampaignId"] == cid]["Keyword"].head(8).astype(str)))
+        if not adf.empty and na:
+            ex = adf[adf["CampaignId"] == cid].head(2)
+            for _, r in ex.iterrows():
+                t = r.get("TextAd") if isinstance(r.get("TextAd"), dict) else {}
+                print(f"     объявление: {t.get('Title')} | {t.get('Title2')} | {t.get('Text')} | {safe_url(t.get('Href'))}")
+
+
+def fetch_feeds(api, ids=None):
+    params = {"SelectionCriteria": {"Ids": ids or []},
               "FieldNames": ["Id", "Name", "BusinessType", "SourceType", "Status", "UpdatedAt",
                              "NumberOfItems", "CampaignIds"],
               "UrlFeedFieldNames": ["Url", "RemoveUtmTags"],
@@ -277,11 +321,13 @@ def run(api, args):
                           goals=goals_arg, name="express_camp_goals")
         if repg is not None and not repg.empty:
             gcols = [c for c in repg.columns if c.startswith("Conversions_")]
-            rep = rep.merge(repg[["Date", "CampaignId"] + gcols], on=["Date", "CampaignId"], how="left")
+            repg = repg.groupby(["Date", "CampaignId"], as_index=False)[gcols].sum(min_count=1)
+            rep = rep.merge(repg, on=["Date", "CampaignId"], how="left")
     # конверсии «по всем целям» отдельным запросом, чтобы увидеть цели, которых нет в настройках
     repa = api.report("CAMPAIGN_PERFORMANCE_REPORT", ["Date", "CampaignId", "Conversions"],
                       str(d_from), str(d_to), name="express_camp_all")
     if repa is not None and not repa.empty:
+        repa = repa.groupby(["Date", "CampaignId"], as_index=False)[["Conversions"]].sum(min_count=1)
         repa = repa.rename(columns={"Conversions": "Conversions_all"})
         rep = rep.merge(repa, on=["Date", "CampaignId"], how="left")
     rep.to_csv(out_dir / "express_campaigns_daily.csv", index=False, encoding="utf-8")
@@ -311,17 +357,27 @@ def run(api, args):
     qfields = ["Date", "CampaignId", "CampaignName", "Query", "Impressions", "Clicks", "Cost"]
     q = api.report("SEARCH_QUERY_PERFORMANCE_REPORT", qfields, str(d_from), str(d_to), name="express_q")
     if q is not None and not q.empty:
+        keys = ["Date", "CampaignId", "Query"]
+        q.to_csv(out_dir / "express_raw_q.csv", index=False, encoding="utf-8")
+        print(f"  строк в отчёте по запросам: {len(q)}, повторов ключа (Date, CampaignId, Query): {q.duplicated(keys).sum()}")
+        # строки с одним ключом — части одного целого, складываем перед слиянием, иначе слияние размножает строки
+        q = q.groupby(keys + ["CampaignName"], as_index=False)[["Impressions", "Clicks", "Cost"]].sum()
         if goals_arg:
             qg = api.report("SEARCH_QUERY_PERFORMANCE_REPORT", ["Date", "CampaignId", "Query", "Conversions"],
                             str(d_from), str(d_to), goals=goals_arg, name="express_q_goals")
             if qg is not None and not qg.empty:
+                qg.to_csv(out_dir / "express_raw_q_goals.csv", index=False, encoding="utf-8")
                 gcols = [c for c in qg.columns if c.startswith("Conversions_")]
-                q = q.merge(qg[["Date", "CampaignId", "Query"] + gcols], on=["Date", "CampaignId", "Query"], how="left")
+                qg = qg.groupby(keys, as_index=False)[gcols].sum(min_count=1)
+                q = q.merge(qg, on=keys, how="left")
         qa = api.report("SEARCH_QUERY_PERFORMANCE_REPORT", ["Date", "CampaignId", "Query", "Conversions"],
                         str(d_from), str(d_to), name="express_q_all")
         if qa is not None and not qa.empty:
-            q = q.merge(qa.rename(columns={"Conversions": "Conversions_all"}),
-                        on=["Date", "CampaignId", "Query"], how="left")
+            qa.to_csv(out_dir / "express_raw_q_all.csv", index=False, encoding="utf-8")
+            qa = qa.groupby(keys, as_index=False)[["Conversions"]].sum(min_count=1).rename(columns={"Conversions": "Conversions_all"})
+            q = q.merge(qa, on=keys, how="left")
+        print(f"  расход в отчёте по запросам: {q['Cost'].sum():.0f} ₽ (по кампаниям за период: {rep['Cost'].sum():.0f} ₽; "
+              "запросы покрывают не весь расход — редкие запросы Директ скрывает)")
         q["Month"] = q["Date"].astype(str).str[:7]
         q["Brand"] = q["Query"].astype(str).str.lower().str.contains(args.brand_regex, regex=True)
         q["Segment"] = q["Brand"].map({True: "бренд", False: "небренд"})
@@ -349,10 +405,15 @@ def run(api, args):
         print("Отчёт по запросам пуст или недоступен")
 
     # 4. Фид
-    print("\n[4] Фиды")
-    feeds = fetch_feeds(api)
+    print("\n[4] Фиды и структура текущих кампаний")
+    structure(api, camps, out_dir)
+    ids = [c["Id"] for c in camps]
+    groups = feed_adgroups(api, ids)
+    feed_ids = sorted({g["FeedId"] for g in groups if g.get("FeedId")})
+    print(f"Групп с фидом (FeedId): {len(feed_ids)} фидов: {feed_ids or 'нет'}")
+    feeds = fetch_feeds(api, feed_ids) if feed_ids else []
     if not feeds:
-        print("Фидов нет (или недоступны)")
+        print("Фидов Директа (объект «Фид») в кабинете не найдено через группы объявлений")
     frows = []
     for f in feeds:
         url = (f.get("UrlFeed") or {}).get("Url")
