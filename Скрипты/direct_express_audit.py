@@ -134,6 +134,14 @@ def flatten_campaign(c):
             if t:
                 parts.append(f"{plat}:{t}")
         row["Strategy"] = " | ".join(parts)
+        # цель оптимизации внутри стратегии: 13 = ключевые цели (PriorityGoals), иначе ID одной цели Метрики
+        sg = []
+        for plat in ("Search", "Network"):
+            for k, v in (s.get(plat) or {}).items():
+                if isinstance(v, dict) and v.get("GoalId"):
+                    sg.append(str(v["GoalId"]))
+        row["StrategyGoalId"] = ",".join(sg)
+        row["AttributionModel"] = b.get("AttributionModel")
         row["CounterIds"] = ",".join(str(x) for x in ((b.get("CounterIds") or {}).get("Items") or []))
         goals = []
         for g in (b.get("PriorityGoals") or {}).get("Items") or []:
@@ -147,7 +155,7 @@ def fetch_campaigns(api):
     rich = {
         "SelectionCriteria": {"States": ALL_STATES},
         "FieldNames": ["Id", "Name", "Type", "Status", "State", "StartDate", "EndDate", "DailyBudget"],
-        "TextCampaignFieldNames": ["BiddingStrategy", "CounterIds", "PriorityGoals"],
+        "TextCampaignFieldNames": ["BiddingStrategy", "CounterIds", "PriorityGoals", "AttributionModel"],
         "UnifiedCampaignFieldNames": ["BiddingStrategy", "CounterIds", "PriorityGoals"],
         "SmartCampaignFieldNames": ["BiddingStrategy", "CounterId", "PriorityGoals"],
         "DynamicTextCampaignFieldNames": ["BiddingStrategy", "CounterIds", "PriorityGoals"],
@@ -302,8 +310,12 @@ def run(api, args):
     cdf = pd.DataFrame([flatten_campaign(c) for c in camps])
     print(f"Кампаний всего: {len(cdf)}")
     print(cdf.groupby(["Type", "State"]).size().to_string())
+    # цели берём из двух мест: PriorityGoals (ключевые цели) и GoalId стратегии (одна цель, 13 = «ключевые», её пропускаем)
     goal_ids = sorted({g.split("(")[0] for s in cdf.get("PriorityGoals", pd.Series(dtype=str)).dropna()
-                       for g in s.split(",") if g})
+                       for g in s.split(",") if g}
+                      | {g for s in cdf.get("StrategyGoalId", pd.Series(dtype=str)).dropna()
+                         for g in s.split(",") if g and g not in ("13", "12")})
+    cdf.to_csv(out_dir / "express_campaigns_settings.csv", index=False, encoding="utf-8")
     print(f"ID целей в настройках кампаний: {goal_ids or 'не удалось прочитать / не заданы'}")
 
     # 2. Статистика по дням и кампаниям (без целей и по целям)
