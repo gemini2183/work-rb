@@ -6,7 +6,7 @@
   1) пользовательский сегмент типа SEARCH («искали на Google») по ключам из действующей Search;
   2) загрузка 4 картинок (без людей, из Медиа/Кандидаты_2026-10-13);
   3) одной транзакцией: бюджет, кампания (Demand Gen, «Максимум кликов» с потолком, ПАУЗА), гео и язык —
-     копия критериев действующей Search, группа (YouTube + Discover + Gmail, Display ВЫКЛ, оптимизированный
+     копия критериев действующей Search, группа (Discover + Gmail, YouTube и Display ВЫКЛ, оптимизированный
      таргетинг ВЫКЛ), аудитория группы, два мультиассет-объявления.
 
 Цели кампании не меняются: наследуются от аккаунта (форма, звонки); оптимизация — по кликам. Включение — отдельным согласованием.
@@ -48,20 +48,23 @@ SEARCH_KEYWORDS = ["car accident lawyer", "car accident attorney", "car accident
 MEDIA = Path(__file__).resolve().parent.parent / "Клиенты" / "Andverpersonalinjury" / "Медиа" / "Кандидаты_2026-10-13"
 # Тексты: факты только из присланного клиентом (матрица 2026-08-28, объявления OpenAI 07.10, действующая Search): бесплатный разбор,
 # «no fee unless we win», расходы по делу авансирует фирма. Без сумм, сроков и результатов. Лимит заголовка 30, описания 90.
+#   A — прямо про пострадавших (слово injury везде, «только пострадавшие»): может не пройти модерацию;
+#   B — страховка: без injury, hurt, victim и подобных слов (решение пользователя 2026-10-26), только car accident / car crash.
 ADS = [
-    {"name": "A free review",
-     "headlines": ["Injured in a Car Accident?", "Free Injury Case Review", "CA Car Crash Injury Lawyers",
-                   "Free Review Before You Sign", "Talk to a CA Injury Attorney"],
-     "descriptions": ["Free review of your California car accident injury claim. Landver Law, Beverly Hills.",
-                      "Hurt in a crash? Talk to a California injury attorney before you give a statement."],
+    {"name": "A injury",
+     "headlines": ["Injured in a Car Accident?", "Car Accident Injury Victims", "Injury Victims Only",
+                   "CA Car Crash Injury Lawyers", "Free Injury Case Review"],
+     "descriptions": ["We represent car accident injury victims only. Free California case review.",
+                      "Free review of your California car accident injury claim. Landver Law, Beverly Hills."],
      "images": {"landscape": "V1_case_value_landscape_1200x628.jpg", "square": "V1_case_value_square_1200x1200.jpg"}},
-    {"name": "B no fee",
-     "headlines": ["Hurt in a Crash? No Fee", "No Fee Unless We Win", "Litigation Costs Advanced",
-                   "Car Accident Injury Attorney", "Free California Case Review"],
-     "descriptions": ["Crash injury cases on contingency, litigation costs advanced. Free review first.",
+    {"name": "B no injury words",
+     "headlines": ["CA Car Accident Lawyers", "Car Crash Attorneys in CA", "No Fee Unless We Win",
+                   "Litigation Costs Advanced", "Free California Case Review"],
+     "descriptions": ["Car accident cases on contingency, litigation costs advanced. Free review first.",
                       "Landver Law, Beverly Hills. Free California case review. No fee unless we win."],
      "images": {"landscape": "V2_free_review_landscape_1200x628.jpg", "square": "V2_free_review_square_1200x1200.jpg"}},
 ]
+BANNED_IN_B = ("injur", "hurt", "victim", "wound", "pain")
 # Для validate_only: существующие объекты аккаунта вместо ещё не созданных
 PLACEHOLDER_LANDSCAPE = 372548929299  # 1800x942
 PLACEHOLDER_SQUARE = 372479354179     # 1200x1200
@@ -73,7 +76,11 @@ def check_limits():
     for ad in ADS:
         assert all(len(h) <= 30 for h in ad["headlines"]), ("заголовок > 30", ad["name"])
         assert all(len(d) <= 90 for d in ad["descriptions"]), ("описание > 90", ad["name"])
-        assert all("injur" in h.lower() or "hurt" in h.lower() or "crash" in h.lower() for h in ad["headlines"][:1])
+        texts = [t.lower() for t in ad["headlines"] + ad["descriptions"]]
+        if ad["name"].startswith("A"):
+            assert sum("injur" in t for t in texts) >= 4 and any("only" in t for t in texts), "в A должен быть injury и «only»"
+        else:
+            assert not any(w in t for t in texts for w in BANNED_IN_B), "в B запрещённые слова"
         for f in ad["images"].values():
             assert (MEDIA / f).exists(), f"нет файла {f}"
     assert len(BUSINESS_NAME) <= 25 and 10 <= len(SEARCH_KEYWORDS) <= 15
@@ -193,9 +200,9 @@ def build_operations(client, cid, audience_rn, img_rns):
     ch = ag.demand_gen_ad_group_settings.channel_controls.selected_channels
     ch.discover = True
     ch.gmail = True
-    ch.youtube_in_stream = True
-    ch.youtube_in_feed = True
-    ch.youtube_shorts = True
+    ch.youtube_in_stream = False  # решение пользователя 2026-10-26: без YouTube (раньше клики по $0,20 без заявок)
+    ch.youtube_in_feed = False
+    ch.youtube_shorts = False
     ch.display = False  # решение пользователя 2026-10-26: без Display
 
     audience_res = f"customers/{cid}/audiences/-4"
