@@ -1,0 +1,25 @@
+group,group_resource,criterion_resource,text,match
+Car Accident,customers/2136216123/adGroups/196130859330,customers/2136216123/adGroupCriteria/196130859330~10117900,automobile,PHRASE
+Car Accident,customers/2136216123/adGroups/196130859330,customers/2136216123/adGroupCriteria/196130859330~21170270,vehicle,PHRASE
+Car Accident,customers/2136216123/adGroups/196130859330,customers/2136216123/adGroupCriteria/196130859330~21170450,auto,PHRASE
+Car Accident,customers/2136216123/adGroups/196130859330,customers/2136216123/adGroupCriteria/196130859330~24912353,big rig,PHRASE
+Car Accident,customers/2136216123/adGroups/196130859330,customers/2136216123/adGroupCriteria/196130859330~31365550,truck,PHRASE
+Car Accident,customers/2136216123/adGroups/196130859330,customers/2136216123/adGroupCriteria/196130859330~33998281,18 wheeler,PHRASE
+Car Accident,customers/2136216123/adGroups/196130859330,customers/2136216123/adGroupCriteria/196130859330~33998341,tractor trailer,PHRASE
+Car Accident,customers/2136216123/adGroups/196130859330,customers/2136216123/adGroupCriteria/196130859330~36291961,trucking,PHRASE
+Car Accident,customers/2136216123/adGroups/196130859330,customers/2136216123/adGroupCriteria/196130859330~89291536,18-wheeler,PHRASE
+Car Accident,customers/2136216123/adGroups/196130859330,customers/2136216123/adGroupCriteria/196130859330~95300152,semi,PHRASE
+Auto Accident,customers/2136216123/adGroups/196130859490,customers/2136216123/adGroupCriteria/196130859490~21170600,car,PHRASE
+Auto Accident,customers/2136216123/adGroups/196130859490,customers/2136216123/adGroupCriteria/196130859490~24912353,big rig,PHRASE
+Auto Accident,customers/2136216123/adGroups/196130859490,customers/2136216123/adGroupCriteria/196130859490~31365550,truck,PHRASE
+Auto Accident,customers/2136216123/adGroups/196130859490,customers/2136216123/adGroupCriteria/196130859490~33998281,18 wheeler,PHRASE
+Auto Accident,customers/2136216123/adGroups/196130859490,customers/2136216123/adGroupCriteria/196130859490~33998341,tractor trailer,PHRASE
+Auto Accident,customers/2136216123/adGroups/196130859490,customers/2136216123/adGroupCriteria/196130859490~36291961,trucking,PHRASE
+Auto Accident,customers/2136216123/adGroups/196130859490,customers/2136216123/adGroupCriteria/196130859490~89291536,18-wheeler,PHRASE
+Auto Accident,customers/2136216123/adGroups/196130859490,customers/2136216123/adGroupCriteria/196130859490~95300152,semi,PHRASE
+Truck Accident,customers/2136216123/adGroups/196130859530,customers/2136216123/adGroupCriteria/196130859530~24912353,big rig,PHRASE
+Truck Accident,customers/2136216123/adGroups/196130859530,customers/2136216123/adGroupCriteria/196130859530~33998281,18 wheeler,PHRASE
+Truck Accident,customers/2136216123/adGroups/196130859530,customers/2136216123/adGroupCriteria/196130859530~33998341,tractor trailer,PHRASE
+Truck Accident,customers/2136216123/adGroups/196130859530,customers/2136216123/adGroupCriteria/196130859530~89291536,18-wheeler,PHRASE
+Truck Accident,customers/2136216123/adGroups/196130859530,customers/2136216123/adGroupCriteria/196130859530~89291836,eighteen wheeler,PHRASE
+Truck Accident,customers/2136216123/adGroups/196130859530,customers/2136216123/adGroupCriteria/196130859530~95300152,semi,PHRASE
