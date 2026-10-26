@@ -1,0 +1,26 @@
+# Пул номеров и правила подмены (Ringostat) для landverpersonalinjury.tilda.ws/california-car-accident-lawyer
+# (посадочная страница под группы Car Accident / Auto / Exact / LA-BH и ChatGPT, заведена 2026-10-24).
+# Правила подмены в кабинете Ringostat — см. Правила_подмены_car_accident_lawyer_tilda.md.
+#
+#   python phone_swap_check.py --client-folder "Andverpersonalinjury" --pool-file "Коллтрекинг/Пул_номеров_car_accident_lawyer_tilda.yaml"
+
+url: "https://landverpersonalinjury.tilda.ws/"
+
+# Номер на странице БЕЗ UTM (и для любых меток вне каналов)
+default: "+18444529465"
+
+channels:
+  - name: "Google Ads"
+    utm: {utm_source: ".*", utm_medium: "cpc", utm_term: ".*", utm_content: ".*", utm_campaign: ".*"}
+    utm_test: {utm_source: google, utm_medium: cpc}
+    pool:
+      - "+18883783267"
+      - "+18883448725"
+      - "+18883025461"
+
+  # Отдельный канал ChatGPT: utm_source=chatgpt.com + utm_medium=cpc -> один номер (проверено 2026-10-07 на старой странице)
+  - name: "ChatGPT"
+    utm: {utm_source: "chatgpt.com", utm_medium: "cpc", utm_term: ".*", utm_content: ".*", utm_campaign: ".*"}
+    utm_test: {utm_source: "chatgpt.com", utm_medium: cpc}
+    pool:
+      - "+18883468106"
