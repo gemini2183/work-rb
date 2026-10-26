@@ -101,11 +101,15 @@ class Direct:
             r = requests.post(API + "reports", json.dumps(body), headers=h, timeout=600)
             r.encoding = "utf-8"
             if r.status_code == 200:
+                sleep(11)  # лимит метода reports: не чаще 1 раза в 10 секунд
                 if not r.text.strip():
                     return pd.DataFrame()
                 return pd.read_csv(io.StringIO(r.text), sep="\t", na_values="--")
             if r.status_code in (201, 202):
                 sleep(int(r.headers.get("retryIn", 20)))
+                continue
+            if r.status_code == 400 and '"error_code":"56"' in r.text:
+                sleep(11)
                 continue
             print(f"  отчёт {report_type}: ошибка {r.status_code}: {r.text[:400]}")
             return None
