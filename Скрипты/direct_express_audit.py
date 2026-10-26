@@ -35,17 +35,18 @@ ALL_STATES = ["ON", "OFF", "SUSPENDED", "ENDED", "CONVERTED", "ARCHIVED"]
 DEFAULT_BRAND_RE = r"novotel|новотел|новотэл"
 
 
-def read_token_and_delete(path):
-    p = Path(path)
-    token = p.read_text(encoding="utf-8").strip()
-    p.unlink()
-    if p.exists():
-        print("ВНИМАНИЕ: файл токена не удалился, удалить вручную")
-    else:
-        print("Файл токена прочитан и удалён")
+def read_token(path):
+    token = Path(path).read_text(encoding="utf-8").strip()
     if not token:
         sys.exit("Файл токена пустой")
     return token
+
+
+def delete_token_file(path):
+    """Удаляем файл токена после успешного запуска (при сбое он остаётся для повтора)."""
+    p = Path(path)
+    p.unlink(missing_ok=True)
+    print("Файл токена удалён" if not p.exists() else "ВНИМАНИЕ: файл токена не удалился, удалить вручную")
 
 
 class Direct:
@@ -222,11 +223,22 @@ def main():
     ap.add_argument("--brand-regex", default=DEFAULT_BRAND_RE)
     args = ap.parse_args()
 
-    token = read_token_and_delete(args.token_file)
+    token = read_token(args.token_file)
     api = Direct(args.login, token)
+    try:
+        run(api, args)
+    except SystemExit:
+        print("Запуск не завершён: файл токена оставлен для повтора, после отладки удалить вручную")
+        raise
+    delete_token_file(args.token_file)
+
+
+def run(api, args):
     out_dir = VAULT_ROOT / "Клиенты" / args.client_folder / "Статистика"
     out_dir.mkdir(parents=True, exist_ok=True)
 
+    out_dir = VAULT_ROOT / "Клиенты" / args.client_folder / "Статистика"
+    out_dir.mkdir(parents=True, exist_ok=True)
     d_to = date.today() - timedelta(days=1)
     d_from = d_to - timedelta(days=30 * args.months)
     print(f"Период: {d_from} — {d_to}")
@@ -234,6 +246,10 @@ def main():
     # 1. Кампании
     print("\n[1] Кампании (все статусы, включая архив)")
     camps = fetch_campaigns(api)
+    if not camps:
+        raw = api.call("campaigns", "get", {"SelectionCriteria": {"States": ALL_STATES},
+                                            "FieldNames": ["Id", "Name", "State"]})
+        sys.exit(f"Кампаний нет в ответе API. Сырой ответ (без токена): {json.dumps(raw, ensure_ascii=False)[:800]}")
     cdf = pd.DataFrame([flatten_campaign(c) for c in camps])
     print(f"Кампаний всего: {len(cdf)}")
     print(cdf.groupby(["Type", "State"]).size().to_string())
