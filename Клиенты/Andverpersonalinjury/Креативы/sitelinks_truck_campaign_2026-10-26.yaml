@@ -1,0 +1,9 @@
+# Кампанийные быстрые ссылки (видят группы Truck Accident, Truck Accident - Exact, 18 Wheeler and Semi) — вместо 6 ссылок на старую главную.
+# Страница та же, куда ведут их объявления: california-car-truck-accident. Тексты — со страницы.
+- campaign: true
+  sitelinks:
+    - {text: "Truck Crash Evidence", desc1: "Driver logs, vehicle data.", desc2: "Records can change or vanish.", url: "https://landverpersonalinjury.tilda.ws/california-car-truck-accident#ldv-evidence"}
+    - {text: "Before You Sign a Release", desc1: "An early offer can arrive.", desc2: "Know what is still unknown.", url: "https://landverpersonalinjury.tilda.ws/california-car-truck-accident#ldv-early-offer"}
+    - {text: "Understanding Case Value", desc1: "No formula from crash type.", desc2: "Evidence, injury, insurance.", url: "https://landverpersonalinjury.tilda.ws/california-car-truck-accident#ldv-case-value"}
+    - {text: "Why Landver Law", desc1: "Defense-side experience.", desc2: "Trial-focused preparation.", url: "https://landverpersonalinjury.tilda.ws/california-car-truck-accident#ldv-why-landver"}
+    - {text: "Pick Your Crash Type", desc1: "Select the closest scenario.", desc2: "See what may apply.", url: "https://landverpersonalinjury.tilda.ws/california-car-truck-accident#ldv-crash-scenarios"}

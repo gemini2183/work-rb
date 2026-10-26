@@ -60,6 +60,17 @@ def group_sitelinks(ga, cid, campaign):
     return [(r.ad_group.name, r.ad_group_asset.resource_name, r.asset.id, r.asset.sitelink_asset.link_text, list(r.asset.final_urls)[0]) for r in ga.search(customer_id=cid, query=q)]
 
 
+def campaign_resource(ga, cid, campaign):
+    q = f"SELECT campaign.resource_name FROM campaign WHERE campaign.name = '{campaign}'"
+    return next(iter(ga.search(customer_id=cid, query=q))).campaign.resource_name
+
+
+def campaign_sitelinks(ga, cid, campaign):
+    q = ("SELECT campaign.name, campaign_asset.resource_name, asset.id, asset.sitelink_asset.link_text, asset.final_urls "
+         f"FROM campaign_asset WHERE campaign.name = '{campaign}' AND campaign_asset.field_type = 'SITELINK' AND campaign_asset.status != 'REMOVED'")
+    return [(r.campaign_asset.resource_name, r.asset.id, r.asset.sitelink_asset.link_text, list(r.asset.final_urls)[0]) for r in ga.search(customer_id=cid, query=q)]
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--customer-id", required=True)
@@ -67,6 +78,7 @@ def main():
     ap.add_argument("--campaign", required=True)
     ap.add_argument("--plan", required=True)
     ap.add_argument("--execute", action="store_true")
+    ap.add_argument("--unlink-campaign-prefix", help="после привязки новых отвязать от КАМПАНИИ ссылки, адрес которых начинается с этой строки")
     ap.add_argument("--remove", action="store_true", help="откат: отвязать ссылки плана от групп плана")
     a = ap.parse_args()
     cid = a.customer_id.replace("-", "")
@@ -78,6 +90,7 @@ def main():
     ga = client.get_service("GoogleAdsService")
     groups = group_map(ga, cid, a.campaign)
     for b in plan:
+        b.setdefault("groups", [])
         miss = [g for g in b["groups"] if g not in groups]
         if miss:
             raise SystemExit(f"групп нет в кампании: {miss}")
@@ -88,7 +101,7 @@ def main():
         w.writerows(before)
     print(f"Снимок «до»: {snap} (привязок на уровне групп: {len(before)})")
     for b in plan:
-        print(f"\nГруппы: {b['groups']}")
+        print("\n" + ("НА УРОВНЕ КАМПАНИИ" if b.get("campaign") else f"Группы: {b['groups']}"))
         for s in b["sitelinks"]:
             print(f"  {s['text']} ({len(s['text'])}) | {s['desc1']} ({len(s['desc1'])}) | {s['desc2']} ({len(s['desc2'])}) -> {s['url']}")
 
@@ -107,6 +120,16 @@ def main():
 
     asset_svc = client.get_service("AssetService")
     link_svc = client.get_service("AdGroupAssetService")
+    camp_svc = client.get_service("CampaignAssetService")
+    camp_rn = campaign_resource(ga, cid, a.campaign)
+    camp_before = campaign_sitelinks(ga, cid, a.campaign)
+    to_unlink = [x for x in camp_before if a.unlink_campaign_prefix and x[3].startswith(a.unlink_campaign_prefix)]
+    if a.unlink_campaign_prefix:
+        print(f"\nК отвязке от кампании (адрес начинается с {a.unlink_campaign_prefix}): {len(to_unlink)}")
+        for x in to_unlink:
+            print(f"  {x[2]} -> {x[3]}")
+        with open(snap.with_name(snap.name.replace("sitelinks", "sitelinks_campaign")), "w", newline="", encoding="utf-8") as f:
+            w = csv.writer(f); w.writerow(["link_resource", "asset_id", "text", "url"]); w.writerows(camp_before)
     ops = []
     for b in plan:
         for s in b["sitelinks"]:
@@ -131,8 +154,15 @@ def main():
     names = [r.resource_name for r in res.results]
     i = 0
     link_ops = []
+    camp_ops = []
     for b in plan:
         for s in b["sitelinks"]:
+            if b.get("campaign"):
+                co = client.get_type("CampaignAssetOperation")
+                co.create.campaign = camp_rn
+                co.create.asset = names[i]
+                co.create.field_type = client.enums.AssetFieldTypeEnum.SITELINK
+                camp_ops.append(co)
             for g in b["groups"]:
                 lo = client.get_type("AdGroupAssetOperation")
                 lo.create.ad_group = groups[g]
@@ -140,8 +170,20 @@ def main():
                 lo.create.field_type = client.enums.AssetFieldTypeEnum.SITELINK
                 link_ops.append(lo)
             i += 1
-    link_svc.mutate_ad_group_assets(customer_id=cid, operations=link_ops)
-    print(f"\nСоздано ссылок: {len(names)}, привязок к группам: {len(link_ops)}")
+    if link_ops:
+        link_svc.mutate_ad_group_assets(customer_id=cid, operations=link_ops)
+    if camp_ops:
+        camp_svc.mutate_campaign_assets(customer_id=cid, operations=camp_ops)
+    if to_unlink:
+        un = []
+        for x in to_unlink:
+            uo = client.get_type("CampaignAssetOperation"); uo.remove = x[0]; un.append(uo)
+        camp_svc.mutate_campaign_assets(customer_id=cid, operations=un)
+        print(f"Отвязано от кампании: {len(un)}")
+    print(f"\nСоздано ссылок: {len(names)}, привязок к группам: {len(link_ops)}, к кампании: {len(camp_ops)}")
+    print("\nКампанийные ссылки сейчас:")
+    for x in sorted(campaign_sitelinks(ga, cid, a.campaign), key=lambda y: y[3]):
+        print(f"  {x[2]} -> {x[3]}")
     after = group_sitelinks(ga, cid, a.campaign)
     print("\nЧтение обратно (привязки групп плана):")
     for g, _, aid, t, u in sorted(after):
