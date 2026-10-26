@@ -73,7 +73,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "Terminal: cmd"
+                  "title": "Terminal: C:\\Windows\\System32\\conhost.exe"
                 }
               }
             ]
@@ -244,18 +244,21 @@
   },
   "active": "49438aefe15a1236",
   "lastOpenFiles": [
+    "Клиенты/Andverpersonalinjury/Статистика/phone_swap_check_2026-10-24_1759.csv",
+    "База_знаний/Агенты/Запуск_трекинга_новой_посадочной.md",
+    "База_знаний/Инструменты/Tilda-формы-окно-и-события-для-GTM.md",
+    "База_знаний/Инструменты/Tilda-формы-окно-и-события-для-GTM.md.tmp.31420.9a876ae6f139",
+    "Клиенты/Andverpersonalinjury/Трекинг/gtm_plan_faq_2026-10-24.json",
+    "Клиенты/Andverpersonalinjury/Коллтрекинг/Правила_подмены_car_accident_lawyer_tilda.md",
+    "Клиенты/Andverpersonalinjury/Статистика/phone_swap_check_2026-10-24_1414.csv",
+    "Клиенты/Andverpersonalinjury/Коллтрекинг/Пул_номеров_car_accident_lawyer_tilda.yaml",
+    "Скрипты/ga4_custom_definitions.py",
+    "Клиенты/Andverpersonalinjury/Трекинг/gtm_plan_car_2026-10-24.json",
+    "Клиенты/Andverpersonalinjury/Трекинг/build_gtm_plan_car_2026-10-24.py",
+    "Клиенты/Andverpersonalinjury/Трекинг/gtm_block_time_v2.js",
+    "Клиенты/Andverpersonalinjury/Статистика/snapshot_before_attribution_20261024_1227.csv",
     "Скрипты/gads_position_hours.py",
-    "Скрипты/gads_position_hours.py.tmp.5620.3cbfd3d71c6a",
-    "Клиенты/Andverpersonalinjury/Статистика/snapshot_before_adgroup_keywords_20261023_1625.json",
-    "Клиенты/Andverpersonalinjury/Статистика/snapshot_before_adgroup_keywords_20261023_1623.json",
-    "Клиенты/Andverpersonalinjury/Статистика/gads_impression_share_2026-10-23_to_2026-10-23.csv",
-    "Клиенты/Andverpersonalinjury/sedr5LXFi",
     "Клиенты/Andverpersonalinjury/Кампании/Search/_проверка_страниц/README.md",
-    "Клиенты/Andverpersonalinjury/Кампании/Search/_проверка_страниц/run_car.py",
-    "Клиенты/Andverpersonalinjury/Кампании/Search/_проверка_страниц/run_full.py",
-    "Клиенты/Andverpersonalinjury/Кампании/Search/_проверка_страниц/run_test.py",
-    "Клиенты/Andverpersonalinjury/Кампании/Search/_проверка_страниц/build_preview.py",
-    "Клиенты/Andverpersonalinjury/Кампании/Search/_проверка_страниц",
     "Клиенты/Andverpersonalinjury/Tilda_страница_Car/ИНСТРУКЦИЯ_сборка_в_Tilda.md",
     "Клиенты/Andverpersonalinjury/SEO_и_качество_посадочных_Settlement_и_Car.md",
     "Клиенты/Andverpersonalinjury/Конкуренты_карты_2026-10-23.md",
@@ -286,9 +289,6 @@
     "Клиенты/LuxeBrokers/Креативы/Yelp/Лицензии-изображений.md",
     "База_знаний/Паттерны/Google-Ads-Search-ключ-продавца-двусмысленная-фраза-проверка-запросов.md",
     "База_знаний/Паттерны/Атрибуция-продаж-повторные-касания-как-убедить-клиента.md",
-    "Клиенты/ProfiMet/Запрос_выгрузка_продаж_2026-10-16.md",
-    "База_знаний/Инструменты/Microsoft-Clarity-Data-Export-API.md",
-    "База_знаний/Инструменты/Google-Ads-корректировка-по-местоположению-уровень-кампании.md",
-    "Клиенты/Andverpersonalinjury/Эксперименты.md"
+    "Клиенты/ProfiMet/Запрос_выгрузка_продаж_2026-10-16.md"
   ]
 }

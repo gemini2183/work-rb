@@ -53,6 +53,27 @@ def parse_collect(request):
     return out
 
 
+def run_steps(pg, clicks, evals):
+    """Доп. сценарий (2026-10-24, Landver): клики по CSS-селекторам по порядку (квиз: один и тот же селектор несколько раз) и JS-вставки."""
+    for sel in clicks:
+        try:
+            loc = pg.locator(sel).first
+            loc.scroll_into_view_if_needed(timeout=4000)
+            pg.wait_for_timeout(300)
+            loc.click(timeout=4000, no_wait_after=True)
+        except Exception as e:
+            print(f"      клик не удался: {sel} ({str(e).splitlines()[0][:60]})")
+        pg.wait_for_timeout(700)
+    for js in evals:
+        try:
+            res = pg.evaluate(js)
+            if res is not None:
+                print("      JS ->", str(res)[:600])
+        except Exception as e:
+            print(f"      JS не выполнился: {js[:50]} ({str(e).splitlines()[0][:70]})")
+        pg.wait_for_timeout(1200)
+
+
 def run_scenario(pg, grant, wait_s):
     gtag = "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}"
     if grant != ["none"]:
@@ -76,7 +97,7 @@ def run_scenario(pg, grant, wait_s):
     return n, clicked
 
 
-def tel_places(ctx, url, gtm_url_handler, grant, hits):
+def tel_places(ctx, url, gtm_url_handler, grant, hits, prevent=True):
     """Каждую ссылку tel: проверяем на отдельной загрузке страницы (click_tel срабатывает раз за загрузку)."""
     res = []
     probe = ctx.new_page()
@@ -94,7 +115,8 @@ def tel_places(ctx, url, gtm_url_handler, grant, hits):
                      for k in ("ad_storage", "ad_user_data", "ad_personalization", "analytics_storage")}
             pg.evaluate("window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('consent','update'," + repr(state) + ")")
         pg.wait_for_timeout(1200 + int(os.environ.get("PRECLICK_MS", "0")))  # PRECLICK_MS — выдержка перед кликом (чтобы раньше ушли time_*/stay_*)
-        pg.evaluate("document.addEventListener('click',e=>{const a=e.target.closest&&e.target.closest('a[href^=\"tel:\"]');if(a)e.preventDefault()},true)")
+        if prevent:  # у триггера GTM «клик по ссылке» отменённый клик может не засчитываться, тогда --no-prevent
+            pg.evaluate("document.addEventListener('click',e=>{const a=e.target.closest&&e.target.closest('a[href^=\"tel:\"]');if(a)e.preventDefault()},true)")
         desc = pg.evaluate("""(i)=>{const a=document.querySelectorAll('a[href^="tel:"]')[i];const r=a.closest('[id^=rec]');const el=a.closest('.tn-elem');
             const b=a.getBoundingClientRect();return (r?r.id:'?')+' / elem '+(el?el.getAttribute('data-elem-id'):'-')+' / '+Math.round(b.width)+'x'+Math.round(b.height)}""", i)
         try:
@@ -131,6 +153,10 @@ def main():
     ap.add_argument("--grant", nargs="+", default=["analytics_storage"], help="типы согласия или none")
     ap.add_argument("--events", nargs="*", default=[], help="показывать только эти события")
     ap.add_argument("--push-event", default=None, help="после сценария отправить в dataLayer это событие (например submit_form: проверка тегов формы; форма не отправляется, Supabase заблокирован)")
+    ap.add_argument("--click", nargs="*", default=[], help="CSS-селекторы, по которым кликнуть по порядку после прокрутки (квиз: повторить селектор опции 5 раз)")
+    ap.add_argument("--eval", nargs="*", default=[], dest="evals", help="JS-строки, выполнить после кликов (например открыть окно формы: location.hash='#accident-case-review')")
+    ap.add_argument("--no-prevent", action="store_true", help="не отменять переход по tel: при клике (нужно, если click_tel — триггер «клик по ссылке», как у Landver)")
+    ap.add_argument("--no-tel-places", action="store_true", help="не проверять места номера по одной загрузке на ссылку (долго; для Landver клики по номерам проверяются через --click)")
     ap.add_argument("--no-mobile", action="store_true")
     ap.add_argument("--wait", type=int, default=8)
     ap.add_argument("--keep-env", action="store_true")
@@ -173,6 +199,9 @@ def main():
                 pg.goto(a.url, wait_until="domcontentloaded", timeout=60000)
                 pg.wait_for_timeout(3000)
                 n, clicked = run_scenario(pg, a.grant, a.wait)
+                if a.click or a.evals:
+                    run_steps(pg, a.click, a.evals)
+                    pg.wait_for_timeout(2500)
                 if a.push_event:
                     pg.evaluate("window.dataLayer.push({event:%r})" % a.push_event)
                     pg.wait_for_timeout(3000)
@@ -183,15 +212,15 @@ def main():
                     if a.events and en not in a.events:
                         continue
                     cnt[en] += 1
-                    for k in ("ep.block_name", "epn.block_seconds", "ep.click_place"):
-                        if k in h:
-                            params[en][f"{k.split('.', 1)[1]}={h[k]}"] += 1
+                    for k, v in h.items():
+                        if k.startswith(("ep.", "epn.")):
+                            params[en][f"{k.split('.', 1)[1]}={v}"] += 1
                 for en, c in cnt.most_common():
                     print(f"  {en}: {c}")
                     for pv, pc in sorted(params[en].items()):
                         print(f"      {pv} ×{pc}")
                 print(f"  места номера ({name}), по одной загрузке на ссылку:")
-                for i, desc, status, got in tel_places(ctx, a.url, None, a.grant, hits):
+                for i, desc, status, got in ([] if a.no_tel_places else tel_places(ctx, a.url, None, a.grant, hits, not a.no_prevent)):
                     print(f"    #{i} {desc}: {status} -> click_place {got or 'событие не ушло'}")
                 ctx.close()
             br.close()

@@ -1,0 +1,912 @@
+{
+ "account": "6353362488",
+ "container": "261134482",
+ "workspace_name": "ldv-car-page-2026-10-24",
+ "version_name": "ldv car page: quiz, cta, scroll_depth, form place, popup, blocks for california-car-accident-lawyer",
+ "version_notes": "Landver tilda california-car-accident-lawyer, 2026-10-24. Откат: опубликовать версию 6.",
+ "built_in_variables": [
+  "scrollDepthThreshold"
+ ],
+ "variables": [
+  {
+   "name": "ldv form place",
+   "type": "jsm",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "javascript",
+     "value": "function(){return document.querySelector('.t-popup_show')?'popup':'inline';}"
+    }
+   ]
+  },
+  {
+   "name": "ldv quiz result",
+   "type": "jsm",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "javascript",
+     "value": "function(){var i=document.querySelectorAll('input[name=\"result_tier\"]');for(var k=0;k<i.length;k++){if(i[k].value)return i[k].value;}return 'none';}"
+    }
+   ]
+  },
+  {
+   "name": "dlv quiz_step",
+   "type": "v",
+   "parameter": [
+    {
+     "type": "integer",
+     "key": "dataLayerVersion",
+     "value": "2"
+    },
+    {
+     "type": "boolean",
+     "key": "setDefaultValue",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "name",
+     "value": "quiz_step"
+    }
+   ]
+  },
+  {
+   "name": "dlv quiz_question",
+   "type": "v",
+   "parameter": [
+    {
+     "type": "integer",
+     "key": "dataLayerVersion",
+     "value": "2"
+    },
+    {
+     "type": "boolean",
+     "key": "setDefaultValue",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "name",
+     "value": "quiz_question"
+    }
+   ]
+  },
+  {
+   "name": "dlv quiz_answer",
+   "type": "v",
+   "parameter": [
+    {
+     "type": "integer",
+     "key": "dataLayerVersion",
+     "value": "2"
+    },
+    {
+     "type": "boolean",
+     "key": "setDefaultValue",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "name",
+     "value": "quiz_answer"
+    }
+   ]
+  },
+  {
+   "name": "dlv result_tier",
+   "type": "v",
+   "parameter": [
+    {
+     "type": "integer",
+     "key": "dataLayerVersion",
+     "value": "2"
+    },
+    {
+     "type": "boolean",
+     "key": "setDefaultValue",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "name",
+     "value": "result_tier"
+    }
+   ]
+  },
+  {
+   "name": "dlv insurer_status",
+   "type": "v",
+   "parameter": [
+    {
+     "type": "integer",
+     "key": "dataLayerVersion",
+     "value": "2"
+    },
+    {
+     "type": "boolean",
+     "key": "setDefaultValue",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "name",
+     "value": "insurer_status"
+    }
+   ]
+  },
+  {
+   "name": "dlv treatment_status",
+   "type": "v",
+   "parameter": [
+    {
+     "type": "integer",
+     "key": "dataLayerVersion",
+     "value": "2"
+    },
+    {
+     "type": "boolean",
+     "key": "setDefaultValue",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "name",
+     "value": "treatment_status"
+    }
+   ]
+  },
+  {
+   "name": "dlv cta",
+   "type": "v",
+   "parameter": [
+    {
+     "type": "integer",
+     "key": "dataLayerVersion",
+     "value": "2"
+    },
+    {
+     "type": "boolean",
+     "key": "setDefaultValue",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "name",
+     "value": "cta"
+    }
+   ]
+  },
+  {
+   "name": "dlv cta_place",
+   "type": "v",
+   "parameter": [
+    {
+     "type": "integer",
+     "key": "dataLayerVersion",
+     "value": "2"
+    },
+    {
+     "type": "boolean",
+     "key": "setDefaultValue",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "name",
+     "value": "cta_place"
+    }
+   ]
+  },
+  {
+   "name": "dlv form_place",
+   "type": "v",
+   "parameter": [
+    {
+     "type": "integer",
+     "key": "dataLayerVersion",
+     "value": "2"
+    },
+    {
+     "type": "boolean",
+     "key": "setDefaultValue",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "name",
+     "value": "form_place"
+    }
+   ]
+  }
+ ],
+ "triggers": [
+  {
+   "name": "ldv event quiz_start",
+   "type": "customEvent",
+   "customEventFilter": [
+    {
+     "type": "equals",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{_event}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "quiz_start"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ldv event quiz_step",
+   "type": "customEvent",
+   "customEventFilter": [
+    {
+     "type": "equals",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{_event}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "quiz_step"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ldv event quiz_complete",
+   "type": "customEvent",
+   "customEventFilter": [
+    {
+     "type": "equals",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{_event}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "quiz_complete"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ldv event quiz_cta",
+   "type": "customEvent",
+   "customEventFilter": [
+    {
+     "type": "equals",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{_event}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "quiz_cta"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ldv event quiz_restart",
+   "type": "customEvent",
+   "customEventFilter": [
+    {
+     "type": "equals",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{_event}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "quiz_restart"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ldv event cta",
+   "type": "customEvent",
+   "customEventFilter": [
+    {
+     "type": "equals",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{_event}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "ldv_cta"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ldv event form_start",
+   "type": "customEvent",
+   "customEventFilter": [
+    {
+     "type": "equals",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{_event}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "ldv_form_start"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ldv scroll depth",
+   "type": "scrollDepth",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "verticalThresholdOn",
+     "value": "true"
+    },
+    {
+     "type": "template",
+     "key": "verticalThresholdUnits",
+     "value": "PERCENT"
+    },
+    {
+     "type": "template",
+     "key": "verticalThresholdsPercent",
+     "value": "25,50,75"
+    },
+    {
+     "type": "boolean",
+     "key": "horizontalThresholdOn",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "triggerStartOption",
+     "value": "WINDOW_LOAD"
+    }
+   ]
+  },
+  {
+   "name": "ldv form popup visible",
+   "type": "elementVisibility",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "selectorType",
+     "value": "CSS"
+    },
+    {
+     "type": "template",
+     "key": "elementSelector",
+     "value": ".t-popup[data-tooltip-hook=\"#accident-case-review\"]"
+    },
+    {
+     "type": "template",
+     "key": "firingFrequency",
+     "value": "ONCE_PER_PAGE"
+    },
+    {
+     "type": "template",
+     "key": "onScreenRatio",
+     "value": "50"
+    },
+    {
+     "type": "boolean",
+     "key": "useOnScreenDuration",
+     "value": "false"
+    },
+    {
+     "type": "boolean",
+     "key": "useDomChangeListener",
+     "value": "true"
+    }
+   ]
+  }
+ ],
+ "tags": [
+  {
+   "name": "GA4 - quiz_start",
+   "type": "gaawe",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "quiz_start"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "G-JPLC4Q41PS"
+    }
+   ],
+   "firingTriggerNames": [
+    "ldv event quiz_start"
+   ]
+  },
+  {
+   "name": "GA4 - quiz_step",
+   "type": "gaawe",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "quiz_step"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "G-JPLC4Q41PS"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "quiz_step"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{dlv quiz_step}}"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "quiz_question"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{dlv quiz_question}}"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "quiz_answer"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{dlv quiz_answer}}"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "firingTriggerNames": [
+    "ldv event quiz_step"
+   ]
+  },
+  {
+   "name": "GA4 - quiz_complete",
+   "type": "gaawe",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "quiz_complete"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "G-JPLC4Q41PS"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "result_tier"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{dlv result_tier}}"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "insurer_status"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{dlv insurer_status}}"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "treatment_status"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{dlv treatment_status}}"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "firingTriggerNames": [
+    "ldv event quiz_complete"
+   ]
+  },
+  {
+   "name": "GA4 - quiz_cta",
+   "type": "gaawe",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "quiz_cta"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "G-JPLC4Q41PS"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "cta_type"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{dlv cta}}"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "result_tier"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{dlv result_tier}}"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "firingTriggerNames": [
+    "ldv event quiz_cta"
+   ]
+  },
+  {
+   "name": "GA4 - quiz_restart",
+   "type": "gaawe",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "quiz_restart"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "G-JPLC4Q41PS"
+    }
+   ],
+   "firingTriggerNames": [
+    "ldv event quiz_restart"
+   ]
+  },
+  {
+   "name": "GA4 - cta_click",
+   "type": "gaawe",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "cta_click"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "G-JPLC4Q41PS"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "cta_place"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{dlv cta_place}}"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "firingTriggerNames": [
+    "ldv event cta"
+   ]
+  },
+  {
+   "name": "GA4 - lead_form_start",
+   "type": "gaawe",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "lead_form_start"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "G-JPLC4Q41PS"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "form_place"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{dlv form_place}}"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "firingTriggerNames": [
+    "ldv event form_start"
+   ]
+  },
+  {
+   "name": "GA4 - scroll_depth",
+   "type": "gaawe",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "scroll_depth"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "G-JPLC4Q41PS"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "scroll_percent"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{Scroll Depth Threshold}}"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "firingTriggerNames": [
+    "ldv scroll depth"
+   ]
+  },
+  {
+   "name": "GA4 - form_popup_open",
+   "type": "gaawe",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "form_popup_open"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "G-JPLC4Q41PS"
+    }
+   ],
+   "firingTriggerNames": [
+    "ldv form popup visible"
+   ]
+  },
+  {
+   "name": "ldv form start script",
+   "type": "html",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "html",
+     "value": "<script>(function(){if(window.__ldvFormStart)return;window.__ldvFormStart=true;var seen={};document.addEventListener('focusin',function(e){var t=e.target;if(!t||!t.closest||t.type==='hidden')return;var f=t.closest('form.t-form');if(!f)return;var id=f.id||'form';if(seen[id])return;seen[id]=1;(window.dataLayer=window.dataLayer||[]).push({event:'ldv_form_start',form_place:f.closest('.t-popup')?'popup':'inline'});},true);})();</script>"
+    },
+    {
+     "type": "boolean",
+     "key": "supportDocumentWrite",
+     "value": "false"
+    }
+   ],
+   "firingTriggerIds": [
+    "2147479553"
+   ]
+  }
+ ],
+ "update_tags": [
+  {
+   "name": "GA4 - form_submit",
+   "set_event_parameters": {
+    "form_place": "{{ldv form place}}",
+    "quiz_result": "{{ldv quiz result}}"
+   }
+  },
+  {
+   "name": "ldv block_time script",
+   "set_html": "<script>\n(function () {\n  if (window.__ldvBlockTime) return;\n  window.__ldvBlockTime = true;\n  var NAMES = { 'ldvc': 'hero', 'ldv-form-section': 'form_a', '.ldv2-native': 'form_a', 'ldvq': 'quiz' };\n  var IDS = ['ldv-ai-hero', 'ldv-your-crash', 'ldv-crash-scenarios', 'ldv-case-examples', 'ldv-truck-cases',\n    'ldv-evidence', 'ldv-mid-review', 'ldv-public-library', 'ldv-injuries', 'ldv-early-offer', 'ldv-case-value',\n    'ldv-case-process', 'ldv-why-landver', 'ldv-reviews', 'ldv-faq', 'ldv-final-review', 'ldv-footer',\n    'ldvc', 'ldv-form-section', '.ldv2-native', 'ldv-insurers', 'ldv-how', 'ldv-fee', 'ldv-team', 'ldv-situations',\n    'ldv-attorney', 'ldvq', 'ldv-final'];\n  var STEPS = [[10, 'stay_10s'], [30, 'engaged_30s'], [90, 'engaged_90s']];\n  var TICK = 500, IDLE = 10000, FLUSH = 30000;\n  var acc = {}, total = 0, current = 'header', lastTick = Date.now(), lastActive = Date.now(), lastFlush = Date.now();\n  window.dataLayer = window.dataLayer || [];\n\n  function nameOf(id) { return NAMES[id] || id.replace(/^ldv-/, '').replace(/-/g, '_'); }\n  function find(id) { return id.charAt(0) === '.' ? document.querySelector(id) : document.getElementById(id); }\n  function currentBlock() {\n    var mid = window.innerHeight / 2, name = 'header', best = -1e9;\n    for (var i = 0; i < IDS.length; i++) {\n      var el = find(IDS[i]);\n      if (!el) continue;\n      var top = el.getBoundingClientRect().top;\n      if (top <= mid && top > best) { best = top; name = nameOf(IDS[i]); }\n    }\n    return name;\n  }\n  function flush(final) {\n    for (var k in acc) {\n      var s = final ? Math.round(acc[k]) : Math.floor(acc[k]);\n      if (s >= 1) {\n        window.dataLayer.push({ event: 'block_time', block_name: k, block_seconds: s });\n        acc[k] -= s;\n      }\n    }\n    lastFlush = Date.now();\n  }\n  function active() { lastActive = Date.now(); }\n  ['scroll', 'mousemove', 'keydown', 'touchstart', 'click', 'wheel'].forEach(function (e) {\n    window.addEventListener(e, active, { passive: true });\n  });\n  setInterval(function () {\n    var now = Date.now(), dt = now - lastTick;\n    lastTick = now;\n    var block = currentBlock();\n    if (document.visibilityState === 'visible' && now - lastActive <= IDLE && dt < 5000) {\n      acc[block] = (acc[block] || 0) + dt / 1000;\n      total += dt / 1000;\n      while (STEPS.length && total >= STEPS[0][0]) {\n        window.dataLayer.push({ event: STEPS[0][1] });\n        STEPS.shift();\n      }\n    }\n    if (block !== current) { flush(false); current = block; }\n    else if (now - lastFlush >= FLUSH) { flush(false); }\n  }, TICK);\n  document.addEventListener('visibilitychange', function () {\n    if (document.visibilityState === 'hidden') flush(true);\n  });\n  window.addEventListener('pagehide', function () { flush(true); });\n})();\n</script>"
+  }
+ ],
+ "update_variables": [
+  {
+   "name": "ldv block name (visibility)",
+   "set_parameter": {
+    "javascript": "function(){var e={{Click Element}};if(!e)return '';var m={'ldvc':'hero','ldvq':'quiz','ldv-form-section':'form_a'};if(e.classList&&e.classList.contains('ldv2-native'))return 'form_a';var id=e.id||'';return m[id]||id.replace(/^ldv-/,'').replace(/-/g,'_');}"
+   }
+  },
+  {
+   "name": "ldv tel place",
+   "set_parameter": {
+    "javascript": "function(){var e={{Click Element}};var d=e&&e.closest?e.closest('[data-ldv-cta]'):null;if(d)return d.getAttribute('data-ldv-cta');var a=e&&e.closest?e.closest('a'):null;var c=String((a&&a.className)||'');if(c.indexOf('ldvq5__button--call')>-1||c.indexOf('ldvq__btn--call')>-1)return 'quiz_result';var m={'ldv-h__phone':'header','ldv-mob-call':'mobile_bar','ldv-ai-hero__call':'hero','ldv-fr__phone':'final_form','ldv-ft__phone':'footer'};for(var k in m){if(c.indexOf(k)>-1)return m[k];}return 'other';}"
+   }
+  }
+ ],
+ "update_triggers": [
+  {
+   "name": "ldv block visible",
+   "set_parameter": {
+    "elementSelector": "#ldv-ai-hero, #ldv-your-crash, #ldv-crash-scenarios, #ldv-case-examples, #ldv-truck-cases, #ldv-evidence, #ldv-mid-review, #ldv-public-library, #ldv-injuries, #ldv-early-offer, #ldv-case-value, #ldv-case-process, #ldv-why-landver, #ldv-reviews, #ldv-faq, #ldv-final-review, #ldv-footer, #ldvc, #ldv-insurers, #ldv-how, #ldv-fee, #ldv-team, #ldv-situations, #ldv-attorney, #ldvq, #ldv-final, .ldv2-native"
+   }
+  }
+ ]
+}

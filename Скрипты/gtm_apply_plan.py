@@ -18,6 +18,9 @@
   tags:      [{name, type, parameter, firingTriggerNames: [...], firingTriggerIds: [...]}]
   update_tags: [{name, set_event_parameters: {имя: значение}, set_consent: ["analytics_storage"]}]
                (для тегов gaawe: добавить параметры события; set_consent — заменить требуемые типы согласия; set_html — новый код HTML-тега)
+  update_variables: [{name, set_parameter: {ключ: значение}}]      (например, javascript у JS-переменной; добавлено 2026-10-24)
+  update_triggers:  [{name, set_parameter: {ключ: значение}, set_filter_arg1: "значение"}]
+               (set_parameter — например elementSelector у триггера видимости; set_filter_arg1 — условие первого фильтра, например CSS-селектор клика)
   Имена триггеров резолвятся в id (созданные в этом пакете + существующие).
 
     python gtm_apply_plan.py --plan "Клиенты/Andverpersonalinjury/Трекинг/gtm_plan_2026-10-15.json"
@@ -71,8 +74,15 @@ def main():
     existing_tags = {t["name"]: t for t in live.get("tag", [])}
     existing_trg = {t["name"]: t["triggerId"] for t in live.get("trigger", [])}
     existing_var = {v["name"] for v in live.get("variable", [])}
+    live_var_ids = {v["name"]: v["variableId"] for v in live.get("variable", [])}
 
     errors = []
+    for u in plan.get("update_variables", []):
+        if u["name"] not in live_var_ids:
+            errors.append(f"нет переменной «{u['name']}» для правки")
+    for u in plan.get("update_triggers", []):
+        if u["name"] not in existing_trg:
+            errors.append(f"нет триггера «{u['name']}» для правки")
     for t in plan.get("tags", []):
         if t["name"] in existing_tags:
             errors.append(f"тег «{t['name']}» уже есть")
@@ -94,6 +104,10 @@ def main():
     for u in plan.get("update_tags", []):
         print("  ~ тег", u["name"], "параметры:", list(u.get("set_event_parameters", {})), "html:", bool(u.get("set_html")),
               "согласие:", u.get("set_consent", "без изменений"))
+    for u in plan.get("update_variables", []):
+        print("  ~ переменная", u["name"], "поля:", list(u.get("set_parameter", {})))
+    for u in plan.get("update_triggers", []):
+        print("  ~ триггер", u["name"], "поля:", list(u.get("set_parameter", {})))
     if errors:
         print("\nОСТАНОВКА:")
         for e in errors:
@@ -158,6 +172,22 @@ def main():
                 "type": "list", "list": [{"type": "template", "value": c} for c in u["set_consent"]]}}
         call(s, "PUT", f"{wp}/tags/{tag['tagId']}?fingerprint={tag['fingerprint']}", json=tag)
         print("  правка тега", u["name"])
+    for kind, key, ids in (("variables", "update_variables", live_var_ids), ("triggers", "update_triggers", existing_trg)):
+        for u in plan.get(key, []):
+            obj = call(s, "GET", f"{wp}/{kind}/{ids[u['name']]}")
+            for k, v in u.get("set_parameter", {}).items():
+                for x in obj.get("parameter", []):
+                    if x.get("key") == k:
+                        x["value"] = v
+                        break
+                else:
+                    raise SystemExit(f"{kind[:-1]} «{u['name']}»: нет поля «{k}»")
+            if u.get("set_filter_arg1"):  # значение условия триггера (arg1 первого фильтра), например CSS-селектор клика
+                for x in obj["filter"][0]["parameter"]:
+                    if x.get("key") == "arg1":
+                        x["value"] = u["set_filter_arg1"]
+            call(s, "PUT", f"{wp}/{kind}/{ids[u['name']]}?fingerprint={obj['fingerprint']}", json=obj)
+            print("  правка", "переменной" if kind == "variables" else "триггера", u["name"])
 
     ver = call(s, "POST", f"{wp}:create_version",
                json={"name": plan.get("version_name", plan["workspace_name"]), "notes": plan.get("version_notes", "")})

@@ -1,0 +1,13 @@
+{
+ "account": "6353362488",
+ "container": "261134482",
+ "workspace_name": "ldv-faq-2026-10-24",
+ "version_name": "ldv faq_open: details/summary of california-car-accident-lawyer",
+ "version_notes": "Вопросы FAQ новой страницы (details/summary). Откат: опубликовать версию 7.",
+ "update_variables": [
+  {"name": "ldv faq question", "set_parameter": {"javascript": "function(){var e={{Click Element}};var b=e&&e.closest?e.closest('.ldv-faq__question, summary'):null;return b?b.innerText.replace(/^\\s*\\d+\\s*/,'').replace(/\\s+/g,' ').trim().slice(0,100):'';}"}}
+ ],
+ "update_triggers": [
+  {"name": "ldv faq question click", "set_filter_arg1": ".ldv-faq__question, .ldv-faq__question *, .ldv6__faq-item summary, .ldv6__faq-item summary *"}
+ ]
+}

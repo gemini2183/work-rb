@@ -1350,3 +1350,14 @@ python gads_position_hours.py --customer-id 213-621-6123 --campaign "search / ca
 ```
 Пример (Landver, 2026-10-23): верх ~100–115 показов в день и до, и после повышения ставок, прирост показов внизу (CTR ~0,1–0,2% против 1–5% вверху).
 
+
+## Определения GA4 (измерения и показатели): `ga4_custom_definitions.py` (ЗАПИСЬ только с `--execute`, с 2026-10-24)
+Регистрирует параметры событий GA4 как пользовательские измерения (`--dim параметр "Название"`) и показатели (`--metric параметр "Название" [SECONDS]`) через Admin API; без `--execute` печатает, что есть и что создал бы; существующие по `parameterName` пропускает; в конце читает обратно. Название — буквы, цифры, подчёркивание, пробел (скобки нельзя). Ключ — `GA4_KEY_FILE` или ключ `ga4-analytics` по умолчанию (роль «Редактор»).
+```
+python ga4_custom_definitions.py --property 549802233 --dim quiz_answer "Quiz answer" --dim cta_place "CTA place"
+python ga4_custom_definitions.py --property 549802233 --dim quiz_answer "Quiz answer" --execute
+```
+Применено: Landver (И-049 разово, И-071 этим скриптом).
+
+## GTM: правка существующих переменных и триггеров, сценарий кликов в проверке (2026-10-24)
+`gtm_apply_plan.py`: в плане `update_variables: [{name, set_parameter: {javascript: "…"}}]` и `update_triggers: [{name, set_parameter: {elementSelector: "…"}, set_filter_arg1: "CSS-селектор клика"}]`. `gtm_test_version.py`: `--click "<css>" "<css>" …` (клики по порядку после прокрутки; повтор селектора — несколько кликов, так проходится квиз), `--eval "<js>" …` (выполнить и напечатать результат; открыть окно формы — создать ссылку `#хук` и кликнуть), `--no-prevent` (не отменять переход по `tel:`), `--no-tel-places` (пропустить медленную проверку «на отдельной загрузке»); в выводе все параметры событий. Пример (Landver, версия 7): `python gtm_test_version.py --account 6353362488 --container 261134482 --version 7 --url "https://landverpersonalinjury.tilda.ws/california-car-accident-lawyer?utm_source=google&utm_medium=cpc&utm_campaign=probe" --grant analytics_storage --no-prevent --no-tel-places --click "#ldvq5-card button.ldvq5__option" … --push-event submit_form5114761803`. Перед запуском убедиться, что нет старых сред `claude-test-*` (если предыдущий запуск был прерван — удалить через API `environments`).
