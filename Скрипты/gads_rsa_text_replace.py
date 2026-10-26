@@ -9,7 +9,9 @@ validate_only.
 запросе (атомарно: либо оба действия, либо ни одного).
 
 Карта замен — YAML: {headlines: {старый: новый}, descriptions: {старый: новый}}. Лимиты: заголовок ≤ 30, описание ≤ 90 знаков;
-дубли текстов внутри объявления запрещены. Перед записью пишется снимок старых объявлений
+дубли текстов внутри объявления запрещены. Дополнительно (2026-10-26, Landver «Injury Victims Only»): ключ `pin_headlines:
+{текст: HEADLINE_1|HEADLINE_2|HEADLINE_3}` ставит заголовок с закреплением (если его нет — добавляет; при 15 заголовках заменяет
+первый незакреплённый из `drop_headlines: [..]`), `--skip-groups` исключает группы по имени. Перед записью пишется снимок старых объявлений
 `Статистика/snapshot_before_rsa_replace_<время>.csv`; откат — включить старые, поставить новые на паузу (id в выводе).
 
 Использование:
@@ -59,6 +61,9 @@ def read_ads(ga, cid, campaign_ids):
     return out
 
 
+PIN = {}   # заполняется в main из enum ServedAssetFieldType
+
+
 DKI = re.compile(r"\{keyword:([^}]*)\}", re.I)
 
 
@@ -77,6 +82,25 @@ def plan(ads, rep):
             if len(new_h) < 15 and add.lower() not in {t.lower() for t, _ in new_h}:
                 new_h.append((add, 0))
                 added.append(add)
+        for ptxt, pname in (rep.get("pin_headlines") or {}).items():
+            pin = PIN[pname]
+            idx = [i for i, (t, _) in enumerate(new_h) if t.lower() == ptxt.lower()]
+            if idx:
+                new_h[idx[0]] = (new_h[idx[0]][0], pin)
+            elif len(new_h) < 15:
+                new_h.append((ptxt, pin))
+                added.append(ptxt)
+            else:
+                drop = next((i for dt in rep.get("drop_headlines", []) for i, (t, p) in enumerate(new_h)
+                             if t.lower() == dt.lower() and not p), None)
+                if drop is None:
+                    problems.append((ad["ad_id"], [f"нет места под закреплённый «{ptxt}»: 15 заголовков и ни одного из drop_headlines"]))
+                    new_h = None
+                    break
+                added.append(f"{ptxt} (вместо «{new_h[drop][0]}»)")
+                new_h[drop] = (ptxt, pin)
+        if new_h is None:
+            continue
         changed = new_h != ad["headlines"] or new_d != ad["descriptions"]
         for t, _ in ad["headlines"] + ad["descriptions"]:
             if SUSPECT.search(t) and t not in rep["headlines"] and t not in rep["descriptions"]:
@@ -108,6 +132,7 @@ def main():
     ap.add_argument("--campaign-ids", nargs="+", required=True)
     ap.add_argument("--map", required=True)
     ap.add_argument("--execute", action="store_true")
+    ap.add_argument("--skip-groups", nargs="*", default=[], help="названия групп, которые не трогать")
     ap.add_argument("--pause-old", metavar="MAP_CSV", help="ШАГ 2: поставить старые на паузу там, где новые одобрены (файл соответствий из шага 1); с --execute пишет")
     ap.add_argument("--per-group-best", action="store_true", help="в каждой группе объявлений брать одно объявление — с наибольшим числом показов за 30 дней (для создания одного нового варианта на группу)")
     ap.add_argument("--copy-mode", action="store_true", help="не править на месте, а создавать копию и ставить старое на паузу (по умолчанию правка на месте)")
@@ -149,7 +174,9 @@ def main():
     rep.setdefault("headlines", {}); rep.setdefault("descriptions", {})
     client = GoogleAdsClient.load_from_storage(GOOGLE_ADS_YAML)
     ga = client.get_service("GoogleAdsService")
-    ads = read_ads(ga, cid, a.campaign_ids)
+    E = client.enums.ServedAssetFieldTypeEnum
+    PIN.update({n: int(getattr(E, n)) for n in ("HEADLINE_1", "HEADLINE_2", "HEADLINE_3")})
+    ads = [x for x in read_ads(ga, cid, a.campaign_ids) if x["ad_group"] not in a.skip_groups]
     rows, problems, unresolved = plan(ads, rep)
     print(f"включённых RSA: {len(ads)} | к замене: {len(rows)} | с ошибками: {len(problems)}")
     for ad_id, errs in problems:
@@ -159,6 +186,8 @@ def main():
         by.setdefault(r["campaign"], []).append(r)
     for c, rs in by.items():
         print(f"  {c}: {len(rs)} объявлений")
+        for r in rs:
+            print(f"    группа «{r['ad_group']}», объявление {r['ad_id']}: добавлено {r['added'] or '—'}")
     if a.per_group_best and rows:
         imp = {}
         q = ("SELECT ad_group_ad.ad.id, metrics.impressions FROM ad_group_ad "

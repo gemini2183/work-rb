@@ -1,0 +1,9 @@
+# Landver car+truck: закреплённый заголовок во 2-й позиции «Injury Victims Only» (решение пользователя 2026-10-26)
+headlines: {}
+descriptions: {}
+pin_headlines:
+  "Injury Victims Only": HEADLINE_2
+drop_headlines:
+  - "Early Offer? Talk to Us First"
+  - "Beverly Hills Law Firm"
+  - "20+ Years in California"
