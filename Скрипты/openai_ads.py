@@ -229,6 +229,11 @@ def cmd_activate(a):
     if len(groups) != len(set(a.groups)):
         sys.exit("Часть групп не найдена в кампании: " + ", ".join(sorted(set(a.groups) - {g["id"] for g in groups})))
     ads = [ad for ad in list_ads(a.campaign) if ad.get("_group_name") in {g["name"] for g in groups}]
+    if a.ads:  # точечно: только перечисленные объявления, остальные паузные объявления группы не трогаем
+        unknown = set(a.ads) - {ad["id"] for ad in ads}
+        if unknown:
+            sys.exit("Объявления не найдены в указанных группах: " + ", ".join(sorted(unknown)))
+        ads = [ad for ad in ads if ad["id"] in set(a.ads)]
     print("Объект | Действие | Было → Станет")
     todo_g = [g for g in groups if g["status"] == "paused"]
     for g in groups:
@@ -487,6 +492,7 @@ def main():
     d = sub.add_parser("ads"); d.add_argument("--campaign", required=True); d.set_defaults(f=cmd_ads)
     ac = sub.add_parser("activate"); ac.add_argument("--campaign", required=True)
     ac.add_argument("--groups", nargs="+", required=True, help="ID групп (adgrp_…)")
+    ac.add_argument("--ads", nargs="+", help="включить только эти объявления (ad_…); без параметра — все одобренные паузные объявления групп")
     ac.add_argument("--execute", action="store_true"); ac.set_defaults(f=cmd_activate)
     cg = sub.add_parser("create-groups")
     cg.add_argument("--plan", required=True, help="JSON-план (путь от корня вики или абсолютный)")
