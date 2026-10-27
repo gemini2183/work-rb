@@ -2,6 +2,8 @@
 # Запуск: gads_rsa_text_replace.py --copy-mode (шаг 1: создать новые, старые работают; шаг 2: --pause-old после одобрения).
 headlines:
   "Injury Victims Only": "We Help People Hurt in Crashes"          # закрепление HEADLINE_2 сохраняется (старый текст -> новый, pin тот же)
+  "Hit by Another Driver?": "Call Landver Law 24/7"                # убрать по решению пользователя 27.10; круглосуточный приём звонков подтверждён 23.10
+  "What Is Your Car Case Worth?": "Injured? Know Your Case Value"  # только Settlement (закреплён H1): страница не называет сумму; этот текст был в старом объявлении группы с CTR 5,4%
 descriptions:
   # Car Accident, Car Accident - Exact
   "Injured in a car crash? We represent injury victims only. Get a free case review today.":
