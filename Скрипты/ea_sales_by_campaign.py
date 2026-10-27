@@ -76,8 +76,8 @@ def table(o, camp_col, spend, limit_zl):
         out.append({"кампания": camp, "заказов": len(g), "с датой продажи": int(g["sold"].sum()),
                     "из них отменён": int((g["sold"] & g["cancelled"]).sum()), "чистых продаж": int(g["net"].sum()),
                     "отменено без продажи": int((g["cancelled"] & ~g["sold"]).sum()), "расход": round(s),
-                    "расход / чистая продажа": round(s / g["net"].sum()) if g["net"].sum() else None,
-                    f"выше границы {limit_zl:.0f}": (s / g["net"].sum() > limit_zl) if g["net"].sum() else None})
+                    "расход / чистая продажа": round(s / g["net"].sum()) if g["net"].sum() and s else None,
+                    f"выше границы {limit_zl:.0f}": (s / g["net"].sum() > limit_zl) if g["net"].sum() and s else None})
     return pd.DataFrame(out)
 
 
