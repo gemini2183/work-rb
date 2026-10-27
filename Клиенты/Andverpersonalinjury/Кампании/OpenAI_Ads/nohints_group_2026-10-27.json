@@ -1,0 +1,120 @@
+{
+ "campaign_id": "cmpn_6ac654ebdf448199826b33648b3f1a89",
+ "bidding": "fixed_bid",
+ "max_bid_usd": 8,
+ "version": 1,
+ "note": "Э-13 (проект): группа без context_hints, 8 объявлений (4 вопросных + 4 утвердительных), ставка fixed $8, гео кампании",
+ "groups": [
+  {
+   "group": "No Hints - Headlines test",
+   "context_hints": [],
+   "allow_empty_hints": true,
+   "ads": [
+    {
+     "ad_name": "NH-O2 вопрос",
+     "title": "The Adjuster Called Already?",
+     "copy": "Talk to a CA injury attorney before you give a statement. Free review.",
+     "link": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=nohint_o2",
+     "file_id": "file_00000000357881f799333e0dbe6eab5c",
+     "image_crop": {
+      "height": 1,
+      "width": 0.6666666666666666,
+      "x": 0.1666666666666666,
+      "y": 0
+     }
+    },
+    {
+     "ad_name": "NH-L2 вопрос",
+     "title": "Worried About Lawyer Costs?",
+     "copy": "Crash injury cases are handled on contingency. Free California review first.",
+     "link": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=nohint_l2",
+     "file_id": "file_00000000f78c820e918d06d86a5a6fc8",
+     "image_crop": {
+      "height": 1,
+      "width": 1,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "ad_name": "NH-V1 вопрос",
+     "title": "What Is Your Crash Case Worth?",
+     "copy": "Free California case review. We represent crash injury victims only.",
+     "link": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=nohint_v1",
+     "file_id": "file_0000000018a881f8a1098944f8698a52",
+     "image_crop": {
+      "height": 1,
+      "width": 1,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "ad_name": "NH-B1 вопрос",
+     "title": "CA Car Crash Injury Lawyers | Free Review",
+     "copy": "Free review of your crash injury claim. No fee unless we win.",
+     "link": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=nohint_b1",
+     "file_id": "file_00000000bef4820ebabbb17cf0ee0cf5",
+     "image_crop": {
+      "height": 1,
+      "width": 1,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "ad_name": "NH-S4 утверждение (пара O2)",
+     "title": "Talk to a Car Crash Lawyer Before the Adjuster",
+     "copy": "Free review of your California injury claim before you sign anything.",
+     "link": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=nohint_s4",
+     "file_id": "file_00000000357881f799333e0dbe6eab5c",
+     "image_crop": {
+      "height": 1,
+      "width": 0.6666666666666666,
+      "x": 0.1666666666666666,
+      "y": 0
+     }
+    },
+    {
+     "ad_name": "NH-S3 утверждение (пара L2)",
+     "title": "Car Crash Lawyer | No Fee Unless We Win",
+     "copy": "Contingency fee, litigation costs advanced. Free California case review.",
+     "link": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=nohint_s3",
+     "file_id": "file_00000000f78c820e918d06d86a5a6fc8",
+     "image_crop": {
+      "height": 1,
+      "width": 1,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "ad_name": "NH-S2 утверждение (пара V1)",
+     "title": "California Car Crash Injury Lawyer",
+     "copy": "Free California case review. We represent crash injury victims only.",
+     "link": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=nohint_s2",
+     "file_id": "file_0000000018a881f8a1098944f8698a52",
+     "image_crop": {
+      "height": 1,
+      "width": 1,
+      "x": 0,
+      "y": 0
+     }
+    },
+    {
+     "ad_name": "NH-S1 утверждение (пара B1)",
+     "title": "Car Crash Injury Attorney | Free Review",
+     "copy": "Free review of your crash injury claim. No fee unless we win.",
+     "link": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=nohint_s1",
+     "file_id": "file_00000000bef4820ebabbb17cf0ee0cf5",
+     "image_crop": {
+      "height": 1,
+      "width": 1,
+      "x": 0,
+      "y": 0
+     }
+    }
+   ]
+  }
+ ]
+}
