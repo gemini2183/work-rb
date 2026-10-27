@@ -18,6 +18,7 @@
 import argparse
 import calendar
 import csv
+import sys
 from collections import Counter
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
@@ -26,6 +27,9 @@ from google.ads.googleads.client import GoogleAdsClient
 
 from _config import SERVICE_ACCOUNT_FILE, client_stats_dir
 from gads_stats import GOOGLE_ADS_YAML
+
+# Консоль Windows (cp1251) падала на символах вроде «≥» из логов сторожа
+sys.stdout.reconfigure(encoding="utf-8")
 
 TZ = ZoneInfo("Europe/Warsaw")
 PLAN_SHEET_ID = "1Lbefo3nX1-VZ7OOmJI2zf8B6vDX8PiXIjMjqoa89T7c"  # «Цели2 Адвайта», лист «<Месяц> <гг>»
