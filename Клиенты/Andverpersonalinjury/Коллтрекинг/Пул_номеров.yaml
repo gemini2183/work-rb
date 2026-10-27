@@ -32,4 +32,13 @@ channels:
   - name: "SEO"
     utm: {utm_source: ".*", utm_medium: "organic", utm_term: ".*", utm_content: ".*", utm_campaign: ".*"}
     utm_test: {utm_source: google, utm_medium: organic}
-    pool: []  # TODO: скриншот пула "SEO" ещё не получен от пользователя
+    # скриншот кабинета 2026-10-27: пул "SEO" = один номер, он же основной статический номер сайта
+    pool:
+      - "+18444529465"
+
+  # канал ChatGPT: скриншот кабинета 2026-10-27 (utm_source=chatgpt.com, utm_medium=cpc); номер подтверждён пробой changed_number 2026-10-27
+  - name: "ChatGPT"
+    utm: {utm_source: "chatgpt.com", utm_medium: "cpc", utm_term: ".*", utm_content: ".*", utm_campaign: ".*"}
+    utm_test: {utm_source: "chatgpt.com", utm_medium: cpc}
+    pool:
+      - "+18883468106"
