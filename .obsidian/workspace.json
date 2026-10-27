@@ -244,6 +244,7 @@
   },
   "active": "49438aefe15a1236",
   "lastOpenFiles": [
+    "Скрипты/ea_lead_to_sale_trend.py",
     "Скрипты/__pycache__/ea_sales_by_campaign.cpython-313.pyc",
     "Скрипты/ea_sales_by_campaign.py",
     "Клиенты/Andverpersonalinjury/Статистика/snapshot_before_sitelink_utm_20261026_2025.csv",
@@ -255,7 +256,6 @@
     "Клиенты/Andverpersonalinjury/Кампании/Search/nearme_la_bh_exact_2026-10-26.csv",
     "Клиенты/Andverpersonalinjury/Статистика/snapshot_before_adgroup_negatives_20261026_1934.csv",
     "Скрипты/gads_adgroup_negatives.py",
-    "Клиенты/Andverpersonalinjury/Статистика/ссылки_посадочные_и_быстрые_ссылки_2026-10-26.xlsx",
     "Клиенты/Andverpersonalinjury/Коллтрекинг/Звонковый_ассет_Google_Ads_Ringostat.md",
     "База_знаний/Агенты/Быстрый_осмотр_Директа_потенциального_клиента.md",
     "Клиенты/Andverpersonalinjury/Статистика/page_tracking_check_landverpersonalinjury_tilda_ws_california-car-truck-accident_2026-10-26.md",
