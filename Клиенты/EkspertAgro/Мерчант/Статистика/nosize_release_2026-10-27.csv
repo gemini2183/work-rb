@@ -23,12 +23,10 @@ tunel ogrodowy ze stelażem,release,,273.0,7.0,11.59,1.0
 szklarnia z poliwęglanu 8 mm,release,,143.0,6.0,10.49,1.0
 szklarnia całoroczna,release,,393.0,5.0,9.26,1.0
 szklarnia z poliwęglanu mocna,release,,225.0,5.0,11.09,1.0
-szklarnie 24pl,release,,35.0,2.0,2.56,0.995292
 szklarnia ogrodowa z poliwęglanu,release,,3841.0,113.0,202.05,0.5
 szklarnie poliwęglanowe,release,,1574.0,63.0,93.86,0.5
 szklarnie z poliweglanu,release,,737.0,33.0,59.12,0.5
 szklarnia tunel z poliwęglanu,release,,136.0,6.0,11.17,0.5
-profimet szklarnie z poliwęglanu,release,,441.0,7.0,10.52,0.48277
 szklarnia z poliwęglanu,release,,16149.0,480.0,646.6,0.0
 szklarnia ogrodowa,release,,19698.0,436.0,588.78,0.0
 szklarnia,release,,14720.0,247.0,343.67,0.0
@@ -65,7 +63,6 @@ tunele ogrodnicze,release,,485.0,19.0,28.99,0.0
 szklarnie przydomowe,release,,392.0,18.0,21.06,0.0
 małe szklarnie z poliwęglanu,release,,399.0,17.0,21.61,0.0
 szklarnia plastikowa,release,,425.0,17.0,20.06,0.0
-profimet szklarnie,release,,1431.0,16.0,29.13,0.0
 namiot ogrodowy na warzywa,release,,429.0,15.0,22.48,0.0
 namiot poliweglan,release,,500.0,15.0,20.259999999999998,0.0
 namioty ogrodowe,release,,561.0,15.0,20.47,0.0
@@ -86,23 +83,19 @@ namioty ogrodowe z poliwęglanu,release,,172.0,11.0,14.13,0.0
 tunel do pomidorów,release,,370.0,11.0,18.95,0.0
 tunel poliweglan,release,,225.0,11.0,9.63,0.0
 namiot szklarniowy,release,,281.0,10.0,16.44,0.0
-mocna szklarnia z poliwęglanu,release,,422.0,9.0,17.48,0.0
 namiot ogrodowy poliwęglan,release,,225.0,9.0,13.37,0.0
-poliszklarnia,release,,408.0,9.0,17.19,0.0
 poliwęglan tunel,release,,173.0,9.0,12.75,0.0
 szklarnia ogrodowa wyprzedaż,release,,257.0,9.0,13.92,0.0
 tanie szklarnie z poliwęglanu,release,,148.0,9.0,13.030000000000001,0.0
 tunel warzywny,release,,545.0,9.0,11.379999999999999,0.0
 tunele na pomidory,release,,168.0,9.0,13.2,0.0
 gotowe szklarnie,release,,106.0,8.0,8.1,0.0
-mocna szklarnia,release,,311.0,8.0,13.959999999999999,0.0
 namiot ogrodniczy,release,,310.0,8.0,12.02,0.0
 szklarnie z poliwęglanu cena,release,,203.0,8.0,10.030000000000001,0.0
 tunel szklarniowy,release,,493.0,8.0,12.18,0.0
 tunele z poliweglanu,release,,85.0,8.0,16.57,0.0
 duże szklarnie ogrodowe,release,,81.0,7.0,9.27,0.0
 małe szklarnie przydomowe,release,,119.0,7.0,11.58,0.0
-mocna szklarnia pl,release,,266.0,7.0,11.51,0.0
 mocny tunel ogrodowy,release,,185.0,7.0,13.61,0.0
 najtańsze szklarnie z poliwęglanu,release,,245.0,7.0,13.52,0.0
 namiot ogrodowy szklarnia,release,,148.0,7.0,10.56,0.0
@@ -139,7 +132,6 @@ szklarnie z poliwęglanu komorowego,release,,55.0,5.0,14.530000000000001,0.0
 tunel plastikowy,release,,145.0,5.0,3.68,0.0
 tunel z poliwęglanu cena,release,,83.0,5.0,7.02,0.0
 tunele ogrodnicze z poliwęglanu,release,,58.0,5.0,6.52,0.0
-agroszklarnia,release,,91.0,4.0,7.1899999999999995,0.0
 cena szklarni z poliwęglanu,release,,75.0,4.0,5.55,0.0
 ceny szklarni z poliwęglanu,release,,65.0,4.0,4.2,0.0
 cieplarnia poliwęglanowa,release,,44.0,4.0,9.04,0.0
@@ -176,7 +168,6 @@ tunele plastikowe,release,,81.0,4.0,4.92,0.0
 agro szklarnia pl,release,,69.0,3.0,2.33,0.0
 aranżacja szklarni,release,,522.0,3.0,3.71,0.0
 duża szklarnia z poliwęglanu,release,,129.0,3.0,4.16,0.0
-ekotunele,release,,246.0,3.0,6.57,0.0
 gotowa szklarnia,release,,99.0,3.0,5.26,0.0
 ile kosztuje szklarnia,release,,195.0,3.0,4.95,0.0
 ile kosztuje szklarnia z poliwęglanu,release,,215.0,3.0,4.54,0.0
@@ -196,17 +187,13 @@ namioty szklarnie,release,,52.0,3.0,3.96,0.0
 rama szklarni,release,,87.0,3.0,5.5,0.0
 ranking szklarni z poliwęglanu,release,,399.0,3.0,5.17,0.0
 szklarni z poliwęglanu,release,,223.0,3.0,3.71,0.0
-szklarnia aliexpress,release,,90.0,3.0,5.13,0.0
 szklarnia do pomidorów,release,,175.0,3.0,3.28,0.0
 szklarnia do rozsady warzyw,release,,6.0,3.0,4.48,0.0
 szklarnia gotowa,release,,89.0,3.0,4.3,0.0
-szklarnia juliana,release,,108.0,3.0,5.81,0.0
-szklarnia kopułowa,release,,383.0,3.0,4.23,0.0
 szklarnia mała,release,,302.0,3.0,4.9,0.0
 szklarnia mocna,release,,129.0,3.0,4.76,0.0
 szklarnia ogrodowa a1 premium,release,,8.0,3.0,5.68,0.0
 szklarnia poliwęglan 6 mm,release,,113.0,3.0,2.74,0.0
-szklarnia profimet,release,,478.0,3.0,2.95,0.0
 szklarnia promocja,release,,97.0,3.0,3.36,0.0
 szklarnia w ogrodzie,release,,314.0,3.0,4.699999999999999,0.0
 szklarnia wyprzedaż,release,,141.0,3.0,3.99,0.0
@@ -239,7 +226,6 @@ duza szklarnia,release,,115.0,2.0,3.16,0.0
 eko tunele lublin,release,,24.0,2.0,1.69,0.0
 gdzie kupic szklarnie z poliwęglanu,release,,30.0,2.0,2.62,0.0
 ile kosztuje tunel ogrodowy,release,,49.0,2.0,3.7800000000000002,0.0
-lemar tunele ogrodowe,release,,14.0,2.0,3.91,0.0
 maly tunel ogrodowy,release,,238.0,2.0,3.7699999999999996,0.0
 mała szklarnia poliwęglan,release,,60.0,2.0,4.17,0.0
 mała szklarnia przydomowa,release,,31.0,2.0,0.96,0.0
@@ -292,9 +278,6 @@ szklarnia poliwęglan 8mm,release,,54.0,2.0,2.36,0.0
 szklarnia poliwęglan z fundamentem,release,,93.0,2.0,5.140000000000001,0.0
 szklarnia pomidor,release,,101.0,2.0,3.84,0.0
 szklarnia pomidory,release,,137.0,2.0,0.94,0.0
-szklarnia profimet mocna opinię,release,,59.0,2.0,2.37,0.0
-szklarnia półokrągła,release,,90.0,2.0,1.86,0.0
-szklarnia sprzedam,release,,64.0,2.0,2.1799999999999997,0.0
 szklarnia tunel ogrodowy,release,,45.0,2.0,3.04,0.0
 szklarnia z piecem,release,,31.0,2.0,2.3200000000000003,0.0
 szklarnia z poliwęglanu 10mm,release,,59.0,2.0,3.31,0.0
@@ -326,7 +309,6 @@ cieplarnia do ogrodu,release,,20.0,1.0,1.28,0.0
 cieplarnia na pomidory,release,,24.0,1.0,1.68,0.0
 cieplarnia pl,release,,106.0,1.0,1.17,0.0
 czyste pole szklarnie z poliwęglanu sauny ogrodowe,release,,19.0,1.0,1.3,0.0
-dobraszklarnia pl,release,,60.0,1.0,0.86,0.0
 dobre szklarnie,release,,85.0,1.0,1.67,0.0
 dobry tunel ogrodowy,release,,38.0,1.0,1.15,0.0
 domowa szklarnia na warzywa,release,,44.0,1.0,1.77,0.0
@@ -335,10 +317,7 @@ duże namioty ogrodowe,release,,17.0,1.0,1.96,0.0
 duże szklarnie z poliwęglanu,release,,14.0,1.0,1.9,0.0
 duże tunele,release,,27.0,1.0,1.74,0.0
 duży namiot ogrodowy,release,,41.0,1.0,0.92,0.0
-eszklarnia pl,release,,110.0,1.0,1.87,0.0
-eszklarnie,release,,63.0,1.0,3.02,0.0
 etl_szklarniapl,release,,3.0,1.0,0.91,0.0
-gardenstar szklarnia,release,,16.0,1.0,1.13,0.0
 gotowa szklarnia ogrodowa,release,,93.0,1.0,1.59,0.0
 gotowe tunele ogrodowe,release,,26.0,1.0,1.99,0.0
 ile kosztuje tunel z poliwęglanu,release,,40.0,1.0,1.28,0.0
@@ -356,11 +335,9 @@ mała szklarnia do ogrodu,release,,83.0,1.0,2.16,0.0
 mała szklarnia na pomidory,release,,196.0,1.0,1.48,0.0
 mała szklarnia na rozsady,release,,18.0,1.0,3.0,0.0
 mały namiot ogrodowy,release,,30.0,1.0,1.09,0.0
-mocnaszklarnia,release,,29.0,1.0,2.11,0.0
 mocne namioty ogrodowe,release,,15.0,1.0,1.15,0.0
 mocne szklarnie ogrodowe,release,,22.0,1.0,1.94,0.0
 mocne szklarnie z poliwęglanu,release,,82.0,1.0,1.48,0.0
-multiszklarnia pl,release,,20.0,1.0,0.81,0.0
 namiot całoroczny,release,,48.0,1.0,1.17,0.0
 namiot ogrodowy caloroczny,release,,4.0,1.0,1.28,0.0
 namiot ogrodowy duzy,release,,4.0,1.0,1.86,0.0
@@ -378,11 +355,8 @@ namioty ogrodowe całoroczne,release,,110.0,1.0,1.94,0.0
 namioty ogrodowe do warzyw,release,,36.0,1.0,0.47,0.0
 namioty rozkładane,release,,2.0,1.0,2.0,0.0
 nasze szklarnie,release,,28.0,1.0,3.35,0.0
-oddam szklarnie,release,,12.0,1.0,1.57,0.0
 plastikowa szklarnia,release,,66.0,1.0,1.01,0.0
-podziemna szklarnia walipini,release,,20.0,1.0,0.96,0.0
 poli szklarnia,release,,33.0,1.0,0.98,0.0
-poliszklarnia pl,release,,116.0,1.0,2.38,0.0
 poliweglan 4mm szklarnia,release,,52.0,1.0,0.73,0.0
 poliwęglan na tunele,release,,15.0,1.0,1.45,0.0
 poliwęglan namiot,release,,31.0,1.0,2.23,0.0
@@ -398,9 +372,6 @@ skladanie szklarni,release,,24.0,1.0,0.34,0.0
 solidna szklarnia ogrodowa,release,,77.0,1.0,1.94,0.0
 solidna szklarnia z poliwęglanu,release,,46.0,1.0,1.86,0.0
 solidny tunel ogrodowy,release,,26.0,1.0,2.08,0.0
-sprzedam szklarnie,release,,207.0,1.0,1.02,0.0
-sprzedam szklarnie z poliwęglanu,release,,117.0,1.0,1.44,0.0
-stimeo szklarnie,release,,27.0,1.0,1.55,0.0
 szklarnia 1000m2,release,,5.0,1.0,1.39,0.0
 szklarnia 10m,release,,39.0,1.0,2.0,0.0
 szklarnia 180x300,release,,10.0,1.0,2.23,0.0
@@ -414,7 +385,6 @@ szklarnia 3 na 4,release,,56.0,1.0,1.86,0.0
 szklarnia 3 na 6,release,,59.0,1.0,1.24,0.0
 szklarnia 35m2,release,,61.0,1.0,0.61,0.0
 szklarnia bydgoszcz,release,,9.0,1.0,1.37,0.0
-szklarnia carrefour,release,,39.0,1.0,1.38,0.0
 szklarnia całoroczna w ziemi,release,,15.0,1.0,1.01,0.0
 szklarnia do kiełkowania,release,,8.0,1.0,1.97,0.0
 szklarnia do ogródka,release,,60.0,1.0,1.71,0.0
@@ -425,8 +395,6 @@ szklarnia gt mocna,release,,13.0,1.0,1.77,0.0
 szklarnia hobby,release,,10.0,1.0,1.49,0.0
 szklarnia hybrid,release,,14.0,1.0,1.71,0.0
 szklarnia imielin,release,,10.0,1.0,0.47,0.0
-szklarnia kopulowa,release,,38.0,1.0,1.61,0.0
-szklarnia kopułowa cena,release,,76.0,1.0,1.69,0.0
 szklarnia kwadratowa,release,,49.0,1.0,1.82,0.0
 szklarnia mała ogrodowa,release,,121.0,1.0,0.36,0.0
 szklarnia na arbuzy,release,,32.0,1.0,0.77,0.0
@@ -456,11 +424,9 @@ szklarnia poliwęglan producent,release,,9.0,1.0,2.42,0.0
 szklarnia poliwęglanu,release,,98.0,1.0,1.5,0.0
 szklarnia pomidor premium plus,release,,67.0,1.0,2.98,0.0
 szklarnia pro,release,,45.0,1.0,0.67,0.0
-szklarnia profimet mocna,release,,64.0,1.0,1.44,0.0
 szklarnia przydomowa z poliwęglanu,release,,44.0,1.0,1.33,0.0
 szklarnia rolnicza,release,,45.0,1.0,0.78,0.0
 szklarnia rolnik,release,,68.0,1.0,1.85,0.0
-szklarnia stimeo,release,,30.0,1.0,1.35,0.0
 szklarnia sędziszów małopolski,release,,15.0,1.0,0.94,0.0
 szklarnia victoria,release,,149.0,1.0,0.67,0.0
 szklarnia w domu,release,,65.0,1.0,1.89,0.0
@@ -475,15 +441,12 @@ szklarnia z poliwęglanu 2 3,release,,32.0,1.0,0.94,0.0
 szklarnia z poliwęglanu na wymiar,release,,80.0,1.0,2.19,0.0
 szklarnia z poliwęglanu polski producent,release,,142.0,1.0,1.16,0.0
 szklarnia z poliwęglanu producent,release,,114.0,1.0,1.34,0.0
-szklarnia z poliwęglanu profimet,release,,125.0,1.0,1.19,0.0
-szklarnia z poliwęglanu półokrągła,release,,11.0,1.0,1.13,0.0
 szklarnia z poliwęglanu rzeszów,release,,18.0,1.0,1.43,0.0
 szklarnia z profili aluminiowych,release,,78.0,1.0,2.06,0.0
 szklarnia ziemna,release,,67.0,1.0,1.37,0.0
 szklarnie 24 pl,release,,102.0,1.0,1.75,0.0
 szklarnie cena,release,,40.0,1.0,0.48,0.0
 szklarnie czeskie,release,,15.0,1.0,1.25,0.0
-szklarnie juliana,release,,43.0,1.0,1.44,0.0
 szklarnie male,release,,25.0,1.0,1.79,0.0
 szklarnie ogrodnicze,release,,19.0,1.0,1.24,0.0
 szklarnie ogrodowa,release,,64.0,1.0,1.71,0.0
@@ -495,15 +458,12 @@ szklarnie poliuretanowe,release,,45.0,1.0,1.18,0.0
 szklarnie poliweglan,release,,48.0,1.0,3.83,0.0
 szklarnie poliweglanowe producent,release,,22.0,1.0,2.52,0.0
 szklarnie producent polski,release,,12.0,1.0,2.25,0.0
-szklarnie profimet,release,,180.0,1.0,1.48,0.0
 szklarnie tunele,release,,53.0,1.0,2.76,0.0
 szklarnie tunelowe,release,,28.0,1.0,0.35,0.0
 szklarnie w ogrodzie,release,,22.0,1.0,0.97,0.0
-szklarnie z poliwęglanu profimet,release,,57.0,1.0,0.83,0.0
 szklarnie z poliwęglanu ranking,release,,62.0,1.0,1.22,0.0
 szklarnie z poliwęglanu zambrów,release,,10.0,1.0,1.6,0.0
 szklarnie z poliwęglanu śląskie,release,,16.0,1.0,2.41,0.0
-szklarnie24 pl,release,,81.0,1.0,1.83,0.0
 szklarnię,release,,16.0,1.0,0.75,0.0
 tania szklarnia,release,,102.0,1.0,2.07,0.0
 top szklarnie,release,,78.0,1.0,1.94,0.0
@@ -514,7 +474,6 @@ tunel mały,release,,46.0,1.0,1.28,0.0
 tunel ogrodowy 6m2,release,,7.0,1.0,1.89,0.0
 tunel ogrodowy do warzyw,release,,20.0,1.0,1.22,0.0
 tunel ogrodowy duży,release,,116.0,1.0,2.3,0.0
-tunel ogrodowy lemar,release,,45.0,1.0,1.26,0.0
 tunel ogrodowy maly,release,,20.0,1.0,1.17,0.0
 tunel ogrodowy plastikowy,release,,57.0,1.0,1.89,0.0
 tunel ogrodowy pvc,release,,52.0,1.0,1.26,0.0
@@ -526,7 +485,6 @@ tunel rolniczy,release,,155.0,1.0,1.26,0.0
 tunel warzywny z poliwęglanu,release,,59.0,1.0,2.78,0.0
 tunele do pomidorów,release,,63.0,1.0,1.25,0.0
 tunele i szklarnie ogrodowe,release,,142.0,1.0,0.65,0.0
-tunele lemar,release,,41.0,1.0,1.61,0.0
 tunele ogrodowe promocja,release,,18.0,1.0,1.2,0.0
 tunele z poliwęglanu producent,release,,103.0,1.0,1.57,0.0
 wiaty namiotowe,release,,7.0,1.0,1.94,0.0
@@ -535,13 +493,7 @@ zabezpieczenie szklarni przed wiatrem,release,,15.0,1.0,2.34,0.0
 agrinker tunel,release,,21.0,0.0,0.0,0.0
 agro szklarnia,release,,47.0,0.0,0.0,0.0
 agrosfera szklarnie,release,,1.0,0.0,0.0,0.0
-agrosklep szklarnia,release,,4.0,0.0,0.0,0.0
-agrosklep szklarnie,release,,7.0,0.0,0.0,0.0
 agrostar szklarnie,release,,19.0,0.0,0.0,0.0
-agroszklarnia pl,release,,7.0,0.0,0.0,0.0
-aldi szklarnia,release,,7.0,0.0,0.0,0.0
-aldi szklarnia na pomidory,release,,4.0,0.0,0.0,0.0
-aldiss cieplarnia,release,,1.0,0.0,0.0,0.0
 aranzacja szklarni,release,,18.0,0.0,0.0,0.0
 aranżacja szklarni w ogrodzie,release,,33.0,0.0,0.0,0.0
 arbena hale tunelowe,release,,3.0,0.0,0.0,0.0
@@ -551,8 +503,6 @@ biały namiot ogrodowy,release,,4.0,0.0,0.0,0.0
 blania szklarnia,release,,8.0,0.0,0.0,0.0
 bogatynia szklarnia,release,,4.0,0.0,0.0,0.0
 caloroczna szklarnia,release,,6.0,0.0,0.0,0.0
-carrefour szklarnia,release,,11.0,0.0,0.0,0.0
-carrefour szklarnia ogrodowa,release,,5.0,0.0,0.0,0.0
 całoroczna szklarnia,release,,37.0,0.0,0.0,0.0
 całoroczny namiot,release,,1.0,0.0,0.0,0.0
 cena szklarni,release,,40.0,0.0,0.0,0.0
@@ -569,7 +519,6 @@ cieplarnie szklarnie wp pl,release,,13.0,0.0,0.0,0.0
 covertech szklarnie,release,,15.0,0.0,0.0,0.0
 czyste pole szklarnie,release,,45.0,0.0,0.0,0.0
 do szklarnia,release,,3.0,0.0,0.0,0.0
-dobraszklarnia,release,,45.0,0.0,0.0,0.0
 dobre szklarnie ogrodowe,release,,21.0,0.0,0.0,0.0
 dobre szklarnie pl,release,,26.0,0.0,0.0,0.0
 dobre szklarnie z poliwęglanu,release,,57.0,0.0,0.0,0.0
@@ -588,13 +537,8 @@ e szklarnie pl,release,,149.0,0.0,0.0,0.0
 e szklarnie poliwęglan,release,,26.0,0.0,0.0,0.0
 eko szklarnie,release,,31.0,0.0,0.0,0.0
 eko tunele,release,,62.0,0.0,0.0,0.0
-ekoszklarnia,release,,58.0,0.0,0.0,0.0
-ekoszklarnia pl,release,,32.0,0.0,0.0,0.0
 ekoszklarnie,release,,1.0,0.0,0.0,0.0
-ekotunele pl,release,,21.0,0.0,0.0,0.0
 ekskluzywne szklarnie ogrodowe,release,,1.0,0.0,0.0,0.0
-eszklarnia,release,,89.0,0.0,0.0,0.0
-eszklarnie pl,release,,3.0,0.0,0.0,0.0
 etl group szklarnie,release,,0.0,0.0,0.0,0.0
 etl szklarnia,release,,106.0,0.0,0.0,0.0
 etl szklarnia pl,release,,15.0,0.0,0.0,0.0
@@ -603,7 +547,6 @@ euroszklarnie,release,,2.0,0.0,0.0,0.0
 febe store szklarnia,release,,5.0,0.0,0.0,0.0
 foto szklarnia,release,,2.0,0.0,0.0,0.0
 fotowoltaika na szklarni,release,,1.0,0.0,0.0,0.0
-gardenstar tunel ogrodowy,release,,21.0,0.0,0.0,0.0
 gdzie kupić tunel ogrodowy,release,,8.0,0.0,0.0,0.0
 gdzie najlepiej postawić szklarnię,release,,7.0,0.0,0.0,0.0
 gdzie postawić szklarnie,release,,3.0,0.0,0.0,0.0
@@ -616,16 +559,11 @@ gotowe szklarnie z poliwęglanu,release,,46.0,0.0,0.0,0.0
 gotowe tunele na pomidory,release,,18.0,0.0,0.0,0.0
 green canoe szklarnia,release,,17.0,0.0,0.0,0.0
 green farm szklarnia,release,,7.0,0.0,0.0,0.0
-grindi szklarnia,release,,4.0,0.0,0.0,0.0
-growee szklarnia,release,,3.0,0.0,0.0,0.0
 growhouse poland szklarnie ogrodowe,release,,3.0,0.0,0.0,0.0
 hala namiotowa całoroczna,release,,5.0,0.0,0.0,0.0
 hala namiotowa cena,release,,1.0,0.0,0.0,0.0
 hale namiotowe,release,,8.0,0.0,0.0,0.0
 hale tunelowe dla rolnictwa,release,,2.0,0.0,0.0,0.0
-hecht szklarnia,release,,3.0,0.0,0.0,0.0
-hefajstos szklarnia,release,,2.0,0.0,0.0,0.0
-hefajstos szklarnie,release,,7.0,0.0,0.0,0.0
 igrow tunele,release,,0.0,0.0,0.0,0.0
 ile kosztuje mała szklarnia,release,,21.0,0.0,0.0,0.0
 ile kosztuje namiot ogrodowy,release,,17.0,0.0,0.0,0.0
@@ -642,7 +580,6 @@ inamiot pl,release,,1.0,0.0,0.0,0.0
 infouprawa szklarnia,release,,32.0,0.0,0.0,0.0
 jagram szklarnia,release,,6.0,0.0,0.0,0.0
 jaksa szklarnie,release,,2.0,0.0,0.0,0.0
-juliana szklarnia,release,,10.0,0.0,0.0,0.0
 kostar szklarnia,release,,10.0,0.0,0.0,0.0
 koszt szklarni,release,,32.0,0.0,0.0,0.0
 koszt wybudowania szklarni,release,,8.0,0.0,0.0,0.0
@@ -654,15 +591,6 @@ kupię namiot ogrodowy,release,,15.0,0.0,0.0,0.0
 kupię szklarnię,release,,7.0,0.0,0.0,0.0
 kupię tunel ogrodowy,release,,60.0,0.0,0.0,0.0
 kupszklarnie pl,release,,0.0,0.0,0.0,0.0
-lectus szklarnia,release,,31.0,0.0,0.0,0.0
-lectus szklarnie,release,,11.0,0.0,0.0,0.0
-lectus24 szklarnia,release,,12.0,0.0,0.0,0.0
-lemar namioty,release,,10.0,0.0,0.0,0.0
-lemar rzeszów tunele,release,,2.0,0.0,0.0,0.0
-lemar szklarnie,release,,11.0,0.0,0.0,0.0
-lemar tunel,release,,31.0,0.0,0.0,0.0
-lemar tunel ogrodowy,release,,4.0,0.0,0.0,0.0
-lemar tunele,release,,50.0,0.0,0.0,0.0
 leonów szklarnie,release,,3.0,0.0,0.0,0.0
 mala szklarnia domowa,release,,5.0,0.0,0.0,0.0
 mala szklarnia na ziola,release,,4.0,0.0,0.0,0.0
@@ -677,8 +605,6 @@ malaszklarnia,release,,26.0,0.0,0.0,0.0
 male szklarnie do ogrodu,release,,13.0,0.0,0.0,0.0
 male szklarnie przydomowe,release,,2.0,0.0,0.0,0.0
 male tunele,release,,29.0,0.0,0.0,0.0
-maleszklarnie,release,,43.0,0.0,0.0,0.0
-maleszklarnie pl,release,,59.0,0.0,0.0,0.0
 malutka szklarnia,release,,25.0,0.0,0.0,0.0
 malutka szklarnia ogrodowa,release,,7.0,0.0,0.0,0.0
 maly namiot na pomidory,release,,5.0,0.0,0.0,0.0
@@ -722,7 +648,6 @@ miniszklarnie,release,,13.0,0.0,0.0,0.0
 minitunel,release,,8.0,0.0,0.0,0.0
 mirzaltunel,release,,0.0,0.0,0.0,0.0
 mirzaltunel x,release,,0.0,0.0,0.0,0.0
-mocnaszklarnia pl,release,,35.0,0.0,0.0,0.0
 mocne namioty pl,release,,20.0,0.0,0.0,0.0
 mocne szklarnie,release,,73.0,0.0,0.0,0.0
 mocne szklarnie pl,release,,9.0,0.0,0.0,0.0
@@ -734,7 +659,6 @@ mojaszklarnia,release,,2.0,0.0,0.0,0.0
 mojaszklarnia pl,release,,7.0,0.0,0.0,0.0
 moje szklarnie,release,,2.0,0.0,0.0,0.0
 multi szklarnia,release,,5.0,0.0,0.0,0.0
-multiszklarnia,release,,14.0,0.0,0.0,0.0
 murowana szklarnia,release,,10.0,0.0,0.0,0.0
 na szklarnię,release,,15.0,0.0,0.0,0.0
 najlepsza szklarnia ogrodowa,release,,14.0,0.0,0.0,0.0
@@ -809,7 +733,6 @@ namiot ogrodowy prostokątny,release,,3.0,0.0,0.0,0.0
 namiot ogrodowy przeciwdeszczowy,release,,4.0,0.0,0.0,0.0
 namiot ogrodowy przezroczysty,release,,7.0,0.0,0.0,0.0
 namiot ogrodowy rozkładany,release,,2.0,0.0,0.0,0.0
-namiot ogrodowy sprzedam,release,,1.0,0.0,0.0,0.0
 namiot ogrodowy stabilny,release,,2.0,0.0,0.0,0.0
 namiot ogrodowy tani,release,,6.0,0.0,0.0,0.0
 namiot ogrodowy warzywny,release,,70.0,0.0,0.0,0.0
@@ -828,7 +751,6 @@ namiot plandekowy,release,,2.0,0.0,0.0,0.0
 namiot plastikowy,release,,3.0,0.0,0.0,0.0
 namiot przezroczysty,release,,50.0,0.0,0.0,0.0
 namiot przeźroczysty,release,,2.0,0.0,0.0,0.0
-namiot półokrągły,release,,14.0,0.0,0.0,0.0
 namiot roboczy,release,,6.0,0.0,0.0,0.0
 namiot rurkowy,release,,1.0,0.0,0.0,0.0
 namiot stelażowy,release,,2.0,0.0,0.0,0.0
@@ -868,8 +790,6 @@ namioty ogrodowe szklarnie,release,,9.0,0.0,0.0,0.0
 namioty ogrodowe wodoszczelne,release,,5.0,0.0,0.0,0.0
 namioty ogrodowe z poliweglanu,release,,50.0,0.0,0.0,0.0
 namioty ogrodowy,release,,1.0,0.0,0.0,0.0
-namioty pawilony,release,,3.0,0.0,0.0,0.0
-namioty pawilony ogrodowe,release,,3.0,0.0,0.0,0.0
 namioty produkcyjne,release,,1.0,0.0,0.0,0.0
 namioty przezroczyste,release,,2.0,0.0,0.0,0.0
 namioty rolnicze,release,,21.0,0.0,0.0,0.0
@@ -893,18 +813,13 @@ ogród ze szklarnią,release,,7.0,0.0,0.0,0.0
 ogórek szklarniowy,release,,1.0,0.0,0.0,0.0
 ogórek szklarniowy długi,release,,7.0,0.0,0.0,0.0
 ogórek szklarniowy skierniewicki,release,,1.0,0.0,0.0,0.0
-okragla szklarnia ogrodowa,release,,19.0,0.0,0.0,0.0
-okrągła szklarnia,release,,72.0,0.0,0.0,0.0
 papryka szklarnia,release,,1.0,0.0,0.0,0.0
-pawilony i namioty ogrodowe,release,,1.0,0.0,0.0,0.0
-pawilony namioty,release,,1.0,0.0,0.0,0.0
 pierwsza szklarnia,release,,4.0,0.0,0.0,0.0
 pinterest szklarnia,release,,2.0,0.0,0.0,0.0
 pionowa szklarnia,release,,5.0,0.0,0.0,0.0
 piękna szklarnia,release,,9.0,0.0,0.0,0.0
 podgrzewana szklarnia,release,,23.0,0.0,0.0,0.0
 podgrzewanie szklarni,release,,5.0,0.0,0.0,0.0
-podziemna szklarnia,release,,6.0,0.0,0.0,0.0
 polecane szklarnie z poliwęglanu,release,,19.0,0.0,0.0,0.0
 poli szklarnia pl,release,,2.0,0.0,0.0,0.0
 poligreen szklarnie,release,,36.0,0.0,0.0,0.0
@@ -930,12 +845,6 @@ producent szklarni ogrodowych,release,,19.0,0.0,0.0,0.0
 producent szklarni poliweglan,release,,1.0,0.0,0.0,0.0
 profi met szklarnie,release,,142.0,0.0,0.0,0.0
 profi namiot,release,,3.0,0.0,0.0,0.0
-profimet pl szklarnię,release,,1.0,0.0,0.0,0.0
-profimet producent szklarni ogrodowych z poliwęglanu,release,,3.0,0.0,0.0,0.0
-profimet szklarnia,release,,183.0,0.0,0.0,0.0
-profimet szklarnie kontakt,release,,13.0,0.0,0.0,0.0
-profimet szklarnię z poliweglanu,release,,8.0,0.0,0.0,0.0
-profimet szklarnię z poliwęglanu,release,,25.0,0.0,0.0,0.0
 profinamiot,release,,60.0,0.0,0.0,0.0
 profinamiot pl,release,,10.0,0.0,0.0,0.0
 prosperplast szklarnia,release,,2.0,0.0,0.0,0.0
@@ -952,7 +861,6 @@ przydomowa szklarnia z poliwęglanu,release,,48.0,0.0,0.0,0.0
 przęsła tunelowe,release,,20.0,0.0,0.0,0.0
 ptunel,release,,1.0,0.0,0.0,0.0
 pół szklarnia,release,,9.0,0.0,0.0,0.0
-qube szklarnia,release,,1.0,0.0,0.0,0.0
 ranking szklarni,release,,6.0,0.0,0.0,0.0
 regal cieplarniany,release,,1.0,0.0,0.0,0.0
 rolnik szklarnia,release,,17.0,0.0,0.0,0.0
@@ -969,13 +877,8 @@ solidne szklarnie,release,,13.0,0.0,0.0,0.0
 solidne szklarnie ogrodowe,release,,14.0,0.0,0.0,0.0
 solidny namiot ogrodowy,release,,11.0,0.0,0.0,0.0
 sposoby na ogrzanie szklarni,release,,8.0,0.0,0.0,0.0
-sprzedam namiot ogrodowy,release,,1.0,0.0,0.0,0.0
-sprzedam szklarnie ogrodową,release,,10.0,0.0,0.0,0.0
-sprzedam szklarnię,release,,32.0,0.0,0.0,0.0
-sprzedam tunel,release,,22.0,0.0,0.0,0.0
 sprzedaż szklarni,release,,5.0,0.0,0.0,0.0
 stare szklarnie,release,,3.0,0.0,0.0,0.0
-stimeo szklarnia,release,,23.0,0.0,0.0,0.0
 stojaca szklarnia,release,,4.0,0.0,0.0,0.0
 stylowa szklarnia,release,,1.0,0.0,0.0,0.0
 superszklarnie pl,release,,4.0,0.0,0.0,0.0
@@ -1015,7 +918,6 @@ szklarnia a1 premium,release,,5.0,0.0,0.0,0.0
 szklarnia agrohit plus,release,,3.0,0.0,0.0,0.0
 szklarnia agronom mocna,release,,15.0,0.0,0.0,0.0
 szklarnia akrylowa,release,,2.0,0.0,0.0,0.0
-szklarnia aldi,release,,8.0,0.0,0.0,0.0
 szklarnia alfa,release,,10.0,0.0,0.0,0.0
 szklarnia ark,release,,1.0,0.0,0.0,0.0
 szklarnia belgijska,release,,6.0,0.0,0.0,0.0
@@ -1026,7 +928,6 @@ szklarnia biała,release,,28.0,0.0,0.0,0.0
 szklarnia biała podlaska,release,,0.0,0.0,0.0,0.0
 szklarnia białystok,release,,22.0,0.0,0.0,0.0
 szklarnia bogatynia,release,,1.0,0.0,0.0,0.0
-szklarnia całoroczną podziemna,release,,1.0,0.0,0.0,0.0
 szklarnia całoroczną w ziemi,release,,5.0,0.0,0.0,0.0
 szklarnia cena za m2,release,,7.0,0.0,0.0,0.0
 szklarnia ceny,release,,12.0,0.0,0.0,0.0
@@ -1064,19 +965,14 @@ szklarnia francuska,release,,3.0,0.0,0.0,0.0
 szklarnia gdzie postawić,release,,4.0,0.0,0.0,0.0
 szklarnia geotermalna,release,,19.0,0.0,0.0,0.0
 szklarnia green eco,release,,2.0,0.0,0.0,0.0
-szklarnia grindi,release,,17.0,0.0,0.0,0.0
 szklarnia grodzisk,release,,15.0,0.0,0.0,0.0
-szklarnia growee,release,,9.0,0.0,0.0,0.0
 szklarnia gutta,release,,2.0,0.0,0.0,0.0
 szklarnia harmony,release,,5.0,0.0,0.0,0.0
 szklarnia harmony silver,release,,5.0,0.0,0.0,0.0
-szklarnia hecht,release,,9.0,0.0,0.0,0.0
 szklarnia hestia,release,,32.0,0.0,0.0,0.0
 szklarnia high tech,release,,7.0,0.0,0.0,0.0
 szklarnia hitech,release,,1.0,0.0,0.0,0.0
 szklarnia ile kosztuje,release,,29.0,0.0,0.0,0.0
-szklarnia juliana gardener,release,,2.0,0.0,0.0,0.0
-szklarnia juliana premium,release,,11.0,0.0,0.0,0.0
 szklarnia kompozytowa,release,,34.0,0.0,0.0,0.0
 szklarnia kopula,release,,23.0,0.0,0.0,0.0
 szklarnia koszt,release,,58.0,0.0,0.0,0.0
@@ -1085,9 +981,7 @@ szklarnia kulista,release,,24.0,0.0,0.0,0.0
 szklarnia kup,release,,6.0,0.0,0.0,0.0
 szklarnia kupic,release,,17.0,0.0,0.0,0.0
 szklarnia kwiatowa,release,,20.0,0.0,0.0,0.0
-szklarnia lectus,release,,18.0,0.0,0.0,0.0
 szklarnia led,release,,1.0,0.0,0.0,0.0
-szklarnia lemar,release,,36.0,0.0,0.0,0.0
 szklarnia lider,release,,9.0,0.0,0.0,0.0
 szklarnia loft,release,,7.0,0.0,0.0,0.0
 szklarnia loftowa,release,,5.0,0.0,0.0,0.0
@@ -1138,7 +1032,6 @@ szklarnia neo tools,release,,1.0,0.0,0.0,0.0
 szklarnia neptun,release,,2.0,0.0,0.0,0.0
 szklarnia o,release,,6.0,0.0,0.0,0.0
 szklarnia ocynkowana,release,,14.0,0.0,0.0,0.0
-szklarnia oddam,release,,2.0,0.0,0.0,0.0
 szklarnia odporna na wiatr,release,,27.0,0.0,0.0,0.0
 szklarnia ogorek premium plus,release,,35.0,0.0,0.0,0.0
 szklarnia ogrodowa 20m2,release,,24.0,0.0,0.0,0.0
@@ -1147,15 +1040,12 @@ szklarnia ogrodowa całoroczna,release,,19.0,0.0,0.0,0.0
 szklarnia ogrodowa duza,release,,33.0,0.0,0.0,0.0
 szklarnia ogrodowa duża,release,,142.0,0.0,0.0,0.0
 szklarnia ogrodowa imielin,release,,15.0,0.0,0.0,0.0
-szklarnia ogrodowa juliana,release,,8.0,0.0,0.0,0.0
-szklarnia ogrodowa lectus,release,,3.0,0.0,0.0,0.0
 szklarnia ogrodowa mala,release,,58.0,0.0,0.0,0.0
 szklarnia ogrodowa na pomidory,release,,36.0,0.0,0.0,0.0
 szklarnia ogrodowa na raty,release,,1.0,0.0,0.0,0.0
 szklarnia ogrodowa na warzywa,release,,21.0,0.0,0.0,0.0
 szklarnia ogrodowa najwyżej oceniane,release,,2.0,0.0,0.0,0.0
 szklarnia ogrodowa namiot,release,,22.0,0.0,0.0,0.0
-szklarnia ogrodowa okrągła,release,,15.0,0.0,0.0,0.0
 szklarnia ogrodowa perfekt,release,,1.0,0.0,0.0,0.0
 szklarnia ogrodowa pl,release,,1.0,0.0,0.0,0.0
 szklarnia ogrodowa poliweglan,release,,44.0,0.0,0.0,0.0
@@ -1165,8 +1055,6 @@ szklarnia ogrodowa premium,release,,29.0,0.0,0.0,0.0
 szklarnia ogrodowa prima,release,,0.0,0.0,0.0,0.0
 szklarnia ogrodowa producent,release,,34.0,0.0,0.0,0.0
 szklarnia ogrodowa ranking,release,,15.0,0.0,0.0,0.0
-szklarnia ogrodowa sprzedam,release,,7.0,0.0,0.0,0.0
-szklarnia ogrodowa stimeo,release,,2.0,0.0,0.0,0.0
 szklarnia ogrodowa tania,release,,34.0,0.0,0.0,0.0
 szklarnia ogrodowa tanio,release,,4.0,0.0,0.0,0.0
 szklarnia ogrodowa w srodku,release,,54.0,0.0,0.0,0.0
@@ -1179,8 +1067,6 @@ szklarnia ogrodowy,release,,26.0,0.0,0.0,0.0
 szklarnia ogród,release,,8.0,0.0,0.0,0.0
 szklarnia ogórek,release,,67.0,0.0,0.0,0.0
 szklarnia ogórki,release,,7.0,0.0,0.0,0.0
-szklarnia okragla,release,,43.0,0.0,0.0,0.0
-szklarnia okrągła,release,,196.0,0.0,0.0,0.0
 szklarnia omega,release,,1.0,0.0,0.0,0.0
 szklarnia online,release,,6.0,0.0,0.0,0.0
 szklarnia orion,release,,1.0,0.0,0.0,0.0
@@ -1194,7 +1080,6 @@ szklarnia pl,release,,109.0,0.0,0.0,0.0
 szklarnia plantico,release,,7.0,0.0,0.0,0.0
 szklarnia plus,release,,33.0,0.0,0.0,0.0
 szklarnia podgrzewana,release,,68.0,0.0,0.0,0.0
-szklarnia podziemna,release,,32.0,0.0,0.0,0.0
 szklarnia poliweglan producent,release,,7.0,0.0,0.0,0.0
 szklarnia poliweglanu,release,,33.0,0.0,0.0,0.0
 szklarnia poliweglowa,release,,60.0,0.0,0.0,0.0
@@ -1204,7 +1089,6 @@ szklarnia poliwęglan mała,release,,11.0,0.0,0.0,0.0
 szklarnia poliwęglan wyprzedaż,release,,28.0,0.0,0.0,0.0
 szklarnia poliwęglanowa cena,release,,4.0,0.0,0.0,0.0
 szklarnia poliwęglanowa z fundamentem,release,,17.0,0.0,0.0,0.0
-szklarnia polokragla,release,,69.0,0.0,0.0,0.0
 szklarnia polska,release,,43.0,0.0,0.0,0.0
 szklarnia polski producent,release,,42.0,0.0,0.0,0.0
 szklarnia pomidor premium,release,,25.0,0.0,0.0,0.0
@@ -1225,11 +1109,6 @@ szklarnia przy granicy działki,release,,0.0,0.0,0.0,0.0
 szklarnia przy scianie,release,,20.0,0.0,0.0,0.0
 szklarnia przydomowa mała,release,,45.0,0.0,0.0,0.0
 szklarnia pvc,release,,26.0,0.0,0.0,0.0
-szklarnia qube,release,,15.0,0.0,0.0,0.0
-szklarnia qube 610,release,,3.0,0.0,0.0,0.0
-szklarnia qube 812,release,,3.0,0.0,0.0,0.0
-szklarnia qube 816,release,,23.0,0.0,0.0,0.0
-szklarnia qube 88,release,,8.0,0.0,0.0,0.0
 szklarnia regal,release,,6.0,0.0,0.0,0.0
 szklarnia retro,release,,14.0,0.0,0.0,0.0
 szklarnia rolnik 4m pro,release,,31.0,0.0,0.0,0.0
@@ -1277,13 +1156,11 @@ szklarnia w srodku,release,,94.0,0.0,0.0,0.0
 szklarnia w stylu wiktoriańskim,release,,2.0,0.0,0.0,0.0
 szklarnia w zimie,release,,2.0,0.0,0.0,0.0
 szklarnia w środku,release,,48.0,0.0,0.0,0.0
-szklarnia walipini,release,,118.0,0.0,0.0,0.0
 szklarnia warszawa,release,,15.0,0.0,0.0,0.0
 szklarnia warzywa,release,,6.0,0.0,0.0,0.0
 szklarnia warzywna,release,,31.0,0.0,0.0,0.0
 szklarnia wentylacja,release,,0.0,0.0,0.0,0.0
 szklarnia wertykalna,release,,6.0,0.0,0.0,0.0
-szklarnia wesoły rolnik,release,,21.0,0.0,0.0,0.0
 szklarnia wewnętrzna,release,,10.0,0.0,0.0,0.0
 szklarnia wnetrze,release,,11.0,0.0,0.0,0.0
 szklarnia wolnostojąca,release,,19.0,0.0,0.0,0.0
@@ -1306,26 +1183,21 @@ szklarnia z plandeki,release,,26.0,0.0,0.0,0.0
 szklarnia z pleksiglasu,release,,1.0,0.0,0.0,0.0
 szklarnia z poliwęglanu 10 m,release,,75.0,0.0,0.0,0.0
 szklarnia z poliwęglanu 3 5,release,,7.0,0.0,0.0,0.0
-szklarnia z poliwęglanu aliexpress,release,,52.0,0.0,0.0,0.0
 szklarnia z poliwęglanu bella,release,,6.0,0.0,0.0,0.0
 szklarnia z poliwęglanu białystok,release,,21.0,0.0,0.0,0.0
 szklarnia z poliwęglanu braniewo,release,,12.0,0.0,0.0,0.0
 szklarnia z poliwęglanu duza,release,,15.0,0.0,0.0,0.0
 szklarnia z poliwęglanu harmony silver,release,,3.0,0.0,0.0,0.0
 szklarnia z poliwęglanu komorowego,release,,114.0,0.0,0.0,0.0
-szklarnia z poliwęglanu lectus,release,,10.0,0.0,0.0,0.0
 szklarnia z poliwęglanu mala,release,,28.0,0.0,0.0,0.0
 szklarnia z poliwęglanu na raty,release,,19.0,0.0,0.0,0.0
-szklarnia z poliwęglanu okrągła,release,,26.0,0.0,0.0,0.0
 szklarnia z poliwęglanu podkarpackie,release,,38.0,0.0,0.0,0.0
 szklarnia z poliwęglanu polska,release,,24.0,0.0,0.0,0.0
 szklarnia z poliwęglanu pomidor,release,,33.0,0.0,0.0,0.0
-szklarnia z poliwęglanu profimet mocna,release,,145.0,0.0,0.0,0.0
 szklarnia z poliwęglanu przezroczystego,release,,19.0,0.0,0.0,0.0
 szklarnia z poliwęglanu ranking,release,,48.0,0.0,0.0,0.0
 szklarnia z poliwęglanu royal,release,,4.0,0.0,0.0,0.0
 szklarnia z poliwęglanu tanio,release,,12.0,0.0,0.0,0.0
-szklarnia z poliwęglanu wesoły rolnik,release,,5.0,0.0,0.0,0.0
 szklarnia z poliwęglanu wymiary,release,,45.0,0.0,0.0,0.0
 szklarnia z poliwęglanu z automatem,release,,0.0,0.0,0.0,0.0
 szklarnia z poliwęglanu z rynnami,release,,0.0,0.0,0.0,0.0
@@ -1370,12 +1242,9 @@ szklarnie holenderki,release,,1.0,0.0,0.0,0.0
 szklarnie i tunele,release,,12.0,0.0,0.0,0.0
 szklarnie i tunele ogrodowe,release,,3.0,0.0,0.0,0.0
 szklarnie imielin,release,,125.0,0.0,0.0,0.0
-szklarnie juliana topszklarnie,release,,1.0,0.0,0.0,0.0
 szklarnie kalisz,release,,15.0,0.0,0.0,0.0
-szklarnie kopułowe,release,,41.0,0.0,0.0,0.0
 szklarnie kraków,release,,1.0,0.0,0.0,0.0
 szklarnie krzeszowice,release,,2.0,0.0,0.0,0.0
-szklarnie lectus,release,,8.0,0.0,0.0,0.0
 szklarnie leonów,release,,2.0,0.0,0.0,0.0
 szklarnie lubelskie,release,,10.0,0.0,0.0,0.0
 szklarnie lublin,release,,6.0,0.0,0.0,0.0
@@ -1405,7 +1274,6 @@ szklarnie pcv,release,,23.0,0.0,0.0,0.0
 szklarnie podkarpacie,release,,2.0,0.0,0.0,0.0
 szklarnie podkarpackie,release,,14.0,0.0,0.0,0.0
 szklarnie podlaskie,release,,4.0,0.0,0.0,0.0
-szklarnie podziemne,release,,2.0,0.0,0.0,0.0
 szklarnie pojedyncze,release,,2.0,0.0,0.0,0.0
 szklarnie polska,release,,17.0,0.0,0.0,0.0
 szklarnie polski producent,release,,24.0,0.0,0.0,0.0
@@ -1418,8 +1286,6 @@ szklarnie rolnicze,release,,18.0,0.0,0.0,0.0
 szklarnie rzeszów,release,,5.0,0.0,0.0,0.0
 szklarnie sadów,release,,9.0,0.0,0.0,0.0
 szklarnie sarnów,release,,2.0,0.0,0.0,0.0
-szklarnie sprzedam,release,,31.0,0.0,0.0,0.0
-szklarnie stimeo,release,,2.0,0.0,0.0,0.0
 szklarnie suwałki,release,,2.0,0.0,0.0,0.0
 szklarnie szczecin,release,,11.0,0.0,0.0,0.0
 szklarnie tutaj,release,,21.0,0.0,0.0,0.0
@@ -1429,7 +1295,6 @@ szklarnie w ziemi,release,,18.0,0.0,0.0,0.0
 szklarnie warszawa,release,,10.0,0.0,0.0,0.0
 szklarnie warzywne,release,,22.0,0.0,0.0,0.0
 szklarnie wertykalne,release,,14.0,0.0,0.0,0.0
-szklarnie wesoły rolnik,release,,23.0,0.0,0.0,0.0
 szklarnie wielkopowierzchniowe,release,,3.0,0.0,0.0,0.0
 szklarnie wrocław,release,,10.0,0.0,0.0,0.0
 szklarnie wyprzedaż,release,,69.0,0.0,0.0,0.0
@@ -1442,13 +1307,11 @@ szklarnie z poliwęglanu polskiej produkcji,release,,26.0,0.0,0.0,0.0
 szklarnie z poliwęglanu pomorskie,release,,9.0,0.0,0.0,0.0
 szklarnie z poliwęglanu poznań,release,,2.0,0.0,0.0,0.0
 szklarnie z poliwęglanu promocje,release,,40.0,0.0,0.0,0.0
-szklarnie z poliwęglanu wesoły rolnik,release,,11.0,0.0,0.0,0.0
 szklarnie z poliwęglanu wrocław,release,,3.0,0.0,0.0,0.0
 szklarnie z poliwęglanu z fundamentem,release,,37.0,0.0,0.0,0.0
 szklarnie z pomidorami,release,,36.0,0.0,0.0,0.0
 szklarnie zambrów,release,,5.0,0.0,0.0,0.0
 szklarnie ze szkla,release,,31.0,0.0,0.0,0.0
-szklarnie24,release,,18.0,0.0,0.0,0.0
 szklarniepolska,release,,1.0,0.0,0.0,0.0
 szklarniowy,release,,5.0,0.0,0.0,0.0
 szklenie szklarni,release,,13.0,0.0,0.0,0.0
@@ -1459,10 +1322,7 @@ tanie namioty ogrodowe,release,,56.0,0.0,0.0,0.0
 tanie tunele,release,,3.0,0.0,0.0,0.0
 tanie tunele ogrodnicze,release,,2.0,0.0,0.0,0.0
 tanie tunele ogrodowe,release,,64.0,0.0,0.0,0.0
-top szklarnie juliana,release,,30.0,0.0,0.0,0.0
 top szklarnie pl,release,,18.0,0.0,0.0,0.0
-topszklarnie,release,,39.0,0.0,0.0,0.0
-topszklarnie pl,release,,14.0,0.0,0.0,0.0
 truskawka tunelowa,release,,13.0,0.0,0.0,0.0
 tunel 12,release,,2.0,0.0,0.0,0.0
 tunel 18m2,release,,9.0,0.0,0.0,0.0
@@ -1480,7 +1340,6 @@ tunel agricole,release,,1.0,0.0,0.0,0.0
 tunel agrofibrowy,release,,10.0,0.0,0.0,0.0
 tunel blaszany,release,,13.0,0.0,0.0,0.0
 tunel caloroczny,release,,12.0,0.0,0.0,0.0
-tunel carrefour,release,,6.0,0.0,0.0,0.0
 tunel całoroczny,release,,31.0,0.0,0.0,0.0
 tunel cena,release,,36.0,0.0,0.0,0.0
 tunel cieplarniany,release,,6.0,0.0,0.0,0.0
@@ -1497,7 +1356,6 @@ tunel gospodarczy,release,,28.0,0.0,0.0,0.0
 tunel gotycki,release,,23.0,0.0,0.0,0.0
 tunel hodowlany,release,,11.0,0.0,0.0,0.0
 tunel jan,release,,1.0,0.0,0.0,0.0
-tunel lemar,release,,154.0,0.0,0.0,0.0
 tunel maly,release,,23.0,0.0,0.0,0.0
 tunel nadmuchiwany,release,,1.0,0.0,0.0,0.0
 tunel namiot,release,,7.0,0.0,0.0,0.0
@@ -1529,7 +1387,6 @@ tunel plastikowy do ogrodu,release,,23.0,0.0,0.0,0.0
 tunel przyścienny,release,,18.0,0.0,0.0,0.0
 tunel pvc,release,,31.0,0.0,0.0,0.0
 tunel siatkowy,release,,15.0,0.0,0.0,0.0
-tunel sprzedam,release,,10.0,0.0,0.0,0.0
 tunel sunny,release,,1.0,0.0,0.0,0.0
 tunel szklarnia ogrodowa,release,,29.0,0.0,0.0,0.0
 tunel szklarnia poliwęglan,release,,40.0,0.0,0.0,0.0
@@ -1558,7 +1415,6 @@ tunele namiotowe,release,,12.0,0.0,0.0,0.0
 tunele ogrodnicze na działkę,release,,10.0,0.0,0.0,0.0
 tunele ogrodowe cena,release,,27.0,0.0,0.0,0.0
 tunele ogrodowe ceny,release,,48.0,0.0,0.0,0.0
-tunele ogrodowe lemar,release,,23.0,0.0,0.0,0.0
 tunele ogrodowe małe,release,,24.0,0.0,0.0,0.0
 tunele ogrodowe rzeszów,release,,21.0,0.0,0.0,0.0
 tunele poliwęglan,release,,7.0,0.0,0.0,0.0
@@ -1583,18 +1439,15 @@ urządzenie szklarni przydomowej,release,,8.0,0.0,0.0,0.0
 uszczelnienie szklarni z poliwęglanu,release,,9.0,0.0,0.0,0.0
 w jakim miejscu postawic szklarnie,release,,5.0,0.0,0.0,0.0
 w m l szklarnie,release,,0.0,0.0,0.0,0.0
-walipini szklarnia,release,,32.0,0.0,0.0,0.0
 warzywa tunelowe,release,,11.0,0.0,0.0,0.0
 warzywniak szklarnia,release,,18.0,0.0,0.0,0.0
 waska szklarnia,release,,4.0,0.0,0.0,0.0
-wesoły rolnik szklarnie,release,,142.0,0.0,0.0,0.0
 wideshop szklarnia,release,,22.0,0.0,0.0,0.0
 wielka szklarnia,release,,21.0,0.0,0.0,0.0
 wm group szklarnia,release,,9.0,0.0,0.0,0.0
 wm group szklarnie,release,,3.0,0.0,0.0,0.0
 wm szklarnia,release,,40.0,0.0,0.0,0.0
 wm szklarnia pl,release,,62.0,0.0,0.0,0.0
-www ekoszklarnia pl,release,,0.0,0.0,0.0,0.0
 www szklarnia pro,release,,1.0,0.0,0.0,0.0
 www szklarnie pl,release,,13.0,0.0,0.0,0.0
 www szklarnie pro,release,,5.0,0.0,0.0,0.0

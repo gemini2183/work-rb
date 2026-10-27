@@ -24,7 +24,7 @@ tunele foliowe,covered_other,foliowe,508.0,12.0,12.95,0.0
 szklarnia z poliwęglanu ceneo,covered_other,ceneo,51.0,11.0,10.58,0.0
 tunel na pomidory castorama,covered_other,na tunel,360.0,11.0,20.38,0.0
 bricomarche,covered_other,bricomarche,684.0,10.0,12.52,0.0
-poliwęglan na szklarnie,covered_other,na szklarnie,277.0,10.0,7.86,0.0
+poliwęglan na szklarnie,covered_other,poliwęglan na szklarnie,277.0,10.0,7.86,0.0
 castorama tunele ogrodowe,covered_other,castorama,123.0,9.0,17.68,0.0
 leroy merlin wyprzedaż ogród,covered_other,leroy,621.0,9.0,14.79,0.0
 szklarnia castorama,covered_other,castorama,858.0,9.0,14.41,0.0
@@ -46,7 +46,7 @@ szklarnia całoroczna ogrzewana,covered_other,ogrzewana,23.0,7.0,17.77,0.0
 szklarnia leroy merlin,covered_other,leroy,416.0,7.0,14.22,0.0
 greenhouse,covered_other,greenhouse,658.0,6.0,8.719999999999999,0.0
 mała szklarnia castorama,covered_other,castorama,307.0,6.0,7.48,0.0
-na czym postawić szklarnie z poliwęglanu,covered_other,czym,346.0,6.0,5.93,0.0
+na czym postawić szklarnie z poliwęglanu,covered_other,na szklarnie,346.0,6.0,5.93,0.0
 nowoczesna szklarnia ogrodowa,covered_other,nowoczesna,305.0,6.0,9.19,0.0
 szklarenka,covered_other,szklarenka,386.0,6.0,7.54,0.0
 szklarnie na pomidory,covered_other,na szklarnie,104.0,6.0,10.01,0.0
@@ -88,7 +88,7 @@ obi szklarnia,covered_other,obi,284.0,3.0,4.79,0.0
 ogrodosfera wyprzedaż,covered_other,ogrodosfera,207.0,3.0,6.39,0.0
 plyta poliweglan,covered_other,plyta,26.0,3.0,3.49,0.0
 poliwęglan leroy merlin,covered_other,leroy,55.0,3.0,5.29,0.0
-szklarenka ikea,covered_other,szklarenka,65.0,3.0,4.5,0.0
+szklarenka ikea,covered_other,ikea,65.0,3.0,4.5,0.0
 szklarnia aluminiowa,covered_other,aluminiowa,52.0,3.0,5.21,0.0
 szklarnia mrówka,covered_other,mrówka,215.0,3.0,3.58,0.0
 szklarnia obi,covered_other,obi,394.0,3.0,4.1,0.0
@@ -122,7 +122,7 @@ jak postawić szklarnie z poliwęglanu,covered_other,jak,101.0,2.0,1.69,0.0
 jak zagospodarowac szklarnie,covered_other,jak,55.0,2.0,3.02,0.0
 jak zmontować szklarnie z poliwęglanu,covered_other,jak,110.0,2.0,1.6,0.0
 jak zrobic samemu szklarnie,covered_other,jak,53.0,2.0,2.71,0.0
-konstrukcje tunelu foliowego,covered_other,tunelu,10.0,2.0,3.11,0.0
+konstrukcje tunelu foliowego,covered_other,foliowego,10.0,2.0,3.11,0.0
 kopuła szklarnia,covered_other,kopuła,70.0,2.0,2.8,0.0
 leroy,covered_other,leroy,99.0,2.0,3.2199999999999998,0.0
 leroy merlin szklarnia,covered_other,leroy,254.0,2.0,3.12,0.0
@@ -153,7 +153,7 @@ szklarnia jak zrobic,covered_other,jak,75.0,2.0,3.3099999999999996,0.0
 szklarnia jula,covered_other,jula,311.0,2.0,2.7800000000000002,0.0
 szklarnia kopuła,covered_other,kopuła,129.0,2.0,3.42,0.0
 szklarnia poliwęglan castorama,covered_other,castorama,104.0,2.0,4.45,0.0
-szklarnia własnej roboty,covered_other,roboty,56.0,2.0,1.04,0.0
+szklarnia własnej roboty,covered_other,własnej,56.0,2.0,1.04,0.0
 szklarnia z pleksi,covered_other,pleksi,112.0,2.0,1.0699999999999998,0.0
 szklarnia z poliwęglanu garant,covered_other,garant,30.0,2.0,3.3499999999999996,0.0
 szklarnia z poliwęglanu jak zamontować,covered_other,jak,53.0,2.0,2.89,0.0
@@ -196,7 +196,7 @@ castorama szklarnie ogrodowe,covered_other,castorama,78.0,1.0,0.73,0.0
 cieniówka na szklarnię,covered_other,cieniówka,2.0,1.0,1.43,0.0
 cultivo szklarnia,covered_other,cultivo,213.0,1.0,1.29,0.0
 czy szklarnia z poliwęglanu chroni przed mrozem,covered_other,czy,10.0,1.0,1.19,0.0
-czy szklarnia z poliwęglanu jest dobra,covered_other,czy,33.0,1.0,1.24,0.0
+czy szklarnia z poliwęglanu jest dobra,covered_other,dobra szklarnia,33.0,1.0,1.24,0.0
 czym przykryć szklarnię,covered_other,czym,29.0,1.0,1.99,0.0
 dom i ogród,covered_other,dom i ogród,511.0,1.0,1.71,0.0
 e szklarnia kod rabatowy,covered_other,e szklarnia,16.0,1.0,1.91,0.0
@@ -204,7 +204,7 @@ e szklarnia poliwęglan,covered_other,e szklarnia,31.0,1.0,1.07,0.0
 eko szklarnia pl,covered_other,eko szklarnia,1.0,1.0,0.5,0.0
 erli okazje,covered_other,erli,13.0,1.0,1.29,0.0
 erlin pl,covered_other,erlin,5.0,1.0,1.36,0.0
-fabryka szklarni garant,covered_other,garant,44.0,1.0,1.54,0.0
+fabryka szklarni garant,covered_other,fabryka,44.0,1.0,1.54,0.0
 folia na działkę,covered_other,folia,12.0,1.0,1.35,0.0
 folia na pomidory castorama,covered_other,folia,14.0,1.0,0.47,0.0
 folia tunelowa uv 10,covered_other,folia,1.0,1.0,1.58,0.0
@@ -263,7 +263,7 @@ mrówka tunel ogrodowy,covered_other,mrówka,144.0,1.0,1.81,0.0
 mrówka tunele ogrodowe,covered_other,mrówka,86.0,1.0,1.9,0.0
 na czym postawić szklarnie,covered_other,na szklarnie,84.0,1.0,1.19,0.0
 na czym postawić szklarnię z poliwęglanu,covered_other,czym,32.0,1.0,1.62,0.0
-na czym postawić tunel z poliwęglanu,covered_other,czym,62.0,1.0,0.48,0.0
+na czym postawić tunel z poliwęglanu,covered_other,na tunel,62.0,1.0,0.48,0.0
 namiot na warzywa castorama,covered_other,castorama,111.0,1.0,0.65,0.0
 namiot ogrodowy 3x3,covered_other,3x3,13.0,1.0,1.44,0.0
 namiot ogrodowy castorama,covered_other,castorama,42.0,1.0,1.09,0.0
@@ -284,7 +284,7 @@ ozdoby ogrodowe,covered_other,ozdoby,67.0,1.0,1.07,0.0
 palram,covered_other,palram,46.0,1.0,1.94,0.0
 palram poliwęglan,covered_other,palram,3.0,1.0,1.75,0.0
 palram szklarnia,covered_other,palram,45.0,1.0,0.78,0.0
-pałąki do tunelu,covered_other,do tunelu,22.0,1.0,0.5,0.0
+pałąki do tunelu,covered_other,pałąki,22.0,1.0,0.5,0.0
 poliwęglan 6mm castorama,covered_other,castorama,21.0,1.0,1.76,0.0
 poliwęglan folia,covered_other,folia,3.0,1.0,0.42,0.0
 poliwęglan na szklarnie w rolce,covered_other,na szklarnie,20.0,1.0,0.54,0.0
@@ -295,7 +295,7 @@ ptf polska,covered_other,ptf,46.0,1.0,0.29,0.0
 rzeczy do ogrodu,covered_other,rzeczy,27.0,1.0,1.43,0.0
 skrzynie na warzywa,covered_other,skrzynie,133.0,1.0,1.03,0.0
 skrzynka ogrodowa na warzywa,covered_other,skrzynka,8.0,1.0,1.17,0.0
-stelaż na tunel foliowy,covered_other,na tunel,2.0,1.0,0.45,0.0
+stelaż na tunel foliowy,covered_other,foliowy,2.0,1.0,0.45,0.0
 szkielet szklarni,covered_other,szkielet,37.0,1.0,0.7,0.0
 szklarnia amazon,covered_other,amazon,13.0,1.0,1.67,0.0
 szklarnia botanic,covered_other,botanic,81.0,1.0,0.48,0.0
@@ -303,7 +303,7 @@ szklarnia bricomarche,covered_other,bricomarche,116.0,1.0,0.95,0.0
 szklarnia ceneo,covered_other,ceneo,1.0,1.0,0.91,0.0
 szklarnia erli,covered_other,erli,53.0,1.0,1.2,0.0
 szklarnia foliowa,covered_other,foliowa,73.0,1.0,0.31,0.0
-szklarnia hacjenda opinie,covered_other,opinie,17.0,1.0,1.46,0.0
+szklarnia hacjenda opinie,covered_other,hacjenda,17.0,1.0,1.46,0.0
 szklarnia ikea,covered_other,ikea,214.0,1.0,1.78,0.0
 szklarnia jak zagospodarować,covered_other,jak,16.0,1.0,0.81,0.0
 szklarnia modułowa,covered_other,modułowa,16.0,1.0,0.65,0.0
@@ -344,7 +344,7 @@ tunel foliowy ranking,covered_other,foliowy,8.0,1.0,0.22,0.0
 tunel leroy merlin,covered_other,leroy,103.0,1.0,0.87,0.0
 tunel mrówka,covered_other,mrówka,48.0,1.0,1.14,0.0
 tunel na borówki,covered_other,na tunel,41.0,1.0,1.38,0.0
-tunel na maliny,covered_other,na tunel,18.0,1.0,2.27,0.0
+tunel na maliny,covered_other,maliny,18.0,1.0,2.27,0.0
 tunel na ogorki gruntowe,covered_other,na tunel,6.0,1.0,1.9,0.0
 tunel na rosliny,covered_other,na tunel,3.0,1.0,6.89,0.0
 tunel ogrodowy bricomarche,covered_other,bricomarche,176.0,1.0,2.33,0.0
@@ -353,7 +353,7 @@ tunel ogrodowy na ogórki,covered_other,na tunel,7.0,1.0,1.21,0.0
 tunel ogrodowy uzywany,covered_other,uzywany,3.0,1.0,1.94,0.0
 tunel szklany,covered_other,szklany,7.0,1.0,0.72,0.0
 tunel z pleksi,covered_other,pleksi,43.0,1.0,0.86,0.0
-tunele do uprawy truskawek,covered_other,uprawy,8.0,1.0,0.26,0.0
+tunele do uprawy truskawek,covered_other,truskawek,8.0,1.0,0.26,0.0
 tunele ogrodowe z poliwęglanu allegro,covered_other,allegro,17.0,1.0,1.09,0.0
 tunele pod warzywa,covered_other,pod,65.0,1.0,1.56,0.0
 tunnel greenhouse,covered_other,greenhouse,33.0,1.0,1.15,0.0
@@ -361,12 +361,12 @@ w szklarni,covered_other,w szklarni,4.0,1.0,0.61,0.0
 10mm polycarbonate greenhouse,covered_other,greenhouse,1.0,0.0,0.0,0.0
 150x200,covered_other,150x200,0.0,0.0,0.0,0.0
 24garden pl,covered_other,24garden,1.0,0.0,0.0,0.0
-6x4 greenhouse,covered_other,6x4,1.0,0.0,0.0,0.0
+6x4 greenhouse,covered_other,greenhouse,1.0,0.0,0.0,0.0
 agro sklep,covered_other,agro sklep,5.0,0.0,0.0,0.0
 agro sklep pl,covered_other,agro sklep,2.0,0.0,0.0,0.0
 agrotunel pl,covered_other,agrotunel,1.0,0.0,0.0,0.0
 akcesoria do ogrodu,covered_other,akcesoria,23.0,0.0,0.0,0.0
-akcesoria do poliwęglanu komorowego,covered_other,do poliwęglanu,3.0,0.0,0.0,0.0
+akcesoria do poliwęglanu komorowego,covered_other,akcesoria,3.0,0.0,0.0,0.0
 akcesoria do warzywniaka,covered_other,akcesoria,1.0,0.0,0.0,0.0
 akcesoria na działkę,covered_other,akcesoria,3.0,0.0,0.0,0.0
 akcesoria ogrodnicze,covered_other,akcesoria,17.0,0.0,0.0,0.0
@@ -386,7 +386,7 @@ allegro szklarnie,covered_other,allegro,12.0,0.0,0.0,0.0
 allegro szklarnie z poliwęglanu,covered_other,allegro,46.0,0.0,0.0,0.0
 allegro tunel ogrodowy,covered_other,allegro,18.0,0.0,0.0,0.0
 allegro tunel z poliwęglanu,covered_other,allegro,24.0,0.0,0.0,0.0
-allegro tunele foliowe,covered_other,allegro,2.0,0.0,0.0,0.0
+allegro tunele foliowe,covered_other,foliowe,2.0,0.0,0.0,0.0
 allegro wszystkie kategorie dom i ogród,covered_other,allegro,36.0,0.0,0.0,0.0
 altanki ogrodowe castorama,covered_other,castorama,13.0,0.0,0.0,0.0
 aluminiowa szklarnia,covered_other,aluminiowa,3.0,0.0,0.0,0.0
@@ -400,7 +400,7 @@ architektura w ogrodzie,covered_other,architektura,2.0,0.0,0.0,0.0
 artykuły ogrodnicze,covered_other,artykuły,20.0,0.0,0.0,0.0
 auchan szklarnia,covered_other,auchan,33.0,0.0,0.0,0.0
 auchan szklarnia ogrodowa,covered_other,auchan,17.0,0.0,0.0,0.0
-automat do okna szklarni,covered_other,do okna,3.0,0.0,0.0,0.0
+automat do okna szklarni,covered_other,automat,3.0,0.0,0.0,0.0
 automatyczna szklarnia,covered_other,automatyczna,8.0,0.0,0.0,0.0
 b&q greenhouse,covered_other,greenhouse,1.0,0.0,0.0,0.0
 backyard greenhouse,covered_other,greenhouse,7.0,0.0,0.0,0.0
@@ -408,11 +408,11 @@ bella palram,covered_other,palram,1.0,0.0,0.0,0.0
 best heavy duty greenhouse kits,covered_other,greenhouse,3.0,0.0,0.0,0.0
 big greenhouse,covered_other,greenhouse,8.0,0.0,0.0,0.0
 blaszane domki ogrodowe,covered_other,blaszane,1.0,0.0,0.0,0.0
-bloczki betonowe pod szklarnię,covered_other,betonowe,12.0,0.0,0.0,0.0
+bloczki betonowe pod szklarnię,covered_other,bloczki,12.0,0.0,0.0,0.0
 bloczki pod szklarnie,covered_other,bloczki,9.0,0.0,0.0,0.0
 bloczki pod szklarnię,covered_other,bloczki,11.0,0.0,0.0,0.0
 blok foliowy,covered_other,foliowy,6.0,0.0,0.0,0.0
-bloki foliowe,covered_other,bloki,6.0,0.0,0.0,0.0
+bloki foliowe,covered_other,foliowe,6.0,0.0,0.0,0.0
 botanic,covered_other,botanic,23.0,0.0,0.0,0.0
 botanic com pl opinie,covered_other,botanic,9.0,0.0,0.0,0.0
 botanic szklarnia,covered_other,botanic,24.0,0.0,0.0,0.0
@@ -450,9 +450,9 @@ bricomarché online,covered_other,bricomarché,3.0,0.0,0.0,0.0
 bricomarché produkty,covered_other,bricomarché,47.0,0.0,0.0,0.0
 bricomarché wyprzedaż ogród,covered_other,bricomarché,9.0,0.0,0.0,0.0
 budowa małej szklarni,covered_other,budowa,5.0,0.0,0.0,0.0
-budowa szklarni ogrodowej,covered_other,ogrodowej,4.0,0.0,0.0,0.0
+budowa szklarni ogrodowej,covered_other,budowa,4.0,0.0,0.0,0.0
 budowa szklarni z drewna,covered_other,drewna,3.0,0.0,0.0,0.0
-budowa tunelu foliowego,covered_other,tunelu,14.0,0.0,0.0,0.0
+budowa tunelu foliowego,covered_other,budowa,14.0,0.0,0.0,0.0
 build a greenhouse,covered_other,greenhouse,2.0,0.0,0.0,0.0
 build greenhouse,covered_other,greenhouse,2.0,0.0,0.0,0.0
 build simple greenhouse,covered_other,greenhouse,1.0,0.0,0.0,0.0
@@ -462,18 +462,18 @@ building greenhouse,covered_other,greenhouse,7.0,0.0,0.0,0.0
 buy a greenhouse,covered_other,greenhouse,3.0,0.0,0.0,0.0
 buy greenhouse,covered_other,greenhouse,5.0,0.0,0.0,0.0
 canopia,covered_other,canopia,3.0,0.0,0.0,0.0
-canopia by palram,covered_other,palram,1.0,0.0,0.0,0.0
-castorama architektura ogrodowa,covered_other,architektura,7.0,0.0,0.0,0.0
+canopia by palram,covered_other,canopia,1.0,0.0,0.0,0.0
+castorama architektura ogrodowa,covered_other,castorama,7.0,0.0,0.0,0.0
 castorama bialystok,covered_other,castorama,2.0,0.0,0.0,0.0
 castorama bydgoszcz,covered_other,castorama,11.0,0.0,0.0,0.0
-castorama dom i ogród,covered_other,dom i ogród,8.0,0.0,0.0,0.0
+castorama dom i ogród,covered_other,castorama,8.0,0.0,0.0,0.0
 castorama ełk,covered_other,castorama,1.0,0.0,0.0,0.0
 castorama gniezno,covered_other,castorama,9.0,0.0,0.0,0.0
 castorama legnica,covered_other,castorama,1.0,0.0,0.0,0.0
 castorama lublin,covered_other,castorama,12.0,0.0,0.0,0.0
 castorama meble ogrodowe,covered_other,meble,4.0,0.0,0.0,0.0
-castorama mini szklarnia,covered_other,mini,2.0,0.0,0.0,0.0
-castorama namiot ogrodowy 3x3,covered_other,3x3,1.0,0.0,0.0,0.0
+castorama mini szklarnia,covered_other,castorama,2.0,0.0,0.0,0.0
+castorama namiot ogrodowy 3x3,covered_other,castorama,1.0,0.0,0.0,0.0
 castorama ogrod,covered_other,castorama,15.0,0.0,0.0,0.0
 castorama ogrodniczy,covered_other,castorama,2.0,0.0,0.0,0.0
 castorama ogród,covered_other,castorama,48.0,0.0,0.0,0.0
@@ -506,7 +506,7 @@ ciekawe tanie pomysły do ogrodu,covered_other,ciekawe pomysły,3.0,0.0,0.0,0.0
 cieplarka do warzyw,covered_other,cieplarka,1.0,0.0,0.0,0.0
 cieplarnia allegro,covered_other,allegro,1.0,0.0,0.0,0.0
 clear greenhouse panels,covered_other,greenhouse,1.0,0.0,0.0,0.0
-co do szklarni,covered_other,do szklarni,2.0,0.0,0.0,0.0
+co do szklarni,covered_other,co,2.0,0.0,0.0,0.0
 combi greenhouse,covered_other,greenhouse,1.0,0.0,0.0,0.0
 como hacer un invernadero,covered_other,invernadero,5.0,0.0,0.0,0.0
 cultivo,covered_other,cultivo,293.0,0.0,0.0,0.0
@@ -514,7 +514,7 @@ cultivo de tomate en invernadero,covered_other,cultivo,1.0,0.0,0.0,0.0
 cultivo opinie,covered_other,cultivo,1.0,0.0,0.0,0.0
 cultivo szklarnie,covered_other,cultivo,7.0,0.0,0.0,0.0
 cultivo tunel ogrodowy,covered_other,cultivo,5.0,0.0,0.0,0.0
-cylindry do pomidorów castorama,covered_other,cylindry,2.0,0.0,0.0,0.0
+cylindry do pomidorów castorama,covered_other,castorama,2.0,0.0,0.0,0.0
 cylindry do pomidorów leroy merlin,covered_other,leroy,3.0,0.0,0.0,0.0
 czy poliwęglan nadaje się na szklarnię,covered_other,czy,11.0,0.0,0.0,0.0
 czy poliwęglan się nagrzewa,covered_other,czy,1.0,0.0,0.0,0.0
@@ -537,7 +537,7 @@ danish greenhouse,covered_other,greenhouse,3.0,0.0,0.0,0.0
 dekoracje ogrodowe,covered_other,dekoracje,8.0,0.0,0.0,0.0
 dekoracje ogrodów,covered_other,dekoracje,1.0,0.0,0.0,0.0
 diseño invernadero,covered_other,invernadero,0.0,0.0,0.0,0.0
-diy greenhouse,covered_other,diy,1.0,0.0,0.0,0.0
+diy greenhouse,covered_other,greenhouse,1.0,0.0,0.0,0.0
 do ogrodu ozdoby,covered_other,ozdoby,5.0,0.0,0.0,0.0
 do ogrzewania szklarni,covered_other,do szklarni,19.0,0.0,0.0,0.0
 dobra szklarnia opinie,covered_other,opinie,4.0,0.0,0.0,0.0
@@ -566,25 +566,25 @@ donice ogrodowe na warzywa,covered_other,donice,4.0,0.0,0.0,0.0
 donice warzywne,covered_other,donice,2.0,0.0,0.0,0.0
 donice warzywniak,covered_other,donice,2.0,0.0,0.0,0.0
 donice warzywnik,covered_other,donice,1.0,0.0,0.0,0.0
-doniczka na pomidory castorama,covered_other,doniczka,3.0,0.0,0.0,0.0
-doniczka na pomidory obi,covered_other,doniczka,4.0,0.0,0.0,0.0
+doniczka na pomidory castorama,covered_other,castorama,3.0,0.0,0.0,0.0
+doniczka na pomidory obi,covered_other,obi,4.0,0.0,0.0,0.0
 doniczka szklarnia,covered_other,doniczka,11.0,0.0,0.0,0.0
 doniczki do rozsady,covered_other,doniczki,9.0,0.0,0.0,0.0
 drewniana szklarnia,covered_other,drewniana,9.0,0.0,0.0,0.0
 drewniana szklarnia ogrodowa,covered_other,drewniana,5.0,0.0,0.0,0.0
-drewniany fundament pod szklarnie z poliwęglanu,covered_other,fundament pod,1.0,0.0,0.0,0.0
-drewniany tunel foliowy,covered_other,drewniany,21.0,0.0,0.0,0.0
+drewniany fundament pod szklarnie z poliwęglanu,covered_other,drewniany,1.0,0.0,0.0,0.0
+drewniany tunel foliowy,covered_other,foliowy,21.0,0.0,0.0,0.0
 drogatrade szklarnie,covered_other,drogatrade,7.0,0.0,0.0,0.0
 drzwi do szklarni,covered_other,do szklarni,5.0,0.0,0.0,0.0
-drzwi do szklarni z poliwęglanu,covered_other,do szklarni,3.0,0.0,0.0,0.0
+drzwi do szklarni z poliwęglanu,covered_other,drzwi,3.0,0.0,0.0,0.0
 duże ozdoby do ogrodu,covered_other,ozdoby,1.0,0.0,0.0,0.0
-e szklarnia allegro,covered_other,e szklarnia,1.0,0.0,0.0,0.0
+e szklarnia allegro,covered_other,allegro,1.0,0.0,0.0,0.0
 e szklarnia kupon rabatowy,covered_other,e szklarnia,4.0,0.0,0.0,0.0
-e szklarnia montaż,covered_other,e szklarnia,8.0,0.0,0.0,0.0
-e szklarnia opinie,covered_other,e szklarnia,18.0,0.0,0.0,0.0
+e szklarnia montaż,covered_other,montaż,8.0,0.0,0.0,0.0
+e szklarnia opinie,covered_other,opinie,18.0,0.0,0.0,0.0
 e szklarnia pl szklarnie ogrodowe i poliwęglan,covered_other,e szklarnia,7.0,0.0,0.0,0.0
 e szklarnia plw,covered_other,e szklarnia,5.0,0.0,0.0,0.0
-e szklarnia zdjęcia,covered_other,e szklarnia,7.0,0.0,0.0,0.0
+e szklarnia zdjęcia,covered_other,zdjęcia,7.0,0.0,0.0,0.0
 ebay kleinanzeigen gewächshaus,covered_other,gewächshaus,2.0,0.0,0.0,0.0
 ekomat szklarnie,covered_other,ekomat,1.0,0.0,0.0,0.0
 ekoszklarnia opinie,covered_other,opinie,2.0,0.0,0.0,0.0
@@ -593,7 +593,7 @@ ekvip jula,covered_other,jula,1.0,0.0,0.0,0.0
 elementy szklarni,covered_other,elementy,1.0,0.0,0.0,0.0
 empik namiot ogrodowy,covered_other,empik,1.0,0.0,0.0,0.0
 empik szklarnia,covered_other,empik,7.0,0.0,0.0,0.0
-erli dom i ogród,covered_other,dom i ogród,4.0,0.0,0.0,0.0
+erli dom i ogród,covered_other,erli,4.0,0.0,0.0,0.0
 erli firma,covered_other,erli,1.0,0.0,0.0,0.0
 erli kupione produkty,covered_other,erli,1.0,0.0,0.0,0.0
 erli moje zakupy,covered_other,erli,28.0,0.0,0.0,0.0
@@ -618,8 +618,8 @@ erli szklarnie,covered_other,erli,14.0,0.0,0.0,0.0
 erli tunel ogrodowy,covered_other,erli,43.0,0.0,0.0,0.0
 erli zakupy,covered_other,erli,4.0,0.0,0.0,0.0
 erli zamówienia,covered_other,erli,9.0,0.0,0.0,0.0
-euro trade line,covered_other,line,1.0,0.0,0.0,0.0
-fabryka garant,covered_other,garant,3.0,0.0,0.0,0.0
+euro trade line,covered_other,trade,1.0,0.0,0.0,0.0
+fabryka garant,covered_other,fabryka,3.0,0.0,0.0,0.0
 fabryka rozsady,covered_other,fabryka,3.0,0.0,0.0,0.0
 fajne pomysły pomysł na tani ogród,covered_other,pomysły,12.0,0.0,0.0,0.0
 farm greenhouse,covered_other,greenhouse,4.0,0.0,0.0,0.0
@@ -629,15 +629,15 @@ farmer sklep,covered_other,farmer,4.0,0.0,0.0,0.0
 farmer szklarnie,covered_other,farmer,50.0,0.0,0.0,0.0
 farmer tunel,covered_other,farmer,35.0,0.0,0.0,0.0
 farmer tunele cena,covered_other,farmer,8.0,0.0,0.0,0.0
-farmer tunele foliowe,covered_other,foliowe,17.0,0.0,0.0,0.0
-farmer tunele foliowe cena,covered_other,foliowe,3.0,0.0,0.0,0.0
+farmer tunele foliowe,covered_other,farmer,17.0,0.0,0.0,0.0
+farmer tunele foliowe cena,covered_other,farmer,3.0,0.0,0.0,0.0
 farmer tunele sklep,covered_other,farmer,56.0,0.0,0.0,0.0
 febestore,covered_other,febestore,17.0,0.0,0.0,0.0
 febestore pl,covered_other,febestore,5.0,0.0,0.0,0.0
 fensteraussteller gewächshaus,covered_other,gewächshaus,1.0,0.0,0.0,0.0
 firma erli,covered_other,erli,35.0,0.0,0.0,0.0
 firma farmer tunele,covered_other,farmer,4.0,0.0,0.0,0.0
-firma farmer tunele foliowe,covered_other,foliowe,1.0,0.0,0.0,0.0
+firma farmer tunele foliowe,covered_other,farmer,1.0,0.0,0.0,0.0
 firma palram,covered_other,palram,3.0,0.0,0.0,0.0
 focus garden,covered_other,garden,13.0,0.0,0.0,0.0
 focus garden szklarnia,covered_other,garden,7.0,0.0,0.0,0.0
@@ -646,12 +646,12 @@ focus garden wyprzedaż,covered_other,garden,0.0,0.0,0.0,0.0
 focus garten,covered_other,garten,1.0,0.0,0.0,0.0
 fokus garden,covered_other,garden,5.0,0.0,0.0,0.0
 folia do pomidorow,covered_other,folia,4.0,0.0,0.0,0.0
-folia do szklarni,covered_other,do szklarni,5.0,0.0,0.0,0.0
-folia do uprawy warzyw,covered_other,uprawy,3.0,0.0,0.0,0.0
+folia do szklarni,covered_other,folia,5.0,0.0,0.0,0.0
+folia do uprawy warzyw,covered_other,folia,3.0,0.0,0.0,0.0
 folia do warzyw,covered_other,folia,3.0,0.0,0.0,0.0
 folia na ogród,covered_other,folia,2.0,0.0,0.0,0.0
-folia na szklarnie,covered_other,na szklarnie,20.0,0.0,0.0,0.0
-folia na tunel foliowy,covered_other,na tunel,3.0,0.0,0.0,0.0
+folia na szklarnie,covered_other,folia,20.0,0.0,0.0,0.0
+folia na tunel foliowy,covered_other,folia,3.0,0.0,0.0,0.0
 folia ogrodnicza,covered_other,folia,1.0,0.0,0.0,0.0
 folia ogrodowa tunel,covered_other,folia,1.0,0.0,0.0,0.0
 folia ogrodowa z poliwęglanu,covered_other,folia,6.0,0.0,0.0,0.0
@@ -669,7 +669,7 @@ folia tunelowa 12 sezonowa,covered_other,folia,1.0,0.0,0.0,0.0
 folia warzywna,covered_other,folia,1.0,0.0,0.0,0.0
 foliaj,covered_other,foliaj,4.0,0.0,0.0,0.0
 foliak warzywny,covered_other,foliak,2.0,0.0,0.0,0.0
-foliak z drewna,covered_other,foliak,1.0,0.0,0.0,0.0
+foliak z drewna,covered_other,drewna,1.0,0.0,0.0,0.0
 foliaki,covered_other,foliaki,5.0,0.0,0.0,0.0
 foliaki z poliwęglanu,covered_other,foliaki,11.0,0.0,0.0,0.0
 foliarnia,covered_other,foliarnia,9.0,0.0,0.0,0.0
@@ -701,13 +701,13 @@ foliówki ogrodowe,covered_other,foliówki,2.0,0.0,0.0,0.0
 forever greenhouse,covered_other,greenhouse,1.0,0.0,0.0,0.0
 fotos de un invernadero,covered_other,invernadero,4.0,0.0,0.0,0.0
 free standing greenhouse,covered_other,greenhouse,2.0,0.0,0.0,0.0
-fundament betonowy pod szklarnię,covered_other,fundament,2.0,0.0,0.0,0.0
+fundament betonowy pod szklarnię,covered_other,betonowy,2.0,0.0,0.0,0.0
 fundament do szklarni z poliwęglanu,covered_other,fundament,7.0,0.0,0.0,0.0
 fundament pod agregat,covered_other,fundament pod,1.0,0.0,0.0,0.0
 fundament pod szklarnie z poliweglanu,covered_other,fundament pod,21.0,0.0,0.0,0.0
 fundament pod szklarnię ogrodową,covered_other,fundament pod,1.0,0.0,0.0,0.0
 gadżety ogrodowe,covered_other,gadżety,10.0,0.0,0.0,0.0
-garant fabryka szklarni,covered_other,garant,4.0,0.0,0.0,0.0
+garant fabryka szklarni,covered_other,fabryka,4.0,0.0,0.0,0.0
 garant szklarnia,covered_other,garant,2.0,0.0,0.0,0.0
 garden sklep internetowy,covered_other,garden,1.0,0.0,0.0,0.0
 garden technologies,covered_other,garden,19.0,0.0,0.0,0.0
@@ -721,12 +721,12 @@ gewächshaus gebraucht kaufen,covered_other,gewächshaus,5.0,0.0,0.0,0.0
 gewächshaus glas restposten,covered_other,gewächshaus,3.0,0.0,0.0,0.0
 gewächshaus innen,covered_other,gewächshaus,2.0,0.0,0.0,0.0
 gewächshaus kaufen,covered_other,gewächshaus,22.0,0.0,0.0,0.0
-gewächshaus kaufen amazon,covered_other,gewächshaus,3.0,0.0,0.0,0.0
+gewächshaus kaufen amazon,covered_other,amazon,3.0,0.0,0.0,0.0
 gewächshaus klein,covered_other,gewächshaus,6.0,0.0,0.0,0.0
 gewächshaus kleingarten,covered_other,gewächshaus,1.0,0.0,0.0,0.0
 gewächshaus modell,covered_other,gewächshaus,1.0,0.0,0.0,0.0
 gewächshaus neu,covered_other,gewächshaus,4.0,0.0,0.0,0.0
-gewächshaus obi,covered_other,gewächshaus,4.0,0.0,0.0,0.0
+gewächshaus obi,covered_other,obi,4.0,0.0,0.0,0.0
 gewächshaus outsunny,covered_other,gewächshaus,1.0,0.0,0.0,0.0
 gewächshaus restposten,covered_other,gewächshaus,6.0,0.0,0.0,0.0
 gewächshaus stahlhalle,covered_other,gewächshaus,2.0,0.0,0.0,0.0
@@ -755,7 +755,7 @@ green house szklarnie,covered_other,green house,7.0,0.0,0.0,0.0
 green house tunnel,covered_other,green house,20.0,0.0,0.0,0.0
 green house uk,covered_other,green house,1.0,0.0,0.0,0.0
 green house wood,covered_other,green house,1.0,0.0,0.0,0.0
-greenhouse amazon uk,covered_other,greenhouse,2.0,0.0,0.0,0.0
+greenhouse amazon uk,covered_other,amazon,2.0,0.0,0.0,0.0
 greenhouse and shed combo,covered_other,greenhouse,1.0,0.0,0.0,0.0
 greenhouse base,covered_other,greenhouse,1.0,0.0,0.0,0.0
 greenhouse build,covered_other,greenhouse,6.0,0.0,0.0,0.0
@@ -772,11 +772,11 @@ greenhouse from pvc,covered_other,greenhouse,1.0,0.0,0.0,0.0
 greenhouse gardening,covered_other,greenhouse,2.0,0.0,0.0,0.0
 greenhouse glass,covered_other,greenhouse,5.0,0.0,0.0,0.0
 greenhouse glass panels,covered_other,greenhouse,1.0,0.0,0.0,0.0
-greenhouse home,covered_other,greenhouse,5.0,0.0,0.0,0.0
-greenhouse in winter,covered_other,greenhouse,6.0,0.0,0.0,0.0
+greenhouse home,covered_other,home,5.0,0.0,0.0,0.0
+greenhouse in winter,covered_other,in,6.0,0.0,0.0,0.0
 greenhouse kit,covered_other,greenhouse,2.0,0.0,0.0,0.0
 greenhouse kits,covered_other,greenhouse,1.0,0.0,0.0,0.0
-greenhouse lidl,covered_other,greenhouse,1.0,0.0,0.0,0.0
+greenhouse lidl,covered_other,lidl,1.0,0.0,0.0,0.0
 greenhouse modular,covered_other,greenhouse,5.0,0.0,0.0,0.0
 greenhouse on wheels,covered_other,greenhouse,2.0,0.0,0.0,0.0
 greenhouse picture,covered_other,greenhouse,1.0,0.0,0.0,0.0
@@ -790,7 +790,7 @@ greenhouse price,covered_other,greenhouse,3.0,0.0,0.0,0.0
 greenhouse pvc,covered_other,greenhouse,2.0,0.0,0.0,0.0
 greenhouse pvc pipe,covered_other,greenhouse,4.0,0.0,0.0,0.0
 greenhouse secondhand,covered_other,greenhouse,4.0,0.0,0.0,0.0
-greenhouse service,covered_other,greenhouse,3.0,0.0,0.0,0.0
+greenhouse service,covered_other,service,3.0,0.0,0.0,0.0
 greenhouse shop,covered_other,greenhouse,1.0,0.0,0.0,0.0
 greenhouse sklep,covered_other,greenhouse,4.0,0.0,0.0,0.0
 greenhouse steel,covered_other,greenhouse,3.0,0.0,0.0,0.0
@@ -822,8 +822,8 @@ haygrove tunele,covered_other,haygrove,5.0,0.0,0.0,0.0
 herbs greenhouse,covered_other,greenhouse,3.0,0.0,0.0,0.0
 hipper dom i ogród,covered_other,dom i ogród,3.0,0.0,0.0,0.0
 hochbett fur garten,covered_other,garten,1.0,0.0,0.0,0.0
-hodowla pomidorów w szklarni,covered_other,hodowla,2.0,0.0,0.0,0.0
-home&garden,covered_other,garden,10.0,0.0,0.0,0.0
+hodowla pomidorów w szklarni,covered_other,w szklarni,2.0,0.0,0.0,0.0
+home&garden,covered_other,home,10.0,0.0,0.0,0.0
 homemade greenhouse,covered_other,greenhouse,9.0,0.0,0.0,0.0
 homemade greenhouse small,covered_other,greenhouse,1.0,0.0,0.0,0.0
 how make greenhouse,covered_other,greenhouse,1.0,0.0,0.0,0.0
@@ -870,7 +870,7 @@ jak,covered_other,jak,0.0,0.0,0.0,0.0
 jak chronić pomidory przed mrozem,covered_other,jak,7.0,0.0,0.0,0.0
 jak dziala szklarnia,covered_other,jak,0.0,0.0,0.0,0.0
 jak hodować pomidory,covered_other,jak,4.0,0.0,0.0,0.0
-jak hodować pomidory w szklarni,covered_other,jak,3.0,0.0,0.0,0.0
+jak hodować pomidory w szklarni,covered_other,w szklarni,3.0,0.0,0.0,0.0
 jak ocieplić szklarnię,covered_other,jak,2.0,0.0,0.0,0.0
 jak odkazić szklarnię,covered_other,jak,5.0,0.0,0.0,0.0
 jak odkazić tunel po pomidorach,covered_other,jak,17.0,0.0,0.0,0.0
@@ -888,7 +888,7 @@ jak przykryć pomidory przed mrozem,covered_other,jak,3.0,0.0,0.0,0.0
 jak przymocowac szklarnie,covered_other,jak,36.0,0.0,0.0,0.0
 jak przymocowac szklarnie z poliwęglanu,covered_other,jak,25.0,0.0,0.0,0.0
 jak rośnie ogórek szklarniowy,covered_other,jak,3.0,0.0,0.0,0.0
-jak sadzić ogórki w szklarni,covered_other,jak,3.0,0.0,0.0,0.0
+jak sadzić ogórki w szklarni,covered_other,w szklarni,3.0,0.0,0.0,0.0
 jak sadzić pomidory w namiocie,covered_other,jak,1.0,0.0,0.0,0.0
 jak samemu zbudować szklarnię,covered_other,jak,25.0,0.0,0.0,0.0
 jak samemu zrobic szklarnie,covered_other,jak,54.0,0.0,0.0,0.0
@@ -936,7 +936,7 @@ jak założyć szklarnię,covered_other,jak,26.0,0.0,0.0,0.0
 jak założyć warzywnik,covered_other,jak,3.0,0.0,0.0,0.0
 jak zbudowac samemu szklarnie,covered_other,jak,15.0,0.0,0.0,0.0
 jak zbudowac szklarnie,covered_other,jak,106.0,0.0,0.0,0.0
-jak zbudowac szklarnie z okien,covered_other,jak,18.0,0.0,0.0,0.0
+jak zbudowac szklarnie z okien,covered_other,z okien,18.0,0.0,0.0,0.0
 jak zbudować małą szklarnię,covered_other,jak,11.0,0.0,0.0,0.0
 jak zbudować szklarnie drewnianą,covered_other,jak,7.0,0.0,0.0,0.0
 jak zbudować szklarnie z okien,covered_other,jak,22.0,0.0,0.0,0.0
@@ -947,7 +947,7 @@ jak zbudować tunel foliowy z drewna,covered_other,foliowy,4.0,0.0,0.0,0.0
 jak zmontować szklarnię z poliwęglanu,covered_other,jak,13.0,0.0,0.0,0.0
 jak zorganizować ogródek warzywny,covered_other,jak,1.0,0.0,0.0,0.0
 jak zrobic domowa szklarnie,covered_other,jak,16.0,0.0,0.0,0.0
-jak zrobic foliak,covered_other,jak,7.0,0.0,0.0,0.0
+jak zrobic foliak,covered_other,foliak,7.0,0.0,0.0,0.0
 jak zrobic mala szklarnie,covered_other,jak,8.0,0.0,0.0,0.0
 jak zrobic maly ogrodek warzywny,covered_other,jak,1.0,0.0,0.0,0.0
 jak zrobic mini szklarnie w domu,covered_other,mini,2.0,0.0,0.0,0.0
@@ -955,24 +955,24 @@ jak zrobic ogródek,covered_other,jak,1.0,0.0,0.0,0.0
 jak zrobic ogródek warzywny,covered_other,jak,3.0,0.0,0.0,0.0
 jak zrobic szklarnie,covered_other,jak,243.0,0.0,0.0,0.0
 jak zrobic szklarnie samemu,covered_other,jak,66.0,0.0,0.0,0.0
-jak zrobic szklarnie z okien,covered_other,jak,8.0,0.0,0.0,0.0
+jak zrobic szklarnie z okien,covered_other,z okien,8.0,0.0,0.0,0.0
 jak zrobic tanio szklarnie,covered_other,jak,9.0,0.0,0.0,0.0
-jak zrobic tunel na ogorki,covered_other,jak,12.0,0.0,0.0,0.0
+jak zrobic tunel na ogorki,covered_other,na tunel,12.0,0.0,0.0,0.0
 jak zrobic warzywniak w ogrodzie,covered_other,jak,2.0,0.0,0.0,0.0
 jak zrobić fundament pod szklarnię,covered_other,fundament pod,3.0,0.0,0.0,0.0
-jak zrobić mini szklarnie,covered_other,jak zrobić,4.0,0.0,0.0,0.0
+jak zrobić mini szklarnie,covered_other,mini,4.0,0.0,0.0,0.0
 jak zrobić szklarnie,covered_other,jak zrobić,73.0,0.0,0.0,0.0
-jak zrobić szklarnie na pomidory,covered_other,jak zrobić,10.0,0.0,0.0,0.0
-jak zrobić szklarnie z okien,covered_other,jak zrobić,6.0,0.0,0.0,0.0
-jak zrobić szklarnie z rurek pcv,covered_other,jak zrobić,2.0,0.0,0.0,0.0
+jak zrobić szklarnie na pomidory,covered_other,na szklarnie,10.0,0.0,0.0,0.0
+jak zrobić szklarnie z okien,covered_other,z okien,6.0,0.0,0.0,0.0
+jak zrobić szklarnie z rurek pcv,covered_other,rurek,2.0,0.0,0.0,0.0
 jak zrobić szklarnię,covered_other,jak zrobić,13.0,0.0,0.0,0.0
 jak zrobić szklarnię samemu,covered_other,jak zrobić,3.0,0.0,0.0,0.0
-jak zrobić szklarnię z drewna,covered_other,jak zrobić,1.0,0.0,0.0,0.0
+jak zrobić szklarnię z drewna,covered_other,drewna,1.0,0.0,0.0,0.0
 jak zrobić szklarnię z profili,covered_other,jak zrobić,15.0,0.0,0.0,0.0
-jak zrobić tunel foliowy,covered_other,jak zrobić,3.0,0.0,0.0,0.0
+jak zrobić tunel foliowy,covered_other,foliowy,3.0,0.0,0.0,0.0
 jak zrobić tunel foliowy z drewna,covered_other,foliowy,5.0,0.0,0.0,0.0
 jak zrobić własny tunel foliowy,covered_other,foliowy,3.0,0.0,0.0,0.0
-jaka grubość poliwęglanu na szklarnie,covered_other,jaka,10.0,0.0,0.0,0.0
+jaka grubość poliwęglanu na szklarnie,covered_other,na szklarnie,10.0,0.0,0.0,0.0
 jaka szklarnia do ogrodu,covered_other,jaka,7.0,0.0,0.0,0.0
 jaka szklarnia jest najlepsza,covered_other,jaka,7.0,0.0,0.0,0.0
 jaka szklarnia najlepsza,covered_other,jaka,7.0,0.0,0.0,0.0
@@ -980,10 +980,10 @@ jaka szklarnia z poliwęglanu,covered_other,jaka,2.0,0.0,0.0,0.0
 jaka szklarnia z poliwęglanu forum,covered_other,forum,51.0,0.0,0.0,0.0
 jaka szklarnie wybrac do ogrodu,covered_other,jaka,4.0,0.0,0.0,0.0
 jaka szklarnie z poliwęglanu wybrać,covered_other,jaka,5.0,0.0,0.0,0.0
-jaki poliwęglan na szklarnie,covered_other,na szklarnie,21.0,0.0,0.0,0.0
+jaki poliwęglan na szklarnie,covered_other,poliwęglan na szklarnie,21.0,0.0,0.0,0.0
 jaki poliwęglan na szklarnię,covered_other,poliwęglan na szklarnię,4.0,0.0,0.0,0.0
 jaki tunel foliowy kupić forum,covered_other,foliowy,16.0,0.0,0.0,0.0
-jaki tunel na pomidory,covered_other,na tunel,78.0,0.0,0.0,0.0
+jaki tunel na pomidory,covered_other,jaki,78.0,0.0,0.0,0.0
 jaki tunel ogrodowy wybrać,covered_other,jaki,11.0,0.0,0.0,0.0
 jakie szklarnie polecacie,covered_other,jakie,9.0,0.0,0.0,0.0
 jakie warzywa w skrzyniach,covered_other,jakie,2.0,0.0,0.0,0.0
@@ -1014,12 +1014,12 @@ jysk namiot ogrodowy,covered_other,jysk,4.0,0.0,0.0,0.0
 jysk namioty ogrodowe,covered_other,jysk,16.0,0.0,0.0,0.0
 jysk parawany ogrodowe,covered_other,jysk,1.0,0.0,0.0,0.0
 jysk pawilony,covered_other,jysk,1.0,0.0,0.0,0.0
-jysk pergola ogrodowa,covered_other,pergola,1.0,0.0,0.0,0.0
+jysk pergola ogrodowa,covered_other,jysk,1.0,0.0,0.0,0.0
 jysk szklarnia,covered_other,jysk,33.0,0.0,0.0,0.0
 kablonki,covered_other,kablonki,3.0,0.0,0.0,0.0
 kalenica do poliwęglanu,covered_other,do poliwęglanu,1.0,0.0,0.0,0.0
 kas tunnelkas,covered_other,kas,6.0,0.0,0.0,0.0
-kasia in szklarnia z poliwęglanu,covered_other,kasia,2.0,0.0,0.0,0.0
+kasia in szklarnia z poliwęglanu,covered_other,in,2.0,0.0,0.0,0.0
 kaufland,covered_other,kaufland,5.0,0.0,0.0,0.0
 kaufland namiot ogrodowy,covered_other,kaufland,1.0,0.0,0.0,0.0
 kaufland szklarnia,covered_other,kaufland,12.0,0.0,0.0,0.0
@@ -1027,28 +1027,28 @@ klamka do szklarni z poliwęglanu,covered_other,do szklarni,1.0,0.0,0.0,0.0
 klomby ogrodowe,covered_other,klomby,2.0,0.0,0.0,0.0
 konstrukcja drewniana tunelu foliowego,covered_other,konstrukcja,5.0,0.0,0.0,0.0
 konstrukcja metalowa tunelu foliowego,covered_other,konstrukcja,6.0,0.0,0.0,0.0
-konstrukcja na tunel foliowy,covered_other,na tunel,1.0,0.0,0.0,0.0
-konstrukcja pod panele fotowoltaiczne na gruncie,covered_other,panele,1.0,0.0,0.0,0.0
+konstrukcja na tunel foliowy,covered_other,konstrukcja,1.0,0.0,0.0,0.0
+konstrukcja pod panele fotowoltaiczne na gruncie,covered_other,konstrukcja,1.0,0.0,0.0,0.0
 konstrukcja pod szklarnie,covered_other,konstrukcja,5.0,0.0,0.0,0.0
 konstrukcja pod tunel foliowy,covered_other,konstrukcja,4.0,0.0,0.0,0.0
 konstrukcja stalowa,covered_other,konstrukcja,1.0,0.0,0.0,0.0
 konstrukcja stalowa dachu cena,covered_other,konstrukcja,1.0,0.0,0.0,0.0
-konstrukcja stalowa pod tunel foliowy,covered_other,foliowy,4.0,0.0,0.0,0.0
+konstrukcja stalowa pod tunel foliowy,covered_other,konstrukcja,4.0,0.0,0.0,0.0
 konstrukcja szklarni,covered_other,konstrukcja,35.0,0.0,0.0,0.0
 konstrukcja szklarni drewnianej,covered_other,konstrukcja,1.0,0.0,0.0,0.0
 konstrukcja szklarni z drewna,covered_other,konstrukcja,4.0,0.0,0.0,0.0
 konstrukcja tunelu foliowego,covered_other,konstrukcja,58.0,0.0,0.0,0.0
-konstrukcja tunelu foliowego z drewna,covered_other,foliowego,1.0,0.0,0.0,0.0
-konstrukcja tunelu foliowego z pcv,covered_other,foliowego,7.0,0.0,0.0,0.0
+konstrukcja tunelu foliowego z drewna,covered_other,konstrukcja,1.0,0.0,0.0,0.0
+konstrukcja tunelu foliowego z pcv,covered_other,konstrukcja,7.0,0.0,0.0,0.0
 konstrukcja tunelu ogrodowego,covered_other,konstrukcja,3.0,0.0,0.0,0.0
 konstrukcje tuneli foliowych,covered_other,foliowych,1.0,0.0,0.0,0.0
-konstrukcje tuneli foliowych używane,covered_other,foliowych,10.0,0.0,0.0,0.0
+konstrukcje tuneli foliowych używane,covered_other,używane,10.0,0.0,0.0,0.0
 kopuła do ogrodu,covered_other,kopuła,7.0,0.0,0.0,0.0
 kopuła geodezyjna szklarnia,covered_other,kopuła,31.0,0.0,0.0,0.0
 kopuła ogrodowa,covered_other,kopuła,111.0,0.0,0.0,0.0
 kopuła poliwęglanowa,covered_other,kopuła,4.0,0.0,0.0,0.0
 kopuła sferyczna szklarnia,covered_other,kopuła,56.0,0.0,0.0,0.0
-koszt budowy 1 ha szklarni,covered_other,ha,4.0,0.0,0.0,0.0
+koszt budowy 1 ha szklarni,covered_other,budowy,4.0,0.0,0.0,0.0
 large glass greenhouse,covered_other,greenhouse,1.0,0.0,0.0,0.0
 large greenhouses,covered_other,greenhouses,3.0,0.0,0.0,0.0
 lean to greenhouse,covered_other,greenhouse,1.0,0.0,0.0,0.0
@@ -1104,7 +1104,7 @@ leroy poliwęglan,covered_other,leroy,2.0,0.0,0.0,0.0
 leroy tunel ogrodowy,covered_other,leroy,12.0,0.0,0.0,0.0
 lidl,covered_other,lidl,17.0,0.0,0.0,0.0
 lidl gazetka szklarnia,covered_other,lidl,2.0,0.0,0.0,0.0
-lidl greenhouse,covered_other,greenhouse,1.0,0.0,0.0,0.0
+lidl greenhouse,covered_other,lidl,1.0,0.0,0.0,0.0
 lidl namiot ogrodowy,covered_other,lidl,4.0,0.0,0.0,0.0
 lidl online,covered_other,lidl,3.0,0.0,0.0,0.0
 lidl szklarnia ogrodowa,covered_other,lidl,24.0,0.0,0.0,0.0
@@ -1142,36 +1142,36 @@ małe tunele foliowe,covered_other,foliowe,6.0,0.0,0.0,0.0
 mały foliak,covered_other,foliak,1.0,0.0,0.0,0.0
 mały tunel foliowy,covered_other,foliowy,2.0,0.0,0.0,0.0
 mały tunel ogrodowy allegro,covered_other,allegro,2.0,0.0,0.0,0.0
-meble ogrodowe leroy,covered_other,leroy,1.0,0.0,0.0,0.0
-meble ogrodowe leroy merlin,covered_other,leroy,1.0,0.0,0.0,0.0
-meblobranie tunel foliowy,covered_other,foliowy,1.0,0.0,0.0,0.0
+meble ogrodowe leroy,covered_other,meble,1.0,0.0,0.0,0.0
+meble ogrodowe leroy merlin,covered_other,meble,1.0,0.0,0.0,0.0
+meblobranie tunel foliowy,covered_other,meblobranie,1.0,0.0,0.0,0.0
 mega greenhouse,covered_other,greenhouse,1.0,0.0,0.0,0.0
 merkury market bielsko,covered_other,merkury,3.0,0.0,0.0,0.0
 merkury market szklarnia,covered_other,merkury,32.0,0.0,0.0,0.0
 merkury market tarnów,covered_other,merkury,1.0,0.0,0.0,0.0
 merlin leroy,covered_other,leroy,12.0,0.0,0.0,0.0
-metalowy stelaż do szklarni,covered_other,do szklarni,2.0,0.0,0.0,0.0
+metalowy stelaż do szklarni,covered_other,stelaż,2.0,0.0,0.0,0.0
 metalowy stelaż do tunelu foliowego,covered_other,foliowego,7.0,0.0,0.0,0.0
 mikro szklarnia,covered_other,mikro,20.0,0.0,0.0,0.0
 milik szklarnia,covered_other,milik,4.0,0.0,0.0,0.0
 mini grenhouse,covered_other,mini,1.0,0.0,0.0,0.0
-mini szklarenka,covered_other,mini,3.0,0.0,0.0,0.0
+mini szklarenka,covered_other,szklarenka,3.0,0.0,0.0,0.0
 mini szklarenki,covered_other,mini,4.0,0.0,0.0,0.0
-mini szklarnia castorama,covered_other,mini,13.0,0.0,0.0,0.0
+mini szklarnia castorama,covered_other,castorama,13.0,0.0,0.0,0.0
 mini szklarnia cena,covered_other,mini,5.0,0.0,0.0,0.0
 mini szklarnia diy,covered_other,diy,6.0,0.0,0.0,0.0
 mini szklarnia domowa,covered_other,mini,23.0,0.0,0.0,0.0
-mini szklarnia ikea,covered_other,mini,11.0,0.0,0.0,0.0
-mini szklarnia leroy merlin,covered_other,mini,4.0,0.0,0.0,0.0
-mini szklarnia na kwiaty,covered_other,mini,2.0,0.0,0.0,0.0
-mini szklarnia na zioła,covered_other,mini,1.0,0.0,0.0,0.0
+mini szklarnia ikea,covered_other,ikea,11.0,0.0,0.0,0.0
+mini szklarnia leroy merlin,covered_other,leroy,4.0,0.0,0.0,0.0
+mini szklarnia na kwiaty,covered_other,kwiaty,2.0,0.0,0.0,0.0
+mini szklarnia na zioła,covered_other,zioła,1.0,0.0,0.0,0.0
 mini szklarnia ogrodowa,covered_other,mini,161.0,0.0,0.0,0.0
 mini szklarnia ogrodowa z poliwęglanu,covered_other,mini,2.0,0.0,0.0,0.0
 mini szklarnia pokojowa,covered_other,mini,3.0,0.0,0.0,0.0
 mini szklarnia przydomowa,covered_other,mini,5.0,0.0,0.0,0.0
 mini szklarnia z poliwęglanu,covered_other,mini,19.0,0.0,0.0,0.0
 mini szklarnie ogrodowe,covered_other,mini,39.0,0.0,0.0,0.0
-mini tunel foliowy,covered_other,mini,6.0,0.0,0.0,0.0
+mini tunel foliowy,covered_other,foliowy,6.0,0.0,0.0,0.0
 mini tunel ogrodowy,covered_other,mini,6.0,0.0,0.0,0.0
 mini tunele,covered_other,mini,6.0,0.0,0.0,0.0
 miniaturowa szklarnia,covered_other,miniaturowa,1.0,0.0,0.0,0.0
@@ -1183,13 +1183,13 @@ mirpol szklarnia ogrodowa,covered_other,mirpol,25.0,0.0,0.0,0.0
 mobilna szklarnia,covered_other,mobilna,2.0,0.0,0.0,0.0
 mocne pawilony ogrodowe castorama,covered_other,castorama,3.0,0.0,0.0,0.0
 mocny tunel foliowy,covered_other,foliowy,7.0,0.0,0.0,0.0
-mocowanie szklarni do fundamentu,covered_other,do szklarni,7.0,0.0,0.0,0.0
+mocowanie szklarni do fundamentu,covered_other,fundamentu,7.0,0.0,0.0,0.0
 modna szklarnia,covered_other,modna,29.0,0.0,0.0,0.0
 moje erli,covered_other,erli,14.0,0.0,0.0,0.0
 montaz tunelu foliowego,covered_other,montaz,2.0,0.0,0.0,0.0
 montaż okna w szklarni z poliwęglanu,covered_other,montaż,7.0,0.0,0.0,0.0
 montaż szklarni z poliwęglanu profimet,covered_other,montaż,20.0,0.0,0.0,0.0
-montaż tunelu foliowego,covered_other,montaż,1.0,0.0,0.0,0.0
+montaż tunelu foliowego,covered_other,foliowego,1.0,0.0,0.0,0.0
 mrówka,covered_other,mrówka,1.0,0.0,0.0,0.0
 mrówka ogród,covered_other,mrówka,3.0,0.0,0.0,0.0
 mrówka sklep,covered_other,mrówka,5.0,0.0,0.0,0.0
@@ -1203,7 +1203,7 @@ na czym postawić szklarnię,covered_other,czym,88.0,0.0,0.0,0.0
 na czym ustawic szklarnie,covered_other,na szklarnie,18.0,0.0,0.0,0.0
 na szklarnie,covered_other,na szklarnie,1.0,0.0,0.0,0.0
 najlepsze tunele foliowe,covered_other,foliowe,14.0,0.0,0.0,0.0
-najtańsze ogrzewanie tunelu,covered_other,tunelu,1.0,0.0,0.0,0.0
+najtańsze ogrzewanie tunelu,covered_other,ogrzewanie,1.0,0.0,0.0,0.0
 namiot 5x5,covered_other,5x5,3.0,0.0,0.0,0.0
 namiot budowlany castorama,covered_other,castorama,1.0,0.0,0.0,0.0
 namiot castorama,covered_other,castorama,1.0,0.0,0.0,0.0
@@ -1244,17 +1244,17 @@ niemieckie szklarnie ogrodowe,covered_other,niemieckie,9.0,0.0,0.0,0.0
 niska szklarnia,covered_other,niska,3.0,0.0,0.0,0.0
 niska szklarnia ogrodowa,covered_other,niska,5.0,0.0,0.0,0.0
 niski tunel,covered_other,niski,2.0,0.0,0.0,0.0
-niski tunel foliowy na ogórki,covered_other,foliowy,2.0,0.0,0.0,0.0
-niskie tunele foliowe,covered_other,niskie,7.0,0.0,0.0,0.0
-nowa szklarnia opinie,covered_other,opinie,22.0,0.0,0.0,0.0
+niski tunel foliowy na ogórki,covered_other,niski,2.0,0.0,0.0,0.0
+niskie tunele foliowe,covered_other,foliowe,7.0,0.0,0.0,0.0
+nowa szklarnia opinie,covered_other,nowa szklarnia,22.0,0.0,0.0,0.0
 nowaszklarnia,covered_other,nowaszklarnia,128.0,0.0,0.0,0.0
 nowaszklarnia pl,covered_other,nowaszklarnia,46.0,0.0,0.0,0.0
-nowoczesna architektura ogrodowa,covered_other,architektura,2.0,0.0,0.0,0.0
+nowoczesna architektura ogrodowa,covered_other,nowoczesna,2.0,0.0,0.0,0.0
 nowoczesna szklarnia,covered_other,nowoczesna,118.0,0.0,0.0,0.0
 nowoczesne dekoracje do ogrodu,covered_other,dekoracje,4.0,0.0,0.0,0.0
 nowoczesne klomby ogrodowe,covered_other,klomby,2.0,0.0,0.0,0.0
 nowoczesne szklarnie ogrodowe,covered_other,nowoczesne,25.0,0.0,0.0,0.0
-nowoczesne tunele foliowe,covered_other,nowoczesne,2.0,0.0,0.0,0.0
+nowoczesne tunele foliowe,covered_other,foliowe,2.0,0.0,0.0,0.0
 nowoczesny namiot ogrodowy,covered_other,nowoczesny,6.0,0.0,0.0,0.0
 nowoczesny ogród,covered_other,nowoczesny,4.0,0.0,0.0,0.0
 nowoczesny ogród warzywny,covered_other,nowoczesny,31.0,0.0,0.0,0.0
@@ -1304,7 +1304,7 @@ ogrzewana szklarnia,covered_other,ogrzewana,21.0,0.0,0.0,0.0
 ogrzewana szklarnia koszt,covered_other,ogrzewana,7.0,0.0,0.0,0.0
 ogród akcesoria,covered_other,akcesoria,20.0,0.0,0.0,0.0
 ogród castorama,covered_other,castorama,7.0,0.0,0.0,0.0
-ogród ciekawe pomysły,covered_other,ciekawe pomysły,4.0,0.0,0.0,0.0
+ogród ciekawe pomysły,covered_other,pomysły,4.0,0.0,0.0,0.0
 ogród grządki,covered_other,grządki,2.0,0.0,0.0,0.0
 ogród i dom,covered_other,dom i ogród,28.0,0.0,0.0,0.0
 ogród leroy merlin,covered_other,leroy,11.0,0.0,0.0,0.0
@@ -1316,10 +1316,10 @@ ogród zimowy z pleksi,covered_other,pleksi,1.0,0.0,0.0,0.0
 ogród zimowy z poliwęglanu,covered_other,zimowy,6.0,0.0,0.0,0.0
 ogródek warzywny nowoczesny,covered_other,nowoczesny,2.0,0.0,0.0,0.0
 ogródek warzywny skrzynie,covered_other,skrzynie,1.0,0.0,0.0,0.0
-okna do szklarni,covered_other,do szklarni,8.0,0.0,0.0,0.0
+okna do szklarni,covered_other,okna,8.0,0.0,0.0,0.0
 okna poliwęglanowe,covered_other,okna,4.0,0.0,0.0,0.0
 okna z poliwęglanu cennik,covered_other,okna,1.0,0.0,0.0,0.0
-olx szklarnia używana,covered_other,olx,73.0,0.0,0.0,0.0
+olx szklarnia używana,covered_other,używana,73.0,0.0,0.0,0.0
 oranzeria ogrodowa,covered_other,oranzeria,13.0,0.0,0.0,0.0
 oranżeria ogrodowa,covered_other,oranżeria,49.0,0.0,0.0,0.0
 oranżeria ogrodowa z poliwęglanu,covered_other,oranżeria,4.0,0.0,0.0,0.0
@@ -1329,7 +1329,7 @@ ozdoby do ogrodu,covered_other,ozdoby,60.0,0.0,0.0,0.0
 ozdoby do ogrodu ze stali kortenowskiej,covered_other,ozdoby,1.0,0.0,0.0,0.0
 ozdoby na działkę,covered_other,ozdoby,3.0,0.0,0.0,0.0
 palram bella,covered_other,palram,6.0,0.0,0.0,0.0
-palram gewächshaus,covered_other,gewächshaus,1.0,0.0,0.0,0.0
+palram gewächshaus,covered_other,palram,1.0,0.0,0.0,0.0
 palram harmony,covered_other,palram,2.0,0.0,0.0,0.0
 palram industries ltd,covered_other,palram,2.0,0.0,0.0,0.0
 palram polska,covered_other,palram,7.0,0.0,0.0,0.0
@@ -1342,12 +1342,12 @@ pawilony ogrodowe jula,covered_other,jula,2.0,0.0,0.0,0.0
 pawilony ogrodowe jysk,covered_other,jysk,4.0,0.0,0.0,0.0
 pawilony ogrodowe leroy merlin,covered_other,leroy,2.0,0.0,0.0,0.0
 pawilony ogrodowe obi,covered_other,obi,5.0,0.0,0.0,0.0
-pałąki na tunel,covered_other,na tunel,4.0,0.0,0.0,0.0
-pałąki na tunel foliowy,covered_other,na tunel,2.0,0.0,0.0,0.0
-pałąki pod folie,covered_other,folie,1.0,0.0,0.0,0.0
+pałąki na tunel,covered_other,pałąki,4.0,0.0,0.0,0.0
+pałąki na tunel foliowy,covered_other,foliowy,2.0,0.0,0.0,0.0
+pałąki pod folie,covered_other,pałąki,1.0,0.0,0.0,0.0
 pc greenhouse,covered_other,greenhouse,1.0,0.0,0.0,0.0
 pepco akcesoria ogrodowe,covered_other,akcesoria,1.0,0.0,0.0,0.0
-pergola jysk,covered_other,pergola,3.0,0.0,0.0,0.0
+pergola jysk,covered_other,jysk,3.0,0.0,0.0,0.0
 pergola ogrodowa,covered_other,pergola,1.0,0.0,0.0,0.0
 pergola ogrodowa z poliwęglanu,covered_other,pergola,1.0,0.0,0.0,0.0
 pergola tunel,covered_other,pergola,7.0,0.0,0.0,0.0
@@ -1364,7 +1364,7 @@ plyta poliwęglanowa,covered_other,plyta,24.0,0.0,0.0,0.0
 plyta poliwęglanowa trapezowa,covered_other,plyta,1.0,0.0,0.0,0.0
 plyta z poliweglanu,covered_other,plyta,3.0,0.0,0.0,0.0
 plyta z poliwęglanu,covered_other,plyta,4.0,0.0,0.0,0.0
-plyty poliwęglanowe na szklarnie,covered_other,na szklarnie,1.0,0.0,0.0,0.0
+plyty poliwęglanowe na szklarnie,covered_other,plyty,1.0,0.0,0.0,0.0
 pod folią,covered_other,folią,2.0,0.0,0.0,0.0
 podmurówka pod szklarnie,covered_other,podmurówka,3.0,0.0,0.0,0.0
 podwyższona grządka ogrodowa,covered_other,podwyższona,19.0,0.0,0.0,0.0
@@ -1391,7 +1391,7 @@ poliwęglan bricomarche,covered_other,bricomarche,14.0,0.0,0.0,0.0
 poliwęglan castorama cena,covered_other,castorama,15.0,0.0,0.0,0.0
 poliwęglan castorama wymiary,covered_other,castorama,3.0,0.0,0.0,0.0
 poliwęglan cena castorama,covered_other,castorama,1.0,0.0,0.0,0.0
-poliwęglan do szklarni,covered_other,do szklarni,7.0,0.0,0.0,0.0
+poliwęglan do szklarni,covered_other,poliwęglan do szklarni,7.0,0.0,0.0,0.0
 poliwęglan falisty castorama,covered_other,castorama,4.0,0.0,0.0,0.0
 poliwęglan falisty obi,covered_other,obi,1.0,0.0,0.0,0.0
 poliwęglan jak montować,covered_other,jak,2.0,0.0,0.0,0.0
@@ -1399,10 +1399,10 @@ poliwęglan komorowy producent,covered_other,komorowy,1.0,0.0,0.0,0.0
 poliwęglan leroy,covered_other,leroy,8.0,0.0,0.0,0.0
 poliwęglan merkury market,covered_other,merkury,1.0,0.0,0.0,0.0
 poliwęglan mrówka,covered_other,mrówka,15.0,0.0,0.0,0.0
-poliwęglan na szklarnie 6mm,covered_other,na szklarnie,4.0,0.0,0.0,0.0
+poliwęglan na szklarnie 6mm,covered_other,poliwęglan na szklarnie,4.0,0.0,0.0,0.0
 poliwęglan na tunel,covered_other,na tunel,4.0,0.0,0.0,0.0
 poliwęglan na wymiar castorama,covered_other,castorama,22.0,0.0,0.0,0.0
-poliwęglan nano co to jest,covered_other,co to jest,1.0,0.0,0.0,0.0
+poliwęglan nano co to jest,covered_other,nano,1.0,0.0,0.0,0.0
 poliwęglan w rolce na szklarnie,covered_other,na szklarnie,25.0,0.0,0.0,0.0
 poliwęglan warszawa hurtownia,covered_other,hurtownia,1.0,0.0,0.0,0.0
 polskie tunele foliowe,covered_other,foliowe,38.0,0.0,0.0,0.0
@@ -1423,9 +1423,9 @@ producent tuneli foliowych,covered_other,foliowych,44.0,0.0,0.0,0.0
 profesjonalna szklarnia,covered_other,profesjonalna,16.0,0.0,0.0,0.0
 profesjonalne tunele foliowe,covered_other,profesjonalne,10.0,0.0,0.0,0.0
 professional greenhouse,covered_other,greenhouse,6.0,0.0,0.0,0.0
-profil do szklarni,covered_other,do szklarni,2.0,0.0,0.0,0.0
-profile aluminiowe na szklarnie,covered_other,na szklarnie,1.0,0.0,0.0,0.0
-profile do szklarni,covered_other,do szklarni,3.0,0.0,0.0,0.0
+profil do szklarni,covered_other,profil,2.0,0.0,0.0,0.0
+profile aluminiowe na szklarnie,covered_other,profile,1.0,0.0,0.0,0.0
+profile do szklarni,covered_other,profile,3.0,0.0,0.0,0.0
 profimet opinie,covered_other,opinie,20.0,0.0,0.0,0.0
 profimet pl szklarnie instrukcją,covered_other,instrukcją,3.0,0.0,0.0,0.0
 profimet szklarnie opinie,covered_other,opinie,32.0,0.0,0.0,0.0
@@ -1450,15 +1450,15 @@ rhino greenhouse,covered_other,greenhouse,3.0,0.0,0.0,0.0
 robinson greenhouse,covered_other,greenhouse,1.0,0.0,0.0,0.0
 rolmarket hurtownia ogrodnicza centrum ogrodnicze,covered_other,centrum ogrodnicze,6.0,0.0,0.0,0.0
 rolplon s c sklep,covered_other,rolplon,0.0,0.0,0.0,0.0
-rozkładanie tunelu foliowego,covered_other,tunelu,6.0,0.0,0.0,0.0
+rozkładanie tunelu foliowego,covered_other,foliowego,6.0,0.0,0.0,0.0
 rozsadnik castorama,covered_other,castorama,4.0,0.0,0.0,0.0
 rozsadnik leroy merlin,covered_other,leroy,10.0,0.0,0.0,0.0
 rozsadnik lidl,covered_other,lidl,1.0,0.0,0.0,0.0
-rura na tunel foliowy,covered_other,na tunel,1.0,0.0,0.0,0.0
-rurki do tunelu foliowego allegro,covered_other,foliowego,1.0,0.0,0.0,0.0
-rury na szklarnie,covered_other,na szklarnie,2.0,0.0,0.0,0.0
+rura na tunel foliowy,covered_other,foliowy,1.0,0.0,0.0,0.0
+rurki do tunelu foliowego allegro,covered_other,allegro,1.0,0.0,0.0,0.0
+rury na szklarnie,covered_other,rury,2.0,0.0,0.0,0.0
 rury szklarniowe,covered_other,rury,1.0,0.0,0.0,0.0
-rusztowanie pod maliny,covered_other,maliny,2.0,0.0,0.0,0.0
+rusztowanie pod maliny,covered_other,rusztowanie,2.0,0.0,0.0,0.0
 rzeczy na ogrod,covered_other,rzeczy,2.0,0.0,0.0,0.0
 rzeczy na ogród,covered_other,rzeczy,5.0,0.0,0.0,0.0
 rzeczy ogrodowe,covered_other,rzeczy,8.0,0.0,0.0,0.0
@@ -1468,7 +1468,7 @@ second hand greenhouse,covered_other,greenhouse,2.0,0.0,0.0,0.0
 seedlings greenhouse,covered_other,greenhouse,2.0,0.0,0.0,0.0
 sime green house,covered_other,green house,2.0,0.0,0.0,0.0
 simple greenhouse,covered_other,greenhouse,2.0,0.0,0.0,0.0
-siłownik do okna szklarni,covered_other,do okna,3.0,0.0,0.0,0.0
+siłownik do okna szklarni,covered_other,okna,3.0,0.0,0.0,0.0
 sklep budowlany jula,covered_other,jula,1.0,0.0,0.0,0.0
 sklep dom i ogród,covered_other,dom i ogród,12.0,0.0,0.0,0.0
 sklep erli,covered_other,erli,118.0,0.0,0.0,0.0
@@ -1512,37 +1512,37 @@ skrzynka warzywniak,covered_other,skrzynka,7.0,0.0,0.0,0.0
 skrzynki na warzywa castorama,covered_other,castorama,1.0,0.0,0.0,0.0
 small greenhouse,covered_other,greenhouse,5.0,0.0,0.0,0.0
 small greenhouse glass,covered_other,greenhouse,1.0,0.0,0.0,0.0
-small greenhouse home depot,covered_other,greenhouse,0.0,0.0,0.0,0.0
+small greenhouse home depot,covered_other,home,0.0,0.0,0.0,0.0
 small greenhouse kit,covered_other,greenhouse,3.0,0.0,0.0,0.0
 smart greenhouses,covered_other,greenhouses,1.0,0.0,0.0,0.0
 sprzedam tunel foliowy,covered_other,foliowy,13.0,0.0,0.0,0.0
 sprzedam tunel foliowy mazowieckie,covered_other,foliowy,2.0,0.0,0.0,0.0
 sprzedam używany ogród zimowy,covered_other,zimowy,2.0,0.0,0.0,0.0
 stawianie szklarni,covered_other,stawianie,3.0,0.0,0.0,0.0
-stelaz do szklarni,covered_other,do szklarni,2.0,0.0,0.0,0.0
+stelaz do szklarni,covered_other,stelaz,2.0,0.0,0.0,0.0
 stelaz szklarni,covered_other,stelaz,9.0,0.0,0.0,0.0
 stelaz tunel foliowy,covered_other,foliowy,3.0,0.0,0.0,0.0
-stelaz tunelu,covered_other,tunelu,1.0,0.0,0.0,0.0
-stelaż dachu,covered_other,stelaż,1.0,0.0,0.0,0.0
-stelaż do folii ogrodowej,covered_other,do folii,8.0,0.0,0.0,0.0
+stelaz tunelu,covered_other,stelaz,1.0,0.0,0.0,0.0
+stelaż dachu,covered_other,dachu,1.0,0.0,0.0,0.0
+stelaż do folii ogrodowej,covered_other,folii,8.0,0.0,0.0,0.0
 stelaż do szklarni,covered_other,do szklarni,29.0,0.0,0.0,0.0
 stelaż do szklarni używany,covered_other,do szklarni,8.0,0.0,0.0,0.0
 stelaż do szklarni z poliwęglanu,covered_other,stelaż,10.0,0.0,0.0,0.0
 stelaż do tunelu foliowego,covered_other,do tunelu,4.0,0.0,0.0,0.0
 stelaż foliaka,covered_other,foliaka,3.0,0.0,0.0,0.0
-stelaż pod folię ogrodową,covered_other,stelaż,3.0,0.0,0.0,0.0
-stelaż pod szklarnie,covered_other,stelaż,7.0,0.0,0.0,0.0
+stelaż pod folię ogrodową,covered_other,folię,3.0,0.0,0.0,0.0
+stelaż pod szklarnie,covered_other,pod,7.0,0.0,0.0,0.0
 stelaż szklarni,covered_other,stelaż,7.0,0.0,0.0,0.0
 stelaż szklarnia,covered_other,stelaż,2.0,0.0,0.0,0.0
 stelaż tunelu,covered_other,stelaż,1.0,0.0,0.0,0.0
 strona erli,covered_other,erli,2.0,0.0,0.0,0.0
-styrobud grządki podwyższone,covered_other,podwyższone,2.0,0.0,0.0,0.0
-szkielet do folii ogrodowej,covered_other,do folii,1.0,0.0,0.0,0.0
+styrobud grządki podwyższone,covered_other,grządki,2.0,0.0,0.0,0.0
+szkielet do folii ogrodowej,covered_other,folii,1.0,0.0,0.0,0.0
 szkielet do szklarni,covered_other,do szklarni,2.0,0.0,0.0,0.0
-szkielet folii ogrodowej,covered_other,ogrodowej,4.0,0.0,0.0,0.0
-szkielet namiotu foliowego,covered_other,szkielet,1.0,0.0,0.0,0.0
+szkielet folii ogrodowej,covered_other,folii,4.0,0.0,0.0,0.0
+szkielet namiotu foliowego,covered_other,foliowego,1.0,0.0,0.0,0.0
 szkielet szklarni aluminiowy,covered_other,aluminiowy,1.0,0.0,0.0,0.0
-szkielet tunelu foliowego,covered_other,szkielet,9.0,0.0,0.0,0.0
+szkielet tunelu foliowego,covered_other,tunelu,9.0,0.0,0.0,0.0
 szklana szklarnia,covered_other,szklana,48.0,0.0,0.0,0.0
 szklana szklarnia ogrodowa,covered_other,szklana,23.0,0.0,0.0,0.0
 szklarenka do rozsad,covered_other,szklarenka,2.0,0.0,0.0,0.0
@@ -1615,7 +1615,7 @@ szklarnia jak zbudować,covered_other,jak,6.0,0.0,0.0,0.0
 szklarnia jak zrobic samemu,covered_other,jak,60.0,0.0,0.0,0.0
 szklarnia jaką wybrać,covered_other,jaką,4.0,0.0,0.0,0.0
 szklarnia jysk,covered_other,jysk,14.0,0.0,0.0,0.0
-szklarnia kasia in,covered_other,kasia,4.0,0.0,0.0,0.0
+szklarnia kasia in,covered_other,in,4.0,0.0,0.0,0.0
 szklarnia kaufland,covered_other,kaufland,17.0,0.0,0.0,0.0
 szklarnia kiedy sadzić,covered_other,kiedy,2.0,0.0,0.0,0.0
 szklarnia konstrukcja stalowa,covered_other,konstrukcja,27.0,0.0,0.0,0.0
@@ -1679,7 +1679,7 @@ szklarnia ogrodowa z półkami,covered_other,półkami,1.0,0.0,0.0,0.0
 szklarnia ogrodowa ze szkła,covered_other,szkła,12.0,0.0,0.0,0.0
 szklarnia ogrzewana,covered_other,ogrzewana,51.0,0.0,0.0,0.0
 szklarnia oranżeria,covered_other,oranżeria,13.0,0.0,0.0,0.0
-szklarnia palram canopia,covered_other,palram,1.0,0.0,0.0,0.0
+szklarnia palram canopia,covered_other,canopia,1.0,0.0,0.0,0.0
 szklarnia palram hybrid,covered_other,palram,3.0,0.0,0.0,0.0
 szklarnia pod pomidory,covered_other,pod,39.0,0.0,0.0,0.0
 szklarnia pod skrzydłami,covered_other,pod,3.0,0.0,0.0,0.0
@@ -1704,8 +1704,8 @@ szklarnia skladana,covered_other,skladana,9.0,0.0,0.0,0.0
 szklarnia spawana,covered_other,spawana,27.0,0.0,0.0,0.0
 szklarnia stalowa,covered_other,stalowa,41.0,0.0,0.0,0.0
 szklarnia szkielet,covered_other,szkielet,10.0,0.0,0.0,0.0
-szklarnia szklana czarna,covered_other,czarna,2.0,0.0,0.0,0.0
-szklarnia szklana obi,covered_other,obi,14.0,0.0,0.0,0.0
+szklarnia szklana czarna,covered_other,szklana,2.0,0.0,0.0,0.0
+szklarnia szklana obi,covered_other,szklana,14.0,0.0,0.0,0.0
 szklarnia szklana ogrodowa,covered_other,szklana,1.0,0.0,0.0,0.0
 szklarnia szklo,covered_other,szklo,2.0,0.0,0.0,0.0
 szklarnia szklo hartowane,covered_other,szklo,1.0,0.0,0.0,0.0
@@ -1728,7 +1728,7 @@ szklarnia z kwiatami,covered_other,kwiatami,2.0,0.0,0.0,0.0
 szklarnia z montażem,covered_other,z montażem,19.0,0.0,0.0,0.0
 szklarnia z ogrzewaniem,covered_other,ogrzewaniem,6.0,0.0,0.0,0.0
 szklarnia z okien dwuszybowych,covered_other,z okien,16.0,0.0,0.0,0.0
-szklarnia z panelami fotowoltaicznymi,covered_other,panelami,4.0,0.0,0.0,0.0
+szklarnia z panelami fotowoltaicznymi,covered_other,fotowoltaicznymi,4.0,0.0,0.0,0.0
 szklarnia z plastiku,covered_other,z plastiku,13.0,0.0,0.0,0.0
 szklarnia z pleksi cena,covered_other,pleksi,11.0,0.0,0.0,0.0
 szklarnia z podmurówką,covered_other,podmurówką,22.0,0.0,0.0,0.0
@@ -1756,7 +1756,7 @@ szklarnia z szyb,covered_other,szyb,13.0,0.0,0.0,0.0
 szklarnia ze starych okien,covered_other,starych,71.0,0.0,0.0,0.0
 szklarnia ze starych okien drewnianych,covered_other,starych,2.0,0.0,0.0,0.0
 szklarnia ze starych okien plastikowych,covered_other,starych,9.0,0.0,0.0,0.0
-szklarnia ze starych okien zdjęcia,covered_other,zdjęcia,3.0,0.0,0.0,0.0
+szklarnia ze starych okien zdjęcia,covered_other,starych,3.0,0.0,0.0,0.0
 szklarnia ze szkła hartowanego,covered_other,szkła,31.0,0.0,0.0,0.0
 szklarnia zimowa na taras,covered_other,taras,5.0,0.0,0.0,0.0
 szklarnia zimą,covered_other,zimą,6.0,0.0,0.0,0.0
@@ -1771,7 +1771,7 @@ szklarnie domowe allegro,covered_other,allegro,2.0,0.0,0.0,0.0
 szklarnie drewniane,covered_other,drewniane,5.0,0.0,0.0,0.0
 szklarnie drewniane producent,covered_other,drewniane,1.0,0.0,0.0,0.0
 szklarnie farmer,covered_other,farmer,32.0,0.0,0.0,0.0
-szklarnie focus garden opinie,covered_other,garden,1.0,0.0,0.0,0.0
+szklarnie focus garden opinie,covered_other,opinie,1.0,0.0,0.0,0.0
 szklarnie foliowe ceny,covered_other,foliowe,9.0,0.0,0.0,0.0
 szklarnie i tunele foliowe pdf,covered_other,foliowe,7.0,0.0,0.0,0.0
 szklarnie i tunele ogrodowe green house,covered_other,green house,2.0,0.0,0.0,0.0
@@ -1808,11 +1808,11 @@ szklarnie ze szkła hartowanego,covered_other,szkła,8.0,0.0,0.0,0.0
 szklarnię z poliwęglanu opinie,covered_other,opinie,7.0,0.0,0.0,0.0
 szklo do szklarni,covered_other,do szklarni,2.0,0.0,0.0,0.0
 szklo na szklarnie,covered_other,na szklarnie,4.0,0.0,0.0,0.0
-szkło do szklarni,covered_other,do szklarni,2.0,0.0,0.0,0.0
+szkło do szklarni,covered_other,szkło,2.0,0.0,0.0,0.0
 szkło ogrodnicze,covered_other,szkło,5.0,0.0,0.0,0.0
 szopa ogrodowa lidl,covered_other,lidl,1.0,0.0,0.0,0.0
-szyby do szklarni,covered_other,do szklarni,4.0,0.0,0.0,0.0
-szyby na szklarnie,covered_other,na szklarnie,11.0,0.0,0.0,0.0
+szyby do szklarni,covered_other,szyby,4.0,0.0,0.0,0.0
+szyby na szklarnie,covered_other,szyby,11.0,0.0,0.0,0.0
 tania oranżeria,covered_other,oranżeria,4.0,0.0,0.0,0.0
 tanie akcesoria ogrodowe,covered_other,akcesoria,15.0,0.0,0.0,0.0
 tanie meble ogrodowe,covered_other,meble,1.0,0.0,0.0,0.0
@@ -1824,7 +1824,7 @@ tunel auchan,covered_other,auchan,23.0,0.0,0.0,0.0
 tunel cultivo,covered_other,cultivo,32.0,0.0,0.0,0.0
 tunel czy szklarnia,covered_other,czy,27.0,0.0,0.0,0.0
 tunel do truskawek,covered_other,truskawek,8.0,0.0,0.0,0.0
-tunel do uprawy boczniaka,covered_other,uprawy,5.0,0.0,0.0,0.0
+tunel do uprawy boczniaka,covered_other,boczniaka,5.0,0.0,0.0,0.0
 tunel do uprawy pomidorów,covered_other,uprawy,6.0,0.0,0.0,0.0
 tunel do uprawy warzyw,covered_other,uprawy,12.0,0.0,0.0,0.0
 tunel folia ogrodowa,covered_other,folia,17.0,0.0,0.0,0.0
@@ -1832,7 +1832,7 @@ tunel foliowy 18m2,covered_other,foliowy,7.0,0.0,0.0,0.0
 tunel foliowy 20m,covered_other,foliowy,4.0,0.0,0.0,0.0
 tunel foliowy 3,covered_other,foliowy,1.0,0.0,0.0,0.0
 tunel foliowy 50m,covered_other,foliowy,6.0,0.0,0.0,0.0
-tunel foliowy allegro,covered_other,allegro,15.0,0.0,0.0,0.0
+tunel foliowy allegro,covered_other,foliowy,15.0,0.0,0.0,0.0
 tunel foliowy bricomarche,covered_other,foliowy,1.0,0.0,0.0,0.0
 tunel foliowy castorama cena,covered_other,foliowy,1.0,0.0,0.0,0.0
 tunel foliowy cena,covered_other,foliowy,34.0,0.0,0.0,0.0
@@ -1842,29 +1842,29 @@ tunel foliowy do ogrodu,covered_other,foliowy,2.0,0.0,0.0,0.0
 tunel foliowy drewniany,covered_other,drewniany,8.0,0.0,0.0,0.0
 tunel foliowy duzy,covered_other,foliowy,5.0,0.0,0.0,0.0
 tunel foliowy duży,covered_other,foliowy,17.0,0.0,0.0,0.0
-tunel foliowy farmer,covered_other,farmer,28.0,0.0,0.0,0.0
-tunel foliowy farmer cena,covered_other,farmer,2.0,0.0,0.0,0.0
-tunel foliowy focus garden,covered_other,garden,1.0,0.0,0.0,0.0
+tunel foliowy farmer,covered_other,foliowy,28.0,0.0,0.0,0.0
+tunel foliowy farmer cena,covered_other,foliowy,2.0,0.0,0.0,0.0
+tunel foliowy focus garden,covered_other,foliowy,1.0,0.0,0.0,0.0
 tunel foliowy gotycki,covered_other,foliowy,4.0,0.0,0.0,0.0
 tunel foliowy konstrukcja,covered_other,konstrukcja,17.0,0.0,0.0,0.0
 tunel foliowy lemar,covered_other,foliowy,8.0,0.0,0.0,0.0
 tunel foliowy lubelskie,covered_other,foliowy,5.0,0.0,0.0,0.0
-tunel foliowy meblobranie,covered_other,foliowy,1.0,0.0,0.0,0.0
+tunel foliowy meblobranie,covered_other,meblobranie,1.0,0.0,0.0,0.0
 tunel foliowy metalowy,covered_other,foliowy,6.0,0.0,0.0,0.0
 tunel foliowy metalowy stelaż,covered_other,stelaż,3.0,0.0,0.0,0.0
 tunel foliowy mocny,covered_other,foliowy,7.0,0.0,0.0,0.0
 tunel foliowy mrówka,covered_other,mrówka,8.0,0.0,0.0,0.0
-tunel foliowy na allegro,covered_other,na tunel,1.0,0.0,0.0,0.0
-tunel foliowy na rozsady,covered_other,na tunel,3.0,0.0,0.0,0.0
+tunel foliowy na allegro,covered_other,foliowy,1.0,0.0,0.0,0.0
+tunel foliowy na rozsady,covered_other,foliowy,3.0,0.0,0.0,0.0
 tunel foliowy ocynk,covered_other,foliowy,12.0,0.0,0.0,0.0
 tunel foliowy ogrodowy,covered_other,foliowy,9.0,0.0,0.0,0.0
 tunel foliowy ogrzewany,covered_other,foliowy,4.0,0.0,0.0,0.0
 tunel foliowy omega,covered_other,foliowy,12.0,0.0,0.0,0.0
 tunel foliowy papryka,covered_other,foliowy,4.0,0.0,0.0,0.0
 tunel foliowy pod pomidory,covered_other,foliowy,2.0,0.0,0.0,0.0
-tunel foliowy pompowany,covered_other,pompowany,13.0,0.0,0.0,0.0
+tunel foliowy pompowany,covered_other,foliowy,13.0,0.0,0.0,0.0
 tunel foliowy producent,covered_other,foliowy,18.0,0.0,0.0,0.0
-tunel foliowy przyscienny,covered_other,przyscienny,3.0,0.0,0.0,0.0
+tunel foliowy przyscienny,covered_other,foliowy,3.0,0.0,0.0,0.0
 tunel foliowy sprzedam,covered_other,foliowy,11.0,0.0,0.0,0.0
 tunel foliowy stelaż,covered_other,stelaż,1.0,0.0,0.0,0.0
 tunel foliowy stelaż metalowy,covered_other,stelaż,6.0,0.0,0.0,0.0
@@ -1876,16 +1876,16 @@ tunel foliowy używany mazowieckie,covered_other,foliowy,7.0,0.0,0.0,0.0
 tunel foliowy w ziemi,covered_other,foliowy,6.0,0.0,0.0,0.0
 tunel foliowy wyprzedaz,covered_other,foliowy,3.0,0.0,0.0,0.0
 tunel foliowy wysoki,covered_other,foliowy,3.0,0.0,0.0,0.0
-tunel foliowy z drewna,covered_other,foliowy,8.0,0.0,0.0,0.0
+tunel foliowy z drewna,covered_other,drewna,8.0,0.0,0.0,0.0
 tunel foliowy z drzwiami,covered_other,foliowy,9.0,0.0,0.0,0.0
 tunel foliowy z drzwiami na zawiasach,covered_other,zawiasach,3.0,0.0,0.0,0.0
-tunel foliowy z metalowym stelażem,covered_other,foliowy,10.0,0.0,0.0,0.0
-tunel foliowy z podwójną folią,covered_other,foliowy,5.0,0.0,0.0,0.0
+tunel foliowy z metalowym stelażem,covered_other,metalowym,10.0,0.0,0.0,0.0
+tunel foliowy z podwójną folią,covered_other,folią,5.0,0.0,0.0,0.0
 tunel foliowy z rur pe,covered_other,foliowy,13.0,0.0,0.0,0.0
 tunel foliowy z rur pp,covered_other,pp,1.0,0.0,0.0,0.0
-tunel foliowy z rurek pcv,covered_other,foliowy,26.0,0.0,0.0,0.0
-tunel foliowy zblokowany,covered_other,zblokowany,3.0,0.0,0.0,0.0
-tunel foliowy zrób to sam,covered_other,foliowy,6.0,0.0,0.0,0.0
+tunel foliowy z rurek pcv,covered_other,rurek,26.0,0.0,0.0,0.0
+tunel foliowy zblokowany,covered_other,foliowy,3.0,0.0,0.0,0.0
+tunel foliowy zrób to sam,covered_other,zrób to sam,6.0,0.0,0.0,0.0
 tunel foliowy świętokrzyskie,covered_other,foliowy,7.0,0.0,0.0,0.0
 tunel green house,covered_other,green house,7.0,0.0,0.0,0.0
 tunel leroy,covered_other,leroy,18.0,0.0,0.0,0.0
@@ -1898,12 +1898,12 @@ tunel na kapuste,covered_other,na tunel,8.0,0.0,0.0,0.0
 tunel na kwiaty,covered_other,kwiaty,24.0,0.0,0.0,0.0
 tunel na ogród,covered_other,na tunel,14.0,0.0,0.0,0.0
 tunel na papryke,covered_other,na tunel,49.0,0.0,0.0,0.0
-tunel na pomidory leroy merlin,covered_other,leroy,50.0,0.0,0.0,0.0
-tunel na pomidory obi,covered_other,na tunel,14.0,0.0,0.0,0.0
+tunel na pomidory leroy merlin,covered_other,na tunel,50.0,0.0,0.0,0.0
+tunel na pomidory obi,covered_other,obi,14.0,0.0,0.0,0.0
 tunel na rozsady,covered_other,na tunel,50.0,0.0,0.0,0.0
 tunel na salate,covered_other,na tunel,12.0,0.0,0.0,0.0
 tunel na sałatę,covered_other,na tunel,20.0,0.0,0.0,0.0
-tunel na skrzynie warzywne,covered_other,na tunel,4.0,0.0,0.0,0.0
+tunel na skrzynie warzywne,covered_other,skrzynie,4.0,0.0,0.0,0.0
 tunel ogrodniczy castorama,covered_other,castorama,23.0,0.0,0.0,0.0
 tunel ogrodowy auchan,covered_other,auchan,60.0,0.0,0.0,0.0
 tunel ogrodowy corciano,covered_other,corciano,19.0,0.0,0.0,0.0
@@ -1935,37 +1935,37 @@ tunel uprawowy,covered_other,uprawowy,2.0,0.0,0.0,0.0
 tunel z foli,covered_other,foli,34.0,0.0,0.0,0.0
 tunel z okien,covered_other,z okien,69.0,0.0,0.0,0.0
 tunel z poliwęglanu opinie,covered_other,opinie,2.0,0.0,0.0,0.0
-tunel z poliwęglanu opinie forum,covered_other,opinie,18.0,0.0,0.0,0.0
+tunel z poliwęglanu opinie forum,covered_other,forum,18.0,0.0,0.0,0.0
 tunel z rurek,covered_other,rurek,1.0,0.0,0.0,0.0
 tunel z rurek pcv,covered_other,rurek,6.0,0.0,0.0,0.0
 tunel z włókna szklanego,covered_other,szklanego,2.0,0.0,0.0,0.0
 tunel zblokowany,covered_other,zblokowany,2.0,0.0,0.0,0.0
 tunele farmer cena,covered_other,farmer,35.0,0.0,0.0,0.0
 tunele foliowe 30m,covered_other,foliowe,1.0,0.0,0.0,0.0
-tunele foliowe allegro,covered_other,allegro,17.0,0.0,0.0,0.0
+tunele foliowe allegro,covered_other,foliowe,17.0,0.0,0.0,0.0
 tunele foliowe castorama,covered_other,castorama,6.0,0.0,0.0,0.0
 tunele foliowe całoroczne,covered_other,foliowe,4.0,0.0,0.0,0.0
 tunele foliowe cena,covered_other,foliowe,13.0,0.0,0.0,0.0
 tunele foliowe ceny,covered_other,foliowe,5.0,0.0,0.0,0.0
 tunele foliowe do ogrodu,covered_other,foliowe,1.0,0.0,0.0,0.0
-tunele foliowe do uprawy truskawek cena,covered_other,uprawy,13.0,0.0,0.0,0.0
+tunele foliowe do uprawy truskawek cena,covered_other,foliowe,13.0,0.0,0.0,0.0
 tunele foliowe duże,covered_other,foliowe,9.0,0.0,0.0,0.0
 tunele foliowe eu,covered_other,foliowe,4.0,0.0,0.0,0.0
-tunele foliowe farmer,covered_other,farmer,73.0,0.0,0.0,0.0
-tunele foliowe farmer cena,covered_other,farmer,5.0,0.0,0.0,0.0
+tunele foliowe farmer,covered_other,foliowe,73.0,0.0,0.0,0.0
+tunele foliowe farmer cena,covered_other,foliowe,5.0,0.0,0.0,0.0
 tunele foliowe haygrove,covered_other,haygrove,6.0,0.0,0.0,0.0
 tunele foliowe lemar rzeszów,covered_other,foliowe,13.0,0.0,0.0,0.0
 tunele foliowe małopolskie,covered_other,foliowe,1.0,0.0,0.0,0.0
 tunele foliowe nowe,covered_other,foliowe,2.0,0.0,0.0,0.0
 tunele foliowe ogrodnicze,covered_other,foliowe,4.0,0.0,0.0,0.0
-tunele foliowe ogrodowe allegro,covered_other,allegro,6.0,0.0,0.0,0.0
+tunele foliowe ogrodowe allegro,covered_other,foliowe,6.0,0.0,0.0,0.0
 tunele foliowe pompowane,covered_other,foliowe,2.0,0.0,0.0,0.0
 tunele foliowe profesjonalne cena,covered_other,profesjonalne,6.0,0.0,0.0,0.0
 tunele foliowe rolnicze,covered_other,foliowe,6.0,0.0,0.0,0.0
 tunele foliowe używane,covered_other,używane,16.0,0.0,0.0,0.0
 tunele foliowe wielkopolska,covered_other,foliowe,3.0,0.0,0.0,0.0
 tunele foliowe z holandii,covered_other,holandii,5.0,0.0,0.0,0.0
-tunele foliowe zblokowane,covered_other,zblokowane,2.0,0.0,0.0,0.0
+tunele foliowe zblokowane,covered_other,foliowe,2.0,0.0,0.0,0.0
 tunele foliowe łódzkie,covered_other,foliowe,23.0,0.0,0.0,0.0
 tunele na truskawki,covered_other,truskawki,9.0,0.0,0.0,0.0
 tunele ogrodowe bricomarche,covered_other,bricomarche,52.0,0.0,0.0,0.0
@@ -1984,13 +1984,13 @@ tunnel type greenhouse,covered_other,greenhouse,1.0,0.0,0.0,0.0
 turkey greenhouse,covered_other,greenhouse,2.0,0.0,0.0,0.0
 uprawa pomidorow w szklarni,covered_other,uprawa,2.0,0.0,0.0,0.0
 uprawa pomidorów,covered_other,uprawa,9.0,0.0,0.0,0.0
-uprawa truskawek w tunelu foliowym,covered_other,uprawa,1.0,0.0,0.0,0.0
+uprawa truskawek w tunelu foliowym,covered_other,foliowym,1.0,0.0,0.0,0.0
 uprawa warzyw w szklarni,covered_other,uprawa,1.0,0.0,0.0,0.0
 używana szklarnia,covered_other,używana,5.0,0.0,0.0,0.0
 używana szklarnia z poliwęglanu,covered_other,używana,20.0,0.0,0.0,0.0
 używane szklarnie,covered_other,używane,7.0,0.0,0.0,0.0
-używane szklarnie na sprzedaż,covered_other,na szklarnie,3.0,0.0,0.0,0.0
-używane szklarnie z holandii,covered_other,holandii,14.0,0.0,0.0,0.0
+używane szklarnie na sprzedaż,covered_other,używane,3.0,0.0,0.0,0.0
+używane szklarnie z holandii,covered_other,używane,14.0,0.0,0.0,0.0
 używane tunele foliowe,covered_other,używane,8.0,0.0,0.0,0.0
 używany tunel foliowy,covered_other,foliowy,6.0,0.0,0.0,0.0
 viktorianisches gewächshaus,covered_other,gewächshaus,1.0,0.0,0.0,0.0
@@ -2027,6 +2027,6 @@ zakładanie szklarni,covered_other,zakładanie,4.0,0.0,0.0,0.0
 zimowy namiot ogrodowy,covered_other,zimowy,1.0,0.0,0.0,0.0
 złocieniec bricomarche,covered_other,bricomarche,0.0,0.0,0.0,0.0
 ładny ogród pomysły,covered_other,pomysły,6.0,0.0,0.0,0.0
-łuki do szklarni,covered_other,do szklarni,1.0,0.0,0.0,0.0
-łuki do tunelu foliowego,covered_other,do tunelu,1.0,0.0,0.0,0.0
-łuki szklarniowe,covered_other,łuki,14.0,0.0,0.0,0.0
+łuki do szklarni,covered_other,łuki,1.0,0.0,0.0,0.0
+łuki do tunelu foliowego,covered_other,łuki,1.0,0.0,0.0,0.0
+łuki szklarniowe,covered_other,szklarniowe,14.0,0.0,0.0,0.0

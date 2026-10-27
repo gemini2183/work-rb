@@ -1,13 +1,11 @@
 ﻿term,bucket,why,impressions,clicks,cost,conversions
 szklarenki,keep_no_product,,398.0,16.0,24.4,0.0
 ogród,keep_no_product,,704.0,6.0,5.35,0.0
-profimet,keep_no_product,,512.0,6.0,7.48,0.0
 firma profimed,keep_no_product,,35.0,3.0,5.1,0.0
 ogrodowe,keep_no_product,,136.0,3.0,2.88,0.0
 ogród warzywny,keep_no_product,,170.0,3.0,4.7299999999999995,0.0
 rozsadnik,keep_no_product,,459.0,3.0,3.2600000000000002,0.0
 warzywniak,keep_no_product,,508.0,3.0,4.24,0.0
-wesoly rolnik,keep_no_product,,163.0,3.0,1.1400000000000001,0.0
 bajery do ogrodu,keep_no_product,,46.0,2.0,2.74,0.0
 beliani,keep_no_product,,385.0,2.0,2.35,0.0
 beliani pl,keep_no_product,,119.0,2.0,3.27,0.0
@@ -24,7 +22,6 @@ warzywniak kolo domu,keep_no_product,,4.0,2.0,3.5,0.0
 wszystko do ogrodu,keep_no_product,,164.0,2.0,3.08,0.0
 www focusgarden pl,keep_no_product,,42.0,2.0,3.51,0.0
 agrosfera,keep_no_product,,47.0,1.0,1.74,0.0
-aliexpress,keep_no_product,,38.0,1.0,1.37,0.0
 anb ekogrup sp z o o,keep_no_product,,26.0,1.0,1.12,0.0
 aranżacja ogrodu przy płocie,keep_no_product,,59.0,1.0,0.94,0.0
 beliani sklep stacjonarny,keep_no_product,,18.0,1.0,1.25,0.0
@@ -60,7 +57,6 @@ sklep ogrodnika,keep_no_product,,13.0,1.0,0.67,0.0
 skrzynki na warzywa do ogrodu,keep_no_product,,11.0,1.0,0.44,0.0
 sprzęt ogrodniczy,keep_no_product,,42.0,1.0,1.23,0.0
 staklenik,keep_no_product,,1.0,1.0,1.73,0.0
-stimeo,keep_no_product,,8.0,1.0,1.23,0.0
 szkalrnia,keep_no_product,,14.0,1.0,0.64,0.0
 szklar,keep_no_product,,35.0,1.0,1.48,0.0
 upraw,keep_no_product,,2.0,1.0,2.9,0.0
@@ -90,8 +86,6 @@ agrohit elit,keep_no_product,,1.0,0.0,0.0,0.0
 agrol sklep,keep_no_product,,4.0,0.0,0.0,0.0
 agronom,keep_no_product,,0.0,0.0,0.0,0.0
 agrosfera pl,keep_no_product,,21.0,0.0,0.0,0.0
-agrosklep,keep_no_product,,47.0,0.0,0.0,0.0
-agrosklep pl,keep_no_product,,28.0,0.0,0.0,0.0
 al krakowska sklep ogrodniczy,keep_no_product,,1.0,0.0,0.0,0.0
 alagro,keep_no_product,,1.0,0.0,0.0,0.0
 alfa panel,keep_no_product,,4.0,0.0,0.0,0.0
@@ -128,8 +122,6 @@ broeikas,keep_no_product,,1.0,0.0,0.0,0.0
 broeikastje,keep_no_product,,2.0,0.0,0.0,0.0
 buda na pomidory,keep_no_product,,10.0,0.0,0.0,0.0
 bv4,keep_no_product,,1.0,0.0,0.0,0.0
-carrefour,keep_no_product,,1.0,0.0,0.0,0.0
-carrefour ogród wyprzedaż,keep_no_product,,4.0,0.0,0.0,0.0
 cellfast,keep_no_product,,1.0,0.0,0.0,0.0
 chassis maraicher,keep_no_product,,4.0,0.0,0.0,0.0
 ciekawe pomysly w ogrodzie,keep_no_product,,1.0,0.0,0.0,0.0
@@ -217,7 +209,6 @@ febstore,keep_no_product,,1.0,0.0,0.0,0.0
 filclair,keep_no_product,,2.0,0.0,0.0,0.0
 filiak,keep_no_product,,14.0,0.0,0.0,0.0
 firma beliani,keep_no_product,,1.0,0.0,0.0,0.0
-firma profimet,keep_no_product,,29.0,0.0,0.0,0.0
 focusgarden,keep_no_product,,153.0,0.0,0.0,0.0
 focusgarden pl kod rabatowy,keep_no_product,,4.0,0.0,0.0,0.0
 fokusgarden,keep_no_product,,4.0,0.0,0.0,0.0
@@ -230,7 +221,6 @@ gardenline pl,keep_no_product,,7.0,0.0,0.0,0.0
 gardenline sklep,keep_no_product,,11.0,0.0,0.0,0.0
 gardenplanet,keep_no_product,,32.0,0.0,0.0,0.0
 gardenplanet pl,keep_no_product,,12.0,0.0,0.0,0.0
-gardenstar,keep_no_product,,17.0,0.0,0.0,0.0
 gardenvit,keep_no_product,,10.0,0.0,0.0,0.0
 gardenvit uv10,keep_no_product,,5.0,0.0,0.0,0.0
 gardenway,keep_no_product,,1.0,0.0,0.0,0.0
@@ -259,7 +249,6 @@ green polytunnel,keep_no_product,,0.0,0.0,0.0,0.0
 greennest,keep_no_product,,1.0,0.0,0.0,0.0
 greenprotect,keep_no_product,,1.0,0.0,0.0,0.0
 greenspot,keep_no_product,,23.0,0.0,0.0,0.0
-grindi,keep_no_product,,8.0,0.0,0.0,0.0
 growing dome,keep_no_product,,4.0,0.0,0.0,0.0
 growtent,keep_no_product,,29.0,0.0,0.0,0.0
 grządkę,keep_no_product,,0.0,0.0,0.0,0.0
@@ -267,8 +256,6 @@ grüber,keep_no_product,,1.0,0.0,0.0,0.0
 grüber gewächshäuser,keep_no_product,,6.0,0.0,0.0,0.0
 gvz rossat katalog,keep_no_product,,1.0,0.0,0.0,0.0
 hala łukowa,keep_no_product,,14.0,0.0,0.0,0.0
-hecht rancher ii,keep_no_product,,2.0,0.0,0.0,0.0
-hefajstos,keep_no_product,,0.0,0.0,0.0,0.0
 herbgarden,keep_no_product,,4.0,0.0,0.0,0.0
 hity do ogrodu,keep_no_product,,2.0,0.0,0.0,0.0
 hodowanie pomidorów,keep_no_product,,2.0,0.0,0.0,0.0
@@ -294,7 +281,6 @@ invernaderos canada,keep_no_product,,8.0,0.0,0.0,0.0
 invernaderos en madera,keep_no_product,,0.0,0.0,0.0,0.0
 ispekt,keep_no_product,,22.0,0.0,0.0,0.0
 jagram,keep_no_product,,1.0,0.0,0.0,0.0
-juliana gardener,keep_no_product,,2.0,0.0,0.0,0.0
 kanalplast,keep_no_product,,1.0,0.0,0.0,0.0
 kassen,keep_no_product,,12.0,0.0,0.0,0.0
 kasvihuone,keep_no_product,,6.0,0.0,0.0,0.0
@@ -320,8 +306,6 @@ large polytunnel,keep_no_product,,1.0,0.0,0.0,0.0
 las i ogród,keep_no_product,,1.0,0.0,0.0,0.0
 las i ogród sklep,keep_no_product,,1.0,0.0,0.0,0.0
 las i ogród sklep internetowy,keep_no_product,,6.0,0.0,0.0,0.0
-lectus24,keep_no_product,,4.0,0.0,0.0,0.0
-lectus24 pl,keep_no_product,,1.0,0.0,0.0,0.0
 legutko pl,keep_no_product,,0.0,0.0,0.0,0.0
 leroymerlin,keep_no_product,,4.0,0.0,0.0,0.0
 leroymerlin pl,keep_no_product,,3.0,0.0,0.0,0.0
@@ -374,7 +358,6 @@ nowosci do ogrodu,keep_no_product,,1.0,0.0,0.0,0.0
 nowości do ogrodu,keep_no_product,,10.0,0.0,0.0,0.0
 obora łukowa,keep_no_product,,1.0,0.0,0.0,0.0
 obrecze ogrodowe,keep_no_product,,1.0,0.0,0.0,0.0
-oddam,keep_no_product,,0.0,0.0,0.0,0.0
 ogrod 24,keep_no_product,,1.0,0.0,0.0,0.0
 ogrod caloroczny,keep_no_product,,1.0,0.0,0.0,0.0
 ogrod domowy,keep_no_product,,2.0,0.0,0.0,0.0
@@ -491,11 +474,6 @@ palántázó fóliasátor,keep_no_product,,1.0,0.0,0.0,0.0
 palántázó sátor,keep_no_product,,1.0,0.0,0.0,0.0
 parawan handlowy,keep_no_product,,1.0,0.0,0.0,0.0
 patio w ogrodzie,keep_no_product,,5.0,0.0,0.0,0.0
-pawilony ogrodnicze,keep_no_product,,8.0,0.0,0.0,0.0
-pawilony ogrodowe,keep_no_product,,39.0,0.0,0.0,0.0
-pawilony ogrodowe ceny,keep_no_product,,4.0,0.0,0.0,0.0
-pawilony ogrodowe przeciwdeszczowe,keep_no_product,,3.0,0.0,0.0,0.0
-pawilony ogrodowe wyprzedaż,keep_no_product,,8.0,0.0,0.0,0.0
 pařník,keep_no_product,,1.0,0.0,0.0,0.0
 pepco ogród,keep_no_product,,6.0,0.0,0.0,0.0
 pflanztunnel stabil,keep_no_product,,4.0,0.0,0.0,0.0
@@ -573,9 +551,7 @@ praktiker,keep_no_product,,1.0,0.0,0.0,0.0
 predam,keep_no_product,,1.0,0.0,0.0,0.0
 prezent na dzialke,keep_no_product,,4.0,0.0,0.0,0.0
 prezent na działkę,keep_no_product,,7.0,0.0,0.0,0.0
-producent pawilonów ogrodowych,keep_no_product,,1.0,0.0,0.0,0.0
 professionele serre,keep_no_product,,6.0,0.0,0.0,0.0
-profimetpl,keep_no_product,,12.0,0.0,0.0,0.0
 profit plast,keep_no_product,,1.0,0.0,0.0,0.0
 profitplast,keep_no_product,,3.0,0.0,0.0,0.0
 propozycje ogrodowe,keep_no_product,,1.0,0.0,0.0,0.0
@@ -594,7 +570,6 @@ przydomowy ogród,keep_no_product,,4.0,0.0,0.0,0.0
 przydomowy ogródek,keep_no_product,,4.0,0.0,0.0,0.0
 przydomowy ogródek warzywny,keep_no_product,,25.0,0.0,0.0,0.0
 przydomowy zielnik,keep_no_product,,1.0,0.0,0.0,0.0
-qube 816,keep_no_product,,4.0,0.0,0.0,0.0
 rabaty do ogrodu,keep_no_product,,1.0,0.0,0.0,0.0
 raj ogrodnika,keep_no_product,,1.0,0.0,0.0,0.0
 raj ogrodnika sklep internetowy,keep_no_product,,7.0,0.0,0.0,0.0
@@ -714,7 +689,6 @@ stacja do rozmnażania roślin,keep_no_product,,1.0,0.0,0.0,0.0
 stacja do ukorzeniania roślin,keep_no_product,,1.0,0.0,0.0,0.0
 stalen boogkas,keep_no_product,,2.0,0.0,0.0,0.0
 standart klasika siltnamis,keep_no_product,,0.0,0.0,0.0,0.0
-stimeo pl,keep_no_product,,1.0,0.0,0.0,0.0
 strefa chillout w ogrodzie,keep_no_product,,1.0,0.0,0.0,0.0
 strefa ogrodowa,keep_no_product,,3.0,0.0,0.0,0.0
 strefa relaksu w ogrodzie,keep_no_product,,2.0,0.0,0.0,0.0
@@ -774,7 +748,6 @@ växthus,keep_no_product,,17.0,0.0,0.0,0.0
 växthus trä,keep_no_product,,0.0,0.0,0.0,0.0
 výrobce polykarbonátových skleníků,keep_no_product,,1.0,0.0,0.0,0.0
 w domku,keep_no_product,,1.0,0.0,0.0,0.0
-walipini w polsce,keep_no_product,,4.0,0.0,0.0,0.0
 walpini,keep_no_product,,0.0,0.0,0.0,0.0
 wama gewächshäuser,keep_no_product,,1.0,0.0,0.0,0.0
 warzywa na dzialce,keep_no_product,,1.0,0.0,0.0,0.0
@@ -811,7 +784,6 @@ warzywniki,keep_no_product,,15.0,0.0,0.0,0.0
 warzywniki ogrodowe,keep_no_product,,22.0,0.0,0.0,0.0
 wdomku pl,keep_no_product,,1.0,0.0,0.0,0.0
 werbudom,keep_no_product,,3.0,0.0,0.0,0.0
-wesoły rolnik,keep_no_product,,160.0,0.0,0.0,0.0
 wevor,keep_no_product,,3.0,0.0,0.0,0.0
 wialan sklep ogrodniczy,keep_no_product,,5.0,0.0,0.0,0.0
 wialan tarnów sklep ogrodniczy,keep_no_product,,2.0,0.0,0.0,0.0
@@ -822,7 +794,6 @@ wlasny ogrodek warzywny,keep_no_product,,1.0,0.0,0.0,0.0
 wszystko dla domu i ogrodu adkor,keep_no_product,,4.0,0.0,0.0,0.0
 wszystko do ogrodu sklep internetowy,keep_no_product,,1.0,0.0,0.0,0.0
 ww okazje pl,keep_no_product,,1.0,0.0,0.0,0.0
-www agrosklep pl,keep_no_product,,14.0,0.0,0.0,0.0
 www fokusgarden pl,keep_no_product,,6.0,0.0,0.0,0.0
 www homegarden,keep_no_product,,2.0,0.0,0.0,0.0
 www leroymerlin pl sklep internetowy,keep_no_product,,1.0,0.0,0.0,0.0
