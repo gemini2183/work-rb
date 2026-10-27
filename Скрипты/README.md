@@ -1466,3 +1466,5 @@ python gtm_landing_plan.py --spec "Клиенты/<Имя>/Трекинг/spec_<
 
 
 `gtm_supabase_leads_columns.py --client ProfiMet|ExpertAgro [--execute]` (2026-10-27, ЗАПИСЬ в черновик GTM) — дополняет тег «Supabase - Leads» полями `gclid`, `utm_content`, `page_url` (адрес страницы или `localStorage.rb_utm`). Без `--execute` — проверка: читает колонки таблицы Supabase (останавливается, если их нет: иначе заявки перестанут сохраняться), живую и последнюю версии, текст тега. С `--execute` — рабочая область и версия, не публикует (публикация — `gtm_publish_version.py`). Первый случай: ProfiMet версия 89, ExpertAgro версия 21.
+
+`gtm_test_version.py` (дополнено 2026-10-27): запросы к `supabase.co` теперь перехватываются, подменяются ответом 201 и их тело печатается в отчёте («запросов в Supabase перехвачено»); в Supabase ничего не уходит. Нужен, чтобы проверять поля тега «Supabase - Leads» до публикации: `--push-event submit_form --eval "location.href='…'"` (отправка после перехода на другую страницу проверяет метки из браузера). Для ExpertAgro добавлен хост `ekspertagro.pl`.
