@@ -112,7 +112,13 @@ def cmd_insights(a):
         {"type": "date_range", "since": a.since, "until": a.until})))
     params.append(("filters[]", json.dumps(
         {"field": "campaign.id", "operator": "IN", "value": [a.campaign]})))
-    rows = call("GET", "/ad_account/insights", params)["data"]
+    rows, after = [], None
+    while True:  # API отдаёт не больше 20 строк за страницу: листаем по last_id
+        page = call("GET", "/ad_account/insights", params + ([("after", after)] if after else []))
+        rows += page["data"]
+        if not page.get("has_more"):
+            break
+        after = page["last_id"]
     tot = {"impressions": 0, "clicks": 0, "spend": 0.0}
     for r in rows:
         name = r.get("ad_group_name") or r.get("campaign_name")
