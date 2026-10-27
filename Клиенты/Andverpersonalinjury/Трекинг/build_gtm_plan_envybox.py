@@ -36,6 +36,12 @@ tags = [
                    t("measurementIdOverride", MID),
                    {"type": "list", "key": "eventSettingsTable", "list": [
                        {"type": "map", "map": [t("parameter", "widget"), t("parameterValue", "envybox_callback")]}]}]},
+    # решение пользователя 27.10: запрос звонка уходит в OpenAI Ads как lead_created (параметры = тег 10 «OpenAI Pixel — Lead Created»)
+    {"name": "OpenAI Pixel — Lead Created [envybox]", "type": "cvt_NS4HN", "firingTriggerNames": ["envybox callback requested [envybox]"],
+     # enableDebug и sendEvent — тип boolean (строкой GTM молча выбрасывает eventName); setupTag и режим как у тега 10
+     "parameter": [t("pixelId", "Wbtsm5RxTw9Rn4YVjh8W2Y"), {"type": "boolean", "key": "enableDebug", "value": "false"},
+                   {"type": "boolean", "key": "sendEvent", "value": "true"}, t("eventName", "lead_created")],
+     "setupTag": [{"tagName": "OpenAI Pixel — Init"}], "tagFiringOption": "oncePerEvent"},
 ]
 
 plan = {"account": "6353362488", "container": "261134482", "workspace_name": "ldv-envybox-isolated",

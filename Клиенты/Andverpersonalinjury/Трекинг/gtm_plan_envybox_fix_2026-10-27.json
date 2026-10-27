@@ -1,0 +1,43 @@
+{
+ "account": "6353362488",
+ "container": "261134482",
+ "workspace_name": "ldv-envybox-fix",
+ "version_name": "envybox: fix OpenAI Pixel tag (boolean params, eventName lead_created, setupTag Init)",
+ "version_notes": "Исправление тега «OpenAI Pixel — Lead Created [envybox]»: у версии 13 потерян eventName из-за строковых boolean. Остальное не тронуто.",
+ "built_in_variables": [],
+ "variables": [],
+ "triggers": [],
+ "tags": [],
+ "update_variables": [],
+ "update_triggers": [],
+ "update_tags": [
+  {
+   "name": "OpenAI Pixel — Lead Created [envybox]",
+   "set_parameters": [
+    {
+     "type": "boolean",
+     "key": "enableDebug",
+     "value": "false"
+    },
+    {
+     "type": "boolean",
+     "key": "sendEvent",
+     "value": "true"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "lead_created"
+    }
+   ],
+   "set_fields": {
+    "setupTag": [
+     {
+      "tagName": "OpenAI Pixel — Init"
+     }
+    ],
+    "tagFiringOption": "oncePerEvent"
+   }
+  }
+ ]
+}

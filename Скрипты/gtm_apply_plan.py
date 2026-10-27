@@ -16,7 +16,8 @@
   variables: [{name, type, parameter}]                              (формат ресурса GTM API v2)
   triggers:  [{name, type, filter|customEventFilter|autoEventFilter, parameter}]
   tags:      [{name, type, parameter, firingTriggerNames: [...], firingTriggerIds: [...]}]
-  update_tags: [{name, set_event_parameters: {имя: значение}, set_consent: ["analytics_storage"]}]
+  update_tags: [{name, set_event_parameters: {имя: значение}, set_consent: ["analytics_storage"],
+                 set_parameters: [{type, key, value}] (заменить по ключу с точным типом), set_fields: {поле: значение} (setupTag, tagFiringOption; добавлено 2026-10-27)}]
                (для тегов gaawe: добавить параметры события; set_consent — заменить требуемые типы согласия; set_html — новый код HTML-тега)
   update_variables: [{name, set_parameter: {ключ: значение}}]      (например, javascript у JS-переменной; добавлено 2026-10-24)
   update_triggers:  [{name, set_parameter: {ключ: значение}, set_filter_arg1: "значение"}]
@@ -102,7 +103,8 @@ def main():
     for t in plan.get("tags", []):
         print("  + тег", t["name"], "<-", t.get("firingTriggerNames") or t.get("firingTriggerIds"))
     for u in plan.get("update_tags", []):
-        print("  ~ тег", u["name"], "параметры:", list(u.get("set_event_parameters", {})), "html:", bool(u.get("set_html")),
+        print("  ~ тег", u["name"], "параметры:", list(u.get("set_event_parameters", {})), [x["key"] for x in u.get("set_parameters", [])],
+              "поля:", list(u.get("set_fields", {})), "html:", bool(u.get("set_html")),
               "согласие:", u.get("set_consent", "без изменений"))
     for u in plan.get("update_variables", []):
         print("  ~ переменная", u["name"], "поля:", list(u.get("set_parameter", {})))
@@ -163,6 +165,9 @@ def main():
                     for k, v in u["set_event_parameters"].items()]
             params.append({"type": "list", "key": "eventSettingsTable", "list": rows})
             tag["parameter"] = params
+        for np_ in u.get("set_parameters", []):  # заменить/добавить параметры по ключу с точным типом (boolean, template, ...)
+            tag["parameter"] = [x for x in tag.get("parameter", []) if x.get("key") != np_["key"]] + [np_]
+        tag.update(u.get("set_fields", {}))  # верхний уровень тега: setupTag, tagFiringOption, ...
         if u.get("set_html"):  # заменить код пользовательского HTML-тега
             for x in tag.get("parameter", []):
                 if x.get("key") == "html":

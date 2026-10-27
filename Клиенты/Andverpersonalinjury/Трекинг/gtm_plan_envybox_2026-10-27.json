@@ -98,6 +98,35 @@
      ]
     }
    ]
+  },
+  {
+   "name": "OpenAI Pixel — Lead Created [envybox]",
+   "type": "cvt_NS4HN",
+   "firingTriggerNames": [
+    "envybox callback requested [envybox]"
+   ],
+   "parameter": [
+    {
+     "type": "template",
+     "key": "pixelId",
+     "value": "Wbtsm5RxTw9Rn4YVjh8W2Y"
+    },
+    {
+     "type": "template",
+     "key": "enableDebug",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "sendEvent",
+     "value": "true"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "lead_created"
+    }
+   ]
   }
  ],
  "update_tags": [],
