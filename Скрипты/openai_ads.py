@@ -174,8 +174,8 @@ def cmd_create_groups(a):
     for g in spec["groups"]:
         if g["group"] in have:
             errors.append(f"группа «{g['group']}» уже есть")
-        if not g.get("context_hints"):
-            errors.append(f"у «{g['group']}» нет context_hints")
+        if not g.get("context_hints") and not g.get("allow_empty_hints"):
+            errors.append(f"у «{g['group']}» нет context_hints (пустой список — только с \"allow_empty_hints\": true)")
         for ad in g["ads"]:
             t, c = ad["title"], ad["copy"]
             if not 3 <= len(t) <= 50:
@@ -185,8 +185,15 @@ def cmd_create_groups(a):
             if ad.get("file_id") not in used_files:
                 errors.append(f"{ad['ad_name']}: file_id {ad.get('file_id')} нет среди картинок кампании")
             print(f"{g['group']} | {ad['ad_name']} | {t} [{len(t)}] | {c} [{len(c)}] | ...{str(ad.get('file_id'))[-8:]}")
+    bid_cfg = {"strategy": spec.get("bidding", "maximize_clicks"), "billing_event_type": "click"}
+    if bid_cfg["strategy"] == "fixed_bid":  # потолок цены клика задаётся в плане: "max_bid_usd"
+        if not spec.get("max_bid_usd"):
+            errors.append("для fixed_bid нужен max_bid_usd")
+        else:
+            bid_cfg["max_bid_micros"] = int(round(spec["max_bid_usd"] * 1_000_000))
     print(f"\nГрупп {len(spec['groups'])}, объявлений {sum(len(g['ads']) for g in spec['groups'])}; "
-          f"ставка: {spec.get('bidding', 'maximize_clicks')}; статус после создания: paused")
+          f"ставка: {bid_cfg['strategy']}{' $%g' % spec['max_bid_usd'] if spec.get('max_bid_usd') else ''}; "
+          f"подсказок у групп: {[len(g.get('context_hints') or []) for g in spec['groups']]}; статус после создания: paused")
     if errors:
         sys.exit("ОСТАНОВКА:\n  - " + "\n  - ".join(errors))
     if not a.execute:
@@ -194,8 +201,8 @@ def cmd_create_groups(a):
         return
     created = []
     for g in spec["groups"]:
-        body = {"campaign_id": camp, "name": g["group"], "status": "paused", "context_hints": g["context_hints"],
-                "bidding_config": {"strategy": spec.get("bidding", "maximize_clicks"), "billing_event_type": "click"},
+        body = {"campaign_id": camp, "name": g["group"], "status": "paused", "context_hints": g.get("context_hints") or [],
+                "bidding_config": bid_cfg,
                 "landing_page_configuration": {"query_string_template": qs}}
         import hashlib
         idem_g = "ldv-" + hashlib.sha1((camp + "|" + g["group"]).encode("utf-8")).hexdigest()[:32]
