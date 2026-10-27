@@ -6,7 +6,8 @@
 без размера 1/2», но мусор из них должен остаться закрытым. Скрипт берёт запросы этих списков (Google Ads API, по имени списка),
 отбрасывает те, что уже закрывает любой другой подключаемый список (по правилам широкого/фразового/точного соответствия минусов),
 остальные раскладывает по содержанию (не по результатам — иначе будет подгонка под историю):
-  keep_junk      — есть признак мусора: кириллица, чужой язык, б/у и площадки, «сделай сам»/инструкции, фольга, не теплица (ганек, беседка…);
+  keep_junk      — есть признак мусора: кириллица, чужой язык, б/у и площадки, «сделай сам»/инструкции, фольга, не теплица (ганек, беседка…),
+                   бренды конкурентов, частные объявления, домен/сайт, не наш тип (подземная, павильон, купольная…);
   keep_no_product — нет корня нашего товара (szklarni*, tunel*, namiot*, cieplarni*);
   keep_sheet     — только «поликарбонат» без теплицы/туннеля (листы не в тестовой выдаче: аксессуары исключены);
   release        — товарный корень и нет признаков мусора: выпускаются в тест.
@@ -50,6 +51,13 @@ JUNK = [
         r"\bjak\b|zr[óo]b|samodziel|\bdiy\b|instrukcj|projekt|rysunek|schemat|\bpdf\b|w[łl]asnymi|z palet|z okien|ze star|"
         r"jakie|dlaczego|co to|czym|po co|kiedy|czy ", re.I)),
     ("фольга", re.compile(r"foli", re.I)),
+    ("бренды конкурентов", re.compile(
+        r"profimet|mocna ?szklarni|lemar|juliana|lectus|qube|stimeo|carrefour|aldi|etl|aliexpress|hecht|grindi|growee|gardenstar|"
+        r"hefajstos|topszklarnie|ekotunele|eszklarni|dobraszklarnia|multiszklarnia|agroszklarnia|szklarnie24|24pl|agrosklep|"
+        r"ekoszklarnia|poliszklarnia|maleszklarnie|tig|wesoły|wesoly", re.I)),
+    ("частные объявления", re.compile(r"sprzedam|kupi[ęe]|oddam", re.I)),
+    ("домен, сайт", re.compile(r"www|\.pl|pl|\.com|eu", re.I)),
+    ("не наш тип", re.compile(r"walipini|podziemn|pawilon|wiat[ay]|hal[ae]|kopu[łl]ow|okr[ąa]g[łl]|p[óo][łl]okr[ąa]g", re.I)),
     ("не теплица", re.compile(r"ganek|wiata|altan|pergol|zadaszen|gara[żz]|carport|basen|piwnic|palm|kwiaciarn|grill|namiot imprez|"
                               r"namiot handlow|namiot ogrodowy imprez|namiot party", re.I)),
 ]
