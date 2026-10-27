@@ -29,7 +29,7 @@ BASE = "https://tagmanager.googleapis.com/tagmanager/v2/"
 SCOPES = ["https://www.googleapis.com/auth/tagmanager.edit.containers",
           "https://www.googleapis.com/auth/tagmanager.edit.containerversions",
           "https://www.googleapis.com/auth/tagmanager.publish"]
-ALLOWED = ("tildacdn", "tilda.ws", "tilda.cc", "googletagmanager.com", "mocnaszklarnia.pl", "fonts.g", "fonts.googleapis")
+ALLOWED = ("tildacdn", "tilda.ws", "tilda.cc", "googletagmanager.com", "mocnaszklarnia.pl", "ekspertagro.pl", "fonts.g", "fonts.googleapis")
 
 
 def call(s, method, path, **kw):
@@ -180,6 +180,7 @@ def main():
                 ctx = br.new_context(locale="pl-PL", **kw)
                 pg = ctx.new_page()
                 hits = []
+                sb_hits = []
 
                 def route(r):
                     u = r.request.url
@@ -190,6 +191,9 @@ def main():
                             print("      RAW", "|".join(x for x in qs.split("&") if x.split("=")[0] in ("gtm", "en", "ep.click_place", "_et", "_s", "_eu", "ep.block_name", "dt", "dr", "ur", "tfd", "ecid", "_dbg", "_fv", "_nsi", "_ss", "seg", "sid")), "| BODY:", (r.request.post_data or "")[:200])
                         hits.extend(parse_collect(r.request))
                         return r.fulfill(status=204, body="")  # «успех» без отправки: иначе Google Tag повторяет оборванные запросы
+                    if "supabase.co" in host:  # тело записи запоминаем и показываем в отчёте; в Supabase ничего не уходит
+                        sb_hits.append((r.request.method, u.split("?")[0], r.request.post_data or ""))
+                        return r.fulfill(status=201, body="")
                     if "googletagmanager.com/gtm.js" in u and f"id={gtm_id}" in u:
                         return r.continue_(url=f"{u}&gtm_preview=env-{env_id}&gtm_auth={code}&gtm_cookies_win=x")
                     if any(k in host for k in ALLOWED):
@@ -219,6 +223,9 @@ def main():
                     print(f"  {en}: {c}")
                     for pv, pc in sorted(params[en].items()):
                         print(f"      {pv} ×{pc}")
+                print(f"  запросов в Supabase перехвачено (не отправлены): {len(sb_hits)}")
+                for m, su, body in sb_hits:
+                    print(f"      {m} {su} {body[:900]}")
                 print(f"  места номера ({name}), по одной загрузке на ссылку:")
                 for i, desc, status, got in ([] if a.no_tel_places else tel_places(ctx, a.url, None, a.grant, hits, not a.no_prevent)):
                     print(f"    #{i} {desc}: {status} -> click_place {got or 'событие не ушло'}")
