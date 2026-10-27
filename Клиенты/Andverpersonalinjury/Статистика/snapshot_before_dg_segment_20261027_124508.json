@@ -1,0 +1,117 @@
+{
+ "customer": "2136216123",
+ "audience_id": 1028533814,
+ "name": "dg_search_segment: car accident lawyer queries 20261026",
+ "members": [
+  [
+   "KEYWORD",
+   "car accident law firm"
+  ],
+  [
+   "KEYWORD",
+   "traffic accident lawyer"
+  ],
+  [
+   "KEYWORD",
+   "car crash attorney"
+  ],
+  [
+   "KEYWORD",
+   "car accident lawyer"
+  ],
+  [
+   "KEYWORD",
+   "auto injury attorney"
+  ],
+  [
+   "KEYWORD",
+   "car accident personal injury lawyer"
+  ],
+  [
+   "KEYWORD",
+   "car injury lawyer"
+  ],
+  [
+   "KEYWORD",
+   "car accident attorney"
+  ],
+  [
+   "KEYWORD",
+   "car injury attorney"
+  ],
+  [
+   "KEYWORD",
+   "car crash lawyer"
+  ],
+  [
+   "KEYWORD",
+   "auto injury lawyer"
+  ],
+  [
+   "KEYWORD",
+   "attorney for car accident"
+  ]
+ ],
+ "ads": [
+  {
+   "ad_group": "customers/2136216123/adGroups/204608545874",
+   "id": 829565848983,
+   "name": "dg_search_segment A injury",
+   "urls": [
+    "https://landverpersonalinjury.tilda.ws/california-car-accident-lawyer"
+   ],
+   "headlines": [
+    "Injured in a Car Accident?",
+    "Car Accident Injury Victims",
+    "Injury Victims Only",
+    "CA Car Crash Injury Lawyers",
+    "Free Injury Case Review"
+   ],
+   "descriptions": [
+    "We represent car accident injury victims only. Free California case review.",
+    "Free review of your California car accident injury claim. Landver Law, Beverly Hills."
+   ],
+   "business": "Landver Law",
+   "cta": "Contact us",
+   "landscape": [
+    "customers/2136216123/assets/433548459151"
+   ],
+   "square": [
+    "customers/2136216123/assets/433548467479"
+   ],
+   "logo": [
+    "customers/2136216123/assets/369666444411"
+   ]
+  },
+  {
+   "ad_group": "customers/2136216123/adGroups/204608545874",
+   "id": 829565848986,
+   "name": "dg_search_segment B no injury words",
+   "urls": [
+    "https://landverpersonalinjury.tilda.ws/california-car-accident-lawyer"
+   ],
+   "headlines": [
+    "CA Car Accident Lawyers",
+    "Car Crash Attorneys in CA",
+    "No Fee Unless We Win",
+    "Litigation Costs Advanced",
+    "Free California Case Review"
+   ],
+   "descriptions": [
+    "Car accident cases on contingency, litigation costs advanced. Free review first.",
+    "Landver Law, Beverly Hills. Free California case review. No fee unless we win."
+   ],
+   "business": "Landver Law",
+   "cta": "Contact us",
+   "landscape": [
+    "customers/2136216123/assets/433442950841"
+   ],
+   "square": [
+    "customers/2136216123/assets/433630815477"
+   ],
+   "logo": [
+    "customers/2136216123/assets/369666444411"
+   ]
+  }
+ ]
+}
