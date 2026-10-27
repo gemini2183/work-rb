@@ -1,0 +1,20 @@
+# Замена «Injury Victims Only / We represent injury victims only» на мягкую формулировку (решение пользователя 27.10, Landver).
+# Запуск: gads_rsa_text_replace.py --copy-mode (шаг 1: создать новые, старые работают; шаг 2: --pause-old после одобрения).
+headlines:
+  "Injury Victims Only": "We Help People Hurt in Crashes"          # закрепление HEADLINE_2 сохраняется (старый текст -> новый, pin тот же)
+descriptions:
+  # Car Accident, Car Accident - Exact
+  "Injured in a car crash? We represent injury victims only. Get a free case review today.":
+    "Free case review after a car crash. We help injured people pursue compensation."
+  # Car Accident - LA/BH Exact
+  "Injured in a car crash in Los Angeles? We represent injury victims only. Free case review.":
+    "Free case review after a LA car crash. We help injured people pursue compensation."
+  # Car Accident - Settlement: под страницу «5 вопросов про стоимость дела», без слова insurance (привлечёт запросы про ремонт)
+  "Injured in a car crash? We represent injury victims only. Free review of your case.":
+    "Injured in a crash? See what moves your case value in 5 quick questions."
+  # Truck Accident, Truck Accident - Exact
+  "Injured in a truck crash? We represent injury victims only. Get a free case review today.":
+    "Free case review after a truck crash. We help injured people pursue compensation."
+  # 18 Wheeler and Semi
+  "Injured in an 18-wheeler or semi crash? We represent injury victims only. Free review.":
+    "Free case review after a semi crash. We help injured people pursue compensation."
