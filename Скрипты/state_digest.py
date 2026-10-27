@@ -132,48 +132,45 @@ def current_state(client, ga, cid):
         print("  ВНИМАНИЕ: на паузе, но с расходом сегодня (остановлены в течение дня): " + ", ".join(x[1] for x in paused_today))
 
 
-def read_plan_row(folder, today):
-    """План месяца клиента из Google-таблицы: analysis_config.yaml (plan.*) или строка Client == имя папки клиента."""
-    import gspread
-    from google.oauth2.service_account import Credentials
-    sheet_id, client_name, budget_col = PLAN_SHEET_ID, folder, "AdwordsBudget"
+def plan_projects(folder):
+    """Плановые проекты клиента из analysis_config.yaml: plan.projects = [{client_name, merchant_feed}] или один plan.client_name.
+    merchant_feed: true — только кампании с фидом Merchant Center, false — только без фида, не задано — все кампании аккаунта.
+    Если у клиента в таблице плана несколько строк с бюджетом Google Ads, их надо перечислить в projects: иначе расход всего
+    аккаунта сравнивается с планом одной строки (так 27.10.2026 вышло «опережаем план» вместо недобора по обоим проектам)."""
+    sheet_id, budget_col = PLAN_SHEET_ID, "AdwordsBudget"
+    projects = [{"client_name": folder, "merchant_feed": None}]
     cfg_path = client_stats_dir(folder).parent / "analysis_config.yaml"
     if cfg_path.exists():
         try:
             import yaml
             plan = (yaml.safe_load(cfg_path.read_text(encoding="utf-8")) or {}).get("plan", {})
             sheet_id = plan.get("sheet_id", sheet_id)
-            client_name = plan.get("client_name", client_name)
             budget_col = plan.get("budget_column", budget_col)
+            if plan.get("projects"):
+                projects = [{"client_name": p["client_name"], "merchant_feed": p.get("merchant_feed")}
+                            for p in plan["projects"]]
+            elif plan.get("client_name"):
+                projects = [{"client_name": plan["client_name"], "merchant_feed": None}]
         except Exception:
             pass
+    return sheet_id, budget_col, projects
+
+
+def read_plan_rows(sheet_id, budget_col, today):
+    """Все строки плана месяца из Google-таблицы: название листа и [{client, budget, leads, cpa}]."""
+    import gspread
+    from google.oauth2.service_account import Credentials
     creds = Credentials.from_service_account_file(str(SERVICE_ACCOUNT_FILE),
                                                   scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"])
     tab = f"{MONTHS_RU[today.month - 1]} {today.strftime('%y')}"
     rows = gspread.authorize(creds).open_by_key(sheet_id).worksheet(tab).get_all_records()
     num = lambda v: float(str(v).replace(",", ".").replace(" ", "") or 0)  # noqa: E731
-    for r in rows:
-        if str(r.get("Client", "")).strip() == client_name:
-            return {"tab": tab, "client": client_name, "budget": num(r.get(budget_col)),
-                    "leads": num(r.get("Conversions")), "cpa": num(r.get("CPA"))}
-    return None
+    return tab, [{"client": str(r.get("Client", "")).strip(), "budget": num(r.get(budget_col)),
+                  "leads": num(r.get("Conversions")), "cpa": num(r.get("CPA"))} for r in rows]
 
 
-def budget_pacing(ga, cid, folder):
-    today = datetime.now(TZ).date()
-    dim = calendar.monthrange(today.year, today.month)[1]
-    plan = read_plan_row(folder, today)
-    if not plan or not plan["budget"]:
-        print(f"  плана месяца для «{folder}» в таблице «Цели2 Адвайта» нет — темп не посчитать (проверить строку Client)")
-        return
-    first = today.replace(day=1)
-    by_day = {}
-    leads = 0.0
-    for r in ga.search(customer_id=cid, query=(
-            "SELECT segments.date, metrics.cost_micros, metrics.conversions FROM customer "
-            f"WHERE segments.date BETWEEN '{first}' AND '{today}'")):
-        by_day[r.segments.date] = by_day.get(r.segments.date, 0) + r.metrics.cost_micros / 1e6
-        leads += r.metrics.conversions
+def print_pace(plan, by_day, leads, today, dim):
+    """Темп бюджета одного проекта: by_day — расход по дням, leads — основные конверсии Ads за месяц."""
     t = str(today)
     spent_today = by_day.get(t, 0.0)
     spent = sum(v for k, v in by_day.items() if k != t)          # расход по завершённым дням
@@ -187,12 +184,13 @@ def budget_pacing(ga, cid, folder):
     print(f"  план месяца ({plan['tab']}, строка «{plan['client']}»): бюджет {plan_b:.0f}, заявок {plan_l:.0f}, "
           f"цена заявки {plan['cpa']:.0f}")
     print(f"  срез: расход по завершённым дням 1–{elapsed}: {spent:.0f}; сегодня на сейчас {spent_today:.0f}; "
-          f"заявок в Ads (основные конверсии) за месяц {leads:.1f} (звонки Ringostat и формы вне Ads сюда не входят)")
+          f"заявок в Ads (основные конверсии) за месяц {leads:.1f} (звонки Ringostat и формы вне Ads сюда не входят; "
+          f"в конверсиях Ads бывают клики по номеру и спам-формы — для цены заявки брать Ringostat + Supabase)")
     if elapsed > 0 and expected:
         pct = spent / expected * 100
         verdict = "ОТСТАЁМ" if pct < 90 else ("ПЕРЕРАСХОД" if pct > 110 else "в темпе")
-        print(f"  расход: {spent:.0f} из {expected:.0f} по линейному плану на {elapsed} дн. ({pct:.0f}%) -> {verdict}; "
-              f"недобор {expected - spent:.0f}" if expected > spent else f"опережение {spent - expected:.0f}")
+        gap = f"недобор {expected - spent:.0f}" if expected > spent else f"опережение {spent - expected:.0f}"
+        print(f"  расход: {spent:.0f} из {expected:.0f} по линейному плану на {elapsed} дн. ({pct:.0f}%) -> {verdict}; {gap}")
     print(f"  среднее в день: последние 3 дня {avg(3):.0f}, 7 дней {avg(7):.0f}; "
           f"нужно в день на остаток ({remaining} дн. с сегодня), чтобы выйти на {plan_b:.0f}: {need:.0f}")
     if plan_l:
@@ -201,7 +199,50 @@ def budget_pacing(ga, cid, folder):
             print(f"  заявки: {leads:.1f} из {plan_l:.0f}; нужная цена заявки на остаток = ({plan_b:.0f} - {spent:.0f}) / "
                   f"{left:.1f} = {(plan_b - spent) / left:.0f} (план {plan['cpa']:.0f})")
         else:
-            print(f"  заявки: {leads:.1f} из {plan_l:.0f} - план по заявкам выполнен")
+            print(f"  заявки: {leads:.1f} из {plan_l:.0f} - план по заявкам выполнен (по конверсиям Ads, см. оговорку выше)")
+
+
+def budget_pacing(ga, cid, folder):
+    today = datetime.now(TZ).date()
+    dim = calendar.monthrange(today.year, today.month)[1]
+    sheet_id, budget_col, projects = plan_projects(folder)
+    tab, plan_rows = read_plan_rows(sheet_id, budget_col, today)
+    by_name = {r["client"]: r for r in plan_rows}
+    first = today.replace(day=1)
+    # расход по дням и кампаниям; фид Merchant Center — shopping_setting.merchant_id (у Search и PMax без фида он 0)
+    rows = []
+    for r in ga.search(customer_id=cid, query=(
+            "SELECT segments.date, campaign.id, campaign.shopping_setting.merchant_id, metrics.cost_micros, "
+            f"metrics.conversions FROM campaign WHERE segments.date BETWEEN '{first}' AND '{today}'")):
+        rows.append((r.segments.date, bool(r.campaign.shopping_setting.merchant_id),
+                     r.metrics.cost_micros / 1e6, r.metrics.conversions))
+    scope = {True: "кампании с фидом Merchant Center", False: "кампании без фида Merchant Center",
+             None: "все кампании аккаунта"}
+    for p in projects:
+        plan = by_name.get(p["client_name"])
+        if not plan or not plan["budget"]:
+            print(f"  плана месяца для «{p['client_name']}» в таблице «Цели2 Адвайта» нет — темп не посчитать (проверить строку Client)")
+            continue
+        by_day, leads = {}, 0.0
+        for d, has_feed, cost, conv in rows:
+            if p["merchant_feed"] is None or p["merchant_feed"] == has_feed:
+                by_day[d] = by_day.get(d, 0) + cost
+                leads += conv
+        print(f"  --- {p['client_name']} ({scope[p['merchant_feed']]}) ---")
+        print_pace(dict(plan, tab=tab), by_day, leads, today, dim)
+    if len(projects) > 1:
+        spent_all = sum(c for d, _, c, _ in rows if d != str(today))
+        plan_all = sum(by_name[p["client_name"]]["budget"] for p in projects if p["client_name"] in by_name)
+        print(f"  --- Всего по аккаунту ---\n  расход по завершённым дням 1–{today.day - 1}: {spent_all:.0f} из {plan_all:.0f} "
+              f"плана месяца (сумма проектов)")
+    # защита: строки плана этого клиента с бюджетом Google Ads, которых нет в конфиге, — расход сравнивается не с тем планом
+    prefix = projects[0]["client_name"].split(" - ")[0].strip().lower()
+    covered = {p["client_name"] for p in projects}
+    missing = [r["client"] for r in plan_rows
+               if r["client"].lower().startswith(prefix) and r["client"] not in covered and r["budget"] > 0]
+    if missing:
+        print("  ВНИМАНИЕ: в таблице плана есть строки клиента с бюджетом Google Ads, которых нет в analysis_config.yaml "
+              f"(plan.projects): {', '.join(missing)} — расход аккаунта сравнивается не со всем планом, добавить проект в конфиг")
     seven = today - timedelta(days=7)
     # два запроса: бюджет кампании и доли показов в одном запросе API v23 даёт 500 Internal error
     budgets = {}

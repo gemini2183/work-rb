@@ -8,5 +8,13 @@ timezone: Europe/Warsaw
 #   «Ekspertagro - Теплицы Польша» (general_pmax), «Ekspertagro - Мерчант» (shop_search, shop_pmax), «Ekspertagro - ФБ» (Facebook)
 plan:
   sheet_id: 1Lbefo3nX1-VZ7OOmJI2zf8B6vDX8PiXIjMjqoa89T7c
-  client_name: "Ekspertagro - Теплицы Польша"
+  client_name: "Ekspertagro - Теплицы Польша"   # читают сторож и campaign_analyzer (им нужна одна строка — CPA)
   budget_column: AdwordsBudget
+  # projects читает только state_digest.py (раздел [4] «Темп бюджета»): расход аккаунта делится по проектам плана.
+  # merchant_feed: true — кампании с фидом Merchant Center (shop_search, shop_pmax), false — без фида (general_*, Search).
+  # Строка «Ekspertagro - ФБ» — Facebook, к аккаунту Google Ads не относится.
+  projects:
+    - client_name: "Ekspertagro - Теплицы Польша"
+      merchant_feed: false
+    - client_name: "Ekspertagro - Мерчант"
+      merchant_feed: true
