@@ -1,0 +1,106 @@
+{
+ "account": "6353362488",
+ "container": "261134482",
+ "workspace_name": "ldv-envybox-isolated",
+ "version_name": "envybox callback widget: GA4 callback_request, isolated objects, old objects untouched",
+ "version_notes": "Только новые объекты: триггер NewCall (виджет Envybox) с условием Page Path (регулярное выражение страниц с виджетом) и тег GA4 callback_request. Старые теги, триггеры и переменные не изменены.",
+ "built_in_variables": [
+  "pagePath"
+ ],
+ "variables": [],
+ "triggers": [
+  {
+   "name": "envybox callback requested [envybox]",
+   "type": "customEvent",
+   "customEventFilter": [
+    {
+     "type": "equals",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{_event}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "NewCall"
+      }
+     ]
+    }
+   ],
+   "filter": [
+    {
+     "type": "matchRegex",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{Page Path}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "^/(california-car-accident-lawyer|california-car-accident-settlement|california-car-truck-accident)?/?$"
+      },
+      {
+       "type": "template",
+       "key": "ignore_case",
+       "value": "true"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "tags": [
+  {
+   "name": "GA4 - callback_request [envybox]",
+   "type": "gaawe",
+   "firingTriggerNames": [
+    "envybox callback requested [envybox]"
+   ],
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "callback_request"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "G-JPLC4Q41PS"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "widget"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "envybox_callback"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "update_tags": [],
+ "update_variables": [],
+ "update_triggers": []
+}
