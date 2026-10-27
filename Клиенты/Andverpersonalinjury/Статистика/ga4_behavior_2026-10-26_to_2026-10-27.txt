@@ -1,0 +1,85 @@
+GA4 549802233 | 2026-10-26 → 2026-10-27 | исключено: страны ['Spain'], города —
+
+== 1. Состав сеансов по стране и городу (БЕЗ исключений) — тестовый трафик виден здесь
+страна | город | сеансы | вовлечённые
+Spain | Barcelona | 62 | 11
+ |  | 2 | 0
+Albania | Tirana | 2 | 0
+United States | Chicago | 2 | 0
+Ukraine | Poltava | 1 | 1
+United States | Los Angeles | 1 | 0
+United States | Merced | 1 | 1
+United States | Stockton | 1 | 0
+United States | Twentynine Palms | 1 | 1
+
+== 2. Источник/канал и устройство (после исключений)
+источник / канал | устройство | сеансы | вовлечённые | ср. время вовлечения, с
+google / cpc | mobile | 6 | 2 | 97
+(direct) / (none) | mobile | 2 | 0 | 12
+google / cpc | desktop | 2 | 1 | 61
+(not set) | desktop | 1 | 0 | 34
+(not set) | mobile | 1 | 0 | 6
+chatgpt.com / cpc | mobile | 1 | 0 | 0
+
+== 3. События (после исключений): число событий и сеансов с событием
+событие | событий | пользователей
+block_time | 71 | 4
+block_view | 38 | 7
+quiz_step | 21 | 3
+page_view | 19 | 11
+scroll_depth | 18 | 3
+session_start | 11 | 11
+first_visit | 10 | 10
+stay_10s | 9 | 3
+engaged_30s | 4 | 3
+quiz_complete | 4 | 3
+quiz_start | 4 | 3
+scroll | 4 | 1
+cta_click | 3 | 1
+user_engagement | 3 | 1
+form_start | 2 | 1
+form_submit | 2 | 1
+lead_form_start | 2 | 1
+quiz_cta | 2 | 1
+
+== 4. Блоки: показ блока (block_view) и секунды (block_time)
+блок | block_view событий | block_view пользователей
+ai_hero | 4 | 4
+faq | 4 | 1
+final | 4 | 1
+footer | 4 | 1
+hero | 4 | 3
+how | 3 | 1
+insurers | 3 | 1
+quiz | 3 | 3
+reviews | 3 | 1
+attorney | 2 | 1
+form_a | 2 | 2
+fee | 1 | 1
+situations | 1 | 1
+
+== 4b. Секунды по блокам (block_time)
+блок | событий | секунд всего
+header | 19 | 177
+hero | 10 | 39
+final | 7 | 17
+insurers | 7 | 20
+footer | 6 | 8
+how | 5 | 5
+faq | 4 | 4
+quiz | 3 | 7
+reviews | 3 | 7
+form_a | 2 | 2
+ai_hero | 1 | 8
+attorney | 1 | 1
+fee | 1 | 1
+situations | 1 | 1
+team | 1 | 1
+
+== 5. Клики по телефону по местам
+место | кликов | пользователей
+(нет данных)
+
+== 5b. Вопросы FAQ, которые открывали
+вопрос | раз | пользователей
+(нет данных)
