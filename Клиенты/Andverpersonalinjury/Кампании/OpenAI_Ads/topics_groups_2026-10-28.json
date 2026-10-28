@@ -1,0 +1,117 @@
+{
+ "campaign_id": "cmpn_ПОДСТАВИТЬ_ПОСЛЕ_СОЗДАНИЯ",
+ "bidding": "fixed_bid",
+ "max_bid_usd": 20,
+ "version": 1,
+ "note": "Темы вне ДТП в ChatGPT: по одной группе на страницу, тексты из заголовков страниц, 3 подсказки, 2 объявления, одна картинка 1200x1200",
+ "groups": [
+  {
+   "group": "Wrongful Death",
+   "context_hints": [
+    "user lost a family member in an accident caused by someone else in California and asks about a wrongful death claim",
+    "user asks who is allowed to bring a wrongful death claim in California and what the deadline is",
+    "user asks whether to talk to a wrongful death lawyer after a fatal car, truck, motorcycle or rideshare accident in California"
+   ],
+   "ads": [
+    {
+     "ad_name": "WD1",
+     "title": "California Wrongful Death Lawyer",
+     "copy": "Free case review. An attorney explains who can bring a claim and the deadlines.",
+     "link": "https://landverpersonalinjury.tilda.ws/wrongful-death-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=wd1",
+     "image_path": "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы/openai_1200/wd_1_scales_sq_1200.jpg",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    },
+    {
+     "ad_name": "WD2",
+     "title": "Who Can Bring a Wrongful Death Claim?",
+     "copy": "Free case review for your family. No fee unless we win. Answered 24/7.",
+     "link": "https://landverpersonalinjury.tilda.ws/wrongful-death-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=wd2",
+     "image_path": "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы/openai_1200/wd_1_scales_sq_1200.jpg",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    }
+   ]
+  },
+  {
+   "group": "Brain Injury",
+   "context_hints": [
+    "user was hurt in a car crash, a fall or an assault in California and their head, memory or mood is not the same",
+    "user has a head injury or concussion from an accident in California and the insurance company says it was minor",
+    "user asks whether to hire a brain injury lawyer in California after an accident or a fall"
+   ],
+   "ads": [
+    {
+     "ad_name": "BI1",
+     "title": "California Brain Injury Lawyer",
+     "copy": "Hurt in a crash, a fall or an assault? Free case review. No fee unless we win.",
+     "link": "https://landverpersonalinjury.tilda.ws/brain-injury-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=bi1",
+     "image_path": "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы/openai_1200/bi_1_desk_sq_1200.jpg",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    },
+    {
+     "ad_name": "BI2",
+     "title": "Head, Memory or Mood Not the Same?",
+     "copy": "Symptoms can show up days later. An attorney reviews your case for free.",
+     "link": "https://landverpersonalinjury.tilda.ws/brain-injury-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=bi2",
+     "image_path": "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы/openai_1200/bi_1_desk_sq_1200.jpg",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    }
+   ]
+  },
+  {
+   "group": "Rideshare",
+   "context_hints": [
+    "user was hurt in a crash with an Uber or Lyft in California and asks who pays",
+    "user was a passenger in an Uber or Lyft in California and was injured",
+    "user was hit by an Uber or Lyft driver in California and asks whether to talk to a lawyer"
+   ],
+   "ads": [
+    {
+     "ad_name": "RS1",
+     "title": "California Uber & Lyft Accident Lawyer",
+     "copy": "Free case review. No fee unless we win. Answered 24/7.",
+     "link": "https://landverpersonalinjury.tilda.ws/uber-lyft-accident-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=rs1",
+     "image_path": "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы/openai_1200/rs_1_phone_sq_1200.jpg",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    },
+    {
+     "ad_name": "RS2",
+     "title": "Hurt in a Crash With an Uber or Lyft?",
+     "copy": "Whose insurance applies can depend on what the driver was doing in the app.",
+     "link": "https://landverpersonalinjury.tilda.ws/uber-lyft-accident-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=rs2",
+     "image_path": "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы/openai_1200/rs_1_phone_sq_1200.jpg",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    }
+   ]
+  }
+ ]
+}

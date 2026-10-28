@@ -16,6 +16,7 @@
     pause    — поставить на паузу группы и/или объявления (POST /ad_groups/{id}/pause, /ads/{id}/pause); без --execute план;
     campaign — статус кампании (activate/pause) и дневной лимит (POST /campaigns/{id}); без --execute план, перед записью
                и после неё печатается состояние кампании;
+    create-campaign — новая кампания на паузе по образцу другой (ставки, цели, гео); без --execute план;
     copy-ads — копии существующих объявлений в той же группе с другой ссылкой (на паузе, модерация отдельно); без --execute план.
 
 БЕЗОПАСНОСТЬ: set-bid и set-image по умолчанию только показывают план «было → станет» и ничего
@@ -182,9 +183,13 @@ def cmd_create_groups(a):
                 errors.append(f"{ad['ad_name']}: заголовок {len(t)} знаков (нужно 3–50)")
             if len(c) > 100:
                 errors.append(f"{ad['ad_name']}: текст {len(c)} знаков (до 100)")
-            if ad.get("file_id") not in used_files:
+            if ad.get("image_path"):
+                if not os.path.exists(ad["image_path"] if os.path.isabs(ad["image_path"]) else os.path.join(root, ad["image_path"])):
+                    errors.append(f"{ad['ad_name']}: нет файла {ad['image_path']}")
+            elif ad.get("file_id") not in used_files:
                 errors.append(f"{ad['ad_name']}: file_id {ad.get('file_id')} нет среди картинок кампании")
-            print(f"{g['group']} | {ad['ad_name']} | {t} [{len(t)}] | {c} [{len(c)}] | ...{str(ad.get('file_id'))[-8:]}")
+            print(f"{g['group']} | {ad['ad_name']} | {t} [{len(t)}] | {c} [{len(c)}] | "
+                  f"{ad['image_path'] if ad.get('image_path') else '...' + str(ad.get('file_id'))[-8:]}")
     bid_cfg = {"strategy": spec.get("bidding", "maximize_clicks"), "billing_event_type": "click"}
     if bid_cfg["strategy"] == "fixed_bid":  # потолок цены клика задаётся в плане: "max_bid_usd"
         if not spec.get("max_bid_usd"):
@@ -200,6 +205,16 @@ def cmd_create_groups(a):
         print("\nПлан. Записи не было (добавьте --execute).")
         return
     created = []
+    uploaded = {}  # одна картинка на несколько объявлений загружается один раз
+    for g in spec["groups"]:
+        for ad in g["ads"]:
+            ip = ad.get("image_path")
+            if ip:
+                full = ip if os.path.isabs(ip) else os.path.join(root, ip)
+                if full not in uploaded:
+                    uploaded[full] = upload_image(full)
+                    print(f"загружена картинка {os.path.basename(full)} → {uploaded[full]}")
+                ad["file_id"] = uploaded[full]
     for g in spec["groups"]:
         body = {"campaign_id": camp, "name": g["group"], "status": "paused", "context_hints": g.get("context_hints") or [],
                 "bidding_config": bid_cfg,
@@ -442,6 +457,33 @@ def cmd_campaign(a):
     print(f"  {c2['name']}  статус {c2['status']}  дневной лимит ${((c2.get('budget') or {}).get('daily_spend_limit_micros') or 0) / 1e6:g}")
 
 
+def cmd_create_campaign(a):
+    """Новая кампания на паузе по образцу существующей: тип ставки, цели, гео. Без --execute — план."""
+    src = get_campaign(a.source)
+    body = {"name": a.name, "status": "paused", "bidding_type": src["bidding_type"],
+            "billing_event_type": src["billing_event_type"], "objective": src["objective"],
+            "budget": {"daily_spend_limit_micros": int(round(a.daily_limit * 1e6))},
+            "conversion_event_setting_ids": src["conversion_event_setting_ids"],
+            "targeting": src["targeting"]}
+    inc = body["targeting"]["locations"]["include"]
+    print("Объект | Действие | Было → Станет")
+    print(f"кампания «{a.name}» | создать, paused | нет → {body['bidding_type']}/{body['billing_event_type']}, "
+          f"лимит ${a.daily_limit:g}, цели {len(body['conversion_event_setting_ids'])}, гео {len(inc)} "
+          f"(образец: {src['name']})")
+    if not a.execute:
+        print("\nПлан. Записи не было (добавьте --execute).")
+        return
+    import hashlib
+    idem = "ldv-" + hashlib.sha1(("campaign|" + a.name).encode("utf-8")).hexdigest()[:32]
+    cid = call("POST", "/campaigns", body=body, idem=idem)["id"]
+    time.sleep(5)
+    c = get_campaign(cid)
+    print("\nПрочитано обратно из аккаунта:")
+    print(f"  {c['id']}  {c['name']}  {c['status']}  {c['bidding_type']}/{c['billing_event_type']}  "
+          f"лимит ${((c.get('budget') or {}).get('daily_spend_limit_micros') or 0) / 1e6:g}  "
+          f"цели {c.get('conversion_event_setting_ids')}  гео {len(c['targeting']['locations']['include'])}")
+
+
 def cmd_copy_ads(a):
     """Копии объявлений в той же группе с новой ссылкой и суффиксом в имени; создаются на паузе (модерация и включение отдельно)."""
     import hashlib
@@ -515,6 +557,10 @@ def main():
     cp = sub.add_parser("campaign"); cp.add_argument("--campaign", required=True)
     cp.add_argument("--daily-limit", type=float, help="дневной лимит, $"); cp.add_argument("--status", choices=["active", "paused"])
     cp.add_argument("--execute", action="store_true"); cp.set_defaults(f=cmd_campaign)
+    cc = sub.add_parser("create-campaign")
+    cc.add_argument("--source", required=True, help="кампания-образец (cmpn_…): ставки, цели, гео копируются")
+    cc.add_argument("--name", required=True); cc.add_argument("--daily-limit", required=True, type=float, help="дневной лимит, $")
+    cc.add_argument("--execute", action="store_true"); cc.set_defaults(f=cmd_create_campaign)
     ca = sub.add_parser("copy-ads"); ca.add_argument("--campaign", required=True)
     ca.add_argument("--ads", nargs="+", required=True, help="ID исходных объявлений")
     ca.add_argument("--link", required=True, help="ссылка с utm без utm_content"); ca.add_argument("--utm-content", default="copy")
