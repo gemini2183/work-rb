@@ -256,12 +256,29 @@ def cmd_fit(args) -> int:
     return rc
 
 
+def _get_key(name: str) -> str | None:
+    """Ключ из переменной окружения, иначе из Скрипты/secrets/image_keys.env (строки NAME=значение; папка в .gitignore)."""
+    key = os.environ.get(name)
+    if key:
+        return key
+    f = Path(__file__).resolve().parent / "secrets" / "image_keys.env"
+    if f.exists():
+        for line in f.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                k, v = line.split("=", 1)
+                if k.strip() == name and v.strip():
+                    return v.strip().strip('"').strip("'")
+    return None
+
+
 def _generate_openai(model: str, prompt: str, size: str) -> bytes:
     import requests
 
-    key = os.environ.get("OPENAI_API_KEY")
+    key = _get_key("OPENAI_API_KEY")
     if not key:
-        raise SystemExit("Нет переменной окружения OPENAI_API_KEY (ключ OPENAI_ADS_API_KEY для картинок не подходит).")
+        raise SystemExit("Нет ключа OPENAI_API_KEY: ни в переменной окружения, ни в Скрипты/secrets/image_keys.env "
+                         "(ключ OPENAI_ADS_API_KEY для картинок не подходит).")
     r = requests.post(
         "https://api.openai.com/v1/images/generations",
         headers={"Authorization": f"Bearer {key}"},
@@ -277,9 +294,9 @@ def _generate_openai(model: str, prompt: str, size: str) -> bytes:
 
 
 def _generate_gemini(model: str, prompt: str) -> bytes:
-    key = os.environ.get("GEMINI_API_KEY")
+    key = _get_key("GEMINI_API_KEY")
     if not key:
-        raise SystemExit("Нет переменной окружения GEMINI_API_KEY.")
+        raise SystemExit("Нет ключа GEMINI_API_KEY: ни в переменной окружения, ни в Скрипты/secrets/image_keys.env.")
     from google import genai
     from google.genai import types
 

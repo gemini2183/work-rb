@@ -1,0 +1,19 @@
+{
+  "customer_id": "2136216123",
+  "campaign": "search / car+truck injuries / s / lp - tilda",
+  "_note": "28.10.2026, по команде пользователя «включение групп — да»: включить три тематические группы после публикации GTM v15 и проверки подмены номера",
+  "set_group_status": [
+    {
+      "group": "Wrongful Death - Exact",
+      "status": "ENABLED"
+    },
+    {
+      "group": "Brain Injury - Exact",
+      "status": "ENABLED"
+    },
+    {
+      "group": "Rideshare - Exact",
+      "status": "ENABLED"
+    }
+  ]
+}

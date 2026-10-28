@@ -1,0 +1,26 @@
+<!-- Landver Law | Car: отдельный блок «Награды и членства» (T123 «HTML»). Ставится СРАЗУ ПОСЛЕ блока про адвоката (тёмный блок) и ПЕРЕД блоком отзывов.
+     Без скриптов, старые блоки не затрагивает. Откат: удалить этот блок. Значки — с главной страницы клиента (подтверждены клиентом). -->
+<style>
+.ldvadd__aw{background:#fff;padding:36px 16px;font-family:Montserrat,Arial,sans-serif;color:#292929}
+.ldvadd__aw *{box-sizing:border-box}
+.ldvadd__aw-in{max-width:1040px;margin:0 auto}
+.ldvadd__aw .ldvadd__eyebrow{margin:0 0 14px;color:#937a4e;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.ldvadd__badges{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 14px;padding:0;list-style:none}
+.ldvadd__badges img{display:block;width:84px;height:84px;object-fit:contain;background:#fff;border:1px solid #e7dfd2;border-radius:10px;padding:4px}
+.ldvadd__aw .ldvadd__note{margin:0;font-size:13px;line-height:1.55;color:#77716a}
+@media(min-width:700px){.ldvadd__aw{padding:44px 24px}}
+</style>
+<section class="ldvadd__aw" id="ldv-awards" aria-label="Awards and memberships">
+  <div class="ldvadd__aw-in">
+    <p class="ldvadd__eyebrow">Awards and memberships</p>
+    <ul class="ldvadd__badges">
+      <li><img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/image-1.png" width="84" height="84" loading="lazy" alt="Litigator Awards, ranked top 1% lawyers"></li>
+      <li><img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/image-2.png" width="84" height="84" loading="lazy" alt="Super Lawyers"></li>
+      <li><img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/image-3.png" width="84" height="84" loading="lazy" alt="American Institute of Trial Lawyers, Litigator of the Year 2021"></li>
+      <li><img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/image-4.png" width="84" height="84" loading="lazy" alt="National Alliance of Attorneys, Member, Attorney of the Year 2021"></li>
+      <li><img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/image-5.png" width="84" height="84" loading="lazy" alt="Million Dollar Advocates Forum"></li>
+      <li><img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/image-6.png" width="84" height="84" loading="lazy" alt="Los Angeles County Bar Association (LACBA)"></li>
+    </ul>
+    <p class="ldvadd__note">Awards and memberships are as published by the firm. Prior experience and recognition do not guarantee a particular outcome in any individual matter.</p>
+  </div>
+</section>

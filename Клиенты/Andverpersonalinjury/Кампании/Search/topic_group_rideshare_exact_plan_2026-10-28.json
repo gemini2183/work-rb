@@ -1,0 +1,95 @@
+{
+  "_comment": "Новая группа «Rideshare - Exact» на паузе, ключи EXACT, ставка $100. Сформировано gads_topic_groups_plan.py 2026-10-28 из Креативы/rsa_6themes_2026-10-28.yaml и Статистика/exact_plan_6themes_2026-10-28.csv",
+  "customer_id": "2136216123",
+  "campaign": "search / car+truck injuries / s / lp - tilda",
+  "new_group": {
+    "name": "Rideshare - Exact",
+    "status": "PAUSED",
+    "cpc_bid_micros": 100000000,
+    "keywords": [
+      "uber accident lawyer",
+      "uber accident attorney",
+      "rideshare accident attorney",
+      "lyft accident lawyer",
+      "lyft accident attorney",
+      "rideshare accident lawyer",
+      "uber accident lawyer los angeles",
+      "rideshare accident lawyer los angeles",
+      "uber accident lawyer beverly hills"
+    ],
+    "match": "EXACT"
+  },
+  "rsa": {
+    "final_url": "https://landverpersonalinjury.tilda.ws/uber-lyft-accident-lawyer-california",
+    "path1": "uber",
+    "path2": "",
+    "ad_groups": [],
+    "also_new_group": true,
+    "headlines": [
+      {
+        "text": "Uber & Lyft Accident Lawyer",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Rideshare Accident Attorney",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Uber or Lyft Crash Lawyer",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Hurt in an Uber or Lyft Crash?",
+        "pin": "HEADLINE_2"
+      },
+      {
+        "text": "Free Case Review"
+      },
+      {
+        "text": "No Fee Unless We Win"
+      },
+      {
+        "text": "Call Landver Law 24/7"
+      },
+      {
+        "text": "Passenger in an Uber or Lyft?"
+      },
+      {
+        "text": "Driver Says the App Was Off?"
+      },
+      {
+        "text": "Who Pays After the Crash?"
+      },
+      {
+        "text": "Hit by a Rideshare Driver?"
+      },
+      {
+        "text": "20+ Years in California"
+      },
+      {
+        "text": "4.8-Star Client Rating"
+      },
+      {
+        "text": "Trial-Focused Representation"
+      },
+      {
+        "text": "Know What Your Case Is Worth"
+      }
+    ],
+    "descriptions": [
+      {
+        "text": "Hurt in a crash with an Uber or Lyft? Get a free case review. We help injured people.",
+        "pin": "DESCRIPTION_1"
+      },
+      {
+        "text": "Whose insurance applies can depend on what the driver was doing in the app. Ask us."
+      },
+      {
+        "text": "Free case review. No fee unless we win. Call Landver Law 24/7 or leave your number."
+      },
+      {
+        "text": "20+ years in California courts. Trial-focused, with insight from the defense side."
+      }
+    ]
+  }
+}

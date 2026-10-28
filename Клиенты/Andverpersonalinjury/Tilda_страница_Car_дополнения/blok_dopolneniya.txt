@@ -1,0 +1,126 @@
+<!-- Landver Law | CAR PAGE ADD-ONS V1 (T123 «HTML»). Ставится ПОСЛЕДНИМ блоком страницы california-car-accident-lawyer, после «Photography integration».
+     Старые блоки НЕ правятся. Блок добавляет: (1) чип «$38.5M motor vehicle accident result*» и сноску на первом экране, (2) блок «Recent settlements and verdicts» перед блоком адвоката,
+     (3) значки наград у адвоката, (4) ссылки на профили авторов отзывов в Google и ссылку «Read all reviews on Google», (5) общий текст подвала: «…including serious vehicle collisions and wrongful death» (как на шести новых страницах).
+     Квиз и всё остальное не затрагиваются. Откат: удалить этот блок (страница возвращается к прежнему виду). Идемпотентен: повторный запуск ничего не дублирует. -->
+<style>
+.ldvadd__fn{margin:8px 0 0;font:400 12px/1.4 Montserrat,Arial,sans-serif;color:#77716a}
+.ldvadd__res{background:#fff;padding:44px 16px;font-family:Montserrat,Arial,sans-serif;color:#292929}
+.ldvadd__res *{box-sizing:border-box}
+.ldvadd__res-in{max-width:1040px;margin:0 auto}
+.ldvadd__eyebrow{margin:0 0 10px;color:#937a4e;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.ldvadd__title{margin:0 0 18px;font-size:clamp(26px,5.2vw,38px);line-height:1.16;font-weight:800;letter-spacing:-.02em;color:#292929}
+.ldvadd__cards{display:grid;gap:12px;margin:0 0 16px}
+.ldvadd__card{padding:20px;border-radius:14px;background:#f7f2ea;border:1px solid #e7dfd2;border-left:4px solid #d2b16d}
+.ldvadd__card b{display:block;margin:0 0 6px;font-size:18px;line-height:1.3;font-weight:800;color:#292929}
+.ldvadd__card p{margin:0;font-size:15px;line-height:1.55;color:#66615b}
+.ldvadd__note{margin:0;font-size:13px;line-height:1.55;color:#77716a}
+.ldvadd__badges{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 14px;padding:0;list-style:none}
+.ldvadd__badges img{display:block;width:72px;height:72px;object-fit:contain;background:#fff;border-radius:10px;padding:4px}
+.ldvadd__rlinks{margin:14px 0 0;font:700 14.5px/1.4 Montserrat,Arial,sans-serif}
+.ldvadd__rlinks a,.ldv4__review footer a.ldvadd__author{color:#826510}
+@media(min-width:700px){.ldvadd__res{padding:64px 24px}.ldvadd__cards{grid-template-columns:repeat(3,1fr)}}
+</style>
+<script>
+(function () {
+  "use strict";
+  var SITE = "https://landverpersonalinjury.com/wp-content/uploads/2025/04/";
+  var BADGES = [
+    ["image-1.png", "Litigator Awards, ranked top 1% lawyers"],
+    ["image-2.png", "Super Lawyers"],
+    ["image-3.png", "American Institute of Trial Lawyers, Litigator of the Year 2021"],
+    ["image-4.png", "National Alliance of Attorneys, Member, Attorney of the Year 2021"],
+    ["image-5.png", "Million Dollar Advocates Forum"],
+    ["image-6.png", "Los Angeles County Bar Association (LACBA)"]
+  ];
+  var AUTHORS = {
+    "Francis Padilla": "106434070416505315970",
+    "Elsy Castellanos": "106611924844132641706",
+    "Nureet Cohen": "100250608118481741255"
+  };
+  var NOTE = "Past results do not guarantee, predict or imply a similar outcome in any other matter. Every case depends on its own facts, injuries, evidence, liability, insurance coverage and applicable law.";
+
+  function el(tag, cls, html) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (html) e.innerHTML = html;
+    return e;
+  }
+
+  function heroChip() {
+    var trust = document.querySelector(".ldvc__trust");
+    if (!trust || trust.querySelector("[data-ldvadd]")) return;
+    var li = el("li", "", "<b>$38.5M</b> motor vehicle accident result*");
+    li.setAttribute("data-ldvadd", "chip");
+    trust.appendChild(li);
+    var fn = el("p", "ldvadd__fn", "*Past results do not guarantee, predict or imply a similar outcome in any other matter.");
+    fn.setAttribute("data-ldvadd", "fn");
+    trust.parentNode.insertBefore(fn, trust.nextSibling);
+  }
+
+  function results() {
+    var att = document.getElementById("ldv-attorney");
+    if (!att || document.getElementById("ldv-results")) return;
+    var sec = el("section", "ldvadd__res",
+      '<div class="ldvadd__res-in">' +
+      '<p class="ldvadd__eyebrow">Results</p>' +
+      '<h2 class="ldvadd__title">Recent settlements and verdicts</h2>' +
+      '<div class="ldvadd__cards">' +
+      '<div class="ldvadd__card"><b>$38.5M &middot; Motor vehicle accident</b><p>A highway rear-end collision caused severe spinal injuries and a prolonged recovery. The firm built a comprehensive evidentiary record and secured a top verdict.</p></div>' +
+      '<div class="ldvadd__card"><b>$35.2M &middot; Truck accident</b><p>One of the firm\'s most contested cases. The result was a top verdict for the client.</p></div>' +
+      '<div class="ldvadd__card"><b>$18.5M &middot; Motorcycle accident</b><p>A driver\'s failure to yield resulted in severe fractures and an extensive recovery.</p></div>' +
+      '</div>' +
+      '<p class="ldvadd__note">' + NOTE + '</p>' +
+      '</div>');
+    sec.id = "ldv-results";
+    att.parentNode.insertBefore(sec, att);
+  }
+
+  function badges() {
+    var info = document.querySelector("#ldv-attorney .ldv4__attorney-info");
+    if (!info || info.querySelector(".ldvadd__badges")) return;
+    var ul = el("ul", "ldvadd__badges");
+    BADGES.forEach(function (b) {
+      var li = document.createElement("li");
+      var img = document.createElement("img");
+      img.src = SITE + b[0]; img.alt = b[1]; img.width = 72; img.height = 72; img.loading = "lazy";
+      li.appendChild(img); ul.appendChild(li);
+    });
+    var lead = info.querySelector(".ldv4__lead");
+    var src = info.querySelector(".ldv4__source");
+    if (lead && lead.parentNode) lead.parentNode.insertBefore(ul, lead.nextSibling);
+    else info.appendChild(ul);
+    if (src && src.textContent.indexOf("Awards and memberships") < 0) {
+      src.textContent = "Awards and memberships are as published by the firm. " + src.textContent.replace(/\s+/g, " ").trim().replace("Prior experience does not guarantee", "Prior experience and recognition do not guarantee");
+    }
+  }
+
+  function reviewLinks() {
+    var wrap = document.querySelector("#ldv-reviews .ldv4__reviews");
+    if (!wrap || document.querySelector(".ldvadd__rlinks")) return;
+    var foots = document.querySelectorAll("#ldv-reviews .ldv4__review footer");
+    Array.prototype.forEach.call(foots, function (f) {
+      Object.keys(AUTHORS).forEach(function (name) {
+        if (f.getAttribute("data-ldvadd") || f.textContent.indexOf(name) < 0) return;
+        f.innerHTML = f.innerHTML.replace(name, '<a class="ldvadd__author" href="https://www.google.com/maps/contrib/' + AUTHORS[name] + '/reviews" target="_blank" rel="noopener nofollow">' + name + "</a>");
+        f.setAttribute("data-ldvadd", "1");
+      });
+    });
+    var p = el("p", "ldvadd__rlinks", '<a href="https://maps.google.com/?cid=14462387040831338871" target="_blank" rel="noopener nofollow">Read all reviews on Google</a>');
+    wrap.parentNode.insertBefore(p, wrap.nextSibling);
+  }
+
+  function footerText() {
+    var d = document.querySelector(".ldvf7__description");
+    if (!d || d.getAttribute("data-ldvadd")) return;
+    var t = d.innerHTML;
+    var a = "including serious car and commercial-truck collisions";
+    if (t.indexOf(a) < 0) return;
+    d.innerHTML = t.replace(a, "including serious vehicle collisions and wrongful death");
+    d.setAttribute("data-ldvadd", "1");
+  }
+
+  function run() { heroChip(); results(); badges(); reviewLinks(); footerText(); }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", run); else run();
+  window.addEventListener("load", run);
+})();
+</script>

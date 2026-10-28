@@ -400,15 +400,37 @@ def main():
         req.validate_only = validate
         return ga.mutate(request=req)
 
-    try:
-        send(True)
-        print("validate_only: ОК — Google принял пакет без ошибок")
-    except GoogleAdsException as ex:
-        print("validate_only: ОШИБКА")
-        for e in ex.failure.errors:
-            idx = [str(el.index) for el in e.location.field_path_elements if el.field_name == "mutate_operations"] if e.location else []
-            print(f"  - {e.message} | операция {idx}")
-        sys.exit(2)
+    # Политика HEALTH_IN_PERSONALIZED_ADS у ключей юр-кампаний (brain injury, wrongful death, rideshare…) обходится исключением,
+    # как в gads_adgroup_plan.py: только эта политика, только исключаемая, только то, что вернул Google.
+    ALLOWED_EXEMPT = {"HEALTH_IN_PERSONALIZED_ADS"}
+    exempted = 0
+    for _ in range(3):
+        try:
+            send(True)
+            print("validate_only: ОК — Google принял пакет без ошибок"
+                  + (f" (исключения политики HEALTH_IN_PERSONALIZED_ADS: {exempted} ключей)" if exempted else ""))
+            break
+        except GoogleAdsException as ex:
+            found = 0
+            for e in ex.failure.errors:
+                d = e.details.policy_violation_details
+                els = e.location.field_path_elements if e.location else []
+                idx = els[0].index if els and els[0].field_name == "mutate_operations" else None
+                if idx is not None and d.key.policy_name in ALLOWED_EXEMPT and d.is_exemptible \
+                        and (ops[idx]._pb if hasattr(ops[idx], "_pb") else ops[idx]).WhichOneof("operation") == "ad_group_criterion_operation":
+                    key = client.get_type("PolicyViolationKey")
+                    key.policy_name, key.violating_text = d.key.policy_name, d.key.violating_text
+                    ops[idx].ad_group_criterion_operation.exempt_policy_violation_keys.append(key)
+                    found += 1
+                    exempted += 1
+            if not found:
+                print("validate_only: ОШИБКА")
+                for e in ex.failure.errors:
+                    idx = [str(el.index) for el in e.location.field_path_elements if el.field_name == "mutate_operations"] if e.location else []
+                    print(f"  - {e.message} | операция {idx}")
+                sys.exit(2)
+    else:
+        sys.exit("не удалось пройти проверку за 3 прохода")
 
     if not args.execute:
         print("Режим проверки: ничего не записано. Для записи — флаг --execute.")

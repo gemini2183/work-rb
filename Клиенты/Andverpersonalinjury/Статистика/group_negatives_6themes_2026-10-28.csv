@@ -1,0 +1,72 @@
+﻿group,text,match
+Motorcycle - Exact,near me,PHRASE
+Motorcycle - Exact,nearby,PHRASE
+Motorcycle - Exact,near by,PHRASE
+Motorcycle - Exact,close to me,PHRASE
+Motorcycle - Exact,gear,PHRASE
+Motorcycle - Exact,for sale,PHRASE
+Motorcycle - Exact,license,PHRASE
+Motorcycle - Exact,course,PHRASE
+Motorcycle - Exact,club,PHRASE
+Motorcycle - Exact,rental,PHRASE
+Motorcycle - Exact,repair,PHRASE
+Motorcycle - Exact,parts,PHRASE
+Motorcycle - Exact,dealer,PHRASE
+Wrongful Death - Exact,near me,PHRASE
+Wrongful Death - Exact,nearby,PHRASE
+Wrongful Death - Exact,near by,PHRASE
+Wrongful Death - Exact,close to me,PHRASE
+Wrongful Death - Exact,malpractice,PHRASE
+Wrongful Death - Exact,nursing home,PHRASE
+Wrongful Death - Exact,hospital,PHRASE
+Wrongful Death - Exact,medical,PHRASE
+Wrongful Death - Exact,police,PHRASE
+Wrongful Death - Exact,jail,PHRASE
+Wrongful Death - Exact,prison,PHRASE
+Pedestrian - Exact,near me,PHRASE
+Pedestrian - Exact,nearby,PHRASE
+Pedestrian - Exact,near by,PHRASE
+Pedestrian - Exact,close to me,PHRASE
+Pedestrian - Exact,ticket,PHRASE
+Pedestrian - Exact,citation,PHRASE
+Pedestrian - Exact,charges,PHRASE
+Pedestrian - Exact,defense,PHRASE
+Brain Injury - Exact,near me,PHRASE
+Brain Injury - Exact,nearby,PHRASE
+Brain Injury - Exact,near by,PHRASE
+Brain Injury - Exact,close to me,PHRASE
+Brain Injury - Exact,birth injury,PHRASE
+Brain Injury - Exact,malpractice,PHRASE
+Brain Injury - Exact,symptoms,PHRASE
+Brain Injury - Exact,treatment,PHRASE
+Brain Injury - Exact,recovery,PHRASE
+Brain Injury - Exact,therapy,PHRASE
+Brain Injury - Exact,rehab,PHRASE
+Brain Injury - Exact,doctor,PHRASE
+Brain Injury - Exact,disability,PHRASE
+Brain Injury - Exact,veteran,PHRASE
+Brain Injury - Exact,nfl,PHRASE
+Brain Injury - Exact,football,PHRASE
+Brain Injury - Exact,cte,PHRASE
+Rideshare - Exact,near me,PHRASE
+Rideshare - Exact,nearby,PHRASE
+Rideshare - Exact,near by,PHRASE
+Rideshare - Exact,close to me,PHRASE
+Rideshare - Exact,driver sign up,PHRASE
+Rideshare - Exact,become a driver,PHRASE
+Rideshare - Exact,jobs,PHRASE
+Rideshare - Exact,promo code,PHRASE
+Rideshare - Exact,refund,PHRASE
+Rideshare - Exact,lost item,PHRASE
+Rideshare - Exact,deactivated,PHRASE
+Rideshare - Exact,stock,PHRASE
+Bicycle - Exact,near me,PHRASE
+Bicycle - Exact,nearby,PHRASE
+Bicycle - Exact,near by,PHRASE
+Bicycle - Exact,close to me,PHRASE
+Bicycle - Exact,helmet law,PHRASE
+Bicycle - Exact,for sale,PHRASE
+Bicycle - Exact,repair,PHRASE
+Bicycle - Exact,shop,PHRASE
+Bicycle - Exact,rental,PHRASE
+Bicycle - Exact,insurance quote,PHRASE

@@ -1,0 +1,94 @@
+{
+  "_comment": "Новая группа «Wrongful Death - Exact» на паузе, ключи EXACT, ставка $100. Сформировано gads_topic_groups_plan.py 2026-10-28 из Креативы/rsa_6themes_2026-10-28.yaml и Статистика/exact_plan_6themes_2026-10-28.csv",
+  "customer_id": "2136216123",
+  "campaign": "search / car+truck injuries / s / lp - tilda",
+  "new_group": {
+    "name": "Wrongful Death - Exact",
+    "status": "PAUSED",
+    "cpc_bid_micros": 100000000,
+    "keywords": [
+      "wrongful death lawyer",
+      "wrongful death attorney",
+      "wrongful death lawsuit",
+      "wrongful death lawyer los angeles",
+      "wrongful death lawyer california",
+      "wrongful death attorney riverside",
+      "wrongful death lawyer long beach",
+      "best wrongful death lawyer"
+    ],
+    "match": "EXACT"
+  },
+  "rsa": {
+    "final_url": "https://landverpersonalinjury.tilda.ws/wrongful-death-lawyer-california",
+    "path1": "wrongful",
+    "path2": "",
+    "ad_groups": [],
+    "also_new_group": true,
+    "headlines": [
+      {
+        "text": "Wrongful Death Lawyer",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Wrongful Death Attorneys",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "California Wrongful Death Law",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "We Are Sorry for Your Loss",
+        "pin": "HEADLINE_2"
+      },
+      {
+        "text": "Free Case Review"
+      },
+      {
+        "text": "No Fee Unless We Win"
+      },
+      {
+        "text": "Call Landver Law 24/7"
+      },
+      {
+        "text": "Loved One Died in a Crash?"
+      },
+      {
+        "text": "Who Can File a Claim?"
+      },
+      {
+        "text": "Ask About Filing Deadlines"
+      },
+      {
+        "text": "Fatal Accident in California?"
+      },
+      {
+        "text": "20+ Years in California"
+      },
+      {
+        "text": "4.8-Star Client Rating"
+      },
+      {
+        "text": "Trial-Focused Representation"
+      },
+      {
+        "text": "Death Caused by Negligence?"
+      }
+    ],
+    "descriptions": [
+      {
+        "text": "Lost a loved one in an accident? An attorney reviews your family's case for free.",
+        "pin": "DESCRIPTION_1"
+      },
+      {
+        "text": "We explain who can bring a claim and what the deadlines may be. No pressure."
+      },
+      {
+        "text": "Free case review. No fee unless we win. Call Landver Law 24/7 or leave your number."
+      },
+      {
+        "text": "20+ years in California courts. Trial-focused, with insight from the defense side."
+      }
+    ]
+  }
+}

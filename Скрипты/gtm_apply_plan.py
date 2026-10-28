@@ -22,6 +22,9 @@
   update_variables: [{name, set_parameter: {ключ: значение}}]      (например, javascript у JS-переменной; добавлено 2026-10-24)
   update_triggers:  [{name, set_parameter: {ключ: значение}, set_filter_arg1: "значение"}]
                (set_parameter — например elementSelector у триггера видимости; set_filter_arg1 — условие первого фильтра, например CSS-селектор клика)
+  folders:   ["имя папки"]; у variables / triggers / tags ключ "folder": "имя папки" кладёт объект в папку (папка создаётся, если её нет;
+               добавлено 2026-10-28)
+  update_tags: set_blocking_triggers: ["имя триггера"] — добавить тегу исключающие триггеры (имена резолвятся в id; добавлено 2026-10-28)
   Имена триггеров резолвятся в id (созданные в этом пакете + существующие).
 
     python gtm_apply_plan.py --plan "Клиенты/Andverpersonalinjury/Трекинг/gtm_plan_2026-10-15.json"
@@ -104,7 +107,7 @@ def main():
         print("  + тег", t["name"], "<-", t.get("firingTriggerNames") or t.get("firingTriggerIds"))
     for u in plan.get("update_tags", []):
         print("  ~ тег", u["name"], "параметры:", list(u.get("set_event_parameters", {})), [x["key"] for x in u.get("set_parameters", [])],
-              "поля:", list(u.get("set_fields", {})), "html:", bool(u.get("set_html")),
+              "поля:", list(u.get("set_fields", {})), "исключающие триггеры:", u.get("set_blocking_triggers", []), "html:", bool(u.get("set_html")),
               "согласие:", u.get("set_consent", "без изменений"))
     for u in plan.get("update_variables", []):
         print("  ~ переменная", u["name"], "поля:", list(u.get("set_parameter", {})))
@@ -133,26 +136,38 @@ def main():
         q = "&".join(f"type={t}" for t in plan["built_in_variables"])
         call(s, "POST", f"{wp}/built_in_variables?{q}")
         print("Встроенные переменные включены:", plan["built_in_variables"])
+    folder_ids = {f["name"]: f["folderId"] for f in call(s, "GET", f"{wp}/folders").get("folder", [])}
+    for fname in plan.get("folders", []):
+        if fname not in folder_ids:
+            folder_ids[fname] = call(s, "POST", f"{wp}/folders", json={"name": fname})["folderId"]
+            print("  папка", fname, folder_ids[fname])
+
+    def with_folder(obj, drop=()):
+        body = {k: v for k, v in obj.items() if k not in ("folder",) + tuple(drop)}
+        if obj.get("folder"):
+            body["parentFolderId"] = folder_ids[obj["folder"]]
+        return body
+
     have_v = {v["name"] for v in call(s, "GET", f"{wp}/variables").get("variable", [])}
     have_t = {t["name"]: t["triggerId"] for t in call(s, "GET", f"{wp}/triggers").get("trigger", [])}
     have_g = {t["name"] for t in call(s, "GET", f"{wp}/tags").get("tag", [])}
     for v in plan.get("variables", []):
         if v["name"] in have_v:
             continue
-        call(s, "POST", f"{wp}/variables", json=v)
+        call(s, "POST", f"{wp}/variables", json=with_folder(v))
         print("  переменная", v["name"])
     trg_ids = dict(existing_trg)
     for t in plan.get("triggers", []):
         if t["name"] in have_t:
             trg_ids[t["name"]] = have_t[t["name"]]
             continue
-        r = call(s, "POST", f"{wp}/triggers", json=t)
+        r = call(s, "POST", f"{wp}/triggers", json=with_folder(t))
         trg_ids[t["name"]] = r["triggerId"]
         print("  триггер", t["name"], r["triggerId"])
     for t in plan.get("tags", []):
         if t["name"] in have_g:
             continue
-        body = {k: v for k, v in t.items() if k not in ("firingTriggerNames", "firingTriggerIds")}
+        body = with_folder(t, drop=("firingTriggerNames", "firingTriggerIds"))
         body["firingTriggerId"] = [trg_ids[n] for n in t.get("firingTriggerNames", [])] + list(t.get("firingTriggerIds", []))
         r = call(s, "POST", f"{wp}/tags", json=body)
         print("  тег", t["name"], r["tagId"])
@@ -167,6 +182,8 @@ def main():
             tag["parameter"] = params
         for np_ in u.get("set_parameters", []):  # заменить/добавить параметры по ключу с точным типом (boolean, template, ...)
             tag["parameter"] = [x for x in tag.get("parameter", []) if x.get("key") != np_["key"]] + [np_]
+        if u.get("set_blocking_triggers"):
+            tag["blockingTriggerId"] = sorted(set(tag.get("blockingTriggerId", [])) | {trg_ids[n] for n in u["set_blocking_triggers"]})
         tag.update(u.get("set_fields", {}))  # верхний уровень тега: setupTag, tagFiringOption, ...
         if u.get("set_html"):  # заменить код пользовательского HTML-тега
             for x in tag.get("parameter", []):

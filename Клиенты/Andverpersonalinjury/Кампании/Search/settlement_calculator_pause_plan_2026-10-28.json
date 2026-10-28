@@ -1,0 +1,7 @@
+{
+  "campaign": "search / car+truck injuries / s / lp - tilda",
+  "_note": "28.10.2026, по прямой команде пользователя: пауза ключа-калькулятора в Settlement (Э-08); personal injury settlement calculator уже на паузе с 17.10",
+  "pause_keywords": [
+    {"group": "Car Accident - Settlement", "text": "car accident settlement calculator", "match": "EXACT"}
+  ]
+}

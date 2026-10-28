@@ -1,0 +1,164 @@
+# Быстрые ссылки 6 новых групп (Landver, 28.10.2026), формат gads_sitelinks.py. Тексты из страниц; якоря: ldv-form-section, ldv-fee, ldv-attorney, ldv-reviews, ldv-situations/ldv-insurers/ldv-who, ldv-faq.
+# Запуск ТОЛЬКО после публикации страниц (скрипт проверяет якоря на живой странице) и после создания групп.
+- groups:
+  - Motorcycle - Exact
+  sitelinks:
+  - text: Free Case Review
+    desc1: Tell us what happened.
+    desc2: No obligation to hire the firm.
+    url: https://landverpersonalinjury.tilda.ws/california-motorcycle-accident-lawyer#ldv-form-section
+  - text: No Fee Unless We Win
+    desc1: The first review is free.
+    desc2: No upfront costs.
+    url: https://landverpersonalinjury.tilda.ws/california-motorcycle-accident-lawyer#ldv-fee
+  - text: Meet Your Attorney
+    desc1: Alina Landver, Esq., MBA.
+    desc2: 20+ years in California courts.
+    url: https://landverpersonalinjury.tilda.ws/california-motorcycle-accident-lawyer#ldv-attorney
+  - text: Client Reviews
+    desc1: 4.8 stars, 45 Google reviews.
+    desc2: Read what clients say.
+    url: https://landverpersonalinjury.tilda.ws/california-motorcycle-accident-lawyer#ldv-reviews
+  - text: What Insurers Tell Riders
+    desc1: Lane splitting, helmets, offers.
+    desc2: What to know after a crash.
+    url: https://landverpersonalinjury.tilda.ws/california-motorcycle-accident-lawyer#ldv-insurers
+  - text: Common Questions
+    desc1: Lane splitting, helmets, costs.
+    desc2: Answers after a motorcycle crash.
+    url: https://landverpersonalinjury.tilda.ws/california-motorcycle-accident-lawyer#ldv-faq
+- groups:
+  - Wrongful Death - Exact
+  sitelinks:
+  - text: Free Case Review
+    desc1: Tell us what happened.
+    desc2: No obligation to hire the firm.
+    url: https://landverpersonalinjury.tilda.ws/wrongful-death-lawyer-california#vb-c4u-form
+  - text: No Fee Unless We Win
+    desc1: The first review is free.
+    desc2: No upfront costs.
+    url: https://landverpersonalinjury.tilda.ws/wrongful-death-lawyer-california#vb-h9z-fee
+  - text: Meet Your Attorney
+    desc1: Alina Landver, Esq., MBA.
+    desc2: 20+ years in California courts.
+    url: https://landverpersonalinjury.tilda.ws/wrongful-death-lawyer-california#vb-l4d-h2
+  - text: Client Reviews
+    desc1: 4.8 stars, 45 Google reviews.
+    desc2: Read what clients say.
+    url: https://landverpersonalinjury.tilda.ws/wrongful-death-lawyer-california#vb-m5e-h2
+  - text: Who Can File a Claim
+    desc1: Spouse, children, heirs, others.
+    desc2: The free review checks it.
+    url: https://landverpersonalinjury.tilda.ws/wrongful-death-lawyer-california#vb-e6w-h2
+  - text: Common Questions
+    desc1: Who can file, deadlines, costs.
+    desc2: Answers after losing a loved one.
+    url: https://landverpersonalinjury.tilda.ws/wrongful-death-lawyer-california#vb-n6f-h2
+- groups:
+  - Pedestrian - Exact
+  sitelinks:
+  - text: Free Case Review
+    desc1: Tell us what happened.
+    desc2: No obligation to hire the firm.
+    url: https://landverpersonalinjury.tilda.ws/california-pedestrian-accident-lawyer#ldv-form-section
+  - text: No Fee Unless We Win
+    desc1: The first review is free.
+    desc2: No upfront costs.
+    url: https://landverpersonalinjury.tilda.ws/california-pedestrian-accident-lawyer#ldv-fee
+  - text: Meet Your Attorney
+    desc1: Alina Landver, Esq., MBA.
+    desc2: 20+ years in California courts.
+    url: https://landverpersonalinjury.tilda.ws/california-pedestrian-accident-lawyer#ldv-attorney
+  - text: Client Reviews
+    desc1: 4.8 stars, 45 Google reviews.
+    desc2: Read what clients say.
+    url: https://landverpersonalinjury.tilda.ws/california-pedestrian-accident-lawyer#ldv-reviews
+  - text: Common Situations
+    desc1: Crosswalks, turns, hit-and-run.
+    desc2: Cases the firm reviews.
+    url: https://landverpersonalinjury.tilda.ws/california-pedestrian-accident-lawyer#ldv-situations
+  - text: Common Questions
+    desc1: Crosswalks, hit-and-run, costs.
+    desc2: Answers after being hit.
+    url: https://landverpersonalinjury.tilda.ws/california-pedestrian-accident-lawyer#ldv-faq
+- groups:
+  - Brain Injury - Exact
+  sitelinks:
+  - text: Free Case Review
+    desc1: Tell us what happened.
+    desc2: No obligation to hire the firm.
+    url: https://landverpersonalinjury.tilda.ws/brain-injury-lawyer-california#vb-brf1
+  - text: No Fee Unless We Win
+    desc1: The first review is free.
+    desc2: No upfront costs.
+    url: https://landverpersonalinjury.tilda.ws/brain-injury-lawyer-california#vb-fee9
+  - text: Meet Your Attorney
+    desc1: Alina Landver, Esq., MBA.
+    desc2: 20+ years in California courts.
+    url: https://landverpersonalinjury.tilda.ws/brain-injury-lawyer-california#vb-at8-title
+  - text: Client Reviews
+    desc1: 4.8 stars, 45 Google reviews.
+    desc2: Read what clients say.
+    url: https://landverpersonalinjury.tilda.ws/brain-injury-lawyer-california#vb-rev3-title
+  - text: Common Situations
+    desc1: Crashes, falls, assaults.
+    desc2: Cases the firm reviews.
+    url: https://landverpersonalinjury.tilda.ws/brain-injury-lawyer-california#vb-sit2-title
+  - text: Common Questions
+    desc1: Delayed symptoms, normal scans.
+    desc2: Answers after a head injury.
+    url: https://landverpersonalinjury.tilda.ws/brain-injury-lawyer-california#vb-faq5-title
+- groups:
+  - Rideshare - Exact
+  sitelinks:
+  - text: Free Case Review
+    desc1: Tell us what happened.
+    desc2: No obligation to hire the firm.
+    url: https://landverpersonalinjury.tilda.ws/uber-lyft-accident-lawyer-california#ldv-form
+  - text: No Fee Unless We Win
+    desc1: The first review is free.
+    desc2: No upfront costs.
+    url: https://landverpersonalinjury.tilda.ws/uber-lyft-accident-lawyer-california#ldv-fee
+  - text: Meet Your Attorney
+    desc1: Alina Landver, Esq., MBA.
+    desc2: 20+ years in California courts.
+    url: https://landverpersonalinjury.tilda.ws/uber-lyft-accident-lawyer-california#vb-y8f-title
+  - text: Client Reviews
+    desc1: 4.8 stars, 45 Google reviews.
+    desc2: Read what clients say.
+    url: https://landverpersonalinjury.tilda.ws/uber-lyft-accident-lawyer-california#vb-n3v-title
+  - text: Common Situations
+    desc1: Passenger, driver, pedestrian.
+    desc2: Cases the firm reviews.
+    url: https://landverpersonalinjury.tilda.ws/uber-lyft-accident-lawyer-california#vb-p7s-title
+  - text: Common Questions
+    desc1: Who pays, app off, passengers.
+    desc2: Answers after a rideshare crash.
+    url: https://landverpersonalinjury.tilda.ws/uber-lyft-accident-lawyer-california#vb-k6g-title
+- groups:
+  - Bicycle - Exact
+  sitelinks:
+  - text: Free Case Review
+    desc1: Tell us what happened.
+    desc2: No obligation to hire the firm.
+    url: https://landverpersonalinjury.tilda.ws/california-bicycle-accident-lawyer#ldv-form-section
+  - text: No Fee Unless We Win
+    desc1: The first review is free.
+    desc2: No upfront costs.
+    url: https://landverpersonalinjury.tilda.ws/california-bicycle-accident-lawyer#ldv-fee
+  - text: Meet Your Attorney
+    desc1: Alina Landver, Esq., MBA.
+    desc2: 20+ years in California courts.
+    url: https://landverpersonalinjury.tilda.ws/california-bicycle-accident-lawyer#ldv-attorney
+  - text: Client Reviews
+    desc1: 4.8 stars, 45 Google reviews.
+    desc2: Read what clients say.
+    url: https://landverpersonalinjury.tilda.ws/california-bicycle-accident-lawyer#ldv-reviews
+  - text: Common Situations
+    desc1: Car doors, turns, hit-and-run.
+    desc2: Cases the firm reviews.
+    url: https://landverpersonalinjury.tilda.ws/california-bicycle-accident-lawyer#ldv-situations
+  - text: Common Questions
+    desc1: Helmets, car doors, costs.
+    desc2: Answers after a bike crash.
+    url: https://landverpersonalinjury.tilda.ws/california-bicycle-accident-lawyer#ldv-faq

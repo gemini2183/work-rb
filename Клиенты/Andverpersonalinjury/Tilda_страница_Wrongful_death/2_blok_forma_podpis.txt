@@ -1,0 +1,65 @@
+<!-- Landver Law: БЛОК 2: подпись над формой и оформление обычной формы Tilda (T123 «HTML»). Собрано build_topic_pages.py.
+     Ставится ПРЯМО ПЕРЕД обычной формой Tilda: скрипт находит форму в следующем за ним блоке и красит её. Между блоком 2 и формой ничего не вставлять. -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+
+.ldv2{background:#f7f2ea;font-family:Montserrat,Arial,sans-serif;color:#292929;padding:48px 16px 6px}
+.ldv2__inner{max-width:520px;margin:0 auto;text-align:left}
+.ldv2__eyebrow{margin:0 0 8px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#937a4e}
+.ldv2__title{margin:0 0 10px;font-size:clamp(24px,5vw,32px);line-height:1.18;font-weight:800;letter-spacing:-.02em;color:#292929}
+.ldv2__desc{margin:0 0 6px;font-size:15.5px;line-height:1.55;color:#66615b}
+.ldv2-native{background:#f7f2ea !important;font-family:Montserrat,Arial,sans-serif !important}
+.ldv2-native .t-form{max-width:520px !important;margin:0 auto !important}
+.ldv2-native .t-input-group{margin-bottom:18px !important}
+.ldv2-native .t-input-title{display:block;margin-bottom:9px !important;padding:0 !important;color:#62594c !important;font:700 12px/1.5 Montserrat,Arial,sans-serif !important;letter-spacing:.035em !important}
+.ldv2-native .t-input{box-sizing:border-box !important;width:100% !important;min-height:56px !important;padding:0 17px !important;background:#fff !important;color:#292929 !important;border:1px solid #ded5c7 !important;border-radius:10px !important;font:500 16px Montserrat,Arial,sans-serif !important;box-shadow:none !important}
+.ldv2-native .t-input:focus{border-color:#a88a48 !important;outline:none !important;box-shadow:0 0 0 3px rgba(168,138,72,.12) !important}
+.ldv2-native .t-input::placeholder{color:#aaa49b !important;opacity:1 !important}
+.ldv2-native .t-input-group_ph .t-input-block{max-width:100% !important;box-sizing:border-box !important}
+.ldv2-native .t-submit{display:flex !important;align-items:center;justify-content:center;width:100% !important;min-height:58px !important;padding:15px 22px !important;background:#826510 !important;color:#fff !important;border:1px solid #826510 !important;border-radius:10px !important;font:700 15px/1.35 Montserrat,Arial,sans-serif !important;text-align:center;white-space:normal !important;cursor:pointer}
+.ldv2-native .t-submit:hover{background:#6e530d !important;border-color:#6e530d !important}
+.ldv2-native .t-form__successbox{border-radius:12px !important;background:#f1ebdd !important;color:#292929 !important;font-family:Montserrat,Arial,sans-serif !important;line-height:1.6}
+@media(max-width:699px){.ldv2-native .t-input{min-height:54px !important}.ldv2-native .t-submit{min-height:58px !important;font-size:14px !important;padding:14px 12px !important}.ldv2-native .t-input-group{margin-bottom:15px !important}}
+
+</style>
+<section class="ldv2" id="ldv-form-section" aria-labelledby="ldv2-title">
+  <div class="ldv2__inner">
+    <p class="ldv2__eyebrow">Free consultation</p>
+    <h2 class="ldv2__title" id="ldv2-title">Prefer we call you? Leave your number.</h2>
+    <p class="ldv2__desc">Leave your name and phone. We'll contact you to set up your free review with an attorney.</p>
+  </div>
+</section>
+<script>
+(function(){
+  "use strict";
+  /* Находит обычную форму Tilda сразу ПОСЛЕ этого блока, красит её и подписывает поля. Имена полей (name, phone, quiz_summary) не меняет. */
+  function update() {
+    var section = document.getElementById("ldv-form-section");
+    if (!section) return;
+    var rec = section.closest('.r, [id^="rec"]');
+    var formRec = rec && rec.nextElementSibling;
+    if (!formRec || !formRec.querySelector('form.t-form')) return;
+    formRec.classList.add("ldv2-native");
+    var form = formRec.querySelector('form.t-form');
+    form.querySelectorAll('.t-input-group').forEach(function(group) {
+      var input = group.querySelector('input:not([type="hidden"])');
+      if (!input) return;
+      var name = (input.getAttribute('name') || '').toLowerCase();
+      var type = (input.getAttribute('type') || '').toLowerCase();
+      var label = group.querySelector('.t-input-title');
+      if (name === 'name' || name === 'firstname' || name === 'first_name') {
+        if (label) label.textContent = 'Your name';
+        input.placeholder = 'Enter your name';
+      }
+      if (type === 'tel' || name === 'phone' || name === 'tel') {
+        if (label) label.textContent = 'Phone number';
+        input.setAttribute('aria-label', 'Phone number');
+      }
+    });
+    var button = form.querySelector('.t-submit');
+    if (button) button.textContent = 'Get My Free Case Review';
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', update); else update();
+  window.addEventListener('load', update);
+})();
+</script>

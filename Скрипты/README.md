@@ -1472,3 +1472,15 @@ python gtm_landing_plan.py --spec "Клиенты/<Имя>/Трекинг/spec_<
 `gtm_utm_persist_probe.py <сайт> banner|update|accept|accept2|returning|events` (2026-10-27, только чтение, нужен Playwright) — открывает сайт с тестовыми метками на живом контейнере GTM (отправки в GA, Яндекс, Supabase перехватываются), печатает состояние согласия Google, `localStorage.rb_utm` и события dataLayer после нажатия на баннер. Ответ на вопрос «почему тег сохранения меток не пишет»: сравнивает сценарии (согласие по умолчанию, обновление после загрузки, принятие баннера, вернувшийся посетитель). Первый случай: ProfiMet против ExpertAgro, [[GTM-сохранение-UTM-в-браузере-для-форм]].
 
 `gtm_test_version.py` (дополнено 2026-10-27): запросы к `supabase.co` теперь перехватываются, подменяются ответом 201 и их тело печатается в отчёте («запросов в Supabase перехвачено»); в Supabase ничего не уходит. Нужен, чтобы проверять поля тега «Supabase - Leads» до публикации: `--push-event submit_form --eval "location.href='…'"` (отправка после перехода на другую страницу проверяет метки из браузера). Для ExpertAgro добавлен хост `ekspertagro.pl`.
+
+## Снятие слов из общего списка минус-слов: `gads_shared_negatives_remove.py` (ЗАПИСЬ, по умолчанию validate_only)
+Парный к `gads_shared_negatives_add.py`: по имени списка, тексту и типу снимает минус-слова, показывает радиус действия (к каким кампаниям подключён список), с `--execute` пишет снимок «до» в `Статистика/` клиента и читает список обратно. Откат — `gads_shared_negatives_add.py`.
+```
+python gads_shared_negatives_remove.py --customer-id 213-621-6123 --client-folder Andverpersonalinjury --list-name "gen / init" --text lyft --match BROAD [--execute]
+```
+
+## Новые тематические группы Search из файлов плана: `gads_topic_groups_plan.py` + `gads_campaign_rework.py`
+`gads_topic_groups_plan.py` (только формирует JSON, в кабинет не пишет) берёт RSA-yaml и CSV точных ключей и делает по плану на группу «<Тема> - Exact» (пауза, ключи EXACT, ставка, один RSA с закреплениями, `also_new_group`). План выполняет `gads_campaign_rework.py` (проверка без флага, запись с `--execute`). С 2026-10-28 `gads_campaign_rework.py` сам обходит исключаемую политику HEALTH_IN_PERSONALIZED_ADS у ключей (brain injury, rideshare…) — как `gads_adgroup_plan.py`. Групповые минусы — `gads_adgroup_negatives.py`, быстрые ссылки групп — `gads_sitelinks.py` (после публикации страниц). Пример: Landver 2026-10-28, `Клиенты/Andverpersonalinjury/Кампании/Search/topic_group_*_plan_2026-10-28.json`.
+```
+python gads_topic_groups_plan.py --client-folder Andverpersonalinjury --campaign "<кампания>" --rsa Креативы/rsa_6themes_2026-10-28.yaml --keywords Статистика/exact_plan_6themes_2026-10-28.csv --groups "Wrongful Death - Exact" --bid 100 --out-dir Кампании/Search
+```

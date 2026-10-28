@@ -1,0 +1,85 @@
+{
+  "_comment": "28.10.2026, по решению пользователя: Wrongful Death только про аварии на дороге; позиция 2 — три прямых строки вместо «We Are Sorry for Your Loss»; D2 со списком видов аварий; старое объявление на паузу",
+  "customer_id": "2136216123",
+  "campaign": "search / car+truck injuries / s / lp - tilda",
+  "pause_ads": [
+    829884649619
+  ],
+  "rsa": {
+    "final_url": "https://landverpersonalinjury.tilda.ws/wrongful-death-lawyer-california",
+    "path1": "wrongful",
+    "path2": "",
+    "ad_groups": [
+      "Wrongful Death - Exact"
+    ],
+    "also_new_group": false,
+    "headlines": [
+      {
+        "text": "Wrongful Death Lawyer",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Wrongful Death Attorneys",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "California Wrongful Death Law",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Free Case Review",
+        "pin": "HEADLINE_2"
+      },
+      {
+        "text": "No Fee Unless We Win",
+        "pin": "HEADLINE_2"
+      },
+      {
+        "text": "Talk to an Attorney 24/7",
+        "pin": "HEADLINE_2"
+      },
+      {
+        "text": "Call Landver Law 24/7"
+      },
+      {
+        "text": "Killed in a Crash? Call Us"
+      },
+      {
+        "text": "Wrongful Death After a Crash"
+      },
+      {
+        "text": "Fatal Crash Attorneys"
+      },
+      {
+        "text": "Fatal Crash? Talk to a Lawyer"
+      },
+      {
+        "text": "Loved One Killed by a Driver?"
+      },
+      {
+        "text": "Who Can File a Claim?"
+      },
+      {
+        "text": "20+ Years in California"
+      },
+      {
+        "text": "4.8-Star Client Rating"
+      }
+    ],
+    "descriptions": [
+      {
+        "text": "Lost a loved one in a crash? An attorney reviews your family's case for free.",
+        "pin": "DESCRIPTION_1"
+      },
+      {
+        "text": "Fatal car, truck, bus, motorcycle, pedestrian and rideshare crashes. Free case review."
+      },
+      {
+        "text": "Free case review. No fee unless we win. Call Landver Law 24/7 or leave your number."
+      },
+      {
+        "text": "20+ years in California courts. Trial-focused, with insight from the defense side."
+      }
+    ]
+  }
+}

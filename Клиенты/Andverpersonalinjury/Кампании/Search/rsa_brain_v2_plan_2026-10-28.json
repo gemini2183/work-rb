@@ -1,0 +1,85 @@
+{
+  "_comment": "28.10.2026, по «делаем пересборку» пользователя: «Brain Injury - Exact» — позиция 2 из трёх прямых строк на выбор Google (вместо одной закреплённой), тематические вопросы — без закрепления; описания без изменений; прежнее объявление 829884670697 на паузу",
+  "customer_id": "2136216123",
+  "campaign": "search / car+truck injuries / s / lp - tilda",
+  "pause_ads": [
+    829884670697
+  ],
+  "rsa": {
+    "final_url": "https://landverpersonalinjury.tilda.ws/brain-injury-lawyer-california",
+    "path1": "brain",
+    "path2": "",
+    "ad_groups": [
+      "Brain Injury - Exact"
+    ],
+    "also_new_group": false,
+    "headlines": [
+      {
+        "text": "Brain Injury Lawyer",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Brain Injury Attorneys",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Traumatic Brain Injury Lawyer",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Free Case Review",
+        "pin": "HEADLINE_2"
+      },
+      {
+        "text": "No Fee Unless We Win",
+        "pin": "HEADLINE_2"
+      },
+      {
+        "text": "Talk to an Attorney 24/7",
+        "pin": "HEADLINE_2"
+      },
+      {
+        "text": "Call Landver Law 24/7"
+      },
+      {
+        "text": "Hurt in a Crash or a Fall?"
+      },
+      {
+        "text": "Insurer Says It Was Minor?"
+      },
+      {
+        "text": "Normal CT Scan? Still Call Us"
+      },
+      {
+        "text": "Head, Memory or Mood Changed?"
+      },
+      {
+        "text": "Symptoms Showed Up Days Later?"
+      },
+      {
+        "text": "20+ Years in California"
+      },
+      {
+        "text": "4.8-Star Client Rating"
+      },
+      {
+        "text": "Trial-Focused Representation"
+      }
+    ],
+    "descriptions": [
+      {
+        "text": "Brain injury after a crash, fall or assault? Get a free case review from an attorney.",
+        "pin": "DESCRIPTION_1"
+      },
+      {
+        "text": "Symptoms can show up days later. Tell us what happened. An attorney reviews it for free."
+      },
+      {
+        "text": "Free case review. No fee unless we win. Call Landver Law 24/7 or leave your number."
+      },
+      {
+        "text": "20+ years in California courts. Trial-focused, with insight from the defense side."
+      }
+    ]
+  }
+}

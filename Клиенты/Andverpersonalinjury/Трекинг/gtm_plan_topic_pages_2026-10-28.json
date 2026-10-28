@@ -1,0 +1,421 @@
+{
+ "account": "6353362488",
+ "container": "261134482",
+ "workspace_name": "vb-topic-pages",
+ "version_name": "vb topic pages: form_submit, faq_open, block_view, block_time (new objects in folder, one blocking trigger on old block_time)",
+ "version_notes": "Новые объекты в папке «Topic pages (vb)» для страниц *-lawyer-california. Правка старого: тег «ldv block_time script» — исключающий триггер «topic pages pageview [topic pages]». Остальное старое не тронуто.",
+ "built_in_variables": [
+  "pagePath",
+  "clickElement"
+ ],
+ "folders": [
+  "Topic pages (vb)"
+ ],
+ "variables": [
+  {
+   "name": "vb block name [topic pages]",
+   "type": "jsm",
+   "folder": "Topic pages (vb)",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "javascript",
+     "value": "function(){var e={{Click Element}};if(!e)return '';var s=(e.textContent||'').replace(/\\s+/g,' ').trim().toLowerCase().replace(/[^a-z0-9 ]+/g,'').split(' ').slice(0,5).join('_');return s||e.id||'';}"
+    }
+   ]
+  },
+  {
+   "name": "vb faq question [topic pages]",
+   "type": "jsm",
+   "folder": "Topic pages (vb)",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "javascript",
+     "value": "function(){var e={{Click Element}};var s=e&&e.closest?e.closest('summary'):null;return s?(s.textContent||'').replace(/\\s+/g,' ').trim().slice(0,100):'';}"
+    }
+   ]
+  }
+ ],
+ "triggers": [
+  {
+   "name": "submit vb form [topic pages]",
+   "type": "customEvent",
+   "folder": "Topic pages (vb)",
+   "customEventFilter": [
+    {
+     "type": "matchRegex",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{_event}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "^submit_vb-.+-form$"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "topic pages pageview [topic pages]",
+   "type": "pageview",
+   "folder": "Topic pages (vb)",
+   "filter": [
+    {
+     "type": "matchRegex",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{Page Path}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "-lawyer-california/?$"
+      },
+      {
+       "type": "template",
+       "key": "ignore_case",
+       "value": "true"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "vb faq click [topic pages]",
+   "type": "click",
+   "folder": "Topic pages (vb)",
+   "filter": [
+    {
+     "type": "cssSelector",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{Click Element}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "details > summary, details > summary *"
+      }
+     ]
+    },
+    {
+     "type": "matchRegex",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{Page Path}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "-lawyer-california/?$"
+      },
+      {
+       "type": "template",
+       "key": "ignore_case",
+       "value": "true"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "vb block visible [topic pages]",
+   "type": "elementVisibility",
+   "folder": "Topic pages (vb)",
+   "filter": [
+    {
+     "type": "matchRegex",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{Page Path}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "-lawyer-california/?$"
+      },
+      {
+       "type": "template",
+       "key": "ignore_case",
+       "value": "true"
+      }
+     ]
+    }
+   ],
+   "parameter": [
+    {
+     "type": "template",
+     "key": "selectorType",
+     "value": "CSS"
+    },
+    {
+     "type": "template",
+     "key": "elementSelector",
+     "value": "[id^=\"vb-\"][id$=\"-h1\"], [id^=\"vb-\"][id$=\"-h2\"], [id^=\"vb-\"][id$=\"-title\"]"
+    },
+    {
+     "type": "template",
+     "key": "firingFrequency",
+     "value": "ONCE_PER_ELEMENT"
+    },
+    {
+     "type": "template",
+     "key": "onScreenRatio",
+     "value": "10"
+    },
+    {
+     "type": "boolean",
+     "key": "useOnScreenDuration",
+     "value": "true"
+    },
+    {
+     "type": "template",
+     "key": "onScreenDuration",
+     "value": "1000"
+    },
+    {
+     "type": "boolean",
+     "key": "useDomChangeListener",
+     "value": "false"
+    }
+   ]
+  }
+ ],
+ "tags": [
+  {
+   "name": "GA4 - form_submit [topic pages]",
+   "type": "gaawe",
+   "folder": "Topic pages (vb)",
+   "firingTriggerNames": [
+    "submit vb form [topic pages]"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "consentSettings": {
+    "consentStatus": "notSet"
+   },
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "form_submit"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "G-JPLC4Q41PS"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "form_place"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "inline"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "OpenAI Pixel — Lead Created [topic pages]",
+   "type": "cvt_NS4HN",
+   "folder": "Topic pages (vb)",
+   "firingTriggerNames": [
+    "submit vb form [topic pages]"
+   ],
+   "setupTag": [
+    {
+     "tagName": "OpenAI Pixel — Init"
+    }
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "consentSettings": {
+    "consentStatus": "notSet"
+   },
+   "parameter": [
+    {
+     "type": "template",
+     "key": "pixelId",
+     "value": "Wbtsm5RxTw9Rn4YVjh8W2Y"
+    },
+    {
+     "type": "boolean",
+     "key": "enableDebug",
+     "value": "false"
+    },
+    {
+     "type": "boolean",
+     "key": "sendEvent",
+     "value": "true"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "lead_created"
+    }
+   ]
+  },
+  {
+   "name": "GA4 - faq_open [topic pages]",
+   "type": "gaawe",
+   "folder": "Topic pages (vb)",
+   "firingTriggerNames": [
+    "vb faq click [topic pages]"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "consentSettings": {
+    "consentStatus": "notSet"
+   },
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "faq_open"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "G-JPLC4Q41PS"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "faq_question"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{vb faq question [topic pages]}}"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "GA4 - block_view [topic pages]",
+   "type": "gaawe",
+   "folder": "Topic pages (vb)",
+   "firingTriggerNames": [
+    "vb block visible [topic pages]"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "consentSettings": {
+    "consentStatus": "notSet"
+   },
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "block_view"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "G-JPLC4Q41PS"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "block_name"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{vb block name [topic pages]}}"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "vb block_time script [topic pages]",
+   "type": "html",
+   "folder": "Topic pages (vb)",
+   "firingTriggerNames": [
+    "topic pages pageview [topic pages]"
+   ],
+   "consentSettings": {
+    "consentStatus": "notSet"
+   },
+   "parameter": [
+    {
+     "type": "template",
+     "key": "html",
+     "value": "<script>\n(function () {\n  if (window.__vbBlockTime) return;\n  window.__vbBlockTime = true;\n  var SEL = '[id^=\"vb-\"][id$=\"-h1\"], [id^=\"vb-\"][id$=\"-h2\"], [id^=\"vb-\"][id$=\"-title\"]';\n  var STEPS = [[10, 'stay_10s'], [30, 'engaged_30s'], [90, 'engaged_90s']];\n  var TICK = 500, IDLE = 10000, FLUSH = 30000;\n  var acc = {}, total = 0, current = 'top', lastTick = Date.now(), lastActive = Date.now(), lastFlush = Date.now();\n  window.dataLayer = window.dataLayer || [];\n\n  function nameOf(el) {\n    var t = (el.textContent || '').replace(/\\s+/g, ' ').trim().toLowerCase().replace(/[^a-z0-9 ]+/g, '').split(' ').slice(0, 5).join('_');\n    return t || el.id;\n  }\n  function currentBlock() {\n    var mid = window.innerHeight / 2, name = 'top', best = -1e9;\n    var els = document.querySelectorAll(SEL);\n    for (var i = 0; i < els.length; i++) {\n      var top = els[i].getBoundingClientRect().top;\n      if (top <= mid && top > best) { best = top; name = nameOf(els[i]); }\n    }\n    return name;\n  }\n  function flush(final) {\n    for (var k in acc) {\n      var s = final ? Math.round(acc[k]) : Math.floor(acc[k]);\n      if (s >= 1) {\n        window.dataLayer.push({ event: 'block_time', block_name: k, block_seconds: s });\n        acc[k] -= s;\n      }\n    }\n    lastFlush = Date.now();\n  }\n  function active() { lastActive = Date.now(); }\n  ['scroll', 'mousemove', 'keydown', 'touchstart', 'click', 'wheel'].forEach(function (e) {\n    window.addEventListener(e, active, { passive: true });\n  });\n  setInterval(function () {\n    var now = Date.now(), dt = now - lastTick;\n    lastTick = now;\n    var block = currentBlock();\n    if (document.visibilityState === 'visible' && now - lastActive <= IDLE && dt < 5000) {\n      acc[block] = (acc[block] || 0) + dt / 1000;\n      total += dt / 1000;\n      while (STEPS.length && total >= STEPS[0][0]) {\n        window.dataLayer.push({ event: STEPS[0][1] });\n        STEPS.shift();\n      }\n    }\n    if (block !== current) { flush(false); current = block; }\n    else if (now - lastFlush >= FLUSH) { flush(false); }\n  }, TICK);\n  document.addEventListener('visibilitychange', function () {\n    if (document.visibilityState === 'hidden') flush(true);\n  });\n  window.addEventListener('pagehide', function () { flush(true); });\n})();\n</script>"
+    },
+    {
+     "type": "boolean",
+     "key": "supportDocumentWrite",
+     "value": "false"
+    }
+   ]
+  }
+ ],
+ "update_tags": [
+  {
+   "name": "ldv block_time script",
+   "set_blocking_triggers": [
+    "topic pages pageview [topic pages]"
+   ]
+  }
+ ],
+ "update_variables": [],
+ "update_triggers": []
+}

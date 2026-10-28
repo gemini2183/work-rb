@@ -1,0 +1,371 @@
+<!-- Landver Law: страница «California Bicycle Accident Lawyer. Free Case Review.», БЛОК 3: всё под формой (Tilda T123 «HTML»). Собрано build_topic_pages.py.
+     Порядок: что говорят страховые, что делать и чего не делать, как проходит звонок, оплата, команда, ситуации, результаты, адвокат, отзывы, вопросы, финальный призыв.
+     Все кнопки формы ведут на #ldv-form (якорь в блоке 1). Второй формы нет. -->
+<style>
+
+.ldvp{font-family:Montserrat,Arial,sans-serif;color:#292929;-webkit-font-smoothing:antialiased}
+.ldvp *,.ldvp *::before,.ldvp *::after{box-sizing:border-box}
+.ldvp__sec{padding:44px 16px}
+.ldvp__sec--cream{background:#f7f2ea}
+.ldvp__sec--white{background:#ffffff}
+.ldvp__sec--dark{background:#302d28;color:#ffffff}
+.ldvp__in{max-width:860px;margin:0 auto}
+.ldvp__eyebrow{margin:0 0 8px;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#937a4e}
+.ldvp__sec--dark .ldvp__eyebrow{color:#d2b16d}
+.ldvp__h2{margin:0 0 14px;font-size:clamp(26px,5.4vw,38px);line-height:1.15;font-weight:800;letter-spacing:-.015em}
+.ldvp__lead{margin:0 0 22px;font-size:16.5px;line-height:1.55;color:#66615b}
+.ldvp__sec--dark .ldvp__lead{color:#e7dfd2}
+.ldvp__cards{display:grid;gap:12px;margin:0 0 20px}
+.ldvp__card{padding:18px;border-radius:14px;background:#ffffff;border:1px solid #e7dfd2}
+.ldvp__card b{display:block;margin:0 0 6px;font-size:17.5px;line-height:1.3;font-weight:800}
+.ldvp__card p{margin:0;font-size:15.5px;line-height:1.5;color:#66615b}
+.ldvp__card i{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;margin:0 0 10px;border-radius:50%;background:#826510;color:#fff;font-style:normal;font-size:14px;font-weight:800}
+.ldvp__note{margin:0 0 22px;font-size:14px;line-height:1.5;color:#77716a}
+.ldvp__btn{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:14px 24px;border-radius:12px;background:#826510;border:2px solid #826510;color:#fff;font:800 16.5px/1.2 Montserrat,Arial,sans-serif;text-decoration:none;text-align:center}
+.ldvp__btn:hover{background:#6e530d;border-color:#6e530d;color:#fff}
+.ldvp__btn--ghost{background:transparent;color:#292929;border-color:#292929}
+.ldvp__btn--ghost:hover{background:#292929;color:#fff;border-color:#292929}
+.ldvp__sec--dark .ldvp__btn--ghost{color:#ffffff;border-color:rgba(255,255,255,.45)}
+.ldvp__sec--dark .ldvp__btn--ghost:hover{background:#ffffff;color:#302d28;border-color:#ffffff}
+.ldvp__btns{display:grid;gap:10px;margin:18px 0 0}
+.ldvp__rows{display:grid;gap:12px;margin:0}
+.ldvp__row{padding:16px 18px;border-radius:14px;background:#f7f2ea;border-left:5px solid #826510}
+.ldvp__row b{display:block;margin:0 0 4px;font-size:17px;font-weight:800}
+.ldvp__row p{margin:0;font-size:15.5px;line-height:1.5;color:#66615b}
+.ldvp__steps{display:grid;gap:14px;margin:0;padding:0;list-style:none;counter-reset:s}
+.ldvp__steps li{counter-increment:s;position:relative;padding:4px 0 4px 52px;font-size:16.5px;line-height:1.5;color:#292929}
+.ldvp__steps li::before{content:counter(s);position:absolute;left:0;top:0;width:38px;height:38px;border-radius:50%;background:#302d28;color:#fff;font-weight:800;font-size:17px;line-height:38px;text-align:center}
+.ldvp__steps b{display:block;font-size:17.5px;font-weight:800}
+.ldvp__atty{display:grid;gap:22px;align-items:center}
+.ldvp__atty img{display:block;width:100%;max-width:260px;height:auto;aspect-ratio:2/3;object-fit:cover;border-radius:16px;margin:0 auto}
+.ldvp__facts{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px;padding:0;list-style:none}
+.ldvp__facts li{padding:7px 12px;border-radius:999px;background:#292929;border:1px solid rgba(210,177,109,.4);font-size:13.5px;font-weight:700;color:#f7f2ea}
+.ldvp__facts b{color:#d2b16d}
+.ldvp__src{margin:14px 0 0;font-size:12.5px;line-height:1.5;color:#b5ada0}
+.ldvp__rate{display:flex;align-items:baseline;gap:12px;margin:0 0 18px;flex-wrap:wrap}
+.ldvp__rate b{font-size:44px;line-height:1;font-weight:800}
+.ldvp__rate span{font-size:15px;color:#66615b}
+.ldvp__stars{color:#b19154;letter-spacing:2px;font-size:20px}
+.ldvp__rev{margin:0;padding:18px;border-radius:14px;background:#ffffff;border:1px solid #e7dfd2}
+.ldvp__rev p{margin:8px 0 10px;font-size:16px;line-height:1.5;font-weight:600}
+.ldvp__rev small{display:block;font-size:13px;color:#77716a}
+.ldvp__faq details{border-bottom:1px solid #e7dfd2;background:#ffffff}
+.ldvp__faq details:first-child{border-top:1px solid #e7dfd2}
+.ldvp__faq summary{list-style:none;cursor:pointer;display:flex;align-items:flex-start;justify-content:space-between;gap:14px;padding:16px 4px;font-size:16.5px;line-height:1.35;font-weight:800;-webkit-tap-highlight-color:transparent}
+.ldvp__faq summary::-webkit-details-marker{display:none}
+.ldvp__faq summary::after{content:"+";flex:0 0 auto;width:28px;height:28px;border-radius:50%;background:#f7f2ea;text-align:center;font-size:20px;line-height:28px;font-weight:700;color:#937a4e}
+.ldvp__faq details[open] summary::after{content:"\2212"}
+.ldvp__faq details p{margin:0;padding:0 4px 18px;font-size:15.5px;line-height:1.6;color:#66615b}
+.ldvp__ticks{margin:0 0 12px;padding:0;list-style:none}
+.ldvp__ticks li{position:relative;margin:0 0 9px;padding-left:30px;font-size:16.5px;line-height:1.45}
+.ldvp__ticks li::before{content:"\2713";position:absolute;left:0;top:0;color:#826510;font-weight:800}
+.ldvp__fee{margin:0 0 6px;font-size:16px;font-weight:800;color:#d2b16d}
+.ldvp__fine{margin:16px 0 0;font-size:12.5px;line-height:1.5;color:#b5ada0}
+.ldvp__anchor{display:block;height:0;scroll-margin-top:72px}
+@media(min-width:700px){
+  .ldvp__sec{padding:64px 24px}
+  .ldvp__cards{grid-template-columns:1fr 1fr}
+  .ldvp__rows--3{grid-template-columns:repeat(3,1fr)}
+  .ldvp__btns{grid-template-columns:auto auto;justify-content:start}
+  .ldvp__atty{grid-template-columns:240px 1fr;gap:36px}
+  .ldvp__revs{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+}
+.ldvp__revs{display:grid;gap:12px;margin:0 0 14px}
+
+
+.ldvp{font-family:Montserrat,Arial,sans-serif}
+.ldvp__btn{border-radius:10px}
+.ldvp__chips{display:flex;flex-wrap:wrap;gap:9px;margin:0 0 14px;padding:0;list-style:none}
+.ldvp__chips li{padding:11px 15px;border-radius:10px;background:#fff;border:1px solid #e7dfd2;font-size:14.5px;line-height:1.4;font-weight:600;color:#292929}
+.ldvp__cols{display:grid;gap:14px;margin:0 0 14px}
+.ldvp__col{padding:20px;border-radius:14px;background:#fff;border:1px solid #e7dfd2}
+.ldvp__col h3{margin:0 0 12px;font-size:18px;line-height:1.3;font-weight:800}
+.ldvp__nots{margin:0;padding:0;list-style:none}
+.ldvp__nots li{position:relative;margin:0 0 9px;padding-left:30px;font-size:16.5px;line-height:1.45}
+.ldvp__nots li::before{content:"\2715";position:absolute;left:0;top:0;color:#937a4e;font-weight:800}
+.ldvp__badges{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 14px;padding:0;list-style:none}
+.ldvp__badges img{display:block;width:72px;height:72px;object-fit:contain;background:#fff;border-radius:10px;padding:4px}
+.ldvp__revlinks{margin:0 0 14px;font-size:14.5px}
+.ldvp__revlinks a,.ldvp__rev a{color:#826510}
+.ldvp__revlinks a{font-weight:700}
+.ldvp__rev{box-shadow:0 5px 22px rgba(69,50,22,.04)}
+.ldvp__hl{margin:0 0 20px;padding:16px 18px;background:#f7f2ea;border:1px solid #d2b16d;border-radius:12px}
+.ldvp__hl strong{display:block;font-size:17px;font-weight:800;color:#292929}
+.ldvp__hl p{margin:4px 0 0;font-size:15px;line-height:1.5;color:#66615b}
+.ldvp__faq details[open] summary::after{background:#826510;color:#fff}
+.ldvp__faq summary:hover{color:#826510}
+.ldvp__sec--dark .ldvp__btn--ghost{border-color:#d2b16d;color:#fff}
+.ldvp__sec--dark .ldvp__btn--ghost:hover{background:#d2b16d;color:#302d28;border-color:#d2b16d}
+.ldvp__card--note{padding:20px;background:#f7f2ea;border:0;border-left:4px solid #d2b16d;border-radius:12px}
+#ldv-fee,#ldv-how{scroll-margin-top:72px}
+/* фото в блоках: как на живой Car (Photography integration V1) */
+.ldvmedia__split{display:grid;grid-template-columns:1fr;gap:26px;align-items:center;margin-top:12px}
+.ldvmedia__photo{display:block;width:100%;margin:0;overflow:hidden;border-radius:12px;background:#f7f2ea;box-shadow:0 12px 35px rgba(69,50,22,.10)}
+.ldvmedia__photo img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover}
+.ldvmedia__content{min-width:0}
+.ldvmedia__content>:last-child{margin-bottom:0}
+.ldvmedia__content .ldvp__cards{grid-template-columns:1fr;margin:0}
+#ldv-final .ldvmedia__photo{border:1px solid rgba(210,177,109,.25)}
+.ldvmedia__content .ldvp__btns{grid-template-columns:1fr}
+.ldv-team{background:#fff;padding:44px 16px;font-family:Montserrat,Arial,sans-serif;color:#292929}
+.ldv-team *{box-sizing:border-box}
+.ldv-team__inner{max-width:1040px;margin:0 auto;text-align:center}
+.ldv-team__eyebrow{margin:0 0 10px;color:#937a4e;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.ldv-team__title{margin:0 0 16px;font-size:clamp(28px,5vw,40px);font-weight:800;line-height:1.16;letter-spacing:-.02em}
+.ldv-team__description{max-width:690px;margin:0 auto 22px;color:#66615b;font-size:15.5px;line-height:1.65}
+.ldv-team__photo{margin:0}
+.ldv-team__photo img{display:block;width:100%;max-width:850px;height:auto;margin:0 auto;border-radius:12px;object-fit:contain;box-shadow:0 12px 35px rgba(69,50,22,.1)}
+.ldv-team__caption{margin-top:12px;font-size:13px;color:#66615b}
+@media(min-width:700px){.ldv-team{padding:64px 24px}.ldv-team__description{font-size:16.5px;margin-bottom:30px}.ldv-team__photo img{border-radius:16px}}
+@media(min-width:800px){
+  .ldvmedia__photo{border-radius:16px}
+  .ldvmedia__photo img{aspect-ratio:auto}
+  #ldv-insurers .ldvmedia__split{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);align-items:stretch}
+  #ldv-insurers .ldvmedia__photo img{height:100%;min-height:320px;aspect-ratio:auto}
+  #ldv-how .ldvmedia__split{grid-template-columns:minmax(0,1fr) minmax(0,.85fr)}
+  #ldv-how .ldvmedia__photo img{aspect-ratio:4/5}
+  #ldv-situations .ldvmedia__split{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  #ldv-situations .ldvmedia__photo img{aspect-ratio:4/3}
+  #ldv-final .ldvmedia__split{grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:36px}
+  #ldv-final .ldvmedia__photo img{aspect-ratio:4/5}
+}
+@media(min-width:700px){.ldvp__cols{grid-template-columns:1fr 1fr}}
+
+</style>
+
+<div class="ldvp">
+
+  <section class="ldvp__sec ldvp__sec--white" id="ldv-insurers">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">After the crash</p>
+      <h2 class="ldvp__h2">What insurance companies often tell a cyclist after a crash</h2>
+      <div class="ldvmedia__split">
+        <figure class="ldvmedia__photo"><img src="https://static.tildacdn.net/tila3838-3533-4565-a532-303733633138/landver_insurance_no.webp" alt="Insurance claim paperwork and accident documentation" width="768" height="512" loading="lazy" decoding="async"></figure>
+        <div class="ldvmedia__content">
+        <div class="ldvp__cards">
+          <div class="ldvp__card ldvp__card--note"><b>&ldquo;You weren't riding where you should have been.&rdquo;</b><p>Bicyclists on the road generally have the same rights as drivers. California law generally asks a cyclist who is slower than traffic to ride as close to the right edge as practicable, with exceptions, for example to avoid hazards or narrow lanes, to pass, or to prepare for a left turn. Where there is a bike lane, there are exceptions too. Whether you were where the law allows depends on the facts.</p></div>
+          <div class="ldvp__card ldvp__card--note"><b>&ldquo;You weren't wearing a helmet.&rdquo;</b><p>California's bicycle helmet law generally covers riders under 18. Riding without a helmet does not automatically mean there is no claim, but an insurer may argue it made your injuries worse, especially head injuries. Tell the attorney exactly what happened.</p></div>
+          <div class="ldvp__card ldvp__card--note"><b>&ldquo;The driver says they never saw you.&rdquo;</b><p>That is an explanation, not a legal conclusion. Drivers are expected to watch for bicycles too, and California law generally requires them to leave at least three feet when passing one. Who was at fault depends on what happened: where each of you was, speeds, signals, witnesses and video.</p></div>
+          <div class="ldvp__card ldvp__card--note"><b>&ldquo;Here is a quick offer for your bike and bills.&rdquo;</b><p>If you sign a release, the claim may be closed before the full medical picture is known.</p></div>
+        </div>
+        </div>
+      </div>
+      <p class="ldvp__note" style="margin-top:16px">California reduces compensation by your percentage of fault. It does not automatically cancel it, and the insurer's first number is not always the final one.</p>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--white" id="ldv-checklist">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">First days</p>
+      <h2 class="ldvp__h2">After a bicycle crash: what to do now, and what to hold off on</h2>
+      <div class="ldvp__cols">
+        <div class="ldvp__col">
+          <h3>Do now</h3>
+          <ul class="ldvp__ticks">
+            <li>Get medical care. Tell the doctor everything that hurts, even if it seems small, and say if you hit your head.</li>
+            <li>Report the crash and save the police report number. If the driver left, report it right away and write down anything you remember: color, make, part of the plate, direction.</li>
+            <li>Take photos of the scene, the bike lane or road, the damage to your bike and your injuries if you can.</li>
+            <li>Keep your bike, helmet, clothing and gear as they are. A damaged helmet and bike can show how the crash happened.</li>
+            <li>If you track rides with a phone app or bike computer, do not delete the ride. It may help show where you were riding.</li>
+            <li>Write down names and phone numbers of witnesses.</li>
+          </ul>
+        </div>
+        <div class="ldvp__col">
+          <h3>Hold off until you have talked to an attorney</h3>
+          <ul class="ldvp__nots">
+            <li>Repairing, replacing or throwing out the bike or the helmet. If an insurer asks to inspect them, ask before you hand anything over.</li>
+            <li>Giving a recorded statement to the other driver's insurer.</li>
+            <li>Signing a release or accepting a quick offer, including an offer just to replace the bike.</li>
+            <li>Posting about the crash on social media or in a ride app.</li>
+          </ul>
+        </div>
+      </div>
+      <p class="ldvp__note">This is general information, not legal advice.</p>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--white" id="ldv-how">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">How it works</p>
+      <h2 class="ldvp__h2">What happens when you call a bicycle accident lawyer</h2>
+      <div class="ldvmedia__split">
+        <div class="ldvmedia__content">
+        <ol class="ldvp__steps">
+          <li><b>Tell us what happened.</b>The crash, where you were riding, your injuries and your treatment so far. If the driver left, tell us what you remember. You don't need documents yet.</li>
+          <li><b>We set up a free review of your case with an attorney</b>Free, with no obligation.</li>
+          <li><b>The attorney explains what applies to you and what to avoid</b>Then you decide: hire the firm now, later, or not at all. No pressure.</li>
+        </ol>
+        <div class="ldvp__btns">
+          <a class="ldvp__btn" href="#ldv-form" data-ldv-cta="how_form">Get my free case review</a>
+          <a class="ldvp__btn ldvp__btn--ghost ldvq-phone" href="tel:+18444529465" data-ldv-cta="how_call">Call (844) 452-9465 &middot; 24/7</a>
+        </div>
+        </div>
+        <figure class="ldvmedia__photo"><img src="https://static.tildacdn.net/tila3935-6566-4461-b235-326364613238/landver_legal_office.webp" alt="Professional California law office with legal documents and scales of justice" width="768" height="512" loading="lazy" decoding="async"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--cream" id="ldv-fee">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">How the fee works</p>
+      <h2 class="ldvp__h2">Why is the first review free, and how does Landver Law get paid?</h2>
+      <ul class="ldvp__ticks">
+        <li>The first review is free. It is how you and the firm find out whether Landver Law can help with your case.</li>
+        <li>If you hire the firm, you sign a written agreement first. It states the fee, and you can read it before you sign.</li>
+        <li>The attorney fee is paid out of what is recovered. If nothing is recovered, you owe no attorney fee.</li>
+        <li>There are no upfront costs.</li>
+      </ul>
+      <p class="ldvp__note">So the firm is paid only when you are. Exact financial terms are confirmed in the written attorney-client agreement before representation begins.</p>
+      <div class="ldvp__hl"><strong>No Fee Unless We Win.</strong><p>Your first case review is free, with no obligation to hire the firm.</p></div>
+      <div class="ldvp__btns">
+        <a class="ldvp__btn" href="#ldv-form" data-ldv-cta="fee_form">Get my free case review</a>
+        <a class="ldvp__btn ldvp__btn--ghost ldvq-phone" href="tel:+18444529465" data-ldv-cta="fee_call">Call (844) 452-9465 &middot; 24/7</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="ldv-team" id="ldv-team">
+    <div class="ldv-team__inner">
+      <p class="ldv-team__eyebrow">The people behind Landver Law</p>
+      <h2 class="ldv-team__title">A Dedicated Team Behind Your Case</h2>
+      <p class="ldv-team__description">When you work with Landver Law, you have a team committed to guiding you through the legal process, from your first consultation to the resolution of your case.</p>
+      <figure class="ldv-team__photo"><img src="https://static.tildacdn.net/tila3339-6566-4261-b363-313039383634/IMG_8729-1_1.webp" alt="The Landver Law legal team" width="1144" height="1299" loading="lazy" decoding="async"><figcaption class="ldv-team__caption">The Landver Law Team</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--white" id="ldv-situations">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Bicycle accident cases</p>
+      <h2 class="ldvp__h2">Common bicycle accident situations Landver Law reviews</h2>
+              <ul class="ldvp__chips">
+          <li>A driver turned right across your path, or turned left in front of you</li>
+          <li>A car door opened into your path</li>
+          <li>A driver passed too close or did not see you</li>
+          <li>A driver hit you at an intersection or driveway</li>
+          <li>The driver left the scene</li>
+          <li>A pothole, debris or poor road or bike-lane design</li>
+          <li>Hit while riding in a bike lane or on a shared path</li>
+          <li>A loved one died in a bicycle crash</li>
+        </ul>
+        <p class="ldvp__note">Not sure which one fits? That is okay. Tell us what happened and an attorney will review it. Every case depends on its own facts, injuries, evidence, liability and insurance coverage.</p>
+        <div class="ldvp__btns">
+          <a class="ldvp__btn" href="#ldv-form" data-ldv-cta="cases_form">Get my free case review</a>
+        </div>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--cream" id="ldv-results">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Results</p>
+      <h2 class="ldvp__h2">Recent settlements and verdicts</h2>
+      <p class="ldvp__lead" style="margin-bottom:14px">These results come from other types of cases, not bicycle cases.</p>
+      <div class="ldvp__cards">
+        <div class="ldvp__card"><b>$18.5M &middot; Motorcycle accident</b><p>A driver's failure to yield resulted in severe fractures and an extensive recovery.</p></div>
+        <div class="ldvp__card"><b>$38.5M &middot; Motor vehicle accident</b><p>A highway rear-end collision caused severe spinal injuries and a prolonged recovery. The firm built a comprehensive evidentiary record and secured a top verdict.</p></div>
+        <div class="ldvp__card"><b>$35.2M &middot; Truck accident</b><p>One of the firm's most contested cases. The result was a top verdict for the client.</p></div>
+      </div>
+      <p class="ldvp__note">Past results do not guarantee, predict or imply a similar outcome in any other matter. Every case depends on its own facts, injuries, evidence, liability, insurance coverage and applicable law.</p>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--dark" id="ldv-attorney">
+    <div class="ldvp__in ldvp__atty">
+      <img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/Landver0290.jpg" width="800" height="1200" loading="lazy" alt="Alina Landver, bicycle accident attorney at Landver Law in Beverly Hills">
+      <div>
+        <p class="ldvp__eyebrow">Your attorney</p>
+        <h2 class="ldvp__h2">Your California bicycle accident attorney: Alina Landver, Esq., MBA</h2>
+        <ul class="ldvp__facts">
+          <li>Managing Partner &middot; Trial Attorney</li>
+          <li><b>California Bar</b> 231077</li>
+          <li><b>Admitted</b> June 2004</li>
+        </ul>
+        <p class="ldvp__lead">Alina Landver has practiced personal injury law for over 20 years in State and Federal Court throughout California. She began her career on the defense side, representing corporate clients, which gives her direct insight into how insurers undervalue claims.</p>
+        <ul class="ldvp__badges">
+            <li><img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/image-1.png" width="72" height="72" loading="lazy" alt="Litigator Awards, ranked top 1% lawyers"></li>
+            <li><img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/image-2.png" width="72" height="72" loading="lazy" alt="Super Lawyers"></li>
+            <li><img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/image-3.png" width="72" height="72" loading="lazy" alt="American Institute of Trial Lawyers, Litigator of the Year 2021"></li>
+            <li><img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/image-4.png" width="72" height="72" loading="lazy" alt="National Alliance of Attorneys, Member, Attorney of the Year 2021"></li>
+            <li><img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/image-5.png" width="72" height="72" loading="lazy" alt="Million Dollar Advocates Forum"></li>
+            <li><img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/image-6.png" width="72" height="72" loading="lazy" alt="Los Angeles County Bar Association (LACBA)"></li>
+        </ul>
+        <p class="ldvp__src">Awards and memberships are as published by the firm. Attorney status and admission date are based on State Bar of California records. Statements about Landver Law's experience are based on information published by the firm. Prior experience and recognition do not guarantee a particular outcome in any individual matter.</p>
+        <div class="ldvp__btns">
+          <a class="ldvp__btn" href="#ldv-form" data-ldv-cta="attorney_form">Free case review</a>
+          <a class="ldvp__btn ldvp__btn--ghost ldvq-phone" href="tel:+18444529465" data-ldv-cta="attorney_call">Call (844) 452-9465</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--cream" id="ldv-reviews">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Client reviews</p>
+      <h2 class="ldvp__h2">What people say after working with Landver Law</h2>
+      <div class="ldvp__rate"><b>4.8</b><div><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><span>out of 5 &middot; 45 Google reviews</span></div></div>
+      <div class="ldvp__revs">
+        <blockquote class="ldvp__rev"><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;They walked me through every step of my case and took care of virtually everything, which made my life easier. Everyone on the team was so helpful and knowledgeable, always available when I needed help with any question I may have had.&rdquo;</p><small><a href="https://www.google.com/maps/contrib/106434070416505315970/reviews" target="_blank" rel="noopener nofollow">Francis Padilla</a> &middot; Google Review &middot; September 2025</small></blockquote>
+        <blockquote class="ldvp__rev"><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;The attorney treated my case with great seriousness from the start. They were very clear in communication, answered all my questions, and fought relentlessly for me.&rdquo;</p><small><a href="https://www.google.com/maps/contrib/106611924844132641706/reviews" target="_blank" rel="noopener nofollow">Elsy Castellanos</a> &middot; Google Review &middot; October 2025</small></blockquote>
+        <blockquote class="ldvp__rev"><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;Landver Law Personnel, and especially Alina Landver came to my, and my family rescue several times in the past 10 years. No matter if the case is big or small, we always felt we are treated with the best advise. Always ready to listen and act on our behalf.&rdquo;</p><small><a href="https://www.google.com/maps/contrib/100250608118481741255/reviews" target="_blank" rel="noopener nofollow">Nureet Cohen</a> &middot; Google Review &middot; August 2025</small></blockquote>
+      </div>
+      <p class="ldvp__revlinks"><a href="https://maps.google.com/?cid=14462387040831338871" target="_blank" rel="noopener nofollow">Read all reviews on Google</a></p>
+      <p class="ldvp__note">A review is someone else's experience, not a promise about yours. Reviews shown are excerpts from publicly displayed Google reviews. Rating and review count can change over time. Testimonials do not constitute a guarantee, warranty or prediction regarding the outcome of any legal matter.</p>
+      <div class="ldvp__btns">
+        <a class="ldvp__btn" href="#ldv-form" data-ldv-cta="reviews_form">Get my free case review</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--white" id="ldv-faq">
+    <div class="ldvp__in ldvp__faq">
+      <p class="ldvp__eyebrow">Frequently asked questions</p>
+      <h2 class="ldvp__h2">Questions about bicycle accidents and hiring a lawyer</h2>
+      <details><summary>What if I wasn't wearing a helmet?</summary>
+        <p>Not wearing a helmet does not automatically end a claim. California's bicycle helmet law generally covers riders under 18. Even where a helmet is not required, an insurer may argue that not wearing one made your injuries worse, especially head injuries. How much it matters, if at all, depends on your injuries and how the crash happened. Tell the attorney exactly what happened, including the helmet. It is better to know now than to be surprised later.</p></details>
+      <details><summary>The driver says &ldquo;I never saw you.&rdquo; Does that help them?</summary>
+        <p>It is an explanation, not a legal conclusion. Drivers are expected to watch for bicycles. California law generally requires a driver passing a bicycle to leave at least three feet, and a driver who needs to cross a bike lane to turn generally must move into the lane first. Whether that was done depends on what happened: where each of you was, speeds, signals, witnesses and video where it exists. Tell us what you remember and what evidence may exist.</p></details>
+      <details><summary>The insurer says I was riding in the wrong place. Can I still have a claim?</summary>
+        <p>Possibly. Bicyclists on the road generally have the same rights as drivers. California law generally asks cyclists to ride as close to the right edge as practicable, but lists exceptions, for example to avoid hazards, to pass, to prepare for a left turn, or where the lane is too narrow to share safely. Where there is a bike lane, there are exceptions too. California uses comparative fault: if a cyclist's own actions contributed to the crash, damages can be reduced by the cyclist's percentage of responsibility, not automatically denied. A free case review looks at what happened in your crash.</p></details>
+      <details><summary>A car door opened into me. Who is responsible?</summary>
+        <p>California law says a person may not open a vehicle door on the side open to moving traffic unless it is reasonably safe and does not interfere with that traffic. An insurer may still argue about where you were riding or how fast. Who was responsible depends on the facts, such as how close you were to the parked car and whether the person looked before opening the door. Take photos of the door, the lane and your bike, and keep the bike as it is.</p></details>
+      <details><summary>The driver left the scene. Can I still do anything?</summary>
+        <p>Report it to the police right away, even if you are hurt and the driver is gone. Write down what you remember (color, make, part of the plate, direction, where it happened) and look for witnesses and nearby cameras. Whether insurance can help depends on the facts and the policies involved, and some reporting deadlines can be short, so do not wait. A free case review can help you understand what may apply.</p></details>
+      <details><summary>The other driver's insurance company called me. What should I do?</summary>
+        <p>First identify who is calling and which insurer they represent. Avoid guessing about facts you do not know, minimizing injuries that are still being evaluated, or signing releases you do not understand. If you are unsure about a recorded statement or an offer, consider getting legal advice before agreeing to it.</p></details>
+      <details><summary>How much does a bicycle accident lawyer cost?</summary>
+        <p>The initial case review is free, and there is no fee unless we win. Landver Law handles personal-injury matters on a contingency basis, advances litigation costs and collects its legal fee when a recovery is obtained. Exact financial terms are confirmed in the written attorney-client agreement before representation begins.</p></details>
+      <details><summary>How much is my bicycle accident case worth?</summary>
+        <p>No honest number can be named without the facts. It depends on your injuries, medical costs, time off work, future care, who was at fault and the insurance coverage available. The review shows what applies to your case. Landver Law does not promise a result.</p></details>
+      <details><summary>My treatment is still ongoing. Is it too early to contact a lawyer?</summary>
+        <p>No. You do not have to wait until treatment is finished before asking for a case review. In a serious injury case, the eventual medical outcome may still be uncertain. The important starting point is understanding what happened, what treatment has occurred so far and what evidence may need to be preserved.</p></details>
+      <details><summary>How long do I have to bring a bicycle injury claim in California?</summary>
+        <p>For many California personal-injury lawsuits, the general deadline is two years from the date of injury. But that is not a universal rule. Different facts can create different deadlines. For example, if a road hazard, a pothole or the design of a bike lane is involved, a claim against a California government agency can require an administrative claim much earlier, generally within six months of the injury. Do not use the general two-year period to assume your own deadline.</p></details>
+      <p class="ldvp__note" style="margin-top:16px">This FAQ provides general information and is not legal advice. Deadlines, liability, insurance obligations and available claims depend on the specific facts and applicable law. An attorney-client relationship is not created by viewing this page or submitting a request for an initial case review.</p>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--dark" id="ldv-final">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Free case review</p>
+      <div class="ldvmedia__split">
+        <div class="ldvmedia__content">
+        <h2 class="ldvp__h2">Get your free bicycle accident case review</h2>
+        <p class="ldvp__lead">Call or leave your number. We'll set up a free review of your case with an attorney, who can tell you:</p>
+        <ul class="ldvp__ticks">
+          <li>what applies to YOUR case, not general advice</li>
+          <li>what NOT to do so you don't lose compensation</li>
+          <li>your next steps, in plain language</li>
+          <li>where your case stands, based on what you tell us</li>
+        </ul>
+        <p class="ldvp__fee">No fee unless we win.</p>
+        <div class="ldvp__btns">
+          <a class="ldvp__btn" href="#ldv-form" data-ldv-cta="final_form">Get my free case review</a>
+          <a class="ldvp__btn ldvp__btn--ghost ldvq-phone" href="tel:+18444529465" data-ldv-cta="final_call">Call (844) 452-9465 &middot; 24/7</a>
+        </div>
+        <p class="ldvp__fine">Submitting a form does not by itself create an attorney-client relationship.</p>
+        </div>
+        <figure class="ldvmedia__photo"><img src="https://static.tildacdn.net/tila6434-3533-4135-a433-626566353864/landver_california_n.webp" alt="Los Angeles California skyline at golden hour with palm trees" width="768" height="512" loading="lazy" decoding="async"></figure>
+      </div>
+    </div>
+  </section>
+
+</div>

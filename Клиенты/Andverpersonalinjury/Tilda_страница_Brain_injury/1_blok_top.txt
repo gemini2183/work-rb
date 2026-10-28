@@ -1,0 +1,126 @@
+<!-- Landver Law: страница «California Brain Injury Lawyer. Free Case Review.», БЛОК 1: шапка, первый экран, закреплённая плашка (Tilda T123 «HTML»). Собрано build_topic_pages.py.
+     Сразу под этим блоком ставится блок 2 (подпись над формой), а за ним обычная форма Tilda. -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* шапка и закреплённая плашка */
+.ldvh{background:#302d28;border-bottom:1px solid rgba(255,255,255,.08);font-family:Montserrat,Arial,sans-serif}
+.ldvh__in{max-width:1100px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.ldvh__logo{display:flex;flex-direction:column;text-decoration:none;color:#ffffff;line-height:1.1}
+.ldvh__logo b{font-size:21px;font-weight:800;letter-spacing:-.01em}
+.ldvh__logo span{margin-top:3px;font-size:9.5px;font-weight:800;letter-spacing:.16em;color:#d2b16d}
+.ldvh__tel{display:none;flex-direction:column;text-align:right;text-decoration:none;color:#ffffff;font-size:17px;font-weight:800;line-height:1.15}
+.ldvh__tel small{font-size:9.5px;font-weight:800;letter-spacing:.12em;color:#b5ada0}
+.ldvh__cta{display:inline-flex;align-items:center;min-height:44px;padding:10px 16px;border-radius:10px;background:#826510;color:#fff;font-size:13.5px;font-weight:800;letter-spacing:.02em;text-transform:uppercase;text-decoration:none;white-space:nowrap}
+.ldvh__cta:hover{background:#6e530d;color:#fff}
+.ldvs{position:fixed;left:0;right:0;bottom:0;z-index:999;display:flex;gap:8px;padding:8px 10px calc(8px + env(safe-area-inset-bottom));background:rgba(13,21,27,.97);border-top:1px solid rgba(255,255,255,.12);font-family:Montserrat,Arial,sans-serif}
+.ldvs a{flex:1;display:flex;align-items:center;justify-content:center;min-height:50px;padding:8px 10px;border-radius:10px;font-size:14.5px;font-weight:800;line-height:1.15;text-align:center;text-decoration:none}
+.ldvs__call{color:#ffffff;border:2px solid rgba(255,255,255,.4)}
+.ldvs__form{color:#fff;background:#826510;border:2px solid #826510}
+@media(min-width:700px){.ldvh__in{padding:14px 24px}.ldvh__tel{display:flex}.ldvs{display:none}}
+
+
+/* шапка и плашка: как у живой Car (Global brand restyle V2) */
+.ldvh{background:#fff !important;border-bottom:1px solid #e7dfd2 !important}
+.ldvh__in{max-width:1200px;min-height:86px}
+.ldvh__logo,.ldvh__logo b,.ldvh__logo span{color:#937a4e !important}
+.ldvh__logo b{font-size:23px;font-weight:600;letter-spacing:-.045em}
+.ldvh__logo span{font-size:9px;letter-spacing:.14em}
+.ldvh__tel{color:#292929 !important;font-size:16px}
+.ldvh__tel small{color:#937a4e !important}
+.ldvh__cta{background:#826510 !important;color:#fff !important;border-radius:40px !important;font-weight:700}
+.ldvh__cta:hover{background:#6e530d !important}
+.ldvs{background:rgba(255,255,255,.98) !important;border-top:1px solid #e7dfd2 !important;box-shadow:0 -6px 20px rgba(0,0,0,.08)}
+.ldvs__call{color:#826510 !important;border:2px solid #826510 !important;background:#fff !important}
+.ldvs__form{color:#fff !important;background:#826510 !important;border-color:#826510 !important}
+@media(max-width:699px){.ldvh__in{min-height:67px}.ldvh__logo b{font-size:19px}.ldvh__logo span{font-size:7.5px}.ldvh__cta{font-size:11px;padding:10px 12px}}
+
+
+.ldvc{background:linear-gradient(125deg,#f7f2ea 0%,#ffffff 75%);color:#292929;font-family:Montserrat,Arial,sans-serif;padding:30px 16px 36px}
+.ldvc *,.ldvc *::before,.ldvc *::after{box-sizing:border-box}
+.ldvc__wrap{max-width:760px;margin:0 auto}
+.ldvc__h1{margin:0 0 12px;font-weight:800;font-size:clamp(29px,6.6vw,46px);line-height:1.1;letter-spacing:-.035em;color:#292929}
+.ldvc__sub{margin:0 0 16px;font-size:clamp(17px,2.3vw,21px);line-height:1.45;font-weight:500;letter-spacing:-.01em;color:#826510}
+.ldvc__eyebrow{margin:0 0 8px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#937a4e}
+.ldvc__why{list-style:none;margin:0 0 14px;padding:0}
+.ldvc__why li{position:relative;margin:0 0 8px;padding-left:28px;font-size:16px;line-height:1.45;font-weight:500;color:#38332e}
+.ldvc__why li::before{content:"\2713";position:absolute;left:0;top:0;color:#b19154;font-weight:800}
+.ldvc__why a{color:#826510;text-decoration:underline}
+.ldvc__trust{list-style:none;margin:0 0 6px;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.ldvc__trust li{font-size:13px;font-weight:700;line-height:1.2;padding:7px 11px;border-radius:999px;background:#fff;border:1px solid #e0d3b9;color:#3e3933}
+.ldvc__trust li b{color:#826510;font-weight:800}
+.ldvc__fn{margin:0 0 16px;font-size:12px;line-height:1.4;color:#77716a}
+.ldvc__btns{display:grid;gap:10px}
+.ldvc__btn{display:flex;align-items:center;justify-content:center;min-height:56px;padding:14px 18px;border-radius:10px;font:700 16.5px/1.2 Montserrat,Arial,sans-serif;text-align:center;text-decoration:none;border:2px solid #826510}
+.ldvc__btn--primary{background:#826510;color:#fff}
+.ldvc__btn--primary:hover{background:#6e530d;border-color:#6e530d;color:#fff}
+.ldvc__anchor{display:block;height:0;scroll-margin-top:72px}
+.ldvc__micro{margin:10px 0 0;font-size:13.5px;font-weight:600;color:#77716a}
+.ldvc__photo{display:none}
+.ldvc__who{display:flex;align-items:center;gap:12px;margin:0 0 12px}
+.ldvc__who img{flex:0 0 56px;width:56px;height:56px;border-radius:50%;object-fit:cover;object-position:50% 14%;border:2px solid #d2b16d}
+.ldvc__who span{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#937a4e;line-height:1.35}
+.ldvc__who b{display:block;font-size:15px;letter-spacing:0;text-transform:none;color:#292929}
+@media(min-width:700px){.ldvc{padding:55px 24px 60px}}
+@media(min-width:900px){
+  .ldvc__wrap{max-width:1100px}
+  .ldvc__grid{display:grid;grid-template-columns:1.2fr .8fr;gap:44px;align-items:center}
+  .ldvc__who{display:none}
+  .ldvc__photo{display:block;position:relative;border-radius:18px;overflow:hidden;border:1px solid #e7dfd2;box-shadow:0 18px 45px rgba(69,50,22,.13);max-height:520px}
+  .ldvc__photo img{display:block;width:100%;height:520px;object-fit:cover;object-position:50% 20%}
+  .ldvc__cap{position:absolute;left:0;right:0;bottom:0;padding:44px 18px 16px;background:linear-gradient(to top,rgba(35,30,23,.9),rgba(35,30,23,0));display:flex;flex-direction:column;gap:2px}
+  .ldvc__cap b{font-size:17px;font-weight:800;color:#fff}
+  .ldvc__cap span{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#d2b16d}
+}
+
+</style>
+
+<header class="ldvh">
+  <div class="ldvh__in">
+    <a class="ldvh__logo" href="#ldvc" aria-label="Landver Law, Personal Injury Attorneys"><b>LANDVER LAW</b><span>PERSONAL INJURY ATTORNEYS</span></a>
+    <a class="ldvh__tel ldvq-phone" href="tel:+18444529465" data-ldv-cta="header_call"><small>FREE CONSULTATION &middot; 24/7</small>(844) 452-9465</a>
+    <a class="ldvh__cta" href="#ldv-form" data-ldv-cta="header_form">Free case review</a>
+  </div>
+</header>
+
+<section class="ldvc" id="ldvc" aria-labelledby="ldvc-h1">
+  <div class="ldvc__wrap ldvc__grid">
+   <div class="ldvc__text">
+    <p class="ldvc__eyebrow">Free case review &middot; Answered 24/7</p>
+    <h1 class="ldvc__h1" id="ldvc-h1">California Brain Injury Lawyer. Free Case Review.</h1>
+    <p class="ldvc__sub">Hurt in a crash, a fall or an assault, and your head, memory or mood is not the same? Symptoms can show up days later, and insurers may call an injury minor. Tell us what happened. An attorney reviews your case for free.</p>
+    <p class="ldvc__fn" style="margin:0 0 14px">This page is about brain injuries caused by accidents, falls and assaults, not medical care.</p>
+    <div class="ldvc__who"><img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/Landver0290.jpg" width="56" height="56" loading="lazy" alt="Alina Landver, Managing Partner and Trial Attorney"><span><b>Alina Landver, Esq., MBA</b>Managing Partner &middot; Trial Attorney</span></div>
+    <ul class="ldvc__why">
+      <li>Alina Landver began her career on the defense side. She knows how insurers undervalue claims.</li>
+      <li>Over 20 years in State and Federal Court throughout California.</li>
+      <li>If you decide to hire the firm, you pay no fee unless you win. <a href="#ldv-fee" data-ldv-cta="hero_fee">See how it works</a></li>
+    </ul>
+    <ul class="ldvc__trust">
+      <li><b>&#9733; 4.8</b> &middot; 45 Google reviews</li>
+      <li>Practicing since 2004</li>
+      <li>Serving all of California</li>
+    </ul>
+    
+    <div class="ldvc__btns">
+      <a class="ldvc__btn ldvc__btn--primary ldvq-phone" href="tel:+18444529465" data-ldv-cta="hero_call">Call (844) 452-9465 &middot; 24/7</a>
+    </div>
+    <p class="ldvc__micro">No pressure: you decide after the review.</p>
+   </div>
+   <div class="ldvc__photo">
+     <img src="https://landverpersonalinjury.com/wp-content/uploads/2025/06/Landver0374-scaled-1-e1750710392686.jpg" width="807" height="1200" loading="lazy" alt="Alina Landver in court">
+     <div class="ldvc__cap"><b>Alina Landver, Esq., MBA</b><span>Managing Partner &middot; Trial Attorney</span></div>
+   </div>
+  </div>
+</section>
+<a id="ldv-form" class="ldvc__anchor" aria-hidden="true" tabindex="-1"></a>
+
+<div class="ldvs">
+  <a class="ldvs__call ldvq-phone" href="tel:+18444529465" data-ldv-cta="sticky_call">Call now &middot; 24/7</a>
+  <a class="ldvs__form" href="#ldv-form" data-ldv-cta="sticky_form">Leave my number</a>
+</div>
+<script>
+document.addEventListener('click', function (e) {
+  var a = e.target.closest ? e.target.closest('[data-ldv-cta]') : null;
+  if (a) { (window.dataLayer = window.dataLayer || []).push({ event: 'ldv_cta', cta_place: a.getAttribute('data-ldv-cta') }); }
+});
+</script>

@@ -1,0 +1,85 @@
+{
+  "_comment": "28.10.2026, по «делаем пересборку» пользователя: «Rideshare - Exact» — позиция 2 из трёх прямых строк на выбор Google (вместо одной закреплённой), тематические вопросы — без закрепления; описания без изменений; прежнее объявление 829884691667 на паузу",
+  "customer_id": "2136216123",
+  "campaign": "search / car+truck injuries / s / lp - tilda",
+  "pause_ads": [
+    829884691667
+  ],
+  "rsa": {
+    "final_url": "https://landverpersonalinjury.tilda.ws/uber-lyft-accident-lawyer-california",
+    "path1": "rideshare",
+    "path2": "",
+    "ad_groups": [
+      "Rideshare - Exact"
+    ],
+    "also_new_group": false,
+    "headlines": [
+      {
+        "text": "Uber & Lyft Accident Lawyer",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Rideshare Accident Attorney",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Uber or Lyft Crash Lawyer",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Free Case Review",
+        "pin": "HEADLINE_2"
+      },
+      {
+        "text": "No Fee Unless We Win",
+        "pin": "HEADLINE_2"
+      },
+      {
+        "text": "Talk to an Attorney 24/7",
+        "pin": "HEADLINE_2"
+      },
+      {
+        "text": "Call Landver Law 24/7"
+      },
+      {
+        "text": "Hurt in an Uber or Lyft Crash?"
+      },
+      {
+        "text": "Passenger in an Uber or Lyft?"
+      },
+      {
+        "text": "Driver Says the App Was Off?"
+      },
+      {
+        "text": "Who Pays After the Crash?"
+      },
+      {
+        "text": "Hit by a Rideshare Driver?"
+      },
+      {
+        "text": "20+ Years in California"
+      },
+      {
+        "text": "4.8-Star Client Rating"
+      },
+      {
+        "text": "Trial-Focused Representation"
+      }
+    ],
+    "descriptions": [
+      {
+        "text": "Hurt in a crash with an Uber or Lyft? Get a free case review. We help injured people.",
+        "pin": "DESCRIPTION_1"
+      },
+      {
+        "text": "Whose insurance applies can depend on what the driver was doing in the app. Ask us."
+      },
+      {
+        "text": "Free case review. No fee unless we win. Call Landver Law 24/7 or leave your number."
+      },
+      {
+        "text": "20+ years in California courts. Trial-focused, with insight from the defense side."
+      }
+    ]
+  }
+}

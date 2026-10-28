@@ -107,7 +107,9 @@ def main():
 
     if a.remove:
         want = {(g, s["text"]) for b in plan for g in b["groups"] for s in b["sitelinks"]}
-        todo = [x for x in before if (x[0], x[3]) in want and x[4] in {s["url"] for b in plan for s in b["sitelinks"]}]
+        # адрес сравниваем без метки UTM и якоря: после gads_sitelink_utm_fix.py метки стоят в адресе до «#»
+        base = lambda u: u.split("#")[0].split("?")[0]
+        todo = [x for x in before if (x[0], x[3]) in want and base(x[4]) in {base(s["url"]) for b in plan for s in b["sitelinks"]}]
         print(f"\nК отвязке: {len(todo)}")
         if not a.execute:
             return print("НИЧЕГО не изменено. Для отката: --remove --execute")
