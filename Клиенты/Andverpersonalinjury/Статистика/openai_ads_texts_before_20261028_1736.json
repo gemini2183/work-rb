@@ -1,0 +1,28 @@
+[
+  {
+    "id": "ad_109cf98d72b481918d5f3b50e49f6239",
+    "created_at": 1792071401,
+    "status": "active",
+    "creative": {
+      "type": "chat_card",
+      "body": "Free review of your California crash injury claim. We represent injury victims only.",
+      "file_id": "file_0000000018a881f8a1098944f8698a52",
+      "image_crop": {
+        "height": 1,
+        "width": 1,
+        "x": 0,
+        "y": 0
+      },
+      "target_url": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=crashtype_x1",
+      "title": "Injured in a Rear-End Crash?"
+    },
+    "landing_page_configuration": null,
+    "name": "CT-X1",
+    "review": {
+      "status": "approved"
+    },
+    "review_status": "approved",
+    "updated_at": 1792071678,
+    "user_external_id": "ldv-364e3488ed54d1fc415a2eb949e3cdbf"
+  }
+]

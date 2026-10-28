@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ad_6acd191fed288196824894adf69022f0",
+    "created_at": 1791826207,
+    "status": "active",
+    "creative": {
+      "type": "chat_card",
+      "body": "Free California case review. We represent crash injury victims only.",
+      "file_id": "file_0000000016f081f9949093cd5999233e",
+      "image_crop": {
+        "height": 1,
+        "width": 1,
+        "x": 0,
+        "y": 0
+      },
+      "target_url": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=case_value_v1",
+      "title": "What Is Your Crash Case Worth?"
+    },
+    "landing_page_configuration": null,
+    "name": "Копия Ad CT-V1",
+    "review": {
+      "status": "approved"
+    },
+    "review_status": "approved",
+    "updated_at": 1791826244
+  },
+  {
+    "id": "ad_6ac6550fa0948199872090cd7292244d",
+    "created_at": 1791382799,
+    "status": "active",
+    "creative": {
+      "type": "chat_card",
+      "body": "Free California case review. We represent crash injury victims only.",
+      "file_id": "file_0000000018a881f8a1098944f8698a52",
+      "image_crop": {
+        "height": 1,
+        "width": 1,
+        "x": 0,
+        "y": 0
+      },
+      "target_url": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=cartruck_tilda&utm_content=case_value_v1",
+      "title": "What Is Your Crash Case Worth?"
+    },
+    "landing_page_configuration": null,
+    "name": "Ad CT-V1",
+    "review": {
+      "status": "approved"
+    },
+    "review_status": "approved",
+    "updated_at": 1791902282
+  }
+]

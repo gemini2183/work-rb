@@ -400,6 +400,42 @@ def cmd_set_image(a):
         print(f"{x['name']}  {x['status']}/{x.get('review_status')}  {cr.get('title')} | {cr.get('file_id')} | {crop_text(cr)}")
 
 
+def cmd_set_text(a):
+    """Замена описания (body) у объявлений; заголовок, ссылка, картинка и статус не меняются. Без --execute — план;
+    при --execute снимок «до» пишется в Клиенты/<клиент>/Статистика, затем объявления читаются обратно."""
+    if not 1 <= len(a.body) <= 100:
+        sys.exit(f"Текст {len(a.body)} знаков (нужно до 100)")
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    ads = {ad["id"]: ad for ad in list_ads(a.campaign)}
+    bad = [x for x in a.ads if x not in ads]
+    if bad:
+        sys.exit("Не найдены в кампании: " + ", ".join(bad))
+    print("Объект | Действие | Было → Станет")
+    for x in a.ads:
+        ad = ads[x]
+        print(f"{ad['name']} ({x}, {ad['_group_name']}, {ad['status']}/{ad.get('review_status')}) | текст | "
+              f"{ad['creative']['body']} → {a.body}")
+    if not a.execute:
+        print("\nПлан. Записи не было (добавьте --execute). Заголовок, ссылка, картинка и статус не меняются.")
+        return
+    snap_dir = os.path.join(root, "Клиенты", a.client_folder, "Статистика")
+    os.makedirs(snap_dir, exist_ok=True)
+    snap = os.path.join(snap_dir, f"openai_ads_texts_before_{time.strftime('%Y%m%d_%H%M')}.json")
+    json.dump([{k: v for k, v in ads[x].items() if k != "_group_name"} for x in a.ads],
+              open(snap, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    print(f"\nСнимок «до»: {snap}")
+    for x in a.ads:
+        cr = dict(ads[x]["creative"])
+        cr["body"] = a.body
+        call("POST", f"/ads/{x}", body={"creative": cr})
+        print(f"записано: {ads[x]['name']}")
+    time.sleep(3)
+    print("\nПрочитано обратно из аккаунта:")
+    for x in a.ads:
+        y = call("GET", f"/ads/{x}")
+        print(f"{y['name']}  {y['status']}/{y.get('review_status')}  {y['creative'].get('title')} | {y['creative'].get('body')}")
+
+
 def get_campaign(campaign):
     return call("GET", f"/campaigns/{campaign}")
 
@@ -557,6 +593,11 @@ def main():
     cp = sub.add_parser("campaign"); cp.add_argument("--campaign", required=True)
     cp.add_argument("--daily-limit", type=float, help="дневной лимит, $"); cp.add_argument("--status", choices=["active", "paused"])
     cp.add_argument("--execute", action="store_true"); cp.set_defaults(f=cmd_campaign)
+    st = sub.add_parser("set-text"); st.add_argument("--campaign", required=True)
+    st.add_argument("--ads", nargs="+", required=True, help="ID объявлений (ad_…)")
+    st.add_argument("--body", required=True, help="новое описание, до 100 знаков")
+    st.add_argument("--client-folder", default="Andverpersonalinjury", help="куда писать снимок «до»")
+    st.add_argument("--execute", action="store_true"); st.set_defaults(f=cmd_set_text)
     cc = sub.add_parser("create-campaign")
     cc.add_argument("--source", required=True, help="кампания-образец (cmpn_…): ставки, цели, гео копируются")
     cc.add_argument("--name", required=True); cc.add_argument("--daily-limit", required=True, type=float, help="дневной лимит, $")

@@ -1492,3 +1492,8 @@ python gads_topic_groups_plan.py --client-folder Andverpersonalinjury --campaign
 python gads_adgroup_images.py --customer-id 213-621-6123 --client-folder Andverpersonalinjury --plan <план.json> [--execute] [--remove]
 ```
 Генерация картинок: `image_tool.py generate --backend openai --model gpt-image-2 ...`; ключ читается из переменной окружения или из `Скрипты/secrets/image_keys.env` (строки `OPENAI_API_KEY=…`, `GEMINI_API_KEY=…`; папка в `.gitignore`).
+
+### openai_ads.py: create-campaign, set-text, image_path в create-groups (2026-10-28, Landver)
+- `create-campaign --source cmpn_… --name … --daily-limit 50 [--execute]` — новая кампания на паузе по образцу другой (ставка, цели, гео копируются); без `--execute` только план.
+- `set-text --campaign … --ads ad_… --body "…" [--execute]` — замена описания (до 100 знаков), снимок «до» в `Статистика/openai_ads_texts_before_*.json`; после правки объявление уходит на повторную модерацию.
+- `create-groups`: у объявления можно указать `image_path` (файл загружается один раз на группу объявлений с одной картинкой) вместо `file_id`.
