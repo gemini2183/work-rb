@@ -1,0 +1,10 @@
+{
+  "ai_generated": true,
+  "backend": "openai",
+  "model": "gpt-image-2",
+  "prompt": "A quiet law office window with a view of the city, on the windowsill a row of law books with plain unreadable spines, photorealistic, soft natural light, calm neutral tones, no people, no text, no logos, no money, no signage, no brand names, composed as a centered square frame",
+  "client": "Andverpersonalinjury",
+  "purpose": "Групповая картинка Brain Injury, Google Search, нейтральная, без людей",
+  "size": "1024x1024",
+  "created": "2026-10-28T16:57:44"
+}

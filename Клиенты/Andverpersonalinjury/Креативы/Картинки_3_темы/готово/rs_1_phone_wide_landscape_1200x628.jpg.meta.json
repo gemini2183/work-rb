@@ -1,0 +1,11 @@
+{
+  "ai_generated": true,
+  "backend": "openai",
+  "model": "gpt-image-2",
+  "prompt": "A smartphone in a holder on a car dashboard showing an abstract map with no names or logos, blurred evening city lights through the windshield, photorealistic, soft natural light, calm neutral tones, no people, no text, no logos, no money, no signage, no brand names, composed as a wide landscape frame",
+  "client": "Andverpersonalinjury",
+  "purpose": "Групповая картинка Rideshare, Google Search, нейтральная, без людей",
+  "size": "1536x1024",
+  "created": "2026-10-28T16:57:55",
+  "derived_from": "Клиенты\\Andverpersonalinjury\\Креативы\\Картинки_3_темы\\rs_1_phone_wide.png"
+}

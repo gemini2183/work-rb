@@ -1,5 +1,5 @@
 ---
-status: промты готовы, генерация не запускалась (нет ключа Images API)
+status: сгенерировано 28.10 (OpenAI gpt-image-2, ключ из Скрипты/secrets/image_keys.env), в кабинет не загружено
 updated: 2026-10-28
 ---
 

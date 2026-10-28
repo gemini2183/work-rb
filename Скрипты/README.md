@@ -1484,3 +1484,11 @@ python gads_shared_negatives_remove.py --customer-id 213-621-6123 --client-folde
 ```
 python gads_topic_groups_plan.py --client-folder Andverpersonalinjury --campaign "<кампания>" --rsa Креативы/rsa_6themes_2026-10-28.yaml --keywords Статистика/exact_plan_6themes_2026-10-28.csv --groups "Wrongful Death - Exact" --bid 100 --out-dir Кампании/Search
 ```
+
+
+## Картинки Search на уровне групп: `gads_adgroup_images.py` (ЗАПИСЬ, по умолчанию validate_only)
+Загружает файлы как ассеты-изображения (имя `ai_<файл>`) и привязывает к группам (`AD_IMAGE`); групповые перекрывают кампанийные. План — JSON `{campaign, groups: {группа: [файлы]}}`. Снимок «до» — привязки групп; откат — `--remove --execute`. ИИ-метки в API нет (только галочка в интерфейсе). Пример: `Клиенты/Andverpersonalinjury/Креативы/images_3groups_plan_2026-10-28.json`.
+```
+python gads_adgroup_images.py --customer-id 213-621-6123 --client-folder Andverpersonalinjury --plan <план.json> [--execute] [--remove]
+```
+Генерация картинок: `image_tool.py generate --backend openai --model gpt-image-2 ...`; ключ читается из переменной окружения или из `Скрипты/secrets/image_keys.env` (строки `OPENAI_API_KEY=…`, `GEMINI_API_KEY=…`; папка в `.gitignore`).
