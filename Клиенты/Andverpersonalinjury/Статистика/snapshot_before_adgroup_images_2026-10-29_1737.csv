@@ -1,0 +1,19 @@
+group,link_resource,asset_id,asset_name
+Pedestrian - Exact,customers/2136216123/adGroupAssets/196916314730~434386028987~AD_IMAGE,434386028987,ai_pd_1_crosswalk_sq
+Pedestrian - Exact,customers/2136216123/adGroupAssets/196916314730~434386031006~AD_IMAGE,434386031006,ai_pd_2_signal_wide_landscape_1200x628
+Pedestrian - Exact,customers/2136216123/adGroupAssets/196916314730~434492288482~AD_IMAGE,434492288482,ai_pd_1_crosswalk_wide_landscape_1200x628
+Pedestrian - Exact,customers/2136216123/adGroupAssets/196916314730~434492288491~AD_IMAGE,434492288491,ai_pd_3_corner_sq
+Pedestrian - Exact,customers/2136216123/adGroupAssets/196916314730~434572145361~AD_IMAGE,434572145361,ai_pd_3_corner_wide_landscape_1200x628
+Pedestrian - Exact,customers/2136216123/adGroupAssets/196916314730~434572146588~AD_IMAGE,434572146588,ai_pd_2_signal_sq
+Bicycle - Exact,customers/2136216123/adGroupAssets/203258623644~434386028996~AD_IMAGE,434386028996,ai_bc_2_parked_wide_landscape_1200x628
+Bicycle - Exact,customers/2136216123/adGroupAssets/203258623644~434386031009~AD_IMAGE,434386031009,ai_bc_1_lane_wide_landscape_1200x628
+Bicycle - Exact,customers/2136216123/adGroupAssets/203258623644~434386031015~AD_IMAGE,434386031015,ai_bc_1_lane_sq
+Bicycle - Exact,customers/2136216123/adGroupAssets/203258623644~434492282224~AD_IMAGE,434492282224,ai_bc_2_parked_sq
+Bicycle - Exact,customers/2136216123/adGroupAssets/203258623644~434492288497~AD_IMAGE,434492288497,ai_bc_3_handlebar_sq
+Bicycle - Exact,customers/2136216123/adGroupAssets/203258623644~434572145364~AD_IMAGE,434572145364,ai_bc_3_handlebar_wide_landscape_1200x628
+Motorcycle - Exact,customers/2136216123/adGroupAssets/204102632520~434386030982~AD_IMAGE,434386030982,ai_mc_1_helmet_sq
+Motorcycle - Exact,customers/2136216123/adGroupAssets/204102632520~434386030985~AD_IMAGE,434386030985,ai_mc_3_handlebar_wide_landscape_1200x628
+Motorcycle - Exact,customers/2136216123/adGroupAssets/204102632520~434386032350~AD_IMAGE,434386032350,ai_mc_2_parked_wide_landscape_1200x628
+Motorcycle - Exact,customers/2136216123/adGroupAssets/204102632520~434571430566~AD_IMAGE,434571430566,ai_mc_3_handlebar_sq
+Motorcycle - Exact,customers/2136216123/adGroupAssets/204102632520~434572145358~AD_IMAGE,434572145358,ai_mc_2_parked_sq
+Motorcycle - Exact,customers/2136216123/adGroupAssets/204102632520~434572146585~AD_IMAGE,434572146585,ai_mc_1_helmet_wide_landscape_1200x628

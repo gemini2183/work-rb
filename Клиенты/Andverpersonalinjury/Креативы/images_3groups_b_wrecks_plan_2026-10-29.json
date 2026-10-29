@@ -1,0 +1,23 @@
+{
+ "campaign": "search / car+truck injuries / s / lp - tilda",
+ "groups": {
+  "Motorcycle - Exact": [
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/mc_4_wreck_wide_landscape_1200x628.jpg",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/mc_4_wreck_sq.png",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/mc_5_wreck_close_wide_landscape_1200x628.jpg",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/mc_5_wreck_close_sq.png"
+  ],
+  "Pedestrian - Exact": [
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/pd_4_dented_car_wide_landscape_1200x628.jpg",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/pd_4_dented_car_sq.png",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/pd_5_windshield_wide_landscape_1200x628.jpg",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/pd_5_windshield_sq.png"
+  ],
+  "Bicycle - Exact": [
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/bc_4_bent_bike_wide_landscape_1200x628.jpg",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/bc_4_bent_bike_sq.png",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/bc_5_bent_wheel_wide_landscape_1200x628.jpg",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/bc_5_bent_wheel_sq.png"
+  ]
+ }
+}
