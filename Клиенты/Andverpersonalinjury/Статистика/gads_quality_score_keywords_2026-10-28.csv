@@ -1,0 +1,277 @@
+campaign,group,keyword,match,qs,expected_ctr,ad_relevance,landing_page,impr,clicks,cost,conv
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,car accident lawyer,EXACT,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,502,2,308.38,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,car accident attorney,EXACT,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,288,1,74.3,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - LA/BH Exact,los angeles car accident lawyer,EXACT,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,287,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - LA/BH Exact,car accident attorney los angeles,EXACT,2,BELOW_AVERAGE,AVERAGE,BELOW_AVERAGE,244,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - LA/BH Exact,beverly hills car accident lawyer,EXACT,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,150,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - LA/BH Exact,car accident lawyer los angeles,EXACT,2,BELOW_AVERAGE,AVERAGE,BELOW_AVERAGE,94,2,133.81,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident - Exact,beverly hills truck accident lawyer,EXACT,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,76,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,san diego car accident lawyer,EXACT,2,BELOW_AVERAGE,AVERAGE,BELOW_AVERAGE,58,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - LA/BH Exact,beverly hills car accident attorney,EXACT,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,54,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Settlement,average car accident settlement,EXACT,1,BELOW_AVERAGE,BELOW_AVERAGE,BELOW_AVERAGE,49,1,31.29,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,car accident attorney,PHRASE,7,ABOVE_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,48,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - LA/BH Exact,los angeles car accident attorney,EXACT,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,40,1,65.96,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Settlement,car accident claim,EXACT,2,BELOW_AVERAGE,AVERAGE,BELOW_AVERAGE,39,1,32.18,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,car crash lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,37,1,19.02,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Settlement,car accident settlement,EXACT,2,BELOW_AVERAGE,AVERAGE,BELOW_AVERAGE,36,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - LA/BH Exact,car accident lawyer beverly hills,EXACT,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,35,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident - Exact,truck accident attorney,EXACT,5,BELOW_AVERAGE,ABOVE_AVERAGE,AVERAGE,33,2,128.92,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,car crash attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,32,1,19.43,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,glendale car accident lawyer,EXACT,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,31,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,car accident lawyer mission viejo,EXACT,2,BELOW_AVERAGE,AVERAGE,BELOW_AVERAGE,31,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,newport beach car accident lawyer,EXACT,1,BELOW_AVERAGE,BELOW_AVERAGE,BELOW_AVERAGE,28,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,car accident attorney irvine,EXACT,2,BELOW_AVERAGE,AVERAGE,BELOW_AVERAGE,26,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,car accident lawyers,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,24,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,attorney for car accident,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,23,1,14.98,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,car accident lawyer fresno,EXACT,2,BELOW_AVERAGE,AVERAGE,BELOW_AVERAGE,23,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,car accident lawyer irvine,EXACT,2,BELOW_AVERAGE,AVERAGE,BELOW_AVERAGE,22,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,car accident attorney woodland hills,EXACT,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,20,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident - Exact,los angeles truck accident lawyer,EXACT,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,20,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,truck accident lawyers,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,19,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,truck accident lawyer los angeles,PHRASE,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,19,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - LA/BH Exact,car accident attorney near me los angeles,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,18,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,big rig accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,17,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,car accident lawyer riverside,EXACT,1,BELOW_AVERAGE,BELOW_AVERAGE,BELOW_AVERAGE,17,1,179.08,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,pasadena car accident lawyer,EXACT,2,BELOW_AVERAGE,AVERAGE,BELOW_AVERAGE,16,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident - Exact,santa ana truck accident lawyer,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,16,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Settlement,car accident compensation,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,15,1,32.18,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Settlement,car accident payout,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,15,1,30.98,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,bakersfield car accident lawyer,EXACT,2,BELOW_AVERAGE,AVERAGE,BELOW_AVERAGE,14,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,long beach car accident attorney,EXACT,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,13,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,santa ana car accident attorney,EXACT,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,13,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,car accident lawyer anaheim,EXACT,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,13,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,car collision lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,12,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,car accident lawyer torrance,EXACT,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,10,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,big rig wreck lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,9,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - LA/BH Exact,car accident lawyer los angeles ca,EXACT,2,BELOW_AVERAGE,AVERAGE,BELOW_AVERAGE,9,1,189.82,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - LA/BH Exact,motor vehicle accident attorney los angeles,EXACT,2,BELOW_AVERAGE,AVERAGE,BELOW_AVERAGE,9,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,car accident lawyer costa mesa,EXACT,2,BELOW_AVERAGE,AVERAGE,BELOW_AVERAGE,9,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,truck accident lawyer,PHRASE,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,8,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,car accident lawyer huntington beach,EXACT,2,BELOW_AVERAGE,AVERAGE,BELOW_AVERAGE,8,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,brain injury lawyer california,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,8,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,car accident lawyer fullerton,EXACT,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,6,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,car accident lawyer carlsbad,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,6,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident - Exact,orange county truck accident lawyer,EXACT,1,BELOW_AVERAGE,BELOW_AVERAGE,BELOW_AVERAGE,6,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,car accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,5,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,santa monica car accident lawyer,EXACT,2,BELOW_AVERAGE,AVERAGE,BELOW_AVERAGE,5,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,car wreck lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,4,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,truck wreck attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,4,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,truck collision lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,4,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,18 wheeler lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,4,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,simi valley car accident lawyer,EXACT,1,BELOW_AVERAGE,BELOW_AVERAGE,BELOW_AVERAGE,4,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident - Exact,anaheim truck accident attorney,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,4,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,car wreck attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,3,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,beverly hills car accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,3,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,garden grove car accident lawyer,EXACT,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,3,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident - Exact,truck accident lawyer san diego,EXACT,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,3,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,brain injury lawyer,EXACT,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,3,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,truck injury lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,2,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,truck crash attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,2,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,attorney for truck accident,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,2,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,semi accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,2,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,victorville car accident lawyers,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,2,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident - Exact,irvine truck accident lawyer,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,2,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,brain injury lawyer los angeles,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,2,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,injured in car accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,1,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,truck accident attorney,PHRASE,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,1,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,truck accident injury lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,1,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,18 wheeler accident lawyer los angeles,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,1,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Wrongful Death - Exact,best wrongful death lawyer,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,1,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Rideshare - Exact,uber accident lawyer,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,1,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Rideshare - Exact,rideshare accident attorney,EXACT,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,1,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Rideshare - Exact,rideshare accident lawyer,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,1,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident - Exact,truck accident lawyer long beach,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,1,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,automobile,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,vehicle,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,auto,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,big rig,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,truck,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,18 wheeler,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,tractor trailer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,trucking,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,18-wheeler,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,semi,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,close to me,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,car accident lawyer los angeles,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,car accident injury lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,near me,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,nearby,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,car accident attorney los angeles,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,los angeles car accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,near by,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,car accident injury attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,lawyer for car accident,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,rear end accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,car accident lawyer beverly hills,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,rear end collision lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident,personal injury lawyer car accident,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,car,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,big rig,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,truck,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,18 wheeler,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,tractor trailer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,trucking,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,auto accident attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,auto accident lawyer,PHRASE,5,AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,automobile accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,automobile accident attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,18-wheeler,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,semi,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,auto injury lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,los angeles auto accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,close to me,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,auto accident lawyers,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,auto injury attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,near me,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,nearby,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,auto accident attorney los angeles,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,traffic accident attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,traffic accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,vehicle accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,motor vehicle accident attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,vehicle accident attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,motor vehicle accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,auto accident injury lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,near by,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,auto accident injury attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,la auto accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,auto accident lawyer los angeles,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,beverly hills auto accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,automobile accident injury lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,vehicle accident injury lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Auto Accident,auto accident personal injury lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,big rig,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,18 wheeler,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,tractor trailer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,18-wheeler,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,eighteen wheeler,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,semi,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,close to me,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,near me,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,truck injury attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,trucking accident attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,trucking accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,nearby,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,los angeles truck accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,truck wreck lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,truck accident attorney los angeles,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,truck crash lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,near by,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,commercial truck accident attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,truck accident injury attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,truck collision attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,lawyer for truck accident,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,commercial truck accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,commercial truck crash lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,delivery truck accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,beverly hills truck accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,delivery van accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident,trucking company accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,close to me,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,near me,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,tractor trailer accident attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,nearby,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,tractor trailer accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,18 wheeler accident lawyer,PHRASE,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,18 wheeler accident attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,big rig accident attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,near by,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,semi truck accident attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,semi truck accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,18 wheeler injury lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,18 wheeler crash lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,18 wheeler crash attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,big rig crash lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,semi truck wreck attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,18 wheeler injury attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,tractor trailer crash lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,semi truck crash lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,eighteen wheeler accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,18 wheeler attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,tractor trailer wreck attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,18 wheeler wreck attorney,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,18 wheeler wreck lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,lawyer for 18 wheeler accident,PHRASE,3,BELOW_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,lawyer for semi truck accident,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,los angeles 18 wheeler accident lawyer,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,semi truck accident lawyer los angeles,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,18 Wheeler and Semi,big rig accident lawyer los angeles,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Wrongful Death - Exact,nursing home,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Wrongful Death - Exact,medical,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Wrongful Death - Exact,hospital,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Wrongful Death - Exact,police,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Wrongful Death - Exact,prison,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Wrongful Death - Exact,jail,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Wrongful Death - Exact,wrongful death lawyer,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Wrongful Death - Exact,malpractice,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Wrongful Death - Exact,wrongful death lawsuit,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Wrongful Death - Exact,wrongful death attorney,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Wrongful Death - Exact,close to me,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Wrongful Death - Exact,near me,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Wrongful Death - Exact,nearby,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Wrongful Death - Exact,wrongful death lawyer los angeles,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Wrongful Death - Exact,wrongful death attorney riverside,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Wrongful Death - Exact,near by,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Wrongful Death - Exact,wrongful death lawyer california,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Wrongful Death - Exact,wrongful death lawyer long beach,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Settlement,calculator,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Settlement,close to me,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Settlement,near me,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Settlement,nearby,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Settlement,near by,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Settlement,car crash settlement lawyer,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Rideshare - Exact,promo code,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Rideshare - Exact,jobs,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Rideshare - Exact,stock,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Rideshare - Exact,refund,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Rideshare - Exact,close to me,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Rideshare - Exact,near me,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Rideshare - Exact,nearby,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Rideshare - Exact,near by,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Rideshare - Exact,lyft accident lawyer,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Rideshare - Exact,uber accident attorney,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Rideshare - Exact,become a driver,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Rideshare - Exact,deactivated,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Rideshare - Exact,uber accident lawyer los angeles,EXACT,2,BELOW_AVERAGE,AVERAGE,BELOW_AVERAGE,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Rideshare - Exact,lyft accident attorney,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Rideshare - Exact,driver sign up,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Rideshare - Exact,lost item,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Rideshare - Exact,rideshare accident lawyer los angeles,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Rideshare - Exact,uber accident lawyer beverly hills,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,close to me,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,near me,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,nearby,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,near by,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,car accident lawyer chula vista,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,car accident lawyer laguna niguel,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Car Accident - Exact,car accident lawyer palm springs,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident - Exact,close to me,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident - Exact,near me,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident - Exact,nearby,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident - Exact,near by,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident - Exact,truck accident lawyer glendale,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident - Exact,riverside truck accident attorney,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident - Exact,stockton truck accident lawyer,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident - Exact,truck accident lawyer pasadena,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Truck Accident - Exact,newport beach truck accident lawyer,EXACT,1,BELOW_AVERAGE,BELOW_AVERAGE,BELOW_AVERAGE,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,disability,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,recovery,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,football,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,nfl,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,treatment,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,brain injury attorney,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,symptoms,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,birth injury,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,malpractice,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,doctor,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,therapy,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,traumatic brain injury lawyer,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,veteran,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,rehab,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,close to me,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,tbi lawyer,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,near me,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,head injury lawyer,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,nearby,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,cte,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / car+truck injuries / s / lp - tilda,Brain Injury - Exact,near by,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
