@@ -1,0 +1,29 @@
+{
+ "campaign": "search / car+truck injuries / s / lp - tilda",
+ "groups": {
+  "Motorcycle - Exact": [
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/mc_1_helmet_wide_landscape_1200x628.jpg",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/mc_1_helmet_sq.png",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/mc_2_parked_wide_landscape_1200x628.jpg",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/mc_2_parked_sq.png",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/mc_3_handlebar_wide_landscape_1200x628.jpg",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/mc_3_handlebar_sq.png"
+  ],
+  "Pedestrian - Exact": [
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/pd_1_crosswalk_wide_landscape_1200x628.jpg",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/pd_1_crosswalk_sq.png",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/pd_2_signal_wide_landscape_1200x628.jpg",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/pd_2_signal_sq.png",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/pd_3_corner_wide_landscape_1200x628.jpg",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/pd_3_corner_sq.png"
+  ],
+  "Bicycle - Exact": [
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/bc_1_lane_wide_landscape_1200x628.jpg",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/bc_1_lane_sq.png",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/bc_2_parked_wide_landscape_1200x628.jpg",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/bc_2_parked_sq.png",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/bc_3_handlebar_wide_landscape_1200x628.jpg",
+   "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/bc_3_handlebar_sq.png"
+  ]
+ }
+}

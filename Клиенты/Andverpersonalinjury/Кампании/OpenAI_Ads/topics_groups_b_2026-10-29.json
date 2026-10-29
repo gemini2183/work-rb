@@ -1,0 +1,87 @@
+{
+ "campaign_id": "cmpn_435f7d14eb548191b41e1924fc2de71b",
+ "bidding": "fixed_bid",
+ "max_bid_usd": 20,
+ "version": 1,
+ "note": "Motorcycle / Pedestrian / Bicycle в кампании topics: по образцу И-111 (topics_groups_2026-10-28.json), по одной группе на страницу, 3 подсказки, 2 объявления, одна картинка 1200x1200. Факты в текстах только со страниц: бесплатный разбор, no fee unless we win, ответ 24/7, формулировки блока «что говорят страховщики».",
+ "groups": [
+  {
+   "group": "Motorcycle",
+   "context_hints": [
+    "user was hurt in a motorcycle crash in California and asks whether they have a claim",
+    "user was riding a motorcycle in California when a driver hit them and the driver says they did not see the rider",
+    "user was injured in a motorcycle accident in California and the insurance company is blaming the rider, for example for lane splitting or no helmet"
+   ],
+   "ads": [
+    {
+     "ad_name": "MC1",
+     "title": "Hurt in a Motorcycle Crash in California?",
+     "copy": "Free case review. No fee unless we win. Answered 24/7.",
+     "link": "https://landverpersonalinjury.tilda.ws/motorcycle-accident-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=mc1",
+     "image_path": "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/openai_1200/mc_1_helmet_sq_1200.jpg",
+     "image_crop": {"x": 0, "y": 0, "width": 1, "height": 1}
+    },
+    {
+     "ad_name": "MC2",
+     "title": "Driver Said They Didn't See You?",
+     "copy": "That is an explanation, not a legal conclusion. Free case review. No fee unless we win.",
+     "link": "https://landverpersonalinjury.tilda.ws/motorcycle-accident-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=mc2",
+     "image_path": "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/openai_1200/mc_1_helmet_sq_1200.jpg",
+     "image_crop": {"x": 0, "y": 0, "width": 1, "height": 1}
+    }
+   ]
+  },
+  {
+   "group": "Pedestrian",
+   "context_hints": [
+    "user was hit by a car while walking in California and asks if they can bring a claim",
+    "user was hit while crossing the street in California and the driver or insurer says the pedestrian stepped out or was not in the crosswalk",
+    "user was hit by a car in California and the driver drove away or the insurance company asked for a recorded statement"
+   ],
+   "ads": [
+    {
+     "ad_name": "PD1",
+     "title": "Hit by a Car While Walking in California?",
+     "copy": "Free case review. No fee unless we win. Answered 24/7.",
+     "link": "https://landverpersonalinjury.tilda.ws/pedestrian-accident-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=pd1",
+     "image_path": "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/openai_1200/pd_1_crosswalk_sq_1200.jpg",
+     "image_crop": {"x": 0, "y": 0, "width": 1, "height": 1}
+    },
+    {
+     "ad_name": "PD2",
+     "title": "Told You Stepped Out in Front of the Car?",
+     "copy": "Not being in a crosswalk does not automatically end a claim. Free case review.",
+     "link": "https://landverpersonalinjury.tilda.ws/pedestrian-accident-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=pd2",
+     "image_path": "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/openai_1200/pd_1_crosswalk_sq_1200.jpg",
+     "image_crop": {"x": 0, "y": 0, "width": 1, "height": 1}
+    }
+   ]
+  },
+  {
+   "group": "Bicycle",
+   "context_hints": [
+    "user was hurt in a bicycle crash with a car in California and asks if they have a claim",
+    "user was riding a bike in California when a driver hit them and says they did not see the cyclist",
+    "user was injured in a bike accident in California and the insurance company says the cyclist was not wearing a helmet or was not riding where they should"
+   ],
+   "ads": [
+    {
+     "ad_name": "BC1",
+     "title": "Hurt on Your Bike in California?",
+     "copy": "Free case review. No fee unless we win. Answered 24/7.",
+     "link": "https://landverpersonalinjury.tilda.ws/bicycle-accident-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=bc1",
+     "image_path": "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/openai_1200/bc_1_lane_sq_1200.jpg",
+     "image_crop": {"x": 0, "y": 0, "width": 1, "height": 1}
+    },
+    {
+     "ad_name": "BC2",
+     "title": "Insurer Blaming the Cyclist After a Crash?",
+     "copy": "Tell us what happened. An attorney reviews your case for free. No fee unless we win.",
+     "link": "https://landverpersonalinjury.tilda.ws/bicycle-accident-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=bc2",
+     "image_path": "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/openai_1200/bc_1_lane_sq_1200.jpg",
+     "image_crop": {"x": 0, "y": 0, "width": 1, "height": 1}
+    }
+   ]
+  }
+ ]
+}
