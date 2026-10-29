@@ -15,9 +15,9 @@
     Скрипты/secrets/call_audio/<клиент>/<uniqueid>.wav                                 — аудио (папка в .gitignore, в вики не попадает)
 Уже расшифрованные звонки (файл транскрипта есть) пропускаются, повторный запуск продолжает с места остановки.
 
-Ключ Ringostat: `--monitoring-config <файл.yaml>` (из `E:\\PythonProjects\\RedBird\\monitoring scripts\\monitoring\\config\\`),
-по умолчанию — `monitoring_config` из `Клиенты/<клиент>/guard_config.yaml`; запасной вариант — переменная окружения
-`RINGOSTAT_AUTH_KEY`. В вывод ключ не попадает.
+Ключ Ringostat (у каждого проекта Ringostat свой): `--monitoring-config <файл.yaml>` (из `E:\\PythonProjects\\RedBird\\monitoring scripts\\monitoring\\config\\`);
+иначе строка `RINGOSTAT_KEY_<папка клиента>=…` в `Скрипты/secrets/ringostat_keys.env` (папка в .gitignore); иначе `monitoring_config`
+из `Клиенты/<клиент>/guard_config.yaml`; запасной вариант — переменная окружения `RINGOSTAT_AUTH_KEY`. В вывод ключ не попадает.
 
 Язык: `--lang auto` (по умолчанию) — Whisper определяет сам для каждого звонка; можно задать `pl`, `en`, `ru`.
 Перевод: `--translate-to ru` (по умолчанию) или `none`. Для пар без прямой модели (например pl→ru) перевод идёт через английский.
@@ -54,8 +54,14 @@ def last9(x):
 
 
 def resolve_auth_key(client_folder, monitoring_config):
-    """Ключ из конфига мониторинга (явный или из guard_config клиента), иначе из переменной окружения."""
+    """Ключ: явный конфиг мониторинга → `secrets/ringostat_keys.env` (RINGOSTAT_KEY_<папка клиента>) → guard_config клиента → переменная окружения."""
     cfg_name = monitoring_config
+    keys_file = Path(__file__).resolve().parent / "secrets" / "ringostat_keys.env"
+    if not cfg_name and keys_file.exists():
+        for line in keys_file.read_text(encoding="utf-8").splitlines():
+            name, _, val = line.strip().partition("=")
+            if name == f"RINGOSTAT_KEY_{client_folder}" and val:
+                return val
     if not cfg_name:
         guard = VAULT_ROOT / "Клиенты" / client_folder / "guard_config.yaml"
         if guard.exists():
