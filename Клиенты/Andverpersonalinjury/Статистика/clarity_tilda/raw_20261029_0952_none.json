@@ -1,0 +1,277 @@
+[
+ {
+  "metricName": "DeadClickCount",
+  "information": [
+   {
+    "sessionsCount": 29,
+    "sessionsWithMetricPercentage": 6.9,
+    "sessionsWithoutMetricPercentage": 93.1,
+    "pagesViews": 3,
+    "subTotal": 4
+   }
+  ]
+ },
+ {
+  "metricName": "ExcessiveScroll",
+  "information": [
+   {
+    "sessionsCount": 29,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0
+   }
+  ]
+ },
+ {
+  "metricName": "RageClickCount",
+  "information": [
+   {
+    "sessionsCount": 29,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0
+   }
+  ]
+ },
+ {
+  "metricName": "QuickbackClick",
+  "information": [
+   {
+    "sessionsCount": 29,
+    "sessionsWithMetricPercentage": 3.45,
+    "sessionsWithoutMetricPercentage": 96.55,
+    "pagesViews": 1,
+    "subTotal": 1
+   }
+  ]
+ },
+ {
+  "metricName": "ScriptErrorCount",
+  "information": [
+   {
+    "sessionsCount": 29,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0
+   }
+  ]
+ },
+ {
+  "metricName": "ErrorClickCount",
+  "information": [
+   {
+    "sessionsCount": 29,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0
+   }
+  ]
+ },
+ {
+  "metricName": "ScrollDepth",
+  "information": [
+   {
+    "averageScrollDepth": 30.53
+   }
+  ]
+ },
+ {
+  "metricName": "Traffic",
+  "information": [
+   {
+    "totalSessionCount": 29,
+    "totalBotSessionCount": 93,
+    "distinctUserCount": 27,
+    "pagesPerSessionPercentage": 1.5517241379310345
+   }
+  ]
+ },
+ {
+  "metricName": "EngagementTime",
+  "information": [
+   {
+    "totalTime": 234,
+    "activeTime": 76
+   }
+  ]
+ },
+ {
+  "metricName": "Browser",
+  "information": [
+   {
+    "name": "Chrome",
+    "sessionsCount": 21
+   },
+   {
+    "name": "MobileSafari",
+    "sessionsCount": 5
+   },
+   {
+    "name": "ChromeMobile",
+    "sessionsCount": 2
+   },
+   {
+    "name": "Safari",
+    "sessionsCount": 1
+   }
+  ]
+ },
+ {
+  "metricName": "Device",
+  "information": [
+   {
+    "name": "PC",
+    "sessionsCount": 22
+   },
+   {
+    "name": "Mobile",
+    "sessionsCount": 7
+   }
+  ]
+ },
+ {
+  "metricName": "OS",
+  "information": [
+   {
+    "name": "Windows",
+    "sessionsCount": 11
+   },
+   {
+    "name": "MacOSX",
+    "sessionsCount": 9
+   },
+   {
+    "name": "IOS",
+    "sessionsCount": 5
+   },
+   {
+    "name": "Android",
+    "sessionsCount": 2
+   },
+   {
+    "name": "ChromeOS",
+    "sessionsCount": 2
+   }
+  ]
+ },
+ {
+  "metricName": "Country",
+  "information": [
+   {
+    "name": "Spain",
+    "sessionsCount": 12
+   },
+   {
+    "name": "United States",
+    "sessionsCount": 11
+   },
+   {
+    "name": "Jordan",
+    "sessionsCount": 3
+   },
+   {
+    "name": "India",
+    "sessionsCount": 2
+   },
+   {
+    "name": "Ukraine",
+    "sessionsCount": 1
+   }
+  ]
+ },
+ {
+  "metricName": "PageTitle",
+  "information": [
+   {
+    "name": "California Car Accident Lawyer | Free Case Review | Landver Law",
+    "sessionsCount": 10
+   },
+   {
+    "name": "California Car Accident Settlement Value | Landver Law",
+    "sessionsCount": 6
+   },
+   {
+    "name": "California Uber & Lyft Accident Lawyer | Landver Law",
+    "sessionsCount": 5
+   },
+   {
+    "name": "California Wrongful Death Lawyer | Free Review | Landver Law",
+    "sessionsCount": 4
+   },
+   {
+    "name": "California Brain Injury Lawyer | Free Review | Landver Law",
+    "sessionsCount": 3
+   },
+   {
+    "name": "California Car & Truck Accident Lawyer | Landver Law",
+    "sessionsCount": 2
+   },
+   {
+    "name": "Blank page",
+    "sessionsCount": 1
+   },
+   {
+    "name": "Palm Springs Car Accident Lawyer | Landver Law",
+    "sessionsCount": 1
+   }
+  ]
+ },
+ {
+  "metricName": "ReferrerUrl",
+  "information": [
+   {
+    "name": "www.google.com",
+    "sessionsCount": 7
+   }
+  ]
+ },
+ {
+  "metricName": "PopularPages",
+  "information": [
+   {
+    "url": "https://landverpersonalinjury.tilda.ws/california-car-accident-lawyer",
+    "visitsCount": 10
+   },
+   {
+    "url": "https://landverpersonalinjury.tilda.ws/california-car-accident-settlement",
+    "visitsCount": 6
+   },
+   {
+    "url": "https://landverpersonalinjury.tilda.ws/uber-lyft-accident-lawyer-california",
+    "visitsCount": 5
+   },
+   {
+    "url": "https://landverpersonalinjury.tilda.ws/wrongful-death-lawyer-california",
+    "visitsCount": 4
+   },
+   {
+    "url": "https://landverpersonalinjury.tilda.ws/brain-injury-lawyer-california",
+    "visitsCount": 3
+   },
+   {
+    "url": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident",
+    "visitsCount": 2
+   },
+   {
+    "url": "https://landverpersonalinjury.tilda.ws/",
+    "visitsCount": 1
+   },
+   {
+    "url": "https://landverpersonalinjury.tilda.ws/page342547903.html",
+    "visitsCount": 1
+   },
+   {
+    "url": "https://landverpersonalinjury.tilda.ws/page342549903.html",
+    "visitsCount": 1
+   },
+   {
+    "url": "https://landverpersonalinjury.tilda.ws/page342624603.html",
+    "visitsCount": 1
+   }
+  ]
+ }
+]
