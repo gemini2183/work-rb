@@ -1,0 +1,10 @@
+{
+  "customer_id": "2136216123",
+  "campaign": "search / car+truck injuries / s / lp - tilda",
+  "_note": "29.10.2026, по «да» пользователя: включить Motorcycle, Pedestrian, Bicycle после публикации GTM v16 (И-116), правил Ringostat Bicycle (И-117) и проверки подмены номера 6 из 6 на трёх страницах",
+  "set_group_status": [
+    {"group": "Motorcycle - Exact", "status": "ENABLED"},
+    {"group": "Pedestrian - Exact", "status": "ENABLED"},
+    {"group": "Bicycle - Exact", "status": "ENABLED"}
+  ]
+}
