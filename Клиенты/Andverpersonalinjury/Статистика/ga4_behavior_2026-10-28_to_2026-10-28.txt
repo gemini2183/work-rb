@@ -1,0 +1,101 @@
+GA4 549802233 | 2026-10-28 → 2026-10-28 | исключено: страны ['Spain'], города —
+
+== 1. Состав сеансов по стране и городу (БЕЗ исключений) — тестовый трафик виден здесь
+страна | город | сеансы | вовлечённые
+Spain | Barcelona | 65 | 8
+Jordan | Amman | 4 | 3
+United States | Los Angeles | 3 | 2
+United States | New York | 3 | 2
+United States | Perris | 3 | 1
+Ukraine | Poltava | 2 | 2
+ |  | 1 | 0
+India | Brahmapur | 1 | 0
+India | Greater Noida | 1 | 1
+United States | Anza | 1 | 0
+United States | Mountain View | 1 | 0
+United States | Palo Alto | 1 | 1
+United States | Riverside | 1 | 0
+United States | San Bernardino | 1 | 0
+United States | Santa Rosa | 1 | 1
+
+== 2. Источник/канал и устройство (после исключений)
+источник / канал | устройство | сеансы | вовлечённые | ср. время вовлечения, с
+google / cpc | desktop | 9 | 5 | 73
+(direct) / (none) | desktop | 5 | 3 | 277
+(direct) / (none) | mobile | 3 | 2 | 56
+chatgpt.com / cpc | mobile | 2 | 1 | 18
+google / cpc | mobile | 2 | 1 | 11
+google / organic | desktop | 2 | 1 | 0
+(data not available) | desktop | 1 | 0 | 1
+
+== 3. События (после исключений): число событий и сеансов с событием
+событие | событий | пользователей
+block_time | 85 | 15
+block_view | 60 | 13
+page_view | 38 | 20
+session_start | 23 | 20
+quiz_step | 21 | 2
+scroll_depth | 21 | 7
+first_visit | 19 | 19
+stay_10s | 19 | 10
+faq_open | 10 | 1
+engaged_30s | 7 | 5
+scroll | 7 | 6
+quiz_complete | 4 | 2
+quiz_start | 4 | 2
+cta_click | 2 | 1
+user_engagement | 2 | 2
+engaged_90s | 1 | 1
+
+== 4. Блоки: показ блока (block_view) и секунды (block_time)
+блок | block_view событий | block_view пользователей
+hero | 15 | 11
+quiz | 9 | 5
+form_a | 8 | 6
+how | 5 | 5
+insurers | 4 | 4
+attorney | 3 | 3
+faq | 2 | 2
+final | 2 | 1
+reviews | 2 | 2
+why | 2 | 1
+ai_hero | 1 | 1
+california_uber_and_lyft_accident | 1 | 1
+case_examples | 1 | 1
+fee | 1 | 1
+form_b | 1 | 1
+prefer_we_call_you_leave | 1 | 1
+team | 1 | 1
+truck_cases | 1 | 1
+
+== 4b. Секунды по блокам (block_time)
+блок | событий | секунд всего
+header | 48 | 436
+hero | 8 | 48
+faq | 5 | 27
+insurers | 5 | 6
+attorney | 3 | 14
+california_uber_and_lyft_accident | 3 | 15
+form_a | 2 | 4
+how | 2 | 2
+ai_hero | 1 | 4
+case_examples | 1 | 1
+fee | 1 | 1
+final | 1 | 3
+prefer_we_call_you_leave | 1 | 1
+quiz | 1 | 1
+reviews | 1 | 1
+team | 1 | 12
+truck_cases | 1 | 1
+
+== 5. Клики по телефону по местам
+место | кликов | пользователей
+(нет данных)
+
+== 5b. Вопросы FAQ, которые открывали
+вопрос | раз | пользователей
+How much does it cost to hire Landver Law? | 3 | 1
+How long do I have to bring an injury claim in California? | 2 | 1
+My medical treatment is still ongoing. Is it too early to contact a lawyer? | 2 | 1
+The insurance company is asking for a recorded statement. What should I do? | 2 | 1
+I already received a settlement offer. Can I still have the case reviewed? | 1 | 1
