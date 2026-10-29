@@ -1,4 +1,7 @@
 Datetime,Campaign_resource,Resource_type,Operation,Client_type,User_email,Changed_fields,Relevant_fields,Is_relevant,Campaign_name
+2026-10-29 03:11:25.759535,customers/2136216123/campaigns/24331208797,CAMPAIGN_BUDGET,UPDATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,amount_micros,amount_micros,True,search / car+truck injuries / s / lp - tilda
+2026-10-29 03:11:11.211567,customers/2136216123/campaigns/24331208797,AD_GROUP,UPDATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,cpc_bid_micros,cpc_bid_micros,True,search / car+truck injuries / s / lp - tilda
+2026-10-29 03:11:11.211567,customers/2136216123/campaigns/24331208797,AD_GROUP,UPDATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,cpc_bid_micros,cpc_bid_micros,True,search / car+truck injuries / s / lp - tilda
 2026-10-28 13:53:29.231135,customers/2136216123/campaigns/24331208797,AD_GROUP,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,cpc_bid_micros,cpc_bid_micros,True,search / car+truck injuries / s / lp - tilda
 2026-10-28 13:53:14.321215,customers/2136216123/campaigns/24331208797,AD_GROUP,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,cpc_bid_micros,cpc_bid_micros,True,search / car+truck injuries / s / lp - tilda
 2026-10-28 13:52:58.713119,customers/2136216123/campaigns/24331208797,AD_GROUP,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,cpc_bid_micros,cpc_bid_micros,True,search / car+truck injuries / s / lp - tilda
@@ -20,16 +23,16 @@ Datetime,Campaign_resource,Resource_type,Operation,Client_type,User_email,Change
 2026-10-28 09:03:19.945039,customers/2136216123/campaigns/24331208797,AD_GROUP_ASSET,CREATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,"ad_group, asset, field_type, resource_name",,False,search / car+truck injuries / s / lp - tilda
 2026-10-28 09:03:19.945039,customers/2136216123/campaigns/24331208797,AD_GROUP_ASSET,CREATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,"ad_group, asset, field_type, resource_name",,False,search / car+truck injuries / s / lp - tilda
 2026-10-28 08:33:34.113551,customers/2136216123/campaigns/24331208797,CAMPAIGN_ASSET,CREATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True,search / car+truck injuries / s / lp - tilda
-2026-10-28 08:19:21.575183,customers/2136216123/campaigns/24331208797,AD_GROUP_AD,CREATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,"ad, ad_group, resource_name, status",status,True,search / car+truck injuries / s / lp - tilda
 2026-10-28 08:19:21.575183,customers/2136216123/campaigns/24331208797,AD_GROUP_AD,UPDATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,"ad, status",status,True,search / car+truck injuries / s / lp - tilda
+2026-10-28 08:19:21.575183,customers/2136216123/campaigns/24331208797,AD_GROUP_AD,CREATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,"ad, ad_group, resource_name, status",status,True,search / car+truck injuries / s / lp - tilda
 2026-10-28 08:19:06.712127,customers/2136216123/campaigns/24331208797,AD_GROUP_AD,UPDATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,"ad, status",status,True,search / car+truck injuries / s / lp - tilda
 2026-10-28 08:19:06.712127,customers/2136216123/campaigns/24331208797,AD_GROUP_AD,CREATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,"ad, ad_group, resource_name, status",status,True,search / car+truck injuries / s / lp - tilda
 2026-10-28 08:14:21.420415,customers/2136216123/campaigns/24331208797,AD_GROUP_ASSET,CREATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,"ad_group, asset, field_type, resource_name",,False,search / car+truck injuries / s / lp - tilda
 2026-10-28 08:14:10.279695,customers/2136216123/campaigns/24331208797,AD_GROUP_ASSET,REMOVE,GOOGLE_ADS_API,adwhitemcc@gmail.com,"ad_group, asset, field_type, resource_name, source, status",status,True,search / car+truck injuries / s / lp - tilda
-2026-10-28 08:13:58.515167,customers/2136216123/campaigns/24331208797,AD_GROUP_AD,UPDATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,"ad, status",status,True,search / car+truck injuries / s / lp - tilda
 2026-10-28 08:13:58.515167,customers/2136216123/campaigns/24331208797,AD_GROUP_AD,CREATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,"ad, ad_group, resource_name, status",status,True,search / car+truck injuries / s / lp - tilda
-2026-10-28 08:10:12.333567,customers/2136216123/campaigns/24331208797,AD_GROUP_AD,CREATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,"ad, ad_group, resource_name, status",status,True,search / car+truck injuries / s / lp - tilda
+2026-10-28 08:13:58.515167,customers/2136216123/campaigns/24331208797,AD_GROUP_AD,UPDATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,"ad, status",status,True,search / car+truck injuries / s / lp - tilda
 2026-10-28 08:10:12.333567,customers/2136216123/campaigns/24331208797,AD_GROUP_AD,UPDATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,"ad, status",status,True,search / car+truck injuries / s / lp - tilda
+2026-10-28 08:10:12.333567,customers/2136216123/campaigns/24331208797,AD_GROUP_AD,CREATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,"ad, ad_group, resource_name, status",status,True,search / car+truck injuries / s / lp - tilda
 2026-10-28 07:54:31.156191,customers/2136216123/campaigns/24331208797,AD_GROUP,UPDATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,status,status,True,search / car+truck injuries / s / lp - tilda
 2026-10-28 07:54:31.156191,customers/2136216123/campaigns/24331208797,AD_GROUP,UPDATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,status,status,True,search / car+truck injuries / s / lp - tilda
 2026-10-28 07:54:31.156191,customers/2136216123/campaigns/24331208797,AD_GROUP,UPDATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,status,status,True,search / car+truck injuries / s / lp - tilda
