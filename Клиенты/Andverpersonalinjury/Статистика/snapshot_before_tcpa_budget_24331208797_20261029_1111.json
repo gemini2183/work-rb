@@ -1,0 +1,8 @@
+{
+  "name": "search / car+truck injuries / s / lp - tilda",
+  "status": "ENABLED",
+  "strategy": "MANUAL_CPC",
+  "tcpa": 0.0,
+  "budget": 500.0,
+  "budget_resource": "customers/2136216123/campaignBudgets/15921268502"
+}
