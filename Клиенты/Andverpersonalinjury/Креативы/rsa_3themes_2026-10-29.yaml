@@ -1,6 +1,8 @@
 # Motorcycle / Pedestrian / Bicycle, Landver, 2026-10-29. Структура как у Brain/Rideshare после И-109: позиция 1 — три формулировки темы,
 # позиция 2 — три прямые строки на выбор Google, тематические вопросы без закрепления; без «Know What Your Case Is Worth» (страницы цифру не называют).
-# Факты — со страниц (проверено 29.10): 4.8 / 45 отзывов, 20+ лет, no fee, 24/7; ситуации из блоков и FAQ каждой страницы.
+# Факты — со страниц (проверено 29.10): 4.8 / 45 отзывов, 20+ лет, no fee, 24/7.
+# Строки-вопросы про конкретные ситуации (стоп, перешёл на красный, дверь, шлем, lane splitting…) убраны по решению пользователя 29.10: ключи общие,
+# запрос не называет ситуацию, человек увидит чужую; данных, что такие строки дают больше кликов, нет.
 Motorcycle - Exact:
   final_url: https://landverpersonalinjury.tilda.ws/motorcycle-accident-lawyer-california
   path1: motorcycle
@@ -9,16 +11,12 @@ Motorcycle - Exact:
   headlines:
     - Call Landver Law 24/7
     - Hurt in a Motorcycle Crash?
-    - Driver Didn't See You?
-    - Blamed for Lane Splitting?
-    - Quick Offer on Your Bike?
-    - Insurer Blames the Rider?
     - 20+ Years in California
     - 4.8-Star Client Rating
     - Trial-Focused Representation
   description_pin1: Free case review after a motorcycle crash. We help injured riders pursue compensation.
   descriptions:
-    - Insurer blaming the rider? Tell us what happened. An attorney reviews your case for free.
+    - Tell us what happened. An attorney reviews your case for free. No obligation.
     - Free case review. No fee unless we win. Call Landver Law 24/7 or leave your number.
     - 20+ years in California courts. Trial-focused, with insight from the defense side.
 Pedestrian - Exact:
@@ -29,16 +27,12 @@ Pedestrian - Exact:
   headlines:
     - Call Landver Law 24/7
     - Hit by a Car While Walking?
-    - Driver Says You Stepped Out?
-    - Not in a Crosswalk? Call Us
-    - Driver Left the Scene?
-    - Hit in a Parking Lot?
     - 20+ Years in California
     - 4.8-Star Client Rating
     - Trial-Focused Representation
   description_pin1: Hit by a car while walking? Free case review. We help injured people pursue compensation.
   descriptions:
-    - Driver says you stepped out? Tell us what happened. An attorney reviews it for free.
+    - Tell us what happened. An attorney reviews your case for free. No obligation.
     - Free case review. No fee unless we win. Call Landver Law 24/7 or leave your number.
     - 20+ years in California courts. Trial-focused, with insight from the defense side.
 Bicycle - Exact:
@@ -49,15 +43,11 @@ Bicycle - Exact:
   headlines:
     - Call Landver Law 24/7
     - Hurt on Your Bike?
-    - Car Door Opened Into You?
-    - Insurer Blames the Cyclist?
-    - Driver Left the Scene?
-    - No Helmet? Tell Us Anyway
     - 20+ Years in California
     - 4.8-Star Client Rating
     - Trial-Focused Representation
   description_pin1: Hurt in a bike crash? Free case review. We help injured cyclists pursue compensation.
   descriptions:
-    - Driver says they never saw you? Tell us what happened. An attorney reviews it for free.
+    - Tell us what happened. An attorney reviews your case for free. No obligation.
     - Free case review. No fee unless we win. Call Landver Law 24/7 or leave your number.
     - 20+ years in California courts. Trial-focused, with insight from the defense side.
