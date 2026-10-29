@@ -1,10 +1,10 @@
 # Проверка трекинга страницы https://landverpersonalinjury.tilda.ws/pedestrian-accident-lawyer-california
-Дата: 2026-10-29 14:55. Метки: utm_source=google&utm_medium=cpc&utm_campaign=page_tracking_check. Только чтение; GA4 перехвачен, пиксели заблокированы.
+Дата: 2026-10-29 16:08. Метки: utm_source=google&utm_medium=cpc&utm_campaign=page_tracking_check. Только чтение; GA4 перехвачен, пиксели заблокированы.
 
 ## Десктоп 1366×850
 - Страница: «California Pedestrian Accident Lawyer | Landver Law», lang=«», h1: ['California Pedestrian Accident Lawyer. Free Case Review.'], canonical: https://landverpersonalinjury.com/pedestrian-accident-lawyer-california, robots: нет
 - description: Hit by a car while walking in California? Landver Law helps injured pedestrians pursue compensation. Free attorney case review 24/7. No fee unless we win.
-- Картинок 14, без alt 0; LCP 5252 мс (шумно, без замедления; решение по скорости — PageSpeed Insights); ошибок консоли 0; запросов с ошибкой 0
+- Картинок 14, без alt 0; LCP 5132 мс (шумно, без замедления; решение по скорости — PageSpeed Insights); ошибок консоли 0; запросов с ошибкой 0
 - Трекеры: GTM ['GTM-KVLHDKJJ'], GA4 ['G-JPLC4Q41PS'], AW [], Ringostat 1 скрипт(а), Clarity ['clarity.ms/tag/yy4382dsrf', '"clarity","script","yy4382dsrf"'], пиксели (глобальные объекты) ['oaiq']
 - Телефон: ссылок tel: 8; с метками Google отличаются от страницы без меток: 8
     tel:+18883448725 | «FREE CONSULTATION · 24/7(888) 344-8725» | видна | data={'data-ldv-cta': 'header_call'} | class=vb-q7m__tel
@@ -27,7 +27,7 @@
 - FAQ: details/summary: 10
 - События, которые страница пушит сама (разбор кода): ['ldv_cta', 'ldv_form_start', 'block_time']
 - dataLayer после сценария: ['GAEvent', 'ShowAuto', 'block_time', 'engaged_30s', 'gtm.click', 'gtm.dom', 'gtm.elementVisibility', 'gtm.js', 'gtm.linkClick', 'gtm.load', 'gtm.scrollDepth', 'ldv_cta', 'stay_10s']
-- События GA4, которые ушли бы с текущим контейнером (26): {'page_view': 1, '?': 1, 'stay_10s': 1, 'scroll_depth': 3, 'block_view': 9, 'scroll': 1, 'faq_open': 1, 'cta_click': 3, 'click_tel': 4, 'block_time': 1, 'engaged_30s': 1}
+- События GA4, которые ушли бы с текущим контейнером (36): {'page_view': 1, '?': 1, 'stay_10s': 1, 'block_time': 10, 'scroll_depth': 3, 'block_view': 9, 'scroll': 1, 'faq_open': 1, 'cta_click': 3, 'click_tel': 5, 'engaged_30s': 1}
     scroll_depth: [{'scroll_percent': '25'}, {'scroll_percent': '50'}, {'scroll_percent': '75'}]
     scroll: [{'percent_scrolled': '90'}]
     faq_open: [{'faq_question': 'The driver says I stepped out in front of them. Does that end my claim?'}]
@@ -39,7 +39,7 @@
 ## Мобильный (iPhone 13)
 - Страница: «California Pedestrian Accident Lawyer | Landver Law», lang=«», h1: ['California Pedestrian Accident Lawyer. Free Case Review.'], canonical: https://landverpersonalinjury.com/pedestrian-accident-lawyer-california, robots: нет
 - description: Hit by a car while walking in California? Landver Law helps injured pedestrians pursue compensation. Free attorney case review 24/7. No fee unless we win.
-- Картинок 14, без alt 0; LCP 1004 мс (шумно, без замедления; решение по скорости — PageSpeed Insights); ошибок консоли 0; запросов с ошибкой 0
+- Картинок 14, без alt 0; LCP 944 мс (шумно, без замедления; решение по скорости — PageSpeed Insights); ошибок консоли 0; запросов с ошибкой 0
 - Трекеры: GTM ['GTM-KVLHDKJJ'], GA4 ['G-JPLC4Q41PS'], AW [], Ringostat 1 скрипт(а), Clarity ['clarity.ms/tag/yy4382dsrf', '"clarity","script","yy4382dsrf"'], пиксели (глобальные объекты) ['oaiq']
 - Телефон: ссылок tel: 8; с метками Google отличаются от страницы без меток: 8
     tel:+18883783267 | «FREE CONSULTATION · 24/7(888) 378-3267» | скрыта | data={'data-ldv-cta': 'header_call'} | class=vb-q7m__tel
@@ -62,7 +62,7 @@
 - FAQ: details/summary: 10
 - События, которые страница пушит сама (разбор кода): ['ldv_cta', 'ldv_form_start', 'block_time']
 - dataLayer после сценария: ['GAEvent', 'ShowAuto', 'block_time', 'engaged_30s', 'gtm.click', 'gtm.dom', 'gtm.elementVisibility', 'gtm.js', 'gtm.linkClick', 'gtm.load', 'gtm.scrollDepth', 'ldv_cta', 'stay_10s']
-- События GA4, которые ушли бы с текущим контейнером (21): {'page_view': 1, '?': 1, 'stay_10s': 1, 'block_view': 9, 'scroll_depth': 3, 'scroll': 1, 'block_time': 2, 'cta_click': 1, 'click_tel': 1, 'engaged_30s': 1}
+- События GA4, которые ушли бы с текущим контейнером (26): {'page_view': 1, '?': 1, 'stay_10s': 1, 'block_time': 7, 'block_view': 9, 'scroll_depth': 3, 'scroll': 1, 'cta_click': 1, 'click_tel': 1, 'engaged_30s': 1}
     scroll_depth: [{'scroll_percent': '25'}, {'scroll_percent': '50'}, {'scroll_percent': '75'}]
     scroll: [{'percent_scrolled': '90'}]
     cta_click: [{'cta_place': 'header_call'}]
