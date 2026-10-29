@@ -1,0 +1,10 @@
+{
+  "ai_generated": true,
+  "backend": "openai",
+  "model": "gpt-image-2",
+  "prompt": "A Southern California highway in daylight seen from an overpass with semi trucks in the distance, slightly blurred, no readable text, no license plates, no people, photorealistic",
+  "client": "Andverpersonalinjury",
+  "purpose": "Групповая картинка Search (Car/Truck), нейтральная, без людей и без марок",
+  "size": "1024x1024",
+  "created": "2026-10-29T17:23:28"
+}

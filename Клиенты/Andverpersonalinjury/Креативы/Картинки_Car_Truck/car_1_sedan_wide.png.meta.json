@@ -1,0 +1,10 @@
+{
+  "ai_generated": true,
+  "backend": "openai",
+  "model": "gpt-image-2",
+  "prompt": "A plain modern gray sedan parked on a quiet Los Angeles street at golden hour, palm trees, side three-quarter view, undamaged, no people, no license plate visible, no logos or brand emblems, no text, photorealistic, calm mood",
+  "client": "Andverpersonalinjury",
+  "purpose": "Групповая картинка Search (Car/Truck), нейтральная, без людей и без марок",
+  "size": "1536x1024",
+  "created": "2026-10-29T17:23:03"
+}

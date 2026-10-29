@@ -38,6 +38,9 @@ def main():
     ap.add_argument("--plan", required=True)
     ap.add_argument("--execute", action="store_true")
     ap.add_argument("--remove", action="store_true")
+    ap.add_argument("--unlink-campaign-images", action="store_true",
+                    help="отвязать ВСЕ картинки (AD_IMAGE) от самой кампании плана; ассеты остаются в библиотеке; снимок «до» в Статистика/; "
+                         "без --execute — только список")
     a = ap.parse_args()
 
     p = Path(a.plan)
@@ -75,8 +78,37 @@ def main():
         w.writerows(before)
     print(f"Снимок «до»: {snap} (групповых привязок AD_IMAGE: {len(before)})")
 
+    if a.unlink_campaign_images:
+        # Кампанийные картинки достаются всем группам без своих; снимать только когда у ВСЕХ групп кампании есть групповые.
+        camp_links = []
+        for r in ga.search(customer_id=cid, query=(
+                "SELECT campaign.name, campaign_asset.resource_name, asset.id, asset.name FROM campaign_asset "
+                f"WHERE campaign.name = '{plan['campaign']}' AND campaign_asset.field_type = 'AD_IMAGE' AND campaign_asset.status != 'REMOVED'")):
+            camp_links.append((r.campaign_asset.resource_name, r.asset.id, r.asset.name))
+        csnap = client_stats_dir(a.client_folder) / f"snapshot_before_campaign_images_unlink_{stamp}.csv"
+        with open(csnap, "w", newline="", encoding="utf-8") as f:
+            w = csv.writer(f)
+            w.writerow(["link_resource", "asset_id", "asset_name"])
+            w.writerows(camp_links)
+        print(f"Снимок «до»: {csnap}; кампанийных привязок AD_IMAGE: {len(camp_links)}")
+        for x in camp_links:
+            print(f"  кампания | отвязать «{x[2]}» ({x[1]})")
+        if not a.execute:
+            return print("НИЧЕГО не изменено. Для записи: --unlink-campaign-images --execute")
+        svc = client.get_service("CampaignAssetService")
+        ops = []
+        for x in camp_links:
+            op = client.get_type("CampaignAssetOperation")
+            op.remove = x[0]
+            ops.append(op)
+        svc.mutate_campaign_assets(customer_id=cid, operations=ops)
+        left = sum(1 for _ in ga.search(customer_id=cid, query=(
+            "SELECT campaign_asset.resource_name FROM campaign_asset "
+            f"WHERE campaign.name = '{plan['campaign']}' AND campaign_asset.field_type = 'AD_IMAGE' AND campaign_asset.status != 'REMOVED'")))
+        return print(f"Отвязано: {len(ops)}; осталось кампанийных привязок AD_IMAGE: {left}. Откат: привязать ассеты из снимка заново.")
+
     if a.remove:
-        want = {(g, asset_name(f)) for g, fs in plan["groups"].items() for f in fs}
+        want ={(g, asset_name(f)) for g, fs in plan["groups"].items() for f in fs}
         todo = [x for x in before if (x[0], x[3]) in want]
         print(f"К отвязке: {len(todo)}")
         if not a.execute:

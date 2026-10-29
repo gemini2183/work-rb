@@ -1,0 +1,10 @@
+{
+  "ai_generated": true,
+  "backend": "openai",
+  "model": "gpt-image-2",
+  "prompt": "A white semi truck with trailer parked at a loading depot at golden hour, side view, plain unmarked cab and trailer, front grille completely plain with no emblem, no badge and no lettering, undamaged, no company names, no logos, no license plate, no text, no people, photorealistic",
+  "client": "Andverpersonalinjury",
+  "purpose": "Групповая картинка Search (Truck), пересоздано: на решётке первого варианта угадывался значок марки",
+  "size": "1024x1024",
+  "created": "2026-10-29T17:24:09"
+}
