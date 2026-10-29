@@ -110,7 +110,7 @@ def main():
             ops.append(op)
         svc.mutate_campaign_assets(customer_id=cid, operations=ops)
         left = sum(1 for _ in ga.search(customer_id=cid, query=(
-            "SELECT campaign_asset.resource_name FROM campaign_asset "
+            "SELECT campaign.name, campaign_asset.resource_name FROM campaign_asset "
             f"WHERE campaign.name = '{plan['campaign']}' AND campaign_asset.field_type = 'AD_IMAGE' AND campaign_asset.status != 'REMOVED'")))
         return print(f"Отвязано: {len(ops)}; осталось кампанийных привязок AD_IMAGE: {left}. Откат: привязать ассеты из снимка заново.")
 
