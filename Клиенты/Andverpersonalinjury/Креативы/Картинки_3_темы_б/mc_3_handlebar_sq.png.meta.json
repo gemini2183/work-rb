@@ -2,9 +2,9 @@
   "ai_generated": true,
   "backend": "openai",
   "model": "gpt-image-2",
-  "prompt": "Close-up of a motorcycle handlebar and side mirror with a blurred city street at dusk behind it, no rider, no people, no logos, no text, calm mood, photorealistic",
+  "prompt": "Close-up of an upright parked motorcycle handlebar and round side mirror, level horizon, a blurred palm-lined Los Angeles street at dusk behind it, no rider, no people, no logos, no text, calm mood, photorealistic",
   "client": "Andverpersonalinjury",
-  "purpose": "Групповая картинка Search (Motorcycle/Pedestrian/Bicycle), без людей",
+  "purpose": "Групповая картинка Search (Motorcycle), пересоздано: первый вариант читался как накренённый мотоцикл",
   "size": "1024x1024",
-  "created": "2026-10-29T17:00:19"
+  "created": "2026-10-29T17:01:21"
 }
