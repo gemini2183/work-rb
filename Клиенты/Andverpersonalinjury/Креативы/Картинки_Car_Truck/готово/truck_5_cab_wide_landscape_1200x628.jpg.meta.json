@@ -1,0 +1,11 @@
+{
+  "ai_generated": true,
+  "backend": "openai",
+  "model": "gpt-image-2",
+  "prompt": "A white semi truck cab with a crushed front end and cracked windshield stopped on a highway shoulder, plain unmarked, front grille without any emblem, no people, no blood, no license plate, no logos, no text, daylight, realistic documentary photo",
+  "client": "Andverpersonalinjury",
+  "purpose": "Групповая картинка Search (Car/Truck), ИИ-авария без людей: по решению пользователя 29.10",
+  "size": "1536x1024",
+  "created": "2026-10-29T17:35:44",
+  "derived_from": "Клиенты\\Andverpersonalinjury\\Креативы\\Картинки_Car_Truck\\аварии\\truck_5_cab_wide.png"
+}

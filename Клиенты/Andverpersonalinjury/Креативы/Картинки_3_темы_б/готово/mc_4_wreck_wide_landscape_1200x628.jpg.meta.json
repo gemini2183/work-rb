@@ -1,0 +1,11 @@
+{
+  "ai_generated": true,
+  "backend": "openai",
+  "model": "gpt-image-2",
+  "prompt": "A damaged motorcycle lying on its side on asphalt on a Los Angeles street after a crash, scratched fairing, bent handlebar and broken mirror, scattered plastic pieces, no rider, no people, no blood, no license plate, no logos or brand markings, no text, daylight, realistic documentary photo",
+  "client": "Andverpersonalinjury",
+  "purpose": "Групповая картинка Search (Motorcycle/Pedestrian/Bicycle), ИИ-авария без людей: вариант по просьбе пользователя 29.10",
+  "size": "1536x1024",
+  "created": "2026-10-29T17:33:23",
+  "derived_from": "Клиенты\\Andverpersonalinjury\\Креативы\\Картинки_3_темы_б\\аварии\\mc_4_wreck_wide.png"
+}

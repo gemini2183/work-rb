@@ -1,0 +1,11 @@
+{
+  "ai_generated": true,
+  "backend": "openai",
+  "model": "gpt-image-2",
+  "prompt": "A bicycle with a bent front wheel lying on its side on a green painted bike lane on a Los Angeles street, no rider, no people, no blood, no brand logos, no text, daylight, realistic documentary photo",
+  "client": "Andverpersonalinjury",
+  "purpose": "Групповая картинка Search (Motorcycle/Pedestrian/Bicycle), ИИ-авария без людей: вариант по просьбе пользователя 29.10",
+  "size": "1536x1024",
+  "created": "2026-10-29T17:33:18",
+  "derived_from": "Клиенты\\Andverpersonalinjury\\Креативы\\Картинки_3_темы_б\\аварии\\bc_4_bent_bike_wide.png"
+}

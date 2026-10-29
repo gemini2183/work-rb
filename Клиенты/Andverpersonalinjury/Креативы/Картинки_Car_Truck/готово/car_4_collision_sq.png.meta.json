@@ -1,0 +1,10 @@
+{
+  "ai_generated": true,
+  "backend": "openai",
+  "model": "gpt-image-2",
+  "prompt": "Two sedans stopped at an angle after a collision at a Los Angeles intersection, crumpled front fenders and hoods, broken headlight glass on the asphalt, no drivers visible, no people, no blood, no license plates, no logos or brand emblems, no text, daylight, realistic documentary photo",
+  "client": "Andverpersonalinjury",
+  "purpose": "Групповая картинка Search (Car/Truck), ИИ-авария без людей: по решению пользователя 29.10",
+  "size": "1024x1024",
+  "created": "2026-10-29T17:35:46"
+}

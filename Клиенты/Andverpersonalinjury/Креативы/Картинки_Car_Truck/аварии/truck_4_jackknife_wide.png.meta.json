@@ -1,0 +1,10 @@
+{
+  "ai_generated": true,
+  "backend": "openai",
+  "model": "gpt-image-2",
+  "prompt": "A white semi truck with trailer jackknifed across a highway lane in Southern California after a crash, cab turned at an angle to the trailer, plain unmarked cab and trailer, no people, no blood, no license plate, no company names or logos, no text, daylight, realistic documentary photo",
+  "client": "Andverpersonalinjury",
+  "purpose": "Групповая картинка Search (Car/Truck), ИИ-авария без людей: по решению пользователя 29.10",
+  "size": "1536x1024",
+  "created": "2026-10-29T17:35:36"
+}
