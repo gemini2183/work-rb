@@ -20,8 +20,9 @@
                  set_parameters: [{type, key, value}] (заменить по ключу с точным типом), set_fields: {поле: значение} (setupTag, tagFiringOption; добавлено 2026-10-27)}]
                (для тегов gaawe: добавить параметры события; set_consent — заменить требуемые типы согласия; set_html — новый код HTML-тега)
   update_variables: [{name, set_parameter: {ключ: значение}}]      (например, javascript у JS-переменной; добавлено 2026-10-24)
-  update_triggers:  [{name, set_parameter: {ключ: значение}, set_filter_arg1: "значение"}]
-               (set_parameter — например elementSelector у триггера видимости; set_filter_arg1 — условие первого фильтра, например CSS-селектор клика)
+  update_triggers:  [{name, set_parameter: {ключ: значение}, set_filter_arg1: "значение", set_custom_event_arg1: "регэксп"}]
+               (set_parameter — например elementSelector у триггера видимости; set_filter_arg1 — условие первого фильтра, например CSS-селектор клика;
+                set_custom_event_arg1 — значение условия первого фильтра у триггера «Пользовательское событие» (customEventFilter), например регэксп имени события; добавлено 2026-10-29)
   folders:   ["имя папки"]; у variables / triggers / tags ключ "folder": "имя папки" кладёт объект в папку (папка создаётся, если её нет;
                добавлено 2026-10-28)
   update_tags: set_blocking_triggers: ["имя триггера"] — добавить тегу исключающие триггеры (имена резолвятся в id; добавлено 2026-10-28)
@@ -112,7 +113,7 @@ def main():
     for u in plan.get("update_variables", []):
         print("  ~ переменная", u["name"], "поля:", list(u.get("set_parameter", {})))
     for u in plan.get("update_triggers", []):
-        print("  ~ триггер", u["name"], "поля:", list(u.get("set_parameter", {})))
+        print("  ~ триггер", u["name"], "поля:", list(u.get("set_parameter", {})), "regexp события:", u.get("set_custom_event_arg1", "-"))
     if errors:
         print("\nОСТАНОВКА:")
         for e in errors:
@@ -208,6 +209,10 @@ def main():
                 for x in obj["filter"][0]["parameter"]:
                     if x.get("key") == "arg1":
                         x["value"] = u["set_filter_arg1"]
+            if u.get("set_custom_event_arg1"):  # триггер customEvent: значение условия по имени события
+                for x in obj["customEventFilter"][0]["parameter"]:
+                    if x.get("key") == "arg1":
+                        x["value"] = u["set_custom_event_arg1"]
             call(s, "PUT", f"{wp}/{kind}/{ids[u['name']]}?fingerprint={obj['fingerprint']}", json=obj)
             print("  правка", "переменной" if kind == "variables" else "триггера", u["name"])
 

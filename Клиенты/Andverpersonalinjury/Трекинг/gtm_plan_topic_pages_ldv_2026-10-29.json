@@ -1,0 +1,25 @@
+{
+ "account": "6353362488",
+ "container": "261134482",
+ "workspace_name": "vb-topic-pages-ldv",
+ "version_name": "topic pages: форма ldv-form-el (Pedestrian) и заголовки ldv… в block_time (Motorcycle, Pedestrian)",
+ "version_notes": "Правка двух объектов версии 15: триггер «submit vb form [topic pages]» — регэксп ^submit_(vb-.+-form|ldv-form-el)$; тег «vb block_time script [topic pages]» — селектор заголовков с ldv… Старые объекты не изменены.",
+ "built_in_variables": [],
+ "folders": [],
+ "variables": [],
+ "triggers": [],
+ "tags": [],
+ "update_tags": [
+  {
+   "name": "vb block_time script [topic pages]",
+   "set_html": "<script>\n(function () {\n  if (window.__vbBlockTime) return;\n  window.__vbBlockTime = true;\n  var SEL = '[id^=\"vb-\"][id$=\"-h1\"], [id^=\"vb-\"][id$=\"-h2\"], [id^=\"vb-\"][id$=\"-title\"], [id^=\"ldv\"][id$=\"-h\"], [id^=\"ldv\"][id$=\"-h1\"], [id^=\"ldv\"][id$=\"-title\"]';\n  var STEPS = [[10, 'stay_10s'], [30, 'engaged_30s'], [90, 'engaged_90s']];\n  var TICK = 500, IDLE = 10000, FLUSH = 30000;\n  var acc = {}, total = 0, current = 'top', lastTick = Date.now(), lastActive = Date.now(), lastFlush = Date.now();\n  window.dataLayer = window.dataLayer || [];\n\n  function nameOf(el) {\n    var t = (el.textContent || '').replace(/\\s+/g, ' ').trim().toLowerCase().replace(/[^a-z0-9 ]+/g, '').split(' ').slice(0, 5).join('_');\n    return t || el.id;\n  }\n  function currentBlock() {\n    var mid = window.innerHeight / 2, name = 'top', best = -1e9;\n    var els = document.querySelectorAll(SEL);\n    for (var i = 0; i < els.length; i++) {\n      var top = els[i].getBoundingClientRect().top;\n      if (top <= mid && top > best) { best = top; name = nameOf(els[i]); }\n    }\n    return name;\n  }\n  function flush(final) {\n    for (var k in acc) {\n      var s = final ? Math.round(acc[k]) : Math.floor(acc[k]);\n      if (s >= 1) {\n        window.dataLayer.push({ event: 'block_time', block_name: k, block_seconds: s });\n        acc[k] -= s;\n      }\n    }\n    lastFlush = Date.now();\n  }\n  function active() { lastActive = Date.now(); }\n  ['scroll', 'mousemove', 'keydown', 'touchstart', 'click', 'wheel'].forEach(function (e) {\n    window.addEventListener(e, active, { passive: true });\n  });\n  setInterval(function () {\n    var now = Date.now(), dt = now - lastTick;\n    lastTick = now;\n    var block = currentBlock();\n    if (document.visibilityState === 'visible' && now - lastActive <= IDLE && dt < 5000) {\n      acc[block] = (acc[block] || 0) + dt / 1000;\n      total += dt / 1000;\n      while (STEPS.length && total >= STEPS[0][0]) {\n        window.dataLayer.push({ event: STEPS[0][1] });\n        STEPS.shift();\n      }\n    }\n    if (block !== current) { flush(false); current = block; }\n    else if (now - lastFlush >= FLUSH) { flush(false); }\n  }, TICK);\n  document.addEventListener('visibilitychange', function () {\n    if (document.visibilityState === 'hidden') flush(true);\n  });\n  window.addEventListener('pagehide', function () { flush(true); });\n})();\n</script>"
+  }
+ ],
+ "update_variables": [],
+ "update_triggers": [
+  {
+   "name": "submit vb form [topic pages]",
+   "set_custom_event_arg1": "^submit_(vb-.+-form|ldv-form-el)$"
+  }
+ ]
+}

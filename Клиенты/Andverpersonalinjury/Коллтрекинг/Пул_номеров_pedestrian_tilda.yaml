@@ -1,10 +1,10 @@
-# Пул номеров и правила подмены (Ringostat) для landverpersonalinjury.tilda.ws/california-pedestrian-accident-lawyer
+# Пул номеров и правила подмены (Ringostat) для landverpersonalinjury.tilda.ws/pedestrian-accident-lawyer-california
 # (тематическая страница Pedestrian без квиза, заведена 2026-10-28; страница ещё не опубликована).
 # Правила подмены в кабинете Ringostat — см. Правила_подмены_car_accident_lawyer_tilda.md (те же 5 правил по data-ldv-cta, новых не нужно).
 #
 #   python phone_swap_check.py --client-folder "Andverpersonalinjury" --pool-file "Коллтрекинг/Пул_номеров_pedestrian_tilda.yaml"
 
-url: "https://landverpersonalinjury.tilda.ws/california-pedestrian-accident-lawyer"
+url: "https://landverpersonalinjury.tilda.ws/pedestrian-accident-lawyer-california"
 
 # Номер на странице БЕЗ UTM (и для любых меток вне каналов)
 default: "+18444529465"

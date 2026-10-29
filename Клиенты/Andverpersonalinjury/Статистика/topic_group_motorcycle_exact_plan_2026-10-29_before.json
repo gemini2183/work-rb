@@ -2892,11 +2892,6 @@
    "customers/2136216123/campaignCriteria/24331208797~33592982"
   ],
   [
-   "motorcycle accident lawyer",
-   "EXACT",
-   "customers/2136216123/campaignCriteria/24331208797~33897481"
-  ],
-  [
    "misdemeanor",
    "PHRASE",
    "customers/2136216123/campaignCriteria/24331208797~34313590"
@@ -9165,66 +9160,6 @@
    "PAUSED",
    "Car Accident"
   ],
-  "827196760553": [
-   "customers/2136216123/adGroupAds/196130859490~827196760553",
-   "ENABLED",
-   "Auto Accident"
-  ],
-  "827196760556": [
-   "customers/2136216123/adGroupAds/196130859530~827196760556",
-   "PAUSED",
-   "Truck Accident"
-  ],
-  "827196760559": [
-   "customers/2136216123/adGroupAds/196130859570~827196760559",
-   "PAUSED",
-   "18 Wheeler and Semi"
-  ],
-  "827740790382": [
-   "customers/2136216123/adGroupAds/209483864308~827740790382",
-   "PAUSED",
-   "Car Accident - Exact"
-  ],
-  "827740790388": [
-   "customers/2136216123/adGroupAds/209483864548~827740790388",
-   "PAUSED",
-   "Truck Accident - Exact"
-  ],
-  "828091956180": [
-   "customers/2136216123/adGroupAds/203847030449~828091956180",
-   "PAUSED",
-   "Car Accident - LA/BH Exact"
-  ],
-  "828099786840": [
-   "customers/2136216123/adGroupAds/202050998078~828099786840",
-   "PAUSED",
-   "Car Accident - Settlement"
-  ],
-  "828218074964": [
-   "customers/2136216123/adGroupAds/202050998078~828218074964",
-   "PAUSED",
-   "Car Accident - Settlement"
-  ],
-  "828225363029": [
-   "customers/2136216123/adGroupAds/203847030449~828225363029",
-   "PAUSED",
-   "Car Accident - LA/BH Exact"
-  ],
-  "828606548602": [
-   "customers/2136216123/adGroupAds/202050998078~828606548602",
-   "PAUSED",
-   "Car Accident - Settlement"
-  ],
-  "829586805961": [
-   "customers/2136216123/adGroupAds/203847030449~829586805961",
-   "PAUSED",
-   "Car Accident - LA/BH Exact"
-  ],
-  "829586879911": [
-   "customers/2136216123/adGroupAds/209483864308~829586879911",
-   "PAUSED",
-   "Car Accident - Exact"
-  ],
   "829586890228": [
    "customers/2136216123/adGroupAds/196130859330~829586890228",
    "PAUSED",
@@ -9235,25 +9170,35 @@
    "ENABLED",
    "Car Accident"
   ],
-  "829661899433": [
-   "customers/2136216123/adGroupAds/209483864548~829661899433",
+  "827196760553": [
+   "customers/2136216123/adGroupAds/196130859490~827196760553",
+   "ENABLED",
+   "Auto Accident"
+  ],
+  "827196760556": [
+   "customers/2136216123/adGroupAds/196130859530~827196760556",
    "PAUSED",
-   "Truck Accident - Exact"
+   "Truck Accident"
   ],
   "829662206603": [
    "customers/2136216123/adGroupAds/196130859530~829662206603",
    "PAUSED",
    "Truck Accident"
   ],
-  "829662206633": [
-   "customers/2136216123/adGroupAds/196130859570~829662206633",
-   "PAUSED",
-   "18 Wheeler and Semi"
-  ],
   "829698158326": [
    "customers/2136216123/adGroupAds/196130859530~829698158326",
    "ENABLED",
    "Truck Accident"
+  ],
+  "827196760559": [
+   "customers/2136216123/adGroupAds/196130859570~827196760559",
+   "PAUSED",
+   "18 Wheeler and Semi"
+  ],
+  "829662206633": [
+   "customers/2136216123/adGroupAds/196130859570~829662206633",
+   "PAUSED",
+   "18 Wheeler and Semi"
   ],
   "829698169654": [
    "customers/2136216123/adGroupAds/196130859570~829698169654",
@@ -9265,55 +9210,105 @@
    "PAUSED",
    "Wrongful Death - Exact"
   ],
-  "829772802434": [
-   "customers/2136216123/adGroupAds/203847030449~829772802434",
-   "ENABLED",
-   "Car Accident - LA/BH Exact"
-  ],
-  "829772813462": [
-   "customers/2136216123/adGroupAds/209483864548~829772813462",
-   "ENABLED",
-   "Truck Accident - Exact"
-  ],
-  "829772815907": [
-   "customers/2136216123/adGroupAds/202050998078~829772815907",
-   "ENABLED",
-   "Car Accident - Settlement"
-  ],
-  "829772816045": [
-   "customers/2136216123/adGroupAds/209483864308~829772816045",
-   "ENABLED",
-   "Car Accident - Exact"
-  ],
-  "829807945342": [
-   "customers/2136216123/adGroupAds/210039739108~829807945342",
-   "ENABLED",
-   "Brain Injury - Exact"
-  ],
   "829884649619": [
    "customers/2136216123/adGroupAds/200312538223~829884649619",
    "PAUSED",
    "Wrongful Death - Exact"
-  ],
-  "829884670697": [
-   "customers/2136216123/adGroupAds/210039739108~829884670697",
-   "PAUSED",
-   "Brain Injury - Exact"
-  ],
-  "829884691667": [
-   "customers/2136216123/adGroupAds/202205132552~829884691667",
-   "PAUSED",
-   "Rideshare - Exact"
   ],
   "829886857886": [
    "customers/2136216123/adGroupAds/200312538223~829886857886",
    "ENABLED",
    "Wrongful Death - Exact"
   ],
+  "828099786840": [
+   "customers/2136216123/adGroupAds/202050998078~828099786840",
+   "PAUSED",
+   "Car Accident - Settlement"
+  ],
+  "828218074964": [
+   "customers/2136216123/adGroupAds/202050998078~828218074964",
+   "PAUSED",
+   "Car Accident - Settlement"
+  ],
+  "828606548602": [
+   "customers/2136216123/adGroupAds/202050998078~828606548602",
+   "PAUSED",
+   "Car Accident - Settlement"
+  ],
+  "829772815907": [
+   "customers/2136216123/adGroupAds/202050998078~829772815907",
+   "ENABLED",
+   "Car Accident - Settlement"
+  ],
+  "829884691667": [
+   "customers/2136216123/adGroupAds/202205132552~829884691667",
+   "PAUSED",
+   "Rideshare - Exact"
+  ],
   "829887651803": [
    "customers/2136216123/adGroupAds/202205132552~829887651803",
    "ENABLED",
    "Rideshare - Exact"
+  ],
+  "828091956180": [
+   "customers/2136216123/adGroupAds/203847030449~828091956180",
+   "PAUSED",
+   "Car Accident - LA/BH Exact"
+  ],
+  "828225363029": [
+   "customers/2136216123/adGroupAds/203847030449~828225363029",
+   "PAUSED",
+   "Car Accident - LA/BH Exact"
+  ],
+  "829586805961": [
+   "customers/2136216123/adGroupAds/203847030449~829586805961",
+   "PAUSED",
+   "Car Accident - LA/BH Exact"
+  ],
+  "829772802434": [
+   "customers/2136216123/adGroupAds/203847030449~829772802434",
+   "ENABLED",
+   "Car Accident - LA/BH Exact"
+  ],
+  "827740790382": [
+   "customers/2136216123/adGroupAds/209483864308~827740790382",
+   "PAUSED",
+   "Car Accident - Exact"
+  ],
+  "829586879911": [
+   "customers/2136216123/adGroupAds/209483864308~829586879911",
+   "PAUSED",
+   "Car Accident - Exact"
+  ],
+  "829772816045": [
+   "customers/2136216123/adGroupAds/209483864308~829772816045",
+   "ENABLED",
+   "Car Accident - Exact"
+  ],
+  "827740790388": [
+   "customers/2136216123/adGroupAds/209483864548~827740790388",
+   "PAUSED",
+   "Truck Accident - Exact"
+  ],
+  "829661899433": [
+   "customers/2136216123/adGroupAds/209483864548~829661899433",
+   "PAUSED",
+   "Truck Accident - Exact"
+  ],
+  "829772813462": [
+   "customers/2136216123/adGroupAds/209483864548~829772813462",
+   "ENABLED",
+   "Truck Accident - Exact"
+  ],
+  "829807945342": [
+   "customers/2136216123/adGroupAds/210039739108~829807945342",
+   "ENABLED",
+   "Brain Injury - Exact"
+  ],
+  "829884670697": [
+   "customers/2136216123/adGroupAds/210039739108~829884670697",
+   "PAUSED",
+   "Brain Injury - Exact"
   ]
  },
  "campaign_assets": [

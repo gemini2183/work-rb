@@ -2892,11 +2892,6 @@
    "customers/2136216123/campaignCriteria/24331208797~33592982"
   ],
   [
-   "motorcycle accident lawyer",
-   "EXACT",
-   "customers/2136216123/campaignCriteria/24331208797~33897481"
-  ],
-  [
    "misdemeanor",
    "PHRASE",
    "customers/2136216123/campaignCriteria/24331208797~34313590"
@@ -9274,6 +9269,11 @@
    "customers/2136216123/adGroupAds/203847030449~829772802434",
    "ENABLED",
    "Car Accident - LA/BH Exact"
+  ],
+  "829858102713": [
+   "customers/2136216123/adGroupAds/204102632520~829858102713",
+   "ENABLED",
+   "Motorcycle - Exact"
   ],
   "827740790382": [
    "customers/2136216123/adGroupAds/209483864308~827740790382",
