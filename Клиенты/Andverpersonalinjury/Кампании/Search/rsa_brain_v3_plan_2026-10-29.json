@@ -1,0 +1,73 @@
+{
+ "_comment": "29.10.2026, по «да» пользователя: «Brain Injury - Exact» — убраны строки про конкретные ситуации (4 заголовков); прежнее объявление 829807945342 на паузу",
+ "customer_id": "2136216123",
+ "campaign": "search / car+truck injuries / s / lp - tilda",
+ "pause_ads": [
+  829807945342
+ ],
+ "rsa": {
+  "final_url": "https://landverpersonalinjury.tilda.ws/brain-injury-lawyer-california",
+  "path1": "brain",
+  "path2": "",
+  "ad_groups": [
+   "Brain Injury - Exact"
+  ],
+  "also_new_group": false,
+  "headlines": [
+   {
+    "text": "Brain Injury Lawyer",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "Brain Injury Attorneys",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "Traumatic Brain Injury Lawyer",
+    "pin": "HEADLINE_1"
+   },
+   {
+    "text": "Free Case Review",
+    "pin": "HEADLINE_2"
+   },
+   {
+    "text": "No Fee Unless We Win",
+    "pin": "HEADLINE_2"
+   },
+   {
+    "text": "Talk to an Attorney 24/7",
+    "pin": "HEADLINE_2"
+   },
+   {
+    "text": "Call Landver Law 24/7"
+   },
+   {
+    "text": "Hurt in a Crash or a Fall?"
+   },
+   {
+    "text": "20+ Years in California"
+   },
+   {
+    "text": "4.8-Star Client Rating"
+   },
+   {
+    "text": "Trial-Focused Representation"
+   }
+  ],
+  "descriptions": [
+   {
+    "text": "Brain injury after a crash, fall or assault? Get a free case review from an attorney.",
+    "pin": "DESCRIPTION_1"
+   },
+   {
+    "text": "Tell us what happened. An attorney reviews your case for free. No obligation."
+   },
+   {
+    "text": "Free case review. No fee unless we win. Call Landver Law 24/7 or leave your number."
+   },
+   {
+    "text": "20+ years in California courts. Trial-focused, with insight from the defense side."
+   }
+  ]
+ }
+}
