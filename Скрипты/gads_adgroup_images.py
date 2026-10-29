@@ -60,7 +60,14 @@ def main():
         raise SystemExit(f"Нет групп в кампании: {missing}")
 
     def asset_name(path):
-        return "ai_" + Path(path).stem
+        # «ai_» — файл сгенерирован ИИ (или нет записи происхождения), «stock_» — реальное фото (в .meta.json "ai_generated": false)
+        pp = Path(path)
+        pp = pp if pp.is_absolute() else ROOT / pp
+        mp = pp.with_name(pp.name + ".meta.json")
+        ai = True
+        if mp.exists():
+            ai = bool(json.loads(mp.read_text(encoding="utf-8")).get("ai_generated", True))
+        return ("ai_" if ai else "stock_") + pp.stem
 
     # снимок «до»: привязки AD_IMAGE этих групп
     names = ", ".join(f"'{g}'" for g in plan["groups"])
