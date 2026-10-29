@@ -1,0 +1,11 @@
+{
+  "ai_generated": true,
+  "backend": "openai",
+  "model": "gpt-image-2",
+  "prompt": "An empty marked crosswalk on a quiet Los Angeles street in daylight, palm trees, no cars, no people, no readable text or street signs, calm neutral tones, photorealistic",
+  "client": "Andverpersonalinjury",
+  "purpose": "Групповая картинка Search (Motorcycle/Pedestrian/Bicycle), без людей",
+  "size": "1536x1024",
+  "created": "2026-10-29T17:00:23",
+  "derived_from": "Клиенты\\Andverpersonalinjury\\Креативы\\Картинки_3_темы_б\\pd_1_crosswalk_wide.png"
+}

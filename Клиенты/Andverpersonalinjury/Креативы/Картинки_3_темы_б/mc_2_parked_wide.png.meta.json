@@ -1,0 +1,10 @@
+{
+  "ai_generated": true,
+  "backend": "openai",
+  "model": "gpt-image-2",
+  "prompt": "A parked motorcycle seen from the side on a quiet Los Angeles street at golden hour, palm trees blurred in the background, no rider, no people, no license plate, no logos or brand badges, no text, undamaged, calm mood, photorealistic",
+  "client": "Andverpersonalinjury",
+  "purpose": "Групповая картинка Search (Motorcycle/Pedestrian/Bicycle), без людей",
+  "size": "1536x1024",
+  "created": "2026-10-29T16:59:54"
+}

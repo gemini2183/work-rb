@@ -1,0 +1,10 @@
+{
+  "ai_generated": true,
+  "backend": "openai",
+  "model": "gpt-image-2",
+  "prompt": "A green painted bike lane with a white bicycle symbol on the asphalt of a quiet Los Angeles street in daylight, no cyclists, no cars, no people, no text, photorealistic",
+  "client": "Andverpersonalinjury",
+  "purpose": "Групповая картинка Search (Motorcycle/Pedestrian/Bicycle), без людей",
+  "size": "1024x1024",
+  "created": "2026-10-29T16:59:56"
+}

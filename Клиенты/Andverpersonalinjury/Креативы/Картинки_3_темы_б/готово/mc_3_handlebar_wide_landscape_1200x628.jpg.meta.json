@@ -1,0 +1,11 @@
+{
+  "ai_generated": true,
+  "backend": "openai",
+  "model": "gpt-image-2",
+  "prompt": "Close-up of a motorcycle handlebar and side mirror with a blurred city street at dusk behind it, no rider, no people, no logos, no text, calm mood, photorealistic",
+  "client": "Andverpersonalinjury",
+  "purpose": "Групповая картинка Search (Motorcycle/Pedestrian/Bicycle), без людей",
+  "size": "1536x1024",
+  "created": "2026-10-29T17:00:17",
+  "derived_from": "Клиенты\\Andverpersonalinjury\\Креативы\\Картинки_3_темы_б\\mc_3_handlebar_wide.png"
+}

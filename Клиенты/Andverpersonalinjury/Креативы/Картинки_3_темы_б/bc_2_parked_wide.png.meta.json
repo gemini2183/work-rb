@@ -1,0 +1,10 @@
+{
+  "ai_generated": true,
+  "backend": "openai",
+  "model": "gpt-image-2",
+  "prompt": "A bicycle parked against a plain wall on a sunny sidewalk, palm tree shadow, no rider, no people, undamaged, no brand logos, no text, calm neutral tones, photorealistic",
+  "client": "Andverpersonalinjury",
+  "purpose": "Групповая картинка Search (Motorcycle/Pedestrian/Bicycle), без людей",
+  "size": "1536x1024",
+  "created": "2026-10-29T16:59:55"
+}

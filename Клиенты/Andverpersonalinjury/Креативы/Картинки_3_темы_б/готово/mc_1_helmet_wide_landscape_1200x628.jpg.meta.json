@@ -1,0 +1,11 @@
+{
+  "ai_generated": true,
+  "backend": "openai",
+  "model": "gpt-image-2",
+  "prompt": "Black motorcycle helmet and a pair of leather riding gloves resting on a polished wooden desk, soft natural daylight from a window, blurred modern law office in the background, warm calm neutral tones, photorealistic, no people, no text, no logos, no brand markings, no money, no signage",
+  "client": "Andverpersonalinjury",
+  "purpose": "Групповая картинка Search (Motorcycle/Pedestrian/Bicycle), без людей",
+  "size": "1536x1024",
+  "created": "2026-10-29T17:00:07",
+  "derived_from": "Клиенты\\Andverpersonalinjury\\Креативы\\Картинки_3_темы_б\\mc_1_helmet_wide.png"
+}

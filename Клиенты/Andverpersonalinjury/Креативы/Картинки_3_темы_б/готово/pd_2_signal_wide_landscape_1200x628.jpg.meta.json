@@ -1,0 +1,11 @@
+{
+  "ai_generated": true,
+  "backend": "openai",
+  "model": "gpt-image-2",
+  "prompt": "A pedestrian crossing signal showing the white walking figure symbol on a street corner, blurred city background, daylight, no people, no vehicles, no letters or words anywhere, photorealistic",
+  "client": "Andverpersonalinjury",
+  "purpose": "Групповая картинка Search (Motorcycle/Pedestrian/Bicycle), без людей",
+  "size": "1536x1024",
+  "created": "2026-10-29T17:00:21",
+  "derived_from": "Клиенты\\Andverpersonalinjury\\Креативы\\Картинки_3_темы_б\\pd_2_signal_wide.png"
+}
