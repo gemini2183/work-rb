@@ -1,0 +1,94 @@
+{
+  "_comment": "Новая группа «Bicycle - Exact» на паузе, ключи EXACT, ставка $100. Сформировано gads_topic_groups_plan.py 2026-10-29 из Креативы/rsa_3themes_2026-10-29.yaml и Статистика/exact_plan_6themes_2026-10-28.csv",
+  "customer_id": "2136216123",
+  "campaign": "search / car+truck injuries / s / lp - tilda",
+  "new_group": {
+    "name": "Bicycle - Exact",
+    "status": "PAUSED",
+    "cpc_bid_micros": 100000000,
+    "keywords": [
+      "bicycle accident lawyer",
+      "bicycle accident attorney",
+      "bicycle accident lawyer los angeles",
+      "bike accident lawyer",
+      "bike crash lawyer",
+      "bike crash attorney"
+    ],
+    "match": "EXACT"
+  },
+  "rsa": {
+    "final_url": "https://landverpersonalinjury.tilda.ws/bicycle-accident-lawyer-california",
+    "path1": "bicycle",
+    "path2": "",
+    "ad_groups": [],
+    "also_new_group": true,
+    "headlines": [
+      {
+        "text": "Bicycle Accident Lawyer",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Bike Crash Attorneys",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "California Bicycle Lawyer",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Free Case Review",
+        "pin": "HEADLINE_2"
+      },
+      {
+        "text": "No Fee Unless We Win",
+        "pin": "HEADLINE_2"
+      },
+      {
+        "text": "Talk to an Attorney 24/7",
+        "pin": "HEADLINE_2"
+      },
+      {
+        "text": "Call Landver Law 24/7"
+      },
+      {
+        "text": "Hurt on Your Bike?"
+      },
+      {
+        "text": "Car Door Opened Into You?"
+      },
+      {
+        "text": "Insurer Blames the Cyclist?"
+      },
+      {
+        "text": "Driver Left the Scene?"
+      },
+      {
+        "text": "No Helmet? Tell Us Anyway"
+      },
+      {
+        "text": "20+ Years in California"
+      },
+      {
+        "text": "4.8-Star Client Rating"
+      },
+      {
+        "text": "Trial-Focused Representation"
+      }
+    ],
+    "descriptions": [
+      {
+        "text": "Hurt in a bike crash? Free case review. We help injured cyclists pursue compensation.",
+        "pin": "DESCRIPTION_1"
+      },
+      {
+        "text": "Driver says they never saw you? Tell us what happened. An attorney reviews it for free."
+      },
+      {
+        "text": "Free case review. No fee unless we win. Call Landver Law 24/7 or leave your number."
+      },
+      {
+        "text": "20+ years in California courts. Trial-focused, with insight from the defense side."
+      }
+    ]
+  }
+}

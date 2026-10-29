@@ -1,0 +1,98 @@
+{
+  "_comment": "Новая группа «Pedestrian - Exact» на паузе, ключи EXACT, ставка $100. Сформировано gads_topic_groups_plan.py 2026-10-29 из Креативы/rsa_3themes_2026-10-29.yaml и Статистика/exact_plan_6themes_2026-10-28.csv",
+  "customer_id": "2136216123",
+  "campaign": "search / car+truck injuries / s / lp - tilda",
+  "new_group": {
+    "name": "Pedestrian - Exact",
+    "status": "PAUSED",
+    "cpc_bid_micros": 100000000,
+    "keywords": [
+      "pedestrian accident lawyer",
+      "pedestrian accident attorney",
+      "la pedestrian accident lawyer",
+      "pedestrian injury lawyer",
+      "pedestrian accident lawyer california",
+      "pedestrian hit by car lawyer",
+      "pedestrian accident lawyer los angeles",
+      "pedestrian accident lawyer long beach",
+      "beverly hills pedestrian accident lawyer",
+      "costa mesa pedestrian accident attorney"
+    ],
+    "match": "EXACT"
+  },
+  "rsa": {
+    "final_url": "https://landverpersonalinjury.tilda.ws/pedestrian-accident-lawyer-california",
+    "path1": "pedestrian",
+    "path2": "",
+    "ad_groups": [],
+    "also_new_group": true,
+    "headlines": [
+      {
+        "text": "Pedestrian Accident Lawyer",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Pedestrian Accident Attorneys",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "California Pedestrian Lawyer",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Free Case Review",
+        "pin": "HEADLINE_2"
+      },
+      {
+        "text": "No Fee Unless We Win",
+        "pin": "HEADLINE_2"
+      },
+      {
+        "text": "Talk to an Attorney 24/7",
+        "pin": "HEADLINE_2"
+      },
+      {
+        "text": "Call Landver Law 24/7"
+      },
+      {
+        "text": "Hit by a Car While Walking?"
+      },
+      {
+        "text": "Driver Says You Stepped Out?"
+      },
+      {
+        "text": "Not in a Crosswalk? Call Us"
+      },
+      {
+        "text": "Driver Left the Scene?"
+      },
+      {
+        "text": "Hit in a Parking Lot?"
+      },
+      {
+        "text": "20+ Years in California"
+      },
+      {
+        "text": "4.8-Star Client Rating"
+      },
+      {
+        "text": "Trial-Focused Representation"
+      }
+    ],
+    "descriptions": [
+      {
+        "text": "Hit by a car while walking? Free case review. We help injured people pursue compensation.",
+        "pin": "DESCRIPTION_1"
+      },
+      {
+        "text": "Driver says you stepped out? Tell us what happened. An attorney reviews it for free."
+      },
+      {
+        "text": "Free case review. No fee unless we win. Call Landver Law 24/7 or leave your number."
+      },
+      {
+        "text": "20+ years in California courts. Trial-focused, with insight from the defense side."
+      }
+    ]
+  }
+}
