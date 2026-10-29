@@ -1497,3 +1497,12 @@ python gads_adgroup_images.py --customer-id 213-621-6123 --client-folder Andverp
 - `create-campaign --source cmpn_… --name … --daily-limit 50 [--execute]` — новая кампания на паузе по образцу другой (ставка, цели, гео копируются); без `--execute` только план.
 - `set-text --campaign … --ads ad_… --body "…" [--execute]` — замена описания (до 100 знаков), снимок «до» в `Статистика/openai_ads_texts_before_*.json`; после правки объявление уходит на повторную модерацию.
 - `create-groups`: у объявления можно указать `image_path` (файл загружается один раз на группу объявлений с одной картинкой) вместо `file_id`.
+
+
+## Записи звонков Ringostat → расшифровка → перевод: `ringostat_call_transcripts.py` (только чтение из Ringostat)
+Скачивает записи разговоров через API `calls/list` (поле `recording`), расшифровывает Whisper'ом и переводит на русский (Argos; pl→ru идёт через английский, оригинал сохраняется рядом). По файлу на звонок: `Клиенты/<клиент>/Звонки/Транскрипты/<дата>_<in|out>_<хвост номера>_<uniqueid>.md` (frontmatter: дата, тип, номер клиента, длительность, источник/кампания, язык), общая сводка — `Звонки/index.csv`. Аудио кладётся в `Скрипты/secrets/call_audio/` (в `.gitignore`) и удаляется после расшифровки. Без `--run` — только план (сколько звонков и минут под фильтр). Уже расшифрованные звонки пропускаются. Ключ Ringostat — из `monitoring_config` в `guard_config.yaml` клиента или `--monitoring-config`; запасной — переменная `RINGOSTAT_AUTH_KEY`. Нужны faster-whisper, argostranslate, ffmpeg. Фильтры: `--from/--to`, `--direction in|out|all` (по умолчанию `in`), `--min-billsec` (по умолчанию 20), `--phones`, `--limit`, `--lang auto|pl|en|ru`, `--translate-to ru|none`, `--model medium`.
+```
+PYTHONUTF8=1 python ringostat_call_transcripts.py --client-folder ProfiMet --from 2026-10-27 --to 2026-10-29            # план
+PYTHONUTF8=1 python ringostat_call_transcripts.py --client-folder ProfiMet --from 2026-10-27 --direction in --limit 5 --run
+```
+Происхождение: переписанный под API и вики прототип из `RedBird\dev\audio link parser` (ручная Excel-выгрузка, язык зашит английский); с 2026-10-29 прототип удалён, единственная версия — этот скрипт. Запись о построении — `Инфраструктура.md`, 2026-10-29.
