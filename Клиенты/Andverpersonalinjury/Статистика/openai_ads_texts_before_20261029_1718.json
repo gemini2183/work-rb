@@ -1,0 +1,28 @@
+[
+  {
+    "id": "ad_b439f409e89c819faabe12c3757b2b8b",
+    "created_at": 1793289769,
+    "status": "paused",
+    "creative": {
+      "type": "chat_card",
+      "body": "Not being in a crosswalk does not automatically end a claim. Free case review.",
+      "file_id": "file_00000000f4488230ab0534c0d9949baa",
+      "image_crop": {
+        "height": 1,
+        "width": 1,
+        "x": 0,
+        "y": 0
+      },
+      "target_url": "https://landverpersonalinjury.tilda.ws/pedestrian-accident-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=pd2",
+      "title": "Told You Stepped Out in Front of the Car?"
+    },
+    "landing_page_configuration": null,
+    "name": "PD2",
+    "review": {
+      "status": "approved"
+    },
+    "review_status": "approved",
+    "updated_at": 1793289814,
+    "user_external_id": "ldv-59623670dd1ccdb400608bd3408f9224"
+  }
+]
