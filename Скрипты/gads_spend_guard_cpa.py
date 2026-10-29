@@ -395,6 +395,9 @@ def main():
     ap.add_argument("--big-step-min-leads", type=float, default=5.0, help="и заявок в день в среднем не меньше")
     ap.add_argument("--constrained-share", type=float, default=0.8,
                     help="день подходит для роста, только если расход ≥ доли базового бюджета (упиралась в лимит)")
+    ap.add_argument("--idle-share", type=float, default=0.2,
+                    help="день с расходом меньше доли базового бюджета (выходной, пауза, пара кликов) пропускается при подсчёте "
+                         "дней подряд: не засчитывается и серию не рвёт (решение пользователя 2026-10-29)")
     ap.add_argument("--plan-daily", type=float, help="дневной план проекта, €: сумма базовых бюджетов под сторожем не выше")
     ap.add_argument("--efficient-days", type=int, default=3, help="сколько эффективных дней подряд для шага роста")
     ap.add_argument("--day-min-leads", type=int, default=2, help="минимум заявок за день, чтобы день считался эффективным")
@@ -655,9 +658,9 @@ def main():
                                     bud_now = pb["base"]
                             if can_write:   # в режиме «только план» состояние не трогаем (иначе боевой запуск пропустит утро)
                                 pb["flexed"] = False
-                            cost_h, forms_h = ads_history(ga, cid, [campaign_id])
+                            cost_h, forms_h = ads_history(ga, cid, [campaign_id], days=12)
                             streak, last_bad = 0, False
-                            days = [(date.today() - timedelta(days=i)).isoformat() for i in range(1, 8)]
+                            days = [(date.today() - timedelta(days=i)).isoformat() for i in range(1, 12)]
                             hist = []
                             for d in days:
                                 c = cost_h.get((campaign_id, d), 0.0)
@@ -665,9 +668,14 @@ def main():
                                 hist.append((d, c, nn))
                             changed_on = pb.get("changed_on", "")
                             streak_days = []
+                            skipped = []
                             for d, c, nn in hist:
                                 if d < changed_on:
                                     break
+                                # нерабочий день (выходной по расписанию, пауза, копеечный расход): не считаем и серию не рвём
+                                if c < args.idle_share * pb["base"]:
+                                    skipped.append(d)
+                                    continue
                                 # подходящий день: цена ≤ цели И кампания упиралась в бюджет (иначе подъём лишь добавляет риск)
                                 if (c > 0 and nn >= args.day_min_leads and c / nn <= T
                                         and c >= args.constrained_share * pb["base"]):
@@ -709,7 +717,8 @@ def main():
                             else:
                                 events.append(f"базовый бюджет {pb['base']:g} {CUR} без изменений (подходящих дней подряд: "
                                               f"{streak} из {args.efficient_days}; нужно: цена ≤ цели и расход ≥ "
-                                              f"{args.constrained_share:.0%} бюджета)")
+                                              f"{args.constrained_share:.0%} бюджета"
+                                              + (f"; нерабочие дни пропущены: {', '.join(skipped)}" if skipped else "") + ")")
                             if can_write:   # утро «сделано» только после реальной записи, не после плана
                                 pb["day_done"] = today
 
