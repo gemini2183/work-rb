@@ -1,0 +1,859 @@
+﻿term,impr,clicks,cost,conv,match,keywords
+car accident lawyer,711,3,405.59,0.0,EXACT,car accident lawyer
+insider accident lawyers,8,1,369.3,0.0,NEAR_PHRASE,traffic accident lawyer
+lawyer for a car accident,3,2,191.74,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+best car accident attorney in los angeles,12,1,189.82,0.0,NEAR_EXACT,car accident attorney los angeles; car accident attorney near me los angeles; car accident lawyer los angeles; car accident lawyer los angeles ca; los angeles car accident attorney
+accident lawyers los angeles,2,2,133.1,0.0,NEAR_EXACT,car accident lawyer los angeles; los angeles car accident attorney
+car accident lawyers near me,37,1,129.89,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+negligent death,1,1,99.26,0.0,NEAR_EXACT,wrongful death lawsuit
+car accident lawyer pasadena,1,1,95.81,0.0,NEAR_EXACT,pasadena car accident lawyer
+car accident attorney,176,1,74.3,0.0,EXACT,car accident attorney
+best car accident lawyers in los angeles,12,1,66.67,0.0,NEAR_EXACT,car accident attorney los angeles; car accident attorney near me los angeles; car accident lawyer los angeles; los angeles car accident attorney; los angeles car accident lawyer
+semi truck accident lawyers near me,3,1,64.81,0.0,NEAR_EXACT,truck accident attorney
+semi truck injury lawyers,3,1,64.11,0.0,NEAR_EXACT,truck accident attorney
+simi valley car accident lawyer,10,1,59.04,0.0,"EXACT,NEAR_PHRASE",car crash attorney; car injury attorney; simi valley car accident lawyer
+car accident attorney near me,35,1,49.1,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+car accident lawyers los angeles,18,1,48.98,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles; car accident lawyer los angeles ca; los angeles car accident attorney; los angeles car accident lawyer
+realistic settlement calculator,22,2,48.89,0.0,NEAR_EXACT,car accident settlement calculator
+san diego accident lawyer,4,2,44.18,0.0,NEAR_PHRASE,auto accident law firm; traffic accident lawyer
+car accident lawyer modesto ca,8,3,43.38,0.0,"NEAR_PHRASE,PHRASE",car accident attorney; car accident lawyer; car crash attorney; car wreck attorney
+the may firm p c,18,1,32.43,0.0,NEAR_PHRASE,auto accident law firm; auto accident personal injury lawyer; car accident law firm; car accident personal injury lawyer; vehicle accident injury lawyer
+corbin snow,2,1,32.2,0.0,NEAR_PHRASE,car accident personal injury lawyer
+truck accident lawyer,88,1,31.9,0.0,EXACT,truck accident lawyer
+car accident lawsuit settlement average,9,1,31.29,0.0,NEAR_EXACT,average car accident settlement
+insurance payouts for car accidents,2,1,30.98,0.0,NEAR_EXACT,car accident payout
+car accident settlement amounts,4,1,30.42,0.0,NEAR_EXACT,car accident settlement
+law ofc car law firm 1455 frazee rd ste 500,4,1,24.97,0.0,NEAR_PHRASE,attorney for car accident; car accident lawyer
+car crash settlement calculator,3,1,24.86,0.0,NEAR_EXACT,car accident settlement calculator
+injury settlement calculator,3,1,24.83,0.0,NEAR_EXACT,personal injury settlement calculator
+truck accident lawyer riverside ca,1,1,24.82,0.0,NEAR_PHRASE,truck wreck attorney
+accident settlement calculator,5,1,24.78,0.0,NEAR_EXACT,car accident settlement calculator
+accident compensation,5,1,24.64,0.0,NEAR_EXACT,car accident compensation
+megerdichian,8,1,24.56,0.0,NEAR_PHRASE,auto injury lawyer; car accident law firm; car accident personal injury lawyer; car injury lawyer; motor vehicle accident attorney; traffic accident lawyer
+should i get a lawyer for a car accident that wasn t my fault,3,1,24.55,0.0,NEAR_PHRASE,attorney for car accident; car accident attorney
+car accident claim process,3,1,23.47,0.0,NEAR_EXACT,car accident claim
+car injury calculator,17,1,19.69,0.0,NEAR_EXACT,car accident settlement calculator
+zeven law firm,4,1,19.03,0.0,NEAR_PHRASE,beverly hills car accident lawyer
+car accident lawyer sunnyvale,2,1,14.87,0.0,NEAR_PHRASE,car accident attorney
+los angeles car accident lawyer,384,0,0.0,0.0,EXACT,los angeles car accident lawyer
+car accident lawyer near me,272,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+car accident lawyer mission viejo,160,0,0.0,0.0,EXACT,car accident lawyer mission viejo
+car accident lawyer los angeles,145,0,0.0,0.0,EXACT,car accident lawyer los angeles
+beverly hills car accident lawyer,117,0,0.0,0.0,EXACT,beverly hills car accident lawyer
+car accident lawyer irvine,77,0,0.0,0.0,"EXACT,NEAR_PHRASE",car accident lawyer irvine; car collision lawyer
+car accident lawyer beverly hills,73,0,0.0,0.0,EXACT,car accident lawyer beverly hills
+beverly hills truck accident lawyer,72,0,0.0,0.0,EXACT,beverly hills truck accident lawyer
+automobile accident lawyers los angeles,71,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles ca
+car accident lawyer fresno,47,0,0.0,0.0,"EXACT,NEAR_PHRASE,PHRASE",car accident lawyer; car accident lawyer fresno; car injury attorney; car wreck attorney
+car accident lawyer in los angeles,46,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident attorney near me los angeles; car accident lawyer los angeles; car accident lawyer los angeles ca; los angeles car accident lawyer
+san diego car accident lawyer,43,0,0.0,0.0,EXACT,san diego car accident lawyer
+compass law group l,41,0,0.0,0.0,NEAR_PHRASE,auto injury attorney; traffic accident lawyer
+truck accident lawyer beverly hills,39,0,0.0,0.0,NEAR_EXACT,beverly hills truck accident lawyer
+car accident attorney beverly hills,36,0,0.0,0.0,NEAR_EXACT,beverly hills car accident attorney; beverly hills car accident lawyer; car accident lawyer beverly hills
+car accident attorney irvine,35,0,0.0,0.0,"EXACT,NEAR_EXACT,NEAR_PHRASE",car accident attorney irvine; car accident lawyer irvine; car crash attorney
+los angeles car accident attorney,35,0,0.0,0.0,"EXACT,NEAR_EXACT",car accident lawyer los angeles ca; los angeles car accident attorney
+auto accident attorneys near me,34,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+glendale car accident lawyer,34,0,0.0,0.0,EXACT,glendale car accident lawyer
+car accident lawyer long beach,33,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney
+truck accident lawyer los angeles,30,0,0.0,0.0,EXACT,truck accident lawyer los angeles
+auto accident attorney near me,30,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+car accident lawyer glendale,30,0,0.0,0.0,NEAR_EXACT,glendale car accident lawyer
+truck accident lawyer near me,29,0,0.0,0.0,NEAR_EXACT,big rig wreck lawyer; lawyer for semi truck accident; truck accident attorney; truck accident lawyer; truck collision attorney
+auto accident lawyer los angeles,28,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+car accident lawyer torrance,27,0,0.0,0.0,EXACT,car accident lawyer torrance
+riverside car accident lawyer,25,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside
+irvine car accident lawyer,24,0,0.0,0.0,NEAR_EXACT,car accident attorney irvine; car accident lawyer irvine
+truck accident lawyer santa ana,23,0,0.0,0.0,NEAR_EXACT,santa ana truck accident lawyer
+truck accident attorney los angeles ca,20,0,0.0,0.0,NEAR_EXACT,los angeles truck accident lawyer; truck accident lawyer los angeles
+auto accident lawyer,18,0,0.0,0.0,"EXACT,NEAR_EXACT",auto accident lawyer; car accident attorney; car accident lawyer
+truck accident lawyer in los angeles,18,0,0.0,0.0,"NEAR_EXACT,NEAR_PHRASE",big rig wreck lawyer; los angeles truck accident lawyer
+fresno car accident lawyer,17,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno
+car accident injury lawyer los angeles ca,16,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident lawyer
+irvine car accident lawyers,16,0,0.0,0.0,NEAR_EXACT,car accident lawyer irvine
+car accident lawyer costa mesa,16,0,0.0,0.0,EXACT,car accident lawyer costa mesa
+accident lawyer los angeles,15,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident attorney; motor vehicle accident attorney los angeles
+huntington beach car accident lawyer,15,0,0.0,0.0,NEAR_EXACT,car accident lawyer huntington beach
+bicycle accident lawyer in los angeles,14,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles
+car accident lawyer bakersfield,14,0,0.0,0.0,NEAR_EXACT,bakersfield car accident lawyer
+pasadena car accident lawyer,13,0,0.0,0.0,EXACT,pasadena car accident lawyer
+car accident lawyer anaheim,13,0,0.0,0.0,EXACT,car accident lawyer anaheim
+car accident lawyer santa monica,13,0,0.0,0.0,NEAR_EXACT,santa monica car accident lawyer
+san diego car accident attorney,13,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer
+california accident firm,12,0,0.0,0.0,NEAR_PHRASE,auto accident personal injury lawyer; auto injury attorney; auto injury lawyer; traffic accident attorney; vehicle accident attorney; vehicle accident injury lawyer
+car accident attorney los angeles,12,0,0.0,0.0,EXACT,car accident attorney los angeles
+santa ana car accident lawyer,12,0,0.0,0.0,NEAR_EXACT,santa ana car accident attorney
+car accident lawyer fullerton,12,0,0.0,0.0,EXACT,car accident lawyer fullerton
+los angeles truck accident lawyer,12,0,0.0,0.0,EXACT,los angeles truck accident lawyer
+beverly hills car accident attorney,11,0,0.0,0.0,EXACT,beverly hills car accident attorney
+car accident lawyer victorville,11,0,0.0,0.0,NEAR_EXACT,victorville car accident lawyers
+truck accident attorney,11,0,0.0,0.0,EXACT,truck accident attorney
+orange county truck accident lawyer,10,0,0.0,0.0,"EXACT,PHRASE",orange county truck accident lawyer; truck accident lawyer
+car accident settlement payouts,10,0,0.0,0.0,NEAR_EXACT,car accident settlement
+car crash attorney in los angeles,10,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles; los angeles car accident attorney; los angeles car accident lawyer
+accident lawyer in los angeles,10,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident attorney
+long beach motorcycle accident lawyer,10,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer long beach
+car accident lawyer san diego,10,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer
+car accident injury settlement calculator,9,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator
+car accident lawyer in newport beach,9,0,0.0,0.0,NEAR_EXACT,newport beach car accident lawyer
+artin nazaryan,8,0,0.0,0.0,NEAR_PHRASE,auto injury attorney; auto injury lawyer; car crash attorney; car injury attorney; car injury lawyer; traffic accident lawyer
+los angeles auto accident attorney,8,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident lawyer
+la accident firm,8,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles; car accident lawyer los angeles ca; los angeles car accident attorney
+accident lawyer car,8,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+auto lawyers,8,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+car accident attorney newport beach,8,0,0.0,0.0,NEAR_EXACT,newport beach car accident lawyer
+car accident lawyers irvine,8,0,0.0,0.0,NEAR_EXACT,car accident lawyer irvine
+car accident attorney huntington beach,8,0,0.0,0.0,NEAR_EXACT,car accident lawyer huntington beach
+car accident attorney riverside,8,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside
+best car accident lawyer in san diego,8,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer
+los angeles truck accident lawyers,8,0,0.0,0.0,NEAR_EXACT,los angeles truck accident lawyer
+accident attorney california,7,0,0.0,0.0,NEAR_PHRASE,car accident law firm; motor vehicle accident attorney
+los angeles truck accident attorney,7,0,0.0,0.0,NEAR_EXACT,los angeles truck accident lawyer; truck accident lawyer los angeles
+stockton truck accident lawyer,7,0,0.0,0.0,"EXACT,NEAR_PHRASE",lawyer for semi truck accident; semi accident lawyer; stockton truck accident lawyer; truck collision attorney
+accident lawyers near me,7,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+auto accident attorney,7,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+lawyer auto accident,7,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+long beach car accident lawyer,7,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney
+santa ana car accident attorney,7,0,0.0,0.0,EXACT,santa ana car accident attorney
+car accident lawyer in irvine,7,0,0.0,0.0,NEAR_EXACT,car accident attorney irvine; car accident lawyer irvine
+car accident lawyer riverside,7,0,0.0,0.0,EXACT,car accident lawyer riverside
+car accident lawyer garden grove,7,0,0.0,0.0,NEAR_EXACT,garden grove car accident lawyer
+costa mesa car accident lawyer,7,0,0.0,0.0,NEAR_EXACT,car accident lawyer costa mesa
+car accident lawyer fresno ca,6,0,0.0,0.0,"NEAR_EXACT,NEAR_PHRASE",car accident lawyer fresno; car injury lawyer
+saidian and saidian law,6,0,0.0,0.0,NEAR_PHRASE,auto injury attorney; car accident personal injury lawyer
+hillstone law accident & injury attorneys,6,0,0.0,0.0,NEAR_PHRASE,traffic accident lawyer
+pedestrian accident lawyer in los angeles,6,0,0.0,0.0,NEAR_EXACT,pedestrian accident lawyer los angeles
+collision compensation program,6,0,0.0,0.0,NEAR_EXACT,car accident compensation
+car accident calculator,6,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator
+los angeles rideshare accident lawyer,6,0,0.0,0.0,NEAR_EXACT,rideshare accident lawyer los angeles
+auto accident attorney los angeles,6,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident attorney; los angeles car accident lawyer
+los angeles motorcycle accident lawyer,6,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer los angeles
+car accident attorneys,6,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+car injury attorney near me,6,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+lawyer car accident,6,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+best accident lawyer,6,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car accident lawyer bakersfield ca,6,0,0.0,0.0,NEAR_EXACT,bakersfield car accident lawyer
+anaheim car accident attorney near me,6,0,0.0,0.0,NEAR_EXACT,car accident lawyer anaheim
+fresno car accident lawyers,6,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno
+carlsbad car accident lawyer,6,0,0.0,0.0,NEAR_EXACT,car accident lawyer carlsbad
+sfa law car accident & personal injury lawyers,5,0,0.0,0.0,"NEAR_PHRASE,PHRASE",car accident lawyer; car crash attorney
+free consultation car accident lawyer near me,5,0,0.0,0.0,NEAR_PHRASE,car crash lawyer
+dustin maricic,5,0,0.0,0.0,NEAR_PHRASE,auto injury attorney; car injury attorney; traffic accident lawyer
+notourproblem org,5,0,0.0,0.0,NEAR_PHRASE,traffic accident lawyer
+rideshare accident attorney,5,0,0.0,0.0,"EXACT,NEAR_PHRASE",motor vehicle accident lawyer; rideshare accident attorney; traffic accident lawyer
+truck accident lawyer torrance,5,0,0.0,0.0,NEAR_PHRASE,big rig wreck lawyer
+filing an insurance claim for car accident,5,0,0.0,0.0,NEAR_EXACT,car accident claim
+making a claim on car insurance,5,0,0.0,0.0,NEAR_EXACT,car accident claim
+car accident settlement,5,0,0.0,0.0,EXACT,car accident settlement
+car settlement,5,0,0.0,0.0,NEAR_EXACT,car accident settlement
+average car accident settlement,5,0,0.0,0.0,EXACT,average car accident settlement
+settlement calculator for car accident,5,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator
+los angeles car crash lawyer,5,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles; car accident lawyer los angeles ca; los angeles car accident lawyer
+accident attorney los angeles,5,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles; motor vehicle accident attorney los angeles
+car accident lawyers in los angeles,5,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident attorney near me los angeles; car accident lawyer los angeles
+los angeles car accident lawyers,5,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident attorney near me los angeles; car accident lawyer los angeles; car accident lawyer los angeles ca
+la car accident lawyer,5,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles ca; los angeles car accident attorney
+motorcycle accident lawyer in los angeles,5,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer los angeles
+car accident lawyer usa,5,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+car crash lawyer near me,5,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car accident lawyer glendale ca,5,0,0.0,0.0,NEAR_EXACT,glendale car accident lawyer
+auto accident lawyer long beach,5,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney
+car accident lawyer santa ana,5,0,0.0,0.0,NEAR_EXACT,santa ana car accident attorney
+newport beach car accident lawyer,5,0,0.0,0.0,EXACT,newport beach car accident lawyer
+anaheim car accident lawyer,5,0,0.0,0.0,NEAR_EXACT,car accident lawyer anaheim
+santa monica car accident lawyer,5,0,0.0,0.0,EXACT,santa monica car accident lawyer
+car accident lawyer la,5,0,0.0,0.0,NEAR_EXACT,car accident lawyer los angeles ca
+trucking lawyers,5,0,0.0,0.0,NEAR_EXACT,truck accident attorney
+truck accident lawyer san diego,5,0,0.0,0.0,EXACT,truck accident lawyer san diego
+mr crash,4,0,0.0,0.0,NEAR_PHRASE,attorney for car accident; car collision lawyer; car crash lawyer
+how much do lawyers take from car accident settlement,4,0,0.0,0.0,NEAR_PHRASE,car crash attorney; car injury attorney; car wreck attorney
+beverly hills accident attorney,4,0,0.0,0.0,NEAR_EXACT,beverly hills car accident attorney; beverly hills car accident lawyer
+j&y law firm,4,0,0.0,0.0,NEAR_PHRASE,auto accident personal injury lawyer; car accident personal injury lawyer
+car accident insurance claim process,4,0,0.0,0.0,NEAR_EXACT,car accident claim
+car accident cases settlement,4,0,0.0,0.0,NEAR_EXACT,car accident settlement
+car accident settlements,4,0,0.0,0.0,NEAR_EXACT,car accident settlement
+personal injury settlement amounts examples car accident,4,0,0.0,0.0,NEAR_EXACT,average car accident settlement
+auto accident settlement calculator free,4,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator
+car accident attorney in los angeles,4,0,0.0,0.0,NEAR_EXACT,car accident lawyer los angeles; los angeles car accident lawyer
+car crash lawyer los angeles,4,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident attorney; los angeles car accident lawyer
+accidentattorneys,4,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+auto accident lawyer near me,4,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+auto injury law,4,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+best car accident lawyer,4,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+car attorney,4,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+lawyer for auto accident,4,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+auto injury law firm,4,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car accident lawyer long beach ca,4,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney
+pasadena car accident attorney,4,0,0.0,0.0,NEAR_EXACT,pasadena car accident lawyer
+car accident injury lawyer anaheim ca,4,0,0.0,0.0,NEAR_EXACT,car accident lawyer anaheim
+car accident lawyer in victorville,4,0,0.0,0.0,NEAR_EXACT,victorville car accident lawyers
+car accident attorney riverside ca,4,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside
+car accident lawyer in torrance,4,0,0.0,0.0,NEAR_EXACT,car accident lawyer torrance
+car accident attorney fresno,4,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno
+car accident lawyer in fresno,4,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno
+auto accident lawyer carlsbad,4,0,0.0,0.0,NEAR_EXACT,car accident lawyer carlsbad
+costa mesa car accident attorney,4,0,0.0,0.0,NEAR_EXACT,car accident lawyer costa mesa
+long beach truck accident lawyer,4,0,0.0,0.0,NEAR_EXACT,truck accident lawyer long beach
+anaheim truck accident attorney,4,0,0.0,0.0,EXACT,anaheim truck accident attorney
+brain injury lawyer,4,0,0.0,0.0,EXACT,brain injury lawyer
+calltheaccidentguys,3,0,0.0,0.0,NEAR_PHRASE,car accident lawyer; car crash lawyer
+elif dag milano,3,0,0.0,0.0,NEAR_PHRASE,car accident attorney; car crash lawyer
+oxnard car accident lawyer,3,0,0.0,0.0,NEAR_PHRASE,car accident attorney; lawyer for car accident
+sam alemi,3,0,0.0,0.0,NEAR_PHRASE,car collision lawyer; car crash lawyer; car wreck attorney
+bobby taghavi,3,0,0.0,0.0,NEAR_PHRASE,car accident injury lawyer; car crash attorney
+car accident lawyer menifee,3,0,0.0,0.0,NEAR_PHRASE,car crash attorney; car wreck attorney
+in a crash call ash,3,0,0.0,0.0,NEAR_PHRASE,car crash attorney; lawyer for car accident
+eman zokaeim,3,0,0.0,0.0,NEAR_PHRASE,car accident injury lawyer
+accident 911 law firm,3,0,0.0,0.0,NEAR_PHRASE,car accident law firm; car injury attorney
+alain kinaly,3,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer; car collision lawyer; car injury lawyer
+car accident lawyer laguna hills,3,0,0.0,0.0,NEAR_PHRASE,car injury lawyer
+law ofc car law firm san diego,3,0,0.0,0.0,NEAR_PHRASE,car accident law firm; car injury lawyer
+abram zukor,3,0,0.0,0.0,NEAR_PHRASE,beverly hills car accident lawyer
+cha cha cha law,3,0,0.0,0.0,NEAR_PHRASE,auto injury attorney
+sweetjames law,3,0,0.0,0.0,NEAR_PHRASE,traffic accident lawyer
+joe camerlengo,3,0,0.0,0.0,NEAR_PHRASE,truck accident attorney; truck accident lawyer; truck crash attorney
+insurance accident claim,3,0,0.0,0.0,NEAR_EXACT,car accident claim
+average compensation for car accident,3,0,0.0,0.0,NEAR_EXACT,car accident compensation
+car accident bodily injury settlement,3,0,0.0,0.0,NEAR_EXACT,car accident settlement
+in a car accident settlement,3,0,0.0,0.0,NEAR_EXACT,car accident settlement
+average car crash settlement,3,0,0.0,0.0,NEAR_EXACT,average car accident settlement
+average settlement for car accident,3,0,0.0,0.0,NEAR_EXACT,average car accident settlement
+car accident settlement calculator,3,0,0.0,0.0,EXACT,car accident settlement calculator
+car settlement calculator,3,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator
+carinjurycalculator,3,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator
+average payout for car accident,3,0,0.0,0.0,NEAR_EXACT,car accident payout
+payout for car accident,3,0,0.0,0.0,NEAR_EXACT,car accident payout
+uber accident lawyer los angeles,3,0,0.0,0.0,EXACT,uber accident lawyer los angeles
+lyft accident lawyer los angeles,3,0,0.0,0.0,NEAR_EXACT,rideshare accident lawyer los angeles
+car accident lawyers la,3,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident lawyer
+car crash attorneys los angeles,3,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident lawyer
+car wreck lawyer los angeles,3,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident lawyer
+los angeles auto accident law firm,3,0,0.0,0.0,NEAR_EXACT,car accident attorney near me los angeles; los angeles car accident lawyer
+los angeles auto accident lawyer,3,0,0.0,0.0,NEAR_EXACT,car accident lawyer los angeles; los angeles car accident lawyer
+los angeles car crash attorney,3,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles; los angeles car accident attorney
+auto accident attorneys los angeles,3,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles ca; los angeles car accident attorney
+best car accident lawyer in los angeles,3,0,0.0,0.0,NEAR_EXACT,car accident attorney near me los angeles; car accident lawyer los angeles ca; los angeles car accident attorney
+accident attorney la,3,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+auto accident law firm in los angeles,3,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+automobile accident attorney in los angeles,3,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+los angeles car accidents lawyer,3,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles ca
+traffic accident attorney los angeles,3,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+accident lawyer car accident lawyer,3,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+attorney for car wrecks,3,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+automobile accident lawyers near me,3,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+best car accident lawyers near me,3,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+car accident legal advice,3,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+good auto accident attorney,3,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+lawyer in car accident,3,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+personal injury car accident lawyer,3,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+best accident attorney,3,0,0.0,0.0,NEAR_EXACT,car accident attorney
+best car accident law firm,3,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car accident lawyer near me near me,3,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car crash attorneys,3,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car accident attorney glendale ca,3,0,0.0,0.0,NEAR_EXACT,glendale car accident lawyer
+car accident lawyer in long beach,3,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney
+long beach car accident attorneys,3,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney
+pasadena auto accident attorney,3,0,0.0,0.0,NEAR_EXACT,pasadena car accident lawyer
+bakersfield auto accident lawyer,3,0,0.0,0.0,NEAR_EXACT,bakersfield car accident lawyer
+anaheim car accident attorney,3,0,0.0,0.0,NEAR_EXACT,car accident lawyer anaheim
+car accident attorney anaheim,3,0,0.0,0.0,NEAR_EXACT,car accident lawyer anaheim
+auto accident lawyer irvine,3,0,0.0,0.0,NEAR_EXACT,car accident attorney irvine
+irvine car accident attorneys,3,0,0.0,0.0,NEAR_EXACT,car accident attorney irvine; car accident lawyer irvine
+car accident attorney victorville ca,3,0,0.0,0.0,NEAR_EXACT,victorville car accident lawyers
+car accident lawyer victorville ca,3,0,0.0,0.0,NEAR_EXACT,victorville car accident lawyers
+car accident lawyer torrance ca,3,0,0.0,0.0,NEAR_EXACT,car accident lawyer torrance
+car accident lawyer san diego ca,3,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer
+car accident attorney in fresno,3,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno
+fresno car accident attorney,3,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno
+car accident lawyer woodland hills,3,0,0.0,0.0,NEAR_EXACT,car accident attorney woodland hills
+garden grove car accident lawyer,3,0,0.0,0.0,EXACT,garden grove car accident lawyer
+truck accidents attorney,3,0,0.0,0.0,NEAR_EXACT,truck accident attorney
+best truck accident lawyer los angeles,3,0,0.0,0.0,NEAR_EXACT,los angeles truck accident lawyer
+los angeles big rig accident attorney,3,0,0.0,0.0,NEAR_EXACT,los angeles truck accident lawyer
+truck accident lawyer irvine,3,0,0.0,0.0,NEAR_EXACT,irvine truck accident lawyer
+downey car accident lawyer,2,0,0.0,0.0,NEAR_PHRASE,car accident attorney; car injury attorney
+porrazzo rawlings,2,0,0.0,0.0,NEAR_PHRASE,car accident attorney
+car accident lawyer dana point,2,0,0.0,0.0,NEAR_PHRASE,car wreck attorney; car wreck lawyer
+car accident lawyer in west hollywood,2,0,0.0,0.0,NEAR_PHRASE,car crash lawyer; car wreck attorney
+emery ledger,2,0,0.0,0.0,NEAR_PHRASE,car crash lawyer
+hassanlou law,2,0,0.0,0.0,NEAR_PHRASE,car crash lawyer
+car accident attorney orange county,2,0,0.0,0.0,NEAR_PHRASE,car crash attorney; car injury lawyer
+car accident lawyer pros modesto,2,0,0.0,0.0,NEAR_PHRASE,car accident law firm; car crash attorney
+encino car accident lawyer,2,0,0.0,0.0,NEAR_PHRASE,car collision lawyer; car crash attorney
+studio city car accident lawyer,2,0,0.0,0.0,NEAR_PHRASE,car crash attorney
+car accident attorney north hollywood,2,0,0.0,0.0,NEAR_PHRASE,car wreck attorney
+car accident lawyer carlsbad,2,0,0.0,0.0,NEAR_PHRASE,car wreck attorney
+car accident lawyers orange county ca,2,0,0.0,0.0,NEAR_PHRASE,car wreck attorney
+sacramento car accident lawyers,2,0,0.0,0.0,NEAR_PHRASE,car wreck attorney
+victorville car accident lawyers,2,0,0.0,0.0,NEAR_PHRASE,car collision lawyer; car wreck attorney
+abogados accidentes riverside,2,0,0.0,0.0,NEAR_PHRASE,car injury attorney; car injury lawyer
+no fault group,2,0,0.0,0.0,NEAR_PHRASE,car injury lawyer
+victor alexandroff,2,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer; car injury lawyer
+bruce gershman,2,0,0.0,0.0,NEAR_PHRASE,car accident law firm
+fred sette,2,0,0.0,0.0,NEAR_PHRASE,car accident law firm; car accident personal injury lawyer
+how much accident lawyer charge,2,0,0.0,0.0,NEAR_PHRASE,automobile accident attorney; car accident law firm
+kathy nassiri,2,0,0.0,0.0,NEAR_PHRASE,car accident injury attorney
+emanuel abrishami,2,0,0.0,0.0,NEAR_PHRASE,beverly hills car accident lawyer
+bakersfield car accident lawyer,2,0,0.0,0.0,NEAR_PHRASE,car collision lawyer
+efs law center car accident & personal injury lawyers,2,0,0.0,0.0,NEAR_PHRASE,car collision lawyer; personal injury lawyer car accident
+el centro car accident lawyers,2,0,0.0,0.0,NEAR_PHRASE,car collision lawyer
+car accident lawyer oakland,2,0,0.0,0.0,NEAR_PHRASE,attorney for car accident
+north hollywood car accident lawyer,2,0,0.0,0.0,NEAR_PHRASE,attorney for car accident
+jessie serna,2,0,0.0,0.0,NEAR_PHRASE,lawyer for car accident
+bretil beitmirza,2,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer
+feiz law,2,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer
+joel bieber law firm,2,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer
+jvb law firm,2,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer
+ljb legal,2,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer
+salim sabbagh,2,0,0.0,0.0,NEAR_PHRASE,auto injury lawyer; car accident personal injury lawyer
+corona accident lawyer,2,0,0.0,0.0,NEAR_PHRASE,automobile accident attorney
+abogado de choques,2,0,0.0,0.0,NEAR_PHRASE,auto injury lawyer
+carash law firm,2,0,0.0,0.0,NEAR_PHRASE,auto injury lawyer
+casado law firm,2,0,0.0,0.0,NEAR_PHRASE,auto injury lawyer
+e accidents,2,0,0.0,0.0,NEAR_PHRASE,auto injury lawyer
+shafeeq sadiq,2,0,0.0,0.0,NEAR_PHRASE,auto injury lawyer; vehicle accident injury lawyer
+wabby and wabby,2,0,0.0,0.0,NEAR_PHRASE,auto injury lawyer
+accident lawyer near me,2,0,0.0,0.0,"NEAR_EXACT,NEAR_PHRASE",auto injury attorney; traffic accident lawyer
+mike nysather,2,0,0.0,0.0,NEAR_PHRASE,traffic accident lawyer
+motorcycle accident lawyer,2,0,0.0,0.0,"EXACT,NEAR_PHRASE",motorcycle accident lawyer; traffic accident lawyer
+motor vehicle accident attorney los angeles,2,0,0.0,0.0,PHRASE,motor vehicle accident attorney; vehicle accident attorney
+accident lawyer santa rosa,2,0,0.0,0.0,NEAR_PHRASE,motor vehicle accident attorney
+cyrus shahriari,2,0,0.0,0.0,NEAR_PHRASE,motor vehicle accident attorney
+elite accident attorneys,2,0,0.0,0.0,NEAR_PHRASE,vehicle accident attorney
+www getrude com,2,0,0.0,0.0,NEAR_PHRASE,vehicle accident attorney
+lem garcia law west covina,2,0,0.0,0.0,NEAR_PHRASE,automobile accident injury lawyer
+costa mesa truck accident lawyer,2,0,0.0,0.0,PHRASE,truck accident lawyer
+trucking accidents lawyer,2,0,0.0,0.0,NEAR_EXACT,truck accident attorney; truck accident injury lawyer
+dump truck accident lawyer,2,0,0.0,0.0,NEAR_PHRASE,big rig wreck lawyer; truck collision lawyer
+18 wheeler injury lawyer,2,0,0.0,0.0,EXACT,18 wheeler injury lawyer
+truck accident attorney la,2,0,0.0,0.0,"NEAR_EXACT,NEAR_PHRASE",big rig wreck lawyer; los angeles truck accident lawyer
+car accident claim,2,0,0.0,0.0,EXACT,car accident claim
+accident compensation claim,2,0,0.0,0.0,NEAR_EXACT,car accident claim
+auto insurance accident claim,2,0,0.0,0.0,NEAR_EXACT,car accident claim
+auto tort claim,2,0,0.0,0.0,NEAR_EXACT,car accident claim
+automobile accident settlement,2,0,0.0,0.0,NEAR_EXACT,car accident claim
+bodily injury claim car accident,2,0,0.0,0.0,NEAR_EXACT,car accident claim
+car accident bodily injury claim,2,0,0.0,0.0,NEAR_EXACT,car accident claim
+car injury claim,2,0,0.0,0.0,NEAR_EXACT,car accident claim
+car injury settlement,2,0,0.0,0.0,NEAR_EXACT,car accident claim
+car wreck claim,2,0,0.0,0.0,NEAR_EXACT,car accident claim
+claims car,2,0,0.0,0.0,NEAR_EXACT,car accident claim
+filing an accident claim,2,0,0.0,0.0,NEAR_EXACT,car accident claim
+highway accident claim,2,0,0.0,0.0,NEAR_EXACT,car accident claim
+insurance claim for car accident,2,0,0.0,0.0,NEAR_EXACT,car accident claim
+accident settlement,2,0,0.0,0.0,NEAR_EXACT,car accident compensation
+traffic accident settlement,2,0,0.0,0.0,NEAR_EXACT,car accident compensation
+car accident process of a settlement,2,0,0.0,0.0,NEAR_EXACT,car accident settlement
+car accident settlement value,2,0,0.0,0.0,NEAR_EXACT,car accident settlement
+car accident with injury settlement,2,0,0.0,0.0,NEAR_EXACT,car accident settlement
+insurance settlement for car accident,2,0,0.0,0.0,NEAR_EXACT,car accident settlement
+settlement agreement for car accident,2,0,0.0,0.0,NEAR_EXACT,car accident settlement
+settlement for car accident injury,2,0,0.0,0.0,NEAR_EXACT,car accident settlement
+auto accident injury settlement,2,0,0.0,0.0,NEAR_EXACT,average car accident settlement
+average insurance settlement for car accident,2,0,0.0,0.0,NEAR_EXACT,average car accident settlement
+average lawsuit settlement car accident,2,0,0.0,0.0,NEAR_EXACT,average car accident settlement
+average settlement amount for car accident,2,0,0.0,0.0,NEAR_EXACT,average car accident settlement
+car accident average settlement,2,0,0.0,0.0,NEAR_EXACT,average car accident settlement
+car accident payout average,2,0,0.0,0.0,NEAR_EXACT,average car accident settlement
+payout for car accident injuries,2,0,0.0,0.0,NEAR_EXACT,average car accident settlement
+typical car accident settlement amounts with injury,2,0,0.0,0.0,NEAR_EXACT,average car accident settlement
+typical settlement amount for car accident,2,0,0.0,0.0,NEAR_EXACT,average car accident settlement
+calculate car accident injury settlement,2,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator
+car accident injury claim calculator,2,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator
+car accident personal injury calculator,2,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator
+car accident settlement calculator free,2,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator
+free car accident calculator,2,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator
+personal injury case value calculator,2,0,0.0,0.0,NEAR_EXACT,personal injury settlement calculator
+settlement calculator free,2,0,0.0,0.0,NEAR_EXACT,personal injury settlement calculator
+average pay out for car accident,2,0,0.0,0.0,NEAR_EXACT,car accident payout
+car accident injury claim payouts,2,0,0.0,0.0,NEAR_EXACT,car accident payout
+car accident injury payouts,2,0,0.0,0.0,NEAR_EXACT,car accident payout
+car accident price,2,0,0.0,0.0,NEAR_EXACT,car accident payout
+uber & lyft accident attorney,2,0,0.0,0.0,NEAR_EXACT,uber accident attorney
+uber car accident attorney,2,0,0.0,0.0,NEAR_EXACT,uber accident attorney
+rideshare accident lawyer la,2,0,0.0,0.0,NEAR_EXACT,rideshare accident lawyer los angeles
+bike crash lawyer,2,0,0.0,0.0,EXACT,bike crash lawyer
+bicycle accident lawyer los angeles,2,0,0.0,0.0,EXACT,bicycle accident lawyer los angeles
+bike accident attorney los angeles,2,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles
+la bike accident lawyer,2,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles
+auto accident law firm los angeles,2,0,0.0,0.0,NEAR_EXACT,los angeles car accident attorney; los angeles car accident lawyer
+car accident attorneys in los angeles,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident lawyer
+car accident lawyer in la,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident lawyer
+car accident lawyer near los angeles,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident lawyer
+lawyer car accident los angeles,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident lawyer
+los angeles accident attorney,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident lawyer
+los angeles automobile accident lawyers,2,0,0.0,0.0,NEAR_EXACT,los angeles car accident lawyer; motor vehicle accident attorney los angeles
+los angeles car accident law firm,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer los angeles; car accident lawyer los angeles ca
+accident lawyer beverly hills,2,0,0.0,0.0,NEAR_EXACT,beverly hills car accident attorney
+car accident lawyers beverly hills,2,0,0.0,0.0,NEAR_EXACT,beverly hills car accident lawyer; car accident lawyer beverly hills
+los angeles county car accident lawyer,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident attorney
+los angeles traffic accident lawyer,2,0,0.0,0.0,NEAR_EXACT,los angeles car accident attorney; motor vehicle accident attorney los angeles
+accident attorneys los angeles,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+accident lawyer la,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; motor vehicle accident attorney los angeles
+accident lawyer los angeles ca,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+auto accident attorneys in los angeles,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles ca
+auto accident lawyer los angeles ca,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+auto accident lawyers los angeles,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+automobile accident lawyer los angeles,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+car accident lawyers in los angeles california,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident attorney near me los angeles
+car accidents lawyers los angeles,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+los angeles automobile accident lawyer,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; motor vehicle accident attorney los angeles
+car accident lawyer los angeles ca,2,0,0.0,0.0,EXACT,car accident lawyer los angeles ca
+car accident lawyer near me los angeles,2,0,0.0,0.0,NEAR_EXACT,car accident attorney near me los angeles
+motorcycle lawyer los angeles,2,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer los angeles
+accident car attorney,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+accident lawyers car,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+attorney car crash,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+attorney for car accidents,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+attorneys for auto accidents,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+auto accident lawyer attorney,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+auto injury lawyers,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+automotive accident attorneys,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+best car accident attorney,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+car accident injury lawyers near me,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+car accident law,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+car accident law firm,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+car accident legal,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+car injury accident lawyer,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+car injury lawyers,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+good car accident lawyers,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+law firm car accident,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+lawyers for automobile accidents,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+lawyers for car accident,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+lawyers in car accident,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+lawyers that deal with car accidents,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+top rated auto accident attorney,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer
+accident lawyer firm,2,0,0.0,0.0,NEAR_EXACT,car accident attorney
+auto accident lawyers,2,0,0.0,0.0,NEAR_EXACT,car accident attorney
+auto accident personal injury attorney,2,0,0.0,0.0,NEAR_EXACT,car accident attorney
+auto car accident lawyer,2,0,0.0,0.0,NEAR_EXACT,car accident attorney
+auto crash attorney,2,0,0.0,0.0,NEAR_EXACT,car accident attorney
+automobile accidents attorney,2,0,0.0,0.0,NEAR_EXACT,car accident attorney
+automobile injury lawyers,2,0,0.0,0.0,NEAR_EXACT,car accident attorney
+best car wreck lawyer,2,0,0.0,0.0,NEAR_EXACT,car accident attorney
+best lawyer for auto accident,2,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car accident attorneys lawyers,2,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car accident lawyers attorneys,2,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car accidents attorneys,2,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car crash legal advice,2,0,0.0,0.0,NEAR_EXACT,car accident attorney
+hiring a lawyer after car accident,2,0,0.0,0.0,NEAR_EXACT,car accident attorney
+i accident lawyer near me,2,0,0.0,0.0,NEAR_EXACT,car accident attorney
+lawyer for auto,2,0,0.0,0.0,NEAR_EXACT,car accident attorney
+the best accident lawyer,2,0,0.0,0.0,NEAR_EXACT,car accident attorney
+traffic accident attorney,2,0,0.0,0.0,NEAR_EXACT,car accident attorney
+accident attorney glendale,2,0,0.0,0.0,NEAR_EXACT,glendale car accident lawyer
+glendale car accident lawyers,2,0,0.0,0.0,NEAR_EXACT,glendale car accident lawyer
+long beach car accident attorney,2,0,0.0,0.0,EXACT,long beach car accident attorney
+car crash attorney long beach,2,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney
+long beach accident lawyer,2,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney
+accident lawyers in pasadena,2,0,0.0,0.0,NEAR_EXACT,pasadena car accident lawyer
+accident lawyers pasadena,2,0,0.0,0.0,NEAR_EXACT,pasadena car accident lawyer
+car accident attorney pasadena,2,0,0.0,0.0,NEAR_EXACT,pasadena car accident lawyer
+santa ana auto accident attorney,2,0,0.0,0.0,NEAR_EXACT,santa ana car accident attorney
+accident attorney newport beach,2,0,0.0,0.0,NEAR_EXACT,newport beach car accident lawyer
+car accident lawyer newport beach ca,2,0,0.0,0.0,NEAR_EXACT,newport beach car accident lawyer
+accident attorney anaheim,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer anaheim
+auto accident lawyer irvine ca,2,0,0.0,0.0,NEAR_EXACT,car accident attorney irvine; car accident lawyer irvine
+irvine accident attorney,2,0,0.0,0.0,NEAR_EXACT,car accident attorney irvine
+irvine car accident attorney,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer irvine
+automobile accident lawyer victorville,2,0,0.0,0.0,NEAR_EXACT,victorville car accident lawyers
+victorville car accident lawyer,2,0,0.0,0.0,NEAR_EXACT,victorville car accident lawyers
+car accident lawyers in riverside,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside
+best car accident lawyer torrance,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer torrance
+car accident lawyer fullerton ca,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer fullerton
+fullerton car accident attorney,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer fullerton
+car accident attorney san diego,2,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer
+car accident injury lawyer san diego,2,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer
+car accident lawyers san diego,2,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer
+san diego car accident lawyers,2,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer
+auto accident lawyer fresno ca,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno
+car accident lawyer in fresno ca,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno
+car accident lawyers fresno,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno
+car accident attorney woodland hills,2,0,0.0,0.0,EXACT,car accident attorney woodland hills
+car accident attorney in woodland hills,2,0,0.0,0.0,NEAR_EXACT,car accident attorney woodland hills
+commercial vehicle accident lawyer near me,2,0,0.0,0.0,NEAR_EXACT,truck accident attorney
+truck accident attorney near me,2,0,0.0,0.0,NEAR_EXACT,truck accident attorney
+best truck accident attorney los angeles,2,0,0.0,0.0,NEAR_EXACT,los angeles truck accident lawyer
+glendale truck accident lawyer,2,0,0.0,0.0,NEAR_EXACT,truck accident lawyer glendale
+los angeles brain injury lawyer,2,0,0.0,0.0,NEAR_EXACT,brain injury lawyer los angeles
+best car accident lawyers in sacramento,1,0,0.0,0.0,PHRASE,car accident lawyer
+crane flores injury & car accident lawyers,1,0,0.0,0.0,PHRASE,car accident lawyer
+rancho cucamonga car accident lawyer,1,0,0.0,0.0,PHRASE,car accident lawyer
+autoaccident com,1,0,0.0,0.0,NEAR_PHRASE,car accident lawyer
+ilya frangos,1,0,0.0,0.0,NEAR_PHRASE,car accident lawyer
+parke esquire,1,0,0.0,0.0,NEAR_PHRASE,car accident lawyer
+suzanne skolnick,1,0,0.0,0.0,NEAR_PHRASE,car accident lawyer
+car accident attorney in orange county,1,0,0.0,0.0,PHRASE,car accident attorney
+accident attorneys lancaster ca,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney
+boden law firm,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney
+car accident lawyer canton,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney
+car accident lawyer corona,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney
+car accident lawyer san clemente,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney
+car accident lawyer west hollywood,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney
+demand rand,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney
+dr ted car accident and personal injury lawyers,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney
+killian davis and richter,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney
+west hollywood car accident lawyer,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney
+ca accident firm,1,0,0.0,0.0,NEAR_PHRASE,car wreck lawyer
+car accident attorney in encino,1,0,0.0,0.0,NEAR_PHRASE,car wreck lawyer
+mr accidentes,1,0,0.0,0.0,NEAR_PHRASE,car wreck lawyer
+orange county car accident lawyers,1,0,0.0,0.0,NEAR_PHRASE,car wreck lawyer
+car accident lawyers,1,0,0.0,0.0,EXACT,car accident lawyers
+law bear,1,0,0.0,0.0,NEAR_PHRASE,car accident lawyers
+the l a law firm accident attorneys,1,0,0.0,0.0,NEAR_PHRASE,car crash lawyer
+aratta law firm car accidents and personal injury lawyer,1,0,0.0,0.0,NEAR_PHRASE,car crash attorney
+car accident attorney oak park,1,0,0.0,0.0,NEAR_PHRASE,car crash attorney
+car accident lawyer paramount,1,0,0.0,0.0,NEAR_PHRASE,car crash attorney
+car accident lawyer pomona,1,0,0.0,0.0,NEAR_PHRASE,car crash attorney
+car accident attorney thousand oaks,1,0,0.0,0.0,NEAR_PHRASE,car wreck attorney
+costa ivone law,1,0,0.0,0.0,NEAR_PHRASE,car injury attorney
+crash legal,1,0,0.0,0.0,NEAR_PHRASE,car injury attorney
+dara khajavi,1,0,0.0,0.0,NEAR_PHRASE,car injury attorney
+guy levy law firm,1,0,0.0,0.0,NEAR_PHRASE,car injury attorney
+jim pocrass,1,0,0.0,0.0,NEAR_PHRASE,car injury attorney
+bretz personal injury & car accident lawyer,1,0,0.0,0.0,PHRASE,car injury lawyer
+aaron fhima,1,0,0.0,0.0,NEAR_PHRASE,car injury lawyer
+is it worth hiring an attorney for a car accident,1,0,0.0,0.0,NEAR_PHRASE,car injury lawyer
+kane handel esq,1,0,0.0,0.0,NEAR_PHRASE,car injury lawyer
+the broadway law firm,1,0,0.0,0.0,NEAR_PHRASE,car injury lawyer
+accident attorney modesto,1,0,0.0,0.0,NEAR_PHRASE,car accident law firm
+accident attorney orange county,1,0,0.0,0.0,NEAR_PHRASE,car accident law firm
+accident lawyers group inc,1,0,0.0,0.0,NEAR_PHRASE,car accident law firm
+litigation for car accident,1,0,0.0,0.0,NEAR_PHRASE,car accident law firm
+thatcarhitme,1,0,0.0,0.0,NEAR_PHRASE,car accident law firm
+apex law group los angeles,1,0,0.0,0.0,NEAR_PHRASE,los angeles car accident lawyer
+omega law group pc,1,0,0.0,0.0,NEAR_PHRASE,los angeles car accident lawyer
+art oganesian,1,0,0.0,0.0,NEAR_PHRASE,car accident injury attorney
+sara golriz,1,0,0.0,0.0,NEAR_PHRASE,car accident injury attorney
+alek zeven,1,0,0.0,0.0,NEAR_PHRASE,beverly hills car accident lawyer
+nelly triphon,1,0,0.0,0.0,NEAR_PHRASE,car collision lawyer
+car accident lawyer downey,1,0,0.0,0.0,NEAR_PHRASE,attorney for car accident
+car accident lawyer in california,1,0,0.0,0.0,NEAR_PHRASE,attorney for car accident
+car crash ash san diego,1,0,0.0,0.0,NEAR_PHRASE,attorney for car accident
+marina awed,1,0,0.0,0.0,NEAR_PHRASE,attorney for car accident
+1800 lion law,1,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer
+erik zograbian,1,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer
+law office of seni popat,1,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer
+oceanside car accident lawyer,1,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer
+saidian & saidian law,1,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer
+edgar lopez law,1,0,0.0,0.0,NEAR_PHRASE,injured in car accident lawyer
+accident lawyer long beach,1,0,0.0,0.0,NEAR_PHRASE,automobile accident attorney
+depaoli law team,1,0,0.0,0.0,NEAR_PHRASE,auto injury lawyer
+kirill mikhaylov,1,0,0.0,0.0,NEAR_PHRASE,auto injury lawyer
+tk injury,1,0,0.0,0.0,NEAR_PHRASE,auto injury lawyer
+accident abe,1,0,0.0,0.0,NEAR_PHRASE,auto injury attorney
+ravn r whitington,1,0,0.0,0.0,NEAR_PHRASE,auto injury attorney
+accident lawyer modesto,1,0,0.0,0.0,NEAR_PHRASE,auto accident law firm
+accident lawyer torrance,1,0,0.0,0.0,NEAR_PHRASE,auto accident law firm
+tim mcdonough attorney,1,0,0.0,0.0,NEAR_PHRASE,auto accident law firm
+accident lawyer huntington beach,1,0,0.0,0.0,NEAR_PHRASE,traffic accident lawyer
+accident lawyer irvine,1,0,0.0,0.0,NEAR_PHRASE,traffic accident lawyer
+accident lawyers group,1,0,0.0,0.0,NEAR_PHRASE,traffic accident lawyer
+carlsbad accident attorney,1,0,0.0,0.0,NEAR_PHRASE,traffic accident lawyer
+oceanside pedestrian accident lawyer,1,0,0.0,0.0,NEAR_PHRASE,traffic accident lawyer
+oleg gekman,1,0,0.0,0.0,NEAR_PHRASE,traffic accident lawyer
+roger tomalas,1,0,0.0,0.0,NEAR_PHRASE,traffic accident lawyer
+motorcycle lawyers near me,1,0,0.0,0.0,NEAR_PHRASE,vehicle accident lawyer
+accident attorney san bernardino,1,0,0.0,0.0,NEAR_PHRASE,motor vehicle accident attorney
+mta accident lawyer,1,0,0.0,0.0,NEAR_PHRASE,vehicle accident attorney
+accident defence attorney,1,0,0.0,0.0,NEAR_PHRASE,motor vehicle accident lawyer
+call big ike,1,0,0.0,0.0,NEAR_PHRASE,motor vehicle accident lawyer
+california accident law firm,1,0,0.0,0.0,NEAR_PHRASE,vehicle accident injury lawyer
+hillstone law los angeles,1,0,0.0,0.0,NEAR_PHRASE,vehicle accident injury lawyer
+rabin saidian,1,0,0.0,0.0,NEAR_PHRASE,vehicle accident injury lawyer
+truck accident lawyer oxnard,1,0,0.0,0.0,PHRASE,truck accident lawyer
+truck accident litigation,1,0,0.0,0.0,NEAR_PHRASE,truck accident lawyer
+truck accident lawyer aliso viejo,1,0,0.0,0.0,NEAR_PHRASE,truck crash attorney
+truck driver fatigue accident lawyer,1,0,0.0,0.0,PHRASE,truck accident lawyers
+ataa near me,1,0,0.0,0.0,NEAR_PHRASE,truck accident lawyers
+encino truck accident lawyer,1,0,0.0,0.0,NEAR_PHRASE,truck accident injury lawyer
+diana diskin attorney,1,0,0.0,0.0,NEAR_PHRASE,truck accident injury attorney
+empire law truck & car accident lawyers,1,0,0.0,0.0,NEAR_PHRASE,truck collision attorney
+truck accident lawyer brentwood,1,0,0.0,0.0,NEAR_PHRASE,truck collision lawyer
+commercial truck accident lawyer,1,0,0.0,0.0,EXACT,commercial truck accident lawyer
+big rig accident attorneys in los angeles,1,0,0.0,0.0,NEAR_PHRASE,18 wheeler lawyer
+big rig wreck lawyer,1,0,0.0,0.0,EXACT,big rig wreck lawyer
+riverside truck accident lawyer,1,0,0.0,0.0,NEAR_PHRASE,big rig wreck lawyer
+18 wheeler accident lawyer los angeles,1,0,0.0,0.0,EXACT,18 wheeler accident lawyer los angeles
+pedestrian accident lawyer los angeles,1,0,0.0,0.0,EXACT,pedestrian accident lawyer los angeles
+unlawful death lawsuit,1,0,0.0,0.0,NEAR_EXACT,wrongful death lawsuit
+death lawyers,1,0,0.0,0.0,NEAR_EXACT,best wrongful death lawyer
+loss of life lawyer,1,0,0.0,0.0,NEAR_EXACT,best wrongful death lawyer
+auto accident settlement,1,0,0.0,0.0,NEAR_EXACT,car accident claim
+auto claim,1,0,0.0,0.0,NEAR_EXACT,car accident claim
+auto damage claim,1,0,0.0,0.0,NEAR_EXACT,car accident claim
+auto insurance claims,1,0,0.0,0.0,NEAR_EXACT,car accident claim
+car accident claim personal injury,1,0,0.0,0.0,NEAR_EXACT,car accident claim
+car accident insurance claim,1,0,0.0,0.0,NEAR_EXACT,car accident claim
+car crash claim,1,0,0.0,0.0,NEAR_EXACT,car accident claim
+car crash insurance claim,1,0,0.0,0.0,NEAR_EXACT,car accident claim
+car injury compensation,1,0,0.0,0.0,NEAR_EXACT,car accident claim
+car insurance accident claim process,1,0,0.0,0.0,NEAR_EXACT,car accident claim
+car insurance claims,1,0,0.0,0.0,NEAR_EXACT,car accident claim
+collision claim,1,0,0.0,0.0,NEAR_EXACT,car accident claim
+crash claim,1,0,0.0,0.0,NEAR_EXACT,car accident claim
+file a claim car insurance,1,0,0.0,0.0,NEAR_EXACT,car accident claim
+filing a claim for a car accident,1,0,0.0,0.0,NEAR_EXACT,car accident claim
+insurance claim car accident,1,0,0.0,0.0,NEAR_EXACT,car accident claim
+making a claim after car accident,1,0,0.0,0.0,NEAR_EXACT,car accident claim
+personal injury claim car crash,1,0,0.0,0.0,NEAR_EXACT,car accident claim
+process of insurance claim car accident,1,0,0.0,0.0,NEAR_EXACT,car accident claim
+suing for a car accident,1,0,0.0,0.0,NEAR_EXACT,car accident claim
+accident compensation program,1,0,0.0,0.0,NEAR_EXACT,car accident compensation
+accident compensation service,1,0,0.0,0.0,NEAR_EXACT,car accident compensation
+accident payout service,1,0,0.0,0.0,NEAR_EXACT,car accident compensation
+auto insurance compensation,1,0,0.0,0.0,NEAR_EXACT,car accident compensation
+car crash insurance payouts,1,0,0.0,0.0,NEAR_EXACT,car accident compensation
+compensation after car accident,1,0,0.0,0.0,NEAR_EXACT,car accident compensation
+compensation car accident,1,0,0.0,0.0,NEAR_EXACT,car accident compensation
+do you get money if someone hits your car,1,0,0.0,0.0,NEAR_EXACT,car accident compensation
+car accident injury settlement,1,0,0.0,0.0,NEAR_EXACT,car accident settlement
+car accident injury settlement amounts,1,0,0.0,0.0,NEAR_EXACT,car accident settlement
+settlement amount for car accident,1,0,0.0,0.0,NEAR_EXACT,car accident settlement
+average car accident injury settlement,1,0,0.0,0.0,NEAR_EXACT,average car accident settlement
+average car settlement,1,0,0.0,0.0,NEAR_EXACT,average car accident settlement
+average car settlement amount,1,0,0.0,0.0,NEAR_EXACT,average car accident settlement
+car crash payout,1,0,0.0,0.0,NEAR_EXACT,average car accident settlement
+lawsuit car accident settlements amounts,1,0,0.0,0.0,NEAR_EXACT,average car accident settlement
+what's the average car accident settlement,1,0,0.0,0.0,NEAR_EXACT,average car accident settlement
+what's the average settlement for a car accident,1,0,0.0,0.0,NEAR_EXACT,average car accident settlement
+accident calculator,1,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator
+accident calculator free,1,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator
+auto injury calculator,1,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator
+auto injury settlement calculator,1,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator
+car accident injury compensation calculator,1,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator
+hit and run settlement calculator,1,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator
+bodily injury settlement calculator,1,0,0.0,0.0,NEAR_EXACT,personal injury settlement calculator
+injury calculator,1,0,0.0,0.0,NEAR_EXACT,personal injury settlement calculator
+lawsuit calculator,1,0,0.0,0.0,NEAR_EXACT,personal injury settlement calculator
+average payout for a car accident,1,0,0.0,0.0,NEAR_EXACT,car accident payout
+insurance payout after accident,1,0,0.0,0.0,NEAR_EXACT,car accident payout
+pay out of pocket for car accident,1,0,0.0,0.0,NEAR_EXACT,car accident payout
+what's the average pay out for a car accident,1,0,0.0,0.0,NEAR_EXACT,car accident payout
+uber accident lawyer,1,0,0.0,0.0,EXACT,uber accident lawyer
+uber personal injury,1,0,0.0,0.0,NEAR_EXACT,uber accident lawyer
+uber lawyers,1,0,0.0,0.0,NEAR_EXACT,uber accident attorney
+los angeles hit and run lawyer,1,0,0.0,0.0,NEAR_EXACT,rideshare accident lawyer los angeles
+lyft accident attorney los angeles,1,0,0.0,0.0,NEAR_EXACT,rideshare accident lawyer los angeles
+uber accident attorney los angeles,1,0,0.0,0.0,NEAR_EXACT,rideshare accident lawyer los angeles
+rideshare accident lawyer,1,0,0.0,0.0,EXACT,rideshare accident lawyer
+bicycle crash lawyer,1,0,0.0,0.0,NEAR_EXACT,bike crash attorney
+bike injury attorney,1,0,0.0,0.0,NEAR_EXACT,bike crash attorney
+bicycle accident attorney los angeles,1,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles
+bike accident lawyer in los angeles,1,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles
+los angeles bicycle accident lawyer,1,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles
+los angeles bike accident attorneys,1,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles
+accident lawyers in la,1,0,0.0,0.0,NEAR_EXACT,los angeles car accident lawyer
+auto injury lawyer los angeles,1,0,0.0,0.0,NEAR_EXACT,los angeles car accident lawyer
+car crash attorney los angeles,1,0,0.0,0.0,NEAR_EXACT,los angeles car accident lawyer
+beverly hills accident lawyer,1,0,0.0,0.0,NEAR_EXACT,beverly hills car accident attorney
+auto accident attorney beverly hills,1,0,0.0,0.0,NEAR_EXACT,beverly hills car accident lawyer
+beverly hills car accident attorneys,1,0,0.0,0.0,NEAR_EXACT,beverly hills car accident lawyer
+best car accident lawyer los angeles,1,0,0.0,0.0,NEAR_EXACT,los angeles car accident attorney
+top accident lawyers los angeles,1,0,0.0,0.0,NEAR_EXACT,los angeles car accident attorney
+automobile accident attorney los angeles,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+automobile accident attorneys in los angeles,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+best accident lawyer in los angeles,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+car accident law firm in los angeles,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+car accident law firms in los angeles,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+car accident lawyer in los angeles ca,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+car accident lawyer los angeles california,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+car accident lawyers in la,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+car accident lawyers los angeles ca,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+car accidents lawyers in los angeles,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+la accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+la auto accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+los angeles auto accident law firms,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+los angeles auto accident lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+los angeles car wreck lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+traffic accident lawyer los angeles,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles
+car crash lawyer in los angeles,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer los angeles ca
+los angeles traffic accident attorney,1,0,0.0,0.0,NEAR_EXACT,motor vehicle accident attorney los angeles
+best accident lawyer los angeles,1,0,0.0,0.0,NEAR_EXACT,car accident attorney near me los angeles
+car crash lawyers los angeles,1,0,0.0,0.0,NEAR_EXACT,car accident attorney near me los angeles
+los angeles personal injury accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney near me los angeles
+los angeles motorcycle attorney,1,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer los angeles
+los angeles motorcycle injury lawyer,1,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer los angeles
+motorcycle attorney los angeles,1,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer los angeles
+motorcycle wreck lawyer,1,0,0.0,0.0,NEAR_EXACT,motorcycle injury lawyer
+motorcycle attorneys california,1,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer california
+accident car lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+accident injury attorneys near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+accident law near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+attorney for a car accident,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+attorney for auto accidents,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+attorney for car,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+attorneys accidents,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+attorneys car accident,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+auto accident attorney lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+auto car accident lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+auto collision lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+auto collision lawyer near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+auto injury accident lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+auto injury attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+auto injury lawyer near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+auto insurance lawyer accident,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+auto law firm,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+auto lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+auto wreck law firm,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+automobile accident attorney near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+automobile accident injury attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+automobile injury attorneys,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+best auto accident attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+best auto accident attorney near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+best car accident lawyer near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+best car crash lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+best lawyer for car accident,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+car accident and personal injury lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+car accident law firm near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+car accident lawyer attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+car crash injury lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+car injury justice,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+car wreck injury lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+lawyer car,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+lawyer car accidents,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+lawyer for auto accidents,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+lawyers for auto,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+lawyers for car accidents,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+lawyers for car accidents near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+local car accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+motor accident attorney near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+personal injury car accident attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+the best auto accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+top rated car accident lawyers near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+traffic accident attorney near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+your accident attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer
+accident attorney injury,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+accident claim lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+accident insurance attorney,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+accident law office,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+accident lawyer advice,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+accidents law firm,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+attorney accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+attorney car accident attorney,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+attorney car accident injury,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+attorney for automobile accident,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+attorneys car accidents,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+auto accident attorneys,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+auto accident injury lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+auto accident injury lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+auto accident law firm,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+auto accident legal,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+auto accident legal advice,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+auto accidents lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+auto accidents lawyer near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+auto accidents lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+auto collision attorney,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+auto crash law firm,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+auto damage lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+auto wreck lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+automobile accident attorney,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+automobile accident injury lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+automobile accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+automobile accident lawyer near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+automobile accidents lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+automobile attorney,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+automobile attorneys near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+automobile crash lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+automobile lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+automobile lawyers near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+best accident attorney near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+best attorney for auto accident,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+best auto accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+best auto accident lawyers near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+best car accident attorneys near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+best lawyer car accident injury,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+best lawyer for car accidents,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+best lawyers for car accident,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+best lawyers for car accidents,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car accident attorneys near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car accident injury attorneys near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car accident injury law,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car accident law firms,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car accident law firms near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car accident lawyer attorneys,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car accident personal injury attorney,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car accidents attorney,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car attorneys,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car crash accident law firm,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car injury attorney,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car injury attorneys near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+car wreck attorneys near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+crash law office,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+good accident attorneys,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+good auto accident lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+good car accident attorney,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+good car accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+law firms for accident,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+lawyer accident near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+lawyer auto,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+lawyer car wreck,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+lawyer for auto accident injury,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+lawyer for car crash,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+lawyers automobile accident,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+lawyers for accident cars,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+lawyers for auto accidents,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+need a lawyer for car accident,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+personal injury lawyer for car accident,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+serious car crash lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+top rated car wreck lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+traffic accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney
+accident lawyers in glendale ca,1,0,0.0,0.0,NEAR_EXACT,glendale car accident lawyer
+car accident attorney glendale,1,0,0.0,0.0,NEAR_EXACT,glendale car accident lawyer
+car accidents attorney glendale,1,0,0.0,0.0,NEAR_EXACT,glendale car accident lawyer
+glendale accident attorney,1,0,0.0,0.0,NEAR_EXACT,glendale car accident lawyer
+accident attorney in long beach,1,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney
+car accident attorney long beach,1,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney
+car accident attorney long beach ca,1,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney
+car accident attorneys long beach ca,1,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney
+accident attorney santa ana,1,0,0.0,0.0,NEAR_EXACT,santa ana car accident attorney
+accident lawyer santa ana,1,0,0.0,0.0,NEAR_EXACT,santa ana car accident attorney
+accident lawyers in bakersfield ca,1,0,0.0,0.0,NEAR_EXACT,bakersfield car accident lawyer
+car accident lawyers bakersfield ca,1,0,0.0,0.0,NEAR_EXACT,bakersfield car accident lawyer
+car accident lawyers in bakersfield ca,1,0,0.0,0.0,NEAR_EXACT,bakersfield car accident lawyer
+car accident lawyer newport beach,1,0,0.0,0.0,NEAR_EXACT,newport beach car accident lawyer
+newport beach car accident attorneys,1,0,0.0,0.0,NEAR_EXACT,newport beach car accident lawyer
+newport beach car accident lawyers,1,0,0.0,0.0,NEAR_EXACT,newport beach car accident lawyer
+beverly hills accident attorneys,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer beverly hills
+car accident lawyer anaheim ca,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer anaheim
+car accident attorneys in irvine,1,0,0.0,0.0,NEAR_EXACT,car accident attorney irvine
+irvine auto accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer irvine
+auto accident attorney in riverside,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside
+auto accident lawyer riverside,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside
+car accident lawyer in riverside,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside
+car accident lawyer riverside ca,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside
+riverside auto accident attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside
+riverside auto accident lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside
+riverside car accident attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside
+accident attorney torrance ca,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer torrance
+auto accident attorney in torrance,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer torrance
+auto accident attorney torrance,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer torrance
+car accident attorney torrance,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer torrance
+accident attorney san diego,1,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer
+accident lawyers san diego,1,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer
+car crash attorneys san diego,1,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer
+car crash lawyer san diego,1,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer
+san diego auto accident attorneys,1,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer
+san diego auto accident lawyer,1,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer
+san diego car crash lawyer,1,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer
+car accident attorneys in fresno,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno
+chula vista car accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer chula vista
+car accident attorney laguna niguel,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer laguna niguel
+car accident attorney costa mesa,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer costa mesa
+best truck accident lawyers,1,0,0.0,0.0,NEAR_EXACT,truck accident attorney
+big truck wreck attorney,1,0,0.0,0.0,NEAR_EXACT,truck accident attorney
+commercial truck attorney,1,0,0.0,0.0,NEAR_EXACT,truck accident attorney
+tractor trailer accident lawyers,1,0,0.0,0.0,NEAR_EXACT,truck accident attorney
+truck accident injury attorneys,1,0,0.0,0.0,NEAR_EXACT,truck accident attorney
+truck accident lawyers near me,1,0,0.0,0.0,NEAR_EXACT,truck accident attorney
+truck wreck attorney near me,1,0,0.0,0.0,NEAR_EXACT,truck accident attorney
+truck wreck lawyer near me,1,0,0.0,0.0,NEAR_EXACT,truck accident attorney
+truck accident lawyers in los angeles,1,0,0.0,0.0,NEAR_EXACT,los angeles truck accident lawyer
+san diego truck accident lawyer,1,0,0.0,0.0,NEAR_EXACT,truck accident lawyer san diego
+san diego truck accident lawyers,1,0,0.0,0.0,NEAR_EXACT,truck accident lawyer san diego
+newport beach truck accident lawyer,1,0,0.0,0.0,EXACT,newport beach truck accident lawyer
+truck accident attorney orange county,1,0,0.0,0.0,NEAR_EXACT,orange county truck accident lawyer
+truck accident lawyer orange county,1,0,0.0,0.0,NEAR_EXACT,orange county truck accident lawyer
+truck accident attorney irvine,1,0,0.0,0.0,NEAR_EXACT,irvine truck accident lawyer
+brain injury attorney,1,0,0.0,0.0,EXACT,brain injury attorney
+traumatic brain injury attorney,1,0,0.0,0.0,NEAR_EXACT,brain injury attorney
