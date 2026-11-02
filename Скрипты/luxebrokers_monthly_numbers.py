@@ -113,6 +113,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--month", required=True, help="YYYY-MM")
     ap.add_argument("--gads-details")
+    ap.add_argument("--out", help="имя файла в reports/ (по умолчанию LuxeBrokers_Calls_<месяц>.xlsx)")
     a = ap.parse_args()
     y, m = map(int, a.month.split("-"))
     start = pd.Timestamp(y, m, 1)
@@ -136,6 +137,28 @@ def main():
     for c in ("Форма", "Ringostat Google", "Google Ads Call details"):
         summ[c] = summ[c].map({True: "да", False: ""})
 
+    n_unique = len(summ)
+    no_num = int((gads["n10"] == "").sum()) if gads is not None else 0
+    tail = [{"Номер": f"ИТОГО уникальных номеров: {n_unique}"},
+            {"Номер": f"Звонков Google Ads без номера («--»): {no_num}"}]
+    summ = pd.concat([summ, pd.DataFrame(tail)], ignore_index=True).fillna("")
+
+    # лист «Только Google»: без SEO и без форм с неизвестным источником
+    fg = set(forms.loc[forms["utm_source"].str.lower() == "google", "n10"]) - {""}
+    rows_g = []
+    for n in sorted(fg | r_set | g_set):
+        rows_g.append({"Номер": fmt(n),
+                       "Форма (utm google)": "да" if n in fg else "", "Ringostat Google": "да" if n in r_set else "",
+                       "Google Ads Call details": "да" if n in g_set else "",
+                       "Заявок с формы": int(((forms["n10"] == n) & (forms["utm_source"].str.lower() == "google")).sum()),
+                       "Звонков Ringostat": int((ring["n10"] == n).sum()),
+                       "Звонков Google Ads": int((gads["n10"] == n).sum()) if gads is not None else 0})
+    only_g = pd.DataFrame(rows_g)
+    n_only_g = len(only_g)
+    only_g = pd.concat([only_g, pd.DataFrame([{"Номер": f"ИТОГО уникальных номеров: {n_only_g}"},
+                                              {"Номер": f"Звонков Google Ads без номера («--»): {no_num}"}])],
+                       ignore_index=True).fillna("")
+
     ring_out = ring[["local", "caller", "n10", "pool_name", "utm_medium", "utm_campaign", "disposition", "billsec", "duration", "uniqueid"]].rename(
         columns={"local": "Дата (LA)", "caller": "Номер (как в Ringostat)", "pool_name": "Пул", "utm_medium": "Medium",
                  "utm_campaign": "Кампания (utm)", "disposition": "Статус", "billsec": "Разговор, сек", "duration": "Длительность, сек", "uniqueid": "ID"})
@@ -146,15 +169,18 @@ def main():
         ("Звонков Ringostat за месяц (все источники)", ring_all), ("Источники Ringostat", str(ring_src)),
         ("Звонков Ringostat Google (без SEO)", len(ring)), ("Уникальных номеров Ringostat Google", len(r_set)),
         ("Google Ads Call details", "не приложен" if gads is None else f"{len(gads)} строк, {len(g_set)} уникальных"),
-        ("Всего уникальных номеров в сводке", len(summ)),
+        ("Всего уникальных номеров в сводке", n_unique),
         ("Номера и в форме, и в Ringostat", len(f_set & r_set)),
+        ("Только Google (формы с utm google + Ringostat Google + Google Ads), уник.", n_only_g),
+        ("Форм-номеров без utm google (в «Только Google» не вошли)", len(f_set - fg)),
     ]
     if gads is not None:
         notes.append(("Номера Google Ads, которых нет в Ringostat", len(g_set - r_set)))
 
-    out = OUT_DIR / f"LuxeBrokers_Calls_{a.month}.xlsx"
+    out = OUT_DIR / (a.out or f"LuxeBrokers_Calls_{a.month}.xlsx")
     with pd.ExcelWriter(out, engine="openpyxl") as xw:
         pd.DataFrame(notes, columns=["Параметр", "Значение"]).to_excel(xw, "Итоги", index=False)
+        only_g.to_excel(xw, "Только Google", index=False)
         summ.drop(columns="n10").to_excel(xw, "Уникальные номера", index=False)
         forms.drop(columns="n10").assign(**{"Дата": forms["Дата"].dt.date}).to_excel(xw, "Формы", index=False)
         ring_out.drop(columns="n10").to_excel(xw, "Ringostat Google", index=False)
