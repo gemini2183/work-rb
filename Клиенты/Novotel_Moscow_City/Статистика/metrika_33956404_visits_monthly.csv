@@ -1,0 +1,23 @@
+﻿month,visits_all,visits_direct,visits_by_source
+2025-01,1480,770,ad=974; organic=262; direct=221; referral=16; internal=3; messenger=3; social=1
+2025-02,782,15,direct=470; organic=259; ad=40; referral=10; social=2; internal=1
+2025-03,739,3,direct=509; organic=210; ad=10; referral=8; social=2
+2025-04,450,0,direct=233; organic=193; referral=17; ad=4; messenger=2; social=1
+2025-05,357,1,organic=205; direct=108; referral=18; ad=6; messenger=5; internal=2; social=2
+2025-06,268,0,organic=141; direct=88; ad=22; messenger=4; referral=3; internal=1
+2025-07,331,0,direct=160; organic=142; referral=11; ad=5; messenger=5; social=2
+2025-08,427,0,direct=272; organic=111; referral=33; ad=4; internal=2
+2025-09,3098,2422,ad=2634; direct=255; organic=149; referral=34; internal=5
+2025-10,1981,1437,ad=1516; direct=307; organic=121; referral=17; internal=4; social=1
+2025-11,529,79,direct=278; organic=124; ad=97; referral=19; internal=1
+2025-12,555,3,direct=312; organic=197; ad=20; referral=18; social=2; recommend=1
+2026-01,764,3,direct=335; ad=315; organic=101; referral=6; messenger=1
+2026-02,704,2,ad=309; direct=259; organic=104; referral=22; recommend=1
+2026-03,1031,1,ad=551; direct=327; organic=104; referral=21
+2026-04,649,0,direct=317; ad=206; organic=82; social=29; referral=11
+2026-05,408,0,direct=188; ad=158; organic=47; referral=10; social=2; recommend=1
+2026-06,470,0,direct=225; ad=178; organic=57; referral=7; messenger=1
+2026-07,323,0,direct=224; organic=82; referral=6; ad=5; social=2; internal=1
+2026-08,327,0,direct=256; organic=53; referral=11; social=3; ad=1
+2026-09,414,0,direct=330; organic=68; referral=9; ad=4; social=2
+2026-10,865,0,direct=665; organic=109; referral=66; social=8; ad=4; messenger=1

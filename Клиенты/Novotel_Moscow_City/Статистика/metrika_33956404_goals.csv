@@ -1,0 +1,39 @@
+﻿goal_id,name,type,default_price,conditions
+33269205,Звонок,call,0.0,
+292775611,"Нажали кнопку ""Забронировать""",url,0.0,regexp:/tilda/click/rec580721566/button1|/tilda/click/rec579503043/button1
+330030160,Заявка (конференция),url,0.0,contain:thanks
+335254555,Звонок коллтач,action,0.0,exact:call-calltouch
+231777456,Автоцель: клик по номеру телефона,phone,0.0,
+53297092,Отправка формы Низ LP,action,0.0,exact:submit_form108164254
+53296906,Отправка формы 1й экран,action,0.0,exact:submit_form112571447
+53297107,Отправка формы Чат,action,0.0,exact:submit_form112571640
+15250590,Заявка Свадьба,action,0.0,exact:lead_wedding
+201470650,Уникальный звонок,conditional_call,0.0,exact:true
+201470653,Уникально-целевой звонок,conditional_call,0.0,exact:true; greater:30
+201470656,Целевой звонок,conditional_call,0.0,greater:30
+15250695,отправка вопроса,action,0.0,exact:question
+22077455,Заявка на Мероприятие,action,0.0,exact:lead_application_event
+22502380,Лид с Callibri//Динамика,action,0.0,exact:8255
+23129620,Заявка Другое,action,0.0,exact:lead_other
+47750785,Заявка на Мастер-класс,action,0.0,exact:lead_master
+47750794,Заявка на Бизнес-встреча,action,0.0,exact:lead_business
+60205147,Звонки с Callibri//Динамика,action,0.0,exact:8255:calls
+231777457,Автоцель: клик по email,email,0.0,
+231780177,Автоцель: отправка формы,form,0.0,
+231816221,Авто цель клик по email,email,0.0,
+231816224,Авто цель отправка формы,form,0.0,
+231816239,Авто цель переход в мессенджер,messenger,0.0,messenger:all_messengers
+231816253,Авто цель скачивание файлов,file,0.0,all_files:None
+231816259,Авто цель поиск по сайту,search,0.0,"search:q,text,query,search"
+231816281,Авто цель переход в соц. сеть,social,0.0,all_social:None
+231816287,Авто цель возвращение из платежной системы,payment_system,0.0,
+231816297,Авто цель звонки,conditional_call,0.0,
+232096509,Отправка формы 1й экран (18.03.2022),url,0.0,contain:tilda/form112571447/submitted
+232098506,Отправка формы Низ LP (18.03.2022),url,0.0,contain:tilda/form108164254/submitted
+232099697,Отправка формы Чат (18.03.2022),url,0.0,contain:tilda/form112571640/submitted
+233522947,Автоцель: отправка формы заявки,action,0.0,regexp:^ym\-submit\-lead(?:\-[0-9]+|form)?$
+249248368,Автоцель: заполнил контактные данные,contact_data,0.0,
+315372308,"Отправка формы ""Оставить заявку"" на странице novotel-events.ru/31dec",url,0.0,contain:https://novotel-events.ru/thankyou
+315533909,"Отправка формы ""Оставить заявку"" на странице novotel-events.ru/31dec",url,0.0,contain:/tilda/form667159847/submitted
+382533058,Автоцель: отправил контактные данные,contact_data_sent,0.0,
+544093451,Ecommerce: добавление в корзину,e_cart,0.0,
