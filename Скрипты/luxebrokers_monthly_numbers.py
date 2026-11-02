@@ -5,7 +5,7 @@
 Источники:
   1. Формы сайта (Tilda → Google Sheets «Tilda_Jewelry_Fast_Sale»): все заявки месяца, все источники.
   2. Ringostat API `calls/list` (проект 141688): только Google-реклама (utm_source=google: пулы
-     «Google CPC calls from ads» и «Only CPC»); SEO (пул/источник CEO) и прочее не берём.
+     «Google CPC calls from ads» и «Only CPC») плюс звонки без источника; SEO (пул/источник CEO) не берём.
   3. Google Ads → Reports → Calls → Call details (ручная выгрузка из кабинета, API полный номер не отдаёт):
      номера, которых нет в Ringostat, добавляются в сводку. Файл: --gads-details <csv|xml>; без него лист пропускается.
 
@@ -83,7 +83,8 @@ def load_ringostat(start, end):
     df = df[(df["local"] >= start) & (df["local"] < end + pd.Timedelta(days=1))].copy()
     df["n10"] = df["caller"].map(n10)
     all_n = len(df)
-    google = df[df["utm_source"].str.lower() == "google"].copy()
+    # google + звонки без источника (не SEO): по решению пользователя 2026-11-02 берём и их
+    google = df[df["utm_source"].str.lower().isin(["google", ""])].copy()
     return google.sort_values("local"), all_n, df["utm_source"].value_counts().to_dict()
 
 
