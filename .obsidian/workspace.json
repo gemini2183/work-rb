@@ -244,6 +244,10 @@
   },
   "active": "aad7ea81908996b1",
   "lastOpenFiles": [
+    "Клиенты/ProfiMet/Статистика/dashboard_sources_2026-10-01_2026-10-31.xlsx",
+    "Клиенты/ProfiMet/Статистика/dashboard_sources_2026-10-01_2026-10-31.html",
+    "Клиенты/ProfiMet/Статистика/dashboard_sources_client_mode_2026-10-01_2026-10-31.csv",
+    "Клиенты/ProfiMet/Статистика/dashboard_sources_2026-10-01_2026-10-31.csv",
     "База_знаний/Паттерны/Директ-аудит-для-привлечения-клиента-план-проверок-и-срезов.md",
     "Клиенты/Novotel_Moscow_City/Статистика/slice_ad_705894438.csv",
     "Клиенты/Novotel_Moscow_City/Статистика/slice_slot_705894438.csv",
@@ -252,9 +256,6 @@
     "Клиенты/Novotel_Moscow_City/Статистика/slice_criteria_705894438.csv",
     "Скрипты/direct_campaign_slices.py",
     "Скрипты/direct_queries_range.py",
-    "Скрипты/novotel_campaign_audit.py",
-    "Скрипты/sedk1MUt5",
-    "Клиенты/Andverpersonalinjury/Статистика/snapshot_before_campaign_images_unlink_2026-10-29_1738.csv",
     "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/bc_5_bent_wheel_sq.png",
     "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/bc_5_bent_wheel_wide_landscape_1200x628.jpg",
     "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/готово/bc_4_bent_bike_sq.png",
@@ -288,7 +289,6 @@
     "Клиенты/Novotel_Moscow_City/Экспресс-осмотр_2026-10-26.md",
     "Клиенты/Andverpersonalinjury/Статистика/ringostat_rules_landverpersonalinjury_tilda_ws_california-car-accident-settlement_2026-10-26.md",
     "Клиенты/Andverpersonalinjury/Статистика/page_tracking_check_landverpersonalinjury_tilda_ws_california-car-accident-settlement_2026-10-26.md",
-    "Клиенты/Andverpersonalinjury/Статистика/ringostat_rules_landverpersonalinjury_tilda_ws_california-car-accident-lawyer_2026-10-26.md",
-    "Клиенты/Andverpersonalinjury/Статистика/page_tracking_check_landverpersonalinjury_tilda_ws_california-car-accident-lawyer_2026-10-26.md"
+    "Клиенты/Andverpersonalinjury/Статистика/ringostat_rules_landverpersonalinjury_tilda_ws_california-car-accident-lawyer_2026-10-26.md"
   ]
 }
