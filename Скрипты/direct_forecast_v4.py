@@ -6,6 +6,9 @@
 (лимит 5 отчётов на пользователя, иначе ошибка 31). Прогноз — верхняя оценка по статистике прошлого месяца, РСЯ не
 учитывает. Токен — из файла (.secrets/, вне git), в вывод не попадает.
 
+ВНИМАНИЕ: в ответе Min/Max/PremiumMin/PremiumMax — СТАВКИ (проверено на Novotel: PremiumMin == ставка P13/P14), а не цены клика;
+реальная цена — AuctionBids.Price. Клики (Clicks/FirstPlaceClicks/PremiumClicks) — потолок объёма за месяц.
+
 Фразы — ключи кампании с кликами в истории (slice_criteria_<id>.csv), по убыванию кликов, до 100.
 Запуск:
     PYTHONUTF8=1 python direct_forecast_v4.py --token-file ../.secrets/novotel_direct.token --client-folder Novotel_Moscow_City \
