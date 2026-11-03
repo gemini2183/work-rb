@@ -48,6 +48,7 @@ def main():
     ap.add_argument("--url", required=True)
     ap.add_argument("--source", default="google")
     ap.add_argument("--medium", default="cpc")
+    ap.add_argument("--content", default=None, help="значение utm_content (для каналов с фильтром по utm_content, напр. yt_16x9)")
     ap.add_argument("--campaigns", nargs="+", required=True, help='значения utm_campaign; "" — без utm_campaign')
     ap.add_argument("--pool-file", help="Пул_номеров.yaml клиента (для подписи пула)")
     ap.add_argument("--repeats", type=int, default=2)
@@ -61,6 +62,8 @@ def main():
             q = {"utm_source": args.source, "utm_medium": args.medium}
             if camp:
                 q["utm_campaign"] = camp
+            if args.content:
+                q["utm_content"] = args.content
             url = args.url + ("&" if "?" in args.url else "?") + urlencode(q)
             seen = []
             for _ in range(args.repeats):

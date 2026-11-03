@@ -126,6 +126,17 @@ channels:
     pool:
       - "+48579774022"
 
+  # YouTube (подпроект ProfiMet_YouTube), созданы 2026-11-03 (Ю-002): статические пулы по ячейкам тёплой; смены варианта в ячейке — только с датой в Журнале
+  - name: "YouTube тёплая, ячейка 1 (yt_warm, utm_content yt_16x9*) -> Google CPC_yt_warm_1"
+    utm_test: {utm_source: google, utm_medium: cpc, utm_content: yt_16x9, utm_campaign: yt_warm}
+    pool:
+      - "+48739103340"
+
+  - name: "YouTube тёплая, ячейка 2 (yt_warm, utm_content yt_9x16*) -> Google CPC_yt_warm_2"
+    utm_test: {utm_source: google, utm_medium: cpc, utm_content: yt_9x16, utm_campaign: yt_warm}
+    pool:
+      - "+48739103479"
+
 
 # Справочно, НЕ прогоняется phone_swap_check.py: канал "Google CPC calls
 # from ads" — статический пул для звонков напрямую по номеру в объявлении,
