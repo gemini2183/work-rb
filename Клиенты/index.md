@@ -8,6 +8,7 @@ updated: 2026-09-28
 
 | Клиент | Ниша | Статус | KPI текущего периода |
 |---|---|---|---|
+| [[ProfiMet_YouTube/index\|ProfiMet YouTube]] | Подпроект ProfiMet: YouTube через Demand Gen, отдельный замер и отчёт (порог 30 € за продажу) | заведён 2026-11-03, запуск не подтверждён | бюджет ноября ≈ 1000 €, цена заявки холодной ≤ 9–12 € |
 | [[ЕГЭ Merlin/index\|ЕГЭ Merlin]] | Курсы ЕГЭ/ОГЭ, Москва, ~10 филиалов | активный, старт ведения | Июль 2026: бюджет 80 000 ₽, CPL 2 500 ₽, 32 заявки |
 | [[Корогва/index\|Корогва]] | Одежда и флаги (Украина), тёмный мілітарі/дрон-арт (agency Adwhite, Google Ads) | активный, GA4 referral hijacking подтверждён, решение не внедрено | План на июль: Google Ads 120 заявок/60000, Merchant 60 заявок/30000 (CPA 500) — факт ещё не посчитан |
 | [[Andverpersonalinjury/index\|Andverpersonalinjury]] | Юридические услуги США, personal injury, "Landver Law" (agency Adwhite, Google Ads) | активный, аудит Search Partners + верификация LSA в процессе | не выяснено |
