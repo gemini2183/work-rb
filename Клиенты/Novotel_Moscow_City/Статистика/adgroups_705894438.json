@@ -1,0 +1,1374 @@
+[
+{
+"Id": 5693840736,
+"Name": "Москва|переговорная_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840737,
+"Name": "Москва|банкетный зал_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840738,
+"Name": "Москва|банкетный зал|30 человек_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840739,
+"Name": "Москва|банкетный зал|20 человек_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840740,
+"Name": "Москва|банкетный зал|50 человек_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840741,
+"Name": "Москва|банкетный зал|40 человек_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840742,
+"Name": "Москва|банкетный зал|10 человек_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840743,
+"Name": "Москва|банкетный зал|200 человек_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840744,
+"Name": "Москва|банкетный зал|300 человек_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840745,
+"Name": "Москва|банкетный зал|100 человек_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840746,
+"Name": "Москва|банкетный зал|15 человек_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840747,
+"Name": "Москва|банкетный зал|150 человек_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840748,
+"Name": "Москва|аренда зала_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840749,
+"Name": "Москва|банкетный зал|60 человек_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840750,
+"Name": "Общие|помещение для мероприятий_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840751,
+"Name": "Москва|зал для корпоратива_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840752,
+"Name": "Москва|зал для конференций_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840753,
+"Name": "Москва|тренинг зал_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840754,
+"Name": "Москва|зал|10 человек_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840755,
+"Name": "Москва|аренда зала|мск_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840756,
+"Name": "Москва|конференц зал_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840757,
+"Name": "Москва|конференц зал|50 чел_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840758,
+"Name": "Москва|конференц зал|100 чел_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840759,
+"Name": "Москва|конференц зал|150 чел_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840760,
+"Name": "Москва|конференц зал|300 чел_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840761,
+"Name": "Москва|конференц зал|200 чел_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840762,
+"Name": "Москва|конференц зал|40 чел_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840763,
+"Name": "Москва|зал для мероприятий_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840764,
+"Name": "Москва|зал арендовать_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840765,
+"Name": "Москва|зал забронировать_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840766,
+"Name": "Москва|зал снять_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840767,
+"Name": "Москва|помещение для семинара_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840768,
+"Name": "Москва|помещение для мероприятий_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840769,
+"Name": "Общие|помещение для конференций_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840770,
+"Name": "Общие|аренда зала_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840771,
+"Name": "Общие|аренда зала 30 человек_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840772,
+"Name": "Общие|аренда зала 15 человек_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840773,
+"Name": "Общие|аренда зала 300 человек_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840774,
+"Name": "Общие|аренда зала 40 человек_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840775,
+"Name": "Общие|аренда зала 150 человек_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840776,
+"Name": "Общие|зал для мероприятий_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840777,
+"Name": "Общие|арендовать зал_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840778,
+"Name": "Общие|забронировать зал_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840779,
+"Name": "Общие|снять зал_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840780,
+"Name": "Общие|снять зал|20 чел_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840781,
+"Name": "Общие|снять зал|30 чел_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840782,
+"Name": "Общие|снять зал|15 чел_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840783,
+"Name": "Общие|снять зал|40 чел_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840784,
+"Name": "Общие|помещение для семинаров_Москва",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+1
+],
+"RegionNames": [
+"Москва и область"
+]
+},
+{
+"Id": 5693840785,
+"Name": "Москва|переговорная_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840786,
+"Name": "Москва|банкетный зал_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840787,
+"Name": "Москва|банкетный зал|30 человек_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840788,
+"Name": "Москва|банкетный зал|20 человек_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840789,
+"Name": "Москва|банкетный зал|50 человек_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840790,
+"Name": "Москва|банкетный зал|40 человек_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840791,
+"Name": "Москва|банкетный зал|10 человек_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840792,
+"Name": "Москва|банкетный зал|200 человек_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840793,
+"Name": "Москва|банкетный зал|300 человек_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840794,
+"Name": "Москва|банкетный зал|100 человек_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840795,
+"Name": "Москва|банкетный зал|15 человек_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840796,
+"Name": "Москва|банкетный зал|150 человек_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840797,
+"Name": "Москва|аренда зала_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840798,
+"Name": "Москва|банкетный зал|60 человек_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840799,
+"Name": "Общие|помещение для мероприятий_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840800,
+"Name": "Москва|зал для корпоратива_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840801,
+"Name": "Москва|зал для конференций_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840802,
+"Name": "Москва|тренинг зал_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840803,
+"Name": "Москва|зал|10 человек_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840804,
+"Name": "Москва|аренда зала|мск_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840805,
+"Name": "Москва|конференц зал_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840806,
+"Name": "Москва|конференц зал|50 чел_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840807,
+"Name": "Москва|конференц зал|100 чел_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840808,
+"Name": "Москва|конференц зал|150 чел_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840809,
+"Name": "Москва|конференц зал|300 чел_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840810,
+"Name": "Москва|конференц зал|200 чел_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840811,
+"Name": "Москва|конференц зал|40 чел_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840812,
+"Name": "Москва|зал для мероприятий_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840813,
+"Name": "Москва|зал арендовать_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840814,
+"Name": "Москва|зал забронировать_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840815,
+"Name": "Москва|зал снять_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840816,
+"Name": "Москва|помещение для семинара_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840817,
+"Name": "Москва|помещение для мероприятий_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840818,
+"Name": "Общие|помещение для конференций_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840819,
+"Name": "Общие|аренда зала_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840820,
+"Name": "Общие|аренда зала 30 человек_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840821,
+"Name": "Общие|аренда зала 15 человек_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840822,
+"Name": "Общие|аренда зала 300 человек_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840823,
+"Name": "Общие|аренда зала 40 человек_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840824,
+"Name": "Общие|аренда зала 150 человек_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840825,
+"Name": "Общие|зал для мероприятий_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840826,
+"Name": "Общие|арендовать зал_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840827,
+"Name": "Общие|забронировать зал_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840828,
+"Name": "Общие|снять зал_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840829,
+"Name": "Общие|снять зал|20 чел_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840830,
+"Name": "Общие|снять зал|30 чел_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840831,
+"Name": "Общие|снять зал|15 чел_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840832,
+"Name": "Общие|снять зал|40 чел_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+},
+{
+"Id": 5693840833,
+"Name": "Общие|помещение для семинаров_Регионы",
+"Status": "ACCEPTED",
+"ServingStatus": "ELIGIBLE",
+"RegionIds": [
+2,
+43,
+54
+],
+"RegionNames": [
+"Санкт-Петербург",
+"Казань",
+"Екатеринбург"
+]
+}
+]
