@@ -76,7 +76,7 @@ def main():
     pf["cls"] = pf.Phrase.map(clean).map(cls)
     cap_narrow = pf[pf.cls.isin(["1 отель/бренд/сити", "2 конференц/переговорные/семинары"])].PremiumClicks.sum()
     rows.append((f"3. {a.shift_share * 100:.0f}% бюджета общих → узкие (перенос {moved:,.0f} ₽; ₽/обращ общие {cpl_b:,.0f}, узкие {cpl_n:,.0f}); "
-                 f"нужно кликов {need_clicks:.0f}/мес при потолке прогноза {cap_narrow}", None, l0 + gain3))
+                 f"нужно кликов {need_clicks:.0f}/мес при потолке прогноза {cap_narrow}", B / (l0 + gain3), l0 + gain3))
 
     # 4. ниже блока
     slot = pd.read_csv(ST / "slice_slot_705894438.csv")
@@ -90,7 +90,7 @@ def main():
     need4 = B * a.below_share / cpc_low
     cap_low = cap["Common"]["FirstPlaceClicks"] + cap["Common"]["Clicks"]
     rows.append((f"4. Ниже блока с {cur_share * 100:.0f}% до {a.below_share * 100:.0f}% бюджета (перенос {moved4:,.0f} ₽; ₽/обращ ниже блока {cpl_low:,.0f}, "
-                 f"спец {cpl_prem:,.0f}); нужно кликов {need4:.0f}/мес при потолке прогноза {cap_low}", None, l0 + gain4))
+                 f"спец {cpl_prem:,.0f}); нужно кликов {need4:.0f}/мес при потолке прогноза {cap_low}", B / (l0 + gain4), l0 + gain4))
 
     # итог 1+2 вместе (независимость), +3, +4 прибавками
     cost_after = (cost0 - R) * (1 - we.Cost.sum() / cost0)
