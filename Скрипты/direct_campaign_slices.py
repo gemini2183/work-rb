@@ -8,7 +8,7 @@
 Запуск:
     PYTHONUTF8=1 python direct_campaign_slices.py --login porg-juupcxo3 --token-file <файл> \
         --client-folder Novotel_Moscow_City --campaign-id 705894438 --date-from 2026-01-12 --date-to 2026-06-30 \
-        --goals 498289834,498298013,511709344,498184341 [--slices criteria,geo,device,ad]
+        --goals 498289834,498298013,511709344,498184341 [--slices criteria,geo,device,slot,ad,gender,age,income,matchtype,clicktype]
 Выход: Клиенты/<папка>/Статистика/slice_<срез>_<campaign-id>.csv
 """
 import argparse
@@ -27,6 +27,11 @@ SLICES = {
     "device": ("CUSTOM_REPORT", ["Device"]),
     "slot": ("CUSTOM_REPORT", ["Slot"]),
     "ad": ("AD_PERFORMANCE_REPORT", ["AdGroupId", "AdId"]),
+    "gender": ("CUSTOM_REPORT", ["Gender"]),
+    "age": ("CUSTOM_REPORT", ["Age"]),
+    "income": ("CUSTOM_REPORT", ["IncomeGrade"]),
+    "matchtype": ("CUSTOM_REPORT", ["MatchType"]),
+    "clicktype": ("CUSTOM_REPORT", ["ClickType"]),
 }
 
 
