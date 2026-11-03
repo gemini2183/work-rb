@@ -2,3 +2,5 @@
 Скрипты/secrets/
 __pycache__/
 *.pyc
+
+.secrets/
