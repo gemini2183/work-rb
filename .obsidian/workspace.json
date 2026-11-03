@@ -244,6 +244,10 @@
   },
   "active": "aad7ea81908996b1",
   "lastOpenFiles": [
+    "Клиенты/Novotel_Moscow_City/Передача_контекста_для_текста_аудита.md",
+    "Скрипты/sedbmRrfN",
+    "Клиенты/Novotel_Moscow_City/Статистика/setup_dump_705894438.json",
+    "Скрипты/direct_campaign_setup_dump.py",
     "База_знаний/Инструменты/Директ-минус-слова-уровни-и-конфликт-с-ключами.md",
     "Клиенты/Новотел_dummy",
     "Скрипты/novotel_metrika_hours.py",
@@ -252,9 +256,6 @@
     "Клиенты/Novotel_Moscow_City/Статистика/slice_matchtype_705894438.csv",
     "Клиенты/Novotel_Moscow_City/Статистика/slice_income_705894438.csv",
     "Клиенты/Novotel_Moscow_City/Статистика/slice_age_705894438.csv",
-    "Клиенты/Novotel_Moscow_City/Статистика/slice_gender_705894438.csv",
-    "Клиенты/Novotel_Moscow_City/Статистика/campaign_negatives_705894438.json",
-    "Скрипты/novotel_scenarios.py",
     "Клиенты/Novotel_Moscow_City/Задачи.md",
     "Клиенты/Novotel_Moscow_City/Аудит_Тест_Сайта_текст_2026-11-02.md",
     "База_знаний/Паттерны/Директ-аудит-для-привлечения-клиента-план-проверок-и-срезов.md",
@@ -288,7 +289,6 @@
     "Клиенты/Andverpersonalinjury/Коллтрекинг/Звонковый_ассет_Google_Ads_Ringostat.md",
     "База_знаний/Агенты/Быстрый_осмотр_Директа_потенциального_клиента.md",
     "Клиенты/Andverpersonalinjury/Статистика/page_tracking_check_landverpersonalinjury_tilda_ws_california-car-truck-accident_2026-10-26.md",
-    "Клиенты/Novotel_Moscow_City/Экспресс-осмотр_2026-10-26.md",
-    "Клиенты/Andverpersonalinjury/Статистика/ringostat_rules_landverpersonalinjury_tilda_ws_california-car-accident-settlement_2026-10-26.md"
+    "Клиенты/Novotel_Moscow_City/Экспресс-осмотр_2026-10-26.md"
   ]
 }
