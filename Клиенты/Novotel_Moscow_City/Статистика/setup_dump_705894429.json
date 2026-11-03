@@ -1,0 +1,776 @@
+{
+ "campaign": {
+  "ClientInfo": null,
+  "Notification": {
+   "SmsSettings": {
+    "TimeFrom": "09:00",
+    "TimeTo": "21:00"
+   },
+   "EmailSettings": {
+    "Email": "info@next-level-agency.ru",
+    "CheckPositionInterval": 60,
+    "WarningBalance": 20,
+    "SendAccountNews": "NO",
+    "SendWarnings": "NO"
+   }
+  },
+  "TimeZone": "Europe/Moscow",
+  "Id": 705894429,
+  "Name": "b_Новотель |geo_РФ |st_ТГО |tg:Ключи_бренд |pl_Поиск",
+  "StartDate": "2026-01-12",
+  "Type": "TEXT_CAMPAIGN",
+  "Status": "MODERATION",
+  "State": "ARCHIVED",
+  "Currency": "RUB",
+  "DailyBudget": null,
+  "EndDate": null,
+  "NegativeKeywords": {
+   "Items": [
+    "!даром",
+    "!зао",
+    "!как выбрать",
+    "!на час",
+    "!своими",
+    "!цмт",
+    "!что",
+    "!что !такое",
+    "!это",
+    "\"аренда залов в москоу сити\"",
+    "\"снять зал в москве\"",
+    "[есть ли]",
+    "[офисных мест]",
+    "[парк культуры]",
+    "andys",
+    "atmosfera",
+    "cmt",
+    "crowne plaza",
+    "download",
+    "faq",
+    "free",
+    "global",
+    "hall",
+    "holiday inn",
+    "hyatt",
+    "jonathan dance",
+    "loft hall",
+    "mondrian",
+    "palmira",
+    "petersburg",
+    "porn",
+    "porno",
+    "radisson",
+    "roomrent",
+    "sex",
+    "soluxe",
+    "torents",
+    "torrent",
+    "white",
+    "wiki",
+    "wikipedia",
+    "азимут",
+    "альфа",
+    "амфитеатр",
+    "ангара",
+    "анекдот",
+    "антикафе",
+    "арарат",
+    "арбат",
+    "аркадии",
+    "афимолл",
+    "балетных",
+    "балчуг",
+    "безкоштовно",
+    "белорусской",
+    "беседкой",
+    "бесплатно",
+    "бизнес точка",
+    "блог",
+    "больнице",
+    "брянск",
+    "вакансии",
+    "введенский",
+    "вегас",
+    "видео",
+    "вики",
+    "википедия",
+    "вип",
+    "виртуальный",
+    "вконтакте",
+    "владивосток",
+    "вокала",
+    "воронеж",
+    "восточный",
+    "гелио",
+    "гост",
+    "гранд",
+    "дворец",
+    "делового туризма",
+    "дешево",
+    "диплом",
+    "диссертация",
+    "договор",
+    "доклад",
+    "драйвер",
+    "дубае",
+    "екатеринбург",
+    "енисей",
+    "есенин",
+    "завтрак",
+    "застройка",
+    "инструкция",
+    "искра",
+    "искусство",
+    "каминного",
+    "карлтон",
+    "картинка",
+    "кафе",
+    "киевская",
+    "контрольная",
+    "королев",
+    "красногорск",
+    "краснодаре",
+    "красноярск",
+    "крворкинг",
+    "крокус",
+    "курсовая",
+    "курсы",
+    "лубянке",
+    "мадрид",
+    "марриотт",
+    "махачкале",
+    "менделеевская",
+    "методы",
+    "метрополь",
+    "мир",
+    "мовенпик",
+    "молодежи",
+    "музосфера",
+    "набережная",
+    "недостатки",
+    "новосибирск",
+    "ногинск",
+    "оборудование",
+    "образец",
+    "обучение",
+    "оквэд",
+    "октябрь",
+    "описание",
+    "определение",
+    "отзывы",
+    "офиса",
+    "памятка",
+    "пансионат",
+    "парк",
+    "петербурге",
+    "печатников",
+    "плаза",
+    "планета",
+    "подмосковье",
+    "полюс",
+    "порно",
+    "порнушка",
+    "почасовая",
+    "пресненская",
+    "прикол",
+    "приснилось",
+    "прошивка",
+    "работа",
+    "рассадка",
+    "реферат",
+    "рисунок",
+    "роялем",
+    "руками",
+    "рэдиссон",
+    "самара",
+    "самарская",
+    "самодельный",
+    "самостоятельно",
+    "санкт",
+    "санктпетербурге",
+    "северная",
+    "секрет",
+    "секс",
+    "скачать",
+    "сколково",
+    "смешно",
+    "сонник",
+    "состав",
+    "способ",
+    "статья",
+    "схема",
+    "татами",
+    "театральный",
+    "техноград",
+    "технология",
+    "торент",
+    "торрент",
+    "трехгорной",
+    "уловки",
+    "устройство",
+    "фит",
+    "флакон",
+    "фора банк",
+    "фортепиано",
+    "форум",
+    "фото",
+    "хабра",
+    "хабрхабр",
+    "хаятт",
+    "хитрости",
+    "хостел",
+    "чайковски",
+    "черепаха",
+    "шанти",
+    "шелковый",
+    "шпоргалка",
+    "шпоры",
+    "эротика",
+    "эротический",
+    "юмор",
+    "ясенево"
+   ]
+  },
+  "BlockedIps": null,
+  "ExcludedSites": {
+   "Items": [
+    "images.rambler.ru",
+    "images.yandex.by",
+    "images.yandex.kz",
+    "images.yandex.ru",
+    "images.yandex.ua",
+    "m.images.yandex.ru",
+    "m.video.yandex.ru",
+    "video.yandex.by",
+    "video.yandex.kz",
+    "video.yandex.ru",
+    "video.yandex.ua"
+   ]
+  },
+  "TextCampaign": {
+   "BiddingStrategy": {
+    "Search": {
+     "BiddingStrategyType": "WB_MAXIMUM_CLICKS",
+     "WbMaximumClicks": {
+      "WeeklySpendLimit": 20000000000,
+      "BudgetType": "WEEKLY_BUDGET",
+      "BidCeiling": 600000000
+     }
+    },
+    "Network": {
+     "BiddingStrategyType": "SERVING_OFF"
+    }
+   },
+   "Settings": [
+    {
+     "Option": "ADD_METRICA_TAG",
+     "Value": "NO"
+    },
+    {
+     "Option": "ADD_OPENSTAT_TAG",
+     "Value": "NO"
+    },
+    {
+     "Option": "ADD_TO_FAVORITES",
+     "Value": "NO"
+    },
+    {
+     "Option": "CAMPAIGN_EXACT_PHRASE_MATCHING_ENABLED",
+     "Value": "NO"
+    },
+    {
+     "Option": "DAILY_BUDGET_ALLOWED",
+     "Value": "YES"
+    },
+    {
+     "Option": "ENABLE_AREA_OF_INTEREST_TARGETING",
+     "Value": "NO"
+    },
+    {
+     "Option": "ENABLE_COMPANY_INFO",
+     "Value": "YES"
+    },
+    {
+     "Option": "ENABLE_EXTENDED_AD_TITLE",
+     "Value": "YES"
+    },
+    {
+     "Option": "ENABLE_SITE_MONITORING",
+     "Value": "YES"
+    },
+    {
+     "Option": "EXCLUDE_PAUSED_COMPETING_ADS",
+     "Value": "NO"
+    },
+    {
+     "Option": "MAINTAIN_NETWORK_CPC",
+     "Value": "NO"
+    },
+    {
+     "Option": "REQUIRE_SERVICING",
+     "Value": "NO"
+    },
+    {
+     "Option": "SHARED_ACCOUNT_ENABLED",
+     "Value": "YES"
+    },
+    {
+     "Option": "ALTERNATIVE_TEXTS_ENABLED",
+     "Value": "NO"
+    }
+   ],
+   "TrackingParams": null,
+   "PriorityGoals": {
+    "Items": [
+     {
+      "GoalId": 498289834,
+      "Value": 500000000,
+      "IsMetrikaSourceOfValue": "NO"
+     },
+     {
+      "GoalId": 498298013,
+      "Value": 500000000,
+      "IsMetrikaSourceOfValue": "NO"
+     },
+     {
+      "GoalId": 511709344,
+      "Value": 1000000000,
+      "IsMetrikaSourceOfValue": "NO"
+     }
+    ]
+   },
+   "CounterIds": {
+    "Items": [
+     97147563,
+     105965383
+    ]
+   },
+   "RelevantKeywords": null,
+   "AttributionModel": "AUTO",
+   "NegativeKeywordSharedSetIds": {
+    "Items": []
+   }
+  },
+  "TimeTargeting": {
+   "HolidaysSchedule": null,
+   "Schedule": {
+    "Items": [
+     "1,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100",
+     "2,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100",
+     "3,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100",
+     "4,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100",
+     "5,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100",
+     "6,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100",
+     "7,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100"
+    ]
+   },
+   "ConsiderWorkingWeekends": "YES"
+  }
+ },
+ "bidmodifiers": [
+  {
+   "CampaignId": 705894429,
+   "AdGroupId": null,
+   "Id": 101903738553,
+   "Level": "CAMPAIGN",
+   "Type": "MOBILE_ADJUSTMENT",
+   "MobileAdjustment": {
+    "BidModifier": 80
+   }
+  },
+  {
+   "CampaignId": 705894429,
+   "AdGroupId": null,
+   "Id": 111533274128,
+   "Level": "CAMPAIGN",
+   "Type": "DEMOGRAPHICS_ADJUSTMENT",
+   "DemographicsAdjustment": {
+    "Gender": null,
+    "Age": "AGE_0_17",
+    "BidModifier": 0,
+    "Enabled": "YES"
+   }
+  },
+  {
+   "CampaignId": 705894429,
+   "AdGroupId": null,
+   "Id": 122084571181,
+   "Level": "CAMPAIGN",
+   "Type": "RETARGETING_ADJUSTMENT",
+   "RetargetingAdjustment": {
+    "RetargetingConditionId": 40542238,
+    "BidModifier": 100,
+    "Accessible": "YES",
+    "Enabled": "YES"
+   }
+  },
+  {
+   "CampaignId": 705894429,
+   "AdGroupId": null,
+   "Id": 261903738554,
+   "Level": "CAMPAIGN",
+   "Type": "SMART_TV_ADJUSTMENT"
+  },
+  {
+   "CampaignId": 705894429,
+   "AdGroupId": null,
+   "Id": 271903738552,
+   "Level": "CAMPAIGN",
+   "Type": "TABLET_ADJUSTMENT",
+   "TabletAdjustment": {
+    "BidModifier": 0
+   }
+  },
+  {
+   "CampaignId": 705894429,
+   "AdGroupId": null,
+   "Id": 281903738551,
+   "Level": "CAMPAIGN",
+   "Type": "DESKTOP_ONLY_ADJUSTMENT",
+   "DesktopOnlyAdjustment": {
+    "BidModifier": 120
+   }
+  }
+ ],
+ "ads": [
+  {
+   "Id": 17500464774,
+   "AdGroupId": 5693840682,
+   "Status": "MODERATION",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "До 300 гостей, современное оборудование и LED-экраны. Оставьте заявку на сайте!",
+    "Title": "Конференц-залы Новотель. 13 лет работы в Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgklchi_brend_pl_poisk_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-events.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": null,
+    "SitelinkSetId": 1459437275,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17500464775,
+   "AdGroupId": 5693840682,
+   "Status": "MODERATION",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "Современные залы с LED-экранами, центр Москва-Сити. До 300 гостей. Бронируйте!",
+    "Title": "Конференц-залы Новотель. 13 лет работы в Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-events.ru?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgklchi_brend_pl_poisk_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-events.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": null,
+    "SitelinkSetId": 1459437275,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17734728558,
+   "AdGroupId": 5693840682,
+   "Status": "MODERATION",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "−20% на аренду конференц-залов. Ограниченное предложение — бронируйте сейчас!",
+    "Title": "Конференц-залы Новотель. 13 лет работы в Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-events.ru?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgklchi_brend_pl_poisk_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-events.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": null,
+    "SitelinkSetId": 1459437275,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17500464776,
+   "AdGroupId": 5693840683,
+   "Status": "UNKNOWN",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "До 300 гостей, современное оборудование и LED-экраны. Оставьте заявку на сайте!",
+    "Title": "Конференц-залы Новотель. 13 лет работы в Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-moscow-city.ru/events/halls?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgklchi_brend_pl_poisk_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-moscow-city.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": null,
+    "SitelinkSetId": 1451280270,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17500464777,
+   "AdGroupId": 5693840683,
+   "Status": "UNKNOWN",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "Современные залы с LED-экранами, центр Москва-Сити. До 300 гостей. Бронируйте!",
+    "Title": "Конференц-залы Новотель. 13 лет работы в Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-moscow-city.ru/events/halls?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgklchi_brend_pl_poisk_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-moscow-city.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": null,
+    "SitelinkSetId": 1451280270,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  }
+ ],
+ "sitelinks": [
+  {
+   "Id": 1451280270,
+   "Sitelinks": [
+    {
+     "Title": "Конференц-залы",
+     "Href": "https://novotel-moscow-city.ru/events/halls?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgklchi_brend_pl_poisk_{campaign_id}&utm_content={ad_id}&utm_term={keyword}#zaly",
+     "Description": "Подберем зал для вашего мероприятия"
+    },
+    {
+     "Title": "Меню",
+     "Href": "https://novotel-moscow-city.ru/events/catering?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgklchi_brend_pl_poisk_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+     "Description": "Фуршеты, кейтеринг, большой выбор блюд от шеф-повара"
+    },
+    {
+     "Title": "Галерея MICE",
+     "Href": "https://novotel-moscow-city.ru/gallery/konferenc-zaly?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgklchi_brend_pl_poisk_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+     "Description": "Собрали лучшие фото наших конференц-залов"
+    },
+    {
+     "Title": "Подготовка залов",
+     "Href": "https://novotel-moscow-city.ru/events/halls?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgklchi_brend_pl_poisk_{campaign_id}&utm_content={ad_id}&utm_term={keyword}#podgotovka-zalov",
+     "Description": "Видео о подготовке залов к проведению мероприятия"
+    }
+   ]
+  },
+  {
+   "Id": 1459437275,
+   "Sitelinks": [
+    {
+     "Title": "Конференц-залы",
+     "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgklchi_brend_pl_poisk_{campaign_id}&utm_content={ad_id}&utm_term={keyword}#zal",
+     "Description": "Подберем зал для вашего мероприятия"
+    },
+    {
+     "Title": "Меню",
+     "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgklchi_brend_pl_poisk_{campaign_id}&utm_content={ad_id}&utm_term={keyword}#keytering",
+     "Description": "Фуршеты, кейтеринг, большой выбор блюд от шеф-повара"
+    },
+    {
+     "Title": "Галерея MICE",
+     "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgklchi_brend_pl_poisk_{campaign_id}&utm_content={ad_id}&utm_term={keyword}#zal",
+     "Description": "Собрали лучшие фото наших конференц-залов"
+    },
+    {
+     "Title": "Размещение",
+     "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgklchi_brend_pl_poisk_{campaign_id}&utm_content={ad_id}&utm_term={keyword}#nomer",
+     "Description": "Предлагаем 361 комфортный номер в отеле"
+    }
+   ]
+  }
+ ],
+ "adextensions": {
+  "result": {
+   "AdExtensions": [
+    {
+     "Id": 41292422,
+     "Type": "CALLOUT",
+     "Callout": {
+      "CalloutText": "Команда профессионалов"
+     },
+     "State": "ON",
+     "Status": "ACCEPTED"
+    },
+    {
+     "Id": 41292423,
+     "Type": "CALLOUT",
+     "Callout": {
+      "CalloutText": "Бесплатный Wi-Fi"
+     },
+     "State": "ON",
+     "Status": "ACCEPTED"
+    },
+    {
+     "Id": 41292424,
+     "Type": "CALLOUT",
+     "Callout": {
+      "CalloutText": "Премиальный сервис"
+     },
+     "State": "ON",
+     "Status": "ACCEPTED"
+    }
+   ]
+  }
+ },
+ "autotargeting": [
+  {
+   "Id": 205693840682,
+   "Keyword": "---autotargeting",
+   "State": "ON",
+   "AutotargetingCategories": {
+    "Items": [
+     {
+      "Category": "EXACT",
+      "Value": "NO"
+     },
+     {
+      "Category": "ALTERNATIVE",
+      "Value": "YES"
+     },
+     {
+      "Category": "COMPETITOR",
+      "Value": "NO"
+     },
+     {
+      "Category": "BROADER",
+      "Value": "NO"
+     },
+     {
+      "Category": "ACCESSORY",
+      "Value": "NO"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 205693840683,
+   "Keyword": "---autotargeting",
+   "State": "ON",
+   "AutotargetingCategories": {
+    "Items": [
+     {
+      "Category": "EXACT",
+      "Value": "NO"
+     },
+     {
+      "Category": "ALTERNATIVE",
+      "Value": "YES"
+     },
+     {
+      "Category": "COMPETITOR",
+      "Value": "NO"
+     },
+     {
+      "Category": "BROADER",
+      "Value": "NO"
+     },
+     {
+      "Category": "ACCESSORY",
+      "Value": "NO"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,1530 @@
+{
+ "campaign": {
+  "ClientInfo": null,
+  "Notification": {
+   "SmsSettings": {
+    "TimeFrom": "09:00",
+    "TimeTo": "21:00"
+   },
+   "EmailSettings": {
+    "Email": "info@next-level-agency.ru",
+    "CheckPositionInterval": 60,
+    "WarningBalance": 20,
+    "SendAccountNews": "NO",
+    "SendWarnings": "NO"
+   }
+  },
+  "TimeZone": "Europe/Moscow",
+  "Id": 705939577,
+  "Name": "b_Новотель |geo_РФ |st_ТГО |tg:Сайт |pl_РСЯ",
+  "StartDate": "2026-01-12",
+  "Type": "TEXT_CAMPAIGN",
+  "Status": "MODERATION",
+  "State": "ARCHIVED",
+  "Currency": "RUB",
+  "DailyBudget": null,
+  "EndDate": null,
+  "NegativeKeywords": null,
+  "BlockedIps": null,
+  "ExcludedSites": {
+   "Items": [
+    "03.ru",
+    "7razvodov.ru",
+    "agirls.space",
+    "allbest.ru",
+    "allpravo.ru",
+    "alpha-ag.ru",
+    "anekdot.ru",
+    "artpetroff.com",
+    "bookok.ru",
+    "borda.ru",
+    "chita-brita.ru",
+    "com.7thg.flashlight",
+    "com.a2_partners.android.dividends",
+    "com.alfa.bemoneyed.gplay",
+    "com.alfa.droplets.gplay",
+    "com.alfa.juminjia.gplay",
+    "com.alfa.russian_roulette.gplay",
+    "com.alfa.snake.gplay",
+    "com.alyaskaapps.santaletter",
+    "com.amberfog.reader",
+    "com.amberfog.vkfree",
+    "com.anyreads.patephone",
+    "com.appnetto.ruble",
+    "com.appteka.sportexpress",
+    "com.arpaplus.kontact",
+    "com.askfm",
+    "com.badoo.mobile",
+    "com.bandagames.mpuzzle.gp",
+    "com.blockpuzzle.us.ios",
+    "com.brainsoftduo.anecdotes",
+    "com.brainsoftduo.mysterious",
+    "com.chaloapps.roosterrudy",
+    "com.chess.master3d",
+    "com.cleanmaster.mguard",
+    "com.client.sov.fairytails",
+    "com.cloudycastlegames.wordline",
+    "com.colorup.game",
+    "com.craftsman.go",
+    "com.crazylabs.amaze.game",
+    "com.creativemobile.dragracing",
+    "com.darkforestcat.free-music",
+    "com.ddm.iptools",
+    "com.devexpert.weather",
+    "com.drink.water.reminder.alarm.tracker",
+    "com.dta.trigon",
+    "com.dupovalo.name",
+    "com.easyapps.livecards",
+    "com.easyapps.wishes",
+    "com.egorantonyuk.tiles",
+    "com.entertainment.polygonart",
+    "com.ermolnik.ermolnik.antispamvk",
+    "com.europosit.recollect.coloringbook",
+    "com.europosit.recollectgp.coloringbook",
+    "com.existage.vasia",
+    "com.fancyforce.happywheels",
+    "com.fast.free.unblock.thunder.vpn",
+    "com.fastvpn.unblock.free",
+    "com.flashlight.brightest.beacon.torch",
+    "com.free.fast.vpn.unblock",
+    "com.free.vpn.unblock.hotspot.secure",
+    "com.free.vpn.unblock.privacy",
+    "com.freevpn.unblock.hotspot.vpn",
+    "com.fromthebenchgames.fantasymanager.football5",
+    "com.fugo.wow",
+    "com.fullfat.bw",
+    "com.funfinity.amobear.blaze.shooter",
+    "com.fungames.blockcraft",
+    "com.gameloft.citybuilder",
+    "com.gamelolo.game",
+    "com.games.bottle",
+    "com.gethornet.hornet",
+    "com.gipnetix.stages",
+    "com.globalplay.birdsort2.color.puzzle",
+    "com.gongobot.repost",
+    "com.health.lab.drink.water.tracker",
+    "com.huawei.browser",
+    "com.if060051.seabattle",
+    "com.imo.android.imoim",
+    "com.imo.android.imoimhd",
+    "com.ivygames.morskoiboi",
+    "com.iwolt.testiq",
+    "com.kiloo.subwaysurfers",
+    "com.kumbralyov.keywords.keywords",
+    "com.library.manipulation.management.app",
+    "com.liquid.sort.crazy.lab.color.game",
+    "com.maximko.cuber",
+    "com.maximsemenov.kontact",
+    "com.merigotech.fillwords.en",
+    "com.mpisoft.doors2.beta",
+    "com.mskmsk.thi",
+    "com.narde.backgammon.game",
+    "com.nirkof.sni",
+    "com.oakever.tiletrip",
+    "com.onecwearable.keyboard",
+    "com.openmygame.games.android.fillwordsoffline",
+    "com.openmygame.games.android.sudokumaster",
+    "com.openmygame.games.android.wordpizza",
+    "com.openmygame.games.android.wordsearchsea",
+    "com.opera.browser.beta",
+    "com.opera.mini.native.beta",
+    "com.orangeapps.piratetreasure",
+    "com.outfit7.mytalkingangela2",
+    "com.outfit7.mytalkingtom2",
+    "com.outfit7.mytalkingtomfree",
+    "com.perm.kate",
+    "com.pinwan.blockleap.huawei",
+    "com.pinwan.skylinespeed.huawei",
+    "com.pixel.art.coloring.color.number",
+    "com.playkot.adventure",
+    "com.playstrom.dop2",
+    "com.protey.doors.challenge",
+    "com.protey.doors.puzzlebox",
+    "com.psiphon3.subscription",
+    "com.raghu.braingame",
+    "com.rambler.horoscopes",
+    "com.rexetstudio.blockstrike",
+    "com.rezustadevs.ytp",
+    "com.rubisoft.gayradar",
+    "com.rusdev.pid",
+    "com.sandboxcubemaster.huawei",
+    "com.scanword.journal",
+    "com.schibsted.android.rocket.kufar",
+    "com.schibstedbelarus.kufar",
+    "com.seclife.rustore.connect.wow.wordscapes.trip",
+    "com.secure.vpn.unblock.fast",
+    "com.sh.mini.antistress.relaxing.games",
+    "com.shadowdev.upgrader",
+    "com.simple.pro.fast.unlimited.private.vpn",
+    "com.solverlabs.exploration",
+    "com.solverlabs.poc",
+    "com.sp_igames.ugadai",
+    "com.sparuny.shtrafi",
+    "com.spcards.congrat",
+    "com.sport.body.streching.leg.exercise.streching",
+    "com.sportexpress.ipad",
+    "com.starplay.spider.fighter.openworld",
+    "com.stealthgame.master",
+    "com.stickman.annihilation.dismount",
+    "com.super.free.supervpn",
+    "com.supervpn.free.vpn.unblock",
+    "com.supervpn.vpn.free.proxy",
+    "com.teamtol.livedota",
+    "com.turbovpn.vpn.free",
+    "com.twodtwob.coloring.adult",
+    "com.twodtwob.coloring.pixels",
+    "com.twodtwob.cyber.sportsman",
+    "com.unblock.free.fast.vpn",
+    "com.unblock.vpn.fast.free",
+    "com.vetasstudio.orso",
+    "com.vgtrk.russiatv",
+    "com.viber",
+    "com.vk.vkclient",
+    "com.vpn.fast.unblock.free",
+    "com.vpn.super.unblock.fast",
+    "com.vpn.unblock.fast.master",
+    "com.vpn.unblock.master.free.fast.safe",
+    "com.vpn.unblock.safe.fast",
+    "com.vpn.unblock.secure.hotspot",
+    "com.vpnmaster.free.unblock",
+    "com.yandex.browser.beta",
+    "com.yandex.launcher",
+    "com.zaecmobile.sarcazm",
+    "com.zebu.statusi",
+    "com.zenfox.doors.beast.clash",
+    "com.zizi.poznavatel",
+    "com.zm.girlsblog",
+    "com.zm.watersort",
+    "daily.number.match.free.puzzle",
+    "dic.academic.ru",
+    "disk.yandex.ru",
+    "doshirak-promo.ru",
+    "eda.ru",
+    "flymer.ru",
+    "free.vpn.unblock.proxy.turbovpn",
+    "game.yandex.ru",
+    "games.mail.ru",
+    "gdepoem.ru",
+    "images.rambler.ru",
+    "images.yandex.ru",
+    "kinomelit.com",
+    "krasnodarregistr.ru",
+    "linkdesks.block.puzzle.classic.puzzlegames",
+    "lotobilet.com",
+    "loveplanet.ru",
+    "m.fotostrana.ru",
+    "m.games.yandex.ru",
+    "m.mamba.ru",
+    "mamba.ru",
+    "maximonline.ru",
+    "me.incrdbl.android.wordbyword",
+    "mirtesen.ru",
+    "molneya.ru",
+    "moscowmap.ru",
+    "msn.com",
+    "mylove.ru",
+    "paparazzi.ru",
+    "popravu.club",
+    "rasp.yandex.ru",
+    "readmanga.me",
+    "ru.365.wiki",
+    "ru.anatolydmitriev.coach",
+    "ru.arbitrsud",
+    "ru.aspres.yatr",
+    "ru.avito.app",
+    "ru.banki.currency",
+    "ru.centimo.org",
+    "ru.chat.ktotut",
+    "ru.climate-data.org",
+    "ru.cn.tv",
+    "ru.contdict.com",
+    "ru.crypto-news.io",
+    "ru.esosedi.org",
+    "ru.euronews.com",
+    "ru.facebusinessman.com",
+    "ru.fotostrana.sweetmeet",
+    "ru.gde-fon.com",
+    "ru.gecid.com",
+    "ru.gpmrtv.fizruk.game",
+    "ru.hellomagazine.com",
+    "ru.ifo.su",
+    "ru.ilya.develop.detskieskazki",
+    "ru.inettools.net",
+    "ru.investing.com",
+    "ru.kraist.tvlist",
+    "ru.libword.net",
+    "ru.mobifactor.aifnews",
+    "ru.ngs.news",
+    "ru.photostrana.mobile",
+    "ru.profmedia.avtoradio",
+    "ru.qwerty.wiki",
+    "ru.rambler.horoscopes",
+    "ru.rian.reader",
+    "ru.savefrom.net",
+    "ru.sport-wiki.org",
+    "ru.telegram-store.com",
+    "ru.tv",
+    "ru.ucoin.net",
+    "ru.wikipedia.org",
+    "ru.yandex.mail",
+    "ru.yandex.mobile",
+    "ru.yandex.mobile.weather",
+    "ru.zhursky.football",
+    "ru.znakomstva.ru",
+    "sorting.games.goods.sort.triple.match3d.puzzle.stuff",
+    "tv.yandex.ru",
+    "video.yandex.ru",
+    "vz.ru",
+    "wi-fi.ru",
+    "win.mail.ru",
+    "zahleb.me",
+    "zaycev.net"
+   ]
+  },
+  "TextCampaign": {
+   "BiddingStrategy": {
+    "Search": {
+     "BiddingStrategyType": "SERVING_OFF"
+    },
+    "Network": {
+     "BiddingStrategyType": "AVERAGE_CPA_MULTIPLE_GOALS",
+     "AverageCpaMultipleGoals": {
+      "WeeklySpendLimit": 7000000000,
+      "BudgetType": "WEEKLY_BUDGET",
+      "ExplorationBudget": {
+       "MinimumExplorationBudget": 7000000000,
+       "IsMinimumExplorationBudgetCustom": "NO"
+      },
+      "BidCeiling": null
+     }
+    }
+   },
+   "Settings": [
+    {
+     "Option": "ADD_METRICA_TAG",
+     "Value": "NO"
+    },
+    {
+     "Option": "ADD_OPENSTAT_TAG",
+     "Value": "NO"
+    },
+    {
+     "Option": "ADD_TO_FAVORITES",
+     "Value": "NO"
+    },
+    {
+     "Option": "CAMPAIGN_EXACT_PHRASE_MATCHING_ENABLED",
+     "Value": "NO"
+    },
+    {
+     "Option": "DAILY_BUDGET_ALLOWED",
+     "Value": "YES"
+    },
+    {
+     "Option": "ENABLE_AREA_OF_INTEREST_TARGETING",
+     "Value": "NO"
+    },
+    {
+     "Option": "ENABLE_COMPANY_INFO",
+     "Value": "YES"
+    },
+    {
+     "Option": "ENABLE_EXTENDED_AD_TITLE",
+     "Value": "YES"
+    },
+    {
+     "Option": "ENABLE_SITE_MONITORING",
+     "Value": "YES"
+    },
+    {
+     "Option": "EXCLUDE_PAUSED_COMPETING_ADS",
+     "Value": "NO"
+    },
+    {
+     "Option": "MAINTAIN_NETWORK_CPC",
+     "Value": "NO"
+    },
+    {
+     "Option": "REQUIRE_SERVICING",
+     "Value": "NO"
+    },
+    {
+     "Option": "SHARED_ACCOUNT_ENABLED",
+     "Value": "YES"
+    },
+    {
+     "Option": "ALTERNATIVE_TEXTS_ENABLED",
+     "Value": "NO"
+    }
+   ],
+   "TrackingParams": null,
+   "PriorityGoals": {
+    "Items": [
+     {
+      "GoalId": 498298013,
+      "Value": 1000000000,
+      "IsMetrikaSourceOfValue": "NO"
+     },
+     {
+      "GoalId": 498289834,
+      "Value": 1000000000,
+      "IsMetrikaSourceOfValue": "NO"
+     }
+    ]
+   },
+   "CounterIds": {
+    "Items": [
+     97147563,
+     105965383
+    ]
+   },
+   "RelevantKeywords": null,
+   "AttributionModel": "AUTO",
+   "NegativeKeywordSharedSetIds": {
+    "Items": []
+   }
+  },
+  "TimeTargeting": {
+   "HolidaysSchedule": null,
+   "Schedule": {
+    "Items": [
+     "1,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100",
+     "2,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100",
+     "3,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100",
+     "4,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100",
+     "5,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100",
+     "6,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100",
+     "7,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100"
+    ]
+   },
+   "ConsiderWorkingWeekends": "YES"
+  }
+ },
+ "bidmodifiers": [
+  {
+   "CampaignId": 705939577,
+   "AdGroupId": null,
+   "Id": 111533637996,
+   "Level": "CAMPAIGN",
+   "Type": "DEMOGRAPHICS_ADJUSTMENT",
+   "DemographicsAdjustment": {
+    "Gender": null,
+    "Age": "AGE_0_17",
+    "BidModifier": 0,
+    "Enabled": "YES"
+   }
+  }
+ ],
+ "ads": [
+  {
+   "Id": 17505556033,
+   "AdGroupId": 5694828929,
+   "Status": "UNKNOWN",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "Площадки для встреч и форумов в Москва-Сити. 8 залов, кейтеринг, паркинг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-moscow-city.ru/events/halls?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_lal_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-moscow-city.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "9wgXBLtbu1r5A7yXiCSGHQ",
+    "SitelinkSetId": 1451632249,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556034,
+   "AdGroupId": 5694828929,
+   "Status": "UNKNOWN",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "8 конф-залов в центре Москвы. От 10 до 300 человек. Паркинг и кейтеринг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-moscow-city.ru/events/halls?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_lal_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-moscow-city.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "9wgXBLtbu1r5A7yXiCSGHQ",
+    "SitelinkSetId": 1451632249,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556035,
+   "AdGroupId": 5694828929,
+   "Status": "UNKNOWN",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "Площадки для встреч и форумов в Москва-Сити. 8 залов, кейтеринг, паркинг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-moscow-city.ru/events/halls?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_lal_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-moscow-city.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "hI3-4nKJLt3r7tHcrY11aQ",
+    "SitelinkSetId": 1451632249,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556036,
+   "AdGroupId": 5694828929,
+   "Status": "UNKNOWN",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "8 конф-залов в центре Москвы. От 10 до 300 человек. Паркинг и кейтеринг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-moscow-city.ru/events/halls?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_lal_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-moscow-city.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "hI3-4nKJLt3r7tHcrY11aQ",
+    "SitelinkSetId": 1451632249,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556037,
+   "AdGroupId": 5694828929,
+   "Status": "UNKNOWN",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "Площадки для встреч и форумов в Москва-Сити. 8 залов, кейтеринг, паркинг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-moscow-city.ru/events/halls?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_lal_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-moscow-city.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "1z4xz5D4AwHazCS2m2uEgg",
+    "SitelinkSetId": 1451632249,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556038,
+   "AdGroupId": 5694828929,
+   "Status": "UNKNOWN",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "8 конф-залов в центре Москвы. От 10 до 300 человек. Паркинг и кейтеринг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-moscow-city.ru/events/halls?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_lal_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-moscow-city.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "1z4xz5D4AwHazCS2m2uEgg",
+    "SitelinkSetId": 1451632249,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556039,
+   "AdGroupId": 5694828929,
+   "Status": "UNKNOWN",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "Площадки для встреч и форумов в Москва-Сити. 8 залов, кейтеринг, паркинг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-moscow-city.ru/events/halls?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_lal_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-moscow-city.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "L8Z41M6wkONMyWkO_jFvCw",
+    "SitelinkSetId": 1451632249,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556040,
+   "AdGroupId": 5694828929,
+   "Status": "UNKNOWN",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "8 конф-залов в центре Москвы. От 10 до 300 человек. Паркинг и кейтеринг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-moscow-city.ru/events/halls?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_lal_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-moscow-city.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "L8Z41M6wkONMyWkO_jFvCw",
+    "SitelinkSetId": 1451632249,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556041,
+   "AdGroupId": 5694828930,
+   "Status": "MODERATION",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "Площадки для встреч и форумов в Москва-Сити. 8 залов, кейтеринг, паркинг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-events.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "9wgXBLtbu1r5A7yXiCSGHQ",
+    "SitelinkSetId": 1459437276,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556042,
+   "AdGroupId": 5694828930,
+   "Status": "MODERATION",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "8 конф-залов в центре Москвы. От 10 до 300 человек. Паркинг и кейтеринг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-events.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "9wgXBLtbu1r5A7yXiCSGHQ",
+    "SitelinkSetId": 1459437276,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556043,
+   "AdGroupId": 5694828930,
+   "Status": "MODERATION",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "Площадки для встреч и форумов в Москва-Сити. 8 залов, кейтеринг, паркинг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-events.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "hI3-4nKJLt3r7tHcrY11aQ",
+    "SitelinkSetId": 1459437276,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556044,
+   "AdGroupId": 5694828930,
+   "Status": "MODERATION",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "8 конф-залов в центре Москвы. От 10 до 300 человек. Паркинг и кейтеринг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-events.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "hI3-4nKJLt3r7tHcrY11aQ",
+    "SitelinkSetId": 1459437276,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556045,
+   "AdGroupId": 5694828930,
+   "Status": "MODERATION",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "Площадки для встреч и форумов в Москва-Сити. 8 залов, кейтеринг, паркинг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-events.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "1z4xz5D4AwHazCS2m2uEgg",
+    "SitelinkSetId": 1459437276,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556046,
+   "AdGroupId": 5694828930,
+   "Status": "MODERATION",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "8 конф-залов в центре Москвы. От 10 до 300 человек. Паркинг и кейтеринг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-events.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "1z4xz5D4AwHazCS2m2uEgg",
+    "SitelinkSetId": 1459437276,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556047,
+   "AdGroupId": 5694828930,
+   "Status": "MODERATION",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "Площадки для встреч и форумов в Москва-Сити. 8 залов, кейтеринг, паркинг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-events.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "L8Z41M6wkONMyWkO_jFvCw",
+    "SitelinkSetId": 1459437276,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556048,
+   "AdGroupId": 5694828930,
+   "Status": "MODERATION",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "8 конф-залов в центре Москвы. От 10 до 300 человек. Паркинг и кейтеринг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-events.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "L8Z41M6wkONMyWkO_jFvCw",
+    "SitelinkSetId": 1459437276,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556049,
+   "AdGroupId": 5694828931,
+   "Status": "UNKNOWN",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "Площадки для встреч и форумов в Москва-Сити. 8 залов, кейтеринг, паркинг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-events.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "9wgXBLtbu1r5A7yXiCSGHQ",
+    "SitelinkSetId": 1459437276,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556050,
+   "AdGroupId": 5694828931,
+   "Status": "UNKNOWN",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "8 конф-залов в центре Москвы. От 10 до 300 человек. Паркинг и кейтеринг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-events.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "9wgXBLtbu1r5A7yXiCSGHQ",
+    "SitelinkSetId": 1459437276,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556051,
+   "AdGroupId": 5694828931,
+   "Status": "UNKNOWN",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "Площадки для встреч и форумов в Москва-Сити. 8 залов, кейтеринг, паркинг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-events.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "hI3-4nKJLt3r7tHcrY11aQ",
+    "SitelinkSetId": 1459437276,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556052,
+   "AdGroupId": 5694828931,
+   "Status": "UNKNOWN",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "8 конф-залов в центре Москвы. От 10 до 300 человек. Паркинг и кейтеринг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-events.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "hI3-4nKJLt3r7tHcrY11aQ",
+    "SitelinkSetId": 1459437276,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556053,
+   "AdGroupId": 5694828931,
+   "Status": "UNKNOWN",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "Площадки для встреч и форумов в Москва-Сити. 8 залов, кейтеринг, паркинг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-events.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "1z4xz5D4AwHazCS2m2uEgg",
+    "SitelinkSetId": 1459437276,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556054,
+   "AdGroupId": 5694828931,
+   "Status": "UNKNOWN",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "8 конф-залов в центре Москвы. От 10 до 300 человек. Паркинг и кейтеринг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-events.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "1z4xz5D4AwHazCS2m2uEgg",
+    "SitelinkSetId": 1459437276,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556055,
+   "AdGroupId": 5694828931,
+   "Status": "UNKNOWN",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "Площадки для встреч и форумов в Москва-Сити. 8 залов, кейтеринг, паркинг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-events.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "L8Z41M6wkONMyWkO_jFvCw",
+    "SitelinkSetId": 1459437276,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 17505556056,
+   "AdGroupId": 5694828931,
+   "Status": "UNKNOWN",
+   "State": "ARCHIVED",
+   "Type": "TEXT_AD",
+   "TextAd": {
+    "Text": "8 конф-залов в центре Москвы. От 10 до 300 человек. Паркинг и кейтеринг. Бронируйте!",
+    "Title": "Переговорные и конференц-залы в Novotel Москва-Сити",
+    "Title2": null,
+    "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+    "Mobile": "NO",
+    "DisplayDomain": "novotel-events.ru",
+    "DisplayUrlPath": "Конф-залы-Novotel",
+    "ButtonExtension": null,
+    "VideoExtension": null,
+    "TurboPageId": null,
+    "BusinessId": null,
+    "TrackingPhoneId": null,
+    "PreferVCardOverBusiness": "NO",
+    "VCardId": null,
+    "AdImageHash": "L8Z41M6wkONMyWkO_jFvCw",
+    "SitelinkSetId": 1459437276,
+    "AdExtensions": [
+     {
+      "AdExtensionId": 41292422,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292423,
+      "Type": "CALLOUT"
+     },
+     {
+      "AdExtensionId": 41292424,
+      "Type": "CALLOUT"
+     }
+    ]
+   }
+  }
+ ],
+ "sitelinks": [
+  {
+   "Id": 1451632249,
+   "Sitelinks": [
+    {
+     "Title": "Конференц-залы",
+     "Href": "https://novotel-moscow-city.ru/events/halls?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_lal_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}#zaly",
+     "Description": "Подберем зал для вашего мероприятия"
+    },
+    {
+     "Title": "Меню",
+     "Href": "https://novotel-moscow-city.ru/events/catering?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_lal_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+     "Description": "Фуршеты, кейтеринг, большой выбор блюд от шеф-повара"
+    },
+    {
+     "Title": "Галерея MICE",
+     "Href": "https://novotel-moscow-city.ru/gallery/konferenc-zaly?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_lal_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+     "Description": "Собрали лучшие фото наших конференц-залов"
+    },
+    {
+     "Title": "Подготовка залов",
+     "Href": "https://novotel-moscow-city.ru/events/halls?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_lal_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}#podgotovka-zalov",
+     "Description": "Видео о подготовке залов к проведению мероприятия"
+    }
+   ]
+  },
+  {
+   "Id": 1459437276,
+   "Sitelinks": [
+    {
+     "Title": "Конференц-залы",
+     "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}#zal",
+     "Description": "Подберем зал для вашего мероприятия"
+    },
+    {
+     "Title": "Меню",
+     "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}#keytering",
+     "Description": "Фуршеты, кейтеринг, большой выбор блюд от шеф-повара"
+    },
+    {
+     "Title": "Галерея MICE",
+     "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}#zal",
+     "Description": "Собрали лучшие фото наших конференц-залов"
+    },
+    {
+     "Title": "Размещение",
+     "Href": "https://novotel-events.ru/?calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgsajt_pl_rsya_{campaign_id}&utm_content={ad_id}&utm_term={keyword}#nomer",
+     "Description": "Предлагаем 361 комфортный номер в отеле"
+    }
+   ]
+  }
+ ],
+ "adextensions": {
+  "result": {
+   "AdExtensions": [
+    {
+     "Id": 41292422,
+     "Type": "CALLOUT",
+     "Callout": {
+      "CalloutText": "Команда профессионалов"
+     },
+     "State": "ON",
+     "Status": "ACCEPTED"
+    },
+    {
+     "Id": 41292423,
+     "Type": "CALLOUT",
+     "Callout": {
+      "CalloutText": "Бесплатный Wi-Fi"
+     },
+     "State": "ON",
+     "Status": "ACCEPTED"
+    },
+    {
+     "Id": 41292424,
+     "Type": "CALLOUT",
+     "Callout": {
+      "CalloutText": "Премиальный сервис"
+     },
+     "State": "ON",
+     "Status": "ACCEPTED"
+    }
+   ]
+  }
+ },
+ "autotargeting": [
+  {
+   "Id": 205694828929,
+   "Keyword": "---autotargeting",
+   "State": "SUSPENDED",
+   "AutotargetingCategories": {
+    "Items": [
+     {
+      "Category": "EXACT",
+      "Value": "YES"
+     },
+     {
+      "Category": "ALTERNATIVE",
+      "Value": "YES"
+     },
+     {
+      "Category": "COMPETITOR",
+      "Value": "YES"
+     },
+     {
+      "Category": "BROADER",
+      "Value": "YES"
+     },
+     {
+      "Category": "ACCESSORY",
+      "Value": "YES"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 205694828930,
+   "Keyword": "---autotargeting",
+   "State": "SUSPENDED",
+   "AutotargetingCategories": {
+    "Items": [
+     {
+      "Category": "EXACT",
+      "Value": "YES"
+     },
+     {
+      "Category": "ALTERNATIVE",
+      "Value": "YES"
+     },
+     {
+      "Category": "COMPETITOR",
+      "Value": "YES"
+     },
+     {
+      "Category": "BROADER",
+      "Value": "YES"
+     },
+     {
+      "Category": "ACCESSORY",
+      "Value": "YES"
+     }
+    ]
+   }
+  },
+  {
+   "Id": 205694828931,
+   "Keyword": "---autotargeting",
+   "State": "SUSPENDED",
+   "AutotargetingCategories": {
+    "Items": [
+     {
+      "Category": "EXACT",
+      "Value": "YES"
+     },
+     {
+      "Category": "ALTERNATIVE",
+      "Value": "YES"
+     },
+     {
+      "Category": "COMPETITOR",
+      "Value": "YES"
+     },
+     {
+      "Category": "BROADER",
+      "Value": "YES"
+     },
+     {
+      "Category": "ACCESSORY",
+      "Value": "YES"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,577 @@
+{
+ "campaign": {
+  "ClientInfo": null,
+  "Notification": {
+   "SmsSettings": {
+    "TimeFrom": "09:00",
+    "TimeTo": "21:00"
+   },
+   "EmailSettings": {
+    "Email": "info@next-level-agency.ru",
+    "CheckPositionInterval": 60,
+    "WarningBalance": 20,
+    "SendAccountNews": "NO",
+    "SendWarnings": "NO"
+   }
+  },
+  "TimeZone": "Europe/Moscow",
+  "Id": 708052907,
+  "Name": "b_Новотель |geo_РФ |st_ТГО |tg:Ключи_общие |pl_Поиск|x_Тест_Сем-фида",
+  "StartDate": "2026-03-13",
+  "Type": "TEXT_CAMPAIGN",
+  "Status": "MODERATION",
+  "State": "ARCHIVED",
+  "Currency": "RUB",
+  "DailyBudget": null,
+  "EndDate": null,
+  "NegativeKeywords": {
+   "Items": [
+    "!арт",
+    "!вега",
+    "!втб",
+    "!даром",
+    "!др",
+    "!как выбрать",
+    "!на воде",
+    "!на час",
+    "!своими",
+    "!сделать",
+    "!цмт",
+    "!что",
+    "!что !такое",
+    "!это",
+    "\"аренда залов в москоу сити\"",
+    "\"переговорка\"",
+    "\"снять зал в москве\"",
+    "1905 года",
+    "300р",
+    "62 этаж",
+    "[офисных мест]",
+    "andys",
+    "clowne",
+    "coin",
+    "crowne plaza",
+    "dance",
+    "download",
+    "event",
+    "faq",
+    "free",
+    "gold dance",
+    "gravity",
+    "hall",
+    "hyatt",
+    "jonathan dance",
+    "loft",
+    "loft hall",
+    "mercure",
+    "model",
+    "mondrian",
+    "novotel",
+    "playstation",
+    "porn",
+    "porno",
+    "prime",
+    "radisson",
+    "sex",
+    "skyport",
+    "torents",
+    "torrent",
+    "white",
+    "wiki",
+    "wikipedia",
+    "агентства",
+    "акварель",
+    "альфа",
+    "ангара",
+    "анекдот",
+    "ариентир",
+    "артплей",
+    "асаки",
+    "бадл",
+    "балетных",
+    "банкет",
+    "банкетный",
+    "банкетный зал",
+    "баскетбол",
+    "баскетбольный",
+    "башня федерация",
+    "безкоштовно",
+    "бесплатно",
+    "библиотека",
+    "бильярд",
+    "блог",
+    "бык",
+    "вакансии",
+    "вегас",
+    "вечеринка",
+    "видео",
+    "вики",
+    "википедия",
+    "вип",
+    "виртуальный",
+    "вк",
+    "вконтакте",
+    "внуково",
+    "водный",
+    "вознесенский",
+    "волейбол",
+    "волейбольной",
+    "выпускной",
+    "выставка",
+    "выступления",
+    "гаваи",
+    "гамаками",
+    "где отметить",
+    "гелио",
+    "голд данс",
+    "гост",
+    "гостевой",
+    "гостиница",
+    "график",
+    "дворец",
+    "девичник",
+    "делового туризма",
+    "день рождения",
+    "дешево",
+    "диплом",
+    "диссертация",
+    "дк",
+    "договор",
+    "доклад",
+    "дом культуры",
+    "драйвер",
+    "дубае",
+    "дэнс",
+    "екатеринбург",
+    "завтрак",
+    "заказать",
+    "занятия",
+    "застройка",
+    "ивент",
+    "измайлово",
+    "инн",
+    "инструкция",
+    "йога",
+    "кабинку",
+    "калибр",
+    "каминного",
+    "караоке",
+    "карлтон",
+    "картинка",
+    "кафе",
+    "квартира",
+    "квартирника",
+    "киберспорт",
+    "киевская",
+    "кино",
+    "кинозал",
+    "кинопоказа",
+    "киностудия",
+    "кинотеатр",
+    "китай",
+    "кластер",
+    "клуб",
+    "книжный мир",
+    "коворкинг",
+    "компьютерный",
+    "контрольная",
+    "концерт",
+    "концертные",
+    "концертный зал",
+    "королев",
+    "корпоративов",
+    "космос",
+    "кофейня",
+    "красноярск",
+    "крворкинг",
+    "культурный",
+    "курсовая",
+    "курсы",
+    "лекторий",
+    "личный",
+    "локации",
+    "лотте",
+    "лофт",
+    "мастер класс",
+    "матрешка",
+    "ментхаус",
+    "методы",
+    "метро",
+    "молодежи",
+    "мосбукинг",
+    "мосфильм",
+    "музей",
+    "народное ополчение",
+    "недорого",
+    "недостатки",
+    "нетворинг",
+    "новотель",
+    "образец",
+    "обучение",
+    "оквэд",
+    "омега",
+    "описание",
+    "ополчение",
+    "определение",
+    "организатор",
+    "организация",
+    "особняк",
+    "отель",
+    "отзывы",
+    "офиса",
+    "павильон",
+    "памятка",
+    "парковая",
+    "петербурге",
+    "печатников",
+    "пианино",
+    "пилоном",
+    "пирамида",
+    "питер",
+    "площадей",
+    "площадка",
+    "подольск",
+    "подработка",
+    "подростки",
+    "поединки",
+    "показа",
+    "полюс",
+    "помещения",
+    "порно",
+    "порнушка",
+    "почасовая",
+    "почасово",
+    "правила",
+    "праздник",
+    "приват",
+    "прикол",
+    "приснилось",
+    "проезд",
+    "прошивка",
+    "психолог",
+    "работа",
+    "район сокол",
+    "репетиционная",
+    "репетиция",
+    "ресторан",
+    "реферат",
+    "рисунок",
+    "роялем",
+    "руками",
+    "рэдиссон",
+    "самодельный",
+    "самостоятельно",
+    "санкт",
+    "санктпетербурге",
+    "свадебный",
+    "свадьба",
+    "севастопольская",
+    "северная",
+    "секрет",
+    "секс",
+    "селекта",
+    "сервис",
+    "синема",
+    "скай порт",
+    "скайпорт",
+    "скачать",
+    "смешно",
+    "смотровая",
+    "смотровая башня",
+    "снять квартиру",
+    "сонник",
+    "состав",
+    "сочи",
+    "спб",
+    "спектакля",
+    "спортивного",
+    "способ",
+    "статья",
+    "стендапа",
+    "схема",
+    "съемки",
+    "танец",
+    "танцевального",
+    "танцполом",
+    "татами",
+    "театральный",
+    "теннис",
+    "технология",
+    "технопрогресс",
+    "торент",
+    "торжеств",
+    "торрент",
+    "требования",
+    "тренинг",
+    "тренингового",
+    "тренировок",
+    "тридцать",
+    "украина",
+    "уловки",
+    "устройство",
+    "учебного",
+    "фитнес",
+    "фора банк",
+    "форум",
+    "фото",
+    "фотостудия",
+    "фуршет",
+    "футбол",
+    "футбольного",
+    "хабра",
+    "хабрхабр",
+    "характеристики",
+    "химки",
+    "хитрости",
+    "хора",
+    "хореографического",
+    "хостел",
+    "шатра",
+    "шереметьево",
+    "школа",
+    "шоу",
+    "шпоргалка",
+    "шпоры",
+    "эвент",
+    "экскурсия",
+    "экспо",
+    "эротика",
+    "эротический",
+    "юбилей",
+    "юмор"
+   ]
+  },
+  "BlockedIps": null,
+  "ExcludedSites": {
+   "Items": [
+    "images.rambler.ru",
+    "images.yandex.by",
+    "images.yandex.kz",
+    "images.yandex.ru",
+    "images.yandex.ua",
+    "m.images.yandex.ru",
+    "m.video.yandex.ru",
+    "video.yandex.by",
+    "video.yandex.kz",
+    "video.yandex.ru",
+    "video.yandex.ua"
+   ]
+  },
+  "TextCampaign": {
+   "BiddingStrategy": {
+    "Search": {
+     "BiddingStrategyType": "WB_MAXIMUM_CONVERSION_RATE",
+     "WbMaximumConversionRate": {
+      "GoalId": 13,
+      "WeeklySpendLimit": 15000000000,
+      "BudgetType": "WEEKLY_BUDGET",
+      "BidCeiling": null
+     }
+    },
+    "Network": {
+     "BiddingStrategyType": "SERVING_OFF"
+    }
+   },
+   "Settings": [
+    {
+     "Option": "ADD_METRICA_TAG",
+     "Value": "NO"
+    },
+    {
+     "Option": "ADD_OPENSTAT_TAG",
+     "Value": "NO"
+    },
+    {
+     "Option": "ADD_TO_FAVORITES",
+     "Value": "NO"
+    },
+    {
+     "Option": "CAMPAIGN_EXACT_PHRASE_MATCHING_ENABLED",
+     "Value": "NO"
+    },
+    {
+     "Option": "DAILY_BUDGET_ALLOWED",
+     "Value": "YES"
+    },
+    {
+     "Option": "ENABLE_AREA_OF_INTEREST_TARGETING",
+     "Value": "NO"
+    },
+    {
+     "Option": "ENABLE_COMPANY_INFO",
+     "Value": "YES"
+    },
+    {
+     "Option": "ENABLE_EXTENDED_AD_TITLE",
+     "Value": "YES"
+    },
+    {
+     "Option": "ENABLE_SITE_MONITORING",
+     "Value": "YES"
+    },
+    {
+     "Option": "EXCLUDE_PAUSED_COMPETING_ADS",
+     "Value": "NO"
+    },
+    {
+     "Option": "MAINTAIN_NETWORK_CPC",
+     "Value": "NO"
+    },
+    {
+     "Option": "REQUIRE_SERVICING",
+     "Value": "NO"
+    },
+    {
+     "Option": "SHARED_ACCOUNT_ENABLED",
+     "Value": "YES"
+    },
+    {
+     "Option": "ALTERNATIVE_TEXTS_ENABLED",
+     "Value": "YES"
+    }
+   ],
+   "TrackingParams": "calltouch_tm=yd_c:{campaign_id}_gb:{gbid}_ad:{ad_id}_ph:{phrase_id}_st:{source_type}_pt:{position_type}_p:{position}_s:{source}_dt:{device_type}_reg:{region_id}_ret:{retargeting_id}_apt:{addphrasestext}&utm_medium=cpc&utm_source=ya&utm_campaign=b_novotel_geo_rf_st_tgo_tgklchi_obshhie_pl_poiskx_test_fida_{campaign_id}&utm_content={ad_id}&utm_term={keyword}",
+   "PriorityGoals": {
+    "Items": [
+     {
+      "GoalId": 498289834,
+      "Value": 5000000000,
+      "IsMetrikaSourceOfValue": "NO"
+     },
+     {
+      "GoalId": 498298013,
+      "Value": 5000000000,
+      "IsMetrikaSourceOfValue": "NO"
+     },
+     {
+      "GoalId": 498184341,
+      "Value": 400000000,
+      "IsMetrikaSourceOfValue": "NO"
+     },
+     {
+      "GoalId": 511709344,
+      "Value": 5000000000,
+      "IsMetrikaSourceOfValue": "NO"
+     }
+    ]
+   },
+   "CounterIds": {
+    "Items": [
+     105965383
+    ]
+   },
+   "RelevantKeywords": null,
+   "AttributionModel": "AUTO",
+   "NegativeKeywordSharedSetIds": {
+    "Items": []
+   }
+  },
+  "TimeTargeting": {
+   "HolidaysSchedule": null,
+   "Schedule": {
+    "Items": [
+     "1,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100",
+     "2,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100",
+     "3,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100",
+     "4,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100",
+     "5,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100",
+     "6,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100",
+     "7,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100"
+    ]
+   },
+   "ConsiderWorkingWeekends": "YES"
+  }
+ },
+ "bidmodifiers": [
+  {
+   "CampaignId": 708052907,
+   "AdGroupId": null,
+   "Id": 101903738643,
+   "Level": "CAMPAIGN",
+   "Type": "MOBILE_ADJUSTMENT",
+   "MobileAdjustment": {
+    "BidModifier": 80
+   }
+  },
+  {
+   "CampaignId": 708052907,
+   "AdGroupId": null,
+   "Id": 111892518511,
+   "Level": "CAMPAIGN",
+   "Type": "DEMOGRAPHICS_ADJUSTMENT",
+   "DemographicsAdjustment": {
+    "Gender": null,
+    "Age": "AGE_0_17",
+    "BidModifier": 0,
+    "Enabled": "YES"
+   }
+  },
+  {
+   "CampaignId": 708052907,
+   "AdGroupId": null,
+   "Id": 261903738645,
+   "Level": "CAMPAIGN",
+   "Type": "SMART_TV_ADJUSTMENT"
+  },
+  {
+   "CampaignId": 708052907,
+   "AdGroupId": null,
+   "Id": 271903738644,
+   "Level": "CAMPAIGN",
+   "Type": "TABLET_ADJUSTMENT",
+   "TabletAdjustment": {
+    "BidModifier": 0
+   }
+  },
+  {
+   "CampaignId": 708052907,
+   "AdGroupId": null,
+   "Id": 281903738646,
+   "Level": "CAMPAIGN",
+   "Type": "DESKTOP_ONLY_ADJUSTMENT",
+   "DesktopOnlyAdjustment": {
+    "BidModifier": 120
+   }
+  }
+ ],
+ "ads": [
+  {
+   "Id": 1904159984237746524,
+   "AdGroupId": 5730223295,
+   "Status": "ACCEPTED",
+   "State": "ARCHIVED",
+   "Type": "SHOPPING_AD"
+  }
+ ],
+ "autotargeting": [
+  {
+   "Id": 205730223295,
+   "Keyword": "---autotargeting",
+   "State": "ON",
+   "AutotargetingCategories": {
+    "Items": [
+     {
+      "Category": "EXACT",
+      "Value": "YES"
+     },
+     {
+      "Category": "ALTERNATIVE",
+      "Value": "NO"
+     },
+     {
+      "Category": "COMPETITOR",
+      "Value": "NO"
+     },
+     {
+      "Category": "BROADER",
+      "Value": "NO"
+     },
+     {
+      "Category": "ACCESSORY",
+      "Value": "NO"
+     }
+    ]
+   }
+  }
+ ]
+}
