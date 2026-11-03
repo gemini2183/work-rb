@@ -4,3 +4,6 @@ __pycache__/
 *.pyc
 
 .secrets/
+
+# Исходники видео ProfiMet YouTube (гигабайты, в git не нужны)
+Клиенты/ProfiMet_YouTube/видео_drive/
