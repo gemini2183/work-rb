@@ -12,6 +12,7 @@
 Выход: Клиенты/<папка>/Статистика/slice_<срез>_<campaign-id>.csv
 """
 import argparse
+import hashlib
 import sys
 from pathlib import Path
 
@@ -62,7 +63,8 @@ def main():
         base = base.groupby(dims, as_index=False, dropna=False)[["Impressions", "Clicks", "Cost"]].sum()
         if goals:
             g = api.report(rtype, dims + ["Conversions"], a.date_from, a.date_to, goals=goals,
-                           name=f"sg_{name}_{a.campaign_id}", filters=flt)
+                           name=f"sg_{name}_{a.campaign_id}_{hashlib.md5(','.join(goals).encode()).hexdigest()[:6]}",
+                           filters=flt)
             if g is not None and not g.empty:
                 gcols = [c for c in g.columns if c.startswith("Conversions_")]
                 g = g.groupby(dims, as_index=False, dropna=False)[gcols].sum(min_count=1)
