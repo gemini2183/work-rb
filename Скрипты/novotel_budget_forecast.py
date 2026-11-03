@@ -38,6 +38,7 @@ def goal(df, gid):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--budget", type=float, default=200000, help="бюджет на месяц, ₽")
+    ap.add_argument("--auction-csv", default="auction_bids_2026-11-03.csv", help="файл direct_auction_bids.py в Статистика/")
     ap.add_argument("--haircut", type=float, default=0.25, help="доля, на которую уменьшаем число обращений")
     a = ap.parse_args()
 
@@ -127,6 +128,39 @@ def main():
         rows.append((cpc, round(cl), round(need), round(need / monthly_imp.max() * 100), round(cl * cr, 1),
                      round(cl * cr * (1 - a.haircut), 1)))
     print(pd.DataFrame(rows, columns=["CPC", "клики", "нужно показов", "% от лучшего месяца", "обращений", "с запасом"]).to_string(index=False))
+    auction_section(a, s, t)
+
+
+def auction_section(a, s, t):
+    """Сценарий по таблице аукциона (direct_auction_bids.py): цена клика на ключах Тест_Сайта, взвешенная историческими кликами."""
+    f = ST / a.auction_csv
+    if not f.exists():
+        return
+    au = pd.read_csv(f)
+    c = pd.read_csv(ST / "slice_criteria_705894438.csv")
+    c = c[(c.CriterionType == "KEYWORD") & (c.Clicks > 0)][["CriterionId", "Clicks", "Cost"]]
+    m = c.merge(au[au.CampaignId == 705894438], left_on="CriterionId", right_on="KeywordId")
+    base = m.drop_duplicates("KeywordId")
+    ctr = s.Clicks.sum() / s.Impressions.sum()
+    jan_clicks = s[s.Month == "2026-01"].Clicks.sum()
+    cr_lo = t[t.Month.isin(["2026-01", "2026-02", "2026-03"])].leads.sum() / t[t.Month.isin(["2026-01", "2026-02", "2026-03"])].Clicks.sum()
+    cr_all = t.leads.sum() / t.Clicks.sum()
+    print(f"\n== 6. Сценарий по таблице аукциона {f.name} (ключи Тест_Сайта с кликами в истории: {base.KeywordId.nunique()}, "
+          f"факт цена клика на них {base.Cost.sum() / base.Clicks.sum():,.0f} ₽)")
+    print("Объём трафика — шкала из KeywordBids (смысл значений >100 в документации не описан); цена — списываемая, на сегодня.")
+    rows = []
+    for tv in (80, 100, 120, 139):
+        x = m[m.TrafficVolume == tv]
+        w = x.Clicks.sum()
+        bid = (x.Bid * x.Clicks).sum() / w
+        price = (x.Price * x.Clicks).sum() / w
+        for lab, p in (("по таблице", price), ("цена ×2 (проверка)", price * 2)):
+            cl = a.budget / p
+            rows.append((tv, lab, round(bid), round(p), round(cl), round(cl / ctr / s.groupby("Month").Impressions.sum().max() * 100),
+                         round(cl * cr_lo * (1 - a.haircut), 1), round(cl * cr_all * (1 - a.haircut), 1)))
+    print(pd.DataFrame(rows, columns=["объём", "вариант", "ставка", "CPC", "клики на бюджет", "% показов лучш.мес",
+                                      f"обращ. CR {cr_lo * 100:.1f}%", f"обращ. CR {cr_all * 100:.1f}%"]).to_string(index=False))
+    print(f"(обращения уже с запасом {a.haircut * 100:.0f}%; январь 2026: {jan_clicks:.0f} кликов на поиске — ориентир потолка спроса)")
 
 
 if __name__ == "__main__":

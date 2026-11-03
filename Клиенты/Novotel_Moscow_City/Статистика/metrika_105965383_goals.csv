@@ -1,0 +1,36 @@
+﻿goal_id,name,type,default_price,conditions
+498289834,УМ: Все формы,action,0.0,regexp:form_send|submit_form112571447_
+498298013,УМ: Звонок Calltouch,action,0.0,exact:call-calltouch
+498184249,УМ: 60 секунд на сайте,action,0.0,exact:60sec
+498762565,Уникальный звонок,conditional_call,0.0,exact:true
+498762566,Уникально-целевой звонок,conditional_call,0.0,exact:true; greater:30
+498762567,Целевой звонок,conditional_call,0.0,greater:30
+498184341,УМ: 90 секунд на сайте,action,0.0,exact:90sec
+498184628,УМ: Клик на телефон,action,0.0,exact:phone_click
+498184911,УМ: Клик на почту,action,0.0,exact:mail_click
+498189339,Автоцель: клик по номеру телефона,phone,0.0,
+498189340,Автоцель: клик по email,email,0.0,
+498207184,УМ: Клик на подробнее,action,0.0,exact:detail_click
+498209260,УМ: Клик на номер отеля,action,0.0,exact:hotel_click
+498259917,УМ: Форма Москва,step,0.0,
+498272887,"УМ: Форма Москва 1,2",step,0.0,
+498274180,УМ: Форма Гонконг,step,0.0,
+498275762,УМ: Форма Сингапур,step,0.0,
+498276848,УМ: Форма Лондон,step,0.0,
+498278056,УМ: Форма Париж,step,0.0,
+498279295,УМ: Форма Нью-Йорк,step,0.0,
+498280936,УМ: Форма Eurek@,step,0.0,
+498282729,УМ: Форма Париж + Лондон + Сингапур + Гонконг,step,0.0,
+498283962,УМ: Форма Нью-Йорк + Париж + Лондон + Сингапур+Гонконг,step,0.0,
+498288121,УМ: Форма Оставьте заявку в футере,action,0.0,exact:footer_form_send
+498289607,УМ: Форма чата,action,0.0,exact:chat_form_send
+498290383,Автоцель: отправка формы заявки,action,0.0,regexp:^ym\-submit\-lead(?:\-[0-9]+|form)?$
+498324177,Автоцель: скачивание файла,file,0.0,all_files:None
+498762568,Звонок Calltouch,call,0.0,
+498787800,УМ: Форма Оставить заявку,action,0.0,exact:reserve_form_send
+500024013,Автоцель: переход в мессенджер,messenger,0.0,messenger:all_messengers
+511062054,УМ: Клик Скачать схему залов,action,0.0,exact:pdf_click
+511095091,УМ: Форма Офисы в Аренду,action,0.0,exact:submit_form112571447_1668166226562
+511709344,УМ: Квал MICE,action,0.0,exact:kval-calltouch
+544094976,Ecommerce: добавление в корзину,e_cart,0.0,
+544450173,Автоцель: переход в соц.сеть,social,0.0,all_social:None

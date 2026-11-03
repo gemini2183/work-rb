@@ -1,0 +1,5814 @@
+{
+ "Phrases": [
+  {
+   "PremiumClicks": 5,
+   "AuctionBids": [
+    {
+     "Price": 281.1,
+     "Bid": 1501.94,
+     "Position": "P11"
+    },
+    {
+     "Price": 139.3,
+     "Bid": 689.22,
+     "Position": "P12"
+    },
+    {
+     "Price": 83.38,
+     "Position": "P13",
+     "Bid": 458
+    },
+    {
+     "Price": 83.38,
+     "Position": "P14",
+     "Bid": 458
+    },
+    {
+     "Price": 15.4,
+     "Position": "P21",
+     "Bid": 450.32
+    },
+    {
+     "Price": 15.4,
+     "Bid": 450.32,
+     "Position": "P22"
+    },
+    {
+     "Position": "P23",
+     "Bid": 448.84,
+     "Price": 15.4
+    },
+    {
+     "Price": 15.4,
+     "Position": "P24",
+     "Bid": 431.57
+    }
+   ],
+   "Currency": "RUB",
+   "Min": 431.57,
+   "FirstPlaceCTR": 9.52,
+   "Clicks": 2,
+   "IsRubric": "No",
+   "PremiumCTR": 18.52,
+   "PremiumMax": 1501.94,
+   "PremiumMin": 458,
+   "Shows": 26,
+   "Max": 450.32,
+   "CTR": 9.52,
+   "Phrase": "помещения для мероприятий в москве -аренда -проведения -снять",
+   "FirstPlaceClicks": 2
+  },
+  {
+   "Clicks": 2,
+   "FirstPlaceCTR": 5,
+   "Min": 659.39,
+   "AuctionBids": [
+    {
+     "Bid": 1056.51,
+     "Position": "P11",
+     "Price": 202.75
+    },
+    {
+     "Bid": 1009.7,
+     "Position": "P12",
+     "Price": 192
+    },
+    {
+     "Price": 142.08,
+     "Position": "P13",
+     "Bid": 558.7
+    },
+    {
+     "Price": 142.08,
+     "Position": "P14",
+     "Bid": 558.7
+    },
+    {
+     "Bid": 659.39,
+     "Position": "P21",
+     "Price": 25.91
+    },
+    {
+     "Price": 25.91,
+     "Position": "P22",
+     "Bid": 659.39
+    },
+    {
+     "Price": 25.91,
+     "Position": "P23",
+     "Bid": 659.39
+    },
+    {
+     "Bid": 659.39,
+     "Position": "P24",
+     "Price": 25.91
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 10,
+   "FirstPlaceClicks": 2,
+   "CTR": 5,
+   "Max": 659.39,
+   "Phrase": "аренда помещения в москве для мероприятий",
+   "PremiumMax": 1056.51,
+   "PremiumMin": 558.7,
+   "Shows": 52,
+   "IsRubric": "No",
+   "PremiumCTR": 18.18
+  },
+  {
+   "Min": 409.57,
+   "FirstPlaceCTR": 28.57,
+   "AuctionBids": [
+    {
+     "Price": 196.43,
+     "Bid": 1397.12,
+     "Position": "P11"
+    },
+    {
+     "Price": 86.97,
+     "Position": "P12",
+     "Bid": 554.08
+    },
+    {
+     "Bid": 295.5,
+     "Position": "P13",
+     "Price": 87.75
+    },
+    {
+     "Price": 87.75,
+     "Position": "P14",
+     "Bid": 295.5
+    },
+    {
+     "Price": 7.02,
+     "Bid": 409.57,
+     "Position": "P21"
+    },
+    {
+     "Price": 7.02,
+     "Position": "P22",
+     "Bid": 409.57
+    },
+    {
+     "Price": 7.02,
+     "Bid": 409.57,
+     "Position": "P23"
+    },
+    {
+     "Price": 7.02,
+     "Position": "P24",
+     "Bid": 409.57
+    }
+   ],
+   "PremiumClicks": 3,
+   "Currency": "RUB",
+   "Clicks": 2,
+   "IsRubric": "No",
+   "PremiumCTR": 27.27,
+   "Shows": 15,
+   "PremiumMax": 1397.12,
+   "PremiumMin": 295.5,
+   "FirstPlaceClicks": 2,
+   "CTR": 28.57,
+   "Max": 409.57,
+   "Phrase": "помещение для проведения мероприятий москва"
+  },
+  {
+   "PremiumClicks": 8,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 462.22,
+     "Price": 80.91
+    },
+    {
+     "Price": 70.78,
+     "Bid": 350.32,
+     "Position": "P12"
+    },
+    {
+     "Price": 37.27,
+     "Position": "P13",
+     "Bid": 195.26
+    },
+    {
+     "Price": 37.27,
+     "Position": "P14",
+     "Bid": 195.26
+    },
+    {
+     "Price": 3.75,
+     "Bid": 549.26,
+     "Position": "P21"
+    },
+    {
+     "Price": 3.56,
+     "Bid": 136.02,
+     "Position": "P22"
+    },
+    {
+     "Price": 3.56,
+     "Bid": 136.02,
+     "Position": "P23"
+    },
+    {
+     "Position": "P24",
+     "Bid": 136.02,
+     "Price": 3.56
+    }
+   ],
+   "Currency": "RUB",
+   "FirstPlaceCTR": 7.69,
+   "Min": 136.02,
+   "Clicks": 2,
+   "PremiumMax": 462.22,
+   "Shows": 35,
+   "PremiumMin": 195.26,
+   "IsRubric": "No",
+   "PremiumCTR": 25,
+   "CTR": 8,
+   "Max": 549.26,
+   "Phrase": "аренда зала мск",
+   "FirstPlaceClicks": 2
+  },
+  {
+   "Max": 320.02,
+   "CTR": 0.46,
+   "Phrase": "аренда зала -большие -взять -встречи -конференц -конференции -лекции -мероприятия -москва -мск -обучения -онлайн -переговоров -площадки -помещения -посуточно -презентаций -рядом -сколько -снять -стоимость -тренинга -услуги -экраном",
+   "FirstPlaceClicks": 57,
+   "Shows": 15301,
+   "PremiumMax": 615.77,
+   "PremiumMin": 184.15,
+   "IsRubric": "No",
+   "PremiumCTR": 8.56,
+   "Clicks": 56,
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 615.77,
+     "Price": 84.82
+    },
+    {
+     "Price": 56.58,
+     "Bid": 269.13,
+     "Position": "P12"
+    },
+    {
+     "Price": 44.94,
+     "Bid": 184.15,
+     "Position": "P13"
+    },
+    {
+     "Price": 44.94,
+     "Position": "P14",
+     "Bid": 184.15
+    },
+    {
+     "Price": 51.78,
+     "Bid": 320.02,
+     "Position": "P21"
+    },
+    {
+     "Price": 50.55,
+     "Position": "P22",
+     "Bid": 307.08
+    },
+    {
+     "Price": 50.43,
+     "Position": "P23",
+     "Bid": 305.24
+    },
+    {
+     "Bid": 304.51,
+     "Position": "P24",
+     "Price": 51.24
+    }
+   ],
+   "PremiumClicks": 1269,
+   "FirstPlaceCTR": 0.47,
+   "Min": 304.51
+  },
+  {
+   "Clicks": 2,
+   "FirstPlaceCTR": 6.9,
+   "Min": 710.44,
+   "AuctionBids": [
+    {
+     "Price": 395.76,
+     "Bid": 2398.35,
+     "Position": "P11"
+    },
+    {
+     "Position": "P12",
+     "Bid": 1049.22,
+     "Price": 241.56
+    },
+    {
+     "Price": 231.74,
+     "Bid": 840.98,
+     "Position": "P13"
+    },
+    {
+     "Position": "P14",
+     "Bid": 840.98,
+     "Price": 231.74
+    },
+    {
+     "Position": "P21",
+     "Bid": 1173.06,
+     "Price": 84.22
+    },
+    {
+     "Bid": 817.19,
+     "Position": "P22",
+     "Price": 68.75
+    },
+    {
+     "Price": 59.14,
+     "Bid": 710.44,
+     "Position": "P23"
+    },
+    {
+     "Position": "P24",
+     "Bid": 710.44,
+     "Price": 59.14
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 10,
+   "FirstPlaceClicks": 2,
+   "CTR": 7.41,
+   "Max": 1173.06,
+   "Phrase": "зал для конференции москва -аренда",
+   "PremiumMax": 2398.35,
+   "PremiumMin": 840.98,
+   "Shows": 69,
+   "IsRubric": "No",
+   "PremiumCTR": 19.61
+  },
+  {
+   "FirstPlaceClicks": 2,
+   "Max": 558.32,
+   "CTR": 3.23,
+   "Phrase": "переговорная в москве -аренда -арендовать -коворкинг -комната -сити -снять -центр",
+   "IsRubric": "No",
+   "PremiumCTR": 12.37,
+   "PremiumMin": 551.72,
+   "PremiumMax": 1186.72,
+   "Shows": 130,
+   "Clicks": 2,
+   "Min": 558.32,
+   "FirstPlaceCTR": 3.23,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 1186.72,
+     "Price": 176.43
+    },
+    {
+     "Bid": 689.23,
+     "Position": "P12",
+     "Price": 105.09
+    },
+    {
+     "Bid": 551.72,
+     "Position": "P13",
+     "Price": 98.43
+    },
+    {
+     "Bid": 551.72,
+     "Position": "P14",
+     "Price": 98.43
+    },
+    {
+     "Price": 19.2,
+     "Position": "P21",
+     "Bid": 558.32
+    },
+    {
+     "Position": "P22",
+     "Bid": 558.32,
+     "Price": 19.2
+    },
+    {
+     "Price": 19.2,
+     "Position": "P23",
+     "Bid": 558.32
+    },
+    {
+     "Position": "P24",
+     "Bid": 558.32,
+     "Price": 19.2
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 12
+  },
+  {
+   "Max": 739.98,
+   "CTR": 50,
+   "Phrase": "аренда зала переговоров",
+   "FirstPlaceClicks": 2,
+   "PremiumMin": 521.07,
+   "PremiumMax": 1503.44,
+   "Shows": 11,
+   "PremiumCTR": 33.33,
+   "IsRubric": "No",
+   "Clicks": 2,
+   "PremiumClicks": 4,
+   "AuctionBids": [
+    {
+     "Price": 206.74,
+     "Position": "P11",
+     "Bid": 1503.44
+    },
+    {
+     "Bid": 1202.61,
+     "Position": "P12",
+     "Price": 206.74
+    },
+    {
+     "Position": "P13",
+     "Bid": 521.07,
+     "Price": 167.98
+    },
+    {
+     "Position": "P14",
+     "Bid": 521.07,
+     "Price": 167.98
+    },
+    {
+     "Price": 27.37,
+     "Bid": 739.98,
+     "Position": "P21"
+    },
+    {
+     "Position": "P22",
+     "Bid": 390.48,
+     "Price": 29.91
+    },
+    {
+     "Position": "P23",
+     "Bid": 316.28,
+     "Price": 3.66
+    },
+    {
+     "Position": "P24",
+     "Bid": 314.66,
+     "Price": 3.66
+    }
+   ],
+   "Currency": "RUB",
+   "FirstPlaceCTR": 40,
+   "Min": 314.66
+  },
+  {
+   "CTR": 9.52,
+   "Phrase": "снять помещение для мероприятия в москве",
+   "Max": 541.55,
+   "FirstPlaceClicks": 2,
+   "PremiumMax": 917.52,
+   "Shows": 26,
+   "PremiumMin": 257.39,
+   "PremiumCTR": 21.21,
+   "IsRubric": "No",
+   "Clicks": 2,
+   "PremiumClicks": 7,
+   "AuctionBids": [
+    {
+     "Bid": 917.52,
+     "Position": "P11",
+     "Price": 147.49
+    },
+    {
+     "Price": 108.51,
+     "Bid": 444.15,
+     "Position": "P12"
+    },
+    {
+     "Bid": 257.39,
+     "Position": "P13",
+     "Price": 56.91
+    },
+    {
+     "Bid": 257.39,
+     "Position": "P14",
+     "Price": 56.91
+    },
+    {
+     "Position": "P21",
+     "Bid": 541.55,
+     "Price": 11.57
+    },
+    {
+     "Price": 11.57,
+     "Bid": 541.55,
+     "Position": "P22"
+    },
+    {
+     "Price": 11.57,
+     "Position": "P23",
+     "Bid": 541.55
+    },
+    {
+     "Price": 11.57,
+     "Bid": 541.55,
+     "Position": "P24"
+    }
+   ],
+   "Currency": "RUB",
+   "FirstPlaceCTR": 9.52,
+   "Min": 541.55
+  },
+  {
+   "IsRubric": "No",
+   "PremiumCTR": 12.5,
+   "Shows": 39,
+   "PremiumMax": 2715.48,
+   "PremiumMin": 650.46,
+   "Max": 1335.23,
+   "CTR": 25,
+   "Phrase": "залы для проведения мероприятий москва",
+   "FirstPlaceClicks": 2,
+   "PremiumClicks": 3,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 2715.48,
+     "Price": 253.4
+    },
+    {
+     "Bid": 1484.92,
+     "Position": "P12",
+     "Price": 156.45
+    },
+    {
+     "Position": "P13",
+     "Bid": 650.46,
+     "Price": 103.53
+    },
+    {
+     "Position": "P14",
+     "Bid": 650.46,
+     "Price": 103.53
+    },
+    {
+     "Position": "P21",
+     "Bid": 1335.23,
+     "Price": 3.14
+    },
+    {
+     "Price": 3.14,
+     "Position": "P22",
+     "Bid": 1335.23
+    },
+    {
+     "Price": 3.14,
+     "Bid": 1335.23,
+     "Position": "P23"
+    },
+    {
+     "Position": "P24",
+     "Bid": 1335.23,
+     "Price": 3.14
+    }
+   ],
+   "Currency": "RUB",
+   "Min": 1335.23,
+   "FirstPlaceCTR": 25,
+   "Clicks": 2
+  },
+  {
+   "Clicks": 2,
+   "Min": 238.31,
+   "FirstPlaceCTR": 6.25,
+   "AuctionBids": [
+    {
+     "Price": 282.66,
+     "Position": "P11",
+     "Bid": 1896.77
+    },
+    {
+     "Price": 162.34,
+     "Bid": 656.7,
+     "Position": "P12"
+    },
+    {
+     "Bid": 614.77,
+     "Position": "P13",
+     "Price": 138.09
+    },
+    {
+     "Price": 138.09,
+     "Position": "P14",
+     "Bid": 614.77
+    },
+    {
+     "Position": "P21",
+     "Bid": 273.2,
+     "Price": 13.49
+    },
+    {
+     "Position": "P22",
+     "Bid": 255.55,
+     "Price": 16.79
+    },
+    {
+     "Bid": 251.75,
+     "Position": "P23",
+     "Price": 15.45
+    },
+    {
+     "Price": 14.9,
+     "Position": "P24",
+     "Bid": 238.31
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 8,
+   "FirstPlaceClicks": 2,
+   "CTR": 6.25,
+   "Phrase": "залы под аренду москва -мероприятие",
+   "Max": 273.2,
+   "IsRubric": "No",
+   "PremiumCTR": 16.67,
+   "Shows": 46,
+   "PremiumMax": 1896.77,
+   "PremiumMin": 614.77
+  },
+  {
+   "Shows": 268,
+   "PremiumMax": 694.12,
+   "PremiumMin": 253.55,
+   "IsRubric": "No",
+   "PremiumCTR": 7.54,
+   "FirstPlaceClicks": 2,
+   "CTR": 1.54,
+   "Phrase": "помещение для мероприятий -аренда -арендовать -бизнес -большое -москве -организации -посуточно -проведения -снять",
+   "Max": 408.91,
+   "FirstPlaceCTR": 1.54,
+   "Min": 408.91,
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Price": 115.96,
+     "Position": "P11",
+     "Bid": 694.12
+    },
+    {
+     "Position": "P12",
+     "Bid": 384.19,
+     "Price": 80.66
+    },
+    {
+     "Price": 63.66,
+     "Position": "P13",
+     "Bid": 253.55
+    },
+    {
+     "Price": 63.66,
+     "Bid": 253.55,
+     "Position": "P14"
+    },
+    {
+     "Bid": 408.91,
+     "Position": "P21",
+     "Price": 18.94
+    },
+    {
+     "Bid": 408.91,
+     "Position": "P22",
+     "Price": 18.94
+    },
+    {
+     "Price": 18.94,
+     "Position": "P23",
+     "Bid": 408.91
+    },
+    {
+     "Position": "P24",
+     "Bid": 408.91,
+     "Price": 18.94
+    }
+   ],
+   "PremiumClicks": 15,
+   "Clicks": 2
+  },
+  {
+   "AuctionBids": [
+    {
+     "Bid": 810.17,
+     "Position": "P11",
+     "Price": 93.35
+    },
+    {
+     "Price": 64.67,
+     "Bid": 313.81,
+     "Position": "P12"
+    },
+    {
+     "Position": "P13",
+     "Bid": 190.87,
+     "Price": 49.14
+    },
+    {
+     "Price": 49.14,
+     "Position": "P14",
+     "Bid": 190.87
+    },
+    {
+     "Bid": 364.97,
+     "Position": "P21",
+     "Price": 58.1
+    },
+    {
+     "Price": 56.71,
+     "Bid": 347.59,
+     "Position": "P22"
+    },
+    {
+     "Position": "P23",
+     "Bid": 342.41,
+     "Price": 56.44
+    },
+    {
+     "Price": 56.44,
+     "Position": "P24",
+     "Bid": 340.69
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 579,
+   "Min": 340.69,
+   "FirstPlaceCTR": 0.99,
+   "Clicks": 29,
+   "PremiumCTR": 15.18,
+   "IsRubric": "No",
+   "PremiumMax": 810.17,
+   "Shows": 3844,
+   "PremiumMin": 190.87,
+   "Max": 364.97,
+   "CTR": 1,
+   "Phrase": "аренда зала москва -банкетные -большие -конференц -конференции -корпоратив -мероприятия -недорого -отель -под -проектором -семинара -сити -снять -стоимость -тренинга -цена -центре",
+   "FirstPlaceClicks": 29
+  },
+  {
+   "FirstPlaceClicks": 19,
+   "CTR": 0.56,
+   "Max": 833.82,
+   "Phrase": "банкетные залы москва -200 -50 -аренда -большие -гостиницы -корпоратива -красивый -недорого -отель -подмосковья -сайты -сити -снять -лучшие -цены -центре",
+   "PremiumCTR": 12.39,
+   "IsRubric": "No",
+   "PremiumMax": 1370.45,
+   "Shows": 4596,
+   "PremiumMin": 416.88,
+   "Clicks": 19,
+   "Min": 726.34,
+   "FirstPlaceCTR": 0.56,
+   "AuctionBids": [
+    {
+     "Price": 241.22,
+     "Bid": 1370.45,
+     "Position": "P11"
+    },
+    {
+     "Position": "P12",
+     "Bid": 686.34,
+     "Price": 170.85
+    },
+    {
+     "Price": 126.4,
+     "Bid": 416.88,
+     "Position": "P13"
+    },
+    {
+     "Bid": 416.88,
+     "Position": "P14",
+     "Price": 126.4
+    },
+    {
+     "Position": "P21",
+     "Bid": 833.82,
+     "Price": 191.29
+    },
+    {
+     "Bid": 766.15,
+     "Position": "P22",
+     "Price": 183.48
+    },
+    {
+     "Price": 179.8,
+     "Bid": 733.04,
+     "Position": "P23"
+    },
+    {
+     "Price": 179.19,
+     "Position": "P24",
+     "Bid": 726.34
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 603
+  },
+  {
+   "FirstPlaceClicks": 2,
+   "CTR": 16.67,
+   "Max": 1077.53,
+   "Phrase": "конференц зал для мероприятий -аренда -проведения",
+   "IsRubric": "No",
+   "PremiumCTR": 14.71,
+   "Shows": 40,
+   "PremiumMax": 1426.66,
+   "PremiumMin": 870.39,
+   "Clicks": 2,
+   "Min": 1077.53,
+   "FirstPlaceCTR": 16.67,
+   "AuctionBids": [
+    {
+     "Price": 301.45,
+     "Position": "P11",
+     "Bid": 1426.66
+    },
+    {
+     "Price": 186.88,
+     "Bid": 870.39,
+     "Position": "P12"
+    },
+    {
+     "Price": 186.88,
+     "Bid": 870.39,
+     "Position": "P13"
+    },
+    {
+     "Position": "P14",
+     "Bid": 870.39,
+     "Price": 186.88
+    },
+    {
+     "Price": 14.25,
+     "Bid": 1077.53,
+     "Position": "P21"
+    },
+    {
+     "Price": 14.25,
+     "Bid": 1077.53,
+     "Position": "P22"
+    },
+    {
+     "Position": "P23",
+     "Bid": 1077.53,
+     "Price": 14.25
+    },
+    {
+     "Bid": 1077.53,
+     "Position": "P24",
+     "Price": 14.25
+    }
+   ],
+   "PremiumClicks": 5,
+   "Currency": "RUB"
+  },
+  {
+   "Clicks": 2,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 1351.06,
+     "Price": 143.24
+    },
+    {
+     "Bid": 1088.33,
+     "Position": "P12",
+     "Price": 95.73
+    },
+    {
+     "Price": 56.99,
+     "Bid": 319.46,
+     "Position": "P13"
+    },
+    {
+     "Price": 56.99,
+     "Bid": 319.46,
+     "Position": "P14"
+    },
+    {
+     "Position": "P21",
+     "Bid": 312.1,
+     "Price": 11.87
+    },
+    {
+     "Position": "P22",
+     "Bid": 272.22,
+     "Price": 11.87
+    },
+    {
+     "Position": "P23",
+     "Bid": 272.22,
+     "Price": 11.87
+    },
+    {
+     "Price": 11.87,
+     "Position": "P24",
+     "Bid": 250.56
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 10,
+   "FirstPlaceCTR": 5.13,
+   "Min": 250.56,
+   "CTR": 5.13,
+   "Phrase": "переговорная комната москва -аренда -сити -снять",
+   "Max": 312.1,
+   "FirstPlaceClicks": 2,
+   "PremiumMax": 1351.06,
+   "Shows": 79,
+   "PremiumMin": 319.46,
+   "PremiumCTR": 16.13,
+   "IsRubric": "No"
+  },
+  {
+   "FirstPlaceClicks": 2,
+   "CTR": 18.18,
+   "Phrase": "арендовать помещение для мероприятия",
+   "Max": 274.52,
+   "PremiumMin": 595.35,
+   "PremiumMax": 1178.94,
+   "Shows": 17,
+   "PremiumCTR": 15,
+   "IsRubric": "No",
+   "Clicks": 2,
+   "FirstPlaceCTR": 16.67,
+   "Min": 169.13,
+   "AuctionBids": [
+    {
+     "Price": 153.98,
+     "Position": "P11",
+     "Bid": 1178.94
+    },
+    {
+     "Bid": 762.66,
+     "Position": "P12",
+     "Price": 113.17
+    },
+    {
+     "Price": 110.82,
+     "Bid": 595.35,
+     "Position": "P13"
+    },
+    {
+     "Price": 110.82,
+     "Bid": 595.35,
+     "Position": "P14"
+    },
+    {
+     "Price": 5.5,
+     "Position": "P21",
+     "Bid": 274.52
+    },
+    {
+     "Bid": 169.97,
+     "Position": "P22",
+     "Price": 3.32
+    },
+    {
+     "Bid": 169.13,
+     "Position": "P23",
+     "Price": 3.32
+    },
+    {
+     "Bid": 169.13,
+     "Position": "P24",
+     "Price": 3.32
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 3
+  },
+  {
+   "IsRubric": "No",
+   "PremiumCTR": 17.8,
+   "PremiumMin": 270.35,
+   "PremiumMax": 1191.01,
+   "Shows": 132,
+   "FirstPlaceClicks": 2,
+   "Phrase": "аренда переговорной москва -комнаты -сити -центр",
+   "CTR": 2.9,
+   "Max": 512.83,
+   "Min": 489.34,
+   "FirstPlaceCTR": 2.86,
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Price": 194.69,
+     "Position": "P11",
+     "Bid": 1191.01
+    },
+    {
+     "Position": "P12",
+     "Bid": 424.62,
+     "Price": 84.87
+    },
+    {
+     "Price": 78.5,
+     "Bid": 270.35,
+     "Position": "P13"
+    },
+    {
+     "Price": 78.5,
+     "Position": "P14",
+     "Bid": 270.35
+    },
+    {
+     "Price": 53.6,
+     "Position": "P21",
+     "Bid": 512.83
+    },
+    {
+     "Price": 53.6,
+     "Position": "P22",
+     "Bid": 512.83
+    },
+    {
+     "Price": 52.14,
+     "Bid": 489.34,
+     "Position": "P23"
+    },
+    {
+     "Price": 52.14,
+     "Bid": 489.34,
+     "Position": "P24"
+    }
+   ],
+   "PremiumClicks": 21,
+   "Clicks": 2
+  },
+  {
+   "FirstPlaceClicks": 2,
+   "Phrase": "помещение для организации мероприятий",
+   "CTR": 11.76,
+   "Max": 444.01,
+   "IsRubric": "No",
+   "PremiumCTR": 10.53,
+   "PremiumMin": 83.95,
+   "PremiumMax": 215.72,
+   "Shows": 57,
+   "Clicks": 2,
+   "Min": 444.01,
+   "FirstPlaceCTR": 11.76,
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 215.72,
+     "Price": 26.98
+    },
+    {
+     "Bid": 147.33,
+     "Position": "P12",
+     "Price": 18.01
+    },
+    {
+     "Price": 12.29,
+     "Bid": 83.95,
+     "Position": "P13"
+    },
+    {
+     "Price": 12.29,
+     "Bid": 83.95,
+     "Position": "P14"
+    },
+    {
+     "Price": 0.1,
+     "Position": "P21",
+     "Bid": 444.01
+    },
+    {
+     "Price": 0.1,
+     "Position": "P22",
+     "Bid": 444.01
+    },
+    {
+     "Price": 0.1,
+     "Bid": 444.01,
+     "Position": "P23"
+    },
+    {
+     "Bid": 444.01,
+     "Position": "P24",
+     "Price": 0.1
+    }
+   ],
+   "PremiumClicks": 2
+  },
+  {
+   "IsRubric": "No",
+   "PremiumCTR": 6.9,
+   "Shows": 100,
+   "PremiumMax": 1470.2,
+   "PremiumMin": 366.31,
+   "FirstPlaceClicks": 2,
+   "CTR": 9.09,
+   "Phrase": "конференц залы г москвы",
+   "Max": 349.82,
+   "Min": 346.94,
+   "FirstPlaceCTR": 9.09,
+   "PremiumClicks": 6,
+   "AuctionBids": [
+    {
+     "Price": 225.18,
+     "Bid": 1470.2,
+     "Position": "P11"
+    },
+    {
+     "Price": 121.82,
+     "Bid": 411.9,
+     "Position": "P12"
+    },
+    {
+     "Price": 77.47,
+     "Bid": 366.31,
+     "Position": "P13"
+    },
+    {
+     "Bid": 366.31,
+     "Position": "P14",
+     "Price": 77.47
+    },
+    {
+     "Price": 0.72,
+     "Bid": 349.82,
+     "Position": "P21"
+    },
+    {
+     "Price": 0.72,
+     "Position": "P22",
+     "Bid": 349.82
+    },
+    {
+     "Price": 0.72,
+     "Bid": 346.94,
+     "Position": "P23"
+    },
+    {
+     "Bid": 346.94,
+     "Position": "P24",
+     "Price": 0.72
+    }
+   ],
+   "Currency": "RUB",
+   "Clicks": 2
+  },
+  {
+   "IsRubric": "No",
+   "PremiumCTR": 12.77,
+   "Shows": 149,
+   "PremiumMax": 418.18,
+   "PremiumMin": 200.69,
+   "FirstPlaceClicks": 2,
+   "CTR": 1.77,
+   "Max": 280.63,
+   "Phrase": "снять зал в аренду -москве",
+   "Min": 269.49,
+   "FirstPlaceCTR": 1.75,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 418.18,
+     "Price": 73.32
+    },
+    {
+     "Bid": 266.11,
+     "Position": "P12",
+     "Price": 56.11
+    },
+    {
+     "Price": 45.3,
+     "Bid": 200.69,
+     "Position": "P13"
+    },
+    {
+     "Price": 45.3,
+     "Bid": 200.69,
+     "Position": "P14"
+    },
+    {
+     "Price": 11.67,
+     "Position": "P21",
+     "Bid": 280.63
+    },
+    {
+     "Bid": 269.49,
+     "Position": "P22",
+     "Price": 11.47
+    },
+    {
+     "Bid": 269.49,
+     "Position": "P23",
+     "Price": 11.47
+    },
+    {
+     "Price": 11.47,
+     "Bid": 269.49,
+     "Position": "P24"
+    }
+   ],
+   "PremiumClicks": 18,
+   "Currency": "RUB",
+   "Clicks": 2
+  },
+  {
+   "Clicks": 2,
+   "FirstPlaceCTR": 40,
+   "Min": 60.47,
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Bid": 897.64,
+     "Position": "P11",
+     "Price": 77.04
+    },
+    {
+     "Bid": 373.12,
+     "Position": "P12",
+     "Price": 49.98
+    },
+    {
+     "Position": "P13",
+     "Bid": 207.07,
+     "Price": 35.09
+    },
+    {
+     "Position": "P14",
+     "Bid": 207.07,
+     "Price": 35.09
+    },
+    {
+     "Price": 0.03,
+     "Bid": 60.47,
+     "Position": "P21"
+    },
+    {
+     "Price": 0.03,
+     "Bid": 60.47,
+     "Position": "P22"
+    },
+    {
+     "Bid": 60.47,
+     "Position": "P23",
+     "Price": 0.03
+    },
+    {
+     "Bid": 60.47,
+     "Position": "P24",
+     "Price": 0.03
+    }
+   ],
+   "PremiumClicks": 3,
+   "FirstPlaceClicks": 2,
+   "CTR": 40,
+   "Max": 60.47,
+   "Phrase": "помещение для проведения конференций",
+   "Shows": 22,
+   "PremiumMax": 897.64,
+   "PremiumMin": 207.07,
+   "PremiumCTR": 25,
+   "IsRubric": "No"
+  },
+  {
+   "PremiumCTR": 20.31,
+   "IsRubric": "No",
+   "PremiumMax": 944.41,
+   "Shows": 78,
+   "PremiumMin": 217.04,
+   "CTR": 4.88,
+   "Max": 484.1,
+   "Phrase": "аренда переговорной комнаты в москве",
+   "FirstPlaceClicks": 2,
+   "AuctionBids": [
+    {
+     "Price": 177.72,
+     "Bid": 944.41,
+     "Position": "P11"
+    },
+    {
+     "Bid": 437.1,
+     "Position": "P12",
+     "Price": 109.12
+    },
+    {
+     "Position": "P13",
+     "Bid": 217.04,
+     "Price": 69.49
+    },
+    {
+     "Position": "P14",
+     "Bid": 217.04,
+     "Price": 69.49
+    },
+    {
+     "Position": "P21",
+     "Bid": 484.1,
+     "Price": 36.88
+    },
+    {
+     "Price": 34.94,
+     "Position": "P22",
+     "Bid": 443.83
+    },
+    {
+     "Bid": 443.83,
+     "Position": "P23",
+     "Price": 34.94
+    },
+    {
+     "Position": "P24",
+     "Bid": 443.83,
+     "Price": 34.94
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 13,
+   "Min": 443.83,
+   "FirstPlaceCTR": 4.76,
+   "Clicks": 2
+  },
+  {
+   "FirstPlaceClicks": 4,
+   "CTR": 0.61,
+   "Phrase": "арендовать зал -2 -где -мероприятия -москва -цены",
+   "Max": 303.31,
+   "PremiumCTR": 10.08,
+   "IsRubric": "No",
+   "PremiumMax": 636.32,
+   "Shows": 929,
+   "PremiumMin": 180.18,
+   "Clicks": 4,
+   "Min": 272.4,
+   "FirstPlaceCTR": 0.61,
+   "PremiumClicks": 79,
+   "AuctionBids": [
+    {
+     "Bid": 636.32,
+     "Position": "P11",
+     "Price": 72.23
+    },
+    {
+     "Position": "P12",
+     "Bid": 235.15,
+     "Price": 47.2
+    },
+    {
+     "Bid": 180.18,
+     "Position": "P13",
+     "Price": 42.3
+    },
+    {
+     "Price": 42.3,
+     "Position": "P14",
+     "Bid": 180.18
+    },
+    {
+     "Bid": 303.31,
+     "Position": "P21",
+     "Price": 39.2
+    },
+    {
+     "Price": 37.19,
+     "Bid": 274.06,
+     "Position": "P22"
+    },
+    {
+     "Bid": 272.4,
+     "Position": "P23",
+     "Price": 37.13
+    },
+    {
+     "Position": "P24",
+     "Bid": 272.4,
+     "Price": 37.13
+    }
+   ],
+   "Currency": "RUB"
+  },
+  {
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 3048.37,
+     "Price": 599.35
+    },
+    {
+     "Price": 509.92,
+     "Position": "P12",
+     "Bid": 2220.63
+    },
+    {
+     "Position": "P13",
+     "Bid": 1569.46,
+     "Price": 421.99
+    },
+    {
+     "Position": "P14",
+     "Bid": 1569.46,
+     "Price": 421.99
+    },
+    {
+     "Position": "P21",
+     "Bid": 1446.89,
+     "Price": 229.13
+    },
+    {
+     "Price": 186.95,
+     "Position": "P22",
+     "Bid": 894.21
+    },
+    {
+     "Position": "P23",
+     "Bid": 776.72,
+     "Price": 175.62
+    },
+    {
+     "Price": 175.02,
+     "Bid": 771.27,
+     "Position": "P24"
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 72,
+   "Min": 771.27,
+   "FirstPlaceCTR": 1.59,
+   "Clicks": 4,
+   "PremiumCTR": 12.1,
+   "IsRubric": "No",
+   "Shows": 600,
+   "PremiumMax": 3048.37,
+   "PremiumMin": 1569.46,
+   "CTR": 1.65,
+   "Max": 1446.89,
+   "Phrase": "конференц зал москва -1 -2 -аренда -большие -г -гостиница -отели -сити -снять -лучшие -цены -центре",
+   "FirstPlaceClicks": 4
+  },
+  {
+   "PremiumCTR": 13.51,
+   "IsRubric": "No",
+   "PremiumMin": 323.81,
+   "PremiumMax": 730.41,
+   "Shows": 51,
+   "FirstPlaceClicks": 2,
+   "CTR": 11.11,
+   "Phrase": "банкетный зал для мероприятий",
+   "Max": 300.14,
+   "Min": 293.94,
+   "FirstPlaceCTR": 11.11,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 730.41,
+     "Price": 122.13
+    },
+    {
+     "Position": "P12",
+     "Bid": 523.47,
+     "Price": 99
+    },
+    {
+     "Price": 80.69,
+     "Position": "P13",
+     "Bid": 323.81
+    },
+    {
+     "Bid": 323.81,
+     "Position": "P14",
+     "Price": 80.69
+    },
+    {
+     "Bid": 300.14,
+     "Position": "P21",
+     "Price": 2.7
+    },
+    {
+     "Price": 2.7,
+     "Position": "P22",
+     "Bid": 293.94
+    },
+    {
+     "Position": "P23",
+     "Bid": 293.94,
+     "Price": 2.7
+    },
+    {
+     "Price": 2.7,
+     "Bid": 293.94,
+     "Position": "P24"
+    }
+   ],
+   "PremiumClicks": 5,
+   "Currency": "RUB",
+   "Clicks": 2
+  },
+  {
+   "FirstPlaceCTR": 13.33,
+   "Min": 375.23,
+   "PremiumClicks": 4,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 1765.72,
+     "Price": 150.46
+    },
+    {
+     "Bid": 535.75,
+     "Position": "P12",
+     "Price": 82.64
+    },
+    {
+     "Price": 82.64,
+     "Position": "P13",
+     "Bid": 528.03
+    },
+    {
+     "Position": "P14",
+     "Bid": 528.03,
+     "Price": 82.64
+    },
+    {
+     "Price": 5.43,
+     "Position": "P21",
+     "Bid": 375.23
+    },
+    {
+     "Price": 5.43,
+     "Bid": 375.23,
+     "Position": "P22"
+    },
+    {
+     "Bid": 375.23,
+     "Position": "P23",
+     "Price": 5.43
+    },
+    {
+     "Bid": 375.23,
+     "Position": "P24",
+     "Price": 5.43
+    }
+   ],
+   "Currency": "RUB",
+   "Clicks": 2,
+   "PremiumMax": 1765.72,
+   "Shows": 23,
+   "PremiumMin": 528.03,
+   "IsRubric": "No",
+   "PremiumCTR": 17.39,
+   "FirstPlaceClicks": 2,
+   "Max": 375.23,
+   "CTR": 13.33,
+   "Phrase": "переговорная москва сити -аренда -комната"
+  },
+  {
+   "Shows": 39,
+   "PremiumMax": 1746.22,
+   "PremiumMin": 649,
+   "IsRubric": "No",
+   "PremiumCTR": 18.52,
+   "FirstPlaceClicks": 2,
+   "Max": 549.3,
+   "CTR": 25,
+   "Phrase": "помещение для конференции -аренда -москва -проведения",
+   "FirstPlaceCTR": 22.22,
+   "Min": 470.33,
+   "PremiumClicks": 5,
+   "AuctionBids": [
+    {
+     "Bid": 1746.22,
+     "Position": "P11",
+     "Price": 282.84
+    },
+    {
+     "Bid": 1549.52,
+     "Position": "P12",
+     "Price": 273.47
+    },
+    {
+     "Bid": 649,
+     "Position": "P13",
+     "Price": 147.98
+    },
+    {
+     "Price": 147.98,
+     "Position": "P14",
+     "Bid": 649
+    },
+    {
+     "Price": 6.63,
+     "Bid": 549.3,
+     "Position": "P21"
+    },
+    {
+     "Bid": 470.33,
+     "Position": "P22",
+     "Price": 4.05
+    },
+    {
+     "Bid": 470.33,
+     "Position": "P23",
+     "Price": 4.05
+    },
+    {
+     "Price": 4.05,
+     "Bid": 470.33,
+     "Position": "P24"
+    }
+   ],
+   "Currency": "RUB",
+   "Clicks": 2
+  },
+  {
+   "Min": 421.32,
+   "FirstPlaceCTR": 4.76,
+   "PremiumClicks": 17,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 3696.79,
+     "Price": 298.32
+    },
+    {
+     "Bid": 2306.6,
+     "Position": "P12",
+     "Price": 268.3
+    },
+    {
+     "Price": 284.17,
+     "Bid": 2276.43,
+     "Position": "P13"
+    },
+    {
+     "Position": "P14",
+     "Bid": 2276.43,
+     "Price": 284.17
+    },
+    {
+     "Price": 73.87,
+     "Position": "P21",
+     "Bid": 635.76
+    },
+    {
+     "Price": 69,
+     "Position": "P22",
+     "Bid": 531.88
+    },
+    {
+     "Position": "P23",
+     "Bid": 441.32,
+     "Price": 41.11
+    },
+    {
+     "Price": 31.87,
+     "Position": "P24",
+     "Bid": 421.32
+    }
+   ],
+   "Currency": "RUB",
+   "Clicks": 2,
+   "PremiumCTR": 17.71,
+   "IsRubric": "No",
+   "PremiumMax": 3696.79,
+   "PremiumMin": 2276.43,
+   "Shows": 101,
+   "FirstPlaceClicks": 2,
+   "Max": 635.76,
+   "CTR": 5.13,
+   "Phrase": "отели с конференц залами москва -аренда -большими"
+  },
+  {
+   "AuctionBids": [
+    {
+     "Price": 149.18,
+     "Position": "P11",
+     "Bid": 1078.85
+    },
+    {
+     "Bid": 491.84,
+     "Position": "P12",
+     "Price": 96.92
+    },
+    {
+     "Price": 74.63,
+     "Bid": 309.84,
+     "Position": "P13"
+    },
+    {
+     "Price": 74.63,
+     "Bid": 309.84,
+     "Position": "P14"
+    },
+    {
+     "Position": "P21",
+     "Bid": 711,
+     "Price": 96.79
+    },
+    {
+     "Price": 94.07,
+     "Position": "P22",
+     "Bid": 638.65
+    },
+    {
+     "Bid": 627.64,
+     "Position": "P23",
+     "Price": 91.59
+    },
+    {
+     "Position": "P24",
+     "Bid": 613.33,
+     "Price": 88.44
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 55,
+   "FirstPlaceCTR": 0.69,
+   "Min": 613.33,
+   "Clicks": 4,
+   "PremiumMin": 309.84,
+   "PremiumMax": 1078.85,
+   "Shows": 2614,
+   "IsRubric": "No",
+   "PremiumCTR": 5.39,
+   "Phrase": "зал для мероприятий -аренда -арендовать -банкетный -бизнес -большой -деловых -конференц -москва -небольшой -официальных -проведения -разные -снять",
+   "CTR": 0.7,
+   "Max": 711,
+   "FirstPlaceClicks": 4
+  },
+  {
+   "PremiumMax": 1698.05,
+   "Shows": 59,
+   "PremiumMin": 367.35,
+   "PremiumCTR": 13.64,
+   "IsRubric": "No",
+   "FirstPlaceClicks": 2,
+   "CTR": 8.33,
+   "Phrase": "аренда помещений для проведения мероприятий",
+   "Max": 773.26,
+   "FirstPlaceCTR": 8.33,
+   "Min": 773.26,
+   "AuctionBids": [
+    {
+     "Price": 146.95,
+     "Position": "P11",
+     "Bid": 1698.05
+    },
+    {
+     "Bid": 784.21,
+     "Position": "P12",
+     "Price": 138.74
+    },
+    {
+     "Bid": 367.35,
+     "Position": "P13",
+     "Price": 102.89
+    },
+    {
+     "Bid": 367.35,
+     "Position": "P14",
+     "Price": 102.89
+    },
+    {
+     "Price": 8.14,
+     "Position": "P21",
+     "Bid": 773.26
+    },
+    {
+     "Price": 8.14,
+     "Position": "P22",
+     "Bid": 773.26
+    },
+    {
+     "Position": "P23",
+     "Bid": 773.26,
+     "Price": 8.14
+    },
+    {
+     "Price": 8.14,
+     "Position": "P24",
+     "Bid": 773.26
+    }
+   ],
+   "PremiumClicks": 6,
+   "Currency": "RUB",
+   "Clicks": 2
+  },
+  {
+   "FirstPlaceClicks": 3,
+   "CTR": 1.71,
+   "Phrase": "конференц залы аренда -гостиница -мероприятий -москве -центр",
+   "Max": 929.73,
+   "IsRubric": "No",
+   "PremiumCTR": 13.21,
+   "PremiumMax": 2616.54,
+   "PremiumMin": 818.52,
+   "Shows": 507,
+   "Clicks": 3,
+   "Min": 929.73,
+   "FirstPlaceCTR": 1.71,
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Bid": 2616.54,
+     "Position": "P11",
+     "Price": 398.11
+    },
+    {
+     "Bid": 1104.95,
+     "Position": "P12",
+     "Price": 287.58
+    },
+    {
+     "Price": 253.63,
+     "Bid": 818.52,
+     "Position": "P13"
+    },
+    {
+     "Price": 253.63,
+     "Bid": 818.52,
+     "Position": "P14"
+    },
+    {
+     "Bid": 929.73,
+     "Position": "P21",
+     "Price": 156.94
+    },
+    {
+     "Price": 156.94,
+     "Bid": 929.73,
+     "Position": "P22"
+    },
+    {
+     "Position": "P23",
+     "Bid": 929.73,
+     "Price": 156.94
+    },
+    {
+     "Price": 156.94,
+     "Bid": 929.73,
+     "Position": "P24"
+    }
+   ],
+   "PremiumClicks": 56
+  },
+  {
+   "Clicks": 9,
+   "AuctionBids": [
+    {
+     "Price": 67.82,
+     "Position": "P11",
+     "Bid": 490.15
+    },
+    {
+     "Price": 50.53,
+     "Bid": 259.41,
+     "Position": "P12"
+    },
+    {
+     "Bid": 174.22,
+     "Position": "P13",
+     "Price": 40.54
+    },
+    {
+     "Price": 40.54,
+     "Bid": 174.22,
+     "Position": "P14"
+    },
+    {
+     "Price": 39.95,
+     "Bid": 241.12,
+     "Position": "P21"
+    },
+    {
+     "Position": "P22",
+     "Bid": 221.18,
+     "Price": 38.5
+    },
+    {
+     "Price": 42.44,
+     "Position": "P23",
+     "Bid": 220.63
+    },
+    {
+     "Price": 42.44,
+     "Position": "P24",
+     "Bid": 220.39
+    }
+   ],
+   "PremiumClicks": 274,
+   "Currency": "RUB",
+   "FirstPlaceCTR": 0.4,
+   "Min": 220.39,
+   "Phrase": "снять зал -аренду -где -день -конференц -мероприятия -москве -посуточно -центре",
+   "CTR": 0.36,
+   "Max": 241.12,
+   "FirstPlaceClicks": 10,
+   "PremiumMin": 174.22,
+   "PremiumMax": 490.15,
+   "Shows": 3345,
+   "IsRubric": "No",
+   "PremiumCTR": 9.46
+  },
+  {
+   "Clicks": 2,
+   "FirstPlaceCTR": 22.22,
+   "Min": 823.88,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 1416.79,
+     "Price": 203.87
+    },
+    {
+     "Price": 209.08,
+     "Bid": 1018.89,
+     "Position": "P12"
+    },
+    {
+     "Bid": 847.55,
+     "Position": "P13",
+     "Price": 206.43
+    },
+    {
+     "Price": 206.43,
+     "Position": "P14",
+     "Bid": 847.55
+    },
+    {
+     "Position": "P21",
+     "Bid": 823.88,
+     "Price": 6.92
+    },
+    {
+     "Price": 6.92,
+     "Bid": 823.88,
+     "Position": "P22"
+    },
+    {
+     "Price": 6.92,
+     "Bid": 823.88,
+     "Position": "P23"
+    },
+    {
+     "Position": "P24",
+     "Bid": 823.88,
+     "Price": 6.92
+    }
+   ],
+   "PremiumClicks": 5,
+   "Currency": "RUB",
+   "FirstPlaceClicks": 2,
+   "CTR": 22.22,
+   "Phrase": "помещение для конференций москва",
+   "Max": 823.88,
+   "Shows": 28,
+   "PremiumMax": 1416.79,
+   "PremiumMin": 847.55,
+   "IsRubric": "No",
+   "PremiumCTR": 35.71
+  },
+  {
+   "CTR": 1.2,
+   "Max": 335.36,
+   "Phrase": "арендовать зал москва -мероприятия",
+   "FirstPlaceClicks": 2,
+   "PremiumMin": 282.31,
+   "PremiumMax": 1004.37,
+   "Shows": 239,
+   "IsRubric": "No",
+   "PremiumCTR": 18.22,
+   "Clicks": 2,
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 1004.37,
+     "Price": 131.46
+    },
+    {
+     "Bid": 352.99,
+     "Position": "P12",
+     "Price": 70.28
+    },
+    {
+     "Bid": 282.31,
+     "Position": "P13",
+     "Price": 56.67
+    },
+    {
+     "Bid": 282.31,
+     "Position": "P14",
+     "Price": 56.67
+    },
+    {
+     "Position": "P21",
+     "Bid": 335.36,
+     "Price": 30.36
+    },
+    {
+     "Price": 30.36,
+     "Bid": 335.36,
+     "Position": "P22"
+    },
+    {
+     "Price": 30.05,
+     "Bid": 307.91,
+     "Position": "P23"
+    },
+    {
+     "Position": "P24",
+     "Bid": 305.63,
+     "Price": 30.05
+    }
+   ],
+   "PremiumClicks": 39,
+   "FirstPlaceCTR": 1.19,
+   "Min": 305.63
+  },
+  {
+   "FirstPlaceClicks": 2,
+   "Max": 394.16,
+   "CTR": 1.9,
+   "Phrase": "аренда помещения для мероприятия -москве -посуточно -проведения",
+   "PremiumMax": 1285.02,
+   "PremiumMin": 361.38,
+   "Shows": 174,
+   "IsRubric": "No",
+   "PremiumCTR": 14.55,
+   "Clicks": 2,
+   "FirstPlaceCTR": 1.9,
+   "Min": 394.16,
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Price": 200.09,
+     "Position": "P11",
+     "Bid": 1285.02
+    },
+    {
+     "Price": 146.34,
+     "Bid": 626.37,
+     "Position": "P12"
+    },
+    {
+     "Position": "P13",
+     "Bid": 361.38,
+     "Price": 112.3
+    },
+    {
+     "Bid": 361.38,
+     "Position": "P14",
+     "Price": 112.3
+    },
+    {
+     "Position": "P21",
+     "Bid": 394.16,
+     "Price": 22.09
+    },
+    {
+     "Price": 22.09,
+     "Position": "P22",
+     "Bid": 394.16
+    },
+    {
+     "Bid": 394.16,
+     "Position": "P23",
+     "Price": 22.09
+    },
+    {
+     "Price": 22.09,
+     "Bid": 394.16,
+     "Position": "P24"
+    }
+   ],
+   "PremiumClicks": 24
+  },
+  {
+   "PremiumMax": 666.12,
+   "Shows": 38,
+   "PremiumMin": 146.31,
+   "PremiumCTR": 12.77,
+   "IsRubric": "No",
+   "CTR": 5.56,
+   "Max": 162.66,
+   "Phrase": "снять помещение для мероприятия -москве",
+   "FirstPlaceClicks": 2,
+   "AuctionBids": [
+    {
+     "Price": 134.14,
+     "Position": "P11",
+     "Bid": 666.12
+    },
+    {
+     "Price": 79.17,
+     "Position": "P12",
+     "Bid": 285.7
+    },
+    {
+     "Price": 48.1,
+     "Bid": 146.31,
+     "Position": "P13"
+    },
+    {
+     "Price": 48.1,
+     "Bid": 146.31,
+     "Position": "P14"
+    },
+    {
+     "Bid": 162.66,
+     "Position": "P21",
+     "Price": 6.76
+    },
+    {
+     "Price": 6.76,
+     "Bid": 162.66,
+     "Position": "P22"
+    },
+    {
+     "Price": 6.76,
+     "Bid": 162.66,
+     "Position": "P23"
+    },
+    {
+     "Price": 6.76,
+     "Position": "P24",
+     "Bid": 162.66
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 6,
+   "FirstPlaceCTR": 5.56,
+   "Min": 162.66,
+   "Clicks": 2
+  },
+  {
+   "Clicks": 2,
+   "Min": 845.75,
+   "FirstPlaceCTR": 20,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 1973.07,
+     "Price": 227.69
+    },
+    {
+     "Price": 132.17,
+     "Bid": 1275.34,
+     "Position": "P12"
+    },
+    {
+     "Position": "P13",
+     "Bid": 1077.35,
+     "Price": 93.77
+    },
+    {
+     "Price": 93.77,
+     "Position": "P14",
+     "Bid": 1077.35
+    },
+    {
+     "Price": 3.64,
+     "Position": "P21",
+     "Bid": 845.75
+    },
+    {
+     "Price": 3.64,
+     "Bid": 845.75,
+     "Position": "P22"
+    },
+    {
+     "Price": 3.64,
+     "Bid": 845.75,
+     "Position": "P23"
+    },
+    {
+     "Position": "P24",
+     "Bid": 845.75,
+     "Price": 3.64
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 3,
+   "FirstPlaceClicks": 2,
+   "CTR": 20,
+   "Phrase": "тренинг зал москва -аренда",
+   "Max": 845.75,
+   "IsRubric": "No",
+   "PremiumCTR": 20,
+   "PremiumMax": 1973.07,
+   "PremiumMin": 1077.35,
+   "Shows": 14
+  },
+  {
+   "FirstPlaceClicks": 2,
+   "CTR": 22.22,
+   "Phrase": "аренда переговорной москва сити",
+   "Max": 114.24,
+   "PremiumCTR": 17.39,
+   "IsRubric": "No",
+   "PremiumMax": 782.23,
+   "PremiumMin": 172.84,
+   "Shows": 24,
+   "Clicks": 2,
+   "Min": 93.18,
+   "FirstPlaceCTR": 20,
+   "PremiumClicks": 4,
+   "AuctionBids": [
+    {
+     "Price": 47.02,
+     "Bid": 782.23,
+     "Position": "P11"
+    },
+    {
+     "Position": "P12",
+     "Bid": 284.11,
+     "Price": 40.56
+    },
+    {
+     "Price": 33.94,
+     "Bid": 172.84,
+     "Position": "P13"
+    },
+    {
+     "Price": 33.94,
+     "Bid": 172.84,
+     "Position": "P14"
+    },
+    {
+     "Price": 2.59,
+     "Bid": 114.24,
+     "Position": "P21"
+    },
+    {
+     "Bid": 114.24,
+     "Position": "P22",
+     "Price": 2.59
+    },
+    {
+     "Bid": 93.18,
+     "Position": "P23",
+     "Price": 2.44
+    },
+    {
+     "Price": 2.44,
+     "Bid": 93.18,
+     "Position": "P24"
+    }
+   ],
+   "Currency": "RUB"
+  },
+  {
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Price": 518.61,
+     "Bid": 2331.53,
+     "Position": "P11"
+    },
+    {
+     "Bid": 1362.59,
+     "Position": "P12",
+     "Price": 372.98
+    },
+    {
+     "Price": 300.58,
+     "Position": "P13",
+     "Bid": 997.96
+    },
+    {
+     "Price": 300.58,
+     "Position": "P14",
+     "Bid": 997.96
+    },
+    {
+     "Price": 209.97,
+     "Bid": 1750.99,
+     "Position": "P21"
+    },
+    {
+     "Bid": 1722.71,
+     "Position": "P22",
+     "Price": 195.39
+    },
+    {
+     "Price": 195.39,
+     "Bid": 1722.71,
+     "Position": "P23"
+    },
+    {
+     "Price": 195.39,
+     "Position": "P24",
+     "Bid": 1722.71
+    }
+   ],
+   "PremiumClicks": 28,
+   "Min": 1722.71,
+   "FirstPlaceCTR": 4.11,
+   "Clicks": 3,
+   "IsRubric": "No",
+   "PremiumCTR": 17.28,
+   "PremiumMin": 997.96,
+   "PremiumMax": 2331.53,
+   "Shows": 174,
+   "CTR": 4.11,
+   "Phrase": "аренда конференц зала в москве -отель -сити -центр",
+   "Max": 1750.99,
+   "FirstPlaceClicks": 3
+  },
+  {
+   "FirstPlaceClicks": 2,
+   "Phrase": "аренда зала стоимость -москва",
+   "CTR": 0.78,
+   "Max": 323.01,
+   "PremiumCTR": 5.7,
+   "IsRubric": "No",
+   "PremiumMax": 999.87,
+   "PremiumMin": 305.86,
+   "Shows": 401,
+   "Clicks": 2,
+   "Min": 278.41,
+   "FirstPlaceCTR": 0.77,
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Price": 142.07,
+     "Position": "P11",
+     "Bid": 999.87
+    },
+    {
+     "Bid": 434.19,
+     "Position": "P12",
+     "Price": 82.28
+    },
+    {
+     "Price": 60.31,
+     "Position": "P13",
+     "Bid": 305.86
+    },
+    {
+     "Position": "P14",
+     "Bid": 305.86,
+     "Price": 60.31
+    },
+    {
+     "Price": 30.51,
+     "Bid": 323.01,
+     "Position": "P21"
+    },
+    {
+     "Price": 29.37,
+     "Position": "P22",
+     "Bid": 287.22
+    },
+    {
+     "Bid": 278.41,
+     "Position": "P23",
+     "Price": 28.86
+    },
+    {
+     "Price": 28.86,
+     "Bid": 278.41,
+     "Position": "P24"
+    }
+   ],
+   "PremiumClicks": 20
+  },
+  {
+   "Clicks": 2,
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Price": 72.84,
+     "Position": "P11",
+     "Bid": 476.91
+    },
+    {
+     "Bid": 302.97,
+     "Position": "P12",
+     "Price": 37.6
+    },
+    {
+     "Price": 30.16,
+     "Bid": 134.58,
+     "Position": "P13"
+    },
+    {
+     "Position": "P14",
+     "Bid": 134.58,
+     "Price": 30.16
+    },
+    {
+     "Price": 3.27,
+     "Bid": 209.87,
+     "Position": "P21"
+    },
+    {
+     "Price": 3.27,
+     "Position": "P22",
+     "Bid": 209.87
+    },
+    {
+     "Price": 3.27,
+     "Bid": 209.87,
+     "Position": "P23"
+    },
+    {
+     "Position": "P24",
+     "Bid": 209.87,
+     "Price": 3.27
+    }
+   ],
+   "PremiumClicks": 6,
+   "FirstPlaceCTR": 6.06,
+   "Min": 209.87,
+   "CTR": 6.06,
+   "Max": 209.87,
+   "Phrase": "снять зал в аренду в москве",
+   "FirstPlaceClicks": 2,
+   "Shows": 35,
+   "PremiumMax": 476.91,
+   "PremiumMin": 134.58,
+   "IsRubric": "No",
+   "PremiumCTR": 15.79
+  },
+  {
+   "Clicks": 2,
+   "Min": 873.6,
+   "FirstPlaceCTR": 50,
+   "PremiumClicks": 2,
+   "AuctionBids": [
+    {
+     "Bid": 1329.26,
+     "Position": "P11",
+     "Price": 92.82
+    },
+    {
+     "Position": "P12",
+     "Bid": 386.85,
+     "Price": 77.11
+    },
+    {
+     "Price": 39.69,
+     "Position": "P13",
+     "Bid": 305.9
+    },
+    {
+     "Bid": 305.9,
+     "Position": "P14",
+     "Price": 39.69
+    },
+    {
+     "Price": 4.44,
+     "Position": "P21",
+     "Bid": 873.6
+    },
+    {
+     "Price": 4.44,
+     "Bid": 873.6,
+     "Position": "P22"
+    },
+    {
+     "Price": 4.44,
+     "Position": "P23",
+     "Bid": 873.6
+    },
+    {
+     "Position": "P24",
+     "Bid": 873.6,
+     "Price": 4.44
+    }
+   ],
+   "Currency": "RUB",
+   "FirstPlaceClicks": 2,
+   "CTR": 50,
+   "Phrase": "аренда помещения посуточно для мероприятий",
+   "Max": 873.6,
+   "PremiumCTR": 33.33,
+   "IsRubric": "No",
+   "PremiumMax": 1329.26,
+   "PremiumMin": 305.9,
+   "Shows": 4
+  },
+  {
+   "CTR": 100,
+   "Max": 1181.98,
+   "Phrase": "аренда помещения для конференции",
+   "FirstPlaceClicks": 2,
+   "PremiumCTR": 36.36,
+   "IsRubric": "No",
+   "PremiumMax": 1711.16,
+   "Shows": 26,
+   "PremiumMin": 896.24,
+   "Clicks": 2,
+   "AuctionBids": [
+    {
+     "Price": 307.48,
+     "Bid": 1711.16,
+     "Position": "P11"
+    },
+    {
+     "Price": 178.24,
+     "Position": "P12",
+     "Bid": 978.36
+    },
+    {
+     "Bid": 896.24,
+     "Position": "P13",
+     "Price": 178.24
+    },
+    {
+     "Price": 178.24,
+     "Bid": 896.24,
+     "Position": "P14"
+    },
+    {
+     "Price": 0.21,
+     "Bid": 1181.98,
+     "Position": "P21"
+    },
+    {
+     "Price": 0.21,
+     "Bid": 1181.98,
+     "Position": "P22"
+    },
+    {
+     "Position": "P23",
+     "Bid": 1181.98,
+     "Price": 0.21
+    },
+    {
+     "Price": 0.21,
+     "Bid": 1181.98,
+     "Position": "P24"
+    }
+   ],
+   "PremiumClicks": 4,
+   "Currency": "RUB",
+   "Min": 1181.98,
+   "FirstPlaceCTR": 100
+  },
+  {
+   "Phrase": "банкетные залы на 30 человек в москве",
+   "CTR": 2.5,
+   "Max": 1081.24,
+   "FirstPlaceClicks": 2,
+   "PremiumMax": 1079.38,
+   "PremiumMin": 444.06,
+   "Shows": 124,
+   "IsRubric": "No",
+   "PremiumCTR": 19.84,
+   "Clicks": 2,
+   "PremiumClicks": 25,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 1079.38,
+     "Price": 261.78
+    },
+    {
+     "Bid": 627.18,
+     "Position": "P12",
+     "Price": 182.91
+    },
+    {
+     "Price": 132.47,
+     "Position": "P13",
+     "Bid": 444.06
+    },
+    {
+     "Position": "P14",
+     "Bid": 444.06,
+     "Price": 132.47
+    },
+    {
+     "Position": "P21",
+     "Bid": 1081.24,
+     "Price": 59.94
+    },
+    {
+     "Price": 59.94,
+     "Bid": 1081.24,
+     "Position": "P22"
+    },
+    {
+     "Bid": 1081.24,
+     "Position": "P23",
+     "Price": 59.94
+    },
+    {
+     "Price": 59.94,
+     "Position": "P24",
+     "Bid": 1081.24
+    }
+   ],
+   "Currency": "RUB",
+   "FirstPlaceCTR": 2.5,
+   "Min": 1081.24
+  },
+  {
+   "Clicks": 2,
+   "AuctionBids": [
+    {
+     "Bid": 4804.54,
+     "Position": "P11",
+     "Price": 156.16
+    },
+    {
+     "Price": 161.92,
+     "Position": "P12",
+     "Bid": 1111.27
+    },
+    {
+     "Price": 161.92,
+     "Position": "P13",
+     "Bid": 1111.27
+    },
+    {
+     "Position": "P14",
+     "Bid": 1111.27,
+     "Price": 161.92
+    },
+    {
+     "Price": 47.97,
+     "Bid": 463.32,
+     "Position": "P21"
+    },
+    {
+     "Price": 47.97,
+     "Bid": 463.32,
+     "Position": "P22"
+    },
+    {
+     "Price": 26.25,
+     "Bid": 358.56,
+     "Position": "P23"
+    },
+    {
+     "Price": 26.25,
+     "Position": "P24",
+     "Bid": 358.56
+    }
+   ],
+   "PremiumClicks": 4,
+   "Currency": "RUB",
+   "FirstPlaceCTR": 13.33,
+   "Min": 358.56,
+   "Phrase": "конференц залы в гостиницах москвы",
+   "CTR": 13.33,
+   "Max": 463.32,
+   "FirstPlaceClicks": 2,
+   "Shows": 34,
+   "PremiumMax": 4804.54,
+   "PremiumMin": 1111.27,
+   "PremiumCTR": 18.18,
+   "IsRubric": "No"
+  },
+  {
+   "PremiumMax": 1206,
+   "PremiumMin": 422.13,
+   "Shows": 19,
+   "IsRubric": "No",
+   "PremiumCTR": 19.05,
+   "FirstPlaceClicks": 2,
+   "Phrase": "банкетные залы мск",
+   "CTR": 20,
+   "Max": 742.58,
+   "FirstPlaceCTR": 20,
+   "Min": 742.58,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 1206,
+     "Price": 224.09
+    },
+    {
+     "Position": "P12",
+     "Bid": 872.72,
+     "Price": 181.27
+    },
+    {
+     "Price": 137.03,
+     "Position": "P13",
+     "Bid": 422.13
+    },
+    {
+     "Price": 137.03,
+     "Position": "P14",
+     "Bid": 422.13
+    },
+    {
+     "Price": 1.88,
+     "Bid": 742.58,
+     "Position": "P21"
+    },
+    {
+     "Price": 1.88,
+     "Position": "P22",
+     "Bid": 742.58
+    },
+    {
+     "Position": "P23",
+     "Bid": 742.58,
+     "Price": 1.88
+    },
+    {
+     "Position": "P24",
+     "Bid": 742.58,
+     "Price": 1.88
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 4,
+   "Clicks": 2
+  },
+  {
+   "Clicks": 2,
+   "AuctionBids": [
+    {
+     "Price": 64.33,
+     "Bid": 610.21,
+     "Position": "P11"
+    },
+    {
+     "Position": "P12",
+     "Bid": 163.65,
+     "Price": 31.4
+    },
+    {
+     "Position": "P13",
+     "Bid": 65.27,
+     "Price": 17.34
+    },
+    {
+     "Price": 17.34,
+     "Bid": 65.27,
+     "Position": "P14"
+    },
+    {
+     "Price": 4.08,
+     "Bid": 289.25,
+     "Position": "P21"
+    },
+    {
+     "Position": "P22",
+     "Bid": 289.25,
+     "Price": 4.08
+    },
+    {
+     "Position": "P23",
+     "Bid": 289.25,
+     "Price": 4.08
+    },
+    {
+     "Price": 4.08,
+     "Position": "P24",
+     "Bid": 289.25
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 6,
+   "Min": 289.25,
+   "FirstPlaceCTR": 1.75,
+   "Phrase": "сколько стоит арендовать зал",
+   "CTR": 1.75,
+   "Max": 289.25,
+   "FirstPlaceClicks": 2,
+   "IsRubric": "No",
+   "PremiumCTR": 5,
+   "PremiumMin": 65.27,
+   "PremiumMax": 610.21,
+   "Shows": 121
+  },
+  {
+   "Clicks": 2,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 8558.45,
+     "Price": 31.02
+    },
+    {
+     "Position": "P12",
+     "Bid": 444.27,
+     "Price": 0.95
+    },
+    {
+     "Position": "P13",
+     "Bid": 444.27,
+     "Price": 0.95
+    },
+    {
+     "Price": 0.95,
+     "Position": "P14",
+     "Bid": 444.27
+    },
+    {
+     "Price": 0.02,
+     "Position": "P21",
+     "Bid": 403.09
+    },
+    {
+     "Bid": 403.09,
+     "Position": "P22",
+     "Price": 0.02
+    },
+    {
+     "Price": 0.02,
+     "Position": "P23",
+     "Bid": 403.09
+    },
+    {
+     "Price": 0.02,
+     "Bid": 403.09,
+     "Position": "P24"
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 2,
+   "FirstPlaceCTR": 66.67,
+   "Min": 403.09,
+   "CTR": 66.67,
+   "Phrase": "помещения для бизнес мероприятий",
+   "Max": 403.09,
+   "FirstPlaceClicks": 2,
+   "PremiumMin": 444.27,
+   "PremiumMax": 8558.45,
+   "Shows": 4,
+   "IsRubric": "No",
+   "PremiumCTR": 50
+  },
+  {
+   "Phrase": "помещение для проведения семинара -аренду",
+   "CTR": 100,
+   "Max": 583.61,
+   "FirstPlaceClicks": 2,
+   "PremiumCTR": 100,
+   "IsRubric": "No",
+   "PremiumMax": 544.84,
+   "Shows": 2,
+   "PremiumMin": 275.73,
+   "Clicks": 2,
+   "AuctionBids": [
+    {
+     "Bid": 544.84,
+     "Position": "P11",
+     "Price": 15.35
+    },
+    {
+     "Price": 2.36,
+     "Bid": 275.73,
+     "Position": "P12"
+    },
+    {
+     "Price": 2.36,
+     "Position": "P13",
+     "Bid": 275.73
+    },
+    {
+     "Bid": 275.73,
+     "Position": "P14",
+     "Price": 2.36
+    },
+    {
+     "Position": "P21",
+     "Bid": 583.61,
+     "Price": 1.28
+    },
+    {
+     "Position": "P22",
+     "Bid": 380.95,
+     "Price": 1.5
+    },
+    {
+     "Position": "P23",
+     "Bid": 380.95,
+     "Price": 1.5
+    },
+    {
+     "Position": "P24",
+     "Bid": 272.56,
+     "Price": 0.86
+    }
+   ],
+   "PremiumClicks": 2,
+   "Currency": "RUB",
+   "Min": 272.56,
+   "FirstPlaceCTR": 100
+  },
+  {
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Price": 102.46,
+     "Position": "P11",
+     "Bid": 578.64
+    },
+    {
+     "Position": "P12",
+     "Bid": 318.56,
+     "Price": 72.58
+    },
+    {
+     "Price": 48.72,
+     "Bid": 222.64,
+     "Position": "P13"
+    },
+    {
+     "Position": "P14",
+     "Bid": 222.64,
+     "Price": 48.72
+    },
+    {
+     "Position": "P21",
+     "Bid": 523.04,
+     "Price": 7.05
+    },
+    {
+     "Bid": 358.13,
+     "Position": "P22",
+     "Price": 6.42
+    },
+    {
+     "Price": 6.37,
+     "Position": "P23",
+     "Bid": 318.98
+    },
+    {
+     "Price": 6.37,
+     "Position": "P24",
+     "Bid": 318.98
+    }
+   ],
+   "PremiumClicks": 7,
+   "FirstPlaceCTR": 10.53,
+   "Min": 318.98,
+   "Clicks": 2,
+   "PremiumMax": 578.64,
+   "Shows": 42,
+   "PremiumMin": 222.64,
+   "IsRubric": "No",
+   "PremiumCTR": 20,
+   "CTR": 11.11,
+   "Phrase": "коворкинг переговорная в москве",
+   "Max": 523.04,
+   "FirstPlaceClicks": 2
+  },
+  {
+   "AuctionBids": [
+    {
+     "Bid": 816.63,
+     "Position": "P11",
+     "Price": 81.18
+    },
+    {
+     "Bid": 393.06,
+     "Position": "P12",
+     "Price": 76.52
+    },
+    {
+     "Price": 57.68,
+     "Position": "P13",
+     "Bid": 196.24
+    },
+    {
+     "Bid": 196.24,
+     "Position": "P14",
+     "Price": 57.68
+    },
+    {
+     "Bid": 1175.06,
+     "Position": "P21",
+     "Price": 7.2
+    },
+    {
+     "Position": "P22",
+     "Bid": 1175.06,
+     "Price": 7.2
+    },
+    {
+     "Price": 7.2,
+     "Position": "P23",
+     "Bid": 1175.06
+    },
+    {
+     "Bid": 1175.06,
+     "Position": "P24",
+     "Price": 7.2
+    }
+   ],
+   "PremiumClicks": 4,
+   "Currency": "RUB",
+   "FirstPlaceCTR": 16.67,
+   "Min": 1175.06,
+   "Clicks": 2,
+   "PremiumMax": 816.63,
+   "Shows": 18,
+   "PremiumMin": 196.24,
+   "IsRubric": "No",
+   "PremiumCTR": 22.22,
+   "Phrase": "переговорная комната москва сити",
+   "CTR": 16.67,
+   "Max": 1175.06,
+   "FirstPlaceClicks": 2
+  },
+  {
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 3591.84,
+     "Price": 253.21
+    },
+    {
+     "Position": "P12",
+     "Bid": 1478.52,
+     "Price": 200.88
+    },
+    {
+     "Position": "P13",
+     "Bid": 1402.45,
+     "Price": 200.88
+    },
+    {
+     "Price": 200.88,
+     "Position": "P14",
+     "Bid": 1402.45
+    },
+    {
+     "Price": 0.17,
+     "Position": "P21",
+     "Bid": 749.12
+    },
+    {
+     "Price": 0.17,
+     "Bid": 150.3,
+     "Position": "P22"
+    },
+    {
+     "Bid": 133.72,
+     "Position": "P23",
+     "Price": 0.17
+    },
+    {
+     "Price": 0.17,
+     "Bid": 110.64,
+     "Position": "P24"
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 5,
+   "FirstPlaceCTR": 25,
+   "Min": 110.64,
+   "Clicks": 2,
+   "PremiumMax": 3591.84,
+   "Shows": 19,
+   "PremiumMin": 1402.45,
+   "PremiumCTR": 26.32,
+   "IsRubric": "No",
+   "Max": 749.12,
+   "CTR": 25,
+   "Phrase": "переговорная центр москвы -аренда",
+   "FirstPlaceClicks": 2
+  },
+  {
+   "PremiumMax": 3897.27,
+   "Shows": 19,
+   "PremiumMin": 1534.48,
+   "IsRubric": "No",
+   "PremiumCTR": 13.33,
+   "FirstPlaceClicks": 2,
+   "Max": 400.85,
+   "CTR": 22.22,
+   "Phrase": "забронировать конференц зал",
+   "FirstPlaceCTR": 22.22,
+   "Min": 400.85,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 3897.27,
+     "Price": 342.27
+    },
+    {
+     "Bid": 3107.08,
+     "Position": "P12",
+     "Price": 268.54
+    },
+    {
+     "Bid": 1534.48,
+     "Position": "P13",
+     "Price": 94.62
+    },
+    {
+     "Price": 94.62,
+     "Position": "P14",
+     "Bid": 1534.48
+    },
+    {
+     "Position": "P21",
+     "Bid": 400.85,
+     "Price": 0.54
+    },
+    {
+     "Price": 0.54,
+     "Bid": 400.85,
+     "Position": "P22"
+    },
+    {
+     "Price": 0.54,
+     "Bid": 400.85,
+     "Position": "P23"
+    },
+    {
+     "Price": 0.54,
+     "Position": "P24",
+     "Bid": 400.85
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 2,
+   "Clicks": 2
+  },
+  {
+   "Clicks": 2,
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Bid": 582.09,
+     "Position": "P11",
+     "Price": 67.25
+    },
+    {
+     "Price": 61.06,
+     "Position": "P12",
+     "Bid": 305.03
+    },
+    {
+     "Price": 27.51,
+     "Bid": 136.88,
+     "Position": "P13"
+    },
+    {
+     "Price": 27.51,
+     "Bid": 136.88,
+     "Position": "P14"
+    },
+    {
+     "Position": "P21",
+     "Bid": 268.06,
+     "Price": 7.57
+    },
+    {
+     "Price": 7.57,
+     "Position": "P22",
+     "Bid": 268.06
+    },
+    {
+     "Price": 7.57,
+     "Position": "P23",
+     "Bid": 268.06
+    },
+    {
+     "Price": 7.57,
+     "Bid": 268.06,
+     "Position": "P24"
+    }
+   ],
+   "PremiumClicks": 10,
+   "FirstPlaceCTR": 3.39,
+   "Min": 268.06,
+   "Max": 268.06,
+   "CTR": 3.39,
+   "Phrase": "забронировать зал в москве",
+   "FirstPlaceClicks": 2,
+   "PremiumMin": 136.88,
+   "PremiumMax": 582.09,
+   "Shows": 67,
+   "PremiumCTR": 14.29,
+   "IsRubric": "No"
+  },
+  {
+   "Max": 375.83,
+   "CTR": 1.01,
+   "Phrase": "снять зал в москве -аренду -банкетный -где -конференц -недорого",
+   "FirstPlaceClicks": 4,
+   "IsRubric": "No",
+   "PremiumCTR": 17.58,
+   "PremiumMax": 546.41,
+   "PremiumMin": 138.8,
+   "Shows": 472,
+   "Clicks": 4,
+   "PremiumClicks": 80,
+   "AuctionBids": [
+    {
+     "Price": 70.23,
+     "Position": "P11",
+     "Bid": 546.41
+    },
+    {
+     "Position": "P12",
+     "Bid": 221.8,
+     "Price": 46.72
+    },
+    {
+     "Position": "P13",
+     "Bid": 138.8,
+     "Price": 32.67
+    },
+    {
+     "Price": 32.67,
+     "Position": "P14",
+     "Bid": 138.8
+    },
+    {
+     "Price": 29.44,
+     "Position": "P21",
+     "Bid": 375.83
+    },
+    {
+     "Position": "P22",
+     "Bid": 344.88,
+     "Price": 29.44
+    },
+    {
+     "Price": 29.44,
+     "Bid": 344.88,
+     "Position": "P23"
+    },
+    {
+     "Price": 29.44,
+     "Bid": 344.88,
+     "Position": "P24"
+    }
+   ],
+   "Currency": "RUB",
+   "Min": 344.88,
+   "FirstPlaceCTR": 1.01
+  },
+  {
+   "PremiumMax": 760.13,
+   "Shows": 32,
+   "PremiumMin": 529.6,
+   "IsRubric": "No",
+   "PremiumCTR": 14.29,
+   "FirstPlaceClicks": 2,
+   "Phrase": "аренда зала для проведения мероприятий",
+   "CTR": 28.57,
+   "Max": 785.17,
+   "FirstPlaceCTR": 28.57,
+   "Min": 709.16,
+   "AuctionBids": [
+    {
+     "Price": 110.75,
+     "Position": "P11",
+     "Bid": 760.13
+    },
+    {
+     "Bid": 529.6,
+     "Position": "P12",
+     "Price": 149.32
+    },
+    {
+     "Price": 149.32,
+     "Bid": 529.6,
+     "Position": "P13"
+    },
+    {
+     "Price": 149.32,
+     "Position": "P14",
+     "Bid": 529.6
+    },
+    {
+     "Price": 7.8,
+     "Position": "P21",
+     "Bid": 785.17
+    },
+    {
+     "Price": 7.8,
+     "Bid": 785.17,
+     "Position": "P22"
+    },
+    {
+     "Price": 7.8,
+     "Position": "P23",
+     "Bid": 709.16
+    },
+    {
+     "Price": 7.8,
+     "Position": "P24",
+     "Bid": 709.16
+    }
+   ],
+   "PremiumClicks": 3,
+   "Currency": "RUB",
+   "Clicks": 2
+  },
+  {
+   "FirstPlaceClicks": 2,
+   "CTR": 2.53,
+   "Max": 270.74,
+   "Phrase": "зал на 10 человек москва -банкетные",
+   "IsRubric": "No",
+   "PremiumCTR": 12.04,
+   "Shows": 90,
+   "PremiumMax": 718.94,
+   "PremiumMin": 224.97,
+   "Clicks": 2,
+   "Min": 270.74,
+   "FirstPlaceCTR": 2.53,
+   "AuctionBids": [
+    {
+     "Price": 121.98,
+     "Position": "P11",
+     "Bid": 718.94
+    },
+    {
+     "Bid": 253.42,
+     "Position": "P12",
+     "Price": 79.58
+    },
+    {
+     "Bid": 224.97,
+     "Position": "P13",
+     "Price": 71.71
+    },
+    {
+     "Bid": 224.97,
+     "Position": "P14",
+     "Price": 71.71
+    },
+    {
+     "Position": "P21",
+     "Bid": 270.74,
+     "Price": 12.08
+    },
+    {
+     "Price": 12.08,
+     "Bid": 270.74,
+     "Position": "P22"
+    },
+    {
+     "Position": "P23",
+     "Bid": 270.74,
+     "Price": 12.08
+    },
+    {
+     "Bid": 270.74,
+     "Position": "P24",
+     "Price": 12.08
+    }
+   ],
+   "PremiumClicks": 13,
+   "Currency": "RUB"
+  },
+  {
+   "Clicks": 2,
+   "Min": 210.23,
+   "FirstPlaceCTR": 15.38,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 1481.54,
+     "Price": 171.42
+    },
+    {
+     "Price": 93.47,
+     "Position": "P12",
+     "Bid": 974.07
+    },
+    {
+     "Price": 32.08,
+     "Position": "P13",
+     "Bid": 397.28
+    },
+    {
+     "Bid": 397.28,
+     "Position": "P14",
+     "Price": 32.08
+    },
+    {
+     "Price": 7.02,
+     "Bid": 346.44,
+     "Position": "P21"
+    },
+    {
+     "Bid": 300.82,
+     "Position": "P22",
+     "Price": 8.56
+    },
+    {
+     "Price": 6.39,
+     "Position": "P23",
+     "Bid": 290.97
+    },
+    {
+     "Bid": 210.23,
+     "Position": "P24",
+     "Price": 6.04
+    }
+   ],
+   "PremiumClicks": 3,
+   "Currency": "RUB",
+   "FirstPlaceClicks": 2,
+   "Phrase": "аренда зала для обучения",
+   "CTR": 16.67,
+   "Max": 346.44,
+   "IsRubric": "No",
+   "PremiumCTR": 15.79,
+   "PremiumMin": 397.28,
+   "PremiumMax": 1481.54,
+   "Shows": 20
+  },
+  {
+   "Min": 857.99,
+   "FirstPlaceCTR": 1.57,
+   "PremiumClicks": 22,
+   "AuctionBids": [
+    {
+     "Price": 227,
+     "Position": "P11",
+     "Bid": 1460.54
+    },
+    {
+     "Price": 172.8,
+     "Position": "P12",
+     "Bid": 807.95
+    },
+    {
+     "Position": "P13",
+     "Bid": 526.29,
+     "Price": 125.32
+    },
+    {
+     "Position": "P14",
+     "Bid": 526.29,
+     "Price": 125.32
+    },
+    {
+     "Price": 71,
+     "Position": "P21",
+     "Bid": 968.61
+    },
+    {
+     "Price": 69.81,
+     "Position": "P22",
+     "Bid": 857.99
+    },
+    {
+     "Position": "P23",
+     "Bid": 857.99,
+     "Price": 69.81
+    },
+    {
+     "Position": "P24",
+     "Bid": 857.99,
+     "Price": 69.81
+    }
+   ],
+   "Currency": "RUB",
+   "Clicks": 2,
+   "PremiumCTR": 12.64,
+   "IsRubric": "No",
+   "PremiumMax": 1460.54,
+   "Shows": 170,
+   "PremiumMin": 526.29,
+   "FirstPlaceClicks": 2,
+   "Max": 968.61,
+   "CTR": 1.59,
+   "Phrase": "аренда зала для мероприятия -конференц -москва -под -проведения -цена"
+  },
+  {
+   "AuctionBids": [
+    {
+     "Price": 163.11,
+     "Position": "P11",
+     "Bid": 2656.72
+    },
+    {
+     "Bid": 1236.06,
+     "Position": "P12",
+     "Price": 83.85
+    },
+    {
+     "Bid": 378.97,
+     "Position": "P13",
+     "Price": 14.47
+    },
+    {
+     "Bid": 378.97,
+     "Position": "P14",
+     "Price": 14.47
+    },
+    {
+     "Price": 0.06,
+     "Position": "P21",
+     "Bid": 155.83
+    },
+    {
+     "Bid": 155.83,
+     "Position": "P22",
+     "Price": 0.06
+    },
+    {
+     "Price": 0.06,
+     "Position": "P23",
+     "Bid": 155.83
+    },
+    {
+     "Position": "P24",
+     "Bid": 155.83,
+     "Price": 0.06
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 2,
+   "Min": 155.83,
+   "FirstPlaceCTR": 66.67,
+   "Clicks": 2,
+   "PremiumCTR": 22.22,
+   "IsRubric": "No",
+   "PremiumMin": 378.97,
+   "PremiumMax": 2656.72,
+   "Shows": 16,
+   "Phrase": "зал для деловых мероприятий",
+   "CTR": 66.67,
+   "Max": 155.83,
+   "FirstPlaceClicks": 2
+  },
+  {
+   "FirstPlaceClicks": 2,
+   "CTR": 20,
+   "Max": 102.66,
+   "Phrase": "зал арендовать цены",
+   "IsRubric": "No",
+   "PremiumCTR": 16.67,
+   "Shows": 19,
+   "PremiumMax": 319.37,
+   "PremiumMin": 153.13,
+   "Clicks": 2,
+   "Min": 102.66,
+   "FirstPlaceCTR": 20,
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Price": 19.08,
+     "Bid": 319.37,
+     "Position": "P11"
+    },
+    {
+     "Price": 17.62,
+     "Position": "P12",
+     "Bid": 158.92
+    },
+    {
+     "Position": "P13",
+     "Bid": 153.13,
+     "Price": 17.62
+    },
+    {
+     "Bid": 153.13,
+     "Position": "P14",
+     "Price": 17.62
+    },
+    {
+     "Price": 0.33,
+     "Position": "P21",
+     "Bid": 102.66
+    },
+    {
+     "Price": 0.33,
+     "Position": "P22",
+     "Bid": 102.66
+    },
+    {
+     "Price": 0.33,
+     "Bid": 102.66,
+     "Position": "P23"
+    },
+    {
+     "Position": "P24",
+     "Bid": 102.66,
+     "Price": 0.33
+    }
+   ],
+   "PremiumClicks": 2
+  },
+  {
+   "CTR": 5.88,
+   "Phrase": "где можно арендовать зал",
+   "Max": 243.62,
+   "FirstPlaceClicks": 2,
+   "IsRubric": "No",
+   "PremiumCTR": 12.5,
+   "Shows": 40,
+   "PremiumMax": 1082.48,
+   "PremiumMin": 511.03,
+   "Clicks": 2,
+   "AuctionBids": [
+    {
+     "Price": 58.86,
+     "Bid": 1082.48,
+     "Position": "P11"
+    },
+    {
+     "Price": 65.23,
+     "Position": "P12",
+     "Bid": 571.45
+    },
+    {
+     "Bid": 511.03,
+     "Position": "P13",
+     "Price": 51.46
+    },
+    {
+     "Price": 51.46,
+     "Bid": 511.03,
+     "Position": "P14"
+    },
+    {
+     "Price": 3.68,
+     "Bid": 243.62,
+     "Position": "P21"
+    },
+    {
+     "Position": "P22",
+     "Bid": 243.62,
+     "Price": 3.68
+    },
+    {
+     "Bid": 243.62,
+     "Position": "P23",
+     "Price": 3.68
+    },
+    {
+     "Position": "P24",
+     "Bid": 243.62,
+     "Price": 3.68
+    }
+   ],
+   "PremiumClicks": 5,
+   "Currency": "RUB",
+   "Min": 243.62,
+   "FirstPlaceCTR": 5.88
+  },
+  {
+   "Clicks": 2,
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Price": 269.77,
+     "Position": "P11",
+     "Bid": 1361.16
+    },
+    {
+     "Bid": 733.87,
+     "Position": "P12",
+     "Price": 175.74
+    },
+    {
+     "Bid": 460.62,
+     "Position": "P13",
+     "Price": 127.16
+    },
+    {
+     "Position": "P14",
+     "Bid": 460.62,
+     "Price": 127.16
+    },
+    {
+     "Bid": 864.57,
+     "Position": "P21",
+     "Price": 28.91
+    },
+    {
+     "Price": 28.91,
+     "Position": "P22",
+     "Bid": 864.57
+    },
+    {
+     "Price": 28.91,
+     "Bid": 864.57,
+     "Position": "P23"
+    },
+    {
+     "Price": 28.91,
+     "Position": "P24",
+     "Bid": 864.57
+    }
+   ],
+   "PremiumClicks": 12,
+   "Min": 864.57,
+   "FirstPlaceCTR": 3.39,
+   "Max": 864.57,
+   "CTR": 3.39,
+   "Phrase": "аренда зала для тренинга -москва",
+   "FirstPlaceClicks": 2,
+   "IsRubric": "No",
+   "PremiumCTR": 14.81,
+   "PremiumMax": 1361.16,
+   "Shows": 87,
+   "PremiumMin": 460.62
+  },
+  {
+   "PremiumMax": 2609.32,
+   "Shows": 64,
+   "PremiumMin": 815.13,
+   "IsRubric": "No",
+   "PremiumCTR": 11.63,
+   "CTR": 7.14,
+   "Phrase": "бизнес аренда залов",
+   "Max": 1263.57,
+   "FirstPlaceClicks": 2,
+   "AuctionBids": [
+    {
+     "Price": 388.01,
+     "Position": "P11",
+     "Bid": 2609.32
+    },
+    {
+     "Price": 287.64,
+     "Bid": 1339.25,
+     "Position": "P12"
+    },
+    {
+     "Price": 206.51,
+     "Position": "P13",
+     "Bid": 815.13
+    },
+    {
+     "Bid": 815.13,
+     "Position": "P14",
+     "Price": 206.51
+    },
+    {
+     "Price": 11.41,
+     "Bid": 1263.57,
+     "Position": "P21"
+    },
+    {
+     "Price": 11.41,
+     "Bid": 1263.57,
+     "Position": "P22"
+    },
+    {
+     "Position": "P23",
+     "Bid": 1263.57,
+     "Price": 11.41
+    },
+    {
+     "Position": "P24",
+     "Bid": 1263.57,
+     "Price": 11.41
+    }
+   ],
+   "PremiumClicks": 5,
+   "Currency": "RUB",
+   "FirstPlaceCTR": 7.14,
+   "Min": 1263.57,
+   "Clicks": 2
+  },
+  {
+   "FirstPlaceClicks": 2,
+   "Max": 401.7,
+   "CTR": 2.94,
+   "Phrase": "отель банкетный зал москва",
+   "IsRubric": "No",
+   "PremiumCTR": 10.53,
+   "PremiumMin": 250.75,
+   "PremiumMax": 879.31,
+   "Shows": 84,
+   "Clicks": 2,
+   "Min": 325.76,
+   "FirstPlaceCTR": 2.9,
+   "AuctionBids": [
+    {
+     "Price": 178.97,
+     "Position": "P11",
+     "Bid": 879.31
+    },
+    {
+     "Price": 110.93,
+     "Bid": 348.27,
+     "Position": "P12"
+    },
+    {
+     "Price": 92.66,
+     "Position": "P13",
+     "Bid": 250.75
+    },
+    {
+     "Price": 92.66,
+     "Bid": 250.75,
+     "Position": "P14"
+    },
+    {
+     "Price": 12.34,
+     "Bid": 401.7,
+     "Position": "P21"
+    },
+    {
+     "Price": 11.73,
+     "Bid": 325.76,
+     "Position": "P22"
+    },
+    {
+     "Price": 11.73,
+     "Bid": 325.76,
+     "Position": "P23"
+    },
+    {
+     "Price": 11.73,
+     "Position": "P24",
+     "Bid": 325.76
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 10
+  },
+  {
+   "Clicks": 2,
+   "FirstPlaceCTR": 4.76,
+   "Min": 934.89,
+   "AuctionBids": [
+    {
+     "Price": 73.01,
+     "Bid": 437.29,
+     "Position": "P11"
+    },
+    {
+     "Bid": 258.75,
+     "Position": "P12",
+     "Price": 54.28
+    },
+    {
+     "Price": 51.8,
+     "Bid": 177.9,
+     "Position": "P13"
+    },
+    {
+     "Price": 51.8,
+     "Position": "P14",
+     "Bid": 177.9
+    },
+    {
+     "Price": 8.15,
+     "Position": "P21",
+     "Bid": 934.89
+    },
+    {
+     "Price": 8.15,
+     "Bid": 934.89,
+     "Position": "P22"
+    },
+    {
+     "Price": 8.15,
+     "Position": "P23",
+     "Bid": 934.89
+    },
+    {
+     "Position": "P24",
+     "Bid": 934.89,
+     "Price": 8.15
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 8,
+   "FirstPlaceClicks": 2,
+   "CTR": 4.76,
+   "Phrase": "банкетные залы москва цены",
+   "Max": 934.89,
+   "PremiumMax": 437.29,
+   "Shows": 42,
+   "PremiumMin": 177.9,
+   "PremiumCTR": 15.38,
+   "IsRubric": "No"
+  },
+  {
+   "PremiumCTR": 13.51,
+   "IsRubric": "No",
+   "PremiumMax": 4041.86,
+   "Shows": 39,
+   "PremiumMin": 892.16,
+   "FirstPlaceClicks": 2,
+   "Max": 1065.41,
+   "CTR": 11.76,
+   "Phrase": "большие конференц залы москвы -отели",
+   "Min": 1065.41,
+   "FirstPlaceCTR": 11.76,
+   "PremiumClicks": 5,
+   "AuctionBids": [
+    {
+     "Price": 331.17,
+     "Position": "P11",
+     "Bid": 4041.86
+    },
+    {
+     "Bid": 1634.76,
+     "Position": "P12",
+     "Price": 206.76
+    },
+    {
+     "Price": 184.29,
+     "Position": "P13",
+     "Bid": 892.16
+    },
+    {
+     "Price": 184.29,
+     "Bid": 892.16,
+     "Position": "P14"
+    },
+    {
+     "Position": "P21",
+     "Bid": 1065.41,
+     "Price": 21.8
+    },
+    {
+     "Bid": 1065.41,
+     "Position": "P22",
+     "Price": 21.8
+    },
+    {
+     "Bid": 1065.41,
+     "Position": "P23",
+     "Price": 21.8
+    },
+    {
+     "Price": 21.8,
+     "Bid": 1065.41,
+     "Position": "P24"
+    }
+   ],
+   "Currency": "RUB",
+   "Clicks": 2
+  },
+  {
+   "Min": 870.25,
+   "FirstPlaceCTR": 9.52,
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 846.05,
+     "Price": 105.28
+    },
+    {
+     "Bid": 523.28,
+     "Position": "P12",
+     "Price": 106.15
+    },
+    {
+     "Bid": 447.73,
+     "Position": "P13",
+     "Price": 79.18
+    },
+    {
+     "Position": "P14",
+     "Bid": 447.73,
+     "Price": 79.18
+    },
+    {
+     "Position": "P21",
+     "Bid": 870.25,
+     "Price": 17.26
+    },
+    {
+     "Position": "P22",
+     "Bid": 870.25,
+     "Price": 17.26
+    },
+    {
+     "Bid": 870.25,
+     "Position": "P23",
+     "Price": 17.26
+    },
+    {
+     "Price": 17.26,
+     "Bid": 870.25,
+     "Position": "P24"
+    }
+   ],
+   "PremiumClicks": 5,
+   "Clicks": 2,
+   "IsRubric": "No",
+   "PremiumCTR": 19.23,
+   "PremiumMax": 846.05,
+   "PremiumMin": 447.73,
+   "Shows": 24,
+   "FirstPlaceClicks": 2,
+   "Phrase": "аренда зала для лекции",
+   "CTR": 9.52,
+   "Max": 870.25
+  },
+  {
+   "PremiumCTR": 18.75,
+   "IsRubric": "No",
+   "PremiumMax": 877.61,
+   "PremiumMin": 314.51,
+   "Shows": 35,
+   "FirstPlaceClicks": 2,
+   "CTR": 10,
+   "Phrase": "снять банкетный зал москва",
+   "Max": 283.93,
+   "Min": 283.93,
+   "FirstPlaceCTR": 10,
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Price": 175.22,
+     "Bid": 877.61,
+     "Position": "P11"
+    },
+    {
+     "Position": "P12",
+     "Bid": 635.55,
+     "Price": 98.89
+    },
+    {
+     "Price": 75.03,
+     "Position": "P13",
+     "Bid": 314.51
+    },
+    {
+     "Price": 75.03,
+     "Position": "P14",
+     "Bid": 314.51
+    },
+    {
+     "Position": "P21",
+     "Bid": 283.93,
+     "Price": 3.46
+    },
+    {
+     "Bid": 283.93,
+     "Position": "P22",
+     "Price": 3.46
+    },
+    {
+     "Bid": 283.93,
+     "Position": "P23",
+     "Price": 3.46
+    },
+    {
+     "Price": 3.46,
+     "Bid": 283.93,
+     "Position": "P24"
+    }
+   ],
+   "PremiumClicks": 6,
+   "Clicks": 2
+  },
+  {
+   "PremiumClicks": 9,
+   "AuctionBids": [
+    {
+     "Price": 116,
+     "Position": "P11",
+     "Bid": 867.78
+    },
+    {
+     "Price": 111.39,
+     "Position": "P12",
+     "Bid": 487.6
+    },
+    {
+     "Price": 96.87,
+     "Position": "P13",
+     "Bid": 311.13
+    },
+    {
+     "Price": 96.87,
+     "Bid": 311.13,
+     "Position": "P14"
+    },
+    {
+     "Bid": 612.45,
+     "Position": "P21",
+     "Price": 10.74
+    },
+    {
+     "Bid": 612.45,
+     "Position": "P22",
+     "Price": 10.74
+    },
+    {
+     "Price": 10.74,
+     "Bid": 612.45,
+     "Position": "P23"
+    },
+    {
+     "Price": 10.74,
+     "Position": "P24",
+     "Bid": 612.45
+    }
+   ],
+   "Currency": "RUB",
+   "FirstPlaceCTR": 3.85,
+   "Min": 612.45,
+   "Clicks": 2,
+   "PremiumMax": 867.78,
+   "Shows": 51,
+   "PremiumMin": 311.13,
+   "PremiumCTR": 14.06,
+   "IsRubric": "No",
+   "CTR": 3.85,
+   "Max": 612.45,
+   "Phrase": "аренда зала со сценой -москва",
+   "FirstPlaceClicks": 2
+  },
+  {
+   "PremiumMax": 1448.5,
+   "Shows": 10,
+   "PremiumMin": 1382.09,
+   "PremiumCTR": 26.67,
+   "IsRubric": "No",
+   "Phrase": "отель москва аренда зала -конференц",
+   "CTR": 25,
+   "Max": 331.4,
+   "FirstPlaceClicks": 2,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 1448.5,
+     "Price": 146.07
+    },
+    {
+     "Price": 146.07,
+     "Position": "P12",
+     "Bid": 1382.09
+    },
+    {
+     "Bid": 1382.09,
+     "Position": "P13",
+     "Price": 146.07
+    },
+    {
+     "Price": 146.07,
+     "Position": "P14",
+     "Bid": 1382.09
+    },
+    {
+     "Position": "P21",
+     "Bid": 331.4,
+     "Price": 4.34
+    },
+    {
+     "Price": 0.9,
+     "Position": "P22",
+     "Bid": 182.44
+    },
+    {
+     "Price": 0.9,
+     "Bid": 182.44,
+     "Position": "P23"
+    },
+    {
+     "Price": 0.9,
+     "Bid": 182.44,
+     "Position": "P24"
+    }
+   ],
+   "PremiumClicks": 4,
+   "Currency": "RUB",
+   "FirstPlaceCTR": 22.22,
+   "Min": 182.44,
+   "Clicks": 2
+  },
+  {
+   "PremiumCTR": 23.53,
+   "IsRubric": "No",
+   "PremiumMin": 619.89,
+   "PremiumMax": 2428.04,
+   "Shows": 16,
+   "Phrase": "конференц залы на 100 человек москва",
+   "CTR": 28.57,
+   "Max": 258.87,
+   "FirstPlaceClicks": 2,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 2428.04,
+     "Price": 449.66
+    },
+    {
+     "Price": 261.49,
+     "Position": "P12",
+     "Bid": 1263.08
+    },
+    {
+     "Price": 223.14,
+     "Bid": 619.89,
+     "Position": "P13"
+    },
+    {
+     "Price": 223.14,
+     "Position": "P14",
+     "Bid": 619.89
+    },
+    {
+     "Position": "P21",
+     "Bid": 258.87,
+     "Price": 10.42
+    },
+    {
+     "Position": "P22",
+     "Bid": 258.87,
+     "Price": 10.42
+    },
+    {
+     "Price": 8.65,
+     "Bid": 237,
+     "Position": "P23"
+    },
+    {
+     "Price": 8.65,
+     "Position": "P24",
+     "Bid": 237
+    }
+   ],
+   "PremiumClicks": 4,
+   "Currency": "RUB",
+   "Min": 237,
+   "FirstPlaceCTR": 25,
+   "Clicks": 2
+  },
+  {
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Price": 90.72,
+     "Bid": 600.97,
+     "Position": "P11"
+    },
+    {
+     "Bid": 233.59,
+     "Position": "P12",
+     "Price": 49.33
+    },
+    {
+     "Price": 37.75,
+     "Bid": 151.72,
+     "Position": "P13"
+    },
+    {
+     "Price": 37.75,
+     "Bid": 151.72,
+     "Position": "P14"
+    },
+    {
+     "Position": "P21",
+     "Bid": 321.31,
+     "Price": 21.79
+    },
+    {
+     "Price": 21.7,
+     "Bid": 307.53,
+     "Position": "P22"
+    },
+    {
+     "Position": "P23",
+     "Bid": 293.03,
+     "Price": 25
+    },
+    {
+     "Price": 23.18,
+     "Bid": 284.22,
+     "Position": "P24"
+    }
+   ],
+   "PremiumClicks": 20,
+   "Min": 284.22,
+   "FirstPlaceCTR": 0.71,
+   "Clicks": 3,
+   "PremiumCTR": 4.12,
+   "IsRubric": "No",
+   "PremiumMax": 600.97,
+   "PremiumMin": 151.72,
+   "Shows": 540,
+   "Phrase": "сколько аренда зала",
+   "CTR": 0.71,
+   "Max": 321.31,
+   "FirstPlaceClicks": 3
+  },
+  {
+   "PremiumMax": 1412.32,
+   "PremiumMin": 768.84,
+   "Shows": 19,
+   "PremiumCTR": 20,
+   "IsRubric": "No",
+   "FirstPlaceClicks": 2,
+   "CTR": 15.38,
+   "Phrase": "аренда зала встречи",
+   "Max": 613.05,
+   "FirstPlaceCTR": 15.38,
+   "Min": 491.5,
+   "AuctionBids": [
+    {
+     "Price": 208.45,
+     "Bid": 1412.32,
+     "Position": "P11"
+    },
+    {
+     "Bid": 1018.48,
+     "Position": "P12",
+     "Price": 161
+    },
+    {
+     "Position": "P13",
+     "Bid": 768.84,
+     "Price": 161
+    },
+    {
+     "Price": 161,
+     "Bid": 768.84,
+     "Position": "P14"
+    },
+    {
+     "Price": 2.3,
+     "Bid": 613.05,
+     "Position": "P21"
+    },
+    {
+     "Price": 2.3,
+     "Bid": 556.66,
+     "Position": "P22"
+    },
+    {
+     "Bid": 556.66,
+     "Position": "P23",
+     "Price": 2.3
+    },
+    {
+     "Bid": 491.5,
+     "Position": "P24",
+     "Price": 2.3
+    }
+   ],
+   "PremiumClicks": 3,
+   "Currency": "RUB",
+   "Clicks": 2
+  },
+  {
+   "FirstPlaceClicks": 2,
+   "CTR": 33.33,
+   "Phrase": "где арендовать зал -можно",
+   "Max": 178.92,
+   "PremiumMax": 1643.05,
+   "Shows": 18,
+   "PremiumMin": 474.68,
+   "IsRubric": "No",
+   "PremiumCTR": 30.77,
+   "Clicks": 2,
+   "FirstPlaceCTR": 33.33,
+   "Min": 178.92,
+   "AuctionBids": [
+    {
+     "Bid": 1643.05,
+     "Position": "P11",
+     "Price": 217.98
+    },
+    {
+     "Price": 60.58,
+     "Position": "P12",
+     "Bid": 706.25
+    },
+    {
+     "Position": "P13",
+     "Bid": 474.68,
+     "Price": 53.94
+    },
+    {
+     "Price": 53.94,
+     "Position": "P14",
+     "Bid": 474.68
+    },
+    {
+     "Bid": 178.92,
+     "Position": "P21",
+     "Price": 1.18
+    },
+    {
+     "Bid": 178.92,
+     "Position": "P22",
+     "Price": 1.18
+    },
+    {
+     "Bid": 178.92,
+     "Position": "P23",
+     "Price": 1.18
+    },
+    {
+     "Position": "P24",
+     "Bid": 178.92,
+     "Price": 1.18
+    }
+   ],
+   "PremiumClicks": 4,
+   "Currency": "RUB"
+  },
+  {
+   "FirstPlaceCTR": 18.18,
+   "Min": 283.99,
+   "PremiumClicks": 6,
+   "AuctionBids": [
+    {
+     "Price": 128.98,
+     "Bid": 822.23,
+     "Position": "P11"
+    },
+    {
+     "Position": "P12",
+     "Bid": 687.6,
+     "Price": 131.42
+    },
+    {
+     "Position": "P13",
+     "Bid": 500.31,
+     "Price": 95.75
+    },
+    {
+     "Bid": 500.31,
+     "Position": "P14",
+     "Price": 95.75
+    },
+    {
+     "Position": "P21",
+     "Bid": 635.67,
+     "Price": 4.17
+    },
+    {
+     "Position": "P22",
+     "Bid": 283.99,
+     "Price": 3.78
+    },
+    {
+     "Bid": 283.99,
+     "Position": "P23",
+     "Price": 3.78
+    },
+    {
+     "Bid": 283.99,
+     "Position": "P24",
+     "Price": 3.78
+    }
+   ],
+   "Currency": "RUB",
+   "Clicks": 2,
+   "PremiumMax": 822.23,
+   "Shows": 21,
+   "PremiumMin": 500.31,
+   "IsRubric": "No",
+   "PremiumCTR": 28.57,
+   "FirstPlaceClicks": 2,
+   "Phrase": "банкетные залы в москва сити",
+   "CTR": 20,
+   "Max": 635.67
+  },
+  {
+   "Min": 218.05,
+   "FirstPlaceCTR": 15.38,
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Price": 168.18,
+     "Bid": 945.32,
+     "Position": "P11"
+    },
+    {
+     "Price": 144.93,
+     "Position": "P12",
+     "Bid": 726.69
+    },
+    {
+     "Bid": 465.33,
+     "Position": "P13",
+     "Price": 110.08
+    },
+    {
+     "Bid": 465.33,
+     "Position": "P14",
+     "Price": 110.08
+    },
+    {
+     "Price": 12.35,
+     "Position": "P21",
+     "Bid": 451.04
+    },
+    {
+     "Price": 9.94,
+     "Bid": 323.39,
+     "Position": "P22"
+    },
+    {
+     "Bid": 323.39,
+     "Position": "P23",
+     "Price": 9.94
+    },
+    {
+     "Bid": 218.05,
+     "Position": "P24",
+     "Price": 3.72
+    }
+   ],
+   "PremiumClicks": 6,
+   "Clicks": 2,
+   "PremiumCTR": 26.09,
+   "IsRubric": "No",
+   "PremiumMax": 945.32,
+   "PremiumMin": 465.33,
+   "Shows": 16,
+   "FirstPlaceClicks": 2,
+   "Max": 451.04,
+   "CTR": 16.67,
+   "Phrase": "банкетный зал на 15 человек в москве"
+  },
+  {
+   "IsRubric": "No",
+   "PremiumCTR": 8.6,
+   "PremiumMax": 959.08,
+   "PremiumMin": 184.06,
+   "Shows": 221,
+   "Phrase": "помещение для проведения мероприятий -аренда -москва",
+   "CTR": 3.08,
+   "Max": 206.65,
+   "FirstPlaceClicks": 2,
+   "AuctionBids": [
+    {
+     "Price": 86.18,
+     "Bid": 959.08,
+     "Position": "P11"
+    },
+    {
+     "Position": "P12",
+     "Bid": 375.92,
+     "Price": 66.06
+    },
+    {
+     "Bid": 184.06,
+     "Position": "P13",
+     "Price": 42.84
+    },
+    {
+     "Position": "P14",
+     "Bid": 184.06,
+     "Price": 42.84
+    },
+    {
+     "Price": 5.5,
+     "Position": "P21",
+     "Bid": 206.65
+    },
+    {
+     "Price": 5.5,
+     "Position": "P22",
+     "Bid": 206.65
+    },
+    {
+     "Bid": 206.65,
+     "Position": "P23",
+     "Price": 5.5
+    },
+    {
+     "Bid": 206.65,
+     "Position": "P24",
+     "Price": 5.5
+    }
+   ],
+   "PremiumClicks": 8,
+   "Currency": "RUB",
+   "Min": 206.65,
+   "FirstPlaceCTR": 3.08,
+   "Clicks": 2
+  },
+  {
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 3508.7,
+     "Price": 301.01
+    },
+    {
+     "Price": 145.9,
+     "Position": "P12",
+     "Bid": 691.27
+    },
+    {
+     "Price": 88.43,
+     "Bid": 386.46,
+     "Position": "P13"
+    },
+    {
+     "Bid": 386.46,
+     "Position": "P14",
+     "Price": 88.43
+    },
+    {
+     "Bid": 543.79,
+     "Position": "P21",
+     "Price": 5.56
+    },
+    {
+     "Bid": 543.79,
+     "Position": "P22",
+     "Price": 5.56
+    },
+    {
+     "Position": "P23",
+     "Bid": 543.79,
+     "Price": 5.56
+    },
+    {
+     "Position": "P24",
+     "Bid": 543.79,
+     "Price": 5.56
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 6,
+   "FirstPlaceCTR": 7.41,
+   "Min": 543.79,
+   "Clicks": 2,
+   "PremiumMax": 3508.7,
+   "PremiumMin": 386.46,
+   "Shows": 34,
+   "PremiumCTR": 15,
+   "IsRubric": "No",
+   "Max": 543.79,
+   "CTR": 7.41,
+   "Phrase": "москва сити аренда зала -конференц",
+   "FirstPlaceClicks": 2
+  },
+  {
+   "CTR": 2.08,
+   "Max": 617.11,
+   "Phrase": "банкетный зал на 20 человек москва",
+   "FirstPlaceClicks": 3,
+   "Shows": 121,
+   "PremiumMax": 943.85,
+   "PremiumMin": 348.6,
+   "PremiumCTR": 18.44,
+   "IsRubric": "No",
+   "Clicks": 2,
+   "AuctionBids": [
+    {
+     "Bid": 943.85,
+     "Position": "P11",
+     "Price": 220.87
+    },
+    {
+     "Position": "P12",
+     "Bid": 556.61,
+     "Price": 155.34
+    },
+    {
+     "Price": 116.99,
+     "Position": "P13",
+     "Bid": 348.6
+    },
+    {
+     "Position": "P14",
+     "Bid": 348.6,
+     "Price": 116.99
+    },
+    {
+     "Price": 47.27,
+     "Position": "P21",
+     "Bid": 617.11
+    },
+    {
+     "Position": "P22",
+     "Bid": 486.25,
+     "Price": 68.4
+    },
+    {
+     "Position": "P23",
+     "Bid": 479.39,
+     "Price": 67.67
+    },
+    {
+     "Position": "P24",
+     "Bid": 479.39,
+     "Price": 67.67
+    }
+   ],
+   "PremiumClicks": 26,
+   "Currency": "RUB",
+   "FirstPlaceCTR": 3.03,
+   "Min": 479.39
+  },
+  {
+   "PremiumMin": 643.34,
+   "PremiumMax": 2064.14,
+   "Shows": 88,
+   "IsRubric": "No",
+   "PremiumCTR": 16.67,
+   "FirstPlaceClicks": 2,
+   "CTR": 3.7,
+   "Max": 1067.9,
+   "Phrase": "аренда зала для мероприятия москва -под",
+   "FirstPlaceCTR": 3.64,
+   "Min": 732.38,
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Price": 305.12,
+     "Bid": 2064.14,
+     "Position": "P11"
+    },
+    {
+     "Bid": 947.82,
+     "Position": "P12",
+     "Price": 236.28
+    },
+    {
+     "Position": "P13",
+     "Bid": 643.34,
+     "Price": 184.48
+    },
+    {
+     "Bid": 643.34,
+     "Position": "P14",
+     "Price": 184.48
+    },
+    {
+     "Position": "P21",
+     "Bid": 1067.9,
+     "Price": 52.66
+    },
+    {
+     "Bid": 732.38,
+     "Position": "P22",
+     "Price": 45.78
+    },
+    {
+     "Price": 45.78,
+     "Bid": 732.38,
+     "Position": "P23"
+    },
+    {
+     "Position": "P24",
+     "Bid": 732.38,
+     "Price": 45.78
+    }
+   ],
+   "PremiumClicks": 15,
+   "Clicks": 2
+  },
+  {
+   "Shows": 102,
+   "PremiumMax": 1984.28,
+   "PremiumMin": 675.8,
+   "PremiumCTR": 12.2,
+   "IsRubric": "No",
+   "CTR": 5,
+   "Phrase": "зал для проведения мероприятий -аренда -большой -конференц -москва",
+   "Max": 838.56,
+   "FirstPlaceClicks": 2,
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Bid": 1984.28,
+     "Position": "P11",
+     "Price": 297.31
+    },
+    {
+     "Price": 208.17,
+     "Bid": 949.73,
+     "Position": "P12"
+    },
+    {
+     "Bid": 675.8,
+     "Position": "P13",
+     "Price": 169.42
+    },
+    {
+     "Price": 169.42,
+     "Bid": 675.8,
+     "Position": "P14"
+    },
+    {
+     "Price": 52.1,
+     "Bid": 838.56,
+     "Position": "P21"
+    },
+    {
+     "Bid": 603.67,
+     "Position": "P22",
+     "Price": 33.17
+    },
+    {
+     "Price": 33.17,
+     "Bid": 576.14,
+     "Position": "P23"
+    },
+    {
+     "Price": 33.17,
+     "Position": "P24",
+     "Bid": 576.14
+    }
+   ],
+   "PremiumClicks": 10,
+   "FirstPlaceCTR": 4.76,
+   "Min": 576.14,
+   "Clicks": 2
+  },
+  {
+   "PremiumCTR": 7.37,
+   "IsRubric": "No",
+   "PremiumMin": 359.94,
+   "PremiumMax": 1443.88,
+   "Shows": 920,
+   "Phrase": "забронировать зал -конференц -москва",
+   "CTR": 0.39,
+   "Max": 350.6,
+   "FirstPlaceClicks": 3,
+   "PremiumClicks": 70,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 1443.88,
+     "Price": 127.21
+    },
+    {
+     "Bid": 468.75,
+     "Position": "P12",
+     "Price": 84.43
+    },
+    {
+     "Position": "P13",
+     "Bid": 359.94,
+     "Price": 71.98
+    },
+    {
+     "Bid": 359.94,
+     "Position": "P14",
+     "Price": 71.98
+    },
+    {
+     "Position": "P21",
+     "Bid": 350.6,
+     "Price": 40.47
+    },
+    {
+     "Bid": 344.1,
+     "Position": "P22",
+     "Price": 39.17
+    },
+    {
+     "Bid": 341.08,
+     "Position": "P23",
+     "Price": 38.94
+    },
+    {
+     "Position": "P24",
+     "Bid": 337.05,
+     "Price": 37.7
+    }
+   ],
+   "Currency": "RUB",
+   "Min": 337.05,
+   "FirstPlaceCTR": 0.39,
+   "Clicks": 3
+  },
+  {
+   "PremiumClicks": 5,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 701.58,
+     "Price": 105.44
+    },
+    {
+     "Price": 114.78,
+     "Bid": 499.77,
+     "Position": "P12"
+    },
+    {
+     "Price": 54.1,
+     "Position": "P13",
+     "Bid": 288.31
+    },
+    {
+     "Bid": 288.31,
+     "Position": "P14",
+     "Price": 54.1
+    },
+    {
+     "Price": 10.16,
+     "Position": "P21",
+     "Bid": 537.04
+    },
+    {
+     "Bid": 537.04,
+     "Position": "P22",
+     "Price": 10.16
+    },
+    {
+     "Position": "P23",
+     "Bid": 537.04,
+     "Price": 10.16
+    },
+    {
+     "Position": "P24",
+     "Bid": 537.04,
+     "Price": 10.16
+    }
+   ],
+   "Currency": "RUB",
+   "FirstPlaceCTR": 15.38,
+   "Min": 537.04,
+   "Clicks": 2,
+   "PremiumMax": 701.58,
+   "PremiumMin": 288.31,
+   "Shows": 13,
+   "IsRubric": "No",
+   "PremiumCTR": 27.78,
+   "CTR": 15.38,
+   "Max": 537.04,
+   "Phrase": "снять переговорную комнату в москве",
+   "FirstPlaceClicks": 2
+  },
+  {
+   "FirstPlaceCTR": 16.67,
+   "Min": 362.72,
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Price": 170.26,
+     "Bid": 1765.57,
+     "Position": "P11"
+    },
+    {
+     "Bid": 760.55,
+     "Position": "P12",
+     "Price": 148.49
+    },
+    {
+     "Bid": 732.55,
+     "Position": "P13",
+     "Price": 148.49
+    },
+    {
+     "Price": 148.49,
+     "Bid": 732.55,
+     "Position": "P14"
+    },
+    {
+     "Position": "P21",
+     "Bid": 362.72,
+     "Price": 2.92
+    },
+    {
+     "Bid": 362.72,
+     "Position": "P22",
+     "Price": 2.92
+    },
+    {
+     "Position": "P23",
+     "Bid": 362.72,
+     "Price": 2.92
+    },
+    {
+     "Price": 2.92,
+     "Bid": 362.72,
+     "Position": "P24"
+    }
+   ],
+   "PremiumClicks": 4,
+   "Clicks": 2,
+   "PremiumMin": 732.55,
+   "PremiumMax": 1765.57,
+   "Shows": 21,
+   "IsRubric": "No",
+   "PremiumCTR": 23.53,
+   "FirstPlaceClicks": 2,
+   "CTR": 16.67,
+   "Phrase": "арендовать переговорную в москве",
+   "Max": 362.72
+  },
+  {
+   "FirstPlaceClicks": 2,
+   "CTR": 33.33,
+   "Max": 1070.85,
+   "Phrase": "снять переговорную в москве -комнату",
+   "Shows": 9,
+   "PremiumMax": 831.64,
+   "PremiumMin": 389.65,
+   "IsRubric": "No",
+   "PremiumCTR": 25,
+   "Clicks": 2,
+   "FirstPlaceCTR": 28.57,
+   "Min": 136.86,
+   "AuctionBids": [
+    {
+     "Price": 122.99,
+     "Bid": 831.64,
+     "Position": "P11"
+    },
+    {
+     "Price": 75.37,
+     "Bid": 389.65,
+     "Position": "P12"
+    },
+    {
+     "Bid": 389.65,
+     "Position": "P13",
+     "Price": 75.37
+    },
+    {
+     "Position": "P14",
+     "Bid": 389.65,
+     "Price": 75.37
+    },
+    {
+     "Price": 6.18,
+     "Position": "P21",
+     "Bid": 1070.85
+    },
+    {
+     "Position": "P22",
+     "Bid": 171.78,
+     "Price": 8.42
+    },
+    {
+     "Price": 8.42,
+     "Position": "P23",
+     "Bid": 171.78
+    },
+    {
+     "Bid": 136.86,
+     "Position": "P24",
+     "Price": 1.63
+    }
+   ],
+   "PremiumClicks": 3,
+   "Currency": "RUB"
+  },
+  {
+   "PremiumCTR": 15.79,
+   "IsRubric": "No",
+   "Shows": 19,
+   "PremiumMax": 2096.48,
+   "PremiumMin": 542.62,
+   "CTR": 11.11,
+   "Max": 1721.81,
+   "Phrase": "большие залы в москве аренда",
+   "FirstPlaceClicks": 2,
+   "AuctionBids": [
+    {
+     "Price": 28.79,
+     "Bid": 2096.48,
+     "Position": "P11"
+    },
+    {
+     "Price": 28.79,
+     "Bid": 1060.2,
+     "Position": "P12"
+    },
+    {
+     "Position": "P13",
+     "Bid": 542.62,
+     "Price": 28.79
+    },
+    {
+     "Bid": 542.62,
+     "Position": "P14",
+     "Price": 28.79
+    },
+    {
+     "Position": "P21",
+     "Bid": 1721.81,
+     "Price": 2.25
+    },
+    {
+     "Price": 2.25,
+     "Bid": 1721.81,
+     "Position": "P22"
+    },
+    {
+     "Position": "P23",
+     "Bid": 1721.81,
+     "Price": 2.25
+    },
+    {
+     "Bid": 1721.81,
+     "Position": "P24",
+     "Price": 2.25
+    }
+   ],
+   "PremiumClicks": 3,
+   "Currency": "RUB",
+   "Min": 1721.81,
+   "FirstPlaceCTR": 11.11,
+   "Clicks": 2
+  },
+  {
+   "Clicks": 2,
+   "Min": 824.87,
+   "FirstPlaceCTR": 6.06,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 1463.42,
+     "Price": 247.75
+    },
+    {
+     "Price": 208.43,
+     "Position": "P12",
+     "Bid": 883.13
+    },
+    {
+     "Price": 164.48,
+     "Position": "P13",
+     "Bid": 553.2
+    },
+    {
+     "Price": 164.48,
+     "Bid": 553.2,
+     "Position": "P14"
+    },
+    {
+     "Position": "P21",
+     "Bid": 824.87,
+     "Price": 42.62
+    },
+    {
+     "Position": "P22",
+     "Bid": 824.87,
+     "Price": 42.62
+    },
+    {
+     "Price": 42.62,
+     "Bid": 824.87,
+     "Position": "P23"
+    },
+    {
+     "Price": 42.62,
+     "Position": "P24",
+     "Bid": 824.87
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 9,
+   "FirstPlaceClicks": 2,
+   "CTR": 6.06,
+   "Max": 824.87,
+   "Phrase": "банкетные залы в москве на 50 человек",
+   "IsRubric": "No",
+   "PremiumCTR": 20,
+   "PremiumMax": 1463.42,
+   "Shows": 50,
+   "PremiumMin": 553.2
+  },
+  {
+   "IsRubric": "No",
+   "PremiumCTR": 35.71,
+   "PremiumMin": 492.56,
+   "PremiumMax": 2608.16,
+   "Shows": 16,
+   "CTR": 25,
+   "Phrase": "аренда конференц залов москва сити",
+   "Max": 815.83,
+   "FirstPlaceClicks": 2,
+   "PremiumClicks": 5,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 2608.16,
+     "Price": 233
+    },
+    {
+     "Bid": 751.34,
+     "Position": "P12",
+     "Price": 97.08
+    },
+    {
+     "Price": 84.32,
+     "Position": "P13",
+     "Bid": 492.56
+    },
+    {
+     "Price": 84.32,
+     "Position": "P14",
+     "Bid": 492.56
+    },
+    {
+     "Price": 2.17,
+     "Position": "P21",
+     "Bid": 815.83
+    },
+    {
+     "Price": 2.17,
+     "Bid": 815.83,
+     "Position": "P22"
+    },
+    {
+     "Bid": 815.83,
+     "Position": "P23",
+     "Price": 2.17
+    },
+    {
+     "Position": "P24",
+     "Bid": 815.83,
+     "Price": 2.17
+    }
+   ],
+   "Currency": "RUB",
+   "Min": 815.83,
+   "FirstPlaceCTR": 25,
+   "Clicks": 2
+  },
+  {
+   "Phrase": "аренда зала с экраном",
+   "CTR": 20,
+   "Max": 434.23,
+   "FirstPlaceClicks": 2,
+   "IsRubric": "No",
+   "PremiumCTR": 21.43,
+   "PremiumMin": 500.56,
+   "PremiumMax": 883.6,
+   "Shows": 10,
+   "Clicks": 2,
+   "PremiumClicks": 3,
+   "AuctionBids": [
+    {
+     "Bid": 883.6,
+     "Position": "P11",
+     "Price": 109.74
+    },
+    {
+     "Bid": 883.6,
+     "Position": "P12",
+     "Price": 109.74
+    },
+    {
+     "Position": "P13",
+     "Bid": 500.56,
+     "Price": 119.63
+    },
+    {
+     "Position": "P14",
+     "Bid": 500.56,
+     "Price": 119.63
+    },
+    {
+     "Position": "P21",
+     "Bid": 434.23,
+     "Price": 2.83
+    },
+    {
+     "Price": 2.5,
+     "Bid": 409.32,
+     "Position": "P22"
+    },
+    {
+     "Bid": 409.32,
+     "Position": "P23",
+     "Price": 2.5
+    },
+    {
+     "Price": 2.5,
+     "Position": "P24",
+     "Bid": 409.32
+    }
+   ],
+   "Currency": "RUB",
+   "Min": 409.32,
+   "FirstPlaceCTR": 20
+  },
+  {
+   "Phrase": "конференц залы в гостиницах аренду",
+   "CTR": 40,
+   "Max": 351.17,
+   "FirstPlaceClicks": 2,
+   "IsRubric": "No",
+   "PremiumCTR": 20,
+   "Shows": 21,
+   "PremiumMax": 3302.61,
+   "PremiumMin": 560.33,
+   "Clicks": 2,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 3302.61,
+     "Price": 171.67
+    },
+    {
+     "Bid": 921.45,
+     "Position": "P12",
+     "Price": 179.5
+    },
+    {
+     "Bid": 560.33,
+     "Position": "P13",
+     "Price": 61.97
+    },
+    {
+     "Bid": 560.33,
+     "Position": "P14",
+     "Price": 61.97
+    },
+    {
+     "Position": "P21",
+     "Bid": 351.17,
+     "Price": 0.57
+    },
+    {
+     "Position": "P22",
+     "Bid": 351.17,
+     "Price": 0.57
+    },
+    {
+     "Price": 0.57,
+     "Position": "P23",
+     "Bid": 351.17
+    },
+    {
+     "Price": 0.57,
+     "Position": "P24",
+     "Bid": 351.17
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 3,
+   "Min": 351.17,
+   "FirstPlaceCTR": 40
+  },
+  {
+   "Clicks": 2,
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Price": 232.25,
+     "Position": "P11",
+     "Bid": 2413.87
+    },
+    {
+     "Position": "P12",
+     "Bid": 1014.8,
+     "Price": 169.19
+    },
+    {
+     "Bid": 739.06,
+     "Position": "P13",
+     "Price": 151.36
+    },
+    {
+     "Position": "P14",
+     "Bid": 739.06,
+     "Price": 151.36
+    },
+    {
+     "Price": 11.96,
+     "Bid": 779.54,
+     "Position": "P21"
+    },
+    {
+     "Bid": 757.97,
+     "Position": "P22",
+     "Price": 11.96
+    },
+    {
+     "Price": 11.96,
+     "Bid": 757.97,
+     "Position": "P23"
+    },
+    {
+     "Price": 11.96,
+     "Position": "P24",
+     "Bid": 757.97
+    }
+   ],
+   "PremiumClicks": 7,
+   "FirstPlaceCTR": 9.09,
+   "Min": 757.97,
+   "Phrase": "отели аренда конференц залов -москва",
+   "CTR": 9.09,
+   "Max": 779.54,
+   "FirstPlaceClicks": 2,
+   "Shows": 37,
+   "PremiumMax": 2413.87,
+   "PremiumMin": 739.06,
+   "IsRubric": "No",
+   "PremiumCTR": 17.5
+  },
+  {
+   "Min": 307.45,
+   "FirstPlaceCTR": 28.57,
+   "AuctionBids": [
+    {
+     "Price": 105.04,
+     "Bid": 502.69,
+     "Position": "P11"
+    },
+    {
+     "Price": 102.13,
+     "Bid": 401.3,
+     "Position": "P12"
+    },
+    {
+     "Position": "P13",
+     "Bid": 393.67,
+     "Price": 101.95
+    },
+    {
+     "Price": 101.95,
+     "Bid": 393.67,
+     "Position": "P14"
+    },
+    {
+     "Position": "P21",
+     "Bid": 307.45,
+     "Price": 1.91
+    },
+    {
+     "Price": 1.91,
+     "Bid": 307.45,
+     "Position": "P22"
+    },
+    {
+     "Position": "P23",
+     "Bid": 307.45,
+     "Price": 1.91
+    },
+    {
+     "Price": 1.91,
+     "Bid": 307.45,
+     "Position": "P24"
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 4,
+   "Clicks": 2,
+   "IsRubric": "No",
+   "PremiumCTR": 22.22,
+   "PremiumMin": 393.67,
+   "PremiumMax": 502.69,
+   "Shows": 27,
+   "FirstPlaceClicks": 2,
+   "Phrase": "залы в аренду под мероприятия -москве",
+   "CTR": 28.57,
+   "Max": 307.45
+  },
+  {
+   "PremiumMin": 442.54,
+   "PremiumMax": 1426.81,
+   "Shows": 53,
+   "PremiumCTR": 12.5,
+   "IsRubric": "No",
+   "Phrase": "аренда залов сайт",
+   "CTR": 5.71,
+   "Max": 443.28,
+   "FirstPlaceClicks": 2,
+   "PremiumClicks": 6,
+   "AuctionBids": [
+    {
+     "Price": 130.67,
+     "Position": "P11",
+     "Bid": 1426.81
+    },
+    {
+     "Price": 74.78,
+     "Bid": 511.42,
+     "Position": "P12"
+    },
+    {
+     "Bid": 442.54,
+     "Position": "P13",
+     "Price": 45.83
+    },
+    {
+     "Position": "P14",
+     "Bid": 442.54,
+     "Price": 45.83
+    },
+    {
+     "Price": 1.36,
+     "Bid": 443.28,
+     "Position": "P21"
+    },
+    {
+     "Price": 1.36,
+     "Bid": 443.28,
+     "Position": "P22"
+    },
+    {
+     "Price": 1.36,
+     "Position": "P23",
+     "Bid": 443.28
+    },
+    {
+     "Price": 1.36,
+     "Bid": 443.28,
+     "Position": "P24"
+    }
+   ],
+   "Currency": "RUB",
+   "FirstPlaceCTR": 5.71,
+   "Min": 443.28,
+   "Clicks": 2
+  },
+  {
+   "Min": 727.31,
+   "FirstPlaceCTR": 11.76,
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 2516.22,
+     "Price": 705.84
+    },
+    {
+     "Price": 620.88,
+     "Position": "P12",
+     "Bid": 2098.82
+    },
+    {
+     "Price": 562.18,
+     "Bid": 1925.09,
+     "Position": "P13"
+    },
+    {
+     "Bid": 1925.09,
+     "Position": "P14",
+     "Price": 562.18
+    },
+    {
+     "Price": 43.25,
+     "Position": "P21",
+     "Bid": 727.31
+    },
+    {
+     "Bid": 727.31,
+     "Position": "P22",
+     "Price": 43.25
+    },
+    {
+     "Price": 43.25,
+     "Bid": 727.31,
+     "Position": "P23"
+    },
+    {
+     "Position": "P24",
+     "Bid": 727.31,
+     "Price": 43.25
+    }
+   ],
+   "PremiumClicks": 12,
+   "Clicks": 2,
+   "PremiumCTR": 26.67,
+   "IsRubric": "No",
+   "Shows": 35,
+   "PremiumMax": 2516.22,
+   "PremiumMin": 1925.09,
+   "FirstPlaceClicks": 2,
+   "Phrase": "аренда зала для конференции москва",
+   "CTR": 11.76,
+   "Max": 727.31
+  },
+  {
+   "Clicks": 2,
+   "PremiumClicks": 14,
+   "AuctionBids": [
+    {
+     "Price": 401.25,
+     "Position": "P11",
+     "Bid": 1847.56
+    },
+    {
+     "Price": 343.46,
+     "Bid": 1528.22,
+     "Position": "P12"
+    },
+    {
+     "Bid": 820.3,
+     "Position": "P13",
+     "Price": 238.51
+    },
+    {
+     "Price": 238.51,
+     "Position": "P14",
+     "Bid": 820.3
+    },
+    {
+     "Price": 65.84,
+     "Position": "P21",
+     "Bid": 913.67
+    },
+    {
+     "Price": 65.84,
+     "Position": "P22",
+     "Bid": 913.67
+    },
+    {
+     "Position": "P23",
+     "Bid": 913.67,
+     "Price": 65.84
+    },
+    {
+     "Bid": 913.67,
+     "Position": "P24",
+     "Price": 65.84
+    }
+   ],
+   "Currency": "RUB",
+   "FirstPlaceCTR": 3.51,
+   "Min": 913.67,
+   "CTR": 3.51,
+   "Phrase": "аренда зала для тренинга москва",
+   "Max": 913.67,
+   "FirstPlaceClicks": 2,
+   "Shows": 87,
+   "PremiumMax": 1847.56,
+   "PremiumMin": 820.3,
+   "IsRubric": "No",
+   "PremiumCTR": 16.09
+  },
+  {
+   "CTR": 2.22,
+   "Max": 466.64,
+   "Phrase": "аренда залов центр -конференц -москвы",
+   "FirstPlaceClicks": 2,
+   "PremiumMax": 1789.09,
+   "Shows": 146,
+   "PremiumMin": 465.56,
+   "PremiumCTR": 8.59,
+   "IsRubric": "No",
+   "Clicks": 2,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 1789.09,
+     "Price": 163.31
+    },
+    {
+     "Price": 96.7,
+     "Position": "P12",
+     "Bid": 640.27
+    },
+    {
+     "Price": 84.7,
+     "Position": "P13",
+     "Bid": 465.56
+    },
+    {
+     "Price": 84.7,
+     "Bid": 465.56,
+     "Position": "P14"
+    },
+    {
+     "Price": 9.17,
+     "Bid": 466.64,
+     "Position": "P21"
+    },
+    {
+     "Price": 9.17,
+     "Bid": 466.64,
+     "Position": "P22"
+    },
+    {
+     "Price": 9.17,
+     "Position": "P23",
+     "Bid": 466.64
+    },
+    {
+     "Price": 9.17,
+     "Bid": 466.64,
+     "Position": "P24"
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 11,
+   "FirstPlaceCTR": 2.22,
+   "Min": 466.64
+  },
+  {
+   "PremiumMin": 553.05,
+   "PremiumMax": 1629.54,
+   "Shows": 52,
+   "IsRubric": "No",
+   "PremiumCTR": 14.81,
+   "Phrase": "банкетный зал на 40 человек москва",
+   "CTR": 5,
+   "Max": 751.89,
+   "FirstPlaceClicks": 2,
+   "AuctionBids": [
+    {
+     "Position": "P11",
+     "Bid": 1629.54,
+     "Price": 269.77
+    },
+    {
+     "Position": "P12",
+     "Bid": 985.83,
+     "Price": 228.31
+    },
+    {
+     "Position": "P13",
+     "Bid": 553.05,
+     "Price": 141.61
+    },
+    {
+     "Bid": 553.05,
+     "Position": "P14",
+     "Price": 141.61
+    },
+    {
+     "Price": 53.13,
+     "Bid": 751.89,
+     "Position": "P21"
+    },
+    {
+     "Price": 43.52,
+     "Bid": 680.33,
+     "Position": "P22"
+    },
+    {
+     "Position": "P23",
+     "Bid": 680.33,
+     "Price": 43.52
+    },
+    {
+     "Bid": 680.33,
+     "Position": "P24",
+     "Price": 43.52
+    }
+   ],
+   "Currency": "RUB",
+   "PremiumClicks": 8,
+   "FirstPlaceCTR": 4.88,
+   "Min": 680.33,
+   "Clicks": 2
+  },
+  {
+   "PremiumMax": 500.52,
+   "PremiumMin": 81.2,
+   "Shows": 71,
+   "PremiumCTR": 18.92,
+   "IsRubric": "No",
+   "CTR": 3.08,
+   "Phrase": "зал аренда москва недорого",
+   "Max": 878.87,
+   "FirstPlaceClicks": 2,
+   "Currency": "RUB",
+   "AuctionBids": [
+    {
+     "Price": 50.34,
+     "Position": "P11",
+     "Bid": 500.52
+    },
+    {
+     "Bid": 313.97,
+     "Position": "P12",
+     "Price": 44.2
+    },
+    {
+     "Position": "P13",
+     "Bid": 81.2,
+     "Price": 24.23
+    },
+    {
+     "Price": 24.23,
+     "Position": "P14",
+     "Bid": 81.2
+    },
+    {
+     "Price": 19.39,
+     "Position": "P21",
+     "Bid": 878.87
+    },
+    {
+     "Bid": 558.3,
+     "Position": "P22",
+     "Price": 19.39
+    },
+    {
+     "Price": 19.39,
+     "Bid": 558.3,
+     "Position": "P23"
+    },
+    {
+     "Price": 19.39,
+     "Bid": 558.3,
+     "Position": "P24"
+    }
+   ],
+   "PremiumClicks": 14,
+   "FirstPlaceCTR": 3.08,
+   "Min": 558.3,
+   "Clicks": 2
+  }
+ ],
+ "Common": {
+  "Shows": 39104,
+  "PremiumMin": 1251192.04,
+  "FirstPlaceClicks": 320,
+  "Geo": "1",
+  "Max": 172646.55,
+  "Min": 150815.63,
+  "PremiumClicks": 3885,
+  "Clicks": 317
+ }
+}
