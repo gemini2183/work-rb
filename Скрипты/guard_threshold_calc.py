@@ -31,6 +31,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+from guard_hints import p_cpl_below
+
 CLIENTS_DIR = Path(__file__).resolve().parent.parent / "Клиенты"
 G_GRID = [1.5, 2, 3, 4, 5, 6]
 A_GRID = [1.5, 2, 3]
@@ -190,8 +192,7 @@ def underspend(ds, client, k0=3.0, gate=0.8):
         r = np.array([x["fc"] / x["B"] for x in L])
         S, N = sum(x["fc"] for x in L), sum(x["fn"] for x in L)
         T = float(np.median([x["T"] for x in L]))
-        pa = float(np.mean(1.0 / rng.gamma(N + 0.5, 1.0 / max(S, 1e-9), 20000) <= T))
-        pb = float(np.mean(1.0 / rng.gamma(k0 + N, 1.0 / (k0 * cpl_pool + S), 20000) <= T))
+        pa, pb = p_cpl_below(S, N, T, cpl_pool, k0)   # формула общая со сторожем (guard_hints.py)
         ok = "да" if (pa >= gate and pb >= gate) else "нет"
         print(f"  {name[:27]:28}{len(L):>5}{np.median(r):>9.0%}{(r < .5).mean():>9.0%}{(r >= .85).mean():>6.0%}{int(N):>7}"
               f"{S / max(N, .5):>7.1f}{T:>7.1f}{pa:>15.0%}{pb:>6.0%}{ok:>8}")
