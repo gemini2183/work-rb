@@ -65,6 +65,27 @@ from google.protobuf import field_mask_pb2
 from gads_spend_guard import pause, read_state
 from gads_stats import GOOGLE_ADS_YAML
 
+# Временные сбои API Google Ads (решение пользователя 2026-11-05: 04.11 в 21:40:39 упали оба сторожа в одну секунду, кампании
+# пропускались без повтора и без сообщения). Повторяем чтение с паузой; если Ads лежит целиком, остальные кампании такта
+# пробуем один раз (иначе такт растянется на минуты).
+TRANSIENT_ADS_ERRORS = {"ServiceUnavailable", "InternalServerError", "DeadlineExceeded", "Aborted", "ResourceExhausted",
+                        "TooManyRequests"}
+READ_RETRY_WAITS = (1, 3, 8)       # секунды между попытками
+ADS_DOWN_TICKS_ALERT = 3           # столько тактов подряд без единого прочитанного → сообщение в Telegram
+ADS_DOWN_RECHECK_SEC = 30          # при полном сбое чтения следующий такт через столько секунд, а не через loop_min
+
+
+def read_state_retry(ga, cid, campaign_id, since, fast_fail=False):
+    """read_state с повтором на временных ошибках. fast_fail=True — одна попытка (Ads уже лежал в этом такте)."""
+    waits = () if fast_fail else READ_RETRY_WAITS
+    for i in range(len(waits) + 1):
+        try:
+            return read_state(ga, cid, campaign_id, since)
+        except Exception as ex:   # noqa: BLE001
+            if type(ex).__name__ not in TRANSIENT_ADS_ERRORS or i >= len(waits):
+                raise
+            time.sleep(waits[i])
+
 # консоль Windows в cp1251 не печатает «×»/«≤» из сообщений — 14.10 из-за этого процесс упал на старте
 for _stream in (sys.stdout, sys.stderr):
     try:
@@ -713,6 +734,7 @@ def main():
     calls_cache = {}
     auto_inited = False   # первое чтение tCPA после старта только выставляет цели молча, сообщения — о настоящих сменах
     last_hb = time.time()
+    ads_fail_ticks, ads_alerted, ads_down_since = 0, False, datetime.now()
     while True:
         now0 = datetime.now()
         today = date.today().isoformat()
@@ -839,11 +861,14 @@ def main():
                 print(f"  паспорт кампаний прочитан: {len(passport_cache['data']['campaigns'])} кампаний, "
                       f"согласованных изменений {len(passport_cache['data']['agreed'])}")
         passport = passport_cache.get("data") or {"campaigns": {}, "agreed": []}
+        reads_ok = reads_fail = 0   # прочитано / не прочитано кампаний в этом такте
         for campaign_id, T in targets.items():
             now = datetime.now()
             try:
-                s = read_state(ga, cid, campaign_id, since_by.get(campaign_id))
+                s = read_state_retry(ga, cid, campaign_id, since_by.get(campaign_id), fast_fail=bool(reads_fail and not reads_ok))
+                reads_ok += 1
             except Exception as ex:
+                reads_fail += 1
                 print(f"{now:%H:%M:%S} кампания {campaign_id}: ошибка чтения Ads ({type(ex).__name__}), пропуск")
                 log_row([now.isoformat(timespec="seconds"), campaign_id, "", "", "", "", T, "", "", "", "", "", "",
                          "ошибка чтения: " + type(ex).__name__, ""])
@@ -1326,6 +1351,20 @@ def main():
             if args.execute:
                 notify(text_)
                 state["_morning_report"] = date.today().isoformat()
+        # --- чтение Google Ads целиком недоступно: счётчик тактов подряд, сообщение и быстрый повтор
+        ads_down = bool(reads_fail and not reads_ok)
+        if ads_down:
+            ads_fail_ticks += 1
+            if ads_fail_ticks >= ADS_DOWN_TICKS_ALERT and not ads_alerted:
+                ads_alerted = True
+                notify(f"⚠️ Сторож: Google Ads не читается {ads_fail_ticks} такта подряд (с {ads_down_since:%H:%M}). "
+                       "Защита по расходу на это время не работает. Сторож пробует снова каждые 30 секунд и напишет, когда чтение вернётся.")
+            elif ads_fail_ticks == 1:
+                ads_down_since = datetime.now()
+        elif reads_ok:
+            if ads_alerted:
+                notify(f"✅ Сторож: чтение Google Ads восстановлено ({datetime.now():%H:%M}), было недоступно с {ads_down_since:%H:%M}.")
+            ads_fail_ticks, ads_alerted = 0, False
         save_state(state)
         if args.heartbeat_min and time.time() - last_hb >= args.heartbeat_min * 60:
             last_hb = time.time()
@@ -1337,7 +1376,8 @@ def main():
                    f", форм без кампании {unattributed}. Тишина дольше интервала = процесс остановлен.")
         if not args.loop_min:
             break
-        time.sleep(args.loop_min * 60)
+        # полный сбой чтения Ads: повторить через 30 с, а не через loop_min (пока не пройдёт хотя бы одна кампания)
+        time.sleep(min(args.loop_min * 60, ADS_DOWN_RECHECK_SEC) if ads_down else args.loop_min * 60)
 
 
 if __name__ == "__main__":

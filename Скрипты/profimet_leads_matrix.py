@@ -13,7 +13,7 @@
     Выгрузка CRM, все звонки           — листы mocnaszklarnia.pl + szklarniaprofimet.pl, type=звонок
     Выгрузка CRM, новые по 60 дн       — обращение новое, если у номера на этом сайте не было засчитанного за 60 дн (лестница)
   ФОРМЫ
-    Tilda (реальные)                   — Google-таблица «Tilda_Leads…», без тестов; канал по UTM самой Tilda
+    Tilda (реальные)                   — Google-таблица «Tilda_Leads…», без тестов; канал по UTM в адресе страницы (`referer`) в момент отправки: колонок utm_* в выгрузке Tilda нет
     Supabase                           — `profimet_leads` без пачек-мусора; канал по UTM строки
     GA4, сеансы form_submit            — Data API, канал по sessionSourceMedium
     BigQuery (общий дашборд)           — `adwhite.profimet_goals`, цель form_submit (конверсии GA4), канал по Source
@@ -102,6 +102,16 @@ def new_by_60(crm):
 GA4_SEO = "504222847"  # ресурс сайта szklarniaprofimet.pl (из таблицы «GA4» агентства; те же формы идут в BigQuery как «ProfiMet SEO»)
 
 
+def utm_from_referer(u):
+    """Tilda ProfiMet не хранит колонки utm_*, но в `referer` лежит адрес страницы в момент отправки формы; метка есть, только если человек не ушёл со страницы с UTM."""
+    from urllib.parse import parse_qs, urlparse
+    try:
+        q = parse_qs(urlparse(str(u)).query)
+    except Exception:
+        return "", ""
+    return q.get("utm_source", [""])[0], q.get("utm_medium", [""])[0]
+
+
 def ga4_sessions(frm, to, prop=None):
     s = AuthorizedSession(Credentials.from_service_account_file(GA4_KEY, scopes=["https://www.googleapis.com/auth/analytics.readonly"]))
     body = {"dateRanges": [{"startDate": str(frm), "endDate": str(to)}], "dimensions": [{"name": "date"}, {"name": "sessionSourceMedium"}],
@@ -168,7 +178,7 @@ def collect(d0, d1, cache=None):
     t["ts"] = (t["sent"] - pd.Timedelta(hours=off_h)).dt.tz_localize("UTC")
     t = t[(t["ts"] >= lo) & (t["ts"] < hi) & ~t["test"]]
     t_day = t["ts"].dt.tz_convert(W).dt.date
-    parts.append(long_rows("Формы", FORMS[0], t_day, [ch_utm(s, mm) if s else "Нет метки/прочее" for s, mm in zip(t["t_src"], t["t_med"])]))
+    parts.append(long_rows("Формы", FORMS[0], t_day, [ch_utm(*utm_from_referer(u)) if utm_from_referer(u)[0] else "Нет метки/прочее" for u in t["referer"]]))
     sbp = sb[(sb["ts"] >= lo) & (sb["ts"] < hi) & ~sb["burst"]]
     parts.append(long_rows("Формы", FORMS[1], sbp["ts"].dt.tz_convert(W).dt.date,
                            [ch_utm(s, mm) if s else "Нет метки/прочее" for s, mm in zip(sbp["utm_source"], sbp["utm_medium"])]))
