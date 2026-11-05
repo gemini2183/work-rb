@@ -567,7 +567,8 @@ def load_guard_config(path):
              "dry_mult": float(cfg.get("dry_mult", DRY_MULT)),   # 0 — правило выключено
              "source_alert_min": float(cfg.get("source_alert_min", SOURCE_ALERT_MIN)),
              "lead_jump_n": int(cfg.get("lead_jump_n", LEAD_JUMP_N)),
-             "lead_jump_min": float(cfg.get("lead_jump_min", LEAD_JUMP_MIN))}
+             "lead_jump_min": float(cfg.get("lead_jump_min", LEAD_JUMP_MIN)),
+             "underspend": dict(cfg.get("underspend") or {})}   # подсказки «недобор расхода» (guard_hints.py); по умолчанию выключены
     return defaults, extra, rows
 
 
@@ -583,7 +584,7 @@ def main():
                                          "currency": None, "default_target": None, "default_is_plan": False, "default_plan_row": None,
                                          "plan_ids": {}, "auto_ids": {}, "plan_by_row": {}, "client_dir": None, "unmanaged_ok": set(), "zero_cap_by": {},
                                          "source_alert_min": SOURCE_ALERT_MIN, "lead_jump_n": LEAD_JUMP_N,
-                                         "lead_jump_min": LEAD_JUMP_MIN}, []
+                                         "lead_jump_min": LEAD_JUMP_MIN, "underspend": {}}, []
     if cfg_path:
         cfg_defaults, extra, cfg_rows = load_guard_config(cfg_path)
 
@@ -640,6 +641,9 @@ def main():
                          "(решение пользователя 2026-11-04; нужен и --execute); после второй такой паузы за 3 дня — не включает")
     ap.add_argument("--morning-resume-at", default="07:30", help="не раньше какого времени (ЧЧ:ММ, часы компьютера) включать утром")
     ap.add_argument("--telegram", action="store_true", help="слать события в Telegram чат монитора")
+    ap.add_argument("--hints", action="store_true",
+                    help="включить подсказки «недобор расхода» на этот запуск (иначе — по `underspend.enabled` в guard_config.yaml); "
+                         "в режиме плана пишет guard_signals_plan.csv и в Telegram не шлёт без явного --telegram")
     ap.add_argument("--monitoring-dir", default=MONITORING_DIR)
     ap.add_argument("--monitoring-config", default=MONITORING_CFG)
     ap.set_defaults(**{k: v for k, v in cfg_defaults.items() if v is not None})
@@ -659,6 +663,10 @@ def main():
     LOG = STATS / f"gads_spend_guard_cpa_log{suffix}.csv"
     STATE = STATS / f"gads_spend_guard_state{suffix}.json"
     INTERV = STATS / f"gads_spend_guard_interventions{suffix}.csv"
+    SIGNALS = STATS / f"guard_signals{suffix}.csv"   # журнал сигналов (подсказки сторожа и ответы на них)
+    hint_cfg = dict(extra.get("underspend") or {})
+    if args.hints:
+        hint_cfg["enabled"] = True
     tg_explicit = "--telegram" in sys.argv
 
     cid = args.customer_id.replace("-", "").strip()
@@ -1348,6 +1356,40 @@ def main():
                 if late_ and seen_ag.get(str(ag.get("id"))) != today_s:
                     seen_ag[str(ag.get("id"))] = today_s
                     notify(f"⏳ Согласовано, не сделано: {label_}. В кабинете {now_txt}, срок {ag.get('deadline')}.")
+        # --- подсказки «недобор расхода» (решение пользователя 2026-11-05, guard_hints.py): раз в сутки после morning_resume_at;
+        #     сторож ничего не пишет в кабинет, только сообщение + строка в guard_signals.csv; сбой не роняет сторож (повтор через 30 мин)
+        hint_lines = []
+        now_h = datetime.now()
+        if (hint_cfg.get("enabled") and now_h.hour * 60 + now_h.minute >= resume_min and reads_ok
+                and state.get("_signals_day") != today
+                and state.get("_signals_next_try", "") <= now_h.isoformat(timespec="seconds")
+                and not any(v_.get("fail_since") for v_ in sources.values())):
+            try:
+                import guard_hints as GH
+                names_cfg_h = extra.get("cfg_names") or {}
+                cands_h = []
+                for cid_h, T_h in targets.items():
+                    cv_ = cur_vals.get(str(cid_h))
+                    pp_h = passport["campaigns"].get(str(cid_h)) or {}
+                    skip_h = None
+                    if cv_ is None:
+                        skip_h = "кампания не прочитана в этом такте"
+                    elif pp_h.get("state") in HOLD_STATES:
+                        skip_h = "по паспорту: " + STATE_RU.get(pp_h.get("state"), pp_h.get("state"))
+                    elif cid_h in total_limit_by:
+                        skip_h = "тест с общим лимитом расхода (свои правила)"
+                    elif cid_h in adopted:
+                        skip_h = "незнакомая кампания под временной защитой"
+                    cands_h.append({"id": str(cid_h), "name": id_to_name.get(cid_h) or names_cfg_h.get(str(cid_h)) or str(cid_h),
+                                    "target": float(T_h), "budget": float(cv_["budget"]) if cv_ else 0.0,
+                                    "enabled": bool(cv_ and cv_["status"] == enums.ENABLED), "bidding": settings_now.get(str(cid_h)),
+                                    "tcpa": tcpa_now.get(str(cid_h)) or 0, "auto": str(cid_h) in extra["auto_ids"], "skip": skip_h})
+                hint_lines = GH.run_daily(ga, client, cid, date.today(), cands_h, calls_map, ad_map, forms_map, hint_cfg, SIGNALS,
+                                          CUR, notify, label=client_label)
+                state["_signals_day"] = today
+            except Exception as ex:
+                state["_signals_next_try"] = (datetime.now() + timedelta(minutes=30)).isoformat(timespec="seconds")
+                print(f"{now_h:%H:%M:%S} подсказки «недобор расхода»: ошибка {type(ex).__name__}: {str(ex)[:160]} — повтор через 30 мин")
         # --- утренний отчёт один раз в день после morning_resume_at: что включено, что осталось на паузе и почему
         if (args.morning_resume and morning_rows and state.get("_morning_report") != date.today().isoformat()
                 and datetime.now().hour * 60 + datetime.now().minute >= resume_min):
@@ -1360,6 +1402,8 @@ def main():
             rep_.append(f"Работают: {len(run_)}" + (f" ({', '.join(run_)})" if run_ else ""))
             if plan_lines:
                 rep_.append("Согласованные изменения:" + chr(10) + chr(10).join(plan_lines))
+            if hint_lines:
+                rep_.append("Подсказки по расходу:" + chr(10) + chr(10).join(hint_lines))
             text_ = "\n".join(rep_)
             print(text_)
             if args.execute:
