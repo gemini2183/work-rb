@@ -4,3 +4,5 @@
 [2026-11-05T12:31:17] --- start gads_spend_guard_cpa.py --client ProfiMet --execute --telegram
 [2026-11-05T12:38:21] --- exited with code -1 after 424 s, restart in 60 s
 [2026-11-05T12:39:21] --- start gads_spend_guard_cpa.py --client ProfiMet --execute --telegram
+[2026-11-05T15:19:24] --- exited with code -1 after 9602 s, restart in 60 s
+[2026-11-05T15:20:24] --- start gads_spend_guard_cpa.py --client ProfiMet --execute --telegram

@@ -4,3 +4,5 @@
 [2026-11-05T12:25:44] --- start gads_spend_guard_cpa.py --client EkspertAgro --execute --telegram
 [2026-11-05T12:36:25] --- exited with code -1 after 641 s, restart in 60 s
 [2026-11-05T12:37:25] --- start gads_spend_guard_cpa.py --client EkspertAgro --execute --telegram
+[2026-11-05T15:19:03] --- exited with code -1 after 9698 s, restart in 60 s
+[2026-11-05T15:20:03] --- start gads_spend_guard_cpa.py --client EkspertAgro --execute --telegram
