@@ -1,2 +1,4 @@
 [2026-11-05T12:13:39] task started, waiting 60 s for network
 [2026-11-05T12:14:40] guard already running (PID 7784), watching, not starting a second one
+[2026-11-05T12:25:44] watched guard disappeared, taking over
+[2026-11-05T12:25:44] --- start gads_spend_guard_cpa.py --client EkspertAgro --execute --telegram
