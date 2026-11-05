@@ -1619,3 +1619,5 @@ PYTHONUTF8=1 python ringostat_call_transcripts.py --client-folder ProfiMet --fro
 `gtm_visit_tag_test.py --version N` — тест версии ДО публикации во временной среде: сценарии баннера none / all / essential; запросы в Supabase перехватываются и печатаются, в аналитику и базу ничего не уходит; среда удаляется.
 `visit_call_join.py [--from] [--to] [--client ProfiMet]` (только чтение) — звонки Google из API Ringostat ↔ визиты по `client_id`; отчёт по пулам, CSV в `Статистика/visit_call_join_*.csv`; Google CPC_dyn — контроль (gclid в `utm_content` звонка сверяется с gclid визита).
 Подробности и основания — `Инфраструктура.md`, запись 2026-11-05 «Визиты rngst → Supabase».
+
+`gtm_delete_tag.py --account A --container C --tag <имя|id> [--execute]` (2026-11-05) — удалить тег GTM и его «осиротевшие» триггеры через новую версию; без `--execute` только проверка; копия тега сохраняется в `Скрипты/_gtm_deleted/`; публикация — `gtm_publish_version.py`, откат — предыдущая версия.
