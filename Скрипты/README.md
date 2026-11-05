@@ -1065,6 +1065,8 @@ python gads_spend_guard_cpa.py --client ProfiMet --execute --telegram    # бо�
 Новый клиент: скопировать `Клиенты/ProfiMet/guard_config.yaml`, поменять `customer_id`, `monitoring_config`, `form_action`,
 список кампаний; сначала `--print-config`, затем тактом плана, боевой — только после «да».
 
+**Дополнение 2026-11-05 — сбои чтения Google Ads.** `read_state_retry`: 3 повтора (1, 3, 8 с) на временных ошибках; при полном сбое такт повторяется через 30 с, после 3 тактов подряд без чтения — сообщение в Telegram и сообщение о возврате (константы `READ_RETRY_WAITS`, `ADS_DOWN_TICKS_ALERT`, `ADS_DOWN_RECHECK_SEC` в начале файла). Нужен перезапуск процесса.
+
 **Дополнение 2026-10-13 — звонки по номеру из объявлений в счёте заявок.** `ad_call_actions: [...]` в `guard_config.yaml`
 (ProfiMet: «Звонки по объявлениям», ExpertAgro: «Calls from ads») — названия конверсий Google Ads, которые сторож читает по
 кампании за сегодня (`metrics.all_conversions`) и прибавляет к заявкам; в историю по дням они входят вместе с формами из Ads.
