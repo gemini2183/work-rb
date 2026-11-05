@@ -68,26 +68,41 @@ SB_HTML = r"""<script>
     }
   } catch (e) {}
 
+  // src запоминает, откуда взята каждая метка: url (адрес), rb_utm (localStorage), tildautm (cookie Tilda, возможно старый клик).
+  var src = {};
   function pick(k) {
-    return q.get(k) || stored[k] || (k.indexOf('utm_') === 0 ? tilda[k] : '') || '';
+    var v = q.get(k);
+    if (v) { src[k] = 'url'; return v; }
+    v = stored[k];
+    if (v) { src[k] = 'rb_utm'; return v; }
+    v = (k.indexOf('utm_') === 0) ? tilda[k] : '';
+    if (v) { src[k] = 'tildautm'; return v; }
+    return '';
   }
+  var vals = {};
+  ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'fbclid', 'gbraid', 'wbraid'].forEach(function(k) { vals[k] = pick(k); });
   // gclid: адрес, rb_utm, затем gclid_<значение> внутри utm_content из адреса/rb_utm. Из TILDAUTM не берём (регистр).
-  var gclid = q.get('gclid') || stored.gclid || '';
+  var gclid = q.get('gclid') || '';
+  if (gclid) { src.gclid = 'url'; }
+  if (!gclid && stored.gclid) { gclid = stored.gclid; src.gclid = 'rb_utm'; }
   if (!gclid) {
     var gm = /gclid_([^|\s]+)/.exec(q.get('utm_content') || stored.utm_content || '');
-    if (gm) { gclid = gm[1]; }
+    if (gm) { gclid = gm[1]; src.gclid = q.get('utm_content') ? 'url' : 'rb_utm'; }
   }
+  // mark_source: откуда главная метка заявки (источник трафика, иначе gclid и т.д.)
+  var markSource = src.utm_source || src.gclid || src.fbclid || src.gbraid || src.wbraid || '';
 
   var payload = JSON.stringify({
     phone: {{Phone - Enhanced Conversions}} || '',
-    utm_source: pick('utm_source'),
-    utm_medium: pick('utm_medium'),
-    utm_campaign: pick('utm_campaign'),
-    utm_content: pick('utm_content'),
+    utm_source: vals.utm_source,
+    utm_medium: vals.utm_medium,
+    utm_campaign: vals.utm_campaign,
+    utm_content: vals.utm_content,
     gclid: gclid,
-    fbclid: pick('fbclid'),
-    gbraid: pick('gbraid'),
-    wbraid: pick('wbraid'),
+    fbclid: vals.fbclid,
+    gbraid: vals.gbraid,
+    wbraid: vals.wbraid,
+    mark_source: markSource,
     page_url: String(window.location.href || '').substring(0, 1000)
   });
 
@@ -167,10 +182,57 @@ def set_param(items, key, value):
     items.append({"type": "template", "key": key, "value": value})
 
 
+def add_mark_source(a):
+    cont = f"accounts/{ACCOUNT}/containers/{CONTAINER}"
+    s = AuthorizedSession(service_account.Credentials.from_service_account_file(str(KEY), scopes=SCOPES))
+    sb = yaml.safe_load(open(MON_CFG, encoding="utf-8"))["supabase"]
+    hd = {"apikey": sb["secret_key"], "Authorization": "Bearer " + sb["secret_key"]}
+    r = requests.get(f"{sb['url']}/rest/v1/{TABLE}", timeout=60, params={"select": "*", "limit": 1}, headers=hd)
+    r.raise_for_status()
+    have = list(r.json()[0].keys()) if r.json() else []
+    live = call(s, "GET", cont + "/versions:live")
+    heads = call(s, "GET", cont + "/version_headers").get("containerVersionHeader", [])
+    last = max(int(h["containerVersionId"]) for h in heads)
+    lastv = call(s, "GET", cont + f"/versions/{last}")
+    tag = next((t for t in lastv["tag"] if t["name"] == SB_TAG), None)
+    errors = []
+    if "mark_source" not in have:
+        errors.append(f"в таблице {TABLE} нет колонки mark_source (иначе Supabase отклонит запись)")
+    html = param(tag["parameter"], "html") if tag else ""
+    if "TILDAUTM" not in html:
+        errors.append(f"в тег 117 версии {last} не внесён шаг 1 (TILDAUTM) — сначала обычный запуск")
+    if "mark_source" in html:
+        errors.append(f"версия {last} уже отправляет mark_source")
+    print(f"живая {live.get('containerVersionId')}, последняя {last}, колонки: {have}")
+    if errors:
+        raise SystemExit("ОСТАНОВКА: " + "; ".join(errors))
+    if not a.execute:
+        print(f"Проверка пройдена: на базе версии {last} в тег 117 добавится mark_source. Ничего не изменено (нужен --execute).")
+        return
+    surl = re.search(r"var supabaseUrl = '([^']+)'", html).group(1)
+    skey = re.search(r"var publishableKey = '([^']+)'", html).group(1)
+    new117 = SB_HTML.replace("__URL__", surl).replace("__KEY__", skey)
+    ws = call(s, "POST", cont + "/workspaces", json={"name": "marks-mark-source-2026-11-05"})
+    wp = ws["path"]
+    wt = call(s, "GET", f"{wp}/tags/{tag['tagId']}")
+    set_param(wt["parameter"], "html", new117)
+    call(s, "PUT", f"{wp}/tags/{tag['tagId']}", params={"fingerprint": wt["fingerprint"]}, json=wt)
+    ver = call(s, "POST", f"{wp}:create_version",
+               json={"name": "Метки без согласия + mark_source 2026-11-05",
+                     "notes": f"База — версия {last}. В тег 117 добавлено поле mark_source (url / rb_utm / tildautm). "
+                              f"Откат: опубликовать версию {live.get('containerVersionId')}."})
+    cv = ver.get("containerVersion", {})
+    print("Версия создана (НЕ опубликована):", cv.get("containerVersionId"), ver.get("compilerError", ""))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--execute", action="store_true")
+    ap.add_argument("--add-mark-source", action="store_true",
+                    help="второй шаг: в тег 117 последней (ещё не опубликованной) версии добавить mark_source; колонка mark_source должна быть в таблице")
     a = ap.parse_args()
+    if a.add_mark_source:
+        return add_mark_source(a)
     cont = f"accounts/{ACCOUNT}/containers/{CONTAINER}"
     s = AuthorizedSession(service_account.Credentials.from_service_account_file(str(KEY), scopes=SCOPES))
 
