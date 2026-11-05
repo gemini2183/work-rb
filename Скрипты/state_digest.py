@@ -173,8 +173,9 @@ def read_plan_rows(sheet_id, budget_col, today):
                   "leads": num(r.get("Conversions")), "cpa": num(r.get("CPA"))} for r in rows]
 
 
-def print_pace(plan, by_day, leads, today, dim):
-    """Темп бюджета одного проекта: by_day — расход по дням, leads — основные конверсии Ads за месяц."""
+def print_pace(plan, by_day, leads, today, dim, std=None):
+    """Темп бюджета одного проекта: by_day — расход по дням, leads — основные конверсии Ads за месяц.
+    std — {'leads', 'unassigned'}: заявки по единому стандарту (Ringostat + Supabase, `leads_standard.py`); если есть, цена заявки считается по ним."""
     t = str(today)
     spent_today = by_day.get(t, 0.0)
     spent = sum(v for k, v in by_day.items() if k != t)          # расход по завершённым дням
@@ -187,9 +188,16 @@ def print_pace(plan, by_day, leads, today, dim):
     avg = lambda n: (sum(by_day[k] for k in done_days[-n:]) / len(done_days[-n:])) if done_days else 0  # noqa: E731
     print(f"  план месяца ({plan['tab']}, строка «{plan['client']}»): бюджет {plan_b:.0f}, заявок {plan_l:.0f}, "
           f"цена заявки {plan['cpa']:.0f}")
-    print(f"  срез: расход по завершённым дням 1–{elapsed}: {spent:.0f}; сегодня на сейчас {spent_today:.0f}; "
-          f"заявок в Ads (основные конверсии) за месяц {leads:.1f} (звонки Ringostat и формы вне Ads сюда не входят; "
-          f"в конверсиях Ads бывают клики по номеру и спам-формы — для цены заявки брать Ringostat + Supabase)")
+    if std is not None:
+        extra = f" (ещё {std['unassigned']} Google без кампании, по проектам не распределены)" if std.get("unassigned") else ""
+        print(f"  срез: расход по завершённым дням 1–{elapsed}: {spent:.0f}; сегодня на сейчас {spent_today:.0f}; "
+              f"заявок по стандарту (звонки Ringostat + формы Supabase, Google Ads) за месяц {std['leads']:g}{extra}; "
+              f"для сравнения основные конверсии Ads {leads:.1f}")
+        leads = float(std["leads"])
+    else:
+        print(f"  срез: расход по завершённым дням 1–{elapsed}: {spent:.0f}; сегодня на сейчас {spent_today:.0f}; "
+              f"заявок в Ads (основные конверсии) за месяц {leads:.1f} (СТАНДАРТ НЕ ПОСЧИТАН: звонки Ringostat и формы вне Ads сюда не входят; "
+              f"в конверсиях Ads бывают клики по номеру и спам-формы)")
     if elapsed > 0 and expected:
         pct = spent / expected * 100
         verdict = "ОТСТАЁМ" if pct < 90 else ("ПЕРЕРАСХОД" if pct > 110 else "в темпе")
@@ -203,7 +211,7 @@ def print_pace(plan, by_day, leads, today, dim):
             print(f"  заявки: {leads:.1f} из {plan_l:.0f}; нужная цена заявки на остаток = ({plan_b:.0f} - {spent:.0f}) / "
                   f"{left:.1f} = {(plan_b - spent) / left:.0f} (план {plan['cpa']:.0f})")
         else:
-            print(f"  заявки: {leads:.1f} из {plan_l:.0f} - план по заявкам выполнен (по конверсиям Ads, см. оговорку выше)")
+            print(f"  заявки: {leads:g} из {plan_l:.0f} - план по заявкам выполнен")
 
 
 def budget_pacing(ga, cid, folder):
@@ -222,6 +230,13 @@ def budget_pacing(ga, cid, folder):
                      r.metrics.cost_micros / 1e6, r.metrics.conversions))
     scope = {True: "кампании с фидом Merchant Center", False: "кампании без фида Merchant Center",
              None: "все кампании аккаунта"}
+    std_rows, std_note = None, ""
+    try:
+        import leads_standard as LS   # единый стандарт заявок: Ringostat + Supabase (решение пользователя 2026-11-05)
+        std_rows = LS.by_plan_row(LS.month_leads(folder))
+    except Exception as e:   # источник недоступен - сводка не должна падать, цена заявки уйдёт на конверсии Ads с пометкой
+        std_note = f"  стандарт заявок не посчитан ({type(e).__name__}: {str(e)[:80]}) - ниже конверсии Ads"
+        print(std_note)
     for p in projects:
         plan = by_name.get(p["client_name"])
         if not plan or not plan["budget"]:
@@ -233,7 +248,15 @@ def budget_pacing(ga, cid, folder):
                 by_day[d] = by_day.get(d, 0) + cost
                 leads += conv
         print(f"  --- {p['client_name']} ({scope[p['merchant_feed']]}) ---")
-        print_pace(dict(plan, tab=tab), by_day, leads, today, dim)
+        std = None
+        if std_rows is not None:
+            un = std_rows.get("__unassigned__", 0)
+            if p["client_name"] in std_rows:
+                std = {"leads": std_rows[p["client_name"]]["attributed"], "unassigned": un if len(projects) > 1 else 0}
+            elif len(projects) == 1:
+                one = std_rows.get("__single__") or next((v for k, v in std_rows.items() if isinstance(v, dict)), {"attributed": 0})
+                std = {"leads": one["attributed"] + un, "unassigned": 0}
+        print_pace(dict(plan, tab=tab), by_day, leads, today, dim, std)
     if len(projects) > 1:
         spent_all = sum(c for d, _, c, _ in rows if d != str(today))
         plan_all = sum(by_name[p["client_name"]]["budget"] for p in projects if p["client_name"] in by_name)
