@@ -244,6 +244,12 @@
   },
   "active": "aad7ea81908996b1",
   "lastOpenFiles": [
+    "Клиенты/EkspertAgro/analysis_config.yaml.tmp.7576.711c8f79c9a7",
+    "Клиенты/EkspertAgro/Статистика/forms_funnel_2026-10-28_2026-11-05.csv",
+    "Клиенты/ProfiMet/Статистика/forms_funnel_2026-10-28_2026-11-05.csv",
+    "Скрипты/__pycache__/profimet_leads_matrix.cpython-313.pyc",
+    "Клиенты/ProfiMet/Статистика/leads_matrix_2026-10-01_2026-11-04.csv",
+    "Скрипты/profimet_leads_matrix.py",
     "Клиенты/ProfiMet_YouTube/Хроника_2026-11.md",
     "Клиенты/ProfiMet_YouTube/Статистика/gads_campaign_goals_before_24427037270_20261103_1847.csv",
     "Скрипты/gads_demand_gen_youtube_builder.py",
@@ -258,14 +264,9 @@
     "Клиенты/ProfiMet_YouTube/Картинки/Логотип PROFImet квадрат.png",
     "Клиенты/ProfiMet_YouTube/Креативы/Логотип_PROFI_met_горизонт.png",
     "Клиенты/ProfiMet_YouTube/видео_drive/готовое/card.py",
-    "Клиенты/ProfiMet_YouTube/видео_drive/готовое/make.py",
     "Клиенты/EkspertAgro/Задачи.md",
     "Клиенты/ProfiMet_YouTube/Картинки/logo.png",
     "Клиенты/ProfiMet_YouTube/Картинки/photo.png",
-    "Клиенты/ProfiMet_YouTube/Картинки",
-    "Клиенты/ProfiMet_YouTube/Новая папка",
-    "Клиенты/ProfiMet_YouTube/видео_drive/готовое/make_clip.py",
-    "Скрипты/video_cut_youtube_clip.py",
     "Клиенты/ProfiMet_YouTube/Креативы/Обоснование_выбора_ролика.md",
     "Клиенты/ProfiMet_YouTube/Креативы/Ролики_для_отбора.md",
     "Клиенты/ProfiMet_YouTube/Эксперименты.md",
@@ -288,7 +289,6 @@
     "Клиенты/Andverpersonalinjury/Статистика/ringostat_rules_landverpersonalinjury_tilda_ws_bicycle-accident-lawyer-california_2026-10-29.md",
     "Клиенты/Andverpersonalinjury/Трекинг/ТЗ_Bicycle_data-ldv-cta_2026-10-29.md",
     "Клиенты/Andverpersonalinjury/Статистика/page_tracking_check_landverpersonalinjury_tilda_ws_pedestrian-accident-lawyer-california_2026-10-29.md",
-    "Клиенты/Andverpersonalinjury/Статистика/page_tracking_check_landverpersonalinjury_tilda_ws_bicycle-accident-lawyer-california_2026-10-29.md",
-    "Клиенты/Andverpersonalinjury/Статистика/page_tracking_check_landverpersonalinjury_tilda_ws_motorcycle-accident-lawyer-california_2026-10-29.md"
+    "Клиенты/Andverpersonalinjury/Статистика/page_tracking_check_landverpersonalinjury_tilda_ws_bicycle-accident-lawyer-california_2026-10-29.md"
   ]
 }

@@ -10,3 +10,8 @@ plan:
   sheet_id: 1Lbefo3nX1-VZ7OOmJI2zf8B6vDX8PiXIjMjqoa89T7c
   client_name: "Ekspertagro - Теплицы Польша"
   budget_column: AdwordsBudget
+  # Два плановых проекта, у каждого свой бюджет (решение пользователя 2026-11-05). Темп считается по каждому отдельно:
+  # merchant_feed false = кампании без фида Merchant Center (general_*), true = кампании с фидом (shop_*).
+  projects:
+    - {client_name: "Ekspertagro - Теплицы Польша", merchant_feed: false}
+    - {client_name: "Ekspertagro - Мерчант", merchant_feed: true}
