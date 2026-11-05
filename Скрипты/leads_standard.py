@@ -25,9 +25,9 @@ import yaml
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
-import gads_spend_guard_cpa as G  # noqa: E402  (load_monitoring, all_campaign_names, UNRESOLVED)
 from gads_stats import GOOGLE_ADS_YAML  # noqa: E402
 
+UNRESOLVED = "__unresolved_pmax__"   # как в gads_spend_guard_cpa.UNRESOLVED
 MON_DIR = r"E:\PythonProjects\RedBird\monitoring scripts\monitoring"
 WARSAW = "Europe/Warsaw"
 MATCH_SEC = 180   # допуск сопоставления звонка Ringostat со строкой call_view
@@ -66,7 +66,11 @@ def ringostat_google_calls(cfg, m, id_to_name):
         return pd.DataFrame(columns=["ts", "day", "camp", "pool"])
     for c in ("utm_source", "utm_medium", "utm_campaign", "pool_name"):
         df[c] = df[c].fillna("")
-    df["call_date"] = df["calldate"].apply(m._parse_local_date)
+    # векторный разбор вместо построчного `m._parse_local_date` (12 с на 52 тыс. звонков ProfiMet; результат идентичен, проверено 05.11)
+    df["call_date"] = pd.to_datetime(df["calldate"].astype(str).str.slice(0, 19), errors="coerce")
+    bad = df["call_date"].isna()
+    if bad.any():
+        df.loc[bad, "call_date"] = df.loc[bad, "calldate"].apply(m._parse_local_date)
     df = df[df["call_date"].notna()].copy()
     df["date_only"] = df["call_date"].dt.date
     df["category"] = df.apply(lambda r: m.categorize_source(str(r["utm_source"]), str(r["utm_medium"]), google_keywords), axis=1)
@@ -86,7 +90,7 @@ def ringostat_google_calls(cfg, m, id_to_name):
     if cl.empty:
         return pd.DataFrame(columns=["ts", "day", "camp", "pool"])
     static = rs.get("pmax_static_name", "")
-    cl["camp"] = cl.apply(lambda r: m._resolve_campaign_name(r, id_to_name, G.UNRESOLVED, regex, kw, static), axis=1)
+    cl["camp"] = cl.apply(lambda r: m._resolve_campaign_name(r, id_to_name, UNRESOLVED, regex, kw, static), axis=1)
     cl["ts"] = pd.to_datetime(cl["calldate"], utc=True).dt.tz_convert(WARSAW).dt.tz_localize(None)
     return pd.DataFrame({"ts": cl["ts"].values, "day": cl["date_only"].values, "camp": cl["camp"].values,
                          "pool": cl["pool_name"].values}).reset_index(drop=True)
@@ -116,7 +120,7 @@ def attach_call_view(calls, cv):
             continue
         j = cand.idxmin()
         used.add(j)
-        if r["camp"] in (G.UNRESOLVED, "(без кампании)") or "calls from ads" in str(r["pool"]).lower():
+        if r["camp"] in (UNRESOLVED, "(без кампании)") or "calls from ads" in str(r["pool"]).lower():
             calls.at[i, "camp"] = cv.at[j, "camp"]
             calls.at[i, "via_call_view"] = True
         elif r["camp"] != cv.at[j, "camp"]:
@@ -170,8 +174,8 @@ def supabase_forms(cfg, m_ringostat, m_supabase, id_to_name, d0):
         if src == "google":
             for field in ("utm_campaign", "utm_content"):
                 row = {"utm_source": x.get("utm_source") or "", "utm_campaign": x.get(field) or "", "pool_name": ""}
-                camp = m_ringostat._resolve_campaign_name(row, id_to_name, G.UNRESOLVED, regex, kw, "")
-                if camp not in ("(без кампании)", G.UNRESOLVED):
+                camp = m_ringostat._resolve_campaign_name(row, id_to_name, UNRESOLVED, regex, kw, "")
+                if camp not in ("(без кампании)", UNRESOLVED):
                     break
             else:
                 camp = ""
@@ -199,11 +203,61 @@ def ads_month(ga, cid, d0, d1, form_action, ad_call_actions):
     return cost, prim, forms, adcalls
 
 
+# ---------- живые карты для сторожа ----------
+def live_maps(cfg, m_r, m_s, ga, cid, id_to_name, days=12):
+    """Для такта сторожа: счёт заявок по единому стандарту за последние `days` дней.
+    → {'calls': {(день, кампания): звонки по метке Ringostat}, 'adcalls': {(день, кампания): звонки из объявлений по call_view},
+       'forms': {(день, кампания): формы Google}, 'unattributed_today': формы Google без кампании сегодня,
+       'ok': {'ringostat': bool, 'supabase': bool, 'call_view': bool}}. Источник, который не прочитался, даёт None в своём ключе."""
+    d0 = (date.today() - timedelta(days=days)).isoformat()
+    out = {"calls": None, "adcalls": None, "forms": None, "unattributed_today": 0,
+           "ok": {"ringostat": True, "supabase": True, "call_view": True}}
+    calls = cv = None
+    try:
+        calls = ringostat_google_calls(cfg, m_r, id_to_name)
+        calls = calls[calls["day"] >= pd.Timestamp(d0).date()].reset_index(drop=True)
+    except Exception as ex:   # noqa: BLE001
+        out["ok"]["ringostat"] = False
+        print(f"  Ringostat: ошибка {type(ex).__name__}: {str(ex)[:100]}")
+    try:
+        cv = call_view_rows(ga, cid, d0)
+    except Exception as ex:   # noqa: BLE001
+        out["ok"]["call_view"] = False
+        print(f"  call_view (звонки из объявлений): ошибка {type(ex).__name__}: {str(ex)[:100]}")
+    if calls is not None:
+        if cv is not None:
+            calls, _orph, _mm = attach_call_view(calls, cv)
+        else:
+            calls["via_call_view"] = False
+        cm, am = {}, {}
+        for _, r in calls.iterrows():
+            if r["camp"] in (UNRESOLVED, "(без кампании)"):
+                continue
+            k = (r["day"].isoformat(), r["camp"])
+            (am if r["via_call_view"] else cm)[k] = (am if r["via_call_view"] else cm).get(k, 0) + 1
+        out["calls"], out["adcalls"] = cm, (am if cv is not None else None)
+    try:
+        forms = supabase_forms(cfg, m_r, m_s, id_to_name, d0)
+        g = forms[forms["src"] == "google"]
+        fm = {}
+        for _, r in g.iterrows():
+            if r["camp"]:
+                k = (r["day"].isoformat(), r["camp"])
+                fm[k] = fm.get(k, 0) + 1
+        out["forms"] = fm
+        out["unattributed_today"] = int(((g["camp"] == "") & (g["day"] == date.today())).sum())
+    except Exception as ex:   # noqa: BLE001
+        out["ok"]["supabase"] = False
+        print(f"  Supabase: ошибка {type(ex).__name__}: {str(ex)[:100]}")
+    return out
+
+
 # ---------- сборка ----------
 def month_leads(folder, d0=None, d1=None):
     today = date.today()
     d0 = d0 or today.replace(day=1).isoformat()
     d1 = d1 or today.isoformat()
+    import gads_spend_guard_cpa as G   # здесь, а не наверху: сторож сам импортирует этот модуль
     cdir = HERE.parent / "Клиенты" / folder
     gc = yaml.safe_load((cdir / "guard_config.yaml").read_text(encoding="utf-8"))
     cid = str(gc["customer_id"])

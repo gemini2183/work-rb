@@ -731,7 +731,7 @@ def main():
     seen_all = state.setdefault("_seen", {})   # последнее известное состояние кампании: бюджет, статус, стратегия, расписание
     unknown_warned = state.setdefault("_unknown_warned", {})
 
-    calls_cache = {}
+    live_cache = {}   # последние известные карты заявок (при сбое источника)
     auto_inited = False   # первое чтение tCPA после старта только выставляет цели молча, сообщения — о настоящих сменах
     last_hb = time.time()
     ads_fail_ticks, ads_alerted, ads_down_since = 0, False, datetime.now()
@@ -806,25 +806,28 @@ def main():
                     notify(msg)
         except Exception as ex:
             print(f"{now0:%H:%M:%S} проверка незнакомых кампаний: ошибка {type(ex).__name__}: {str(ex)[:100]}")
+        # --- заявки по единому стандарту (решение пользователя 2026-11-05, `leads_standard.py`): звонки Ringostat (Google Ads) +
+        #     формы Supabase (Google, без мусора, телефон за день один раз) + звонки из объявлений: кампания из call_view по времени
         try:
-            calls_map = calls_by_day(cfg, m_ringostat, id_to_name)
+            import leads_standard as LS
+            live = LS.live_maps(cfg, m_ringostat, m_supabase, ga, cid, id_to_name)
         except Exception as ex:
-            print(f"  Ringostat: ошибка {type(ex).__name__}: {str(ex)[:100]} — берём последнее известное")
-            calls_map = None
-        track_source("ringostat", calls_map is not None, "Ringostat (звонки)")
-        if calls_map is not None:
-            calls_cache = calls_map
-        else:
-            calls_map = calls_cache
-        leads_by, unattributed, supa_ok = leads_today(cfg, m_ringostat, m_supabase, id_to_name)
-        track_source("supabase", supa_ok, "Supabase (формы)")
-        try:
-            adcalls_now = ad_calls_today(ga, cid, list(targets))
-            track_source("ads_calls", True, "Звонки из объявлений (Google Ads)")
-        except Exception as ex:
-            print(f"  Звонки из объявлений (Ads): ошибка {type(ex).__name__} — берём последнее известное")
-            adcalls_now = {}
-            track_source("ads_calls", False, "Звонки из объявлений (Google Ads)")
+            print(f"  Заявки (стандарт): ошибка {type(ex).__name__}: {str(ex)[:100]} — берём последнее известное")
+            live = {"calls": None, "adcalls": None, "forms": None, "unattributed_today": 0,
+                    "ok": {"ringostat": False, "supabase": False, "call_view": False}}
+        track_source("ringostat", live["ok"]["ringostat"], "Ringostat (звонки)")
+        track_source("supabase", live["ok"]["supabase"], "Supabase (формы)")
+        track_source("ads_calls", live["ok"]["call_view"], "Звонки из объявлений (Google Ads, call_view)")
+        for key_ in ("calls", "adcalls", "forms"):
+            if live[key_] is not None:
+                live_cache[key_] = live[key_]
+        calls_map = live_cache.get("calls", {})        # {(день, кампания): звонки по метке Ringostat}
+        ad_map = live_cache.get("adcalls", {})         # {(день, кампания): звонки из объявлений (call_view)}
+        forms_map = live_cache.get("forms", {})        # {(день, кампания): формы Google}
+        unattributed = live["unattributed_today"]
+        name_to_id_ = {v_: k_ for k_, v_ in id_to_name.items()}
+        leads_by = {nm_: n_ for (d_, nm_), n_ in forms_map.items() if d_ == today}
+        adcalls_now = {name_to_id_[nm_]: float(n_) for (d_, nm_), n_ in ad_map.items() if d_ == today and nm_ in name_to_id_}
         # текущая стратегия ставок и расписание всех охраняемых кампаний: для обнаружения правок не сторожем
         try:
             settings_now, tcpa_now = read_settings(client, ga, cid, list(targets))
@@ -1203,13 +1206,13 @@ def main():
                                     bud_now = pb["base"]
                             if can_write:   # в режиме «только план» состояние не трогаем (иначе боевой запуск пропустит утро)
                                 pb["flexed"] = False
-                            cost_h, forms_h = ads_history(ga, cid, [campaign_id], days=12)
+                            cost_h, _forms_h = ads_history(ga, cid, [campaign_id], days=12)   # расход из Ads; заявки — по стандарту
                             streak, last_bad = 0, False
                             days = [(date.today() - timedelta(days=i)).isoformat() for i in range(1, 12)]
                             hist = []
                             for d in days:
                                 c = cost_h.get((campaign_id, d), 0.0)
-                                nn = calls_map.get((d, name), 0) + int(round(forms_h.get((campaign_id, d), 0.0)))
+                                nn = calls_map.get((d, name), 0) + ad_map.get((d, name), 0) + forms_map.get((d, name), 0)
                                 hist.append((d, c, nn))
                             changed_on = pb.get("changed_on", "")
                             streak_days = []
