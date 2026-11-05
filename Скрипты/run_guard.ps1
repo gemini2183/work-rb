@@ -4,7 +4,8 @@
 #   the wrapper only watches it and takes over when it disappears (the script has no single-instance lock);
 # - if the process exits (any code; it is meant to run forever), restart after a pause; a quick death
 #   (lived < 2 min) doubles the pause: 60, 120, 240, 480, 600 s, so a start-up failure does not spam Telegram;
-# - all output goes to Scripts\_guard_*.out (same files as before), rotated at 5 MB on restart.
+# - guard output goes to Scripts\_guard_*.out (same files as before), rotated at 5 MB on restart;
+#   the wrapper's own events (start, watching, exit code, restart) go to Scripts\_guard_wrapper_<Client>.log.
 # ASCII-only on purpose: PowerShell 5.1 breaks on non-BOM UTF-8 literals. Paths come from $PSScriptRoot.
 param(
     [Parameter(Mandatory = $true)][ValidateSet('ProfiMet', 'EkspertAgro')][string]$Client,
@@ -21,8 +22,13 @@ Set-Location $root
 $env:PYTHONIOENCODING = 'utf-8'
 $env:PYTHONUTF8 = '1'
 
+# wrapper's own log is a separate file: a guard started by hand holds the .out file open, and appending to it fails
+$wlog = Join-Path $root ("_guard_wrapper_{0}.log" -f $Client)
 function Write-Log([string]$msg) {
-    Add-Content -Path $out -Value ("[{0}] wrapper: {1}" -f (Get-Date -Format 's'), $msg)
+    try {
+        if ((Test-Path $wlog) -and ((Get-Item $wlog).Length -gt 1MB)) { Move-Item -Force $wlog "$wlog.old" }
+        Add-Content -Path $wlog -Value ("[{0}] {1}" -f (Get-Date -Format 's'), $msg) -ErrorAction Stop
+    } catch { }
 }
 
 function Get-GuardProcess {
