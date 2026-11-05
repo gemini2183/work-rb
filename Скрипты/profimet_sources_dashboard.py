@@ -151,7 +151,8 @@ def _last9(x):
 
 def read_client_list(path):
     """Список продаж дашборда клиента (TSV из его вкладки «Ads + FB»: Дата, Заказ, Телефон, Товар, Кол-во, Источник, UTM, Площадка, Автор) → одна строка на заказ."""
-    c = pd.read_csv(path, sep="	", dtype=str).fillna("")
+    paths = [path] if isinstance(path, (str, Path)) else list(path)  # несколько списков за разные периоды склеиваются
+    c = pd.concat([pd.read_csv(x, sep="	", dtype=str).fillna("") for x in paths], ignore_index=True).drop_duplicates(["Заказ", "Дата"])
     c["qty"] = c["Кол-во"].replace("", "1").astype(int)
     return c.groupby("Заказ", sort=False).agg(
         client_date=("Дата", "min"), client_phone=("Телефон", "first"), product=("Товар", lambda s: "; ".join(s)), qty=("qty", "sum"),
@@ -175,6 +176,9 @@ def client_scheme_orders(sheet, client=None, frm=None, to=None):
     В схему входят действующие заказы, у которых либо есть форма, либо первое обращение за 60 дн не «Телефон» и не Google SEO.
     Возвращает (заказы схемы, расхождения с дашбордом клиента); без списка клиента расхождения пустые."""
     pm = sheet[sheet["site"] == SITE].sort_values("ts", kind="mergesort")
+    # История номера для «первого обращения за 60 дн» включает сайт SEO: заказ, начатый звонком с SEO, клиент в рекламный дашборд не берёт
+    # (01–20.10: единственный такой заказ c04c84af у клиента отсутствует; 04.11: 5335cc45). Сайт EkspertAgro не включаем: заказы, начатые там, у клиента есть не всегда.
+    pmh = sheet[sheet["site"].isin([SITE, "szklarniaprofimet.pl"])].sort_values("ts", kind="mergesort")
     other_keys = set(sheet.loc[(sheet["site"] != SITE) & (sheet["order"] != ""), "order"].str[:8])
     ga_paid = _ga_paid_phones()
     rows = []
@@ -185,7 +189,7 @@ def client_scheme_orders(sheet, client=None, frm=None, to=None):
         created = g.iloc[0]["ts"]
         forms = g[g["type"] == "форма"]
         rule = ((forms.iloc[0]["src"] if forms.iloc[0]["src"] in ("Google Ads", "Facebook") else "Нет метки") if len(forms) else "Телефон")
-        hist = pm[(pm["p9"] == g.iloc[0]["p9"]) & (pm["ts"] <= created + pd.Timedelta(minutes=3))]
+        hist = pmh[(pmh["p9"] == g.iloc[0]["p9"]) & (pmh["ts"] <= created + pd.Timedelta(minutes=3))]
         w = hist[hist["ts"] >= created - pd.Timedelta(days=WINDOW)]
         first60 = (w.iloc[0]["src"] or "Нет метки") if len(w) else ""
         ad_touch = bool(len(hist[hist["src"].isin(["Google Ads", "Facebook"]) | hist["gclid"].ne("")])) or g.iloc[0]["p9"] in ga_paid
@@ -689,7 +693,7 @@ def main():
                          "01.10–19.10.2026); допущение, не рыночный курс")
     ap.add_argument("--cache", default=None, help="pickle (sheet, ringo_full), как у profimet_season_audit.py")
     ap.add_argument("--no-open", action="store_true", help="не открывать страницу в браузере после запуска")
-    ap.add_argument("--client-list", default=None, help="список продаж дашборда клиента (TSV): даёт количество товара, товар, площадку, автора и лист «Расхождения»")
+    ap.add_argument("--client-list", nargs="+", default=None, help="списки продаж дашборда клиента (TSV, можно несколько за разные периоды): дают количество товара, товар, площадку, автора и лист «Расхождения»")
     ap.add_argument("--update-sheet", nargs="?", const=DASHBOARD_SHEET_ID, default=None, metavar="ID",
                     help="обновить данные в Google Таблице дашборда (по умолчанию — «ProfiMet — по источникам (дашборд)»): листы «Данные» и «Списки»")
     ap.add_argument("--rebuild-sheet", nargs="?", const=DASHBOARD_SHEET_ID, default=None, metavar="ID",
