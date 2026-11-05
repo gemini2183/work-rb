@@ -244,6 +244,7 @@
   },
   "active": "aad7ea81908996b1",
   "lastOpenFiles": [
+    "Скрипты/gtm_marks_without_consent.py",
     "Скрипты/__pycache__/gtm_supabase_leads_columns.cpython-313.pyc",
     "Клиенты/ProfiMet/Сообщение_клиенту_метки_2026-11-05.html",
     "Клиенты/ProfiMet/Статистика/forms_tilda_ui_vs_sheet_vs_crm_2026-10-06_2026-11-04.csv",
@@ -254,7 +255,6 @@
     "Скрипты/stop_guard.ps1",
     "Скрипты/_guard_wrapper_ProfiMet.log",
     "Скрипты/_guard_wrapper_EkspertAgro.log",
-    "Скрипты/run_guard.ps1",
     "Клиенты/ProfiMet/Хроника_2026-11.md",
     "Клиенты/ProfiMet_YouTube/Хроника_2026-11.md",
     "Клиенты/ProfiMet_YouTube/Статистика/ringostat_snapshot_before_2026-11-03.md",

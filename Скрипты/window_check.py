@@ -40,17 +40,11 @@ MODE_FIELDS = ("status", "amount_micros", "target_cpa", "target_roas", "bid_modi
 DAYS = ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]
 
 
-def main():
-    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--customer-id", required=True)
-    ap.add_argument("--from", dest="d_from", required=True)
-    ap.add_argument("--to", dest="d_to", required=True)
-    ap.add_argument("--campaign", action="append", default=[])
-    a = ap.parse_args()
-    client = GoogleAdsClient.load_from_storage(GOOGLE_ADS_YAML)
-    svc, E = client.get_service("GoogleAdsService"), client.enums
-    q = lambda x: list(svc.search(customer_id=a.customer_id, query=x))
+def collect(svc, E, customer_id, d_from, d_to):
+    """Читает из Google Ads всё для вердиктов дней (только чтение): кампании, расписания, показы по часам, правки режима.
+    Вынесено из main() 2026-11-05, чтобы сторож (guard_hints.py) мог взять «чистые дни» без разбора консольного вывода.
+    → dict(camps, sched, has_sched, rows, changes); вердикт одного дня — day_verdict()."""
+    q = lambda x: list(svc.search(customer_id=customer_id, query=x))
 
     camps = {r.campaign.resource_name: (r.campaign.name, E.CampaignStatusEnum.CampaignStatus.Name(r.campaign.status))
              for r in q("SELECT campaign.resource_name, campaign.name, campaign.status FROM campaign")}
@@ -69,7 +63,7 @@ def main():
     rows = defaultdict(lambda: defaultdict(lambda: {"cost": 0.0, "impr": 0, "conv": 0.0, "hours": set(), "dow": ""}))
     for r in q(f"SELECT campaign.name, segments.date, segments.day_of_week, segments.hour, metrics.cost_micros,"
                f" metrics.impressions, metrics.conversions FROM campaign"
-               f" WHERE segments.date BETWEEN '{a.d_from}' AND '{a.d_to}'"):
+               f" WHERE segments.date BETWEEN '{d_from}' AND '{d_to}'"):
         d = rows[r.campaign.name][r.segments.date]
         d["cost"] += r.metrics.cost_micros / 1e6
         d["impr"] += r.metrics.impressions
@@ -80,8 +74,8 @@ def main():
     changes = defaultdict(lambda: defaultdict(list))  # имя -> дата -> [(время, кто, что)]
     for r in q(f"SELECT change_event.change_date_time, change_event.user_email, change_event.change_resource_type,"
                f" change_event.resource_change_operation, change_event.changed_fields, change_event.campaign"
-               f" FROM change_event WHERE change_event.change_date_time >= '{a.d_from} 00:00:00'"
-               f" AND change_event.change_date_time <= '{a.d_to} 23:59:59' ORDER BY change_event.change_date_time LIMIT 10000"):
+               f" FROM change_event WHERE change_event.change_date_time >= '{d_from} 00:00:00'"
+               f" AND change_event.change_date_time <= '{d_to} 23:59:59' ORDER BY change_event.change_date_time LIMIT 10000"):
         e = r.change_event
         name = camps.get(e.campaign, ("", ""))[0]
         fields = ",".join(e.changed_fields.paths)
@@ -91,7 +85,45 @@ def main():
         if name and is_mode and rtype != "AD_GROUP_CRITERION_NEGATIVE":
             ts = str(e.change_date_time)
             changes[name][ts[:10]].append((ts[11:16], e.user_email.split("@")[0] or "api", f"{rtype} {op} {fields[:40]}"))
+    return {"camps": camps, "sched": sched, "has_sched": has_sched, "rows": rows, "changes": changes}
 
+
+def day_verdict(data, name, day, today):
+    """Вердикт одного дня кампании (логика прежнего main()): → (вердикт, часов по расписанию, часов с показами, строка дня или None, правки)."""
+    sched, has_sched, rows, changes = data["sched"], data["has_sched"], data["rows"], data["changes"]
+    ds = day.isoformat()
+    dow = DAYS[day.weekday()]
+    plan_h = 24 if name not in has_sched else math.ceil(sched[name].get(dow, 0) / 60)
+    d = rows[name].get(ds)
+    hrs = len(d["hours"]) if d else 0
+    ch = changes[name].get(ds, [])
+    if ds == today:
+        verdict = "НЕ ЗАКОНЧЕН"
+    elif plan_h == 0:
+        verdict = "ВЫХОДНОЙ" if hrs == 0 else "ПОКАЗЫ ВНЕ РАСПИСАНИЯ"
+    elif ch:
+        verdict = "ПЕРЕХОДНЫЙ"
+    elif hrs < 0.8 * plan_h:
+        verdict = "ЧАСТИЧНЫЙ"
+    elif name in has_sched and plan_h < 0.7 * max(math.ceil(m / 60) for m in sched[name].values()):
+        verdict = "СОКРАЩЁННЫЙ (по расписанию, сравнивать только с такими же днями)"
+    else:
+        verdict = "ЧИСТЫЙ"
+    return verdict, plan_h, hrs, d, ch
+
+
+def main():
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--customer-id", required=True)
+    ap.add_argument("--from", dest="d_from", required=True)
+    ap.add_argument("--to", dest="d_to", required=True)
+    ap.add_argument("--campaign", action="append", default=[])
+    a = ap.parse_args()
+    client = GoogleAdsClient.load_from_storage(GOOGLE_ADS_YAML)
+    svc, E = client.get_service("GoogleAdsService"), client.enums
+    data = collect(svc, E, a.customer_id, a.d_from, a.d_to)
+    camps, rows, changes = data["camps"], data["rows"], data["changes"]
     today = date.today().isoformat()
     names = sorted(set(rows) | set(changes)) if not a.campaign else a.campaign
     for name in names:
@@ -100,23 +132,8 @@ def main():
         day = date.fromisoformat(a.d_from)
         while day <= date.fromisoformat(a.d_to):
             ds = day.isoformat()
+            verdict, plan_h, hrs, d, ch = day_verdict(data, name, day, today)
             dow = DAYS[day.weekday()]
-            plan_h = 24 if name not in has_sched else math.ceil(sched[name].get(dow, 0) / 60)
-            d = rows[name].get(ds)
-            hrs = len(d["hours"]) if d else 0
-            ch = changes[name].get(ds, [])
-            if ds == today:
-                verdict = "НЕ ЗАКОНЧЕН"
-            elif plan_h == 0:
-                verdict = "ВЫХОДНОЙ" if hrs == 0 else "ПОКАЗЫ ВНЕ РАСПИСАНИЯ"
-            elif ch:
-                verdict = "ПЕРЕХОДНЫЙ"
-            elif hrs < 0.8 * plan_h:
-                verdict = "ЧАСТИЧНЫЙ"
-            elif name in has_sched and plan_h < 0.7 * max(math.ceil(m / 60) for m in sched[name].values()):
-                verdict = "СОКРАЩЁННЫЙ (по расписанию, сравнивать только с такими же днями)"
-            else:
-                verdict = "ЧИСТЫЙ"
             cost, impr, conv = (d["cost"], d["impr"], d["conv"]) if d else (0, 0, 0)
             print(f"{ds}  {dow[:3]}  {plan_h:>9} ч  {hrs:>8} ч  {cost:7.2f}  {impr:6}  {conv:6.1f}  {verdict}")
             for t, who, what in ch[:6]:
