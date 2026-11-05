@@ -83,6 +83,8 @@ def main():
         out.append(dict(calldate=c["calldate"], pool=c["pool_name"], utm_campaign=c["utm_campaign"], client_id=c["client_id"],
                         unique_call=c["unique_call"], до_запуска_тега=before_tag, есть_визит=v is not None,
                         gclid_визита=(v["gclid"] if v is not None else ""), consent_визита=(v["consent"] if v is not None else ""),
+                        кампания_визита=(v["utm_campaign"] if v is not None else ""),
+                        кампания_совпала=((v["utm_campaign"] == c["utm_campaign"]) if v is not None and c["utm_campaign"] else None),
                         gclid_звонка=c["gclid_call"],
                         gclid_совпал=(bool(c["gclid_call"]) and v is not None and v["gclid"] == c["gclid_call"])
                         if c["gclid_call"] else None))
@@ -94,11 +96,12 @@ def main():
     g = live.groupby("pool").agg(звонков=("client_id", "size"), с_client_id=("client_id", lambda x: (x != "").sum()),
                                  с_визитом=("есть_визит", "sum"),
                                  gclid_у_звонка=("gclid_звонка", lambda x: (x != "").sum()),
-                                 gclid_совпал=("gclid_совпал", lambda x: (x == True).sum()))  # noqa: E712
+                                 gclid_совпал=("gclid_совпал", lambda x: (x == True).sum()),  # noqa: E712
+                                 кампания_совпала=("кампания_совпала", lambda x: (x == True).sum()))  # noqa: E712
     print(g.to_string())
     print(f"\nCSV: {path}")
-    print("Контроль: у Google CPC_dyn «gclid_совпал» близко к «с_визитом» → client_id = rngst.clientId. "
-          "Статические пулы (pmax, demand_gen, yt_*, dspl_*): «с_визитом» — доля звонков, которым вернули клик.")
+    print("Статические пулы (pmax, demand_gen, yt_*, dspl_*): «с_визитом» — звонки, которым вернули клик; «кампания_совпала» — у найденного визита "
+          "та же utm_campaign, что у звонка (проверка прямо на статике). Контроль метода: у Google CPC_dyn «gclid_совпал» близко к «с_визитом».")
 
 
 if __name__ == "__main__":
