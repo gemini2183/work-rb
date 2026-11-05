@@ -95,6 +95,8 @@ def build_tab(d0, d1):
         for (p, kind), col in cols.items():
             c[f"{col}{rr}"] = f'=SUMIFS({q("F")},{q("A")},$A{rr},{q("B")},"{kind}",{q("C")},{col}${hdr},{q("E")},$D${sel})'
     last = first + len(days) - 1
+    # локаль таблицы ru_RU: разделитель аргументов в формулах — «;»
+    c = {k: (v.replace(",", ";") if isinstance(v, str) and v.startswith("=") else v) for k, v in c.items()}
     c["_layout"] = dict(sel=sel, hdr=hdr, first=first, last=last, refs=refs, cols=cols)
     return c
 
@@ -182,8 +184,9 @@ def main():
     for kind, (h, ref, end) in lay["refs"].items():
         reqs += [bold(h - 1, h - 1, 0, 1), bold(h, h, 0, 8, head)]
         # красим отличия от BigQuery в блоке «отклонение» (F:H) и в самих числах (B:D)
-        reqs += [cf(h + 1, end, 5, 8, f'=AND(ISNUMBER(F{h + 1}),F{h + 1}<>0)'),
-                 cf(h + 1, end, 1, 4, f'=AND(B{h + 1}<>B${ref},$A{h + 1}<>$A${ref})')]
+        for a0, a1 in ((h + 1, ref - 1), (ref + 1, end)):  # строки до и после эталонной (без функций: формулы условного формата зависят от локали)
+            if a0 <= a1:
+                reqs += [cf(a0, a1, 5, 8, f'=F{a0}<>0'), cf(a0, a1, 1, 4, f'=B{a0}<>B${ref}')]
     # по дням: сравниваем с колонкой BigQuery
     cols = lay["cols"]
     bq_c, bq_f = cols[CALLS[2], "Звонки"], cols[FORMS[3], "Формы"]
