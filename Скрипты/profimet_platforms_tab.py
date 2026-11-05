@@ -153,8 +153,8 @@ def main():
     cf = lambda r0, r1, c0, c1, f: {"addConditionalFormatRule": {"index": 0, "rule": {"ranges": [rng(r0, r1, c0, c1)], "booleanRule": {
         "condition": {"type": "CUSTOM_FORMULA", "values": [{"userEnteredValue": f}]}, "format": {"backgroundColor": red}}}}}
     bold = lambda r0, r1, c0, c1, bg=None: {"repeatCell": {"range": rng(r0, r1, c0, c1), "cell": {"userEnteredFormat": {
-        "textFormat": {"bold": True}, **({"backgroundColor": bg} if bg else {}), "wrapText": True, "verticalAlignment": "MIDDLE"}},
-        "fields": "userEnteredFormat(textFormat,backgroundColor,wrapText,verticalAlignment)"}}
+        "textFormat": {"bold": True}, **({"backgroundColor": bg} if bg else {}), "wrapStrategy": "WRAP", "verticalAlignment": "MIDDLE"}},
+        "fields": "userEnteredFormat(textFormat,backgroundColor,wrapStrategy,verticalAlignment)"}}
     reqs = list(drop)
     reqs += [
         {"updateSpreadsheetProperties": {"properties": {"locale": "ru_RU", "timeZone": "Europe/Warsaw"}, "fields": "locale,timeZone"}},
@@ -169,9 +169,9 @@ def main():
             {"userEnteredValue": "Google SEO"}, {"userEnteredValue": OUT}]}, "strict": True, "showCustomUi": True}}},
         {"repeatCell": {"range": rng(first, last, 0, 1), "cell": {"userEnteredFormat": {"numberFormat": {"type": "DATE", "pattern": "dd.mm.yyyy"}}},
                         "fields": "userEnteredFormat.numberFormat"}},
-        {"repeatCell": {"range": rng(hdr, hdr, 0, 12), "cell": {"userEnteredFormat": {"textFormat": {"bold": True}, "backgroundColor": head, "wrapText": True,
+        {"repeatCell": {"range": rng(hdr, hdr, 0, 12), "cell": {"userEnteredFormat": {"textFormat": {"bold": True}, "backgroundColor": head, "wrapStrategy": "WRAP",
                                                                                      "verticalAlignment": "MIDDLE", "horizontalAlignment": "CENTER"}},
-                        "fields": "userEnteredFormat(textFormat,backgroundColor,wrapText,verticalAlignment,horizontalAlignment)"}},
+                        "fields": "userEnteredFormat(textFormat,backgroundColor,wrapStrategy,verticalAlignment,horizontalAlignment)"}},
         {"updateDimensionProperties": {"range": {"sheetId": t, "dimension": "COLUMNS", "startIndex": 0, "endIndex": 1}, "properties": {"pixelSize": 270}, "fields": "pixelSize"}},
         {"updateDimensionProperties": {"range": {"sheetId": t, "dimension": "COLUMNS", "startIndex": 1, "endIndex": 12}, "properties": {"pixelSize": 120}, "fields": "pixelSize"}},
         {"updateDimensionProperties": {"range": {"sheetId": t, "dimension": "ROWS", "startIndex": hdr - 1, "endIndex": hdr}, "properties": {"pixelSize": 64}, "fields": "pixelSize"}},
@@ -194,7 +194,10 @@ def main():
         ci = ord(col) - 65
         reqs.append(cf(first, last, ci, ci + 1, f'=${col}{first}<>${bq}{first}'))
     reqs.append(bold(lay["hdr"] - 1, lay["hdr"] - 1, 1, 2, head))
-    s.post(base + ":batchUpdate", json={"requests": reqs}, timeout=120).raise_for_status()
+    resp = s.post(base + ":batchUpdate", json={"requests": reqs}, timeout=120)
+    if not resp.ok:
+        print("Ошибка форматирования:", resp.text[:600])
+        resp.raise_for_status()
     print(f"Записано: https://docs.google.com/spreadsheets/d/{a.sheet_id}/edit#gid={t}")
 
 
