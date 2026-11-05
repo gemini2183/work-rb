@@ -1589,3 +1589,6 @@ PYTHONUTF8=1 python ringostat_call_transcripts.py --client-folder ProfiMet --fro
 Решение и проверка — `Инфраструктура.md`, 2026-11-05.
 
 **Дополнение 2026-11-05 — сторож на стандарте заявок.** Источники такта: Ringostat, Supabase, `call_view` (звонки из объявлений); `ad_call_actions` и `form_action` в `guard_config.yaml` теперь нужны только для расхода и истории Ads. Выгрузка Ringostat ускорена (векторный разбор дат): ProfiMet с ~15 до ~3 с на такт. Нужен перезапуск процесса.
+
+## gtm_consent_audit.py — аудит согласий на cookie (2026-11-05)
+Только чтение: `PYTHONUTF8=1 python -I gtm_consent_audit.py https://mocnaszklarnia.pl [none|all|essential|analytics|marketing|both_off ...]`. На каждый сценарий выбора в баннере ProfiMet печатает состояние Consent Mode (default/update), `localStorage.rb_utm`, cookie баннера, события dataLayer, какие запросы GA4/Ads/Facebook/Метрики пытались уйти и тело, которое тег 117 отправил бы в Supabase после `submit_form` на другой странице без меток. GA/Ads/Facebook/Метрика → 204, Supabase → 201 (в базу ничего не уходит). Селекторы привязаны к самописному баннеру ProfiMet (`cookieConsentContainer`, `analyticsSwitch`, `advertisingSwitch`); для другого сайта править. Результат первого прогона — `Клиенты/ProfiMet/Хроника_2026-11.md`. Применять после любой правки тегов по согласию (v91 и далее) как регрессионный тест.
