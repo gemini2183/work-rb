@@ -68,13 +68,16 @@ def ch_utm(src, med=""):
     return c if c in ("Google Ads", "Facebook") else "Нет метки/прочее"
 
 
-def ch_sm(sm):
+def ch_sm(sm, seo_site=False):
+    """Те же правила, что в BigQuery (`ga4_profimet/main.py`, строка 103): google / cpc → Google Ads, facebook / cpc → Facebook,
+    google / organic → SEO только для ресурса сайта SEO; на основном сайте google / organic в BigQuery идёт как «Без источника».
+    Всё остальное (прямые, referral, bing, (not set)) → «Нет метки/прочее» (в BigQuery не попадает)."""
     s = str(sm).lower()
     if s == "google / cpc":
         return "Google Ads"
-    if "facebook" in s:
+    if s == "facebook / cpc":
         return "Facebook"
-    if "organic" in s:
+    if s == "google / organic" and seo_site:
         return "Google SEO"
     return "Нет метки/прочее"
 
@@ -119,7 +122,7 @@ def ga4_sessions(frm, to, prop=None):
             "dimensionFilter": {"filter": {"fieldName": "eventName", "stringFilter": {"value": "form_submit"}}}}
     r = s.post(f"https://analyticsdata.googleapis.com/v1beta/properties/{prop or CLIENTS['ProfiMet']['ga4']}:runReport", json=body, timeout=120)
     r.raise_for_status()
-    rows = [{"day": pd.Timestamp(x["dimensionValues"][0]["value"]).date(), "channel": ch_sm(x["dimensionValues"][1]["value"]),
+    rows = [{"day": pd.Timestamp(x["dimensionValues"][0]["value"]).date(), "channel": ch_sm(x["dimensionValues"][1]["value"], prop == GA4_SEO),
              "sm": x["dimensionValues"][1]["value"], "n": int(float(x["metricValues"][0]["value"]))} for x in r.json().get("rows", [])
             if not any(k in x["dimensionValues"][1]["value"].lower() for k in ("test", "tagassistant"))]
     return pd.DataFrame(rows, columns=["day", "channel", "sm", "n"])
@@ -216,6 +219,21 @@ def show(df, kind, order):
     print(d.to_string())
 
 
+def compare(df, kind, order, ref):
+    """Сверка с эталоном: только рекламные каналы и SEO (как в BigQuery), отклонение от эталона в скобках; «вне эталона» — остальное."""
+    ads = ["Google Ads", "Facebook", "Google SEO"]
+    d = df[df["kind"] == kind].groupby(["platform", "channel"])["n"].sum().unstack(fill_value=0).reindex(order).fillna(0).astype(int)
+    for c in CH:
+        if c not in d.columns:
+            d[c] = 0
+    base = d.loc[ref]
+    out = pd.DataFrame(index=order)
+    for c in ads:
+        out[c] = [f"{d.at[p, c]}" if p == ref else f"{d.at[p, c]} ({d.at[p, c] - base[c]:+d})" for p in order]
+    out["вне эталона (нет метки, прочее)"] = d["Нет метки/прочее"] + d["Телефон"]
+    print(out.to_string())
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--from", dest="d0", default="2026-10-01")
@@ -231,6 +249,9 @@ def main():
     print(f"Последняя заявка в Tilda: {extra['tilda_last']}; в Supabase: {extra['sb_last']}; период до {a.d1}")
     print("\n--- ЗВОНКИ ---"); show(df, "Звонки", CALLS)
     print("\n--- ФОРМЫ ---"); show(df, "Формы", FORMS)
+    print("\n=== СВЕРКА С ЭТАЛОНОМ BigQuery (только рекламные каналы и SEO; в скобках отличие от BigQuery) ===")
+    print("--- ЗВОНКИ ---"); compare(df, "Звонки", CALLS, CALLS[2])
+    print("--- ФОРМЫ (Tilda и Supabase сайт SEO не охватывают) ---"); compare(df, "Формы", FORMS, FORMS[3])
     print("\nGA4 (сайт mocnaszklarnia.pl), сеансы form_submit по источнику сеанса:")
     print(extra["ga_sm"].to_string())
     if a.by_day:
