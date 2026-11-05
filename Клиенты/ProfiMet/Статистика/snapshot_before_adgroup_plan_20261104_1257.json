@@ -1,0 +1,169 @@
+{
+ "plan": {
+  "campaign": "Search | Brand | Pl",
+  "pause_groups": [
+   "mocnaszklarnia pl",
+   "szklarnie poliweglan profimet"
+  ]
+ },
+ "groups": {
+  "profimet [exact]": {
+   "rn": "customers/7552781705/adGroups/141501917982",
+   "bid": 8.0,
+   "tcpa": 0.0,
+   "status": "ENABLED"
+  },
+  "profimet [phrase]": {
+   "rn": "customers/7552781705/adGroups/141501918142",
+   "bid": 8.0,
+   "tcpa": 0.0,
+   "status": "ENABLED"
+  },
+  "szklarnie profimet": {
+   "rn": "customers/7552781705/adGroups/141501918182",
+   "bid": 10.0,
+   "tcpa": 0.0,
+   "status": "ENABLED"
+  },
+  "szklarnie poliweglan profimet": {
+   "rn": "customers/7552781705/adGroups/141501918222",
+   "bid": 10.0,
+   "tcpa": 0.0,
+   "status": "ENABLED"
+  },
+  "mocnaszklarnia pl": {
+   "rn": "customers/7552781705/adGroups/141501918382",
+   "bid": 10.0,
+   "tcpa": 0.0,
+   "status": "ENABLED"
+  }
+ },
+ "keywords": {
+  "profimet [exact] | profimet | EXACT": {
+   "rn": "customers/7552781705/adGroupCriteria/141501917982~449467159620",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 8.0
+  },
+  "profimet [exact] | profi met | EXACT": {
+   "rn": "customers/7552781705/adGroupCriteria/141501917982~992115028797",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 8.0
+  },
+  "profimet [exact] | profimet pl | EXACT": {
+   "rn": "customers/7552781705/adGroupCriteria/141501917982~1634505437270",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 8.0
+  },
+  "profimet [exact] | profimetpl | EXACT": {
+   "rn": "customers/7552781705/adGroupCriteria/141501917982~2206531217937",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 8.0
+  },
+  "profimet [phrase] | profimet | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/141501918142~449835316699",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 8.0
+  },
+  "profimet [phrase] | profi met | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/141501918142~1264071337567",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 8.0
+  },
+  "profimet [phrase] | profimet pl | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/141501918142~1674441403667",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 8.0
+  },
+  "profimet [phrase] | firma profimet | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/141501918142~1747826156126",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 8.0
+  },
+  "szklarnie profimet | szklarnie profimet | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/141501918182~1187242464222",
+   "status": "ENABLED",
+   "bid": 10.0,
+   "effective_bid": 10.0
+  },
+  "szklarnie profimet | profimet pl szklarnie | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/141501918182~1252928593117",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 10.0
+  },
+  "szklarnie profimet | profi met szklarnie | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/141501918182~1596220143357",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 10.0
+  },
+  "szklarnie profimet | szklarnie profimet domek | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/141501918182~1929782287160",
+   "status": "PAUSED",
+   "bid": 0.0,
+   "effective_bid": 10.0
+  },
+  "szklarnie profimet | szklarnie profimet mocna | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/141501918182~1929782287320",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 10.0
+  },
+  "szklarnie poliweglan profimet | szklarnie z poliwęglanu profimet | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/141501918222~1246702039668",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 10.0
+  },
+  "szklarnie poliweglan profimet | szklarnie poliwęglanowe profimet | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/141501918222~1929782287120",
+   "status": "PAUSED",
+   "bid": 0.0,
+   "effective_bid": 10.0
+  },
+  "szklarnie poliweglan profimet | szklarnie z poliwęglanu 3x6 profimet | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/141501918222~1929782287360",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 10.0
+  },
+  "szklarnie poliweglan profimet | szklarnie z poliwęglanu profimet mocna | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/141501918222~1929782287400",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 10.0
+  },
+  "mocnaszklarnia pl | mocnaszklarnia | EXACT": {
+   "rn": "customers/7552781705/adGroupCriteria/141501918382~1602199917115",
+   "status": "PAUSED",
+   "bid": 0.0,
+   "effective_bid": 10.0
+  },
+  "mocnaszklarnia pl | mocna szklarnia pl | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/141501918382~1670302633644",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 10.0
+  },
+  "mocnaszklarnia pl | mocnaszklarnia pl | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/141501918382~1674441400707",
+   "status": "ENABLED",
+   "bid": 0.0,
+   "effective_bid": 10.0
+  },
+  "mocnaszklarnia pl | mocnaszklarnia | PHRASE": {
+   "rn": "customers/7552781705/adGroupCriteria/141501918382~1677089246819",
+   "status": "PAUSED",
+   "bid": 0.0,
+   "effective_bid": 10.0
+  }
+ }
+}

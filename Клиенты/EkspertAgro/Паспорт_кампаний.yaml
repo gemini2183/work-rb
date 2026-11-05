@@ -1,0 +1,49 @@
+# Паспорт кампаний EkspertAgro (Google Ads, аккаунт 8826134558). Создан 2026-11-04.
+# Пишут: пользователь и Claude по протоколу «таблица плана → «да» → запись». Сторож (gads_spend_guard_cpa.py) ТОЛЬКО ЧИТАЕТ
+# (перечитывает при изменении файла) и в паспорт не пишет. Своё состояние сторож ведёт в Статистика/gads_spend_guard_state.json.
+# Проект и логика: База_знаний/Агенты/Сторож_жизненный_цикл_кампаний_и_план_изменений.md
+#
+# state: active | hold_rebuild (выключена, нужна пересборка/оптимизация) | hold_off (пауза «ждём») | staging (создана на паузе) | retired
+#   — для hold_* и staging сторож не включает кампанию утром и пишет причину в утреннем отчёте.
+# course (курс из глубокого анализа): mode (test | scale | hold_level | wind_down), freeze_until (до этой даты тактические подсказки молчат),
+#   corridor (budget/tcpa min–max), basis (номер Э-/И-/Р- и дата анализа), review_by. Пока читает человек; сторож использует позже.
+# agreed_changes: согласованное, но ещё не сделанное: id, campaign, campaign_name, param (budget | status), to, agreed_on, deadline,
+#   apply (manual | guard), status (agreed | applied | cancelled). Сторож сверяет с кабинетом и сообщает; статус меняет Claude при записи в журнал.
+
+client: EkspertAgro
+updated: 2026-11-04
+
+campaigns:
+  "23593683252":
+    name: general_pmax
+    state: hold_off
+    why: "спам-заявки; решение пользователя 16.10 и 27.10 — остаётся на паузе (на паузе с 14.10 09:37, Э-002); tCPA кампании 47.54 zł"
+    since: "2026-10-14"
+    source: "Хроника_2026-10 (16.10), Журнал_изменений"
+    to_enable_when: ["решение пользователя после пересборки (спам-заявки, посадочная — главная страница)"]
+    review_by: null
+  "24210390946":
+    name: shop_search
+    state: hold_off
+    why: "неэффективна: дорогая заявка / высокая цена продажи (пояснение пользователя 04.11; в Хронике 01–22.10 цена продажи 289 zł, цена клика 19→21.10 выросла 2.28 → 3.83 zł). Дата паузы в вики не записана"
+    source: "слова пользователя 04.11; Хроника_2026-10 (цена продажи по кампаниям)"
+    to_enable_when: ["решение пользователя после оптимизации (цена продажи выше границы 131 zł)"]
+    review_by: null
+  "24230255260":
+    name: shop_pmax
+    state: active
+    course: {mode: test, freeze_until: null, basis: "Э-014, tCPA 90 zł с 27.10 (граница цены продажи 131 zł)", review_by: null}
+  "24353873699":
+    name: general_search_rozmiary
+    state: active
+    course: {mode: test, freeze_until: null, basis: "Э-003..Э-005, включена 14.10", review_by: null}
+  "24360520273":
+    name: general_pmax_rozmiary
+    state: active
+    course: {mode: test, freeze_until: null, basis: "Э-007, Э-008, включена 15.10", review_by: null}
+  "24397252446":
+    name: shop_tail
+    state: active
+    course: {mode: test, freeze_until: "2026-11-17", basis: "Э-015, решение пользователя 27.10 (вариант C+: хвост сейчас, голова после вердикта; дневной предел 70 zł, общий потолок 600 zł); срок вердикта 17.11 взят из памяти сессии, сверить", review_by: "2026-11-17"}
+
+agreed_changes: []

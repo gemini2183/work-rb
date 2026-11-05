@@ -70,6 +70,14 @@ Google явно рекомендует **не полагаться только 
 - Это не заменяет базовую настройку конверсии, а дополняет её — автоматический метод
   можно оставить включённым одновременно с ручным.
 
+## Случай LuxeBrokers (прочитано в кабинете 2026-11-04, ещё не исправлено)
+
+Кабинет 953-486-5605. Баннер «Enhanced conversions not recording → Get started» ведёт на форму записи к технической поддержке Google (бесплатно, «Book an appointment…»). Диагностика: статус «Needs attention», одно предупреждение «Implement in-page code in addition to Automatic» по двум Primary-действиям с источником Website/TAG — `form_web_free online appraisal` (10 конверсий за 7 дней) и `form_web_widget_phone number` (0, статус «Misconfigured»). Покрытие 0% за 27.10–01.11, match rate «Insufficient conversion volume», последний пинг 01.11. Галочка «Use enhanced conversions» стоит, управляется через Google tag, т.е. включён только автоматический метод. Сайт на Tilda, на странице GTM-NJT9XZMV, gtag G-PRDL1WGQKB и AW-16644235268. Контейнер GTM-NJT9XZMV (аккаунт 6240500366, контейнер 190366786, версия 13) прочитан 04.11 после добавления сервисного аккаунта: теги `GAds - form_submit - aprisal` (58) и `GAds - form_submit - phone_widg` (65) — старые теги отслеживания конверсий Google Ads, запускаются по событию Tilda `submit_form772276664` / `submit_form781600418`, настроек пользовательских данных в них нет. На сайте: у основной формы скрытое поле `Phone` (класс js-phonemask-result, с большой буквы), у виджета одно видимое поле `Phone` (tel), email нигде нет. Статус страницы по-прежнему «не протестировано»: исправление не делали.
+
+## Как передавать телефон через GTM API (проверено 2026-11-04, LuxeBrokers)
+
+Переменная типа `awec` (в интерфейсе «Данные, предоставляемые пользователями»), ручной режим: `mode=MANUAL`, телефон — ключ `phone_number`, email — `email`, адрес — `first_name`, `last_name`, `country`, `postal_code`. API молча отбрасывает неизвестные ключи (код 200 ничего не доказывает) — проверять по ответу. В теге awct: `enableEnhancedConversion=true` и `cssProvidedEnhancedConversionValue={{переменная}}`. Проверка до публикации: в запросе конверсии `ec_mode=m` и `em=tv.1~pn.<хэш>`; пустой `em=tv.1` — данные не дошли. Хэш — SHA-256 номера в формате E.164 (+1…) в base64url. Скрипты: `Скрипты/gtm_awct_enhanced_conversions.py`, `Скрипты/gtm_test_ec_form.py`. Эффект на покрытие в диагностике Google Ads ещё не измерен (версия 16 не опубликована).
+
 ## Статус
 
 Не протестировано на практике — описание составлено по официальной механике Enhanced

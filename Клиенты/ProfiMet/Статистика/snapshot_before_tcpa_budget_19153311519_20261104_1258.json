@@ -1,0 +1,8 @@
+{
+  "name": "Search | Brand | Pl",
+  "status": "ENABLED",
+  "strategy": "TARGET_SPEND",
+  "tcpa": 0.0,
+  "budget": 100.0,
+  "budget_resource": "customers/7552781705/campaignBudgets/12080620266"
+}

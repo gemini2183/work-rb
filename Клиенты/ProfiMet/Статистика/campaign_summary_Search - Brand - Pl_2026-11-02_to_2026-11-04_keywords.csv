@@ -1,0 +1,14 @@
+﻿group,keyword,match,status,impr,clicks,cost,conv
+szklarnie profimet,profi met szklarnie,PHRASE,ENABLED,16,7,9.78,1.0
+profimet [phrase],profimet,PHRASE,ENABLED,36,19,36.72,0.0
+profimet [phrase],profi met,PHRASE,ENABLED,16,11,14.53,0.0
+mocnaszklarnia pl,mocna szklarnia pl,PHRASE,ENABLED,14,9,13.23,0.0
+profimet [phrase],profimet pl,PHRASE,ENABLED,22,5,9.96,0.0
+szklarnie poliweglan profimet,szklarnie z poliwęglanu profimet,PHRASE,ENABLED,8,3,7.37,0.0
+szklarnie profimet,profimet pl szklarnie,PHRASE,ENABLED,11,4,4.93,0.0
+profimet [phrase],firma profimet,PHRASE,ENABLED,10,2,4.5,0.0
+profimet [exact],profimet,EXACT,ENABLED,40,10,4.3,0.0
+szklarnie profimet,szklarnie profimet,PHRASE,ENABLED,15,4,3.54,0.0
+profimet [exact],profimet pl,EXACT,ENABLED,8,2,3.27,0.0
+profimet [exact],profimetpl,EXACT,ENABLED,6,1,2.48,0.0
+profimet [exact],profi met,EXACT,ENABLED,5,0,0.0,0.0

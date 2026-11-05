@@ -2,15 +2,17 @@
  "_budget": {
   "24332178236": {
    "base": 50.0,
-   "floor": 50.0
+   "floor": 50.0,
+   "cfg_base": 50.0
   },
   "23775369828": {
    "base": 60.0,
-   "floor": 60.0
+   "floor": 60.0,
+   "cfg_base": 60.0
   }
  },
  "24332178236": {
-  "date": "2026-10-29",
+  "date": "2026-11-04",
   "calls_max": 0,
   "leads_max": 0,
   "reenabled": 0,
@@ -20,16 +22,17 @@
   "flex_count": 0,
   "samples": [
    [
-    "2026-10-29T09:29:02",
+    "2026-11-04T16:04:33",
     0.0,
     0
    ]
   ],
-  "adcalls_max": 0
+  "adcalls_max": 0,
+  "budget_max": 50.0
  },
  "23775369828": {
-  "date": "2026-10-29",
-  "calls_max": 0,
+  "date": "2026-11-04",
+  "calls_max": 2,
   "leads_max": 0,
   "reenabled": 0,
   "warned": false,
@@ -38,15 +41,16 @@
   "flex_count": 0,
   "samples": [
    [
-    "2026-10-29T09:29:04",
-    0.0,
-    0
+    "2026-11-04T16:04:35",
+    29.28984,
+    2
    ]
   ],
-  "adcalls_max": 0
+  "adcalls_max": 0,
+  "budget_max": 60.0
  },
  "24332648825": {
-  "date": "2026-10-29",
+  "date": "2026-11-04",
   "calls_max": 0,
   "leads_max": 0,
   "reenabled": 0,
@@ -56,15 +60,16 @@
   "flex_count": 0,
   "samples": [
    [
-    "2026-10-29T09:29:06",
+    "2026-11-04T16:04:37",
     0.0,
     0
    ]
   ],
-  "adcalls_max": 0
+  "adcalls_max": 0,
+  "budget_max": 25.0
  },
  "24342129286": {
-  "date": "2026-10-29",
+  "date": "2026-11-04",
   "calls_max": 0,
   "leads_max": 0,
   "reenabled": 0,
@@ -74,15 +79,16 @@
   "flex_count": 0,
   "samples": [
    [
-    "2026-10-29T09:29:07",
+    "2026-11-04T16:04:39",
     0.0,
     0
    ]
   ],
-  "adcalls_max": 0
+  "adcalls_max": 0,
+  "budget_max": 25.0
  },
  "24335049091": {
-  "date": "2026-10-29",
+  "date": "2026-11-04",
   "calls_max": 0,
   "leads_max": 0,
   "reenabled": 0,
@@ -92,15 +98,16 @@
   "flex_count": 0,
   "samples": [
    [
-    "2026-10-29T09:29:08",
+    "2026-11-04T16:04:40",
     0.0,
     0
    ]
   ],
-  "adcalls_max": 0
+  "adcalls_max": 0,
+  "budget_max": 20.0
  },
  "24331349689": {
-  "date": "2026-10-29",
+  "date": "2026-11-04",
   "calls_max": 0,
   "leads_max": 0,
   "reenabled": 0,
@@ -110,15 +117,16 @@
   "flex_count": 0,
   "samples": [
    [
-    "2026-10-29T09:29:09",
-    0.302927,
+    "2026-11-04T16:04:41",
+    1.063861,
     0
    ]
   ],
-  "adcalls_max": 0
+  "adcalls_max": 0,
+  "budget_max": 20.0
  },
  "24341712952": {
-  "date": "2026-10-29",
+  "date": "2026-11-04",
   "calls_max": 0,
   "leads_max": 0,
   "reenabled": 0,
@@ -128,15 +136,16 @@
   "flex_count": 0,
   "samples": [
    [
-    "2026-10-29T09:29:10",
+    "2026-11-04T16:04:42",
     0.0,
     0
    ]
   ],
-  "adcalls_max": 0
+  "adcalls_max": 0,
+  "budget_max": 25.0
  },
  "19158580966": {
-  "date": "2026-10-29",
+  "date": "2026-11-04",
   "calls_max": 0,
   "leads_max": 0,
   "reenabled": 0,
@@ -146,11 +155,215 @@
   "flex_count": 0,
   "samples": [
    [
-    "2026-10-29T09:29:11",
-    0.6,
+    "2026-11-04T16:04:43",
+    13.45,
     0
    ]
   ],
-  "adcalls_max": 0
- }
+  "adcalls_max": 0,
+  "budget_max": 40.0
+ },
+ "_adopted": {},
+ "_sources": {
+  "ringostat": {
+   "fail_since": null,
+   "alerted": false
+  },
+  "supabase": {
+   "fail_since": null,
+   "alerted": false
+  },
+  "ads_calls": {
+   "fail_since": null,
+   "alerted": false
+  }
+ },
+ "_seen": {
+  "24332178236": {
+   "budget": 50.0,
+   "status": 3,
+   "bidding": "MAXIMIZE_CONVERSIONS, tCPA 12",
+   "schedule": "2/8:5-17:2x0; 3/8:5-17:2x0; 4/8:5-17:2x0; 5/8:5-17:2x0; 6/8:5-17:2x0"
+  },
+  "23775369828": {
+   "budget": 60.0,
+   "status": 2,
+   "bidding": "MAXIMIZE_CONVERSIONS, tCPA 18",
+   "schedule": "2/10:2-15:2x0; 3/10:2-15:2x0; 4/10:2-15:2x0; 5/10:2-15:2x0; 6/10:2-15:2x0"
+  },
+  "24332648825": {
+   "budget": 25.0,
+   "status": 3,
+   "bidding": "MAXIMIZE_CONVERSIONS",
+   "schedule": "2/8:5-17:2x0; 3/8:5-17:2x0; 4/8:5-17:2x0; 5/8:5-17:2x0; 6/8:5-17:2x0"
+  },
+  "24342129286": {
+   "budget": 25.0,
+   "status": 3,
+   "bidding": "MAXIMIZE_CONVERSIONS",
+   "schedule": "2/8:5-17:2x0; 3/8:5-17:2x0; 4/8:5-17:2x0; 5/8:5-17:2x0; 6/8:5-17:2x0"
+  },
+  "24335049091": {
+   "budget": 20.0,
+   "status": 3,
+   "bidding": "TARGET_SPEND",
+   "schedule": "2/9:2-16:2x0; 3/9:2-16:2x0; 4/9:2-16:2x0; 5/9:2-16:2x0; 6/9:2-16:2x0"
+  },
+  "24331349689": {
+   "budget": 20.0,
+   "status": 2,
+   "bidding": "TARGET_SPEND",
+   "schedule": "2/9:2-16:2x0; 3/9:2-16:2x0; 4/9:2-16:2x0; 5/9:2-16:2x0; 6/9:2-16:2x0"
+  },
+  "24341712952": {
+   "budget": 25.0,
+   "status": 3,
+   "bidding": "TARGET_SPEND",
+   "schedule": "2/7:2-17:2x0; 3/7:2-17:2x0; 4/7:2-17:2x0; 5/7:2-17:2x0; 6/7:2-17:2x0; 7/9:2-16:2x0"
+  },
+  "19158580966": {
+   "budget": 40.0,
+   "status": 2,
+   "bidding": "MANUAL_CPC",
+   "schedule": "2/17:2-21:2x0; 2/7:5-17:2x0; 3/17:2-21:2x0; 3/7:5-17:2x0; 4/17:2-21:2x0; 4/7:5-17:2x0; 5/17:2-21:2x0; 5/7:5-17:2x0; 6/17:2-21:2x0; 6/7:5-17:2x0; 7/9:2-16:2x0"
+  },
+  "24427037270": {
+   "budget": 20.0,
+   "status": 2,
+   "bidding": "MAXIMIZE_CONVERSIONS",
+   "schedule": "2/9:4-17:2x0; 3/9:4-17:2x0; 4/9:4-17:2x0; 5/9:4-17:2x0; 6/9:4-17:2x0"
+  },
+  "19153311519": {
+   "budget": 40.0,
+   "status": 2,
+   "bidding": "TARGET_SPEND",
+   "schedule": "2/7:2-17:2x0; 3/7:2-17:2x0; 4/7:2-17:2x0; 5/7:2-17:2x0; 6/7:2-17:2x0; 7/8:2-18:2x0"
+  }
+ },
+ "_unknown_warned": {},
+ "24427037270": {
+  "date": "2026-11-04",
+  "calls_max": 0,
+  "leads_max": 0,
+  "reenabled": 0,
+  "warned": false,
+  "paused_by_guard": false,
+  "no_resume": false,
+  "flex_count": 0,
+  "samples": [
+   [
+    "2026-11-04T16:04:45",
+    2.312876,
+    0
+   ]
+  ],
+  "adcalls_max": 0,
+  "budget_max": 20.0
+ },
+ "_plan_day": "2026-11-04",
+ "_pending_resume": {},
+ "_pause_history": {},
+ "_dry": {
+  "24332178236": {
+   "date": "2026-11-04",
+   "carry": 0.0,
+   "cost": 0.0,
+   "n": 0,
+   "base": 0.0,
+   "shown": "2026-11-04"
+  },
+  "23775369828": {
+   "date": "2026-11-04",
+   "carry": 0.0,
+   "cost": 29.28984,
+   "n": 2,
+   "base": 0.0,
+   "shown": "2026-11-04"
+  },
+  "24332648825": {
+   "date": "2026-11-04",
+   "carry": 65.67,
+   "cost": 0.0,
+   "n": 0,
+   "base": 0.0,
+   "shown": "2026-11-04"
+  },
+  "24342129286": {
+   "date": "2026-11-04",
+   "carry": 32.62,
+   "cost": 0.0,
+   "n": 0,
+   "base": 0.0,
+   "shown": "2026-11-04"
+  },
+  "24335049091": {
+   "date": "2026-11-04",
+   "carry": 1.84,
+   "cost": 0.0,
+   "n": 0,
+   "base": 0.0,
+   "shown": "2026-11-04"
+  },
+  "24331349689": {
+   "date": "2026-11-04",
+   "carry": 29.52,
+   "cost": 1.063861,
+   "n": 0,
+   "base": 0.0,
+   "shown": "2026-11-04"
+  },
+  "24341712952": {
+   "date": "2026-11-04",
+   "carry": 23.57,
+   "cost": 0.0,
+   "n": 0,
+   "base": 0.0,
+   "shown": "2026-11-04"
+  },
+  "19158580966": {
+   "date": "2026-11-04",
+   "carry": 0.0,
+   "cost": 13.45,
+   "n": 0,
+   "base": 0.0,
+   "shown": "2026-11-04"
+  },
+  "19153311519": {
+   "date": "2026-11-04",
+   "carry": 0.0,
+   "cost": 23.08,
+   "n": 2,
+   "base": 0.0,
+   "shown": "2026-11-04"
+  },
+  "24427037270": {
+   "date": "2026-11-04",
+   "carry": 0.0,
+   "cost": 2.312876,
+   "n": 0,
+   "base": 0.0,
+   "shown": "2026-11-04"
+  }
+ },
+ "_hold_enabled_warned": {},
+ "19153311519": {
+  "date": "2026-11-04",
+  "calls_max": 1,
+  "leads_max": 1,
+  "reenabled": 0,
+  "warned": false,
+  "paused_by_guard": false,
+  "no_resume": false,
+  "flex_count": 0,
+  "samples": [
+   [
+    "2026-11-04T16:04:44",
+    23.08,
+    2
+   ]
+  ],
+  "adcalls_max": 0,
+  "budget_max": 40.0
+ },
+ "_agreed_seen": {}
 }

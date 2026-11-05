@@ -1,0 +1,18 @@
+﻿term,impr,clicks,cost,conv,match,keywords
+profimet szklarnie,34,15,21.73,1.0,"NEAR_EXACT,PHRASE",profi met; profi met szklarnie; profimet; profimet pl; profimet pl szklarnie; szklarnie profimet
+mocna szklarnia pl,6,3,5.73,0.0,EXACT,mocna szklarnia pl
+szklarnie z poliwęglanu profimet,2,2,4.96,0.0,EXACT,szklarnie z poliwęglanu profimet
+profimet kontakt,2,2,4.88,0.0,"NEAR_PHRASE,PHRASE",firma profimet; profimet
+profi met szklarnie,6,3,2.76,0.0,EXACT,profi met szklarnie
+profimet pl,2,1,2.5,0.0,EXACT,profimet pl
+profimetpl,6,1,2.48,0.0,EXACT,profimetpl
+profimet,35,8,2.4,0.0,EXACT,profimet
+profimet szklarnie z poliwęglanu,3,3,2.4,0.0,"NEAR_PHRASE,PHRASE",profi met; profimet pl; szklarnie z poliwęglanu profimet
+profimet warszawa,2,1,2.33,0.0,PHRASE,profimet
+szklarnie profimet,2,1,0.79,0.0,EXACT,szklarnie profimet
+profimet szklarnie kontakt,2,1,0.57,0.0,"NEAR_PHRASE,PHRASE",profimet; profimet pl szklarnie
+profi met,4,0,0.0,0.0,EXACT,profi met
+szklarnia profimet,2,0,0.0,0.0,PHRASE,profi met; profimet
+szklarnia z poliwęglanu profimet,2,0,0.0,0.0,"NEAR_PHRASE,PHRASE",profimet; profimet pl
+firma profimet,2,0,0.0,0.0,EXACT,firma profimet
+profi m,1,0,0.0,0.0,NEAR_EXACT,profi met

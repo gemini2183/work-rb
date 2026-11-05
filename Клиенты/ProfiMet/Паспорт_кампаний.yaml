@@ -1,0 +1,65 @@
+# Паспорт кампаний ProfiMet (Google Ads, аккаунт 7552781705). Создан 2026-11-04.
+# Пишут: пользователь и Claude по протоколу «таблица плана → «да» → запись». Сторож (gads_spend_guard_cpa.py) ТОЛЬКО ЧИТАЕТ
+# (перечитывает при изменении файла) и в паспорт не пишет. Своё состояние сторож ведёт в Статистика/gads_spend_guard_state.json.
+# Проект и логика: База_знаний/Агенты/Сторож_жизненный_цикл_кампаний_и_план_изменений.md
+# Поля — как в Клиенты/EkspertAgro/Паспорт_кампаний.yaml (state, course, agreed_changes).
+
+client: ProfiMet
+updated: 2026-11-04
+
+campaigns:
+  "24332178236":
+    name: pmax01_call_test
+    state: hold_off
+    why: "Э-04: критерий не выполнен (452 € / 9 заявок ≈ 50 € при критерии ≤ 30 €), остаётся на паузе с 14.10; tCPA кампании 12 €, цель сторожа 25 € — расхождение разобрать при включении"
+    since: "2026-10-14"
+    source: "Хроника_2026-10, Эксперименты Э-04"
+    to_enable_when: ["решение пользователя; согласовать tCPA 12 / цель 25 €"]
+    review_by: null
+  "24332648825":
+    name: dg_lookalike_test
+    state: hold_off
+    why: "Э-12: 67.8 €, 0 заявок, на паузе; новую Demand Gen с целью «Клики» решить отдельно"
+    source: "Хроника_2026-10, Эксперименты Э-12"
+    review_by: null
+  "24342129286":
+    name: dg_interest_nodiscover
+    state: hold_off
+    why: "Э-11/Э-12: пауза сторожа по «темпу» 14.10 (17.84 € за 53 мин, 0 заявок, И-059); остаётся на паузе"
+    source: "Хроника_2026-10, Журнал И-059"
+    review_by: null
+  "24335049091":
+    name: dspl_rtg_engage_mid
+    state: hold_off
+    why: "пауза пользователя 15.10 08:58 (И-061); причину по кампании пользователь отдельно не называл; Э-12: 1.85 €, 0 заявок"
+    since: "2026-10-15"
+    source: "Журнал И-061, Эксперименты Э-12"
+    review_by: null
+  "24341712952":
+    name: "search / szklarnia generic"
+    state: hold_off
+    why: "пауза пользователя 15.10 08:56 (И-061); причину по кампании пользователь отдельно не называл; 118.5 € на 2 заявки ≈ 59 € (Э-10)"
+    since: "2026-10-15"
+    source: "Журнал И-061, Эксперименты Э-10"
+    review_by: null
+  "23775369828":
+    name: pmax1_test
+    state: active
+    course: {mode: hold_level, freeze_until: null, basis: "Э-15: режим «цена продажи ≤ 30 €», tCPA 18 €, окно ПН–ПТ 10–15 (И-063..И-065); включена снова 02.11", review_by: null}
+  "19158580966":
+    name: "Search | Poliweglan | Pl"
+    state: active
+    course: {mode: hold_level, freeze_until: null, basis: "ручная цена клика (И-066, 15.10)", review_by: null}
+  "19153311519":
+    name: "Search | Brand | Pl"
+    state: active
+    course: {mode: test, freeze_until: "2026-11-12", basis: "Э-17: пауза групп mocnaszklarnia pl и szklarnie poliweglan profimet, бюджет 100 → 40 € (04.11); оценка 12.11, стоп по цене, не по числу дней", review_by: "2026-11-12"}
+  "24331349689":
+    name: dspl_rtg_basket
+    state: active
+  "24427037270":
+    name: yt_warm
+    state: active
+    course: {mode: test, freeze_until: "2026-11-11", basis: "Ю-Э-01: оценка по чистым дням 05.11–11.11 (ProfiMet_YouTube); сторож 12 €", review_by: "2026-11-12"}
+
+agreed_changes: []
