@@ -1,0 +1,99 @@
+{
+ "tag": {
+  "accountId": "6003760261",
+  "containerId": "44158621",
+  "tagId": "106",
+  "name": "visitsToServer",
+  "type": "html",
+  "parameter": [
+   {
+    "type": "template",
+    "key": "html",
+    "value": "<script>\n(function() {\n  var SERVER_URL = 'https://ringostat-webhook.onrender.com';\n  var params = new URLSearchParams(window.location.search);\n  \n  var utm = {\n    source: params.get('utm_source'),\n    medium: params.get('utm_medium'),\n    campaign: params.get('utm_campaign'),\n    content: params.get('utm_content'),\n    term: params.get('utm_term')\n  };\n  \n  var gclid = params.get('gclid') || null;\n  \n  // Получаем GA4 Client ID (БЕЗ gtag API)\n  var gaid = (function() {\n    try {\n      // Способ 1: Из dataLayer (если GA4 передает туда)\n      if (window.dataLayer) {\n        for (var i = window.dataLayer.length - 1; i >= 0; i--) {\n          if (window.dataLayer[i] && window.dataLayer[i].client_id) {\n            return window.dataLayer[i].client_id;\n          }\n        }\n      }\n      \n      // Способ 2: Парсим GA4 cookie (_ga)\n      // Формат: _ga=GS2.1.XXXX или _ga=G1.1.XXXX\n      var gaMatch = document.cookie.match(/_ga=G[^.]+\\.\\d+\\.([^;]+)/);\n      if (gaMatch) return gaMatch[1];\n      \n      // Способ 3: Парсим специфичный GA4 cookie (_ga_XXXXXXXXXX)\n      var ga4Match = document.cookie.match(/_ga_[A-Z0-9]+=/);\n      if (ga4Match) {\n        var cookieName = ga4Match[0].replace('=', '');\n        var cookieMatch = document.cookie.match(new RegExp(cookieName + '=GS\\\\d+\\\\.\\\\d+\\\\.([^;]+)'));\n        if (cookieMatch) return cookieMatch[1];\n      }\n      \n      return null;\n    } catch(e) { \n      return null; \n    }\n  })();\n  \n  var notDevC = !utm.content || !utm.content.toLowerCase().includes('dev_c');\n  \n  if (!gaid || !notDevC) {\n    return;\n  }\n  \n  var visitData = {\n    gaid: gaid,\n    gclid: gclid,\n    utm: utm,\n    landing: window.location.href,\n    referrer: document.referrer || null\n  };\n  \n  fetch(SERVER_URL + '/visit', {\n    method: 'POST',\n    headers: { 'Content-Type': 'application/json' },\n    body: JSON.stringify(visitData)\n  });\n})();\n</script>"
+   },
+   {
+    "type": "boolean",
+    "key": "supportDocumentWrite",
+    "value": "false"
+   }
+  ],
+  "fingerprint": "1760534567509",
+  "firingTriggerId": [
+   "109"
+  ],
+  "tagFiringOption": "oncePerEvent",
+  "monitoringMetadata": {
+   "type": "map"
+  },
+  "consentSettings": {
+   "consentStatus": "notSet"
+  }
+ },
+ "triggers": [
+  {
+   "accountId": "6003760261",
+   "containerId": "44158621",
+   "triggerId": "109",
+   "name": "visitToServer - trigger",
+   "type": "pageview",
+   "filter": [
+    {
+     "type": "contains",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{utm_campaign}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "pmax"
+      }
+     ]
+    },
+    {
+     "type": "contains",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{utm_content}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "dev_c"
+      },
+      {
+       "type": "boolean",
+       "key": "negate",
+       "value": "true"
+      }
+     ]
+    },
+    {
+     "type": "contains",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{Referrer}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "mocnaszklarnia.pl"
+      },
+      {
+       "type": "boolean",
+       "key": "negate",
+       "value": "true"
+      }
+     ]
+    }
+   ],
+   "fingerprint": "1760521995135"
+  }
+ ]
+}
