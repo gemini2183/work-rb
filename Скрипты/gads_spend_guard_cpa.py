@@ -557,6 +557,7 @@ def load_guard_config(path):
              "default_is_plan": str(cfg.get("default_target", "")).strip().lower() == "plan",
              "default_plan_row": cfg.get("default_plan_row"),
              "plan_ids": plan_ids, "auto_ids": auto_ids, "client_dir": client_dir,
+             "cfg_names": {str(c["id"]): str(c.get("name") or "") for c in camps},   # имена для сообщения о запуске
              "plan_by_row": {k: v["cpa"] for k, v in plan_cache.items()},
              "default_target": (None if cfg.get("default_target") is None else
                                 (plan_for(cfg.get("default_plan_row"))["cpa"]
@@ -705,11 +706,13 @@ def main():
     passport_path = (extra["client_dir"] / "Паспорт_кампаний.yaml") if extra.get("client_dir") else None
     passport_cache = {}
 
+    client_label = args.client or f"аккаунт {cid}"   # метка клиента в каждом сообщении (05.11: два сторожа были неразличимы)
+
     def notify(text):
         # в режиме «только план» сообщения уходят, только если --telegram указан явно (проверка канала)
         if args.telegram and (args.execute or tg_explicit):
             try:
-                m_telegram.send_text(cfg["telegram"]["bot_token"], cfg["telegram"]["chat_id"], text)
+                m_telegram.send_text(cfg["telegram"]["bot_token"], cfg["telegram"]["chat_id"], f"[{client_label}] {text}")
             except Exception as ex:
                 print(f"  Telegram: ошибка {type(ex).__name__}")
 
@@ -718,8 +721,16 @@ def main():
         mode += ", бюджет: " + ("ПИШЕТ" if (args.execute and args.allow_budget) else "только план")
     print(f"=== сторож по цене заявки, {mode}; цели: {targets}; аванс {args.grace}, предупреждение {args.warn_share:.0%}, "
           f"возврат {args.resume_share:.0%}, предел {args.abs_mult}× бюджета, темп {args.pace_share:.0%}/{args.pace_min:g} мин ===")
-    notify(f"🛡 Сторож по цене заявки запущен ({mode}). Цели заявки: {targets}, аванс {args.grace:g}, "
-           f"проверка каждые {args.loop_min or 0:g} мин")
+    # сообщение о запуске: клиент, режим, кампании по именам с допустимой ценой заявки (раньше — словарь id → число)
+    mode_ru = ("боевой: ставит на паузу" + (", сам включает обратно" if args.allow_reenable else "")
+               + (", меняет дневной бюджет" if (args.flex and args.allow_budget) else "")) if args.execute else "пробный (ничего не меняет)"
+    names_cfg = extra.get("cfg_names") or {}
+    camp_lines = "\n".join(f"• {names_cfg.get(i_) or i_}: цена заявки до {t_:g} {CUR}"
+                           + (" (по плану месяца; если у кампании задан tCPA, возьму его)" if i_ in extra["auto_ids"] else "")
+                           for i_, t_ in targets.items())
+    notify(f"🛡 Сторож запущен. Режим: {mode_ru}.\n"
+           f"Проверка каждые {args.loop_min or 0:g} мин, до первой заявки допускаю расход {args.grace:g} × цены заявки.\n"
+           f"Под охраной кампаний: {len(targets)}\n{camp_lines}")
 
     # кампании, взятые под временную защиту как незнакомые (см. ниже), переживают перезапуск процесса
     adopted = state.setdefault("_adopted", {})

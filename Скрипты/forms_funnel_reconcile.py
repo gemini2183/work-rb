@@ -33,7 +33,7 @@ W = "Europe/Warsaw"
 GA4_KEY = r"E:/PythonProjects/RedBird/google-cloud-jobs/adwhite/func/ga4_profimet/redbird-196813-ga4.json"
 MON_CFG = "E:/PythonProjects/RedBird/monitoring scripts/monitoring/config/"
 CLIENTS = {
-    "ProfiMet": dict(folder="ProfiMet", tilda="1D0hPuCjZ4wXVjPFYst-90Busme9bHyUFfBh0FIX7FXw", tab="Лист1", crm_tab="mocnaszklarnia.pl",
+    "ProfiMet": dict(folder="ProfiMet", tilda="12n6ErzFGsKT5-zaUkNu7j0-UQiHIep46KL62YMZx4_Q", tab="Лист1", crm_tab="mocnaszklarnia.pl",
                      ga4="349001266", cfg="profimet.yaml"),
     "ExpertAgro": dict(folder="EkspertAgro", tilda="1dszemEoBXkVvjh2mHLMuEeLufROgrf8mmF5dYquXW3g", tab="Заявки", crm_tab="Ekspertagro.pl",
                        ga4="514863743", cfg="experagro.yaml"),
