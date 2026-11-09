@@ -204,6 +204,10 @@ def client_scheme_orders(sheet, client=None, frm=None, to=None):
         real_od = bool(od)
         if od:
             est = pd.Timestamp(min(od)[:10])
+            # Если от «Даты заказа» до продажи 7 дней и больше, клиент ставит дату продажи (проверено 09.11 на 91 заказе: правило даёт 89 совпадений,
+            # просто «Дата заказа» — 83; все 6 заказов с разрывом 7+ дней датированы продажей; граница 7 держится на этих 6 заказах).
+            if sale and (pd.Timestamp(sale) - est).days >= 7:
+                est = pd.Timestamp(sale)
         art = False
         rows.append({"order": order, "key": order[:8], "p9": g.iloc[0]["p9"], "phone": g.iloc[0]["phone"], "created": created,
                      "day": est.date(), "est": est, "real_od": real_od, "sale": sale, "active": active, "art": art, "has_form": len(forms) > 0, "first60": first60, "ad_touch": ad_touch,
