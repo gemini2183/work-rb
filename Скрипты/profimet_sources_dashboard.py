@@ -475,6 +475,18 @@ def daily_table(frm, to, ads, fb, contacts, sales, client, scheme=None, ours=Non
     return pd.DataFrame(rows)
 
 
+def our_notes_formulas(sep=","):
+    """Формулы пояснений под таблицей в нашем режиме (A17 — формы без метки, A19 — повторы). sep — разделитель аргументов (живая таблица: локаль ru → «;»)."""
+    def S(col, r):
+        return f"SUMIFS('Данные'!${col}:${col}{sep}'Данные'!$A:$A{sep}\">=\"&$B$3{sep}'Данные'!$A:$A{sep}\"<=\"&$B$4{sep}'Данные'!$B:$B{sep}$A{r})"
+    k_, m_, n_ = f'({S("L", 9)}+{S("L", 10)})', S("M", 11), S("N", 11)
+    a17 = (f'=IF(LEFT($B$7{sep}3)="Как"{sep}""{sep}"Нет метки: в заявки не входит. Форм без метки "&({k_}+{m_}+{n_})&": реклама найдена у "&{k_}&'
+           f'" (добавлены к Google Ads / Facebook), не реклама "&{m_}&", источник не найден "&{n_}&" (не засчитаны)")')
+    a19 = (f'=IF(LEFT($B$7{sep}3)="Как"{sep}""{sep}"Повторы не засчитаны: "&({S("O", 9)}+{S("O", 10)}+{S("O", 11)})&" (звонок и форма одного номера в пределах 60 дней: "&'
+           f'({S("P", 9)}+{S("P", 10)}+{S("P", 11)})&"); у каждого номера засчитано первое обращение")')
+    return a17, a19
+
+
 def write_xlsx_dynamic(path, daily, usd_eur, frm, to, orders_tbl=None, diff_tbl=None):
     """Книга для Google Таблиц: «Дашборд» (выпадающий выбор периода + формулы), «Данные» (по дням), «Списки» (периоды), «Как считается»."""
     from openpyxl import Workbook
@@ -604,12 +616,8 @@ def write_xlsx_dynamic(path, daily, usd_eur, frm, to, orders_tbl=None, diff_tbl=
     ws["A16"] = ('=IF(LEFT($B$7,3)="Как","Режим «как у клиента»: звонки — первый звонок номера за всю историю Ringostat; формы — сеансы GA4 form_submit по источнику сеанса; '
                  'Телефон и Прочее без конверсий. Продажи — по правилу клиента: источник из формы заказа, иначе «Телефон»; заказы на листе «Заказы по схеме клиента», расхождения на листе «Расхождения».",'
                  + f'"Телефон: новых обращений "&{S("F", 12)}&" (из них звонков "&{S("G", 12)}&") — в «Конверсии» и «Звонки» не включены")')
-    k_, m_, n_ = f'({S("L", 9)}+{S("L", 10)})', S("M", 11), S("N", 11)
-    ws["A17"] = (f'=IF(LEFT($B$7,3)="Как","","Нет метки: в заявки не входит. Форм без метки "&({k_}+{m_}+{n_})&": реклама найдена у "&{k_}&'
-                 f'" (добавлены к Google Ads / Facebook), не реклама "&{m_}&", источник не найден "&{n_}&" (не засчитаны)")')
+    ws["A17"], ws["A19"] = our_notes_formulas()[0], our_notes_formulas()[1]
     ws["A18"] = f'=IF(LEFT($B$7,3)="Как","","Прочее: новых обращений "&{S("F", 13)}&" — в «Конверсии» и «Звонки» не включены")'
-    ws["A19"] = (f'=IF(LEFT($B$7,3)="Как","","Повторы не засчитаны: "&({S("O", 9)}+{S("O", 10)}+{S("O", 11)})&" (звонок и форма одного номера в пределах 60 дней: "&'
-                 f'({S("P", 9)}+{S("P", 10)}+{S("P", 11)})&"); у каждого номера засчитано первое обращение")')
     ws.column_dimensions["A"].width = 46
     for col in "BCDEFGHIJKLM":
         ws.column_dimensions[col].width = 14
@@ -704,7 +712,41 @@ def refresh_google_sheet(file_id, daily, frm, to):
            {"repeatCell": {"range": {"sheetId": ids["Списки"], "startRowIndex": 1, "endRowIndex": last, "startColumnIndex": 1, "endColumnIndex": 3},
                            "cell": fmt, "fields": "userEnteredFormat.numberFormat"}}]
     s.post(base + ":batchUpdate", json={"requests": req}, timeout=60).raise_for_status()
+    patch_live_dashboard(s, base, ids)
     return len(rows), last
+
+
+def patch_live_dashboard(s, base, ids):
+    """Точечно приводит живую таблицу к структуре 2026-11-09 БЕЗ пересборки (пересборка стирает вкладки «Платформы», «Заказы» и ручные правки):
+    заголовки новых колонок «Данные»!L:P и F1, подпись режима B7 (только если стоит «Наш…») и её выпадающий список, пояснения A17 и A19, определения на листе «Как считается»."""
+    heads = ["Наш режим: формы без метки, реклама найдена (уже в конверсиях)", "Наш режим: формы без метки, не реклама (не засчитаны)",
+             "Наш режим: формы без метки, источник не найден (не засчитаны)", "Наш режим: повторы за 60 дней (не засчитаны)",
+             "Наш режим: из повторов — звонок и форма одного номера"]
+    s.put(base + "/values/Данные!L1?valueInputOption=USER_ENTERED", json={"values": [heads]}, timeout=60).raise_for_status()
+    s.put(base + "/values/Данные!F1?valueInputOption=USER_ENTERED",
+          json={"values": [["Конверсии (наш режим: звонки Ringostat + формы CRM, одна лестница 60 дн)"]]}, timeout=60).raise_for_status()
+    b7 = s.get(base + "/values/Дашборд!B7", timeout=60).json().get("values", [[""]])[0][0]
+    if b7.startswith("Наш"):
+        s.put(base + "/values/Дашборд!B7?valueInputOption=USER_ENTERED", json={"values": [[MODE_OUR]]}, timeout=60).raise_for_status()
+    a17, a19 = our_notes_formulas(";")  # локаль таблицы ru_RU: разделитель аргументов «;»
+    s.put(base + "/values/Дашборд!A17?valueInputOption=USER_ENTERED", json={"values": [[a17]]}, timeout=60).raise_for_status()
+    s.put(base + "/values/Дашборд!A19?valueInputOption=USER_ENTERED", json={"values": [[a19]]}, timeout=60).raise_for_status()
+    req = [{"setDataValidation": {"range": {"sheetId": ids["Дашборд"], "startRowIndex": 6, "endRowIndex": 7, "startColumnIndex": 1, "endColumnIndex": 2},
+            "rule": {"condition": {"type": "ONE_OF_LIST", "values": [{"userEnteredValue": MODE_OUR}, {"userEnteredValue": MODE_CLIENT}]},
+                     "strict": True, "showCustomUi": True, "inputMessage": "Наш режим или «как у клиента» (звонки за всю историю + формы GA4)."}}}]
+    s.post(base + ":batchUpdate", json={"requests": req}, timeout=60).raise_for_status()
+    col = s.get(base + "/values/Как считается!A1:A40", timeout=60).json().get("values", [])
+    new = {"Конверсии = звонки + формы.": DEFINITIONS[1], "Конверсии (наш режим": DEFINITIONS[1], "Звонки: звонки Google Ads": DEFINITIONS[2]}
+    for i, row in enumerate(col, 1):
+        t = row[0] if row else ""
+        for key, val in new.items():
+            if t.startswith(key):
+                s.put(base + f"/values/Как считается!A{i}?valueInputOption=USER_ENTERED", json={"values": [[val]]}, timeout=60).raise_for_status()
+        if t.startswith("Режим B7: «Наш»"):
+            s.put(base + f"/values/Как считается!A{i}?valueInputOption=USER_ENTERED",
+                  json={"values": [[t.replace("«Наш» — звонки Google Ads и Facebook из Ringostat (боевое правило, уникальные за 60 дней), формы из выгрузки CRM (новые за 60 дней)",
+                                              "«Наш» — звонки Ringostat и формы CRM в одной лестнице 60 дней на номер, формы без метки проверены по Supabase / Tilda / GA4 (подробно выше)")]]},
+                  timeout=60).raise_for_status()
 
 
 def periods(frm, to, by):
