@@ -12,6 +12,9 @@
      gclid в CRM; Supabase `profimet_leads` по телефону (gclid, utm_source, адрес); таблица заявок Tilda по телефону (referer);
      GA4 `form_submit` в ту же минуту (±6 мин; если событий несколько — неоднозначно, не используется).
      Нашли рекламу → форма идёт в Google Ads / Facebook. Нашли «не реклама» (прямой заход, органика, реферал…) или не нашли ничего → не засчитывается.
+  4а. Facebook — ТОЛЬКО cpc (решение 2026-11-09): звонок — utm_source=facebook и utm_medium=cpc (категория Ringostat); форма с меткой CRM Facebook — только при
+      utm_medium=cpc (facebook / free и т.п. не считаются); форма без метки — только GA4 `facebook / cpc` или адрес с facebook и utm_medium=cpc
+      (fbclid без cpc, `facebook.com / referral`, переход из мессенджера не считаются).
   5. Засчитываются обращения с 2026-08-01 (как боевое правило ringostat_profimet2); история лестницы — с 2025-08-01.
 
 Использование как модуль: `our_leads(ringo, sheet, date_to, ga4_key, ga4_property)` → объект с `.counted`, `.contacts`.
@@ -43,12 +46,19 @@ SUP_FWD_HOURS = 2     # и не позже чем через N часов
 
 
 def _verdict_from(text, gclid=""):
+    """Google Ads — по gclid / gbraid / wbraid / roistat. Facebook — ТОЛЬКО cpc (решение пользователя 2026-11-09): в адресе нужны и facebook, и utm_medium=cpc;
+    один fbclid (переход по ссылке из поста, мессенджера, `sfnsn=wa` — «поделиться»), facebook.com как реферер и utm_medium=free рекламой не считаются."""
     t = (text or "").lower()
     if gclid or "gclid=" in t or "roistat=google" in t or "gbraid=" in t or "wbraid=" in t:
         return "Google Ads"
-    if "fbclid=" in t or "facebook" in t:
+    if "facebook" in t and "utm_medium=cpc" in t:
         return "Facebook"
     return ""
+
+
+def _fb_without_cpc(text):
+    t = (text or "").lower()
+    return ("fbclid=" in t or "facebook" in t) and "utm_medium=cpc" not in t
 
 
 def _load_supabase():
@@ -117,6 +127,9 @@ def resolve_unlabeled(forms, ga4_key, ga4_property, d0, d1):
             if v:
                 paid = paid or v
                 evid.append(f"Supabase {x['ts'].tz_convert(W):%d.%m %H:%M}: {v}")
+            elif _fb_without_cpc(x["page_url"]):
+                nonpaid = nonpaid or "Facebook без cpc"
+                evid.append("Supabase: Facebook без cpc (fbclid / facebook в адресе)")
             elif str(x["utm_source"] or "").strip():
                 nonpaid = nonpaid or f"utm_source={x['utm_source']}"
                 evid.append(f"Supabase: utm_source={x['utm_source']}")
@@ -128,6 +141,9 @@ def resolve_unlabeled(forms, ga4_key, ga4_property, d0, d1):
             if v:
                 paid = paid or v
                 evid.append(f"Tilda referer: {v}")
+            elif _fb_without_cpc(t.iloc[-1]["referer"]):
+                nonpaid = nonpaid or "Facebook без cpc"
+                evid.append("Tilda referer: Facebook без cpc (fbclid / facebook в адресе)")
         ga_hit = None
         if ga_from is not None and f.ts.tz_convert(W).date() >= ga_from:
             cand = ga[ga["t"].notna() & pd.concat([(ga["t"] - r).abs() <= tol for r in t_ref], axis=1).any(axis=1)]
@@ -142,7 +158,7 @@ def resolve_unlabeled(forms, ga4_key, ga4_property, d0, d1):
             evid.append(f"GA4 {sm}")
             if ga_hit["sessionSource"].lower() == "google" and ga_hit["sessionMedium"].lower() == "cpc":
                 paid = paid or "Google Ads"
-            elif "facebook" in ga_hit["sessionSource"].lower():
+            elif "facebook" in ga_hit["sessionSource"].lower() and ga_hit["sessionMedium"].lower() == "cpc":
                 paid = paid or "Facebook"
             else:
                 nonpaid = nonpaid or sm
@@ -173,7 +189,7 @@ def our_leads(ringo, sheet, date_to, ga4_key, ga4_property, site=SITE, resolve=T
     f["day"] = f["ts"].dt.tz_convert(W).dt.date
     f = f[(f["day"] >= HISTORY_FROM) & (f["day"] <= d1)]
     forms = pd.DataFrame({"ts": f["ts"], "day": f["day"], "key": f["p9"], "p9": f["p9"], "type": "форма",
-                          "crm_src": f["src"].replace("", "Нет метки"), "gclid": f["gclid"], "id": f["ts_raw"].astype(str) + "|" + f["phone"].astype(str)})
+                          "crm_src": f["src"].replace("", "Нет метки"), "gclid": f["gclid"], "medium": f["utm_medium"].str.lower(), "id": f["ts_raw"].astype(str) + "|" + f["phone"].astype(str)})
     a = pd.concat([calls, forms], ignore_index=True).sort_values(["ts", "type"], kind="mergesort").reset_index(drop=True)
     # --- одна лестница 60 дней на номер
     last, new, prev_day, prev_type = {}, [], [], []
@@ -202,6 +218,9 @@ def our_leads(ringo, sheet, date_to, ga4_key, ga4_property, site=SITE, resolve=T
             a.at[i, "reason"] = f"звонок {cat}: не реклама Google Ads / Facebook"
     isf = a["type"] == "форма"
     for i in a.index[in_scope & isf & a["crm_src"].isin(AD)]:
+        if a.at[i, "crm_src"] == "Facebook" and "cpc" not in str(a.at[i, "medium"]):  # Facebook — только cpc
+            a.at[i, "reason"] = f"форма Facebook: не cpc (utm_medium={a.at[i, 'medium'] or 'пусто'})"
+            continue
         a.at[i, "final"] = a.at[i, "crm_src"]
     other = a.index[in_scope & isf & ~a["crm_src"].isin(AD) & (a["crm_src"] != "Нет метки")]
     for i in other:
