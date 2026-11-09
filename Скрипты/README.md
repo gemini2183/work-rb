@@ -1633,3 +1633,6 @@ PYTHONUTF8=1 python ringostat_call_transcripts.py --client-folder ProfiMet --fro
 
 ## Исключение сайтов на уровне аккаунта — `gads_exclude_placements.py` (ЗАПИСЬ, с 2026-11-09)
 `PYTHONUTF8=1 python gads_exclude_placements.py --customer-id <ID> --client-folder <Имя> --csv <файл с колонкой domain> [--execute]` — по умолчанию `validate_only`; с `--execute` добавляет сайты в исключения площадок аккаунта (действуют на все кампании, включая PMax), пропускает уже существующие, сохраняет снимок «до», читает обратно. Список площадок берётся из `gads_pmax_placements.py` (по показам). Первый случай: EkspertAgro, Э-020.
+
+## Фильтр товаров PMax — `gads_pmax_listing_filter.py` (ЗАПИСЬ, с 2026-11-09)
+`PYTHONUTF8=1 python gads_pmax_listing_filter.py --customer-id <ID> --client-folder <Имя> --asset-group-id <ID> --exclude-csv <файл с колонкой item_id> [--execute]` — «все товары, кроме списка» в группе ассетов PMax; `--restore-all` возвращает «все товары». По умолчанию `validate_only`, снимок «до» в `Статистика/`, чтение обратно. Список исключений брать из живого Merchant Center (`shopping_product`), не по типу товара. Первый случай: EkspertAgro, Э-021.

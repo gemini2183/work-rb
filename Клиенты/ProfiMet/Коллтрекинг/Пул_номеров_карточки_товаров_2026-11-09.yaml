@@ -1,0 +1,36 @@
+# Проверка подмены номера на карточках товаров (09.11.2026): первый канал (Google CPC_dyn) + три карточки; запуск: phone_swap_check.py --client-folder ProfiMet --pool-file Коллтрекинг/Пул_номеров_карточки_товаров_2026-11-09.yaml --pages-only
+url: https://mocnaszklarnia.pl/
+ignore_numbers:
+- '5272935629'
+- 0000858603
+- '386967527'
+- '500048825'
+channels:
+- name: Google CPC_dyn (google_cpc_dyn)
+  utm_test:
+    utm_source: google
+    utm_medium: cpc
+    utm_campaign: s_19158580966_search
+  pool:
+  - '+48579774025'
+  - '+48579774026'
+  - '+48579774027'
+  - '+48579774038'
+  - '+48579773198'
+  - '+48579772685'
+  - '+48579772686'
+  - '+48579772687'
+  - '+48579772688'
+  - '+48579772689'
+  - '+48579774020'
+  - '+48579774021'
+  - '+48579773188'
+  - '+48579773197'
+  - '+48579774028'
+  - '+48699586365'
+  - '+48579773186'
+  - '+48579774037'
+pages:
+- https://mocnaszklarnia.pl/produkty/tproduct/2942837403-107785508324-szklarnia-profimet-mocna-3h4m-profil-40x
+- https://mocnaszklarnia.pl/produkty/tproduct/2942837403-623307028614-szklarnia-profimet-mocna-3h6m-profil-40x
+- https://mocnaszklarnia.pl/produkty/tproduct/2942837403-822020925664-szklarnia-profimet-mocna-maxi-4x8m-profi
