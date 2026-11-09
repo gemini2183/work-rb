@@ -153,7 +153,15 @@ def _last9(x):
 def read_client_list(path):
     """Список продаж дашборда клиента (TSV из его вкладки «Ads + FB»: Дата, Заказ, Телефон, Товар, Кол-во, Источник, UTM, Площадка, Автор) → одна строка на заказ."""
     paths = [path] if isinstance(path, (str, Path)) else list(path)  # несколько списков за разные периоды склеиваются
-    c = pd.concat([pd.read_csv(x, sep="	", dtype=str).fillna("") for x in paths], ignore_index=True).drop_duplicates(["Заказ", "Дата"])
+    # Один заказ в нескольких списках (списки перекрываются, клиент пересчитывает даты) берётся ТОЛЬКО из самого свежего файла: иначе строки с разной датой
+    # не схлопываются и штуки удваиваются (09.11: четыре списка дали 30 штук вместо 17 за 01–08.11).
+    frames = []
+    for x in sorted(paths, key=lambda q: Path(q).stat().st_mtime):
+        f = pd.read_csv(x, sep="	", dtype=str).fillna("")
+        frames.append(f)
+        f["_file"] = len(frames)
+    c = pd.concat(frames, ignore_index=True)
+    c = c[c["_file"] == c.groupby("Заказ")["_file"].transform("max")].drop(columns="_file").drop_duplicates(["Заказ", "Дата", "Товар"])
     c["qty"] = c["Кол-во"].replace("", "1").astype(int)
     return c.groupby("Заказ", sort=False).agg(
         client_date=("Дата", "min"), client_phone=("Телефон", "first"), product=("Товар", lambda s: "; ".join(s)), qty=("qty", "sum"),
