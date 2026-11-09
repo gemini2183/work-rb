@@ -204,13 +204,12 @@ def client_scheme_orders(sheet, client=None, frm=None, to=None):
         real_od = bool(od)
         if od:
             est = pd.Timestamp(min(od)[:10])
-            # Если от «Даты заказа» до продажи 7 дней и больше, клиент ставит дату продажи (проверено 09.11 на 91 заказе: правило даёт 89 совпадений,
-            # просто «Дата заказа» — 83; все 6 заказов с разрывом 7+ дней датированы продажей; граница 7 держится на этих 6 заказах).
-            if sale and (pd.Timestamp(sale) - est).days >= 7:
-                est = pd.Timestamp(sale)
+        # Решение пользователя 09.11: продажа относится к периоду по ДАТЕ ПРОДАЖИ из CRM (заказ октября, проданный в ноябре, — ноябрьская продажа).
+        # «Дата заказа» (est) остаётся для показа и для связи с атрибуцией; подгонка «разрыв 7+ дней → дата продажи» убрана.
+        day = pd.Timestamp(sale).date() if sale else est.date()
         art = False
         rows.append({"order": order, "key": order[:8], "p9": g.iloc[0]["p9"], "phone": g.iloc[0]["phone"], "created": created,
-                     "day": est.date(), "est": est, "real_od": real_od, "sale": sale, "active": active, "art": art, "has_form": len(forms) > 0, "first60": first60, "ad_touch": ad_touch,
+                     "day": day, "est": est, "real_od": real_od, "sale": sale, "active": active, "art": art, "has_form": len(forms) > 0, "first60": first60, "ad_touch": ad_touch,
                      "rule": rule, "first_src": g.iloc[0]["src"] or "Нет метки", "first_type": g.iloc[0]["type"]})
     O = pd.DataFrame(rows)
     if frm is not None:
@@ -240,7 +239,7 @@ def client_scheme_orders(sheet, client=None, frm=None, to=None):
             continue
         if r.key in by_key.index:
             o = by_key.loc[r.key]
-            why = (f"Дата заказа по выгрузке CRM (оценка) {o['est']:%d.%m.%Y}, вне периода, у клиента {r.client_date[:10]}" if not o["in_period"] else
+            why = (f"Дата продажи в CRM {o['day']:%d.%m.%Y} (дата заказа {o['est']:%d.%m.%Y}), вне периода; у клиента {r.client_date[:10]}" if not o["in_period"] else
                    "В выгрузке CRM заказ отменён или без продажи" if not o["active"] else "По правилу клиента не отнесён к рекламному дашборду")
         elif r.key in other_keys:
             why = "Заказ найден только на листе другого сайта"

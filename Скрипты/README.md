@@ -1636,3 +1636,9 @@ PYTHONUTF8=1 python ringostat_call_transcripts.py --client-folder ProfiMet --fro
 
 ## Фильтр товаров PMax — `gads_pmax_listing_filter.py` (ЗАПИСЬ, с 2026-11-09)
 `PYTHONUTF8=1 python gads_pmax_listing_filter.py --customer-id <ID> --client-folder <Имя> --asset-group-id <ID> --exclude-csv <файл с колонкой item_id> [--execute]` — «все товары, кроме списка» в группе ассетов PMax; `--restore-all` возвращает «все товары». По умолчанию `validate_only`, снимок «до» в `Статистика/`, чтение обратно. Список исключений брать из живого Merchant Center (`shopping_product`), не по типу товара. Первый случай: EkspertAgro, Э-021.
+
+## Пауза/включение отдельных объявлений: `gads_ad_status.py` (ЗАПИСЬ только с `--execute`, с 2026-11-09)
+По id объявлений Search-кампании; перед записью печатает заголовки, пишет снимок «до» в `Статистика/`, после записи читает обратно. Откат — тот же вызов с противоположным `--status`.
+```
+python gads_ad_status.py --customer-id 7552781705 --client-folder ProfiMet --campaign "Search | Poliweglan | Pl" --ad-ids 639567482853 --status PAUSED [--execute]
+```
