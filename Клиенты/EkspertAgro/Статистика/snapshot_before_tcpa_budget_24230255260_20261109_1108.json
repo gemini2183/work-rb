@@ -1,0 +1,8 @@
+{
+  "name": "shop_pmax",
+  "status": "ENABLED",
+  "strategy": "MAXIMIZE_CONVERSIONS",
+  "tcpa": 90.0,
+  "budget": 50.0,
+  "budget_resource": "customers/8826134558/campaignBudgets/15853165421"
+}
