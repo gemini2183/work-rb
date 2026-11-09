@@ -42,6 +42,7 @@ from _config import SCOPES, SERVICE_ACCOUNT_FILE, client_stats_dir
 from gads_stats import GOOGLE_ADS_YAML
 from profimet_sales_vs_ringostat import SHEET_ID, load_sheet
 from profimet_season_audit import W, fetch_ringostat_full, prod_unique
+from profimet_our_leads import our_leads, AD as OUR_AD
 
 SITE = "mocnaszklarnia.pl"
 ADS_CUSTOMER = "7552781705"
@@ -72,7 +73,7 @@ def fb_daily(frm, to):
 
 GA4_KEY = r"E:/PythonProjects/RedBird/google-cloud-jobs/adwhite/func/ga4_profimet/redbird-196813-ga4.json"  # сервисный аккаунт ga4-analytics (в вики не копировать)
 GA4_PROPERTY = "349001266"
-MODE_OUR = "Наш (60 дней, формы из CRM)"
+MODE_OUR = "Наш (60 дней без дублей)"
 MODE_CLIENT = "Как у клиента (звонки за всю историю, формы GA4)"
 
 
@@ -257,11 +258,23 @@ def client_scheme_orders(sheet, client=None, frm=None, to=None):
     return sel, pd.DataFrame(diff, columns=["Раздел", "Заказ", "Дата", "Источник у клиента", "Наш расчёт: источник заказа по схеме клиента", "Причина", "Первое обращение за 60 дней", "Было рекламное касание"])
 
 
-def build(frm, to, ads, fb, contacts, sales, usd_eur, client=None, mode="our", ring=None):
-    """ring — звонки по боевому правилу Ringostat (prod_unique: date, category). Если передан, в НАШЕМ режиме звонки Google Ads / Facebook берутся из
-    него (решение пользователя 2026-11-06), а «Нет метки» в заявках — только формы CRM; звонки без рекламного канала не считаются."""
+def leads_notes(w):
+    """Пояснения под таблицей для нашего режима: что не засчитано и почему (w — обращения периода из OurLeads.window)."""
+    unl = w[(w["type"] == "форма") & (w["crm_src"] == "Нет метки") & w["new"]]
+    k = int(unl["final"].isin(OUR_AD).sum())
+    m, n = int(unl["reason"].str.endswith("не реклама").sum()), int(unl["reason"].str.endswith("не установлен").sum())
+    rep = w[~w["new"] & ((w["crm_src"].isin(OUR_AD) | (w["type"] == "форма") & (w["crm_src"] == "Нет метки")))]
+    mixed = int((rep["type"] != rep["prev_type"]).sum())
+    return [f"Нет метки: в заявки не входит. Форм без метки {len(unl)}: реклама найдена у {k} (добавлены к Google Ads / Facebook), не реклама {m}, "
+            f"источник не найден {n} (не засчитаны)",
+            f"Повторы не засчитаны: {len(rep)} (звонок и форма одного номера в пределах 60 дней: {mixed}); у каждого номера засчитано первое обращение"]
+
+
+def build(frm, to, ads, fb, contacts, sales, usd_eur, client=None, mode="our", ours=None):
+    """ours — OurLeads (profimet_our_leads): звонки Ringostat и формы CRM в одной лестнице 60 дней на номер, формы без метки проверены по Supabase/Tilda/GA4
+    (решение пользователя 2026-11-09). Если передан, в НАШЕМ режиме Google Ads / Facebook берутся из него, «Нет метки» в заявках — 0."""
     f, t = pd.Timestamp(frm).date(), pd.Timestamp(to).date()
-    rc = ring[(ring["date"] >= f) & (ring["date"] <= t) & ring["category"].isin(["Google Ads", "Facebook"])] if ring is not None else None
+    w = ours.window(f, t) if ours is not None else None
     a = ads[(ads["date"] >= f) & (ads["date"] <= t)]
     b = fb[(fb["date"] >= f) & (fb["date"] <= t)]
     paid = {"Google Ads": (a["cost"].sum(), a["clicks"].sum(), a["impr"].sum()),
@@ -289,13 +302,13 @@ def build(frm, to, ads, fb, contacts, sales, usd_eur, client=None, mode="our", r
             continue
         cc = c[c["src2"] == src]
         conv, calls = len(cc), int((cc["type"] == "звонок").sum())
-        if rc is not None and src in ("Google Ads", "Facebook"):
-            calls = int((rc["category"] == src).sum())
-            conv = calls + int((cc["type"] == "форма").sum())
-        elif rc is not None and src == "Нет метки":
-            conv, calls = int((cc["type"] == "форма").sum()), 0
-            notes.append(f"Нет метки: {conv} форм из CRM; звонки без рекламного канала (общий номер сайта, SEO) в заявки не входят")
-            out.append({"Источник": src, "Цена": cost, "Клики": clk, "Показы": imp, "Конверсии": conv, "Звонки": None,
+        if w is not None and src in ("Google Ads", "Facebook"):
+            x = w[w["counted"] & (w["final"] == src)]
+            calls = int((x["type"] == "звонок").sum())
+            conv = len(x)
+        elif w is not None and src == "Нет метки":
+            notes.extend(leads_notes(w))
+            out.append({"Источник": src, "Цена": cost, "Клики": clk, "Показы": imp, "Конверсии": 0, "Звонки": None,
                         "Продажи": int((sl["src2"] == src).sum())})
             continue
         # Структура колонок как у клиентского дашборда: конверсиями считаются Google Ads, Facebook, «Нет метки» (звонки — только
