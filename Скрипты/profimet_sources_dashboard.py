@@ -135,13 +135,15 @@ def sales_with_source(sheet):
         sd = [d for d in grp["sale_date"] if d]
         if not sd:
             continue
+        cd = [d for d in grp["cancel_date"] if d]
+        cancelled_later = bool(cd) and max(cd) >= min(sd)  # как в схеме клиента: отмена не раньше продажи; в нашем режиме такая продажа считается, число показано отдельно
         grp = grp.sort_values("ts", kind="mergesort")
         t0 = grp.iloc[0]["ts"]
         parts = [by_phone[p] for p in set(grp["p9"]) if p in by_phone]
         t = pd.concat(parts) if parts else grp
         t = t[(t["ts"] >= t0 - pd.Timedelta(days=WINDOW)) & (t["ts"] <= t0)].sort_values("ts", kind="mergesort")
         src = (t.iloc[0]["src"] if not t.empty else grp.iloc[0]["src"]) or "Нет метки"
-        rows.append({"order": order, "sale_date": pd.Timestamp(min(sd)).date(), "src2": src if src in SOURCES else "Прочее"})
+        rows.append({"order": order, "sale_date": pd.Timestamp(min(sd)).date(), "src2": src if src in SOURCES else "Прочее", "cancelled_later": cancelled_later})
     return pd.DataFrame(rows)
 
 
@@ -332,6 +334,11 @@ def build(frm, to, ads, fb, contacts, sales, usd_eur, client=None, mode="our", o
             calls = None
         out.append({"Источник": src, "Цена": cost, "Клики": clk, "Показы": imp, "Конверсии": conv, "Звонки": calls,
                     "Продажи": int((sl["src2"] == src).sum())})
+    if mode != "client":
+        nc = sl[sl["cancelled_later"]]
+        notes.append("Продажи считаются ЗАКАЗАМИ, не штуками: количества товара в выгрузке CRM нет. Формы в заявках — из выгрузки CRM (сервер), а не из Google Analytics 4")
+        notes.append(f"Отменено после продажи: {len(nc)} (в продажи входят; по источникам: " +
+                     (", ".join(f"{k} {v}" for k, v in nc.groupby("src2").size().items()) or "нет") + ")")
     df = pd.DataFrame(out)
     tot_cost = sum(v[0] for v in paid.values())
     tot = {"Источник": "Итого", "Цена": tot_cost, "Клики": sum(v[1] for v in paid.values()), "Показы": sum(v[2] for v in paid.values()),
@@ -378,8 +385,9 @@ DEFINITIONS = [
     "(facebook / free не считается); форма без метки — только GA4 facebook / cpc или адрес с facebook и utm_medium=cpc; facebook.com / referral и fbclid без cpc не считаются "
     "(в режиме «как у клиента» Facebook — любой источник с facebook). Засчитываются обращения с 2026-08-01.",
     "Звонки: входящие звонки Google Ads и Facebook, засчитанные по правилу выше; у «Нет метки» звонков нет.",
-    "Продажи: проданные заказы (в выгрузке есть «Дата продажи» в периоде); источник продажи — источник первого обращения этого номера "
-    "за 60 дней до первой строки заказа. Количества товара в выгрузке нет, поэтому это заказы, а не единицы.",
+    "Продажи (наш режим): проданные заказы — у заказа есть «Дата продажи», период по ней. Считаются ЗАКАЗЫ, не штуки: количества товара в выгрузке нет. Заказ, отменённый после продажи, остаётся в продажах, "
+    "его число показано отдельно под таблицей. Источник продажи — самое раннее обращение этого номера (звонок или форма сайта) в 60 днях до первой строки заказа. "
+    "Формы в заявках считаются по выгрузке CRM (сервер), а не по Google Analytics 4. В режиме «как у клиента» продажа привязана к колонке «Дата заказа».",
     "% конверсии = Конверсии ÷ Клики; Цена заявки = Цена ÷ Конверсии; % продажи = Продажи ÷ Конверсии; Цена продажи = Цена ÷ Продажи; "
     "CTR = Клики ÷ Показы; Цена клика = Цена ÷ Клики. «Итого»: цена, клики, показы — Google + Facebook; конверсии и продажи — по всем строкам.",
 ]
@@ -452,6 +460,7 @@ def daily_table(frm, to, ads, fb, contacts, sales, client, scheme=None, ours=Non
         rep_all = rp.groupby(["day", "row"]).size()
         rep_mix = rp[rp["type"] != rp["prev_type"]].groupby(["day", "row"]).size()
     sm = sales.groupby(["sale_date", "src2"]).size()
+    sm_c = sales[sales["cancelled_later"]].groupby(["sale_date", "src2"]).size()
     sc = scheme.groupby(["day", "rule"])["qty"].sum() if scheme is not None else None
     cdx = client.set_index(["day", "src2"])
     a, b = ads.set_index("date"), fb.set_index("date")
@@ -486,7 +495,7 @@ def daily_table(frm, to, ads, fb, contacts, sales, client, scheme=None, ours=Non
                          "Конверсии_клиент": calls_c + forms_c if src in ("Google Ads", "Facebook") else (forms_c if src == "Нет метки" else 0),
                          "Звонки_клиент": calls_c if src in ("Google Ads", "Facebook") else 0,
                          "Формы_восстановлены": restored_n, "Формы_не_реклама": not_ad_n, "Формы_не_найдено": not_found_n,
-                         "Повторы": rep_n, "Повторы_звонок_и_форма": rep_mix_n, "Формы_Facebook_не_cpc": fb_nocpc_n})
+                         "Повторы": rep_n, "Повторы_звонок_и_форма": rep_mix_n, "Формы_Facebook_не_cpc": fb_nocpc_n, "Продажи_отменены_позже": int(sm_c.get((d, src), 0))})
     return pd.DataFrame(rows)
 
 
@@ -501,7 +510,10 @@ def our_notes_formulas(sep=","):
            f'({S("P", 9)}+{S("P", 10)}+{S("P", 11)})&"); у каждого номера засчитано первое обращение")')
     a20 = (f'=IF(LEFT($B$7{sep}3)="Как"{sep}""{sep}"Facebook в нашем режиме — только cpc: звонки utm_source=facebook + utm_medium=cpc; формы с меткой Facebook только при utm_medium=cpc; '
            f'формы без метки только по GA4 facebook / cpc или адресу с utm_medium=cpc. Не засчитано форм Facebook не cpc: "&{S("Q", 10)}&" (facebook / free, реферал facebook.com, fbclid без cpc не считаются)")')
-    return a17, a19, a20
+    a21 = (f'=IF(LEFT($B$7{sep}3)="Как"{sep}""{sep}"Продажи считаются ЗАКАЗАМИ, не штуками: количества товара в выгрузке CRM нет. Формы в заявках — из выгрузки CRM (сервер), а не из Google Analytics 4")')
+    a22 = (f'=IF(LEFT($B$7{sep}3)="Как"{sep}""{sep}"Отменено после продажи: "&({S("R", 9)}+{S("R", 10)}+{S("R", 11)}+{S("R", 12)}+{S("R", 13)})&" (в продажи входят; Google Ads "&{S("R", 9)}&'
+           f'", Facebook "&{S("R", 10)}&", Нет метки "&{S("R", 11)}&", Телефон "&{S("R", 12)}&", Прочее "&{S("R", 13)}&")")')
+    return a17, a19, a20, a21, a22
 
 
 def write_xlsx_dynamic(path, daily, usd_eur, frm, to, orders_tbl=None, diff_tbl=None):
@@ -523,16 +535,16 @@ def write_xlsx_dynamic(path, daily, usd_eur, frm, to, orders_tbl=None, diff_tbl=
                "Продажи (как у клиента: по правилу клиента, количество товара)",
                "Наш режим: формы без метки, реклама найдена (уже в конверсиях)", "Наш режим: формы без метки, не реклама (не засчитаны)",
                "Наш режим: формы без метки, источник не найден (не засчитаны)", "Наш режим: повторы за 60 дней (не засчитаны)",
-               "Наш режим: из повторов — звонок и форма одного номера", "Наш режим: формы Facebook не cpc (не засчитаны)"])
+               "Наш режим: из повторов — звонок и форма одного номера", "Наш режим: формы Facebook не cpc (не засчитаны)", "Наш режим: продажи, отменённые после продажи (входят в продажи)"])
     for c in wd[1]:
         c.font, c.fill = bold, head
     for _, r in daily.iterrows():
         wd.append([r["Дата"], r["Источник"], r["Цена"], r["Клики"], r["Показы"], r["Конверсии"], r["Звонки"], r["Продажи"],
                    r["Конверсии_клиент"], r["Звонки_клиент"], r["Продажи_клиент"], r["Формы_восстановлены"], r["Формы_не_реклама"],
-                   r["Формы_не_найдено"], r["Повторы"], r["Повторы_звонок_и_форма"], r["Формы_Facebook_не_cpc"]])
+                   r["Формы_не_найдено"], r["Повторы"], r["Повторы_звонок_и_форма"], r["Формы_Facebook_не_cpc"], r["Продажи_отменены_позже"]])
         wd.cell(wd.max_row, 1).number_format = "DD.MM.YYYY"
     wd.freeze_panes = "A2"
-    for col, w in zip("ABCDEFGHIJKLMNOPQ", (12, 12, 22, 10, 12, 20, 14, 10, 24, 24, 28, 22, 22, 22, 22, 22, 22)):
+    for col, w in zip("ABCDEFGHIJKLMNOPQR", (12, 12, 22, 10, 12, 20, 14, 10, 24, 24, 28, 22, 22, 22, 22, 22, 22, 22)):
         wd.column_dimensions[col].width = w
 
     # --- Списки: готовые периоды (динамические от сегодняшней даты и статические месяцы/недели)
@@ -631,9 +643,9 @@ def write_xlsx_dynamic(path, daily, usd_eur, frm, to, orders_tbl=None, diff_tbl=
             ws.cell(r, j).number_format = f
             ws.cell(r, j).alignment = Alignment(horizontal="right")
     ws["A16"] = ('=IF(LEFT($B$7,3)="Как","Режим «как у клиента»: звонки — первый звонок номера за всю историю Ringostat; формы — сеансы GA4 form_submit по источнику сеанса; '
-                 'Телефон и Прочее без конверсий. Продажи — по правилу клиента: источник из формы заказа, иначе «Телефон»; заказы на листе «Заказы по схеме клиента», расхождения на листе «Расхождения».",'
+                 'Телефон и Прочее без конверсий. Продажи — по правилу клиента: период по колонке «Дата заказа» выгрузки CRM, источник из формы заказа, иначе «Телефон»; заказы на листе «Заказы по схеме клиента», расхождения на листе «Расхождения».",'
                  + f'"Телефон: новых обращений "&{S("F", 12)}&" (из них звонков "&{S("G", 12)}&") — в «Конверсии» и «Звонки» не включены")')
-    ws["A17"], ws["A19"], ws["A20"] = our_notes_formulas()
+    ws["A17"], ws["A19"], ws["A20"], ws["A21"], ws["A22"] = our_notes_formulas()
     ws["A18"] = f'=IF(LEFT($B$7,3)="Как","","Прочее: новых обращений "&{S("F", 13)}&" — в «Конверсии» и «Звонки» не включены")'
     ws.column_dimensions["A"].width = 46
     for col in "BCDEFGHIJKLM":
@@ -703,7 +715,7 @@ def refresh_google_sheet(file_id, daily, frm, to):
     # Сначала готовим и проверяем ВСЕ данные (json.dumps упадёт на NaN), и только потом очищаем листы: сбой не оставит таблицу пустой.
     rows = [[clean(x) for x in (ser(r["Дата"]), r["Источник"], r["Цена"], r["Клики"], r["Показы"], r["Конверсии"], r["Звонки"], r["Продажи"],
                                       r["Конверсии_клиент"], r["Звонки_клиент"], r["Продажи_клиент"],
-                                      r["Формы_восстановлены"], r["Формы_не_реклама"], r["Формы_не_найдено"], r["Повторы"], r["Повторы_звонок_и_форма"], r["Формы_Facebook_не_cpc"])]
+                                      r["Формы_восстановлены"], r["Формы_не_реклама"], r["Формы_не_найдено"], r["Повторы"], r["Повторы_звонок_и_форма"], r["Формы_Facebook_не_cpc"], r["Продажи_отменены_позже"])]
             for _, r in daily.iterrows()]
     f0, t0 = pd.Timestamp(frm), pd.Timestamp(to)
     st = [[f"Весь период ({f0:%d.%m.%Y}–{t0:%d.%m.%Y})", ser(f0.date()), ser(t0.date())]]
@@ -713,7 +725,7 @@ def refresh_google_sheet(file_id, daily, frm, to):
     json.dumps(rows), json.dumps(st)
 
     # Данные: очистить и записать заново (даты — числами: так таблица не зависит от локали)
-    s.post(base + "/values/Данные!A2:Q5000:clear", json={}, timeout=60).raise_for_status()
+    s.post(base + "/values/Данные!A2:R5000:clear", json={}, timeout=60).raise_for_status()
     s.put(base + "/values/Данные!A2?valueInputOption=USER_ENTERED", json={"values": rows}, timeout=120).raise_for_status()
 
     # Списки: статическая часть (весь период, месяцы, недели, «Свой период») начиная с 8-й строки; динамические 2–7 не трогаем
@@ -738,23 +750,30 @@ def patch_live_dashboard(s, base, ids):
     заголовки новых колонок «Данные»!L:P и F1, подпись режима B7 (только если стоит «Наш…») и её выпадающий список, пояснения A17 и A19, определения на листе «Как считается»."""
     heads = ["Наш режим: формы без метки, реклама найдена (уже в конверсиях)", "Наш режим: формы без метки, не реклама (не засчитаны)",
              "Наш режим: формы без метки, источник не найден (не засчитаны)", "Наш режим: повторы за 60 дней (не засчитаны)",
-             "Наш режим: из повторов — звонок и форма одного номера", "Наш режим: формы Facebook не cpc (не засчитаны)"]
+             "Наш режим: из повторов — звонок и форма одного номера", "Наш режим: формы Facebook не cpc (не засчитаны)", "Наш режим: продажи, отменённые после продажи (входят в продажи)"]
     s.put(base + "/values/Данные!L1?valueInputOption=USER_ENTERED", json={"values": [heads]}, timeout=60).raise_for_status()
     s.put(base + "/values/Данные!F1?valueInputOption=USER_ENTERED",
           json={"values": [["Конверсии (наш режим: звонки Ringostat + формы CRM, одна лестница 60 дн)"]]}, timeout=60).raise_for_status()
     b7 = s.get(base + "/values/Дашборд!B7", timeout=60).json().get("values", [[""]])[0][0]
     if b7.startswith("Наш"):
         s.put(base + "/values/Дашборд!B7?valueInputOption=USER_ENTERED", json={"values": [[MODE_OUR]]}, timeout=60).raise_for_status()
-    a17, a19, a20 = our_notes_formulas(";")  # локаль таблицы ru_RU: разделитель аргументов «;»
+    a17, a19, a20, a21, a22 = our_notes_formulas(";")  # локаль таблицы ru_RU: разделитель аргументов «;»
     s.put(base + "/values/Дашборд!A17?valueInputOption=USER_ENTERED", json={"values": [[a17]]}, timeout=60).raise_for_status()
     s.put(base + "/values/Дашборд!A19?valueInputOption=USER_ENTERED", json={"values": [[a19]]}, timeout=60).raise_for_status()
     s.put(base + "/values/Дашборд!A20?valueInputOption=USER_ENTERED", json={"values": [[a20]]}, timeout=60).raise_for_status()
+    s.put(base + "/values/Дашборд!A21?valueInputOption=USER_ENTERED", json={"values": [[a21]]}, timeout=60).raise_for_status()
+    s.put(base + "/values/Дашборд!A22?valueInputOption=USER_ENTERED", json={"values": [[a22]]}, timeout=60).raise_for_status()
+    # пояснение режима «как у клиента»: продажи привязаны к колонке «Дата заказа» (замена фразы в живой формуле A16)
+    a16 = s.get(base + "/values/Дашборд!A16", params={"valueRenderOption": "FORMULA"}, timeout=60).json().get("values", [[""]])[0][0]
+    for old, new in (("заказ относится к дате заказа (оценка), а не к дате продажи", "заказ относится к дате из колонки «Дата заказа» выгрузки CRM, а не к дате продажи; считаются штуки по списку клиента, где он есть, иначе по 1 на заказ"),):
+        if old in a16:
+            s.put(base + "/values/Дашборд!A16?valueInputOption=USER_ENTERED", json={"values": [[a16.replace(old, new)]]}, timeout=60).raise_for_status()
     req = [{"setDataValidation": {"range": {"sheetId": ids["Дашборд"], "startRowIndex": 6, "endRowIndex": 7, "startColumnIndex": 1, "endColumnIndex": 2},
             "rule": {"condition": {"type": "ONE_OF_LIST", "values": [{"userEnteredValue": MODE_OUR}, {"userEnteredValue": MODE_CLIENT}]},
                      "strict": True, "showCustomUi": True, "inputMessage": "Наш режим или «как у клиента» (звонки за всю историю + формы GA4)."}}}]
     s.post(base + ":batchUpdate", json={"requests": req}, timeout=60).raise_for_status()
     col = s.get(base + "/values/Как считается!A1:A40", timeout=60).json().get("values", [])
-    new = {"Конверсии = звонки + формы.": DEFINITIONS[1], "Конверсии (наш режим": DEFINITIONS[1], "Звонки: звонки Google Ads": DEFINITIONS[2]}
+    new = {"Конверсии = звонки + формы.": DEFINITIONS[1], "Конверсии (наш режим": DEFINITIONS[1], "Звонки: звонки Google Ads": DEFINITIONS[2], "Продажи: проданные заказы": DEFINITIONS[3], "Продажи (наш режим)": DEFINITIONS[3]}
     for i, row in enumerate(col, 1):
         t = row[0] if row else ""
         for key, val in new.items():
