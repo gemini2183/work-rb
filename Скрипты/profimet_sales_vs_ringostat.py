@@ -43,7 +43,7 @@ from ringostat_stats_profimet import AUTH_KEY, categorize_source
 
 SHEET_ID = "1JsSG9WFOtCht_l3imagYI6SiBFHiRBA0EdHwPbYqUwI"
 SHEET_COLS = ["ts_raw", "phone", "type", "src", "utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term",
-              "gclid", "order", "status", "sale_date", "cancel_date", "reason"]
+              "gclid", "order", "status", "sale_date", "cancel_date", "reason", "order_date"]  # order_date: колонка «Дата заказа», клиент добавил в выгрузку ~06-09.11.2026
 ATTRIBUTION_SITES = ["mocnaszklarnia.pl", "szklarniaprofimet.pl"]  # Ekspertagro.pl — другой клиент
 AD = {"Google Ads", "Facebook"}
 RINGO_HISTORY_FROM = "2023-08-31 00:00:00"
@@ -63,7 +63,8 @@ def load_sheet(sheet_id):
         if "." not in ws.title:  # лист «О таблице»
             continue
         values = ws.get_all_values()
-        df = pd.DataFrame(values[1:], columns=SHEET_COLS)
+        rows = [(r + [""] * len(SHEET_COLS))[:len(SHEET_COLS)] for r in values[1:]]  # устойчиво к добавлению/удалению хвостовой колонки
+        df = pd.DataFrame(rows, columns=SHEET_COLS)
         df["site"] = ws.title
         frames.append(df)
     df = pd.concat(frames, ignore_index=True).replace("—", "")
