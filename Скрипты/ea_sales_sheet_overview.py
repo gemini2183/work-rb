@@ -19,7 +19,7 @@ from _config import SCOPES, SERVICE_ACCOUNT_FILE
 
 SHEET_ID = "1JsSG9WFOtCht_l3imagYI6SiBFHiRBA0EdHwPbYqUwI"
 COLS = ["ts_raw", "phone", "type", "src", "utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term",
-        "gclid", "order", "status", "sale_date", "cancel_date", "reason"]
+        "gclid", "order", "status", "sale_date", "cancel_date", "reason", "order_date"]
 
 
 def main():
@@ -39,7 +39,7 @@ def main():
 
     vals = sh.worksheet(args.worksheet).get_all_values()
     print(f"\nШапка листа {args.worksheet}:", vals[0])
-    df = pd.DataFrame(vals[1:], columns=COLS).replace("—", "")
+    df = pd.DataFrame([(r + [""] * len(COLS))[:len(COLS)] for r in vals[1:]], columns=COLS).replace("—", "")
     df["ts"] = pd.to_datetime(df["ts_raw"], utc=True, errors="coerce")
     df["month"] = df["ts"].dt.strftime("%Y-%m")
     print("Строк:", len(df), "| первая:", df["ts"].min(), "| последняя:", df["ts"].max())

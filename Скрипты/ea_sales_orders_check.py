@@ -19,13 +19,15 @@ from _config import SCOPES, SERVICE_ACCOUNT_FILE
 
 SHEET_ID = "1JsSG9WFOtCht_l3imagYI6SiBFHiRBA0EdHwPbYqUwI"
 COLS = ["ts_raw", "phone", "type", "src", "utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term",
-        "gclid", "order", "status", "sale_date", "cancel_date", "reason"]
+        "gclid", "order", "status", "sale_date", "cancel_date", "reason", "order_date"]   # order_date — «Дата заказа», добавлена клиентом в конец листа (замечено 2026-11-09)
 
 
 def load(sheet_id, worksheet):
     creds = Credentials.from_service_account_file(str(SERVICE_ACCOUNT_FILE), scopes=SCOPES)
     vals = gspread.authorize(creds).open_by_key(sheet_id).worksheet(worksheet).get_all_values()
-    df = pd.DataFrame(vals[1:], columns=COLS).replace("—", "")
+    n = len(COLS)
+    rows = [(r + [""] * n)[:n] for r in vals[1:]]   # устойчиво к новым колонкам справа: лишние отбрасываем, недостающие пустые
+    df = pd.DataFrame(rows, columns=COLS).replace("—", "")
     df["ts"] = pd.to_datetime(df["ts_raw"], utc=True, errors="coerce")
     for c in ("sale_date", "cancel_date"):
         df[c + "_dt"] = pd.to_datetime(df[c], utc=True, errors="coerce")

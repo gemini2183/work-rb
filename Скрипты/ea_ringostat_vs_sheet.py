@@ -30,7 +30,7 @@ from _config import SCOPES, SERVICE_ACCOUNT_FILE
 SHEET_ID = "1JsSG9WFOtCht_l3imagYI6SiBFHiRBA0EdHwPbYqUwI"
 MONITORING_CONFIG = r"E:\PythonProjects\RedBird\monitoring scripts\monitoring\config\experagro.yaml"
 COLS = ["ts_raw", "phone", "type", "src", "utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term",
-        "gclid", "order", "status", "sale_date", "cancel_date", "reason"]
+        "gclid", "order", "status", "sale_date", "cancel_date", "reason", "order_date"]
 WINDOW_DAYS = 60
 
 
@@ -42,7 +42,7 @@ def last9(phone):
 def load_sheet(sheet_id, worksheet):
     creds = Credentials.from_service_account_file(str(SERVICE_ACCOUNT_FILE), scopes=SCOPES)
     vals = gspread.authorize(creds).open_by_key(sheet_id).worksheet(worksheet).get_all_values()
-    df = pd.DataFrame(vals[1:], columns=COLS).replace("—", "")
+    df = pd.DataFrame([(r + [""] * len(COLS))[:len(COLS)] for r in vals[1:]], columns=COLS).replace("—", "")
     df["ts"] = pd.to_datetime(df["ts_raw"], utc=True, errors="coerce")
     df["p9"] = df["phone"].map(last9)
     return df
