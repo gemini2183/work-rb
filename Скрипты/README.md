@@ -1240,6 +1240,8 @@ python gtm_apply_plan.py --plan ... --execute --publish                         
 python clarity_daily.py --client-folder Andverpersonalinjury --label tilda
 ```
 
+**Автозапуск (с 2026-11-06):** задача планировщика Windows `Clarity Daily Landver` — каждый день в 10:00 по времени ПК, под текущим пользователем, `StartWhenAvailable` (если ПК был выключен — запустится при включении), через обёртку `run_clarity_daily.ps1` (ASCII-only, события в `_clarity_daily.log`). Один прогон = 4 запроса из 10 в сутки; ручные запуски в тот же день по UTC съедают лимит (предохранитель `--max-per-day 8`). Выключить: `Disable-ScheduledTask -TaskName 'Clarity Daily Landver'`.
+
 
 ## Дополнения 2026-10-15 (ProfiMet, режим «цена продажи ≤ 30 €»)
 - `gads_adgroup_plan.py`: новый ключ плана `group_tcpa` — `[{"group": "<имя группы>", "tcpa": 18.0}]`, цель по CPA на уровне группы (0 — снять); печатается в таблице плана, пишется в `target_cpa_micros` и читается обратно. Пример плана: `Клиенты/ProfiMet/Кампании/Search/poliweglan_plan_2026-10-15.json` (ключи `pause_groups` + `group_tcpa`).
@@ -1621,3 +1623,5 @@ PYTHONUTF8=1 python ringostat_call_transcripts.py --client-folder ProfiMet --fro
 Подробности и основания — `Инфраструктура.md`, запись 2026-11-05 «Визиты rngst → Supabase».
 
 `gtm_delete_tag.py --account A --container C --tag <имя|id> [--execute]` (2026-11-05) — удалить тег GTM и его «осиротевшие» триггеры через новую версию; без `--execute` только проверка; копия тега сохраняется в `Скрипты/_gtm_deleted/`; публикация — `gtm_publish_version.py`, откат — предыдущая версия.
+
+`ga4_goals_dashboard.py --property <id> --client-folder <Имя> [--from] [--to]` (2026-11-06, только чтение) — все цели/события GA4 (каталог в скрипте: вовлечение, действия, квиз, заявки) × сеансы, один самодостаточный HTML `Статистика/goals_dashboard.html` (фильтры: даты, источник, устройство, кампания, посадочная; разбивка по кампании/посадочной/источнику/устройству/дню; график по дням; CSV). Тесты (Spain/Ukraine/Albania, utm claude_/envybox_/widget_) по умолчанию исключены, переключатель на странице. У каждого события есть дата начала измерения (`START`: 15.10 — вовлечение, 24.10 — квиз/формы/scroll, 27.10 — callback_request); доля считается от сеансов с этой даты, до неё в таблице «не измеряли», а не 0. При новых событиях в GTM — дописать их в `GOALS` и `START`.

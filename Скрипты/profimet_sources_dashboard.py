@@ -10,10 +10,10 @@
   • Цена / Клики / Показы — Google Ads: из API по аккаунту (все кампании) за даты периода; Facebook: BigQuery
     `redbird-196813.adwhite.fb_stats_profimet` (в таблице хранится в долларах, пересчёт в евро — параметр `--usd-eur`).
     У «Нет метки», «Телефон», «Прочее» рекламных показателей нет.
-  • Конверсии — обращения (звонки + формы) выгрузки, НОВЫЕ по правилу 60 дней: обращение новое, если у этого номера на
-    этом сайте не было засчитанного нового обращения за последние 60 дней (окно считается от последнего засчитанного, повторы
-    окно не продлевают — как в боевом скрипте ringostat_profimet2; в памяти все источники и формы). Источник обращения — как в выгрузке.
-  • Звонки — из конверсий те, что звонки.
+  • Конверсии = звонки + формы. С 2026-11-06 звонки (только Google Ads и Facebook) берутся из Ringostat по боевому правилу
+    ringostat_profimet2 (`prod_unique`: входящие, уникальные за 60 дней от последнего засчитанного); формы — из выгрузки CRM,
+    НОВЫЕ по правилу 60 дней, источник как в выгрузке. Звонки без рекламного канала (общий номер сайта, SEO) в заявки не входят.
+  • Звонки — звонки Google Ads и Facebook из Ringostat.
   • Продажи — проданные заказы (в выгрузке есть «Дата продажи» в периоде; количество товара в выгрузке нет, поэтому это заказы,
     не единицы). Источник продажи — источник ПЕРВОГО обращения этого номера за 60 дней до первой строки заказа (правило клиента).
   • % конверсии = Конверсии ÷ Клики; Цена заявки = Цена ÷ Конверсии; % продажи = Продажи ÷ Конверсии; Цена продажи = Цена ÷ Продажи;
@@ -246,8 +246,11 @@ def client_scheme_orders(sheet, client=None, frm=None, to=None):
     return sel, pd.DataFrame(diff, columns=["Раздел", "Заказ", "Дата", "Источник у клиента", "Наш расчёт: источник заказа по схеме клиента", "Причина", "Первое обращение за 60 дней", "Было рекламное касание"])
 
 
-def build(frm, to, ads, fb, contacts, sales, usd_eur, client=None, mode="our"):
+def build(frm, to, ads, fb, contacts, sales, usd_eur, client=None, mode="our", ring=None):
+    """ring — звонки по боевому правилу Ringostat (prod_unique: date, category). Если передан, в НАШЕМ режиме звонки Google Ads / Facebook берутся из
+    него (решение пользователя 2026-11-06), а «Нет метки» в заявках — только формы CRM; звонки без рекламного канала не считаются."""
     f, t = pd.Timestamp(frm).date(), pd.Timestamp(to).date()
+    rc = ring[(ring["date"] >= f) & (ring["date"] <= t) & ring["category"].isin(["Google Ads", "Facebook"])] if ring is not None else None
     a = ads[(ads["date"] >= f) & (ads["date"] <= t)]
     b = fb[(fb["date"] >= f) & (fb["date"] <= t)]
     paid = {"Google Ads": (a["cost"].sum(), a["clicks"].sum(), a["impr"].sum()),
@@ -275,6 +278,15 @@ def build(frm, to, ads, fb, contacts, sales, usd_eur, client=None, mode="our"):
             continue
         cc = c[c["src2"] == src]
         conv, calls = len(cc), int((cc["type"] == "звонок").sum())
+        if rc is not None and src in ("Google Ads", "Facebook"):
+            calls = int((rc["category"] == src).sum())
+            conv = calls + int((cc["type"] == "форма").sum())
+        elif rc is not None and src == "Нет метки":
+            conv, calls = int((cc["type"] == "форма").sum()), 0
+            notes.append(f"Нет метки: {conv} форм из CRM; звонки без рекламного канала (общий номер сайта, SEO) в заявки не входят")
+            out.append({"Источник": src, "Цена": cost, "Клики": clk, "Показы": imp, "Конверсии": conv, "Звонки": None,
+                        "Продажи": int((sl["src2"] == src).sum())})
+            continue
         # Структура колонок как у клиентского дашборда: конверсиями считаются Google Ads, Facebook, «Нет метки» (звонки — только
         # у Google и Facebook); перезвоны «Телефон» и «Прочее» в конверсии не входят. Убранное из колонок печатается под таблицей.
         if src in ("Телефон", "Прочее"):
@@ -322,9 +334,11 @@ def show(df, title):
 DEFINITIONS = [
     "Цена, клики, показы: Google Ads — из Google Ads API по аккаунту целиком; Facebook — из BigQuery adwhite.fb_stats_profimet "
     "(там доллары, в евро пересчитано по курсу из параметра --usd-eur).",
-    "Конверсии: новые обращения (звонки и формы) из выгрузки CRM по правилу 60 дней — обращение новое, если у этого номера не было "
-    "засчитанного нового обращения за последние 60 дней (окно от последнего засчитанного, повторы окно не продлевают).",
-    "Звонки: из конверсий те, что звонки (показаны только у Google Ads и Facebook).",
+    "Конверсии = звонки + формы. Звонки (только Google Ads и Facebook) — из Ringostat по боевому правилу ringostat_profimet2: входящие, уникальные за 60 дней "
+    "(окно от последнего засчитанного, повторы окно не продлевают; история уникальности включает SEO и «No Source», как в боевом скрипте, но сами они в заявки не входят). "
+    "Формы — из выгрузки CRM, новые по тому же правилу 60 дней, источник как в CRM; форма без метки идёт в «Нет метки». "
+    "Звонки без рекламного канала (общий номер сайта, SEO) в заявки не входят (решение пользователя 2026-11-06).",
+    "Звонки: звонки Google Ads и Facebook из Ringostat (см. выше); у «Нет метки» звонков нет.",
     "Продажи: проданные заказы (в выгрузке есть «Дата продажи» в периоде); источник продажи — источник первого обращения этого номера "
     "за 60 дней до первой строки заказа. Количества товара в выгрузке нет, поэтому это заказы, а не единицы.",
     "% конверсии = Конверсии ÷ Клики; Цена заявки = Цена ÷ Конверсии; % продажи = Продажи ÷ Конверсии; Цена продажи = Цена ÷ Продажи; "
@@ -379,11 +393,13 @@ ol.d{{margin:12px 0;padding-left:20px;font-size:13px;color:var(--mut)}}
 MONTHS_RU = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"]
 
 
-def daily_table(frm, to, ads, fb, contacts, sales, client, scheme=None):
+def daily_table(frm, to, ads, fb, contacts, sales, client, scheme=None, ring=None):
     """Длинная таблица «дата × источник»: расход/клики/показы (Google — евро, Facebook — доллары как в BigQuery), конверсии,
     звонки (из конверсий), продажи, а также конверсии и звонки «как у клиента» (режим переключается на листе «Дашборд»). Из неё формулы
     листа «Дашборд» собирают любой период."""
     cm = contacts[contacts["new"]].groupby(["day", "src2"]).agg(conv=("type", "size"), calls=("type", lambda s: int((s == "звонок").sum())))
+    forms_new = contacts[contacts["new"] & (contacts["type"] == "форма")].groupby(["day", "src2"]).size()
+    rcn = ring[ring["category"].isin(["Google Ads", "Facebook"])].groupby(["date", "category"]).size() if ring is not None else None
     sm = sales.groupby(["sale_date", "src2"]).size()
     sc = scheme.groupby(["day", "rule"])["qty"].sum() if scheme is not None else None
     cdx = client.set_index(["day", "src2"])
@@ -400,6 +416,11 @@ def daily_table(frm, to, ads, fb, contacts, sales, client, scheme=None):
                     cost, clk, imp = 0.0, 0, 0
             conv = int(cm["conv"].get((d, src), 0)) if (d, src) in cm.index else 0
             calls = int(cm["calls"].get((d, src), 0)) if (d, src) in cm.index else 0
+            if rcn is not None and src in ("Google Ads", "Facebook"):  # наш режим: звонки — боевое правило Ringostat, формы — CRM (60 дн)
+                calls = int(rcn.get((d, src), 0))
+                conv = calls + int(forms_new.get((d, src), 0))
+            elif rcn is not None and src == "Нет метки":  # звонки без рекламного канала в заявки не входят
+                calls, conv = 0, int(forms_new.get((d, src), 0))
             calls_c = int(cdx["calls_c"].get((d, src), 0)) if (d, src) in cdx.index else 0
             forms_c = int(cdx["forms_c"].get((d, src), 0)) if (d, src) in cdx.index else 0
             rows.append({"Дата": d, "Источник": src, "Цена": cost, "Клики": clk, "Показы": imp, "Конверсии": conv,
@@ -424,7 +445,7 @@ def write_xlsx_dynamic(path, daily, usd_eur, frm, to, orders_tbl=None, diff_tbl=
     bold, head, inp = Font(bold=True), PatternFill("solid", fgColor="DDEBF7"), PatternFill("solid", fgColor="FFF2CC")
 
     # --- Данные
-    wd.append(["Дата", "Источник", "Цена (Google — €, Facebook — $ как в BigQuery)", "Клики", "Показы", "Конверсии (наш режим: новые обращения CRM)", "из них звонки", "Продажи",
+    wd.append(["Дата", "Источник", "Цена (Google — €, Facebook — $ как в BigQuery)", "Клики", "Показы", "Конверсии (наш режим: звонки Ringostat 60 дн + формы CRM)", "из них звонки (Ringostat)", "Продажи",
                "Конверсии (как у клиента: звонки + формы GA4)", "из них звонки (первый звонок за всю историю)",
                "Продажи (как у клиента: по правилу клиента, количество товара)"])
     for c in wd[1]:
@@ -535,7 +556,7 @@ def write_xlsx_dynamic(path, daily, usd_eur, frm, to, orders_tbl=None, diff_tbl=
     ws["A16"] = ('=IF(LEFT($B$7,3)="Как","Режим «как у клиента»: звонки — первый звонок номера за всю историю Ringostat; формы — сеансы GA4 form_submit по источнику сеанса; '
                  'Телефон и Прочее без конверсий. Продажи — по правилу клиента: источник из формы заказа, иначе «Телефон»; заказы на листе «Заказы по схеме клиента», расхождения на листе «Расхождения».",'
                  + f'"Телефон: новых обращений "&{S("F", 12)}&" (из них звонков "&{S("G", 12)}&") — в «Конверсии» и «Звонки» не включены")')
-    ws["A17"] = f'=IF(LEFT($B$7,3)="Как","","Нет метки: из "&G11&" конверсий звонков "&{S("G", 11)}&" — в колонке «Звонки» не показаны")'
+    ws["A17"] = '=IF(LEFT($B$7,3)="Как","","Нет метки: "&G11&" форм из CRM; звонки без рекламного канала (общий номер сайта, SEO) в заявки не входят")'
     ws["A18"] = f'=IF(LEFT($B$7,3)="Как","","Прочее: новых обращений "&{S("F", 13)}&" — в «Конверсии» и «Звонки» не включены")'
     ws.column_dimensions["A"].width = 46
     for col in "BCDEFGHIJKLM":
@@ -547,7 +568,7 @@ def write_xlsx_dynamic(path, daily, usd_eur, frm, to, orders_tbl=None, diff_tbl=
     # --- Как считается
     wh.column_dimensions["A"].width = 150
     for t in DEFINITIONS + ["Курс USD→EUR для Facebook — ячейка B5 листа «Дашборд» (допущение; в BigQuery расход хранится в долларах).",
-                            "Режим B7: «Наш» — конверсии и звонки по нашему правилу 60 дней из выгрузки CRM; «Как у клиента» — звонки: первый звонок номера за всю "
+                            "Режим B7: «Наш» — звонки Google Ads и Facebook из Ringostat (боевое правило, уникальные за 60 дней), формы из выгрузки CRM (новые за 60 дней); «Как у клиента» — звонки: первый звонок номера за всю "
                             "историю Ringostat (входящие, отслеживаемые каналы), формы: сеансы GA4 form_submit по источнику сеанса (google / cpc → Google Ads, facebook* → Facebook, "
                             "остальное → Нет метки); подтверждено на двух периодах скринов клиента 2026-10-20. Продажи в режиме «Как у клиента»: источник заказа по правилу клиента (есть форма → источник формы, нет формы → «Телефон»), "
                             "дата заказа = дата первой строки (UTC), количество товара из списка клиента, где он есть, иначе 1; в режиме «Наш» продажи по первому обращению за 60 дней.",
@@ -710,9 +731,10 @@ def main():
     ads, fb = ads_daily(a.frm, a.to), fb_daily(a.frm, a.to)
     contacts, sales = contacts_with_new_flag(sheet), sales_with_source(sheet)
     client = client_like_daily(ringo, ga4_forms_daily(a.frm, a.to))
+    ring_u = prod_unique(ringo, count_other=False, date_to=a.to)  # звонки по боевому правилу Ringostat (60 дн); в нашем режиме идут Google Ads и Facebook
 
     out_dir = client_stats_dir("ProfiMet")
-    total = build(a.frm, a.to, ads, fb, contacts, sales, a.usd_eur)
+    total = build(a.frm, a.to, ads, fb, contacts, sales, a.usd_eur, ring=ring_u)
     total_c = build(a.frm, a.to, ads, fb, contacts, sales, a.usd_eur, client=client, mode="client")
     show(total, f"ПО-НАШЕМУ (60 дней, формы из CRM), {a.frm} — {a.to}")
     show(total_c, f"КАК У КЛИЕНТА (звонки за всю историю, формы GA4), {a.frm} — {a.to}")
@@ -720,13 +742,13 @@ def main():
     total_c.to_csv(out_dir / f"dashboard_sources_client_mode_{a.frm}_{a.to}.csv", index=False, encoding="utf-8-sig")
     if a.by:
         for s, e, label in periods(a.frm, a.to, a.by):
-            show(build(s, e, ads, fb, contacts, sales, a.usd_eur), f"{label} (наш): {s} — {e}")
+            show(build(s, e, ads, fb, contacts, sales, a.usd_eur, ring=ring_u), f"{label} (наш): {s} — {e}")
             show(build(s, e, ads, fb, contacts, sales, a.usd_eur, client=client, mode="client"), f"{label} (как у клиента): {s} — {e}")
 
     # страница: весь период и каждый месяц в обоих режимах, открывается в браузере
     frames = [(f"Весь период, наш режим: {a.frm} — {a.to}", total), (f"Весь период, как у клиента: {a.frm} — {a.to}", total_c)]
     for s, e, label in periods(a.frm, a.to, "month"):
-        frames.append((f"{label}, наш режим: {s} — {e}", build(s, e, ads, fb, contacts, sales, a.usd_eur)))
+        frames.append((f"{label}, наш режим: {s} — {e}", build(s, e, ads, fb, contacts, sales, a.usd_eur, ring=ring_u)))
         frames.append((f"{label}, как у клиента: {s} — {e}", build(s, e, ads, fb, contacts, sales, a.usd_eur, client=client, mode="client")))
     meta = (f"Данные выгрузки CRM до {sheet['ts'].max().tz_convert(W):%d.%m.%Y %H:%M}; расход Facebook — BigQuery (доллары) × {a.usd_eur} "
             f"(курс — параметр); сформировано {pd.Timestamp.now(tz=W):%d.%m.%Y %H:%M}.")
@@ -735,7 +757,7 @@ def main():
     xlsx_path = out_dir / f"dashboard_sources_{a.frm}_{a.to}.xlsx"
     cl = read_client_list(a.client_list) if a.client_list else None
     scheme, diff = client_scheme_orders(sheet, cl, a.frm, a.to)
-    daily = daily_table(a.frm, a.to, ads, fb, contacts, sales, client, scheme)
+    daily = daily_table(a.frm, a.to, ads, fb, contacts, sales, client, scheme, ring=ring_u)
     orders_tbl = scheme.merge(cl, on="key", how="left") if cl is not None else scheme.assign(product="", platform="", author="", client_source="")
     orders_tbl = orders_tbl.sort_values("est", ascending=False)
     orders_tbl = pd.DataFrame({

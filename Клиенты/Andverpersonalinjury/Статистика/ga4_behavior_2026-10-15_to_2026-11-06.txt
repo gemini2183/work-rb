@@ -1,0 +1,146 @@
+GA4 549802233 | 2026-10-15 → 2026-11-06 | исключено: страны ['Spain', 'Ukraine', 'Albania'], города —
+
+== 1. Состав сеансов по стране и городу (БЕЗ исключений) — тестовый трафик виден здесь
+страна | город | сеансы | вовлечённые
+Spain | Barcelona | 229 | 38
+United States | Los Angeles | 35 | 18
+United States | New York | 12 | 7
+United States | (not set) | 7 | 1
+Albania | Tirana | 6 | 0
+Ukraine | Poltava | 6 | 6
+(not set) | (not set) | 5 | 0
+Jordan | Amman | 5 | 3
+India | Delhi | 4 | 3
+United States | Stockton | 4 | 1
+Afghanistan | Kabul | 3 | 2
+United States | Chicago | 3 | 0
+United States | Perris | 3 | 1
+United States | San Francisco | 3 | 1
+United States | San Jose | 3 | 0
+Angola | Luanda | 2 | 1
+India | Hyderabad | 2 | 1
+United States | Anza | 2 | 0
+United States | Colusa | 2 | 0
+United States | Rialto | 2 | 1
+United States | Riverside | 2 | 1
+United States | San Luis Obispo | 2 | 2
+United States | Visalia | 2 | 0
+ |  | 1 | 1
+India | Bhubaneswar | 1 | 0
+
+== 2. Источник/канал и устройство (после исключений)
+источник / канал | устройство | сеансы | вовлечённые | ср. время вовлечения, с
+chatgpt.com / cpc | mobile | 39 | 6 | 134
+google / cpc | desktop | 39 | 21 | 787
+google / cpc | mobile | 36 | 16 | 386
+(direct) / (none) | mobile | 18 | 4 | 72
+(direct) / (none) | desktop | 13 | 4 | 277
+google / organic | desktop | 13 | 6 | 15
+app.ppcreveal.ai / referral | desktop | 4 | 3 | 201
+chatgpt.com / cpc | desktop | 4 | 1 | 85
+(data not available) | desktop | 3 | 2 | 17
+(data not available) | mobile | 2 | 2 | 17
+(not set) | desktop | 1 | 0 | 1030
+(not set) | mobile | 1 | 0 | 0
+google / cpc | tablet | 1 | 1 | 33
+
+== 3. События (после исключений): число событий и сеансов с событием
+событие | событий | пользователей
+block_time | 443 | 87
+block_view | 323 | 91
+page_view | 195 | 152
+session_start | 170 | 152
+first_visit | 150 | 150
+scroll_depth | 96 | 29
+stay_10s | 60 | 47
+quiz_step | 33 | 5
+engaged_30s | 26 | 20
+scroll | 23 | 20
+faq_open | 13 | 2
+quiz_start | 7 | 5
+quiz_complete | 6 | 4
+user_engagement | 5 | 5
+engaged_90s | 2 | 2
+form_popup_open | 2 | 2
+cta_click | 1 | 1
+lead_form_start | 1 | 1
+
+== 4. Блоки: показ блока (block_view) и секунды (block_time)
+блок | block_view событий | block_view пользователей
+ai_hero | 48 | 40
+hero | 48 | 33
+form_a | 25 | 17
+quiz | 22 | 14
+your_crash | 17 | 15
+insurers | 13 | 11
+how | 12 | 11
+faq | 11 | 10
+attorney | 10 | 9
+reviews | 10 | 10
+final | 9 | 6
+footer | 9 | 7
+truck_cases | 8 | 8
+why | 8 | 4
+injuries | 7 | 6
+crash_scenarios | 6 | 5
+fee | 6 | 6
+case_examples | 5 | 5
+evidence | 5 | 4
+team | 5 | 5
+form_b | 4 | 3
+prefer_we_call_you_leave | 4 | 4
+public_library | 4 | 3
+california_uber_and_lyft_accident | 3 | 3
+situations | 3 | 3
+california_bicycle_accident_lawyer_free | 2 | 2
+early_offer | 2 | 2
+mid_review | 2 | 2
+a_dedicated_team_behind_your | 1 | 1
+after_a_bicycle_crash_what | 1 | 1
+
+== 4b. Секунды по блокам (block_time)
+блок | событий | секунд всего
+ai_hero | 81 | 348
+header | 78 | 718
+hero | 35 | 155
+faq | 18 | 85
+your_crash | 17 | 117
+reviews | 16 | 30
+insurers | 15 | 39
+footer | 14 | 59
+how | 14 | 25
+final | 13 | 74
+california_brain_injury_lawyer_free | 12 | 169
+attorney | 9 | 24
+crash_scenarios | 9 | 17
+truck_cases | 9 | 12
+case_examples | 8 | 27
+form_a | 8 | 29
+injuries | 8 | 21
+team | 7 | 32
+california_uber_and_lyft_accident | 6 | 21
+evidence | 6 | 18
+prefer_we_call_you_leave | 6 | 19
+public_library | 6 | 14
+fee | 5 | 9
+quiz | 5 | 5
+a_dedicated_team_behind_your | 3 | 55
+after_a_head_injury_what | 3 | 8
+common_brain_injury_situations_landver | 3 | 32
+early_offer | 3 | 4
+mid_review | 3 | 3
+situations | 3 | 17
+
+== 5. Клики по телефону по местам
+место | кликов | пользователей
+(нет данных)
+
+== 5b. Вопросы FAQ, которые открывали
+вопрос | раз | пользователей
+How much does it cost to hire Landver Law? | 4 | 2
+How long do I have to bring an injury claim in California? | 2 | 1
+My medical treatment is still ongoing. Is it too early to contact a lawyer? | 2 | 1
+The insurance company is asking for a recorded statement. What should I do? | 2 | 1
+How much is my car accident settlement worth? | 1 | 1
+I already received a settlement offer. Can I still have the case reviewed? | 1 | 1
+What is the average car accident settlement in California? | 1 | 1

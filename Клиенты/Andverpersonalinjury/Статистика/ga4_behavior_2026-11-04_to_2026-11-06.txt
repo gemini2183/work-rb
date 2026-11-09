@@ -1,0 +1,106 @@
+GA4 549802233 | 2026-11-04 → 2026-11-06 | исключено: страны ['Spain'], города —
+
+== 1. Состав сеансов по стране и городу (БЕЗ исключений) — тестовый трафик виден здесь
+страна | город | сеансы | вовлечённые
+United States | Los Angeles | 8 | 2
+India | Delhi | 4 | 3
+Albania | Tirana | 2 | 0
+United States | San Francisco | 2 | 0
+ |  | 1 | 1
+India | Hyderabad | 1 | 1
+India | Warangal | 1 | 1
+United States | Colusa | 1 | 0
+United States | Dublin | 1 | 1
+United States | Kirkland | 1 | 1
+United States | Marysville | 1 | 1
+United States | Riverside | 1 | 1
+United States | San Jose | 1 | 0
+
+== 2. Источник/канал и устройство (после исключений)
+источник / канал | устройство | сеансы | вовлечённые | ср. время вовлечения, с
+chatgpt.com / cpc | mobile | 8 | 2 | 76
+google / cpc | desktop | 6 | 3 | 355
+app.ppcreveal.ai / referral | desktop | 4 | 3 | 201
+google / cpc | mobile | 4 | 1 | 10
+google / organic | desktop | 2 | 2 | 3
+(direct) / (none) | desktop | 1 | 1 | 0
+
+== 3. События (после исключений): число событий и сеансов с событием
+событие | событий | пользователей
+block_time | 80 | 14
+block_view | 39 | 14
+session_start | 25 | 20
+scroll_depth | 24 | 10
+page_view | 21 | 20
+first_visit | 19 | 19
+stay_10s | 10 | 9
+engaged_30s | 5 | 4
+scroll | 4 | 4
+faq_open | 3 | 1
+cta_click | 1 | 1
+engaged_90s | 1 | 1
+
+== 4. Блоки: показ блока (block_view) и секунды (block_time)
+блок | block_view событий | block_view пользователей
+ai_hero | 4 | 4
+hero | 3 | 3
+attorney | 2 | 2
+faq | 2 | 2
+fee | 2 | 2
+injuries | 2 | 2
+prefer_we_call_you_leave | 2 | 2
+reviews | 2 | 2
+team | 2 | 2
+a_dedicated_team_behind_your | 1 | 1
+after_a_bicycle_crash_what | 1 | 1
+after_a_head_injury_what | 1 | 1
+california_bicycle_accident_lawyer_free | 1 | 1
+california_brain_injury_lawyer_free | 1 | 1
+california_uber_and_lyft_accident | 1 | 1
+common_brain_injury_situations_landver | 1 | 1
+final | 1 | 1
+form_a | 1 | 1
+how | 1 | 1
+insurers | 1 | 1
+situations | 1 | 1
+what_happens_when_you_call | 1 | 1
+what_insurance_companies_often_say | 1 | 1
+what_insurance_companies_often_tell | 1 | 1
+what_uber_lyft_and_their | 1 | 1
+why_is_the_first_review | 1 | 1
+your_crash | 1 | 1
+
+== 4b. Секунды по блокам (block_time)
+блок | событий | секунд всего
+header | 20 | 122
+california_brain_injury_lawyer_free | 9 | 133
+ai_hero | 6 | 27
+hero | 6 | 50
+prefer_we_call_you_leave | 4 | 16
+a_dedicated_team_behind_your | 3 | 55
+after_a_head_injury_what | 3 | 8
+common_brain_injury_situations_landver | 3 | 32
+reviews | 3 | 6
+california_bicycle_accident_lawyer_free | 2 | 10
+california_uber_and_lyft_accident | 2 | 5
+faq | 2 | 14
+fee | 2 | 3
+how | 2 | 5
+insurers | 2 | 12
+team | 2 | 3
+what_happens_when_you_call | 2 | 3
+what_insurance_companies_often_say | 2 | 11
+why_is_the_first_review | 2 | 2
+form_a | 1 | 7
+what_insurance_companies_often_tell | 1 | 24
+your_crash | 1 | 1
+
+== 5. Клики по телефону по местам
+место | кликов | пользователей
+(нет данных)
+
+== 5b. Вопросы FAQ, которые открывали
+вопрос | раз | пользователей
+How much does it cost to hire Landver Law? | 1 | 1
+How much is my car accident settlement worth? | 1 | 1
+What is the average car accident settlement in California? | 1 | 1

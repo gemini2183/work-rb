@@ -1,0 +1,310 @@
+[
+ {
+  "metricName": "DeadClickCount",
+  "information": [
+   {
+    "sessionsCount": 6,
+    "sessionsWithMetricPercentage": 33.33,
+    "sessionsWithoutMetricPercentage": 66.67,
+    "pagesViews": 3,
+    "subTotal": 3,
+    "Campaign": null
+   },
+   {
+    "sessionsCount": 1,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "cartruck_tilda"
+   },
+   {
+    "sessionsCount": 2,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "topics_tilda"
+   },
+   {
+    "sessionsCount": 3,
+    "sessionsWithMetricPercentage": 33.33,
+    "sessionsWithoutMetricPercentage": 66.67,
+    "pagesViews": 1,
+    "subTotal": 1,
+    "Campaign": "24331208797_search"
+   }
+  ]
+ },
+ {
+  "metricName": "ExcessiveScroll",
+  "information": [
+   {
+    "sessionsCount": 6,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": null
+   },
+   {
+    "sessionsCount": 1,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "cartruck_tilda"
+   },
+   {
+    "sessionsCount": 2,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "topics_tilda"
+   },
+   {
+    "sessionsCount": 3,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "24331208797_search"
+   }
+  ]
+ },
+ {
+  "metricName": "RageClickCount",
+  "information": [
+   {
+    "sessionsCount": 6,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": null
+   },
+   {
+    "sessionsCount": 1,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "cartruck_tilda"
+   },
+   {
+    "sessionsCount": 2,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "topics_tilda"
+   },
+   {
+    "sessionsCount": 3,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "24331208797_search"
+   }
+  ]
+ },
+ {
+  "metricName": "QuickbackClick",
+  "information": [
+   {
+    "sessionsCount": 6,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": null
+   },
+   {
+    "sessionsCount": 1,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "cartruck_tilda"
+   },
+   {
+    "sessionsCount": 2,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "topics_tilda"
+   },
+   {
+    "sessionsCount": 3,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "24331208797_search"
+   }
+  ]
+ },
+ {
+  "metricName": "ScriptErrorCount",
+  "information": [
+   {
+    "sessionsCount": 6,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": null
+   },
+   {
+    "sessionsCount": 1,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "cartruck_tilda"
+   },
+   {
+    "sessionsCount": 2,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "topics_tilda"
+   },
+   {
+    "sessionsCount": 3,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "24331208797_search"
+   }
+  ]
+ },
+ {
+  "metricName": "ErrorClickCount",
+  "information": [
+   {
+    "sessionsCount": 6,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": null
+   },
+   {
+    "sessionsCount": 1,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "cartruck_tilda"
+   },
+   {
+    "sessionsCount": 2,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "topics_tilda"
+   },
+   {
+    "sessionsCount": 3,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "24331208797_search"
+   }
+  ]
+ },
+ {
+  "metricName": "ScrollDepth",
+  "information": [
+   {
+    "averageScrollDepth": 57.71,
+    "Campaign": null
+   },
+   {
+    "averageScrollDepth": 1,
+    "Campaign": "cartruck_tilda"
+   },
+   {
+    "averageScrollDepth": 13.5,
+    "Campaign": "topics_tilda"
+   },
+   {
+    "averageScrollDepth": 80,
+    "Campaign": "24331208797_search"
+   }
+  ]
+ },
+ {
+  "metricName": "Traffic",
+  "information": [
+   {
+    "totalSessionCount": 6,
+    "totalBotSessionCount": 2,
+    "distinctUserCount": 3,
+    "pagesPerSessionPercentage": 1.1666666666666667,
+    "Campaign": null
+   },
+   {
+    "totalSessionCount": 0,
+    "totalBotSessionCount": 1,
+    "distinctUserCount": 0,
+    "pagesPerSessionPercentage": null,
+    "Campaign": "_search"
+   },
+   {
+    "totalSessionCount": 1,
+    "totalBotSessionCount": 1,
+    "distinctUserCount": 1,
+    "pagesPerSessionPercentage": 1,
+    "Campaign": "cartruck_tilda"
+   },
+   {
+    "totalSessionCount": 2,
+    "totalBotSessionCount": 1,
+    "distinctUserCount": 2,
+    "pagesPerSessionPercentage": 1,
+    "Campaign": "topics_tilda"
+   },
+   {
+    "totalSessionCount": 3,
+    "totalBotSessionCount": 1,
+    "distinctUserCount": 3,
+    "pagesPerSessionPercentage": 1,
+    "Campaign": "24331208797_search"
+   }
+  ]
+ },
+ {
+  "metricName": "EngagementTime",
+  "information": [
+   {
+    "totalTime": 425,
+    "activeTime": 183,
+    "Campaign": null
+   },
+   {
+    "totalTime": 3,
+    "activeTime": 2,
+    "Campaign": "cartruck_tilda"
+   },
+   {
+    "totalTime": 30,
+    "activeTime": 29,
+    "Campaign": "topics_tilda"
+   },
+   {
+    "totalTime": 124,
+    "activeTime": 24,
+    "Campaign": "24331208797_search"
+   }
+  ]
+ }
+]

@@ -1,0 +1,1169 @@
+term,impr,clicks,cost,conv,match,keywords,layer
+car accident lawyer,831,3,405.59,0.0,EXACT,car accident lawyer,A найм
+insider accident lawyers,8,1,369.3,0.0,NEAR_PHRASE,traffic accident lawyer,F фирма
+best car accident attorney in los angeles,13,2,312.51,0.0,NEAR_EXACT,car accident attorney los angeles; car accident attorney near me los angeles; car accident lawyer los angeles; car accident lawyer los angeles ca; los angeles car accident attorney,A найм
+car accident lawyer in san diego,1,3,241.23,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+lawyer for a car accident,5,2,191.74,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+accident lawyers los angeles,2,2,133.1,0.0,NEAR_EXACT,car accident lawyer los angeles; los angeles car accident attorney,A найм
+car accident lawyers near me,37,1,129.89,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+car accident lawyer los angeles,196,1,99.3,0.0,EXACT,car accident lawyer los angeles,A найм
+negligent death,1,1,99.26,0.0,NEAR_EXACT,wrongful death lawsuit,D/прочее
+traumatic brain injury attorney,2,1,97.23,0.0,NEAR_EXACT,brain injury attorney; brain injury lawyer,A найм
+car accident lawyer pasadena,1,1,95.81,0.0,NEAR_EXACT,pasadena car accident lawyer,A найм
+car accidents settlements,4,3,86.76,0.0,NEAR_EXACT,car accident settlement,B деньги
+car crash garden grove,9,1,83.11,0.0,NEAR_EXACT,garden grove car accident lawyer,D/прочее
+car accident attorney,213,1,74.3,0.0,EXACT,car accident attorney,A найм
+best car accident lawyers in los angeles,14,1,66.67,0.0,NEAR_EXACT,car accident attorney los angeles; car accident attorney near me los angeles; car accident lawyer los angeles; los angeles car accident attorney; los angeles car accident lawyer,A найм
+semi truck accident lawyers near me,3,1,64.81,0.0,NEAR_EXACT,truck accident attorney,A найм
+semi truck injury lawyers,3,1,64.11,0.0,NEAR_EXACT,truck accident attorney,A найм
+simi valley car accident lawyer,10,1,59.04,0.0,"EXACT,NEAR_PHRASE",car crash attorney; car injury attorney; simi valley car accident lawyer,A найм
+car accident attorney near me,35,1,49.1,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+car accident lawyers los angeles,22,1,48.98,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles; car accident lawyer los angeles ca; los angeles car accident attorney; los angeles car accident lawyer,A найм
+realistic settlement calculator,22,2,48.89,0.0,NEAR_EXACT,car accident settlement calculator,B деньги
+san diego accident lawyer,4,2,44.18,0.0,NEAR_PHRASE,auto accident law firm; traffic accident lawyer,A найм
+car accident lawyer modesto ca,8,3,43.38,0.0,"NEAR_PHRASE,PHRASE",car accident attorney; car accident lawyer; car crash attorney; car wreck attorney,A найм
+car accident payout,3,1,37.19,0.0,EXACT,car accident payout,B деньги
+the may firm p c,18,1,32.43,0.0,NEAR_PHRASE,auto accident law firm; auto accident personal injury lawyer; car accident law firm; car accident personal injury lawyer; vehicle accident injury lawyer,F фирма
+corbin snow,2,1,32.2,0.0,NEAR_PHRASE,car accident personal injury lawyer,D/прочее
+truck accident lawyer,88,1,31.9,0.0,EXACT,truck accident lawyer,A найм
+car accident lawsuit settlement average,15,1,31.29,0.0,NEAR_EXACT,average car accident settlement,B деньги
+insurance payouts for car accidents,2,1,30.98,0.0,NEAR_EXACT,car accident payout,B деньги
+car accident settlement amounts,4,1,30.42,0.0,NEAR_EXACT,car accident settlement,B деньги
+car accident costs,1,1,29.9,0.0,NEAR_EXACT,car accident compensation,D/прочее
+car accident injury compensation,1,1,29.89,0.0,NEAR_EXACT,car accident compensation,B деньги
+typical car accident settlement amounts with injury,4,1,29.61,0.0,NEAR_EXACT,average car accident settlement,B деньги
+car accident injury settlement,2,1,29.36,0.0,NEAR_EXACT,car accident settlement,B деньги
+law ofc car law firm 1455 frazee rd ste 500,4,1,24.97,0.0,NEAR_PHRASE,attorney for car accident; car accident lawyer,F фирма
+car crash settlement calculator,3,1,24.86,0.0,NEAR_EXACT,car accident settlement calculator,B деньги
+injury settlement calculator,3,1,24.83,0.0,NEAR_EXACT,personal injury settlement calculator,B деньги
+truck accident lawyer riverside ca,1,1,24.82,0.0,NEAR_PHRASE,truck wreck attorney,A найм
+accident settlement calculator,5,1,24.78,0.0,NEAR_EXACT,car accident settlement calculator,B деньги
+accident compensation,5,1,24.64,0.0,NEAR_EXACT,car accident compensation,B деньги
+megerdichian,8,1,24.56,0.0,NEAR_PHRASE,auto injury lawyer; car accident law firm; car accident personal injury lawyer; car injury lawyer; motor vehicle accident attorney; traffic accident lawyer,D/прочее
+should i get a lawyer for a car accident that wasn t my fault,3,1,24.55,0.0,NEAR_PHRASE,attorney for car accident; car accident attorney,E виновник
+car accident claim process,4,1,23.47,0.0,NEAR_EXACT,car accident claim,B деньги
+car injury calculator,17,1,19.69,0.0,NEAR_EXACT,car accident settlement calculator,D/прочее
+zeven law firm,4,1,19.03,0.0,NEAR_PHRASE,beverly hills car accident lawyer,F фирма
+armen kiramijyan,11,1,14.95,0.0,NEAR_PHRASE,car accident injury attorney,D/прочее
+car accident lawyer sunnyvale,2,1,14.87,0.0,NEAR_PHRASE,car accident attorney,A найм
+the broadway law firm,3,1,14.8,0.0,NEAR_PHRASE,car accident attorney; car injury lawyer,F фирма
+los angeles car accident lawyer,441,0,0.0,0.0,EXACT,los angeles car accident lawyer,A найм
+car accident lawyer near me,272,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+car accident lawyer mission viejo,250,0,0.0,0.0,EXACT,car accident lawyer mission viejo,A найм
+beverly hills car accident lawyer,121,0,0.0,0.0,EXACT,beverly hills car accident lawyer,A найм
+car accident lawyer irvine,112,0,0.0,0.0,"EXACT,NEAR_PHRASE",car accident lawyer irvine; car collision lawyer,A найм
+car accident lawyer beverly hills,83,0,0.0,0.0,EXACT,car accident lawyer beverly hills,A найм
+beverly hills truck accident lawyer,73,0,0.0,0.0,EXACT,beverly hills truck accident lawyer,A найм
+automobile accident lawyers los angeles,72,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles ca; motor vehicle accident attorney los angeles,A найм
+los angeles car accident attorney,64,0,0.0,0.0,"EXACT,NEAR_EXACT",car accident lawyer los angeles ca; los angeles car accident attorney,A найм
+car accident lawyer fresno,62,0,0.0,0.0,"EXACT,NEAR_PHRASE,PHRASE",car accident lawyer; car accident lawyer fresno; car injury attorney; car wreck attorney,A найм
+san diego car accident lawyer,60,0,0.0,0.0,EXACT,san diego car accident lawyer,A найм
+car accident lawyer in los angeles,50,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident attorney near me los angeles; car accident lawyer los angeles; car accident lawyer los angeles ca; los angeles car accident lawyer,A найм
+glendale car accident lawyer,46,0,0.0,0.0,EXACT,glendale car accident lawyer,A найм
+car accident attorney irvine,42,0,0.0,0.0,"EXACT,NEAR_EXACT,NEAR_PHRASE",car accident attorney irvine; car accident lawyer irvine; car crash attorney,A найм
+compass law group l,41,0,0.0,0.0,NEAR_PHRASE,auto injury attorney; traffic accident lawyer,F фирма
+car accident lawyer long beach,41,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney,A найм
+car accident attorney beverly hills,40,0,0.0,0.0,NEAR_EXACT,beverly hills car accident attorney; beverly hills car accident lawyer; car accident lawyer beverly hills,A найм
+auto accident lawyer,39,0,0.0,0.0,"EXACT,NEAR_EXACT",auto accident lawyer; car accident attorney; car accident lawyer,A найм
+truck accident lawyer beverly hills,39,0,0.0,0.0,NEAR_EXACT,beverly hills truck accident lawyer,A найм
+motorcycle accident lawyer,36,0,0.0,0.0,"EXACT,NEAR_PHRASE",motorcycle accident lawyer; traffic accident lawyer,A найм
+san diego car accident attorney,36,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+fresno car accident lawyer,35,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno,A найм
+auto accident attorneys near me,34,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+irvine car accident lawyer,33,0,0.0,0.0,NEAR_EXACT,car accident attorney irvine; car accident lawyer irvine,A найм
+truck accident lawyer los angeles,32,0,0.0,0.0,EXACT,truck accident lawyer los angeles,A найм
+car accident lawyer glendale,31,0,0.0,0.0,NEAR_EXACT,glendale car accident lawyer,A найм
+riverside car accident lawyer,31,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside,A найм
+car accident lawyer torrance,31,0,0.0,0.0,EXACT,car accident lawyer torrance,A найм
+stockton truck accident lawyer,30,0,0.0,0.0,"EXACT,NEAR_PHRASE",lawyer for semi truck accident; semi accident lawyer; stockton truck accident lawyer; truck collision attorney,A найм
+auto accident lawyer los angeles,30,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles ca; los angeles car accident lawyer,A найм
+motorcycle accident attorney,30,0,0.0,0.0,EXACT,motorcycle accident attorney,A найм
+auto accident attorney near me,30,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+truck accident lawyer near me,29,0,0.0,0.0,NEAR_EXACT,big rig wreck lawyer; lawyer for semi truck accident; truck accident attorney; truck accident lawyer; truck collision attorney,A найм
+los angeles motorcycle accident lawyer,29,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer los angeles,A найм
+huntington beach car accident lawyer,26,0,0.0,0.0,NEAR_EXACT,car accident lawyer huntington beach,A найм
+motorcycle accident lawyer los angeles,25,0,0.0,0.0,EXACT,motorcycle accident lawyer los angeles,A найм
+truck accident attorney los angeles ca,24,0,0.0,0.0,NEAR_EXACT,los angeles truck accident lawyer; truck accident lawyer los angeles,A найм
+truck accident attorney,24,0,0.0,0.0,EXACT,truck accident attorney,A найм
+orange county truck accident lawyer,23,0,0.0,0.0,"EXACT,PHRASE",orange county truck accident lawyer; truck accident lawyer,A найм
+auto accident attorney,23,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+car accident lawyer san diego,23,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+truck accident lawyer santa ana,23,0,0.0,0.0,NEAR_EXACT,santa ana truck accident lawyer,A найм
+pedestrian accident lawyer,21,0,0.0,0.0,EXACT,pedestrian accident lawyer,A найм
+bicycle accident lawyer in los angeles,21,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles,A найм
+los angeles truck accident lawyer,21,0,0.0,0.0,EXACT,los angeles truck accident lawyer,A найм
+car injury compensation,20,0,0.0,0.0,NEAR_EXACT,car accident claim; car accident settlement,B деньги
+best motorcycle accident lawyer los angeles,20,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer los angeles,A найм
+brain injury lawyer,20,0,0.0,0.0,EXACT,brain injury lawyer,A найм
+car accident attorney los angeles,19,0,0.0,0.0,EXACT,car accident attorney los angeles,A найм
+car accident lawyer bakersfield,19,0,0.0,0.0,NEAR_EXACT,bakersfield car accident lawyer,A найм
+truck accident lawyer in los angeles,18,0,0.0,0.0,"NEAR_EXACT,NEAR_PHRASE",big rig wreck lawyer; los angeles truck accident lawyer,A найм
+car accident lawyer costa mesa,18,0,0.0,0.0,EXACT,car accident lawyer costa mesa,A найм
+car accident injury lawyer los angeles ca,17,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident attorney near me los angeles; los angeles car accident lawyer,A найм
+car accident settlement payouts,16,0,0.0,0.0,NEAR_EXACT,car accident settlement,B деньги
+bicycle accident lawyer,16,0,0.0,0.0,EXACT,bicycle accident lawyer,A найм
+auto accident lawyer beverly hills,16,0,0.0,0.0,NEAR_EXACT,beverly hills car accident lawyer,A найм
+santa ana car accident lawyer,16,0,0.0,0.0,NEAR_EXACT,santa ana car accident attorney,A найм
+car accident lawyer anaheim,16,0,0.0,0.0,EXACT,car accident lawyer anaheim,A найм
+irvine car accident lawyers,16,0,0.0,0.0,NEAR_EXACT,car accident lawyer irvine,A найм
+accident lawyer los angeles,15,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident attorney; motor vehicle accident attorney los angeles,A найм
+motorcycle accident attorney beverly hills,15,0,0.0,0.0,NEAR_EXACT,beverly hills motorcycle accident lawyer,A найм
+pasadena car accident lawyer,15,0,0.0,0.0,EXACT,pasadena car accident lawyer,A найм
+car accident lawyer victorville,15,0,0.0,0.0,NEAR_EXACT,victorville car accident lawyers,A найм
+car accident attorney riverside,15,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside,A найм
+car accident lawyer fullerton,14,0,0.0,0.0,EXACT,car accident lawyer fullerton,A найм
+car injury claim,13,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+uber accident lawyer los angeles,13,0,0.0,0.0,EXACT,uber accident lawyer los angeles,A найм
+beverly hills car accident attorney,13,0,0.0,0.0,EXACT,beverly hills car accident attorney,A найм
+los angeles motorcycle accident law firm,13,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer los angeles,F фирма
+car accident lawyer santa monica,13,0,0.0,0.0,NEAR_EXACT,santa monica car accident lawyer,A найм
+california accident firm,12,0,0.0,0.0,NEAR_PHRASE,auto accident personal injury lawyer; auto injury attorney; auto injury lawyer; traffic accident attorney; vehicle accident attorney; vehicle accident injury lawyer,F фирма
+uber accident lawyer,12,0,0.0,0.0,EXACT,uber accident lawyer,A найм
+los angeles bicycle accident attorney,12,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles,A найм
+car crash attorney in los angeles,12,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles; car accident lawyer los angeles ca; los angeles car accident attorney; los angeles car accident lawyer,A найм
+los angeles auto accident attorney,12,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident lawyer,A найм
+best car accident lawyer in san diego,12,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+car accident lawyer riverside,11,0,0.0,0.0,EXACT,car accident lawyer riverside,A найм
+truck accident lawyer san diego,11,0,0.0,0.0,EXACT,truck accident lawyer san diego,A найм
+rideshare accident lawyer la,10,0,0.0,0.0,NEAR_EXACT,rideshare accident lawyer los angeles,A найм
+accident lawyer in los angeles,10,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident attorney,A найм
+long beach motorcycle accident lawyer,10,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer long beach,A найм
+auto lawyers,10,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+car accident lawyer long beach ca,10,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney,A найм
+rideshare accident attorney,9,0,0.0,0.0,"EXACT,NEAR_PHRASE",motor vehicle accident lawyer; rideshare accident attorney; traffic accident lawyer,A найм
+car accident injury settlement calculator,9,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator,B деньги
+average payout for car accident,9,0,0.0,0.0,NEAR_EXACT,car accident payout,B деньги
+los angeles rideshare accident lawyer,9,0,0.0,0.0,NEAR_EXACT,rideshare accident lawyer los angeles,A найм
+rideshare accident lawyer,9,0,0.0,0.0,EXACT,rideshare accident lawyer,A найм
+bike accident lawyer in los angeles,9,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles,A найм
+auto accident attorney los angeles,9,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident attorney near me los angeles; los angeles car accident attorney; los angeles car accident lawyer,A найм
+car accident attorney in los angeles,9,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles; car accident lawyer los angeles ca; los angeles car accident lawyer,A найм
+car accident lawyer la,9,0,0.0,0.0,NEAR_EXACT,car accident attorney near me los angeles; car accident lawyer los angeles; car accident lawyer los angeles ca,A найм
+motorcycle accident lawyer in los angeles,9,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer los angeles,A найм
+lawyer car accident,9,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+long beach car accident lawyer,9,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney,A найм
+car accident lawyer in newport beach,9,0,0.0,0.0,NEAR_EXACT,newport beach car accident lawyer,A найм
+anaheim car accident attorney,9,0,0.0,0.0,NEAR_EXACT,car accident lawyer anaheim,A найм
+anaheim car accident lawyer,9,0,0.0,0.0,NEAR_EXACT,car accident lawyer anaheim,A найм
+irvine auto accident lawyer,9,0,0.0,0.0,NEAR_EXACT,car accident attorney irvine; car accident lawyer irvine,A найм
+artin nazaryan,8,0,0.0,0.0,NEAR_PHRASE,auto injury attorney; auto injury lawyer; car crash attorney; car injury attorney; car injury lawyer; traffic accident lawyer,D/прочее
+los angeles truck accident attorney,8,0,0.0,0.0,NEAR_EXACT,los angeles truck accident lawyer; truck accident lawyer los angeles,A найм
+insurance accident claim,8,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+bicycle accident lawyer los angeles,8,0,0.0,0.0,EXACT,bicycle accident lawyer los angeles,A найм
+la accident firm,8,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles; car accident lawyer los angeles ca; los angeles car accident attorney,F фирма
+accident lawyer car,8,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+auto accident lawyers,8,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+santa ana car accident attorney,8,0,0.0,0.0,EXACT,santa ana car accident attorney,A найм
+car accident attorney newport beach,8,0,0.0,0.0,NEAR_EXACT,newport beach car accident lawyer,A найм
+car accident lawyers irvine,8,0,0.0,0.0,NEAR_EXACT,car accident lawyer irvine,A найм
+car accident attorney huntington beach,8,0,0.0,0.0,NEAR_EXACT,car accident lawyer huntington beach,A найм
+los angeles truck accident lawyers,8,0,0.0,0.0,NEAR_EXACT,los angeles truck accident lawyer,A найм
+stockton truck accident attorney,8,0,0.0,0.0,NEAR_EXACT,stockton truck accident lawyer,A найм
+anaheim truck accident attorney,8,0,0.0,0.0,EXACT,anaheim truck accident attorney,A найм
+brain injury attorneys,8,0,0.0,0.0,NEAR_EXACT,brain injury attorney,A найм
+car accident lawyer fresno ca,7,0,0.0,0.0,"NEAR_EXACT,NEAR_PHRASE",car accident lawyer fresno; car injury lawyer,A найм
+accident attorney california,7,0,0.0,0.0,NEAR_PHRASE,car accident law firm; motor vehicle accident attorney,A найм
+pedestrian accident lawyer los angeles,7,0,0.0,0.0,EXACT,pedestrian accident lawyer los angeles,A найм
+average car accident settlement,7,0,0.0,0.0,EXACT,average car accident settlement,B деньги
+motorcycle lawyer los angeles,7,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer los angeles,A найм
+accident lawyers near me,7,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+automobile accident attorney,7,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+best car accident lawyer,7,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+car accident attorneys,7,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+lawyer auto accident,7,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+car accident injury lawyer anaheim ca,7,0,0.0,0.0,NEAR_EXACT,car accident lawyer anaheim,A найм
+car accident lawyer in irvine,7,0,0.0,0.0,NEAR_EXACT,car accident attorney irvine; car accident lawyer irvine,A найм
+car accident lawyers fresno,7,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno,A найм
+car accident lawyer garden grove,7,0,0.0,0.0,NEAR_EXACT,garden grove car accident lawyer,A найм
+costa mesa car accident lawyer,7,0,0.0,0.0,NEAR_EXACT,car accident lawyer costa mesa,A найм
+saidian and saidian law,6,0,0.0,0.0,NEAR_PHRASE,auto injury attorney; car accident personal injury lawyer,D/прочее
+hillstone law accident & injury attorneys,6,0,0.0,0.0,NEAR_PHRASE,traffic accident lawyer,A найм
+pedestrian accident lawyer in los angeles,6,0,0.0,0.0,NEAR_EXACT,pedestrian accident lawyer los angeles,A найм
+collision compensation program,6,0,0.0,0.0,NEAR_EXACT,car accident compensation,B деньги
+car accident settlement,6,0,0.0,0.0,EXACT,car accident settlement,B деньги
+car accident settlements,6,0,0.0,0.0,NEAR_EXACT,car accident settlement,B деньги
+car accident calculator,6,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator,D/прочее
+los angeles uber accident lawyer,6,0,0.0,0.0,NEAR_EXACT,uber accident lawyer los angeles,A найм
+los angeles bike accident attorneys,6,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles,A найм
+car wreck lawyer los angeles,6,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles ca; los angeles car accident lawyer,A найм
+los angeles car crash lawyer,6,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles; car accident lawyer los angeles ca; los angeles car accident lawyer,A найм
+los angeles car wreck attorney,6,0,0.0,0.0,NEAR_EXACT,car accident attorney near me los angeles; car accident lawyer los angeles ca; los angeles car accident attorney; los angeles car accident lawyer,A найм
+car accident lawyers in los angeles,6,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident attorney near me los angeles; car accident lawyer los angeles,A найм
+los angeles car accident lawyers,6,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident attorney near me los angeles; car accident lawyer los angeles; car accident lawyer los angeles ca,A найм
+la car accident lawyer,6,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles ca; los angeles car accident attorney,A найм
+los angeles motorcycle accident attorney,6,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer los angeles,A найм
+auto accident attorneys,6,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+car accident lawyer usa,6,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+car injury attorney near me,6,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+lawyer for auto accident,6,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+best accident lawyer,6,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+car accident lawyer glendale ca,6,0,0.0,0.0,NEAR_EXACT,glendale car accident lawyer,A найм
+auto accident lawyer long beach,6,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney,A найм
+pasadena car accident attorney,6,0,0.0,0.0,NEAR_EXACT,pasadena car accident lawyer,A найм
+car accident lawyer bakersfield ca,6,0,0.0,0.0,NEAR_EXACT,bakersfield car accident lawyer,A найм
+anaheim car accident attorney near me,6,0,0.0,0.0,NEAR_EXACT,car accident lawyer anaheim,A найм
+car accident lawyer huntington beach,6,0,0.0,0.0,EXACT,car accident lawyer huntington beach,A найм
+car accident attorney riverside ca,6,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside,A найм
+car accident lawyer san diego ca,6,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+fresno car accident lawyers,6,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno,A найм
+carlsbad car accident lawyer,6,0,0.0,0.0,NEAR_EXACT,car accident lawyer carlsbad,A найм
+los angeles traumatic brain injury lawyer,6,0,0.0,0.0,NEAR_EXACT,brain injury lawyer los angeles,A найм
+sfa law car accident & personal injury lawyers,5,0,0.0,0.0,"NEAR_PHRASE,PHRASE",car accident lawyer; car crash attorney,A найм
+free consultation car accident lawyer near me,5,0,0.0,0.0,NEAR_PHRASE,car crash lawyer,A найм
+dustin maricic,5,0,0.0,0.0,NEAR_PHRASE,auto injury attorney; car injury attorney; traffic accident lawyer,D/прочее
+notourproblem org,5,0,0.0,0.0,NEAR_PHRASE,traffic accident lawyer,D/прочее
+truck accident lawyer torrance,5,0,0.0,0.0,NEAR_PHRASE,big rig wreck lawyer,A найм
+los angeles pedestrian accident law firms,5,0,0.0,0.0,NEAR_EXACT,pedestrian accident lawyer los angeles,F фирма
+california pedestrian accident lawyers,5,0,0.0,0.0,NEAR_EXACT,pedestrian accident lawyer california,A найм
+wrongful lawsuit,5,0,0.0,0.0,NEAR_EXACT,wrongful death lawsuit,B деньги
+filing an insurance claim for car accident,5,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+making a claim on car insurance,5,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+car lawsuit settlements,5,0,0.0,0.0,NEAR_EXACT,car accident compensation,B деньги
+car settlement,5,0,0.0,0.0,NEAR_EXACT,car accident settlement,B деньги
+settlement calculator for car accident,5,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator,B деньги
+payout for car accident,5,0,0.0,0.0,NEAR_EXACT,car accident payout,B деньги
+rideshare accident lawyers,5,0,0.0,0.0,NEAR_EXACT,rideshare accident lawyer,A найм
+bike accident attorney,5,0,0.0,0.0,NEAR_EXACT,bicycle accident attorney,A найм
+bike crash attorney,5,0,0.0,0.0,EXACT,bike crash attorney,A найм
+la bike accident lawyer,5,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles,A найм
+auto accident lawyer los angeles ca,5,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident attorney near me los angeles; los angeles car accident lawyer,A найм
+car crash lawyer los angeles,5,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident attorney; los angeles car accident lawyer,A найм
+accident attorney los angeles,5,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles; motor vehicle accident attorney los angeles,A найм
+car accident lawyer in los angeles ca,5,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles; car accident lawyer los angeles ca,A найм
+los angeles car crash attorney,5,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles; los angeles car accident attorney,A найм
+car accident lawyers beverly hills,5,0,0.0,0.0,NEAR_EXACT,beverly hills car accident lawyer; car accident lawyer beverly hills,A найм
+auto car accident lawyers,5,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+car accident legal advice,5,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+car crash lawyer near me,5,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+car accident attorney glendale ca,5,0,0.0,0.0,NEAR_EXACT,glendale car accident lawyer,A найм
+car accident attorney pasadena,5,0,0.0,0.0,NEAR_EXACT,pasadena car accident lawyer,A найм
+car accident lawyer santa ana,5,0,0.0,0.0,NEAR_EXACT,santa ana car accident attorney,A найм
+newport beach car accident lawyer,5,0,0.0,0.0,EXACT,newport beach car accident lawyer,A найм
+irvine car accident attorneys,5,0,0.0,0.0,NEAR_EXACT,car accident attorney irvine; car accident lawyer irvine,A найм
+santa monica car accident lawyer,5,0,0.0,0.0,EXACT,santa monica car accident lawyer,A найм
+car accident lawyer in victorville,5,0,0.0,0.0,NEAR_EXACT,victorville car accident lawyers,A найм
+car accident lawyer in fresno,5,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno,A найм
+garden grove car accident lawyer,5,0,0.0,0.0,EXACT,garden grove car accident lawyer,A найм
+car accident attorney costa mesa,5,0,0.0,0.0,NEAR_EXACT,car accident lawyer costa mesa,A найм
+trucking lawyers,5,0,0.0,0.0,NEAR_EXACT,truck accident attorney,A найм
+mr crash,4,0,0.0,0.0,NEAR_PHRASE,attorney for car accident; car collision lawyer; car crash lawyer,D/прочее
+how much do lawyers take from car accident settlement,4,0,0.0,0.0,NEAR_PHRASE,car crash attorney; car injury attorney; car wreck attorney,C что делать
+car accident lawyer carlsbad,4,0,0.0,0.0,"EXACT,NEAR_PHRASE",car accident lawyer carlsbad; car wreck attorney,A найм
+car accident lawyer laguna hills,4,0,0.0,0.0,NEAR_PHRASE,car collision lawyer; car injury lawyer,A найм
+beverly hills accident attorney,4,0,0.0,0.0,NEAR_EXACT,beverly hills car accident attorney; beverly hills car accident lawyer,A найм
+j&y law firm,4,0,0.0,0.0,NEAR_PHRASE,auto accident personal injury lawyer; car accident personal injury lawyer,F фирма
+pedestrian injury accident attorneys,4,0,0.0,0.0,NEAR_EXACT,pedestrian accident attorney,A найм
+pedestrian accident attorney los angeles,4,0,0.0,0.0,NEAR_EXACT,pedestrian accident lawyer los angeles,A найм
+unlawful death lawsuit,4,0,0.0,0.0,NEAR_EXACT,wrongful death lawsuit,B деньги
+car accident insurance claim process,4,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+accident payout service,4,0,0.0,0.0,NEAR_EXACT,car accident compensation,B деньги
+car accident cases settlement,4,0,0.0,0.0,NEAR_EXACT,car accident settlement,B деньги
+average settlement for car accident,4,0,0.0,0.0,NEAR_EXACT,average car accident settlement,B деньги
+personal injury settlement amounts examples car accident,4,0,0.0,0.0,NEAR_EXACT,average car accident settlement,B деньги
+auto accident settlement calculator free,4,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator,B деньги
+lawyer uber accident,4,0,0.0,0.0,NEAR_EXACT,uber accident lawyer,A найм
+uber lawyer,4,0,0.0,0.0,NEAR_EXACT,uber accident attorney,A найм
+uber lawyers,4,0,0.0,0.0,NEAR_EXACT,uber accident attorney,A найм
+lyft accident attorney,4,0,0.0,0.0,EXACT,lyft accident attorney,A найм
+lyft lawyer,4,0,0.0,0.0,NEAR_EXACT,lyft accident attorney,A найм
+lyft accident lawyer los angeles,4,0,0.0,0.0,NEAR_EXACT,rideshare accident lawyer los angeles,A найм
+automobile accident attorney in los angeles,4,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident lawyer,A найм
+car accident attorneys in los angeles,4,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles ca; los angeles car accident lawyer,A найм
+car accident lawyers la,4,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident attorney near me los angeles; los angeles car accident lawyer,A найм
+los angeles auto accident lawyer,4,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles; los angeles car accident lawyer,A найм
+auto accident attorneys los angeles,4,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident attorney near me los angeles; car accident lawyer los angeles ca; los angeles car accident attorney,A найм
+automobile accident lawyer los angeles,4,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident attorney,A найм
+motorcycle accident lawyers,4,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer,A найм
+motorcycle crash lawyer,4,0,0.0,0.0,EXACT,motorcycle crash lawyer,A найм
+accidentattorneys,4,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+attorney for car wrecks,4,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+auto accident lawyer near me,4,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+auto injury law,4,0,0.0,0.0,NEAR_EXACT,car accident lawyer,D/прочее
+car accident law,4,0,0.0,0.0,NEAR_EXACT,car accident lawyer,D/прочее
+car attorney,4,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+law firm car accident,4,0,0.0,0.0,NEAR_EXACT,car accident lawyer,F фирма
+auto injury law firm,4,0,0.0,0.0,NEAR_EXACT,car accident attorney,F фирма
+lawyer for auto,4,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+car accident attorney glendale,4,0,0.0,0.0,NEAR_EXACT,glendale car accident lawyer,A найм
+car accident lawyer newport beach,4,0,0.0,0.0,NEAR_EXACT,newport beach car accident lawyer,A найм
+irvine car accident attorney,4,0,0.0,0.0,NEAR_EXACT,car accident lawyer irvine,A найм
+car accident lawyer santa monica ca,4,0,0.0,0.0,NEAR_EXACT,santa monica car accident lawyer,A найм
+car accident attorney victorville ca,4,0,0.0,0.0,NEAR_EXACT,victorville car accident lawyers,A найм
+car accident lawyer victorville ca,4,0,0.0,0.0,NEAR_EXACT,victorville car accident lawyers,A найм
+car accident lawyer in torrance,4,0,0.0,0.0,NEAR_EXACT,car accident lawyer torrance,A найм
+car accident attorney san diego,4,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+car accident attorney fresno,4,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno,A найм
+auto accident lawyer carlsbad,4,0,0.0,0.0,NEAR_EXACT,car accident lawyer carlsbad,A найм
+san diego truck accident lawyer,4,0,0.0,0.0,NEAR_EXACT,truck accident lawyer san diego,A найм
+long beach truck accident lawyer,4,0,0.0,0.0,NEAR_EXACT,truck accident lawyer long beach,A найм
+brain injury attorney los angeles,4,0,0.0,0.0,NEAR_EXACT,brain injury lawyer los angeles,A найм
+brain injury attorney california,4,0,0.0,0.0,NEAR_EXACT,brain injury lawyer california,A найм
+calltheaccidentguys,3,0,0.0,0.0,NEAR_PHRASE,car accident lawyer; car crash lawyer,D/прочее
+elif dag milano,3,0,0.0,0.0,NEAR_PHRASE,car accident attorney; car crash lawyer,D/прочее
+oxnard car accident lawyer,3,0,0.0,0.0,NEAR_PHRASE,car accident attorney; lawyer for car accident,A найм
+sam alemi,3,0,0.0,0.0,NEAR_PHRASE,car collision lawyer; car crash lawyer; car wreck attorney,D/прочее
+bobby taghavi,3,0,0.0,0.0,NEAR_PHRASE,car accident injury lawyer; car crash attorney,D/прочее
+car accident lawyer menifee,3,0,0.0,0.0,NEAR_PHRASE,car crash attorney; car wreck attorney,A найм
+in a crash call ash,3,0,0.0,0.0,NEAR_PHRASE,car crash attorney; lawyer for car accident,D/прочее
+eman zokaeim,3,0,0.0,0.0,NEAR_PHRASE,car accident injury lawyer,D/прочее
+accident 911 law firm,3,0,0.0,0.0,NEAR_PHRASE,car accident law firm; car injury attorney,F фирма
+alain kinaly,3,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer; car collision lawyer; car injury lawyer,D/прочее
+law ofc car law firm san diego,3,0,0.0,0.0,NEAR_PHRASE,car accident law firm; car injury lawyer,F фирма
+abram zukor,3,0,0.0,0.0,NEAR_PHRASE,beverly hills car accident lawyer,D/прочее
+bakersfield car accident lawyer,3,0,0.0,0.0,"EXACT,NEAR_PHRASE",bakersfield car accident lawyer; car collision lawyer,A найм
+cha cha cha law,3,0,0.0,0.0,NEAR_PHRASE,auto injury attorney,D/прочее
+sweetjames law,3,0,0.0,0.0,NEAR_PHRASE,traffic accident lawyer,D/прочее
+joe camerlengo,3,0,0.0,0.0,NEAR_PHRASE,truck accident attorney; truck accident lawyer; truck crash attorney,D/прочее
+truck accident attorney la,3,0,0.0,0.0,"NEAR_EXACT,NEAR_PHRASE",big rig wreck lawyer; los angeles truck accident lawyer,A найм
+wrongful suit,3,0,0.0,0.0,NEAR_EXACT,wrongful death lawsuit,D/прочее
+death lawyers,3,0,0.0,0.0,NEAR_EXACT,best wrongful death lawyer,A найм
+car accident insurance claim,3,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+accident payment,3,0,0.0,0.0,NEAR_EXACT,car accident compensation; car accident payout,D/прочее
+average compensation for car accident,3,0,0.0,0.0,NEAR_EXACT,car accident compensation,B деньги
+traffic accident settlement,3,0,0.0,0.0,NEAR_EXACT,car accident compensation; car accident settlement,B деньги
+car accident bodily injury settlement,3,0,0.0,0.0,NEAR_EXACT,car accident settlement,B деньги
+in a car accident settlement,3,0,0.0,0.0,NEAR_EXACT,car accident settlement,B деньги
+average car crash settlement,3,0,0.0,0.0,NEAR_EXACT,average car accident settlement,B деньги
+car accident settlement calculator,3,0,0.0,0.0,EXACT,car accident settlement calculator,B деньги
+car settlement calculator,3,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator,B деньги
+carinjurycalculator,3,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator,D/прочее
+uber accident attorney,3,0,0.0,0.0,EXACT,uber accident attorney,A найм
+uber accident lawyer beverly hills,3,0,0.0,0.0,EXACT,uber accident lawyer beverly hills,A найм
+bicycle accident attorney los angeles,3,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles,A найм
+bike accident attorney los angeles,3,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles,A найм
+los angeles bicycle accident law firms,3,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles,F фирма
+los angeles bicycle accident lawyer,3,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles,A найм
+los angeles bike accident attorney,3,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles,A найм
+auto accident attorneys in los angeles,3,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles ca; los angeles car accident lawyer,A найм
+car accident lawyer in la,3,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles ca; los angeles car accident lawyer,A найм
+car crash attorneys los angeles,3,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident lawyer,A найм
+los angeles auto accident law firm,3,0,0.0,0.0,NEAR_EXACT,car accident attorney near me los angeles; los angeles car accident lawyer,F фирма
+los angeles automobile accident lawyers,3,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident lawyer; motor vehicle accident attorney los angeles,A найм
+los angeles car accident law firm,3,0,0.0,0.0,NEAR_EXACT,car accident lawyer los angeles; car accident lawyer los angeles ca,F фирма
+beverly hills car accident attorneys,3,0,0.0,0.0,NEAR_EXACT,beverly hills car accident lawyer,A найм
+best car accident lawyer in los angeles,3,0,0.0,0.0,NEAR_EXACT,car accident attorney near me los angeles; car accident lawyer los angeles ca; los angeles car accident attorney,A найм
+accident attorney la,3,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,A найм
+auto accident law firm in los angeles,3,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,F фирма
+auto accident lawyers los angeles,3,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles ca,A найм
+los angeles car accidents lawyer,3,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles ca,A найм
+traffic accident attorney los angeles,3,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,A найм
+car accident lawyer los angeles ca,3,0,0.0,0.0,EXACT,car accident lawyer los angeles ca,A найм
+motorcycle lawyers los angeles,3,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer los angeles,A найм
+motorcycle personal injury attorney,3,0,0.0,0.0,NEAR_EXACT,motorcycle injury lawyer,A найм
+motorcycle personal injury lawyer,3,0,0.0,0.0,NEAR_EXACT,motorcycle injury lawyer,A найм
+accident car attorney,3,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+accident lawyer car accident lawyer,3,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+attorney car crash,3,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+auto accident personal injury attorney,3,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+auto accidents lawyers,3,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+auto crash law firm,3,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,F фирма
+automobile accident lawyers near me,3,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+automotive accident attorneys,3,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+best car accident lawyers near me,3,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+car injury lawyers,3,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+good auto accident attorney,3,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+lawyer in car accident,3,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+lawyers for car accident,3,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+lawyers in car accident,3,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+personal injury car accident lawyer,3,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+top rated auto accident attorney,3,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+auto accident legal,3,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+automobile accident lawyer,3,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+automobile injury lawyers,3,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+best accident attorney,3,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+best car accident law firm,3,0,0.0,0.0,NEAR_EXACT,car accident attorney,F фирма
+car accident attorneys lawyers,3,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+car accident lawyer near me near me,3,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+car accident lawyers attorneys,3,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+car accident personal injury lawyer,3,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+car crash attorneys,3,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+car accident lawyer in long beach,3,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney,A найм
+long beach car accident attorneys,3,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney,A найм
+pasadena auto accident attorney,3,0,0.0,0.0,NEAR_EXACT,pasadena car accident lawyer,A найм
+bakersfield auto accident lawyer,3,0,0.0,0.0,NEAR_EXACT,bakersfield car accident lawyer,A найм
+car accident attorney anaheim,3,0,0.0,0.0,NEAR_EXACT,car accident lawyer anaheim,A найм
+auto accident lawyer irvine,3,0,0.0,0.0,NEAR_EXACT,car accident attorney irvine,A найм
+auto accident attorney torrance,3,0,0.0,0.0,NEAR_EXACT,car accident lawyer torrance,A найм
+car accident lawyer torrance ca,3,0,0.0,0.0,NEAR_EXACT,car accident lawyer torrance,A найм
+car accident injury attorney san diego,3,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+san diego car accident law firm,3,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,F фирма
+car accident attorney in fresno,3,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno,A найм
+fresno car accident attorney,3,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno,A найм
+chula vista car accident lawyer,3,0,0.0,0.0,NEAR_EXACT,car accident lawyer chula vista,A найм
+car accident lawyer woodland hills,3,0,0.0,0.0,NEAR_EXACT,car accident attorney woodland hills,A найм
+costa mesa car accident attorney,3,0,0.0,0.0,NEAR_EXACT,car accident lawyer costa mesa,A найм
+truck accident attorneys,3,0,0.0,0.0,NEAR_EXACT,truck accident attorney,A найм
+truck accidents attorney,3,0,0.0,0.0,NEAR_EXACT,truck accident attorney,A найм
+best truck accident lawyer los angeles,3,0,0.0,0.0,NEAR_EXACT,los angeles truck accident lawyer,A найм
+los angeles big rig accident attorney,3,0,0.0,0.0,NEAR_EXACT,los angeles truck accident lawyer,A найм
+truck accident lawyer orange county,3,0,0.0,0.0,NEAR_EXACT,orange county truck accident lawyer,A найм
+truck accident lawyer irvine,3,0,0.0,0.0,NEAR_EXACT,irvine truck accident lawyer,A найм
+traumatic brain injury law firm,3,0,0.0,0.0,NEAR_EXACT,brain injury lawyer,F фирма
+brain injury lawyer los angeles,3,0,0.0,0.0,EXACT,brain injury lawyer los angeles,A найм
+california brain injury attorney,3,0,0.0,0.0,NEAR_EXACT,brain injury lawyer california,A найм
+downey car accident lawyer,2,0,0.0,0.0,NEAR_PHRASE,car accident attorney; car injury attorney,A найм
+janelle bailey,2,0,0.0,0.0,NEAR_PHRASE,car accident attorney,D/прочее
+porrazzo rawlings,2,0,0.0,0.0,NEAR_PHRASE,car accident attorney,D/прочее
+car accident lawyer dana point,2,0,0.0,0.0,NEAR_PHRASE,car wreck attorney; car wreck lawyer,A найм
+mr accidentes,2,0,0.0,0.0,NEAR_PHRASE,car wreck lawyer,D/прочее
+dean goetz,2,0,0.0,0.0,NEAR_PHRASE,car accident lawyers,D/прочее
+car accident lawyer in west hollywood,2,0,0.0,0.0,NEAR_PHRASE,car crash lawyer; car wreck attorney,A найм
+emery ledger,2,0,0.0,0.0,NEAR_PHRASE,car crash lawyer,D/прочее
+hassanlou law,2,0,0.0,0.0,NEAR_PHRASE,car crash lawyer,D/прочее
+car accident attorney orange county,2,0,0.0,0.0,NEAR_PHRASE,car crash attorney; car injury lawyer,A найм
+car accident lawyer pros modesto,2,0,0.0,0.0,NEAR_PHRASE,car accident law firm; car crash attorney,A найм
+encino car accident lawyer,2,0,0.0,0.0,NEAR_PHRASE,car collision lawyer; car crash attorney,A найм
+studio city car accident lawyer,2,0,0.0,0.0,NEAR_PHRASE,car crash attorney,A найм
+car accident attorney north hollywood,2,0,0.0,0.0,NEAR_PHRASE,car wreck attorney,A найм
+car accident lawyers orange county ca,2,0,0.0,0.0,NEAR_PHRASE,car wreck attorney,A найм
+sacramento car accident lawyers,2,0,0.0,0.0,NEAR_PHRASE,car wreck attorney,A найм
+victorville car accident lawyers,2,0,0.0,0.0,NEAR_PHRASE,car collision lawyer; car wreck attorney,A найм
+abogados accidentes riverside,2,0,0.0,0.0,NEAR_PHRASE,car injury attorney; car injury lawyer,D/прочее
+no fault group,2,0,0.0,0.0,NEAR_PHRASE,car injury lawyer,D/прочее
+victor alexandroff,2,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer; car injury lawyer,D/прочее
+bruce gershman,2,0,0.0,0.0,NEAR_PHRASE,car accident law firm,D/прочее
+fred sette,2,0,0.0,0.0,NEAR_PHRASE,car accident law firm; car accident personal injury lawyer,D/прочее
+how much accident lawyer charge,2,0,0.0,0.0,NEAR_PHRASE,automobile accident attorney; car accident law firm,C что делать
+kathy nassiri,2,0,0.0,0.0,NEAR_PHRASE,car accident injury attorney,D/прочее
+emanuel abrishami,2,0,0.0,0.0,NEAR_PHRASE,beverly hills car accident lawyer,D/прочее
+efs law center car accident & personal injury lawyers,2,0,0.0,0.0,NEAR_PHRASE,car collision lawyer; personal injury lawyer car accident,A найм
+el centro car accident lawyers,2,0,0.0,0.0,NEAR_PHRASE,car collision lawyer,A найм
+car accident lawyer oakland,2,0,0.0,0.0,NEAR_PHRASE,attorney for car accident,A найм
+north hollywood car accident lawyer,2,0,0.0,0.0,NEAR_PHRASE,attorney for car accident,A найм
+jessie serna,2,0,0.0,0.0,NEAR_PHRASE,lawyer for car accident,D/прочее
+bretil beitmirza,2,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer,D/прочее
+feiz law,2,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer,D/прочее
+joel bieber law firm,2,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer,F фирма
+jvb law firm,2,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer,F фирма
+ljb legal,2,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer,A найм
+salim sabbagh,2,0,0.0,0.0,NEAR_PHRASE,auto injury lawyer; car accident personal injury lawyer,D/прочее
+corona accident lawyer,2,0,0.0,0.0,NEAR_PHRASE,automobile accident attorney,A найм
+abogado de choques,2,0,0.0,0.0,NEAR_PHRASE,auto injury lawyer,D/прочее
+carash law firm,2,0,0.0,0.0,NEAR_PHRASE,auto injury lawyer,F фирма
+casado law firm,2,0,0.0,0.0,NEAR_PHRASE,auto injury lawyer,F фирма
+e accidents,2,0,0.0,0.0,NEAR_PHRASE,auto injury lawyer,D/прочее
+shafeeq sadiq,2,0,0.0,0.0,NEAR_PHRASE,auto injury lawyer; vehicle accident injury lawyer,D/прочее
+wabby and wabby,2,0,0.0,0.0,NEAR_PHRASE,auto injury lawyer,D/прочее
+accident lawyer near me,2,0,0.0,0.0,"NEAR_EXACT,NEAR_PHRASE",auto injury attorney; traffic accident lawyer,A найм
+mike nysather,2,0,0.0,0.0,NEAR_PHRASE,traffic accident lawyer,D/прочее
+motor vehicle accident attorney los angeles,2,0,0.0,0.0,PHRASE,motor vehicle accident attorney; vehicle accident attorney,A найм
+accident lawyer santa rosa,2,0,0.0,0.0,NEAR_PHRASE,motor vehicle accident attorney,A найм
+cyrus shahriari,2,0,0.0,0.0,NEAR_PHRASE,motor vehicle accident attorney,D/прочее
+elite accident attorneys,2,0,0.0,0.0,NEAR_PHRASE,vehicle accident attorney,A найм
+www getrude com,2,0,0.0,0.0,NEAR_PHRASE,vehicle accident attorney,D/прочее
+lem garcia law west covina,2,0,0.0,0.0,NEAR_PHRASE,automobile accident injury lawyer,D/прочее
+costa mesa truck accident lawyer,2,0,0.0,0.0,PHRASE,truck accident lawyer,A найм
+encino truck accident lawyer,2,0,0.0,0.0,NEAR_PHRASE,truck accident injury lawyer; truck accident lawyer los angeles,A найм
+trucking accidents lawyer,2,0,0.0,0.0,NEAR_EXACT,truck accident attorney; truck accident injury lawyer,A найм
+dump truck accident lawyer,2,0,0.0,0.0,NEAR_PHRASE,big rig wreck lawyer; truck collision lawyer,A найм
+18 wheeler injury lawyer,2,0,0.0,0.0,EXACT,18 wheeler injury lawyer,A найм
+lawyer pedestrian accident,2,0,0.0,0.0,NEAR_EXACT,pedestrian accident lawyer,A найм
+pedestrian accidents lawyer,2,0,0.0,0.0,NEAR_EXACT,pedestrian accident lawyer,A найм
+pedestrian injury lawyer,2,0,0.0,0.0,EXACT,pedestrian injury lawyer,A найм
+death attorney,2,0,0.0,0.0,NEAR_EXACT,best wrongful death lawyer,A найм
+car accident claim,2,0,0.0,0.0,EXACT,car accident claim,B деньги
+accident compensation claim,2,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+auto insurance accident claim,2,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+auto tort claim,2,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+automobile accident settlement,2,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+bodily injury claim car accident,2,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+car accident bodily injury claim,2,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+car claims,2,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+car crash claim,2,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+car injury settlement,2,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+car wreck claim,2,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+claims car,2,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+compensation for car crash,2,0,0.0,0.0,NEAR_EXACT,average car accident settlement; car accident claim,B деньги
+filing a claim after an accident,2,0,0.0,0.0,NEAR_EXACT,car accident claim,C что делать
+filing an accident claim,2,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+highway accident claim,2,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+insurance claim for accident,2,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+insurance claim for car accident,2,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+making an insurance claim after a car accident,2,0,0.0,0.0,NEAR_EXACT,car accident claim,C что делать
+car accident compensation,2,0,0.0,0.0,EXACT,car accident compensation,B деньги
+accident settlement,2,0,0.0,0.0,NEAR_EXACT,car accident compensation,B деньги
+compensation car accident,2,0,0.0,0.0,NEAR_EXACT,car accident compensation,B деньги
+compensation for car accident,2,0,0.0,0.0,NEAR_EXACT,car accident compensation,B деньги
+car accident process of a settlement,2,0,0.0,0.0,NEAR_EXACT,car accident settlement,B деньги
+car accident settlement value,2,0,0.0,0.0,NEAR_EXACT,car accident settlement,B деньги
+car accident with injury settlement,2,0,0.0,0.0,NEAR_EXACT,car accident settlement,B деньги
+insurance settlement for car accident,2,0,0.0,0.0,NEAR_EXACT,car accident settlement,B деньги
+settlement agreement for car accident,2,0,0.0,0.0,NEAR_EXACT,car accident settlement,B деньги
+settlement for car accident injury,2,0,0.0,0.0,NEAR_EXACT,car accident settlement,B деньги
+settlement from car accident,2,0,0.0,0.0,NEAR_EXACT,car accident settlement,B деньги
+auto accident injury settlement,2,0,0.0,0.0,NEAR_EXACT,average car accident settlement,B деньги
+average auto accident injury settlement,2,0,0.0,0.0,NEAR_EXACT,average car accident settlement,B деньги
+average insurance settlement for car accident,2,0,0.0,0.0,NEAR_EXACT,average car accident settlement,B деньги
+average lawsuit settlement car accident,2,0,0.0,0.0,NEAR_EXACT,average car accident settlement,B деньги
+average settlement amount for car accident,2,0,0.0,0.0,NEAR_EXACT,average car accident settlement,B деньги
+average settlement for a car accident,2,0,0.0,0.0,NEAR_EXACT,average car accident settlement,B деньги
+car accident average settlement,2,0,0.0,0.0,NEAR_EXACT,average car accident settlement,B деньги
+car accident payout average,2,0,0.0,0.0,NEAR_EXACT,average car accident settlement,B деньги
+payout for car accident injuries,2,0,0.0,0.0,NEAR_EXACT,average car accident settlement,B деньги
+typical settlement amount for car accident,2,0,0.0,0.0,NEAR_EXACT,average car accident settlement,B деньги
+calculate car accident injury settlement,2,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator,B деньги
+car accident injury claim calculator,2,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator,B деньги
+car accident personal injury calculator,2,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator,D/прочее
+car accident settlement calculator free,2,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator,B деньги
+free car accident calculator,2,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator,D/прочее
+personal injury case value calculator,2,0,0.0,0.0,NEAR_EXACT,personal injury settlement calculator,D/прочее
+settlement calculator free,2,0,0.0,0.0,NEAR_EXACT,personal injury settlement calculator,B деньги
+average pay out for car accident,2,0,0.0,0.0,NEAR_EXACT,car accident payout,D/прочее
+average payout from car accident,2,0,0.0,0.0,NEAR_EXACT,car accident payout,B деньги
+car accident injury claim payouts,2,0,0.0,0.0,NEAR_EXACT,car accident payout,B деньги
+car accident injury payouts,2,0,0.0,0.0,NEAR_EXACT,car accident payout,B деньги
+car accident price,2,0,0.0,0.0,NEAR_EXACT,car accident payout,D/прочее
+uber & lyft accident attorney,2,0,0.0,0.0,NEAR_EXACT,uber accident attorney,A найм
+uber accident law firm,2,0,0.0,0.0,NEAR_EXACT,uber accident attorney,F фирма
+uber car accident attorney,2,0,0.0,0.0,NEAR_EXACT,uber accident attorney,A найм
+rideshare accident lawyer los angeles,2,0,0.0,0.0,EXACT,rideshare accident lawyer los angeles,A найм
+los angeles lyft accident attorney,2,0,0.0,0.0,NEAR_EXACT,rideshare accident lawyer los angeles,A найм
+lyft accident attorney los angeles,2,0,0.0,0.0,NEAR_EXACT,rideshare accident lawyer los angeles,A найм
+rideshare accident attorneys los angeles,2,0,0.0,0.0,NEAR_EXACT,rideshare accident lawyer los angeles,A найм
+bicycle accident attorney,2,0,0.0,0.0,EXACT,bicycle accident attorney,A найм
+bicycle crash lawyer,2,0,0.0,0.0,NEAR_EXACT,bike crash attorney,A найм
+bicycle injury attorney,2,0,0.0,0.0,NEAR_EXACT,bike crash attorney,A найм
+bike wreck attorney,2,0,0.0,0.0,NEAR_EXACT,bike crash attorney,A найм
+bike crash lawyer,2,0,0.0,0.0,EXACT,bike crash lawyer,A найм
+bicycle lawyer,2,0,0.0,0.0,NEAR_EXACT,bike crash lawyer,A найм
+bicycle accident attorney in los angeles,2,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles,A найм
+bike accident attorney in los angeles,2,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles,A найм
+bike accident lawyers in los angeles,2,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles,A найм
+los angeles bike accident lawyer,2,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles,A найм
+auto accident law firm los angeles,2,0,0.0,0.0,NEAR_EXACT,los angeles car accident attorney; los angeles car accident lawyer,F фирма
+car accident attorney los angeles ca,2,0,0.0,0.0,NEAR_EXACT,los angeles car accident lawyer,A найм
+car accident lawyer near los angeles,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident lawyer,A найм
+car accidents lawyers in los angeles,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident lawyer,A найм
+lawyer car accident los angeles,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident lawyer,A найм
+los angeles accident attorney,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident lawyer,A найм
+accident lawyer beverly hills,2,0,0.0,0.0,NEAR_EXACT,beverly hills car accident attorney,A найм
+los angeles county car accident lawyer,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; los angeles car accident attorney,A найм
+los angeles traffic accident lawyer,2,0,0.0,0.0,NEAR_EXACT,los angeles car accident attorney; motor vehicle accident attorney los angeles,A найм
+accident attorneys los angeles,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,A найм
+accident lawyer la,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; motor vehicle accident attorney los angeles,A найм
+accident lawyer los angeles ca,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,A найм
+auto accident lawyers in los angeles,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,A найм
+car accident lawyers in los angeles california,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident attorney near me los angeles,A найм
+car accident lawyers los angeles ca,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles ca,A найм
+car accidents lawyers los angeles,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,A найм
+car wreck attorney los angeles,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident lawyer los angeles ca,A найм
+los angeles auto accident attorneys,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,A найм
+los angeles auto accident law firms,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; car accident attorney near me los angeles,F фирма
+los angeles automobile accident lawyer,2,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles; motor vehicle accident attorney los angeles,A найм
+car accident attorneys los angeles,2,0,0.0,0.0,NEAR_EXACT,car accident attorney near me los angeles; car accident lawyer los angeles ca,A найм
+motor vehicle accident lawyer los angeles,2,0,0.0,0.0,NEAR_EXACT,motor vehicle accident attorney los angeles,A найм
+car accident lawyer near me los angeles,2,0,0.0,0.0,NEAR_EXACT,car accident attorney near me los angeles,A найм
+los angeles motorcycle accident attorneys,2,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer los angeles,A найм
+los angeles motorcycle attorney,2,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer los angeles,A найм
+motorcycle injury attorney los angeles,2,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer los angeles,A найм
+lawyer for motorcycle accident,2,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer,A найм
+lawyers motorcycle accident,2,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer,A найм
+motorbike injury lawyer,2,0,0.0,0.0,NEAR_EXACT,motorcycle injury lawyer,A найм
+motorcycle attorneys,2,0,0.0,0.0,NEAR_EXACT,motorcycle injury lawyer,A найм
+motorcycle injury attorneys,2,0,0.0,0.0,NEAR_EXACT,best motorcycle accident lawyer; motorcycle injury lawyer,A найм
+motorcycle accident attorneys,2,0,0.0,0.0,NEAR_EXACT,motorcycle accident attorney,A найм
+motorcycle accident injury attorney,2,0,0.0,0.0,NEAR_EXACT,motorcycle accident attorney,A найм
+motorcycle crash lawyers,2,0,0.0,0.0,NEAR_EXACT,motorcycle crash lawyer,A найм
+accident lawyers car,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+attorney car accident attorney,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+attorney for car accidents,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+attorneys car accident,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+attorneys for auto accidents,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+auto accident law firm,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,F фирма
+auto accident lawyer attorney,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+auto collision lawyer,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+auto damage lawyer,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+auto injury lawyers,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+automobile attorneys,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+best car accident attorney,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+best lawyer for car accidents,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+car accident injury lawyers near me,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+car accident law firm,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer,F фирма
+car accident lawyer attorney,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+car accident legal,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+car accidents attorney,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+car crash accident law firm,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,F фирма
+car injury accident lawyer,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+good car accident lawyers,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+lawyer auto accident injury,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+lawyer for auto accidents,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+lawyers for automobile accidents,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+lawyers for car accidents,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+lawyers that deal with car accidents,2,0,0.0,0.0,NEAR_EXACT,car accident attorney; car accident lawyer,A найм
+accident lawyer firm,2,0,0.0,0.0,NEAR_EXACT,car accident attorney,F фирма
+auto accident injury lawyers,2,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+auto accident legal advice,2,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+auto car accident lawyer,2,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+auto crash attorney,2,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+automobile accidents attorney,2,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+automobile accidents lawyer,2,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+automobile lawyer,2,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+best car accident lawyers,2,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+best car wreck lawyer,2,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+best lawyer for auto accident,2,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+car accident personal injury attorney,2,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+car accidents attorneys,2,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+car crash legal advice,2,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+hiring a lawyer after car accident,2,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+i accident lawyer near me,2,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+lawyer for automobile accident,2,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+lawyer for car crash,2,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+lawyers for auto accidents,2,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+the best accident lawyer,2,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+traffic accident attorney,2,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+traffic accident lawyer,2,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+accident attorney glendale,2,0,0.0,0.0,NEAR_EXACT,glendale car accident lawyer,A найм
+car accidents attorney glendale,2,0,0.0,0.0,NEAR_EXACT,glendale car accident lawyer,A найм
+glendale car accident lawyers,2,0,0.0,0.0,NEAR_EXACT,glendale car accident lawyer,A найм
+long beach car accident attorney,2,0,0.0,0.0,EXACT,long beach car accident attorney,A найм
+car crash attorney long beach,2,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney,A найм
+long beach accident lawyer,2,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney,A найм
+accident lawyers in pasadena,2,0,0.0,0.0,NEAR_EXACT,pasadena car accident lawyer,A найм
+accident lawyers pasadena,2,0,0.0,0.0,NEAR_EXACT,pasadena car accident lawyer,A найм
+santa ana accident injury attorneys,2,0,0.0,0.0,NEAR_EXACT,santa ana car accident attorney,A найм
+santa ana auto accident attorney,2,0,0.0,0.0,NEAR_EXACT,santa ana car accident attorney,A найм
+accident lawyers bakersfield ca,2,0,0.0,0.0,NEAR_EXACT,bakersfield car accident lawyer,A найм
+bakersfield accident attorney,2,0,0.0,0.0,NEAR_EXACT,bakersfield car accident lawyer,A найм
+car accident attorney bakersfield,2,0,0.0,0.0,NEAR_EXACT,bakersfield car accident lawyer,A найм
+car accident lawyers in bakersfield,2,0,0.0,0.0,NEAR_EXACT,bakersfield car accident lawyer,A найм
+accident attorney newport beach,2,0,0.0,0.0,NEAR_EXACT,newport beach car accident lawyer,A найм
+car accident lawyer newport beach ca,2,0,0.0,0.0,NEAR_EXACT,newport beach car accident lawyer,A найм
+accident attorney anaheim,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer anaheim,A найм
+auto accident lawyer irvine ca,2,0,0.0,0.0,NEAR_EXACT,car accident attorney irvine; car accident lawyer irvine,A найм
+irvine accident attorney,2,0,0.0,0.0,NEAR_EXACT,car accident attorney irvine,A найм
+automobile accident lawyer victorville,2,0,0.0,0.0,NEAR_EXACT,victorville car accident lawyers,A найм
+victorville car accident lawyer,2,0,0.0,0.0,NEAR_EXACT,victorville car accident lawyers,A найм
+auto accident attorney in riverside,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside,A найм
+auto accident lawyer riverside,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside,A найм
+car accident lawyer in riverside,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside,A найм
+car accident lawyer riverside ca,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside,A найм
+car accident lawyers in riverside,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside,A найм
+riverside car accident attorneys,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside,A найм
+best car accident lawyer torrance,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer torrance,A найм
+car accident lawyer fullerton ca,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer fullerton,A найм
+fullerton car accident attorney,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer fullerton,A найм
+auto accident lawyer san diego,2,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+auto accident lawyers in san diego,2,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+car accident injury lawyer san diego,2,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+car accident lawyers san diego,2,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+san diego car accident lawyers,2,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+san diego car crash lawyer,2,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+auto accident lawyer fresno,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno,A найм
+auto accident lawyer fresno ca,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno,A найм
+car accident lawyer in fresno ca,2,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno,A найм
+car accident attorney woodland hills,2,0,0.0,0.0,EXACT,car accident attorney woodland hills,A найм
+car accident attorney in woodland hills,2,0,0.0,0.0,NEAR_EXACT,car accident attorney woodland hills,A найм
+car accident lawyer palm springs,2,0,0.0,0.0,EXACT,car accident lawyer palm springs,A найм
+car accident attorney garden grove,2,0,0.0,0.0,NEAR_EXACT,garden grove car accident lawyer,A найм
+commercial vehicle accident lawyer near me,2,0,0.0,0.0,NEAR_EXACT,truck accident attorney,A найм
+speeding truck accident lawyer,2,0,0.0,0.0,NEAR_EXACT,truck accident attorney,A найм
+truck accident attorney near me,2,0,0.0,0.0,NEAR_EXACT,truck accident attorney,A найм
+best truck accident attorney los angeles,2,0,0.0,0.0,NEAR_EXACT,los angeles truck accident lawyer,A найм
+los angeles commercial vehicle accident attorney,2,0,0.0,0.0,NEAR_EXACT,los angeles truck accident lawyer,A найм
+glendale truck accident lawyer,2,0,0.0,0.0,NEAR_EXACT,truck accident lawyer glendale,A найм
+truck accident attorney glendale,2,0,0.0,0.0,NEAR_EXACT,truck accident lawyer glendale,A найм
+orange county truck accident attorney,2,0,0.0,0.0,NEAR_EXACT,orange county truck accident lawyer,A найм
+brain injury attorney,2,0,0.0,0.0,EXACT,brain injury attorney,A найм
+los angeles brain injury attorney,2,0,0.0,0.0,NEAR_EXACT,brain injury lawyer los angeles,A найм
+los angeles brain injury lawyer,2,0,0.0,0.0,NEAR_EXACT,brain injury lawyer los angeles,A найм
+best car accident lawyers in sacramento,1,0,0.0,0.0,PHRASE,car accident lawyer,A найм
+crane flores injury & car accident lawyers,1,0,0.0,0.0,PHRASE,car accident lawyer,A найм
+rancho cucamonga car accident lawyer,1,0,0.0,0.0,PHRASE,car accident lawyer,A найм
+autoaccident com,1,0,0.0,0.0,NEAR_PHRASE,car accident lawyer,D/прочее
+ilya frangos,1,0,0.0,0.0,NEAR_PHRASE,car accident lawyer,D/прочее
+parke esquire,1,0,0.0,0.0,NEAR_PHRASE,car accident lawyer,D/прочее
+suzanne skolnick,1,0,0.0,0.0,NEAR_PHRASE,car accident lawyer,D/прочее
+car accident attorney in orange county,1,0,0.0,0.0,PHRASE,car accident attorney,A найм
+accident attorneys lancaster ca,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney,A найм
+boden law firm,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney,F фирма
+car accident lawyer canton,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney,A найм
+car accident lawyer corona,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney,A найм
+car accident lawyer orange county ca,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney,A найм
+car accident lawyer san clemente,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney,A найм
+car accident lawyer west hollywood,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney,A найм
+demand rand,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney,D/прочее
+dr ted car accident and personal injury lawyers,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney,A найм
+killian davis and richter,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney,D/прочее
+rana abuershaid,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney,D/прочее
+union city car accident lawyer,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney,A найм
+west hollywood car accident lawyer,1,0,0.0,0.0,NEAR_PHRASE,car accident attorney,A найм
+ca accident firm,1,0,0.0,0.0,NEAR_PHRASE,car wreck lawyer,F фирма
+car accident attorney in encino,1,0,0.0,0.0,NEAR_PHRASE,car wreck lawyer,A найм
+car accident attorney san francisco,1,0,0.0,0.0,NEAR_PHRASE,car wreck lawyer,A найм
+car accident lawyer san luis obispo,1,0,0.0,0.0,NEAR_PHRASE,car wreck lawyer,A найм
+orange county car accident lawyers,1,0,0.0,0.0,NEAR_PHRASE,car wreck lawyer,A найм
+car accident lawyers,1,0,0.0,0.0,EXACT,car accident lawyers,A найм
+law bear,1,0,0.0,0.0,NEAR_PHRASE,car accident lawyers,D/прочее
+accidents com,1,0,0.0,0.0,NEAR_PHRASE,car crash lawyer,D/прочее
+the l a law firm accident attorneys,1,0,0.0,0.0,NEAR_PHRASE,car crash lawyer,F фирма
+aratta law firm car accidents and personal injury lawyer,1,0,0.0,0.0,NEAR_PHRASE,car crash attorney,F фирма
+car accident attorney oak park,1,0,0.0,0.0,NEAR_PHRASE,car crash attorney,A найм
+car accident lawyer paramount,1,0,0.0,0.0,NEAR_PHRASE,car crash attorney,A найм
+car accident lawyer pomona,1,0,0.0,0.0,NEAR_PHRASE,car crash attorney,A найм
+car accident attorney thousand oaks,1,0,0.0,0.0,NEAR_PHRASE,car wreck attorney,A найм
+costa ivone law,1,0,0.0,0.0,NEAR_PHRASE,car injury attorney,D/прочее
+crash legal,1,0,0.0,0.0,NEAR_PHRASE,car injury attorney,A найм
+dara khajavi,1,0,0.0,0.0,NEAR_PHRASE,car injury attorney,D/прочее
+guy levy law firm,1,0,0.0,0.0,NEAR_PHRASE,car injury attorney,F фирма
+jim pocrass,1,0,0.0,0.0,NEAR_PHRASE,car injury attorney,D/прочее
+bretz personal injury & car accident lawyer,1,0,0.0,0.0,PHRASE,car injury lawyer,A найм
+aaron fhima,1,0,0.0,0.0,NEAR_PHRASE,car injury lawyer,D/прочее
+is it worth hiring an attorney for a car accident,1,0,0.0,0.0,NEAR_PHRASE,car injury lawyer,B деньги
+kane handel esq,1,0,0.0,0.0,NEAR_PHRASE,car injury lawyer,D/прочее
+accident attorney modesto,1,0,0.0,0.0,NEAR_PHRASE,car accident law firm,A найм
+accident attorney orange county,1,0,0.0,0.0,NEAR_PHRASE,car accident law firm,A найм
+accident lawyers group inc,1,0,0.0,0.0,NEAR_PHRASE,car accident law firm,A найм
+litigation for car accident,1,0,0.0,0.0,NEAR_PHRASE,car accident law firm,D/прочее
+thatcarhitme,1,0,0.0,0.0,NEAR_PHRASE,car accident law firm,D/прочее
+apex law group los angeles,1,0,0.0,0.0,NEAR_PHRASE,los angeles car accident lawyer,F фирма
+omega law group pc,1,0,0.0,0.0,NEAR_PHRASE,los angeles car accident lawyer,F фирма
+art oganesian,1,0,0.0,0.0,NEAR_PHRASE,car accident injury attorney,D/прочее
+sara golriz,1,0,0.0,0.0,NEAR_PHRASE,car accident injury attorney,D/прочее
+alek zeven,1,0,0.0,0.0,NEAR_PHRASE,beverly hills car accident lawyer,D/прочее
+nelly triphon,1,0,0.0,0.0,NEAR_PHRASE,car collision lawyer,D/прочее
+car accident lawyer downey,1,0,0.0,0.0,NEAR_PHRASE,attorney for car accident,A найм
+car accident lawyer in california,1,0,0.0,0.0,NEAR_PHRASE,attorney for car accident,A найм
+car crash ash san diego,1,0,0.0,0.0,NEAR_PHRASE,attorney for car accident,D/прочее
+marina awed,1,0,0.0,0.0,NEAR_PHRASE,attorney for car accident,D/прочее
+1800 lion law,1,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer,D/прочее
+erik zograbian,1,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer,D/прочее
+law office of seni popat,1,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer,D/прочее
+oceanside car accident lawyer,1,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer,A найм
+saidian & saidian law,1,0,0.0,0.0,NEAR_PHRASE,car accident personal injury lawyer,D/прочее
+edgar lopez law,1,0,0.0,0.0,NEAR_PHRASE,injured in car accident lawyer,D/прочее
+accident lawyer long beach,1,0,0.0,0.0,NEAR_PHRASE,automobile accident attorney,A найм
+depaoli law team,1,0,0.0,0.0,NEAR_PHRASE,auto injury lawyer,D/прочее
+kirill mikhaylov,1,0,0.0,0.0,NEAR_PHRASE,auto injury lawyer,D/прочее
+tk injury,1,0,0.0,0.0,NEAR_PHRASE,auto injury lawyer,D/прочее
+accident abe,1,0,0.0,0.0,NEAR_PHRASE,auto injury attorney,D/прочее
+ravn r whitington,1,0,0.0,0.0,NEAR_PHRASE,auto injury attorney,D/прочее
+accident lawyer modesto,1,0,0.0,0.0,NEAR_PHRASE,auto accident law firm,A найм
+accident lawyer torrance,1,0,0.0,0.0,NEAR_PHRASE,auto accident law firm,A найм
+tim mcdonough attorney,1,0,0.0,0.0,NEAR_PHRASE,auto accident law firm,A найм
+accident lawyer huntington beach,1,0,0.0,0.0,NEAR_PHRASE,traffic accident lawyer,A найм
+accident lawyer irvine,1,0,0.0,0.0,NEAR_PHRASE,traffic accident lawyer,A найм
+accident lawyers group,1,0,0.0,0.0,NEAR_PHRASE,traffic accident lawyer,A найм
+carlsbad accident attorney,1,0,0.0,0.0,NEAR_PHRASE,traffic accident lawyer,A найм
+oceanside pedestrian accident lawyer,1,0,0.0,0.0,NEAR_PHRASE,traffic accident lawyer,A найм
+oleg gekman,1,0,0.0,0.0,NEAR_PHRASE,traffic accident lawyer,D/прочее
+roger tomalas,1,0,0.0,0.0,NEAR_PHRASE,traffic accident lawyer,D/прочее
+motorcycle lawyers near me,1,0,0.0,0.0,NEAR_PHRASE,vehicle accident lawyer,A найм
+accident attorney san bernardino,1,0,0.0,0.0,NEAR_PHRASE,motor vehicle accident attorney,A найм
+mta accident lawyer,1,0,0.0,0.0,NEAR_PHRASE,vehicle accident attorney,A найм
+accident defence attorney,1,0,0.0,0.0,NEAR_PHRASE,motor vehicle accident lawyer,A найм
+call big ike,1,0,0.0,0.0,NEAR_PHRASE,motor vehicle accident lawyer,D/прочее
+california accident law firm,1,0,0.0,0.0,NEAR_PHRASE,vehicle accident injury lawyer,F фирма
+hillstone law los angeles,1,0,0.0,0.0,NEAR_PHRASE,vehicle accident injury lawyer,D/прочее
+rabin saidian,1,0,0.0,0.0,NEAR_PHRASE,vehicle accident injury lawyer,D/прочее
+truck accident lawyer oxnard,1,0,0.0,0.0,PHRASE,truck accident lawyer,A найм
+truck accident litigation,1,0,0.0,0.0,NEAR_PHRASE,truck accident lawyer,D/прочее
+truck accident lawyer aliso viejo,1,0,0.0,0.0,NEAR_PHRASE,truck crash attorney,A найм
+truck accident attorney los angeles,1,0,0.0,0.0,EXACT,truck accident attorney los angeles,A найм
+truck driver fatigue accident lawyer,1,0,0.0,0.0,PHRASE,truck accident lawyers,A найм
+ataa near me,1,0,0.0,0.0,NEAR_PHRASE,truck accident lawyers,D/прочее
+diana diskin attorney,1,0,0.0,0.0,NEAR_PHRASE,truck accident injury attorney,A найм
+truck accident lawsuit,1,0,0.0,0.0,NEAR_PHRASE,truck wreck attorney,B деньги
+ups truck accident lawyer,1,0,0.0,0.0,NEAR_PHRASE,truck wreck attorney,A найм
+empire law truck & car accident lawyers,1,0,0.0,0.0,NEAR_PHRASE,truck collision attorney,A найм
+truck accident lawyer brentwood,1,0,0.0,0.0,NEAR_PHRASE,truck collision lawyer,A найм
+commercial truck accident lawyer,1,0,0.0,0.0,EXACT,commercial truck accident lawyer,A найм
+18 wheeler accident lawyer,1,0,0.0,0.0,EXACT,18 wheeler accident lawyer,A найм
+big rig accident attorneys in los angeles,1,0,0.0,0.0,NEAR_PHRASE,18 wheeler lawyer,A найм
+big rig wreck lawyer,1,0,0.0,0.0,EXACT,big rig wreck lawyer,A найм
+riverside truck accident lawyer,1,0,0.0,0.0,NEAR_PHRASE,big rig wreck lawyer,A найм
+18 wheeler accident lawyer los angeles,1,0,0.0,0.0,EXACT,18 wheeler accident lawyer los angeles,A найм
+best pedestrian accident lawyer,1,0,0.0,0.0,NEAR_EXACT,pedestrian accident lawyer,A найм
+pedestrian accident lawyers,1,0,0.0,0.0,NEAR_EXACT,pedestrian accident lawyer,A найм
+pedestrian attorney,1,0,0.0,0.0,NEAR_EXACT,pedestrian accident lawyer,A найм
+pedestrian injury accident lawyer,1,0,0.0,0.0,NEAR_EXACT,pedestrian accident lawyer,A найм
+pedestrian accident attorney,1,0,0.0,0.0,EXACT,pedestrian accident attorney,A найм
+los angeles pedestrian accident attorney,1,0,0.0,0.0,NEAR_EXACT,pedestrian accident lawyer los angeles,A найм
+los angeles pedestrian accident lawyers,1,0,0.0,0.0,NEAR_EXACT,pedestrian accident lawyer los angeles,A найм
+pedestrian accident lawyer beverly hills,1,0,0.0,0.0,NEAR_EXACT,beverly hills pedestrian accident lawyer,A найм
+california pedestrian accident lawyer,1,0,0.0,0.0,NEAR_EXACT,pedestrian accident lawyer california,A найм
+pedestrian accident attorney california,1,0,0.0,0.0,NEAR_EXACT,pedestrian accident lawyer california,A найм
+pedestrian accident lawyers california,1,0,0.0,0.0,NEAR_EXACT,pedestrian accident lawyer california,A найм
+loss of life lawyer,1,0,0.0,0.0,NEAR_EXACT,best wrongful death lawyer,A найм
+auto accident compensation,1,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+auto accident settlement,1,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+auto claim,1,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+auto claims services,1,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+auto damage claim,1,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+auto insurance claims,1,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+auto insurance injury claim process,1,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+car accident claim personal injury,1,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+car accident injury claim,1,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+car accident personal injury claim,1,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+car crash insurance claim,1,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+car insurance accident claim process,1,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+car insurance claims,1,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+car wreck compensation,1,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+collision claim,1,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+crash claim,1,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+file a claim car insurance,1,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+filing a claim for a car accident,1,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+insurance claim car accident,1,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+making a claim after car accident,1,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+personal injury claim car crash,1,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+process of insurance claim car accident,1,0,0.0,0.0,NEAR_EXACT,car accident claim,B деньги
+suing for a car accident,1,0,0.0,0.0,NEAR_EXACT,car accident claim,D/прочее
+accident compensation program,1,0,0.0,0.0,NEAR_EXACT,car accident compensation,B деньги
+accident compensation service,1,0,0.0,0.0,NEAR_EXACT,car accident compensation,B деньги
+auto insurance compensation,1,0,0.0,0.0,NEAR_EXACT,car accident compensation,B деньги
+car accident paying out of pocket,1,0,0.0,0.0,NEAR_EXACT,car accident compensation,D/прочее
+car crash insurance payouts,1,0,0.0,0.0,NEAR_EXACT,car accident compensation,B деньги
+car crash settlement,1,0,0.0,0.0,NEAR_EXACT,car accident compensation,B деньги
+compensation after car accident,1,0,0.0,0.0,NEAR_EXACT,car accident compensation,B деньги
+do you get money if someone hits your car,1,0,0.0,0.0,NEAR_EXACT,car accident compensation,D/прочее
+accident settlement service,1,0,0.0,0.0,NEAR_EXACT,car accident settlement,B деньги
+car accident injury settlement amounts,1,0,0.0,0.0,NEAR_EXACT,car accident settlement,B деньги
+car insurance settlement,1,0,0.0,0.0,NEAR_EXACT,car accident settlement,B деньги
+settlement amount for car accident,1,0,0.0,0.0,NEAR_EXACT,car accident settlement,B деньги
+settlement from a car accident,1,0,0.0,0.0,NEAR_EXACT,car accident settlement,B деньги
+average car accident injury settlement,1,0,0.0,0.0,NEAR_EXACT,average car accident settlement,B деньги
+average car settlement,1,0,0.0,0.0,NEAR_EXACT,average car accident settlement,B деньги
+average car settlement amount,1,0,0.0,0.0,NEAR_EXACT,average car accident settlement,B деньги
+average injury settlement car accident,1,0,0.0,0.0,NEAR_EXACT,average car accident settlement,B деньги
+average lawsuit settlement for car accident,1,0,0.0,0.0,NEAR_EXACT,average car accident settlement,B деньги
+car crash payout,1,0,0.0,0.0,NEAR_EXACT,average car accident settlement,B деньги
+lawsuit car accident settlements amounts,1,0,0.0,0.0,NEAR_EXACT,average car accident settlement,B деньги
+what's the average car accident settlement,1,0,0.0,0.0,NEAR_EXACT,average car accident settlement,B деньги
+what's the average settlement for a car accident,1,0,0.0,0.0,NEAR_EXACT,average car accident settlement,B деньги
+accident calculator,1,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator,D/прочее
+accident calculator free,1,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator,D/прочее
+auto injury calculator,1,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator,D/прочее
+auto injury settlement calculator,1,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator,B деньги
+car accident injury compensation calculator,1,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator,B деньги
+hit and run settlement calculator,1,0,0.0,0.0,NEAR_EXACT,car accident settlement calculator,B деньги
+bodily injury settlement calculator,1,0,0.0,0.0,NEAR_EXACT,personal injury settlement calculator,B деньги
+injury calculator,1,0,0.0,0.0,NEAR_EXACT,personal injury settlement calculator,D/прочее
+lawsuit calculator,1,0,0.0,0.0,NEAR_EXACT,personal injury settlement calculator,B деньги
+average payout for a car accident,1,0,0.0,0.0,NEAR_EXACT,car accident payout,B деньги
+insurance payout after accident,1,0,0.0,0.0,NEAR_EXACT,car accident payout,C что делать
+pay out for car accident,1,0,0.0,0.0,NEAR_EXACT,car accident payout,D/прочее
+pay out of pocket for car accident,1,0,0.0,0.0,NEAR_EXACT,car accident payout,D/прочее
+what's the average pay out for a car accident,1,0,0.0,0.0,NEAR_EXACT,car accident payout,D/прочее
+sue uber lawyer,1,0,0.0,0.0,NEAR_EXACT,uber accident lawyer,B деньги
+uber accident lawyers,1,0,0.0,0.0,NEAR_EXACT,uber accident lawyer,A найм
+uber personal injury,1,0,0.0,0.0,NEAR_EXACT,uber accident lawyer,D/прочее
+lyft accident lawyer,1,0,0.0,0.0,EXACT,lyft accident lawyer,A найм
+uber accident injury attorney,1,0,0.0,0.0,NEAR_EXACT,uber accident attorney,A найм
+uber crash lawyer,1,0,0.0,0.0,NEAR_EXACT,uber accident attorney,A найм
+uber injury attorney,1,0,0.0,0.0,NEAR_EXACT,uber accident attorney,A найм
+uber injury lawyer,1,0,0.0,0.0,NEAR_EXACT,uber accident attorney,A найм
+ride share accident attorney,1,0,0.0,0.0,NEAR_EXACT,rideshare accident attorney,A найм
+uber lawyer los angeles,1,0,0.0,0.0,NEAR_EXACT,uber accident lawyer los angeles,A найм
+lyft accident attorneys,1,0,0.0,0.0,NEAR_EXACT,lyft accident attorney,A найм
+lyft car accident attorney,1,0,0.0,0.0,NEAR_EXACT,lyft accident attorney,A найм
+lyft car accident attorneys,1,0,0.0,0.0,NEAR_EXACT,lyft accident attorney,A найм
+lyft car accident lawyer,1,0,0.0,0.0,NEAR_EXACT,lyft accident attorney,A найм
+los angeles hit and run lawyer,1,0,0.0,0.0,NEAR_EXACT,rideshare accident lawyer los angeles,A найм
+los angeles lyft accident lawyer,1,0,0.0,0.0,NEAR_EXACT,rideshare accident lawyer los angeles,A найм
+uber accident attorney los angeles,1,0,0.0,0.0,NEAR_EXACT,rideshare accident lawyer los angeles,A найм
+uber accident attorneys los angeles,1,0,0.0,0.0,NEAR_EXACT,rideshare accident lawyer los angeles,A найм
+best rideshare accident lawyer,1,0,0.0,0.0,NEAR_EXACT,rideshare accident lawyer,A найм
+best bike accident lawyer,1,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer,A найм
+bicycle accident lawyers,1,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer,A найм
+bike accident lawyers,1,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer,A найм
+top rated bicycle accident attorney,1,0,0.0,0.0,NEAR_EXACT,bicycle accident attorney,A найм
+bicycle accident law firm,1,0,0.0,0.0,NEAR_EXACT,bike crash attorney,F фирма
+bicycle accident litigation,1,0,0.0,0.0,NEAR_EXACT,bike crash attorney,D/прочее
+bicycle injury attorneys,1,0,0.0,0.0,NEAR_EXACT,bike crash attorney,A найм
+bike injury attorney,1,0,0.0,0.0,NEAR_EXACT,bike crash attorney,A найм
+bike injury lawyer,1,0,0.0,0.0,NEAR_EXACT,bike crash attorney,A найм
+bike collision lawyer,1,0,0.0,0.0,NEAR_EXACT,bike crash lawyer,A найм
+bicycle accidents lawyer los angeles,1,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles,A найм
+bike accident law firm in los angeles,1,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles,F фирма
+los angeles bicycle accident attorneys,1,0,0.0,0.0,NEAR_EXACT,bicycle accident lawyer los angeles,A найм
+accident lawyers in la,1,0,0.0,0.0,NEAR_EXACT,los angeles car accident lawyer,A найм
+auto injury lawyer los angeles,1,0,0.0,0.0,NEAR_EXACT,los angeles car accident lawyer,A найм
+car accident attorney la,1,0,0.0,0.0,NEAR_EXACT,los angeles car accident lawyer,A найм
+car accidents attorney in los angeles,1,0,0.0,0.0,NEAR_EXACT,los angeles car accident lawyer,A найм
+car crash attorney los angeles,1,0,0.0,0.0,NEAR_EXACT,los angeles car accident lawyer,A найм
+la car accident attorney,1,0,0.0,0.0,NEAR_EXACT,los angeles car accident lawyer,A найм
+los angeles car accident law firms,1,0,0.0,0.0,NEAR_EXACT,los angeles car accident lawyer,F фирма
+beverly hills accident lawyer,1,0,0.0,0.0,NEAR_EXACT,beverly hills car accident attorney,A найм
+auto accident attorney beverly hills,1,0,0.0,0.0,NEAR_EXACT,beverly hills car accident lawyer,A найм
+auto accident lawyer beverly hills ca,1,0,0.0,0.0,NEAR_EXACT,beverly hills car accident lawyer,A найм
+beverly hills auto accident attorney,1,0,0.0,0.0,NEAR_EXACT,beverly hills car accident lawyer,A найм
+car accident attorneys beverly hills,1,0,0.0,0.0,NEAR_EXACT,beverly hills car accident lawyer,A найм
+best car accident lawyer los angeles,1,0,0.0,0.0,NEAR_EXACT,los angeles car accident attorney,A найм
+top accident lawyers los angeles,1,0,0.0,0.0,NEAR_EXACT,los angeles car accident attorney,A найм
+accident attorneys los angeles ca,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,A найм
+automobile accident attorney los angeles,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,A найм
+automobile accident attorneys in los angeles,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,A найм
+best accident lawyer in los angeles,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,A найм
+best auto accident attorney los angeles,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,A найм
+car accident law firm in los angeles,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,F фирма
+car accident law firms in los angeles,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,F фирма
+car accident lawyer los angeles california,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,A найм
+car accident lawyers in la,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,A найм
+car accident lawyers in los angeles ca,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,A найм
+la accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,A найм
+la auto accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,A найм
+los angeles accident injury lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,A найм
+los angeles auto accident lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,A найм
+los angeles california car accident lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,A найм
+los angeles car wreck lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,A найм
+traffic accident lawyer los angeles,1,0,0.0,0.0,NEAR_EXACT,car accident attorney los angeles,A найм
+car crash lawyer in los angeles,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer los angeles ca,A найм
+los angeles traffic accident attorney,1,0,0.0,0.0,NEAR_EXACT,motor vehicle accident attorney los angeles,A найм
+accident lawyers in los angeles ca,1,0,0.0,0.0,NEAR_EXACT,car accident attorney near me los angeles,A найм
+auto accident attorney la,1,0,0.0,0.0,NEAR_EXACT,car accident attorney near me los angeles,A найм
+best accident lawyer los angeles,1,0,0.0,0.0,NEAR_EXACT,car accident attorney near me los angeles,A найм
+car crash lawyers los angeles,1,0,0.0,0.0,NEAR_EXACT,car accident attorney near me los angeles,A найм
+los angeles ca car accident attorney,1,0,0.0,0.0,NEAR_EXACT,car accident attorney near me los angeles,A найм
+los angeles personal injury accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney near me los angeles,A найм
+los angeles motorcycle crash attorney,1,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer los angeles,A найм
+los angeles motorcycle injury lawyer,1,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer los angeles,A найм
+motorcycle accident attorney in los angeles,1,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer los angeles,A найм
+motorcycle accident attorney los angeles,1,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer los angeles,A найм
+motorcycle attorney los angeles,1,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer los angeles,A найм
+motorcycle injury lawyer los angeles,1,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer los angeles,A найм
+accident lawyer motorcycle,1,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer,A найм
+lawyer motorcycle accident,1,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer,A найм
+motorcycle injury lawyer,1,0,0.0,0.0,EXACT,motorcycle injury lawyer,A найм
+motorcycle accident injury lawyers,1,0,0.0,0.0,NEAR_EXACT,motorcycle injury lawyer,A найм
+motorcycle lawyer,1,0,0.0,0.0,NEAR_EXACT,motorcycle injury lawyer,A найм
+motorcycle wreck lawyer,1,0,0.0,0.0,NEAR_EXACT,motorcycle injury lawyer,A найм
+attorney for motorcycle accident,1,0,0.0,0.0,NEAR_EXACT,motorcycle accident attorney,A найм
+best motorcycle accident attorney,1,0,0.0,0.0,NEAR_EXACT,motorcycle accident attorney,A найм
+motorcycle accident injury attorneys,1,0,0.0,0.0,NEAR_EXACT,motorcycle accident attorney,A найм
+california motorcycle accident lawyer,1,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer california,A найм
+motorcycle attorney california,1,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer california,A найм
+motorcycle attorneys california,1,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer california,A найм
+motorcycle lawyers california,1,0,0.0,0.0,NEAR_EXACT,motorcycle accident lawyer california,A найм
+motorcycle wreck law firm,1,0,0.0,0.0,NEAR_EXACT,motorcycle crash lawyer,F фирма
+best motorcycle accident lawyer,1,0,0.0,0.0,EXACT,best motorcycle accident lawyer,A найм
+best motorcycle wreck lawyer,1,0,0.0,0.0,NEAR_EXACT,best motorcycle accident lawyer,A найм
+lawyer motorcycle,1,0,0.0,0.0,NEAR_EXACT,best motorcycle accident lawyer,A найм
+motorcycle crash law firm,1,0,0.0,0.0,NEAR_EXACT,best motorcycle accident lawyer,F фирма
+accident car injury lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+accident car lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+accident injury attorneys near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+accident law near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,D/прочее
+accidents attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+attorney for a car accident,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+attorney for auto accidents,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+attorney for car,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+attorney for car crash,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+attorneys accidents,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+attorneys for automobile accidents,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+auto accident attorney lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+auto attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+auto collision lawyer near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+auto injury accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+auto injury accident lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+auto injury attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+auto injury lawyer near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+auto insurance lawyer accident,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+auto law firm,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,F фирма
+auto lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+auto wreck law firm,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,F фирма
+automobile accident attorney near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+automobile accident injury attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+automobile accident law firm,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,F фирма
+automobile injury attorneys,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+automotive accident attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+best auto accident attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+best auto accident attorney near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+best automobile accident attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+best car accident lawyer near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+best car crash attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+best car crash lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+best car wreck attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+best lawyer for car accident,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+car accident and personal injury lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+car accident attorney best,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+car accident injury lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+car accident law firm near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,F фирма
+car accident lawyer injury,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+car accident should i get a lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,C что делать
+car collision lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+car crash injury lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+car crash lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+car injury justice,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,D/прочее
+car wreck injury lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+good car accident attorneys,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+injury lawyer car accident,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+lawyer car,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+lawyer car accidents,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+lawyer for car accident injury,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+lawyer for car accidents,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+lawyer for car wreck,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+lawyers car accident,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+lawyers for a car accident,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+lawyers for auto,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+lawyers for car accidents near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+lawyers for cars,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+local car accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+motor accident attorney near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+personal injury car accident attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+the best auto accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+top rated accident attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+top rated car accident lawyers near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+traffic accident attorney near me,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+your accident attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer,A найм
+accident attorney injury,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+accident automobile lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+accident claim lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,B деньги
+accident insurance attorney,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+accident law office,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,D/прочее
+accident lawyer advice,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+accident lawyer attorney,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+accidents law firm,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,F фирма
+attorney accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+attorney car accident injury,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+attorney for automobile accident,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+attorney for car wreck,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+attorneys car accidents,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+auto accident injury lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+auto accidents lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+auto accidents lawyer near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+auto collision attorney,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+auto injury attorneys,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+auto wreck lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+automobile accident injury lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+automobile accident lawyer near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+automobile accident lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+automobile attorney,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+automobile attorneys near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+automobile crash lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+automobile lawyers near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+best accident attorney near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+best attorney car accident,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+best attorney for auto accident,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+best auto accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+best auto accident lawyers near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+best car accident attorneys near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+best car crash lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+best lawyer car accident injury,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+best lawyers for car accident,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+best lawyers for car accidents,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+car accident attorneys near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+car accident counsel,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,D/прочее
+car accident injury attorneys near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+car accident injury law,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,D/прочее
+car accident law firms,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,F фирма
+car accident law firms near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,F фирма
+car accident lawyer attorneys,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+car accidents lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+car attorneys,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+car crash law firm,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,F фирма
+car injury attorney,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+car injury attorneys near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+car lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+car lawyers accident,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+car wreck attorneys,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+car wreck attorneys near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+crash law office,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,D/прочее
+good accident attorneys,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+good auto accident lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+good car accident attorney,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+good car accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+law car accident,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,D/прочее
+law firms for accident,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,F фирма
+law firms for car accident,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,F фирма
+lawyer accident near me,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+lawyer auto,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+lawyer car crash,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+lawyer car wreck,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+lawyer for accident car,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+lawyer for auto accident injury,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+lawyer for car wrecks,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+lawyers automobile accident,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+lawyers for accident cars,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+lawyers for accident claims,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,B деньги
+need a lawyer for car accident,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+personal injury attorneys car accident,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+personal injury lawyer for car accident,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+serious car crash lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+top rated car wreck lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+wreck injury lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident attorney,A найм
+accident lawyers in glendale ca,1,0,0.0,0.0,NEAR_EXACT,glendale car accident lawyer,A найм
+auto accident attorney glendale,1,0,0.0,0.0,NEAR_EXACT,glendale car accident lawyer,A найм
+glendale accident attorney,1,0,0.0,0.0,NEAR_EXACT,glendale car accident lawyer,A найм
+accident attorney in long beach,1,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney,A найм
+car accident attorney long beach,1,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney,A найм
+car accident attorney long beach ca,1,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney,A найм
+car accident attorneys long beach ca,1,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney,A найм
+long beach accident attorney,1,0,0.0,0.0,NEAR_EXACT,long beach car accident attorney,A найм
+accident attorney santa ana,1,0,0.0,0.0,NEAR_EXACT,santa ana car accident attorney,A найм
+accident lawyer santa ana,1,0,0.0,0.0,NEAR_EXACT,santa ana car accident attorney,A найм
+car accident attorney santa ana,1,0,0.0,0.0,NEAR_EXACT,santa ana car accident attorney,A найм
+accident lawyers in bakersfield ca,1,0,0.0,0.0,NEAR_EXACT,bakersfield car accident lawyer,A найм
+bakersfield auto accident attorneys,1,0,0.0,0.0,NEAR_EXACT,bakersfield car accident lawyer,A найм
+car accident attorney in bakersfield,1,0,0.0,0.0,NEAR_EXACT,bakersfield car accident lawyer,A найм
+car accident lawyers bakersfield ca,1,0,0.0,0.0,NEAR_EXACT,bakersfield car accident lawyer,A найм
+car accident lawyers in bakersfield ca,1,0,0.0,0.0,NEAR_EXACT,bakersfield car accident lawyer,A найм
+newport beach car accident attorneys,1,0,0.0,0.0,NEAR_EXACT,newport beach car accident lawyer,A найм
+newport beach car accident lawyers,1,0,0.0,0.0,NEAR_EXACT,newport beach car accident lawyer,A найм
+beverly hills accident attorneys,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer beverly hills,A найм
+car accident lawyer anaheim ca,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer anaheim,A найм
+car accident attorneys in irvine,1,0,0.0,0.0,NEAR_EXACT,car accident attorney irvine,A найм
+irvine auto accident attorney,1,0,0.0,0.0,NEAR_EXACT,car accident attorney irvine,A найм
+auto accident attorney irvine ca,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer irvine,A найм
+car accident lawyer irvine ca,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer irvine,A найм
+auto accident attorney santa monica,1,0,0.0,0.0,NEAR_EXACT,santa monica car accident lawyer,A найм
+car accident attorney santa monica,1,0,0.0,0.0,NEAR_EXACT,santa monica car accident lawyer,A найм
+victorville auto accident lawyer,1,0,0.0,0.0,NEAR_EXACT,victorville car accident lawyers,A найм
+victorville car accident attorney,1,0,0.0,0.0,NEAR_EXACT,victorville car accident lawyers,A найм
+accident lawyers in riverside,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside,A найм
+car accident attorneys in riverside,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside,A найм
+car accident attorneys riverside,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside,A найм
+car accident lawyer in riverside ca,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside,A найм
+car accident lawyers riverside,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside,A найм
+riverside auto accident attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside,A найм
+riverside auto accident lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside,A найм
+riverside california car accident lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside,A найм
+riverside car accident attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside,A найм
+riverside car accident lawyers,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer riverside,A найм
+accident attorney torrance ca,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer torrance,A найм
+auto accident attorney in torrance,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer torrance,A найм
+car accident attorney torrance,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer torrance,A найм
+accident attorney san diego,1,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+accident lawyers san diego,1,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+auto accident attorney san diego,1,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+auto accident attorneys san diego,1,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+car accident attorneys san diego,1,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+car crash attorneys san diego,1,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+car crash lawyer san diego,1,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+car wreck attorneys san diego,1,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+san diego auto accident attorneys,1,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+san diego auto accident lawyer,1,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+san diego california car accident lawyers,1,0,0.0,0.0,NEAR_EXACT,san diego car accident lawyer,A найм
+accident attorney fresno,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno,A найм
+car accident attorney fresno ca,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno,A найм
+car accident attorneys in fresno,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer fresno,A найм
+car accident attorney chula vista,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer chula vista,A найм
+mission viejo car accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer mission viejo,A найм
+car accident attorney laguna niguel,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer laguna niguel,A найм
+palm springs car accident lawyer,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer palm springs,A найм
+carlsbad car accident attorney,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer carlsbad,A найм
+auto accident attorney costa mesa,1,0,0.0,0.0,NEAR_EXACT,car accident lawyer costa mesa,A найм
+best truck accident attorney,1,0,0.0,0.0,NEAR_EXACT,truck accident attorney,A найм
+best truck accident lawyers,1,0,0.0,0.0,NEAR_EXACT,truck accident attorney,A найм
+big rig accident law firm,1,0,0.0,0.0,NEAR_EXACT,truck accident attorney,F фирма
+big truck wreck attorney,1,0,0.0,0.0,NEAR_EXACT,truck accident attorney,A найм
+commercial truck attorney,1,0,0.0,0.0,NEAR_EXACT,truck accident attorney,A найм
+commercial vehicle accident lawyers,1,0,0.0,0.0,NEAR_EXACT,truck accident attorney,A найм
+tractor trailer accident lawyers,1,0,0.0,0.0,NEAR_EXACT,truck accident attorney,A найм
+truck accident injury attorneys,1,0,0.0,0.0,NEAR_EXACT,truck accident attorney,A найм
+truck accident law,1,0,0.0,0.0,NEAR_EXACT,truck accident attorney,D/прочее
+truck accident lawyers near me,1,0,0.0,0.0,NEAR_EXACT,truck accident attorney,A найм
+truck wreck attorney near me,1,0,0.0,0.0,NEAR_EXACT,truck accident attorney,A найм
+truck wreck lawyer near me,1,0,0.0,0.0,NEAR_EXACT,truck accident attorney,A найм
+truck accident lawyers in los angeles,1,0,0.0,0.0,NEAR_EXACT,los angeles truck accident lawyer,A найм
+riverside truck accident attorney,1,0,0.0,0.0,EXACT,riverside truck accident attorney,A найм
+san diego truck accident lawyers,1,0,0.0,0.0,NEAR_EXACT,truck accident lawyer san diego,A найм
+truck accident lawyer long beach,1,0,0.0,0.0,EXACT,truck accident lawyer long beach,A найм
+newport beach truck accident lawyer,1,0,0.0,0.0,EXACT,newport beach truck accident lawyer,A найм
+orange county ups truck accident attorney,1,0,0.0,0.0,NEAR_EXACT,orange county truck accident lawyer,A найм
+truck accident attorney orange county,1,0,0.0,0.0,NEAR_EXACT,orange county truck accident lawyer,A найм
+truck accident attorney irvine,1,0,0.0,0.0,NEAR_EXACT,irvine truck accident lawyer,A найм
+beverly hills truck accident attorney,1,0,0.0,0.0,NEAR_EXACT,beverly hills truck accident lawyer,A найм
+brain damage attorney,1,0,0.0,0.0,NEAR_EXACT,brain injury lawyer,A найм
+brain lawyer,1,0,0.0,0.0,NEAR_EXACT,brain injury lawyer,A найм
+brain trauma lawyer,1,0,0.0,0.0,NEAR_EXACT,brain injury lawyer,A найм
+traumatic brain injury lawyer,1,0,0.0,0.0,EXACT,traumatic brain injury lawyer,A найм
+tbi attorney los angeles,1,0,0.0,0.0,NEAR_EXACT,brain injury lawyer los angeles,A найм

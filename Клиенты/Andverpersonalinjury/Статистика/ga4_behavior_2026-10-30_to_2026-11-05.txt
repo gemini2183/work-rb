@@ -1,0 +1,133 @@
+GA4 549802233 | 2026-10-30 → 2026-11-05 | исключено: страны ['Spain'], города —
+
+== 1. Состав сеансов по стране и городу (БЕЗ исключений) — тестовый трафик виден здесь
+страна | город | сеансы | вовлечённые
+United States | Los Angeles | 18 | 8
+Albania | Tirana | 4 | 0
+India | Delhi | 4 | 3
+United States | (not set) | 3 | 0
+United States | San Francisco | 3 | 1
+United States | San Jose | 3 | 0
+United States | Colusa | 2 | 0
+United States | New York | 2 | 2
+United States | Rialto | 2 | 1
+ |  | 1 | 1
+Afghanistan | Kabul | 1 | 1
+Angola | Luanda | 1 | 0
+India | Bhubaneswar | 1 | 0
+India | Hyderabad | 1 | 1
+India | Rudrapur | 1 | 0
+India | Warangal | 1 | 1
+United States | Ceres | 1 | 0
+United States | College Place | 1 | 0
+United States | Coos Bay | 1 | 0
+United States | Dublin | 1 | 1
+United States | Fresno | 1 | 0
+United States | Friday Harbor | 1 | 0
+United States | Gustine | 1 | 0
+United States | Inglewood | 1 | 0
+United States | Irvine | 1 | 1
+
+== 2. Источник/канал и устройство (после исключений)
+источник / канал | устройство | сеансы | вовлечённые | ср. время вовлечения, с
+chatgpt.com / cpc | mobile | 24 | 3 | 78
+google / cpc | desktop | 18 | 11 | 421
+google / cpc | mobile | 13 | 5 | 18
+google / organic | desktop | 5 | 2 | 3
+app.ppcreveal.ai / referral | desktop | 4 | 3 | 201
+(direct) / (none) | desktop | 2 | 1 | 0
+(data not available) | desktop | 1 | 1 | 16
+chatgpt.com / cpc | desktop | 1 | 0 | 0
+
+== 3. События (после исключений): число событий и сеансов с событием
+событие | событий | пользователей
+block_time | 124 | 27
+block_view | 80 | 30
+page_view | 69 | 58
+session_start | 68 | 59
+first_visit | 57 | 57
+scroll_depth | 43 | 16
+stay_10s | 17 | 16
+scroll | 8 | 7
+engaged_30s | 6 | 5
+faq_open | 3 | 1
+cta_click | 1 | 1
+engaged_90s | 1 | 1
+quiz_start | 1 | 1
+quiz_step | 1 | 1
+
+== 4. Блоки: показ блока (block_view) и секунды (block_time)
+блок | block_view событий | block_view пользователей
+hero | 12 | 9
+fee | 6 | 6
+form_a | 6 | 5
+ai_hero | 5 | 5
+attorney | 3 | 3
+faq | 3 | 3
+how | 3 | 3
+injuries | 3 | 3
+insurers | 3 | 3
+reviews | 3 | 3
+team | 3 | 3
+truck_cases | 3 | 3
+california_bicycle_accident_lawyer_free | 2 | 2
+california_uber_and_lyft_accident | 2 | 2
+final | 2 | 2
+prefer_we_call_you_leave | 2 | 2
+quiz | 2 | 2
+situations | 2 | 2
+a_dedicated_team_behind_your | 1 | 1
+after_a_bicycle_crash_what | 1 | 1
+after_a_head_injury_what | 1 | 1
+california_brain_injury_lawyer_free | 1 | 1
+common_brain_injury_situations_landver | 1 | 1
+early_offer | 1 | 1
+evidence | 1 | 1
+footer | 1 | 1
+what_happens_when_you_call | 1 | 1
+what_insurance_companies_often_say | 1 | 1
+what_insurance_companies_often_tell | 1 | 1
+what_uber_lyft_and_their | 1 | 1
+
+== 4b. Секунды по блокам (block_time)
+блок | событий | секунд всего
+header | 23 | 136
+hero | 17 | 87
+california_brain_injury_lawyer_free | 9 | 133
+ai_hero | 8 | 31
+reviews | 6 | 9
+form_a | 5 | 24
+how | 4 | 7
+insurers | 4 | 15
+prefer_we_call_you_leave | 4 | 16
+a_dedicated_team_behind_your | 3 | 55
+after_a_head_injury_what | 3 | 8
+california_uber_and_lyft_accident | 3 | 6
+common_brain_injury_situations_landver | 3 | 32
+faq | 3 | 15
+fee | 3 | 5
+injuries | 3 | 16
+team | 3 | 14
+attorney | 2 | 5
+california_bicycle_accident_lawyer_free | 2 | 10
+early_offer | 2 | 3
+what_happens_when_you_call | 2 | 3
+what_insurance_companies_often_say | 2 | 11
+why_is_the_first_review | 2 | 2
+california_pedestrian_accident_lawyer_free | 1 | 2
+evidence | 1 | 2
+final | 1 | 1
+footer | 1 | 3
+quiz | 1 | 1
+situations | 1 | 1
+what_insurance_companies_often_tell | 1 | 24
+
+== 5. Клики по телефону по местам
+место | кликов | пользователей
+(нет данных)
+
+== 5b. Вопросы FAQ, которые открывали
+вопрос | раз | пользователей
+How much does it cost to hire Landver Law? | 1 | 1
+How much is my car accident settlement worth? | 1 | 1
+What is the average car accident settlement in California? | 1 | 1
