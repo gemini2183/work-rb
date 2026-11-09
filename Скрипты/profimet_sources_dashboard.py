@@ -204,9 +204,11 @@ def client_scheme_orders(sheet, client=None, frm=None, to=None):
         real_od = bool(od)
         if od:
             est = pd.Timestamp(min(od)[:10])
-        # Решение пользователя 09.11: продажа относится к периоду по ДАТЕ ПРОДАЖИ из CRM (заказ октября, проданный в ноябре, — ноябрьская продажа).
-        # «Дата заказа» (est) остаётся для показа и для связи с атрибуцией; подгонка «разрыв 7+ дней → дата продажи» убрана.
-        day = pd.Timestamp(sale).date() if sale else est.date()
+        # Режим «как у клиента»: период — по ДАТЕ ЗАКАЗА (колонка «Дата заказа» CRM). Проверено 09.11 на списке клиента за 01–08.11 (18 заказов):
+        # по дате заказа 17 из 18 номеров совпали, лишних у нас 0 (единственный недостающий — заказ 08.11 без даты продажи в CRM);
+        # по дате продажи — 7 лишних заказов (созданы в октябре, проданы в ноябре). Клиент после добавления колонки пересчитал свой дашборд:
+        # заказы 1d5b7726, 815cc018, 87713917 из его списка 02–04.11 ушли в октябрь. «Наш» режим считает по дате продажи (build, sales_with_source).
+        day = est.date()
         art = False
         rows.append({"order": order, "key": order[:8], "p9": g.iloc[0]["p9"], "phone": g.iloc[0]["phone"], "created": created,
                      "day": day, "est": est, "real_od": real_od, "sale": sale, "active": active, "art": art, "has_form": len(forms) > 0, "first60": first60, "ad_touch": ad_touch,
@@ -239,7 +241,7 @@ def client_scheme_orders(sheet, client=None, frm=None, to=None):
             continue
         if r.key in by_key.index:
             o = by_key.loc[r.key]
-            why = (f"Дата продажи в CRM {o['day']:%d.%m.%Y} (дата заказа {o['est']:%d.%m.%Y}), вне периода; у клиента {r.client_date[:10]}" if not o["in_period"] else
+            why = (f"Дата заказа в CRM {o['est']:%d.%m.%Y} (продажа {o['sale'] or 'не внесена'}), вне периода; у клиента {r.client_date[:10]}" if not o["in_period"] else
                    "В выгрузке CRM заказ отменён или без продажи" if not o["active"] else "По правилу клиента не отнесён к рекламному дашборду")
         elif r.key in other_keys:
             why = "Заказ найден только на листе другого сайта"
