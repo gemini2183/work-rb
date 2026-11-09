@@ -298,6 +298,43 @@ def budget_pacing(ga, cid, folder):
         print(f"    сумма дневных бюджетов Search: {caps:.0f}/день -> потолок на месяц ~{caps * 30.4:.0f} "
               f"(Google тратит до 2x в день, но не больше 30,4x дневного бюджета за месяц)")
     print("    Если «потеряно по бюджету» ~0, повышение бюджета расход не поднимет: тормозят ставки, рейтинг, охват.")
+    try:
+        budget_flags(ga, cid, today)
+    except Exception as e:   # плашки не должны ронять сводку
+        print(f"    плашки статуса не прочитаны ({type(e).__name__}: {str(e)[:80]})")
+
+
+def budget_flags(ga, cid, today):
+    """То, что рисует плашка «Ограничено бюджетом» в кабинете (решение пользователя 2026-11-09): статус кампании и его причины из API
+    (`BUDGET_CONSTRAINED` = плашка про бюджет), рекомендация по бюджету, число дней за 14 с расходом ≥ 90% бюджета и максимум расхода к бюджету.
+    Потеря показов по бюджету (выше) — другая величина, считается за 7 дней средневзвешенно и может скрывать отдельные дни и часы."""
+    from google.ads.googleads.client import GoogleAdsClient  # noqa: F401  (клиент уже открыт снаружи, импорт только для enums)
+    ps = {2: "ELIGIBLE", 3: "PAUSED", 4: "REMOVED", 5: "ENDED", 6: "PENDING", 7: "MISCONFIGURED", 8: "LIMITED", 9: "LEARNING", 10: "NOT_ELIGIBLE"}
+    pr = {7: "ставка настроена неверно", 8: "ограничено стратегией ставок", 9: "обучение стратегии", 10: "стратегия ограничена",
+          11: "ОГРАНИЧЕНО БЮДЖЕТОМ", 12: "бюджет настроен неверно", 13: "мало поисковых запросов"}
+    d0, d1 = today - timedelta(days=14), today - timedelta(days=1)
+    camps = {}
+    for r in ga.search(customer_id=cid, query=(
+            "SELECT campaign.id, campaign.name, campaign.primary_status, campaign.primary_status_reasons, campaign_budget.amount_micros, "
+            "campaign_budget.has_recommended_budget FROM campaign WHERE campaign.status = 'ENABLED'")):
+        camps[r.campaign.id] = {"name": r.campaign.name, "st": int(r.campaign.primary_status), "rs": [int(x) for x in r.campaign.primary_status_reasons],
+                                "bud": r.campaign_budget.amount_micros / 1e6, "rec": r.campaign_budget.has_recommended_budget, "days": {}}
+    for r in ga.search(customer_id=cid, query=(
+            f"SELECT campaign.id, segments.date, metrics.cost_micros FROM campaign WHERE campaign.status = 'ENABLED' "
+            f"AND segments.date BETWEEN '{d0}' AND '{d1}'")):
+        if r.campaign.id in camps:
+            camps[r.campaign.id]["days"][r.segments.date] = r.metrics.cost_micros / 1e6
+    print("  плашки статуса и упор в бюджет (14 дн.; «ограничено бюджетом» = BUDGET_CONSTRAINED из API):")
+    for v in camps.values():
+        days = [c for c in v["days"].values() if c > 0]
+        if not days:
+            continue
+        reasons = [pr.get(x, "причина не расшифрована API (код %d)" % x) for x in v["rs"] if x != 0]
+        hit = sum(1 for c in days if v["bud"] and c >= 0.9 * v["bud"])
+        flag = "  <-- БЮДЖЕТ" if 11 in v["rs"] or v["rec"] else ""
+        print(f"    {v['name'][:36]}: статус {ps.get(v['st'], v['st'])}, причины: {'; '.join(reasons) or '-'}; бюджет {v['bud']:.0f}, "
+              f"рекомендация по бюджету {'ЕСТЬ' if v['rec'] else 'нет'}, дней ≥ 90% бюджета {hit} из {len(days)}, "
+              f"макс. расход {max(days):.0f} ({max(days) / v['bud']:.0%}){flag}")
 
 
 def main():
