@@ -1630,3 +1630,6 @@ PYTHONUTF8=1 python ringostat_call_transcripts.py --client-folder ProfiMet --fro
 
 ## EkspertAgro: формы без метки — `ea_unlabeled_forms.py` (ТОЛЬКО ЧТЕНИЕ, с 2026-11-09)
 `PYTHONUTF8=1 python ea_unlabeled_forms.py [--from ГГГГ-ММ-ДД] [--to ...]` — для каждой формы Supabase без `utm_*`/`gclid` печатает все поля строки (в т.ч. `page_url`), строки CRM с тем же телефоном и событие GA4 `form_submit` ±3 мин (источник сеанса, первое касание, посадочная), в конце — вывод «Google / Facebook / прямой / нет данных». Нужен, когда `leads_standard.py` показывает «формы без метки» > 0 и надо понять, сколько из них реальные люди и откуда.
+
+## Исключение сайтов на уровне аккаунта — `gads_exclude_placements.py` (ЗАПИСЬ, с 2026-11-09)
+`PYTHONUTF8=1 python gads_exclude_placements.py --customer-id <ID> --client-folder <Имя> --csv <файл с колонкой domain> [--execute]` — по умолчанию `validate_only`; с `--execute` добавляет сайты в исключения площадок аккаунта (действуют на все кампании, включая PMax), пропускает уже существующие, сохраняет снимок «до», читает обратно. Список площадок берётся из `gads_pmax_placements.py` (по показам). Первый случай: EkspertAgro, Э-020.

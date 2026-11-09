@@ -198,9 +198,15 @@ def client_scheme_orders(sheet, client=None, frm=None, to=None):
         # иначе первая строка. На 01–20.10 совпало с датой клиента у 74 из 75 общих заказов (по первой строке только у 71).
         fr = created.tz_convert("UTC").tz_localize(None)
         est = pd.Timestamp(sale) if (sale and (pd.Timestamp(sale) < fr.normalize() or (pd.Timestamp(sale) - fr.normalize()).days > 7)) else fr
+        # С 06–09.11.2026 клиент отдаёт в выгрузке колонку «Дата заказа»: она совпала с датой дашборда клиента у 83 из 91 заказов
+        # (Хроника_2026-11, 09.11). Если она есть — берём её, оценка выше остаётся запасным вариантом для старых строк.
+        od = [d for d in g["order_date"] if d] if "order_date" in g.columns else []
+        real_od = bool(od)
+        if od:
+            est = pd.Timestamp(min(od)[:10])
         art = False
         rows.append({"order": order, "key": order[:8], "p9": g.iloc[0]["p9"], "phone": g.iloc[0]["phone"], "created": created,
-                     "day": est.date(), "est": est, "sale": sale, "active": active, "art": art, "has_form": len(forms) > 0, "first60": first60, "ad_touch": ad_touch,
+                     "day": est.date(), "est": est, "real_od": real_od, "sale": sale, "active": active, "art": art, "has_form": len(forms) > 0, "first60": first60, "ad_touch": ad_touch,
                      "rule": rule, "first_src": g.iloc[0]["src"] or "Нет метки", "first_type": g.iloc[0]["type"]})
     O = pd.DataFrame(rows)
     if frm is not None:
@@ -761,7 +767,7 @@ def main():
     orders_tbl = scheme.merge(cl, on="key", how="left") if cl is not None else scheme.assign(product="", platform="", author="", client_source="")
     orders_tbl = orders_tbl.sort_values("est", ascending=False)
     orders_tbl = pd.DataFrame({
-        "Дата заказа (оценка) UTC": orders_tbl["est"].dt.strftime("%Y-%m-%d %H:%M"), "Заказ": orders_tbl["key"],
+        "Дата заказа (CRM; иначе оценка) UTC": orders_tbl["est"].dt.strftime("%Y-%m-%d %H:%M"), "Заказ": orders_tbl["key"],
         "Телефон": orders_tbl["phone"], "Товар": orders_tbl["product"].fillna(""), "Кол-во": orders_tbl["qty_x"] if "qty_x" in orders_tbl else orders_tbl["qty"],
         "Наш расчёт: источник заказа по схеме клиента": orders_tbl["rule"], "Дашборд клиента: источник заказа": orders_tbl["client_source"].fillna(""),
         "Есть у клиента": ["да" if (isinstance(x, str) and x) else "нет" for x in orders_tbl["client_source"]] if cl is not None else "",
