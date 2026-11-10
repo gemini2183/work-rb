@@ -35,8 +35,9 @@ W = "Europe/Warsaw"
 WINDOW = 60
 HISTORY_FROM = date(2025, 8, 1)
 COUNT_FROM = date(2026, 8, 1)
-TRACKED = ["Google Ads", "Google SEO", "Facebook", "No Source"]
-AD = ("Google Ads", "Facebook")
+TRACKED = ["Google Ads", "YouTube", "Google SEO", "Facebook", "No Source"]   # YouTube — звонки/формы с utm_campaign yt_* (решение 2026-11-10), в лестнице стоят как реклама
+AD = ("Google Ads", "YouTube", "Facebook")
+YT_PREFIX = "yt_"
 SITE = "mocnaszklarnia.pl"
 # тестовые номера форм — те же, что в profimet_forms_reconcile.py
 TEST_PHONES = {"111111111", "123456789", "222222222", "444444444", "445454444", "123123123", "333333333", "111113691"}
@@ -49,6 +50,8 @@ def _verdict_from(text, gclid=""):
     """Google Ads — по gclid / gbraid / wbraid / roistat. Facebook — ТОЛЬКО cpc (решение пользователя 2026-11-09): в адресе нужны и facebook, и utm_medium=cpc;
     один fbclid (переход по ссылке из поста, мессенджера, `sfnsn=wa` — «поделиться»), facebook.com как реферер и utm_medium=free рекламой не считаются."""
     t = (text or "").lower()
+    if "utm_campaign=yt_" in t:
+        return "YouTube"
     if gclid or "gclid=" in t or "roistat=google" in t or "gbraid=" in t or "wbraid=" in t:
         return "Google Ads"
     if "facebook" in t and "utm_medium=cpc" in t:
@@ -156,7 +159,9 @@ def resolve_unlabeled(forms, ga4_key, ga4_property, d0, d1):
         if ga_hit is not None:
             sm = f"{ga_hit['sessionSource']} / {ga_hit['sessionMedium']}"
             evid.append(f"GA4 {sm}")
-            if ga_hit["sessionSource"].lower() == "google" and ga_hit["sessionMedium"].lower() == "cpc":
+            if str(ga_hit["sessionCampaignName"]).lower().startswith(YT_PREFIX):
+                paid = paid or "YouTube"
+            elif ga_hit["sessionSource"].lower() == "google" and ga_hit["sessionMedium"].lower() == "cpc":
                 paid = paid or "Google Ads"
             elif "facebook" in ga_hit["sessionSource"].lower() and ga_hit["sessionMedium"].lower() == "cpc":
                 paid = paid or "Facebook"

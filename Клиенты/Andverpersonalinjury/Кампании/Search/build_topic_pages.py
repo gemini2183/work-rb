@@ -10,6 +10,7 @@
  - палитра и шрифт — как у живой Car после «Global brand restyle V2»: кремовый/белый, оливково-золотые кнопки #826510, тёмно-коричневые блоки #302d28, Montserrat;
  - фото в блоках — те же файлы Tilda, что на живой Car (бумаги страховой, юридический офис, панорама Лос-Анджелеса, командное фото);
  - нет динамических кнопок (создаваемых скриптом), нет мёртвых якорей, один H1, у всех картинок alt."""
+import json
 import pathlib
 import re
 import sys
@@ -88,11 +89,17 @@ FAQ_COMMON = {
 PAGES = {}
 PAGES["motorcycle"] = dict(
     folder="Tilda_страница_Motorcycle",
-    slug="california-motorcycle-accident-lawyer",
+    slug="motorcycle-accident-lawyer-california",
     title="California Motorcycle Accident Lawyer | Landver Law",
     desc="Hurt in a motorcycle crash in California? Get a free case review from Landver Law. No fee unless we win. Call 24/7 or leave your number.",
     h1="California Motorcycle Accident Lawyer. Free Case Review.",
-    sub="Hurt in a motorcycle crash? After a crash, insurance companies often look for a way to put part of the blame on the rider. Tell us what happened. An attorney reviews your case for free.",
+    sub="Hurt in a motorcycle crash? Insurance companies often look for a way to blame the rider, for lane splitting or no helmet. That does not end a claim by itself. Tell us what happened. An attorney reviews your case for free.",
+    intake=[
+        dict(name="injured", kind="radio", label="Were you hurt in the crash?",
+             options=["Yes, I was hurt", "A passenger was hurt", "A loved one died", "No injury", "Not sure yet"]),
+        dict(name="what_happened", kind="textarea", label="Briefly, what happened? (optional)",
+             placeholder="For example: a car turned left in front of me"),
+    ],
     topic="motorcycle accident",
     atty_alt="Alina Landver, motorcycle accident attorney at Landver Law in Beverly Hills",
     result_chip=("$18.5M", "motorcycle accident result*"),
@@ -232,6 +239,20 @@ TOP_CSS = """
 .ldvc__who img{flex:0 0 56px;width:56px;height:56px;border-radius:50%;object-fit:cover;object-position:50% 14%;border:2px solid #d2b16d}
 .ldvc__who span{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#937a4e;line-height:1.35}
 .ldvc__who b{display:block;font-size:15px;letter-spacing:0;text-transform:none;color:#292929}
+@media(max-width:699px){
+  /* телефон: короче первый экран, чтобы форма приёма была видна сразу (10.11) */
+  .ldvc{padding:20px 16px 22px}
+  .ldvc__eyebrow{margin-bottom:6px}
+  .ldvc__h1{font-size:clamp(26px,7.2vw,33px);margin-bottom:10px}
+  .ldvc__sub{font-size:16px;line-height:1.4;margin-bottom:12px}
+  .ldvc__why{display:none}
+  .ldvc__trust{margin-bottom:12px}
+  .ldvc__trust li:nth-child(n+3):not(.ldvc__keep){display:none}
+  .ldvc__trust--keep li:nth-child(2){display:none}
+  .ldvc__fn{display:none}
+  .ldvc__who{display:none}
+  .ldvc__micro{display:none}
+}
 @media(min-width:700px){.ldvc{padding:55px 24px 60px}}
 @media(min-width:900px){
   .ldvc__wrap{max-width:1100px}
@@ -262,7 +283,12 @@ FORM_CSS = """
 .ldv2-native .t-submit{display:flex !important;align-items:center;justify-content:center;width:100% !important;min-height:58px !important;padding:15px 22px !important;background:#826510 !important;color:#fff !important;border:1px solid #826510 !important;border-radius:10px !important;font:700 15px/1.35 Montserrat,Arial,sans-serif !important;text-align:center;white-space:normal !important;cursor:pointer}
 .ldv2-native .t-submit:hover{background:#6e530d !important;border-color:#6e530d !important}
 .ldv2-native .t-form__successbox{border-radius:12px !important;background:#f1ebdd !important;color:#292929 !important;font-family:Montserrat,Arial,sans-serif !important;line-height:1.6}
-@media(max-width:699px){.ldv2-native .t-input{min-height:54px !important}.ldv2-native .t-submit{min-height:58px !important;font-size:14px !important;padding:14px 12px !important}.ldv2-native .t-input-group{margin-bottom:15px !important}}
+/* приём: радио-кнопки как чипы, текстовое поле (10.11: вместо квиза) */
+.ldv2-native textarea.t-input{min-height:88px !important;padding:14px 17px !important;line-height:1.45 !important;resize:vertical}
+.ldv2-native .t-radio__wrapper{display:flex !important;flex-wrap:wrap;gap:8px}
+.ldv2-native .t-radio__control{display:flex !important;align-items:center;gap:8px;margin:0 !important;padding:12px 15px !important;background:#fff;border:1px solid #ded5c7;border-radius:10px;font:600 15px/1.2 Montserrat,Arial,sans-serif !important;color:#292929 !important;cursor:pointer}
+.ldv2-native .t-radio__control:has(input:checked){background:#f1ebdd;border-color:#826510}
+@media(max-width:699px){.ldv2-native .t-input{min-height:54px !important}.ldv2-native textarea.t-input{min-height:84px !important}.ldv2-native .t-submit{min-height:58px !important;font-size:14px !important;padding:14px 12px !important}.ldv2-native .t-input-group{margin-bottom:15px !important}.ldv2{padding:24px 16px 4px}}
 """
 
 FORM_JS = """
@@ -277,28 +303,58 @@ FORM_JS = """
     if (!formRec || !formRec.querySelector('form.t-form')) return;
     formRec.classList.add("ldv2-native");
     var form = formRec.querySelector('form.t-form');
+    var L = __LABELS__;
     form.querySelectorAll('.t-input-group').forEach(function(group) {
-      var input = group.querySelector('input:not([type="hidden"])');
+      var input = group.querySelector('input:not([type="hidden"]), textarea');
       if (!input) return;
       var name = (input.getAttribute('name') || '').toLowerCase();
       var type = (input.getAttribute('type') || '').toLowerCase();
       var label = group.querySelector('.t-input-title');
       if (name === 'name' || name === 'firstname' || name === 'first_name') {
-        if (label) label.textContent = 'Your name';
-        input.placeholder = 'Enter your name';
+        if (label) label.textContent = L.name[0];
+        input.placeholder = L.name[1];
       }
       if (type === 'tel' || name === 'phone' || name === 'tel') {
-        if (label) label.textContent = 'Phone number';
-        input.setAttribute('aria-label', 'Phone number');
+        if (label) label.textContent = L.phone[0];
+        input.setAttribute('aria-label', L.phone[0]);
+      }
+      if (L.extra && L.extra[name]) {
+        if (label) label.textContent = L.extra[name][0];
+        if (L.extra[name][1]) input.placeholder = L.extra[name][1];
       }
     });
     var button = form.querySelector('.t-submit');
-    if (button) button.textContent = 'Get My Free Case Review';
+    if (button) button.textContent = L.button;
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', update); else update();
   window.addEventListener('load', update);
 })();
 """
+
+FORM_STR = {  # форма приёма вместо квиза (решение пользователя 10.11): имя, телефон, 1–2 нажатия, необязательный текст
+    "en": dict(
+        eyebrow="Free case review",
+        title="Tell us what happened. We'll call you.",
+        desc="Your name and phone are enough. The other answers help the attorney prepare. Free, with no obligation.",
+        name_label="Your name", name_ph="Enter your name", phone_label="Phone number",
+        button="Get My Free Case Review",
+        fine="Submitting this form does not by itself create an attorney-client relationship.",
+        success=("Thank you. We've received your request and will contact you to set up your free case review. Until then: if you "
+                 "haven't yet, get medical care, and hold off on giving a recorded statement or signing an offer from an insurer. "
+                 "Prefer to talk now? Call (844) 452-9465 · 24/7."),
+    ),
+    "es": dict(
+        eyebrow="Consulta gratuita",
+        title="Cuéntenos qué pasó. Le llamamos.",
+        desc="Con su nombre y teléfono es suficiente. Las demás respuestas ayudan al abogado a prepararse. Es gratis y sin compromiso.",
+        name_label="Su nombre", name_ph="Escriba su nombre", phone_label="Teléfono",
+        button="Solicitar mi consulta gratuita",
+        fine="Enviar este formulario no crea por sí solo una relación abogado-cliente.",
+        success=("Gracias. Recibimos su solicitud y nos comunicaremos con usted para programar su consulta gratuita. Mientras tanto, si "
+                 "aún no lo ha hecho, reciba atención médica y no dé declaraciones grabadas ni firme ofertas de una aseguradora. "
+                 "¿Prefiere hablar ahora? Llame al (844) 452-9465 · 24/7."),
+    ),
+}
 
 EXTRA_CSS = """
 .ldvp{font-family:Montserrat,Arial,sans-serif}
@@ -377,7 +433,9 @@ def build(key):
 
     # ---------------- блок 1: шапка, первый экран, якорь формы, плашка
     chip_amt, chip_txt = P["result_chip"]
-    chip_li = f"<li><b>{chip_amt}</b> {chip_txt}</li>" if chip_amt else f"<li>{chip_txt}</li>"
+    keep = P.get("chip_keep_mobile")  # чип, который остаётся на телефоне (испанская: «Atención en español»)
+    chip_cls = ' class="ldvc__keep"' if keep else ""
+    chip_li = f"<li{chip_cls}><b>{chip_amt}</b> {chip_txt}</li>" if chip_amt else f"<li{chip_cls}>{chip_txt}</li>"
     fn_p = f'<p class="ldvc__fn">*{RESULT_NOTE.split(". Every")[0]}.</p>' if chip_amt else ""
     scope_p = f'<p class="ldvc__fn" style="margin:0 0 14px">{P["scope_line"]}</p>' if P.get("scope_line") else ""
     why = "\n".join(f"      <li>{x}</li>" for x in [
@@ -407,7 +465,7 @@ def build(key):
     <ul class="ldvc__why">
 {why}
     </ul>
-    <ul class="ldvc__trust">
+    <ul class="ldvc__trust{' ldvc__trust--keep' if keep else ''}">
       <li><b>&#9733; {RATING}</b> &middot; {RATING_COUNT} Google reviews</li>
       <li>Practicing since 2004</li>
       {chip_li}
@@ -431,6 +489,12 @@ def build(key):
 """
 
     # ---------------- блок 2: подпись над формой + стиль формы Tilda (форма ставится сразу следом)
+    lang = P.get("lang", "en")
+    FS = FORM_STR[lang]
+    intake = P.get("intake", [])
+    form_labels = {"name": [FS["name_label"], FS["name_ph"]], "phone": [FS["phone_label"]], "button": FS["button"],
+                   "extra": {f["name"]: [f["label"], f.get("placeholder", "")] for f in intake}}
+    form_labels_json = json.dumps(form_labels, ensure_ascii=False)
     form_intro = f"""<!-- Landver Law: БЛОК 2: подпись над формой и оформление обычной формы Tilda (T123 «HTML»). Собрано build_topic_pages.py.
      Ставится ПРЯМО ПЕРЕД обычной формой Tilda: скрипт находит форму в следующем за ним блоке и красит её. Между блоком 2 и формой ничего не вставлять. -->
 {FONTS}
@@ -439,12 +503,12 @@ def build(key):
 </style>
 <section class="ldv2" id="ldv-form-section" aria-labelledby="ldv2-title">
   <div class="ldv2__inner">
-    <p class="ldv2__eyebrow">Free consultation</p>
-    <h2 class="ldv2__title" id="ldv2-title">Prefer we call you? Leave your number.</h2>
-    <p class="ldv2__desc">Leave your name and phone. We'll contact you to set up your free review with an attorney.</p>
+    <p class="ldv2__eyebrow">{FS['eyebrow']}</p>
+    <h2 class="ldv2__title" id="ldv2-title">{FS['title']}</h2>
+    <p class="ldv2__desc">{FS['desc']}</p>
   </div>
 </section>
-<script>{FORM_JS}</script>
+<script>{FORM_JS.replace("__LABELS__", form_labels_json)}</script>
 """
 
     # ---------------- блок 3: всё под формой
@@ -694,6 +758,9 @@ def build(key):
     footer = footer.replace('<a href="mailto:info@landverpersonalinjury.com" style=',
                             '<a href="mailto:info@landverpersonalinjury.com" data-ldv-cta="footer_email" style=')
     assert "footer_email" in footer and "wrongful death" in footer
+    if lang == "es":  # испанская страница: шаблон переводится картой строк из Spanish_PAGES.py (функция localize_es, подвал ES_FOOTER)
+        top, form_intro, body, footer = (localize_es(x) for x in (top, form_intro, body, footer))
+        report_es_unused()
 
     for old in ("1_blok_top.txt", "2_blok_body.txt", "3_blok_footer.txt"):  # имена прошлой сборки (с формой B)
         (out / old).unlink(missing_ok=True)
@@ -702,13 +769,20 @@ def build(key):
     (out / "3_blok_body.txt").write_text(body, encoding="utf-8")
     (out / "4_blok_footer.txt").write_text(footer, encoding="utf-8")
 
-    native_form = """<div class="ldv2-native" style="padding:0 16px 40px"><div class="t-form" style="max-width:520px;margin:0 auto"><form>
-<div class="t-input-group"><label class="t-input-title">Your name</label><div class="t-input-block"><input class="t-input" type="text" name="name" placeholder="Enter your name"></div></div>
-<div class="t-input-group t-input-group_ph"><label class="t-input-title">Phone number</label><div class="t-input-block"><input class="t-input" type="tel" name="phone" placeholder="+1(000)000-0000"></div></div>
-<input type="hidden" name="quiz_summary" value="">
-<button type="button" class="t-submit">Get My Free Case Review</button></form>
-<p style="margin:12px 0 0;font:400 11px/1.65 Montserrat,Arial,sans-serif;color:#8c857a">Submitting this form does not by itself create an attorney-client relationship.</p></div></div>"""
-    preview = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    extra_html = ""
+    for f in intake:  # так же устроена радио-группа / текстовое поле в обычной форме Tilda (структура Tilda не проверена, макет приблизительный)
+        if f["kind"] == "radio":
+            opts = "".join(f'<label class="t-radio__control"><input type="radio" name="{f["name"]}" value="{o}" class="t-radio"><span class="t-radio__indicator"></span>{o}</label>' for o in f["options"])
+            extra_html += f'<div class="t-input-group t-input-group_rd"><div class="t-input-title">{f["label"]}</div><div class="t-input-block"><div class="t-radio__wrapper">{opts}</div></div></div>\n'
+        else:
+            extra_html += f'<div class="t-input-group"><div class="t-input-title">{f["label"]}</div><div class="t-input-block"><textarea class="t-input" name="{f["name"]}" placeholder="{f.get("placeholder", "")}"></textarea></div></div>\n'
+    native_form = f"""<div class="ldv2-native" style="padding:0 16px 40px"><div class="t-form" style="max-width:520px;margin:0 auto"><form>
+<div class="t-input-group"><label class="t-input-title">{FS['name_label']}</label><div class="t-input-block"><input class="t-input" type="text" name="name" placeholder="{FS['name_ph']}"></div></div>
+<div class="t-input-group t-input-group_ph"><label class="t-input-title">{FS['phone_label']}</label><div class="t-input-block"><input class="t-input" type="tel" name="phone" placeholder="+1(000)000-0000"></div></div>
+{extra_html}<input type="hidden" name="quiz_summary" value="">
+<button type="button" class="t-submit">{FS['button']}</button></form>
+<p style="margin:12px 0 0;font:400 11px/1.65 Montserrat,Arial,sans-serif;color:#8c857a">{FS['fine']}</p></div></div>"""
+    preview = f"""<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PREVIEW: {key} (локальный макет, форма Tilda нарисована)</title>
 <style>body{{margin:0;background:#fff}}html{{scroll-behavior:smooth}}</style></head><body>
 {top}
@@ -720,7 +794,24 @@ def build(key):
     (out / "0_maket_prosmotr.html").write_text(preview, encoding="utf-8")
 
     # ---------------- инструкции
-    kw = dict(folder=out, slug=P["slug"], title=P["title"], desc=P["desc"], h1=P["h1"], phone=PHONE, key=key)
+    fields_md = [f"- **{FS['name_label']}** (`name`): текст, обязательное. Подпись и подсказку блок 2 поставит сам.",
+                 f"- **{FS['phone_label']}** (`phone`): тип «Телефон», маска США, обязательное."]
+    for f in intake:
+        if f["kind"] == "radio":
+            fields_md.append(f"- **{f['label']}** (`{f['name']}`): тип «Радио-кнопки» (Radio Buttons), НЕ обязательное; варианты ровно: " + " / ".join(f"`{o}`" for o in f["options"]) + ". Ничего не выбрано по умолчанию.")
+        else:
+            fields_md.append(f"- **{f['label']}** (`{f['name']}`): тип «Текст, много строк» (Textarea), НЕ обязательное.")
+    fields_md.append("- Скрытое поле `quiz_summary` (остаётся пустым, нужно для одинакового набора полей на всех страницах).")
+    fields_md.append(f"- Кнопка: `{FS['button']}`. Заявки идут на те же почту и интеграции, что у остальных страниц.")
+    fields_md.append(f"- Под формой: `{FS['fine']}`")
+    fields_md.append(f"- Сообщение после отправки (в настройках формы, «Действия после отправки»): `{FS['success']}` (номер текстом, не ссылкой).")
+    fields_md.append("- Фон блока формы `#f7f2ea`, отступы сверху и снизу около 20 px. Порядок полей: как в списке.")
+    form_block_md = "\n".join(fields_md)
+    form_block_txt = "\n".join("  " + x.replace("**", "").replace("`", "") for x in fields_md)
+    btn_label = "Solicitar mi consulta gratuita" if lang == "es" else "Get my free case review"
+    kw = dict(folder=out, slug=P["slug"], title=P["title"], desc=P["desc"], h1=P["h1"], phone=PHONE, key=key,
+              lang=lang, lang_name="испанский" if lang == "es" else "английский",
+              form_block_md=form_block_md, form_block_txt=form_block_txt, btn_label=btn_label, form_button=FS["button"])
     (out / "ИНСТРУКЦИЯ_сборка_в_Tilda.md").write_text(INSTR_MD.format(**kw), encoding="utf-8")
     (out / "ЧИТАЙ_МЕНЯ_инструкция.txt").write_text(INSTR_TXT.format(**kw), encoding="utf-8")
 
@@ -749,7 +840,7 @@ INSTR_MD = """# Как собрать страницу «{h1}» в Tilda
 |---|---|
 | `0_maket_prosmotr.html` | Макет всей страницы для просмотра (двойной щелчок, откроется в браузере). Форма в нём нарисованная. |
 | `1_blok_top.txt` | Блок 1: шапка, первый экран (H1, доверие, кнопка звонка), нижняя плашка на телефоне. |
-| `2_blok_forma_podpis.txt` | Блок 2: подпись над формой («Prefer we call you? Leave your number.») и оформление формы. Ставится прямо перед формой. |
+| `2_blok_forma_podpis.txt` | Блок 2: подпись над формой и оформление формы (включая радио-кнопки и текстовое поле). Ставится прямо перед формой. |
 | `3_blok_body.txt` | Блок 3: всё под формой (что говорят страховые, что делать и чего не делать, как проходит звонок, оплата, команда, ситуации, результаты, адвокат со значками, отзывы, вопросы, финальный призыв). |
 | `4_blok_footer.txt` | Блок 4: подвал с дисклеймерами. |
 
@@ -759,7 +850,7 @@ INSTR_MD = """# Как собрать страницу «{h1}» в Tilda
 
 1. Дубликат готовой страницы california-car-accident-lawyer на сайте `landverpersonalinjury.tilda.ws` (или любой другой), все блоки удалить.
 2. Адрес страницы: `{slug}`
-3. Язык страницы: английский. После публикации в коде страницы (просмотр кода) в начале должно быть `<html lang="en">`; у прошлых страниц атрибута `lang` не было, его пришлось дописывать.
+3. Язык страницы: {lang_name}. После публикации в коде страницы (просмотр кода) в начале должно быть `<html lang="{lang}">`; у прошлых страниц атрибута `lang` не было, его пришлось дописывать.
 4. Вкладка SEO:
    - Title: `{title}`
    - Description: `{desc}`
@@ -774,26 +865,20 @@ INSTR_MD = """# Как собрать страницу «{h1}» в Tilda
 4. Блок HTML: `3_blok_body.txt`
 5. Блок HTML: `4_blok_footer.txt`
 
-Форма одна, как на готовой Car. Все кнопки «Get my free case review» на странице ведут якорем `#ldv-form` (он уже внутри блока 1, сразу под первым экраном). Второй формы и всплывающего окна нет: якорь окно не открывает. Кнопки и ссылки в блоках не заменять блоками Tilda и не менять: у каждой ссылки на телефон есть класс `ldvq-phone` и метка `data-ldv-cta`, по ним работают подмена номера Ringostat и статистика.
+Форма одна, как на готовой Car. Все кнопки «{btn_label}» на странице ведут якорем `#ldv-form` (он уже внутри блока 1, сразу под первым экраном). Второй формы и всплывающего окна нет: якорь окно не открывает. Кнопки и ссылки в блоках не заменять блоками Tilda и не менять: у каждой ссылки на телефон есть класс `ldvq-phone` и метка `data-ldv-cta`, по ним работают подмена номера Ringostat и статистика.
 
 ## Шаг 3. Форма
 
-- Поля: «Name» (обязательное) и «Phone» (обязательное, тип «Телефон», маска США). Имена переменных ровно `name` и `phone` (подписи над полями и текст кнопки блок 2 заменит сам).
-- Скрытое поле: `quiz_summary` (квиза на странице нет, поле остаётся пустым, оставлено, чтобы заявки всех страниц имели одинаковый набор полей).
-- Кнопка: `Get My Free Case Review`.
-- Куда приходят заявки: те же почта и интеграции, что у остальных страниц.
-- Под формой: `Submitting this form does not by itself create an attorney-client relationship.`
-- Сообщение после отправки: `Thank you. We've received your request and will contact you to set up your free case review. Prefer to talk now? Call {phone} · 24/7.` (номер здесь текстом, не ссылкой).
-- Фон блока формы: `#f7f2ea`. Отступы блока сверху и снизу около 20 px.
+{form_block_md}
 
 ## Шаг 4. Публикация и проверка
 
 1. Опубликовать, открыть на телефоне и на компьютере.
-2. Первый экран: заголовок, кнопка звонка; нижняя плашка на телефоне не закрывает кнопки.
-3. Нажать каждую кнопку «Get my free case review» (шапка, плашка, блоки): страница прокручивается к форме. Окон не открывается. Прокрутка не должна уходить в подвал.
+2. Первый экран: заголовок, кнопка звонка, форма видна сразу под ним (на телефоне ниже одной прокрутки); нижняя плашка на телефоне не закрывает кнопки.
+3. Нажать каждую кнопку «{btn_label}» (шапка, плашка, блоки): страница прокручивается к форме. Окон не открывается. Прокрутка не должна уходить в подвал.
 4. Нажать ссылки с номером: открывается набор номера.
-5. Форма: подписи полей «Your name» и «Phone number», кнопка «Get My Free Case Review», цвета как у остальных страниц.
-6. Отправить тестовую заявку своим номером (имя «TEST»): в заявке поля `name`, `phone`.
+5. Форма: подписи полей и кнопка «{form_button}» как в списке шага 3, радио-кнопки выглядят как плашки, цвета как у остальных страниц.
+6. Отправить тестовую заявку своим номером (имя «TEST»): в заявке поля `name`, `phone` и ответы на дополнительные вопросы.
 7. Прислать ссылку на опубликованную страницу: подмену номера и события мы настраиваем и проверяем сами.
 
 ## Не делать до проверки
@@ -814,7 +899,7 @@ INSTR_TXT = """ЧИТАЙ МЕНЯ: как собрать страницу «{h1
 ----------------------
 0_maket_prosmotr.html     - макет страницы (двойной щелчок, откроется в браузере). Форма в нём нарисованная.
 1_blok_top.txt            - БЛОК 1: шапка, первый экран, кнопка звонка, нижняя плашка на телефоне.
-2_blok_forma_podpis.txt   - БЛОК 2: подпись над формой и оформление формы. Ставится ПРЯМО ПЕРЕД формой.
+2_blok_forma_podpis.txt   - БЛОК 2: подпись над формой и оформление формы (радио-кнопки, текстовое поле). Ставится ПРЯМО ПЕРЕД формой.
 3_blok_body.txt           - БЛОК 3: всё, что ниже формы.
 4_blok_footer.txt         - БЛОК 4: подвал.
 ИНСТРУКЦИЯ_сборка_в_Tilda.md - та же инструкция подробнее.
@@ -826,7 +911,7 @@ INSTR_TXT = """ЧИТАЙ МЕНЯ: как собрать страницу «{h1
 ШАГ 1. Новая страница
 1. Сайт landverpersonalinjury.tilda.ws: дубликат готовой страницы, все блоки удалить.
 2. Адрес страницы: {slug}
-3. Язык страницы: английский. После публикации в коде страницы должно быть <html lang="en">.
+3. Язык страницы: {lang_name}. После публикации в коде страницы должно быть <html lang="{lang}">.
 4. Вкладка SEO:
    Title:        {title}
    Description:  {desc}
@@ -839,23 +924,18 @@ INSTR_TXT = """ЧИТАЙ МЕНЯ: как собрать страницу «{h1
 3) ОБЫЧНАЯ форма Tilda (одна на страницу) СТРОГО СРАЗУ ПОД блоком 2: скрипт блока 2 красит форму из следующего блока.
 4) Блок HTML: весь текст из 3_blok_body.txt.
 5) Блок HTML: весь текст из 4_blok_footer.txt.
-Код вставлять целиком, ничего не менять. Все кнопки "Get my free case review" ведут якорем #ldv-form (он уже в блоке 1) к форме. Второй формы и окна нет: якорь окно не открывает.
+Код вставлять целиком, ничего не менять. Все кнопки "{btn_label}" ведут якорем #ldv-form (он уже в блоке 1) к форме. Второй формы и окна нет: якорь окно не открывает.
 Кнопки и ссылки на телефон не заменять блоками Tilda: по их классу и метке работает подмена номера.
 
 ШАГ 3. Форма
-- Поля: Name (обязательное), Phone (обязательное, тип "Телефон", маска США). Имена переменных ровно: name и phone.
-- Скрытое поле: quiz_summary (останется пустым, нужно для одинакового набора полей на всех страницах).
-- Кнопка: "Get My Free Case Review". Заявки идут на те же почту и интеграции, что у остальных страниц.
-- Под формой: Submitting this form does not by itself create an attorney-client relationship.
-- Сообщение после отправки: Thank you. We've received your request and will contact you to set up your free case review. Prefer to talk now? Call {phone} - 24/7. (номер текстом, не ссылкой)
-- Фон блока формы #f7f2ea, отступы сверху и снизу около 20 px.
+{form_block_txt}
 
 ШАГ 4. Проверка после публикации
 1. Откройте на телефоне и на компьютере.
-2. Нажмите каждую кнопку "Get my free case review": прокрутка к форме. Окон нет. В подвал прокручиваться не должно.
+2. Нажмите каждую кнопку "{btn_label}": прокрутка к форме. Окон нет. В подвал прокручиваться не должно.
 3. Нажмите ссылки с номером: открывается набор номера.
-4. Форма: подписи "Your name" и "Phone number", кнопка "Get My Free Case Review", цвета как на остальных страницах.
-5. Тестовая заявка своим номером (имя TEST): в заявке поля name и phone.
+4. Форма: подписи и кнопка "{form_button}" как в списке шага 3, радио-кнопки выглядят как плашки, цвета как на остальных страницах.
+5. Тестовая заявка своим номером (имя TEST): в заявке поля name, phone и ответы на дополнительные вопросы.
 6. Пришлите ссылку: подмену номера и события настраиваем мы.
 
 НЕ ДЕЛАТЬ: не переключать рекламу на страницу до проверки; не добавлять номер внутрь предложения и кнопки, создаваемые скриптом; не ставить noindex.

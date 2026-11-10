@@ -5,7 +5,7 @@
 ----------------------
 0_maket_prosmotr.html     - макет страницы (двойной щелчок, откроется в браузере). Форма в нём нарисованная.
 1_blok_top.txt            - БЛОК 1: шапка, первый экран, кнопка звонка, нижняя плашка на телефоне.
-2_blok_forma_podpis.txt   - БЛОК 2: подпись над формой и оформление формы. Ставится ПРЯМО ПЕРЕД формой.
+2_blok_forma_podpis.txt   - БЛОК 2: подпись над формой и оформление формы (радио-кнопки, текстовое поле). Ставится ПРЯМО ПЕРЕД формой.
 3_blok_body.txt           - БЛОК 3: всё, что ниже формы.
 4_blok_footer.txt         - БЛОК 4: подвал.
 ИНСТРУКЦИЯ_сборка_в_Tilda.md - та же инструкция подробнее.
@@ -16,7 +16,7 @@
 
 ШАГ 1. Новая страница
 1. Сайт landverpersonalinjury.tilda.ws: дубликат готовой страницы, все блоки удалить.
-2. Адрес страницы: california-motorcycle-accident-lawyer
+2. Адрес страницы: motorcycle-accident-lawyer-california
 3. Язык страницы: английский. После публикации в коде страницы должно быть <html lang="en">.
 4. Вкладка SEO:
    Title:        California Motorcycle Accident Lawyer | Landver Law
@@ -34,19 +34,22 @@
 Кнопки и ссылки на телефон не заменять блоками Tilda: по их классу и метке работает подмена номера.
 
 ШАГ 3. Форма
-- Поля: Name (обязательное), Phone (обязательное, тип "Телефон", маска США). Имена переменных ровно: name и phone.
-- Скрытое поле: quiz_summary (останется пустым, нужно для одинакового набора полей на всех страницах).
-- Кнопка: "Get My Free Case Review". Заявки идут на те же почту и интеграции, что у остальных страниц.
-- Под формой: Submitting this form does not by itself create an attorney-client relationship.
-- Сообщение после отправки: Thank you. We've received your request and will contact you to set up your free case review. Prefer to talk now? Call (844) 452-9465 - 24/7. (номер текстом, не ссылкой)
-- Фон блока формы #f7f2ea, отступы сверху и снизу около 20 px.
+  - Your name (name): текст, обязательное. Подпись и подсказку блок 2 поставит сам.
+  - Phone number (phone): тип «Телефон», маска США, обязательное.
+  - Were you hurt in the crash? (injured): тип «Радио-кнопки» (Radio Buttons), НЕ обязательное; варианты ровно: Yes, I was hurt / A passenger was hurt / A loved one died / No injury / Not sure yet. Ничего не выбрано по умолчанию.
+  - Briefly, what happened? (optional) (what_happened): тип «Текст, много строк» (Textarea), НЕ обязательное.
+  - Скрытое поле quiz_summary (остаётся пустым, нужно для одинакового набора полей на всех страницах).
+  - Кнопка: Get My Free Case Review. Заявки идут на те же почту и интеграции, что у остальных страниц.
+  - Под формой: Submitting this form does not by itself create an attorney-client relationship.
+  - Сообщение после отправки (в настройках формы, «Действия после отправки»): Thank you. We've received your request and will contact you to set up your free case review. Until then: if you haven't yet, get medical care, and hold off on giving a recorded statement or signing an offer from an insurer. Prefer to talk now? Call (844) 452-9465 · 24/7. (номер текстом, не ссылкой).
+  - Фон блока формы #f7f2ea, отступы сверху и снизу около 20 px. Порядок полей: как в списке.
 
 ШАГ 4. Проверка после публикации
 1. Откройте на телефоне и на компьютере.
 2. Нажмите каждую кнопку "Get my free case review": прокрутка к форме. Окон нет. В подвал прокручиваться не должно.
 3. Нажмите ссылки с номером: открывается набор номера.
-4. Форма: подписи "Your name" и "Phone number", кнопка "Get My Free Case Review", цвета как на остальных страницах.
-5. Тестовая заявка своим номером (имя TEST): в заявке поля name и phone.
+4. Форма: подписи и кнопка "Get My Free Case Review" как в списке шага 3, радио-кнопки выглядят как плашки, цвета как на остальных страницах.
+5. Тестовая заявка своим номером (имя TEST): в заявке поля name, phone и ответы на дополнительные вопросы.
 6. Пришлите ссылку: подмену номера и события настраиваем мы.
 
 НЕ ДЕЛАТЬ: не переключать рекламу на страницу до проверки; не добавлять номер внутрь предложения и кнопки, создаваемые скриптом; не ставить noindex.
