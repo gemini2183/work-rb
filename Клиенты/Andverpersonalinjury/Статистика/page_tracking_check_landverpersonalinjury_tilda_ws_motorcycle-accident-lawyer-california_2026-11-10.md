@@ -1,10 +1,10 @@
 # Проверка трекинга страницы https://landverpersonalinjury.tilda.ws/motorcycle-accident-lawyer-california
-Дата: 2026-11-10 14:26. Метки: utm_source=google&utm_medium=cpc&utm_campaign=page_tracking_check. Только чтение; GA4 перехвачен, пиксели заблокированы.
+Дата: 2026-11-10 17:21. Метки: utm_source=google&utm_medium=cpc&utm_campaign=page_tracking_check. Только чтение; GA4 перехвачен, пиксели заблокированы.
 
 ## Десктоп 1366×850
 - Страница: «California Motorcycle Accident Lawyer | Landver Law», lang=«», h1: ['California Motorcycle Accident Lawyer. Free Case Review.'], canonical: https://landverpersonalinjury.com/motorcycle-accident-lawyer-california, robots: нет
 - description: Injured in a motorcycle accident in California? Landver Law fights for injured riders. Free attorney case review 24/7. No fee unless we win.
-- Картинок 13, без alt 0; LCP 1492 мс (шумно, без замедления; решение по скорости — PageSpeed Insights); ошибок консоли 0; запросов с ошибкой 0
+- Картинок 13, без alt 0; LCP 1632 мс (шумно, без замедления; решение по скорости — PageSpeed Insights); ошибок консоли 0; запросов с ошибкой 0
 - Трекеры: GTM ['GTM-KVLHDKJJ'], GA4 ['G-JPLC4Q41PS'], AW [], Ringostat 1 скрипт(а), Clarity ['clarity.ms/tag/yy4382dsrf', '"clarity","script","yy4382dsrf"'], пиксели (глобальные объекты) ['oaiq']
 - Телефон: ссылок tel: 8; с метками Google отличаются от страницы без меток: 8
     tel:+18883448725 | «FREE CONSULTATION · 24/7(888) 344-8725» | скрыта | data={'data-ldv-cta': 'header_call'} | class=ldvh__tel ldvq-phone
@@ -27,7 +27,7 @@
 - FAQ: details/summary: 9
 - События, которые страница пушит сама (разбор кода): ['ldv_cta', 'ldv_form_start', 'block_time']
 - dataLayer после сценария: ['block_time', 'engaged_30s', 'gtm.click', 'gtm.dom', 'gtm.elementVisibility', 'gtm.js', 'gtm.linkClick', 'gtm.load', 'gtm.scrollDepth', 'ldv_cta', 'stay_10s']
-- События GA4, которые ушли бы с текущим контейнером (45): {'page_view': 1, '?': 1, 'block_view': 11, 'stay_10s': 1, 'block_time': 9, 'scroll_depth': 3, 'scroll': 1, 'cta_click': 9, 'click_tel': 8, 'email_click': 1}
+- События GA4, которые ушли бы с текущим контейнером (43): {'page_view': 1, '?': 1, 'block_view': 11, 'stay_10s': 1, 'block_time': 7, 'scroll_depth': 3, 'scroll': 1, 'cta_click': 9, 'click_tel': 8, 'email_click': 1}
     scroll_depth: [{'scroll_percent': '25'}, {'scroll_percent': '50'}, {'scroll_percent': '75'}]
     scroll: [{'percent_scrolled': '90'}]
     cta_click: [{'cta_place': 'header_call'}, {'cta_place': 'hero_call'}, {'cta_place': 'sticky_call'}, {'cta_place': 'how_call'}]
@@ -37,7 +37,7 @@
 ## Мобильный (iPhone 13)
 - Страница: «California Motorcycle Accident Lawyer | Landver Law», lang=«», h1: ['California Motorcycle Accident Lawyer. Free Case Review.'], canonical: https://landverpersonalinjury.com/motorcycle-accident-lawyer-california, robots: нет
 - description: Injured in a motorcycle accident in California? Landver Law fights for injured riders. Free attorney case review 24/7. No fee unless we win.
-- Картинок 13, без alt 0; LCP 804 мс (шумно, без замедления; решение по скорости — PageSpeed Insights); ошибок консоли 0; запросов с ошибкой 0
+- Картинок 13, без alt 0; LCP 1036 мс (шумно, без замедления; решение по скорости — PageSpeed Insights); ошибок консоли 0; запросов с ошибкой 0
 - Трекеры: GTM ['GTM-KVLHDKJJ'], GA4 ['G-JPLC4Q41PS'], AW [], Ringostat 1 скрипт(а), Clarity ['clarity.ms/tag/yy4382dsrf', '"clarity","script","yy4382dsrf"'], пиксели (глобальные объекты) ['oaiq']
 - Телефон: ссылок tel: 8; с метками Google отличаются от страницы без меток: 8
     tel:+18883783267 | «FREE CONSULTATION · 24/7(888) 378-3267» | скрыта | data={'data-ldv-cta': 'header_call'} | class=ldvh__tel ldvq-phone
@@ -60,7 +60,7 @@
 - FAQ: details/summary: 9
 - События, которые страница пушит сама (разбор кода): ['ldv_cta', 'ldv_form_start', 'block_time']
 - dataLayer после сценария: ['block_time', 'engaged_30s', 'gtm.click', 'gtm.dom', 'gtm.elementVisibility', 'gtm.js', 'gtm.linkClick', 'gtm.load', 'gtm.scrollDepth', 'ldv_cta', 'stay_10s']
-- События GA4, которые ушли бы с текущим контейнером (47): {'page_view': 1, '?': 1, 'block_view': 10, 'stay_10s': 1, 'block_time': 11, 'scroll_depth': 3, 'scroll': 1, 'cta_click': 9, 'click_tel': 8, 'email_click': 1, 'engaged_30s': 1}
+- События GA4, которые ушли бы с текущим контейнером (44): {'page_view': 1, '?': 1, 'block_view': 10, 'stay_10s': 1, 'block_time': 8, 'scroll_depth': 3, 'scroll': 1, 'cta_click': 9, 'click_tel': 8, 'email_click': 1, 'engaged_30s': 1}
     scroll_depth: [{'scroll_percent': '25'}, {'scroll_percent': '50'}, {'scroll_percent': '75'}]
     scroll: [{'percent_scrolled': '90'}]
     cta_click: [{'cta_place': 'header_call'}, {'cta_place': 'hero_call'}, {'cta_place': 'sticky_call'}, {'cta_place': 'how_call'}]

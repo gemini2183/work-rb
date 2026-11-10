@@ -1,0 +1,119 @@
+{
+ "taken": "2026-11-10T17:04:11",
+ "groups": [
+  {
+   "rn": "customers/2136216123/adGroups/196130859330",
+   "name": "Car Accident",
+   "status": "ENABLED",
+   "cpc_micros": 15000000
+  },
+  {
+   "rn": "customers/2136216123/adGroups/196130859490",
+   "name": "Auto Accident",
+   "status": "PAUSED",
+   "cpc_micros": 15000000
+  },
+  {
+   "rn": "customers/2136216123/adGroups/196130859530",
+   "name": "Truck Accident",
+   "status": "ENABLED",
+   "cpc_micros": 25000000
+  },
+  {
+   "rn": "customers/2136216123/adGroups/196130859570",
+   "name": "18 Wheeler and Semi",
+   "status": "ENABLED",
+   "cpc_micros": 25000000
+  },
+  {
+   "rn": "customers/2136216123/adGroups/196916314730",
+   "name": "Pedestrian - Exact",
+   "status": "ENABLED",
+   "cpc_micros": 100000000
+  },
+  {
+   "rn": "customers/2136216123/adGroups/200312538223",
+   "name": "Wrongful Death - Exact",
+   "status": "ENABLED",
+   "cpc_micros": 100000000
+  },
+  {
+   "rn": "customers/2136216123/adGroups/202050998078",
+   "name": "Car Accident - Settlement",
+   "status": "ENABLED",
+   "cpc_micros": 30000000
+  },
+  {
+   "rn": "customers/2136216123/adGroups/202205132552",
+   "name": "Rideshare - Exact",
+   "status": "ENABLED",
+   "cpc_micros": 100000000
+  },
+  {
+   "rn": "customers/2136216123/adGroups/203258623644",
+   "name": "Bicycle - Exact",
+   "status": "ENABLED",
+   "cpc_micros": 100000000
+  },
+  {
+   "rn": "customers/2136216123/adGroups/203847030449",
+   "name": "Car Accident - LA/BH Exact",
+   "status": "ENABLED",
+   "cpc_micros": 100000000
+  },
+  {
+   "rn": "customers/2136216123/adGroups/204102632520",
+   "name": "Motorcycle - Exact",
+   "status": "ENABLED",
+   "cpc_micros": 100000000
+  },
+  {
+   "rn": "customers/2136216123/adGroups/209483864308",
+   "name": "Car Accident - Exact",
+   "status": "ENABLED",
+   "cpc_micros": 85000000
+  },
+  {
+   "rn": "customers/2136216123/adGroups/209483864548",
+   "name": "Truck Accident - Exact",
+   "status": "ENABLED",
+   "cpc_micros": 75000000
+  },
+  {
+   "rn": "customers/2136216123/adGroups/210039739108",
+   "name": "Brain Injury - Exact",
+   "status": "ENABLED",
+   "cpc_micros": 100000000
+  }
+ ],
+ "calls": [
+  {
+   "rn": "customers/2136216123/campaignAssets/24331208797~428162733238~CALL",
+   "asset": "customers/2136216123/assets/428162733238",
+   "status": "PAUSED"
+  },
+  {
+   "rn": "customers/2136216123/campaignAssets/24331208797~433454980319~CALL",
+   "asset": "customers/2136216123/assets/433454980319",
+   "status": "ENABLED"
+  },
+  {
+   "rn": "customers/2136216123/campaignAssets/24331208797~434315972748~CALL",
+   "asset": "customers/2136216123/assets/434315972748",
+   "status": "ENABLED"
+  }
+ ],
+ "callout": {
+  "rn": "customers/2136216123/customerAssets/360482809557~CALLOUT",
+  "asset": "customers/2136216123/assets/360482809557",
+  "status": "ENABLED"
+ },
+ "budget": {
+  "rn": "customers/2136216123/campaignBudgets/15921268502",
+  "micros": 400000000
+ },
+ "old_moto_ad": {
+  "rn": "customers/2136216123/adGroupAds/204102632520~829858102713",
+  "status": "ENABLED"
+ }
+}

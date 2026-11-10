@@ -1,4 +1,4 @@
-=== Состояние кампании «search / car+truck injuries / s / lp - tilda» на 2026-11-10 14:34 (чтение) ===
+=== Состояние кампании «search / car+truck injuries / s / lp - tilda» на 2026-11-10 16:28 (чтение) ===
 [1] id 24331208797; статус PAUSED; стратегия MANUAL_CPC; бюджет/день 400.00
     сеть: Google Search=True, партнёры=False, контекст=False
     шаблон отслеживания: {lpurl}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}_{ifsearch:search}{ifcontent:context}&utm_content=rb_cid_{campaignid}_{ifsearch:search}{ifcontent:context}|gid_{adgroupid}|aid_{creative}|pos_{adposition}|dev_{device}|plc_{placement}|region_id_{loc_physical_ms}|targetid_{targetid}|gclid_{gclid}&utm_term={keyword}; суффикс: —
