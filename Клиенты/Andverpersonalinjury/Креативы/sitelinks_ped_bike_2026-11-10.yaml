@@ -1,0 +1,18 @@
+# Быстрые ссылки групп Pedestrian - Exact и Bicycle - Exact на объединённую страницу (Landver, подготовлено 10.11.2026, НЕ ЗАПИСАНО).
+# Якоря взяты из блоков страницы (page_tracking_check 10.11: ldv-form высотой 0 -> ссылка на ldv-form-section, остальные блоки с высотой > 0).
+# Тексты ссылок покрыты текстом страницы (проверено по 3_blok_body.txt: crosswalk, turns, car door, hit-and-run, helmet, fee, attorney, reviews, FAQ).
+# Лимиты Google: текст <= 25, описание <= 35 знаков (скрипт проверяет сам).
+# Запуск (после «да», из папки Скрипты):
+#   python gads_sitelinks.py --customer-id 213-621-6123 --client-folder Andverpersonalinjury \
+#       --campaign "search / car+truck injuries / s / lp - tilda" --plan ../Клиенты/Andverpersonalinjury/Креативы/sitelinks_ped_bike_2026-11-10.yaml [--execute]
+# Потом UTM-метки: gads_sitelink_utm_fix.py. Откат: тот же вызов с --remove.
+- groups:
+  - Pedestrian - Exact
+  - Bicycle - Exact
+  sitelinks:
+  - {text: Free Case Review, desc1: Tell us what happened., desc2: No obligation to hire the firm., url: "https://landverpersonalinjury.tilda.ws/pedestrian-bicycle-accident-lawyer-california#ldv-form-section"}
+  - {text: No Fee Unless We Win, desc1: The first review is free., desc2: No upfront costs., url: "https://landverpersonalinjury.tilda.ws/pedestrian-bicycle-accident-lawyer-california#ldv-fee"}
+  - {text: Meet Your Attorney, desc1: "Alina Landver, Esq., MBA.", desc2: 20+ years in California courts., url: "https://landverpersonalinjury.tilda.ws/pedestrian-bicycle-accident-lawyer-california#ldv-attorney"}
+  - {text: Client Reviews, desc1: "4.8 stars, 45 Google reviews.", desc2: Read what clients say., url: "https://landverpersonalinjury.tilda.ws/pedestrian-bicycle-accident-lawyer-california#ldv-reviews"}
+  - {text: Common Situations, desc1: "Crosswalks, car doors, hit-and-run.", desc2: Cases the firm reviews., url: "https://landverpersonalinjury.tilda.ws/pedestrian-bicycle-accident-lawyer-california#ldv-situations"}
+  - {text: Common Questions, desc1: "Helmets, crosswalks, costs.", desc2: Answers after being hit., url: "https://landverpersonalinjury.tilda.ws/pedestrian-bicycle-accident-lawyer-california#ldv-faq"}
