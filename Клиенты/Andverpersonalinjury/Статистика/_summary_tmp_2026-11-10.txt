@@ -1,0 +1,275 @@
+=== search / car+truck injuries / s / lp - tilda (id 24331208797) | период 2026-10-06 → 2026-11-10 | только чтение ===
+
+[1] Настройки сейчас:
+  статус PAUSED, стратегия MANUAL_CPC, потолок цены клика нет, бюджет $400.0/день, партнёры нет, AI Max нет
+
+[2] Итог и сети:
+  SEARCH           показы   9105 клики    95 $  4829.24 конв 0.0
+  ВСЕГО            показы   9105 клики    95 $  4829.24 конв 0.0 | цена конверсии —
+
+[3] По неделям (неделя с понедельника):
+  2026-10-05 показы   123 клики    5 $  457.88 конв  0.0 CPC $ 91.58 | доля показов 14% потеряно: рейтинг 86%, бюджет 0% | вверху 11%
+  2026-10-12 показы  2003 клики   34 $   950.5 конв  0.0 CPC $ 27.96 | доля показов 15% потеряно: рейтинг 85%, бюджет 0% | вверху 10%
+  2026-10-19 показы  3052 клики   22 $ 1138.68 конв  0.0 CPC $ 51.76 | доля показов 18% потеряно: рейтинг 82%, бюджет 0% | вверху 11%
+  2026-10-26 показы  2429 клики   24 $  1655.1 конв  0.0 CPC $ 68.96 | доля показов 29% потеряно: рейтинг 68%, бюджет 3% | вверху 14%
+  2026-11-02 показы  1498 клики   10 $  627.08 конв  0.0 CPC $ 62.71 | доля показов 24% потеряно: рейтинг 76%, бюджет 0% | вверху 11%
+
+[4] Конверсии по датам и действиям:
+  2026-10-13 Local actions - Other engagements: в «Конверсиях» 0.0, всего 6.0
+  2026-10-13 Local actions - Website visits: в «Конверсиях» 0.0, всего 1.0
+  2026-10-20 Local actions - Other engagements: в «Конверсиях» 0.0, всего 4.0
+  2026-10-21 About Us: в «Конверсиях» 0.0, всего 1.0
+
+[5] Группы объявлений:
+  Car Accident [ENABLED] ставка $15.0 | показы 890 клики 22 CTR 2.5% $443.82 конв 0.0 | доля показов 11%, вверху 10%
+  Auto Accident [PAUSED] ставка $15.0 | показы 390 клики 13 CTR 3.3% $681.87 конв 0.0 | доля показов 19%, вверху 15%
+  Truck Accident [ENABLED] ставка $25.0 | показы 224 клики 2 CTR 0.9% $56.72 конв 0.0 | доля показов 10%, вверху 10%
+  18 Wheeler and Semi [ENABLED] ставка $25.0 | показы 79 клики 1 CTR 1.3% $32.44 конв 0.0 | доля показов 10%, вверху 10%
+  Pedestrian - Exact [ENABLED] ставка $100.0 | показы 65 клики 0 CTR 0.0% $0.0 конв 0.0 | доля показов 52%, вверху 23%
+  Wrongful Death - Exact [ENABLED] ставка $100.0 | показы 24 клики 1 CTR 4.2% $99.26 конв 0.0 | доля показов 44%, вверху 34%
+  Car Accident - Settlement [ENABLED] ставка $30.0 | показы 638 клики 26 CTR 4.1% $717.41 конв 0.0 | доля показов 31%, вверху 26%
+  Rideshare - Exact [ENABLED] ставка $100.0 | показы 159 клики 0 CTR 0.0% $0.0 конв 0.0 | доля показов 34%, вверху 17%
+  Bicycle - Exact [ENABLED] ставка $100.0 | показы 132 клики 1 CTR 0.8% $97.24 конв 0.0 | доля показов 40%, вверху 15%
+  Car Accident - LA/BH Exact [ENABLED] ставка $100.0 | показы 1938 клики 7 CTR 0.4% $685.75 конв 0.0 | доля показов 38%, вверху 21%
+  Motorcycle - Exact [ENABLED] ставка $100.0 | показы 274 клики 0 CTR 0.0% $0.0 конв 0.0 | доля показов 38%, вверху 10%
+  Car Accident - Exact [ENABLED] ставка $85.0 | показы 3716 клики 19 CTR 0.5% $1788.58 конв 0.0 | доля показов 18%, вверху 10%
+  Truck Accident - Exact [ENABLED] ставка $75.0 | показы 511 клики 2 CTR 0.4% $128.92 конв 0.0 | доля показов 21%, вверху 10%
+  Brain Injury - Exact [ENABLED] ставка $100.0 | показы 65 клики 1 CTR 1.5% $97.23 конв 0.0 | доля показов 56%, вверху 28%
+
+[6] Ключи (с показами; сначала с конверсиями, потом по расходу):
+  [EXACT] car accident lawyer (Car Accident - Exact, ENABLED) | показы 1229 клики 6 $646.43 конв 0.0
+  [PHRASE] traffic accident lawyer (Auto Accident, ENABLED) | показы 130 клики 5 $470.23 конв 0.0
+  [EXACT] san diego car accident lawyer (Car Accident - Exact, ENABLED) | показы 180 клики 4 $323.65 конв 0.0
+  [EXACT] car accident lawyer los angeles (Car Accident - LA/BH Exact, ENABLED) | показы 214 клики 4 $307.28 конв 0.0
+  [EXACT] car accident attorney (Car Accident - Exact, ENABLED) | показы 738 клики 2 $204.19 конв 0.0
+  [EXACT] car accident settlement (Car Accident - Settlement, ENABLED) | показы 106 клики 7 $200.96 конв 0.0
+  [EXACT] car accident lawyer los angeles ca (Car Accident - LA/BH Exact, ENABLED) | показы 50 клики 1 $189.82 конв 0.0
+  [EXACT] car accident lawyer riverside (Car Accident - Exact, ENABLED) | показы 98 клики 1 $179.08 конв 0.0
+  [EXACT] car accident compensation (Car Accident - Settlement, ENABLED) | показы 88 клики 5 $140.49 конв 0.0
+  [EXACT] truck accident attorney (Truck Accident - Exact, ENABLED) | показы 82 клики 2 $128.92 конв 0.0
+  [PHRASE] car accident law firm (Car Accident, PAUSED) | показы 110 клики 5 $123.53 конв 0.0
+  [EXACT] car accident attorney near me los angeles (Car Accident - LA/BH Exact, ENABLED) | показы 56 клики 1 $122.69 конв 0.0
+  [EXACT] car accident settlement calculator (Car Accident - Settlement, PAUSED) | показы 111 клики 5 $118.22 конв 0.0
+  [EXACT] wrongful death lawsuit (Wrongful Death - Exact, ENABLED) | показы 18 клики 1 $99.26 конв 0.0
+  [EXACT] bike crash attorney (Bicycle - Exact, ENABLED) | показы 16 клики 1 $97.24 конв 0.0
+  [EXACT] brain injury attorney (Brain Injury - Exact, ENABLED) | показы 3 клики 1 $97.23 конв 0.0
+  [EXACT] pasadena car accident lawyer (Car Accident - Exact, ENABLED) | показы 46 клики 1 $95.81 конв 0.0
+  [PHRASE] attorney for car accident (Car Accident, ENABLED) | показы 64 клики 4 $88.14 конв 0.0
+  [EXACT] average car accident settlement (Car Accident - Settlement, ENABLED) | показы 135 клики 3 $85.48 конв 0.0
+  [EXACT] car accident attorney woodland hills (Car Accident - Exact, ENABLED) | показы 39 клики 1 $84.0 конв 0.0
+  [EXACT] garden grove car accident lawyer (Car Accident - Exact, ENABLED) | показы 23 клики 1 $83.11 конв 0.0
+  [EXACT] car accident claim (Car Accident - Settlement, ENABLED) | показы 140 клики 3 $79.26 конв 0.0
+  [PHRASE] car crash attorney (Car Accident, ENABLED) | показы 78 клики 5 $77.77 конв 0.0
+  [EXACT] car accident payout (Car Accident - Settlement, ENABLED) | показы 48 клики 2 $68.17 конв 0.0
+  [EXACT] los angeles car accident attorney (Car Accident - LA/BH Exact, ENABLED) | показы 99 клики 1 $65.96 конв 0.0
+  [EXACT] car accident lawyer beverly hills (Car Accident - Exact, PAUSED) | показы 20 клики 1 $64.29 конв 0.0
+  [EXACT] simi valley car accident lawyer (Car Accident - Exact, ENABLED) | показы 12 клики 1 $59.04 конв 0.0
+  [PHRASE] car accident personal injury lawyer (Car Accident, PAUSED) | показы 64 клики 2 $56.85 конв 0.0
+  [PHRASE] auto accident law firm (Auto Accident, PAUSED) | показы 29 клики 2 $56.82 конв 0.0
+  [PHRASE] motor vehicle accident attorney (Auto Accident, ENABLED) | показы 25 клики 2 $49.75 конв 0.0
+  … ещё 127, полный список в CSV
+
+[7] Поисковые запросы:
+  видно в отчёте: 1128 запросов, показы 6957 из 9105 (76%), расход $3558 из $4829.24 (74%), конверсии 0.0 из 0.0
+  по типу соответствия (запрос с несколькими типами считается в каждом):
+    NEAR_EXACT   показы 3388.0 клики 37.0 $2167
+    EXACT        показы 3255.0 клики  8.0 $707
+    NEAR_PHRASE  показы 764.0 клики 17.0 $743
+    PHRASE       показы 116.0 клики  3.0 $43
+  car accident lawyer | показы 818 клики 3 $406 конв 0.0 | EXACT | ключ: car accident lawyer
+  insider accident lawyers | показы 8 клики 1 $369 конв 0.0 | NEAR_PHRASE | ключ: traffic accident lawyer
+  best car accident attorney in los angeles | показы 13 клики 2 $313 конв 0.0 | NEAR_EXACT | ключ: car accident attorney los angeles; car accident attorney near me los a
+  car accident lawyer in san diego | показы 1 клики 3 $241 конв 0.0 | NEAR_EXACT | ключ: san diego car accident lawyer
+  lawyer for a car accident | показы 5 клики 2 $192 конв 0.0 | NEAR_EXACT | ключ: car accident attorney; car accident lawyer
+  accident lawyers los angeles | показы 2 клики 2 $133 конв 0.0 | NEAR_EXACT | ключ: car accident lawyer los angeles; los angeles car accident attorney
+  car accident lawyers near me | показы 37 клики 1 $130 конв 0.0 | NEAR_EXACT | ключ: car accident attorney; car accident lawyer
+  car accident lawyer los angeles | показы 195 клики 1 $99 конв 0.0 | EXACT | ключ: car accident lawyer los angeles
+  negligent death | показы 1 клики 1 $99 конв 0.0 | NEAR_EXACT | ключ: wrongful death lawsuit
+  traumatic brain injury attorney | показы 2 клики 1 $97 конв 0.0 | NEAR_EXACT | ключ: brain injury attorney; brain injury lawyer
+  car accident lawyer pasadena | показы 1 клики 1 $96 конв 0.0 | NEAR_EXACT | ключ: pasadena car accident lawyer
+  car accidents settlements | показы 4 клики 3 $87 конв 0.0 | NEAR_EXACT | ключ: car accident settlement
+  car crash garden grove | показы 9 клики 1 $83 конв 0.0 | NEAR_EXACT | ключ: garden grove car accident lawyer
+  car accident attorney | показы 203 клики 1 $74 конв 0.0 | EXACT | ключ: car accident attorney
+  best car accident lawyers in los angeles | показы 14 клики 1 $67 конв 0.0 | NEAR_EXACT | ключ: car accident attorney los angeles; car accident attorney near me los a
+  semi truck accident lawyers near me | показы 3 клики 1 $65 конв 0.0 | NEAR_EXACT | ключ: truck accident attorney
+  semi truck injury lawyers | показы 3 клики 1 $64 конв 0.0 | NEAR_EXACT | ключ: truck accident attorney
+  simi valley car accident lawyer | показы 10 клики 1 $59 конв 0.0 | EXACT,NEAR_PHRASE | ключ: car crash attorney; car injury attorney; simi valley car accident lawy
+  car accident attorney near me | показы 35 клики 1 $49 конв 0.0 | NEAR_EXACT | ключ: car accident attorney; car accident lawyer
+  car accident lawyers los angeles | показы 21 клики 1 $49 конв 0.0 | NEAR_EXACT | ключ: car accident attorney los angeles; car accident lawyer los angeles; ca
+  realistic settlement calculator | показы 22 клики 2 $49 конв 0.0 | NEAR_EXACT | ключ: car accident settlement calculator
+  san diego accident lawyer | показы 4 клики 2 $44 конв 0.0 | NEAR_PHRASE | ключ: auto accident law firm; traffic accident lawyer
+  car accident lawyer modesto ca | показы 8 клики 3 $43 конв 0.0 | NEAR_PHRASE,PHRASE | ключ: car accident attorney; car accident lawyer; car crash attorney; car wr
+  car accident payout | показы 3 клики 1 $37 конв 0.0 | EXACT | ключ: car accident payout
+  the may firm p c | показы 18 клики 1 $32 конв 0.0 | NEAR_PHRASE | ключ: auto accident law firm; auto accident personal injury lawyer; car acci
+  corbin snow | показы 2 клики 1 $32 конв 0.0 | NEAR_PHRASE | ключ: car accident personal injury lawyer
+  truck accident lawyer | показы 88 клики 1 $32 конв 0.0 | EXACT | ключ: truck accident lawyer
+  car accident lawsuit settlement average | показы 15 клики 1 $31 конв 0.0 | NEAR_EXACT | ключ: average car accident settlement
+  insurance payouts for car accidents | показы 2 клики 1 $31 конв 0.0 | NEAR_EXACT | ключ: car accident payout
+  car accident settlement amounts | показы 4 клики 1 $30 конв 0.0 | NEAR_EXACT | ключ: car accident settlement
+  car accident costs | показы 1 клики 1 $30 конв 0.0 | NEAR_EXACT | ключ: car accident compensation
+  car accident injury compensation | показы 1 клики 1 $30 конв 0.0 | NEAR_EXACT | ключ: car accident compensation
+  typical car accident settlement amounts with injury | показы 4 клики 1 $30 конв 0.0 | NEAR_EXACT | ключ: average car accident settlement
+  car accident injury settlement | показы 2 клики 1 $29 конв 0.0 | NEAR_EXACT | ключ: car accident settlement
+  law ofc car law firm 1455 frazee rd ste 500 | показы 4 клики 1 $25 конв 0.0 | NEAR_PHRASE | ключ: attorney for car accident; car accident lawyer
+  car crash settlement calculator | показы 3 клики 1 $25 конв 0.0 | NEAR_EXACT | ключ: car accident settlement calculator
+  injury settlement calculator | показы 3 клики 1 $25 конв 0.0 | NEAR_EXACT | ключ: personal injury settlement calculator
+  truck accident lawyer riverside ca | показы 1 клики 1 $25 конв 0.0 | NEAR_PHRASE | ключ: truck wreck attorney
+  accident settlement calculator | показы 5 клики 1 $25 конв 0.0 | NEAR_EXACT | ключ: car accident settlement calculator
+  accident compensation | показы 5 клики 1 $25 конв 0.0 | NEAR_EXACT | ключ: car accident compensation
+
+[8] История изменений (лимит API — последние 29 дней):
+  ВНИМАНИЕ: история до 2026-10-12 через API недоступна
+  2026-10-12 08:05 ГРУППА Car Accident: ставка $0.01 → $25.0  [adwhitemcc@gmail.com]
+  2026-10-12 08:05 ГРУППА Auto Accident: ставка $0.01 → $25.0  [adwhitemcc@gmail.com]
+  2026-10-12 08:05 ГРУППА Truck Accident: ставка $0.01 → $25.0  [adwhitemcc@gmail.com]
+  2026-10-12 08:05 ГРУППА 18 Wheeler and Semi: ставка $0.01 → $25.0  [adwhitemcc@gmail.com]
+  2026-10-12 08:05 ГРУППА Car Accident - Exact: создана, ставка $0.0 → $50.0, статус UNSPECIFIED → ENABLED  [adwhitemcc@gmail.com]
+  2026-10-12 08:05 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-12 08:05 ГРУППА Truck Accident - Exact: создана, ставка $0.0 → $50.0, статус UNSPECIFIED → ENABLED  [adwhitemcc@gmail.com]
+  2026-10-12 08:05 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-12 08:05 КАМПАНИЯ стратегия ставок: manual_cpc.enhanced_cpc_enabled  [adwhitemcc@gmail.com]
+  2026-10-14 03:15 ГРУППА Auto Accident: ставка $25.0 → $15.0  [adwhitemcc@gmail.com]
+  2026-10-15 03:59 ГРУППА Auto Accident: статус ENABLED → PAUSED  [adwhitemcc@gmail.com]
+  2026-10-15 03:59 КЛЮЧ car accident personal injury lawyer [PHRASE]: ENABLED → PAUSED  [adwhitemcc@gmail.com]
+  2026-10-15 03:59 КЛЮЧ car injury lawyer [PHRASE]: ENABLED → PAUSED  [adwhitemcc@gmail.com]
+  2026-10-15 03:59 КЛЮЧ car injury attorney [PHRASE]: ENABLED → PAUSED  [adwhitemcc@gmail.com]
+  2026-10-15 03:59 КЛЮЧ car accident lawyer los angeles ca [EXACT]: ENABLED → PAUSED  [adwhitemcc@gmail.com]
+  2026-10-15 03:59 КЛЮЧ motor vehicle accident attorney los angeles [EXACT]: ENABLED → PAUSED  [adwhitemcc@gmail.com]
+  2026-10-15 03:59 КЛЮЧ car accident lawyer beverly hills [EXACT]: ENABLED → PAUSED  [adwhitemcc@gmail.com]
+  2026-10-15 03:59 СТАВКА КЛЮЧА los angeles truck accident lawyer: $0.0 → $70.0  [adwhitemcc@gmail.com]
+  2026-10-15 03:59 СТАВКА КЛЮЧА beverly hills truck accident lawyer: $0.0 → $70.0  [adwhitemcc@gmail.com]
+  2026-10-15 03:59 ГРУППА Car Accident - LA/BH Exact: создана, ставка $0.0 → $70.0, статус UNSPECIFIED → ENABLED  [adwhitemcc@gmail.com]
+  2026-10-15 03:59 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-15 03:59 ГРУППА Car Accident - Settlement: создана, ставка $0.0 → $25.0, статус UNSPECIFIED → ENABLED  [adwhitemcc@gmail.com]
+  2026-10-15 03:59 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-15 04:49 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-15 04:49 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-15 04:50 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-15 04:50 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-15 05:03 КЛЮЧ 18 wheeler accident law firm [PHRASE]: ENABLED → PAUSED  [infobox.anton@gmail.com]
+  2026-10-15 05:03 КЛЮЧ car accident law firm [PHRASE]: ENABLED → PAUSED  [infobox.anton@gmail.com]
+  2026-10-15 05:03 КЛЮЧ auto accident law firm [PHRASE]: ENABLED → PAUSED  [infobox.anton@gmail.com]
+  2026-10-15 05:03 КЛЮЧ truck accident law firm [PHRASE]: ENABLED → PAUSED  [infobox.anton@gmail.com]
+  2026-10-15 05:03 ГРУППА Car Accident: ставка $25.0 → $15.0  [infobox.anton@gmail.com]
+  2026-10-15 05:10 ГРУППА Car Accident - LA/BH Exact: ставка $70.0 → $54.0  [adwhitemcc@gmail.com]
+  2026-10-15 05:15 СТАВКА КЛЮЧА los angeles truck accident lawyer: $70.0 → $54.0  [adwhitemcc@gmail.com]
+  2026-10-15 05:15 СТАВКА КЛЮЧА beverly hills truck accident lawyer: $70.0 → $54.0  [adwhitemcc@gmail.com]
+  2026-10-17 04:23 КЛЮЧ personal injury settlement calculator [EXACT]: ENABLED → PAUSED  [infobox.anton@gmail.com]
+  2026-10-19 04:53 ГРУППА Car Accident - Exact: ставка $50.0 → $85.0  [adwhitemcc@gmail.com]
+  2026-10-19 04:53 ГРУППА Car Accident - LA/BH Exact: ставка $54.0 → $70.0  [adwhitemcc@gmail.com]
+  2026-10-20 01:23 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-20 01:24 БЮДЖЕТ $200.0 → $285.0  [adwhitemcc@gmail.com]
+  2026-10-20 01:29 ГРУППА Car Accident - Exact: ставка $85.0 → $100.0  [adwhitemcc@gmail.com]
+  2026-10-20 01:29 ГРУППА Car Accident - LA/BH Exact: ставка $70.0 → $85.0  [adwhitemcc@gmail.com]
+  2026-10-20 01:31 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-23 07:25 ГРУППА Car Accident - Exact: ставка $100.0 → $50.0  [adwhitemcc@gmail.com]
+  2026-10-23 07:25 ГРУППА Car Accident - LA/BH Exact: ставка $85.0 → $54.0  [adwhitemcc@gmail.com]
+  2026-10-26 01:55 ОБЪЯВЛЕНИЕ UPDATE: final_urls  [adwhitemcc@gmail.com]
+  2026-10-26 01:55 ОБЪЯВЛЕНИЕ UPDATE: final_urls  [adwhitemcc@gmail.com]
+  2026-10-26 01:55 ОБЪЯВЛЕНИЕ UPDATE: final_urls  [adwhitemcc@gmail.com]
+  2026-10-26 01:55 ОБЪЯВЛЕНИЕ UPDATE: final_urls  [adwhitemcc@gmail.com]
+  2026-10-26 01:55 ОБЪЯВЛЕНИЕ UPDATE: final_urls  [adwhitemcc@gmail.com]
+  2026-10-26 01:55 ГРУППА Car Accident - Exact: ставка $50.0 → $85.0  [adwhitemcc@gmail.com]
+  2026-10-26 01:55 ГРУППА Car Accident - LA/BH Exact: ставка $54.0 → $100.0  [adwhitemcc@gmail.com]
+  2026-10-26 03:12 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-26 03:12 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-26 03:12 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-26 03:12 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-26 03:12 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-26 03:12 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-26 07:58 ОБЪЯВЛЕНИЕ UPDATE: final_urls  [adwhitemcc@gmail.com]
+  2026-10-26 07:58 ОБЪЯВЛЕНИЕ UPDATE: final_urls  [adwhitemcc@gmail.com]
+  2026-10-26 07:58 ОБЪЯВЛЕНИЕ UPDATE: final_urls  [adwhitemcc@gmail.com]
+  2026-10-26 09:58 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-26 09:58 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-26 09:58 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-26 09:58 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-26 09:58 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-26 09:58 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-27 06:33 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-27 06:33 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-27 06:33 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-27 06:33 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-27 06:33 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-27 06:33 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-27 06:33 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-27 06:34 ГРУППА Car Accident - Exact: ставка $85.0 → $150.0  [adwhitemcc@gmail.com]
+  2026-10-27 06:34 ГРУППА Car Accident - LA/BH Exact: ставка $100.0 → $150.0  [adwhitemcc@gmail.com]
+  2026-10-27 09:47 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-27 09:47 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-27 09:47 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-27 09:47 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-27 09:47 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-27 09:47 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-27 09:47 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-28 06:49 КЛЮЧ car accident settlement calculator [EXACT]: ENABLED → PAUSED  [adwhitemcc@gmail.com]
+  2026-10-28 07:26 ГРУППА Wrongful Death - Exact: создана, ставка $0.0 → $100.0, статус UNSPECIFIED → PAUSED  [adwhitemcc@gmail.com]
+  2026-10-28 07:26 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-28 07:27 ГРУППА Brain Injury - Exact: создана, ставка $0.0 → $100.0, статус UNSPECIFIED → PAUSED  [adwhitemcc@gmail.com]
+  2026-10-28 07:27 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-28 07:27 ГРУППА Rideshare - Exact: создана, ставка $0.0 → $100.0, статус UNSPECIFIED → PAUSED  [adwhitemcc@gmail.com]
+  2026-10-28 07:27 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-28 07:52 БЮДЖЕТ $285.0 → $500.0  [adwhitemcc@gmail.com]
+  2026-10-28 07:54 ГРУППА Wrongful Death - Exact: статус PAUSED → ENABLED  [adwhitemcc@gmail.com]
+  2026-10-28 07:54 ГРУППА Brain Injury - Exact: статус PAUSED → ENABLED  [adwhitemcc@gmail.com]
+  2026-10-28 07:54 ГРУППА Rideshare - Exact: статус PAUSED → ENABLED  [adwhitemcc@gmail.com]
+  2026-10-28 08:10 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-28 08:10 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-28 08:13 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-28 08:13 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-28 08:19 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-28 08:19 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-28 08:19 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-28 08:19 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-28 13:52 ГРУППА Car Accident - Exact: ставка $150.0 → $180.0  [infobox.anton@gmail.com]
+  2026-10-28 13:52 ГРУППА Car Accident - LA/BH Exact: ставка $150.0 → $180.0  [infobox.anton@gmail.com]
+  2026-10-28 13:53 ГРУППА Car Accident - Settlement: ставка $25.0 → $30.0  [infobox.anton@gmail.com]
+  2026-10-28 13:53 ГРУППА Truck Accident - Exact: ставка $50.0 → $75.0  [infobox.anton@gmail.com]
+  2026-10-29 03:11 ГРУППА Car Accident - Exact: ставка $180.0 → $85.0  [adwhitemcc@gmail.com]
+  2026-10-29 03:11 ГРУППА Car Accident - LA/BH Exact: ставка $180.0 → $100.0  [adwhitemcc@gmail.com]
+  2026-10-29 03:11 БЮДЖЕТ $500.0 → $285.0  [adwhitemcc@gmail.com]
+  2026-10-29 07:29 ГРУППА Motorcycle - Exact: создана, ставка $0.0 → $100.0, статус UNSPECIFIED → PAUSED  [adwhitemcc@gmail.com]
+  2026-10-29 07:29 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-29 07:30 ГРУППА Pedestrian - Exact: создана, ставка $0.0 → $100.0, статус UNSPECIFIED → PAUSED  [adwhitemcc@gmail.com]
+  2026-10-29 07:30 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-29 07:30 ГРУППА Bicycle - Exact: создана, ставка $0.0 → $100.0, статус UNSPECIFIED → PAUSED  [adwhitemcc@gmail.com]
+  2026-10-29 07:30 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-29 08:19 ГРУППА Motorcycle - Exact: статус PAUSED → ENABLED  [adwhitemcc@gmail.com]
+  2026-10-29 08:19 ГРУППА Pedestrian - Exact: статус PAUSED → ENABLED  [adwhitemcc@gmail.com]
+  2026-10-29 08:19 ГРУППА Bicycle - Exact: статус PAUSED → ENABLED  [adwhitemcc@gmail.com]
+  2026-10-29 08:31 БЮДЖЕТ $285.0 → $400.0  [infobox.anton@gmail.com]
+  2026-10-29 08:33 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-29 08:33 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-29 08:34 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-29 08:34 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-10-29 08:34 ОБЪЯВЛЕНИЕ UPDATE: ad, status  [adwhitemcc@gmail.com]
+  2026-10-29 08:34 ОБЪЯВЛЕНИЕ CREATE: ad, ad_group, resource_name, status  [adwhitemcc@gmail.com]
+  2026-11-06 00:36 КАМПАНИЯ статус ENABLED → PAUSED  [infobox.anton@gmail.com]
+  2026-10-12 КЛЮЧИ, ГРУППА добавлено 34: car accident lawyer los angeles ca [EXACT], car accident lawyer beverly hills [EXACT], car accident lawyer [EXACT], long beach car accident attorney [EXACT], car accident lawyer irvine [EXACT], glendale car accident lawyer [EXACT], san diego car accident lawyer [EXACT], pasadena car accident lawyer [EXACT], garden grove car accident lawyer [EXACT], car accident lawyer laguna niguel [EXACT], car accident attorney woodland hills [EXACT], car accident lawyer mission viejo [EXACT], santa ana car accident attorney [EXACT], car accident lawyer anaheim [EXACT], car accident lawyer riverside [EXACT], newport beach car accident lawyer [EXACT], car accident lawyer huntington beach [EXACT], car accident lawyer fullerton [EXACT], car accident lawyer torrance [EXACT], car accident lawyer costa mesa [EXACT], car accident lawyer chula vista [EXACT], santa monica car accident lawyer [EXACT], car accident lawyer palm springs [EXACT], los angeles truck accident lawyer [EXACT], beverly hills truck accident lawyer [EXACT] …
+  2026-10-12 МИНУСЫ, КАМПАНИЯ добавлено 1: costa rica [PHRASE]
+  2026-10-12 МИНУСЫ, КАМПАНИЯ снято 3: costa [BROAD], mission [BROAD], viejo [BROAD]
+  2026-10-13 КАМПАНИЯ: ГЕО/ПРОЧИЕ КРИТЕРИИ добавлено 1: 21137
+  2026-10-13 МИНУСЫ, КАМПАНИЯ снято 10: concord [BROAD], fresno [BROAD], visalia [BROAD], redding [BROAD], bakersfield [BROAD], oakland [BROAD], sacramento [BROAD], chico [BROAD], oxnard [BROAD], palmdale [BROAD]
+  2026-10-14 КЛЮЧИ, ГРУППА добавлено 9: car accident lawyer fresno [EXACT], car accident attorney irvine [EXACT], car accident lawyer carlsbad [EXACT], bakersfield car accident lawyer [EXACT], motor vehicle accident attorney los angeles [EXACT], simi valley car accident lawyer [EXACT], victorville car accident lawyers [EXACT], stockton truck accident lawyer [EXACT], orange county truck accident lawyer [EXACT]
+  2026-10-14 МИНУСЫ, КАМПАНИЯ добавлено 135: compass law group l [EXACT], the may firm p c [EXACT], megerdichian [EXACT], artin nazaryan [EXACT], hillstone law accident & injury attorneys [EXACT], saidian and saidian law [EXACT], dustin maricic [EXACT], j&y law firm [EXACT], alain kinaly [EXACT], cha cha cha law [EXACT], wabby and wabby [EXACT], www getrude com [EXACT], victor alexandroff [EXACT], shafeeq sadiq [EXACT], jvb law firm [EXACT], salim sabbagh [EXACT], lem garcia law west covina [EXACT], cyrus shahriari [EXACT], mike nysather [EXACT], carash law firm [EXACT], bretil beitmirza [EXACT], sfa law car accident & personal injury lawyers [EXACT], efs law center car accident & personal injury lawyers [EXACT], no fault group [EXACT], elite accident attorneys [EXACT] …
+  2026-10-15 КЛЮЧИ, ГРУППА добавлено 16: car accident lawyer los angeles [EXACT], los angeles car accident lawyer [EXACT], car accident attorney los angeles [EXACT], los angeles car accident attorney [EXACT], car accident lawyer beverly hills [EXACT], beverly hills car accident lawyer [EXACT], beverly hills car accident attorney [EXACT], car accident lawyer los angeles ca [EXACT], motor vehicle accident attorney los angeles [EXACT], car accident settlement [EXACT], car accident claim [EXACT], car accident settlement calculator [EXACT], car accident compensation [EXACT], personal injury settlement calculator [EXACT], average car accident settlement [EXACT], car accident payout [EXACT]
+  2026-10-15 МИНУСЫ, КАМПАНИЯ добавлено 34: glendale accident attorney [EXACT], accident attorney in long beach [EXACT], beverly hills accident attorneys [EXACT], law ofc car law firm 1455 frazee rd ste 500 [EXACT], corbin snow [EXACT], lawyer car [EXACT], e accidents [EXACT], corbin [BROAD], snow [BROAD], 1455 [BROAD], law ofc [BROAD], casado [BROAD], ravn [BROAD], accident 911 [BROAD], jim [BROAD], pocrass [BROAD], dara [BROAD], khajavi [BROAD], kane [BROAD], handel [BROAD], bretz [BROAD], bruce [BROAD], gershman [BROAD], thatcarhitme [BROAD], fred [BROAD] …
+  2026-10-19 КЛЮЧИ, ГРУППА добавлено 3: car accident attorney [EXACT], car crash settlement lawyer [EXACT], truck accident attorney [EXACT]
+  2026-10-19 МИНУСЫ, КАМПАНИЯ добавлено 6: suzanne skolnick [EXACT], calltheaccidentguys [EXACT], autoaccident com [EXACT], emery ledger [EXACT], elif dag milano [EXACT], nelly triphon [EXACT]
+  2026-10-20 МИНУСЫ, КАМПАНИЯ добавлено 6: realistic settlement calculator [EXACT], accident compensation [EXACT], attorneys accidents [EXACT], injury settlement calculator [EXACT], accident settlement calculator [EXACT], accident settlement [EXACT]
+  2026-10-23 КАМПАНИЯ: ГЕО/ПРОЧИЕ КРИТЕРИИ добавлено 7: 300096, 310096, 320096, 330096, 340096, 350096, 360096
+  2026-10-23 КАМПАНИЯ: ГЕО/ПРОЧИЕ КРИТЕРИИ снято 7: 303292, 313292, 323292, 333292, 343292, 353292, 363292
+  2026-10-23 МИНУСЫ, КАМПАНИЯ добавлено 13: settlement calculator free [EXACT], lawsuit calculator [EXACT], injury calculator [EXACT], bodily injury settlement calculator [EXACT], personal injury case value calculator [EXACT], auto claim [EXACT], collision claim [EXACT], auto damage claim [EXACT], car insurance claims [EXACT], auto insurance claims [EXACT], file a claim car insurance [EXACT], making a claim on car insurance [EXACT], pay out of pocket for car accident [EXACT]
+  2026-10-26 КЛЮЧИ, ГРУППА добавлено 1: car accident attorney near me los angeles [EXACT]
+  2026-10-26 МИНУСЫ, ГРУППА добавлено 28: near me [PHRASE], nearby [PHRASE], near by [PHRASE], close to me [PHRASE], near me [PHRASE], nearby [PHRASE], near by [PHRASE], close to me [PHRASE], near me [PHRASE], nearby [PHRASE], near by [PHRASE], close to me [PHRASE], near me [PHRASE], nearby [PHRASE], near by [PHRASE], close to me [PHRASE], near me [PHRASE], nearby [PHRASE], near by [PHRASE], close to me [PHRASE], near me [PHRASE], nearby [PHRASE], near by [PHRASE], close to me [PHRASE], near me [PHRASE] …
+  2026-10-26 МИНУСЫ, КАМПАНИЯ добавлено 96: zeven law firm [EXACT], abram zukor [EXACT], bobby taghavi [EXACT], eman zokaeim [EXACT], joe camerlengo [EXACT], bruce gershman [EXACT], casado law firm [EXACT], emanuel abrishami [EXACT], feiz law [EXACT], fred sette [EXACT], joel bieber law firm [EXACT], kathy nassiri [EXACT], ljb legal [EXACT], car accident settlement payouts [EXACT], car accident injury settlement calculator [EXACT], car accident lawsuit settlement average [EXACT], car accident cases settlement [EXACT], car accident settlement amounts [EXACT], settlement calculator for car accident [EXACT], average compensation for car accident [EXACT], average payout for car accident [EXACT], car settlement [EXACT], car settlement calculator [EXACT], auto accident injury settlement [EXACT], auto accident settlement calculator free [EXACT] …
+  2026-10-26 МИНУСЫ, КАМПАНИЯ снято 37: accident settlement [EXACT], automobile accident settlement [EXACT], auto accident injury settlement [EXACT], car accident settlement amounts [EXACT], traffic accident settlement [EXACT], injury settlement calculator [EXACT], car settlement [EXACT], car injury settlement [EXACT], accident settlement calculator [EXACT], average settlement for car accident [EXACT], average compensation for car accident [EXACT], bodily injury settlement calculator [EXACT], car accident injury settlement calculator [EXACT], auto accident settlement calculator free [EXACT], settlement for car accident injury [EXACT], calculate car accident injury settlement [EXACT], average car crash settlement [EXACT], car accident cases settlement [EXACT], car accident lawsuit settlement average [EXACT], car accident settlement payouts [EXACT], average payout for car accident [EXACT], car settlement calculator [EXACT], car crash settlement calculator [EXACT], average settlement amount for car accident [EXACT], typical settlement amount for car accident [EXACT] …
+  2026-10-28 КЛЮЧИ, ГРУППА добавлено 24: wrongful death lawyer [EXACT], wrongful death attorney [EXACT], wrongful death lawsuit [EXACT], wrongful death lawyer los angeles [EXACT], wrongful death lawyer california [EXACT], wrongful death attorney riverside [EXACT], wrongful death lawyer long beach [EXACT], best wrongful death lawyer [EXACT], brain injury lawyer [EXACT], brain injury attorney [EXACT], brain injury lawyer los angeles [EXACT], brain injury lawyer california [EXACT], traumatic brain injury lawyer [EXACT], tbi lawyer [EXACT], head injury lawyer [EXACT], uber accident lawyer [EXACT], uber accident attorney [EXACT], rideshare accident attorney [EXACT], lyft accident lawyer [EXACT], lyft accident attorney [EXACT], rideshare accident lawyer [EXACT], uber accident lawyer los angeles [EXACT], rideshare accident lawyer los angeles [EXACT], uber accident lawyer beverly hills [EXACT]
+  2026-10-28 МИНУСЫ, ГРУППА добавлено 41: calculator [PHRASE], near me [PHRASE], nearby [PHRASE], near by [PHRASE], close to me [PHRASE], malpractice [PHRASE], nursing home [PHRASE], hospital [PHRASE], medical [PHRASE], police [PHRASE], jail [PHRASE], prison [PHRASE], near me [PHRASE], nearby [PHRASE], near by [PHRASE], close to me [PHRASE], birth injury [PHRASE], malpractice [PHRASE], symptoms [PHRASE], treatment [PHRASE], recovery [PHRASE], therapy [PHRASE], rehab [PHRASE], doctor [PHRASE], disability [PHRASE] …
+  2026-10-28 МИНУСЫ, КАМПАНИЯ добавлено 1: motorcycle accident lawyer [EXACT]
+  2026-10-28 МИНУСЫ, КАМПАНИЯ снято 3: motorcycle accident lawyer [EXACT], rideshare accident attorney [EXACT], rideshare accident lawyer los angeles [EXACT]
+  2026-10-29 КЛЮЧИ, ГРУППА добавлено 25: motorcycle accident lawyer [EXACT], motorcycle accident attorney [EXACT], motorcycle crash lawyer [EXACT], motorcycle accident lawyer california [EXACT], best motorcycle accident lawyer [EXACT], motorcycle injury lawyer [EXACT], motorcycle accident lawyer los angeles [EXACT], motorcycle accident lawyer long beach [EXACT], beverly hills motorcycle accident lawyer [EXACT], pedestrian accident lawyer [EXACT], pedestrian accident attorney [EXACT], la pedestrian accident lawyer [EXACT], pedestrian injury lawyer [EXACT], pedestrian accident lawyer california [EXACT], pedestrian hit by car lawyer [EXACT], pedestrian accident lawyer los angeles [EXACT], pedestrian accident lawyer long beach [EXACT], beverly hills pedestrian accident lawyer [EXACT], costa mesa pedestrian accident attorney [EXACT], bicycle accident lawyer [EXACT], bicycle accident attorney [EXACT], bicycle accident lawyer los angeles [EXACT], bike accident lawyer [EXACT], bike crash lawyer [EXACT], bike crash attorney [EXACT]
+  2026-10-29 МИНУСЫ, ГРУППА добавлено 31: near me [PHRASE], nearby [PHRASE], near by [PHRASE], close to me [PHRASE], gear [PHRASE], for sale [PHRASE], license [PHRASE], course [PHRASE], club [PHRASE], rental [PHRASE], repair [PHRASE], parts [PHRASE], dealer [PHRASE], near me [PHRASE], nearby [PHRASE], near by [PHRASE], close to me [PHRASE], ticket [PHRASE], citation [PHRASE], charges [PHRASE], defense [PHRASE], near me [PHRASE], nearby [PHRASE], near by [PHRASE], close to me [PHRASE] …
+  2026-10-29 МИНУСЫ, КАМПАНИЯ снято 1: motorcycle accident lawyer [EXACT]
+
+CSV: D:\GitHub\work-rb\Клиенты\Andverpersonalinjury\Статистика\campaign_summary_search - car+truck injuries - s - lp - tilda_2026-10-06_to_2026-11-10_keywords.csv, campaign_summary_search - car+truck injuries - s - lp - tilda_2026-10-06_to_2026-11-10_terms.csv
