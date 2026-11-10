@@ -5,7 +5,7 @@
 #
 #   python phone_swap_check.py --client-folder "Andverpersonalinjury" --pool-file "Коллтрекинг/Пул_номеров_spanish_tilda.yaml"
 
-url: "https://landverpersonalinjury.tilda.ws/abogado-de-accidentes-lawyer-california"
+url: "https://landverpersonalinjury.tilda.ws/abogado-accidentes-auto-lawyer-california"
 
 default: "+18444529465"
 

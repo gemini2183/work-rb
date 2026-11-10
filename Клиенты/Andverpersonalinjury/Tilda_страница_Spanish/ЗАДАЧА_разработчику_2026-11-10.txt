@@ -1,0 +1,63 @@
+Задача по двум страницам, Tilda, сайт landverpersonalinjury.tilda.ws
+
+Файлы в архиве. Содержимое файлов вставлять целиком, без правок:
+  Испанская/1_blok_top.txt, 2_blok_forma_podpis.txt, 3_blok_body.txt, 4_blok_footer.txt
+  Pedestrian_Bicycle/1_blok_top.txt
+
+
+=== 1. Испанская страница: abogado-accidentes-auto-california ===
+
+Сейчас: на странице нет формы (кнопки «Consulta gratuita» и «Dejar mi número» ведут на якорь #ldv-form, а формы нет), тексты в теле страницы другие, не из файлов.
+
+Блоки по порядку, старые блоки удалить:
+  1) HTML-блок: 1_blok_top.txt
+  2) HTML-блок: 2_blok_forma_podpis.txt
+  3) Обычная форма Tilda, сразу под блоком 2
+  4) HTML-блок: 3_blok_body.txt
+  5) HTML-блок: 4_blok_footer.txt
+Ссылки и кнопки внутри блоков не менять и не заменять блоками Tilda.
+
+Поля формы (имена латиницей, ровно такие, в таком порядке):
+  Su nombre                                   name            текст                      обязательное
+  Teléfono                                    phone           телефон, маска США         обязательное
+  ¿Usted o un pasajero resultó herido?        injured         радио-кнопки               не обязательное
+      Sí, yo / Sí, un pasajero o familiar / Falleció un ser querido / No, solo daños al vehículo / No estoy seguro
+  ¿Qué tipo de accidente fue?                 accident_type   радио-кнопки               не обязательное
+      Auto / Camión / Motocicleta / Peatón o bicicleta / Otro
+  Cuéntenos brevemente qué pasó (opcional)    what_happened   текст, много строк         не обязательное
+  скрытое пустое поле                         quiz_summary
+В радио-кнопках по умолчанию ничего не выбрано.
+
+Кнопка: Solicitar mi consulta gratuita
+Под формой: Enviar este formulario no crea por sí solo una relación abogado-cliente.
+Сообщение после отправки (настройки формы, «Действия после отправки»), номер текстом, не ссылкой:
+  Gracias. Recibimos su solicitud y nos comunicaremos con usted para programar su consulta gratuita. Mientras tanto, si aún no lo ha hecho, reciba atención médica y no dé declaraciones grabadas ni firme ofertas de una aseguradora. ¿Prefiere hablar ahora? Llame al (844) 452-9465 · 24/7.
+Заявки на те же почту и интеграции, что у остальных страниц. Фон блока формы #f7f2ea, отступы сверху и снизу около 20 px.
+
+Настройки страницы:
+  Язык: es (в начале кода страницы <html lang="es">).
+  Title: Abogado de Accidentes de Auto en California | Landver Law
+  Description: ¿Lesionado en un accidente en California? Consulta gratis con Landver Law. No paga honorarios a menos que gane. Atención en español 24/7.
+  Сейчас по два Title и по два Description (второй набор внутри HTML-блока). Должно остаться по одному.
+  Адрес страницы: abogado-accidentes-auto-lawyer-california
+  (итоговая ссылка https://landverpersonalinjury.tilda.ws/abogado-accidentes-auto-lawyer-california)
+
+
+=== 2. Pedestrian & Bicycle: pedestrian-bicycle-accident-lawyer-california ===
+
+Сейчас: первый блок не из файла. В нём свои <title> и description (на странице по два Title и по два Description), на планшете в первом экране нет ни фото, ни аватарки, на компьютере аватарка стоит рядом с большим фото.
+
+Сделать:
+  1) Содержимое первого HTML-блока заменить на Pedestrian_Bicycle/1_blok_top.txt целиком. Остальные блоки и форму не трогать.
+  2) В настройках страницы оставить по одному:
+     Title: California Pedestrian & Bike Accident Lawyer | Landver Law
+     Description: Hit by a car while walking or biking in California? Get a free case review from Landver Law. No fee unless we win. Call 24/7 or leave your number.
+  3) Язык: en.
+
+
+=== Проверка после публикации (обе страницы) ===
+  Телефон: вместо большого фото маленькая круглая аватарка с именем Alina Landver под текстом первого экрана.
+  Компьютер: большое фото справа, аватарки с именем рядом нет.
+  Каждая кнопка «Consulta gratuita» / «Get my free case review» прокручивает страницу к форме, окон не открывает.
+  На странице одна форма и один заголовок H1.
+Реальные заявки не отправлять.

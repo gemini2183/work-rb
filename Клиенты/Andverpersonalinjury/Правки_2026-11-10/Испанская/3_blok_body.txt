@@ -1,0 +1,369 @@
+<!-- Landver Law: страница «Abogado de Accidentes de Auto en California. Consulta Gratis.», БЛОК 3: всё под формой (Tilda T123 «HTML»). Собрано build_topic_pages.py.
+     Порядок: что говорят страховые, что делать и чего не делать, как проходит звонок, оплата, команда, ситуации, результаты, адвокат, отзывы, вопросы, финальный призыв.
+     Все кнопки формы ведут на #ldv-form (якорь в блоке 1). Второй формы нет. -->
+<style>
+
+.ldvp{font-family:Montserrat,Arial,sans-serif;color:#292929;-webkit-font-smoothing:antialiased}
+.ldvp *,.ldvp *::before,.ldvp *::after{box-sizing:border-box}
+.ldvp__sec{padding:44px 16px}
+.ldvp__sec--cream{background:#f7f2ea}
+.ldvp__sec--white{background:#ffffff}
+.ldvp__sec--dark{background:#302d28;color:#ffffff}
+.ldvp__in{max-width:860px;margin:0 auto}
+.ldvp__eyebrow{margin:0 0 8px;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#937a4e}
+.ldvp__sec--dark .ldvp__eyebrow{color:#d2b16d}
+.ldvp__h2{margin:0 0 14px;font-size:clamp(26px,5.4vw,38px);line-height:1.15;font-weight:800;letter-spacing:-.015em}
+.ldvp__lead{margin:0 0 22px;font-size:16.5px;line-height:1.55;color:#66615b}
+.ldvp__sec--dark .ldvp__lead{color:#e7dfd2}
+.ldvp__cards{display:grid;gap:12px;margin:0 0 20px}
+.ldvp__card{padding:18px;border-radius:14px;background:#ffffff;border:1px solid #e7dfd2}
+.ldvp__card b{display:block;margin:0 0 6px;font-size:17.5px;line-height:1.3;font-weight:800}
+.ldvp__card p{margin:0;font-size:15.5px;line-height:1.5;color:#66615b}
+.ldvp__card i{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;margin:0 0 10px;border-radius:50%;background:#826510;color:#fff;font-style:normal;font-size:14px;font-weight:800}
+.ldvp__note{margin:0 0 22px;font-size:14px;line-height:1.5;color:#77716a}
+.ldvp__btn{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:14px 24px;border-radius:12px;background:#826510;border:2px solid #826510;color:#fff;font:800 16.5px/1.2 Montserrat,Arial,sans-serif;text-decoration:none;text-align:center}
+.ldvp__btn:hover{background:#6e530d;border-color:#6e530d;color:#fff}
+.ldvp__btn--ghost{background:transparent;color:#292929;border-color:#292929}
+.ldvp__btn--ghost:hover{background:#292929;color:#fff;border-color:#292929}
+.ldvp__sec--dark .ldvp__btn--ghost{color:#ffffff;border-color:rgba(255,255,255,.45)}
+.ldvp__sec--dark .ldvp__btn--ghost:hover{background:#ffffff;color:#302d28;border-color:#ffffff}
+.ldvp__btns{display:grid;gap:10px;margin:18px 0 0}
+.ldvp__rows{display:grid;gap:12px;margin:0}
+.ldvp__row{padding:16px 18px;border-radius:14px;background:#f7f2ea;border-left:5px solid #826510}
+.ldvp__row b{display:block;margin:0 0 4px;font-size:17px;font-weight:800}
+.ldvp__row p{margin:0;font-size:15.5px;line-height:1.5;color:#66615b}
+.ldvp__steps{display:grid;gap:14px;margin:0;padding:0;list-style:none;counter-reset:s}
+.ldvp__steps li{counter-increment:s;position:relative;padding:4px 0 4px 52px;font-size:16.5px;line-height:1.5;color:#292929}
+.ldvp__steps li::before{content:counter(s);position:absolute;left:0;top:0;width:38px;height:38px;border-radius:50%;background:#302d28;color:#fff;font-weight:800;font-size:17px;line-height:38px;text-align:center}
+.ldvp__steps b{display:block;font-size:17.5px;font-weight:800}
+.ldvp__atty{display:grid;gap:22px;align-items:center}
+.ldvp__atty img{display:block;width:100%;max-width:260px;height:auto;aspect-ratio:2/3;object-fit:cover;border-radius:16px;margin:0 auto}
+.ldvp__facts{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px;padding:0;list-style:none}
+.ldvp__facts li{padding:7px 12px;border-radius:999px;background:#292929;border:1px solid rgba(210,177,109,.4);font-size:13.5px;font-weight:700;color:#f7f2ea}
+.ldvp__facts b{color:#d2b16d}
+.ldvp__src{margin:14px 0 0;font-size:12.5px;line-height:1.5;color:#b5ada0}
+.ldvp__rate{display:flex;align-items:baseline;gap:12px;margin:0 0 18px;flex-wrap:wrap}
+.ldvp__rate b{font-size:44px;line-height:1;font-weight:800}
+.ldvp__rate span{font-size:15px;color:#66615b}
+.ldvp__stars{color:#b19154;letter-spacing:2px;font-size:20px}
+.ldvp__rev{margin:0;padding:18px;border-radius:14px;background:#ffffff;border:1px solid #e7dfd2}
+.ldvp__rev p{margin:8px 0 10px;font-size:16px;line-height:1.5;font-weight:600}
+.ldvp__rev small{display:block;font-size:13px;color:#77716a}
+.ldvp__faq details{border-bottom:1px solid #e7dfd2;background:#ffffff}
+.ldvp__faq details:first-child{border-top:1px solid #e7dfd2}
+.ldvp__faq summary{list-style:none;cursor:pointer;display:flex;align-items:flex-start;justify-content:space-between;gap:14px;padding:16px 4px;font-size:16.5px;line-height:1.35;font-weight:800;-webkit-tap-highlight-color:transparent}
+.ldvp__faq summary::-webkit-details-marker{display:none}
+.ldvp__faq summary::after{content:"+";flex:0 0 auto;width:28px;height:28px;border-radius:50%;background:#f7f2ea;text-align:center;font-size:20px;line-height:28px;font-weight:700;color:#937a4e}
+.ldvp__faq details[open] summary::after{content:"\2212"}
+.ldvp__faq details p{margin:0;padding:0 4px 18px;font-size:15.5px;line-height:1.6;color:#66615b}
+.ldvp__ticks{margin:0 0 12px;padding:0;list-style:none}
+.ldvp__ticks li{position:relative;margin:0 0 9px;padding-left:30px;font-size:16.5px;line-height:1.45}
+.ldvp__ticks li::before{content:"\2713";position:absolute;left:0;top:0;color:#826510;font-weight:800}
+.ldvp__fee{margin:0 0 6px;font-size:16px;font-weight:800;color:#d2b16d}
+.ldvp__fine{margin:16px 0 0;font-size:12.5px;line-height:1.5;color:#b5ada0}
+.ldvp__anchor{display:block;height:0;scroll-margin-top:72px}
+@media(min-width:700px){
+  .ldvp__sec{padding:64px 24px}
+  .ldvp__cards{grid-template-columns:1fr 1fr}
+  .ldvp__rows--3{grid-template-columns:repeat(3,1fr)}
+  .ldvp__btns{grid-template-columns:auto auto;justify-content:start}
+  .ldvp__atty{grid-template-columns:240px 1fr;gap:36px}
+  .ldvp__revs{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+}
+.ldvp__revs{display:grid;gap:12px;margin:0 0 14px}
+
+
+.ldvp{font-family:Montserrat,Arial,sans-serif}
+.ldvp__btn{border-radius:10px}
+.ldvp__chips{display:flex;flex-wrap:wrap;gap:9px;margin:0 0 14px;padding:0;list-style:none}
+.ldvp__chips li{padding:11px 15px;border-radius:10px;background:#fff;border:1px solid #e7dfd2;font-size:14.5px;line-height:1.4;font-weight:600;color:#292929}
+.ldvp__cols{display:grid;gap:14px;margin:0 0 14px}
+.ldvp__col{padding:20px;border-radius:14px;background:#fff;border:1px solid #e7dfd2}
+.ldvp__col h3{margin:0 0 12px;font-size:18px;line-height:1.3;font-weight:800}
+.ldvp__nots{margin:0;padding:0;list-style:none}
+.ldvp__nots li{position:relative;margin:0 0 9px;padding-left:30px;font-size:16.5px;line-height:1.45}
+.ldvp__nots li::before{content:"\2715";position:absolute;left:0;top:0;color:#937a4e;font-weight:800}
+.ldvp__badges{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 14px;padding:0;list-style:none}
+.ldvp__badges img{display:block;width:72px;height:72px;object-fit:contain;background:#fff;border-radius:10px;padding:4px}
+.ldvp__revlinks{margin:0 0 14px;font-size:14.5px}
+.ldvp__revlinks a,.ldvp__rev a{color:#826510}
+.ldvp__revlinks a{font-weight:700}
+.ldvp__rev{box-shadow:0 5px 22px rgba(69,50,22,.04)}
+.ldvp__hl{margin:0 0 20px;padding:16px 18px;background:#f7f2ea;border:1px solid #d2b16d;border-radius:12px}
+.ldvp__hl strong{display:block;font-size:17px;font-weight:800;color:#292929}
+.ldvp__hl p{margin:4px 0 0;font-size:15px;line-height:1.5;color:#66615b}
+.ldvp__faq details[open] summary::after{background:#826510;color:#fff}
+.ldvp__faq summary:hover{color:#826510}
+.ldvp__sec--dark .ldvp__btn--ghost{border-color:#d2b16d;color:#fff}
+.ldvp__sec--dark .ldvp__btn--ghost:hover{background:#d2b16d;color:#302d28;border-color:#d2b16d}
+.ldvp__card--note{padding:20px;background:#f7f2ea;border:0;border-left:4px solid #d2b16d;border-radius:12px}
+#ldv-fee,#ldv-how{scroll-margin-top:72px}
+/* фото в блоках: как на живой Car (Photography integration V1) */
+.ldvmedia__split{display:grid;grid-template-columns:1fr;gap:26px;align-items:center;margin-top:12px}
+.ldvmedia__photo{display:block;width:100%;margin:0;overflow:hidden;border-radius:12px;background:#f7f2ea;box-shadow:0 12px 35px rgba(69,50,22,.10)}
+.ldvmedia__photo img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover}
+.ldvmedia__content{min-width:0}
+.ldvmedia__content>:last-child{margin-bottom:0}
+.ldvmedia__content .ldvp__cards{grid-template-columns:1fr;margin:0}
+#ldv-final .ldvmedia__photo{border:1px solid rgba(210,177,109,.25)}
+.ldvmedia__content .ldvp__btns{grid-template-columns:1fr}
+.ldv-team{background:#fff;padding:44px 16px;font-family:Montserrat,Arial,sans-serif;color:#292929}
+.ldv-team *{box-sizing:border-box}
+.ldv-team__inner{max-width:1040px;margin:0 auto;text-align:center}
+.ldv-team__eyebrow{margin:0 0 10px;color:#937a4e;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.ldv-team__title{margin:0 0 16px;font-size:clamp(28px,5vw,40px);font-weight:800;line-height:1.16;letter-spacing:-.02em}
+.ldv-team__description{max-width:690px;margin:0 auto 22px;color:#66615b;font-size:15.5px;line-height:1.65}
+.ldv-team__photo{margin:0}
+.ldv-team__photo img{display:block;width:100%;max-width:850px;height:auto;margin:0 auto;border-radius:12px;object-fit:contain;box-shadow:0 12px 35px rgba(69,50,22,.1)}
+.ldv-team__caption{margin-top:12px;font-size:13px;color:#66615b}
+@media(min-width:700px){.ldv-team{padding:64px 24px}.ldv-team__description{font-size:16.5px;margin-bottom:30px}.ldv-team__photo img{border-radius:16px}}
+@media(min-width:800px){
+  .ldvmedia__photo{border-radius:16px}
+  .ldvmedia__photo img{aspect-ratio:auto}
+  #ldv-insurers .ldvmedia__split{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);align-items:stretch}
+  #ldv-insurers .ldvmedia__photo img{height:100%;min-height:320px;aspect-ratio:auto}
+  #ldv-how .ldvmedia__split{grid-template-columns:minmax(0,1fr) minmax(0,.85fr)}
+  #ldv-how .ldvmedia__photo img{aspect-ratio:4/5}
+  #ldv-situations .ldvmedia__split{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  #ldv-situations .ldvmedia__photo img{aspect-ratio:4/3}
+  #ldv-final .ldvmedia__split{grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:36px}
+  #ldv-final .ldvmedia__photo img{aspect-ratio:4/5}
+}
+@media(min-width:700px){.ldvp__cols{grid-template-columns:1fr 1fr}}
+
+</style>
+
+<div class="ldvp">
+
+  <section class="ldvp__sec ldvp__sec--white" id="ldv-insurers">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Después del accidente</p>
+      <h2 class="ldvp__h2">Lo que las aseguradoras suelen decirle después de un accidente</h2>
+      <div class="ldvmedia__split">
+        <figure class="ldvmedia__photo"><img src="https://static.tildacdn.net/tila3838-3533-4565-a532-303733633138/landver_insurance_no.webp" alt="Documentos de un reclamo de seguro y del accidente" width="768" height="512" loading="lazy" decoding="async"></figure>
+        <div class="ldvmedia__content">
+        <div class="ldvp__cards">
+          <div class="ldvp__card ldvp__card--note"><b>&ldquo;Solo necesitamos su declaración grabada.&rdquo;</b><p>Antes de darla, averigüe para qué puede usarse. Lo que diga puede afectar su reclamo. Si no está seguro, considere asesorarse con un abogado antes de aceptar.</p></div>
+          <div class="ldvp__card ldvp__card--note"><b>&ldquo;Esta es nuestra oferta rápida.&rdquo;</b><p>Si firma un documento de liberación (release), el reclamo puede cerrarse antes de que se conozca el panorama médico completo. Puede averiguar dónde está parado antes de aceptar algo.</p></div>
+          <div class="ldvp__card ldvp__card--note"><b>&ldquo;Usted también tuvo culpa.&rdquo;</b><p>En California la compensación se reduce según su porcentaje de culpa; no se cancela automáticamente. Quién tuvo la culpa depende de lo que pasó: dónde estaba cada vehículo, velocidades, semáforos, testigos y videos.</p></div>
+          <div class="ldvp__card ldvp__card--note"><b>&ldquo;Dejó de ir al médico, así que no es por el accidente.&rdquo;</b><p>Los vacíos en el tratamiento pueden usarse para argumentar que la lesión no viene del accidente. Cuéntele al médico todo lo que le duele, aunque parezca poco. Algunos dolores aparecen horas o días después.</p></div>
+        </div>
+        </div>
+      </div>
+      <p class="ldvp__note" style="margin-top:16px">La primera cifra de la aseguradora no siempre es la final.</p>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--white" id="ldv-checklist">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Los primeros días</p>
+      <h2 class="ldvp__h2">Después de un accidente: qué hacer ahora y qué dejar para después de hablar con un abogado</h2>
+      <div class="ldvp__cols">
+        <div class="ldvp__col">
+          <h3>Haga ahora</h3>
+          <ul class="ldvp__ticks">
+            <li>Reciba atención médica. Cuéntele al médico todo lo que le duele, aunque parezca poco.</li>
+            <li>Asegúrese de que la policía haga un reporte y guarde el número del reporte.</li>
+            <li>Tome fotos si puede: el lugar, los vehículos, las placas, los daños y sus lesiones.</li>
+            <li>Anote nombres y teléfonos de los testigos. Fíjese en cámaras cercanas (tiendas, timbres con cámara): los videos pueden borrarse con el tiempo.</li>
+            <li>Guarde sus documentos y su ropa tal como están, y no repare el vehículo hasta consultar si una aseguradora quiere inspeccionarlo.</li>
+          </ul>
+        </div>
+        <div class="ldvp__col">
+          <h3>Espere a hablar con un abogado antes de</h3>
+          <ul class="ldvp__nots">
+            <li>Dar una declaración grabada a la aseguradora de la otra parte.</li>
+            <li>Firmar un documento de liberación o aceptar una oferta rápida.</li>
+            <li>Decir &ldquo;fue mi culpa&rdquo; o &ldquo;estoy bien&rdquo; en el lugar o a una aseguradora. Diga qué le duele y qué recuerda.</li>
+            <li>Publicar sobre el accidente en redes sociales.</li>
+          </ul>
+        </div>
+      </div>
+      <p class="ldvp__note">Esta es información general, no es asesoría legal.</p>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--white" id="ldv-how">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Cómo funciona</p>
+      <h2 class="ldvp__h2">Qué sucede cuando llama a un abogado de accidentes</h2>
+      <div class="ldvmedia__split">
+        <div class="ldvmedia__content">
+        <ol class="ldvp__steps">
+          <li><b>Cuéntenos qué pasó.</b>El accidente, sus lesiones y el tratamiento hasta ahora. Todavía no necesita documentos.</li>
+          <li><b>Programamos una revisión gratuita de su caso con un abogado</b>Gratis y sin compromiso.</li>
+          <li><b>El abogado le explica qué aplica a su caso y qué evitar</b>Después usted decide: contratar a la firma ahora, más tarde o no hacerlo. Sin presión.</li>
+        </ol>
+        <div class="ldvp__btns">
+          <a class="ldvp__btn" href="#ldv-form" data-ldv-cta="es_how_form">Solicitar mi consulta gratuita</a>
+          <a class="ldvp__btn ldvp__btn--ghost ldvq-phone" href="tel:+18444529465" data-ldv-cta="es_how_call">Llame al (844) 452-9465 &middot; 24/7</a>
+        </div>
+        </div>
+        <figure class="ldvmedia__photo"><img src="https://static.tildacdn.net/tila3935-6566-4461-b235-326364613238/landver_legal_office.webp" alt="Oficina de abogados en California con documentos legales y la balanza de la justicia" width="768" height="512" loading="lazy" decoding="async"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--cream" id="ldv-fee">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Cómo se pagan los honorarios</p>
+      <h2 class="ldvp__h2">¿Por qué la primera consulta es gratis y cómo cobra Landver Law?</h2>
+      <ul class="ldvp__ticks">
+        <li>La primera consulta es gratis. Así usted y la firma averiguan si Landver Law puede ayudar con su caso.</li>
+        <li>Si contrata a la firma, primero firma un contrato por escrito. Indica los honorarios y usted puede leerlo antes de firmar.</li>
+        <li>Los honorarios del abogado se pagan de lo que se recupere. Si no se recupera nada, usted no debe honorarios de abogado.</li>
+        <li>No hay costos por adelantado.</li>
+      </ul>
+      <p class="ldvp__note">Así la firma cobra solo cuando usted cobra. Los términos económicos exactos se confirman en el contrato escrito entre abogado y cliente antes de comenzar la representación.</p>
+      <div class="ldvp__hl"><strong>No Paga Honorarios a Menos Que Ganemos.</strong><p>Su primera consulta es gratis, sin obligación de contratar a la firma.</p></div>
+      <div class="ldvp__btns">
+        <a class="ldvp__btn" href="#ldv-form" data-ldv-cta="es_fee_form">Solicitar mi consulta gratuita</a>
+        <a class="ldvp__btn ldvp__btn--ghost ldvq-phone" href="tel:+18444529465" data-ldv-cta="es_fee_call">Llame al (844) 452-9465 &middot; 24/7</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="ldv-team" id="ldv-team">
+    <div class="ldv-team__inner">
+      <p class="ldv-team__eyebrow">Las personas detrás de Landver Law</p>
+      <h2 class="ldv-team__title">Un equipo dedicado a su caso</h2>
+      <p class="ldv-team__description">Cuando trabaja con Landver Law, cuenta con un equipo comprometido a guiarlo en el proceso legal, desde su primera consulta hasta la resolución de su caso.</p>
+      <figure class="ldv-team__photo"><img src="https://static.tildacdn.net/tila3339-6566-4261-b363-313039383634/IMG_8729-1_1.webp" alt="El equipo legal de Landver Law" width="1144" height="1299" loading="lazy" decoding="async"><figcaption class="ldv-team__caption">El equipo de Landver Law</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--white" id="ldv-situations">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Casos de accidentes</p>
+      <h2 class="ldvp__h2">Situaciones comunes de accidentes que revisa Landver Law</h2>
+              <ul class="ldvp__chips">
+          <li>Otro conductor lo chocó por detrás</li>
+          <li>Choque en un cruce o en un semáforo</li>
+          <li>Otro conductor cambió de carril sin verlo</li>
+          <li>Conductor distraído, con exceso de velocidad o ebrio</li>
+          <li>El otro conductor se dio a la fuga</li>
+          <li>Choque con un camión</li>
+          <li>Accidente como pasajero en un auto o en un servicio de transporte</li>
+          <li>Atropello de un peatón o de un ciclista</li>
+          <li>Accidente de motocicleta</li>
+          <li>Un ser querido falleció en un accidente</li>
+        </ul>
+        <p class="ldvp__note">¿No sabe cuál es su caso? No importa. Cuéntenos qué pasó y un abogado lo revisa. Cada caso depende de sus propios hechos, lesiones, pruebas, responsabilidad y cobertura de seguro.</p>
+        <div class="ldvp__btns">
+          <a class="ldvp__btn" href="#ldv-form" data-ldv-cta="es_cases_form">Solicitar mi consulta gratuita</a>
+        </div>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--cream" id="ldv-results">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Resultados</p>
+      <h2 class="ldvp__h2">Acuerdos y veredictos recientes</h2>
+      <p class="ldvp__lead" style="margin-bottom:14px">Estos son resultados de otros casos. Cada caso es distinto.</p>
+      <div class="ldvp__cards">
+        <div class="ldvp__card"><b>$38.5M &middot; Accidente de vehículo</b><p>Un choque por alcance en la autopista causó lesiones graves en la columna y una larga recuperación. La firma armó un expediente de pruebas completo y obtuvo un veredicto destacado.</p></div>
+        <div class="ldvp__card"><b>$35.2M &middot; Accidente de camión</b><p>Uno de los casos más disputados de la firma. El resultado fue un veredicto destacado para el cliente.</p></div>
+        <div class="ldvp__card"><b>$17.1M &middot; Accidente de autobús</b><p>Un pasajero de transporte público resultó lesionado sin tener culpa alguna. La firma procedió contra la agencia y obtuvo un resultado acorde con la gravedad de la lesión.</p></div>
+      </div>
+      <p class="ldvp__note">Los resultados pasados no garantizan, predicen ni implican un resultado similar en ningún otro caso. Cada caso depende de sus propios hechos, lesiones, pruebas, responsabilidad, cobertura de seguro y la ley aplicable.</p>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--dark" id="ldv-attorney">
+    <div class="ldvp__in ldvp__atty">
+      <img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/Landver0290.jpg" width="800" height="1200" loading="lazy" alt="Alina Landver, abogada de accidentes de Landver Law en Beverly Hills">
+      <div>
+        <p class="ldvp__eyebrow">Su abogada</p>
+        <h2 class="ldvp__h2">Su abogada de accidentes en California: Alina Landver, Esq., MBA</h2>
+        <ul class="ldvp__facts">
+          <li>Socia directora &middot; Abogada litigante</li>
+          <li><b>Colegio de Abogados de California</b> 231077</li>
+          <li><b>Admitida</b> junio de 2004</li>
+        </ul>
+        <p class="ldvp__lead">Alina Landver ejerce el derecho de lesiones personales desde hace más de 20 años en tribunales estatales y federales en todo California. Comenzó su carrera del lado de la defensa, representando a clientes corporativos, lo que le da un conocimiento directo de cómo las aseguradoras subvaloran los reclamos.</p>
+        <ul class="ldvp__badges">
+            <li><img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/image-1.png" width="72" height="72" loading="lazy" alt="Litigator Awards, ranked top 1% lawyers"></li>
+            <li><img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/image-2.png" width="72" height="72" loading="lazy" alt="Super Lawyers"></li>
+            <li><img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/image-3.png" width="72" height="72" loading="lazy" alt="American Institute of Trial Lawyers, Litigator of the Year 2021"></li>
+            <li><img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/image-4.png" width="72" height="72" loading="lazy" alt="National Alliance of Attorneys, Member, Attorney of the Year 2021"></li>
+            <li><img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/image-5.png" width="72" height="72" loading="lazy" alt="Million Dollar Advocates Forum"></li>
+            <li><img src="https://landverpersonalinjury.com/wp-content/uploads/2025/04/image-6.png" width="72" height="72" loading="lazy" alt="Los Angeles County Bar Association (LACBA)"></li>
+        </ul>
+        <p class="ldvp__src">Los premios y membresías son los publicados por la firma. La condición de abogada y la fecha de admisión se basan en los registros del Colegio de Abogados de California. Las declaraciones sobre la experiencia de Landver Law se basan en información publicada por la firma. La experiencia y los reconocimientos previos no garantizan un resultado en ningún caso individual.</p>
+        <div class="ldvp__btns">
+          <a class="ldvp__btn" href="#ldv-form" data-ldv-cta="es_attorney_form">Consulta gratuita</a>
+          <a class="ldvp__btn ldvp__btn--ghost ldvq-phone" href="tel:+18444529465" data-ldv-cta="es_attorney_call">Llame al (844) 452-9465</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--cream" id="ldv-reviews">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Reseñas de clientes</p>
+      <h2 class="ldvp__h2">Lo que dicen los clientes después de trabajar con Landver Law</h2>
+      <div class="ldvp__rate"><b>4.8</b><div><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><span>de 5 &middot; 45 reseñas en Google</span></div></div>
+      <div class="ldvp__revs">
+        <blockquote class="ldvp__rev"><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;They walked me through every step of my case and took care of virtually everything, which made my life easier. Everyone on the team was so helpful and knowledgeable, always available when I needed help with any question I may have had.&rdquo;</p><small><a href="https://www.google.com/maps/contrib/106434070416505315970/reviews" target="_blank" rel="noopener nofollow">Francis Padilla</a> &middot; Reseña de Google &middot; September 2025</small></blockquote>
+        <blockquote class="ldvp__rev"><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;The attorney treated my case with great seriousness from the start. They were very clear in communication, answered all my questions, and fought relentlessly for me.&rdquo;</p><small><a href="https://www.google.com/maps/contrib/106611924844132641706/reviews" target="_blank" rel="noopener nofollow">Elsy Castellanos</a> &middot; Reseña de Google &middot; October 2025</small></blockquote>
+        <blockquote class="ldvp__rev"><div class="ldvp__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>&ldquo;Landver Law Personnel, and especially Alina Landver came to my, and my family rescue several times in the past 10 years. No matter if the case is big or small, we always felt we are treated with the best advise. Always ready to listen and act on our behalf.&rdquo;</p><small><a href="https://www.google.com/maps/contrib/100250608118481741255/reviews" target="_blank" rel="noopener nofollow">Nureet Cohen</a> &middot; Reseña de Google &middot; August 2025</small></blockquote>
+      </div>
+      <p class="ldvp__note" style="margin-bottom:8px">Reseñas originales en inglés, tal como aparecen en Google.</p>
+      <p class="ldvp__revlinks"><a href="https://maps.google.com/?cid=14462387040831338871" target="_blank" rel="noopener nofollow">Leer todas las reseñas en Google</a></p>
+      <p class="ldvp__note">Una reseña es la experiencia de otra persona, no una promesa sobre la suya. Las reseñas mostradas son extractos de reseñas de Google visibles públicamente. La calificación y el número de reseñas pueden cambiar. Los testimonios no constituyen una garantía ni una predicción del resultado de ningún asunto legal.</p>
+      <div class="ldvp__btns">
+        <a class="ldvp__btn" href="#ldv-form" data-ldv-cta="es_reviews_form">Solicitar mi consulta gratuita</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--white" id="ldv-faq">
+    <div class="ldvp__in ldvp__faq">
+      <p class="ldvp__eyebrow">Preguntas frecuentes</p>
+      <h2 class="ldvp__h2">Preguntas sobre accidentes y cómo contratar a un abogado</h2>
+      <details><summary>¿Atienden en español?</summary>
+        <p>Sí. Puede llamar al (844) 452-9465, las 24 horas, y hablar en español.</p></details>
+      <details><summary>¿Cuánto cuesta un abogado de accidentes?</summary>
+        <p>La primera consulta es gratuita y no paga honorarios a menos que ganemos. Landver Law atiende los casos de lesiones personales con honorarios de contingencia: adelanta los costos del caso y cobra sus honorarios cuando se obtiene una recuperación. Los términos económicos exactos se confirman en el contrato escrito entre usted y la firma antes de comenzar la representación.</p></details>
+      <details><summary>El otro conductor dice que fue mi culpa. ¿Todavía puedo tener un reclamo?</summary>
+        <p>Posiblemente. California usa la culpa comparativa: si usted contribuyó al accidente, la compensación puede reducirse por su porcentaje de responsabilidad, pero no se niega automáticamente. Quién tuvo la culpa depende de lo que pasó: dónde estaba cada vehículo, velocidades, semáforos, testigos y videos. Una consulta gratuita revisa lo que pasó en su accidente.</p></details>
+      <details><summary>La aseguradora del otro conductor me llamó. ¿Qué hago?</summary>
+        <p>Primero identifique quién llama y a qué aseguradora representa. Evite adivinar hechos que no conoce, restar importancia a lesiones que todavía se están evaluando o firmar documentos que no entiende. Si tiene dudas sobre una declaración grabada o una oferta, considere asesorarse antes de aceptar.</p></details>
+      <details><summary>Todavía estoy en tratamiento. ¿Es muy pronto para contactar a un abogado?</summary>
+        <p>No. No tiene que esperar a terminar el tratamiento para pedir una revisión de su caso. En una lesión seria, el resultado médico final puede ser incierto. Lo importante es empezar por entender qué pasó, qué tratamiento ha recibido hasta ahora y qué pruebas conviene conservar.</p></details>
+      <details><summary>¿Qué pasa si el otro conductor se fue o no tiene seguro?</summary>
+        <p>No necesariamente termina su reclamo. Los reportes de policía, los testigos y los videos cercanos a veces ayudan a identificar al conductor, y puede haber otras coberturas, como la cobertura para conductores sin seguro de su propia póliza. Las pólizas y la ley pueden tener plazos cortos, por ejemplo para reportar el accidente a la policía, así que no espere. Un abogado puede revisar qué puede aplicar en su caso.</p></details>
+      <details><summary>¿Cuánto vale mi caso?</summary>
+        <p>No se puede dar una cifra honesta sin conocer los hechos. Depende de sus lesiones, los gastos médicos, el tiempo sin trabajar, la atención futura, quién tuvo la culpa y la cobertura de seguro disponible. La consulta muestra qué aplica a su caso. Landver Law no promete un resultado.</p></details>
+      <details><summary>¿Cuánto tiempo tengo para presentar un reclamo en California?</summary>
+        <p>Para muchas demandas por lesiones personales en California, el plazo general es de dos años desde la fecha de la lesión. Pero no es una regla universal: según los hechos, puede haber otros plazos. Por ejemplo, un reclamo contra una agencia gubernamental de California puede requerir un reclamo administrativo mucho antes, por lo general dentro de los seis meses de la lesión. No use el plazo general de dos años para suponer el suyo.</p></details>
+      <p class="ldvp__note" style="margin-top:16px">Estas preguntas ofrecen información general y no son asesoría legal. Los plazos, la responsabilidad, las obligaciones de las aseguradoras y los reclamos disponibles dependen de los hechos concretos y de la ley aplicable. Ver esta página o enviar una solicitud de consulta inicial no crea una relación abogado-cliente.</p>
+    </div>
+  </section>
+
+  <section class="ldvp__sec ldvp__sec--dark" id="ldv-final">
+    <div class="ldvp__in">
+      <p class="ldvp__eyebrow">Consulta gratuita</p>
+      <div class="ldvmedia__split">
+        <div class="ldvmedia__content">
+        <h2 class="ldvp__h2">Solicite su consulta gratuita sobre su accidente</h2>
+        <p class="ldvp__lead">Llame o deje su número. Programaremos una revisión gratuita de su caso con un abogado, que puede decirle:</p>
+        <ul class="ldvp__ticks">
+          <li>qué aplica a SU caso, no consejos generales</li>
+          <li>qué NO hacer para no perder compensación</li>
+          <li>sus próximos pasos, en lenguaje claro</li>
+          <li>en qué situación está su caso, según lo que usted nos cuente</li>
+        </ul>
+        <p class="ldvp__fee">No paga honorarios a menos que ganemos.</p>
+        <div class="ldvp__btns">
+          <a class="ldvp__btn" href="#ldv-form" data-ldv-cta="es_final_form">Solicitar mi consulta gratuita</a>
+          <a class="ldvp__btn ldvp__btn--ghost ldvq-phone" href="tel:+18444529465" data-ldv-cta="es_final_call">Llame al (844) 452-9465 &middot; 24/7</a>
+        </div>
+        <p class="ldvp__fine">Enviar un formulario no crea por sí solo una relación abogado-cliente.</p>
+        </div>
+        <figure class="ldvmedia__photo"><img src="https://static.tildacdn.net/tila6434-3533-4135-a433-626566353864/landver_california_n.webp" alt="Panorama de Los Ángeles, California, al atardecer con palmeras" width="768" height="512" loading="lazy" decoding="async"></figure>
+      </div>
+    </div>
+  </section>
+
+</div>

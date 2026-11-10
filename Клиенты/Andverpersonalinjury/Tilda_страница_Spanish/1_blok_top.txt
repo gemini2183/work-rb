@@ -71,7 +71,11 @@
   .ldvc__trust li:nth-child(n+3):not(.ldvc__keep){display:none}
   .ldvc__trust--keep li:nth-child(2){display:none}
   .ldvc__fn{display:none}
-  .ldvc__who{display:none}
+  /* 10.11 (правка по замечанию пользователя): на телефоне вместо большого фото — компактная строка «аватар + имя + должность»; на ≥900 px она скрыта, там большое фото */
+  .ldvc__who{display:flex;gap:10px;margin:0 0 10px}
+  .ldvc__who img{flex-basis:44px;width:44px;height:44px}
+  .ldvc__who span{font-size:11px}
+  .ldvc__who b{font-size:14px}
   .ldvc__micro{display:none}
 }
 @media(min-width:700px){.ldvc{padding:55px 24px 60px}}
