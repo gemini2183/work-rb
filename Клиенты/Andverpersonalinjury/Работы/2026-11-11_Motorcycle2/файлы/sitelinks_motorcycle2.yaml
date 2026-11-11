@@ -1,0 +1,15 @@
+# Быстрые ссылки группы "Motorcycle - Exact" кампании TEST Motorcycle 2 (Landver, подготовлено 11.11.2026, НЕ ЗАПИСАНО).
+# Тексты ссылок = 6 ссылок группы-образца (выгрузка 24331208797, лист "Быстрые ссылки"); якоря сверены с живой страницей (снимок 11.11 16:37):
+# ldv-form-section, ldv-attorney, ldv-reviews, ldv-fee, ldv-faq, ldv-insurers - каждый id встречается на странице по 1 разу.
+# Кампании пока нет, поэтому запуск возможен только после её создания (скрипт ищет группу в кампании).
+# Запуск: python gads_sitelinks.py --customer-id 213-621-6123 --client-folder Andverpersonalinjury --campaign "TEST search / motorcycle 2 / s / lp - tilda" --plan <этот файл> [--execute]
+# Потом UTM: gads_sitelink_utm_fix.py --campaign "TEST search / motorcycle 2 / s / lp - tilda" --url-contains motorcycle-accident-lawyer-california
+- groups:
+  - Motorcycle - Exact
+  sitelinks:
+  - {text: Free Case Review, desc1: Tell us what happened., desc2: No obligation to hire the firm., url: "https://landverpersonalinjury.tilda.ws/motorcycle-accident-lawyer-california#ldv-form-section"}
+  - {text: Meet Your Attorney, desc1: "Alina Landver, Esq., MBA.", desc2: 20+ years in California courts., url: "https://landverpersonalinjury.tilda.ws/motorcycle-accident-lawyer-california#ldv-attorney"}
+  - {text: Client Reviews, desc1: "4.8 stars, 45 Google reviews.", desc2: Read what clients say., url: "https://landverpersonalinjury.tilda.ws/motorcycle-accident-lawyer-california#ldv-reviews"}
+  - {text: No Fee Unless We Win, desc1: The first review is free., desc2: No upfront costs., url: "https://landverpersonalinjury.tilda.ws/motorcycle-accident-lawyer-california#ldv-fee"}
+  - {text: Common Questions, desc1: "Lane splitting, helmets, costs.", desc2: Answers after a motorcycle crash., url: "https://landverpersonalinjury.tilda.ws/motorcycle-accident-lawyer-california#ldv-faq"}
+  - {text: What Insurers Tell Riders, desc1: "Lane splitting, helmets, offers.", desc2: What to know after a crash., url: "https://landverpersonalinjury.tilda.ws/motorcycle-accident-lawyer-california#ldv-insurers"}
