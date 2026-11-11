@@ -1,0 +1,31 @@
+{
+ "channel": "google_ads",
+ "fetched_at": "2026-11-11T15:49+01:00",
+ "currency": "PLN",
+ "enabled": [],
+ "paused": 12,
+ "spent_today": 0,
+ "paused_with_spend": [],
+ "projects": [
+  {
+   "name": "Ekspertagro - Теплицы Польша",
+   "tab": "Ноябрь 26",
+   "plan_budget": 6500.0,
+   "spent_done": 645.52,
+   "expected": 2166.67,
+   "pct": 30,
+   "verdict": "ОТСТАЁМ",
+   "days_done": 10
+  },
+  {
+   "name": "Ekspertagro - Мерчант",
+   "tab": "Ноябрь 26",
+   "plan_budget": 4300.0,
+   "spent_done": 661.78,
+   "expected": 1433.33,
+   "pct": 46,
+   "verdict": "ОТСТАЁМ",
+   "days_done": 10
+  }
+ ]
+}

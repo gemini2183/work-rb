@@ -5,12 +5,16 @@ status: не запущено, реклама на паузе
 blocker: форма на странице не отправляется (П-013); без неё включать нельзя
 next: исполнитель заменяет макет на настоящую форму Tilda, затем тест-заявка пользователя, затем отдельное «да» на включение
 updated: 2026-11-11
-live:
-  customer_id: "2136216123"
-  campaign_ids: ["24331208797"]
-  ad_groups: ["Motorcycle - Exact"]
-expect:
-  campaign_status: PAUSED
+channels:
+  google_ads:
+    campaign_ids: ["24331208797"]
+    ad_groups: ["Motorcycle - Exact"]
+    expect: {campaign_status: PAUSED}
+  openai_ads:
+    campaign: cmpn_435f7d14eb548191b41e1924fc2de71b
+    ad_group: Motorcycle
+  lsa:
+    service: motorcycle_accidents
 ---
 
 # Направление Motorcycle (Landver Law)
@@ -18,13 +22,14 @@ expect:
 Карточка направления. Читать вместо Хроники, когда вопрос «каков статус». Автоматический блок ниже обновляет `Скрипты/status.py` (руками не править); таблица и «Решения» — ручные, каждая строка с датой и источником. Подробная история — [[Хроника_2026-11]], [[Журнал_изменений]], [[Эксперименты]] Э-19.
 
 <!-- AUTO:start -->
-<!-- fetched_at: 2026-11-11T15:40+01:00 -->
-**Кабинет Google Ads на 11.11 15:40 (Варшава)**, чтение `status.py`:
+<!-- CH:google_ads fetched_at=2026-11-11T15:49+01:00 -->
+**Кабинет google_ads на 11.11 15:49 (Варшава)**, чтение `status.py`:
 - Кампания `24331208797` search / car+truck injuries / s / lp - tilda: **PAUSED**, бюджет 200/день, стратегия MANUAL_CPC; сегодня (по поясу аккаунта) расход 0.00, показы 0, клики 0
 - Смена статуса 2026-11-10 12:23:22: ENABLED → PAUSED (infobox.anton@gmail.com, GOOGLE_ADS_WEB_CLIENT)
 - Смена статуса 2026-11-10 12:11:23: PAUSED → ENABLED (infobox.anton@gmail.com, GOOGLE_ADS_WEB_CLIENT)
 - Смена статуса 2026-11-06 00:36:14: ENABLED → PAUSED (infobox.anton@gmail.com, GOOGLE_ADS_WEB_CLIENT)
 - Группа «Motorcycle - Exact» (кампания 24331208797): **ENABLED**, ставка $150; за 7 дней показы 30, клики 0, расход 0.00
+<!-- /CH -->
 <!-- AUTO:end -->
 
 ## Состояние по блокам (ручное)

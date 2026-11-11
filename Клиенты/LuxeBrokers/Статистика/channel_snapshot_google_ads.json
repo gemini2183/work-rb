@@ -1,0 +1,50 @@
+{
+ "channel": "google_ads",
+ "fetched_at": "2026-11-11T15:49+01:00",
+ "currency": "USD",
+ "enabled": [
+  {
+   "name": "diamonds",
+   "budget": 350.0
+  },
+  {
+   "name": "watches / lux",
+   "budget": 250.0
+  },
+  {
+   "name": "jewelry / non-lux",
+   "budget": 154.37
+  },
+  {
+   "name": "jewelry / lux",
+   "budget": 250.0
+  },
+  {
+   "name": "silver",
+   "budget": 75.0
+  },
+  {
+   "name": "gold_",
+   "budget": 250.0
+  },
+  {
+   "name": "watches / non-lux",
+   "budget": 350.0
+  }
+ ],
+ "paused": 18,
+ "spent_today": 0,
+ "paused_with_spend": [],
+ "projects": [
+  {
+   "name": "LuxeBrokers",
+   "tab": "Ноябрь 26",
+   "plan_budget": 10000.0,
+   "spent_done": 2692.26,
+   "expected": 3333.33,
+   "pct": 81,
+   "verdict": "ОТСТАЁМ",
+   "days_done": 10
+  }
+ ]
+}

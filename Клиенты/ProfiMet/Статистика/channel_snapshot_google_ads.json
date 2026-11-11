@@ -1,0 +1,21 @@
+{
+ "channel": "google_ads",
+ "fetched_at": "2026-11-11T15:49+01:00",
+ "currency": "EUR",
+ "enabled": [],
+ "paused": 93,
+ "spent_today": 0,
+ "paused_with_spend": [],
+ "projects": [
+  {
+   "name": "ProfiMet Теплицы Польша",
+   "tab": "Ноябрь 26",
+   "plan_budget": 6000.0,
+   "spent_done": 730.22,
+   "expected": 2000.0,
+   "pct": 37,
+   "verdict": "ОТСТАЁМ",
+   "days_done": 10
+  }
+ ]
+}
