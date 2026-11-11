@@ -28,6 +28,7 @@ from google.api_core.exceptions import ResourceExhausted
 from google.protobuf import field_mask_pb2
 
 from gads_stats import GOOGLE_ADS_YAML
+from gads_quota_ledger import wrap_ga, record_mutate
 
 MAIN_CAMPAIGN_ID = 24331208797
 MAIN_CAMPAIGN_NAME = "search / car+truck injuries / s / lp - tilda"
@@ -405,6 +406,7 @@ def run(client, cid, ops, execute, label):
     req.customer_id = cid
     req.mutate_operations.extend(ops)
     req.validate_only = not execute
+    record_mutate("gads_landver_search_rebuild", len(ops), validate_only=not execute)   # журнал операций API (П-001)
     try:
         resp = svc.mutate(request=req)
     except ResourceExhausted as ex:
@@ -522,7 +524,7 @@ def main():
     a = ap.parse_args()
     cid = a.customer_id.replace("-", "").strip()
     client = GoogleAdsClient.load_from_storage(GOOGLE_ADS_YAML)
-    ga = client.get_service("GoogleAdsService")
+    ga = wrap_ga(client.get_service("GoogleAdsService"), "gads_landver_search_rebuild")   # журнал операций API (П-001)
     check_limits()
     if a.read_back_only:
         read_back(client, cid, ga)

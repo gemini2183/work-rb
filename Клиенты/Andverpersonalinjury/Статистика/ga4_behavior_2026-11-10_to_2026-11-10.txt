@@ -1,0 +1,114 @@
+GA4 549802233 | 2026-11-10 → 2026-11-10 | исключено: страны ['Nowhere'], города —
+
+== 1. Состав сеансов по стране и городу (БЕЗ исключений) — тестовый трафик виден здесь
+страна | город | сеансы | вовлечённые
+Spain | Santa Coloma de Gramenet | 58 | 3
+Afghanistan | Kabul | 4 | 0
+Spain | Barcelona | 3 | 2
+Ukraine | Poltava | 2 | 2
+Armenia | Yerevan | 1 | 0
+United States | Los Angeles | 1 | 1
+United States | Santa Monica | 1 | 1
+
+== 2. Источник/канал и устройство (после исключений)
+источник / канал | устройство | сеансы | вовлечённые | ср. время вовлечения, с
+(not set) | desktop | 25 | 0 | 1045
+chatgpt.com / cpc | desktop | 21 | 2 | 173
+(direct) / (none) | desktop | 20 | 1 | 355
+google / cpc | desktop | 20 | 2 | 59
+google / cpc | mobile | 6 | 1 | 2
+(not set) | mobile | 2 | 0 | 294
+(direct) / (none) | mobile | 1 | 1 | 77
+claude_form_test / test | desktop | 1 | 1 | 258
+
+== 3. События (после исключений): число событий и сеансов с событием
+событие | событий | пользователей
+block_time | 815 | 5
+block_view | 390 | 64
+page_view | 138 | 65
+scroll_depth | 98 | 4
+session_start | 69 | 65
+first_visit | 61 | 61
+stay_10s | 41 | 4
+engaged_30s | 23 | 4
+cta_click | 22 | 4
+scroll | 21 | 3
+user_engagement | 13 | 2
+click_tel | 7 | 3
+form_start | 7 | 3
+engaged_90s | 5 | 3
+lead_form_start | 4 | 3
+form_submit | 2 | 2
+
+== 4. Блоки: показ блока (block_view) и секунды (block_time)
+блок | block_view событий | block_view пользователей
+hero | 104 | 53
+insurers | 30 | 4
+team | 28 | 4
+attorney | 26 | 4
+fee | 25 | 4
+form_a | 24 | 7
+how | 24 | 4
+final | 22 | 4
+reviews | 22 | 4
+faq | 19 | 4
+situations | 19 | 4
+abogado_de_accidentes_de_auto | 10 | 8
+cuntenos_qu_pas_le_llamamos | 10 | 8
+california_brain_injury_lawyer_free | 5 | 5
+footer | 4 | 2
+despus_de_un_accidente_qu | 3 | 2
+lo_que_las_aseguradoras_suelen | 3 | 2
+por_qu_la_primera_consulta | 2 | 2
+qu_sucede_cuando_llama_a | 2 | 2
+su_abogada_de_accidentes_en | 2 | 2
+un_equipo_dedicado_a_su | 2 | 2
+acuerdos_y_veredictos_recientes | 1 | 1
+lo_que_dicen_los_clientes | 1 | 1
+situaciones_comunes_de_accidentes_que | 1 | 1
+solicite_su_consulta_gratuita_sobre | 1 | 1
+
+== 4b. Секунды по блокам (block_time)
+блок | событий | секунд всего
+tell_us_what_happened_well | 84 | 459
+hero | 60 | 240
+california_pedestrian__bicycle_accident | 54 | 179
+a_dedicated_team_behind_your | 52 | 162
+california_motorcycle_accident_lawyer_free | 49 | 245
+what_happens_when_you_call | 29 | 89
+insurers | 27 | 43
+what_insurance_companies_often_tell | 27 | 53
+cuntenos_qu_pas_le_llamamos | 26 | 103
+why_is_the_first_review | 24 | 27
+recent_settlements_and_verdicts | 21 | 29
+team | 21 | 41
+what_people_say_after_working | 20 | 34
+abogado_de_accidentes_de_auto | 18 | 92
+form_a | 18 | 86
+how | 17 | 17
+your_california_motorcycle_accident_attorney | 16 | 45
+get_your_free_motorcycle_accident | 15 | 48
+what_drivers_and_insurers_often | 15 | 24
+attorney | 13 | 17
+your_california_pedestrian_and_bicycle | 13 | 18
+after_a_motorcycle_crash_what | 12 | 14
+faq | 12 | 14
+fee | 12 | 26
+reviews | 12 | 12
+situations | 12 | 13
+questions_about_motorcycle_accidents_and | 11 | 15
+final | 10 | 16
+get_your_free_pedestrian_or | 10 | 23
+prefer_we_call_you_leave | 10 | 20
+
+== 5. Клики по телефону по местам
+место | кликов | пользователей
+es_final_call | 2 | 1
+es_hero_call | 2 | 1
+final_call | 1 | 1
+hero_call | 1 | 1
+other | 1 | 1
+
+== 5b. Вопросы FAQ, которые открывали
+вопрос | раз | пользователей
+(нет данных)

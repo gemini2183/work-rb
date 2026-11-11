@@ -7,3 +7,6 @@ time,campaign_id,name,what,was,now,who
 2026-11-09T11:10:24,24230255260,shop_pmax,стратегия ставок / цель,"MAXIMIZE_CONVERSIONS, tCPA 90","MAXIMIZE_CONVERSIONS, tCPA 104",
 2026-11-09T11:10:26,24360520273,general_pmax_rozmiary,бюджет,50.0,100.0,
 2026-11-10T12:33:34,24360520273,general_pmax_rozmiary,статус,ВКЛ,ПАУЗА,
+2026-11-11T08:53:31,24230255260,shop_pmax,статус,ВКЛ,ПАУЗА,
+2026-11-11T08:53:32,24353873699,general / search / rozmiary / katalog,статус,ВКЛ,ПАУЗА,
+2026-11-11T08:53:37,24397252446,shop_tail,статус,ВКЛ,ПАУЗА,

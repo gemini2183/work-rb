@@ -1,0 +1,98 @@
+GA4 549802233 | 2026-11-10 → 2026-11-11 | исключено: страны ['Spain'], города —
+
+== 1. Состав сеансов по стране и городу (БЕЗ исключений) — тестовый трафик виден здесь
+страна | город | сеансы | вовлечённые
+Spain | Santa Coloma de Gramenet | 58 | 3
+Afghanistan | Kabul | 4 | 0
+Spain | Barcelona | 3 | 2
+Ukraine | Poltava | 2 | 2
+Armenia | Yerevan | 1 | 0
+United States | Los Angeles | 1 | 1
+United States | Santa Monica | 1 | 1
+
+== 2. Источник/канал и устройство (после исключений)
+источник / канал | устройство | сеансы | вовлечённые | ср. время вовлечения, с
+google / cpc | mobile | 6 | 1 | 2
+(not set) | desktop | 2 | 0 | 126
+google / cpc | desktop | 2 | 2 | 56
+
+== 3. События (после исключений): число событий и сеансов с событием
+событие | событий | пользователей
+block_time | 195 | 2
+block_view | 102 | 7
+scroll_depth | 47 | 1
+page_view | 39 | 7
+stay_10s | 13 | 1
+scroll | 8 | 1
+session_start | 8 | 7
+user_engagement | 7 | 1
+first_visit | 6 | 6
+engaged_30s | 4 | 1
+form_start | 2 | 1
+click_tel | 1 | 1
+cta_click | 1 | 1
+engaged_90s | 1 | 1
+lead_form_start | 1 | 1
+
+== 4. Блоки: показ блока (block_view) и секунды (block_time)
+блок | block_view событий | block_view пользователей
+hero | 21 | 2
+attorney | 10 | 1
+team | 10 | 1
+fee | 7 | 1
+reviews | 7 | 1
+faq | 6 | 1
+final | 6 | 1
+how | 6 | 1
+insurers | 6 | 1
+california_brain_injury_lawyer_free | 5 | 5
+form_a | 5 | 1
+situations | 4 | 1
+abogado_de_accidentes_de_auto | 1 | 1
+cuntenos_qu_pas_le_llamamos | 1 | 1
+despus_de_un_accidente_qu | 1 | 1
+footer | 1 | 1
+lo_que_las_aseguradoras_suelen | 1 | 1
+por_qu_la_primera_consulta | 1 | 1
+qu_sucede_cuando_llama_a | 1 | 1
+su_abogada_de_accidentes_en | 1 | 1
+un_equipo_dedicado_a_su | 1 | 1
+
+== 4b. Секунды по блокам (block_time)
+блок | событий | секунд всего
+hero | 41 | 163
+team | 15 | 34
+insurers | 14 | 25
+how | 13 | 13
+tell_us_what_happened_well | 13 | 65
+attorney | 10 | 13
+fee | 10 | 24
+california_pedestrian__bicycle_accident | 9 | 20
+header | 8 | 32
+reviews | 8 | 8
+situations | 8 | 8
+form_a | 7 | 11
+faq | 6 | 8
+cuntenos_qu_pas_le_llamamos | 5 | 22
+california_motorcycle_accident_lawyer_free | 4 | 10
+final | 4 | 5
+a_dedicated_team_behind_your | 3 | 25
+qu_sucede_cuando_llama_a | 3 | 3
+abogado_de_accidentes_de_auto | 2 | 4
+despus_de_un_accidente_qu | 2 | 3
+por_qu_la_primera_consulta | 2 | 3
+solicite_su_consulta_gratuita_sobre | 2 | 2
+lo_que_dicen_los_clientes | 1 | 1
+lo_que_las_aseguradoras_suelen | 1 | 1
+preguntas_sobre_accidentes_y_cmo | 1 | 1
+situaciones_comunes_de_accidentes_que | 1 | 1
+su_abogada_de_accidentes_en | 1 | 1
+un_equipo_dedicado_a_su | 1 | 1
+
+== 5. Клики по телефону по местам
+место | кликов | пользователей
+other | 1 | 1
+
+== 5b. Вопросы FAQ, которые открывали
+вопрос | раз | пользователей
+(нет данных)

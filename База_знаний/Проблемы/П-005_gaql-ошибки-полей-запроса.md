@@ -31,3 +31,4 @@ updated: 2026-11-10
 
 ## Использовано (когда решение применили повторно)
 - —
+- 2026-11-11: `gads_clone_plan.py` — `The following field must be present in SELECT clause: 'campaign.id'` при фильтре `WHERE campaign.id` у `campaign_asset`, `ad_group_asset`, `ad_group_criterion`; функция `q` теперь подставляет `campaign.id` в SELECT сама.
