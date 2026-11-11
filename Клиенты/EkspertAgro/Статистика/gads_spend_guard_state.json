@@ -805,7 +805,7 @@
    "alerted": false
   },
   "ads_calls": {
-   "fail_since": null,
+   "fail_since": "2026-11-11T23:00:51",
    "alerted": false
   }
  },
