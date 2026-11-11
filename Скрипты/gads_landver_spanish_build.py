@@ -7,6 +7,9 @@
   --part new          (по умолчанию) кампания + бюджет + гео + язык + перекрёстные и испанские минусы + 3 общих списка + группа + ключи +
                       RSA + быстрые ссылки + callouts + подпись + звонок + логотип + картинки. Читает 1 запрос (шаблон отслеживания основной).
   --part negatives    копия кампанийных минусов основной (без «near me» и без испанских блокировщиков abogado/abogados), порциями --chunk.
+  --part shared-negatives  то же слово-в-слово, но ОБЩИМ СПИСКОМ минус-слов (решение пользователя 11.11: планируются ещё кампании по юристам):
+                      создание списка (1 операция), наполнение (1 697, порциями --chunk), привязка к новой кампании (1) = 1 699 операций.
+                      Список потом привязывается к следующим кампаниям 1 операцией на каждую. Лимиты (справка 6372658, не проверено): 20 списков на аккаунт, 5 000 слов.
   --read-back-only    чтение состояния новой кампании.
   --remove-new        удалить новую кампанию (откат).
 Флаги для проверки: --no-language (если Google не принимает языковой критерий: с сентября 2026 язык у Search убирают),
@@ -24,7 +27,7 @@ NEW_NAME = "search / car accident / es ca / lp - tilda"
 GROUP_NAME = "Abogado Accidentes Auto - Exact"
 MAIN_CAMPAIGN_ID = 24331208797
 BUDGET_USD = 50
-BID_USD = 100
+BID_USD = 80
 GEO_CALIFORNIA = "geoTargetConstants/21137"
 LANG_ES, LANG_EN = "languageConstants/1003", "languageConstants/1000"
 URL = "https://landverpersonalinjury.tilda.ws/abogado-accidentes-auto-lawyer-california"
@@ -32,6 +35,7 @@ KEYWORDS = [  # все EXACT; объёмы Planner 11.11 (Калифорния, 
     "abogado de accidentes de carro", "abogado de accidentes", "abogado de accidentes de auto", "abogado de accidentes los angeles",
     "abogado de accidentes automovilisticos", "abogado para accidentes de carro", "abogado accidente de carro",
 ]
+SHARED_COPY_NAME = "main negatives copy (es, law firms)"
 SHARED_SETS = [12099348931, 12186238091, 12186251357]            # gen / init, names, rivals (как у LA+BH)
 CALL_ASSET_OK = 411032321136
 LOGO_ASSET = 367221514317
@@ -315,6 +319,85 @@ def build_neg_ops(client, cid, ga, new_id, limit):
     return ops
 
 
+def shared_copy_words(client, cid, ga):
+    """Слова для общего списка: кампанийные минусы основной без «near me» и без abogado/abogados."""
+    E = client.enums
+    q = ("SELECT campaign.id, campaign_criterion.keyword.text, campaign_criterion.keyword.match_type FROM campaign_criterion "
+         f"WHERE campaign.id = {MAIN_CAMPAIGN_ID} AND campaign_criterion.type = KEYWORD AND campaign_criterion.negative = TRUE")
+    words = []
+    for r in ga.search(customer_id=cid, query=q):
+        text, mt = r.campaign_criterion.keyword.text, r.campaign_criterion.keyword.match_type
+        if mt == E.KeywordMatchTypeEnum.EXACT and any(w in text for w in NEAR_ME):
+            continue
+        if text.lower() in ES_BLOCKERS:
+            continue
+        words.append((text, mt))
+    return words
+
+
+def run_shared_negatives(client, cid, ga, a):
+    """Общий список: создать (если нет) -> наполнить недостающим -> привязать к новой кампании. validate_only: одним запросом с временным id."""
+    E = client.enums
+    words = shared_copy_words(client, cid, ga)
+    nid = find_new_campaign(ga, cid)
+    found = list(ga.search(customer_id=cid, query=f"SELECT shared_set.id, shared_set.resource_name FROM shared_set WHERE shared_set.name = '{SHARED_COPY_NAME}' AND shared_set.status = ENABLED AND shared_set.type = NEGATIVE_KEYWORDS"))
+    cnt = list(ga.search(customer_id=cid, query="SELECT shared_set.id FROM shared_set WHERE shared_set.type = NEGATIVE_KEYWORDS AND shared_set.status = ENABLED"))
+    print(f"[shared] слов для списка {len(words)}; списков минусов в аккаунте {len(cnt)} из 20; список «{SHARED_COPY_NAME}» {'есть' if found else 'не создан'}; новая кампания {nid or 'нет'}")
+
+    def crit_op(rn, text, mt):
+        op = client.get_type("MutateOperation")
+        sc = op.shared_criterion_operation.create
+        sc.shared_set = rn
+        sc.keyword.text = text
+        sc.keyword.match_type = mt
+        return op
+
+    if not a.execute:
+        rn = f"customers/{cid}/sharedSets/-1"
+        ops = []
+        op = client.get_type("MutateOperation")
+        ss = op.shared_set_operation.create
+        ss.resource_name = rn
+        ss.name = SHARED_COPY_NAME
+        ss.type_ = E.SharedSetTypeEnum.NEGATIVE_KEYWORDS
+        ops.append(op)
+        ops += [crit_op(rn, t, m) for t, m in words]
+        if nid:
+            op = client.get_type("MutateOperation")
+            css = op.campaign_shared_set_operation.create
+            css.campaign = f"customers/{cid}/campaigns/{nid}"
+            css.shared_set = rn
+            ops.append(op)
+        print(f"[shared] операций в проверке: {len(ops)} (список 1 + слова {len(words)} + привязка {1 if nid else 0}; без кампании привязку не проверить)")
+        run(client, cid, ops, False, "shared-negatives")
+        return
+    assert nid, "новой кампании нет — сначала --part new"
+    if found:
+        rn = found[0].shared_set.resource_name
+    else:
+        op = client.get_type("MutateOperation")
+        ss = op.shared_set_operation.create
+        ss.name = SHARED_COPY_NAME
+        ss.type_ = E.SharedSetTypeEnum.NEGATIVE_KEYWORDS
+        resp = run(client, cid, [op], True, "shared-create")
+        rn = resp.mutate_operation_responses[0].shared_set_result.resource_name
+    sid = rn.split("/")[-1]
+    have = {(r.shared_criterion.keyword.text, r.shared_criterion.keyword.match_type) for r in ga.search(
+        customer_id=cid, query=f"SELECT shared_set.id, shared_criterion.keyword.text, shared_criterion.keyword.match_type FROM shared_criterion WHERE shared_set.id = {sid}")}
+    missing = [w for w in words if w not in have]
+    print(f"[shared] уже в списке {len(have)}, добавить {len(missing)}")
+    for i in range(0, len(missing), a.chunk):
+        run(client, cid, [crit_op(rn, t, m) for t, m in missing[i:i + a.chunk]], True, f"shared-fill {i // a.chunk + 1}")
+    linked = list(ga.search(customer_id=cid, query=f"SELECT campaign.id, shared_set.id FROM campaign_shared_set WHERE campaign.id = {nid} AND shared_set.id = {sid}"))
+    if not linked:
+        op = client.get_type("MutateOperation")
+        css = op.campaign_shared_set_operation.create
+        css.campaign = f"customers/{cid}/campaigns/{nid}"
+        css.shared_set = rn
+        run(client, cid, [op], True, "shared-link")
+    read_back(client, cid, ga)
+
+
 def run(client, cid, ops, execute, label):
     from google.ads.googleads.errors import GoogleAdsException
     from google.api_core.exceptions import ResourceExhausted
@@ -397,7 +480,7 @@ def read_back(client, cid, ga):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--customer-id")
-    ap.add_argument("--part", choices=["new", "negatives"], default="new")
+    ap.add_argument("--part", choices=["new", "negatives", "shared-negatives"], default="new")
     ap.add_argument("--plan", action="store_true")
     ap.add_argument("--execute", action="store_true")
     ap.add_argument("--chunk", type=int, default=400)
@@ -428,6 +511,9 @@ def main():
         op = client.get_type("MutateOperation")
         op.campaign_operation.remove = f"customers/{cid}/campaigns/{nid}"
         run(client, cid, [op], a.execute, "remove-new")
+        return
+    if a.part == "shared-negatives":
+        run_shared_negatives(client, cid, ga, a)
         return
     if a.part == "negatives":
         nid = find_new_campaign(ga, cid)

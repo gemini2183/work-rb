@@ -38,23 +38,49 @@ XPath — на сам `<a>`; номер из пула выбирает серв�
 ## Пошаговая инструкция (ручной ввод, ~10 минут)
 Выполнять в браузере, где уже выполнен вход в Ringostat. Запись в кабинет — только по этой инструкции, API для правил нет.
 1. Открыть `https://app.ringostat.com/project/dashboard?project_id=234843`, затем `https://app.ringostat.com/project/script_settings/xpaths?project_id=234843`. В таблице должно быть **33** строки (`document.querySelectorAll('table tbody tr').length`).
-2. Открыть консоль (F12 → Console), вставить код ниже целиком, Enter. Цикл идёт дольше таймаута консоли — он доработает в фоне; подождать около 30 секунд.
+2. Открыть консоль (F12 → Console), вставить код из блока ниже (он только определяет функции) и вызвать `await esAll()` (или `await esFill(0)` и так по одному). Подождать около 40 секунд.
 3. Проверить: в таблице **39** строк (33 + 6; если вводили правило 7 — 40), и в названиях есть все `abogado header | call 24/7 | attorney | sticky | footer | faq`. Если одно правило не сохранилось (бывало: «одно из пяти») — повторить только его (форма «Добавить XPath»: тип Manual mode, XPath, название, маска, ГЕО группа All).
 4. Нажать зелёную кнопку «Применить настройки» (справа сверху); должно появиться «Действие выполнено успешно».
 5. Подождать 2–5 минут (скрипт Ringostat кэшируется) и убедиться без Tilda: `curl -s https://script.ringostat.com/v4/4c/4c28b51a7504aa7cdf1789ee697a219f17ccbd8b.js | grep -o 'es_header_call'` — должно найтись.
 6. Запустить проверку (команда ниже), потом посмотреть глазами скриншоты.
 
-JS для консоли (из `rules` берутся XPath и маски; сначала код нажимает «Добавить XPath», заполняет форму `data[Xpath][...]`, жмёт «Сохранить»):
+**Код для консоли (v2, 11.11 ~12:00).** Первая версия (один цикл) в консоли пользователя ничего не добавила, причина не установлена: консоль возвращает `{}`, пока цикл идёт, и результат нужно смотреть через ~40 секунд. Форма кабинета проверена по живой странице: окно `#ev_modal`, форма `#xpath_add_form`, поля `data[Xpath][type|text|name|mask|geo_group]`, кнопки «Отмена» и «Сохранить» (`.ev_add_xpath`, обработчик на `.modal` с проверкой `validationEngine` и ajax, после успеха строка добавляется в таблицу без перезагрузки). Сухой прогон 11.11: все 6 правил заполняют поля, значения читаются обратно без искажений (`·` = код 183), проверка формы проходит, после «Отмена» строк 33, ничего не сохранено. Код ниже только определяет функции, пока вы не вызовете их.
+
+Вставить код один раз (он ничего не записывает), затем:
+- **По одному правилу, вы жмёте «Сохранить» сами:** `await esFill(0)` — откроет окно «Добавить XPath», заполнит поля, проверит и остановится. Нажать «Сохранить». Потом `await esFill(1)` … `await esFill(5)` (номера 0-5 = header, call 24/7, attorney, sticky, footer, faq).
+- **Все шесть сразу:** `await esAll()` — заполняет и нажимает «Сохранить» по очереди, пропускает уже существующие названия, останавливается при ошибке. Идёт около 40 секунд; итог (`строк в таблице`, список `abogado …`) печатает `console.log` в консоли, либо проверить вручную `esNames().filter(n=>/^abogado/.test(n))` и `document.querySelectorAll('table tbody tr').length` (ожидается 39).
+- Если что-то заполнилось не так: «Отмена» в окне, ничего не сохраняется.
+
 ```js
-(async()=>{const sleep=ms=>new Promise(r=>setTimeout(r,ms));
-const set=(n,v)=>{const e=document.querySelector('[name="'+n+'"]');e.value=v;e.dispatchEvent(new Event('input',{bubbles:true}));e.dispatchEvent(new Event('change',{bubbles:true}));};
-const rules=[{"name":"abogado header","xpath":"//a[@data-ldv-cta=\"es_header_call\"]","mask":"<small>CONSULTA GRATIS \u00b7 24/7</small>(###) ###-####","geo":"1"},{"name":"abogado call 24/7","xpath":"//a[@data-ldv-cta=\"es_hero_call\" or @data-ldv-cta=\"es_how_call\" or @data-ldv-cta=\"es_fee_call\" or @data-ldv-cta=\"es_final_call\"]","mask":"<span class=\"t-btnflex__text\">Llame al (###) ###-#### \u00b7 24/7</span>","geo":"1"},{"name":"abogado attorney","xpath":"//a[@data-ldv-cta=\"es_attorney_call\"]","mask":"<span class=\"t-btnflex__text\">Llame al (###) ###-####</span>","geo":"1"},{"name":"abogado sticky","xpath":"//a[@data-ldv-cta=\"es_sticky_call\"]","mask":"Llame ahora \u00b7 24/7<span style=\"display:none;\">+###########</span>","geo":"1"},{"name":"abogado footer","xpath":"//a[@data-ldv-cta=\"es_footer_call\"]","mask":"(###) ###-####","geo":"1"},{"name":"abogado faq","xpath":"//details/p[contains(.,\"Puede llamar al\")]","mask":"S\u00ed. Puede llamar al (###) ###-####, las 24 horas, y hablar en espa\u00f1ol.","geo":"1"}];
-for(const r of rules){[...document.querySelectorAll('button')].find(e=>/Добавить XPath/.test(e.textContent)).click();await sleep(1500);
-set('data[Xpath][type]','manual');set('data[Xpath][text]',r.xpath);set('data[Xpath][name]',r.name);set('data[Xpath][mask]',r.mask);set('data[Xpath][geo_group]',r.geo);
-[...document.querySelectorAll('.modal button[type=submit]')].filter(b=>b.textContent.trim()==='Сохранить').pop().click();await sleep(3500);}
-return document.querySelectorAll('table tbody tr').length;})()
+window.ES_RULES=[{"name":"abogado header","xpath":"//a[@data-ldv-cta=\"es_header_call\"]","mask":"<small>CONSULTA GRATIS · 24/7</small>(###) ###-####"},{"name":"abogado call 24/7","xpath":"//a[@data-ldv-cta=\"es_hero_call\" or @data-ldv-cta=\"es_how_call\" or @data-ldv-cta=\"es_fee_call\" or @data-ldv-cta=\"es_final_call\"]","mask":"<span class=\"t-btnflex__text\">Llame al (###) ###-#### · 24/7</span>"},{"name":"abogado attorney","xpath":"//a[@data-ldv-cta=\"es_attorney_call\"]","mask":"<span class=\"t-btnflex__text\">Llame al (###) ###-####</span>"},{"name":"abogado sticky","xpath":"//a[@data-ldv-cta=\"es_sticky_call\"]","mask":"Llame ahora · 24/7<span style=\"display:none;\">+###########</span>"},{"name":"abogado footer","xpath":"//a[@data-ldv-cta=\"es_footer_call\"]","mask":"(###) ###-####"},{"name":"abogado faq","xpath":"//details/p[contains(.,\"Puede llamar al\")]","mask":"Sí. Puede llamar al (###) ###-####, las 24 horas, y hablar en español."}];
+window.esSleep=ms=>new Promise(r=>setTimeout(r,ms));
+window.esNames=()=>[...document.querySelectorAll('table tbody tr')].map(r=>r.cells[2].textContent.trim());
+window.esFill=async(i)=>{
+  const r=ES_RULES[i];
+  if(!document.querySelector('#ev_modal.in')){document.querySelector('.ev_modal_add_xpath').click();await esSleep(2000);}
+  const m=document.querySelector('#ev_modal');
+  const set=(n,v)=>{const e=m.querySelector('[name="'+n+'"]');e.value=v;e.dispatchEvent(new Event('input',{bubbles:true}));e.dispatchEvent(new Event('change',{bubbles:true}));};
+  const get=n=>m.querySelector('[name="'+n+'"]').value;
+  set('data[Xpath][type]','manual');await esSleep(300);
+  set('data[Xpath][text]',r.xpath);set('data[Xpath][name]',r.name);set('data[Xpath][mask]',r.mask);set('data[Xpath][geo_group]','1');
+  const same=get('data[Xpath][type]')==='manual'&&get('data[Xpath][text]')===r.xpath&&get('data[Xpath][name]')===r.name&&get('data[Xpath][mask]')===r.mask&&get('data[Xpath][geo_group]')==='1';
+  const valid=window.jQuery('#xpath_add_form').validationEngine('validate');
+  const res=(same&&valid)?('OK: поля заполнены ('+r.name+'), нажмите «Сохранить» в окне'):('ОШИБКА: same='+same+' valid='+valid);
+  console.log(res);return same&&valid;
+};
+window.esAll=async()=>{
+  for(let i=0;i<ES_RULES.length;i++){
+    if(esNames().includes(ES_RULES[i].name)){console.log('уже есть: '+ES_RULES[i].name);continue;}
+    const ok=await esFill(i);if(!ok){console.log('СТОП на правиле '+i);return;}
+    document.querySelector('#ev_modal .ev_add_xpath').click();
+    for(let t=0;t<20&&!esNames().includes(ES_RULES[i].name);t++)await esSleep(500);
+    console.log(esNames().includes(ES_RULES[i].name)?('сохранено: '+ES_RULES[i].name):('НЕ сохранилось: '+ES_RULES[i].name));
+    await esSleep(1500);
+  }
+  console.log('строк в таблице: '+document.querySelectorAll('table tbody tr').length+' (ожидается 39); abogado: '+esNames().filter(n=>/^abogado/.test(n)).join(', '));
+};
 ```
-Правило 7 в этот код не включено (необязательное): добавить в массив `rules` элемент с названием `abogado success`, XPath и маской из таблицы, символы `·`, `ú`, `ó`, `¿` записать кодами `\u00b7`, `\u00fa`, `\u00f3`, `\u00bf`, `é` — `\u00e9`, `í` — `\u00ed`.
+Правило 7 в код не включено (необязательное).
 
 ## Команда проверки (только чтение; шесть загрузок Tilda — не повторять серией, П-014)
 ```
