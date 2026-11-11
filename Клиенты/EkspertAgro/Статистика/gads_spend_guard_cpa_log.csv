@@ -40767,3 +40767,5 @@ time,campaign_id,name,status,budget,cost_today,target_cpa,calls,leads,n,allowanc
 2026-11-12T00:05:21,24353873699,,,,,130.0,,,,,,,ошибка чтения: ResourceExhausted,
 2026-11-12T00:05:21,24360520273,,,,,130.0,,,,,,,ошибка чтения: ResourceExhausted,
 2026-11-12T00:05:21,24397252446,,,,,87.0,,,,,,,ошибка чтения: ResourceExhausted,
+2026-11-12T00:05:55,23593683252,general_pmax,3,292.93,0.0,47.54,0,0,0,95.08,0.0,,,
+2026-11-12T00:06:01,24210390946,,,,,130.0,,,,,,,ошибка чтения: ResourceExhausted,
