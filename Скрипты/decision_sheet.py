@@ -84,144 +84,22 @@ def client():
 
 
 # ---------------------------------------------------------------- create
+def localize(f, ss):
+    """В таблицах с русской локалью разделитель аргументов формулы - «;», иначе #ERROR!. Запятые вне кавычек меняем."""
+    if not (isinstance(f, str) and f.startswith("=")) or not str(getattr(ss, "locale", "")).startswith(("ru", "uk", "de", "fr", "es", "pl")):
+        return f
+    out, q = [], False
+    for ch in f:
+        if ch == '"':
+            q = not q
+        out.append(";" if ch == "," and not q else ch)
+    return "".join(out)
+
+
 def state_formula(r: int, s: str, a: str) -> str:
-    """Колонка «Состояние»: понятная человеку метка по статусу пользователя и ответу Claude."""
-    return (f'=IF({s}{r}="ок","✅ утверждено",IF({s}{r}="нет","✖ снято с плана",IF({s}{r}="правка",'
-            f'IF({a}{r}<>"","⏳ Claude ответил, ждёт вас","⏳ Claude переделывает"),"❓ ждёт вашего решения")))')
-
-
-def build_requests(sheet_gid: int, sh: dict, nrows: int) -> list[dict]:
-    headers = [c["name"] for c in sh["columns"]]
-    ncols = len(headers)
-    last = max(nrows + 1, 2) + 200
-    reqs = []
-
-    def rng(r0, r1, c0, c1):
-        return {"sheetId": sheet_gid, "startRowIndex": r0, "endRowIndex": r1, "startColumnIndex": c0, "endColumnIndex": c1}
-
-    # ширины
-    for i, c in enumerate(sh["columns"]):
-        reqs.append({"updateDimensionProperties": {
-            "range": {"sheetId": sheet_gid, "dimension": "COLUMNS", "startIndex": i, "endIndex": i + 1},
-            "properties": {"pixelSize": int(c.get("width", 18)) * 7}, "fields": "pixelSize"}})
-    # тело: перенос, верх
-    reqs.append({"repeatCell": {"range": rng(1, last, 0, ncols), "cell": {"userEnteredFormat": {
-        "wrapStrategy": "WRAP", "verticalAlignment": "TOP"}}, "fields": "userEnteredFormat(wrapStrategy,verticalAlignment)"}})
-    # заливка колонок пользователя / Claude
-    for i, c in enumerate(sh["columns"]):
-        kind = c.get("kind")
-        if kind in ("user", "claude"):
-            reqs.append({"repeatCell": {"range": rng(1, last, i, i + 1), "cell": {"userEnteredFormat": {
-                "backgroundColor": _rgb(C_USER if kind == "user" else C_CLAUDE)}}, "fields": "userEnteredFormat.backgroundColor"}})
-    # шапка
-    reqs.append({"repeatCell": {"range": rng(0, 1, 0, ncols), "cell": {"userEnteredFormat": {
-        "backgroundColor": _rgb(C_HEAD), "wrapStrategy": "WRAP", "verticalAlignment": "MIDDLE",
-        "textFormat": {"bold": True, "foregroundColor": _rgb(WHITE)}}},
-        "fields": "userEnteredFormat(backgroundColor,wrapStrategy,verticalAlignment,textFormat)"}})
-    reqs.append({"updateSheetProperties": {"properties": {"sheetId": sheet_gid, "gridProperties": {
-        "frozenRowCount": 1, "frozenColumnCount": 2}}, "fields": "gridProperties(frozenRowCount,frozenColumnCount)"}})
-    reqs.append({"setBasicFilter": {"filter": {"range": rng(0, last, 0, ncols)}}})
-    # статус: список + цвета
-    if STATUS_COL in headers:
-        si = headers.index(STATUS_COL)
-        reqs.append({"setDataValidation": {"range": rng(1, MAX_ROWS, si, si + 1), "rule": {
-            "condition": {"type": "ONE_OF_LIST", "values": [{"userEnteredValue": v} for v in (STATUS_OK, STATUS_EDIT, STATUS_NO)]},
-            "showCustomUi": True, "strict": True}}})
-        for idx, (val, color) in enumerate(((STATUS_OK, C_OK), (STATUS_EDIT, C_EDIT), (STATUS_NO, C_NO))):
-            reqs.append({"addConditionalFormatRule": {"index": idx, "rule": {
-                "ranges": [rng(1, MAX_ROWS, si, si + 1)],
-                "booleanRule": {"condition": {"type": "TEXT_EQ", "values": [{"userEnteredValue": val}]},
-                                "format": {"backgroundColor": _rgb(color)}}}}})
-    return reqs
-
-
-def cmd_create(a):
-    spec = json.loads(Path(a.spec).read_text(encoding="utf-8"))
-    sheets = spec["sheets"]
-
-    if a.dry_run:
-        for sh in sheets:
-            n = len(sh.get("rows", []))
-            reqs = build_requests(0, sh, n)
-            print(f"[{sh['name']}] колонок {len(sh['columns'])}, строк {n}, запросов форматирования {len(reqs)}")
-            for r in sh.get("rows", [])[:1]:
-                print("  пример строки:", r)
-        print("dry-run: ничего не создано")
-        return
-
-    gc = client()
-    if a.into:
-        # у сервисного аккаунта нет места в Drive (403 storage quota): пустую таблицу создаёт пользователь/Drive-коннектор
-        # и открывает её для rb-cloud-admin как редактору, скрипт заполняет
-        ss = gc.open_by_key(sheet_id_from(a.into))
-    else:
-        ss = gc.create(spec["title"], folder_id=a.folder_id) if a.folder_id else gc.create(spec["title"])
-    first = ss.sheet1
-    fmt_reqs = []
-    board_rows = []  # (имя листа, буква № , буква статуса)
-
-    for k, sh in enumerate(sheets):
-        headers = [c["name"] for c in sh["columns"]]
-        rows = []
-        for i, r in enumerate(sh.get("rows", []), start=2):
-            row = []
-            for h in headers:
-                v = r.get(h, "")
-                if h == NO_COL and v == "":
-                    v = i - 1
-                if h == ROUND_COL and v == "":
-                    v = 1
-                if h == "Состояние" and STATUS_COL in headers and ANSWER_COL in headers:
-                    v = state_formula(i, col_letter(headers.index(STATUS_COL)), col_letter(headers.index(ANSWER_COL)))
-                if isinstance(v, str) and v.startswith("="):
-                    v = v.replace("{r}", str(i))
-                row.append(v)
-            rows.append(row)
-        ws = first if k == 0 else ss.add_worksheet(sh["name"], rows=max(len(rows) + 200, 300), cols=len(headers))
-        if k == 0:
-            ws.update_title(sh["name"])
-        ws.update(range_name="A1", values=[headers] + rows, value_input_option="USER_ENTERED")
-        fmt_reqs += build_requests(ws.id, sh, len(rows))
-        if STATUS_COL in headers and NO_COL in headers:
-            board_rows.append((sh["name"], col_letter(headers.index(NO_COL)), col_letter(headers.index(STATUS_COL))))
-
-    # Доска
-    board = ss.add_worksheet("Доска", rows=60, cols=8, index=0)
-    vals = [[spec.get("board_title", spec["title"])], [],
-            ["Лист", "Всего пунктов", "ок", "правка", "нет", "Без ответа", "Закрыто"]]
-    for j, (name, nc, sc) in enumerate(board_rows, start=4):
-        n_rng = f"'{name}'!{nc}2:{nc}{MAX_ROWS}"
-        s_rng = f"'{name}'!{sc}2:{sc}{MAX_ROWS}"
-        vals.append([name, f"=COUNTA({n_rng})", f'=COUNTIF({s_rng},"{STATUS_OK}")', f'=COUNTIF({s_rng},"{STATUS_EDIT}")',
-                     f'=COUNTIF({s_rng},"{STATUS_NO}")', f"=B{j}-C{j}-D{j}-E{j}", f"=C{j}+E{j}"])
-    t0, t1 = 4, 3 + len(board_rows)
-    tot = t1 + 1
-    vals.append(["Итого"] + [f"=SUM({c}{t0}:{c}{t1})" for c in "BCDEFG"])
-    vals.append([])
-    vals.append(["Состояние", f'=IF(AND(D{tot}=0,F{tot}=0),"Можно записывать - ждём «да» в чате","Не готово: открыто пунктов - "&(D{tot}+F{tot}))'])
-    vals.append([])
-    vals.append(["Что открыто"])
-    for name, nc, sc in board_rows:
-        n_rng = f"'{name}'!{nc}2:{nc}{MAX_ROWS}"
-        s_rng = f"'{name}'!{sc}2:{sc}{MAX_ROWS}"
-        vals.append([f"{name}: правка", f'=IFERROR(TEXTJOIN(", ",TRUE,FILTER({n_rng},{n_rng}<>"",{s_rng}="{STATUS_EDIT}")),"-")'])
-        vals.append([f"{name}: без ответа", f'=IFERROR(TEXTJOIN(", ",TRUE,FILTER({n_rng},{n_rng}<>"",{s_rng}="")),"-")'])
-    board.update(range_name="A1", values=vals, value_input_option="USER_ENTERED")
-    fmt_reqs += [
-        {"repeatCell": {"range": {"sheetId": board.id, "startRowIndex": 2, "endRowIndex": 3, "startColumnIndex": 0, "endColumnIndex": 7},
-                        "cell": {"userEnteredFormat": {"backgroundColor": _rgb(C_HEAD), "textFormat": {"bold": True, "foregroundColor": _rgb(WHITE)}}},
-                        "fields": "userEnteredFormat(backgroundColor,textFormat)"}},
-        {"repeatCell": {"range": {"sheetId": board.id, "startRowIndex": 0, "endRowIndex": 1, "startColumnIndex": 0, "endColumnIndex": 1},
-                        "cell": {"userEnteredFormat": {"textFormat": {"bold": True, "fontSize": 12}}}, "fields": "userEnteredFormat.textFormat"}},
-        {"updateDimensionProperties": {"range": {"sheetId": board.id, "dimension": "COLUMNS", "startIndex": 0, "endIndex": 1},
-                                       "properties": {"pixelSize": 190}, "fields": "pixelSize"}},
-    ]
-    ss.batch_update({"requests": fmt_reqs})
-
-    if a.share:
-        ss.share(a.share, perm_type="user", role="writer", notify=False)
-    print(f"Создано: {ss.url}")
-    print(f"id: {ss.id}")
+    """Колонка «Состояние»: что с пунктом и чей ход. Статус ставит пользователь; Claude после ответа статус очищает."""
+    return (f'=IF({s}{r}="ок","✅ утверждено",IF({s}{r}="нет","✖ снято с плана",IF({s}{r}="правка","⏳ Claude переделывает",'
+            f'IF({a}{r}<>"","💬 Claude ответил, ждёт вас","❓ ждёт вашего решения"))))')
 
 
 # ---------------------------------------------------------------- read / update helpers
