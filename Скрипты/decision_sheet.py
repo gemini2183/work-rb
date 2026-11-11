@@ -331,6 +331,13 @@ def cmd_add_rows(a):
             row.append(v)
         out.append(row)
     ws.append_rows(out, value_input_option="USER_ENTERED", table_range="A1")
+    # у дописанных строк нет формата (перенос текста, заливка): копируем с последней существующей строки
+    if rows:
+        ws.spreadsheet.batch_update({"requests": [
+            {"copyPaste": {"source": {"sheetId": ws.id, "startRowIndex": start - 2, "endRowIndex": start - 1, "startColumnIndex": 0, "endColumnIndex": len(headers)},
+                           "destination": {"sheetId": ws.id, "startRowIndex": start - 1, "endRowIndex": start - 1 + len(out), "startColumnIndex": 0, "endColumnIndex": len(headers)},
+                           "pasteType": "PASTE_FORMAT"}},
+            {"autoResizeDimensions": {"dimensions": {"sheetId": ws.id, "dimension": "ROWS", "startIndex": start - 1, "endIndex": start - 1 + len(out)}}}]})
     print(f"{a.tab}: добавлено строк {len(out)}")
 
 
