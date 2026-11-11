@@ -1,0 +1,20 @@
+# ОТВЯЗКА старых быстрых ссылок групп (старые отдельные страницы). Использовать ТОЛЬКО с --remove, ПОСЛЕ привязки новых ссылок.
+# Тексты и адреса взяты из выгрузки campaign_settings_24331208797_20261111_1431.xlsx (лист «Быстрые ссылки»). Подготовлено планировщиком 11.11, НЕ записано.
+- groups:
+  - Pedestrian - Exact
+  sitelinks:
+  - {text: Meet Your Attorney, desc1: "Alina Landver, Esq., MBA.", desc2: 20+ years in California courts., url: "https://landverpersonalinjury.tilda.ws/pedestrian-accident-lawyer-california#ldv-attorney"}
+  - {text: No Fee Unless We Win, desc1: The first review is free., desc2: No upfront costs., url: "https://landverpersonalinjury.tilda.ws/pedestrian-accident-lawyer-california#ldv-fee"}
+  - {text: Common Questions, desc1: "Crosswalks, hit-and-run, costs.", desc2: Answers after being hit., url: "https://landverpersonalinjury.tilda.ws/pedestrian-accident-lawyer-california#ldv-faq"}
+  - {text: Free Case Review, desc1: Tell us what happened., desc2: No obligation to hire the firm., url: "https://landverpersonalinjury.tilda.ws/pedestrian-accident-lawyer-california#ldv-form"}
+  - {text: Common Situations, desc1: "Crosswalks, turns, hit-and-run.", desc2: Cases the firm reviews., url: "https://landverpersonalinjury.tilda.ws/pedestrian-accident-lawyer-california#ldv-situations"}
+  - {text: Client Reviews, desc1: "4.8 stars, 45 Google reviews.", desc2: Read what clients say., url: "https://landverpersonalinjury.tilda.ws/pedestrian-accident-lawyer-california#ldv-reviews"}
+- groups:
+  - Bicycle - Exact
+  sitelinks:
+  - {text: Free Case Review, desc1: Tell us what happened., desc2: No obligation to hire the firm., url: "https://landverpersonalinjury.tilda.ws/bicycle-accident-lawyer-california#vb-form"}
+  - {text: Common Questions, desc1: "Helmets, car doors, costs.", desc2: Answers after a bike crash., url: "https://landverpersonalinjury.tilda.ws/bicycle-accident-lawyer-california#vb-faq"}
+  - {text: Common Situations, desc1: "Car doors, turns, hit-and-run.", desc2: Cases the firm reviews., url: "https://landverpersonalinjury.tilda.ws/bicycle-accident-lawyer-california#vb-situations"}
+  - {text: No Fee Unless We Win, desc1: The first review is free., desc2: No upfront costs., url: "https://landverpersonalinjury.tilda.ws/bicycle-accident-lawyer-california#vb-fee"}
+  - {text: Client Reviews, desc1: "4.8 stars, 45 Google reviews.", desc2: Read what clients say., url: "https://landverpersonalinjury.tilda.ws/bicycle-accident-lawyer-california#vb-reviews"}
+  - {text: Meet Your Attorney, desc1: "Alina Landver, Esq., MBA.", desc2: 20+ years in California courts., url: "https://landverpersonalinjury.tilda.ws/bicycle-accident-lawyer-california#vb-attorney"}

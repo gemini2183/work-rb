@@ -1,0 +1,80 @@
+{
+  "_comment": "Landver Ped+Bike 2026-11-11: новое RSA в группу (bike) под страницу pedestrian-bicycle-accident-lawyer-california, старое объявление 829858179747 на паузу. Подготовлено планировщиком, НЕ записано.",
+  "customer_id": "2136216123",
+  "campaign": "search / car+truck injuries / s / lp - tilda",
+  "pause_ads": [
+    829858179747
+  ],
+  "rsa": {
+    "final_url": "https://landverpersonalinjury.tilda.ws/pedestrian-bicycle-accident-lawyer-california",
+    "path1": "bicycle",
+    "path2": "lawyer",
+    "ad_groups": [
+      "Bicycle - Exact"
+    ],
+    "headlines": [
+      {
+        "text": "Bicycle Accident Lawyer",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Bike Accident Lawyer",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Bike Crash Attorney",
+        "pin": "HEADLINE_1"
+      },
+      {
+        "text": "Free Case Review"
+      },
+      {
+        "text": "No Fee Unless We Win"
+      },
+      {
+        "text": "Calls Answered 24/7"
+      },
+      {
+        "text": "Hurt on Your Bike?"
+      },
+      {
+        "text": "Car Door Opened Into You?"
+      },
+      {
+        "text": "No Helmet? Still Get a Review"
+      },
+      {
+        "text": "Hit-and-Run? Free Case Review"
+      },
+      {
+        "text": "Alina Landver, Trial Attorney"
+      },
+      {
+        "text": "20+ Years in California"
+      },
+      {
+        "text": "Rated 4.8 Stars on Google"
+      },
+      {
+        "text": "Serving All of California"
+      },
+      {
+        "text": "No Pressure. No Obligation."
+      }
+    ],
+    "descriptions": [
+      {
+        "text": "Hurt in a bike crash? An attorney reviews your case for free, with no obligation."
+      },
+      {
+        "text": "Tell us what happened. No upfront costs, and no fee unless we win. Free, no obligation."
+      },
+      {
+        "text": "Car door, left turn or hit-and-run? The driver's version is not a legal conclusion."
+      },
+      {
+        "text": "Attorney Alina Landver began on the defense side and knows how insurers undervalue claims."
+      }
+    ]
+  }
+}

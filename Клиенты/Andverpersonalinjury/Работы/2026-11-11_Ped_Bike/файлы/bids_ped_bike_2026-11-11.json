@@ -1,0 +1,8 @@
+{
+  "campaign": "search / car+truck injuries / s / lp - tilda",
+  "_note": "Решение пользователя 10.11 (созвон, подтверждено вечером): Pedestrian $100 -> $150, Bicycle $100 -> $120. Подготовлено планировщиком 11.11, НЕ записано.",
+  "group_bids": [
+    {"group": "Pedestrian - Exact", "bid": 150},
+    {"group": "Bicycle - Exact", "bid": 120}
+  ]
+}
