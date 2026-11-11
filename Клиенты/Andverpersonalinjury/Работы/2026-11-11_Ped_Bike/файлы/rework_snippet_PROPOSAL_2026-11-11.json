@@ -1,0 +1,6 @@
+{
+  "_comment": "ПРЕДЛОЖЕНИЕ, не в основном пакете. Структурированный сниппет «Types» на уровне основной кампании (перекрывает аккаунтный, где нет Pedestrian/Bicycle). Решения пользователя нет.",
+  "customer_id": "2136216123",
+  "campaign": "search / car+truck injuries / s / lp - tilda",
+  "snippet": {"header": "Types", "values": ["Pedestrian Accidents", "Bicycle Accidents", "Hit-and-Run Cases", "Motorcycle Accidents"]}
+}

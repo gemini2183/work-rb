@@ -1,5 +1,7 @@
 Campaign,Status,Channel_type,Bidding_strategy,Daily_budget
 LocalServicesCampaign:SystemGenerated:000658c5f642aebe,ENABLED,LOCAL_SERVICES,MAXIMIZE_CONVERSIONS,714.29
+search / car accident / es ca / lp - tilda,ENABLED,SEARCH,MANUAL_CPC,50.0
+search / car accident / la+bh / lp - tilda,ENABLED,SEARCH,MANUAL_CPC,110.0
 dg_search_segment,PAUSED,DEMAND_GEN,TARGET_CPC,50.0
 dspl / ca,PAUSED,DISPLAY,TARGET_SPEND,15.0
 pmax / ca,PAUSED,PERFORMANCE_MAX,MAXIMIZE_CONVERSIONS,40.0
@@ -15,5 +17,5 @@ search / car accident / ca - google search + network,PAUSED,SEARCH,TARGET_SPEND,
 search / car accident / ca - google search + network / spanish,PAUSED,SEARCH,TARGET_SPEND,35.0
 search / car accident / ca - google search only,PAUSED,SEARCH,TARGET_SPEND,100.0
 search / car accident / ca - google search only  / spanish,PAUSED,SEARCH,TARGET_SPEND,150.0
-search / car+truck injuries / s / lp - tilda,PAUSED,SEARCH,MANUAL_CPC,400.0
+search / car+truck injuries / s / lp - tilda,PAUSED,SEARCH,MANUAL_CPC,200.0
 search / dog bite,PAUSED,SEARCH,TARGET_SPEND,150.0
