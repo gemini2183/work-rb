@@ -16,7 +16,7 @@ channels:
     pool:
       - "+18883783267"
       - "+18883448725"
-      - "+18883025461"
+      - "+18774038698"  # скриншот пула «Google Ads» 2026-11-11: 8883783267, 8883448725, 8774038698
 
   - name: "ChatGPT"
     utm: {utm_source: "chatgpt.com", utm_medium: "cpc", utm_term: ".*", utm_content: ".*", utm_campaign: ".*"}
