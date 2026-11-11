@@ -24,6 +24,7 @@ from google.ads.googleads.client import GoogleAdsClient
 
 from _config import client_stats_dir
 from gads_stats import GOOGLE_ADS_YAML
+from gads_quota_ledger import record_mutate   # журнал операций API (П-001); запрос Planner пишем как 1 операцию чтения
 
 
 def main():
@@ -32,6 +33,7 @@ def main():
     ap.add_argument("--client-folder", required=True)
     ap.add_argument("--keywords-csv", required=True, help="CSV с колонкой keyword")
     ap.add_argument("--geo-id", default="21137", help="geo_target_constant id (21137 = California)")
+    ap.add_argument("--language-id", default="1000", help="language constant id (1000 = English, 1003 = Spanish)")
     args = ap.parse_args()
 
     cid = args.customer_id.replace("-", "").strip()
@@ -46,7 +48,8 @@ def main():
         req.keywords.extend(kws[i:i + 500])
         req.geo_target_constants.append(f"geoTargetConstants/{args.geo_id}")
         req.keyword_plan_network = client.enums.KeywordPlanNetworkEnum.GOOGLE_SEARCH
-        req.language = "languageConstants/1000"
+        req.language = f"languageConstants/{args.language_id}"
+        record_mutate("gads_keyword_volumes", 1)
         resp = svc.generate_keyword_historical_metrics(request=req)
         for r in resp.results:
             m = r.keyword_metrics
