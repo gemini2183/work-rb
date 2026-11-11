@@ -1,6 +1,6 @@
 ---
-status: черновик, в кабинет Ringostat НЕ внесено (страница не опубликована)
-updated: 2026-11-10
+status: УСТАРЕЛ 2026-11-11 — актуальные правила и инструкция в [[Правила_подмены_spanish_es]] (маски кнопок с t-btnflex__text, правило на FAQ, верный адрес); в кабинет Ringostat НЕ внесено
+updated: 2026-11-11
 ---
 
 # Правила подмены Ringostat — испанская страница «abogado de accidentes» (ожидаемый адрес `landverpersonalinjury.tilda.ws/abogado-de-accidentes-lawyer-california`)
