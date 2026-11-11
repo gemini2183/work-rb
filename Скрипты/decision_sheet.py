@@ -324,8 +324,10 @@ def cmd_add_rows(a):
                 v, nxt = nxt, nxt + 1
             if h == ROUND_COL and v == "":
                 v = 1
+            if h == "Состояние" and STATUS_COL in headers and ANSWER_COL in headers:
+                v = state_formula(r, col_letter(headers.index(STATUS_COL)), col_letter(headers.index(ANSWER_COL)))
             if isinstance(v, str) and v.startswith("="):
-                v = v.replace("{r}", str(r))
+                v = localize(v.replace("{r}", str(r)), ws.spreadsheet)
             row.append(v)
         out.append(row)
     ws.append_rows(out, value_input_option="USER_ENTERED", table_range="A1")
