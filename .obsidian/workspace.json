@@ -254,6 +254,9 @@
   },
   "active": "49438aefe15a1236",
   "lastOpenFiles": [
+    "Клиенты/Andverpersonalinjury/Статистика/campaign_settings_24447075486_20261111_1035.xlsx",
+    "Клиенты/Andverpersonalinjury/Статистика/snapshot_before_labh_assets_20261111_1034.json",
+    "Скрипты/gads_labh_assets_fix.py",
     "База_знаний/Агенты/Сводка_по_кампании_эталон.md",
     "Клиенты/Andverpersonalinjury/Статистика/campaign_settings_24447075486_20261111_1028.xlsx",
     "Скрипты/gads_campaign_settings_xlsx.py",
@@ -281,8 +284,6 @@
     "Клиенты/Andverpersonalinjury/Статистика/page_tracking_check_landverpersonalinjury_tilda_ws_abogado-accidentes-auto-lawyer-californi_2026-11-10.md",
     "Клиенты/Andverpersonalinjury/Статистика/phone_swap_check_2026-11-10_1718.csv",
     "Клиенты/Andverpersonalinjury/Статистика/phone_swap_check_2026-11-10_1717.csv",
-    "Клиенты/Andverpersonalinjury/Статистика/gads_campaign_goals_before_24447075486_20261110_1705.csv",
-    "Клиенты/Andverpersonalinjury/Статистика/snapshot_before_labh_rebuild_20261110_1704.json",
     "Клиенты/Andverpersonalinjury/Статистика/page_tracking_check_landverpersonalinjury_tilda_ws_california-car-accident-lawyer_2026-11-10.md",
     "Клиенты/Andverpersonalinjury/Испанская_страница_для_разработчика_2026-11-10/ИНСТРУКЦИЯ_v2_ИСПАНСКАЯ_СТРАНИЦА.md",
     "Клиенты/Andverpersonalinjury/Испанская_страница_для_разработчика_2026-11-10/Эталон_скриншоты/3_вся_страница_телефон_390.png",
@@ -298,7 +299,6 @@
     "Клиенты/Andverpersonalinjury/Tilda_страница_Spanish/Эталон_скриншоты/3_вся_страница_телефон_390.png",
     "Клиенты/Andverpersonalinjury/Статистика/page_tracking_check_landverpersonalinjury_tilda_ws_abogado-accidentes-auto-california_2026-11-10.md",
     "Инбокс.md",
-    "Задачи.md",
-    "Клиенты/Andverpersonalinjury/Статистика/page_tracking_check_landverpersonalinjury_tilda_ws_abogado-de-accidentes-lawyer-california_2026-11-10.md"
+    "Задачи.md"
   ]
 }
