@@ -1,0 +1,140 @@
+---
+status: подготовка, в кабинет НЕ записано (validate_only пройден 11.11 ~11:23); ждёт «да» супервайзера и пользователя
+updated: 2026-11-11
+---
+
+# Испанская Search-кампания Landver: таблица «было → станет»
+
+Исполнитель 3 («Google Ads»), пилот «супервайзер + исполнители». Скрипт: `Скрипты/gads_landver_spanish_build.py` (константы = этот план; `--plan` печатает таблицы без API). Образец: `gads_landver_search_rebuild.py`. Эталон настроек: `Статистика/campaign_settings_24447075486_20261111_1035.xlsx` (LA+BH). Решение пользователя 10.11: отдельная кампания на всю Калифорнию, ≈ $50 в день, запуск после страницы с рабочей формой, правил Ringostat `es_*` и тестового звонка ([[Решения]] 10.11 «структура Google Ads Search»). Новая кампания создаётся на ПАУЗЕ, включение — отдельное «да».
+
+## 1. Кампания (было: нет → станет: создаётся)
+
+| Объект | Действие | Было → Станет | Откуда факт |
+|---|---|---|---|
+| Кампания | создать, PAUSED | нет → `search / car accident / es ca / lp - tilda` (имя по образцу `search / car accident / la+bh / lp - tilda`) | Решения 10.11; xlsx LA+BH |
+| Бюджет | создать, не общий | нет → $50/день | Решения 10.11 («≈ $50») |
+| Стратегия | | нет → MANUAL_CPC, улучшенная CPC выключена (как у LA+BH и основной) | xlsx LA+BH |
+| Сети | | нет → только поиск Google; партнёры и КМС выключены | xlsx LA+BH |
+| Гео | критерий | нет → California (`geoTargetConstants/21137`), режим «присутствие» | Решения 10.11 («вся Калифорния»); id штата — Хроника 06.11 |
+| Язык | 2 критерия | нет → Spanish (`languageConstants/1003`) + English (1000) — допущение 1 | см. допущения |
+| Шаблон отслеживания | копия | нет → тот же, что у основной (читается 1 запросом при запуске) | как в `gads_landver_search_rebuild.py` |
+| AI Max, автоматизация текстов | | нет → выключены (как у LA+BH) | `gads_landver_search_rebuild.py` |
+| Расписание, устройства | | нет → без корректировок, 24 ч все дни | xlsx LA+BH; решение 10.11 «компьютер −30%» отклонён |
+| Цели конверсий | проверить после создания | нет → как у LA+BH: основными считаются Calls from ads (CALL_FROM_ADS), PHONE_CALL_LEAD / WEBSITE (Ringostat_calls), SUBMIT_LEAD_FORM / WEBSITE (form_submit, form_submit_tilda); остальные категории — не основные | xlsx LA+BH лист «Цели конверсий»; Хроника 11.11 10:00 «цели LA+BH и основной совпадают» |
+| Группа | создать | нет → `Abogado Accidentes Auto - Exact`, ставка $100 — допущение 2 | |
+| Страница | | нет → `https://landverpersonalinjury.tilda.ws/abogado-accidentes-auto-lawyer-california` (HTTP 200, 11:24 curl) | Паспорт |
+
+## 2. Ключи (все EXACT) — Planner 11.11 11:21, Калифорния, язык испанский
+
+| # | Ключ | Объём в мес | Ставка «верх страницы» $ | Решение |
+|---|---|---|---|---|
+| 1 | abogado de accidentes de carro | 1 300 | 274–1 000 | включить |
+| 2 | abogado de accidentes | 720 | 201–1 000 | включить |
+| 3 | abogado de accidentes de auto | 320 | 172–943 | включить |
+| 4 | abogado de accidentes los angeles | 320 | 7–237 | включить |
+| 5 | abogado de accidentes automovilisticos | 140 | 239–1 000 | включить |
+| 6 | abogado para accidentes de carro | 110 | 245–1 000 | включить |
+| 7 | abogado accidente de carro | 70 | 336–1 000 | включить |
+| — | abogado de lesiones personales | 480 | 97–478 | не включаю: шире ДТП (рабочие травмы, укусы, врачебные ошибки), страница про авто; кандидат второго шага |
+| — | abogado de accidentes cerca de mi | 140 | 80–699 | не включаю: «near me» по решению 10.11 только в LA+BH |
+| — | abogado de accidentes de camion / de moto / de transito | 170 / 90 / 110 | 48–539 / 0 / 45–822 | не включаю: упор на легковые (решение 10.11); «tránsito» двусмыслен |
+| — | …carro los angeles, …california, choques de carro | 10 / 0 / 10 | 0 | нет объёма |
+
+Planner объединяет близкие варианты (единственное число / множественное, «auto» / «carro» частично) — объёмы это кластеры, не точные числа; суммарно по включённым ≈ 2 000 в мес по штату (оценка сверху, не прогноз показов). Файл: `Статистика/gads_keyword_volumes_20261111_1121.csv`. Ограничение: в самой кампании `search / car+truck…` испанских запросов за всё время 5 штуки (0 конверсий), доказательств конверсии испанского трафика нет.
+
+## 3. Минусы
+
+| Что | Сколько | Операций | Основание |
+|---|---|---|---|
+| Три общих списка (`gen / init`, `names`, `rivals`, id 12099348931, 12186238091, 12186251357) | 33 + 110 + 24 слов | 3 привязки | как у LA+BH; проверено по xlsx LA+BH: ни одно слово не блокирует испанские ключи |
+| Перекрёстные с основной и LA+BH (PHRASE): moto, motocicleta(s), peaton, peatón, peatones, bicicleta(s), bici, camion, camión, camiones | 12 | 12 | пересечения по ключам нет (в основной испанских ключей нет); нужны на случай близких вариантов. Обратных минусов в основную и LA+BH не ставим: чужие объекты не меняем, а `abogado` / `abogados` BROAD там уже стоят |
+| Собственные испанские (PHRASE): работа и учёба, страхование и автосервис, другие виды права, помощь по назначению, другие штаты и страны (полный список — в `gads_landver_spanish_build.py`, `ES_NEGATIVES`) | 64 | 64 | **слова подобраны мной по знанию предмета, на данных не проверены** (испанских запросов у кампаний почти нет) — после первых 20–30 кликов пересмотреть по отчёту поисковых запросов |
+| Копия кампанийных минусов основной (`--part negatives`, порциями ≤ 400) | 1 697 = 1 699 как у LA+BH − 2 | 1 697 | имена фирм и юристов, нецелевые темы (Хроника 10.11 «минусы для LA+BH»); без 34 точных «near me»; **без BROAD `abogado` и `abogados`: они блокируют все 7 ключей** (`gads_negatives_conflicts`-логика на xlsx LA+BH, 11.11) |
+
+Как идёт копия: способ «общий список» не выгоден — кампания одна с этим списком (при одной операций поровну: ≈ 1 700 и 1 700 + привязка); правило из `База_знаний/Агенты/План_переноса_кампании_и_квота_API.md`. Интерфейс / Editor — 0 операций нашего токена, **не проверено**. Копию можно отложить на другой день (кампания на паузе), но не включать без неё: в списке имена фирм, которые в испанском поиске тоже ищут.
+
+## 4. RSA (одно объявление, 15 заголовков, 4 описания) — «было»: нет
+
+Закрепления: H1 × 3 на позицию 1, H2 × 3 на позицию 2, D1 × 1 на позицию 1 (как у Pedestrian / Bicycle и LA+BH); остальные без закрепления. Знаки посчитаны скриптом (`len`), лимит заголовка 30, описания 90.
+
+| Поле | Текст | Знаков/лимит | Закрепление | Откуда факт |
+|---|---|---|---|---|
+| H1 | Abogado de Accidentes de Auto | 29/30 | H1 | H1 страницы «Abogado de Accidentes de Auto en California» |
+| H2 | Abogado de Accidentes de Carro | 30/30 | H1 | то же + ключ №1 (синоним «auto»; страница «carro» не употребляет, противоречия нет) |
+| H3 | Abogado de Accidentes en CA | 27/30 | H1 | H1 страницы («en California») |
+| H4 | Consulta Gratis · 24/7 | 22/30 | H2 | H1 страницы «Consulta Gratis»; «Atención 24/7» |
+| H5 | No Paga a Menos Que Ganemos | 27/30 | H2 | блок honorarios: «No Paga Honorarios a Menos Que Ganemos» |
+| H6 | Atención en Español | 19/30 | H2 | «Atención en español · 24/7» |
+| H7 | Llame a Landver Law 24/7 | 24/30 | — | «Llame al … · 24/7» |
+| H8 | ¿Lesionado en un Accidente? | 27/30 | — | «¿Tuvo un accidente de auto y resultó lesionado?» |
+| H9 | Más de 20 Años en California | 28/30 | — | блок abogada: «Más de 20 años en tribunales … en todo California» |
+| H10 | 4.8 Estrellas en Google | 23/30 | — | «★ 4.8 · 45 reseñas en Google» |
+| H11 | Experiencia en Tribunales | 25/30 | — | «Más de 20 años en tribunales estatales y federales» |
+| H12 | Oficina en Beverly Hills | 24/30 | — | подвал: «Oficina principal · Beverly Hills» |
+| H13 | Revisión Gratuita de su Caso | 28/30 | — | «revisión gratuita de su caso con un abogado» |
+| H14 | Sin Costos por Adelantado | 25/30 | — | «No hay costos por adelantado» |
+| H15 | Conocemos a las Aseguradoras | 28/30 | — | «Sabe cómo las aseguradoras subvaloran los reclamos» (оценочная формулировка, прямого противоречия нет) |
+| D1 | Consulta gratis después de un accidente de auto. Ayudamos a personas lesionadas. | 80/90 | D1 | H1 и подзаголовок страницы; «Un abogado revisa su caso sin costo» |
+| D2 | Cuéntenos qué pasó. Un abogado revisa su caso sin costo. Atención en español. | 77/90 | — | подзаголовок страницы; «Atención en español» |
+| D3 | Consulta gratis. No paga honorarios a menos que ganemos. Llame a Landver Law 24/7. | 82/90 | — | блок honorarios; «Llame al … · 24/7» |
+| D4 | Más de 20 años en tribunales de California. Experiencia del lado de la defensa. | 79/90 | — | блок abogada: «Comenzó su carrera del lado de la defensa» |
+| path1 / path2 | abogado / accidentes-auto | 7 и 15 /15 | — | |
+
+Факты сверены с живой страницей 11.11 ~11:24 (curl, строки найдены: «Atención en español», «45 reseñas», «Más de 20 años», «No hay costos por adelantado», «Beverly Hills», «Sabe cómo las aseguradoras», H1; два `<title>` — известная проблема страницы). Не использованы: цифры результатов ($38.5M и др.), «cerca de mí», даты. Критерий сверки — решение пользователя 11.11: нет прямого противоречия, оценочные слова не оспариваем.
+
+## 5. Быстрые ссылки (кампанийный уровень, 6) — «было»: нет
+
+Якоря проверены на живой странице 11.11 ~11:24: все семь `id` (`ldv-form-section`, `ldv-fee`, `ldv-attorney`, `ldv-reviews`, `ldv-how`, `ldv-faq`, `ldv-insurers`) есть, по одному. `ldv-form` не используем (высота 0 по `page_tracking_check` на похожих страницах). Тексты ≤ 25, описания ≤ 35.
+
+| # | Текст | Описание 1 | Описание 2 | Якорь | Откуда факт |
+|---|---|---|---|---|---|
+| 1 | Consulta gratuita (17) | Cuéntenos qué pasó. (19) | Gratis y sin compromiso. (24) | #ldv-form-section | форма: «Cuéntenos qué pasó. Le llamamos.»; «Es gratis y sin compromiso» |
+| 2 | Honorarios del abogado (22) | La primera consulta es gratis. (29) | Sin costos por adelantado. (25) | #ldv-fee | блок honorarios |
+| 3 | Conozca a su abogada (20) | Alina Landver, Esq., MBA. (25) | Más de 20 años en California. (29) | #ldv-attorney | блок abogada |
+| 4 | Reseñas de clientes (19) | 4.8 estrellas en Google. (23) | 45 reseñas de clientes. (23) | #ldv-reviews | «4.8 … de 5 · 45 reseñas en Google» (сами отзывы на странице английские, подписаны) |
+| 5 | Cómo funciona (13) | Cuéntenos qué pasó. (19) | Revisión gratuita de su caso. (28) | #ldv-how | блок «Cómo funciona» |
+| 6 | Preguntas frecuentes (20) | Costos, plazos y culpa. (22) | Respuestas tras un accidente. (28) | #ldv-faq | FAQ: costo, plazo de dos años, culpa comparativa |
+
+Запасная 7-я: «Antes de la aseguradora» → `#ldv-insurers` (блок про заявления страховщикам). UTM к ссылкам добавляет шаблон отслеживания кампании (как у LA+BH, `gads_sitelink_utm_fix.py` не нужен — проверить после записи чтением). Перед этим: у ссылок на здоровье Google ставит `APPROVED_LIMITED` (так же у английских) — по справке показ не блокирует, на кабинете не проверено.
+
+## 6. Остальные ассеты
+
+| Ассет | Действие | Станет | Откуда факт |
+|---|---|---|---|
+| Callouts (7, ≤ 25) — свои, кампанийные: аккаунтные английские не должны идти в испанскую кампанию (кампанийный уровень перекрывает аккаунтный) | создать + привязать | Consulta gratis 24/7 (20) · Atención en español (19) · No paga si no ganamos (21) · 20+ años en California (22) · Atendemos todo California (25) · Abogada litigante (17) · Sin costos por adelantado (25) | страница: «Consulta gratuita · Atención 24/7», «Atención en español», «no paga honorarios a menos que gane», «Más de 20 años», «Atendemos a personas lesionadas en todo California», «Abogada litigante», «No hay costos por adelantado». «Former Insurance Defense» не переносим: уже оставлен пользователем в английских, по-испански — H15 / D4 |
+| Структурированная подпись | создать + привязать | `Tipos`: Choque por detrás · Choque en un cruce · Cambio de carril · Conductor distraído · Fuga del conductor · Choque con camión · Pasajero en transporte (все ≤ 25) | блок страницы «Casos de accidentes» (ситуации). Заголовок «Tipos» validate_only принял, «Zzz» отклонил — проверка заголовков в validate работает; что Google покажет «Tipos» именно как локализованный «Types» — не проверено |
+| Звонковый ассет | привязать существующий, без создания | 411032321136, (888) 360-4833 (одобрен, уже в основной и LA+BH) | `Коллтрекинг/Звонковый_ассет_Google_Ads_Ringostat.md`; номер из пула «Google Ads - calls from ads», по кампании звонки не разделяются (ограничение пула) |
+| Логотип | привязать существующий | 367221514317 (как у LA+BH) | xlsx LA+BH |
+| Картинки группы (8) | привязать существующие | те же 8, что сейчас у LA+BH (без текста на изображении; две «Free review» — фото без надписи, просмотрено) | xlsx LA+BH лист «Картинки» |
+| Аккаунтные ассеты (7 английских callouts, английская подпись «Types», 2 отклонённых звонка) | не менять | остаются, но в испанской кампании перекрыты своими | не трогаем чужие объекты |
+
+## 7. Операции API и проверка
+
+| Шаг | Операций | Статус |
+|---|---|---|
+| `--part new`: бюджет и кампания 2, гео 1, язык 2, минусы 76 (12 + 64), общие списки 3, группа 1, ключи 7, RSA 1, быстрые ссылки 12, callouts 14, подпись 2, звонок и логотип 2, картинки 8 | **131** (за один mutate) | validate_only пройден 11.11 ~11:23: «проверка пройдена (131 операций), ничего не записано» |
+| `--part negatives` (после создания, порциями ≤ 400) | **1 697** | не проверен: нужна уже созданная кампания; механика та же, что у LA+BH 11.11 (269 записано) |
+| Чтения при запуске | ~4 запроса (шаблон основной, поиск кампании) + ~15 при чтении обратно | |
+| Итого | **131 + 1 697 = 1 828** операций ≈ 12% суточного лимита 15 000 | по журналу `gads_quota_ledger.py` до моей работы 11.11 было ≈ 376, сейчас ≈ 381 + 1 Planner + 2 × validate по 131 (учтены как «validate», тратят ли они квоту — не проверено) |
+| Цели конверсий | 0 по умолчанию; при расхождении с LA+BH — `gads_set_campaign_goals.py` (≈ 8 категорий, ≤ 10 операций) | проверка после создания (скрипт печатает уровень и список) |
+
+Запись по «да»: `python Скрипты/gads_landver_spanish_build.py --customer-id 213-621-6123 --execute` (создаёт на паузе, читает обратно), затем `--part negatives --execute`. Откат: `--remove-new --execute` (удаляет кампанию целиком). Параллельную запись с форком «Pedestrian + Bicycle» не запускать: один токен, одна квота.
+
+## 8. Допущения (проверить)
+
+1. **Язык: Spanish + English** (допущение). Довод: по справке Google (ответ поиском 11.11, `support.google.com/google-ads/answer/1722078`) объявления подходят по запросам, где язык ключа совпадает и Google считает, что пользователь понимает хотя бы один целевой язык; старые материалы Google: билингвы с английским интерфейсом пропадают, если выбран только испанский. Тот же источник пишет, что с сентября 2026 языковая настройка у Search убирается и язык определяется языком объявлений — **не подтверждено на нашем кабинете**: validate_only принял оба языковых критерия. Если при записи Google откажет — запуск `--no-language` (на 2 операции меньше).
+2. **Ставка $100** (паритет с LA+BH). Расчёт: ставки Planner «верх страницы» на три головных ключа $172–274 и выше; в LA+BH при ставке $85–100 клики стоили $94–99; при $50 в день это около полутора клика в 3 дня (≈ 10 кликов до конца ноября). **Вердикта по конверсии при таком объёме не будет** — как у LA+BH. Меньшая ставка ($60–80) лишь сократит показы. Альтернатива по политике риска: $80. Решение пользователя.
+3. **Стоп-правило** (предложение, в реестр `Эксперименты.md` заводится в момент запуска): $500 расхода без обращения (форма / звонок / Ringostat) — пауза; оценка по чистым дням (`window_check.py`), по обращениям в Supabase / Ringostat, не по Ads.
+4. **Только EXACT, 7 ключей**; фразовые ключи и «abogado de lesiones personales» — вторым шагом, если показов мало (как решено для Motorcycle).
+5. **Испанские минусы (64) и перекрёстные (12) — мои**, без данных; пересмотреть по отчёту запросов после 20–30 кликов.
+6. **Копия 1 697 минусов основной** нужна до включения; её можно сделать на другой день.
+7. **Звонок:** тот же (888) 360-4833, отдельного испанского номера нет; принимает ли колл-центр испанский 24/7 — со слов пользователя и страницы; заголовки «Atención en Español» и «Consulta Gratis · 24/7» держатся на этом.
+8. **Картинки и логотип** те же, что у LA+BH; на изображениях нет текста, но в кадрах Лос-Анджелес (кампания на весь штат).
+9. **Расписание 24/7, гео «присутствие», без исключений 48 штатов и округов** — основная кампания их исключает, испанская таргетирует только штат Калифорния.
+
+## 9. Блокеры и зависимости (не мои)
+
+- **Подмена номера на испанской** (исполнитель 1): правил Ringostat `es_*` нет, все `tel:` остаются (844) 452-9465 (П-006). Без них звонок с сайта не привязывается к Google.
+- **Формы и трекинг** (исполнитель 2): `ldv_form_start` не срабатывает на новых формах; отправка новой испанской формы живым тестом не подтверждена (Паспорт 10.11). `form_submit` → GA4 → конверсия `form_submit` / `form_submit_tilda` в Ads должна дойти.
+- **Страница:** два `<title>` на живой (проверено 11:24), старая `abogado-accidentes-auto-california` ждёт удаления.
+- **Решение пользователя:** включение — отдельное «да» после теста формы и звонка; бюджет месяца ($10 000 со слов против 9 000 в «Цели2») не пересверен; $50 в день укладываются в оба чтения.
