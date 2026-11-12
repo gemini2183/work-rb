@@ -5,6 +5,7 @@
 Зачем: условия каналов трафика Ringostat (регулярные выражения по UTM) не читаются ни через API, ни из скрипта на
 сайте — их можно проверить только поведением. Скрипт открывает сайт в мобильном режиме с заданными UTM и показывает,
 какой номер подставлен, сопоставляя его с пулами из Клиенты/<клиент>/Коллтрекинг/Пул_номеров.yaml (если файл дан).
+Без --pool-file пул не называется (скрипт печатает «вне пулов yaml»); название канала смотреть в кабинете Ringostat или по звонкам API (поле pool_name, n_alias). Печатает ВСЕ различные tel:-href страницы по каждому заходу.
 Запросы аналитики (GA4, Ads, Метрика, Facebook) блокируются, тест не попадает в статистику клиента. Каждый случай
 повторяется --repeats раз: у динамических пулов номер меняется от захода к заходу.
 
@@ -66,6 +67,7 @@ def main():
                 q["utm_content"] = args.content
             url = args.url + ("&" if "?" in args.url else "?") + urlencode(q)
             seen = []
+            all_hrefs = []
             for _ in range(args.repeats):
                 ctx = browser.new_context(user_agent=UA, viewport={"width": 390, "height": 844},
                                           is_mobile=True, has_touch=True)
@@ -76,9 +78,12 @@ def main():
                 nums = page.evaluate("[...new Set([...document.querySelectorAll('a[href^=\"tel:\"]')]"
                                      ".map(a=>a.getAttribute('href').replace('tel:','')))]")
                 seen.append(nums[0] if nums else None)
+                all_hrefs.append(nums)  # все различные href tel: на странице (2026-11-12: подмена должна затронуть все ссылки)
                 ctx.close()
             labels = sorted({pools.get(digits(n), "вне пулов yaml (номер сайта или другой статический)") for n in seen if n})
             print(f"{camp or '(без utm_campaign)':34} {seen}  -> {'; '.join(labels)}")
+            multi = [h for h in all_hrefs if len({digits(x) for x in h}) > 1]
+            print(f"{'':34} все href tel: по заходам: {all_hrefs}" + ("  ! в одном заходе РАЗНЫЕ номера — подмена затронула не все ссылки" if multi else ""))
         browser.close()
 
 

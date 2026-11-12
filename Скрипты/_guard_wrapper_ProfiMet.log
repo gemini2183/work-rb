@@ -14,3 +14,5 @@
 [2026-11-09T11:02:01] --- start gads_spend_guard_cpa.py --client ProfiMet --execute --telegram
 [2026-11-11T08:51:45] task started, waiting 60 s for network
 [2026-11-11T08:52:45] --- start gads_spend_guard_cpa.py --client ProfiMet --execute --telegram
+[2026-11-12T15:39:56] task started, waiting 5 s for network
+[2026-11-12T15:40:01] --- start gads_spend_guard_cpa.py --client ProfiMet --execute --telegram

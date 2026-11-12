@@ -1,0 +1,9 @@
+{
+  "_comment": "Landver Ped+Bike 2026-11-12: включение групп Pedestrian - Exact и Bicycle - Exact по «включай» пользователя 12.11 после теста формы (GA4 form_submit в realtime).",
+  "customer_id": "2136216123",
+  "campaign": "search / car+truck injuries / s / lp - tilda",
+  "set_group_status": [
+    {"group": "Pedestrian - Exact", "status": "ENABLED"},
+    {"group": "Bicycle - Exact", "status": "ENABLED"}
+  ]
+}

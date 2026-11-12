@@ -1,0 +1,106 @@
+[
+ {
+  "tab": "Тексты",
+  "no": 2,
+  "set": {
+   "Текст": "Szklarnia pod Klucz",
+   "Ответ Claude": "Переписано: продаём теплицу «под ключ» (с монтажом), а не услугу монтажа. Источник: страница, «z montażem pod klucz»."
+  },
+  "round_up": true
+ },
+ {
+  "tab": "Тексты",
+  "no": 7,
+  "set": {
+   "Текст": "Kup Szklarnię z Montażem",
+   "Ответ Claude": "Переписано: монтаж как часть покупки теплицы, без «заказать монтаж» отдельно. Источник: страница, «Zamów szklarnię… z montażem»."
+  },
+  "round_up": true
+ },
+ {
+  "tab": "Тексты",
+  "no": 8,
+  "set": {
+   "Текст": "Złożymy Szklarnię za Ciebie",
+   "Ответ Claude": "Переписано без регионов: выгода для покупателя — не собирать самому. Страница: «Brak pomocnika, czasu albo sił… zrobią to za Ciebie nasi monterzy»."
+  },
+  "round_up": true
+ },
+ {
+  "tab": "Тексты",
+  "no": 16,
+  "set": {
+   "Текст": "Brak czasu, pomocnika albo sił? Szklarnię złożą za Ciebie nasi monterzy.",
+   "Ответ Claude": "Переписано без перечисления воеводств: снимаем возражение «некому/некогда собирать». Страница: «Brak pomocnika, czasu albo sił… zrobią to za Ciebie nasi monterzy»."
+  },
+  "round_up": true
+ },
+ {
+  "tab": "Тексты",
+  "no": 21,
+  "set": {
+   "Текст": "Złożą szklarnię za Ciebie",
+   "Ответ Claude": "Ссылка «Gdzie montujemy?» заменена на ссылку про выгоду, без регионов (гео решает таргетинг). Ведёт в FAQ (#rec5305615203)."
+  },
+  "round_up": true
+ },
+ {
+  "tab": "Тексты",
+  "no": 22,
+  "set": {
+   "Текст": "Brak czasu, pomocnika, sił?",
+   "Ответ Claude": "См. заголовок ссылки. Страница: «Brak pomocnika, czasu albo sił… zrobią to za Ciebie nasi monterzy»."
+  },
+  "round_up": true
+ },
+ {
+  "tab": "Тексты",
+  "no": 23,
+  "set": {
+   "Текст": "Zrobią to nasi monterzy",
+   "Ответ Claude": "См. заголовок ссылки. Страница: «Brak pomocnika, czasu albo sił… zrobią to za Ciebie nasi monterzy»."
+  },
+  "round_up": true
+ },
+ {
+  "tab": "Тексты",
+  "no": 40,
+  "set": {
+   "Текст": "Złożymy za Ciebie",
+   "Ответ Claude": "Уточнение «Montaż w 4 województwach» заменено: региональный акцент не нужен (ваши комментарии к заголовку 8, описанию 3). Страница: «Brak pomocnika, czasu albo sił… zrobią to za Ciebie nasi monterzy»."
+  },
+  "round_up": true
+ },
+ {
+  "tab": "Тексты",
+  "no": 9,
+  "set": {
+   "Текст": "Szklarnia, Płać przy Odbiorze",
+   "Ответ Claude": "Принято как согласие на замену предложенную контролёром (оплата относится к теплице, а не к монтажу)."
+  }
+ },
+ {
+  "tab": "Тексты",
+  "no": 11,
+  "set": {
+   "Текст": "Dostawa Szklarni w 3-7 Dni",
+   "Ответ Claude": "Принято как согласие на замену (срок относится к доставке теплицы, а не к монтажу)."
+  }
+ },
+ {
+  "tab": "Тексты",
+  "no": 17,
+  "set": {
+   "Текст": "Gwarancja: 2 lata na ramę i 5 lat na poliwęglan. Szklarnię opłacisz przy odbiorze.",
+   "Ответ Claude": "Принято как согласие на замену (оплата относится к теплице)."
+  }
+ },
+ {
+  "tab": "Тексты",
+  "no": 34,
+  "set": {
+   "Текст": "Szklarnia – bez zaliczki",
+   "Ответ Claude": "Принято как согласие на замену (оплата относится к теплице; формулировка — допущение контролёра)."
+  }
+ }
+]

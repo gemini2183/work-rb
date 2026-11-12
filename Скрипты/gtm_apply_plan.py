@@ -40,6 +40,8 @@ from pathlib import Path
 from google.auth.transport.requests import AuthorizedSession
 from google.oauth2 import service_account
 
+import _runlog
+
 ROOT = Path(__file__).resolve().parent.parent
 KEY = Path(__file__).resolve().parent / "secrets" / "rb_cloud_service.json"
 BASE = "https://tagmanager.googleapis.com/tagmanager/v2/"
@@ -67,7 +69,9 @@ def main():
     ap.add_argument("--publish", action="store_true")
     ap.add_argument("--resume", action="store_true",
                     help="продолжить в уже заполненной рабочей области (пропустить созданное по имени)")
+    _runlog.add_arg(ap)
     a = ap.parse_args()
+    _runlog.start(a)
     p = Path(a.plan)
     plan = json.loads((p if p.is_absolute() else ROOT / p).read_text(encoding="utf-8"))
     s = AuthorizedSession(service_account.Credentials.from_service_account_file(str(KEY), scopes=SCOPES))

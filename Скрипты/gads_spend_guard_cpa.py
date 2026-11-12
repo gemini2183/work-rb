@@ -544,7 +544,8 @@ def load_guard_config(path):
     for k_cfg, k_arg in (("grace", "grace"), ("plan_daily", "plan_daily"), ("loop_min", "loop_min"),
                          ("heartbeat_min", "heartbeat_min"), ("restore_at", "restore_at"),
                          ("pace_share", "pace_share"), ("pace_min", "pace_min"), ("abs_mult", "abs_mult"),
-                         ("pace_min_allow_share", "pace_min_allow_share"), ("morning_resume_at", "morning_resume_at")):
+                         ("pace_min_allow_share", "pace_min_allow_share"), ("morning_resume_at", "morning_resume_at"),
+                         ("stop_at", "stop_at"), ("start_at", "start_at")):
         if cfg.get(k_cfg) is not None:
             defaults[k_arg] = cfg[k_cfg]
     if cfg.get("monitoring_config"):
@@ -640,6 +641,12 @@ def main():
                     help="утром следующего дня включать кампании, которые сторож поставил на паузу вчера по цене заявки или «темпу» "
                          "(решение пользователя 2026-11-04; нужен и --execute); после второй такой паузы за 3 дня — не включает")
     ap.add_argument("--morning-resume-at", default="07:30", help="не раньше какого времени (ЧЧ:ММ, часы компьютера) включать утром")
+    ap.add_argument("--stop-at", default=None,
+                    help="конец рабочего дня ЧЧ:ММ (часы компьютера): после него сторож делает последний такт (люфт бюджета возвращается к базе), "
+                         "пишет в Telegram и до --start-at ничего не проверяет и не меняет; 'off' — работать круглые сутки "
+                         "(решение пользователя 2026-11-12, временно)")
+    ap.add_argument("--start-at", default=None,
+                    help="во сколько сторож выходит из ночного режима (ЧЧ:ММ); по умолчанию = --morning-resume-at")
     ap.add_argument("--telegram", action="store_true", help="слать события в Telegram чат монитора")
     ap.add_argument("--hints", action="store_true",
                     help="включить подсказки «недобор расхода» на этот запуск (иначе — по `underspend.enabled` в guard_config.yaml); "
@@ -711,6 +718,13 @@ def main():
     pending_resume = state.setdefault("_pending_resume", {})   # пауза сторожа по цене/«темпу», ждёт утреннего возобновления
     pause_history = state.setdefault("_pause_history", {})     # история пауз сторожа: [{date, reason}] по кампании (последние 10)
     resume_min = parse_hhmm(args.morning_resume_at)
+    # рабочее окно: [start_min, stop_min) по часам компьютера; вне окна — ночной режим (один последний такт, дальше сон)
+    stop_s = str(args.stop_at or "").strip().lower()
+    stop_min = parse_hhmm(stop_s) if (stop_s and stop_s != "off" and not args.once) else None
+    start_min = parse_hhmm(str(args.start_at)) if args.start_at else resume_min
+    if stop_min is not None and not start_min < stop_min:
+        ap.error(f"--start-at ({start_min // 60:02d}:{start_min % 60:02d}) должно быть раньше --stop-at ({stop_min // 60:02d}:{stop_min % 60:02d})")
+    restore_cfg_min = restore_min   # обычный вечерний возврат; в последнем такте перед сном возврат делается сразу (restore_min = 0)
     passport_path = (extra["client_dir"] / "Паспорт_кампаний.yaml") if extra.get("client_dir") else None
     passport_cache = {}
 
@@ -738,6 +752,10 @@ def main():
                            for i_, t_ in targets.items())
     notify(f"🛡 Сторож запущен. Режим: {mode_ru}.\n"
            f"Проверка каждые {args.loop_min or 0:g} мин, до первой заявки допускаю расход {args.grace:g} × цены заявки.\n"
+           + (f"Работаю с {start_min // 60:02d}:{start_min % 60:02d} до {stop_min // 60:02d}:{stop_min % 60:02d}; "
+              "после конца дня последний такт (бюджеты к базе) и ночной режим: защиты по расходу ночью нет.\n"
+              if stop_min is not None else "")
+           +
            f"Под охраной кампаний: {len(targets)}\n{camp_lines}")
 
     # кампании, взятые под временную защиту как незнакомые (см. ниже), переживают перезапуск процесса
@@ -754,9 +772,23 @@ def main():
     auto_inited = False   # первое чтение tCPA после старта только выставляет цели молча, сообщения — о настоящих сменах
     last_hb = time.time()
     ads_fail_ticks, ads_alerted, ads_down_since = 0, False, datetime.now()
+    final_tries = 0
     while True:
         now0 = datetime.now()
         today = date.today().isoformat()
+        # --- конец рабочего дня (2026-11-12): вне окна один последний такт (люфт бюджета к базе), потом сон до start_at
+        final_tick, night_id = False, None
+        restore_min = restore_cfg_min
+        if stop_min is not None:
+            now_m = now0.hour * 60 + now0.minute
+            if not (start_min <= now_m < stop_min):
+                night_id = (now0 - timedelta(minutes=start_min)).date().isoformat()   # ночь принадлежит дате вечера
+                if state.get("_night_done") == night_id:
+                    to_start = (start_min - now_m) % 1440
+                    time.sleep(max(30, min(300, to_start * 60)))   # проснуться вовремя; чтение конфига/процесса не нужно
+                    continue
+                final_tick = True
+                restore_min = 0   # вернуть люфт к базе сразу в этом такте
         recovered = []
         # цели «по плану» перечитываются раз в сутки: в начале месяца лист «Цели2» меняется, перезапуск не нужен
         if (extra["plan_ids"] or extra["default_is_plan"]) and state.get("_plan_day") != today:
@@ -1423,6 +1455,19 @@ def main():
             if ads_alerted:
                 notify(f"✅ Сторож: чтение Google Ads восстановлено ({datetime.now():%H:%M}), было недоступно с {ads_down_since:%H:%M}.")
             ads_fail_ticks, ads_alerted = 0, False
+        if final_tick:
+            final_tries += 1
+            left = [i for i, p in budget_state.items() if isinstance(p, dict) and p.get("flexed")]
+            if not ads_down or final_tries >= 3:
+                state["_night_done"] = night_id
+                final_tries = 0
+                notify(f"🌙 Конец рабочего дня ({stop_min // 60:02d}:{stop_min % 60:02d}): сторож остановлен до "
+                       f"{start_min // 60:02d}:{start_min % 60:02d}. Ночью паузы по расходу и цене заявки не ставятся, "
+                       "защита только дневными бюджетами кампаний."
+                       + (f" ⚠️ Бюджет не возвращён к базе у кампаний: {', '.join(id_to_name.get(i, i) for i in left)}." if left else ""))
+                print(f"{datetime.now():%H:%M:%S} ночной режим до {start_min // 60:02d}:{start_min % 60:02d}")
+            else:
+                print(f"{datetime.now():%H:%M:%S} последний такт перед сном: чтение Ads недоступно, повтор ({final_tries} из 3)")
         save_state(state)
         if args.heartbeat_min and time.time() - last_hb >= args.heartbeat_min * 60:
             last_hb = time.time()

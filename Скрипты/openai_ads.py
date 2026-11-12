@@ -96,6 +96,9 @@ def bid_text(g):
 
 
 def cmd_groups(a):
+    c = get_campaign(a.campaign)
+    pc = (c.get('pause_context') or {}).get('paused_at')
+    print(f"КАМПАНИЯ {a.campaign}  {c.get('status')}" + (f"  (paused_at {time.strftime('%Y-%m-%d %H:%M', time.gmtime(pc))} UTC)" if pc else ''))
     for g in list_groups(a.campaign):
         print(f"{g['id']}  {g['name']}  {g['status']}  {bid_text(g)}")
 

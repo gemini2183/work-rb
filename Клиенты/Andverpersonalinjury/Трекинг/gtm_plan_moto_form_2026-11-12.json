@@ -1,0 +1,13 @@
+{
+ "account": "6353362488",
+ "container": "261134482",
+ "workspace_name": "moto-form-trigger",
+ "version_name": "topic pages: триггер формы + ldv-moto-form (Motorcycle)",
+ "version_notes": "12.11: в триггере «submit vb form [topic pages]» регэксп ^submit_(vb-.+-form|ldv-form-el)$ → ^submit_(vb-.+-form|ldv-form-el|ldv-moto-form)$, чтобы GA4 form_submit ловил форму Motorcycle (id ldv-moto-form). Откат — публикация версии 16.",
+ "update_triggers": [
+  {
+   "name": "submit vb form [topic pages]",
+   "set_custom_event_arg1": "^submit_(vb-.+-form|ldv-form-el|ldv-moto-form)$"
+  }
+ ]
+}

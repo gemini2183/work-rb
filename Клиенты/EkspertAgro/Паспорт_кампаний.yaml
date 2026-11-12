@@ -39,8 +39,12 @@ campaigns:
     course: {mode: test, freeze_until: null, basis: "Э-003..Э-005, включена 14.10", review_by: null}
   "24360520273":
     name: general_pmax_rozmiary
-    state: active
-    course: {mode: test, freeze_until: null, basis: "Э-007, Э-008, включена 15.10", review_by: null}
+    state: hold_off
+    why: "пауза пользователя 10.11 12:32 (Э-022): заявки нецелевые (со слов); разбор по CRM и решение о пересборке — Хроника_2026-11 12.11; бюджет 100 zł с 09.11 (Э-019)"
+    since: "2026-11-10"
+    source: "Журнал_изменений Э-022, state_digest 12.11"
+    to_enable_when: ["решение пользователя после разбора (Хроника 12.11)"]
+    review_by: null
   "24397252446":
     name: shop_tail
     state: active

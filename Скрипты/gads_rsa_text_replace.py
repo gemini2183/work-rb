@@ -32,6 +32,7 @@ from google.ads.googleads.client import GoogleAdsClient
 from _config import client_stats_dir
 from gads_stats import GOOGLE_ADS_YAML
 
+CAMPAIGN_STATUSES = "'ENABLED'"   # --include-paused-campaign добавляет PAUSED (новая кампания до включения)
 SUSPECT = re.compile(r"100[  ]?000|2[.,]4 ?m|10\+? ?lat|ponad 10|2008|2025|HIT!?|najniższ|najlepsz|najdłuż|najsilniejsz|"
                      r"najtańsz|numer 1|eksport|instalacj|certyfikowan|3 prezent|trzy prezent|ochrony termin", re.I)
 
@@ -43,7 +44,7 @@ def read_ads(ga, cid, campaign_ids):
          "ad_group_ad.ad.responsive_search_ad.headlines, ad_group_ad.ad.responsive_search_ad.descriptions, "
          "ad_group_ad.ad.responsive_search_ad.path1, ad_group_ad.ad.responsive_search_ad.path2 "
          f"FROM ad_group_ad WHERE campaign.id IN ({ids}) AND ad_group_ad.status = 'ENABLED' AND ad_group.status = 'ENABLED' "
-         "AND campaign.status = 'ENABLED'")
+         f"AND campaign.status IN ({CAMPAIGN_STATUSES})")
     out = []
     for r in ga.search(customer_id=cid, query=q):
         a = r.ad_group_ad.ad
@@ -132,6 +133,7 @@ def main():
     ap.add_argument("--campaign-ids", nargs="+", required=True)
     ap.add_argument("--map", required=True)
     ap.add_argument("--execute", action="store_true")
+    ap.add_argument("--include-paused-campaign", action="store_true", help="брать и кампании на паузе (новая кампания до включения)")
     ap.add_argument("--skip-groups", nargs="*", default=[], help="названия групп, которые не трогать")
     ap.add_argument("--pause-old", metavar="MAP_CSV", help="ШАГ 2: поставить старые на паузу там, где новые одобрены (файл соответствий из шага 1); с --execute пишет")
     ap.add_argument("--per-group-best", action="store_true", help="в каждой группе объявлений брать одно объявление — с наибольшим числом показов за 30 дней (для создания одного нового варианта на группу)")
@@ -170,6 +172,9 @@ def main():
         svc.mutate_ad_group_ads(customer_id=cid, operations=ops)
         print("поставлено на паузу старых:", len(ops))
         return
+    global CAMPAIGN_STATUSES
+    if a.include_paused_campaign:
+        CAMPAIGN_STATUSES = "'ENABLED', 'PAUSED'"
     rep = yaml.safe_load(Path(a.map).read_text(encoding="utf-8"))
     rep.setdefault("headlines", {}); rep.setdefault("descriptions", {})
     client = GoogleAdsClient.load_from_storage(GOOGLE_ADS_YAML)

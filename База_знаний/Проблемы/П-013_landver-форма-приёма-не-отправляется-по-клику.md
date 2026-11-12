@@ -1,6 +1,6 @@
 ---
-status: открыта
-updated: 2026-11-10
+status: решена
+updated: 2026-11-12
 ---
 
 # П-013. Landver: на новой странице форма приёма не отправляется по клику
@@ -28,3 +28,8 @@ updated: 2026-11-10
 **Обход / как проверить:** пользователь один раз вручную заполняет форму и жмёт кнопку на Motorcycle (метка `claude_form_test` в адресе); есть запрос `forms.tildacdn.com` или окно успеха — это был артефакт. Нет — дефект: Задача по Tilda исполнителю (кнопка должна быть `type="submit"` или инициализироваться Tilda).
 
 Связано: [[П-010_tilda-сборка-исполнителем-не-по-инструкции]], задача «ldv_form_start» в `Клиенты/Andverpersonalinjury/Задачи.md`.
+
+## Решение (12.11)
+Исполнитель заменил макет на настоящую форму Tilda: `<form id="ldv-moto-form" class="t-form js-form-proccess">`, кнопка `type="submit"` (проверено `page_tracking_check.py` и разбором HTML 12.11 09:50). Тест-заявка пользователя (имя TEST) 12.11: окно «Thank you», письмо получателям пришло, GA4 `form_submit` дошёл. Сопутствующая проблема: событие `submit_ldv-moto-form` не ловилось триггерами GA4 `form_submit` — исправлено в GTM v17 (И-144), проверка до публикации — `gtm_form_event_check.py`.
+**Как проверить:** `python Скрипты/page_tracking_check.py --url <адрес> --client-folder Andverpersonalinjury` — в «Формы» `t-form js-form-proccess`; `python Скрипты/gtm_form_event_check.py --account 6353362488 --container 261134482 --form-id ldv-moto-form` — «ЛОВИТСЯ».
+

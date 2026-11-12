@@ -19,6 +19,8 @@ from pathlib import Path
 from google.auth.transport.requests import AuthorizedSession
 from google.oauth2 import service_account
 
+import _runlog
+
 KEY = Path(__file__).resolve().parent / "secrets" / "rb_cloud_service.json"
 BASE = "https://tagmanager.googleapis.com/tagmanager/v2/"
 SCOPES = ["https://www.googleapis.com/auth/tagmanager.edit.containers",
@@ -45,7 +47,9 @@ def main():
     ap.add_argument("--container", required=True)
     ap.add_argument("--version", required=True)
     ap.add_argument("--execute", action="store_true", help="без флага — только план")
+    _runlog.add_arg(ap)
     a = ap.parse_args()
+    _runlog.start(a)
     s = AuthorizedSession(service_account.Credentials.from_service_account_file(str(KEY), scopes=SCOPES))
     cont = f"accounts/{a.account}/containers/{a.container}"
     live_before = call(s, "GET", f"{cont}/versions:live")

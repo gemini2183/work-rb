@@ -1,11 +1,15 @@
 {
  "channel": "google_ads",
- "fetched_at": "2026-11-11T15:49+01:00",
+ "fetched_at": "2026-11-12T14:22+01:00",
  "currency": "USD",
  "enabled": [
   {
    "name": "LocalServicesCampaign:SystemGenerated:000658c5f642aebe",
    "budget": 714.29
+  },
+  {
+   "name": "search / car+truck injuries / s / lp - tilda",
+   "budget": 200.0
   },
   {
    "name": "search / car accident / la+bh / lp - tilda",
@@ -16,7 +20,7 @@
    "budget": 50.0
   }
  ],
- "paused": 17,
+ "paused": 16,
  "spent_today": 0,
  "paused_with_spend": [],
  "projects": [
@@ -24,11 +28,11 @@
    "name": "Andverpersonalinjury",
    "tab": "Ноябрь 26",
    "plan_budget": 9000.0,
-   "spent_done": 1697.52,
-   "expected": 3000.0,
-   "pct": 57,
+   "spent_done": 1759.1,
+   "expected": 3300.0,
+   "pct": 53,
    "verdict": "ОТСТАЁМ",
-   "days_done": 10
+   "days_done": 11
   }
  ]
 }

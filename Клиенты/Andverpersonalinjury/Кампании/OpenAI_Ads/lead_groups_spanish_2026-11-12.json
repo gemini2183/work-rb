@@ -1,0 +1,45 @@
+{
+ "campaign_id": "cmpn_435f7d14eb548191b41e1924fc2de71b",
+ "bidding": "fixed_bid",
+ "max_bid_usd": 20,
+ "version": 1,
+ "note": "Испанская лидогенная группа (решение пользователя 12.11): подсказки привязаны к ДТП (auto/carro), чтобы не ловить рабочие травмы и нападения; факты в текстах со страницы по плану spanish_campaign_plan_2026-11-11.md",
+ "groups": [
+  {
+   "group": "Spanish - Lawyer",
+   "context_hints": [
+    "el usuario tuvo un accidente de auto en California y busca un abogado de accidentes que hable español",
+    "user is writing in Spanish about a car crash in California where they were injured and wants to hire an accident attorney (abogado de accidentes de carro)",
+    "el usuario resultó lesionado en un choque de carro en California y quiere una consulta gratis con un abogado"
+   ],
+   "ads": [
+    {
+     "ad_name": "SPL1",
+     "title": "Abogado de Accidentes de Auto en California",
+     "copy": "Consulta gratis. No paga honorarios a menos que ganemos. Atención en español 24/7.",
+     "link": "https://landverpersonalinjury.tilda.ws/abogado-accidentes-auto-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=spl1",
+     "image_path": "Клиенты/Andverpersonalinjury/Креативы/Картинки_Car_Truck/готово/v2_headon_square_1200x1200.jpg",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    },
+    {
+     "ad_name": "SPL2",
+     "title": "¿Lesionado en un Choque? Hable con un Abogado",
+     "copy": "Revisión gratuita de su caso. No paga a menos que ganemos. Atención en español.",
+     "link": "https://landverpersonalinjury.tilda.ws/abogado-accidentes-auto-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=spl2",
+     "image_path": "Клиенты/Andverpersonalinjury/Креативы/Картинки_Car_Truck/готово/v2_headon_square_1200x1200.jpg",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    }
+   ]
+  }
+ ]
+}

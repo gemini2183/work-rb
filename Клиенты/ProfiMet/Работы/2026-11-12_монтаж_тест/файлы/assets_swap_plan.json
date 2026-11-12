@@ -1,0 +1,14 @@
+{
+ "customer_id": "7552781705",
+ "client_folder": "ProfiMet",
+ "campaign": "search / montaz",
+ "unlink_assets": [438636795103, 438532333277, 438636793897, 438636801397, 438636801421, 323619279420],
+ "sitelinks": [
+  {"text": "Co obejmuje montaż?", "desc1": "Złożymy i zakotwimy konstrukcję,", "desc2": "poliwęglan, regulacja okien i drzwi", "url": "https://mocnaszklarnia.pl/montaz-szklarni#rec5305264303"},
+  {"text": "Złożą szklarnię za Ciebie", "desc1": "Brak czasu, pomocnika, sił?", "desc2": "Zrobią to nasi monterzy", "url": "https://mocnaszklarnia.pl/montaz-szklarni#rec5305615203"},
+  {"text": "Zamów montaż szklarni", "desc1": "Wybierz model i długość szklarni", "desc2": "Zostaw numer, oddzwonimy", "url": "https://mocnaszklarnia.pl/montaz-szklarni#pm-kalkulator"},
+  {"text": "Producent od 16 lat", "desc1": "Własna produkcja i warsztaty,", "desc2": "kontrola jakości, własne magazyny", "url": "https://mocnaszklarnia.pl/ofirmie"},
+  {"text": "Modele z montażem", "desc1": "Wybierz szklarnię z katalogu", "desc2": "Poliwęglan 4 lub 6 mm z UV", "url": "https://mocnaszklarnia.pl/produkty"}
+ ],
+ "callouts": ["Złożymy za Ciebie", "Szklarnia – bez zaliczki"]
+}

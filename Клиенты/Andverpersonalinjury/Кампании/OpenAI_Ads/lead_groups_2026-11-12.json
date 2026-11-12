@@ -1,0 +1,153 @@
+{
+ "campaign_id": "cmpn_435f7d14eb548191b41e1924fc2de71b",
+ "bidding": "fixed_bid",
+ "max_bid_usd": 20,
+ "version": 1,
+ "note": "Лидогенные группы (решение пользователя 12.11): подсказки «ищет юриста», заголовки-утверждения; рядом со старыми ситуационными группами; Pedestrian и Bicycle — отдельные группы на одну страницу.",
+ "groups": [
+  {
+   "group": "Motorcycle - Lawyer",
+   "context_hints": [
+    "user was in a motorcycle crash in California and is looking for a motorcycle accident lawyer",
+    "user is comparing motorcycle accident law firms in California or asks for a lawyer recommendation",
+    "user was hurt on a motorcycle in California and wants a free consultation with an attorney"
+   ],
+   "ads": [
+    {
+     "ad_name": "MCL1",
+     "title": "California Motorcycle Accident Lawyer",
+     "copy": "Trial attorney, 20+ years in CA courts. Free case review. No fee unless we win.",
+     "link": "https://landverpersonalinjury.tilda.ws/motorcycle-accident-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=mcl1",
+     "image_path": "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/openai_1200/mc_1_helmet_sq_1200.jpg",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    },
+    {
+     "ad_name": "MCL2",
+     "title": "Motorcycle Lawyer Who Knows Insurer Tactics",
+     "copy": "Our managing partner started on the defense side. Free review, no fee unless we win.",
+     "link": "https://landverpersonalinjury.tilda.ws/motorcycle-accident-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=mcl2",
+     "image_path": "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/openai_1200/mc_1_helmet_sq_1200.jpg",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    }
+   ]
+  },
+  {
+   "group": "Pedestrian - Lawyer",
+   "context_hints": [
+    "user was hit by a car while walking in California and is looking for a pedestrian accident lawyer",
+    "user is comparing pedestrian accident law firms in California or asks for a lawyer recommendation after being hit by a car",
+    "user was hit in a crosswalk or by a hit-and-run driver in California and wants a free consultation with an attorney"
+   ],
+   "ads": [
+    {
+     "ad_name": "PDL1",
+     "title": "California Pedestrian Accident Lawyer",
+     "copy": "Free case review with an attorney. No fee unless we win. Answered 24/7.",
+     "link": "https://landverpersonalinjury.tilda.ws/pedestrian-bicycle-accident-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=pdl1",
+     "image_path": "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/openai_1200/pd_1_crosswalk_sq_1200.jpg",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    },
+    {
+     "ad_name": "PDL2",
+     "title": "Hit by a Car While Walking? Get a Lawyer",
+     "copy": "Free case review. No fee unless we win. Answered 24/7.",
+     "link": "https://landverpersonalinjury.tilda.ws/pedestrian-bicycle-accident-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=pdl2",
+     "image_path": "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/openai_1200/pd_1_crosswalk_sq_1200.jpg",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    }
+   ]
+  },
+  {
+   "group": "Bicycle - Lawyer",
+   "context_hints": [
+    "user was hit by a car while riding a bicycle in California and is looking for a bicycle accident lawyer",
+    "user is comparing bike accident law firms in California or asks for a lawyer recommendation after a cyclist crash",
+    "user was injured riding a bike in California, the driver or insurer blames the cyclist, and the user wants to talk to an attorney"
+   ],
+   "ads": [
+    {
+     "ad_name": "BCL1",
+     "title": "California Bicycle Accident Lawyer",
+     "copy": "Free case review with an attorney. No fee unless we win. Answered 24/7.",
+     "link": "https://landverpersonalinjury.tilda.ws/pedestrian-bicycle-accident-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=bcl1",
+     "image_path": "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/openai_1200/bc_1_lane_sq_1200.jpg",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    },
+    {
+     "ad_name": "BCL2",
+     "title": "Hit on Your Bike? Get a Bicycle Lawyer",
+     "copy": "Free case review. No fee unless we win. Answered 24/7.",
+     "link": "https://landverpersonalinjury.tilda.ws/pedestrian-bicycle-accident-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=bcl2",
+     "image_path": "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы_б/openai_1200/bc_1_lane_sq_1200.jpg",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    }
+   ]
+  },
+  {
+   "group": "Rideshare - Lawyer",
+   "context_hints": [
+    "user was hurt in a crash with an Uber or Lyft in California and is looking for a rideshare accident lawyer",
+    "user was a passenger in an Uber or Lyft in California, was injured in a crash, and wants a lawyer",
+    "user is comparing law firms for an Uber or Lyft accident claim in California and wants a free consultation"
+   ],
+   "ads": [
+    {
+     "ad_name": "RSL1",
+     "title": "Uber or Lyft Accident Lawyer in California",
+     "copy": "Free case review with an attorney. No fee unless we win. Answered 24/7.",
+     "link": "https://landverpersonalinjury.tilda.ws/uber-lyft-accident-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=rsl1",
+     "image_path": "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы/openai_1200/rs_1_phone_sq_1200.jpg",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    },
+    {
+     "ad_name": "RSL2",
+     "title": "Hurt in an Uber or Lyft Crash? Get a Lawyer",
+     "copy": "Free case review. No fee unless we win. Answered 24/7.",
+     "link": "https://landverpersonalinjury.tilda.ws/uber-lyft-accident-lawyer-california?utm_source=chatgpt.com&utm_medium=cpc&utm_campaign=topics_tilda&utm_content=rsl2",
+     "image_path": "Клиенты/Andverpersonalinjury/Креативы/Картинки_3_темы/openai_1200/rs_1_phone_sq_1200.jpg",
+     "image_crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,419 @@
+{
+ "account": "6003760261",
+ "container": "44158621",
+ "workspace_name": "pm-montaz-tracking",
+ "version_name": "montaz page: calculator events, block_time",
+ "version_notes": "mocnaszklarnia.pl/montaz-szklarni 2026-11-12: события калькулятора montaz_calc и montaz_order_click, время на блоках страницы монтажа. Только новые объекты. Откат: опубликовать версию 96.",
+ "built_in_variables": [
+  "pagePath"
+ ],
+ "folders": [
+  "pm montaz"
+ ],
+ "variables": [
+  {
+   "name": "dlv calc_action",
+   "type": "v",
+   "folder": "pm montaz",
+   "parameter": [
+    {
+     "type": "integer",
+     "key": "dataLayerVersion",
+     "value": "2"
+    },
+    {
+     "type": "boolean",
+     "key": "setDefaultValue",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "name",
+     "value": "calc_action"
+    }
+   ]
+  },
+  {
+   "name": "dlv calc_model",
+   "type": "v",
+   "folder": "pm montaz",
+   "parameter": [
+    {
+     "type": "integer",
+     "key": "dataLayerVersion",
+     "value": "2"
+    },
+    {
+     "type": "boolean",
+     "key": "setDefaultValue",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "name",
+     "value": "calc_model"
+    }
+   ]
+  },
+  {
+   "name": "dlv calc_length",
+   "type": "v",
+   "folder": "pm montaz",
+   "parameter": [
+    {
+     "type": "integer",
+     "key": "dataLayerVersion",
+     "value": "2"
+    },
+    {
+     "type": "boolean",
+     "key": "setDefaultValue",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "name",
+     "value": "calc_length"
+    }
+   ]
+  },
+  {
+   "name": "dlv calc_total",
+   "type": "v",
+   "folder": "pm montaz",
+   "parameter": [
+    {
+     "type": "integer",
+     "key": "dataLayerVersion",
+     "value": "2"
+    },
+    {
+     "type": "boolean",
+     "key": "setDefaultValue",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "name",
+     "value": "calc_total"
+    }
+   ]
+  }
+ ],
+ "triggers": [
+  {
+   "name": "pm montaz page",
+   "type": "pageview",
+   "folder": "pm montaz",
+   "filter": [
+    {
+     "type": "contains",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{Page Path}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "/montaz-szklarni"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "pm event montaz_calc",
+   "type": "customEvent",
+   "folder": "pm montaz",
+   "customEventFilter": [
+    {
+     "type": "equals",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{_event}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "montaz_calc"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "pm event montaz_order_click",
+   "type": "customEvent",
+   "folder": "pm montaz",
+   "customEventFilter": [
+    {
+     "type": "equals",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{_event}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "montaz_order_click"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "tags": [
+  {
+   "name": "pm montaz calc script",
+   "type": "html",
+   "folder": "pm montaz",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "html",
+     "value": "<script>\n(function () {\n  if (window.__pmMontazCalc) return;\n  window.__pmMontazCalc = true;\n  window.dataLayer = window.dataLayer || [];\n  var last = {};\n  function q(s) { return document.querySelector(s); }\n  function state() {\n    var m = q('input[name=\"pm-model\"]:checked'), l = q('.pm-len.is-on'), t = q('[data-pm=\"total\"]');\n    return {\n      model: m ? m.value : '',\n      len: l ? (parseInt(l.getAttribute('data-len'), 10) || 0) : 0,\n      total: t ? (parseInt((t.textContent || '').replace(/[^0-9]/g, ''), 10) || 0) : 0\n    };\n  }\n  function send(ev, action) {\n    var now = Date.now();\n    if (last[action] && now - last[action] < 400) return;   // клик по label даёт два клика подряд\n    last[action] = now;\n    setTimeout(function () {\n      var s = state();\n      window.dataLayer.push({ event: ev, calc_action: action, calc_model: s.model, calc_length: s.len, calc_total: s.total });\n    }, 150);\n  }\n  document.addEventListener('change', function (e) {\n    var t = e.target;\n    if (!t || !t.matches) return;\n    if (t.matches('input[name=\"pm-model\"]')) return send('montaz_calc', 'model');\n    if (t.matches('[data-pm=\"gh-toggle\"]')) return send('montaz_calc', t.checked ? 'with_greenhouse_on' : 'with_greenhouse_off');\n    if (t.matches('input[data-toggle]')) return send('montaz_calc', 'extra_' + t.getAttribute('data-toggle'));\n  }, true);\n  document.addEventListener('click', function (e) {\n    var t = e.target;\n    if (!t || !t.closest) return;\n    if (t.closest('.pm-len')) return send('montaz_calc', 'length');\n    var b = t.closest('button[data-qty]');\n    if (b) return send('montaz_calc', 'extra_' + b.getAttribute('data-qty'));\n    if (t.closest('[data-pm=\"order\"]')) return send('montaz_order_click', 'order');\n    if (t.closest('.pm-bar a')) return send('montaz_calc', 'bar_summary');\n    if (t.closest('[data-pm=\"shop\"]')) return send('montaz_calc', 'shop_link');\n    if (t.closest('details.pm-prices summary')) return send('montaz_calc', 'price_table_open');\n  }, true);\n})();\n</script>"
+    },
+    {
+     "type": "boolean",
+     "key": "supportDocumentWrite",
+     "value": "false"
+    }
+   ],
+   "firingTriggerNames": [
+    "pm montaz page"
+   ]
+  },
+  {
+   "name": "pm montaz block_time script",
+   "type": "html",
+   "folder": "pm montaz",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "html",
+     "value": "<script>\n(function () {\n  if (window.__pmMontazBlockTime) return;\n  window.__pmMontazBlockTime = true;\n  var NAMES = {\n    rec5299647303: 'montaz_hero', rec5336006203: 'montaz_catalog', rec5305179103: 'montaz_catalog',\n    rec5305264303: 'montaz_self_or_us', rec5305264403: 'montaz_cost_intro', rec5305368803: 'montaz_calculator',\n    rec5305610703: 'montaz_faq', rec5305615203: 'montaz_faq'\n  };\n  var IDS = Object.keys(NAMES);\n  var TICK = 500, IDLE = 10000, FLUSH = 30000;\n  var acc = {}, current = 'montaz_top', lastTick = Date.now(), lastActive = Date.now(), lastFlush = Date.now();\n  window.dataLayer = window.dataLayer || [];\n  function currentBlock() {\n    var mid = window.innerHeight / 2, name = 'montaz_top';\n    for (var i = 0; i < IDS.length; i++) {\n      var el = document.getElementById(IDS[i]);\n      if (el && el.getBoundingClientRect().top <= mid) name = NAMES[IDS[i]];\n    }\n    return name;\n  }\n  function flush(final) {\n    for (var k in acc) {\n      var s = final ? Math.round(acc[k]) : Math.floor(acc[k]);\n      if (s >= 1) { window.dataLayer.push({ event: 'block_time', block_name: k, block_seconds: s }); acc[k] -= s; }\n    }\n    lastFlush = Date.now();\n  }\n  function active() { lastActive = Date.now(); }\n  ['scroll', 'mousemove', 'keydown', 'touchstart', 'click', 'wheel'].forEach(function (e) {\n    window.addEventListener(e, active, { passive: true });\n  });\n  setInterval(function () {\n    var now = Date.now(), dt = now - lastTick;\n    lastTick = now;\n    var block = currentBlock();\n    if (document.visibilityState === 'visible' && now - lastActive <= IDLE && dt < 5000) acc[block] = (acc[block] || 0) + dt / 1000;\n    if (block !== current) { flush(false); current = block; }\n    else if (now - lastFlush >= FLUSH) { flush(false); }\n  }, TICK);\n  document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'hidden') flush(true); });\n  window.addEventListener('pagehide', function () { flush(true); });\n})();\n</script>"
+    },
+    {
+     "type": "boolean",
+     "key": "supportDocumentWrite",
+     "value": "false"
+    }
+   ],
+   "firingTriggerNames": [
+    "pm montaz page"
+   ]
+  },
+  {
+   "name": "GA4 - montaz_calc",
+   "type": "gaawe",
+   "folder": "pm montaz",
+   "consentSettings": {
+    "consentStatus": "needed",
+    "consentType": {
+     "type": "list",
+     "list": [
+      {
+       "type": "template",
+       "value": "analytics_storage"
+      }
+     ]
+    }
+   },
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "montaz_calc"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "{{GA4 ID}}"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "calc_action"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{dlv calc_action}}"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "calc_model"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{dlv calc_model}}"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "calc_length"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{dlv calc_length}}"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "calc_total"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{dlv calc_total}}"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "firingTriggerNames": [
+    "pm event montaz_calc"
+   ]
+  },
+  {
+   "name": "GA4 - montaz_order_click",
+   "type": "gaawe",
+   "folder": "pm montaz",
+   "consentSettings": {
+    "consentStatus": "needed",
+    "consentType": {
+     "type": "list",
+     "list": [
+      {
+       "type": "template",
+       "value": "analytics_storage"
+      }
+     ]
+    }
+   },
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "montaz_order_click"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "{{GA4 ID}}"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "calc_action"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{dlv calc_action}}"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "calc_model"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{dlv calc_model}}"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "calc_length"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{dlv calc_length}}"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "calc_total"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{dlv calc_total}}"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "firingTriggerNames": [
+    "pm event montaz_order_click"
+   ]
+  }
+ ]
+}
