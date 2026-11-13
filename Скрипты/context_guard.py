@@ -80,7 +80,7 @@ def main() -> int:
            "База_знаний/Агенты/Чекпоинт_сессии.md: записать чекпоинт, дать промпт старта новой сессии. "
            "Не прерывай идущий ответ и запись; чекпоинт не заменяет чтение обратно из кабинета.")
     print(json.dumps({"hookSpecificOutput": {"hookEventName": "UserPromptSubmit", "additionalContext": msg}},
-                     ensure_ascii=False))
+                     ensure_ascii=True))
     return 0
 
 
