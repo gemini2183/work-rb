@@ -1,4 +1,10 @@
 Campaign,Day,Start,End
+Search | Brand | Pl,MONDAY,07:00,17:00
+Search | Brand | Pl,TUESDAY,07:00,17:00
+Search | Brand | Pl,WEDNESDAY,07:00,17:00
+Search | Brand | Pl,THURSDAY,07:00,17:00
+Search | Brand | Pl,FRIDAY,07:00,17:00
+Search | Brand | Pl,SATURDAY,08:00,18:00
 Search | Poliweglan | Pl,MONDAY,07:45,17:00
 Search | Poliweglan | Pl,MONDAY,17:00,21:00
 Search | Poliweglan | Pl,TUESDAY,07:45,17:00
@@ -10,3 +16,9 @@ Search | Poliweglan | Pl,THURSDAY,17:00,21:00
 Search | Poliweglan | Pl,FRIDAY,07:45,17:00
 Search | Poliweglan | Pl,FRIDAY,17:00,21:00
 Search | Poliweglan | Pl,SATURDAY,09:00,16:00
+search / montaz,MONDAY,07:00,21:00
+search / montaz,TUESDAY,07:00,21:00
+search / montaz,WEDNESDAY,07:00,21:00
+search / montaz,THURSDAY,07:00,21:00
+search / montaz,FRIDAY,07:00,21:00
+search / montaz,SATURDAY,09:00,16:00

@@ -5,3 +5,6 @@
 2026-11-12T14:23:36,gtm-checker,Read,D:/GitHub/work-rb/Клиенты/EkspertAgro/Хроника_2026-11.md,Хроника_[0-9]{4}
 2026-11-12T14:23:59,gtm-checker,Read,D:/GitHub/work-rb/Клиенты/EkspertAgro/Хроника_2026-11.md,Хроника_[0-9]{4}
 2026-11-13T14:27:40,campaign-planner,Grep,D:/GitHub/work-rb/Клиенты/ProfiMet_YouTube/Журнал_изменений.md,Журнал_изменений[.]md
+2026-11-13T15:42:35,campaign-scout,Grep,d:/GitHub/work-rb/Клиенты/EkspertAgro/Журнал_изменений.md,Журнал_изменений[.]md
+2026-11-13T15:47:06,campaign-scout,Bash,"cd /d/GitHub/work-rb/Клиенты/ProfiMet && awk -F, 'NR>1{i+=$3;c+=$4;k+=$5;v+=$6} END{print i,c,k,v, k/c}' <(grep ""weekend"" Статистика/gads_campaigns_by_day_2025-09-01_to_2026-11-12.csv | sed 's/search // poliweglan // weekend,//;s/^/x,/' ) ; head -2 Статистика/gads_campaigns_by_day_2025-09-01_to_2026",Решения[.]md
+2026-11-13T16:00:25,campaign-planner,Grep,d:/GitHub/work-rb/Клиенты/EkspertAgro/Журнал_изменений.md,Журнал_изменений[.]md

@@ -1,2 +1,4 @@
 Campaign,Status,Channel_type,Bidding_strategy,Target_spend_micros,Target_cpa_micros,Daily_budget,Network_google_search,Network_search_partners,Network_display,Network_partner_search,Geo_positive_type,Geo_negative_type
+Search | Brand | Pl,ENABLED,SEARCH,TARGET_SPEND,,,40.0,True,True,False,False,PRESENCE_OR_INTEREST,PRESENCE
 Search | Poliweglan | Pl,ENABLED,SEARCH,MANUAL_CPC,,,40.0,True,True,False,False,PRESENCE_OR_INTEREST,PRESENCE
+search / montaz,ENABLED,SEARCH,TARGET_SPEND,,,30.0,True,False,False,False,PRESENCE,PRESENCE

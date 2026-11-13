@@ -1,0 +1,418 @@
+﻿term,impr,clicks,cost,conv,match,keywords
+szklarnia z poliwęglanu,5196,655,393.91,5.36,EXACT,szklarnia z poliwęglanu
+szklarnia z poliwęglanu 3x6 6mm,56,12,9.0,3.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x6m; tunele z poliwęglanu 3x6
+profimet szklarnie z poliwęglanu,19,17,7.33,2.96,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+tunel z poliwęglanu 3x6,341,60,29.02,2.02,"NEAR_PHRASE,PHRASE",szklarnia z poliwęglanu 3x6m; szklarnie ogrodowe z poliwęglanu; szklarnie poliwęglanowe 3x6; tunele ogrodowe z poliwęglanu; tunele z poliwęglanu 3x6
+szklarnia z poliwęglanu 3x6,1037,159,89.35,2.01,"NEAR_EXACT,NEAR_PHRASE",szklarnia z poliwęglanu 3x6m; szklarnie ogrodowe z poliwęglanu; szklarnie poliwęglanowe 3x6; tunele z poliwęglanu 3x6
+tunel z poliwęglanu,856,146,94.22,2.0,"NEAR_EXACT,NEAR_PHRASE",namioty poliwęglanowe; namioty z poliwęglanu; szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu; tunele ogrodnicze z poliwęglanu; tunele ogrodowe poliwęglanowe; tunele ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+szklarnia ogrodowa 3x4 z poliwęglanu solid mocna,157,51,32.54,2.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x4m; szklarnie ogrodowe z poliwęglanu; szklarnie poliwęglanowe 3x4
+szklarnia z poliweglanu,192,28,14.82,2.0,"NEAR_EXACT,NEAR_PHRASE",mala szklarnia z poliweglanu; szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 3x6 producent,729,156,85.25,1.6,NEAR_PHRASE,szklarnia z poliwęglanu 3x6m; szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu; szklarnie poliwęglanowe 3x6; tunele z poliwęglanu 3x6
+szklarnia z poliwęglanu 3x4,1218,185,103.17,1.1,NEAR_PHRASE,szklarnia z poliwęglanu 3x4m; szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu; szklarnie poliwęglanowe 3x4
+tunele z poliwęglanu,328,102,55.97,1.09,EXACT,tunele z poliwęglanu
+szklarnia poliwęglan,465,53,33.06,1.03,NEAR_EXACT,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+tunel z poliwęglanu 3x4,372,44,23.16,1.0,"NEAR_EXACT,NEAR_PHRASE,PHRASE",namioty poliwęglanowe; szklarnia z poliwęglanu 3x4m; szklarnie ogrodowe z poliwęglanu; szklarnie poliwęglanowe 3x4; tunele ogrodowe z poliwęglanu; tunele z poliwęglanu; tunele z poliwęglanu 3x4
+tunel poliwęglan,246,24,18.61,1.0,"NEAR_EXACT,NEAR_PHRASE",namioty poliwęglanowe; namioty z poliwęglanu; szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu; tunele ogrodnicze z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+szklarnie ogrodowe,299,37,14.51,1.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+polski producent szklarni z poliwęglanu,79,24,12.23,1.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+tunel poliwęglan 3x4,101,16,10.72,1.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x4m; szklarnie poliwęglanowe 3x4; tunele ogrodowe z poliwęglanu
+tunel z poliwęglanu 4x8,75,11,4.83,1.0,"NEAR_PHRASE,PHRASE",namioty poliwęglanowe; tunele ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+szklarni z poliwęglanu,12,2,1.3,1.0,NEAR_EXACT,cieplarnie z poliwęglanu; szklarnie ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+szklarnia ogrodowa poliwęglan,13,2,1.29,1.0,NEAR_EXACT,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnia poliweglan 3x6,22,2,1.04,1.0,"NEAR_EXACT,NEAR_PHRASE",szklarnia z poliwęglanu 3x6m; szklarnie poliwęglanowe 3x6; tunele z poliwęglanu 3x6
+szklarnie ogrodowe z poliwęglanu,81,20,13.92,0.95,EXACT,szklarnie ogrodowe z poliwęglanu
+mocna szklarnia z poliwęglanu,97,36,17.41,0.76,NEAR_EXACT,szklarnia z poliwęglanu; szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnia profimet,30,16,5.01,0.05,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+tunel z poliweglanu,47,8,4.72,0.04,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe z poliwęglanu; tunele ogrodnicze z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+tunel poliweglanowy 3x4,14,3,2.47,0.04,NEAR_PHRASE,szklarnia z poliwęglanu 3x4m
+szklarnia z poliwęglanu 3x4 producent,179,28,19.27,0.03,NEAR_PHRASE,szklarnia z poliwęglanu 3x4m; szklarnie ogrodowe z poliwęglanu; szklarnie poliwęglanowe 3x4
+tunel poliwęglan 4x6,32,8,7.79,0.03,"NEAR_PHRASE,PHRASE",szklarnia z poliwęglanu 4x6m; szklarnie ogrodowe z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+szklarnia z poliwęglanu promocja,16,4,3.26,0.02,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 4x8,57,10,5.59,0.01,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia poliwęglanowa 3x6,7,1,1.62,0.01,"NEAR_EXACT,PHRASE",szklarnia z poliwęglanu 3x6m; szklarnie poliwęglanowe 3x6
+szklarnia z poliwęglanu 3x6 promocja,343,103,58.83,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x6m; szklarnie ogrodowe z poliwęglanu; szklarnie poliwęglanowe 3x6; tunele z poliwęglanu 3x6
+tunel ogrodowy z poliwęglanu,220,51,30.62,0.0,"NEAR_EXACT,NEAR_PHRASE",namioty poliwęglanowe; szklarnie ogrodowe z poliwęglanu; tunele ogrodnicze z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+tunel z poliwęglanu 3x6m,232,50,29.51,0.0,"NEAR_PHRASE,PHRASE",szklarnia z poliwęglanu 3x6m; szklarnie ogrodowe z poliwęglanu; szklarnie poliwęglanowe 3x6; tunele ogrodowe z poliwęglanu; tunele z poliwęglanu; tunele z poliwęglanu 3x6
+szklarnia ogrodowa z poliwęglanu,280,48,25.57,0.0,NEAR_EXACT,szklarnia z poliwęglanu; szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu 3x6,200,44,24.01,0.0,EXACT,szklarnie z poliwęglanu 3x6
+szklarnia poliwęglan 3x6,176,32,15.46,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnia z poliwęglanu 3x6m; szklarnie ogrodowe z poliwęglanu; szklarnie poliwęglanowe 3x6; tunele z poliwęglanu 3x6
+tunele ogrodowe z poliwęglanu,124,27,15.03,0.0,EXACT,tunele ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 3x4 6mm,111,22,12.59,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x4m; szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu 3x4,145,24,12.57,0.0,EXACT,szklarnie z poliwęglanu 3x4
+namiot z poliwęglanu,99,21,11.58,0.0,"NEAR_EXACT,NEAR_PHRASE",namioty poliwęglanowe; namioty z poliwęglanu; szklarnie ogrodowe z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+najtańsze szklarnie z poliwęglanu,34,21,10.73,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+producent szklarni z poliwęglanu,82,19,10.59,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+tunele z poliweglanu,33,14,10.29,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele z poliwęglanu
+szklarnia z poliwęglanu 6mm,76,11,9.65,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnia z poliwęglanu 3x6m; szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu wyprzedaż,41,12,9.31,0.0,NEAR_EXACT,szklarnia z poliwęglanu; szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu białystok,34,12,8.78,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+tunel poliwęglan 3x6,135,16,8.43,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnia z poliwęglanu 3x6m; szklarnie poliwęglanowe 3x6; tunele ogrodowe z poliwęglanu; tunele z poliwęglanu 3x6
+szklarnia z poliwęglanu 3x6 producent 6mm,108,16,8.07,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x6m; szklarnie ogrodowe z poliwęglanu; tunele z poliwęglanu 3x6
+szklarnie z poliweglanu,63,11,7.69,0.0,EXACT,szklarnie z poliweglanu
+szklarnia z poliwęglanu producent,34,16,7.07,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 3x4 z fundamentem,31,10,7.01,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x4m; szklarnie ogrodowe z poliwęglanu; szklarnie poliwęglanowe 3x4
+szklarnia poliwęglanowa,69,10,6.47,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 4x6,105,13,6.42,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 4x6m; szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+tunel poliwęglanowy,106,13,6.32,0.0,"NEAR_EXACT,NEAR_PHRASE",namioty poliwęglanowe; szklarnie ogrodowe z poliwęglanu; tunele ogrodnicze z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+tunel na pomidory z poliwęglanu,46,8,6.08,0.0,"NEAR_PHRASE,PHRASE",szklarnie ogrodowe z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+szklarnia poliweglan,88,8,5.99,0.0,NEAR_EXACT,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu; szklarnie z poliwęglanu 3x2
+szklarnia ogrodowa 3x6,15,4,5.91,0.0,NEAR_EXACT,szklarnia z poliwęglanu 3x6m
+jakiej firmy szklarnia z poliwęglanu,21,7,5.79,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe z poliwęglanu
+poliwęglan szklarnia,58,10,5.63,0.0,NEAR_EXACT,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+tunel na warzywa z poliwęglanu,49,9,5.57,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+mała szklarnia z poliwęglanu,73,10,5.53,0.0,"NEAR_EXACT,NEAR_PHRASE",mala szklarnia z poliweglanu; szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 2x4,137,10,5.52,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 2x4m; szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+tunel poliweglan,29,8,5.46,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe z poliwęglanu; tunele ogrodnicze z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+tunel ogrodowy z poliwęglanu 3x6,34,9,5.41,0.0,NEAR_PHRASE,tunele z poliwęglanu 3x6
+szklarnie poliwęglanowe,110,9,5.35,0.0,NEAR_EXACT,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+tunele poliwęglanowe,29,8,5.21,0.0,EXACT,tunele poliwęglanowe
+tunel z poliwęglanu 4x6,45,8,5.02,0.0,"NEAR_PHRASE,PHRASE",namioty poliwęglanowe; szklarnie ogrodowe z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+szklarnie z poliwęglanu polski producent,19,7,4.97,0.0,"NEAR_PHRASE,PHRASE",szklarnie ogrodowe z poliwęglanu; szklarnie z poliwęglanu producent
+szklarnia z poliwęglanu 3 x 6,28,6,4.9,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu; szklarnie poliwęglanowe 3x6; tunele z poliwęglanu 3x6
+szklarnia do ogrodu,33,3,4.72,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu z fundamentem,35,6,4.69,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+najlepsze szklarnie z poliwęglanu,44,11,4.59,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+tunel z poliwęglanu 2x4,97,10,4.48,0.0,"NEAR_PHRASE,PHRASE",namioty poliwęglanowe; szklarnie ogrodowe z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+szklarnia z poliwęglanu 3x6 wyprzedaż,57,8,4.42,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x6m; szklarnie ogrodowe z poliwęglanu; tunele z poliwęglanu 3x6
+szklarnie z poliwęglanu białystok,26,7,4.29,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+namiot z poliwęglanu 3x6,36,9,4.27,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x6m; szklarnie poliwęglanowe 3x6; tunele ogrodowe z poliwęglanu; tunele z poliwęglanu 3x6
+szklarnia z poliwęglanu 3x6 z fundamentem,18,4,4.03,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x6m; tunele z poliwęglanu 3x6
+namiot z poliwęglanu 3x4,30,10,3.94,0.0,"NEAR_PHRASE,PHRASE",namioty z poliwęglanu; szklarnia z poliwęglanu 3x4m; szklarnie ogrodowe z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+cieplarnia z poliwęglanu,27,6,3.86,0.0,NEAR_EXACT,cieplarnie z poliwęglanu; szklarnie ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+szklarnia z poliwęglanu profimet mocna,15,10,3.75,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+namiot na pomidory z poliwęglanu,19,6,3.74,0.0,"NEAR_PHRASE,PHRASE",namioty poliwęglanowe; namioty z poliwęglanu; szklarnie ogrodowe z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele z poliwęglanu
+szklarnia z poliwęglanu polski producent,27,6,3.68,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 4x6 producent,30,8,3.67,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+namiot poliweglan,34,5,3.62,0.0,NEAR_EXACT,namioty poliwęglanowe; namioty z poliwęglanu; tunele z poliwęglanu
+cieplarnie z poliwęglanu,18,8,3.6,0.0,EXACT,cieplarnie z poliwęglanu
+szklarnia z poliwęglanu 6 mm,12,6,3.48,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 3x6 cena,47,5,3.23,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x6m; tunele z poliwęglanu 3x6
+sprzedam szklarnie z poliwęglanu,21,8,3.2,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu zambrów,11,3,3.04,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia poliwęglan 3x4,73,5,3.03,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x4m; szklarnie ogrodowe z poliwęglanu
+szklarnia ogrodowa z poliwęglanu 3x6,22,7,3.02,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnia z poliwęglanu 3x6m; szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu; szklarnie poliwęglanowe 3x6; tunele z poliwęglanu 3x6
+polecane szklarnie z poliwęglanu,10,4,3.02,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnia poliweglan 6mm,23,4,3.01,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnia z poliwęglanu 3x6m; szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+ile kosztuje szklarnia z poliwęglanu,5,4,2.99,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe z poliwęglanu
+tunel poliwęglan 3x8,36,6,2.97,0.0,"NEAR_EXACT,NEAR_PHRASE",tunele ogrodowe z poliwęglanu; tunele z poliwęglanu 3x8
+szklarnia z poliwęglanu 3x8 producent,29,6,2.9,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu; tunele z poliwęglanu 3x8
+namioty z poliwęglanu,19,6,2.87,0.0,EXACT,namioty z poliwęglanu
+małe szklarnie z poliwęglanu,25,5,2.79,0.0,"NEAR_EXACT,NEAR_PHRASE",mala szklarnia z poliweglanu; szklarnie ogrodowe z poliwęglanu
+tanie szklarnie z poliwęglanu,15,7,2.78,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+tunel ogrodniczy z poliwęglanu,17,5,2.77,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu; tunele ogrodnicze z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele z poliwęglanu
+szklarnia z poliwęglanu mała,12,3,2.73,0.0,"NEAR_EXACT,NEAR_PHRASE",mala szklarnia z poliweglanu; szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu cena,3,2,2.7,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+namioty ogrodowe z poliwęglanu,13,4,2.68,0.0,"NEAR_EXACT,NEAR_PHRASE",namioty z poliwęglanu; szklarnie ogrodowe z poliwęglanu; tunele ogrodowe z poliwęglanu
+tunel z poliwęglanu 3x8,59,6,2.64,0.0,"NEAR_EXACT,NEAR_PHRASE,PHRASE",tunele ogrodowe z poliwęglanu; tunele z poliwęglanu; tunele z poliwęglanu 3x8
+szklarnia 3x6 poliwęglan,27,4,2.58,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnia z poliwęglanu 3x6m; szklarnie poliwęglanowe 3x6; tunele z poliwęglanu 3x6
+szklarnia 3x6,29,2,2.57,0.0,NEAR_EXACT,szklarnia z poliwęglanu 3x6m
+szklarnia z poliwęglanu jaką wybrać,25,3,2.53,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu mocna,14,4,2.48,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnia z poliwęglanu; szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu producent,19,3,2.41,0.0,EXACT,szklarnie z poliwęglanu producent
+szklarnie z poliwęglanu lubelskie,10,3,2.41,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia poliweglanowa,32,4,2.33,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu na wymiar,18,4,2.33,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+tunel poliwęglanowy 3x6,19,4,2.28,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnia z poliwęglanu 3x6m; tunele z poliwęglanu 3x6
+szklarnia z poliwęglanu 3x8,56,5,2.22,0.0,NEAR_PHRASE,tunele z poliwęglanu 3x8
+tunele ogrodnicze z poliwęglanu,6,3,2.2,0.0,EXACT,tunele ogrodnicze z poliwęglanu
+ile kosztuje tunel z poliwęglanu,11,4,2.1,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe z poliwęglanu; tunele ogrodnicze z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele z poliwęglanu
+tunel z poliwęglanu 3 x 6,19,5,1.98,0.0,NEAR_PHRASE,tunele z poliwęglanu 3x6
+szklarnie z poliwęglanu 4x8,18,5,1.98,0.0,EXACT,szklarnie z poliwęglanu 4x8
+z jakiej firmy polecacie szklarnie z poliwęglanu,8,5,1.98,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnie poliweglanowe,6,2,1.89,0.0,EXACT,szklarnie poliweglanowe
+tunel z poliweglanu 3x6,17,2,1.88,0.0,"NEAR_PHRASE,PHRASE",szklarnia z poliwęglanu 3x6m; tunele z poliwęglanu 3x6
+szklarnie poliwęglanowe producent,5,2,1.84,0.0,EXACT,szklarnie poliwęglanowe producent
+poligreen szklarnie,15,2,1.83,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia poliwęglan 2x2,14,4,1.82,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 3 x 4,26,2,1.8,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x4m; szklarnie poliwęglanowe 3x4
+szklarnia z poliwęglanu 3x4 cena,16,2,1.78,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x4m
+szklarnie z poliwęglanu podkarpackie,6,2,1.74,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+tunel szklarnia z poliwęglanu,22,3,1.68,0.0,NEAR_EXACT,szklarnia z poliwęglanu; szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 5x3,5,2,1.67,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+tunel ogrodowy poliwęglan,23,1,1.65,0.0,NEAR_EXACT,namioty poliwęglanowe; szklarnie ogrodowe z poliwęglanu; tunele ogrodnicze z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+szklarnia z poliwęglanu 3x4 polski producent,1,1,1.61,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x4m
+polskie szklarnie z poliwęglanu,25,4,1.6,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe z poliwęglanu; szklarnie z poliwęglanu producent
+szklarnia ogrodowa,25,4,1.6,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 2 5x4,33,4,1.58,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu; szklarnie z poliwęglanu 2 5x4
+szklarnia mała z poliwęglanu,7,2,1.53,0.0,NEAR_EXACT,mala szklarnia z poliweglanu
+szklarnia z poliwęglanu 2 4x4,14,1,1.51,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+namiot ogrodniczy z poliwęglanu,3,2,1.51,0.0,"NEAR_EXACT,NEAR_PHRASE",namioty z poliwęglanu; szklarnie ogrodowe z poliwęglanu; tunele ogrodowe z poliwęglanu
+szklarnia z poliwęglanu przezroczystego,9,1,1.5,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe z poliwęglanu
+szklarnia verbena 1,12,1,1.47,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu 2x4,18,2,1.45,0.0,EXACT,szklarnie z poliwęglanu 2x4
+szklarnie ogrodowe poliwęglanowe,6,3,1.45,0.0,NEAR_EXACT,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+tunele z poliwęglanu 3x6,6,3,1.44,0.0,EXACT,tunele z poliwęglanu 3x6
+szklarnia z poliwęglanu 3 x 6 m,10,3,1.43,0.0,PHRASE,szklarnia z poliwęglanu 3x6m
+namiot na warzywa z poliwęglanu,7,2,1.32,0.0,"NEAR_PHRASE,PHRASE",namioty z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele z poliwęglanu
+namiot ogrodowy z poliwęglanu,26,2,1.31,0.0,"NEAR_EXACT,NEAR_PHRASE",namioty poliwęglanowe; namioty z poliwęglanu; szklarnie ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+szklarnie poliwęglan,14,2,1.31,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+tania szklarnia z poliwęglanu,9,2,1.31,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+mały tunel z poliwęglanu,7,2,1.31,0.0,"NEAR_EXACT,NEAR_PHRASE",tunele ogrodowe z poliwęglanu; tunele z poliwęglanu
+namioty ogrodnicze z poliwęglanu,3,2,1.3,0.0,"NEAR_EXACT,NEAR_PHRASE",namioty z poliwęglanu; tunele z poliwęglanu
+mała szklarnia poliwęglan,9,2,1.28,0.0,"NEAR_EXACT,NEAR_PHRASE",mala szklarnia z poliweglanu; szklarnie ogrodowe z poliwęglanu
+tunele ogrodowe poliwęglanowe,2,2,1.26,0.0,EXACT,tunele ogrodowe poliwęglanowe
+szklarnia z poliwęglanu 3x10,13,2,1.25,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnie przydomowe z poliwęglanu,5,1,1.25,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+kupię szklarnie z poliwęglanu,6,2,1.24,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+tunel z poliwęglanu 3x4 producent,6,2,1.23,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x4m
+szklarnia z poliwęglanu komorowego,6,3,1.22,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+grsolar,5,1,1.22,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 3x8 6mm,20,3,1.2,0.0,NEAR_PHRASE,tunele z poliwęglanu 3x8
+szklarnie z poliwęglanu 3 x 6,19,3,1.2,0.0,"NEAR_PHRASE,PHRASE",szklarnie poliwęglanowe 3x6; szklarnie z poliwęglanu 3x6
+ceny szklarni z poliwęglanu,8,3,1.2,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe z poliwęglanu
+mała szklarnia ogrodowa z poliwęglanu,7,3,1.2,0.0,NEAR_EXACT,mala szklarnia z poliweglanu
+szklarnia ogrodowa z poliwęglanu 3x4,25,3,1.19,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x4m; szklarnie ogrodowe z poliwęglanu; szklarnie poliwęglanowe 3x4
+tunel 3x6 z poliwęglanu,27,2,1.18,0.0,"NEAR_PHRASE,PHRASE",szklarnia z poliwęglanu 3x6m; tunele z poliwęglanu 3x6
+szklarnia poliwęglan 3x8,22,3,1.18,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu; tunele z poliwęglanu 3x8
+szklarnia z poliwęglanu 2x4 6mm,22,3,1.18,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 3x2,21,3,1.18,0.0,"NEAR_EXACT,NEAR_PHRASE,PHRASE",szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu; szklarnie z poliwęglanu 3x2
+tunel z poliwęglanu 6x3,16,3,1.18,0.0,"NEAR_PHRASE,PHRASE",tunele ogrodowe z poliwęglanu; tunele z poliwęglanu
+szklarnie z poliwęglanu 3x8,14,3,1.18,0.0,EXACT,szklarnie z poliwęglanu 3x8
+producenci szklarni z poliwęglanu,12,2,1.15,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia poliwęglan 3 x 6,3,1,1.14,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia na pomidory z poliwęglanu,8,1,1.05,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+gdzie kupic szklarnie z poliwęglanu,5,2,1.05,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe z poliwęglanu
+namiot z poliweglanu,9,2,1.03,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu; tunele z poliwęglanu
+szklarnie z poliwęglanu śląskie,3,2,1.03,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+tunel z poliwęglanu 2 5x4,13,1,0.92,0.0,"NEAR_PHRASE,PHRASE",szklarnie ogrodowe z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele z poliwęglanu
+tunel poliwęglanu 3x6,7,1,0.92,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x6m; tunele z poliwęglanu 3x6
+namiot poliweglanowy,6,1,0.92,0.0,NEAR_EXACT,namioty poliwęglanowe; namioty z poliwęglanu; tunele z poliwęglanu
+szklarnie z poliwęglanu,2,1,0.92,0.0,NEAR_EXACT,szklarnie poliweglanowe
+tunel z poliweglanu 3x4,14,1,0.91,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x4m
+antiga producent szklarni z poliweglanu,10,1,0.91,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+tunel warzywny z poliwęglanu,9,1,0.91,0.0,NEAR_EXACT,tunele ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+szklarnie z poliwęglanu na wymiar,8,1,0.91,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnie poliwęglanowe cena,3,1,0.91,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu na raty,3,1,0.91,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnie poliwęglanowe 3x6,1,1,0.91,0.0,EXACT,szklarnie poliwęglanowe 3x6
+tunele z poliwęglanu 3 x 4,6,1,0.9,0.0,"NEAR_PHRASE,PHRASE",szklarnie ogrodowe z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele z poliwęglanu
+cieplarnia poliwęglanowa,19,1,0.89,0.0,NEAR_EXACT,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu; tunele poliwęglanowe
+tunel z poliwęglanu 3x4 6mm,4,1,0.89,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x4m; tunele ogrodowe z poliwęglanu
+szklarnia poliwęglan 6 mm,12,1,0.88,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnie ogrodowe z poliwęglanu 3x4,4,1,0.88,0.0,"NEAR_PHRASE,PHRASE",szklarnia z poliwęglanu 3x4m; szklarnie poliwęglanowe 3x4; szklarnie z poliwęglanu 3x4
+szklarnia z poliwęglanu 3x4 profimet,2,2,0.88,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu; szklarnie poliwęglanowe 3x4
+tunele poliwęglan,1,1,0.88,0.0,NEAR_EXACT,tunele z poliwęglanu
+szklarnia 6x3 poliwęglan,4,1,0.85,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+tunele z poliwęglanu producent,17,2,0.8,0.0,"NEAR_PHRASE,PHRASE",szklarnie ogrodowe z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+szklarnia poliwęglan 3x4 6mm,15,2,0.8,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x4m; szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 2 x 4,14,2,0.8,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 2x4m; szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+tunel z poliwęglanu 4x10,10,2,0.8,0.0,NEAR_PHRASE,namioty poliwęglanowe; tunele ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+szklarnia poliwęglanu,8,2,0.8,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu ceny,5,2,0.8,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+tunel ogrodowy z poliwęglanu 3x4,20,2,0.79,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x4m; szklarnie ogrodowe z poliwęglanu; tunele ogrodnicze z poliwęglanu; tunele ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 8 mm,17,2,0.79,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia poliwęglan 4x6,12,2,0.79,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 3x8 cena,7,2,0.79,0.0,NEAR_PHRASE,tunele z poliwęglanu 3x8
+producent szklarni ogrodowych z poliwęglanu,6,2,0.79,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+tunel ogrodowy 3x6 z poliwęglanu,6,2,0.78,0.0,NEAR_PHRASE,tunele z poliwęglanu 3x6
+szklarnia z poliestru,5,2,0.78,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+green house szklarnia pro,2,2,0.78,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+skladanie szklarni poliweglan,10,2,0.74,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 4x4,16,1,0.65,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia przydomowa z poliwęglanu,5,1,0.65,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 4 x 6,3,1,0.65,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z płyt poliwęglanowych,2,1,0.65,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 3x6 profimet,9,1,0.64,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x6m; szklarnie ogrodowe z poliwęglanu
+cieplarnia z poliwęglanu cena,2,1,0.64,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe z poliwęglanu
+szklarnia ogrodowa z poliwęglanu 6mm,9,1,0.62,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 2x2,39,1,0.4,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 4x10,35,1,0.4,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnia poliwęglan 2x4,29,1,0.4,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 2.5 x4,26,1,0.4,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia 4x6 poliwęglan,16,1,0.4,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 4x6m; szklarnie ogrodowe z poliwęglanu
+tunel poliweglanowy,16,1,0.4,0.0,"NEAR_EXACT,NEAR_PHRASE",cieplarnie z poliwęglanu; szklarnie ogrodowe z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+szklarnia z poliwęglanu cena,15,1,0.4,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnia na działkę,14,1,0.4,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu 4x6,13,1,0.4,0.0,EXACT,szklarnie z poliwęglanu 4x6
+z poliwęglanu szklarnia,12,1,0.4,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 3 x 8,11,1,0.4,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliweglanu 3x4,10,1,0.4,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x4m
+szklarnia z poliweglanu 3x6,9,1,0.4,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu; tunele z poliwęglanu 3x6
+szklarnia pro,7,1,0.4,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnie do ogrodu,6,1,0.4,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+szklarnia oasis,6,1,0.4,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia poliwęglan 4x10,6,1,0.4,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia poliwęglanowa z fundamentem,5,1,0.4,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu małopolska,5,1,0.4,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+tunel z poliwęglanu producent,5,1,0.4,0.0,"NEAR_PHRASE,PHRASE",szklarnie ogrodowe z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele z poliwęglanu
+szklarnia z poliwęglanu 3x6m,4,1,0.4,0.0,EXACT,szklarnia z poliwęglanu 3x6m
+namioty poliwęglanowe,4,1,0.4,0.0,EXACT,namioty poliwęglanowe
+mała szklarnia poliwęglanowa,4,1,0.4,0.0,"NEAR_EXACT,NEAR_PHRASE",mala szklarnia z poliweglanu; szklarnie ogrodowe z poliwęglanu
+namiot szklarnia z poliwęglanu,4,1,0.4,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia agrinker,3,1,0.4,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+poliwęglanu szklarnia,2,1,0.4,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+tunel szklarnia poliwęglan,2,1,0.4,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu łódzkie,2,1,0.4,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+orangerie c 13 5 m green protect,1,1,0.4,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu pomorskie,1,1,0.4,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia 3x4 6mm,15,1,0.39,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x4m; szklarnie ogrodowe z poliwęglanu
+poliwęglan tunel,13,1,0.39,0.0,"NEAR_EXACT,NEAR_PHRASE",tunele ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+szklarnia 3x8,11,1,0.39,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+mala szklarnia z poliweglanu,9,1,0.39,0.0,EXACT,mala szklarnia z poliweglanu
+tunel poliweglan 3x6,6,1,0.39,0.0,NEAR_PHRASE,szklarnie poliwęglanowe 3x6; tunele z poliwęglanu 3x6
+szklarnie poliweglan,6,1,0.39,0.0,NEAR_EXACT,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnie plastikowe,5,1,0.39,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+cieplarki z poliwęglanu,5,1,0.39,0.0,NEAR_EXACT,tunele z poliwęglanu
+szklarnia poliwęglan producent,4,1,0.39,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+namiot ogrodowy z poliweglanu,3,1,0.39,0.0,"NEAR_EXACT,NEAR_PHRASE",namioty z poliwęglanu; szklarnie ogrodowe z poliwęglanu
+szklarnia ogrodowa poliwęglan 6mm,3,1,0.39,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu z oknami,3,1,0.39,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+tunel z poliwęglanu cena,3,1,0.39,0.0,NEAR_EXACT,tunele z poliwęglanu
+szklarnia z poliwęglanu 6x3,2,1,0.39,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+profimet szklarnię z poliwęglanu,1,1,0.39,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+małe tunele z poliwęglanu,1,1,0.39,0.0,NEAR_EXACT,tunele z poliwęglanu
+szklarnia poliweglan 3x4,19,0,0.0,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x4m
+szklarnia plastikowa,18,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+szklarnia poliwęglan 4x8,16,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu rzeszów,15,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnia 3x6 poliwęglan 6mm,14,0,0.0,0.0,"NEAR_PHRASE,PHRASE",szklarnia z poliwęglanu 3x6m; szklarnie poliwęglanowe 3x6; tunele z poliwęglanu 3x6
+tunel poliweglan 6x3,14,0,0.0,0.0,NEAR_PHRASE,tunele ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+mocne szklarnie z poliwęglanu,13,0,0.0,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe z poliwęglanu
+namiot poliwęglanowy,11,0,0.0,0.0,NEAR_EXACT,namioty poliwęglanowe; namioty z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele z poliwęglanu
+szklarnia poliwęglan 3x2,11,0,0.0,0.0,"NEAR_PHRASE,PHRASE",szklarnie ogrodowe z poliwęglanu; szklarnie z poliwęglanu 3x2
+szklarnia poliwęglanowa 3 x 6,10,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu; tunele z poliwęglanu 3x6
+tunel poliwęglanu,10,0,0.0,0.0,"NEAR_EXACT,NEAR_PHRASE",namioty poliwęglanowe; szklarnie ogrodowe z poliwęglanu; tunele ogrodnicze z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele poliwęglanowe; tunele z poliwęglanu
+szklarnia ogrodowa z poliweglanu,10,0,0.0,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+namiot ogrodowy poliwęglan,8,0,0.0,0.0,"NEAR_EXACT,NEAR_PHRASE",namioty poliwęglanowe; namioty z poliwęglanu; szklarnie ogrodowe z poliwęglanu
+solidna szklarnia z poliwęglanu,8,0,0.0,0.0,NEAR_EXACT,szklarnia z poliwęglanu; szklarnie ogrodowe z poliwęglanu
+montowanie szklarni z poliwęglanu,8,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnia 6mm,8,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia pomidor,8,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnia wesoły rolnik,8,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+tunel z poliwęglanu 4x12,8,0,0.0,0.0,"NEAR_PHRASE,PHRASE",tunele ogrodowe z poliwęglanu; tunele z poliwęglanu
+poliwęglanowe szklarnie,7,0,0.0,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe z poliwęglanu
+szklarnia tunel z poliwęglanu,7,0,0.0,0.0,NEAR_EXACT,szklarnia z poliwęglanu; szklarnie ogrodowe z poliwęglanu
+szklarnia pomidor premium plus,7,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnia verbena,7,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliweglanu 3x8,7,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu; tunele z poliwęglanu 3x8
+szklarnia z poliwęglanu 4 x 8,7,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 8x3,7,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu 6 mm,7,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+poliweglan tunel,7,0,0.0,0.0,NEAR_EXACT,tunele poliwęglanowe; tunele z poliwęglanu
+szklarnia 3x4 poliweglan,7,0,0.0,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x4m; szklarnie poliwęglanowe 3x4
+namiot warzywny z poliwęglanu,6,0,0.0,0.0,"NEAR_EXACT,NEAR_PHRASE",namioty poliwęglanowe; namioty z poliwęglanu; tunele ogrodowe z poliwęglanu; tunele z poliwęglanu
+tunel z poliwęglanu 4x8 cena,6,0,0.0,0.0,"NEAR_PHRASE,PHRASE",namioty poliwęglanowe; tunele ogrodowe z poliwęglanu; tunele z poliwęglanu
+cieplarnia ogrodowa z poliwęglanu,6,0,0.0,0.0,NEAR_EXACT,cieplarnie z poliwęglanu; szklarnie ogrodowe z poliwęglanu; tunele z poliwęglanu
+cieplarnia z poliweglanu,6,0,0.0,0.0,NEAR_EXACT,cieplarnie z poliwęglanu; szklarnie ogrodowe z poliwęglanu
+poliweglan szklarnia,6,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+poliwęglan szklarnie ogrodowe,6,0,0.0,0.0,"NEAR_EXACT,NEAR_PHRASE,PHRASE",szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnia ogrodowa poliweglan,6,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnia poliwęglan 10mm,6,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia poliwęglan mała,6,0,0.0,0.0,"NEAR_EXACT,NEAR_PHRASE",mala szklarnia z poliweglanu; szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu rzeszów,6,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+tunel ogrodowy z poliwęglanu 4x6,6,0,0.0,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 4x6m; tunele ogrodowe z poliwęglanu; tunele poliwęglanowe
+szklarnia 2x4 poliwęglan,5,0,0.0,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 2x4m; szklarnie ogrodowe z poliwęglanu
+cena szklarni z poliwęglanu,5,0,0.0,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+małe szklarnie ogrodowe z poliwęglanu,5,0,0.0,0.0,NEAR_EXACT,mala szklarnia z poliweglanu; szklarnie ogrodowe z poliwęglanu
+szklarnia poliwenglanowa,5,0,0.0,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnia ogrodowa z poliwęglanu 2x4,5,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnia profimet mocna opinię,5,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 10mm,5,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 2x6,5,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu braniewo,5,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu podkarpackie,5,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu polska,5,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+tunel poliweglan 2x4,5,0,0.0,0.0,PHRASE,tunele poliwęglanowe; tunele z poliwęglanu
+szklarnie z poliwęglanu 3 x 4,5,0,0.0,0.0,PHRASE,szklarnie z poliwęglanu 3x4
+szklarnia 3x6 6mm,4,0,0.0,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x6m; tunele z poliwęglanu 3x6
+tunel z poliwęglanu 3x6m cena,4,0,0.0,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x6m; szklarnie ogrodowe z poliwęglanu; tunele z poliwęglanu 3x6
+duże szklarnie z poliwęglanu,4,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+plastikowa szklarnia,4,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+poliwęglanowa szklarnia,4,0,0.0,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+ile lat wytrzyma szklarnia z poliwęglanu,4,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+ile wytrzyma szklarnia z poliwęglanu,4,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia agronom,4,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia gruber,4,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia poliwęglan 2 5x4,4,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia poliwęglan z fundamentem,4,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia tunel ogrodowa z poliwęglanu,4,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia viola,4,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 4x12,4,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+tunel ogrodowy z poliwęglanu 2x4,4,0,0.0,0.0,NEAR_PHRASE,tunele ogrodowe z poliwęglanu; tunele z poliwęglanu
+szklarnia z poliwęglanu 3 x 4 m,4,0,0.0,0.0,"NEAR_PHRASE,PHRASE",szklarnia z poliwęglanu 3x4m; szklarnie poliwęglanowe 3x4
+szklarnia z poliwęglanu mala,4,0,0.0,0.0,NEAR_EXACT,mala szklarnia z poliweglanu
+szklarnia poliwęglan 3x6 6mm,3,0,0.0,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x6m
+szklarnia ogrodowa poliwęglan 3x6,3,0,0.0,0.0,NEAR_PHRASE,tunele z poliwęglanu 3x6
+duża szklarnia z poliwęglanu,3,0,0.0,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+polska szklarnia z poliwęglanu,3,0,0.0,0.0,NEAR_EXACT,szklarnia z poliwęglanu; szklarnie ogrodowe z poliwęglanu
+szklarnia poli,3,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+szklarnia z,3,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+szklarnie na działkę,3,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+szklarnie poliwęglanu,3,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu promocje,3,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu; szklarnie z poliweglanu
+poli szklarnia,3,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia gaudi,3,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia polokragla,3,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu pomidor,3,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu tunel,3,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu poznań,3,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+tunel z poliwęglanu 3 x 4,3,0,0.0,0.0,"NEAR_PHRASE,PHRASE",tunele ogrodowe z poliwęglanu; tunele z poliwęglanu
+poliwęglan 3x4,3,0,0.0,0.0,NEAR_PHRASE,szklarnie poliwęglanowe 3x4
+mala szklarnia z poliwęglanu,3,0,0.0,0.0,NEAR_EXACT,mala szklarnia z poliweglanu
+małe szklarnie na działkę,3,0,0.0,0.0,NEAR_EXACT,mala szklarnia z poliweglanu
+szklarnie 3x6,2,0,0.0,0.0,NEAR_EXACT,szklarnia z poliwęglanu 3x6m
+namiot ogrodowy 3x6 z poliwęglanu,2,0,0.0,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x6m; tunele z poliwęglanu 3x6
+namioty ogrodowe z poliweglanu,2,0,0.0,0.0,PHRASE,namioty z poliwęglanu
+czyste pole szklarnie z poliwęglanu sauny ogrodowe,2,0,0.0,0.0,PHRASE,szklarnie ogrodowe z poliwęglanu
+gotowe szklarnie z poliwęglanu,2,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+szklarni poliweglan,2,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+szklarnia ogrodowa plastikowa,2,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglan,2,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+szklarnie ogrodowe z poliweglanu,2,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu; szklarnie z poliweglanu
+tunel szklarniowy z poliwęglanu,2,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu; tunele ogrodowe z poliwęglanu
+jaką szklarnie z poliwęglanu wybrać,2,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+pomidor premium plus,2,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+producent szklarni poliweglan,2,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia agronom mocna,2,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia ogrodowa pomidor premium,2,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia ogrodowa pomidor premium poliwęglan 210x271,2,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia plus,2,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliweglanu 2x4,2,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 10 m,2,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 2 5 x4,2,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 2.5 x5,2,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 3x8m z ocynk tunel 40x20mm,2,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu okrągła,2,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan; szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu braniewo,2,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu lublin,2,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu warszawa,2,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu wrocław,2,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu z fundamentem,2,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+poliszklarnie,2,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan
+szklarnie z poliweglanu cena,2,0,0.0,0.0,PHRASE,szklarnie z poliweglanu
+szklarnia poliwęglan 3 x 4,2,0,0.0,0.0,NEAR_PHRASE,szklarnie poliwęglanowe 3x4
+malutka szklarnia,2,0,0.0,0.0,NEAR_EXACT,mala szklarnia z poliweglanu
+tunel z poliwęglanu 3x6 producent,1,0,0.0,0.0,PHRASE,tunele z poliwęglanu 3x6
+szklarnia 3x6 poliweglan,1,0,0.0,0.0,NEAR_PHRASE,tunele z poliwęglanu 3x6
+szklarnia poliwęglanu 3x6,1,0,0.0,0.0,NEAR_PHRASE,tunele z poliwęglanu 3x6
+poliwęglan namiot,1,0,0.0,0.0,NEAR_EXACT,namioty z poliwęglanu
+najlepsza szklarnia z poliweglanu,1,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+poliwęglan szklarnie,1,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+przydomowa szklarnia z poliwęglanu,1,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+szklarnia poliweglowa,1,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu duża,1,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu wyprzedaż,1,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe z poliwęglanu
+gotowa szklarnia z poliwęglanu,1,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+ile wytrzymuje szklarnia z poliwęglanu,1,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia green protect,1,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia ogrodowa pomidor premium poliwęglan 210x405,1,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia poliwęglan 6mm,1,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 2 3,1,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 250 x 190 x 205 cm,1,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 3x6 producent profimet,1,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu 4x2,1,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu profimet,1,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnia z poliwęglanu śląskie,1,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu 6mm,1,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+szklarnie z poliwęglanu sprzedaż,1,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+tgagroculture sp z o o,1,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe z poliwęglanu
+poliwęglan szklarniowy,1,0,0.0,0.0,NEAR_EXACT,szklarnie ogrodowe poliwęglan
+szklarnia z poliwęglanu 3x12,1,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan
+szklarnie poliweglanowe producent,1,0,0.0,0.0,NEAR_PHRASE,szklarnie ogrodowe poliwęglan
+tunel ogrodowy poliweglan,1,0,0.0,0.0,NEAR_EXACT,tunele ogrodowe z poliwęglanu
+tunel ogrodowy z poliweglanu,1,0,0.0,0.0,NEAR_EXACT,tunele ogrodowe z poliwęglanu
+producent tuneli ogrodowych z poliwęglanu,1,0,0.0,0.0,NEAR_PHRASE,tunele ogrodowe z poliwęglanu
+tunel z poliweglanu 4x6,1,0,0.0,0.0,NEAR_PHRASE,tunele ogrodowe z poliwęglanu
+poliwęglanowy tunel,1,0,0.0,0.0,NEAR_EXACT,tunele poliwęglanowe
+szklarnia z poliwęglanu 3 x 2,1,0,0.0,0.0,NEAR_PHRASE,szklarnie z poliwęglanu 3x2
+małe szklarnie poliwęglanowe,1,0,0.0,0.0,NEAR_EXACT,mala szklarnia z poliweglanu

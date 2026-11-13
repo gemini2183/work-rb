@@ -1,0 +1,42 @@
+# Проверка подмены номера для новой выходной Search (13.11.2026, разведка, только чтение).
+# Запуск: phone_swap_check.py --client-folder ProfiMet --pool-file "Работы/2026-11-13_выходные/файлы/Пул_номеров_выходная_проверка.yaml"
+# Ожидание для всех Google/cpc Search-случаев: номер из пула Google CPC_dyn (как в Пул_номеров.yaml).
+url: "https://mocnaszklarnia.pl/"
+ignore_numbers:
+  - "5272935629"
+  - "0000858603"
+  - "386967527"
+  - "500048825"
+channels:
+  - name: "НОВАЯ выходная (вымышленный id s_99999999999_search, шаблон utm_content как в кабинете)"
+    utm_test: {utm_source: google, utm_medium: cpc, utm_campaign: s_99999999999_search, utm_content: "rb_cid_99999999999_search|gid_1|aid_1|pos_|dev_c|plc_|region_id_1|targetid_kwd-1|gclid_TEST"}
+    pool: &dyn
+      - "+48579774025"
+      - "+48579774026"
+      - "+48579774027"
+      - "+48579774038"
+      - "+48579773198"
+      - "+48579772685"
+      - "+48579772686"
+      - "+48579772687"
+      - "+48579772688"
+      - "+48579772689"
+      - "+48579774020"
+      - "+48579774021"
+      - "+48579773188"
+      - "+48579773197"
+      - "+48579774028"
+      - "+48699586365"
+      - "+48579773186"
+      - "+48579774037"
+  - name: "Существующая search / poliweglan / weekend (s_23491900460_search)"
+    utm_test: {utm_source: google, utm_medium: cpc, utm_campaign: s_23491900460_search}
+    pool: *dyn
+  - name: "search / montaz (s_24458942621_search)"
+    utm_test: {utm_source: google, utm_medium: cpc, utm_campaign: s_24458942621_search}
+    pool: *dyn
+  - name: "Brand (s_19153311519_search)"
+    utm_test: {utm_source: google, utm_medium: cpc, utm_campaign: s_19153311519_search}
+    pool: *dyn
+pages:
+  - https://mocnaszklarnia.pl/montaz-szklarni

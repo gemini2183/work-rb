@@ -1,0 +1,90 @@
+=== Состояние кампании «search / poliweglan / weekend» на 2026-11-13 15:44 (чтение) ===
+[1] id 23491900460; статус PAUSED; стратегия TARGET_SPEND; бюджет/день 366.91
+    сеть: Google Search=True, партнёры=True, контекст=False
+    шаблон отслеживания: {lpurl}?utm_source=google&utm_medium=cpc&utm_campaign=s_{campaignid}_{ifsearch:search}{ifcontent:context}&utm_content=rb_cid_{campaignid}_{ifsearch:search}{ifcontent:context}|gid_{adgroupid}|aid_{creative}|pos_{adposition}|dev_{device}|plc_{placement}|region_id_{loc_physical_ms}|targetid_{targetid}|gclid_{gclid}&utm_term={keyword}; суффикс: —
+
+[2] Гео и расписание (критерии кампании):
+    LANGUAGE False
+    LANGUAGE False
+    УСТРОЙСТВО DESKTOP модификатор 0.0
+    УСТРОЙСТВО MOBILE модификатор 0.0
+    УСТРОЙСТВО TABLET модификатор 0.0
+    РАСПИСАНИЕ SATURDAY 9-16 модификатор 0.0
+    РАСПИСАНИЕ SUNDAY 9-16 модификатор 0.0
+
+[3] Группы объявлений (статус, ставка):
+    cieplarnie z poliwęglanu           ENABLED  ставка $8.00  (id 195161148674)
+    mala szklarnia z poliweglanu       ENABLED  ставка $8.00  (id 195161148954)
+    namioty z poliwęglanu              ENABLED  ставка $8.00  (id 195161147954)
+    szklarnie z poliwęglanu [exact]    ENABLED  ставка $8.00  (id 195161148474)
+    szklarnie z poliwęglanu [phrase]   ENABLED  ставка $8.00  (id 195161148154)
+    szklarnie z poliwęglanu producent  ENABLED  ставка $10.00  (id 195161148394)
+    tunele z poliwęglanu               ENABLED  ставка $8.00  (id 195161148194)
+    wymiary | poliwęglan 2 5х4         ENABLED  ставка $8.00  (id 195161148914)
+    wymiary | poliwęglan 2х4           ENABLED  ставка $8.00  (id 195161147994)
+    wymiary | poliwęglan 3х2           ENABLED  ставка $8.00  (id 195161148634)
+    wymiary | poliwęglan 3х4           ENABLED  ставка $8.00  (id 195161148714)
+    wymiary | poliwęglan 3х6           ENABLED  ставка $8.00  (id 195161147914)
+    wymiary | poliwęglan 3х8           ENABLED  ставка $8.00  (id 195161148874)
+    wymiary | poliwęglan 4х6           ENABLED  ставка $8.00  (id 195161148234)
+    wymiary | poliwęglan 4х8           ENABLED  ставка $8.00  (id 195161148434)
+
+[4] Активы уровня КАМПАНИИ:
+    STRUCTURED_SNIPPET STRUCTURED_SNIPPET     PAUSED   asset 20178496567: Typy: ['Szklarnie z poliwęglanu', 'Szklarnia DOMEK', 'Szklarnia MOCNA SZEROKA', 'Szklarnia KOMPAKT']
+    STRUCTURED_SNIPPET STRUCTURED_SNIPPET     PAUSED   asset 301255340044: Udogodnienia: ['Spacer w pełnym wzroście', 'Montaż w 3 godziny', 'Wytrzyma 10+ zim', 'Łatwe przesuwanie', 'Wszystko w komplecie']
+    STRUCTURED_SNIPPET STRUCTURED_SNIPPET     ENABLED  asset 323568892036: Modele: ['Mocna 3m × 2-12m', 'Mocna Went Plus', 'Mocna Kompakt 2.5m', 'Standard Plus 3m', 'Mocna Szeroka 3.5m', 'Mini 2m × 2-12m', 'Mocna Maxi 4m']
+    SITELINK           SITELINK               ENABLED  asset 21428041676: «Doskonałe ceny i warunki» | Niskie ceny, darmowa dostawa, | płatność przy odbiorzeb -> ['https://mocnaszklarnia.pl/#main']
+    SITELINK           SITELINK               ENABLED  asset 21428041679: «Wybierz Szklarnię Idealną» | Szeroka oferta trwałych szklarni z | poliwęglanu do Twojego ogrodu. -> ['https://mocnaszklarnia.pl/#top8']
+    SITELINK           SITELINK               PAUSED   asset 21428041682: «Produkty» | Wybierz szklarnię | w naszym katalogu -> ['https://mocnaszklarnia.pl/#katalog']
+    SITELINK           SITELINK               ENABLED  asset 21428041685: «Promocja 3 Prezenty» | Profil U + taśma + Łopata ogrodowa | Promocja ważna do końca miesiąca -> ['https://mocnaszklarnia.pl/#prezent']
+    SITELINK           SITELINK               PAUSED   asset 301166996660: «Gwarancja Zadowolenia» | 17 lat doświadczenia | Osobista gwarancja dyrektora -> ['https://mocnaszklarnia.pl/#gwarancja']
+    SITELINK           SITELINK               PAUSED   asset 301253047015: «Zwiększ Plony 3x» | Uprawa przez cały rok możliwa | Świeże warzywa zawsze pod ręką -> ['https://mocnaszklarnia.pl/#result']
+    SITELINK           SITELINK               ENABLED  asset 323567688397: «MOCNA 3m - HIT Sprzedaży» | Poliwęglan UV 4mm, profile 40x20mm | Od 1299 zł, długość 2-12m -> ['https://mocnaszklarnia.pl/#profimet-mocna']
+    SITELINK           SITELINK               ENABLED  asset 323617084089: «Wszystkie Modele» | MOCNA, MINI, MAXI - 8 typów | Od 2m do 4m szerokości -> ['https://mocnaszklarnia.pl/#bs9']
+    SITELINK           SITELINK               ENABLED  asset 323617611693: «Nowość: MOCNA Went Plus» | Model z wentylacją już dostępny | Poliwęglan UV, profile 40x20mm -> ['https://mocnaszklarnia.pl/#mocna-went-plus']
+    CALLOUT            CALLOUT                PAUSED   asset 21455954502: Bez nadpłaty
+    CALLOUT            CALLOUT                PAUSED   asset 21455954505: Żywotność ponad 10 lat
+    CALLOUT            CALLOUT                PAUSED   asset 21455954508: Płatność przy odbiorze
+    CALLOUT            CALLOUT                PAUSED   asset 21455954511: Darmowa dostawa
+    CALLOUT            CALLOUT                PAUSED   asset 301253700034: 14 Lat Doświadczenia
+    CALLOUT            CALLOUT                PAUSED   asset 301253700040: Gwarancja Jakości
+    CALLOUT            CALLOUT                PAUSED   asset 301253700043: Ochrona UV
+    CALLOUT            CALLOUT                ENABLED  asset 323463164380: Gwarancja fabryczna
+    CALLOUT            CALLOUT                ENABLED  asset 323619279408: Poliwęglan 4-6mm UV
+    CALLOUT            CALLOUT                ENABLED  asset 323619279411: Profile 40x20mm mocne
+    CALLOUT            CALLOUT                ENABLED  asset 323619279414: Wysokość do 2.4m
+    CALLOUT            CALLOUT                ENABLED  asset 323619279417: Darmowa dostawa 3-7 dni
+    CALLOUT            CALLOUT                ENABLED  asset 323619279420: Płatność przy odbiorze
+    CALLOUT            CALLOUT                ENABLED  asset 323619279423: 4 prezenty gratis
+    CALLOUT            CALLOUT                ENABLED  asset 323619279426: Żywotność ponad 10 lat
+    CALLOUT            CALLOUT                ENABLED  asset 323619279429: Polski producent od 2008
+    CALLOUT            CALLOUT                ENABLED  asset 323619279432: 100 000+ zamówień rocznie
+    CALLOUT            CALLOUT                ENABLED  asset 323619279435: Eksport do 11 krajów UE
+    PROMOTION          PROMOTION              PAUSED   asset 100194433569: szklarnie + prezent
+    TEXT               BUSINESS_NAME          ENABLED  asset 323482647671: 
+    CALL               CALL                   PAUSED   asset 46261504800: PL +48 732-08-06-98
+    PRICE              PRICE                  ENABLED  asset 46218798509: 
+    IMAGE              BUSINESS_LOGO          ENABLED  asset 286986548910: logo_1x1_Nero_AI_Image_Upscaler_Photo_Face.png
+    IMAGE              AD_IMAGE               ENABLED  asset 18153763373: mocnaszklarnia.pl 2021-10-29 15:29:18 (7).jpg
+    IMAGE              AD_IMAGE               ENABLED  asset 18153763376: mocnaszklarnia.pl 2021-10-29 15:29:18 (7).jpg
+    IMAGE              AD_IMAGE               ENABLED  asset 18153763379: mocnaszklarnia.pl 2021-10-29 15:29:18 (4).jpg
+    IMAGE              AD_IMAGE               ENABLED  asset 18153763382: mocnaszklarnia.pl 2021-10-29 15:29:18 (4).jpg
+    IMAGE              AD_IMAGE               ENABLED  asset 323320198181: 1_16x9_1.png
+    IMAGE              AD_IMAGE               ENABLED  asset 323321358407: 1_16x9_1.9108.png
+    IMAGE              AD_IMAGE               ENABLED  asset 323482466195: Улучшенное изображение из сайта - 2026-01-13 09:40:48_1,91:1.275
+    IMAGE              AD_IMAGE               ENABLED  asset 323482466690: Улучшенное изображение из сайта - 2025-10-20 17:32:40_1,91:1.866
+    IMAGE              AD_IMAGE               ENABLED  asset 323482466696: Улучшенное изображение из сайта - 2025-10-20 17:32:40_1:1.866
+    IMAGE              AD_IMAGE               ENABLED  asset 323563373380: Изображение из сайта - 2025-10-09 15:48:30.811 (12)_1,91:1.jpg
+    IMAGE              AD_IMAGE               ENABLED  asset 323563397128: Изображение из сайта - 2025-10-09 15:48:30.811 (12)_1:1.jpg
+    IMAGE              AD_IMAGE               ENABLED  asset 323614192158: Изображение из сайта - 2026-01-13 15:03:53.889 (7)_1:1.jpg
+    IMAGE              AD_IMAGE               ENABLED  asset 323614303815: Улучшенное изображение из сайта - 2026-01-13 09:40:48_1:1.275
+    IMAGE              AD_IMAGE               ENABLED  asset 323614375209: Улучшенное изображение из сайта - 2025-10-09 15:55:46_1:1.573 (1)
+    IMAGE              AD_IMAGE               ENABLED  asset 323614375227: Улучшенное изображение из сайта - 2025-10-09 15:55:46_1,91:1.573 (1)
+
+[5] Активы уровня ГРУППЫ (по группам):
+
+[6] Активы уровня АККАУНТА (customer_asset):
+    CALL               CALL                   ENABLED  asset 406966393636: PL 579 773 187
+    IMAGE              BUSINESS_LOGO          ENABLED  asset 286986548910: logo_1x1_Nero_AI_Image_Upscaler_Photo_Face.png
+
+[7] Кампанийные минус-слова: число = 0

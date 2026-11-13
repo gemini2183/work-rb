@@ -1,0 +1,121 @@
+{
+ "source": {
+  "id": 24353873699,
+  "name": "general / search / rozmiary / katalog",
+  "status": "ENABLED",
+  "bidding": "TARGET_SPEND",
+  "budget": 150.0,
+  "negatives": [
+   [
+    "allegro",
+    "BROAD"
+   ],
+   [
+    "diy",
+    "BROAD"
+   ],
+   [
+    "obi",
+    "BROAD"
+   ],
+   [
+    "leroy",
+    "BROAD"
+   ],
+   [
+    "castorama",
+    "BROAD"
+   ],
+   [
+    "folia",
+    "BROAD"
+   ],
+   [
+    "3x5",
+    "BROAD"
+   ],
+   [
+    "3x8",
+    "BROAD"
+   ],
+   [
+    "olx",
+    "BROAD"
+   ],
+   [
+    "2x3",
+    "BROAD"
+   ],
+   [
+    "namiot",
+    "BROAD"
+   ],
+   [
+    "używane",
+    "BROAD"
+   ],
+   [
+    "namioty",
+    "BROAD"
+   ],
+   [
+    "foliowe",
+    "BROAD"
+   ],
+   [
+    "używana",
+    "BROAD"
+   ],
+   [
+    "foliowy",
+    "BROAD"
+   ],
+   [
+    "jak zrobić",
+    "PHRASE"
+   ],
+   [
+    "foliowa",
+    "BROAD"
+   ],
+   [
+    "profimet",
+    "BROAD"
+   ],
+   [
+    "mocna szklarnia",
+    "PHRASE"
+   ],
+   [
+    "mocnaszklarnia",
+    "BROAD"
+   ]
+  ],
+  "other_criteria": {
+   "LANGUAGE": 2,
+   "LOCATION": 1,
+   "DEVICE": 3,
+   "AD_SCHEDULE": 5,
+   "USER_LIST (минус)": 1
+  },
+  "shared_sets": [],
+  "ad_groups": 4,
+  "group_keywords": {
+   "EXACT": 20,
+   "PHRASE": 32
+  },
+  "ads": 4,
+  "campaign_assets": {
+   "SITELINK": 6,
+   "CALLOUT": 6
+  },
+  "ad_group_assets": {
+   "AD_IMAGE": 4
+  }
+ },
+ "target": null,
+ "missing_negatives": 21,
+ "remainder": "API",
+ "future": "не требуется",
+ "why": "следующих кампаний с этим списком не планируется"
+}

@@ -1,0 +1,51 @@
+﻿group,keyword,match,status,impr,clicks,cost,conv
+2x4,szklarnia ogrodowa 2x4,PHRASE,ENABLED,76,8,11.9,2.0
+3x6,tunel ogrodowy 3x6,EXACT,ENABLED,1229,70,106.39,0.0
+3x6,szklarnia z poliwęglanu 3x6,PHRASE,ENABLED,235,35,53.17,0.0
+3x4,tunel z poliwęglanu 3x4,EXACT,ENABLED,65,12,17.5,0.0
+3x4,szklarnia z poliwęglanu 3x4,EXACT,ENABLED,48,9,16.15,0.0
+3x6,tunel z poliwęglanu 3x6,EXACT,ENABLED,63,10,14.4,0.0
+3x6,szklarnia 3x6,PHRASE,ENABLED,90,9,14.2,0.0
+3x4,szklarnia z poliwęglanu 3x4,PHRASE,ENABLED,26,6,10.9,0.0
+4x6,szklarnia 4x6,PHRASE,ENABLED,19,7,10.19,0.0
+4x6,szklarnia poliwęglan 4x6,PHRASE,ENABLED,43,7,10.12,0.0
+3x4,tunel z poliwęglanu 3x4,PHRASE,ENABLED,17,7,9.89,0.0
+3x4,szklarnia ogrodowa 3x4,PHRASE,ENABLED,71,5,9.1,0.0
+3x6,szklarnia z poliwęglanu 3x6,EXACT,ENABLED,57,5,8.45,0.0
+3x6,szklarnia poliwęglan 3x6,PHRASE,ENABLED,22,4,7.6,0.0
+3x4,tunel ogrodowy 3x4,PHRASE,ENABLED,107,5,7.38,0.0
+3x4,szklarnie z poliwęglanu 3x4,PHRASE,ENABLED,46,5,7.35,0.0
+3x6,szklarnie z poliwęglanu 3x6,PHRASE,ENABLED,50,5,7.21,0.0
+2x4,tunel z poliwęglanu 2x4,EXACT,ENABLED,17,5,7.16,0.0
+4x6,tunel ogrodowy 4x6,PHRASE,ENABLED,44,4,5.9,0.0
+3x6,szklarnie z poliwęglanu 3x6,EXACT,ENABLED,24,4,5.88,0.0
+4x6,szklarnia z poliwęglanu 4x6,EXACT,ENABLED,27,4,5.85,0.0
+4x6,szklarnia ogrodowa 4x6,PHRASE,ENABLED,42,4,5.65,0.0
+2x4,szklarnia z poliwęglanu 2x4,EXACT,ENABLED,54,4,5.53,0.0
+4x6,tunel ogrodowy 4x6,EXACT,ENABLED,27,3,4.5,0.0
+3x6,tunel ogrodowy 3x6,PHRASE,ENABLED,47,3,4.44,0.0
+3x4,szklarnia poliwęglan 3x4,PHRASE,ENABLED,60,3,4.33,0.0
+3x6,tunel z poliwęglanu 3x6,PHRASE,ENABLED,7,2,3.0,0.0
+3x4,tunel ogrodowy 3x4,EXACT,ENABLED,47,2,2.98,0.0
+3x4,szklarnie z poliwęglanu 3x4,EXACT,ENABLED,7,2,2.98,0.0
+2x4,tunel ogrodowy 2x4,PHRASE,ENABLED,40,2,2.96,0.0
+4x6,tunel poliwęglan 4x6,PHRASE,ENABLED,7,2,2.95,0.0
+2x4,szklarnia z poliwęglanu 2x4,PHRASE,ENABLED,30,2,2.95,0.0
+4x6,tunel z poliwęglanu 4x6,EXACT,ENABLED,14,2,2.93,0.0
+4x6,szklarnia 4x6,EXACT,ENABLED,13,2,2.89,0.0
+3x4,tunel poliwęglan 3x4,PHRASE,ENABLED,9,2,2.7,0.0
+3x6,szklarnia 3x6,EXACT,ENABLED,34,2,2.23,0.0
+3x4,szklarnia 3x4,EXACT,ENABLED,18,1,1.5,0.0
+3x4,szklarnia 3x4,PHRASE,ENABLED,61,1,1.49,0.0
+2x4,szklarnia 2x4,PHRASE,ENABLED,15,1,1.48,0.0
+4x6,szklarnia z poliwęglanu 4x6,PHRASE,ENABLED,21,1,1.47,0.0
+2x4,szklarnia 2x4,EXACT,ENABLED,18,1,1.46,0.0
+2x4,szklarnie z poliwęglanu 2x4,EXACT,ENABLED,7,1,1.45,0.0
+2x4,tunel z poliwęglanu 2x4,PHRASE,ENABLED,8,1,1.44,0.0
+3x6,tunel poliwęglan 3x6,PHRASE,ENABLED,19,1,1.43,0.0
+4x6,tunel z poliwęglanu 4x6,PHRASE,ENABLED,8,0,0.0,0.0
+4x6,szklarnie z poliwęglanu 4x6,EXACT,ENABLED,2,0,0.0,0.0
+3x6,szklarnia ogrodowa 3x6,PHRASE,ENABLED,10,0,0.0,0.0
+2x4,tunel ogrodowy 2x4,EXACT,ENABLED,15,0,0.0,0.0
+2x4,szklarnia poliwęglan 2x4,PHRASE,ENABLED,7,0,0.0,0.0
+2x4,szklarnie z poliwęglanu 2x4,PHRASE,ENABLED,1,0,0.0,0.0
