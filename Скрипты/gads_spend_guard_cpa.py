@@ -482,6 +482,14 @@ def read_plan_cpa(client_dir, row=None):
     return read_plan(acfg, pd.Timestamp(date.today()))
 
 
+def campaign_grace(grace_by, campaign_id, default):
+    """Аванс кампании в долях цели заявки: личный `grace` из записи кампании в guard_config.yaml, иначе общий (--grace / grace клиента).
+    Решение пользователя 2026-11-13: у новых кампаний на выходные аванс 0.8 вместо общего 2.0. Без личного ключа возвращает
+    общий аванс без изменений (поведение прежнее)."""
+    v = (grace_by or {}).get(str(campaign_id))
+    return float(default) if v is None else float(v)
+
+
 def load_guard_config(path):
     """Читает `Клиенты/<Имя>/guard_config.yaml` и приводит к значениям по умолчанию для аргументов командной строки.
     Флаги командной строки всегда важнее файла. Файл НЕ содержит `execute` — боевой режим включается только флагом.
@@ -501,6 +509,7 @@ def load_guard_config(path):
     targets, bases, maxes, flex_ids = [], [], [], []
     hard_mult_by, total_limit_by, since_by, rows = {}, {}, {}, []
     zero_cap_by = {}
+    grace_by = {}   # личный аванс кампании (в долях цели); нет ключа — общий grace клиента
     for c in camps:
         cid_ = str(c["id"])
         t = c.get("target")
@@ -526,10 +535,14 @@ def load_guard_config(path):
             hard_mult_by[cid_] = float(c["hard_mult"])
         if c.get("zero_cap") is not None:   # пауза при расходе ≥ N × бюджета, только пока заявок за день 0
             zero_cap_by[cid_] = float(c["zero_cap"])
+        if c.get("grace") is not None:
+            grace_by[cid_] = float(c["grace"])
+            if grace_by[cid_] < 0:
+                raise ValueError(f"guard_config: у кампании {cid_} grace {grace_by[cid_]:g} < 0")
         if c.get("total_limit") is not None:
             total_limit_by[cid_] = float(c["total_limit"])
             since_by[cid_] = str(c.get("since") or date.today().replace(day=1).isoformat())
-        rows.append((cid_, c.get("name", "") + ((" [авто: tCPA кампании или план]" if cid_ in auto_ids else " [план]" if cid_ in plan_ids else " [вручную]")), t, control, base if control else None,
+        rows.append((cid_, c.get("name", "") + (f" [аванс {grace_by[cid_]:g}]" if cid_ in grace_by else "") + ((" [авто: tCPA кампании или план]" if cid_ in auto_ids else " [план]" if cid_ in plan_ids else " [вручную]")), t, control, base if control else None,
                      float(c.get("max_budget", base)) if control else None,
                      hard_mult_by.get(cid_), total_limit_by.get(cid_), since_by.get(cid_)))
     defaults = {"customer_id": str(cfg.get("customer_id", "")) or None,
@@ -551,7 +564,7 @@ def load_guard_config(path):
     if cfg.get("monitoring_config"):
         defaults["monitoring_config"] = str(Path(MONITORING_DIR) / "config" / cfg["monitoring_config"])
     extra = {"flex_ids": set(flex_ids), "hard_mult_by": hard_mult_by, "total_limit_by": total_limit_by,
-             "since_by": since_by, "stats": client_dir / "Статистика", "form_action": cfg.get("form_action", FORM_ACTION),
+             "since_by": since_by, "grace_by": grace_by, "stats": client_dir / "Статистика", "form_action": cfg.get("form_action", FORM_ACTION),
              "ad_call_actions": list(cfg.get("ad_call_actions") or []),
              "plan": plan, "currency": cfg.get("currency"),
              # незнакомые включённые кампании: берутся под минимальную защиту с этой целью заявки (нет ключа — только предупреждение)
@@ -580,7 +593,7 @@ def main():
     pre.add_argument("--config")
     known, _ = pre.parse_known_args()
     cfg_path = known.config or (str(CLIENTS_DIR / known.client / "guard_config.yaml") if known.client else None)
-    cfg_defaults, extra, cfg_rows = {}, {"flex_ids": None, "hard_mult_by": {}, "total_limit_by": {}, "since_by": {},
+    cfg_defaults, extra, cfg_rows = {}, {"flex_ids": None, "hard_mult_by": {}, "total_limit_by": {}, "since_by": {}, "grace_by": {},
                                          "stats": None, "form_action": FORM_ACTION, "ad_call_actions": [], "plan": None,
                                          "currency": None, "default_target": None, "default_is_plan": False, "default_plan_row": None,
                                          "plan_ids": {}, "auto_ids": {}, "plan_by_row": {}, "client_dir": None, "unmanaged_ok": set(), "zero_cap_by": {},
@@ -684,6 +697,7 @@ def main():
     flex_ids = extra["flex_ids"] if extra["flex_ids"] is not None else set(targets)
     hard_mult_by, total_limit_by, since_by = extra["hard_mult_by"], extra["total_limit_by"], extra["since_by"]
     zero_cap_by = extra["zero_cap_by"]
+    grace_by = extra["grace_by"]   # личный аванс по кампании (см. campaign_grace); у остальных — args.grace
     default_target, unmanaged_ok = extra["default_target"], extra["unmanaged_ok"]
     plan_default_by_row = dict(extra["plan_by_row"])   # строка плана (None = по умолчанию) -> цена заявки
 
@@ -749,6 +763,7 @@ def main():
     names_cfg = extra.get("cfg_names") or {}
     camp_lines = "\n".join(f"• {names_cfg.get(i_) or i_}: цена заявки до {t_:g} {CUR}"
                            + (" (по плану месяца; если у кампании задан tCPA, возьму его)" if i_ in extra["auto_ids"] else "")
+                           + (f"; аванс {grace_by[i_]:g} вместо общего {args.grace:g}" if i_ in grace_by else "")
                            for i_, t_ in targets.items())
     notify(f"🛡 Сторож запущен. Режим: {mode_ru}.\n"
            f"Проверка каждые {args.loop_min or 0:g} мин, до первой заявки допускаю расход {args.grace:g} × цены заявки.\n"
@@ -945,7 +960,8 @@ def main():
             # снизили посреди дня (15.10: 120 → 50), расход, накопленный при большем бюджете, не должен давать ложного «3× бюджета»
             st["budget_max"] = max(st.get("budget_max", 0), budget)
             budget_ref = st["budget_max"]
-            allowance = (args.grace + n) * T
+            grace_c = campaign_grace(grace_by, campaign_id, args.grace)   # аванс этой кампании (личный или общий)
+            allowance = (grace_c + n) * T
             share = cost / allowance if allowance else 0.0
             cpa_real = round(cost / n, 1) if n else ""
             status = s["status"]
@@ -1028,7 +1044,7 @@ def main():
                     mins_j = (now - datetime.fromisoformat(refj[0])).total_seconds() / 60
                     events.append(f"СКАЧОК ЗАЯВОК: +{n - refj[2]} за {mins_j:.0f} мин ({refj[2]} → {n})")
                     notify(f"⚠️ {name}: заявок +{n - refj[2]} за {mins_j:.0f} мин ({refj[2]} → {n}). Допустимый расход вырос с "
-                           f"{(args.grace + refj[2]) * T:.0f} до {allowance:.0f} {CUR}. Проверь, нет ли спама или дублей; "
+                           f"{(grace_c + refj[2]) * T:.0f} до {allowance:.0f} {CUR}. Проверь, нет ли спама или дублей; "
                            f"правила сторожа не менялись.")
             ref = None
             for x in samples:   # самая свежая точка не моложе окна
@@ -1081,7 +1097,7 @@ def main():
                 elif cost >= allowance:
                     reason = "цена заявки"
                     events.append(f"ПАУЗА цена заявки: расход {cost:.2f} ≥ допустимого {allowance:.2f} "
-                                  f"= ({args.grace:g}+{n})×{T:g}")
+                                  f"= ({grace_c:g}+{n})×{T:g}")
                 elif pace_hit:
                     reason = "темп"
                     events.append(f"ПАУЗА темп: за {age_min:.0f} мин расход +{cost - ref[1]:.2f} "
@@ -1283,7 +1299,7 @@ def main():
                                 else:
                                     break
                             y = hist[0]
-                            last_bad = (y[1] > 0 and y[1] > (args.grace + y[2]) * T)
+                            last_bad = (y[1] > 0 and y[1] > (grace_c + y[2]) * T)
                             new_base = None
                             if streak >= args.efficient_days:
                                 window = streak_days[:args.efficient_days]

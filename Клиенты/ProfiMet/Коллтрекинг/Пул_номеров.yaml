@@ -136,6 +136,16 @@ channels:
     utm_test: {utm_source: google, utm_medium: cpc, utm_content: yt_9x16, utm_campaign: yt_warm}
     pool:
       - "+48739103479"
+    # 2026-11-13: номера ячеек yt_warm переведены в Google CPC_yt_dyn (yt_warm на паузе с 12.11); пулы yt_warm_1/_2 пусты,
+    # этот случай теперь ожидаемо покажет номер сайта, а не пул. Не считать сбоем; убрать из файла при удалении каналов yt_warm.
+
+  # YouTube холодная (yt_cold), добавлено 2026-11-13 (ProfiMet_YouTube): динамический пул Google CPC_yt_dyn, канал google_cpc_yt_cold
+  # (utm_campaign = yt_cold, term/content .*). В кабинете сейчас 2 номера; третий +48739109802 не добавлен (красный, не верифицирован).
+  - name: "YouTube холодная (yt_cold) -> Google CPC_yt_dyn"
+    utm_test: {utm_source: google, utm_medium: cpc, utm_content: lal_16x9, utm_campaign: yt_cold}
+    pool:
+      - "+48739103340"
+      - "+48739103479"
 
 
 # Справочно, НЕ прогоняется phone_swap_check.py: канал "Google CPC calls

@@ -1,3 +1,6 @@
 time,campaign_id,name,what,was,now,who
 2026-11-04T12:43:43,23593683252,general_pmax,цель заявки сторожа,130,47.54 (tCPA кампании),
 2026-11-04T12:43:43,24230255260,shop_pmax,цель заявки сторожа,130,90 (tCPA кампании),
+2026-11-13T15:30:03,24230255260,shop_pmax,стратегия ставок / цель,"MAXIMIZE_CONVERSIONS, tCPA 90","MAXIMIZE_CONVERSIONS, tCPA 104",
+2026-11-13T15:30:04,24360520273,general_pmax_rozmiary,бюджет,50.0,100.0,
+2026-11-13T15:30:04,24360520273,general_pmax_rozmiary,статус,ВКЛ,ПАУЗА,

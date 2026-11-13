@@ -126,6 +126,28 @@ promopages`), цель "Отправка любой формы" (ID 143150284), 
 (например "Промостатья: Моя история 1 / Цена перехода / Ж25-54") — UTM
 Content у этого трафика несёт только технический тег.
 
+```
+python promopages_reports.py --from 2026-10-01 --to 2026-10-27                  # сухой: план запросов, API не вызывается
+python promopages_reports.py --from 2026-10-01 --to 2026-10-27 --run            # чтение API ПромоСтраниц
+python promopages_reports.py --from 2026-10-01 --reports previews --campaign-id <id> --run
+python promopages_reports.py --from 2026-10-01 --reports traffic-source --with-total --run
+```
+
+`promopages_reports.py` (2026-11-13) читает API ПромоСтраниц (`promopages.yandex.ru/api/promo/v1`);
+в API методов записи нет, кабинет не меняется. Два среза, которых нет во внешнем
+`E:\PythonProjects\RedBird\dev\Promopages\promopages.py`: (1) `previews` -
+`campaigns-previews-daily-stats` (заголовок x обложка по кампаниям и дням; заголовок и картинка
+добавляются из `GET /campaigns`, publications[].previews[]); (2) `traffic-source` -
+`campaigns-daily-stats` с `trafficSource=ya_search` и `rsya` (`--with-total` добавляет `total` для
+сверки). По документации (`reference/post-reports`) `trafficSource` общий для всех трёх типов отчётов.
+Токен - переменная окружения `PROMOPAGES_TOKEN` (в коде нет; Windows: `setx PROMOPAGES_TOKEN "<токен>"` и
+новое окно терминала); без `--run` не нужен. `publisherId` кабинета - в словаре `CLIENTS` (или `--publisher-id`).
+Файлы: `Статистика/promopages_previews_daily_<с>_to_<по>_pulled-<дата>.csv` и
+`promopages_traffic_source_daily_..._pulled-<дата>.csv` (обе трафик-источника в одном файле,
+колонка `trafficSource`); существующий файл не перезаписывается (суффикс `_2`). Отчёты формируются
+минуты (код 202, опрос раз в 10 с), 429/5xx - повтор с паузой. Первый боевой запуск с токеном
+на 2026-11-13 не выполнялся.
+
 ### Клиент-специфичные скрипты (ЕГЭ Merlin)
 
 ```
@@ -1047,7 +1069,9 @@ python gads_campaign_rework.py --plan "Клиенты/LuxeBrokers/Кампани
 Один процесс на клиента вместо отдельного сторожа на каждый тип кампании. Настройки — `Клиенты/<Имя>/guard_config.yaml`
 (аккаунт, конфиг мониторинга Ringostat/Supabase/Telegram, название конверсии «форма», список кампаний: `target` — число или
 `plan` (CPA из «Цели2 Адвайта» через `read_plan`), `budget_control` + `base_budget` (число или `auto` = 2 × цель) + `max_budget`,
-`hard_mult`, `total_limit` + `since`). Флаги командной строки важнее файла; `--execute` в файл не пишется никогда.
+`hard_mult`, `total_limit` + `since`, `grace`). Флаги командной строки важнее файла; `--execute` в файл не пишется никогда.
+
+**Личный аванс кампании: ключ `grace` (с 2026-11-13).** В записи кампании `{id: …, name: …, target: …, grace: 0.8}`; личный `grace` заменяет общий (`--grace` / `grace:` верхнего уровня, по умолчанию 2.0) только у этой кампании. Допустимый расход дня `A = (grace + n) × цель`: при `grace: 0.8` и n = 0 пауза при расходе ≥ 0.8 × цели, каждая заявка добавляет допуск в одну цену заявки. Через `campaign_grace(grace_by, id, общий)` аванс кампании идёт в: допустимый расход (пауза, предупреждение 90%, возобновление, «темп» `pace_min_allow_share`), сообщение «СКАЧОК ЗАЯВОК», текст события «ПАУЗА цена заявки» и оценку «плохого дня» для шага бюджета вниз. Без ключа поведение прежнее. `grace: 0` = пауза сразу при любом расходе ≥ 0 (допустимо, но осознанно). Личные `grace` отражаются в `--print-config` (имя кампании `[аванс 0.8]`) и в сообщении «Сторож запущен». Не затронуты общим образом: правило «расход без заявок подряд» (`dry_mult` × цель), `zero_cap`, `hard_mult`. Проверено 2026-11-13: юнит на синтетическом конфиге, `--print-config`/`--once` без `--execute` на ProfiMet и EkspertAgro без изменений для кампаний без `grace`; боевой цикл с личным `grace` не запускался. Применить к работающему процессу — только перезапуском (`stop_guard.ps1`).
 
 ```
 python gads_spend_guard_cpa.py --client ProfiMet --print-config          # итоговые правила, без API
