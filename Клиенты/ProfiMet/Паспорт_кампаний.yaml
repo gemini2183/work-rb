@@ -5,7 +5,7 @@
 # Поля — как в Клиенты/EkspertAgro/Паспорт_кампаний.yaml (state, course, agreed_changes).
 
 client: ProfiMet
-updated: 2026-11-04
+updated: 2026-11-13
 
 campaigns:
   "24332178236":
@@ -61,5 +61,13 @@ campaigns:
     name: yt_warm
     state: active
     course: {mode: test, freeze_until: "2026-11-11", basis: "Ю-Э-01: оценка по чистым дням 05.11–11.11 (ProfiMet_YouTube); сторож 12 €", review_by: "2026-11-12"}
+
+  "24468615055":
+    name: yt_cold
+    state: paused
+    why: "создана на ПАУЗЕ 13.11 13:59 (Ю-008, ProfiMet_YouTube); цели, решение по сторожу (Решение 8), Ringostat и включение не сделаны"
+    since: "2026-11-13"
+    source: "ProfiMet_YouTube/Журнал_изменений Ю-008; ProfiMet_YouTube/Работы/2026-11-12_yt_cold/40_запись.md (чтение обратно 14:03)"
+    review_by: null
 
 agreed_changes: []
