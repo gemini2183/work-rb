@@ -1,0 +1,109 @@
+
+=== customer
+{'customer': {'resource_name': 'customers/7552781705', 'id': '7552781705', 'currency_code': 'EUR', 'time_zone': 'Europe/Warsaw'}}
+-- строк: 1
+
+=== кампании с именем yt_cold (все статусы)
+{'campaign': {'resource_name': 'customers/7552781705/campaigns/24468615055', 'status': 'PAUSED', 'name': 'yt_cold', 'id': '24468615055'}}
+-- строк: 1
+
+=== campaign
+{'campaign': {'resource_name': 'customers/7552781705/campaigns/24468615055', 'status': 'PAUSED', 'advertising_channel_type': 'DEMAND_GEN', 'bidding_strategy_type': 'MAXIMIZE_CONVERSIONS', 'name': 'yt_cold', 'id': '24468615055', 'campaign_budget': 'customers/7552781705/campaignBudgets/16029616032', 'primary_status': 'PAUSED', 'demand_gen_campaign_settings': {'upgraded_targeting': False}, 'contains_eu_political_advertising': 'DOES_NOT_CONTAIN_EU_POLITICAL_ADVERTISING'}}
+-- строк: 1
+
+=== budget
+{'campaign_budget': {'resource_name': 'customers/7552781705/campaignBudgets/16029616032', 'status': 'ENABLED', 'delivery_method': 'STANDARD', 'id': '16029616032', 'name': 'yt_cold', 'amount_micros': '50000000', 'explicitly_shared': False}}
+-- строк: 1
+
+=== метрики
+{'campaign': {'resource_name': 'customers/7552781705/campaigns/24468615055'}, 'metrics': {'clicks': '0', 'cost_micros': '0', 'impressions': '0'}}
+-- строк: 1
+
+=== campaign_criterion
+{'campaign_criterion': {'resource_name': 'customers/7552781705/campaignCriteria/24468615055~1000', 'type_': 'LANGUAGE', 'language': {'language_constant': 'languageConstants/1000'}, 'criterion_id': '1000', 'negative': False}}
+{'campaign_criterion': {'resource_name': 'customers/7552781705/campaignCriteria/24468615055~1030', 'type_': 'LANGUAGE', 'language': {'language_constant': 'languageConstants/1030'}, 'criterion_id': '1030', 'negative': False}}
+{'campaign_criterion': {'resource_name': 'customers/7552781705/campaignCriteria/24468615055~2616', 'type_': 'LOCATION', 'location': {'geo_target_constant': 'geoTargetConstants/2616'}, 'criterion_id': '2616', 'negative': False}}
+{'campaign_criterion': {'resource_name': 'customers/7552781705/campaignCriteria/24468615055~30000', 'type_': 'DEVICE', 'criterion_id': '30000', 'negative': False}}
+{'campaign_criterion': {'resource_name': 'customers/7552781705/campaignCriteria/24468615055~30001', 'type_': 'DEVICE', 'criterion_id': '30001', 'negative': False}}
+{'campaign_criterion': {'resource_name': 'customers/7552781705/campaignCriteria/24468615055~30002', 'type_': 'DEVICE', 'criterion_id': '30002', 'negative': False}}
+{'campaign_criterion': {'resource_name': 'customers/7552781705/campaignCriteria/24468615055~30004', 'type_': 'DEVICE', 'criterion_id': '30004', 'negative': False}}
+{'campaign_criterion': {'resource_name': 'customers/7552781705/campaignCriteria/24468615055~303868', 'type_': 'AD_SCHEDULE', 'ad_schedule': {'start_minute': 'THIRTY', 'end_minute': 'ZERO', 'day_of_week': 'MONDAY', 'start_hour': 9, 'end_hour': 17}, 'criterion_id': '303868', 'negative': False}}
+{'campaign_criterion': {'resource_name': 'customers/7552781705/campaignCriteria/24468615055~313868', 'type_': 'AD_SCHEDULE', 'ad_schedule': {'start_minute': 'THIRTY', 'end_minute': 'ZERO', 'day_of_week': 'TUESDAY', 'start_hour': 9, 'end_hour': 17}, 'criterion_id': '313868', 'negative': False}}
+{'campaign_criterion': {'resource_name': 'customers/7552781705/campaignCriteria/24468615055~323868', 'type_': 'AD_SCHEDULE', 'ad_schedule': {'start_minute': 'THIRTY', 'end_minute': 'ZERO', 'day_of_week': 'WEDNESDAY', 'start_hour': 9, 'end_hour': 17}, 'criterion_id': '323868', 'negative': False}}
+{'campaign_criterion': {'resource_name': 'customers/7552781705/campaignCriteria/24468615055~333868', 'type_': 'AD_SCHEDULE', 'ad_schedule': {'start_minute': 'THIRTY', 'end_minute': 'ZERO', 'day_of_week': 'THURSDAY', 'start_hour': 9, 'end_hour': 17}, 'criterion_id': '333868', 'negative': False}}
+{'campaign_criterion': {'resource_name': 'customers/7552781705/campaignCriteria/24468615055~343868', 'type_': 'AD_SCHEDULE', 'ad_schedule': {'start_minute': 'THIRTY', 'end_minute': 'ZERO', 'day_of_week': 'FRIDAY', 'start_hour': 9, 'end_hour': 17}, 'criterion_id': '343868', 'negative': False}}
+-- строк: 12
+
+=== geo_target_constant 2616
+{'geo_target_constant': {'resource_name': 'geoTargetConstants/2616', 'id': '2616', 'name': 'Poland', 'canonical_name': 'Poland'}}
+-- строк: 1
+
+=== geo settings
+{'campaign': {'resource_name': 'customers/7552781705/campaigns/24468615055', 'geo_target_type_setting': {'positive_geo_target_type': 'PRESENCE_OR_INTEREST', 'negative_geo_target_type': 'PRESENCE'}}}
+-- строк: 1
+
+=== ad_group
+{'ad_group': {'resource_name': 'customers/7552781705/adGroups/204837975049', 'status': 'ENABLED', 'id': '204837975049', 'name': 'yt_cold_g1', 'demand_gen_ad_group_settings': {'channel_controls': {'selected_channels': {'youtube_in_stream': True, 'youtube_in_feed': True, 'youtube_shorts': True}}}}}
+-- строк: 1
+
+=== ad_group (альт. поля каналов)
+{'ad_group': {'resource_name': 'customers/7552781705/adGroups/204837975049', 'status': 'ENABLED', 'id': '204837975049', 'name': 'yt_cold_g1'}}
+-- строк: 1
+
+=== ad_group_criterion
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~10', 'status': 'ENABLED', 'type_': 'GENDER', 'criterion_id': '10', 'negative': False}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~11', 'status': 'ENABLED', 'type_': 'GENDER', 'criterion_id': '11', 'negative': False}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~20', 'status': 'ENABLED', 'type_': 'GENDER', 'criterion_id': '20', 'negative': False}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~300', 'status': 'ENABLED', 'type_': 'PARENTAL_STATUS', 'criterion_id': '300', 'negative': False}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~301', 'status': 'ENABLED', 'type_': 'PARENTAL_STATUS', 'criterion_id': '301', 'negative': False}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~302', 'status': 'ENABLED', 'type_': 'PARENTAL_STATUS', 'criterion_id': '302', 'negative': False}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~503001', 'status': 'ENABLED', 'type_': 'AGE_RANGE', 'criterion_id': '503001', 'negative': False}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~503002', 'status': 'ENABLED', 'type_': 'AGE_RANGE', 'criterion_id': '503002', 'negative': False}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~503003', 'status': 'ENABLED', 'type_': 'AGE_RANGE', 'criterion_id': '503003', 'negative': False}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~503004', 'status': 'ENABLED', 'type_': 'AGE_RANGE', 'criterion_id': '503004', 'negative': False}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~503005', 'status': 'ENABLED', 'type_': 'AGE_RANGE', 'criterion_id': '503005', 'negative': False}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~503006', 'status': 'ENABLED', 'type_': 'AGE_RANGE', 'criterion_id': '503006', 'negative': False}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~503999', 'status': 'ENABLED', 'type_': 'AGE_RANGE', 'criterion_id': '503999', 'negative': False}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~510000', 'status': 'ENABLED', 'type_': 'INCOME_RANGE', 'criterion_id': '510000', 'negative': False}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~510001', 'status': 'ENABLED', 'type_': 'INCOME_RANGE', 'criterion_id': '510001', 'negative': False}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~510002', 'status': 'ENABLED', 'type_': 'INCOME_RANGE', 'criterion_id': '510002', 'negative': False}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~510003', 'status': 'ENABLED', 'type_': 'INCOME_RANGE', 'criterion_id': '510003', 'negative': False}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~510004', 'status': 'ENABLED', 'type_': 'INCOME_RANGE', 'criterion_id': '510004', 'negative': False}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~510005', 'status': 'ENABLED', 'type_': 'INCOME_RANGE', 'criterion_id': '510005', 'negative': False}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~510006', 'status': 'ENABLED', 'type_': 'INCOME_RANGE', 'criterion_id': '510006', 'negative': False}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~2223922149755', 'status': 'ENABLED', 'type_': 'USER_LIST', 'criterion_id': '2223922149755', 'negative': True}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~2274643057431', 'status': 'ENABLED', 'type_': 'USER_LIST', 'criterion_id': '2274643057431', 'negative': True}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~2275058060069', 'status': 'ENABLED', 'type_': 'USER_LIST', 'criterion_id': '2275058060069', 'negative': True}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~2279505696421', 'status': 'ENABLED', 'type_': 'USER_LIST', 'criterion_id': '2279505696421', 'negative': True}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~2352370915355', 'status': 'ENABLED', 'type_': 'USER_LIST', 'criterion_id': '2352370915355', 'negative': True}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~2493877526069', 'status': 'ENABLED', 'type_': 'USER_LIST', 'criterion_id': '2493877526069', 'negative': True}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~2502382323096', 'status': 'ENABLED', 'type_': 'USER_LIST', 'criterion_id': '2502382323096', 'negative': False}}
+{'ad_group_criterion': {'resource_name': 'customers/7552781705/adGroupCriteria/204837975049~2510766330185', 'status': 'ENABLED', 'type_': 'AUDIENCE', 'criterion_id': '2510766330185', 'negative': False, 'audience': {'audience': 'customers/7552781705/audiences/364509195'}}}
+-- строк: 28
+
+=== audience 364509195
+{'audience': {'resource_name': 'customers/7552781705/audiences/364509195', 'id': '364509195', 'status': 'ENABLED', 'dimensions': [{'audience_segments': {'segments': [{'user_list': {'user_list': 'customers/7552781705/userLists/9484178885'}}]}}], 'exclusion_dimension': {'exclusions': [{'user_list': {'user_list': 'customers/7552781705/userLists/9441800617'}}, {'user_list': {'user_list': 'customers/7552781705/userLists/8365697315'}}, {'user_list': {'user_list': 'customers/7552781705/userLists/8699804100'}}, {'user_list': {'user_list': 'customers/7552781705/userLists/8575354546'}}, {'user_list': {'user_list': 'customers/7552781705/userLists/8576048211'}}, {'user_list': {'user_list': 'customers/7552781705/userLists/8365998003'}}]}, 'name': 'yt_cold look-alike 2.5% CRM без покупателей, лидов и тёплых 20261113_135941'}}
+-- строк: 1
+
+=== ad_group_ad
+{'ad_group_ad': {'resource_name': 'customers/7552781705/adGroupAds/204837975049~831598860389', 'status': 'ENABLED', 'ad': {'resource_name': 'customers/7552781705/ads/831598860389', 'id': '831598860389', 'final_urls': ['https://mocnaszklarnia.pl/'], 'tracking_url_template': '{lpurl}?utm_source=google&utm_medium=cpc&utm_campaign=yt_cold&utm_content=lal_16x9_rb_cid_{campaignid}|gid_{adgroupid}|aid_{creative}|pos_{adposition}|dev_{device}|plc_{placement}|region_id_{loc_physical_ms}|targetid_{targetid}|gclid_{gclid}', 'name': 'yt_cold ad A 16x9', 'demand_gen_video_responsive_ad': {'headlines': [{'text': 'Płatność przy odbiorze'}, {'text': 'Bez przedpłaty'}, {'text': 'Szklarnie od producenta'}, {'text': 'Ocynkowana rama szklarni'}, {'text': '2 lata gwarancji na ramę'}], 'long_headlines': [{'text': 'Szklarnie z poliwęglanu od producenta. Płatność przy odbiorze, bez przedpłaty.'}, {'text': 'Producent szklarni od 16 lat. Ocynkowana stal, montaż bez spawania. Sprawdź modele.'}], 'descriptions': [{'text': 'Producent szklarni od 16 lat. Ocynkowana stal, montaż na skręcanie, bez spawania.'}, {'text': 'Płacisz dopiero przy odbiorze. Zamówienie potwierdzamy telefonicznie.'}, {'text': '2 lata gwarancji na ramę i 5 lat na poliwęglan. Sprawdź modele na mocnaszklarnia.pl.'}, {'text': 'Poliwęglan 4 lub 6 mm z ochroną UV. Wybierz model na mocnaszklarnia.pl.'}, {'text': 'Cały komplet sprawdzamy trzykrotnie: przy pakowaniu, załadunku i rozładunku.'}], 'videos': [{'asset': 'customers/7552781705/assets/438743405729'}], 'logo_images': [{'asset': 'customers/7552781705/assets/435912528022'}], 'business_name': {'text': 'ProfiMet'}, 'call_to_actions': [{'asset': 'customers/7552781705/assets/39375000429'}]}}, 'policy_summary': {'review_status': 'REVIEW_IN_PROGRESS', 'approval_status': 'UNKNOWN'}}}
+{'ad_group_ad': {'resource_name': 'customers/7552781705/adGroupAds/204837975049~831598860392', 'status': 'ENABLED', 'ad': {'resource_name': 'customers/7552781705/ads/831598860392', 'id': '831598860392', 'final_urls': ['https://mocnaszklarnia.pl/'], 'tracking_url_template': '{lpurl}?utm_source=google&utm_medium=cpc&utm_campaign=yt_cold&utm_content=lal_9x16_rb_cid_{campaignid}|gid_{adgroupid}|aid_{creative}|pos_{adposition}|dev_{device}|plc_{placement}|region_id_{loc_physical_ms}|targetid_{targetid}|gclid_{gclid}', 'name': 'yt_cold ad B 9x16', 'demand_gen_video_responsive_ad': {'headlines': [{'text': 'Płatność przy odbiorze'}, {'text': 'Bez przedpłaty'}, {'text': 'Szklarnie od producenta'}, {'text': 'Ocynkowana rama szklarni'}, {'text': '2 lata gwarancji na ramę'}], 'long_headlines': [{'text': 'Szklarnie z poliwęglanu od producenta. Płatność przy odbiorze, bez przedpłaty.'}, {'text': 'Producent szklarni od 16 lat. Ocynkowana stal, montaż bez spawania. Sprawdź modele.'}], 'descriptions': [{'text': 'Producent szklarni od 16 lat. Ocynkowana stal, montaż na skręcanie, bez spawania.'}, {'text': 'Płacisz dopiero przy odbiorze. Zamówienie potwierdzamy telefonicznie.'}, {'text': '2 lata gwarancji na ramę i 5 lat na poliwęglan. Sprawdź modele na mocnaszklarnia.pl.'}, {'text': 'Poliwęglan 4 lub 6 mm z ochroną UV. Wybierz model na mocnaszklarnia.pl.'}, {'text': 'Cały komplet sprawdzamy trzykrotnie: przy pakowaniu, załadunku i rozładunku.'}], 'videos': [{'asset': 'customers/7552781705/assets/438847921438'}], 'logo_images': [{'asset': 'customers/7552781705/assets/435912528022'}], 'business_name': {'text': 'ProfiMet'}, 'call_to_actions': [{'asset': 'customers/7552781705/assets/39375000429'}]}}, 'policy_summary': {'review_status': 'REVIEW_IN_PROGRESS', 'approval_status': 'UNKNOWN'}}}
+-- строк: 2
+
+=== campaign_asset
+-- строк: 0
+
+=== customer_asset
+{'asset': {'resource_name': 'customers/7552781705/assets/406966393636', 'type_': 'CALL'}, 'customer_asset': {'resource_name': 'customers/7552781705/customerAssets/406966393636~CALL', 'asset': 'customers/7552781705/assets/406966393636', 'field_type': 'CALL', 'status': 'ENABLED'}}
+{'asset': {'resource_name': 'customers/7552781705/assets/39345250382', 'type_': 'IMAGE', 'name': 'logo_1x1-removebg-preview.png'}, 'customer_asset': {'resource_name': 'customers/7552781705/customerAssets/39345250382~BUSINESS_LOGO', 'asset': 'customers/7552781705/assets/39345250382', 'field_type': 'BUSINESS_LOGO', 'status': 'REMOVED'}}
+{'asset': {'resource_name': 'customers/7552781705/assets/122143013943', 'type_': 'IMAGE', 'name': 'logo-pr2.png'}, 'customer_asset': {'resource_name': 'customers/7552781705/customerAssets/122143013943~BUSINESS_LOGO', 'asset': 'customers/7552781705/assets/122143013943', 'field_type': 'BUSINESS_LOGO', 'status': 'REMOVED'}}
+{'asset': {'resource_name': 'customers/7552781705/assets/286986548910', 'type_': 'IMAGE', 'name': 'logo_1x1_Nero_AI_Image_Upscaler_Photo_Face.png'}, 'customer_asset': {'resource_name': 'customers/7552781705/customerAssets/286986548910~BUSINESS_LOGO', 'asset': 'customers/7552781705/assets/286986548910', 'field_type': 'BUSINESS_LOGO', 'status': 'ENABLED'}}
+-- строк: 4
+
+=== asset 39375000429
+{'asset': {'resource_name': 'customers/7552781705/assets/39375000429', 'type_': 'CALL_TO_ACTION', 'id': '39375000429', 'call_to_action_asset': {'call_to_action': 'LEARN_MORE'}}}
+-- строк: 1
+
+=== ad_group optimized targeting
+{'ad_group': {'resource_name': 'customers/7552781705/adGroups/204837975049', 'id': '204837975049'}}
+-- строк: 1
