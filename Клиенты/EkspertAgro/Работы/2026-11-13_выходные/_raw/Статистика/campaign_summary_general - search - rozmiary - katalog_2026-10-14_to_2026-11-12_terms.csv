@@ -1,0 +1,176 @@
+﻿term,impr,clicks,cost,conv,match,keywords
+tunel ogrodowy,624,31,46.87,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+tunele ogrodowe,187,19,30.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+tunel z poliwęglanu 3x4,65,12,17.5,0.0,EXACT,tunel z poliwęglanu 3x4
+szklarnia z poliwęglanu 3x4,48,9,16.15,0.0,EXACT,szklarnia z poliwęglanu 3x4
+szklarnia z poliwęglanu 3x6 promocja,45,8,11.72,0.0,"NEAR_PHRASE,PHRASE",szklarnia poliwęglan 3x6; szklarnia z poliwęglanu 3x6; szklarnie z poliwęglanu 3x6
+tunel ogrodowy 3x6,126,7,10.42,0.0,EXACT,tunel ogrodowy 3x6
+tunel z poliwęglanu 3x6,47,7,10.25,0.0,EXACT,tunel z poliwęglanu 3x6
+szklarnia z poliwęglanu 3x6 producent 6mm,20,6,8.57,0.0,PHRASE,szklarnia z poliwęglanu 3x6
+szklarnia z poliwęglanu 3x6,57,5,8.45,0.0,EXACT,szklarnia z poliwęglanu 3x6
+tunel z poliwęglanu 3x6m,20,5,7.34,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnia z poliwęglanu 3x6; szklarnie z poliwęglanu 3x6; tunel ogrodowy 3x6; tunel z poliwęglanu 3x6
+tunel z poliwęglanu 2x4,17,5,7.16,0.0,EXACT,tunel z poliwęglanu 2x4
+szklarnia z poliwęglanu 3x6 producent,31,4,6.88,0.0,PHRASE,szklarnia z poliwęglanu 3x6; szklarnie z poliwęglanu 3x6
+szklarnie z poliwęglanu 3x6,23,4,5.88,0.0,EXACT,szklarnie z poliwęglanu 3x6
+szklarnia z poliwęglanu 4x6,27,4,5.85,0.0,EXACT,szklarnia z poliwęglanu 4x6
+szklarnia z poliwęglanu 2x4,33,4,5.53,0.0,EXACT,szklarnia z poliwęglanu 2x4
+tunel ogrodowy 4x6,18,3,4.5,0.0,EXACT,tunel ogrodowy 4x6
+szklarnia z poliwęglanu 3x6 montaż,30,3,4.46,0.0,PHRASE,szklarnia z poliwęglanu 3x6; szklarnie z poliwęglanu 3x6
+szklarnia z poliwęglanu 3x6 z montażem,27,3,4.45,0.0,PHRASE,szklarnia z poliwęglanu 3x6
+tunel na warzywa 3x6,4,2,3.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+tunel z poliweglanu 3x4,2,2,3.0,0.0,"NEAR_PHRASE,PHRASE",szklarnie z poliwęglanu 3x4; tunel z poliwęglanu 3x4
+tunel ogrodowy 3x4,44,2,2.98,0.0,EXACT,tunel ogrodowy 3x4
+szklarnia ogrodowa 3x4 z poliwęglanu solid mocna,15,2,2.98,0.0,"NEAR_PHRASE,PHRASE",szklarnia ogrodowa 3x4; szklarnie z poliwęglanu 3x4
+szklarnie z poliwęglanu 3x4,7,2,2.98,0.0,EXACT,szklarnie z poliwęglanu 3x4
+szklarnia z poliwęglanu 3x6 proste ściany,6,2,2.98,0.0,PHRASE,szklarnia z poliwęglanu 3x6
+szklarnia poliwęglan 3x6,4,2,2.98,0.0,EXACT,szklarnia poliwęglan 3x6
+foliowiec,4,2,2.98,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+szklarnia z poliwęglanu 3x4 montaż,20,2,2.96,0.0,PHRASE,szklarnia poliwęglan 3x4; szklarnia z poliwęglanu 3x4; szklarnie z poliwęglanu 3x4
+szklarnia 6 x 4,2,2,2.95,0.0,NEAR_PHRASE,szklarnia 4x6; szklarnia ogrodowa 4x6
+tunel z poliwęglanu 4x6,14,2,2.93,0.0,EXACT,tunel z poliwęglanu 4x6
+szklarnia 4x6,12,2,2.89,0.0,EXACT,szklarnia 4x6
+szklarnia poliwęglan 4x6,5,2,2.76,0.0,EXACT,szklarnia poliwęglan 4x6
+tunel poliwęglan 3x4,5,2,2.7,0.0,EXACT,tunel poliwęglan 3x4
+szklarnia z poliwęglanu 3x4 mocna,3,1,2.48,0.0,PHRASE,szklarnia z poliwęglanu 3x4
+szklarnia 3x6,19,2,2.23,0.0,EXACT,szklarnia 3x6
+tunel na warzywa,37,1,1.5,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+szklarnia 3x4,18,1,1.5,0.0,EXACT,szklarnia 3x4
+szklarnia ogrodowa z poliwęglanu 3x6,5,1,1.5,0.0,PHRASE,szklarnia z poliwęglanu 3x6
+szklarnia ogrodowa 6x4,5,1,1.5,0.0,NEAR_PHRASE,szklarnia ogrodowa 4x6
+szklarnia domek z poliwęglanu 3x4,3,1,1.5,0.0,"NEAR_PHRASE,PHRASE",szklarnia poliwęglan 3x4; szklarnia z poliwęglanu 3x4
+tunel z poliwęglanu 3x4 cena,3,1,1.5,0.0,PHRASE,tunel z poliwęglanu 3x4
+tunel ogrodowy duży,3,1,1.5,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+szklarnia z folii 3x4,1,1,1.49,0.0,PHRASE,szklarnia 3x4
+tunel ogrodowy 6x3,11,1,1.48,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+tunel 6 x 3,2,1,1.48,0.0,NEAR_PHRASE,tunel ogrodowy 3x6
+tunel ogrodowy 3 x 6,9,1,1.47,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+szklarnia z poliwęglanu 3x4 domek,7,1,1.47,0.0,PHRASE,szklarnia z poliwęglanu 3x4; szklarnie z poliwęglanu 3x4
+foliak ogrodowy 3x4,5,1,1.47,0.0,NEAR_PHRASE,tunel ogrodowy 3x4
+szklarnia z poliwęglanu 2 x 4,4,1,1.47,0.0,"NEAR_PHRASE,PHRASE",szklarnia ogrodowa 2x4; szklarnia z poliwęglanu 2x4
+szklarnia z poliwęglanu 3x4 z montażem,3,1,1.47,0.0,PHRASE,szklarnia z poliwęglanu 3x4; szklarnie z poliwęglanu 3x4
+szklarnia 2x4,18,1,1.46,0.0,EXACT,szklarnia 2x4
+szklarnia 4x6 poliwęglan,7,1,1.46,0.0,NEAR_EXACT,szklarnia poliwęglan 4x6
+szklarnia z poliwęglanu 6x4,3,1,1.46,0.0,NEAR_PHRASE,szklarnia poliwęglan 4x6
+szklarnia z poliwęglanu 3x4 producent,8,1,1.45,0.0,PHRASE,szklarnia 3x4; szklarnia poliwęglan 3x4; szklarnia z poliwęglanu 3x4; szklarnie z poliwęglanu 3x4
+szklarnie z poliwęglanu 2x4,7,1,1.45,0.0,EXACT,szklarnie z poliwęglanu 2x4
+tunel ogrodowy z poliwęglanu 3x6,7,1,1.45,0.0,NEAR_EXACT,tunel z poliwęglanu 3x6
+szklarnia z poliwęglanu 3x6 cena,6,1,1.45,0.0,PHRASE,szklarnia z poliwęglanu 3x6; szklarnie z poliwęglanu 3x6
+foliak z poliwęglanu 3x6,3,1,1.45,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x6
+tunel ogrodniczy,19,1,1.44,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+tunel ogrodowy z poliwęglanu 2x4,4,1,1.44,0.0,PHRASE,tunel z poliwęglanu 2x4
+tunel poliwęglan 3x6,10,1,1.43,0.0,EXACT,tunel poliwęglan 3x6
+tunele z poliwęglanu 3 x 4,4,1,1.43,0.0,"NEAR_PHRASE,PHRASE",szklarnia poliwęglan 3x4; tunel poliwęglan 3x4
+szklarnia 6x4,8,1,1.21,0.0,"NEAR_EXACT,NEAR_PHRASE",szklarnia 4x6; szklarnia ogrodowa 4x6
+foliaki ogrodowe,29,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+foliak ogrodowy 3x6,20,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+szklarnia z poliwęglanu,17,0,0.0,0.0,NEAR_EXACT,szklarnia z poliwęglanu 2x4
+tunel ogrodowy 2x4,15,0,0.0,0.0,EXACT,tunel ogrodowy 2x4
+foliowiec ogrodowy,15,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+tunel 3x4,11,0,0.0,0.0,NEAR_PHRASE,tunel ogrodowy 3x4
+szklarnia ogrodowa 3x6,10,0,0.0,0.0,EXACT,szklarnia ogrodowa 3x6
+szklarnia ogrodowa 3x4,10,0,0.0,0.0,EXACT,szklarnia ogrodowa 3x4
+foliak 3x4,10,0,0.0,0.0,NEAR_PHRASE,tunel ogrodowy 3x4
+szklarnia szklana 3x6,9,0,0.0,0.0,PHRASE,szklarnia 3x6
+szklarnia z poliwęglanu 3x6 wyprzedaż,9,0,0.0,0.0,"NEAR_PHRASE,PHRASE",szklarnia poliwęglan 3x6; szklarnia z poliwęglanu 3x6
+tunel ogrodowy 2 x 4,9,0,0.0,0.0,PHRASE,tunel ogrodowy 2x4
+foliak z poliwęglanu 3x4,9,0,0.0,0.0,NEAR_PHRASE,szklarnia poliwęglan 3x4
+szklarnia z poliwęglanu 4x6 producent,8,0,0.0,0.0,PHRASE,szklarnia poliwęglan 4x6; szklarnia z poliwęglanu 4x6
+foliak 3x6,7,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+tunel 3x6,7,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+szklarnia ogrodowa 4x6,6,0,0.0,0.0,EXACT,szklarnia ogrodowa 4x6
+szklarnia z poliwęglanu 2x4 6mm,6,0,0.0,0.0,PHRASE,szklarnia z poliwęglanu 2x4
+szklarnia z poliwęglanu 4x2,6,0,0.0,0.0,NEAR_PHRASE,szklarnia ogrodowa 2x4
+szklarnia poliwęglan 3x4,5,0,0.0,0.0,EXACT,szklarnia poliwęglan 3x4
+szklarnia z poliwęglanu 3x6 z fundamentem,5,0,0.0,0.0,PHRASE,szklarnia z poliwęglanu 3x6; szklarnie z poliwęglanu 3x6
+szklarnia 3 x 4,5,0,0.0,0.0,PHRASE,szklarnia 3x4
+szklarnia ogrodowa z poliwęglanu 2x4,5,0,0.0,0.0,PHRASE,szklarnia ogrodowa 2x4
+szklarnia 2 x 4,5,0,0.0,0.0,PHRASE,szklarnia 2x4
+szklarnia 6x3,5,0,0.0,0.0,NEAR_EXACT,szklarnia 3x6
+szklarnie z poliwęglanu,5,0,0.0,0.0,NEAR_EXACT,szklarnia poliwęglan 2x4; szklarnia z poliwęglanu 2x4
+tunel ogrodowy 4x3,5,0,0.0,0.0,NEAR_PHRASE,tunel ogrodowy 3x4
+szklarnia ogrodowa 2x4,4,0,0.0,0.0,EXACT,szklarnia ogrodowa 2x4
+szklarnia poliwęglan 2x4,4,0,0.0,0.0,EXACT,szklarnia poliwęglan 2x4
+tunel na działkę,4,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+szklarnia 3 6,4,0,0.0,0.0,NEAR_EXACT,szklarnia 3x6
+tunel 6x4,4,0,0.0,0.0,NEAR_PHRASE,tunel ogrodowy 4x6
+tunel 2x4,4,0,0.0,0.0,NEAR_PHRASE,tunel ogrodowy 2x4
+szklarnia aluminiowa 3x6,3,0,0.0,0.0,"NEAR_PHRASE,PHRASE",szklarnia 3x6
+szklarnia z poliwęglanu 3x6 6mm,3,0,0.0,0.0,PHRASE,szklarnia z poliwęglanu 3x6
+szklana szklarnia 3x4,3,0,0.0,0.0,"NEAR_PHRASE,PHRASE",szklarnia 3x4; szklarnia ogrodowa 3x4
+szklarnia ogrodowa z poliwęglanu 3x4,3,0,0.0,0.0,"NEAR_PHRASE,PHRASE",szklarnia ogrodowa 3x4; szklarnia poliwęglan 3x4
+szklarnia poliwęglan 3x4 6mm,3,0,0.0,0.0,PHRASE,szklarnia poliwęglan 3x4
+tunel 4x6,3,0,0.0,0.0,"NEAR_EXACT,NEAR_PHRASE",tunel ogrodowy 4x6
+tunele z poliwęglanu 3x6,3,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+foliowce ogrodowe,3,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+gotowe tunele ogrodowe,3,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+tunel 3 x 6,3,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+szklarnia 3 na 4,3,0,0.0,0.0,NEAR_PHRASE,szklarnia ogrodowa 3x4
+szklarnia 3x4m,3,0,0.0,0.0,NEAR_PHRASE,szklarnia ogrodowa 3x4
+szklarnie z poliwęglanu 4x6,2,0,0.0,0.0,EXACT,szklarnie z poliwęglanu 4x6
+szklarnia 4 x 6,2,0,0.0,0.0,"NEAR_PHRASE,PHRASE",szklarnia 4x6; szklarnia ogrodowa 4x6
+szklarnia 3x6 poliwęglan,2,0,0.0,0.0,"NEAR_EXACT,PHRASE",szklarnia 3x6; szklarnie z poliwęglanu 3x6
+szklarnia 3x6 szklana,2,0,0.0,0.0,PHRASE,szklarnia 3x6
+szklarnia ogrodowa 3 x 6,2,0,0.0,0.0,PHRASE,szklarnia 3x6
+montaż szklarni z poliwęglanu 3x6,2,0,0.0,0.0,PHRASE,szklarnia z poliwęglanu 3x6
+szklarnia z poliwęglanu 3x6 instrukcja montażu,2,0,0.0,0.0,PHRASE,szklarnia z poliwęglanu 3x6
+szklarnia z poliwęglanu 3x6 opinie,2,0,0.0,0.0,PHRASE,szklarnia z poliwęglanu 3x6
+tunel z poliwęglanu 3x6 producent,2,0,0.0,0.0,PHRASE,tunel z poliwęglanu 3x6
+szklarnia victoria 3x4,2,0,0.0,0.0,PHRASE,szklarnia 3x4
+szklarnia z poliwęglanu 3x4 6mm,2,0,0.0,0.0,PHRASE,szklarnia 3x4; szklarnia z poliwęglanu 3x4
+szklarnia z poliwęglanu 3x4 opinie,2,0,0.0,0.0,PHRASE,szklarnia 3x4; szklarnia z poliwęglanu 3x4
+tunel ogrodowy z poliwęglanu 3x4,2,0,0.0,0.0,PHRASE,tunel ogrodowy 3x4; tunel z poliwęglanu 3x4
+tunel ogrodowy 3 x 4,2,0,0.0,0.0,PHRASE,tunel ogrodowy 3x4
+foliak 4x6,2,0,0.0,0.0,"NEAR_EXACT,NEAR_PHRASE",tunel ogrodowy 4x6
+foliak 6x3,2,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+mocny tunel ogrodowy,2,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+ogrodowy tunel,2,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+tunel 6x3,2,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+tunel ogrod,2,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+tunel ogrodowa,2,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+tunel ogrodowy 6 x 3,2,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+tunel ogrodowy ze stelażem 3x6,2,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+tunele na warzywa,2,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+szklarnie 3x6,2,0,0.0,0.0,NEAR_EXACT,szklarnia 3x6
+szklarnia 2x4 poliwęglan,2,0,0.0,0.0,NEAR_EXACT,szklarnia poliwęglan 2x4
+szklarnia poliwęglan 6x4,2,0,0.0,0.0,NEAR_PHRASE,szklarnia poliwęglan 4x6
+szklarnia z poliwęglanu 6 x 4,2,0,0.0,0.0,NEAR_PHRASE,szklarnia poliwęglan 4x6
+szklarnia 4x6m,2,0,0.0,0.0,NEAR_PHRASE,szklarnia ogrodowa 4x6
+tunel lemar 3x6,2,0,0.0,0.0,NEAR_PHRASE,tunel ogrodowy 3x6
+szklarnie ogrodowe 3x4,2,0,0.0,0.0,NEAR_PHRASE,szklarnia ogrodowa 3x4
+tunel z poliwęglanu 3 x 4,2,0,0.0,0.0,NEAR_PHRASE,szklarnia poliwęglan 3x4
+szklarnia 2x4m,2,0,0.0,0.0,NEAR_PHRASE,szklarnia ogrodowa 2x4
+foliak ogrodowy 2x4,2,0,0.0,0.0,NEAR_PHRASE,tunel ogrodowy 2x4
+tunel poliwęglan 4x6,1,0,0.0,0.0,EXACT,tunel poliwęglan 4x6
+tunel ogrodowy z poliwęglanu 4x6,1,0,0.0,0.0,PHRASE,tunel z poliwęglanu 4x6
+szklarnia 3 x 6,1,0,0.0,0.0,PHRASE,szklarnia 3x6
+szklarnia domek 3x6,1,0,0.0,0.0,PHRASE,szklarnia 3x6
+szklarnia z folii 3x6,1,0,0.0,0.0,PHRASE,szklarnia 3x6
+szklarnia poliweglan 3x6,1,0,0.0,0.0,PHRASE,szklarnia poliwęglan 3x6
+ile kosztuje szklarnia z poliwęglanu 3 x 6,1,0,0.0,0.0,PHRASE,szklarnia z poliwęglanu 3x6
+tunel 3x6 z poliwęglanu,1,0,0.0,0.0,PHRASE,tunel z poliwęglanu 3x6
+tunel z poliwęglanu 3x6 cena,1,0,0.0,0.0,PHRASE,tunel z poliwęglanu 3x6
+szklarnia szklana 3x4,1,0,0.0,0.0,PHRASE,szklarnia 3x4
+szklarnia z poliwęglanu 3x4 czarna,1,0,0.0,0.0,PHRASE,szklarnia 3x4
+tunel ogrodowy 3x4 z drzwiami,1,0,0.0,0.0,PHRASE,tunel ogrodowy 3x4
+szklarnia z poliwęglanu 3x4 8mm,1,0,0.0,0.0,PHRASE,szklarnie z poliwęglanu 3x4
+gotowy foliak,1,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 4x6
+foliowiec na działkę,1,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+tunel ogrodowe,1,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+tunel ogrodowy 3x6 z drzwiami,1,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+tunel szklarniowy 3x6,1,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+tunele do ogrodu,1,0,0.0,0.0,NEAR_EXACT,tunel ogrodowy 3x6
+szklarnia ogrodowa 6x3,1,0,0.0,0.0,NEAR_EXACT,szklarnia 3x6
+tunel poliweglanowy 3x4,1,0,0.0,0.0,NEAR_EXACT,tunel poliwęglan 3x4
+szklarnia z poliwęglanu 4 x 6,1,0,0.0,0.0,NEAR_PHRASE,szklarnia poliwęglan 4x6
+szklarnia 6 x 3,1,0,0.0,0.0,NEAR_PHRASE,szklarnia 3x6
+tunel z poliwęglanu 3x6m cena,1,0,0.0,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x6
+tunel z poliwęglanu 6 x 3,1,0,0.0,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x6
+szklarnia 3 x 4 m,1,0,0.0,0.0,NEAR_PHRASE,szklarnia ogrodowa 3x4
+szklarnie 3x4,1,0,0.0,0.0,NEAR_PHRASE,szklarnia ogrodowa 3x4
+szklarnia z poliwęglanu 3 x 4 m,1,0,0.0,0.0,NEAR_PHRASE,szklarnia poliwęglan 3x4
+szklarnię z poliwęglanu 3x4,1,0,0.0,0.0,NEAR_PHRASE,szklarnia poliwęglan 3x4
+tunel 3 x 4,1,0,0.0,0.0,NEAR_PHRASE,tunel ogrodowy 3x4
+szklarnia 2 na 4,1,0,0.0,0.0,NEAR_PHRASE,szklarnia ogrodowa 2x4
+tunel poliweglan 2x4,1,0,0.0,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 2x4
+foliak 2.5 x4,1,0,0.0,0.0,NEAR_PHRASE,tunel ogrodowy 2x4
+tunel 2 x 4,1,0,0.0,0.0,NEAR_PHRASE,tunel ogrodowy 2x4

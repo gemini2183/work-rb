@@ -1,0 +1,16 @@
+Campaign,Day,Start,End
+shop_pmax,MONDAY,08:00,18:00
+shop_pmax,TUESDAY,08:00,18:00
+shop_pmax,WEDNESDAY,08:00,18:00
+shop_pmax,THURSDAY,08:00,18:00
+shop_pmax,FRIDAY,08:00,18:00
+general / search / rozmiary / katalog,MONDAY,08:00,18:00
+general / search / rozmiary / katalog,TUESDAY,08:00,18:00
+general / search / rozmiary / katalog,WEDNESDAY,08:00,18:00
+general / search / rozmiary / katalog,THURSDAY,08:00,18:00
+general / search / rozmiary / katalog,FRIDAY,08:00,18:00
+shop_tail,MONDAY,08:00,18:00
+shop_tail,TUESDAY,08:00,18:00
+shop_tail,WEDNESDAY,08:00,18:00
+shop_tail,THURSDAY,08:00,18:00
+shop_tail,FRIDAY,08:00,18:00
