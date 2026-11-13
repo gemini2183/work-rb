@@ -1,0 +1,53 @@
+Ad_group,Keyword,Match_type,Status
+2x4,szklarnia 2x4,EXACT,ENABLED
+2x4,szklarnia 2x4,PHRASE,ENABLED
+2x4,szklarnia ogrodowa 2x4,PHRASE,ENABLED
+2x4,szklarnia poliwęglan 2x4,PHRASE,ENABLED
+2x4,szklarnia z poliwęglanu 2x4,EXACT,ENABLED
+2x4,szklarnia z poliwęglanu 2x4,PHRASE,ENABLED
+2x4,szklarnie z poliwęglanu 2x4,EXACT,ENABLED
+2x4,szklarnie z poliwęglanu 2x4,PHRASE,ENABLED
+2x4,tunel ogrodowy 2x4,EXACT,ENABLED
+2x4,tunel ogrodowy 2x4,PHRASE,ENABLED
+2x4,tunel poliwęglan 2x4,PHRASE,ENABLED
+2x4,tunel z poliwęglanu 2x4,PHRASE,ENABLED
+2x4,tunel z poliwęglanu 2x4,EXACT,ENABLED
+3x4,szklarnia 3x4,PHRASE,ENABLED
+3x4,szklarnia 3x4,EXACT,ENABLED
+3x4,szklarnia ogrodowa 3x4,PHRASE,ENABLED
+3x4,szklarnia poliwęglan 3x4,PHRASE,ENABLED
+3x4,szklarnia z poliwęglanu 3x4,PHRASE,ENABLED
+3x4,szklarnia z poliwęglanu 3x4,EXACT,ENABLED
+3x4,szklarnie z poliwęglanu 3x4,EXACT,ENABLED
+3x4,szklarnie z poliwęglanu 3x4,PHRASE,ENABLED
+3x4,tunel ogrodowy 3x4,EXACT,ENABLED
+3x4,tunel ogrodowy 3x4,PHRASE,ENABLED
+3x4,tunel poliwęglan 3x4,PHRASE,ENABLED
+3x4,tunel z poliwęglanu 3x4,EXACT,ENABLED
+3x4,tunel z poliwęglanu 3x4,PHRASE,ENABLED
+3x6,szklarnia 3x6,PHRASE,ENABLED
+3x6,szklarnia 3x6,EXACT,ENABLED
+3x6,szklarnia ogrodowa 3x6,PHRASE,ENABLED
+3x6,szklarnia poliwęglan 3x6,PHRASE,ENABLED
+3x6,szklarnia z poliwęglanu 3x6,PHRASE,ENABLED
+3x6,szklarnia z poliwęglanu 3x6,EXACT,ENABLED
+3x6,szklarnie z poliwęglanu 3x6,PHRASE,ENABLED
+3x6,szklarnie z poliwęglanu 3x6,EXACT,ENABLED
+3x6,tunel ogrodowy 3x6,PHRASE,ENABLED
+3x6,tunel ogrodowy 3x6,EXACT,ENABLED
+3x6,tunel poliwęglan 3x6,PHRASE,ENABLED
+3x6,tunel z poliwęglanu 3x6,EXACT,ENABLED
+3x6,tunel z poliwęglanu 3x6,PHRASE,ENABLED
+4x6,szklarnia 4x6,EXACT,ENABLED
+4x6,szklarnia 4x6,PHRASE,ENABLED
+4x6,szklarnia ogrodowa 4x6,PHRASE,ENABLED
+4x6,szklarnia poliwęglan 4x6,PHRASE,ENABLED
+4x6,szklarnia z poliwęglanu 4x6,EXACT,ENABLED
+4x6,szklarnia z poliwęglanu 4x6,PHRASE,ENABLED
+4x6,szklarnie z poliwęglanu 4x6,PHRASE,ENABLED
+4x6,szklarnie z poliwęglanu 4x6,EXACT,ENABLED
+4x6,tunel ogrodowy 4x6,EXACT,ENABLED
+4x6,tunel ogrodowy 4x6,PHRASE,ENABLED
+4x6,tunel poliwęglan 4x6,PHRASE,ENABLED
+4x6,tunel z poliwęglanu 4x6,EXACT,ENABLED
+4x6,tunel z poliwęglanu 4x6,PHRASE,ENABLED

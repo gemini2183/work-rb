@@ -1,0 +1,49 @@
+Ad_group,Keyword,Match_type,Status
+szklarnie z poliwęglanu [exact],szklarnia z poliwęglanu,EXACT,ENABLED
+szklarnie z poliwęglanu [exact],szklarnia z poliwęglanu,BROAD,PAUSED
+szklarnie z poliwęglanu [exact],szklarnie poliweglanowe,EXACT,ENABLED
+szklarnie z poliwęglanu [exact],szklarnie poliweglanowe,BROAD,PAUSED
+szklarnie z poliwęglanu [phrase],szklarnie ogrodowe poliwęglan,BROAD,PAUSED
+szklarnie z poliwęglanu [phrase],szklarnie ogrodowe poliwęglan,PHRASE,ENABLED
+szklarnie z poliwęglanu [phrase],szklarnie ogrodowe z poliwęglanu,PHRASE,ENABLED
+szklarnie z poliwęglanu [phrase],szklarnie ogrodowe z poliwęglanu,BROAD,PAUSED
+szklarnie z poliwęglanu [phrase],szklarnie poliweglanowe,PHRASE,ENABLED
+szklarnie z poliwęglanu [phrase],szklarnie poliweglanowe,BROAD,PAUSED
+szklarnie z poliwęglanu [phrase],szklarnie z poliweglanu,BROAD,PAUSED
+szklarnie z poliwęglanu [phrase],szklarnie z poliweglanu,PHRASE,ENABLED
+szklarnie z poliwęglanu [phrase],szklarnie z poliwęglanu,EXACT,ENABLED
+szklarnie z poliwęglanu producent,szklarnie poliwęglanowe producent,BROAD,PAUSED
+szklarnie z poliwęglanu producent,szklarnie poliwęglanowe producent,PHRASE,ENABLED
+szklarnie z poliwęglanu producent,szklarnie z poliwęglanu producent,PHRASE,ENABLED
+szklarnie z poliwęglanu producent,szklarnie z poliwęglanu producent,BROAD,PAUSED
+tunele z poliwęglanu,szklarnia,BROAD,ENABLED
+tunele z poliwęglanu,szklarnie,BROAD,ENABLED
+tunele z poliwęglanu,tunele ogrodnicze z poliwęglanu,PHRASE,ENABLED
+tunele z poliwęglanu,tunele ogrodowe poliwęglanowe,PHRASE,ENABLED
+tunele z poliwęglanu,tunele ogrodowe z poliwęglanu,PHRASE,ENABLED
+tunele z poliwęglanu,tunele poliwęglanowe,PHRASE,ENABLED
+tunele z poliwęglanu,tunele z poliwęglanu,PHRASE,ENABLED
+Динамика,agro szklarnia,EXACT,ENABLED
+Динамика,agro szklarnie,EXACT,ENABLED
+Динамика,agroszklarnia,EXACT,ENABLED
+Динамика,czyste pole szklarnie,EXACT,ENABLED
+Динамика,e szklarnia,EXACT,ENABLED
+Динамика,e szklarnia kontakt,EXACT,ENABLED
+Динамика,etl szklarnia pl,EXACT,ENABLED
+Динамика,garant szklarnie,EXACT,ENABLED
+Динамика,mocna szklarnia pl,EXACT,ENABLED
+Динамика,nowa szklarnia,EXACT,ENABLED
+Динамика,poligreen,EXACT,ENABLED
+Динамика,poligreen zhuk sp k,EXACT,ENABLED
+Динамика,profimet,BROAD,ENABLED
+Динамика,szklarenka,EXACT,ENABLED
+Динамика,szklarnia,EXACT,ENABLED
+Динамика,szklarnia ogrodowa,EXACT,ENABLED
+Динамика,szklarnia qube 816,EXACT,ENABLED
+Динамика,szklarnie,EXACT,ENABLED
+Динамика,szklarnie garant,EXACT,ENABLED
+Динамика,szklarnie ogrodowe,EXACT,ENABLED
+Динамика,tunel ogrodowy,EXACT,ENABLED
+Динамика,tunele ogrodnicze,EXACT,ENABLED
+Динамика,tunele ogrodowe,EXACT,ENABLED
+Динамика,wesoły rolnik szklarnie,EXACT,ENABLED
