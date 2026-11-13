@@ -16,14 +16,14 @@
                 "id": "aad7ea81908996b1",
                 "type": "leaf",
                 "state": {
-                  "type": "split-diff-view",
+                  "type": "markdown",
                   "state": {
-                    "aFile": "Скрипты/logs/context_guard_dump.log",
-                    "bFile": "Скрипты/logs/context_guard_dump.log",
-                    "aRef": ""
+                    "file": "Задачи.md",
+                    "mode": "source",
+                    "source": false
                   },
-                  "icon": "diff",
-                  "title": "Diff: context_guard_dump.log  (Working Tree)"
+                  "icon": "lucide-file",
+                  "title": "Задачи"
                 }
               }
             ]
@@ -252,8 +252,15 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "a99e83f68c6da18d",
+  "active": "aad7ea81908996b1",
   "lastOpenFiles": [
+    "Инбокс.md",
+    "База_знаний/Проблемы/П-030_оркестратор-сам-делал-работу-агентов-и-не-назвал-нарушение.md",
+    "CLAUDE.md.tmp.27896.2a59349a3aff",
+    "CLAUDE.md.tmp.27896.c92bb6189311",
+    "База_знаний/Проблемы/П-029_state_digest-план-продаж-подписан-как-заявки.md",
+    "База_знаний/Проблемы/П-028_ga4-data-api-429-роняет-дашборд-источников.md",
+    "Клиенты/ProfiMet/Доска_план_ноября_2026-11.md",
     "CLAUDE.md.tmp.31500.ff265c9d81e9",
     "Клиенты/ProfiMet_YouTube/видео_drive/готовое/ProfiMet_YT_cold_v4_9x16.mp4",
     "Клиенты/ProfiMet_YouTube/Работы/2026-11-12_yt_cold/build/clean4_916.mp4",
@@ -262,14 +269,10 @@
     "Клиенты/ProfiMet_YouTube/видео_drive/готовое/ProfiMet_YT_cold_v4_16x9.mp4",
     "Клиенты/ProfiMet_YouTube/Работы/2026-11-12_yt_cold/build/clean4_169.mp4",
     "Клиенты/ProfiMet_YouTube/Работы/2026-11-12_yt_cold/build/list4_169.txt",
-    "Клиенты/ProfiMet_YouTube/Работы/2026-11-12_yt_cold/build/seg4_169_card.mp4",
-    "Клиенты/ProfiMet_YouTube/Работы/2026-11-12_yt_cold/build/make4.py",
     "Клиенты/ProfiMet_YouTube/Работы/2026-11-12_yt_cold/build/card4_916.png",
     "Клиенты/ProfiMet_YouTube/Работы/2026-11-12_yt_cold/build/card4_169.png",
-    "Клиенты/ProfiMet_YouTube/Работы/2026-11-12_yt_cold/build/card4.py",
     "База_знаний/Проблемы/П-027_context_guard-сигнал-приходит-в-кракозябрах.md",
     "Обзор-задач.md",
-    "Инбокс.md",
     "CLAUDE.md",
     "База_знаний/Агенты/Чекпоинты/2026-11-13_оптимизация-лимита_2.md",
     "Клиенты/Andverpersonalinjury/Работы/2026-11-11_Motorcycle2/30_план.md",
@@ -289,9 +292,6 @@
     "Архив_памяти_2026-11-11/feedback_page_switch_check_all_assets.md",
     "Архив_памяти_2026-11-11/feedback_client_passport_read_first_dont_search_files.md",
     "Архив_памяти_2026-11-11/feedback_read_sources_before_answering_no_guessing.md",
-    "Архив_памяти_2026-11-11/feedback_read_wiki_and_run_existing_script_first.md",
-    "Архив_памяти_2026-11-11/feedback_clean_window_before_evaluating.md",
-    "Архив_памяти_2026-11-11/feedback_budget_pacing_in_every_diagnostic.md",
     "Клиенты/Andverpersonalinjury/Испанская_страница_для_разработчика_2026-11-10/Эталон_скриншоты/3_вся_страница_телефон_390.png",
     "Клиенты/Andverpersonalinjury/Испанская_страница_для_разработчика_2026-11-10/Эталон_скриншоты/3_вся_страница_компьютер_1280.png",
     "Клиенты/Andverpersonalinjury/Испанская_страница_для_разработчика_2026-11-10/Эталон_скриншоты/2_форма_телефон_390.png",
