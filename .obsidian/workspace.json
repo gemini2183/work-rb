@@ -16,14 +16,14 @@
                 "id": "aad7ea81908996b1",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "split-diff-view",
                   "state": {
-                    "file": "CLAUDE.md",
-                    "mode": "source",
-                    "source": false
+                    "aFile": "Скрипты/logs/context_guard_dump.log",
+                    "bFile": "Скрипты/logs/context_guard_dump.log",
+                    "aRef": ""
                   },
-                  "icon": "lucide-file",
-                  "title": "CLAUDE"
+                  "icon": "diff",
+                  "title": "Diff: context_guard_dump.log  (Working Tree)"
                 }
               }
             ]
@@ -252,8 +252,12 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "49438aefe15a1236",
+  "active": "aad7ea81908996b1",
   "lastOpenFiles": [
+    "Обзор-задач.md",
+    "Инбокс.md",
+    "CLAUDE.md",
+    "База_знаний/Агенты/Чекпоинты/2026-11-13_оптимизация-лимита_2.md",
     "Задачи.md.tmp.28132.403698a894f8",
     "Инфраструктура.md.tmp.28132.f13a9363c060",
     "База_знаний/Агенты/Устройство_экосистемы.md.tmp.28132.0459361b2567",
@@ -264,7 +268,6 @@
     "Скрипты/__pycache__/decision_sheet.cpython-313.pyc",
     "Скрипты/sedds60q5",
     "Скрипты/decision_sheet_example_spec.json",
-    "Скрипты/decision_sheet.py",
     "Клиенты/Andverpersonalinjury/Работы/2026-11-11_Motorcycle2/30_план.md",
     "Клиенты/Andverpersonalinjury/Работы/2026-11-11_Motorcycle2/35_факты.md",
     "Клиенты/Andverpersonalinjury/Работы/2026-11-11_Motorcycle2/25_тексты.md",
@@ -287,9 +290,6 @@
     "Архив_памяти_2026-11-11/feedback_budget_pacing_in_every_diagnostic.md",
     "Архив_памяти_2026-11-11/feedback_experiment_log_expert_story.md",
     "Архив_памяти_2026-11-11/feedback_purchasers_label_new_customer_goal.md",
-    "Архив_памяти_2026-11-11/feedback_changelog_for_report_agent.md",
-    "Архив_памяти_2026-11-11/feedback_api_write_plan_table_then_approve.md",
-    "Архив_памяти_2026-11-11/feedback_every_practice_question_to_knowledge_base.md",
     "Клиенты/Andverpersonalinjury/Испанская_страница_для_разработчика_2026-11-10/Эталон_скриншоты/3_вся_страница_телефон_390.png",
     "Клиенты/Andverpersonalinjury/Испанская_страница_для_разработчика_2026-11-10/Эталон_скриншоты/3_вся_страница_компьютер_1280.png",
     "Клиенты/Andverpersonalinjury/Испанская_страница_для_разработчика_2026-11-10/Эталон_скриншоты/2_форма_телефон_390.png",
