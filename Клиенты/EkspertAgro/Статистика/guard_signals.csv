@@ -1,2 +1,3 @@
 id,date,campaign_id,campaign,type,lever,lever_from,lever_to,clean_days,median_share,budget,lost_budget_is,leads_hist,cost_hist,cpl_hist,target,p_campaign,p_pooled,gate,cost_3d,leads_3d,status,answer_date,applied_date,last_reminder,effect
 С-001,2026-11-05,24353873699,general / search / rozmiary / katalog,недобор_цена_не_подтверждена,,,,"2026-11-04,2026-11-03,2026-10-26",0.095,150.0,0.0,0,76.97,,130.0,0.274,0.342,0.8,53.31,0,справка,,,,цена заявки не подтверждена: 27% / 34% при пороге 80%
+С-002,2026-11-13,24353873699,general / search / rozmiary / katalog,недобор_цена_не_подтверждена,,,,"2026-11-09,2026-11-06,2026-11-05",0.127,150.0,0.0,0,174.0,,130.0,0.102,0.263,0.8,62.64,0,справка,,,,цена заявки не подтверждена: 10% / 26% при пороге 80%

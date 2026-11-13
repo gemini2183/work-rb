@@ -1,0 +1,241 @@
+[
+ {
+  "metricName": "DeadClickCount",
+  "information": [
+   {
+    "sessionsCount": 28,
+    "sessionsWithMetricPercentage": 21.43,
+    "sessionsWithoutMetricPercentage": 78.57,
+    "pagesViews": 6,
+    "subTotal": 7
+   }
+  ]
+ },
+ {
+  "metricName": "ExcessiveScroll",
+  "information": [
+   {
+    "sessionsCount": 28,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0
+   }
+  ]
+ },
+ {
+  "metricName": "RageClickCount",
+  "information": [
+   {
+    "sessionsCount": 28,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0
+   }
+  ]
+ },
+ {
+  "metricName": "QuickbackClick",
+  "information": [
+   {
+    "sessionsCount": 28,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0
+   }
+  ]
+ },
+ {
+  "metricName": "ScriptErrorCount",
+  "information": [
+   {
+    "sessionsCount": 28,
+    "sessionsWithMetricPercentage": 3.57,
+    "sessionsWithoutMetricPercentage": 96.43,
+    "pagesViews": 1,
+    "subTotal": 1
+   }
+  ]
+ },
+ {
+  "metricName": "ErrorClickCount",
+  "information": [
+   {
+    "sessionsCount": 28,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0
+   }
+  ]
+ },
+ {
+  "metricName": "ScrollDepth",
+  "information": [
+   {
+    "averageScrollDepth": 20.07
+   }
+  ]
+ },
+ {
+  "metricName": "Traffic",
+  "information": [
+   {
+    "totalSessionCount": 28,
+    "totalBotSessionCount": 20,
+    "distinctUserCount": 27,
+    "pagesPerSessionPercentage": 1.0357142857142858
+   }
+  ]
+ },
+ {
+  "metricName": "EngagementTime",
+  "information": [
+   {
+    "totalTime": 205,
+    "activeTime": 53
+   }
+  ]
+ },
+ {
+  "metricName": "Browser",
+  "information": [
+   {
+    "name": "Chrome",
+    "sessionsCount": 12
+   },
+   {
+    "name": "Firefox",
+    "sessionsCount": 8
+   },
+   {
+    "name": "MobileSafari",
+    "sessionsCount": 5
+   },
+   {
+    "name": "Opera",
+    "sessionsCount": 1
+   },
+   {
+    "name": "ChromeMobile",
+    "sessionsCount": 1
+   },
+   {
+    "name": "Edge",
+    "sessionsCount": 1
+   }
+  ]
+ },
+ {
+  "metricName": "Device",
+  "information": [
+   {
+    "name": "PC",
+    "sessionsCount": 22
+   },
+   {
+    "name": "Mobile",
+    "sessionsCount": 6
+   }
+  ]
+ },
+ {
+  "metricName": "OS",
+  "information": [
+   {
+    "name": "Windows",
+    "sessionsCount": 21
+   },
+   {
+    "name": "IOS",
+    "sessionsCount": 5
+   },
+   {
+    "name": "Android",
+    "sessionsCount": 1
+   },
+   {
+    "name": "MacOSX",
+    "sessionsCount": 1
+   }
+  ]
+ },
+ {
+  "metricName": "Country",
+  "information": [
+   {
+    "name": "Spain",
+    "sessionsCount": 20
+   },
+   {
+    "name": "United States",
+    "sessionsCount": 4
+   },
+   {
+    "name": "Ukraine",
+    "sessionsCount": 2
+   },
+   {
+    "name": "Norway",
+    "sessionsCount": 1
+   },
+   {
+    "name": "Canada",
+    "sessionsCount": 1
+   }
+  ]
+ },
+ {
+  "metricName": "PageTitle",
+  "information": [
+   {
+    "name": "California Pedestrian & Bicycle Accident Lawyer | Landver Law",
+    "sessionsCount": 18
+   },
+   {
+    "name": "California Motorcycle Accident Lawyer | Landver Law",
+    "sessionsCount": 7
+   },
+   {
+    "name": "Abogado de Accidentes de Auto en California | Landver Law",
+    "sessionsCount": 2
+   },
+   {
+    "name": "California Uber & Lyft Accident Lawyer | Landver Law",
+    "sessionsCount": 1
+   }
+  ]
+ },
+ {
+  "metricName": "ReferrerUrl",
+  "information": [
+   {
+    "name": "www.google.com",
+    "sessionsCount": 1
+   }
+  ]
+ },
+ {
+  "metricName": "PopularPages",
+  "information": [
+   {
+    "url": "https://landverpersonalinjury.tilda.ws/pedestrian-bicycle-accident-lawyer-california",
+    "visitsCount": 18
+   },
+   {
+    "url": "https://landverpersonalinjury.tilda.ws/motorcycle-accident-lawyer-california",
+    "visitsCount": 7
+   },
+   {
+    "url": "https://landverpersonalinjury.tilda.ws/abogado-accidentes-auto-lawyer-california",
+    "visitsCount": 2
+   },
+   {
+    "url": "https://landverpersonalinjury.tilda.ws/uber-lyft-accident-lawyer-california",
+    "visitsCount": 1
+   }
+  ]
+ }
+]
