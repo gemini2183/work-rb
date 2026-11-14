@@ -42530,3 +42530,4 @@ time,campaign_id,name,status,budget,cost_today,target_cpa,calls,leads,n,allowanc
 2026-11-14T14:52:51,24230255260,shop_pmax,3,50.0,0.0,104.0,0,0,0,208.0,0.0,,,
 2026-11-14T14:52:51,24353873699,general / search / rozmiary / katalog,2,150.0,0.0,130.0,0,0,0,260.0,0.0,,,
 2026-11-14T14:52:52,24360520273,general_pmax_rozmiary,3,100.0,0.0,130.0,0,0,0,260.0,0.0,,,
+2026-11-14T14:52:52,24397252446,,,,,87.0,,,,,,,ошибка чтения: Unauthenticated,
