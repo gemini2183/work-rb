@@ -1,0 +1,690 @@
+﻿day,camp_id,camp,seg,segname,action,conv,allconv
+2026-05-04,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,5.0
+2026-05-04,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,0.916956,0.916956
+2026-05-04,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-05-04,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,13.5
+2026-05-04,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.916956,1.916956
+2026-05-04,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.897674,2.897674
+2026-05-04,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.984123
+2026-05-04,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-04,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,9.5
+2026-05-04,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-05-04,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.44974,2.44974
+2026-05-04,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.000443
+2026-05-05,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.5
+2026-05-05,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.443072,1.443072
+2026-05-05,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.941645,0.941645
+2026-05-05,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-05-05,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-05,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,9.75
+2026-05-05,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-05-05,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.0
+2026-05-05,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-05,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2026-05-05,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-05-05,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.948837,0.948837
+2026-05-05,23775369828,pmax1_test,DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2026-05-05,23775369828,pmax1_test,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-05-05,23775369828,pmax1_test,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-05-06,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,4.666667
+2026-05-06,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,0.443073,0.443073
+2026-05-06,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.5
+2026-05-06,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,12.833333
+2026-05-06,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,2.0,2.0
+2026-05-06,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-06,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.0
+2026-05-06,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-06,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,3.5
+2026-05-06,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.849361,1.849361
+2026-05-06,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-06,23775369828,pmax1_test,DESKTOP,DESKTOP,addToCart_gtm,0.0,3.25
+2026-05-06,23775369828,pmax1_test,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2026-05-07,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,4.0
+2026-05-07,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.5
+2026-05-07,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,12.5
+2026-05-07,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,2.0,2.0
+2026-05-07,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.001538,2.001538
+2026-05-07,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.500178
+2026-05-07,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,5.0
+2026-05-07,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,form_submit_gtm,0.872255,0.872255
+2026-05-07,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-05-07,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-07,23775369828,pmax1_test,DESKTOP,DESKTOP,addToCart_gtm,0.0,4.0
+2026-05-07,23775369828,pmax1_test,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-05-08,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2026-05-08,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-05-08,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,7.0
+2026-05-08,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.931105,0.931105
+2026-05-08,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.333059
+2026-05-08,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,7.0
+2026-05-08,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,form_submit_gtm,2.0,2.0
+2026-05-08,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-08,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.0
+2026-05-08,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-08,23775369828,pmax1_test,DESKTOP,DESKTOP,addToCart_gtm,0.0,4.0
+2026-05-08,23775369828,pmax1_test,DESKTOP,DESKTOP,form_submit_gtm,0.10269,0.10269
+2026-05-08,23775369828,pmax1_test,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-05-09,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2026-05-09,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-09,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-05-09,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2026-05-09,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,3.0
+2026-05-09,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,form_submit_gtm,1.066095,1.066095
+2026-05-09,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-05-10,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,6.0
+2026-05-10,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,2.0,2.0
+2026-05-10,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-05-10,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-10,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,6.0
+2026-05-10,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,form_submit_gtm,1.076253,1.076253
+2026-05-10,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-10,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-05-11,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,5.0
+2026-05-11,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,2.0,2.0
+2026-05-11,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-05-11,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-05-11,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-05-11,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,9.0
+2026-05-11,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-05-11,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-05-11,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-11,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,19.0
+2026-05-11,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,form_submit_gtm,2.857652,2.857652
+2026-05-11,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.0,3.0
+2026-05-11,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.0
+2026-05-11,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-11,23775369828,pmax1_test,DESKTOP,DESKTOP,addToCart_gtm,0.0,3.0
+2026-05-11,23775369828,pmax1_test,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.040118,0.040118
+2026-05-11,23775369828,pmax1_test,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-05-12,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,6.0
+2026-05-12,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,2.0,2.0
+2026-05-12,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.0,3.0
+2026-05-12,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-05-12,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-05-12,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,10.5
+2026-05-12,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-05-12,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-05-12,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.0
+2026-05-12,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-05-12,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,4.5
+2026-05-12,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-12,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-05-12,23775369828,pmax1_test,DESKTOP,DESKTOP,addToCart_gtm,0.0,5.0
+2026-05-12,23775369828,pmax1_test,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-05-12,23775369828,pmax1_test,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.0
+2026-05-12,23775369828,pmax1_test,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-05-13,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,4.5
+2026-05-13,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,0.058092,0.058092
+2026-05-13,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-05-13,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,7.0
+2026-05-13,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.444436
+2026-05-13,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,4.5
+2026-05-13,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.0,3.0
+2026-05-13,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.0
+2026-05-13,23775369828,pmax1_test,DESKTOP,DESKTOP,addToCart_gtm,0.0,6.0
+2026-05-13,23775369828,pmax1_test,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-05-13,23775369828,pmax1_test,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.959882,0.959882
+2026-05-13,23775369828,pmax1_test,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.0
+2026-05-14,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,7.0
+2026-05-14,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.0,3.0
+2026-05-14,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.0
+2026-05-14,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,11.5
+2026-05-14,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,2.0,2.0
+2026-05-14,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.0
+2026-05-14,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-05-14,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2026-05-14,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-14,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-14,23775369828,pmax1_test,DESKTOP,DESKTOP,addToCart_gtm,0.0,5.5
+2026-05-14,23775369828,pmax1_test,DESKTOP,DESKTOP,form_submit_gtm,0.89731,0.89731
+2026-05-14,23775369828,pmax1_test,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.959882,0.959882
+2026-05-14,23775369828,pmax1_test,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.0
+2026-05-14,23775369828,pmax1_test,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-15,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,6.0
+2026-05-15,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,2.0,2.0
+2026-05-15,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.999797
+2026-05-15,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-15,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,6.0
+2026-05-15,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-05-15,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,3.0
+2026-05-15,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-05-15,23775369828,pmax1_test,DESKTOP,DESKTOP,addToCart_gtm,0.0,3.0
+2026-05-15,23775369828,pmax1_test,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-05-16,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.5
+2026-05-16,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,0.5,0.5
+2026-05-16,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.5
+2026-05-16,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.5
+2026-05-16,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2026-05-16,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-16,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,3.5
+2026-05-16,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,form_submit_gtm,0.5,0.5
+2026-05-16,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2026-05-16,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.5
+2026-05-17,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2026-05-18,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,11.511081
+2026-05-18,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.5
+2026-05-18,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,8.01108
+2026-05-18,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-18,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-05-18,23775369828,pmax1_test,DESKTOP,DESKTOP,addToCart_gtm,0.0,3.5
+2026-05-18,23775369828,pmax1_test,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.5
+2026-05-19,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,3.0
+2026-05-19,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-05-19,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,12.0
+2026-05-19,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-05-19,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-19,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.765916
+2026-05-19,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-19,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,4.0
+2026-05-19,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-19,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-05-20,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,2.71933
+2026-05-20,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,0.862616,0.862616
+2026-05-20,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-05-20,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,12.0
+2026-05-20,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-20,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.0
+2026-05-20,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,4.0
+2026-05-20,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-20,23775369828,pmax1_test,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2026-05-21,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2026-05-21,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-21,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,5.0
+2026-05-21,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-05-21,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.333334,0.333334
+2026-05-21,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.333334
+2026-05-21,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,1.5
+2026-05-21,23775369828,pmax1_test,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2026-05-21,23775369828,pmax1_test,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.666666,0.666666
+2026-05-21,23775369828,pmax1_test,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.666666
+2026-05-22,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,6.0
+2026-05-22,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-22,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-05-22,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,5.5
+2026-05-22,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-05-22,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.999489
+2026-05-22,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2026-05-22,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-23,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2026-05-23,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-23,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,4.0
+2026-05-23,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-23,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-05-23,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2026-05-23,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-24,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,4.0
+2026-05-24,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-05-24,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2026-05-24,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-05-24,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-24,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-25,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2026-05-25,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.5,1.5
+2026-05-25,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-05-25,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.5
+2026-05-25,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,10.0
+2026-05-25,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,0.5,0.5
+2026-05-25,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.119349
+2026-05-25,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.5
+2026-05-25,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2026-05-25,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-26,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2026-05-26,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,5.0
+2026-05-26,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.965618,1.965618
+2026-05-26,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-26,23775369828,pmax1_test,DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2026-05-26,23775369828,pmax1_test,DESKTOP,DESKTOP,form_submit_gtm,2.0,2.0
+2026-05-26,23775369828,pmax1_test,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-05-26,23775369828,pmax1_test,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-27,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,4.016305
+2026-05-27,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-05-27,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-05-27,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-27,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2026-05-27,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-27,23775369828,pmax1_test,DESKTOP,DESKTOP,addToCart_gtm,0.0,0.995382
+2026-05-28,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2026-05-28,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,0.055009,0.055009
+2026-05-28,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,6.333332
+2026-05-28,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.665791
+2026-05-28,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2026-05-28,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-05-28,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-28,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-29,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.666668
+2026-05-29,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.333159
+2026-05-29,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2026-05-29,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2026-05-29,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-29,23775369828,pmax1_test,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2026-05-29,23775369828,pmax1_test,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-29,23775369828,pmax1_test,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-30,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,3.0
+2026-05-30,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-30,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2026-05-30,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-30,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2026-05-31,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2026-05-31,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-05-31,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2026-05-31,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-04,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,14.512286
+2026-05-04,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,5.218542,5.218542
+2026-05-04,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,14.190868
+2026-05-04,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-04,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,54.5
+2026-05-04,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-05-04,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,7.631339,7.631339
+2026-05-04,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,43.688819
+2026-05-04,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-04,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,15.498506
+2026-05-04,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-05-04,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,6.553179,6.553179
+2026-05-04,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.745206
+2026-05-04,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,Звонки по объявлениям,4.0,4.0
+2026-05-04,23775369828,pmax1_test,MOBILE,MOBILE,addToCart_gtm,0.0,22.976833
+2026-05-04,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-05-05,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,12.750001
+2026-05-05,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,2.753106,2.753106
+2026-05-05,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.0,3.0
+2026-05-05,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.714695
+2026-05-05,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,3.0
+2026-05-05,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Звонки по объявлениям,0.996682,0.996682
+2026-05-05,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,38.97619
+2026-05-05,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,2.533129,2.533129
+2026-05-05,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,6.0,6.0
+2026-05-05,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,32.832887
+2026-05-05,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.492488
+2026-05-05,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,Звонки по объявлениям,1.0,1.0
+2026-05-05,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,10.333332
+2026-05-05,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,form_submit_gtm,0.666666,0.666666
+2026-05-05,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.833333,0.833333
+2026-05-05,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.5
+2026-05-05,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.5
+2026-05-05,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,Звонки по объявлениям,1.0,1.0
+2026-05-05,23775369828,pmax1_test,MOBILE,MOBILE,addToCart_gtm,0.0,109.688347
+2026-05-05,23775369828,pmax1_test,MOBILE,MOBILE,form_submit_gtm,2.056679,2.056679
+2026-05-05,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.524134
+2026-05-05,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.769013
+2026-05-06,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,14.75
+2026-05-06,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-05-06,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.51808,3.51808
+2026-05-06,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.973046
+2026-05-06,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-06,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,46.28192
+2026-05-06,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,1.093727,1.093727
+2026-05-06,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.972559,3.972559
+2026-05-06,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,28.999271
+2026-05-06,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-06,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,4.0
+2026-05-06,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-05-06,23775369828,pmax1_test,MOBILE,MOBILE,addToCart_gtm,0.0,173.754737
+2026-05-06,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-06,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,11.214369
+2026-05-06,23775369828,pmax1_test,MOBILE,MOBILE,Клик по номеру,0.0,2.006072
+2026-05-07,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,7.417573
+2026-05-07,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-05-07,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,4.970012,4.970012
+2026-05-07,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.25
+2026-05-07,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Звонки по объявлениям,1.995908,1.995908
+2026-05-07,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,24.132147
+2026-05-07,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,18.956652
+2026-05-07,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,Звонки по объявлениям,1.0,1.0
+2026-05-07,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,12.0
+2026-05-07,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-05-07,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-07,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.0
+2026-05-07,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-07,23775369828,pmax1_test,MOBILE,MOBILE,addToCart_gtm,0.0,128.494716
+2026-05-07,23775369828,pmax1_test,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-05-07,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-07,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.0
+2026-05-07,23775369828,pmax1_test,MOBILE,MOBILE,Клик по номеру,0.0,1.0
+2026-05-08,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,6.0
+2026-05-08,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-05-08,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-08,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.999102
+2026-05-08,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-08,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,28.5
+2026-05-08,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,4.339778,4.339778
+2026-05-08,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,4.0,4.0
+2026-05-08,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,21.867783
+2026-05-08,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-05-08,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,13.920475
+2026-05-08,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,form_submit_gtm,0.886642,0.886642
+2026-05-08,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,4.0,4.0
+2026-05-08,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,12.975169
+2026-05-08,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-08,23775369828,pmax1_test,MOBILE,MOBILE,addToCart_gtm,0.0,109.67142
+2026-05-08,23775369828,pmax1_test,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-05-08,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-08,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.499271
+2026-05-08,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-08,23775369828,pmax1_test,MOBILE,MOBILE,Клик по номеру,0.0,3.989045
+2026-05-09,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,2.0
+2026-05-09,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-09,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,22.0
+2026-05-09,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,0.453137,0.453137
+2026-05-09,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.333334,0.333334
+2026-05-09,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,16.0
+2026-05-09,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,6.0
+2026-05-09,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-05-09,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2026-05-10,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,21.5
+2026-05-10,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,0.042611,0.042611
+2026-05-10,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-10,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,17.332671
+2026-05-10,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,25.0
+2026-05-10,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-05-10,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,20.0
+2026-05-10,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-11,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,8.142858
+2026-05-11,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-05-11,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.779697,2.779697
+2026-05-11,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.0
+2026-05-11,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.053999
+2026-05-11,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,54.678577
+2026-05-11,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,2.082021,2.082021
+2026-05-11,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,5.049546,5.049546
+2026-05-11,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,42.749943
+2026-05-11,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.09603
+2026-05-11,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,Звонки по объявлениям,1.0,1.0
+2026-05-11,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,23.5
+2026-05-11,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,form_submit_gtm,0.082021,0.082021
+2026-05-11,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-05-11,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,20.0
+2026-05-11,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.09603
+2026-05-11,23775369828,pmax1_test,MOBILE,MOBILE,addToCart_gtm,0.0,107.483421
+2026-05-11,23775369828,pmax1_test,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-05-11,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.0,3.0
+2026-05-11,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,11.999412
+2026-05-11,23775369828,pmax1_test,MOBILE,MOBILE,Клик по номеру,0.0,4.0
+2026-05-12,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,2.25
+2026-05-12,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.04111,0.04111
+2026-05-12,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.25
+2026-05-12,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,43.304159
+2026-05-12,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,1.917979,1.917979
+2026-05-12,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.014987,1.014987
+2026-05-12,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,32.999816
+2026-05-12,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.90397
+2026-05-12,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,19.528562
+2026-05-12,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,form_submit_gtm,3.043238,3.043238
+2026-05-12,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-12,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,17.875
+2026-05-12,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,4.90397
+2026-05-12,23775369828,pmax1_test,MOBILE,MOBILE,addToCart_gtm,0.0,101.078164
+2026-05-12,23775369828,pmax1_test,MOBILE,MOBILE,form_submit_gtm,1.361696,1.361696
+2026-05-12,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,13.624363
+2026-05-13,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,9.490948
+2026-05-13,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.861341,1.861341
+2026-05-13,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.6047,1.6047
+2026-05-13,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.722169
+2026-05-13,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-05-13,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Звонки по объявлениям,1.0,1.0
+2026-05-13,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,16.296109
+2026-05-13,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,17.5
+2026-05-13,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,14.526969
+2026-05-13,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.5
+2026-05-13,23775369828,pmax1_test,MOBILE,MOBILE,addToCart_gtm,0.0,138.12602
+2026-05-13,23775369828,pmax1_test,MOBILE,MOBILE,form_submit_gtm,1.138659,1.138659
+2026-05-13,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-13,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,21.5
+2026-05-13,23775369828,pmax1_test,MOBILE,MOBILE,Клик по номеру,0.0,2.0
+2026-05-14,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,6.0
+2026-05-14,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-05-14,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.31963,1.31963
+2026-05-14,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.722169
+2026-05-14,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,20.859177
+2026-05-14,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-14,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,16.0
+2026-05-14,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,11.048913
+2026-05-14,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,form_submit_gtm,1.085716,1.085716
+2026-05-14,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.02994,2.02994
+2026-05-14,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.000044
+2026-05-14,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-14,23775369828,pmax1_test,MOBILE,MOBILE,addToCart_gtm,0.0,119.319884
+2026-05-14,23775369828,pmax1_test,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-05-14,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,20.998726
+2026-05-14,23775369828,pmax1_test,MOBILE,MOBILE,Клик по номеру,0.0,1.0
+2026-05-15,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,6.0
+2026-05-15,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.714228,2.714228
+2026-05-15,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-05-15,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,33.418119
+2026-05-15,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,3.0,3.0
+2026-05-15,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-15,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,26.499647
+2026-05-15,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-15,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,15.408366
+2026-05-15,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.96544,0.96544
+2026-05-15,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,12.0
+2026-05-15,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,Звонки по объявлениям,0.990872,0.990872
+2026-05-15,23775369828,pmax1_test,MOBILE,MOBILE,addToCart_gtm,0.0,92.353002
+2026-05-15,23775369828,pmax1_test,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-05-15,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,16.503061
+2026-05-15,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-15,23775369828,pmax1_test,MOBILE,MOBILE,Звонки по объявлениям,0.009128,0.009128
+2026-05-15,23775369828,pmax1_test,MOBILE,MOBILE,Клик по номеру,0.0,2.0
+2026-05-16,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,4.0
+2026-05-16,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.258236,1.258236
+2026-05-16,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-05-16,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,16.5
+2026-05-16,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-05-16,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,14.845234
+2026-05-16,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,5.5
+2026-05-16,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.598022,1.598022
+2026-05-16,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.5
+2026-05-17,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,23.616187
+2026-05-17,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,0.914284,0.914284
+2026-05-17,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-17,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,16.46764
+2026-05-17,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.769013
+2026-05-17,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,26.316667
+2026-05-17,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,form_submit_gtm,0.457142,0.457142
+2026-05-17,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.48448,0.48448
+2026-05-17,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,21.388698
+2026-05-17,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.496244
+2026-05-18,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,2.0
+2026-05-18,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.008236,2.008236
+2026-05-18,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.428175
+2026-05-18,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Звонки по объявлениям,0.993127,0.993127
+2026-05-18,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,30.302236
+2026-05-18,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,3.0,3.0
+2026-05-18,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.024708,1.024708
+2026-05-18,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,23.928166
+2026-05-18,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,3.0
+2026-05-18,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,Звонки по объявлениям,1.0,1.0
+2026-05-18,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,11.451087
+2026-05-18,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,form_submit_gtm,1.457142,1.457142
+2026-05-18,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.984485,1.984485
+2026-05-18,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.5
+2026-05-18,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.496244
+2026-05-18,23775369828,pmax1_test,MOBILE,MOBILE,addToCart_gtm,0.0,102.066977
+2026-05-18,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-18,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,16.903212
+2026-05-18,23775369828,pmax1_test,MOBILE,MOBILE,Клик по номеру,0.0,3.0
+2026-05-19,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,16.425314
+2026-05-19,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,0.932306,0.932306
+2026-05-19,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.244107,1.244107
+2026-05-19,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.333333
+2026-05-19,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Звонки по объявлениям,1.0,1.0
+2026-05-19,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,25.04821
+2026-05-19,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,0.017528,0.017528
+2026-05-19,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.306167,2.306167
+2026-05-19,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,19.445144
+2026-05-19,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,16.367261
+2026-05-19,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.220027,1.220027
+2026-05-19,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.666667
+2026-05-19,23775369828,pmax1_test,MOBILE,MOBILE,addToCart_gtm,0.0,92.142553
+2026-05-19,23775369828,pmax1_test,MOBILE,MOBILE,form_submit_gtm,1.5,1.5
+2026-05-19,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.999485
+2026-05-19,23775369828,pmax1_test,MOBILE,MOBILE,Клик по номеру,0.0,4.5
+2026-05-20,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,12.485634
+2026-05-20,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,0.083787,0.083787
+2026-05-20,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.5477,3.5477
+2026-05-20,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,12.5
+2026-05-20,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,20.0
+2026-05-20,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-20,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,19.0
+2026-05-20,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,10.0
+2026-05-20,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-05-20,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.0
+2026-05-20,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,Звонки по объявлениям,1.0,1.0
+2026-05-20,23775369828,pmax1_test,MOBILE,MOBILE,addToCart_gtm,0.0,73.078726
+2026-05-20,23775369828,pmax1_test,MOBILE,MOBILE,form_submit_gtm,0.137384,0.137384
+2026-05-20,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,12.846164
+2026-05-20,23775369828,pmax1_test,MOBILE,MOBILE,Клик по номеру,0.0,4.0
+2026-05-21,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,5.0
+2026-05-21,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-05-21,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,13.0
+2026-05-21,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-05-21,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.0
+2026-05-21,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,4.0
+2026-05-21,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-05-21,23775369828,pmax1_test,MOBILE,MOBILE,addToCart_gtm,0.0,63.247878
+2026-05-21,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.0
+2026-05-22,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,7.0
+2026-05-22,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-05-22,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-22,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2026-05-22,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-22,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Звонки по объявлениям,0.997961,0.997961
+2026-05-22,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,12.0
+2026-05-22,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.0
+2026-05-22,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,4.0
+2026-05-22,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.000226
+2026-05-22,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,Звонки по объявлениям,1.0,1.0
+2026-05-22,23775369828,pmax1_test,MOBILE,MOBILE,addToCart_gtm,0.0,21.469013
+2026-05-22,23775369828,pmax1_test,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-05-22,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.998472
+2026-05-22,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-23,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,5.0
+2026-05-23,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-05-23,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,7.0
+2026-05-23,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-05-23,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,8.0
+2026-05-23,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,form_submit_gtm,2.0,2.0
+2026-05-23,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.7
+2026-05-23,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-24,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,3.0
+2026-05-24,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-05-24,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,8.0
+2026-05-24,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-05-24,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.4
+2026-05-24,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-25,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,5.0
+2026-05-25,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-05-25,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.975672,0.975672
+2026-05-25,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.999266
+2026-05-25,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-25,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,21.0
+2026-05-25,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,2.0,2.0
+2026-05-25,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,4.025578,4.025578
+2026-05-25,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,21.000106
+2026-05-25,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-25,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,Звонки по объявлениям,0.997802,0.997802
+2026-05-25,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,2.043256
+2026-05-25,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-25,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,Звонки по объявлениям,1.0,1.0
+2026-05-25,23775369828,pmax1_test,MOBILE,MOBILE,addToCart_gtm,0.0,69.371832
+2026-05-25,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.0
+2026-05-25,23775369828,pmax1_test,MOBILE,MOBILE,Клик по номеру,0.0,1.0
+2026-05-26,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,7.166667
+2026-05-26,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,2.867482,2.867482
+2026-05-26,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.5
+2026-05-26,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-26,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,13.666667
+2026-05-26,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,11.5
+2026-05-26,23775369828,pmax1_test,MOBILE,MOBILE,addToCart_gtm,0.0,80.513255
+2026-05-26,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-26,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.0
+2026-05-26,23775369828,pmax1_test,MOBILE,MOBILE,Клик по номеру,0.0,2.993928
+2026-05-27,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,4.0
+2026-05-27,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.96712,0.96712
+2026-05-27,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-05-27,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,14.020651
+2026-05-27,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-05-27,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-27,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,15.000383
+2026-05-27,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,Клик по номеру,0.0,0.028666
+2026-05-27,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,2.0
+2026-05-27,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-05-27,23775369828,pmax1_test,MOBILE,MOBILE,addToCart_gtm,0.0,40.392272
+2026-05-27,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-27,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-05-27,23775369828,pmax1_test,MOBILE,MOBILE,Клик по номеру,0.0,2.968016
+2026-05-28,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,1.8
+2026-05-28,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,0.8,0.8
+2026-05-28,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.8
+2026-05-28,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.8
+2026-05-28,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Звонки по объявлениям,1.0,1.0
+2026-05-28,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,15.0
+2026-05-28,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-05-28,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.474422,1.474422
+2026-05-28,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,11.629068
+2026-05-28,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,4.0
+2026-05-28,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-28,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-05-28,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,Звонки по объявлениям,0.997722,0.997722
+2026-05-28,23775369828,pmax1_test,MOBILE,MOBILE,addToCart_gtm,0.0,37.033322
+2026-05-28,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-05-29,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,1.911262
+2026-05-29,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,0.066259,0.066259
+2026-05-29,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-05-29,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-29,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,16.533333
+2026-05-29,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,2.2,2.2
+2026-05-29,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2026-05-29,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.533333
+2026-05-29,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.2
+2026-05-29,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,2.0
+2026-05-29,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.4
+2026-05-29,23775369828,pmax1_test,MOBILE,MOBILE,addToCart_gtm,0.0,52.48215
+2026-05-29,23775369828,pmax1_test,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-05-29,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2026-05-29,23775369828,pmax1_test,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-05-30,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,3.0
+2026-05-30,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.875649,1.875649
+2026-05-30,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-05-30,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-05-30,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,3.0
+2026-05-30,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,0.066259,0.066259
+2026-05-30,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-05-30,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,3.0
+2026-05-30,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-05-31,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,15.0
+2026-05-31,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-31,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,14.0
+2026-05-31,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,6.5
+2026-05-31,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2026-05-31,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,Клик по номеру,0.0,0.015209
+2026-05-04,19153311519,Search | Brand | Pl,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.948837,0.948837
+2026-05-04,23439487425,search / szklarnia/tunel (excl. poliweglan),TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-05-05,23775369828,pmax1_test,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-05-05,23775369828,pmax1_test,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-06,23775369828,pmax1_test,TABLET,TABLET,addToCart_gtm,0.0,3.0
+2026-05-06,23775369828,pmax1_test,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-07,23775369828,pmax1_test,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-05-08,23775369828,pmax1_test,TABLET,TABLET,addToCart_gtm,0.0,2.0
+2026-05-10,19158580966,Search | Poliweglan | Pl,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-05-11,23775369828,pmax1_test,TABLET,TABLET,addToCart_gtm,0.0,4.0
+2026-05-12,23775369828,pmax1_test,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-13,23775369828,pmax1_test,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-05-13,23775369828,pmax1_test,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-14,23775369828,pmax1_test,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-05-15,23439487425,search / szklarnia/tunel (excl. poliweglan),TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-05-15,23775369828,pmax1_test,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-05-18,23775369828,pmax1_test,TABLET,TABLET,addToCart_gtm,0.0,3.0
+2026-05-18,23775369828,pmax1_test,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-21,23775369828,pmax1_test,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-05-21,23775369828,pmax1_test,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-22,19158580966,Search | Poliweglan | Pl,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-05-22,23439487425,search / szklarnia/tunel (excl. poliweglan),TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-05-22,23775369828,pmax1_test,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-05-25,23775369828,pmax1_test,TABLET,TABLET,addToCart_gtm,0.0,2.0
+2026-05-26,23775369828,pmax1_test,TABLET,TABLET,addToCart_gtm,0.0,2.0
+2026-05-26,23775369828,pmax1_test,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-05-27,23775369828,pmax1_test,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-05-28,23775369828,pmax1_test,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-05-29,23775369828,pmax1_test,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-05-31,19158580966,Search | Poliweglan | Pl,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-05-31,19158580966,Search | Poliweglan | Pl,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0

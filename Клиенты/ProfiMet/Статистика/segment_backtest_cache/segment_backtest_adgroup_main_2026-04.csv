@@ -1,0 +1,728 @@
+﻿day,camp_id,camp,seg,segname,impr,clicks,cost,conv
+2026-04-01,19153311519,Search | Brand | Pl,141501917982,profimet [exact],33,17,10.06,1.0
+2026-04-02,19153311519,Search | Brand | Pl,141501917982,profimet [exact],48,17,7.173998,1.5477
+2026-04-03,19153311519,Search | Brand | Pl,141501917982,profimet [exact],37,18,9.43,0.0
+2026-04-04,19153311519,Search | Brand | Pl,141501917982,profimet [exact],17,7,3.151818,0.0
+2026-04-06,19153311519,Search | Brand | Pl,141501917982,profimet [exact],40,23,10.767037,0.977469
+2026-04-07,19153311519,Search | Brand | Pl,141501917982,profimet [exact],82,32,15.361038,5.499217
+2026-04-08,19153311519,Search | Brand | Pl,141501917982,profimet [exact],79,28,14.718755,3.0
+2026-04-09,19153311519,Search | Brand | Pl,141501917982,profimet [exact],76,28,15.932181,5.785632
+2026-04-10,19153311519,Search | Brand | Pl,141501917982,profimet [exact],47,18,9.238452,2.666667
+2026-04-11,19153311519,Search | Brand | Pl,141501917982,profimet [exact],41,17,8.37,3.533339
+2026-04-13,19153311519,Search | Brand | Pl,141501917982,profimet [exact],77,29,34.376568,3.035306
+2026-04-14,19153311519,Search | Brand | Pl,141501917982,profimet [exact],75,33,44.601283,9.122875
+2026-04-15,19153311519,Search | Brand | Pl,141501917982,profimet [exact],59,23,28.189381,1.0
+2026-04-16,19153311519,Search | Brand | Pl,141501917982,profimet [exact],69,22,40.627535,1.476686
+2026-04-17,19153311519,Search | Brand | Pl,141501917982,profimet [exact],39,17,16.780073,1.5
+2026-04-18,19153311519,Search | Brand | Pl,141501917982,profimet [exact],21,8,4.511338,1.5
+2026-04-20,19153311519,Search | Brand | Pl,141501917982,profimet [exact],73,41,26.997752,5.529762
+2026-04-21,19153311519,Search | Brand | Pl,141501917982,profimet [exact],60,18,23.828632,1.957592
+2026-04-22,19153311519,Search | Brand | Pl,141501917982,profimet [exact],38,14,23.904333,2.0
+2026-04-23,19153311519,Search | Brand | Pl,141501917982,profimet [exact],33,15,14.90617,0.333333
+2026-04-24,19153311519,Search | Brand | Pl,141501917982,profimet [exact],34,16,19.07054,2.965365
+2026-04-25,19153311519,Search | Brand | Pl,141501917982,profimet [exact],29,13,13.476797,3.960635
+2026-04-27,19153311519,Search | Brand | Pl,141501917982,profimet [exact],54,22,21.971169,0.886158
+2026-04-28,19153311519,Search | Brand | Pl,141501917982,profimet [exact],54,21,28.755452,1.0
+2026-04-29,19153311519,Search | Brand | Pl,141501917982,profimet [exact],44,20,20.333235,1.090595
+2026-04-30,19153311519,Search | Brand | Pl,141501917982,profimet [exact],49,18,13.721101,1.99701
+2026-04-01,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],38,11,8.173899,1.38335
+2026-04-02,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],34,8,5.2,0.614809
+2026-04-03,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],21,5,1.92,0.475045
+2026-04-04,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],10,3,1.19,0.0
+2026-04-06,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],34,14,4.63,0.0
+2026-04-07,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],67,19,12.396262,1.2
+2026-04-08,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],50,16,10.751599,4.50188
+2026-04-09,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],30,10,5.995922,1.0
+2026-04-10,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],18,2,1.95,0.060877
+2026-04-11,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],23,5,3.323938,1.0
+2026-04-13,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],65,35,49.424432,5.876367
+2026-04-14,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],63,24,29.711856,6.771472
+2026-04-15,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],48,26,47.108609,1.5
+2026-04-16,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],27,9,18.990399,0.476687
+2026-04-17,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],52,21,19.095777,4.488797
+2026-04-18,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],40,20,28.133683,2.227204
+2026-04-20,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],87,50,44.242059,5.027369
+2026-04-21,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],94,32,59.219263,5.499338
+2026-04-22,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],61,32,78.251368,5.009566
+2026-04-23,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],54,19,41.317662,2.264062
+2026-04-24,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],61,18,28.342148,1.829419
+2026-04-25,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],38,16,8.376457,1.039085
+2026-04-27,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],52,23,32.993174,4.390089
+2026-04-28,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],40,14,39.169788,2.950766
+2026-04-29,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],34,10,15.219497,0.0
+2026-04-30,19153311519,Search | Brand | Pl,141501918142,profimet [phrase],26,13,9.162627,0.0
+2026-04-01,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,42,20,14.120027,4.623913
+2026-04-02,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,66,30,19.416428,3.788821
+2026-04-03,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,45,18,8.593062,1.470248
+2026-04-04,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,21,10,4.87767,0.850567
+2026-04-06,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,55,20,7.467914,0.947
+2026-04-07,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,129,75,43.395824,9.515509
+2026-04-08,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,79,43,27.329935,3.807095
+2026-04-09,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,71,37,19.332903,5.612346
+2026-04-10,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,48,23,12.282849,2.634997
+2026-04-11,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,67,35,20.571351,3.87428
+2026-04-13,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,84,50,66.225932,5.698646
+2026-04-14,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,101,54,76.270994,3.841477
+2026-04-15,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,112,54,63.436194,7.481936
+2026-04-16,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,68,28,28.182081,3.974588
+2026-04-17,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,87,35,26.406661,1.25
+2026-04-18,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,37,18,22.138279,2.126175
+2026-04-20,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,113,54,48.564685,8.5135
+2026-04-21,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,63,24,25.8727,3.904134
+2026-04-22,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,58,25,35.534941,2.895724
+2026-04-23,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,59,21,18.002886,1.987617
+2026-04-24,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,74,33,33.287578,1.26709
+2026-04-25,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,47,19,18.77082,0.463988
+2026-04-27,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,42,22,22.428902,4.330141
+2026-04-28,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,50,25,24.61437,0.92768
+2026-04-29,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,69,29,43.0689,5.451042
+2026-04-30,19153311519,Search | Brand | Pl,141501918182,szklarnie profimet,37,17,11.615993,0.0
+2026-04-02,19153311519,Search | Brand | Pl,141501918222,szklarnie poliweglan profimet,3,1,0.65,0.0
+2026-04-06,19153311519,Search | Brand | Pl,141501918222,szklarnie poliweglan profimet,3,1,0.62,0.0
+2026-04-07,19153311519,Search | Brand | Pl,141501918222,szklarnie poliweglan profimet,15,6,3.96,1.0
+2026-04-08,19153311519,Search | Brand | Pl,141501918222,szklarnie poliweglan profimet,4,2,1.52906,0.0
+2026-04-09,19153311519,Search | Brand | Pl,141501918222,szklarnie poliweglan profimet,2,0,0.0,0.0
+2026-04-10,19153311519,Search | Brand | Pl,141501918222,szklarnie poliweglan profimet,1,0,0.0,0.0
+2026-04-11,19153311519,Search | Brand | Pl,141501918222,szklarnie poliweglan profimet,4,4,1.63,0.0
+2026-04-13,19153311519,Search | Brand | Pl,141501918222,szklarnie poliweglan profimet,2,1,0.66866,0.0
+2026-04-14,19153311519,Search | Brand | Pl,141501918222,szklarnie poliweglan profimet,2,1,0.54,0.0
+2026-04-16,19153311519,Search | Brand | Pl,141501918222,szklarnie poliweglan profimet,3,3,4.86,0.953373
+2026-04-17,19153311519,Search | Brand | Pl,141501918222,szklarnie poliweglan profimet,4,1,1.39,0.037953
+2026-04-21,19153311519,Search | Brand | Pl,141501918222,szklarnie poliweglan profimet,5,2,1.682449,0.0
+2026-04-23,19153311519,Search | Brand | Pl,141501918222,szklarnie poliweglan profimet,1,1,4.0,0.0
+2026-04-25,19153311519,Search | Brand | Pl,141501918222,szklarnie poliweglan profimet,2,3,5.97,0.0
+2026-04-27,19153311519,Search | Brand | Pl,141501918222,szklarnie poliweglan profimet,3,1,1.49708,0.0
+2026-04-28,19153311519,Search | Brand | Pl,141501918222,szklarnie poliweglan profimet,4,2,0.695176,0.0
+2026-04-29,19153311519,Search | Brand | Pl,141501918222,szklarnie poliweglan profimet,1,1,4.513094,0.0
+2026-04-01,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,17,9,6.12027,2.0
+2026-04-02,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,19,6,3.799768,1.0
+2026-04-03,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,12,5,4.54,0.0
+2026-04-04,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,8,2,1.98964,0.0
+2026-04-06,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,25,9,6.908241,1.0
+2026-04-07,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,49,16,7.726117,1.027441
+2026-04-08,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,22,10,6.449636,0.918689
+2026-04-09,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,45,16,10.645215,3.0
+2026-04-10,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,15,7,3.72,0.0
+2026-04-11,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,11,7,5.605184,0.0
+2026-04-13,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,26,9,7.58,0.041158
+2026-04-14,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,43,17,18.151762,2.0
+2026-04-15,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,39,18,14.623096,2.0
+2026-04-16,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,48,15,12.89,2.0
+2026-04-17,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,18,4,2.879646,1.0
+2026-04-18,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,14,7,4.072793,0.0
+2026-04-20,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,28,8,5.48,0.437647
+2026-04-21,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,8,4,2.023194,0.0
+2026-04-22,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,22,8,5.38,2.5
+2026-04-23,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,18,8,8.751787,0.0
+2026-04-24,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,30,7,7.197672,0.00864
+2026-04-25,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,16,7,3.96,0.00864
+2026-04-27,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,26,9,9.601696,1.572267
+2026-04-28,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,24,7,11.500124,0.50864
+2026-04-29,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,8,3,4.88,1.0
+2026-04-30,19153311519,Search | Brand | Pl,141501918382,mocnaszklarnia pl,30,15,11.02254,1.0
+2026-04-01,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,87,15,17.225074,0.0
+2026-04-02,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,197,14,13.593905,1.000662
+2026-04-03,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,152,15,11.216374,0.0
+2026-04-04,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,68,2,2.764207,0.0
+2026-04-05,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,95,10,5.480968,0.5
+2026-04-06,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,289,37,23.896129,0.886158
+2026-04-07,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,366,37,26.781416,5.101042
+2026-04-08,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,179,22,16.501298,1.833333
+2026-04-09,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,71,5,8.805932,1.0
+2026-04-10,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,107,16,12.768267,2.0
+2026-04-11,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,45,2,1.402068,0.0
+2026-04-12,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,34,2,0.55,0.0
+2026-04-13,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,271,26,37.271582,2.0
+2026-04-14,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,343,37,41.701608,2.038411
+2026-04-15,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,300,31,33.155957,2.666667
+2026-04-16,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,240,29,23.61495,0.212204
+2026-04-17,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,271,45,45.309135,0.0
+2026-04-18,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,160,14,12.723994,2.035548
+2026-04-19,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,252,37,27.446921,2.925798
+2026-04-20,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,496,68,69.044111,1.916665
+2026-04-21,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,355,55,71.891432,1.416667
+2026-04-22,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,306,42,59.029994,3.262237
+2026-04-23,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,235,47,64.569325,1.5
+2026-04-24,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,178,29,29.701161,0.5
+2026-04-25,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,161,18,16.6603,2.0
+2026-04-26,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,270,37,29.729641,2.0
+2026-04-27,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,398,68,66.190733,3.21782
+2026-04-28,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,278,40,42.538607,2.866057
+2026-04-29,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,170,20,21.21199,0.0
+2026-04-30,19158580966,Search | Poliweglan | Pl,144005753173,wymiary | poliwęglan 3х6,106,18,15.94334,2.0
+2026-04-01,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,52,7,6.434324,0.060056
+2026-04-02,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,72,10,9.83794,1.0
+2026-04-03,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,70,4,2.974138,0.0
+2026-04-04,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,42,6,8.711774,0.0
+2026-04-05,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,36,4,2.511515,0.0
+2026-04-06,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,160,20,15.533834,0.0
+2026-04-07,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,150,21,13.184621,1.0
+2026-04-08,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,122,22,20.525691,0.65
+2026-04-09,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,56,9,7.909988,0.0
+2026-04-10,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,56,8,10.04,0.0
+2026-04-11,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,28,3,1.693067,0.0
+2026-04-12,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,18,5,3.212048,0.0
+2026-04-13,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,154,30,27.56515,1.108537
+2026-04-14,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,308,30,25.458432,3.299275
+2026-04-15,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,275,46,50.132243,5.398552
+2026-04-16,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,250,30,30.825114,3.027067
+2026-04-17,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,337,39,41.721832,1.5
+2026-04-18,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,213,18,13.502662,0.886158
+2026-04-19,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,295,27,21.861154,0.36471
+2026-04-20,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,584,82,81.401379,5.198554
+2026-04-21,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,438,59,74.219774,2.0
+2026-04-22,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,407,48,55.67497,4.053039
+2026-04-23,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,262,40,39.3822,1.123179
+2026-04-24,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,299,41,43.242686,1.113358
+2026-04-25,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,210,22,22.074374,0.0
+2026-04-26,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,321,41,31.90235,1.0
+2026-04-27,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,377,37,29.374552,1.0
+2026-04-28,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,306,45,50.148823,1.0
+2026-04-29,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,201,24,15.689944,2.0
+2026-04-30,19158580966,Search | Poliweglan | Pl,144005753213,wymiary | poliwęglan 3х4,201,18,16.925902,2.0
+2026-04-01,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,15,3,3.658472,0.0
+2026-04-02,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,21,2,1.95,0.0
+2026-04-03,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,20,2,1.836612,0.0
+2026-04-04,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,5,0,0.0,0.0
+2026-04-05,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,9,1,0.478742,0.0
+2026-04-06,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,43,7,4.908331,0.886158
+2026-04-07,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,46,6,4.431764,1.0
+2026-04-09,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,28,6,4.155147,0.0
+2026-04-10,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,22,2,2.85,0.0
+2026-04-11,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,10,2,0.835255,0.0
+2026-04-12,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,4,0,0.0,0.0
+2026-04-13,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,2,1,0.73,0.0
+2026-04-14,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,16,1,0.3,0.0
+2026-04-15,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,3,1,0.991847,0.0
+2026-04-16,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,5,3,3.22,0.0
+2026-04-17,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,35,1,0.83,0.0
+2026-04-18,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,28,3,1.81,0.0
+2026-04-19,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,46,4,2.790964,0.0
+2026-04-20,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,46,16,15.553452,0.021931
+2026-04-21,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,61,6,6.960846,0.0
+2026-04-22,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,34,7,6.05,0.0
+2026-04-23,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,38,5,7.53,0.978069
+2026-04-24,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,30,2,1.49,0.0
+2026-04-25,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,21,3,2.276936,0.0
+2026-04-26,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,40,6,7.65,0.0
+2026-04-27,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,47,9,11.886478,0.0
+2026-04-28,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,31,5,5.159256,0.028502
+2026-04-29,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,8,1,0.77,0.0
+2026-04-30,19158580966,Search | Poliweglan | Pl,144005753253,wymiary | poliwęglan 3х8,2,1,1.12,0.0
+2026-04-01,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,5,1,1.06,1.0
+2026-04-02,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,6,1,0.63,0.0
+2026-04-03,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,11,1,1.0,0.0
+2026-04-04,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,1,0,0.0,0.0
+2026-04-05,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,7,0,0.0,0.0
+2026-04-06,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,12,1,0.26,0.0
+2026-04-07,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,10,0,0.0,0.0
+2026-04-08,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,2,0,0.0,0.0
+2026-04-09,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,3,1,0.3,0.0
+2026-04-10,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,12,1,0.959407,0.0
+2026-04-11,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,1,0,0.0,0.0
+2026-04-12,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,3,1,0.35,0.0
+2026-04-13,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,2,0,0.0,0.0
+2026-04-14,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,14,1,0.29,0.0
+2026-04-15,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,4,0,0.0,0.0
+2026-04-16,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,38,3,3.26662,0.0
+2026-04-17,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,63,7,5.143384,0.0
+2026-04-18,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,41,8,6.752171,0.0
+2026-04-19,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,27,0,0.0,0.0
+2026-04-20,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,104,7,6.365681,1.0
+2026-04-21,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,71,10,7.877104,0.0
+2026-04-22,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,61,9,15.681837,0.0
+2026-04-23,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,47,3,2.231701,2.0
+2026-04-24,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,62,9,7.417905,0.0
+2026-04-25,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,20,0,0.0,0.0
+2026-04-26,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,31,2,0.81,0.0
+2026-04-27,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,23,1,0.625133,0.0
+2026-04-28,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,42,5,3.20782,0.0
+2026-04-29,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,18,2,3.09,0.0
+2026-04-30,19158580966,Search | Poliweglan | Pl,144005753413,wymiary | poliwęglan 3х2,34,7,4.015718,0.0
+2026-04-02,19158580966,Search | Poliweglan | Pl,144444639979,cieplarnie z poliwęglanu,1,0,0.0,0.0
+2026-04-03,19158580966,Search | Poliweglan | Pl,144444639979,cieplarnie z poliwęglanu,1,0,0.0,0.0
+2026-04-05,19158580966,Search | Poliweglan | Pl,144444639979,cieplarnie z poliwęglanu,3,1,0.65,0.0
+2026-04-07,19158580966,Search | Poliweglan | Pl,144444639979,cieplarnie z poliwęglanu,3,0,0.0,0.0
+2026-04-08,19158580966,Search | Poliweglan | Pl,144444639979,cieplarnie z poliwęglanu,6,0,0.0,0.0
+2026-04-09,19158580966,Search | Poliweglan | Pl,144444639979,cieplarnie z poliwęglanu,1,0,0.0,0.0
+2026-04-13,19158580966,Search | Poliweglan | Pl,144444639979,cieplarnie z poliwęglanu,2,0,0.0,0.0
+2026-04-14,19158580966,Search | Poliweglan | Pl,144444639979,cieplarnie z poliwęglanu,3,0,0.0,0.0
+2026-04-15,19158580966,Search | Poliweglan | Pl,144444639979,cieplarnie z poliwęglanu,4,0,0.0,0.0
+2026-04-16,19158580966,Search | Poliweglan | Pl,144444639979,cieplarnie z poliwęglanu,3,0,0.0,0.0
+2026-04-17,19158580966,Search | Poliweglan | Pl,144444639979,cieplarnie z poliwęglanu,1,0,0.0,0.0
+2026-04-18,19158580966,Search | Poliweglan | Pl,144444639979,cieplarnie z poliwęglanu,1,0,0.0,0.0
+2026-04-19,19158580966,Search | Poliweglan | Pl,144444639979,cieplarnie z poliwęglanu,3,1,0.68,0.0
+2026-04-20,19158580966,Search | Poliweglan | Pl,144444639979,cieplarnie z poliwęglanu,8,3,4.95,0.0
+2026-04-21,19158580966,Search | Poliweglan | Pl,144444639979,cieplarnie z poliwęglanu,2,0,0.0,0.0
+2026-04-22,19158580966,Search | Poliweglan | Pl,144444639979,cieplarnie z poliwęglanu,5,0,0.0,0.0
+2026-04-23,19158580966,Search | Poliweglan | Pl,144444639979,cieplarnie z poliwęglanu,8,0,0.0,0.0
+2026-04-24,19158580966,Search | Poliweglan | Pl,144444639979,cieplarnie z poliwęglanu,2,0,0.0,0.0
+2026-04-26,19158580966,Search | Poliweglan | Pl,144444639979,cieplarnie z poliwęglanu,3,0,0.0,0.0
+2026-04-27,19158580966,Search | Poliweglan | Pl,144444639979,cieplarnie z poliwęglanu,11,0,0.0,0.0
+2026-04-28,19158580966,Search | Poliweglan | Pl,144444639979,cieplarnie z poliwęglanu,7,1,1.56,0.0
+2026-04-30,19158580966,Search | Poliweglan | Pl,144444639979,cieplarnie z poliwęglanu,2,1,0.46,0.0
+2026-04-01,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,16,0,0.0,0.0
+2026-04-02,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,22,8,8.453737,0.495535
+2026-04-03,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,20,2,1.88,0.0
+2026-04-04,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,11,2,1.82,0.0
+2026-04-05,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,15,0,0.0,0.0
+2026-04-06,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,23,5,4.206455,0.0
+2026-04-07,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,42,5,2.907671,1.45
+2026-04-08,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,50,3,2.936115,0.0
+2026-04-09,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,20,0,0.0,0.0
+2026-04-10,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,20,3,1.727812,0.0
+2026-04-11,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,10,0,0.0,0.0
+2026-04-12,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,3,0,0.0,0.0
+2026-04-13,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,25,4,4.071984,0.0
+2026-04-14,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,42,5,4.649282,0.0
+2026-04-15,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,33,3,2.825199,0.0
+2026-04-16,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,74,5,3.233187,0.0
+2026-04-17,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,45,4,8.21,0.0
+2026-04-18,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,27,5,3.8,0.0
+2026-04-19,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,36,6,1.656242,0.101926
+2026-04-20,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,39,9,7.446295,1.0
+2026-04-21,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,32,6,6.066538,0.0
+2026-04-22,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,41,13,12.430213,2.0
+2026-04-23,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,42,1,0.48,0.0
+2026-04-24,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,41,6,5.921576,0.0
+2026-04-25,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,24,3,1.849812,0.0
+2026-04-26,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,43,3,3.009436,0.0
+2026-04-27,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,58,6,8.493838,1.0
+2026-04-28,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,50,5,2.77687,0.0
+2026-04-29,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,13,2,0.74891,0.0
+2026-04-30,19158580966,Search | Poliweglan | Pl,144444640019,namioty z poliwęglanu,29,3,2.6,0.0
+2026-04-01,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],95,10,10.22984,0.0
+2026-04-02,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],162,22,18.844811,1.998057
+2026-04-03,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],171,16,14.065943,0.0
+2026-04-04,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],86,5,4.115161,0.0
+2026-04-05,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],67,4,3.53,0.0
+2026-04-06,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],415,37,27.112276,1.0
+2026-04-07,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],300,38,28.438303,0.0
+2026-04-08,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],140,10,10.212556,0.950064
+2026-04-09,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],58,7,6.127072,1.0
+2026-04-10,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],99,11,9.779465,0.727256
+2026-04-11,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],27,3,2.42,0.999338
+2026-04-12,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],18,2,1.93,0.0
+2026-04-13,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],424,42,44.545489,0.0
+2026-04-14,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],345,24,25.641084,1.0
+2026-04-15,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],425,67,75.605939,4.800804
+2026-04-16,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],364,45,57.313312,3.625026
+2026-04-17,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],463,33,40.389735,2.583334
+2026-04-18,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],224,24,19.814827,0.25
+2026-04-19,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],321,37,45.312529,0.4
+2026-04-20,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],761,108,122.198962,1.83904
+2026-04-21,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],496,66,82.589359,2.0
+2026-04-22,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],541,61,70.861228,3.464452
+2026-04-23,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],464,40,46.187416,4.0
+2026-04-24,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],382,29,30.944697,0.896227
+2026-04-25,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],303,28,28.856736,3.142698
+2026-04-26,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],235,20,15.724424,0.5
+2026-04-27,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],656,57,58.096104,2.0
+2026-04-28,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],561,55,59.606098,1.0
+2026-04-29,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],304,37,39.748241,1.0
+2026-04-30,19158580966,Search | Poliweglan | Pl,148039625950,szklarnie z poliwęglanu [exact],404,38,37.277211,1.007796
+2026-04-01,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],204,45,42.162154,3.674431
+2026-04-02,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],262,52,47.388979,4.66446
+2026-04-03,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],278,34,38.362354,2.0
+2026-04-04,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],105,15,13.253747,0.0
+2026-04-05,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],104,14,9.002403,0.5
+2026-04-06,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],398,55,49.708668,0.0
+2026-04-07,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],561,82,59.264157,8.796666
+2026-04-08,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],409,64,57.520887,5.870108
+2026-04-09,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],199,33,26.726983,2.0
+2026-04-10,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],233,48,46.203504,2.0
+2026-04-11,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],89,13,4.494314,0.0
+2026-04-12,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],55,12,5.695501,0.0
+2026-04-13,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],692,101,110.288748,3.861188
+2026-04-14,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],649,90,102.659339,1.333333
+2026-04-15,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],664,102,126.808546,6.474571
+2026-04-16,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],626,81,96.704605,3.52983
+2026-04-17,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],506,81,98.949192,6.420385
+2026-04-18,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],291,37,47.0327,4.832066
+2026-04-19,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],388,52,39.786253,1.105113
+2026-04-20,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],836,117,124.487023,5.056679
+2026-04-21,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],469,66,71.904818,2.733646
+2026-04-22,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],483,61,80.670038,3.001018
+2026-04-23,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],466,61,88.312064,5.288145
+2026-04-24,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],410,41,51.526482,4.0
+2026-04-25,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],204,23,25.531067,1.013045
+2026-04-26,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],346,42,27.890217,2.127745
+2026-04-27,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],666,84,96.208235,3.5
+2026-04-28,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],630,83,89.961369,6.06628
+2026-04-29,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],382,56,60.693833,3.917016
+2026-04-30,19158580966,Search | Poliweglan | Pl,148039625990,szklarnie z poliwęglanu [phrase],306,36,43.540334,1.0
+2026-04-01,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,2,1,1.25,0.0
+2026-04-02,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,7,2,1.94,0.0
+2026-04-03,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,5,2,1.625885,0.0
+2026-04-04,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,1,0,0.0,0.0
+2026-04-06,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,3,0,0.0,0.0
+2026-04-07,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,20,5,4.89,0.0
+2026-04-08,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,2,1,1.7,0.0
+2026-04-09,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,8,0,0.0,0.0
+2026-04-10,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,13,5,5.91,0.34608
+2026-04-11,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,1,0,0.0,0.0
+2026-04-12,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,1,0,0.0,0.0
+2026-04-13,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,49,12,14.54,0.954921
+2026-04-14,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,24,8,7.82,0.0
+2026-04-15,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,17,2,4.42,0.0
+2026-04-16,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,20,2,2.33,0.0
+2026-04-17,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,13,0,0.0,0.0
+2026-04-18,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,14,3,5.04,0.0
+2026-04-19,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,11,3,2.18,0.0
+2026-04-20,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,32,8,13.548446,0.5
+2026-04-21,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,9,1,2.03,0.0
+2026-04-22,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,22,1,1.30947,0.0
+2026-04-23,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,16,7,10.14,1.978061
+2026-04-24,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,20,0,0.0,0.0
+2026-04-25,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,5,0,0.0,0.0
+2026-04-26,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,18,8,6.061834,0.886158
+2026-04-27,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,27,6,6.563993,0.032017
+2026-04-28,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,22,6,8.001088,0.0
+2026-04-29,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,6,0,0.0,0.0
+2026-04-30,19158580966,Search | Poliweglan | Pl,148039626150,szklarnie z poliwęglanu producent,4,1,1.49,0.0
+2026-04-01,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,103,22,23.602781,0.123196
+2026-04-02,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,148,23,18.65721,2.495535
+2026-04-03,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,165,31,25.474083,1.472184
+2026-04-04,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,83,16,13.691085,0.0
+2026-04-05,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,104,10,4.877266,0.0
+2026-04-06,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,292,34,25.323107,0.0
+2026-04-07,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,353,41,31.2506,3.283332
+2026-04-08,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,240,29,19.788197,1.398332
+2026-04-09,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,187,15,11.865334,0.028686
+2026-04-10,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,182,22,20.926686,1.0
+2026-04-11,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,123,11,7.154758,1.0
+2026-04-12,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,68,9,5.993198,0.0
+2026-04-13,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,454,53,62.417312,3.972547
+2026-04-14,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,390,48,58.004177,4.270388
+2026-04-15,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,384,58,67.741357,2.0
+2026-04-16,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,391,53,60.990299,3.0
+2026-04-17,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,374,46,50.783626,3.426367
+2026-04-18,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,205,12,9.854051,0.0
+2026-04-19,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,256,23,15.684685,0.0
+2026-04-20,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,466,82,84.981215,4.308718
+2026-04-21,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,345,55,68.306885,3.156964
+2026-04-22,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,306,40,44.897579,0.652046
+2026-04-23,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,296,50,57.480976,3.326023
+2026-04-24,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,287,41,53.98079,4.520059
+2026-04-25,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,233,29,26.018278,2.0
+2026-04-26,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,459,60,43.79215,0.08949
+2026-04-27,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,508,82,81.785001,6.624843
+2026-04-28,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,404,70,79.793023,1.0
+2026-04-29,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,214,34,32.38435,2.042611
+2026-04-30,19158580966,Search | Poliweglan | Pl,148039626190,tunele z poliwęglanu,259,40,54.299257,1.0
+2026-04-01,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,2,1,0.847843,0.0
+2026-04-02,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,4,0,0.0,0.0
+2026-04-04,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,1,0,0.0,0.0
+2026-04-05,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,1,1,0.426331,0.0
+2026-04-06,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,6,1,0.872477,0.0
+2026-04-08,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,4,0,0.0,0.0
+2026-04-09,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,2,0,0.0,0.0
+2026-04-12,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,1,0,0.0,0.0
+2026-04-13,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,1,0,0.0,0.0
+2026-04-16,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,14,0,0.0,0.0
+2026-04-17,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,27,6,11.51,0.0
+2026-04-18,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,5,0,0.0,0.0
+2026-04-19,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,25,4,2.101596,0.0
+2026-04-20,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,68,10,9.959839,0.0
+2026-04-21,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,62,1,1.25,0.0
+2026-04-22,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,39,7,8.272522,2.0
+2026-04-23,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,54,5,5.026499,0.0
+2026-04-24,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,43,4,3.66,0.0
+2026-04-25,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,37,5,5.93117,0.0
+2026-04-26,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,32,6,3.238415,0.0
+2026-04-27,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,21,4,5.405108,0.0
+2026-04-28,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,29,4,3.155406,0.0
+2026-04-29,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,13,2,0.93,0.0
+2026-04-30,19158580966,Search | Poliweglan | Pl,157478963675,wymiary | poliwęglan 4х6,43,3,2.616716,0.0
+2026-04-01,19158580966,Search | Poliweglan | Pl,157478963715,wymiary | poliwęglan 4х8,1,0,0.0,0.0
+2026-04-02,19158580966,Search | Poliweglan | Pl,157478963715,wymiary | poliwęglan 4х8,2,0,0.0,0.0
+2026-04-07,19158580966,Search | Poliweglan | Pl,157478963715,wymiary | poliwęglan 4х8,3,1,0.46,0.0
+2026-04-08,19158580966,Search | Poliweglan | Pl,157478963715,wymiary | poliwęglan 4х8,2,1,0.285756,0.0
+2026-04-09,19158580966,Search | Poliweglan | Pl,157478963715,wymiary | poliwęglan 4х8,3,1,0.53,0.0
+2026-04-10,19158580966,Search | Poliweglan | Pl,157478963715,wymiary | poliwęglan 4х8,1,0,0.0,0.0
+2026-04-11,19158580966,Search | Poliweglan | Pl,157478963715,wymiary | poliwęglan 4х8,1,0,0.0,0.0
+2026-04-13,19158580966,Search | Poliweglan | Pl,157478963715,wymiary | poliwęglan 4х8,3,0,0.0,0.0
+2026-04-14,19158580966,Search | Poliweglan | Pl,157478963715,wymiary | poliwęglan 4х8,6,1,0.289661,0.0
+2026-04-15,19158580966,Search | Poliweglan | Pl,157478963715,wymiary | poliwęglan 4х8,2,0,0.0,0.0
+2026-04-16,19158580966,Search | Poliweglan | Pl,157478963715,wymiary | poliwęglan 4х8,1,1,0.725106,0.0
+2026-04-19,19158580966,Search | Poliweglan | Pl,157478963715,wymiary | poliwęglan 4х8,1,0,0.0,0.0
+2026-04-21,19158580966,Search | Poliweglan | Pl,157478963715,wymiary | poliwęglan 4х8,1,0,0.0,0.0
+2026-04-22,19158580966,Search | Poliweglan | Pl,157478963715,wymiary | poliwęglan 4х8,4,0,0.0,0.0
+2026-04-23,19158580966,Search | Poliweglan | Pl,157478963715,wymiary | poliwęglan 4х8,1,0,0.0,0.0
+2026-04-24,19158580966,Search | Poliweglan | Pl,157478963715,wymiary | poliwęglan 4х8,4,1,0.8,0.0
+2026-04-26,19158580966,Search | Poliweglan | Pl,157478963715,wymiary | poliwęglan 4х8,1,0,0.0,0.0
+2026-04-27,19158580966,Search | Poliweglan | Pl,157478963715,wymiary | poliwęglan 4х8,3,1,1.24,0.5
+2026-04-30,19158580966,Search | Poliweglan | Pl,157478963715,wymiary | poliwęglan 4х8,2,0,0.0,0.0
+2026-04-01,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,11,1,0.85,0.0
+2026-04-02,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,22,3,2.21,0.0
+2026-04-03,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,22,2,1.689299,0.5
+2026-04-04,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,2,0,0.0,0.0
+2026-04-05,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,14,0,0.0,0.0
+2026-04-06,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,45,3,1.837509,0.0
+2026-04-07,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,74,5,3.846338,0.0
+2026-04-08,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,9,1,0.43,1.0
+2026-04-09,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,20,1,0.5,0.0
+2026-04-10,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,18,1,0.97,0.0
+2026-04-11,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,4,0,0.0,0.0
+2026-04-12,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,5,0,0.0,0.0
+2026-04-13,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,32,3,2.21,1.0
+2026-04-14,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,20,4,5.093559,0.0
+2026-04-15,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,6,0,0.0,0.0
+2026-04-16,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,19,4,4.392666,1.0
+2026-04-17,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,213,26,22.882058,2.0
+2026-04-18,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,139,14,8.97,0.517774
+2026-04-19,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,134,20,16.646003,1.23971
+2026-04-20,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,387,70,73.418617,5.046951
+2026-04-21,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,251,30,38.345998,1.967447
+2026-04-22,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,254,19,24.091757,1.0
+2026-04-23,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,222,32,38.207586,2.0
+2026-04-24,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,225,19,20.363814,2.0
+2026-04-25,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,145,15,13.991836,1.0
+2026-04-26,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,181,8,3.83298,0.0
+2026-04-27,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,330,37,37.646444,1.0
+2026-04-28,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,321,32,33.171202,2.059809
+2026-04-29,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,143,12,9.812203,0.0
+2026-04-30,19158580966,Search | Poliweglan | Pl,157478963755,wymiary | poliwęglan 2х4,126,18,18.119587,0.0
+2026-04-01,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,6,0,0.0,0.0
+2026-04-02,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,12,2,1.09,0.0
+2026-04-03,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,15,1,0.75,0.475045
+2026-04-04,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,5,0,0.0,0.0
+2026-04-05,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,11,0,0.0,0.0
+2026-04-06,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,33,2,1.44,0.0
+2026-04-07,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,18,4,3.15,2.0
+2026-04-08,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,5,0,0.0,0.0
+2026-04-09,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,2,0,0.0,0.0
+2026-04-10,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,8,1,0.96,0.0
+2026-04-13,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,3,1,2.43,0.0
+2026-04-14,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,17,2,3.92,0.0
+2026-04-15,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,2,0,0.0,0.0
+2026-04-16,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,62,7,8.086979,0.0
+2026-04-17,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,122,13,14.756268,0.961589
+2026-04-18,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,65,8,7.627719,0.0
+2026-04-19,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,59,6,2.79204,0.23971
+2026-04-20,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,228,26,24.548025,2.5
+2026-04-21,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,123,12,12.939836,2.0
+2026-04-22,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,118,13,12.961654,0.113842
+2026-04-23,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,66,11,13.687771,0.0
+2026-04-24,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,67,9,8.552621,0.0
+2026-04-25,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,32,6,4.139602,1.0
+2026-04-26,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,33,0,0.0,0.0
+2026-04-27,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,48,2,1.44,0.0
+2026-04-28,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,63,6,8.440184,0.0
+2026-04-29,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,27,3,4.88,0.0
+2026-04-30,19158580966,Search | Poliweglan | Pl,186328500855,wymiary | poliwęglan 2 5х4,26,1,0.83,0.0
+2026-04-02,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,4,1,2.96,0.0
+2026-04-03,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,1,0,0.0,0.0
+2026-04-06,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,2,1,0.44,0.0
+2026-04-07,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,2,1,0.48,0.0
+2026-04-08,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,2,0,0.0,0.0
+2026-04-09,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,1,0,0.0,0.0
+2026-04-13,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,7,0,0.0,0.0
+2026-04-14,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,3,3,4.63,1.0
+2026-04-15,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,8,1,1.15,0.0
+2026-04-16,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,43,7,5.547441,0.0
+2026-04-17,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,32,7,4.346655,1.0
+2026-04-18,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,15,0,0.0,0.0
+2026-04-19,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,12,1,0.75,0.0
+2026-04-20,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,68,5,5.89,0.0
+2026-04-21,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,31,3,3.148756,1.0
+2026-04-22,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,39,6,4.308751,0.0
+2026-04-23,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,35,2,4.37,0.0
+2026-04-24,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,33,3,2.62,0.0
+2026-04-25,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,5,0,0.0,0.0
+2026-04-26,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,49,8,5.488749,0.666667
+2026-04-27,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,197,22,17.368691,3.0
+2026-04-28,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,288,25,21.509567,1.500662
+2026-04-29,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,124,15,13.210878,1.333333
+2026-04-30,19158580966,Search | Poliweglan | Pl,187715757242,mala szklarnia z poliweglanu,156,19,16.004008,1.332671
+2026-04-15,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061122,tunele warzywne,16,0,0.0,0.0
+2026-04-16,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061122,tunele warzywne,23,0,0.0,0.0
+2026-04-17,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061122,tunele warzywne,84,0,0.0,0.0
+2026-04-18,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061122,tunele warzywne,28,2,1.49,0.0
+2026-04-19,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061122,tunele warzywne,75,4,4.03,0.0
+2026-04-20,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061122,tunele warzywne,49,7,5.19,0.0
+2026-04-21,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061122,tunele warzywne,14,0,0.0,0.0
+2026-04-22,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061122,tunele warzywne,26,2,2.152032,0.0
+2026-04-23,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061122,tunele warzywne,40,0,0.0,0.0
+2026-04-24,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061122,tunele warzywne,47,0,0.0,0.0
+2026-04-25,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061122,tunele warzywne,57,1,0.909777,0.0
+2026-04-26,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061122,tunele warzywne,53,0,0.0,0.0
+2026-04-27,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061122,tunele warzywne,80,2,2.54,0.0
+2026-04-28,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061122,tunele warzywne,32,4,4.52626,0.0
+2026-04-29,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061122,tunele warzywne,54,2,1.41,0.0
+2026-04-30,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061122,tunele warzywne,12,0,0.0,0.0
+2026-04-15,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061162,tunele ogrodnicze,35,0,0.0,0.0
+2026-04-16,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061162,tunele ogrodnicze,71,4,2.79,0.0
+2026-04-17,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061162,tunele ogrodnicze,179,11,9.41,0.0
+2026-04-18,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061162,tunele ogrodnicze,52,7,7.02,0.0
+2026-04-19,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061162,tunele ogrodnicze,112,8,6.247529,0.03296
+2026-04-20,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061162,tunele ogrodnicze,78,4,2.97,0.096704
+2026-04-21,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061162,tunele ogrodnicze,38,2,1.15,0.0
+2026-04-22,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061162,tunele ogrodnicze,53,4,5.79,0.0
+2026-04-23,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061162,tunele ogrodnicze,71,2,1.9,0.0
+2026-04-24,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061162,tunele ogrodnicze,42,2,3.279406,0.0
+2026-04-25,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061162,tunele ogrodnicze,53,2,1.113333,0.0
+2026-04-26,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061162,tunele ogrodnicze,80,5,3.227301,0.0
+2026-04-27,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061162,tunele ogrodnicze,74,4,4.709999,0.0
+2026-04-28,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061162,tunele ogrodnicze,30,2,2.04852,0.0
+2026-04-29,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061162,tunele ogrodnicze,82,6,5.259317,0.0
+2026-04-30,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061162,tunele ogrodnicze,22,2,2.25,0.0
+2026-04-15,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061322,tunele na pomidory,10,0,0.0,0.0
+2026-04-16,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061322,tunele na pomidory,28,2,0.91,0.0
+2026-04-17,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061322,tunele na pomidory,35,0,0.0,0.0
+2026-04-18,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061322,tunele na pomidory,15,2,1.97,0.0
+2026-04-19,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061322,tunele na pomidory,16,0,0.0,0.0
+2026-04-20,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061322,tunele na pomidory,8,1,0.73,0.0
+2026-04-21,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061322,tunele na pomidory,5,0,0.0,0.0
+2026-04-22,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061322,tunele na pomidory,2,0,0.0,0.0
+2026-04-23,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061322,tunele na pomidory,3,0,0.0,0.0
+2026-04-25,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061322,tunele na pomidory,1,0,0.0,0.0
+2026-04-26,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061322,tunele na pomidory,10,1,0.36,0.0
+2026-04-27,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061322,tunele na pomidory,18,1,0.28,0.0
+2026-04-28,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061322,tunele na pomidory,6,0,0.0,0.0
+2026-04-29,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061322,tunele na pomidory,14,0,0.0,0.0
+2026-04-30,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061322,tunele na pomidory,7,0,0.0,0.0
+2026-04-15,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061362,szklarnie na pomidory,13,0,0.0,0.0
+2026-04-16,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061362,szklarnie na pomidory,29,1,0.5,0.0
+2026-04-17,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061362,szklarnie na pomidory,46,0,0.0,0.0
+2026-04-18,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061362,szklarnie na pomidory,22,1,0.73,0.0
+2026-04-19,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061362,szklarnie na pomidory,39,6,5.06,0.0
+2026-04-20,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061362,szklarnie na pomidory,36,2,0.34,0.0
+2026-04-21,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061362,szklarnie na pomidory,16,1,1.1,0.333333
+2026-04-22,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061362,szklarnie na pomidory,13,0,0.0,0.0
+2026-04-23,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061362,szklarnie na pomidory,18,1,0.845367,0.0
+2026-04-24,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061362,szklarnie na pomidory,25,0,0.0,0.0
+2026-04-25,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061362,szklarnie na pomidory,14,0,0.0,0.0
+2026-04-26,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061362,szklarnie na pomidory,21,0,0.0,0.0
+2026-04-27,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061362,szklarnie na pomidory,25,3,1.452406,0.0
+2026-04-28,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061362,szklarnie na pomidory,20,0,0.0,0.0
+2026-04-29,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061362,szklarnie na pomidory,18,0,0.0,0.0
+2026-04-30,23439487425,search / szklarnia/tunel (excl. poliweglan),193629061362,szklarnie na pomidory,10,1,4.81,0.0
+2026-04-15,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864169,cena,11,0,0.0,0.0
+2026-04-16,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864169,cena,21,0,0.0,0.0
+2026-04-17,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864169,cena,33,3,1.11,0.0
+2026-04-18,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864169,cena,18,4,3.46,0.0
+2026-04-19,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864169,cena,62,9,7.07,0.0
+2026-04-20,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864169,cena,42,7,5.62,0.0
+2026-04-21,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864169,cena,16,0,0.0,0.0
+2026-04-22,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864169,cena,10,0,0.0,0.0
+2026-04-23,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864169,cena,12,0,0.0,0.0
+2026-04-24,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864169,cena,12,0,0.0,0.0
+2026-04-25,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864169,cena,5,1,0.62,0.0
+2026-04-26,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864169,cena,7,0,0.0,0.0
+2026-04-27,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864169,cena,21,1,0.18,0.0
+2026-04-28,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864169,cena,7,0,0.0,0.0
+2026-04-29,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864169,cena,11,0,0.0,0.0
+2026-04-30,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864169,cena,6,0,0.0,0.0
+2026-04-15,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864209,szklarnia [exact],39,2,1.68,0.0
+2026-04-16,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864209,szklarnia [exact],117,7,3.98,0.0
+2026-04-17,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864209,szklarnia [exact],193,4,3.41,0.0
+2026-04-18,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864209,szklarnia [exact],188,4,2.87,0.0
+2026-04-19,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864209,szklarnia [exact],609,53,44.487419,0.0
+2026-04-20,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864209,szklarnia [exact],454,30,25.16,0.0
+2026-04-21,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864209,szklarnia [exact],195,9,7.34659,0.0
+2026-04-22,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864209,szklarnia [exact],258,6,9.815972,0.0
+2026-04-23,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864209,szklarnia [exact],293,8,12.951774,0.0
+2026-04-24,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864209,szklarnia [exact],169,10,16.966478,0.0
+2026-04-25,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864209,szklarnia [exact],129,4,6.86,0.0
+2026-04-26,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864209,szklarnia [exact],123,5,4.634545,0.0
+2026-04-27,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864209,szklarnia [exact],264,16,25.430224,0.0
+2026-04-28,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864209,szklarnia [exact],102,4,4.004258,0.0
+2026-04-29,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864209,szklarnia [exact],241,11,15.112566,1.5
+2026-04-30,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864209,szklarnia [exact],75,2,3.47,0.0
+2026-04-15,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864369,szklarnia producent polski,3,2,1.0,0.0
+2026-04-16,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864369,szklarnia producent polski,8,0,0.0,0.0
+2026-04-17,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864369,szklarnia producent polski,6,0,0.0,0.0
+2026-04-18,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864369,szklarnia producent polski,11,1,1.26,0.0
+2026-04-19,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864369,szklarnia producent polski,17,2,1.49,0.0
+2026-04-20,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864369,szklarnia producent polski,22,7,5.209928,0.0
+2026-04-21,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864369,szklarnia producent polski,21,2,2.25,0.0
+2026-04-22,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864369,szklarnia producent polski,37,6,8.185811,0.0
+2026-04-23,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864369,szklarnia producent polski,31,3,5.845279,0.0
+2026-04-24,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864369,szklarnia producent polski,19,3,5.08,0.0
+2026-04-25,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864369,szklarnia producent polski,14,1,2.44,0.0
+2026-04-26,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864369,szklarnia producent polski,17,3,3.401606,0.0
+2026-04-27,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864369,szklarnia producent polski,48,3,6.82,0.0
+2026-04-28,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864369,szklarnia producent polski,10,0,0.0,0.0
+2026-04-29,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864369,szklarnia producent polski,33,1,1.699992,0.0
+2026-04-30,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864369,szklarnia producent polski,3,1,2.36,0.0
+2026-04-15,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864409,szklarnia ogrodowa,260,32,16.274903,2.953373
+2026-04-16,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864409,szklarnia ogrodowa,377,43,22.062121,4.999338
+2026-04-17,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864409,szklarnia ogrodowa,1080,103,64.450573,3.075431
+2026-04-18,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864409,szklarnia ogrodowa,1068,86,63.630109,1.0
+2026-04-19,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864409,szklarnia ogrodowa,3061,366,259.552389,3.04027
+2026-04-20,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864409,szklarnia ogrodowa,2384,280,205.438174,11.807165
+2026-04-21,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864409,szklarnia ogrodowa,926,119,159.915461,18.130956
+2026-04-22,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864409,szklarnia ogrodowa,1082,102,137.18531,6.982847
+2026-04-23,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864409,szklarnia ogrodowa,1066,81,153.566125,3.503315
+2026-04-24,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864409,szklarnia ogrodowa,723,63,91.21907,5.868052
+2026-04-25,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864409,szklarnia ogrodowa,895,65,68.244502,5.028698
+2026-04-26,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864409,szklarnia ogrodowa,1044,104,107.531783,5.954813
+2026-04-27,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864409,szklarnia ogrodowa,1218,115,134.793138,18.252946
+2026-04-28,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864409,szklarnia ogrodowa,574,48,70.015456,5.062087
+2026-04-29,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864409,szklarnia ogrodowa,855,62,77.735635,2.5
+2026-04-30,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864409,szklarnia ogrodowa,337,30,38.450983,2.0
+2026-04-15,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864449,tunele ogrodowe,347,17,10.34,1.430059
+2026-04-16,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864449,tunele ogrodowe,557,40,25.762505,0.476687
+2026-04-17,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864449,tunele ogrodowe,812,53,35.549202,0.0
+2026-04-18,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864449,tunele ogrodowe,730,47,37.493424,0.0
+2026-04-19,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864449,tunele ogrodowe,1513,125,99.799298,0.0
+2026-04-20,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864449,tunele ogrodowe,1519,134,106.325451,4.388448
+2026-04-21,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864449,tunele ogrodowe,548,33,22.564606,2.0
+2026-04-22,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864449,tunele ogrodowe,553,25,24.146263,2.0
+2026-04-23,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864449,tunele ogrodowe,722,40,45.890028,0.0
+2026-04-24,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864449,tunele ogrodowe,555,46,50.962451,1.0
+2026-04-25,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864449,tunele ogrodowe,671,29,24.079164,1.0
+2026-04-26,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864449,tunele ogrodowe,925,34,27.918459,0.0
+2026-04-27,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864449,tunele ogrodowe,1143,76,81.565752,1.119618
+2026-04-28,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864449,tunele ogrodowe,378,29,28.079005,1.119622
+2026-04-29,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864449,tunele ogrodowe,604,33,38.553201,0.0
+2026-04-30,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864449,tunele ogrodowe,181,8,7.563552,0.0
+2026-04-15,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864609,kupić,32,0,0.0,0.0
+2026-04-16,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864609,kupić,53,3,2.01,0.0
+2026-04-17,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864609,kupić,104,3,2.698241,0.0
+2026-04-18,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864609,kupić,33,0,0.0,0.0
+2026-04-19,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864609,kupić,53,3,2.74,0.0
+2026-04-20,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864609,kupić,20,2,1.46,0.75
+2026-04-21,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864609,kupić,8,0,0.0,0.0
+2026-04-22,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864609,kupić,9,4,6.04262,0.0
+2026-04-23,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864609,kupić,4,0,0.0,0.0
+2026-04-24,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864609,kupić,2,0,0.0,0.0
+2026-04-25,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864609,kupić,7,1,0.737227,0.0
+2026-04-26,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864609,kupić,14,0,0.0,0.0
+2026-04-27,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864609,kupić,7,2,0.939834,0.0
+2026-04-28,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864609,kupić,1,0,0.0,0.0
+2026-04-29,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864609,kupić,3,1,1.148332,1.0
+2026-04-30,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864609,kupić,5,0,0.0,0.0
+2026-04-15,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864649,szklarnia producent,4,1,0.5,0.0
+2026-04-16,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864649,szklarnia producent,6,2,0.938904,0.0
+2026-04-17,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864649,szklarnia producent,13,3,1.63,0.0
+2026-04-18,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864649,szklarnia producent,10,0,0.0,0.0
+2026-04-19,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864649,szklarnia producent,18,1,0.74,0.0
+2026-04-20,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864649,szklarnia producent,37,14,10.549451,1.719802
+2026-04-21,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864649,szklarnia producent,37,4,5.99,0.0
+2026-04-22,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864649,szklarnia producent,54,10,22.12,0.0
+2026-04-23,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864649,szklarnia producent,47,11,25.636562,0.0
+2026-04-24,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864649,szklarnia producent,25,4,6.026152,0.0
+2026-04-25,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864649,szklarnia producent,28,5,9.780374,1.0
+2026-04-26,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864649,szklarnia producent,32,11,10.736994,0.0
+2026-04-27,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864649,szklarnia producent,40,9,20.087981,0.0
+2026-04-28,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864649,szklarnia producent,16,2,3.245648,0.0
+2026-04-29,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864649,szklarnia producent,38,5,7.171269,0.0
+2026-04-30,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864649,szklarnia producent,6,1,1.1,0.0
+2026-04-15,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864689,reszta,4,0,0.0,0.0
+2026-04-16,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864689,reszta,13,0,0.0,0.0
+2026-04-17,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864689,reszta,17,1,0.62,0.0
+2026-04-18,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864689,reszta,15,0,0.0,0.0
+2026-04-19,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864689,reszta,22,2,1.48,0.0
+2026-04-20,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864689,reszta,27,0,0.0,0.0
+2026-04-21,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864689,reszta,12,2,1.52769,0.0
+2026-04-22,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864689,reszta,13,1,1.1,0.0
+2026-04-23,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864689,reszta,6,0,0.0,0.0
+2026-04-24,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864689,reszta,7,0,0.0,0.0
+2026-04-25,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864689,reszta,6,1,2.500077,0.0
+2026-04-26,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864689,reszta,5,0,0.0,0.0
+2026-04-27,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864689,reszta,12,2,0.911079,0.0
+2026-04-28,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864689,reszta,2,0,0.0,0.0
+2026-04-29,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864689,reszta,12,2,5.1,0.0
+2026-04-30,23439487425,search / szklarnia/tunel (excl. poliweglan),194112864689,reszta,3,0,0.0,0.0

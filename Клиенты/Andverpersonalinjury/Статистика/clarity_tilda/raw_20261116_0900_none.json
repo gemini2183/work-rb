@@ -1,0 +1,181 @@
+[
+ {
+  "metricName": "DeadClickCount",
+  "information": [
+   {
+    "sessionsCount": 2,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0
+   }
+  ]
+ },
+ {
+  "metricName": "ExcessiveScroll",
+  "information": [
+   {
+    "sessionsCount": 2,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0
+   }
+  ]
+ },
+ {
+  "metricName": "RageClickCount",
+  "information": [
+   {
+    "sessionsCount": 2,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0
+   }
+  ]
+ },
+ {
+  "metricName": "QuickbackClick",
+  "information": [
+   {
+    "sessionsCount": 2,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0
+   }
+  ]
+ },
+ {
+  "metricName": "ScriptErrorCount",
+  "information": [
+   {
+    "sessionsCount": 2,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0
+   }
+  ]
+ },
+ {
+  "metricName": "ErrorClickCount",
+  "information": [
+   {
+    "sessionsCount": 2,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0
+   }
+  ]
+ },
+ {
+  "metricName": "ScrollDepth",
+  "information": [
+   {
+    "averageScrollDepth": 7.5
+   }
+  ]
+ },
+ {
+  "metricName": "Traffic",
+  "information": [
+   {
+    "totalSessionCount": 2,
+    "totalBotSessionCount": 5,
+    "distinctUserCount": 2,
+    "pagesPerSessionPercentage": 1
+   }
+  ]
+ },
+ {
+  "metricName": "EngagementTime",
+  "information": [
+   {
+    "totalTime": 170,
+    "activeTime": 16
+   }
+  ]
+ },
+ {
+  "metricName": "Browser",
+  "information": [
+   {
+    "name": "GoogleApp",
+    "sessionsCount": 1
+   },
+   {
+    "name": "ChromeMobile",
+    "sessionsCount": 1
+   }
+  ]
+ },
+ {
+  "metricName": "Device",
+  "information": [
+   {
+    "name": "Mobile",
+    "sessionsCount": 1
+   },
+   {
+    "name": "Tablet",
+    "sessionsCount": 1
+   }
+  ]
+ },
+ {
+  "metricName": "OS",
+  "information": [
+   {
+    "name": "IOS",
+    "sessionsCount": 2
+   }
+  ]
+ },
+ {
+  "metricName": "Country",
+  "information": [
+   {
+    "name": "United States",
+    "sessionsCount": 2
+   }
+  ]
+ },
+ {
+  "metricName": "PageTitle",
+  "information": [
+   {
+    "name": "California Car & Truck Accident Lawyer | Landver Law",
+    "sessionsCount": 1
+   },
+   {
+    "name": "California Pedestrian & Bicycle Accident Lawyer | Landver Law",
+    "sessionsCount": 1
+   }
+  ]
+ },
+ {
+  "metricName": "ReferrerUrl",
+  "information": [
+   {
+    "name": "www.google.com",
+    "sessionsCount": 2
+   }
+  ]
+ },
+ {
+  "metricName": "PopularPages",
+  "information": [
+   {
+    "url": "https://landverpersonalinjury.tilda.ws/california-car-truck-accident",
+    "visitsCount": 1
+   },
+   {
+    "url": "https://landverpersonalinjury.tilda.ws/pedestrian-bicycle-accident-lawyer-california",
+    "visitsCount": 1
+   }
+  ]
+ }
+]

@@ -1,0 +1,6 @@
+Клиент: Andverpersonalinjury | период 2026-11-10 → 2026-11-17
+Сохранено: D:\GitHub\work-rb\Клиенты\Andverpersonalinjury\Статистика\gads_impression_share_2026-11-10_to_2026-11-17.csv (1 кампаний)
+                                    Campaign  Impressions  Clicks  Impression_share  Lost_IS_budget  Lost_IS_rank  Top_IS  Absolute_top_IS
+search / car+truck injuries / s / lp - tilda          890       3            0.6898             0.0        0.3102  0.2423           0.1174
+
+Чтение: Lost_IS_budget близко к 0 -> бюджет НЕ узкое место, даже если потрачено намного меньше дневного лимита. Высокий Lost_IS_rank -> проблема в ставке/Quality Score, поднимать бюджет бессмысленно.

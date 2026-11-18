@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# coding: utf-8
 """Единый стандарт «заявка из Google Ads» (решение пользователя 2026-11-05). ТОЛЬКО ЧТЕНИЕ.
 
 Заявка = уникальный звонок Ringostat (источник Google Ads, схема уникальности как в мониторе RedBird)
@@ -10,7 +12,17 @@
 Что не входит в «Google»: формы Facebook, другие источники и формы без метки считаются отдельными строками («источник неизвестен»
 не приписывается Google молча). Конверсии Google Ads в счёт заявок не входят, они выводятся только для сравнения.
 
-Запуск (из папки Скрипты):  PYTHONUTF8=1 python leads_standard.py --client ProfiMet [--from 2026-11-01] [--daily]
+Режим звонков из объявлений (решение пользователя 2026-11-16, только ProfiMet проверен):
+  --calls-from-ads ringostat (по умолчанию, старое поведение)  звонок канала «Google CPC calls from ads» остаётся заявкой Ringostat,
+        call_view лишь подставляет кампанию; строки call_view без пары в заявки не входят.
+  --calls-from-ads call_view  звонки канала «calls from ads» (статический номер звонкового ассета; у ProfiMet +48579773187) из заявок
+        Ringostat УБИРАЮТСЯ; заявкой становится каждая строка call_view за период (кампания известна Google Ads), кроме строк, уже
+        посчитанных Ringostat по другим каналам (статика PMax, динамика, поиск) в пределах ±5 с (DUP_SEC): они не дублируются, есть счётчик «дубли».
+        Динамика, статика PMax и формы Supabase не меняются. Те же фильтры, что у звонков Ringostat: в коде звонков нет фильтра по
+        длительности и статусу (только call_type=in, источник Google, уникальность 60 дней по номеру, excluded_campaigns); у call_view
+        номера звонящего нет, уникальность по номеру к нему не применима (повторные звонящие не отсекаются).
+
+Запуск (из папки Скрипты):  PYTHONUTF8=1 python leads_standard.py --client ProfiMet [--from 2026-11-01] [--daily] [--calls-from-ads call_view]
 Модуль: month_leads(folder, d0=None) → dict, его читает state_digest.py (раздел [4]).
 """
 import argparse
@@ -31,6 +43,8 @@ UNRESOLVED = "__unresolved_pmax__"   # как в gads_spend_guard_cpa.UNRESOLVED
 MON_DIR = r"E:\PythonProjects\RedBird\monitoring scripts\monitoring"
 WARSAW = "Europe/Warsaw"
 MATCH_SEC = 180   # допуск сопоставления звонка Ringostat со строкой call_view
+DUP_SEC = 5   # допуск «это один и тот же звонок» для поиска дублей call_view и Ringostat: у 209 пар за 01.08.2025–16.11.2026 сдвиг 0–4 с (замер 16.11.2026); ±180 с даёт случайные совпадения
+ADS_POOL_MARK = "calls from ads"   # имя пула Ringostat «Google CPC calls from ads» = номер звонкового ассета (ProfiMet +48579773187, Коллтрекинг/Пул_номеров.yaml)
 
 
 def _p9(phone):
@@ -126,6 +140,39 @@ def attach_call_view(calls, cv):
         elif r["camp"] != cv.at[j, "camp"]:
             mismatch += 1
     return calls, cv[~cv.index.isin(used)], mismatch
+
+
+def attach_call_view_as_leads(calls, cv):
+    """Режим `--calls-from-ads call_view`. Звонки пула «calls from ads» убираем из заявок Ringostat. Остальные звонки получают
+    кампанию из call_view там, где Ringostat её не знает, ровно как в старом режиме (attach_call_view, ±MATCH_SEC).
+    Каждая строка call_view становится заявкой, КРОМЕ дублей: строка, у которой есть звонок любого другого канала Ringostat
+    (статика, динамика, поиск) со временем ±DUP_SEC, уже посчитан Ringostat. Один звонок Ringostat гасит не более одной строки.
+    → (calls, статистика)."""
+    ads = calls["pool"].astype(str).str.lower().str.contains(ADS_POOL_MARK)
+    other, n_ads = calls[~ads].reset_index(drop=True), int(ads.sum())
+    other, _orph, mismatch = attach_call_view(other, cv)
+    used, dup_dyn, dup_other, dup_wide = set(), 0, 0, 0
+    keep = []
+    for i, c in cv.iterrows():
+        d = (other["ts"] - c["t"]).abs().dt.total_seconds()
+        if len(d) and (d <= MATCH_SEC).any():
+            dup_wide += 1                                # справочно: сколько строк было бы потеряно при допуске ±MATCH_SEC
+        cand = d[(d <= DUP_SEC) & ~d.index.isin(used)]
+        if len(cand):
+            j = cand.idxmin()
+            used.add(j)
+            if "_dyn" in str(other.at[j, "pool"]).lower():
+                dup_dyn += 1
+            else:
+                dup_other += 1
+        else:
+            keep.append(i)
+    add = cv.loc[keep]
+    new = pd.DataFrame({"ts": add["t"].values, "day": add["t"].dt.date.values, "camp": add["camp"].values,
+                        "pool": "call_view", "via_call_view": True})
+    out = pd.concat([other, new], ignore_index=True).sort_values("ts").reset_index(drop=True)
+    return out, {"ads_removed": n_ads, "cv_total": len(cv), "cv_added": len(add), "dup_other": dup_other, "dup_dyn": dup_dyn,
+                 "dup_wide180": dup_wide, "cv_added_dur0": int((add["dur"] == 0).sum()), "mismatch": mismatch}
 
 
 # ---------- Supabase ----------
@@ -253,7 +300,7 @@ def live_maps(cfg, m_r, m_s, ga, cid, id_to_name, days=12):
 
 
 # ---------- сборка ----------
-def month_leads(folder, d0=None, d1=None):
+def month_leads(folder, d0=None, d1=None, calls_from_ads="ringostat"):
     today = date.today()
     d0 = d0 or today.replace(day=1).isoformat()
     d1 = d1 or today.isoformat()
@@ -268,13 +315,19 @@ def month_leads(folder, d0=None, d1=None):
     calls = ringostat_google_calls(cfg, m_r, id_to_name)
     calls = calls[(calls["day"] >= pd.Timestamp(d0).date()) & (calls["day"] <= pd.Timestamp(d1).date())].reset_index(drop=True)
     cv = call_view_rows(ga, cid, d0)
-    calls, cv_orphans, cv_mismatch = attach_call_view(calls, cv)
+    cv_stats = None
+    if calls_from_ads == "call_view":
+        cv = cv[cv["t"].dt.date <= pd.Timestamp(d1).date()].reset_index(drop=True)
+        calls, cv_stats = attach_call_view_as_leads(calls, cv)
+        cv_orphans, cv_mismatch = cv.iloc[0:0], cv_stats["mismatch"]
+    else:
+        calls, cv_orphans, cv_mismatch = attach_call_view(calls, cv)
     forms = supabase_forms(cfg, m_r, m_s, id_to_name, d0)
     forms = forms[forms["day"] <= pd.Timestamp(d1).date()]
     cost, prim, f_ads, c_ads = ads_month(ga, cid, d0, d1, gc.get("form_action", ""), list(gc.get("ad_call_actions") or []))
     plan_row_of = {str(c["id"]): c.get("plan_row") for c in gc.get("campaigns", [])}
     default_row = gc.get("default_plan_row")
-    return {"folder": folder, "d0": d0, "d1": d1, "calls": calls, "forms": forms, "cv_orphans": cv_orphans, "cv_mismatch": cv_mismatch, "cv_total": len(cv), "cost": cost,
+    return {"folder": folder, "d0": d0, "d1": d1, "calls": calls, "forms": forms, "cv_orphans": cv_orphans, "cv_mismatch": cv_mismatch, "cv_total": len(cv), "cv_stats": cv_stats, "calls_from_ads": calls_from_ads, "cost": cost,
             "ads_primary": prim, "ads_forms": f_ads, "ads_adcalls": c_ads, "id_to_name": id_to_name, "name_to_id": name_to_id,
             "plan_row_of": plan_row_of, "default_row": default_row, "guard_cfg": gc}
 
@@ -330,9 +383,15 @@ def report(res, daily=False):
           f"без метки (источник неизвестен) {other.get('none', 0)}. Форм без телефона {nophone}.")
     print(f"Если все формы без метки окажутся Google: заявок до {total + other.get('none', 0)}, цена от {(tot['cost'] / (total + other.get('none', 0)) if total + other.get('none', 0) else 0):.1f}.")
     orph = res["cv_orphans"]
-    print(f"Звонки Google Ads (call_view) за период: {res['cv_total']}; без пары среди уникальных звонков Ringostat: {len(orph)}"
-          + (" (" + ", ".join(f"{t:%d.%m %H:%M}" for t in orph['t']) + "; это повторные звонящие или звонки вне учёта клиента, в заявки не входят)" if len(orph) else "")
-          + f"; кампания у Ringostat и call_view расходится: {res['cv_mismatch']}")
+    if res.get("cv_stats"):
+        st = res["cv_stats"]
+        print(f"РЕЖИМ call_view: убрано звонков Ringostat канала «calls from ads»: {st['ads_removed']}; строк call_view за период: {st['cv_total']}; "
+              f"добавлено заявками: {st['cv_added']} (из них длительность 0 с: {st['cv_added_dur0']}); не добавлено как дубли звонков других каналов Ringostat: "
+              f"{st['dup_other']} (не-динамические) + {st['dup_dyn']} (динамика), допуск ±{DUP_SEC} с; при допуске ±{MATCH_SEC} с было бы {st['dup_wide180']} (случайные совпадения); кампания у Ringostat и call_view расходится: {st['mismatch']}")
+    else:
+        print(f"Звонки Google Ads (call_view) за период: {res['cv_total']}; без пары среди уникальных звонков Ringostat: {len(orph)}"
+            + (" (" + ", ".join(f"{t:%d.%m %H:%M}" for t in orph['t']) + "; это повторные звонящие или звонки вне учёта клиента, в заявки не входят)" if len(orph) else "")
+            + f"; кампания у Ringostat и call_view расходится: {res['cv_mismatch']}")
     print("Колонки «Ads»: основные конверсии (то, что считала сводка раньше) и формы+звонки из объявлений по названиям действий. Не стандарт, только сравнение.")
     pr = by_plan_row(res)
     un = pr.pop("__unassigned__", 0)
@@ -358,8 +417,10 @@ def main():
     ap.add_argument("--from", dest="d0")
     ap.add_argument("--to", dest="d1")
     ap.add_argument("--daily", action="store_true")
+    ap.add_argument("--calls-from-ads", dest="cfa", choices=["ringostat", "call_view"], default="ringostat",
+                    help="ringostat (по умолчанию) — как раньше; call_view — заявки по звонкам из объявлений берутся из call_view, канал «calls from ads» Ringostat не считается")
     a = ap.parse_args()
-    report(month_leads(a.client, a.d0, a.d1), daily=a.daily)
+    report(month_leads(a.client, a.d0, a.d1, a.cfa), daily=a.daily)
 
 
 if __name__ == "__main__":

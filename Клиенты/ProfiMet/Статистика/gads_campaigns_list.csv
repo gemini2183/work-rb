@@ -1,14 +1,14 @@
 Campaign,Status,Channel_type,Bidding_strategy,Daily_budget
 dspl_rtg_basket,ENABLED,DISPLAY,TARGET_SPEND,20.0
-pmax1_test,ENABLED,PERFORMANCE_MAX,MAXIMIZE_CONVERSIONS,60.0
-Search | Brand | Pl,ENABLED,SEARCH,TARGET_SPEND,40.0
-Search | Poliweglan | Pl,ENABLED,SEARCH,MANUAL_CPC,40.0
-search / montaz,ENABLED,SEARCH,TARGET_SPEND,30.0
+pmax1_test,ENABLED,PERFORMANCE_MAX,MAXIMIZE_CONVERSIONS,100.0
+Search | Brand | Pl,ENABLED,SEARCH,MAXIMIZE_CONVERSIONS,200.0
+Search | Poliweglan | Pl,ENABLED,SEARCH,MAXIMIZE_CONVERSIONS,350.0
+search / montaz,ENABLED,SEARCH,TARGET_SPEND,200.0
 Leads-Discovery,PAUSED,DEMAND_GEN,TARGET_CPA,200.0
 demand_gen,PAUSED,DEMAND_GEN,TARGET_CPA,15.0
 dg_interest_nodiscover,PAUSED,DEMAND_GEN,MAXIMIZE_CONVERSIONS,25.0
 dg_lookalike_test,PAUSED,DEMAND_GEN,MAXIMIZE_CONVERSIONS,25.0
-yt_cold,PAUSED,DEMAND_GEN,MAXIMIZE_CONVERSIONS,50.0
+yt_cold,PAUSED,DEMAND_GEN,MAXIMIZE_CONVERSIONS,30.0
 yt_warm,PAUSED,DEMAND_GEN,MAXIMIZE_CONVERSIONS,20.0
 Display 2 | Pl,PAUSED,DISPLAY,MANUAL_CPC,50.0
 Display 3 | Pl,PAUSED,DISPLAY,MANUAL_CPC,250.0
@@ -75,12 +75,12 @@ Quiz Search | Pl,PAUSED,SEARCH,TARGET_SPEND,30.0
 Remarketing Search | Pl,PAUSED,SEARCH,MANUAL_CPC,3.0
 Remarketing Srch | Cart,PAUSED,SEARCH,MANUAL_CPC,50.0
 Search Dynamic | Pl,PAUSED,SEARCH,TARGET_SPEND,20.0
-Search | Brand | Pl Макс клики и Макс конв,PAUSED,SEARCH,MAXIMIZE_CONVERSIONS,40.0
+Search | Brand | Pl Макс клики и Макс конв,PAUSED,SEARCH,MAXIMIZE_CONVERSIONS,200.0
 Search | Pl,PAUSED,SEARCH,TARGET_SPEND,30.0
 Search | Poliweglan | Pl  Экспериментальная группа 116,PAUSED,SEARCH,MAXIMIZE_CONVERSIONS,2000.0
 Search | Poliweglan | Pl - Sketch,PAUSED,SEARCH,TARGET_SPEND,115.0
 Search | Poliweglan | Pl [broad],PAUSED,SEARCH,TARGET_SPEND,20.0
-Search | Poliweglan | Pl Макс клики и Макс конв2,PAUSED,SEARCH,MAXIMIZE_CONVERSIONS,40.0
+Search | Poliweglan | Pl Макс клики и Макс конв2,PAUSED,SEARCH,MAXIMIZE_CONVERSIONS,350.0
 Search | Poliweglan | max clicks,PAUSED,SEARCH,TARGET_SPEND,40.0
 Search | Poliweglan | max cpa,PAUSED,SEARCH,MAXIMIZE_CONVERSIONS,150.0
 Search | Producent | max clicks,PAUSED,SEARCH,TARGET_SPEND,20.0
@@ -96,6 +96,6 @@ search / szklarnia/tunel (excl. poliweglan),PAUSED,SEARCH,TARGET_SPEND,50.0
 search-rtg,PAUSED,SEARCH,MANUAL_CPC,50.0
 Search | Poliweglan | Pl  Экспериментальная группа 116 Поиск - Тест - Апрель,REMOVED,SEARCH,MAXIMIZE_CONVERSIONS,2000.0
 Search | Poliweglan | Pl  Экспериментальная группа 116 Увеличение СПА,REMOVED,SEARCH,MAXIMIZE_CONVERSIONS,2000.0
-Search | Poliweglan | Pl  Экспериментальная группа 756,REMOVED,SEARCH,MAXIMIZE_CONVERSIONS,40.0
-Search | Poliweglan | Pl Макс клики vs Макс конверсии,REMOVED,SEARCH,MAXIMIZE_CONVERSIONS,40.0
-Search | Poliweglan | Pl Поиск - Тест Апрель 2,REMOVED,SEARCH,TARGET_SPEND,40.0
+Search | Poliweglan | Pl  Экспериментальная группа 756,REMOVED,SEARCH,MAXIMIZE_CONVERSIONS,350.0
+Search | Poliweglan | Pl Макс клики vs Макс конверсии,REMOVED,SEARCH,MAXIMIZE_CONVERSIONS,350.0
+Search | Poliweglan | Pl Поиск - Тест Апрель 2,REMOVED,SEARCH,TARGET_SPEND,350.0

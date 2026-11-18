@@ -1,0 +1,973 @@
+﻿day,camp_id,camp,seg,segname,action,conv,allconv
+2026-08-03,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-08-03,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-04,19153311519,Search | Brand | Pl,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-08-04,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-08-04,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-04,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-08-04,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-05,19153311519,Search | Brand | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,2.0
+2026-08-05,19153311519,Search | Brand | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-06,19153311519,Search | Brand | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.0
+2026-08-06,19153311519,Search | Brand | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-07,19153311519,Search | Brand | Pl,geoTargetConstants/20849,geoTargetConstants/20849,Звонки по объявлениям,1.0,1.0
+2026-08-08,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-08-11,19153311519,Search | Brand | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-08-11,19153311519,Search | Brand | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-11,19153311519,Search | Brand | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.666667,0.666667
+2026-08-13,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.0
+2026-08-13,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-15,19153311519,Search | Brand | Pl,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,2.0
+2026-08-15,19153311519,Search | Brand | Pl,geoTargetConstants/20849,geoTargetConstants/20849,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-17,19153311519,Search | Brand | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-08-17,19153311519,Search | Brand | Pl,geoTargetConstants/20848,geoTargetConstants/20848,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-17,19153311519,Search | Brand | Pl,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-17,19153311519,Search | Brand | Pl,geoTargetConstants/20850,geoTargetConstants/20850,form_submit_gtm,1.0,1.0
+2026-08-17,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.499032
+2026-08-17,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-17,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.5
+2026-08-17,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2026-08-17,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-08-17,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-18,19153311519,Search | Brand | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-08-18,19153311519,Search | Brand | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-18,19153311519,Search | Brand | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-08-18,19153311519,Search | Brand | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-18,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,0.5
+2026-08-18,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2026-08-18,19153311519,Search | Brand | Pl,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,1.0
+2026-08-18,19153311519,Search | Brand | Pl,geoTargetConstants/20860,geoTargetConstants/20860,Клик по номеру,0.0,0.009855
+2026-08-19,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-08-19,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-19,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-19,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-20,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-21,19153311519,Search | Brand | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-21,19153311519,Search | Brand | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,2.0
+2026-08-21,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,2.0
+2026-08-21,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-21,19153311519,Search | Brand | Pl,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,2.0
+2026-08-21,19153311519,Search | Brand | Pl,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-21,19153311519,Search | Brand | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-08-21,19153311519,Search | Brand | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-22,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.0
+2026-08-24,19153311519,Search | Brand | Pl,geoTargetConstants/20857,geoTargetConstants/20857,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-24,19153311519,Search | Brand | Pl,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-24,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-08-24,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-26,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-26,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.666667,0.666667
+2026-08-27,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-27,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-31,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-08-31,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-31,19153311519,Search | Brand | Pl,geoTargetConstants/9053429,geoTargetConstants/9053429,addToCart_gtm,0.0,2.0
+2026-08-31,19153311519,Search | Brand | Pl,geoTargetConstants/9053429,geoTargetConstants/9053429,form_submit_gtm,1.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,0.022663
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,2.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,2.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,4.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,3.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.509786
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,Звонки по объявлениям,1.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,3.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,form_submit_gtm,1.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,3.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.015908
+2026-08-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,2.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,4.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,4.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,2.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,6.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,3.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,2.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,0.015908
+2026-08-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,2.083895
+2026-08-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.0
+2026-08-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.0
+2026-08-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.25
+2026-08-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-08-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,2.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,0.5
+2026-08-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2026-08-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,2.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/21498,geoTargetConstants/21498,addToCart_gtm,0.0,0.5
+2026-08-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/21498,geoTargetConstants/21498,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2026-08-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,2.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-08-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.509637
+2026-08-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-08-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.0
+2026-08-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,1.0
+2026-08-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-08-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,Клик по номеру,0.0,0.052652
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,2.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,2.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,2.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.998591,0.998591
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.979561
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,2.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,5.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,3.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,form_submit_gtm,1.0,1.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.749516
+2026-08-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,2.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.25
+2026-08-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.333333,0.333333
+2026-08-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20770,geoTargetConstants/20770,addToCart_gtm,0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20770,geoTargetConstants/20770,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,2.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,2.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,2.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,2.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,4.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,2.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,0.033467
+2026-08-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,2.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,form_submit_gtm,1.0,1.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,5.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.230563
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,2.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,5.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.762889,0.762889
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.421464
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9228164,geoTargetConstants/9228164,addToCart_gtm,0.0,1.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9228164,geoTargetConstants/9228164,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,0.749914
+2026-08-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-08-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-08-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-08-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-08-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,3.0
+2026-08-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9256604,geoTargetConstants/9256604,addToCart_gtm,0.0,2.0
+2026-08-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9256604,geoTargetConstants/9256604,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,1.07421
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.98414
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,Клик по номеру,0.0,0.008166
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,8.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,2.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,form_submit_gtm,1.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,3.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,2.040892
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,4.40546
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,0.749914
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,6.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,Клик по номеру,0.0,0.980527
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.020446
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,form_submit_gtm,1.0,1.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,2.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,3.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,3.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/21118,geoTargetConstants/21118,addToCart_gtm,0.0,1.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/21118,geoTargetConstants/21118,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,3.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,form_submit_gtm,1.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,2.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,1.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,2.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,3.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,2.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,2.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,2.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,3.626967
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,Клик по номеру,0.0,0.013225
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,2.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,3.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,3.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,0.022663
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,2.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,form_submit_gtm,1.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,0.011332
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9256604,geoTargetConstants/9256604,addToCart_gtm,0.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9256604,geoTargetConstants/9256604,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,1.0
+2026-08-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-08-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-08-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-08-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,2.0
+2026-08-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,3.0
+2026-08-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,0.481449
+2026-08-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,form_submit_gtm,0.333334,0.333334
+2026-08-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.5
+2026-08-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.317874
+2026-08-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-08-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,0.966533
+2026-08-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-08-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2026-08-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,0.666667
+2026-08-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,2.0
+2026-08-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,3.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,form_submit_gtm,1.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,2.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,4.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.333333,0.333333
+2026-08-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,Звонки по объявлениям,1.0,1.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,2.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,2.0
+2026-08-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-08-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-08-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,2.0
+2026-08-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-28,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-28,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-28,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-08-28,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-28,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,3.0
+2026-08-28,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-28,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-08-28,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-08-28,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-28,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.0
+2026-08-28,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-08-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,3.0
+2026-08-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.0
+2026-08-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-08-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-08-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.0
+2026-08-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.0
+2026-08-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-08-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-08-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,3.0
+2026-08-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-31,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-08-31,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-31,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-08-31,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,form_submit_gtm,1.0,1.0
+2026-08-31,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-08-11,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-08-12,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,2.0
+2026-08-12,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-12,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-08-12,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,3.0
+2026-08-12,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20854,geoTargetConstants/20854,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-12,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.161468
+2026-08-12,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-08-12,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-12,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-08-12,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-08-13,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.0
+2026-08-13,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,3.0
+2026-08-13,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-05,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.0
+2026-08-05,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,2.0
+2026-08-05,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-05,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,Клик по номеру,0.0,1.0
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,4.0
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,1.0
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.0
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,3.0
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,4.5
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,3.666666
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,1.001878
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,6.00342
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,3.0
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,4.0
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,Клик по номеру,0.0,1.0
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,6.0
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,1.075125
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,6.0
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.007834
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,5.5
+2026-08-06,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.999708
+2026-08-07,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,3.0
+2026-08-07,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-07,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,3.007834
+2026-08-07,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,2.5
+2026-08-07,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,2.0
+2026-08-07,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-07,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-08-07,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,2.0
+2026-08-07,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,0.333334
+2026-08-07,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.0
+2026-08-07,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-08-07,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.0
+2026-08-07,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.0
+2026-08-07,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-07,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.666666
+2026-08-07,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,4.0
+2026-08-10,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-10,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-08-10,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,4.004395
+2026-08-10,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.0
+2026-08-10,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,2.0
+2026-08-10,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2026-08-10,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,2.5
+2026-08-10,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,form_submit_gtm,1.0,1.0
+2026-08-10,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.089318
+2026-08-10,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.627956
+2026-08-10,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,2.0
+2026-08-10,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-10,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,3.004596
+2026-08-10,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,2.0
+2026-08-10,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-10,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.0
+2026-08-10,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.0
+2026-08-10,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,1.0
+2026-08-10,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.011331
+2026-08-10,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-08-11,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-11,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,Клик по номеру,0.0,0.979087
+2026-08-11,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,2.00399
+2026-08-11,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-11,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2026-08-11,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,4.0
+2026-08-11,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-11,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-08-11,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-08-11,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.5
+2026-08-11,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,5.91715
+2026-08-11,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-11,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.007274
+2026-08-11,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,2.0
+2026-08-11,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-08-12,23775369828,pmax1_test,geoTargetConstants/20045,geoTargetConstants/20045,addToCart_gtm,0.0,1.0
+2026-08-12,23775369828,pmax1_test,geoTargetConstants/20045,geoTargetConstants/20045,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-12,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-08-12,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.99601
+2026-08-12,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,Клик по номеру,0.0,1.0
+2026-08-12,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,2.045521
+2026-08-12,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,4.5
+2026-08-12,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,Клик по номеру,0.0,0.5
+2026-08-12,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-12,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-08-12,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,Клик по номеру,0.0,1.0
+2026-08-12,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.019922
+2026-08-12,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-12,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-08-12,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,2.0
+2026-08-12,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-08-13,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,2.0
+2026-08-13,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,Клик по номеру,0.0,0.987743
+2026-08-13,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,2.0
+2026-08-13,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,2.0
+2026-08-13,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-13,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,4.0
+2026-08-13,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,Клик по номеру,0.0,0.5
+2026-08-13,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,2.0
+2026-08-13,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.838532
+2026-08-13,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,5.0
+2026-08-13,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,3.006484
+2026-08-13,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,2.0
+2026-08-13,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,4.00412
+2026-08-14,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,2.0
+2026-08-14,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-08-14,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-08-14,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-14,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,5.0
+2026-08-14,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,2.5
+2026-08-14,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,1.0
+2026-08-14,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.0
+2026-08-14,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.998468
+2026-08-14,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,3.480078
+2026-08-14,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-14,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.0
+2026-08-14,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,6.0
+2026-08-14,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-14,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,5.341109
+2026-08-14,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,12.253591
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,10.003808
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,2.508884
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.994862
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,3.0
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,3.0
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,3.50399
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,5.003756
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.0
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,11.725317
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,4.00399
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.0
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,13.333334
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,2.0
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,6.387555
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-08-17,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,19.59853
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,23.959108
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,16.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,5.998419
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,Клик по номеру,0.0,0.010453
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,21.258124
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,Клик по номеру,0.0,0.005456
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,16.016316
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,Клик по номеру,0.0,1.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,23.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,form_submit_gtm,2.0,2.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,11.004801
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,Клик по номеру,0.0,1.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,4.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,10.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,15.008791
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,Клик по номеру,0.0,1.00028
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,12.444599
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,8.997917
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,28.061027
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,Клик по номеру,0.0,1.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,6.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,28.991867
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,Клик по номеру,0.0,0.019473
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,9.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,Клик по номеру,0.0,1.0
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,38.004076
+2026-08-18,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,11.004384
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,6.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,13.983923
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,7.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,9.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,6.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,Клик по номеру,0.0,2.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,3.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,3.977348
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,10.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,Звонки по объявлениям,1.0,1.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,8.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,2.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,15.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,Клик по номеру,0.0,0.00776
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,6.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.029208
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,18.022096
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,7.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,21.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.0
+2026-08-19,23775369828,pmax1_test,geoTargetConstants/9256604,geoTargetConstants/9256604,addToCart_gtm,0.0,1.0
+2026-08-20,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,4.0
+2026-08-20,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-20,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,Клик по номеру,0.0,0.980518
+2026-08-20,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-20,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,0.983516
+2026-08-20,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,Клик по номеру,0.0,0.986378
+2026-08-20,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-08-20,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.004299
+2026-08-20,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,1.501881
+2026-08-20,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-08-20,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-20,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,3.0
+2026-08-20,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-20,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,0.5
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,8.003809
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,7.006224
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,1.010223
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.5,1.5
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,Клик по номеру,0.0,0.013225
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,8.0
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,Клик по номеру,0.0,1.0
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,6.0
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,8.0
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.022002
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,form_submit_gtm,0.009903,0.009903
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,7.0
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,9.993496
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,5.0
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,9.0
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,2.0
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,7.966249
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,Клик по номеру,0.0,0.97355
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,4.000009
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,16.979393
+2026-08-21,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20229,geoTargetConstants/20229,addToCart_gtm,0.0,1.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20229,geoTargetConstants/20229,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,29.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,13.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,7.414375
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,form_submit_gtm,0.666666,0.666666
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.5
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,Клик по номеру,0.0,1.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,19.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,14.592645
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,26.968184
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,form_submit_gtm,1.0,1.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,14.008791
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,10.977337
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,16.016625
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,15.99658
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,2.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,18.49658
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,10.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,48.395727
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,Клик по номеру,0.0,0.99224
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,13.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,Клик по номеру,0.0,0.990145
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,2.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,38.483793
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,form_submit_gtm,0.076555,0.076555
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,7.999991
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,Клик по номеру,0.0,1.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,74.000276
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,Клик по номеру,0.0,3.0
+2026-08-24,23775369828,pmax1_test,geoTargetConstants/9256604,geoTargetConstants/9256604,addToCart_gtm,0.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,2.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,34.992383
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,Клик по номеру,0.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,10.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,7.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,2.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,13.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,14.416367
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,Клик по номеру,0.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,25.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,form_submit_gtm,1.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.5
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,Клик по номеру,0.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,9.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,9.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,7.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,27.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,form_submit_gtm,1.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,21.551411
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,form_submit_gtm,1.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,Клик по номеру,0.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,6.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,52.53878
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,form_submit_gtm,0.99833,0.99833
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,15.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,Клик по номеру,0.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,6.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,20.869264
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,form_submit_gtm,0.923445,0.923445
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,9.503383
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,76.004778
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.0
+2026-08-25,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,Клик по номеру,0.0,1.0
+2026-08-26,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,0.995616
+2026-08-26,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-08-26,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,2.0
+2026-08-26,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,2.0
+2026-08-26,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,0.579669
+2026-08-26,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-26,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,2.0
+2026-08-26,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,0.989477
+2026-08-26,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,1.0
+2026-08-26,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.0
+2026-08-26,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,4.0
+2026-08-26,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-26,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,0.011341
+2026-08-26,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.987854
+2026-08-26,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,5.007935
+2026-08-27,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,2.0
+2026-08-27,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-08-27,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,0.993234
+2026-08-27,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,0.991209
+2026-08-27,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,3.982418
+2026-08-27,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-27,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-27,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,2.991209
+2026-08-27,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-27,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-27,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,Клик по номеру,0.0,2.0
+2026-08-27,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,0.992166
+2026-08-27,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.0
+2026-08-27,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.981803
+2026-08-27,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-27,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,0.924875
+2026-08-27,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,0.984647
+2026-08-27,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,2.9854
+2026-08-27,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,5.87451
+2026-08-27,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-28,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,1.0
+2026-08-28,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,0.991209
+2026-08-28,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.100074
+2026-08-28,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-08-28,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.0
+2026-08-28,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,2.974429
+2026-08-31,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-08-31,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-31,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.0
+2026-08-31,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-08-31,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,0.992485
+2026-08-31,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.772587
+2026-08-31,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-31,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,4.0
+2026-08-31,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,1.0
+2026-08-31,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0

@@ -1,0 +1,10 @@
+﻿Группа,Статус,Потолок цены клика,imp,clk,cost,conv,mark
+wymiary | poliwęglan 3х4,PAUSED,0.46,12364,760,241.88,9.0,
+tunele z poliwęglanu,PAUSED,0.72,3359,466,227.0,7.0,
+mala szklarnia z poliweglanu,PAUSED,0.45,4553,219,71.45,0.0,РАСХОД БЕЗ КОНВ.
+szklarnie z poliwęglanu [exact],ENABLED,0.48,3194,194,67.409,1.0,
+szklarnie z poliwęglanu [phrase],ENABLED,0.43,749,63,21.129,2.0,
+wymiary | poliwęglan 4х8,ENABLED,0.47,156,28,9.07,1.0,
+wymiary | poliwęglan 3х6,ENABLED,0.33,63,7,1.94,0.0,
+cieplarnie z poliwęglanu,ENABLED,0.42,70,4,1.51,0.0,
+szklarnie z poliwęglanu producent,ENABLED,0.41,10,1,0.41,0.0,

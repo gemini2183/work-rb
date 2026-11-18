@@ -1,0 +1,985 @@
+﻿day,camp_id,camp,seg,segname,action,conv,allconv
+2025-12-01,19153311519,Search | Brand | Pl,08,08:00,addToCart_gtm,0.0,2.0
+2025-12-01,19153311519,Search | Brand | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.076462,0.076462
+2025-12-01,19153311519,Search | Brand | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-01,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,addToCart_gtm,0.0,3.0
+2025-12-01,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2025-12-01,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-02,19158580966,Search | Poliweglan | Pl,08,08:00,addToCart_gtm,0.0,2.0
+2025-12-02,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-03,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,addToCart_gtm,0.0,1.0
+2025-12-03,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-08,19158580966,Search | Poliweglan | Pl,08,08:00,addToCart_gtm,0.0,1.0
+2025-12-08,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,addToCart_gtm,0.0,2.0
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,form_submit_gtm,1.0,1.0
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,Клик по номеру,0.0,1.0
+2025-12-09,19158580966,Search | Poliweglan | Pl,08,08:00,addToCart_gtm,0.0,2.0
+2025-12-09,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-12-09,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-10,19158580966,Search | Poliweglan | Pl,08,08:00,addToCart_gtm,0.0,1.0
+2025-12-10,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-10,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,addToCart_gtm,0.0,1.0
+2025-12-10,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-10,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,Клик по номеру,0.0,1.333333
+2025-12-11,19158580966,Search | Poliweglan | Pl,08,08:00,addToCart_gtm,0.0,1.0
+2025-12-11,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-12,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,addToCart_gtm,0.0,1.0
+2025-12-12,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-13,19153311519,Search | Brand | Pl,08,08:00,addToCart_gtm,0.0,1.5
+2025-12-13,19153311519,Search | Brand | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.500195
+2025-12-15,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,addToCart_gtm,0.0,2.0
+2025-12-15,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.000284
+2025-12-16,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,addToCart_gtm,0.0,2.666667
+2025-12-18,19153311519,Search | Brand | Pl,08,08:00,addToCart_gtm,0.0,2.0
+2025-12-18,19158580966,Search | Poliweglan | Pl,08,08:00,addToCart_gtm,0.0,0.5
+2025-12-18,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-12-20,19153311519,Search | Brand | Pl,08,08:00,addToCart_gtm,0.0,1.0
+2025-12-20,19153311519,Search | Brand | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-24,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,addToCart_gtm,0.0,4.0
+2025-12-25,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,addToCart_gtm,0.0,1.0
+2025-12-25,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-30,19158580966,Search | Poliweglan | Pl,08,08:00,addToCart_gtm,0.0,4.0
+2025-12-30,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.000415
+2025-12-31,19158580966,Search | Poliweglan | Pl,08,08:00,addToCart_gtm,0.0,4.0
+2025-12-31,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2025-12-31,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,addToCart_gtm,0.0,1.0
+2025-12-31,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-01,19153311519,Search | Brand | Pl,09,09:00,addToCart_gtm,0.0,1.0
+2025-12-01,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,1.0
+2025-12-01,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-01,21692572205,pmax01,09,09:00,addToCart_gtm,0.0,83.804737
+2025-12-01,21692572205,pmax01,09,09:00,form_submit_gtm,1.0,1.0
+2025-12-01,21692572205,pmax01,09,09:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.006529,0.006529
+2025-12-01,21692572205,pmax01,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,27.759756
+2025-12-01,21692572205,pmax01,09,09:00,Клик по номеру,2.016172,2.016172
+2025-12-01,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,addToCart_gtm,0.0,1.0
+2025-12-01,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2025-12-01,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,Клик по номеру,0.0,1.0
+2025-12-02,19153311519,Search | Brand | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-02,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,addToCart_gtm,0.0,1.0
+2025-12-02,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2025-12-03,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,1.0
+2025-12-03,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-03,21692572205,pmax01,09,09:00,addToCart_gtm,0.0,139.36991
+2025-12-03,21692572205,pmax01,09,09:00,form_submit_gtm,1.500738,1.500738
+2025-12-03,21692572205,pmax01,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,37.443779
+2025-12-03,21692572205,pmax01,09,09:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-03,21692572205,pmax01,09,09:00,Клик по номеру,1.520262,1.520262
+2025-12-05,21692572205,pmax01,09,09:00,addToCart_gtm,0.0,84.964452
+2025-12-05,21692572205,pmax01,09,09:00,form_submit_gtm,1.0,1.0
+2025-12-05,21692572205,pmax01,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,21.216618
+2025-12-05,21692572205,pmax01,09,09:00,Клик по номеру,2.0,2.0
+2025-12-05,23276887406,Search | Brand | Pl Макс клики и Макс конв,09,09:00,addToCart_gtm,0.0,1.0
+2025-12-05,23276887406,Search | Brand | Pl Макс клики и Макс конв,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-06,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,1.0
+2025-12-06,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-08,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,addToCart_gtm,0.0,1.0
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.47071
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,Клик по номеру,0.0,0.032036
+2025-12-09,19153311519,Search | Brand | Pl,09,09:00,addToCart_gtm,0.0,1.0
+2025-12-09,19153311519,Search | Brand | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-09,21692572205,pmax01,09,09:00,addToCart_gtm,0.0,49.399756
+2025-12-09,21692572205,pmax01,09,09:00,form_submit_gtm,1.0,1.0
+2025-12-09,21692572205,pmax01,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.863514
+2025-12-09,21692572205,pmax01,09,09:00,Клик по номеру,2.660974,2.660974
+2025-12-09,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,addToCart_gtm,0.0,2.0
+2025-12-09,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-10,21692572205,pmax01,09,09:00,addToCart_gtm,0.0,2.0
+2025-12-10,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,Клик по номеру,0.0,1.666667
+2025-12-11,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,2.0
+2025-12-11,19158580966,Search | Poliweglan | Pl,09,09:00,form_submit_gtm,1.0,1.0
+2025-12-11,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-11,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-11,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,Клик по номеру,0.0,1.0
+2025-12-12,21692572205,pmax01,09,09:00,addToCart_gtm,0.0,45.982163
+2025-12-12,21692572205,pmax01,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.897786
+2025-12-12,21692572205,pmax01,09,09:00,Клик по номеру,2.98611,2.98611
+2025-12-12,23276887406,Search | Brand | Pl Макс клики и Макс конв,09,09:00,addToCart_gtm,0.0,0.667255
+2025-12-12,23276887406,Search | Brand | Pl Макс клики и Макс конв,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.432568
+2025-12-12,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-13,23276887406,Search | Brand | Pl Макс клики и Макс конв,09,09:00,addToCart_gtm,0.0,0.5
+2025-12-15,21692572205,pmax01,09,09:00,addToCart_gtm,0.0,27.516784
+2025-12-15,21692572205,pmax01,09,09:00,form_submit_gtm,1.0,1.0
+2025-12-15,21692572205,pmax01,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.503256
+2025-12-16,21692572205,pmax01,09,09:00,addToCart_gtm,0.0,0.5
+2025-12-16,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,addToCart_gtm,0.0,1.0
+2025-12-16,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,Клик по номеру,0.0,0.5
+2025-12-17,21692572205,pmax01,09,09:00,addToCart_gtm,0.0,55.177557
+2025-12-17,21692572205,pmax01,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,22.86921
+2025-12-17,21692572205,pmax01,09,09:00,Клик по номеру,2.0,2.0
+2025-12-17,23276887406,Search | Brand | Pl Макс клики и Макс конв,09,09:00,addToCart_gtm,0.0,2.0
+2025-12-17,23276887406,Search | Brand | Pl Макс клики и Макс конв,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.998378
+2025-12-18,21692572205,pmax01,09,09:00,addToCart_gtm,0.0,1.0
+2025-12-18,21692572205,pmax01,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-19,21692572205,pmax01,09,09:00,addToCart_gtm,0.0,60.269313
+2025-12-19,21692572205,pmax01,09,09:00,form_submit_gtm,0.5,0.5
+2025-12-19,21692572205,pmax01,09,09:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.03193,0.03193
+2025-12-19,21692572205,pmax01,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,17.291166
+2025-12-19,21692572205,pmax01,09,09:00,Клик по номеру,2.030267,2.030267
+2025-12-19,23276887406,Search | Brand | Pl Макс клики и Макс конв,09,09:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-20,19153311519,Search | Brand | Pl,09,09:00,addToCart_gtm,0.0,1.166666
+2025-12-20,19153311519,Search | Brand | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2025-12-22,19153311519,Search | Brand | Pl,09,09:00,addToCart_gtm,0.0,2.0
+2025-12-22,19153311519,Search | Brand | Pl,09,09:00,form_submit_gtm,1.0,1.0
+2025-12-22,19153311519,Search | Brand | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-22,19153311519,Search | Brand | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-22,19153311519,Search | Brand | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-22,19153311519,Search | Brand | Pl,09,09:00,Клик по номеру,0.0,0.994392
+2025-12-22,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,addToCart_gtm,0.0,3.5
+2025-12-22,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.5
+2025-12-23,21692572205,pmax01,09,09:00,addToCart_gtm,0.0,105.762291
+2025-12-23,21692572205,pmax01,09,09:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-23,21692572205,pmax01,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,26.222178
+2025-12-25,19153311519,Search | Brand | Pl,09,09:00,addToCart_gtm,0.0,1.0
+2025-12-25,19153311519,Search | Brand | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-12-25,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,1.0
+2025-12-25,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-26,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,addToCart_gtm,0.0,1.0
+2025-12-26,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-27,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,1.0
+2025-12-27,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-27,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,addToCart_gtm,0.0,1.0
+2025-12-27,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-29,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,1.0
+2025-12-29,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-29,19158580966,Search | Poliweglan | Pl,09,09:00,Клик по номеру,0.0,1.0
+2025-12-29,21692572205,pmax01,09,09:00,addToCart_gtm,0.0,12.000421
+2025-12-29,21692572205,pmax01,09,09:00,form_submit_gtm,2.0,2.0
+2025-12-29,21692572205,pmax01,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.437154
+2025-12-29,21692572205,pmax01,09,09:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.994757
+2025-12-29,23276887406,Search | Brand | Pl Макс клики и Макс конв,09,09:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-30,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,2.0
+2025-12-30,19158580966,Search | Poliweglan | Pl,09,09:00,form_submit_gtm,1.0,1.0
+2025-12-30,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-30,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-30,21692572205,pmax01,09,09:00,addToCart_gtm,0.0,137.026916
+2025-12-30,21692572205,pmax01,09,09:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.116408,1.116408
+2025-12-30,21692572205,pmax01,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,33.125541
+2025-12-30,21692572205,pmax01,09,09:00,Клик по номеру,6.024965,6.024965
+2025-12-31,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,addToCart_gtm,0.0,2.0
+2025-12-31,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-01,21692572205,pmax01,10,10:00,addToCart_gtm,0.0,25.961555
+2025-12-01,21692572205,pmax01,10,10:00,form_submit_gtm,1.0,1.0
+2025-12-01,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.013058,0.013058
+2025-12-01,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.416619
+2025-12-01,21692572205,pmax01,10,10:00,Клик по номеру,1.0,1.0
+2025-12-01,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-02,19153311519,Search | Brand | Pl,10,10:00,addToCart_gtm,0.0,1.0
+2025-12-02,19153311519,Search | Brand | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-02,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,addToCart_gtm,0.0,1.5
+2025-12-02,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.648595
+2025-12-03,21692572205,pmax01,10,10:00,addToCart_gtm,0.0,168.557701
+2025-12-03,21692572205,pmax01,10,10:00,form_submit_gtm,2.5,2.5
+2025-12-03,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,43.842464
+2025-12-03,21692572205,pmax01,10,10:00,Клик по номеру,4.5,4.5
+2025-12-03,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,addToCart_gtm,0.0,2.0
+2025-12-03,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,form_submit_gtm,1.0,1.0
+2025-12-03,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-03,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-05,21692572205,pmax01,10,10:00,addToCart_gtm,0.0,134.902659
+2025-12-05,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.333334,1.333334
+2025-12-05,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,32.547927
+2025-12-05,21692572205,pmax01,10,10:00,Клик по номеру,2.0,2.0
+2025-12-06,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,addToCart_gtm,0.0,3.0
+2025-12-06,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-08,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,1.0
+2025-12-08,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-08,21692572205,pmax01,10,10:00,addToCart_gtm,0.0,1.0
+2025-12-08,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-08,23276887406,Search | Brand | Pl Макс клики и Макс конв,10,10:00,addToCart_gtm,0.0,2.550821
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-09,19153311519,Search | Brand | Pl,10,10:00,addToCart_gtm,0.0,1.0
+2025-12-09,19153311519,Search | Brand | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-09,21692572205,pmax01,10,10:00,addToCart_gtm,0.0,103.369446
+2025-12-09,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,14.731186
+2025-12-09,21692572205,pmax01,10,10:00,Клик по номеру,6.349727,6.349727
+2025-12-09,23276887406,Search | Brand | Pl Макс клики и Макс конв,10,10:00,addToCart_gtm,0.0,0.766484
+2025-12-09,23276887406,Search | Brand | Pl Макс клики и Макс конв,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.07851
+2025-12-09,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,addToCart_gtm,0.0,1.0
+2025-12-09,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-10,21692572205,pmax01,10,10:00,addToCart_gtm,0.0,2.0
+2025-12-10,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-10,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,addToCart_gtm,0.0,1.0
+2025-12-11,21692572205,pmax01,10,10:00,addToCart_gtm,0.0,5.425137
+2025-12-11,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-11,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.137097
+2025-12-11,21692572205,pmax01,10,10:00,Клик по номеру,1.0,1.0
+2025-12-12,21692572205,pmax01,10,10:00,addToCart_gtm,0.0,47.005213
+2025-12-12,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.129209
+2025-12-12,21692572205,pmax01,10,10:00,Клик по номеру,4.016613,4.016613
+2025-12-12,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,addToCart_gtm,0.0,4.0
+2025-12-12,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-12,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-12-13,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,addToCart_gtm,0.0,0.5
+2025-12-13,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-15,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,1.0
+2025-12-15,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-15,21692572205,pmax01,10,10:00,addToCart_gtm,0.0,54.04217
+2025-12-15,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.997954,0.997954
+2025-12-15,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,13.185012
+2025-12-15,21692572205,pmax01,10,10:00,Клик по номеру,3.501089,3.501089
+2025-12-16,21692572205,pmax01,10,10:00,addToCart_gtm,0.0,4.167831
+2025-12-16,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.947259
+2025-12-16,21692572205,pmax01,10,10:00,Клик по номеру,0.5,0.5
+2025-12-17,21692572205,pmax01,10,10:00,addToCart_gtm,0.0,65.342259
+2025-12-17,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,27.055207
+2025-12-17,21692572205,pmax01,10,10:00,Клик по номеру,4.998392,4.998392
+2025-12-18,19153311519,Search | Brand | Pl,10,10:00,addToCart_gtm,0.0,3.0
+2025-12-18,19153311519,Search | Brand | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-18,23276887406,Search | Brand | Pl Макс клики и Макс конв,10,10:00,addToCart_gtm,0.0,1.0
+2025-12-18,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,addToCart_gtm,0.0,2.0
+2025-12-18,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,form_submit_gtm,1.0,1.0
+2025-12-18,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-18,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-19,21692572205,pmax01,10,10:00,addToCart_gtm,0.0,64.528854
+2025-12-19,21692572205,pmax01,10,10:00,form_submit_gtm,0.5,0.5
+2025-12-19,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,19.763827
+2025-12-19,21692572205,pmax01,10,10:00,Клик по номеру,3.961806,3.961806
+2025-12-20,19153311519,Search | Brand | Pl,10,10:00,addToCart_gtm,0.0,1.833334
+2025-12-20,19153311519,Search | Brand | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-12-20,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,addToCart_gtm,0.0,1.0
+2025-12-20,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-23,21692572205,pmax01,10,10:00,addToCart_gtm,0.0,77.056224
+2025-12-23,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-23,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,28.096816
+2025-12-23,21692572205,pmax01,10,10:00,Клик по номеру,0.999603,0.999603
+2025-12-23,23276887406,Search | Brand | Pl Макс клики и Макс конв,10,10:00,addToCart_gtm,0.0,2.0
+2025-12-23,23276887406,Search | Brand | Pl Макс клики и Макс конв,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-23,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,addToCart_gtm,0.0,1.0
+2025-12-23,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-25,19153311519,Search | Brand | Pl,10,10:00,addToCart_gtm,0.0,1.0
+2025-12-25,19153311519,Search | Brand | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-25,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,1.0
+2025-12-25,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-25,21692572205,pmax01,10,10:00,addToCart_gtm,0.0,3.32772
+2025-12-25,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.070853
+2025-12-26,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,3.926131
+2025-12-26,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.545597
+2025-12-26,21692572205,pmax01,10,10:00,addToCart_gtm,0.0,2.0
+2025-12-27,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,2.0
+2025-12-27,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-27,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,addToCart_gtm,0.0,1.0
+2025-12-27,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-29,21692572205,pmax01,10,10:00,addToCart_gtm,0.0,15.501345
+2025-12-29,21692572205,pmax01,10,10:00,form_submit_gtm,1.0,1.0
+2025-12-29,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,12.36877
+2025-12-29,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-30,19153311519,Search | Brand | Pl,10,10:00,addToCart_gtm,0.0,1.0
+2025-12-30,19153311519,Search | Brand | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-30,21692572205,pmax01,10,10:00,addToCart_gtm,0.0,133.595012
+2025-12-30,21692572205,pmax01,10,10:00,form_submit_gtm,3.0,3.0
+2025-12-30,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-30,21692572205,pmax01,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,31.517192
+2025-12-30,21692572205,pmax01,10,10:00,Клик по номеру,3.93976,3.93976
+2025-12-30,23276887406,Search | Brand | Pl Макс клики и Макс конв,10,10:00,addToCart_gtm,0.0,1.0
+2025-12-30,23276887406,Search | Brand | Pl Макс клики и Макс конв,10,10:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2025-12-30,23276887406,Search | Brand | Pl Макс клики и Макс конв,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-12-30,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,addToCart_gtm,0.0,1.0
+2025-12-30,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-30,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-12-30,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,Клик по номеру,0.0,1.0
+2025-12-31,19153311519,Search | Brand | Pl,10,10:00,addToCart_gtm,0.0,1.0
+2025-12-31,19153311519,Search | Brand | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.499403
+2025-12-31,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,addToCart_gtm,0.0,1.0
+2025-12-31,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-31,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,10,10:00,Клик по номеру,0.0,0.010385
+2025-12-01,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-01,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-01,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.117577
+2025-12-02,21692572205,pmax01,11,11:00,addToCart_gtm,0.0,3.0
+2025-12-02,21692572205,pmax01,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-03,19153311519,Search | Brand | Pl,11,11:00,addToCart_gtm,0.0,1.0
+2025-12-03,21692572205,pmax01,11,11:00,addToCart_gtm,0.0,91.323296
+2025-12-03,21692572205,pmax01,11,11:00,form_submit_gtm,0.666667,0.666667
+2025-12-03,21692572205,pmax01,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,25.013578
+2025-12-03,21692572205,pmax01,11,11:00,Клик по номеру,4.962122,4.962122
+2025-12-05,21692572205,pmax01,11,11:00,addToCart_gtm,0.0,112.001496
+2025-12-05,21692572205,pmax01,11,11:00,form_submit_gtm,1.0,1.0
+2025-12-05,21692572205,pmax01,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,24.701394
+2025-12-05,21692572205,pmax01,11,11:00,Клик по номеру,4.000466,4.000466
+2025-12-05,23276887406,Search | Brand | Pl Макс клики и Макс конв,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-05,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,11,11:00,addToCart_gtm,0.0,3.0
+2025-12-06,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,2.0
+2025-12-06,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-06,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,11,11:00,addToCart_gtm,0.0,3.0
+2025-12-06,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-08,19153311519,Search | Brand | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-08,21692572205,pmax01,11,11:00,addToCart_gtm,0.0,1.0
+2025-12-08,21692572205,pmax01,11,11:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2025-12-08,21692572205,pmax01,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,11,11:00,addToCart_gtm,0.0,1.5
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-09,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-09,21692572205,pmax01,11,11:00,addToCart_gtm,0.0,118.408778
+2025-12-09,21692572205,pmax01,11,11:00,form_submit_gtm,1.0,1.0
+2025-12-09,21692572205,pmax01,11,11:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.5,1.5
+2025-12-09,21692572205,pmax01,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,32.966859
+2025-12-09,21692572205,pmax01,11,11:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-09,21692572205,pmax01,11,11:00,Клик по номеру,3.0,3.0
+2025-12-09,23276887406,Search | Brand | Pl Макс клики и Макс конв,11,11:00,addToCart_gtm,0.0,1.0
+2025-12-09,23276887406,Search | Brand | Pl Макс клики и Макс конв,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2025-12-10,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,3.0
+2025-12-10,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-10,21692572205,pmax01,11,11:00,addToCart_gtm,0.0,10.958535
+2025-12-10,21692572205,pmax01,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.0
+2025-12-10,21692572205,pmax01,11,11:00,Клик по номеру,1.0,1.0
+2025-12-11,23276887406,Search | Brand | Pl Макс клики и Макс конв,11,11:00,addToCart_gtm,0.0,1.0
+2025-12-11,23276887406,Search | Brand | Pl Макс клики и Макс конв,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.656719
+2025-12-11,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,11,11:00,addToCart_gtm,0.0,0.333333
+2025-12-12,19153311519,Search | Brand | Pl,11,11:00,addToCart_gtm,0.0,0.574863
+2025-12-12,19153311519,Search | Brand | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.367093
+2025-12-12,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,1.0
+2025-12-12,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.998503
+2025-12-12,21692572205,pmax01,11,11:00,addToCart_gtm,0.0,48.011601
+2025-12-12,21692572205,pmax01,11,11:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2025-12-12,21692572205,pmax01,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.001002
+2025-12-12,21692572205,pmax01,11,11:00,Клик по номеру,1.998718,1.998718
+2025-12-13,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,11,11:00,addToCart_gtm,0.0,2.0
+2025-12-13,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-15,19153311519,Search | Brand | Pl,11,11:00,addToCart_gtm,0.0,1.0
+2025-12-15,21692572205,pmax01,11,11:00,addToCart_gtm,0.0,53.477386
+2025-12-15,21692572205,pmax01,11,11:00,form_submit_gtm,1.0,1.0
+2025-12-15,21692572205,pmax01,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,19.078058
+2025-12-15,21692572205,pmax01,11,11:00,Клик по номеру,0.5,0.5
+2025-12-15,23276887406,Search | Brand | Pl Макс клики и Макс конв,11,11:00,addToCart_gtm,0.0,1.0
+2025-12-15,23276887406,Search | Brand | Pl Макс клики и Макс конв,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-12-16,19153311519,Search | Brand | Pl,11,11:00,addToCart_gtm,0.0,2.0
+2025-12-16,19153311519,Search | Brand | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-17,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,1.0
+2025-12-17,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.998102
+2025-12-17,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,11,11:00,addToCart_gtm,0.0,1.0
+2025-12-17,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-19,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,11,11:00,addToCart_gtm,0.0,2.0
+2025-12-19,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-22,19153311519,Search | Brand | Pl,11,11:00,addToCart_gtm,0.0,1.0
+2025-12-22,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,11,11:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-23,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,11,11:00,addToCart_gtm,0.0,4.0
+2025-12-23,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-24,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,11,11:00,addToCart_gtm,0.0,1.0
+2025-12-24,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-25,21692572205,pmax01,11,11:00,addToCart_gtm,0.0,4.0
+2025-12-25,21692572205,pmax01,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.000344
+2025-12-25,23276887406,Search | Brand | Pl Макс клики и Макс конв,11,11:00,addToCart_gtm,0.0,2.0
+2025-12-25,23276887406,Search | Brand | Pl Макс клики и Макс конв,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-26,19153311519,Search | Brand | Pl,11,11:00,addToCart_gtm,0.0,2.0
+2025-12-26,19153311519,Search | Brand | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-26,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,5.0
+2025-12-26,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-26,21692572205,pmax01,11,11:00,addToCart_gtm,0.0,7.731166
+2025-12-26,21692572205,pmax01,11,11:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.005627,0.005627
+2025-12-26,21692572205,pmax01,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.089346
+2025-12-26,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,11,11:00,addToCart_gtm,0.0,1.0
+2025-12-26,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.999686
+2025-12-29,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,1.0
+2025-12-29,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-29,21692572205,pmax01,11,11:00,addToCart_gtm,0.0,38.509426
+2025-12-29,21692572205,pmax01,11,11:00,form_submit_gtm,1.037276,1.037276
+2025-12-29,21692572205,pmax01,11,11:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.019716,0.019716
+2025-12-29,21692572205,pmax01,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,20.719088
+2025-12-29,21692572205,pmax01,11,11:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-29,21692572205,pmax01,11,11:00,Клик по номеру,1.0,1.0
+2025-12-30,23276887406,Search | Brand | Pl Макс клики и Макс конв,11,11:00,addToCart_gtm,0.0,2.0
+2025-12-30,23276887406,Search | Brand | Pl Макс клики и Макс конв,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-30,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,11,11:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.666666
+2025-12-01,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,addToCart_gtm,0.0,3.0
+2025-12-01,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-02,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,1.0
+2025-12-02,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-12-02,21692572205,pmax01,12,12:00,addToCart_gtm,0.0,3.358047
+2025-12-03,23276887406,Search | Brand | Pl Макс клики и Макс конв,12,12:00,addToCart_gtm,0.0,2.0
+2025-12-03,23276887406,Search | Brand | Pl Макс клики и Макс конв,12,12:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-03,23276887406,Search | Brand | Pl Макс клики и Макс конв,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-04,19153311519,Search | Brand | Pl,12,12:00,addToCart_gtm,0.0,1.0
+2025-12-04,19153311519,Search | Brand | Pl,12,12:00,form_submit_gtm,1.0,1.0
+2025-12-04,19153311519,Search | Brand | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-04,19153311519,Search | Brand | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-04,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,2.0
+2025-12-04,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-05,21692572205,pmax01,12,12:00,addToCart_gtm,0.0,11.003273
+2025-12-05,21692572205,pmax01,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.00011
+2025-12-05,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,addToCart_gtm,0.0,1.0
+2025-12-05,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-06,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,addToCart_gtm,0.0,1.0
+2025-12-06,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-08,21692572205,pmax01,12,12:00,addToCart_gtm,0.0,3.0
+2025-12-08,21692572205,pmax01,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.352262
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,addToCart_gtm,0.0,1.0
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-09,19153311519,Search | Brand | Pl,12,12:00,addToCart_gtm,0.0,4.0
+2025-12-09,19153311519,Search | Brand | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-09,19153311519,Search | Brand | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-12-09,21692572205,pmax01,12,12:00,addToCart_gtm,0.0,93.97148
+2025-12-09,21692572205,pmax01,12,12:00,form_submit_gtm,1.0,1.0
+2025-12-09,21692572205,pmax01,12,12:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.010359,1.010359
+2025-12-09,21692572205,pmax01,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,35.061334
+2025-12-09,21692572205,pmax01,12,12:00,Клик по номеру,2.0,2.0
+2025-12-09,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,addToCart_gtm,0.0,3.5
+2025-12-09,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-09,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.5
+2025-12-10,21692572205,pmax01,12,12:00,addToCart_gtm,0.0,19.549928
+2025-12-10,21692572205,pmax01,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.169545
+2025-12-10,21692572205,pmax01,12,12:00,Клик по номеру,1.00062,1.00062
+2025-12-10,23276887406,Search | Brand | Pl Макс клики и Макс конв,12,12:00,addToCart_gtm,0.0,2.0
+2025-12-10,23276887406,Search | Brand | Pl Макс клики и Макс конв,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-11,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,2.649704
+2025-12-11,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.334831
+2025-12-11,21692572205,pmax01,12,12:00,addToCart_gtm,0.0,1.002093
+2025-12-11,21692572205,pmax01,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.017548
+2025-12-12,21692572205,pmax01,12,12:00,addToCart_gtm,0.0,40.023248
+2025-12-12,21692572205,pmax01,12,12:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.994208,0.994208
+2025-12-12,21692572205,pmax01,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.986349
+2025-12-12,21692572205,pmax01,12,12:00,Клик по номеру,1.0,1.0
+2025-12-13,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,addToCart_gtm,0.0,2.0
+2025-12-13,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-15,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,1.0
+2025-12-15,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-15,21692572205,pmax01,12,12:00,addToCart_gtm,0.0,43.041967
+2025-12-15,21692572205,pmax01,12,12:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2025-12-15,21692572205,pmax01,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,13.567087
+2025-12-15,21692572205,pmax01,12,12:00,Клик по номеру,4.997518,4.997518
+2025-12-15,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,addToCart_gtm,0.0,2.0
+2025-12-15,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,form_submit_gtm,1.0,1.0
+2025-12-15,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.25
+2025-12-15,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-16,19153311519,Search | Brand | Pl,12,12:00,addToCart_gtm,0.0,1.0
+2025-12-16,21692572205,pmax01,12,12:00,addToCart_gtm,0.0,14.058975
+2025-12-16,21692572205,pmax01,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,11.331816
+2025-12-16,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,addToCart_gtm,0.0,1.0
+2025-12-16,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-16,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-17,19153311519,Search | Brand | Pl,12,12:00,addToCart_gtm,0.0,1.0
+2025-12-17,19153311519,Search | Brand | Pl,12,12:00,form_submit_gtm,1.0,1.0
+2025-12-17,19153311519,Search | Brand | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-17,19153311519,Search | Brand | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-18,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,0.5
+2025-12-18,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-12-18,21692572205,pmax01,12,12:00,addToCart_gtm,0.0,1.0
+2025-12-18,21692572205,pmax01,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-19,19153311519,Search | Brand | Pl,12,12:00,addToCart_gtm,0.0,1.0
+2025-12-19,19153311519,Search | Brand | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.999641
+2025-12-19,23276887406,Search | Brand | Pl Макс клики и Макс конв,12,12:00,addToCart_gtm,0.0,2.0
+2025-12-19,23276887406,Search | Brand | Pl Макс клики и Макс конв,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-20,19153311519,Search | Brand | Pl,12,12:00,addToCart_gtm,0.0,1.0
+2025-12-20,19153311519,Search | Brand | Pl,12,12:00,form_submit_gtm,1.0,1.0
+2025-12-22,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,addToCart_gtm,0.0,1.0
+2025-12-22,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-23,23276887406,Search | Brand | Pl Макс клики и Макс конв,12,12:00,addToCart_gtm,0.0,1.0
+2025-12-25,21692572205,pmax01,12,12:00,addToCart_gtm,0.0,8.0
+2025-12-25,21692572205,pmax01,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.000344
+2025-12-26,19153311519,Search | Brand | Pl,12,12:00,addToCart_gtm,0.0,1.0
+2025-12-26,19153311519,Search | Brand | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-26,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,2.136029
+2025-12-26,21692572205,pmax01,12,12:00,addToCart_gtm,0.0,5.983393
+2025-12-26,21692572205,pmax01,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.634481
+2025-12-26,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,addToCart_gtm,0.0,1.0
+2025-12-26,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-29,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,2.851996
+2025-12-29,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-29,21692572205,pmax01,12,12:00,addToCart_gtm,0.0,36.915349
+2025-12-29,21692572205,pmax01,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,23.242535
+2025-12-30,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,form_submit_gtm,1.0,1.0
+2025-12-30,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,12,12:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.333334
+2025-12-31,19153311519,Search | Brand | Pl,12,12:00,addToCart_gtm,0.0,2.0
+2025-12-31,19153311519,Search | Brand | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-31,19153311519,Search | Brand | Pl,12,12:00,Клик по номеру,0.0,1.0
+2025-12-31,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,1.0
+2025-12-31,23276887406,Search | Brand | Pl Макс клики и Макс конв,12,12:00,addToCart_gtm,0.0,2.0
+2025-12-31,23276887406,Search | Brand | Pl Макс клики и Макс конв,12,12:00,form_submit_gtm,1.0,1.0
+2025-12-31,23276887406,Search | Brand | Pl Макс клики и Макс конв,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-31,23276887406,Search | Brand | Pl Макс клики и Макс конв,12,12:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-01,19153311519,Search | Brand | Pl,13,13:00,addToCart_gtm,0.0,3.0
+2025-12-01,19153311519,Search | Brand | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-01,19158580966,Search | Poliweglan | Pl,13,13:00,addToCart_gtm,0.0,1.0
+2025-12-01,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-01,23276887406,Search | Brand | Pl Макс клики и Макс конв,13,13:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.998351,0.998351
+2025-12-02,19158580966,Search | Poliweglan | Pl,13,13:00,addToCart_gtm,0.0,1.0
+2025-12-02,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-02,21692572205,pmax01,13,13:00,addToCart_gtm,0.0,4.0
+2025-12-02,21692572205,pmax01,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-02,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,13,13:00,addToCart_gtm,0.0,1.0
+2025-12-02,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-03,19153311519,Search | Brand | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-03,19158580966,Search | Poliweglan | Pl,13,13:00,addToCart_gtm,0.0,1.0
+2025-12-03,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-03,23276887406,Search | Brand | Pl Макс клики и Макс конв,13,13:00,addToCart_gtm,0.0,2.0
+2025-12-03,23276887406,Search | Brand | Pl Макс клики и Макс конв,13,13:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-03,23276887406,Search | Brand | Pl Макс клики и Макс конв,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-03,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,13,13:00,addToCart_gtm,0.0,1.0
+2025-12-03,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,13,13:00,form_submit_gtm,1.0,1.0
+2025-12-04,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-04,19158580966,Search | Poliweglan | Pl,13,13:00,Клик по номеру,0.0,1.0
+2025-12-05,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-06,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,13,13:00,addToCart_gtm,0.0,1.0
+2025-12-06,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-08,19153311519,Search | Brand | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-08,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-08,21692572205,pmax01,13,13:00,addToCart_gtm,0.0,1.49927
+2025-12-08,21692572205,pmax01,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-09,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-09,21692572205,pmax01,13,13:00,addToCart_gtm,0.0,60.487598
+2025-12-09,21692572205,pmax01,13,13:00,form_submit_gtm,2.0,2.0
+2025-12-09,21692572205,pmax01,13,13:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-09,21692572205,pmax01,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,14.059067
+2025-12-09,21692572205,pmax01,13,13:00,Клик по номеру,7.0,7.0
+2025-12-09,23276887406,Search | Brand | Pl Макс клики и Макс конв,13,13:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.925858,0.925858
+2025-12-09,23276887406,Search | Brand | Pl Макс клики и Макс конв,13,13:00,Клик по номеру,0.0,0.979541
+2025-12-10,19153311519,Search | Brand | Pl,13,13:00,addToCart_gtm,0.0,1.0
+2025-12-10,19153311519,Search | Brand | Pl,13,13:00,form_submit_gtm,1.0,1.0
+2025-12-10,19153311519,Search | Brand | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-10,19153311519,Search | Brand | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-10,21692572205,pmax01,13,13:00,addToCart_gtm,0.0,46.837769
+2025-12-10,21692572205,pmax01,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,14.002621
+2025-12-11,21692572205,pmax01,13,13:00,addToCart_gtm,0.0,1.0
+2025-12-12,21692572205,pmax01,13,13:00,addToCart_gtm,0.0,29.964089
+2025-12-12,21692572205,pmax01,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.029405
+2025-12-12,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,13,13:00,addToCart_gtm,0.0,2.0
+2025-12-12,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,13,13:00,form_submit_gtm,1.0,1.0
+2025-12-12,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-13,19153311519,Search | Brand | Pl,13,13:00,addToCart_gtm,0.0,3.5
+2025-12-13,19153311519,Search | Brand | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.500196
+2025-12-13,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,13,13:00,addToCart_gtm,0.0,2.0
+2025-12-13,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-15,21692572205,pmax01,13,13:00,addToCart_gtm,0.0,50.335654
+2025-12-15,21692572205,pmax01,13,13:00,form_submit_gtm,0.999262,0.999262
+2025-12-15,21692572205,pmax01,13,13:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-15,21692572205,pmax01,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,15.980597
+2025-12-15,21692572205,pmax01,13,13:00,Клик по номеру,1.0,1.0
+2025-12-15,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,13,13:00,addToCart_gtm,0.0,1.0
+2025-12-15,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-16,19153311519,Search | Brand | Pl,13,13:00,addToCart_gtm,0.0,2.0
+2025-12-16,19153311519,Search | Brand | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-16,19153311519,Search | Brand | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-16,21692572205,pmax01,13,13:00,addToCart_gtm,0.0,15.024183
+2025-12-16,21692572205,pmax01,13,13:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-16,21692572205,pmax01,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.31551
+2025-12-16,21692572205,pmax01,13,13:00,Клик по номеру,1.0,1.0
+2025-12-16,23276887406,Search | Brand | Pl Макс клики и Макс конв,13,13:00,addToCart_gtm,0.0,1.0
+2025-12-18,21692572205,pmax01,13,13:00,addToCart_gtm,0.0,2.0
+2025-12-18,21692572205,pmax01,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-18,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,13,13:00,addToCart_gtm,0.0,1.0
+2025-12-18,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-19,21692572205,pmax01,13,13:00,addToCart_gtm,0.0,47.539029
+2025-12-19,21692572205,pmax01,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,21.358572
+2025-12-22,21692572205,pmax01,13,13:00,addToCart_gtm,0.0,4.0
+2025-12-22,21692572205,pmax01,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-12-24,19158580966,Search | Poliweglan | Pl,13,13:00,addToCart_gtm,0.0,1.0
+2025-12-24,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-24,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,13,13:00,addToCart_gtm,0.0,1.0
+2025-12-24,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-25,21692572205,pmax01,13,13:00,addToCart_gtm,0.0,4.015458
+2025-12-25,21692572205,pmax01,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.02815
+2025-12-26,21692572205,pmax01,13,13:00,addToCart_gtm,0.0,10.303907
+2025-12-26,21692572205,pmax01,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.120241
+2025-12-29,21692572205,pmax01,13,13:00,addToCart_gtm,0.0,36.278883
+2025-12-29,21692572205,pmax01,13,13:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.747923,1.747923
+2025-12-29,21692572205,pmax01,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,25.53783
+2025-12-29,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,13,13:00,addToCart_gtm,0.0,0.626351
+2025-12-29,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.998228
+2025-12-29,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,13,13:00,Клик по номеру,0.0,0.029828
+2025-12-30,19153311519,Search | Brand | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.728414
+2025-12-30,19158580966,Search | Poliweglan | Pl,13,13:00,addToCart_gtm,0.0,2.0
+2025-12-30,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-01,19153311519,Search | Brand | Pl,14,14:00,Клик по номеру,0.0,2.0
+2025-12-01,19158580966,Search | Poliweglan | Pl,14,14:00,addToCart_gtm,0.0,1.0
+2025-12-01,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-01,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-12-02,19153311519,Search | Brand | Pl,14,14:00,addToCart_gtm,0.0,1.0
+2025-12-02,19153311519,Search | Brand | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-02,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-02,21692572205,pmax01,14,14:00,addToCart_gtm,0.0,31.568191
+2025-12-02,21692572205,pmax01,14,14:00,form_submit_gtm,0.333333,0.333333
+2025-12-02,21692572205,pmax01,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.986783
+2025-12-02,21692572205,pmax01,14,14:00,Клик по номеру,1.0,1.0
+2025-12-02,23276887406,Search | Brand | Pl Макс клики и Макс конв,14,14:00,addToCart_gtm,0.0,1.0
+2025-12-02,23276887406,Search | Brand | Pl Макс клики и Макс конв,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-02,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,14,14:00,addToCart_gtm,0.0,1.5
+2025-12-02,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.648596
+2025-12-03,19153311519,Search | Brand | Pl,14,14:00,addToCart_gtm,0.0,1.0
+2025-12-03,19153311519,Search | Brand | Pl,14,14:00,form_submit_gtm,1.0,1.0
+2025-12-03,23276887406,Search | Brand | Pl Макс клики и Макс конв,14,14:00,addToCart_gtm,0.0,2.0
+2025-12-03,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.4
+2025-12-04,21692572205,pmax01,14,14:00,addToCart_gtm,0.0,9.980411
+2025-12-04,21692572205,pmax01,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.004005
+2025-12-04,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,14,14:00,addToCart_gtm,0.0,1.0
+2025-12-04,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-04,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,14,14:00,Клик по номеру,0.0,0.005608
+2025-12-06,19158580966,Search | Poliweglan | Pl,14,14:00,addToCart_gtm,0.0,1.0
+2025-12-06,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-08,19158580966,Search | Poliweglan | Pl,14,14:00,addToCart_gtm,0.0,2.0
+2025-12-08,21692572205,pmax01,14,14:00,addToCart_gtm,0.0,68.966558
+2025-12-08,21692572205,pmax01,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-12-08,21692572205,pmax01,14,14:00,Клик по номеру,2.0,2.0
+2025-12-08,23276887406,Search | Brand | Pl Макс клики и Макс конв,14,14:00,addToCart_gtm,0.0,2.170673
+2025-12-08,23276887406,Search | Brand | Pl Макс клики и Макс конв,14,14:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-08,23276887406,Search | Brand | Pl Макс клики и Макс конв,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.332831
+2025-12-09,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,14,14:00,addToCart_gtm,0.0,2.5
+2025-12-09,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-12-10,19158580966,Search | Poliweglan | Pl,14,14:00,addToCart_gtm,0.0,3.0
+2025-12-10,19158580966,Search | Poliweglan | Pl,14,14:00,form_submit_gtm,1.0,1.0
+2025-12-10,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-12-10,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-10,21692572205,pmax01,14,14:00,addToCart_gtm,0.0,53.976321
+2025-12-10,21692572205,pmax01,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.006496
+2025-12-10,21692572205,pmax01,14,14:00,Клик по номеру,1.0,1.0
+2025-12-11,21692572205,pmax01,14,14:00,addToCart_gtm,0.0,2.0
+2025-12-11,21692572205,pmax01,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-11,21692572205,pmax01,14,14:00,Клик по номеру,0.998863,0.998863
+2025-12-12,21692572205,pmax01,14,14:00,addToCart_gtm,0.0,40.981258
+2025-12-12,21692572205,pmax01,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.509214
+2025-12-12,21692572205,pmax01,14,14:00,Клик по номеру,1.001139,1.001139
+2025-12-12,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,14,14:00,Клик по номеру,0.0,1.0
+2025-12-13,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,14,14:00,addToCart_gtm,0.0,2.0
+2025-12-13,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-15,21692572205,pmax01,14,14:00,addToCart_gtm,0.0,37.883799
+2025-12-15,21692572205,pmax01,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,14.99908
+2025-12-15,21692572205,pmax01,14,14:00,Клик по номеру,1.996994,1.996994
+2025-12-15,23276887406,Search | Brand | Pl Макс клики и Макс конв,14,14:00,addToCart_gtm,0.0,1.0
+2025-12-16,19153311519,Search | Brand | Pl,14,14:00,addToCart_gtm,0.0,2.0
+2025-12-16,19153311519,Search | Brand | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-16,21692572205,pmax01,14,14:00,addToCart_gtm,0.0,25.991417
+2025-12-16,21692572205,pmax01,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,13.831091
+2025-12-16,21692572205,pmax01,14,14:00,Клик по номеру,0.006211,0.006211
+2025-12-18,21692572205,pmax01,14,14:00,addToCart_gtm,0.0,3.0
+2025-12-18,21692572205,pmax01,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-19,21692572205,pmax01,14,14:00,addToCart_gtm,0.0,83.141907
+2025-12-19,21692572205,pmax01,14,14:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.205492,1.205492
+2025-12-19,21692572205,pmax01,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,46.095847
+2025-12-19,21692572205,pmax01,14,14:00,Клик по номеру,2.0,2.0
+2025-12-20,19153311519,Search | Brand | Pl,14,14:00,addToCart_gtm,0.0,1.0
+2025-12-20,19153311519,Search | Brand | Pl,14,14:00,form_submit_gtm,1.0,1.0
+2025-12-20,19153311519,Search | Brand | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-20,19153311519,Search | Brand | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2025-12-22,21692572205,pmax01,14,14:00,addToCart_gtm,0.0,7.001206
+2025-12-22,21692572205,pmax01,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.095439
+2025-12-23,19158580966,Search | Poliweglan | Pl,14,14:00,addToCart_gtm,0.0,1.0
+2025-12-23,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-25,19153311519,Search | Brand | Pl,14,14:00,addToCart_gtm,0.0,1.0
+2025-12-25,19153311519,Search | Brand | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-26,19158580966,Search | Poliweglan | Pl,14,14:00,addToCart_gtm,0.0,1.0
+2025-12-26,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-26,21692572205,pmax01,14,14:00,addToCart_gtm,0.0,18.808659
+2025-12-26,21692572205,pmax01,14,14:00,form_submit_gtm,0.5,0.5
+2025-12-26,21692572205,pmax01,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,14.501764
+2025-12-26,21692572205,pmax01,14,14:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.5
+2025-12-26,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-29,19153311519,Search | Brand | Pl,14,14:00,addToCart_gtm,0.0,1.0
+2025-12-29,19153311519,Search | Brand | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.084758
+2025-12-29,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-29,21692572205,pmax01,14,14:00,addToCart_gtm,0.0,19.193756
+2025-12-29,21692572205,pmax01,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,13.966013
+2025-12-29,21692572205,pmax01,14,14:00,Клик по номеру,2.0,2.0
+2025-12-29,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,14,14:00,addToCart_gtm,0.0,1.0
+2025-12-29,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-30,19158580966,Search | Poliweglan | Pl,14,14:00,addToCart_gtm,0.0,2.0
+2025-12-30,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-30,23276887406,Search | Brand | Pl Макс клики и Макс конв,14,14:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2025-12-30,23276887406,Search | Brand | Pl Макс клики и Макс конв,14,14:00,Клик по номеру,0.0,2.0
+2025-12-31,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-01,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,1.0
+2025-12-01,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-01,23276887406,Search | Brand | Pl Макс клики и Макс конв,15,15:00,addToCart_gtm,0.0,1.0
+2025-12-02,19153311519,Search | Brand | Pl,15,15:00,addToCart_gtm,0.0,1.0
+2025-12-02,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-02,21692572205,pmax01,15,15:00,addToCart_gtm,0.0,19.818741
+2025-12-02,21692572205,pmax01,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-02,21692572205,pmax01,15,15:00,Клик по номеру,1.0,1.0
+2025-12-02,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,addToCart_gtm,0.0,1.0
+2025-12-02,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-03,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,addToCart_gtm,0.0,1.0
+2025-12-03,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-04,21692572205,pmax01,15,15:00,addToCart_gtm,0.0,12.362349
+2025-12-04,21692572205,pmax01,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.074016
+2025-12-04,21692572205,pmax01,15,15:00,Клик по номеру,1.000107,1.000107
+2025-12-05,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,addToCart_gtm,0.0,1.0
+2025-12-05,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,form_submit_gtm,1.0,1.0
+2025-12-05,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-05,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-06,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,addToCart_gtm,0.0,0.663254
+2025-12-06,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-08,21692572205,pmax01,15,15:00,addToCart_gtm,0.0,50.991008
+2025-12-08,21692572205,pmax01,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-12-08,21692572205,pmax01,15,15:00,Клик по номеру,2.967964,2.967964
+2025-12-08,23276887406,Search | Brand | Pl Макс клики и Макс конв,15,15:00,addToCart_gtm,0.0,1.170675
+2025-12-08,23276887406,Search | Brand | Pl Макс клики и Макс конв,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.332831
+2025-12-09,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,2.0
+2025-12-09,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-10,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,2.0
+2025-12-10,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-10,21692572205,pmax01,15,15:00,addToCart_gtm,0.0,48.956516
+2025-12-10,21692572205,pmax01,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.431919
+2025-12-10,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.381451
+2025-12-11,21692572205,pmax01,15,15:00,addToCart_gtm,0.0,3.0
+2025-12-11,21692572205,pmax01,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.763486
+2025-12-12,21692572205,pmax01,15,15:00,addToCart_gtm,0.0,25.943679
+2025-12-12,21692572205,pmax01,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,14.640593
+2025-12-13,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-12-13,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,addToCart_gtm,0.0,5.0
+2025-12-13,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-15,19153311519,Search | Brand | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-15,21692572205,pmax01,15,15:00,addToCart_gtm,0.0,7.024677
+2025-12-15,21692572205,pmax01,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.167234
+2025-12-15,21692572205,pmax01,15,15:00,Клик по номеру,0.007927,0.007927
+2025-12-15,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,addToCart_gtm,0.0,1.0
+2025-12-15,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-15,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-15,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,Клик по номеру,0.0,2.0
+2025-12-16,21692572205,pmax01,15,15:00,addToCart_gtm,0.0,40.978744
+2025-12-16,21692572205,pmax01,15,15:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-16,21692572205,pmax01,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.048965
+2025-12-16,21692572205,pmax01,15,15:00,Клик по номеру,1.0,1.0
+2025-12-17,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,1.0
+2025-12-17,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-18,21692572205,pmax01,15,15:00,addToCart_gtm,0.0,23.342259
+2025-12-18,21692572205,pmax01,15,15:00,form_submit_gtm,1.0,1.0
+2025-12-18,21692572205,pmax01,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.999641
+2025-12-18,21692572205,pmax01,15,15:00,Клик по номеру,1.0,1.0
+2025-12-19,21692572205,pmax01,15,15:00,addToCart_gtm,0.0,7.0
+2025-12-19,21692572205,pmax01,15,15:00,form_submit_gtm,0.00633,0.00633
+2025-12-19,21692572205,pmax01,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.097387
+2025-12-19,23276887406,Search | Brand | Pl Макс клики и Макс конв,15,15:00,addToCart_gtm,0.0,1.0
+2025-12-19,23276887406,Search | Brand | Pl Макс клики и Макс конв,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-22,21692572205,pmax01,15,15:00,addToCart_gtm,0.0,3.438258
+2025-12-22,21692572205,pmax01,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.005843
+2025-12-24,19153311519,Search | Brand | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-12-24,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,addToCart_gtm,0.0,2.0
+2025-12-24,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-25,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,2.0
+2025-12-25,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-26,19153311519,Search | Brand | Pl,15,15:00,addToCart_gtm,0.0,2.0
+2025-12-26,19153311519,Search | Brand | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-26,21692572205,pmax01,15,15:00,addToCart_gtm,0.0,17.879045
+2025-12-26,21692572205,pmax01,15,15:00,form_submit_gtm,0.5,0.5
+2025-12-26,21692572205,pmax01,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,11.2632
+2025-12-26,21692572205,pmax01,15,15:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.66561
+2025-12-26,21692572205,pmax01,15,15:00,Клик по номеру,0.999418,0.999418
+2025-12-26,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,addToCart_gtm,0.0,1.0
+2025-12-29,19153311519,Search | Brand | Pl,15,15:00,addToCart_gtm,0.0,3.0
+2025-12-29,19153311519,Search | Brand | Pl,15,15:00,form_submit_gtm,1.0,1.0
+2025-12-29,19153311519,Search | Brand | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-29,19153311519,Search | Brand | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-29,21692572205,pmax01,15,15:00,addToCart_gtm,0.0,107.878439
+2025-12-29,21692572205,pmax01,15,15:00,form_submit_gtm,1.0,1.0
+2025-12-29,21692572205,pmax01,15,15:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-29,21692572205,pmax01,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,29.611264
+2025-12-29,21692572205,pmax01,15,15:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-29,21692572205,pmax01,15,15:00,Клик по номеру,4.000433,4.000433
+2025-12-30,19153311519,Search | Brand | Pl,15,15:00,addToCart_gtm,0.0,2.0
+2025-12-30,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,1.0
+2025-12-30,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-30,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,addToCart_gtm,0.0,2.0
+2025-12-30,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-31,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,1.0
+2025-12-31,19158580966,Search | Poliweglan | Pl,15,15:00,form_submit_gtm,1.0,1.0
+2025-12-31,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.610818
+2025-12-31,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.911965
+2025-12-31,23276887406,Search | Brand | Pl Макс клики и Макс конв,15,15:00,addToCart_gtm,0.0,2.0
+2025-12-31,23276887406,Search | Brand | Pl Макс клики и Макс конв,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-31,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,addToCart_gtm,0.0,2.0
+2025-12-31,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,form_submit_gtm,1.0,1.0
+2025-12-31,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-31,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,15,15:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-01,19153311519,Search | Brand | Pl,16,16:00,addToCart_gtm,0.0,1.0
+2025-12-01,19153311519,Search | Brand | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-01,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,16,16:00,addToCart_gtm,0.0,1.0
+2025-12-01,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,16,16:00,form_submit_gtm,1.0,1.0
+2025-12-01,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-01,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,16,16:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-04,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,16,16:00,addToCart_gtm,0.0,2.0
+2025-12-04,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-05,19158580966,Search | Poliweglan | Pl,16,16:00,addToCart_gtm,0.0,2.0
+2025-12-05,19158580966,Search | Poliweglan | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-05,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,16,16:00,addToCart_gtm,0.0,1.0
+2025-12-05,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-06,19153311519,Search | Brand | Pl,16,16:00,addToCart_gtm,0.0,1.0
+2025-12-06,19153311519,Search | Brand | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.00875
+2025-12-08,19153311519,Search | Brand | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.998137,0.998137
+2025-12-08,19153311519,Search | Brand | Pl,16,16:00,Клик по номеру,0.0,1.0
+2025-12-08,23276887406,Search | Brand | Pl Макс клики и Макс конв,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,16,16:00,addToCart_gtm,0.0,4.341347
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,16,16:00,form_submit_gtm,2.0,2.0
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.701589
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,16,16:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.94062
+2025-12-09,19158580966,Search | Poliweglan | Pl,16,16:00,addToCart_gtm,0.0,3.0
+2025-12-09,19158580966,Search | Poliweglan | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-09,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,16,16:00,addToCart_gtm,0.0,2.0
+2025-12-09,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-10,19158580966,Search | Poliweglan | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.395849
+2025-12-11,23276887406,Search | Brand | Pl Макс клики и Макс конв,16,16:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.999709,0.999709
+2025-12-11,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,16,16:00,addToCart_gtm,0.0,2.0
+2025-12-12,19158580966,Search | Poliweglan | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.130458
+2025-12-12,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,16,16:00,addToCart_gtm,0.0,1.0
+2025-12-12,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-13,23276887406,Search | Brand | Pl Макс клики и Макс конв,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-25,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,16,16:00,addToCart_gtm,0.0,2.0
+2025-12-26,19153311519,Search | Brand | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-26,19158580966,Search | Poliweglan | Pl,16,16:00,addToCart_gtm,0.0,2.0
+2025-12-26,19158580966,Search | Poliweglan | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-29,19153311519,Search | Brand | Pl,16,16:00,addToCart_gtm,0.0,1.0
+2025-12-29,19153311519,Search | Brand | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.500485
+2025-12-29,19158580966,Search | Poliweglan | Pl,16,16:00,addToCart_gtm,0.0,1.825109
+2025-12-29,19158580966,Search | Poliweglan | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-30,23276887406,Search | Brand | Pl Макс клики и Макс конв,16,16:00,addToCart_gtm,0.0,1.0
+2025-12-30,23276887406,Search | Brand | Pl Макс клики и Макс конв,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-30,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,16,16:00,addToCart_gtm,0.0,2.0
+2025-12-31,19158580966,Search | Poliweglan | Pl,16,16:00,addToCart_gtm,0.0,4.6
+2025-12-31,19158580966,Search | Poliweglan | Pl,16,16:00,form_submit_gtm,1.0,1.0
+2025-12-31,19158580966,Search | Poliweglan | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.588282
+2025-12-31,19158580966,Search | Poliweglan | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-01,19153311519,Search | Brand | Pl,17,17:00,Клик по номеру,0.0,0.5
+2025-12-01,19158580966,Search | Poliweglan | Pl,17,17:00,Клик по номеру,0.0,0.5
+2025-12-01,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,17,17:00,addToCart_gtm,0.0,1.0
+2025-12-02,19158580966,Search | Poliweglan | Pl,17,17:00,addToCart_gtm,0.0,1.0
+2025-12-02,19158580966,Search | Poliweglan | Pl,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-02,23276887406,Search | Brand | Pl Макс клики и Макс конв,17,17:00,Клик по номеру,0.0,1.0
+2025-12-03,19153311519,Search | Brand | Pl,17,17:00,addToCart_gtm,0.0,1.0
+2025-12-03,19153311519,Search | Brand | Pl,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.281016
+2025-12-05,19158580966,Search | Poliweglan | Pl,17,17:00,addToCart_gtm,0.0,3.0
+2025-12-05,19158580966,Search | Poliweglan | Pl,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-09,19153311519,Search | Brand | Pl,17,17:00,addToCart_gtm,0.0,2.0
+2025-12-09,19153311519,Search | Brand | Pl,17,17:00,form_submit_gtm,1.0,1.0
+2025-12-09,19158580966,Search | Poliweglan | Pl,17,17:00,addToCart_gtm,0.0,2.0
+2025-12-09,23276887406,Search | Brand | Pl Макс клики и Макс конв,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-09,23276887406,Search | Brand | Pl Макс клики и Макс конв,17,17:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-10,19153311519,Search | Brand | Pl,17,17:00,addToCart_gtm,0.0,1.332745
+2025-12-10,19153311519,Search | Brand | Pl,17,17:00,form_submit_gtm,1.0,1.0
+2025-12-10,19153311519,Search | Brand | Pl,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.565649
+2025-12-10,19153311519,Search | Brand | Pl,17,17:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-11,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,17,17:00,addToCart_gtm,0.0,1.0
+2025-12-11,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-15,19158580966,Search | Poliweglan | Pl,17,17:00,addToCart_gtm,0.0,3.0
+2025-12-15,19158580966,Search | Poliweglan | Pl,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.354523
+2025-12-15,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,17,17:00,addToCart_gtm,0.0,1.0
+2025-12-15,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.998682
+2025-12-17,19153311519,Search | Brand | Pl,17,17:00,addToCart_gtm,0.0,2.0
+2025-12-17,19153311519,Search | Brand | Pl,17,17:00,form_submit_gtm,1.0,1.0
+2025-12-17,19153311519,Search | Brand | Pl,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-17,19153311519,Search | Brand | Pl,17,17:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-18,19158580966,Search | Poliweglan | Pl,17,17:00,addToCart_gtm,0.0,1.0
+2025-12-18,19158580966,Search | Poliweglan | Pl,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-22,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,17,17:00,addToCart_gtm,0.0,0.5
+2025-12-22,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-12-26,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,17,17:00,addToCart_gtm,0.0,1.0
+2025-12-26,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-29,19158580966,Search | Poliweglan | Pl,17,17:00,addToCart_gtm,0.0,1.0
+2025-12-31,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,17,17:00,addToCart_gtm,0.0,1.0
+2025-12-31,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-01,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,18,18:00,addToCart_gtm,0.0,2.0
+2025-12-02,19153311519,Search | Brand | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-02,19153311519,Search | Brand | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-02,19158580966,Search | Poliweglan | Pl,18,18:00,addToCart_gtm,0.0,2.0
+2025-12-02,19158580966,Search | Poliweglan | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.000494
+2025-12-03,23276887406,Search | Brand | Pl Макс клики и Макс конв,18,18:00,addToCart_gtm,0.0,1.0
+2025-12-03,23276887406,Search | Brand | Pl Макс клики и Макс конв,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-04,19158580966,Search | Poliweglan | Pl,18,18:00,addToCart_gtm,0.0,2.0
+2025-12-04,19158580966,Search | Poliweglan | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-05,23276887406,Search | Brand | Pl Макс клики и Макс конв,18,18:00,addToCart_gtm,0.0,2.0
+2025-12-05,23276887406,Search | Brand | Pl Макс клики и Макс конв,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-08,19158580966,Search | Poliweglan | Pl,18,18:00,addToCart_gtm,0.0,2.0
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,18,18:00,addToCart_gtm,0.0,1.0
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-09,19158580966,Search | Poliweglan | Pl,18,18:00,addToCart_gtm,0.0,3.0
+2025-12-09,19158580966,Search | Poliweglan | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-09,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,18,18:00,addToCart_gtm,0.0,1.018826
+2025-12-09,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-12-10,19153311519,Search | Brand | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.011998
+2025-12-10,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,18,18:00,addToCart_gtm,0.0,2.0
+2025-12-10,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,18,18:00,form_submit_gtm,1.0,1.0
+2025-12-10,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-10,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,18,18:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-11,19153311519,Search | Brand | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.011999
+2025-12-12,19153311519,Search | Brand | Pl,18,18:00,addToCart_gtm,0.0,1.0
+2025-12-12,19153311519,Search | Brand | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-12,19158580966,Search | Poliweglan | Pl,18,18:00,addToCart_gtm,0.0,3.0
+2025-12-12,19158580966,Search | Poliweglan | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-15,19158580966,Search | Poliweglan | Pl,18,18:00,addToCart_gtm,0.0,2.0
+2025-12-15,19158580966,Search | Poliweglan | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-15,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,18,18:00,addToCart_gtm,0.0,1.0
+2025-12-15,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.9
+2025-12-16,19158580966,Search | Poliweglan | Pl,18,18:00,addToCart_gtm,0.0,1.0
+2025-12-16,19158580966,Search | Poliweglan | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-16,23276887406,Search | Brand | Pl Макс клики и Макс конв,18,18:00,addToCart_gtm,0.0,1.0
+2025-12-16,23276887406,Search | Brand | Pl Макс клики и Макс конв,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-18,19153311519,Search | Brand | Pl,18,18:00,addToCart_gtm,0.0,2.0
+2025-12-18,19153311519,Search | Brand | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.999641
+2025-12-18,19158580966,Search | Poliweglan | Pl,18,18:00,addToCart_gtm,0.0,2.0
+2025-12-18,19158580966,Search | Poliweglan | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-19,19153311519,Search | Brand | Pl,18,18:00,addToCart_gtm,0.0,3.0
+2025-12-19,19153311519,Search | Brand | Pl,18,18:00,form_submit_gtm,1.0,1.0
+2025-12-19,19153311519,Search | Brand | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.009366,0.009366
+2025-12-19,19153311519,Search | Brand | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.000083
+2025-12-19,19153311519,Search | Brand | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-19,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,18,18:00,form_submit_gtm,1.0,1.0
+2025-12-22,19153311519,Search | Brand | Pl,18,18:00,addToCart_gtm,0.0,1.0
+2025-12-22,19153311519,Search | Brand | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-24,23276887406,Search | Brand | Pl Макс клики и Макс конв,18,18:00,addToCart_gtm,0.0,2.0
+2025-12-24,23276887406,Search | Brand | Pl Макс клики и Макс конв,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-24,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,18,18:00,addToCart_gtm,0.0,1.0
+2025-12-24,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-25,19158580966,Search | Poliweglan | Pl,18,18:00,addToCart_gtm,0.0,1.0
+2025-12-25,19158580966,Search | Poliweglan | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-26,23276887406,Search | Brand | Pl Макс клики и Макс конв,18,18:00,addToCart_gtm,0.0,3.0
+2025-12-29,19153311519,Search | Brand | Pl,18,18:00,addToCart_gtm,0.0,1.0
+2025-12-29,19153311519,Search | Brand | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-29,19158580966,Search | Poliweglan | Pl,18,18:00,addToCart_gtm,0.0,3.0
+2025-12-29,19158580966,Search | Poliweglan | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-29,23276887406,Search | Brand | Pl Макс клики и Макс конв,18,18:00,addToCart_gtm,0.0,6.0
+2025-12-29,23276887406,Search | Brand | Pl Макс клики и Макс конв,18,18:00,form_submit_gtm,1.0,1.0
+2025-12-29,23276887406,Search | Brand | Pl Макс клики и Макс конв,18,18:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-29,23276887406,Search | Brand | Pl Макс клики и Макс конв,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.998841
+2025-12-29,23276887406,Search | Brand | Pl Макс клики и Макс конв,18,18:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-30,19158580966,Search | Poliweglan | Pl,18,18:00,addToCart_gtm,0.0,1.0
+2025-12-30,19158580966,Search | Poliweglan | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-08,23276887406,Search | Brand | Pl Макс клики и Макс конв,19,19:00,addToCart_gtm,0.0,2.0
+2025-12-08,23276887406,Search | Brand | Pl Макс клики и Макс конв,19,19:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-11,23276887406,Search | Brand | Pl Макс клики и Макс конв,19,19:00,addToCart_gtm,0.0,1.0
+2025-12-15,23276887406,Search | Brand | Pl Макс клики и Макс конв,19,19:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.25
+2025-12-16,19153311519,Search | Brand | Pl,19,19:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-19,23276887406,Search | Brand | Pl Макс клики и Макс конв,19,19:00,addToCart_gtm,0.0,2.0
+2025-12-19,23276887406,Search | Brand | Pl Макс клики и Макс конв,19,19:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.06292,0.06292
+2025-12-22,19153311519,Search | Brand | Pl,19,19:00,addToCart_gtm,0.0,2.0
+2025-12-22,19153311519,Search | Brand | Pl,19,19:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-01,19153311519,Search | Brand | Pl,20,20:00,addToCart_gtm,0.0,3.0
+2025-12-01,19153311519,Search | Brand | Pl,20,20:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-12-11,19153311519,Search | Brand | Pl,20,20:00,addToCart_gtm,0.0,4.0
+2025-12-15,23276887406,Search | Brand | Pl Макс клики и Макс конв,20,20:00,addToCart_gtm,0.0,2.0
+2025-12-15,23276887406,Search | Brand | Pl Макс клики и Макс конв,20,20:00,form_submit_gtm,1.0,1.0
+2025-12-15,23276887406,Search | Brand | Pl Макс клики и Макс конв,20,20:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-15,23276887406,Search | Brand | Pl Макс клики и Макс конв,20,20:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-15,23276887406,Search | Brand | Pl Макс клики и Макс конв,20,20:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-22,19153311519,Search | Brand | Pl,20,20:00,addToCart_gtm,0.0,2.0
+2025-12-22,19153311519,Search | Brand | Pl,20,20:00,form_submit_gtm,1.0,1.0
+2025-12-22,19153311519,Search | Brand | Pl,20,20:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-22,19153311519,Search | Brand | Pl,20,20:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-25,23276887406,Search | Brand | Pl Макс клики и Макс конв,20,20:00,addToCart_gtm,0.0,1.0
+2025-12-25,23276887406,Search | Brand | Pl Макс клики и Макс конв,20,20:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-03,19153311519,Search | Brand | Pl,21,21:00,addToCart_gtm,0.0,1.0
+2025-12-03,19153311519,Search | Brand | Pl,21,21:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.000313
+2025-12-04,23276887406,Search | Brand | Pl Макс клики и Макс конв,21,21:00,addToCart_gtm,0.0,1.0
+2025-12-04,23276887406,Search | Brand | Pl Макс клики и Макс конв,21,21:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-08,19153311519,Search | Brand | Pl,21,21:00,addToCart_gtm,0.0,1.0
+2025-12-08,19153311519,Search | Brand | Pl,21,21:00,form_submit_gtm,1.0,1.0
+2025-12-08,19153311519,Search | Brand | Pl,21,21:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-08,19153311519,Search | Brand | Pl,21,21:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-08,23276887406,Search | Brand | Pl Макс клики и Макс конв,21,21:00,addToCart_gtm,0.0,1.0
+2025-12-11,23276887406,Search | Brand | Pl Макс клики и Макс конв,21,21:00,addToCart_gtm,0.0,1.0
+2025-12-11,23276887406,Search | Brand | Pl Макс клики и Макс конв,21,21:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-15,19153311519,Search | Brand | Pl,21,21:00,addToCart_gtm,0.0,1.0
+2025-12-15,19153311519,Search | Brand | Pl,21,21:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-16,19153311519,Search | Brand | Pl,21,21:00,addToCart_gtm,0.0,1.0
+2025-12-16,19153311519,Search | Brand | Pl,21,21:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-22,23276887406,Search | Brand | Pl Макс клики и Макс конв,21,21:00,addToCart_gtm,0.0,2.0
+2025-12-22,23276887406,Search | Brand | Pl Макс клики и Макс конв,21,21:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-22,23276887406,Search | Brand | Pl Макс клики и Макс конв,21,21:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-26,23276887406,Search | Brand | Pl Макс клики и Макс конв,21,21:00,addToCart_gtm,0.0,1.0
+2025-12-26,23276887406,Search | Brand | Pl Макс клики и Макс конв,21,21:00,form_submit_gtm,1.0,1.0
+2025-12-26,23276887406,Search | Brand | Pl Макс клики и Макс конв,21,21:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-26,23276887406,Search | Brand | Pl Макс клики и Макс конв,21,21:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-29,23276887406,Search | Brand | Pl Макс клики и Макс конв,21,21:00,addToCart_gtm,0.0,1.0
+2025-12-29,23276887406,Search | Brand | Pl Макс клики и Макс конв,21,21:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2025-12-29,23276887406,Search | Brand | Pl Макс клики и Макс конв,21,21:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2025-12-31,19153311519,Search | Brand | Pl,21,21:00,addToCart_gtm,0.0,1.0
+2025-12-31,19153311519,Search | Brand | Pl,21,21:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.000311

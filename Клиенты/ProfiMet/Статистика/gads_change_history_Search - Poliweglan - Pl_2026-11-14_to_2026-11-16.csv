@@ -1,0 +1,5 @@
+Datetime,Campaign_resource,Resource_type,Operation,Client_type,User_email,Changed_fields,Relevant_fields,Is_relevant,Campaign_name
+2026-11-16 16:47:07.286431,customers/7552781705/campaigns/19158580966,AD_GROUP,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,cpc_bid_micros,cpc_bid_micros,True,Search | Poliweglan | Pl
+2026-11-16 16:46:38.749743,customers/7552781705/campaigns/19158580966,AD_GROUP,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True,Search | Poliweglan | Pl
+2026-11-16 16:46:18.916191,customers/7552781705/campaigns/19158580966,AD_GROUP,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True,Search | Poliweglan | Pl
+2026-11-16 16:46:16.277359,customers/7552781705/campaigns/19158580966,AD_GROUP,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True,Search | Poliweglan | Pl

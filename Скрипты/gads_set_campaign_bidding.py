@@ -16,6 +16,11 @@ MANUAL_CPC (добавлено 2026-10-12, Landver car+truck): без enhanced C
         --strategy MAXIMIZE_CLICKS --cpc-ceiling 0.50 [--execute]
     # откат:
     python gads_set_campaign_bidding.py ... --strategy MAXIMIZE_CONVERSIONS [--execute]
+    # Максимум конверсий с целевой ценой конверсии (добавлено 2026-11-18):
+    python gads_set_campaign_bidding.py ... --strategy MAXIMIZE_CONVERSIONS --target-cpa 33 [--execute]
+
+--target-cpa (валюта аккаунта) пишет campaign.target_cpa.target_cpa_micros: в API это TARGET_CPA (в интерфейсе «Максимум конверсий»
+с целевой ценой конверсии). Поле maximize_conversions.target_cpa_micros=N на Demand Gen отклоняется (П-038). Без флага - 0 (без цели).
 """
 import argparse
 import json
@@ -36,10 +41,15 @@ def main():
     ap.add_argument("--campaign-id", required=True)
     ap.add_argument("--strategy", required=True, choices=["MAXIMIZE_CLICKS", "MAXIMIZE_CONVERSIONS", "MANUAL_CPC"])
     ap.add_argument("--cpc-ceiling", type=float, help="потолок цены клика (для MAXIMIZE_CLICKS), в валюте аккаунта")
+    ap.add_argument("--target-cpa", type=float, help="целевая цена конверсии (для MAXIMIZE_CONVERSIONS), в валюте аккаунта")
     ap.add_argument("--execute", action="store_true", help="Реально записать. Без флага — validate_only")
     args = ap.parse_args()
     if args.strategy == "MAXIMIZE_CLICKS" and not args.cpc_ceiling:
         raise SystemExit("для MAXIMIZE_CLICKS нужен --cpc-ceiling (потолок цены клика)")
+    if args.target_cpa is not None and args.strategy != "MAXIMIZE_CONVERSIONS":
+        raise SystemExit("--target-cpa допустим только с --strategy MAXIMIZE_CONVERSIONS")
+    if args.target_cpa is not None and args.target_cpa <= 0:
+        raise SystemExit("--target-cpa должен быть > 0")
 
     cid = args.customer_id.replace("-", "").strip()
     client = GoogleAdsClient.load_from_storage(GOOGLE_ADS_YAML)
@@ -48,13 +58,13 @@ def main():
 
     def read():
         q = ("SELECT campaign.name, campaign.status, campaign.bidding_strategy_type, "
-             "campaign.maximize_conversions.target_cpa_micros, campaign.target_spend.cpc_bid_ceiling_micros "
+             "campaign.maximize_conversions.target_cpa_micros, campaign.target_cpa.target_cpa_micros, campaign.target_spend.cpc_bid_ceiling_micros "
              f"FROM campaign WHERE campaign.id = {args.campaign_id}")
         for r in ga.search(customer_id=cid, query=q):
             c = r.campaign
             return {"name": c.name, "status": E.CampaignStatusEnum.CampaignStatus.Name(c.status),
                     "strategy": E.BiddingStrategyTypeEnum.BiddingStrategyType.Name(c.bidding_strategy_type),
-                    "target_cpa": c.maximize_conversions.target_cpa_micros / 1e6,
+                    "target_cpa": (c.target_cpa.target_cpa_micros or c.maximize_conversions.target_cpa_micros) / 1e6,
                     "cpc_ceiling": c.target_spend.cpc_bid_ceiling_micros / 1e6}
         raise SystemExit("кампания не найдена")
 
@@ -75,8 +85,14 @@ def main():
         op.update.manual_cpc.enhanced_cpc_enabled = False
         paths = ["manual_cpc.enhanced_cpc_enabled"]
     else:
-        op.update.maximize_conversions.target_cpa_micros = 0
-        paths = ["maximize_conversions.target_cpa_micros"]
+        if args.target_cpa:
+            # 2026-11-18: на Demand Gen maximize_conversions.target_cpa_micros=N даёт OPERATION_NOT_PERMITTED_FOR_CONTEXT (П-038);
+            # «Максимум конверсий с целевой CPA» в API = стратегия TARGET_CPA (campaign.target_cpa) - validate_only проходит
+            op.update.target_cpa.target_cpa_micros = int(round(args.target_cpa * 1_000_000))
+            paths = ["target_cpa.target_cpa_micros"]
+        else:
+            op.update.maximize_conversions.target_cpa_micros = 0
+            paths = ["maximize_conversions.target_cpa_micros"]
     op.update_mask.CopyFrom(field_mask_pb2.FieldMask(paths=paths))
     req = client.get_type("MutateCampaignsRequest")
     req.customer_id = cid
@@ -87,10 +103,12 @@ def main():
     except GoogleAdsException as ex:
         print("ОШИБКА от Google Ads:")
         for err in ex.failure.errors[:5]:
-            print("  -", err.message)
+            print("  -", err.message, "|", str(err.error_code).strip().replace(chr(10), " "))
         raise SystemExit(1)
     if not args.execute:
-        print(f"Проверка пройдена. НИЧЕГО не изменено (validate_only). Было бы: {before['strategy']} → {args.strategy}")
+        after = "TARGET_CPA" if args.target_cpa else args.strategy
+        tc = f" (target_cpa {args.target_cpa})" if args.target_cpa else ""
+        print(f"Проверка пройдена. НИЧЕГО не изменено (validate_only). Было бы: {before['strategy']} (target_cpa {before['target_cpa']}) → {after}{tc}")
         return
     print("Прочитано обратно:", read())
 

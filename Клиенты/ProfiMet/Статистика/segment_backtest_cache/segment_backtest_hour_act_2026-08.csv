@@ -1,0 +1,747 @@
+﻿day,camp_id,camp,seg,segname,action,conv,allconv
+2026-08-03,19153311519,Search | Brand | Pl,11,11:00,addToCart_gtm,0.0,1.0
+2026-08-03,19153311519,Search | Brand | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-04,19153311519,Search | Brand | Pl,10,10:00,addToCart_gtm,0.0,2.0
+2026-08-04,19153311519,Search | Brand | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-04,19153311519,Search | Brand | Pl,21,21:00,addToCart_gtm,0.0,1.0
+2026-08-05,19153311519,Search | Brand | Pl,16,16:00,addToCart_gtm,0.0,2.0
+2026-08-05,19153311519,Search | Brand | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-06,19153311519,Search | Brand | Pl,10,10:00,addToCart_gtm,0.0,1.0
+2026-08-06,19153311519,Search | Brand | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-07,19153311519,Search | Brand | Pl,13,13:00,Звонки по объявлениям,1.0,1.0
+2026-08-08,19153311519,Search | Brand | Pl,14,14:00,addToCart_gtm,0.0,1.0
+2026-08-11,19153311519,Search | Brand | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.666667,0.666667
+2026-08-11,19153311519,Search | Brand | Pl,20,20:00,addToCart_gtm,0.0,1.0
+2026-08-11,19153311519,Search | Brand | Pl,20,20:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,19153311519,Search | Brand | Pl,10,10:00,addToCart_gtm,0.0,1.0
+2026-08-13,19153311519,Search | Brand | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,19153311519,Search | Brand | Pl,18,18:00,addToCart_gtm,0.0,1.0
+2026-08-13,19153311519,Search | Brand | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-15,19153311519,Search | Brand | Pl,09,09:00,addToCart_gtm,0.0,2.0
+2026-08-15,19153311519,Search | Brand | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-17,19153311519,Search | Brand | Pl,08,08:00,addToCart_gtm,0.0,1.0
+2026-08-17,19153311519,Search | Brand | Pl,10,10:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-17,19153311519,Search | Brand | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-17,19153311519,Search | Brand | Pl,16,16:00,addToCart_gtm,0.0,1.499032
+2026-08-17,19153311519,Search | Brand | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-17,19153311519,Search | Brand | Pl,17,17:00,addToCart_gtm,0.0,1.5
+2026-08-17,19153311519,Search | Brand | Pl,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2026-08-17,19153311519,Search | Brand | Pl,18,18:00,addToCart_gtm,0.0,1.0
+2026-08-17,19153311519,Search | Brand | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-17,19153311519,Search | Brand | Pl,20,20:00,form_submit_gtm,0.333332,0.333332
+2026-08-17,19153311519,Search | Brand | Pl,21,21:00,form_submit_gtm,0.666668,0.666668
+2026-08-18,19153311519,Search | Brand | Pl,09,09:00,addToCart_gtm,0.0,0.5
+2026-08-18,19153311519,Search | Brand | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2026-08-18,19153311519,Search | Brand | Pl,11,11:00,addToCart_gtm,0.0,1.0
+2026-08-18,19153311519,Search | Brand | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-18,19153311519,Search | Brand | Pl,16,16:00,addToCart_gtm,0.0,2.0
+2026-08-18,19153311519,Search | Brand | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-18,19153311519,Search | Brand | Pl,16,16:00,Клик по номеру,0.0,0.009855
+2026-08-19,19153311519,Search | Brand | Pl,15,15:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-19,19153311519,Search | Brand | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-19,19153311519,Search | Brand | Pl,19,19:00,addToCart_gtm,0.0,1.0
+2026-08-19,19153311519,Search | Brand | Pl,19,19:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-20,19153311519,Search | Brand | Pl,14,14:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-21,19153311519,Search | Brand | Pl,09,09:00,addToCart_gtm,0.0,2.0
+2026-08-21,19153311519,Search | Brand | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-21,19153311519,Search | Brand | Pl,14,14:00,addToCart_gtm,0.0,2.0
+2026-08-21,19153311519,Search | Brand | Pl,16,16:00,addToCart_gtm,0.0,2.0
+2026-08-21,19153311519,Search | Brand | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-21,19153311519,Search | Brand | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-21,19153311519,Search | Brand | Pl,20,20:00,addToCart_gtm,0.0,1.0
+2026-08-21,19153311519,Search | Brand | Pl,20,20:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-22,19153311519,Search | Brand | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.0
+2026-08-24,19153311519,Search | Brand | Pl,11,11:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-24,19153311519,Search | Brand | Pl,11,11:00,addToCart_gtm,0.0,1.0
+2026-08-24,19153311519,Search | Brand | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-24,19153311519,Search | Brand | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-26,19153311519,Search | Brand | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.333333,0.333333
+2026-08-26,19153311519,Search | Brand | Pl,16,16:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-26,19153311519,Search | Brand | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.333334,0.333334
+2026-08-27,19153311519,Search | Brand | Pl,14,14:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-27,19153311519,Search | Brand | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-31,19153311519,Search | Brand | Pl,07,07:00,addToCart_gtm,0.0,2.0
+2026-08-31,19153311519,Search | Brand | Pl,07,07:00,form_submit_gtm,1.0,1.0
+2026-08-31,19153311519,Search | Brand | Pl,09,09:00,addToCart_gtm,0.0,1.0
+2026-08-31,19153311519,Search | Brand | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,2.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,3.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,11,11:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,2.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.5,1.5
+2026-08-03,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,0.022663
+2026-08-03,19158580966,Search | Poliweglan | Pl,13,13:00,addToCart_gtm,0.0,4.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,14,14:00,addToCart_gtm,0.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.509786
+2026-08-03,19158580966,Search | Poliweglan | Pl,14,14:00,Звонки по объявлениям,1.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2026-08-03,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,16,16:00,addToCart_gtm,0.0,2.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,17,17:00,addToCart_gtm,0.0,3.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,17,17:00,form_submit_gtm,1.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,17,17:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-08-03,19158580966,Search | Poliweglan | Pl,19,19:00,addToCart_gtm,0.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,08,08:00,addToCart_gtm,0.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,8.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,3.515908
+2026-08-04,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,12,12:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,3.5
+2026-08-04,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,14,14:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,14,14:00,addToCart_gtm,0.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-04,19158580966,Search | Poliweglan | Pl,17,17:00,addToCart_gtm,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,07,07:00,addToCart_gtm,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,07,07:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,08,08:00,addToCart_gtm,0.0,3.333333
+2026-08-05,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,4.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,14,14:00,addToCart_gtm,0.0,2.666667
+2026-08-05,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,16,16:00,addToCart_gtm,0.0,1.0
+2026-08-05,19158580966,Search | Poliweglan | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-06,19158580966,Search | Poliweglan | Pl,08,08:00,addToCart_gtm,0.0,1.0
+2026-08-06,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.25
+2026-08-06,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,2.0
+2026-08-06,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-06,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,0.083895
+2026-08-06,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,0.015908
+2026-08-06,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-06,19158580966,Search | Poliweglan | Pl,16,16:00,addToCart_gtm,0.0,1.0
+2026-08-06,19158580966,Search | Poliweglan | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-06,19158580966,Search | Poliweglan | Pl,19,19:00,addToCart_gtm,0.0,1.0
+2026-08-06,19158580966,Search | Poliweglan | Pl,19,19:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,2.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,13,13:00,addToCart_gtm,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,14,14:00,addToCart_gtm,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,2.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,17,17:00,addToCart_gtm,0.0,3.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,18,18:00,addToCart_gtm,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,19,19:00,addToCart_gtm,0.0,1.0
+2026-08-07,19158580966,Search | Poliweglan | Pl,19,19:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-08,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,2.0
+2026-08-08,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-08,19158580966,Search | Poliweglan | Pl,13,13:00,addToCart_gtm,0.0,1.0
+2026-08-08,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.509637
+2026-08-08,19158580966,Search | Poliweglan | Pl,14,14:00,addToCart_gtm,0.0,2.0
+2026-08-08,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,07,07:00,addToCart_gtm,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,08,08:00,addToCart_gtm,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,09,09:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.333333,1.333333
+2026-08-10,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,10,10:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,2.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.998591,0.998591
+2026-08-10,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.979209
+2026-08-10,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.666667,0.666667
+2026-08-10,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,2.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,13,13:00,addToCart_gtm,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2026-08-10,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,16,16:00,addToCart_gtm,0.0,2.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,17,17:00,addToCart_gtm,0.0,2.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,17,17:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,17,17:00,Клик по номеру,0.0,0.052652
+2026-08-10,19158580966,Search | Poliweglan | Pl,18,18:00,addToCart_gtm,0.0,1.0
+2026-08-10,19158580966,Search | Poliweglan | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.000352
+2026-08-11,19158580966,Search | Poliweglan | Pl,08,08:00,addToCart_gtm,0.0,1.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,1.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,1.666666
+2026-08-11,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2026-08-11,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,1.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,12,12:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,3.749516
+2026-08-11,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.333333,1.333333
+2026-08-11,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,13,13:00,addToCart_gtm,0.0,2.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,14,14:00,addToCart_gtm,0.0,1.333334
+2026-08-11,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.75
+2026-08-11,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,2.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,16,16:00,addToCart_gtm,0.0,1.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,16,16:00,form_submit_gtm,1.0,1.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,18,18:00,addToCart_gtm,0.0,1.0
+2026-08-11,19158580966,Search | Poliweglan | Pl,19,19:00,addToCart_gtm,0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,08,08:00,addToCart_gtm,0.0,6.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,14,14:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,14,14:00,addToCart_gtm,0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,15,15:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,2.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,17,17:00,addToCart_gtm,0.0,1.0
+2026-08-12,19158580966,Search | Poliweglan | Pl,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,3.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,13,13:00,addToCart_gtm,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,14,14:00,addToCart_gtm,0.0,2.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,16,16:00,addToCart_gtm,0.0,4.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,19158580966,Search | Poliweglan | Pl,17,17:00,addToCart_gtm,0.0,3.033467
+2026-08-13,19158580966,Search | Poliweglan | Pl,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,3.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,0.749914
+2026-08-14,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,6.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.762889,0.762889
+2026-08-14,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.421464
+2026-08-14,19158580966,Search | Poliweglan | Pl,13,13:00,addToCart_gtm,0.0,3.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,14,14:00,addToCart_gtm,0.0,1.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,5.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.230563
+2026-08-14,19158580966,Search | Poliweglan | Pl,18,18:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,18,18:00,addToCart_gtm,0.0,1.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,18,18:00,form_submit_gtm,1.0,1.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-14,19158580966,Search | Poliweglan | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-08-15,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,2.0
+2026-08-15,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-15,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,1.0
+2026-08-15,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-15,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,3.0
+2026-08-15,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-15,19158580966,Search | Poliweglan | Pl,13,13:00,addToCart_gtm,0.0,1.0
+2026-08-15,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-15,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,2.0
+2026-08-15,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,08,08:00,addToCart_gtm,0.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2026-08-17,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,2.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2026-08-17,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,2.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,12,12:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,3.98414
+2026-08-17,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,12,12:00,Клик по номеру,0.0,0.008166
+2026-08-17,19158580966,Search | Poliweglan | Pl,13,13:00,addToCart_gtm,0.0,2.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,13,13:00,form_submit_gtm,1.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,14,14:00,addToCart_gtm,0.0,3.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,1.07421
+2026-08-17,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,16,16:00,addToCart_gtm,0.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,17,17:00,addToCart_gtm,0.0,1.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,18,18:00,addToCart_gtm,0.0,3.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-17,19158580966,Search | Poliweglan | Pl,19,19:00,addToCart_gtm,0.0,1.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,07,07:00,addToCart_gtm,0.0,1.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,07,07:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,08,08:00,addToCart_gtm,0.0,6.40546
+2026-08-18,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,5.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,4.77036
+2026-08-18,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,10,10:00,Клик по номеру,0.0,0.980527
+2026-08-18,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,4.040892
+2026-08-18,19158580966,Search | Poliweglan | Pl,11,11:00,form_submit_gtm,1.0,1.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,1.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,16,16:00,addToCart_gtm,0.0,1.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,17,17:00,addToCart_gtm,0.0,1.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,18,18:00,addToCart_gtm,0.0,3.0
+2026-08-18,19158580966,Search | Poliweglan | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,08,08:00,addToCart_gtm,0.0,3.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,4.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,10,10:00,form_submit_gtm,1.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,13,13:00,addToCart_gtm,0.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,14,14:00,addToCart_gtm,0.0,2.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,1.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-19,19158580966,Search | Poliweglan | Pl,16,16:00,addToCart_gtm,0.0,1.333333
+2026-08-19,19158580966,Search | Poliweglan | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.25
+2026-08-19,19158580966,Search | Poliweglan | Pl,17,17:00,addToCart_gtm,0.0,0.666667
+2026-08-19,19158580966,Search | Poliweglan | Pl,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.75
+2026-08-20,19158580966,Search | Poliweglan | Pl,08,08:00,addToCart_gtm,0.0,2.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,1.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,3.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,3.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,13,13:00,addToCart_gtm,0.0,2.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,1.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,16,16:00,addToCart_gtm,0.0,1.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,17,17:00,addToCart_gtm,0.0,1.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,18,18:00,addToCart_gtm,0.0,1.0
+2026-08-20,19158580966,Search | Poliweglan | Pl,18,18:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,07,07:00,addToCart_gtm,0.0,1.616744
+2026-08-21,19158580966,Search | Poliweglan | Pl,08,08:00,addToCart_gtm,0.0,3.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,10,10:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,4.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,2.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,11,11:00,form_submit_gtm,1.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,3.010223
+2026-08-21,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2026-08-21,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.5
+2026-08-21,19158580966,Search | Poliweglan | Pl,12,12:00,Клик по номеру,0.0,0.013225
+2026-08-21,19158580966,Search | Poliweglan | Pl,13,13:00,addToCart_gtm,0.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,14,14:00,addToCart_gtm,0.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,16,16:00,addToCart_gtm,0.0,2.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,17,17:00,addToCart_gtm,0.0,0.011332
+2026-08-21,19158580966,Search | Poliweglan | Pl,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-21,19158580966,Search | Poliweglan | Pl,19,19:00,addToCart_gtm,0.0,0.022663
+2026-08-22,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,2.0
+2026-08-22,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-22,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,1.0
+2026-08-22,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,1.0
+2026-08-22,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-22,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,4.0
+2026-08-22,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-22,19158580966,Search | Poliweglan | Pl,13,13:00,addToCart_gtm,0.0,1.0
+2026-08-22,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-24,19158580966,Search | Poliweglan | Pl,07,07:00,addToCart_gtm,0.0,1.0
+2026-08-24,19158580966,Search | Poliweglan | Pl,07,07:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-24,19158580966,Search | Poliweglan | Pl,08,08:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-24,19158580966,Search | Poliweglan | Pl,08,08:00,addToCart_gtm,0.0,0.993861
+2026-08-24,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-24,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-24,19158580966,Search | Poliweglan | Pl,09,09:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-24,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,0.666667
+2026-08-24,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-24,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,1.0
+2026-08-24,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-24,19158580966,Search | Poliweglan | Pl,13,13:00,addToCart_gtm,0.0,1.290546
+2026-08-24,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-24,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-24,19158580966,Search | Poliweglan | Pl,16,16:00,addToCart_gtm,0.0,0.481449
+2026-08-24,19158580966,Search | Poliweglan | Pl,16,16:00,form_submit_gtm,0.333334,0.333334
+2026-08-24,19158580966,Search | Poliweglan | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.5
+2026-08-24,19158580966,Search | Poliweglan | Pl,17,17:00,addToCart_gtm,0.0,2.0
+2026-08-24,19158580966,Search | Poliweglan | Pl,17,17:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,08,08:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,08,08:00,addToCart_gtm,0.0,2.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,3.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,15,15:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,16,16:00,addToCart_gtm,0.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,16,16:00,form_submit_gtm,1.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-25,19158580966,Search | Poliweglan | Pl,16,16:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,1.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,2.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,11,11:00,Звонки по объявлениям,1.0,1.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,12,12:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,13,13:00,addToCart_gtm,0.0,2.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,14,14:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,14,14:00,addToCart_gtm,0.0,1.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.333333,1.333333
+2026-08-26,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,4.0
+2026-08-26,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-27,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-27,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,2.0
+2026-08-27,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,2.0
+2026-08-27,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-27,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,1.0
+2026-08-27,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-27,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,1.0
+2026-08-27,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-28,19158580966,Search | Poliweglan | Pl,07,07:00,addToCart_gtm,0.0,1.0
+2026-08-28,19158580966,Search | Poliweglan | Pl,08,08:00,addToCart_gtm,0.0,1.0
+2026-08-28,19158580966,Search | Poliweglan | Pl,08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-28,19158580966,Search | Poliweglan | Pl,10,10:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-28,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,2.0
+2026-08-28,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-28,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-28,19158580966,Search | Poliweglan | Pl,13,13:00,addToCart_gtm,0.0,1.0
+2026-08-28,19158580966,Search | Poliweglan | Pl,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-28,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,1.0
+2026-08-28,19158580966,Search | Poliweglan | Pl,16,16:00,addToCart_gtm,0.0,2.0
+2026-08-29,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,2.5
+2026-08-29,19158580966,Search | Poliweglan | Pl,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.5
+2026-08-29,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,3.0
+2026-08-29,19158580966,Search | Poliweglan | Pl,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-29,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,1.0
+2026-08-29,19158580966,Search | Poliweglan | Pl,12,12:00,addToCart_gtm,0.0,3.5
+2026-08-29,19158580966,Search | Poliweglan | Pl,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.5
+2026-08-29,19158580966,Search | Poliweglan | Pl,14,14:00,addToCart_gtm,0.0,1.0
+2026-08-29,19158580966,Search | Poliweglan | Pl,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-29,19158580966,Search | Poliweglan | Pl,15,15:00,addToCart_gtm,0.0,2.0
+2026-08-29,19158580966,Search | Poliweglan | Pl,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-31,19158580966,Search | Poliweglan | Pl,09,09:00,addToCart_gtm,0.0,1.0
+2026-08-31,19158580966,Search | Poliweglan | Pl,10,10:00,addToCart_gtm,0.0,1.0
+2026-08-31,19158580966,Search | Poliweglan | Pl,10,10:00,form_submit_gtm,1.0,1.0
+2026-08-31,19158580966,Search | Poliweglan | Pl,11,11:00,addToCart_gtm,0.0,1.0
+2026-08-31,19158580966,Search | Poliweglan | Pl,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-11,23439487425,search / szklarnia/tunel (excl. poliweglan),12,12:00,addToCart_gtm,0.0,1.0
+2026-08-12,23439487425,search / szklarnia/tunel (excl. poliweglan),15,15:00,addToCart_gtm,0.0,2.0
+2026-08-12,23439487425,search / szklarnia/tunel (excl. poliweglan),16,16:00,addToCart_gtm,0.0,7.161468
+2026-08-12,23439487425,search / szklarnia/tunel (excl. poliweglan),16,16:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2026-08-13,23439487425,search / szklarnia/tunel (excl. poliweglan),07,07:00,addToCart_gtm,0.0,2.0
+2026-08-13,23439487425,search / szklarnia/tunel (excl. poliweglan),07,07:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,23439487425,search / szklarnia/tunel (excl. poliweglan),08,08:00,addToCart_gtm,0.0,3.0
+2026-08-13,23439487425,search / szklarnia/tunel (excl. poliweglan),08,08:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-05,23775369828,pmax1_test,12,12:00,addToCart_gtm,0.0,1.0
+2026-08-05,23775369828,pmax1_test,13,13:00,addToCart_gtm,0.0,1.0
+2026-08-05,23775369828,pmax1_test,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-05,23775369828,pmax1_test,14,14:00,addToCart_gtm,0.0,1.0
+2026-08-05,23775369828,pmax1_test,14,14:00,Клик по номеру,0.0,1.0
+2026-08-06,23775369828,pmax1_test,09,09:00,addToCart_gtm,0.0,14.501878
+2026-08-06,23775369828,pmax1_test,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-06,23775369828,pmax1_test,10,10:00,addToCart_gtm,0.0,8.17792
+2026-08-06,23775369828,pmax1_test,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.999708
+2026-08-06,23775369828,pmax1_test,11,11:00,addToCart_gtm,0.0,9.0
+2026-08-06,23775369828,pmax1_test,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-06,23775369828,pmax1_test,12,12:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-06,23775369828,pmax1_test,12,12:00,addToCart_gtm,0.0,6.075125
+2026-08-06,23775369828,pmax1_test,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-06,23775369828,pmax1_test,12,12:00,Клик по номеру,0.0,1.0
+2026-08-06,23775369828,pmax1_test,13,13:00,addToCart_gtm,0.0,7.0
+2026-08-06,23775369828,pmax1_test,14,14:00,addToCart_gtm,0.0,2.0
+2026-08-06,23775369828,pmax1_test,15,15:00,addToCart_gtm,0.0,5.0
+2026-08-06,23775369828,pmax1_test,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-07,23775369828,pmax1_test,09,09:00,addToCart_gtm,0.0,8.333334
+2026-08-07,23775369828,pmax1_test,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-07,23775369828,pmax1_test,10,10:00,addToCart_gtm,0.0,4.0
+2026-08-07,23775369828,pmax1_test,11,11:00,addToCart_gtm,0.0,3.0
+2026-08-07,23775369828,pmax1_test,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-07,23775369828,pmax1_test,12,12:00,addToCart_gtm,0.0,1.0
+2026-08-07,23775369828,pmax1_test,13,13:00,addToCart_gtm,0.0,4.5
+2026-08-07,23775369828,pmax1_test,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-07,23775369828,pmax1_test,14,14:00,addToCart_gtm,0.0,1.0
+2026-08-07,23775369828,pmax1_test,15,15:00,addToCart_gtm,0.0,2.6745
+2026-08-07,23775369828,pmax1_test,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-10,23775369828,pmax1_test,09,09:00,addToCart_gtm,0.0,6.004395
+2026-08-10,23775369828,pmax1_test,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-10,23775369828,pmax1_test,10,10:00,addToCart_gtm,0.0,3.0
+2026-08-10,23775369828,pmax1_test,11,11:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-10,23775369828,pmax1_test,11,11:00,addToCart_gtm,0.0,3.5
+2026-08-10,23775369828,pmax1_test,12,12:00,addToCart_gtm,0.0,1.0
+2026-08-10,23775369828,pmax1_test,12,12:00,form_submit_gtm,0.998467,0.998467
+2026-08-10,23775369828,pmax1_test,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.089318
+2026-08-10,23775369828,pmax1_test,12,12:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.627956
+2026-08-10,23775369828,pmax1_test,13,13:00,addToCart_gtm,0.0,6.015927
+2026-08-10,23775369828,pmax1_test,14,14:00,addToCart_gtm,0.0,2.0
+2026-08-10,23775369828,pmax1_test,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2026-08-10,23775369828,pmax1_test,15,15:00,addToCart_gtm,0.0,2.0
+2026-08-11,23775369828,pmax1_test,09,09:00,addToCart_gtm,0.0,7.011264
+2026-08-11,23775369828,pmax1_test,11,11:00,addToCart_gtm,0.0,4.750484
+2026-08-11,23775369828,pmax1_test,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-11,23775369828,pmax1_test,12,12:00,addToCart_gtm,0.0,1.0
+2026-08-11,23775369828,pmax1_test,13,13:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-11,23775369828,pmax1_test,13,13:00,addToCart_gtm,0.0,1.0
+2026-08-11,23775369828,pmax1_test,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2026-08-11,23775369828,pmax1_test,13,13:00,Клик по номеру,0.0,0.979087
+2026-08-11,23775369828,pmax1_test,14,14:00,addToCart_gtm,0.0,1.0
+2026-08-11,23775369828,pmax1_test,15,15:00,addToCart_gtm,0.0,4.666666
+2026-08-12,23775369828,pmax1_test,09,09:00,addToCart_gtm,0.0,3.0
+2026-08-12,23775369828,pmax1_test,10,10:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-12,23775369828,pmax1_test,10,10:00,addToCart_gtm,0.0,1.0
+2026-08-12,23775369828,pmax1_test,10,10:00,Клик по номеру,0.0,1.5
+2026-08-12,23775369828,pmax1_test,11,11:00,addToCart_gtm,0.0,6.49601
+2026-08-12,23775369828,pmax1_test,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-12,23775369828,pmax1_test,11,11:00,Клик по номеру,0.0,1.0
+2026-08-12,23775369828,pmax1_test,12,12:00,addToCart_gtm,0.0,3.045521
+2026-08-12,23775369828,pmax1_test,13,13:00,addToCart_gtm,0.0,1.0
+2026-08-12,23775369828,pmax1_test,14,14:00,addToCart_gtm,0.0,1.0
+2026-08-12,23775369828,pmax1_test,15,15:00,addToCart_gtm,0.0,1.019922
+2026-08-12,23775369828,pmax1_test,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,23775369828,pmax1_test,09,09:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-13,23775369828,pmax1_test,09,09:00,addToCart_gtm,0.0,7.952715
+2026-08-13,23775369828,pmax1_test,09,09:00,Клик по номеру,0.0,0.5
+2026-08-13,23775369828,pmax1_test,10,10:00,addToCart_gtm,0.0,4.0
+2026-08-13,23775369828,pmax1_test,10,10:00,Клик по номеру,0.0,0.493871
+2026-08-13,23775369828,pmax1_test,11,11:00,addToCart_gtm,0.0,2.319122
+2026-08-13,23775369828,pmax1_test,12,12:00,addToCart_gtm,0.0,1.575262
+2026-08-13,23775369828,pmax1_test,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,23775369828,pmax1_test,12,12:00,Клик по номеру,0.0,0.493872
+2026-08-13,23775369828,pmax1_test,13,13:00,addToCart_gtm,0.0,4.00412
+2026-08-13,23775369828,pmax1_test,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-13,23775369828,pmax1_test,14,14:00,addToCart_gtm,0.0,5.0
+2026-08-13,23775369828,pmax1_test,15,15:00,addToCart_gtm,0.0,3.0
+2026-08-14,23775369828,pmax1_test,09,09:00,addToCart_gtm,0.0,7.833334
+2026-08-14,23775369828,pmax1_test,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-14,23775369828,pmax1_test,10,10:00,addToCart_gtm,0.0,6.250086
+2026-08-14,23775369828,pmax1_test,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-14,23775369828,pmax1_test,11,11:00,addToCart_gtm,0.0,3.498468
+2026-08-14,23775369828,pmax1_test,12,12:00,addToCart_gtm,0.0,5.991358
+2026-08-14,23775369828,pmax1_test,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-14,23775369828,pmax1_test,13,13:00,addToCart_gtm,0.0,6.666666
+2026-08-14,23775369828,pmax1_test,14,14:00,addToCart_gtm,0.0,9.833334
+2026-08-14,23775369828,pmax1_test,15,15:00,addToCart_gtm,0.0,3.5
+2026-08-14,23775369828,pmax1_test,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-17,23775369828,pmax1_test,09,09:00,addToCart_gtm,0.0,14.231403
+2026-08-17,23775369828,pmax1_test,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-17,23775369828,pmax1_test,10,10:00,addToCart_gtm,0.0,18.252638
+2026-08-17,23775369828,pmax1_test,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-17,23775369828,pmax1_test,11,11:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-17,23775369828,pmax1_test,11,11:00,addToCart_gtm,0.0,9.334078
+2026-08-17,23775369828,pmax1_test,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-17,23775369828,pmax1_test,12,12:00,addToCart_gtm,0.0,17.854542
+2026-08-17,23775369828,pmax1_test,13,13:00,addToCart_gtm,0.0,8.995363
+2026-08-17,23775369828,pmax1_test,14,14:00,addToCart_gtm,0.0,13.511778
+2026-08-17,23775369828,pmax1_test,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-17,23775369828,pmax1_test,15,15:00,addToCart_gtm,0.0,7.884224
+2026-08-17,23775369828,pmax1_test,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-18,23775369828,pmax1_test,09,09:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,2.0
+2026-08-18,23775369828,pmax1_test,09,09:00,addToCart_gtm,0.0,39.311113
+2026-08-18,23775369828,pmax1_test,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-18,23775369828,pmax1_test,09,09:00,Клик по номеру,0.0,1.019473
+2026-08-18,23775369828,pmax1_test,10,10:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-18,23775369828,pmax1_test,10,10:00,addToCart_gtm,0.0,53.927529
+2026-08-18,23775369828,pmax1_test,10,10:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-18,23775369828,pmax1_test,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2026-08-18,23775369828,pmax1_test,10,10:00,Клик по номеру,0.0,1.0
+2026-08-18,23775369828,pmax1_test,11,11:00,addToCart_gtm,0.0,31.508791
+2026-08-18,23775369828,pmax1_test,11,11:00,form_submit_gtm,1.0,1.0
+2026-08-18,23775369828,pmax1_test,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-18,23775369828,pmax1_test,12,12:00,addToCart_gtm,0.0,40.016316
+2026-08-18,23775369828,pmax1_test,12,12:00,form_submit_gtm,1.0,1.0
+2026-08-18,23775369828,pmax1_test,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-08-18,23775369828,pmax1_test,13,13:00,addToCart_gtm,0.0,32.455824
+2026-08-18,23775369828,pmax1_test,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.5
+2026-08-18,23775369828,pmax1_test,13,13:00,Клик по номеру,0.0,0.010453
+2026-08-18,23775369828,pmax1_test,14,14:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,2.0
+2026-08-18,23775369828,pmax1_test,14,14:00,addToCart_gtm,0.0,54.562065
+2026-08-18,23775369828,pmax1_test,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.5
+2026-08-18,23775369828,pmax1_test,14,14:00,Клик по номеру,0.0,2.005456
+2026-08-18,23775369828,pmax1_test,15,15:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-18,23775369828,pmax1_test,15,15:00,addToCart_gtm,0.0,26.963407
+2026-08-18,23775369828,pmax1_test,15,15:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-18,23775369828,pmax1_test,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.0
+2026-08-18,23775369828,pmax1_test,15,15:00,Клик по номеру,0.0,1.00028
+2026-08-19,23775369828,pmax1_test,09,09:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-19,23775369828,pmax1_test,09,09:00,addToCart_gtm,0.0,45.989783
+2026-08-19,23775369828,pmax1_test,09,09:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-19,23775369828,pmax1_test,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.0
+2026-08-19,23775369828,pmax1_test,09,09:00,Клик по номеру,0.0,0.00776
+2026-08-19,23775369828,pmax1_test,10,10:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-19,23775369828,pmax1_test,10,10:00,addToCart_gtm,0.0,47.004384
+2026-08-19,23775369828,pmax1_test,10,10:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-19,23775369828,pmax1_test,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,14.0
+2026-08-19,23775369828,pmax1_test,10,10:00,Звонки по объявлениям,1.0,1.0
+2026-08-19,23775369828,pmax1_test,10,10:00,Клик по номеру,0.0,1.0
+2026-08-19,23775369828,pmax1_test,11,11:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,2.0
+2026-08-19,23775369828,pmax1_test,11,11:00,addToCart_gtm,0.0,44.993584
+2026-08-19,23775369828,pmax1_test,11,11:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-19,23775369828,pmax1_test,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.5
+2026-08-19,23775369828,pmax1_test,11,11:00,Клик по номеру,0.0,1.0
+2026-08-19,23775369828,pmax1_test,12,12:00,addToCart_gtm,0.0,10.0
+2026-08-19,23775369828,pmax1_test,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.529208
+2026-08-20,23775369828,pmax1_test,09,09:00,addToCart_gtm,0.0,1.002931
+2026-08-20,23775369828,pmax1_test,10,10:00,addToCart_gtm,0.0,1.001881
+2026-08-20,23775369828,pmax1_test,11,11:00,addToCart_gtm,0.0,3.0
+2026-08-20,23775369828,pmax1_test,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-20,23775369828,pmax1_test,13,13:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-20,23775369828,pmax1_test,13,13:00,addToCart_gtm,0.0,5.483516
+2026-08-20,23775369828,pmax1_test,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-20,23775369828,pmax1_test,13,13:00,Клик по номеру,0.0,0.986378
+2026-08-20,23775369828,pmax1_test,14,14:00,addToCart_gtm,0.0,1.504299
+2026-08-20,23775369828,pmax1_test,15,15:00,addToCart_gtm,0.0,1.0
+2026-08-20,23775369828,pmax1_test,15,15:00,Клик по номеру,0.0,0.980518
+2026-08-21,23775369828,pmax1_test,09,09:00,addToCart_gtm,0.0,12.0
+2026-08-21,23775369828,pmax1_test,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-21,23775369828,pmax1_test,09,09:00,Клик по номеру,0.0,1.0
+2026-08-21,23775369828,pmax1_test,10,10:00,addToCart_gtm,0.0,14.988099
+2026-08-21,23775369828,pmax1_test,11,11:00,addToCart_gtm,0.0,7.99656
+2026-08-21,23775369828,pmax1_test,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-21,23775369828,pmax1_test,12,12:00,addToCart_gtm,0.0,13.0
+2026-08-21,23775369828,pmax1_test,12,12:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-21,23775369828,pmax1_test,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-21,23775369828,pmax1_test,13,13:00,addToCart_gtm,0.0,13.5
+2026-08-21,23775369828,pmax1_test,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-21,23775369828,pmax1_test,14,14:00,addToCart_gtm,0.0,21.514939
+2026-08-21,23775369828,pmax1_test,14,14:00,form_submit_gtm,0.009903,0.009903
+2026-08-21,23775369828,pmax1_test,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-21,23775369828,pmax1_test,14,14:00,Клик по номеру,0.0,0.986775
+2026-08-21,23775369828,pmax1_test,15,15:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-21,23775369828,pmax1_test,15,15:00,addToCart_gtm,0.0,17.981807
+2026-08-21,23775369828,pmax1_test,15,15:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2026-08-21,23775369828,pmax1_test,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2026-08-24,23775369828,pmax1_test,09,09:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,2.0
+2026-08-24,23775369828,pmax1_test,09,09:00,addToCart_gtm,0.0,84.05211
+2026-08-24,23775369828,pmax1_test,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,11.0
+2026-08-24,23775369828,pmax1_test,10,10:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-24,23775369828,pmax1_test,10,10:00,addToCart_gtm,0.0,59.368841
+2026-08-24,23775369828,pmax1_test,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,18.5
+2026-08-24,23775369828,pmax1_test,10,10:00,Клик по номеру,0.0,1.0
+2026-08-24,23775369828,pmax1_test,11,11:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-24,23775369828,pmax1_test,11,11:00,addToCart_gtm,0.0,56.462405
+2026-08-24,23775369828,pmax1_test,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.0
+2026-08-24,23775369828,pmax1_test,12,12:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,2.0
+2026-08-24,23775369828,pmax1_test,12,12:00,addToCart_gtm,0.0,59.978825
+2026-08-24,23775369828,pmax1_test,12,12:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-24,23775369828,pmax1_test,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.0
+2026-08-24,23775369828,pmax1_test,12,12:00,Клик по номеру,0.0,1.0
+2026-08-24,23775369828,pmax1_test,13,13:00,addToCart_gtm,0.0,60.654031
+2026-08-24,23775369828,pmax1_test,13,13:00,form_submit_gtm,1.038277,1.038277
+2026-08-24,23775369828,pmax1_test,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.0
+2026-08-24,23775369828,pmax1_test,13,13:00,Клик по номеру,0.0,3.990145
+2026-08-24,23775369828,pmax1_test,14,14:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-24,23775369828,pmax1_test,14,14:00,addToCart_gtm,0.0,39.850047
+2026-08-24,23775369828,pmax1_test,14,14:00,form_submit_gtm,0.704944,0.704944
+2026-08-24,23775369828,pmax1_test,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.0
+2026-08-24,23775369828,pmax1_test,14,14:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.5
+2026-08-24,23775369828,pmax1_test,15,15:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-24,23775369828,pmax1_test,15,15:00,addToCart_gtm,0.0,20.984645
+2026-08-24,23775369828,pmax1_test,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.5
+2026-08-24,23775369828,pmax1_test,15,15:00,Клик по номеру,0.0,0.99224
+2026-08-25,23775369828,pmax1_test,09,09:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,2.0
+2026-08-25,23775369828,pmax1_test,09,09:00,addToCart_gtm,0.0,71.051411
+2026-08-25,23775369828,pmax1_test,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,20.0
+2026-08-25,23775369828,pmax1_test,09,09:00,Клик по номеру,0.0,1.0
+2026-08-25,23775369828,pmax1_test,10,10:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-25,23775369828,pmax1_test,10,10:00,addToCart_gtm,0.0,65.876813
+2026-08-25,23775369828,pmax1_test,10,10:00,form_submit_gtm,1.0,1.0
+2026-08-25,23775369828,pmax1_test,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.0
+2026-08-25,23775369828,pmax1_test,10,10:00,Клик по номеру,0.0,1.0
+2026-08-25,23775369828,pmax1_test,11,11:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-25,23775369828,pmax1_test,11,11:00,addToCart_gtm,0.0,44.910996
+2026-08-25,23775369828,pmax1_test,11,11:00,form_submit_gtm,1.0,1.0
+2026-08-25,23775369828,pmax1_test,11,11:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-25,23775369828,pmax1_test,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.0
+2026-08-25,23775369828,pmax1_test,11,11:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-08-25,23775369828,pmax1_test,11,11:00,Клик по номеру,0.0,1.0
+2026-08-25,23775369828,pmax1_test,12,12:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,3.0
+2026-08-25,23775369828,pmax1_test,12,12:00,addToCart_gtm,0.0,53.432088
+2026-08-25,23775369828,pmax1_test,12,12:00,form_submit_gtm,1.921775,1.921775
+2026-08-25,23775369828,pmax1_test,12,12:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,4.0,4.0
+2026-08-25,23775369828,pmax1_test,12,12:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,14.0
+2026-08-25,23775369828,pmax1_test,12,12:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-08-25,23775369828,pmax1_test,12,12:00,Клик по номеру,0.0,2.0
+2026-08-25,23775369828,pmax1_test,13,13:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,2.0
+2026-08-25,23775369828,pmax1_test,13,13:00,addToCart_gtm,0.0,37.255562
+2026-08-25,23775369828,pmax1_test,13,13:00,form_submit_gtm,1.0,1.0
+2026-08-25,23775369828,pmax1_test,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.0
+2026-08-25,23775369828,pmax1_test,13,13:00,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-08-25,23775369828,pmax1_test,13,13:00,Клик по номеру,0.0,1.0
+2026-08-25,23775369828,pmax1_test,14,14:00,addToCart_gtm,0.0,36.0
+2026-08-25,23775369828,pmax1_test,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.0
+2026-08-25,23775369828,pmax1_test,15,15:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,2.0
+2026-08-25,23775369828,pmax1_test,15,15:00,addToCart_gtm,0.0,41.349496
+2026-08-25,23775369828,pmax1_test,15,15:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.0
+2026-08-26,23775369828,pmax1_test,09,09:00,addToCart_gtm,0.0,2.987854
+2026-08-26,23775369828,pmax1_test,10,10:00,addToCart_gtm,0.0,4.579669
+2026-08-26,23775369828,pmax1_test,11,11:00,addToCart_gtm,0.0,2.995616
+2026-08-26,23775369828,pmax1_test,12,12:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-26,23775369828,pmax1_test,12,12:00,addToCart_gtm,0.0,1.989477
+2026-08-26,23775369828,pmax1_test,13,13:00,addToCart_gtm,0.0,4.0
+2026-08-26,23775369828,pmax1_test,13,13:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-26,23775369828,pmax1_test,14,14:00,addToCart_gtm,0.0,3.007935
+2026-08-26,23775369828,pmax1_test,15,15:00,addToCart_gtm,0.0,3.011341
+2026-08-27,23775369828,pmax1_test,09,09:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-27,23775369828,pmax1_test,09,09:00,addToCart_gtm,0.0,7.949825
+2026-08-27,23775369828,pmax1_test,09,09:00,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-08-27,23775369828,pmax1_test,09,09:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-27,23775369828,pmax1_test,09,09:00,Клик по номеру,0.0,2.0
+2026-08-27,23775369828,pmax1_test,10,10:00,addToCart_gtm,0.0,3.484443
+2026-08-27,23775369828,pmax1_test,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-08-27,23775369828,pmax1_test,11,11:00,addToCart_gtm,0.0,3.918109
+2026-08-27,23775369828,pmax1_test,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-27,23775369828,pmax1_test,12,12:00,addToCart_gtm,0.0,2.991209
+2026-08-27,23775369828,pmax1_test,13,13:00,addToCart_gtm,0.0,4.983375
+2026-08-27,23775369828,pmax1_test,14,14:00,addToCart_gtm,0.0,4.37451
+2026-08-27,23775369828,pmax1_test,14,14:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-28,23775369828,pmax1_test,09,09:00,addToCart_gtm,0.0,1.98577
+2026-08-28,23775369828,pmax1_test,10,10:00,addToCart_gtm,0.0,1.100074
+2026-08-28,23775369828,pmax1_test,11,11:00,addToCart_gtm,0.0,1.991209
+2026-08-28,23775369828,pmax1_test,12,12:00,addToCart_gtm,0.0,1.0
+2026-08-28,23775369828,pmax1_test,13,13:00,addToCart_gtm,0.0,2.0
+2026-08-28,23775369828,pmax1_test,14,14:00,addToCart_gtm,0.0,0.988659
+2026-08-31,23775369828,pmax1_test,09,09:00,addToCart_gtm,0.0,9.0
+2026-08-31,23775369828,pmax1_test,10,10:00,addToCart_gtm,0.0,1.0
+2026-08-31,23775369828,pmax1_test,10,10:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-08-31,23775369828,pmax1_test,11,11:00,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-08-31,23775369828,pmax1_test,11,11:00,addToCart_gtm,0.0,1.765072
+2026-08-31,23775369828,pmax1_test,11,11:00,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0

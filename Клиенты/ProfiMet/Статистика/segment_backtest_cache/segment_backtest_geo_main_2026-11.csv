@@ -1,0 +1,805 @@
+﻿day,camp_id,camp,seg,segname,impr,clicks,cost,conv
+2026-11-02,19153311519,Search | Brand | Pl,geoTargetConstants/20228,geoTargetConstants/20228,2,1,0.01,0.0
+2026-11-02,19153311519,Search | Brand | Pl,geoTargetConstants/20847,geoTargetConstants/20847,11,4,9.86,0.0
+2026-11-02,19153311519,Search | Brand | Pl,geoTargetConstants/20847,geoTargetConstants/20847,4,1,0.57,0.0
+2026-11-02,19153311519,Search | Brand | Pl,geoTargetConstants/20848,geoTargetConstants/20848,2,0,0.0,0.0
+2026-11-02,19153311519,Search | Brand | Pl,geoTargetConstants/20851,geoTargetConstants/20851,2,1,0.79,0.0
+2026-11-02,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,8,1,0.75,0.0
+2026-11-02,19153311519,Search | Brand | Pl,geoTargetConstants/20853,geoTargetConstants/20853,6,3,5.44,0.0
+2026-11-02,19153311519,Search | Brand | Pl,geoTargetConstants/20855,geoTargetConstants/20855,2,2,1.72,0.0
+2026-11-02,19153311519,Search | Brand | Pl,geoTargetConstants/20855,geoTargetConstants/20855,6,3,6.59,0.0
+2026-11-02,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,2,1,2.05,0.0
+2026-11-02,19153311519,Search | Brand | Pl,geoTargetConstants/20857,geoTargetConstants/20857,2,0,0.0,0.0
+2026-11-02,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,2,0,0.0,0.0
+2026-11-02,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,8,4,7.84,0.0
+2026-11-02,19153311519,Search | Brand | Pl,geoTargetConstants/20860,geoTargetConstants/20860,4,0,0.0,0.0
+2026-11-02,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,2,1,1.25,0.0
+2026-11-02,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,7,2,3.97,0.0
+2026-11-02,19153311519,Search | Brand | Pl,geoTargetConstants/20862,geoTargetConstants/20862,1,0,0.0,0.0
+2026-11-02,19153311519,Search | Brand | Pl,geoTargetConstants/9062294,geoTargetConstants/9062294,2,1,1.84,0.0
+2026-11-02,19153311519,Search | Brand | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,5,2,0.02,0.0
+2026-11-02,19153311519,Search | Brand | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,5,0,0.0,0.0
+2026-11-03,19153311519,Search | Brand | Pl,geoTargetConstants/20847,geoTargetConstants/20847,2,0,0.0,0.0
+2026-11-03,19153311519,Search | Brand | Pl,geoTargetConstants/20847,geoTargetConstants/20847,8,3,3.4,0.0
+2026-11-03,19153311519,Search | Brand | Pl,geoTargetConstants/20849,geoTargetConstants/20849,4,1,2.2,0.0
+2026-11-03,19153311519,Search | Brand | Pl,geoTargetConstants/20851,geoTargetConstants/20851,2,1,2.5,0.0
+2026-11-03,19153311519,Search | Brand | Pl,geoTargetConstants/20851,geoTargetConstants/20851,6,2,0.4,0.0
+2026-11-03,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,4,1,2.5,1.0
+2026-11-03,19153311519,Search | Brand | Pl,geoTargetConstants/20853,geoTargetConstants/20853,2,0,0.0,0.0
+2026-11-03,19153311519,Search | Brand | Pl,geoTargetConstants/20854,geoTargetConstants/20854,4,2,2.71,0.0
+2026-11-03,19153311519,Search | Brand | Pl,geoTargetConstants/20855,geoTargetConstants/20855,4,2,0.57,0.0
+2026-11-03,19153311519,Search | Brand | Pl,geoTargetConstants/20855,geoTargetConstants/20855,4,2,4.93,0.0
+2026-11-03,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,9,3,5.59,0.0
+2026-11-03,19153311519,Search | Brand | Pl,geoTargetConstants/20858,geoTargetConstants/20858,4,2,0.95,0.0
+2026-11-03,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,4,2,2.11,0.0
+2026-11-03,19153311519,Search | Brand | Pl,geoTargetConstants/20860,geoTargetConstants/20860,4,1,1.17,0.0
+2026-11-03,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,4,2,4.46,0.0
+2026-11-03,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,13,5,6.98,0.0
+2026-11-03,19153311519,Search | Brand | Pl,geoTargetConstants/20862,geoTargetConstants/20862,1,0,0.0,0.0
+2026-11-03,19153311519,Search | Brand | Pl,geoTargetConstants/20862,geoTargetConstants/20862,7,2,4.82,0.0
+2026-11-04,19153311519,Search | Brand | Pl,geoTargetConstants/20847,geoTargetConstants/20847,2,0,0.0,0.0
+2026-11-04,19153311519,Search | Brand | Pl,geoTargetConstants/20848,geoTargetConstants/20848,5,0,0.0,0.0
+2026-11-04,19153311519,Search | Brand | Pl,geoTargetConstants/20851,geoTargetConstants/20851,4,2,1.19,0.0
+2026-11-04,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,1,1,0.95,1.0
+2026-11-04,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,3,1,2.42,1.0
+2026-11-04,19153311519,Search | Brand | Pl,geoTargetConstants/20853,geoTargetConstants/20853,8,7,3.65,0.0
+2026-11-04,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,1,1,0.98,0.0
+2026-11-04,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,16,4,7.43,1.0
+2026-11-04,19153311519,Search | Brand | Pl,geoTargetConstants/20862,geoTargetConstants/20862,1,1,2.48,0.0
+2026-11-04,19153311519,Search | Brand | Pl,geoTargetConstants/20862,geoTargetConstants/20862,2,1,1.15,0.0
+2026-11-04,19153311519,Search | Brand | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,10,3,6.23,1.0
+2026-11-05,19153311519,Search | Brand | Pl,geoTargetConstants/20848,geoTargetConstants/20848,1,0,0.0,0.0
+2026-11-05,19153311519,Search | Brand | Pl,geoTargetConstants/20850,geoTargetConstants/20850,2,0,0.0,0.0
+2026-11-05,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,9,5,3.71,0.0
+2026-11-05,19153311519,Search | Brand | Pl,geoTargetConstants/20853,geoTargetConstants/20853,2,0,0.0,0.0
+2026-11-05,19153311519,Search | Brand | Pl,geoTargetConstants/20855,geoTargetConstants/20855,6,3,1.58,1.0
+2026-11-05,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,6,2,1.43,0.0
+2026-11-05,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,9,1,0.51,0.0
+2026-11-05,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,7,0,0.0,0.0
+2026-11-05,19153311519,Search | Brand | Pl,geoTargetConstants/20862,geoTargetConstants/20862,6,2,3.48,0.0
+2026-11-05,19153311519,Search | Brand | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,2,1,0.53,0.0
+2026-11-05,19153311519,Search | Brand | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,14,7,6.89,0.0
+2026-11-06,19153311519,Search | Brand | Pl,geoTargetConstants/20847,geoTargetConstants/20847,12,5,6.29,1.0
+2026-11-06,19153311519,Search | Brand | Pl,geoTargetConstants/20848,geoTargetConstants/20848,2,0,0.0,0.0
+2026-11-06,19153311519,Search | Brand | Pl,geoTargetConstants/20851,geoTargetConstants/20851,2,0,0.0,0.0
+2026-11-06,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,1,1,1.01,1.0
+2026-11-06,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,7,2,3.81,0.0
+2026-11-06,19153311519,Search | Brand | Pl,geoTargetConstants/20853,geoTargetConstants/20853,2,0,0.0,0.0
+2026-11-06,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,12,4,5.87,1.0
+2026-11-06,19153311519,Search | Brand | Pl,geoTargetConstants/20857,geoTargetConstants/20857,2,0,0.0,0.0
+2026-11-06,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,4,0,0.0,0.0
+2026-11-06,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,14,4,4.46,0.0
+2026-11-06,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,6,0,0.0,0.0
+2026-11-06,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,9,1,2.5,0.0
+2026-11-06,19153311519,Search | Brand | Pl,geoTargetConstants/20862,geoTargetConstants/20862,2,0,0.0,0.0
+2026-11-06,19153311519,Search | Brand | Pl,geoTargetConstants/20862,geoTargetConstants/20862,2,1,0.22,0.0
+2026-11-06,19153311519,Search | Brand | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,8,3,4.06,0.0
+2026-11-07,19153311519,Search | Brand | Pl,geoTargetConstants/20850,geoTargetConstants/20850,1,0,0.0,0.0
+2026-11-07,19153311519,Search | Brand | Pl,geoTargetConstants/20851,geoTargetConstants/20851,8,4,2.3,0.0
+2026-11-07,19153311519,Search | Brand | Pl,geoTargetConstants/20853,geoTargetConstants/20853,1,0,0.0,0.0
+2026-11-07,19153311519,Search | Brand | Pl,geoTargetConstants/20855,geoTargetConstants/20855,2,1,0.29,0.0
+2026-11-07,19153311519,Search | Brand | Pl,geoTargetConstants/20857,geoTargetConstants/20857,6,1,0.45,0.0
+2026-11-07,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,1,0,0.0,0.0
+2026-11-07,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,2,0,0.0,0.0
+2026-11-07,19153311519,Search | Brand | Pl,geoTargetConstants/20860,geoTargetConstants/20860,2,1,0.7,0.0
+2026-11-07,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,2,1,0.04,0.0
+2026-11-07,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,6,2,0.35,0.0
+2026-11-07,19153311519,Search | Brand | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,4,2,1.13,0.0
+2026-11-07,19153311519,Search | Brand | Pl,geoTargetConstants/9256604,geoTargetConstants/9256604,1,0,0.0,0.0
+2026-11-09,19153311519,Search | Brand | Pl,geoTargetConstants/20847,geoTargetConstants/20847,6,1,2.44,0.0
+2026-11-09,19153311519,Search | Brand | Pl,geoTargetConstants/20850,geoTargetConstants/20850,3,0,0.0,0.0
+2026-11-09,19153311519,Search | Brand | Pl,geoTargetConstants/20851,geoTargetConstants/20851,2,1,2.12,0.0
+2026-11-09,19153311519,Search | Brand | Pl,geoTargetConstants/20851,geoTargetConstants/20851,12,5,8.07,0.0
+2026-11-09,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,4,0,0.0,0.0
+2026-11-09,19153311519,Search | Brand | Pl,geoTargetConstants/20853,geoTargetConstants/20853,2,1,2.49,0.0
+2026-11-09,19153311519,Search | Brand | Pl,geoTargetConstants/20853,geoTargetConstants/20853,2,0,0.0,0.0
+2026-11-09,19153311519,Search | Brand | Pl,geoTargetConstants/20855,geoTargetConstants/20855,2,1,0.17,0.0
+2026-11-09,19153311519,Search | Brand | Pl,geoTargetConstants/20855,geoTargetConstants/20855,4,1,2.49,0.0
+2026-11-09,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,1,0,0.0,0.0
+2026-11-09,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,2,0,0.0,0.0
+2026-11-09,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,10,1,2.44,0.0
+2026-11-09,19153311519,Search | Brand | Pl,geoTargetConstants/20860,geoTargetConstants/20860,6,2,0.28,0.0
+2026-11-09,19153311519,Search | Brand | Pl,geoTargetConstants/20860,geoTargetConstants/20860,3,4,5.82,0.0
+2026-11-09,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,14,2,3.98,0.0
+2026-11-09,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,20,4,7.81,0.0
+2026-11-09,19153311519,Search | Brand | Pl,geoTargetConstants/20862,geoTargetConstants/20862,2,0,0.0,0.0
+2026-11-09,19153311519,Search | Brand | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,4,2,3.5,0.0
+2026-11-10,19153311519,Search | Brand | Pl,geoTargetConstants/20847,geoTargetConstants/20847,4,0,0.0,0.0
+2026-11-10,19153311519,Search | Brand | Pl,geoTargetConstants/20848,geoTargetConstants/20848,4,1,2.44,0.0
+2026-11-10,19153311519,Search | Brand | Pl,geoTargetConstants/20850,geoTargetConstants/20850,1,0,0.0,0.0
+2026-11-10,19153311519,Search | Brand | Pl,geoTargetConstants/20851,geoTargetConstants/20851,4,1,0.05,0.0
+2026-11-10,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,4,3,1.85,1.0
+2026-11-10,19153311519,Search | Brand | Pl,geoTargetConstants/20853,geoTargetConstants/20853,4,2,2.69,0.0
+2026-11-10,19153311519,Search | Brand | Pl,geoTargetConstants/20854,geoTargetConstants/20854,2,1,0.5,0.0
+2026-11-10,19153311519,Search | Brand | Pl,geoTargetConstants/20855,geoTargetConstants/20855,4,0,0.0,0.0
+2026-11-10,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,2,0,0.0,0.0
+2026-11-10,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,4,1,1.79,1.0
+2026-11-10,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,18,5,6.13,0.0
+2026-11-10,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,4,1,2.5,0.0
+2026-11-10,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,7,1,1.68,0.0
+2026-11-10,19153311519,Search | Brand | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,4,0,0.0,0.0
+2026-11-10,19153311519,Search | Brand | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,2,1,1.08,0.0
+2026-11-12,19153311519,Search | Brand | Pl,geoTargetConstants/20847,geoTargetConstants/20847,10,2,1.69,1.0
+2026-11-12,19153311519,Search | Brand | Pl,geoTargetConstants/20848,geoTargetConstants/20848,1,0,0.0,0.0
+2026-11-12,19153311519,Search | Brand | Pl,geoTargetConstants/20850,geoTargetConstants/20850,12,4,8.13,0.0
+2026-11-12,19153311519,Search | Brand | Pl,geoTargetConstants/20851,geoTargetConstants/20851,2,0,0.0,0.0
+2026-11-12,19153311519,Search | Brand | Pl,geoTargetConstants/20851,geoTargetConstants/20851,2,1,0.09,0.0
+2026-11-12,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,1,1,2.46,0.0
+2026-11-12,19153311519,Search | Brand | Pl,geoTargetConstants/20853,geoTargetConstants/20853,12,6,4.61,0.0
+2026-11-12,19153311519,Search | Brand | Pl,geoTargetConstants/20854,geoTargetConstants/20854,2,2,2.7,0.0
+2026-11-12,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,10,2,1.21,0.0
+2026-11-12,19153311519,Search | Brand | Pl,geoTargetConstants/20857,geoTargetConstants/20857,4,2,3.02,1.0
+2026-11-12,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,4,2,0.91,0.0
+2026-11-12,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,2,0,0.0,0.0
+2026-11-12,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,33,13,17.71,0.0
+2026-11-12,19153311519,Search | Brand | Pl,geoTargetConstants/20862,geoTargetConstants/20862,2,1,0.85,0.0
+2026-11-12,19153311519,Search | Brand | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,11,4,0.32,0.0
+2026-11-13,19153311519,Search | Brand | Pl,geoTargetConstants/20234,geoTargetConstants/20234,2,1,1.4,0.0
+2026-11-13,19153311519,Search | Brand | Pl,geoTargetConstants/20847,geoTargetConstants/20847,6,1,1.32,0.0
+2026-11-13,19153311519,Search | Brand | Pl,geoTargetConstants/20848,geoTargetConstants/20848,2,1,2.5,0.0
+2026-11-13,19153311519,Search | Brand | Pl,geoTargetConstants/20850,geoTargetConstants/20850,1,0,0.0,0.0
+2026-11-13,19153311519,Search | Brand | Pl,geoTargetConstants/20850,geoTargetConstants/20850,6,2,0.61,0.0
+2026-11-13,19153311519,Search | Brand | Pl,geoTargetConstants/20851,geoTargetConstants/20851,4,1,0.43,0.0
+2026-11-13,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,2,1,0.84,0.0
+2026-11-13,19153311519,Search | Brand | Pl,geoTargetConstants/20853,geoTargetConstants/20853,2,1,1.18,0.0
+2026-11-13,19153311519,Search | Brand | Pl,geoTargetConstants/20854,geoTargetConstants/20854,4,0,0.0,0.0
+2026-11-13,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,4,4,8.58,0.0
+2026-11-13,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,10,5,9.21,0.0
+2026-11-13,19153311519,Search | Brand | Pl,geoTargetConstants/20857,geoTargetConstants/20857,2,1,2.49,0.0
+2026-11-13,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,5,1,0.48,0.0
+2026-11-13,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,2,0,0.0,0.0
+2026-11-13,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,35,6,9.15,0.0
+2026-11-13,19153311519,Search | Brand | Pl,geoTargetConstants/21123,geoTargetConstants/21123,2,0,0.0,0.0
+2026-11-13,19153311519,Search | Brand | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,6,3,2.89,0.0
+2026-11-13,19153311519,Search | Brand | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,4,2,2.77,0.0
+2026-11-14,19153311519,Search | Brand | Pl,geoTargetConstants/20847,geoTargetConstants/20847,8,2,1.41,0.0
+2026-11-14,19153311519,Search | Brand | Pl,geoTargetConstants/20851,geoTargetConstants/20851,2,1,0.42,0.0
+2026-11-14,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,1,0,0.0,0.0
+2026-11-14,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,2,0,0.0,0.0
+2026-11-14,19153311519,Search | Brand | Pl,geoTargetConstants/20854,geoTargetConstants/20854,2,1,0.24,0.0
+2026-11-14,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,2,1,0.01,0.0
+2026-11-14,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,6,2,2.29,0.0
+2026-11-14,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,8,3,4.19,0.0
+2026-11-14,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,2,0,0.0,0.0
+2026-11-14,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,4,2,1.12,0.0
+2026-11-14,19153311519,Search | Brand | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,3,2,0.2,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20229,geoTargetConstants/20229,1,0,0.0,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20235,geoTargetConstants/20235,2,0,0.0,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20339,geoTargetConstants/20339,7,1,0.29,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,2,0,0.0,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,82,3,1.03,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,72,4,1.31,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,1,0,0.0,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,39,4,1.47,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,1,0,0.0,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,85,4,1.48,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,7,0,0.0,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,98,6,2.83,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,1,0,0.0,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,108,9,3.8,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,5,0,0.0,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,106,8,2.83,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,1,0,0.0,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,22,3,1.43,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,5,0,0.0,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,30,1,0.45,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,4,0,0.0,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,86,3,1.38,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,4,0,0.0,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,62,3,1.21,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,5,3,1.32,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,48,1,0.46,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,5,0,0.0,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,171,6,2.42,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,1,0,0.0,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,23,1,0.3,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,3,0,0.0,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,106,4,1.66,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,34,2,0.69,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9068898,geoTargetConstants/9068898,1,0,0.0,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9070365,geoTargetConstants/9070365,1,0,0.0,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,2,0,0.0,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,105,7,2.69,0.0
+2026-11-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9256604,geoTargetConstants/9256604,5,0,0.0,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20236,geoTargetConstants/20236,1,0,0.0,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20239,geoTargetConstants/20239,2,0,0.0,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,3,0,0.0,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,65,2,0.6,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,1,0,0.0,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,18,1,0.46,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,16,2,0.73,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,3,0,0.0,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,52,3,1.64,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,52,4,1.65,1.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,1,0,0.0,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,81,5,1.73,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,7,0,0.0,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,93,12,4.0,1.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,2,0,0.0,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,22,2,0.58,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,49,0,0.0,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,73,4,1.51,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,1,0,0.0,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,20,0,0.0,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,1,0,0.0,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,25,1,0.29,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,2,0,0.0,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,81,5,1.77,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,13,1,0.46,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,90,4,1.5,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,20,2,0.58,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/21000,geoTargetConstants/21000,2,1,0.31,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/21498,geoTargetConstants/21498,4,1,0.29,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9069523,geoTargetConstants/9069523,2,0,0.0,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9219194,geoTargetConstants/9219194,1,0,0.0,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,6,1,0.7,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,83,1,0.29,0.0
+2026-11-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9256604,geoTargetConstants/9256604,4,0,0.0,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20227,geoTargetConstants/20227,2,1,0.29,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20239,geoTargetConstants/20239,1,0,0.0,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20339,geoTargetConstants/20339,1,0,0.0,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20760,geoTargetConstants/20760,2,0,0.0,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20768,geoTargetConstants/20768,1,0,0.0,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20787,geoTargetConstants/20787,2,0,0.0,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,1,0,0.0,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,89,5,2.02,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,32,3,1.03,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,27,2,0.59,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,72,2,1.14,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,80,8,2.75,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,3,1,0.72,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,95,10,3.71,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,2,0,0.0,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,86,9,3.39,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,17,0,0.0,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,27,0,0.0,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,2,0,0.0,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,102,8,2.89,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,2,0,0.0,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,55,2,0.57,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,29,1,0.29,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,9,4,1.31,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,133,11,3.91,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,2,0,0.0,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,29,5,2.16,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,10,1,0.28,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,81,8,3.49,1.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,32,2,0.58,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9040324,geoTargetConstants/9040324,2,0,0.0,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,2,0,0.0,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,96,3,0.89,0.0
+2026-11-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9256604,geoTargetConstants/9256604,1,0,0.0,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20044,geoTargetConstants/20044,2,0,0.0,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20228,geoTargetConstants/20228,1,0,0.0,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20231,geoTargetConstants/20231,3,0,0.0,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20254,geoTargetConstants/20254,3,1,0.29,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20762,geoTargetConstants/20762,2,0,0.0,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20770,geoTargetConstants/20770,2,1,0.45,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,1,0,0.0,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,90,7,3.01,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,25,0,0.0,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,11,1,0.28,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,62,2,1.17,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,2,1,0.46,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,86,7,2.52,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,94,5,1.71,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,2,1,0.72,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,94,8,3.84,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,9,1,0.29,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,2,0,0.0,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,28,1,0.46,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,4,0,0.0,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,83,6,2.39,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,42,0,0.0,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,32,3,1.21,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,3,0,0.0,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,102,8,3.0,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,20,1,0.31,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,89,5,1.45,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,39,0,0.0,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,7,0,0.0,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,125,5,1.61,0.0
+2026-11-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9256604,geoTargetConstants/9256604,3,0,0.0,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20151,geoTargetConstants/20151,2,0,0.0,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20229,geoTargetConstants/20229,1,0,0.0,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20233,geoTargetConstants/20233,2,0,0.0,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20234,geoTargetConstants/20234,2,0,0.0,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20235,geoTargetConstants/20235,2,1,0.29,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20236,geoTargetConstants/20236,2,0,0.0,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20239,geoTargetConstants/20239,4,0,0.0,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,3,0,0.0,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,124,9,3.01,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,1,0,0.0,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,64,7,2.22,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,29,2,0.74,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,2,0,0.0,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,58,2,0.58,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,3,0,0.0,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,102,7,2.18,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,1,0,0.0,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,200,13,5.35,1.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,5,0,0.0,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,86,3,1.21,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,26,2,0.74,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,1,0,0.0,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,57,9,2.9,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,6,1,0.46,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,93,8,3.81,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,2,1,0.29,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,89,7,3.02,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,2,0,0.0,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,40,1,0.43,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,15,3,0.87,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,162,14,4.41,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,46,1,0.31,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,1,0,0.0,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,104,11,3.43,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,56,4,1.46,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/21017,geoTargetConstants/21017,2,0,0.0,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/21020,geoTargetConstants/21020,2,0,0.0,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9069815,geoTargetConstants/9069815,1,0,0.0,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,9,0,0.0,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,110,9,3.82,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9256604,geoTargetConstants/9256604,4,0,0.0,0.0
+2026-11-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9302909,geoTargetConstants/9302909,2,1,0.3,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20229,geoTargetConstants/20229,1,0,0.0,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20234,geoTargetConstants/20234,2,0,0.0,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20241,geoTargetConstants/20241,2,0,0.0,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,71,7,2.73,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,1,0,0.0,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,55,5,1.78,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,2,0,0.0,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,14,1,0.47,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,44,6,2.57,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,74,9,3.56,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,4,0,0.0,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,83,4,1.44,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,80,4,1.84,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,20,2,0.58,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,25,2,0.52,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,60,2,0.56,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,2,0,0.0,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,37,1,0.29,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,40,2,0.74,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,1,0,0.0,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,61,3,0.51,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,23,0,0.0,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,59,4,1.12,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,25,2,0.74,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,4,0,0.0,0.0
+2026-11-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,86,4,1.65,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20229,geoTargetConstants/20229,2,0,0.0,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,43,1,0.27,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,22,1,0.27,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,21,0,0.0,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,1,0,0.0,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,26,3,1.13,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,49,2,0.58,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,3,0,0.0,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,41,2,0.86,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,21,0,0.0,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,7,0,0.0,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,2,1,0.27,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,12,0,0.0,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,9,1,0.45,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,41,3,1.22,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,28,2,0.74,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,11,1,0.31,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,58,4,1.75,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,16,4,1.31,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,1,0,0.0,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,41,7,2.44,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,34,3,0.92,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,8,0,0.0,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,40,3,1.03,0.0
+2026-11-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9256604,geoTargetConstants/9256604,3,0,0.0,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,11,1,0.33,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,36,0,0.0,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,2,0,0.0,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,5,0,0.0,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,25,0,0.0,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,30,1,0.21,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,24,4,1.46,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,2,0,0.0,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,16,0,0.0,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,4,0,0.0,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,1,0,0.0,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,11,0,0.0,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,1,0,0.0,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,37,2,0.76,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,7,0,0.0,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,8,0,0.0,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,16,3,1.35,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,1,0,0.0,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,24,2,0.74,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,2,0,0.0,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,8,0,0.0,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,1,0,0.0,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,24,2,0.86,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,7,2,0.94,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/21498,geoTargetConstants/21498,2,0,0.0,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,34,3,1.34,0.0
+2026-11-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9256604,geoTargetConstants/9256604,1,0,0.0,0.0
+2026-11-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20241,geoTargetConstants/20241,2,0,0.0,0.0
+2026-11-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20762,geoTargetConstants/20762,2,1,0.23,0.0
+2026-11-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,36,3,1.17,0.0
+2026-11-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,16,0,0.0,0.0
+2026-11-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,5,0,0.0,0.0
+2026-11-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,41,6,1.85,0.0
+2026-11-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,1,0,0.0,0.0
+2026-11-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,44,4,1.44,0.0
+2026-11-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,36,2,0.47,0.0
+2026-11-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,25,1,0.21,0.0
+2026-11-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,5,0,0.0,0.0
+2026-11-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,17,0,0.0,0.0
+2026-11-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,32,4,1.42,0.0
+2026-11-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,44,0,0.0,0.0
+2026-11-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,11,2,0.35,0.0
+2026-11-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,58,5,1.209851,0.0
+2026-11-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,18,1,0.43,0.0
+2026-11-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,1,2,0.84,0.0
+2026-11-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,36,4,1.55,0.0
+2026-11-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,10,1,0.26,0.0
+2026-11-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,4,0,0.0,0.0
+2026-11-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,33,2,0.92,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20252,geoTargetConstants/20252,2,1,0.31,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20764,geoTargetConstants/20764,2,1,0.31,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,19,2,0.6,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,16,2,0.73,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,4,0,0.0,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,1,0,0.0,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,13,2,0.42,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,31,4,1.21,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,2,0,0.0,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,40,2,0.30386,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,22,3,1.03,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,12,0,0.0,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,10,0,0.0,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,40,2,0.71,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,2,0,0.0,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,18,1,0.21,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,1,0,0.0,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,8,1,0.41,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,48,3,1.04,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,11,2,0.54,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,32,4,1.14,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,17,0,0.0,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,1,0,0.0,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,41,3,0.91,0.0
+2026-11-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9299019,geoTargetConstants/9299019,3,2,0.62,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20243,geoTargetConstants/20243,1,0,0.0,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20781,geoTargetConstants/20781,1,0,0.0,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,44,2,0.54,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,21,0,0.0,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,18,1,0.3,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,52,4,1.05,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,32,4,1.23,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,2,0,0.0,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,66,4,1.29,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,1,1,0.26,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,39,3,0.81,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,15,1,0.27,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,14,3,0.88,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,4,1,0.27,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,47,5,1.43,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,34,1,0.3,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,10,0,0.0,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,2,0,0.0,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,64,4,1.32,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,25,1,0.27,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,52,3,0.88,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,4,1,0.27,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,27,5,1.59,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/21498,geoTargetConstants/21498,4,2,0.57,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,1,0,0.0,0.0
+2026-11-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,42,3,0.88,0.0
+2026-11-02,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,61,5,0.630997,0.0
+2026-11-02,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,29,0,0.026925,0.0
+2026-11-02,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,13,0,0.0,0.0
+2026-11-02,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,31,4,0.076993,0.0
+2026-11-02,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,53,9,0.836856,1.0
+2026-11-02,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,51,6,0.197177,0.0
+2026-11-02,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,27,7,0.511009,1.0
+2026-11-02,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,14,2,0.230869,0.0
+2026-11-02,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,35,3,0.192898,0.0
+2026-11-02,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,49,4,0.280581,0.0
+2026-11-02,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,40,2,0.093038,0.0
+2026-11-02,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,19,1,0.022604,0.0
+2026-11-02,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,97,13,0.849823,0.0
+2026-11-02,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,5,1,0.047755,0.0
+2026-11-02,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,3,0,0.0,0.0
+2026-11-02,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,56,4,0.187356,0.0
+2026-11-02,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,1,0,0.0,0.0
+2026-11-02,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,18,2,0.195732,0.0
+2026-11-02,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,119,13,0.683772,0.0
+2026-11-02,23775369828,pmax1_test,geoTargetConstants/9256604,geoTargetConstants/9256604,1,0,0.0,0.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/20235,geoTargetConstants/20235,2,0,0.0,0.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,1,0,0.0,0.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,839,48,4.078654,0.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,348,16,1.950128,0.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,127,9,1.678542,0.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,440,34,1.453601,0.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,1,0,0.0,0.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,458,21,0.727723,0.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,604,29,1.997937,0.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,378,15,3.372225,0.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,157,13,0.767637,0.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,246,14,0.639676,0.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,6,0,0.0,0.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,483,26,1.772038,0.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,494,29,2.25757,0.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,158,7,0.178499,0.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,3,0,0.0,0.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,1093,57,4.751241,1.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,167,9,0.257855,0.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,876,40,1.910978,0.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,240,18,0.989565,0.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,3,1,0.93,0.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,1277,73,4.717422,2.0
+2026-11-03,23775369828,pmax1_test,geoTargetConstants/9256604,geoTargetConstants/9256604,7,0,0.0,0.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/20339,geoTargetConstants/20339,1,0,0.0,0.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,2,0,0.0,0.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,1025,50,2.421215,1.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,461,24,1.242172,0.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,161,3,0.09558,0.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,5,0,0.0,0.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,669,44,1.652295,0.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,720,43,1.945562,0.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,1,0,0.0,0.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,800,47,2.958163,0.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,1,0,0.0,0.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,525,21,1.289504,0.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,227,23,1.948359,0.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,294,12,1.83924,0.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,813,44,1.906495,0.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,591,22,1.279484,0.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,287,13,1.177438,1.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,1342,69,5.003023,1.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,223,10,0.456057,0.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,1030,62,2.86961,0.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,317,9,0.332241,0.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,1,0,0.0,0.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,1834,91,4.414638,0.0
+2026-11-04,23775369828,pmax1_test,geoTargetConstants/9256604,geoTargetConstants/9256604,13,1,0.016424,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/20231,geoTargetConstants/20231,1,0,0.0,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,5,2,1.823999,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,419,31,1.961398,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,181,17,5.520205,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,77,7,0.449624,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,217,15,2.985825,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,211,15,0.707905,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,1,0,0.0,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,300,14,1.23058,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,197,9,0.731999,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,85,5,0.440932,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,3,0,0.0,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,111,5,0.080345,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,1,0,0.0,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,279,16,1.493292,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,245,14,1.382541,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,54,2,0.291583,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,476,33,6.703456,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,78,6,0.14145,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,1,0,0.0,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,395,38,3.310477,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,128,3,0.108632,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,3,0,0.0,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,665,39,1.100322,0.0
+2026-11-05,23775369828,pmax1_test,geoTargetConstants/9256604,geoTargetConstants/9256604,7,0,0.0,0.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/20045,geoTargetConstants/20045,1,0,0.0,0.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,356,21,0.959786,0.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,120,11,1.639672,0.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,82,5,0.624617,0.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,197,12,0.955442,0.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,2,0,0.0,0.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,214,21,0.984869,0.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,266,18,0.704553,0.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,206,14,1.220613,0.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,66,6,0.217222,0.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,83,10,0.462907,1.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,226,17,1.051897,0.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,2,0,0.0,0.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,183,9,0.595346,0.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,78,4,0.0586,0.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,3,0,0.0,0.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,424,27,1.362503,0.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,2,1,0.42,0.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,51,2,0.034705,0.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,327,14,1.988955,0.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,82,6,0.212313,2.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,1,0,0.0,0.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,524,35,3.262201,0.0
+2026-11-06,23775369828,pmax1_test,geoTargetConstants/9256604,geoTargetConstants/9256604,2,2,0.045753,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20045,geoTargetConstants/20045,1,0,0.0,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20235,geoTargetConstants/20235,1,1,0.58,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,475,32,1.293415,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,1,0,0.0,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,218,9,0.320614,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,94,10,0.988682,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,313,29,8.764279,1.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,327,17,0.825862,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,351,29,1.538953,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,1,0,0.0,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,263,22,3.411145,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,78,11,0.903961,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,1,0,0.0,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,139,11,0.363505,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,3,0,0.0,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,323,23,3.364376,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,282,22,1.44404,1.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,94,5,0.209609,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,1,0,0.0,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,599,55,6.309959,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,72,5,0.287898,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,1,0,0.0,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,461,36,2.892367,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,1,0,0.0,0.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,179,15,3.385113,1.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,837,63,2.928113,1.0
+2026-11-09,23775369828,pmax1_test,geoTargetConstants/9256604,geoTargetConstants/9256604,17,1,0.015573,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20227,geoTargetConstants/20227,3,0,0.0,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20339,geoTargetConstants/20339,2,0,0.0,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,2,0,0.0,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,701,53,3.751352,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,1,0,0.0,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,229,14,1.136894,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,2,0,0.0,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,150,11,1.213676,1.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,3,0,0.0,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,476,38,4.503896,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,1,0,0.0,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,404,29,2.065187,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,2,0,0.0,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,500,37,4.611699,1.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,423,28,2.569101,1.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,150,17,1.760706,2.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,3,0,0.0,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,183,22,1.057016,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,3,1,0.27,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,425,27,1.138333,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,361,21,1.382995,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,1,0,0.0,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,169,9,0.467327,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,865,74,4.444613,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,1,0,0.0,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,147,11,6.985403,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,776,41,1.820657,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,169,9,0.360458,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/21498,geoTargetConstants/21498,1,0,0.0,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/21564,geoTargetConstants/21564,1,0,0.0,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/9198629,geoTargetConstants/9198629,4,0,0.0,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,2,0,0.0,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,1125,88,6.209544,0.0
+2026-11-10,23775369828,pmax1_test,geoTargetConstants/9256604,geoTargetConstants/9256604,10,0,0.0,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20232,geoTargetConstants/20232,6,1,0.207448,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,3,0,0.0,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,562,55,3.815158,1.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,1,0,0.0,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,260,19,0.755837,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,110,10,1.083873,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,1,0,0.0,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,388,48,2.726411,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,6,0,0.0,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,431,40,9.685398,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,421,34,1.941943,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,6,2,2.75,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,335,25,1.36708,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,113,14,0.378604,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,1,0,0.0,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,175,11,2.637714,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,454,33,4.834692,1.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,3,0,0.0,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,329,24,0.919159,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,163,10,0.236308,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,1,0,0.0,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,716,54,3.022311,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,119,12,0.54306,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,1,0,0.0,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,611,58,7.657681,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,158,3,0.215991,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,6,1,0.45,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,986,82,4.499995,0.0
+2026-11-12,23775369828,pmax1_test,geoTargetConstants/9256604,geoTargetConstants/9256604,10,1,0.175918,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20236,geoTargetConstants/20236,1,0,0.0,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,745,63,7.22518,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,384,18,1.347061,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,180,14,1.6664,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,3,0,0.0,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,518,47,1.825132,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,631,60,4.202665,1.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,704,48,5.545612,1.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,1,0,0.0,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,464,38,3.004661,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,189,7,0.555927,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,5,0,0.0,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,248,15,1.033022,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,6,0,0.0,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,680,42,2.592373,1.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,1,0,0.0,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,446,22,1.609018,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,249,19,1.008545,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,2,0,0.0,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,1124,75,5.625556,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,194,15,0.966592,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,1,0,0.0,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,797,57,2.904474,1.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,243,21,1.732674,1.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/21069,geoTargetConstants/21069,1,0,0.0,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/9069578,geoTargetConstants/9069578,2,0,0.0,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,1380,95,4.094584,0.0
+2026-11-13,23775369828,pmax1_test,geoTargetConstants/9256604,geoTargetConstants/9256604,15,0,0.0,0.0
+2026-11-02,24331349689,dspl_rtg_basket,geoTargetConstants/20847,geoTargetConstants/20847,37,1,0.056843,0.0
+2026-11-02,24331349689,dspl_rtg_basket,geoTargetConstants/20848,geoTargetConstants/20848,13,0,0.0,0.0
+2026-11-02,24331349689,dspl_rtg_basket,geoTargetConstants/20850,geoTargetConstants/20850,11,0,0.0,0.0
+2026-11-02,24331349689,dspl_rtg_basket,geoTargetConstants/20851,geoTargetConstants/20851,27,0,0.0,0.0
+2026-11-02,24331349689,dspl_rtg_basket,geoTargetConstants/20852,geoTargetConstants/20852,23,0,0.0,0.0
+2026-11-02,24331349689,dspl_rtg_basket,geoTargetConstants/20853,geoTargetConstants/20853,19,0,0.0,0.0
+2026-11-02,24331349689,dspl_rtg_basket,geoTargetConstants/20855,geoTargetConstants/20855,25,0,0.0,0.0
+2026-11-02,24331349689,dspl_rtg_basket,geoTargetConstants/20856,geoTargetConstants/20856,56,1,0.023571,0.0
+2026-11-02,24331349689,dspl_rtg_basket,geoTargetConstants/20857,geoTargetConstants/20857,40,0,0.0,0.0
+2026-11-02,24331349689,dspl_rtg_basket,geoTargetConstants/20858,geoTargetConstants/20858,57,1,0.29,0.0
+2026-11-02,24331349689,dspl_rtg_basket,geoTargetConstants/20859,geoTargetConstants/20859,153,2,0.118317,0.0
+2026-11-02,24331349689,dspl_rtg_basket,geoTargetConstants/20860,geoTargetConstants/20860,38,0,0.0,0.0
+2026-11-02,24331349689,dspl_rtg_basket,geoTargetConstants/20861,geoTargetConstants/20861,66,1,0.047494,0.0
+2026-11-02,24331349689,dspl_rtg_basket,geoTargetConstants/20862,geoTargetConstants/20862,31,0,0.0,0.0
+2026-11-02,24331349689,dspl_rtg_basket,geoTargetConstants/9231592,geoTargetConstants/9231592,158,0,0.0,0.0
+2026-11-03,24331349689,dspl_rtg_basket,geoTargetConstants/20847,geoTargetConstants/20847,39,2,0.148782,0.0
+2026-11-03,24331349689,dspl_rtg_basket,geoTargetConstants/20848,geoTargetConstants/20848,2,0,0.0,0.0
+2026-11-03,24331349689,dspl_rtg_basket,geoTargetConstants/20849,geoTargetConstants/20849,1,0,0.0,0.0
+2026-11-03,24331349689,dspl_rtg_basket,geoTargetConstants/20850,geoTargetConstants/20850,1,0,0.0,0.0
+2026-11-03,24331349689,dspl_rtg_basket,geoTargetConstants/20851,geoTargetConstants/20851,21,0,0.0,0.0
+2026-11-03,24331349689,dspl_rtg_basket,geoTargetConstants/20852,geoTargetConstants/20852,61,1,0.166948,0.0
+2026-11-03,24331349689,dspl_rtg_basket,geoTargetConstants/20853,geoTargetConstants/20853,15,0,0.0,0.0
+2026-11-03,24331349689,dspl_rtg_basket,geoTargetConstants/20855,geoTargetConstants/20855,53,2,0.597993,0.0
+2026-11-03,24331349689,dspl_rtg_basket,geoTargetConstants/20856,geoTargetConstants/20856,28,0,0.0,0.0
+2026-11-03,24331349689,dspl_rtg_basket,geoTargetConstants/20857,geoTargetConstants/20857,63,0,0.0,0.0
+2026-11-03,24331349689,dspl_rtg_basket,geoTargetConstants/20858,geoTargetConstants/20858,30,0,0.0,0.0
+2026-11-03,24331349689,dspl_rtg_basket,geoTargetConstants/20859,geoTargetConstants/20859,103,1,0.102732,0.0
+2026-11-03,24331349689,dspl_rtg_basket,geoTargetConstants/20860,geoTargetConstants/20860,17,0,0.0,0.0
+2026-11-03,24331349689,dspl_rtg_basket,geoTargetConstants/20861,geoTargetConstants/20861,117,2,0.218187,0.0
+2026-11-03,24331349689,dspl_rtg_basket,geoTargetConstants/20862,geoTargetConstants/20862,26,0,0.0,0.0
+2026-11-03,24331349689,dspl_rtg_basket,geoTargetConstants/9231592,geoTargetConstants/9231592,159,3,0.363362,0.0
+2026-11-03,24331349689,dspl_rtg_basket,geoTargetConstants/9256604,geoTargetConstants/9256604,1,0,0.0,0.0
+2026-11-04,24331349689,dspl_rtg_basket,geoTargetConstants/20847,geoTargetConstants/20847,68,0,0.0,0.0
+2026-11-04,24331349689,dspl_rtg_basket,geoTargetConstants/20848,geoTargetConstants/20848,15,0,0.0,0.0
+2026-11-04,24331349689,dspl_rtg_basket,geoTargetConstants/20850,geoTargetConstants/20850,38,1,0.082379,0.0
+2026-11-04,24331349689,dspl_rtg_basket,geoTargetConstants/20851,geoTargetConstants/20851,17,0,0.0,0.0
+2026-11-04,24331349689,dspl_rtg_basket,geoTargetConstants/20852,geoTargetConstants/20852,15,0,0.0,0.0
+2026-11-04,24331349689,dspl_rtg_basket,geoTargetConstants/20853,geoTargetConstants/20853,36,2,0.336118,0.0
+2026-11-04,24331349689,dspl_rtg_basket,geoTargetConstants/20854,geoTargetConstants/20854,1,0,0.0,0.0
+2026-11-04,24331349689,dspl_rtg_basket,geoTargetConstants/20855,geoTargetConstants/20855,19,0,0.0,0.0
+2026-11-04,24331349689,dspl_rtg_basket,geoTargetConstants/20856,geoTargetConstants/20856,38,2,0.343191,0.0
+2026-11-04,24331349689,dspl_rtg_basket,geoTargetConstants/20857,geoTargetConstants/20857,21,0,0.0,0.0
+2026-11-04,24331349689,dspl_rtg_basket,geoTargetConstants/20858,geoTargetConstants/20858,33,0,0.0,0.0
+2026-11-04,24331349689,dspl_rtg_basket,geoTargetConstants/20859,geoTargetConstants/20859,92,2,0.129191,0.0
+2026-11-04,24331349689,dspl_rtg_basket,geoTargetConstants/20860,geoTargetConstants/20860,31,0,0.0,0.0
+2026-11-04,24331349689,dspl_rtg_basket,geoTargetConstants/20861,geoTargetConstants/20861,56,0,0.0,0.0
+2026-11-04,24331349689,dspl_rtg_basket,geoTargetConstants/20862,geoTargetConstants/20862,17,0,0.0,0.0
+2026-11-04,24331349689,dspl_rtg_basket,geoTargetConstants/9231592,geoTargetConstants/9231592,128,1,0.172982,0.0
+2026-11-13,24331349689,dspl_rtg_basket,geoTargetConstants/20847,geoTargetConstants/20847,29,0,0.0,0.0
+2026-11-13,24331349689,dspl_rtg_basket,geoTargetConstants/20848,geoTargetConstants/20848,12,0,0.0,0.0
+2026-11-13,24331349689,dspl_rtg_basket,geoTargetConstants/20849,geoTargetConstants/20849,5,0,0.0,0.0
+2026-11-13,24331349689,dspl_rtg_basket,geoTargetConstants/20850,geoTargetConstants/20850,1,0,0.0,0.0
+2026-11-13,24331349689,dspl_rtg_basket,geoTargetConstants/20851,geoTargetConstants/20851,25,1,0.273879,0.0
+2026-11-13,24331349689,dspl_rtg_basket,geoTargetConstants/20852,geoTargetConstants/20852,23,0,0.0,0.0
+2026-11-13,24331349689,dspl_rtg_basket,geoTargetConstants/20853,geoTargetConstants/20853,16,0,0.0,0.0
+2026-11-13,24331349689,dspl_rtg_basket,geoTargetConstants/20855,geoTargetConstants/20855,10,0,0.0,0.0
+2026-11-13,24331349689,dspl_rtg_basket,geoTargetConstants/20856,geoTargetConstants/20856,17,0,0.0,0.0
+2026-11-13,24331349689,dspl_rtg_basket,geoTargetConstants/20857,geoTargetConstants/20857,32,3,0.774891,0.0
+2026-11-13,24331349689,dspl_rtg_basket,geoTargetConstants/20858,geoTargetConstants/20858,4,0,0.0,0.0
+2026-11-13,24331349689,dspl_rtg_basket,geoTargetConstants/20859,geoTargetConstants/20859,52,0,0.0,0.0
+2026-11-13,24331349689,dspl_rtg_basket,geoTargetConstants/20860,geoTargetConstants/20860,5,0,0.0,0.0
+2026-11-13,24331349689,dspl_rtg_basket,geoTargetConstants/20861,geoTargetConstants/20861,15,0,0.0,0.0
+2026-11-13,24331349689,dspl_rtg_basket,geoTargetConstants/20862,geoTargetConstants/20862,12,0,0.0,0.0
+2026-11-13,24331349689,dspl_rtg_basket,geoTargetConstants/9231592,geoTargetConstants/9231592,90,3,0.355286,0.0
+2026-11-12,24458942621,search / montaz,geoTargetConstants/20847,geoTargetConstants/20847,6,1,0.99,0.0
+2026-11-12,24458942621,search / montaz,geoTargetConstants/20852,geoTargetConstants/20852,2,1,0.85,0.0
+2026-11-12,24458942621,search / montaz,geoTargetConstants/20859,geoTargetConstants/20859,12,1,0.99,0.0
+2026-11-12,24458942621,search / montaz,geoTargetConstants/9231592,geoTargetConstants/9231592,2,0,0.0,0.0
+2026-11-13,24458942621,search / montaz,geoTargetConstants/20847,geoTargetConstants/20847,1,0,0.0,0.0
+2026-11-13,24458942621,search / montaz,geoTargetConstants/20852,geoTargetConstants/20852,2,0,0.0,0.0
+2026-11-13,24458942621,search / montaz,geoTargetConstants/20853,geoTargetConstants/20853,1,0,0.0,0.0
+2026-11-13,24458942621,search / montaz,geoTargetConstants/20859,geoTargetConstants/20859,11,3,2.97,0.0
+2026-11-13,24458942621,search / montaz,geoTargetConstants/9231592,geoTargetConstants/9231592,4,0,0.0,0.0
+2026-11-14,24458942621,search / montaz,geoTargetConstants/20853,geoTargetConstants/20853,4,1,0.59,0.0
+2026-11-14,24458942621,search / montaz,geoTargetConstants/20859,geoTargetConstants/20859,8,5,4.99,1.0

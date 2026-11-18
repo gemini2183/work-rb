@@ -1,0 +1,27 @@
+Campaign,Impressions,Clicks,Impression_share,Lost_IS_budget,Lost_IS_rank,Top_IS,Absolute_top_IS
+Quiz Search | Pl,0,0,,,,,
+Remarketing Search | Pl,0,0,,,,,
+Remarketing Srch | Cart,0,0,,,,,
+Search Dynamic | Pl,0,0,,,,,
+Search | Brand | Pl,62875,26114,0.9729,0.0003,0.0267,0.927,0.9058
+Search | Brand | Pl Макс клики и Макс конв,1862,666,0.9357,0.0,0.0643,0.9143,0.8929
+Search | Pl,0,0,,,,,
+Search | Poliweglan | Pl,438795,59136,0.4783,0.0102,0.5114,0.3956,0.1637
+Search | Poliweglan | Pl  Экспериментальная группа 116,63931,8440,0.4559,0.0053,0.5388,0.3519,0.1646
+Search | Poliweglan | Pl - Sketch,0,0,,,,,
+Search | Poliweglan | Pl [broad],0,0,,,,,
+Search | Poliweglan | Pl Макс клики и Макс конв2,10336,1377,0.2639,0.0,0.7361,0.2187,0.0999
+Search | Poliweglan | max clicks,0,0,,,,,
+Search | Poliweglan | max cpa,0,0,,,,,
+Search | Producent | max clicks,0,0,,,,,
+Search | Wymiary  | max clicks,0,0,,,,,
+Search | Wyprzedaż | max clicks,0,0,,,,,
+Search | sklep,0,0,,,,,
+Search | szklarnia/tunel,15167,1467,0.5453,0.0193,0.4354,0.4211,0.1984
+search / montaz,53,12,1.0,0.0,0.0,0.8182,0.697
+search / poliweglan - generic,1679,240,0.3326,0.0,0.6674,0.284,0.1097
+search / poliweglan / broad,2908,226,0.1891,0.0,0.8109,0.135,0.0999
+search / poliweglan / weekend,25244,4132,0.6998,0.0719,0.2283,0.6562,0.3517
+search / szklarnia generic,4167,243,0.6917,0.0,0.3083,0.483,0.1817
+search / szklarnia/tunel (excl. poliweglan),100897,7464,0.4877,0.01,0.5022,0.425,0.2264
+search-rtg,2063,394,0.8754,0.0127,0.1119,0.8313,0.626

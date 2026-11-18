@@ -1,0 +1,36 @@
+=== Сводка изменений за 48 ч (с 2026-11-15 16:12, Варшава), клиент Andverpersonalinjury ===
+
+[1] События сторожа:
+  (лога сторожа нет: D:\GitHub\work-rb\Клиенты\Andverpersonalinjury\Статистика\gads_spend_guard_cpa_log.csv)
+
+[2] Изменения в кабинете (история изменений Google Ads):
+  2026-11-17 07:06:55  search / car+truck injuries / s / lp - tilda: CAMPAIGN UPDATE  [GOOGLE_ADS_WEB_CLIENT, infobox.anton@gmail.com; поля: target_impression_share.location_fraction_micros]
+  2026-11-17 07:06:28  search / car+truck injuries / s / lp - tilda: CAMPAIGN UPDATE  [GOOGLE_ADS_WEB_CLIENT, infobox.anton@gmail.com; поля: target_impression_share.cpc_bid_ceiling_micros]
+  2026-11-17 00:16:30  search / car+truck injuries / s / lp - tilda: CAMPAIGN UPDATE  [GOOGLE_ADS_RECOMMENDATIONS, infobox.anton@gmail.com; поля: manual_cpc.enhanced_cpc_enabled, target_impression_share.cpc_bid_ceiling_micros, target_im]
+
+[3] Состояние сейчас:
+  ENABLED  LocalServicesCampaign:SystemGenerated:000658c5f642aebe: бюджет 714 €, расход сегодня 0.00 €, показы 0, клики 0
+  ENABLED  search / car accident / es ca / lp - tilda: бюджет 150 €, расход сегодня 0.00 €, показы 6, клики 0
+  ENABLED  search / car accident / la+bh / lp - tilda: бюджет 200 €, расход сегодня 0.00 €, показы 41, клики 0
+  ENABLED  search / car+truck injuries / s / lp - tilda: бюджет 300 €, расход сегодня 0.00 €, показы 571, клики 0
+
+[4] Темп бюджета против плана месяца:
+  стандарт заявок не посчитан (FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GitHub\\work-rb\\Клиенты\\Andverperson) - ниже конверсии Ads
+  --- Andverpersonalinjury (все кампании аккаунта) ---
+  план месяца (Ноябрь 26, строка «Andverpersonalinjury»): бюджет 9000, заявок 23, цена заявки 400
+  срез: расход по завершённым дням 1–16: 2723; сегодня на сейчас 0; заявок в Ads (основные конверсии) за месяц 2.0 (СТАНДАРТ НЕ ПОСЧИТАН: звонки Ringostat и формы вне Ads сюда не входят; в конверсиях Ads бывают клики по номеру и спам-формы)
+  расход: 2723 из 4800 по линейному плану на 16 дн. (57%) -> ОТСТАЁМ; недобор 2077
+  среднее в день: последние 3 дня 300, 7 дней 198; нужно в день на остаток (14 дн. с сегодня), чтобы выйти на 9000: 448
+  заявки: 2.0 из 23; нужная цена заявки на остаток = (9000 - 2723) / 21.0 = 299 (план 400)
+  упирается ли в бюджет (7 дн., Search):
+    search / car+truck injuries / s / lp - tilda: дневной бюджет 300, доля показов 71%, потеряно по бюджету 0%, по рейтингу 29% (средневзвешено по расходу)
+    search / car accident / la+bh / lp - tilda: дневной бюджет 200, доля показов 37%, потеряно по бюджету 0%, по рейтингу 63% (средневзвешено по расходу)
+    search / car accident / es ca / lp - tilda: дневной бюджет 150, доля показов 18%, потеряно по бюджету 39%, по рейтингу 43% (средневзвешено по расходу)
+    сумма дневных бюджетов Search: 650/день -> потолок на месяц ~19760 (Google тратит до 2x в день, но не больше 30,4x дневного бюджета за месяц)
+    Если «потеряно по бюджету» ~0, повышение бюджета расход не поднимет: тормозят ставки, рейтинг, охват.
+  плашки статуса и упор в бюджет (14 дн.; «ограничено бюджетом» = BUDGET_CONSTRAINED из API):
+    search / car+truck injuries / s / lp: статус LEARNING, причины: обучение стратегии; бюджет 300, рекомендация по бюджету нет, дней ≥ 90% бюджета 1 из 5, макс. расход 291 (97%)
+    search / car accident / la+bh / lp -: статус ELIGIBLE, причины: -; бюджет 200, рекомендация по бюджету нет, дней ≥ 90% бюджета 1 из 3, макс. расход 194 (97%)
+    search / car accident / es ca / lp -: статус ELIGIBLE, причины: -; бюджет 150, рекомендация по бюджету нет, дней ≥ 90% бюджета 1 из 4, макс. расход 189 (126%)
+
+Это чтение. Что значимо — внести в Журнал_изменений/Решения и в задачи.

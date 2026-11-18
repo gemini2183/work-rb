@@ -1,0 +1,138 @@
+campaign,group,keyword,match,qs,expected_ctr,ad_relevance,landing_page,impr,clicks,cost,conv
+Search | Brand | Pl,profimet [exact],profimet,EXACT,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,27833,14705,8724.855418,1852.215373
+Search | Brand | Pl,profimet [phrase],profimet,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,17425,7436,4587.569583,723.643968
+Search | Brand | Pl,profimet [phrase],profimet pl,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,12208,6206,5279.697266,748.052249
+Search | Brand | Pl,szklarnie profimet,profimet pl szklarnie,PHRASE,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,11550,5680,4010.031535,628.21982
+Search | Brand | Pl,szklarnie poliweglan profimet,szklarnie z poliwęglanu profimet,PHRASE,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,10417,2662,1966.486528,375.588635
+Search | Brand | Pl,szklarnie profimet,szklarnie profimet,PHRASE,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,10022,4463,2892.998505,456.66599
+Search | Brand | Pl,mocnaszklarnia pl,mocna szklarnia pl,PHRASE,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,9152,4208,2941.269129,355.316506
+Search | Brand | Pl,profimet [phrase],profi met,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,5261,2317,1718.292007,278.408459
+Search | Brand | Pl,mocnaszklarnia pl,mocnaszklarnia pl,PHRASE,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,2673,1592,949.289665,205.780261
+Search | Brand | Pl,profimet [phrase],firma profimet,PHRASE,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,1733,708,596.871574,58.780927
+Search | Brand | Pl,szklarnie profimet,profi met szklarnie,PHRASE,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,1454,725,810.462166,81.677384
+Search | Brand | Pl,profimet [exact],profi met,EXACT,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,957,382,513.993703,38.876964
+Search | Brand | Pl,profimet [exact],profimet pl,EXACT,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,855,431,354.546949,49.734801
+Search | Brand | Pl,profimet [exact],profimetpl,EXACT,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,564,228,384.508498,26.303276
+Search | Brand | Pl,szklarnie poliweglan profimet,szklarnie z poliwęglanu 3x6 profimet,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,13,4,3.03,0.0
+Search | Brand | Pl,szklarnie profimet,szklarnie profimet mocna,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Brand | Pl,szklarnie poliweglan profimet,szklarnia ogrodowa z poliwęglanu,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Brand | Pl,szklarnie poliweglan profimet,szklarnie z poliwęglanu profimet mocna,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Brand | Pl,mocnaszklarnia pl,szklarnia z poliwęglanu 3x4,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Brand | Pl,mocnaszklarnia pl,szklarnie z poliwęglanu 3x6,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Brand | Pl,mocnaszklarnia pl,szklarnia z poliwęglanu 3x6 cena,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Brand | Pl,mocnaszklarnia pl,mocna szklarnia ogrodowa,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Brand | Pl,mocnaszklarnia pl,szklarnia 6x3 poliwęglan,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,szklarnie z poliwęglanu [exact],szklarnia z poliwęglanu,EXACT,7,AVERAGE,AVERAGE,ABOVE_AVERAGE,222285,27841,16003.281546,1733.578413
+Search | Poliweglan | Pl,szklarnie z poliwęglanu [phrase],szklarnie z poliweglanu,PHRASE,9,ABOVE_AVERAGE,AVERAGE,ABOVE_AVERAGE,99376,13530,6615.626929,875.602172
+Search | Poliweglan | Pl,szklarnie z poliwęglanu [phrase],szklarnie ogrodowe z poliwęglanu,PHRASE,8,ABOVE_AVERAGE,BELOW_AVERAGE,ABOVE_AVERAGE,78959,11010,8779.819187,468.090821
+Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,PHRASE,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,62663,9734,5371.472364,533.779196
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х6,szklarnie z poliwęglanu 3x6,PHRASE,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,56544,11280,5598.688985,935.475905
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х4,szklarnie z poliwęglanu 3x4,PHRASE,9,ABOVE_AVERAGE,AVERAGE,ABOVE_AVERAGE,43185,7295,3645.528217,471.540155
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х6,szklarnia z poliwęglanu 3x6m,PHRASE,8,ABOVE_AVERAGE,ABOVE_AVERAGE,AVERAGE,37699,6043,4185.197719,297.123833
+Search | Poliweglan | Pl,szklarnie z poliwęglanu [exact],szklarnie poliweglanowe,EXACT,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,35423,4024,1499.55544,251.687921
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х4,tunele z poliwęglanu 3x4,BROAD,8,AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,31270,2231,1141.890972,47.400164
+Search | Poliweglan | Pl,tunele z poliwęglanu,tunele ogrodowe z poliwęglanu,PHRASE,8,ABOVE_AVERAGE,BELOW_AVERAGE,ABOVE_AVERAGE,21113,3376,2352.358695,146.8546
+Search | Poliweglan | Pl,tunele z poliwęglanu,tunele poliwęglanowe,PHRASE,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,19584,2567,1528.061157,141.856996
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х4,szklarnia z poliwęglanu 3x4m,PHRASE,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,19173,3124,2303.047833,115.990567
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х6,tunele z poliwęglanu 3x6,PHRASE,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,17530,2521,2048.270558,128.667101
+Search | Poliweglan | Pl,mala szklarnia z poliweglanu,mala szklarnia z poliweglanu,BROAD,7,ABOVE_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,15011,1149,764.078947,55.398339
+Search | Poliweglan | Pl,szklarnie z poliwęglanu producent,szklarnie z poliwęglanu producent,PHRASE,9,ABOVE_AVERAGE,AVERAGE,ABOVE_AVERAGE,10611,2640,1431.738138,190.939872
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х2,szklarnie z poliwęglanu 3x2,BROAD,8,ABOVE_AVERAGE,ABOVE_AVERAGE,AVERAGE,8652,826,476.5203,89.443425
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х4,tunele z poliwęglanu 3x4,PHRASE,8,AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,7662,1070,862.265713,74.496374
+Search | Poliweglan | Pl,szklarnie z poliwęglanu [phrase],szklarnie ogrodowe poliwęglan,PHRASE,7,AVERAGE,ABOVE_AVERAGE,AVERAGE,7059,869,629.611709,39.228098
+Search | Poliweglan | Pl,szklarnie z poliwęglanu [phrase],szklarnie poliweglanowe,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,6646,819,498.337271,45.926018
+Search | Poliweglan | Pl,wymiary | poliwęglan 4х6,szklarnia z poliwęglanu 4x6m,BROAD,8,ABOVE_AVERAGE,ABOVE_AVERAGE,AVERAGE,6139,600,409.034035,11.572209
+Search | Poliweglan | Pl,wymiary | poliwęglan 2х4,szklarnia z poliwęglanu 2x4m,BROAD,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,6040,595,487.490156,32.229422
+Search | Poliweglan | Pl,namioty z poliwęglanu,namioty z poliwęglanu,PHRASE,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,4857,803,405.375346,29.386949
+Search | Poliweglan | Pl,wymiary | poliwęglan 2х4,szklarnie z poliwęglanu 2x4,PHRASE,8,ABOVE_AVERAGE,ABOVE_AVERAGE,AVERAGE,4395,719,442.52761,56.781853
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х8,tunele z poliwęglanu 3x8,PHRASE,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,4350,747,633.198299,36.882029
+Search | Poliweglan | Pl,wymiary | poliwęglan 4х8,szklarnie z poliwęglanu 4x8,PHRASE,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,3484,843,484.591819,41.426318
+Search | Poliweglan | Pl,wymiary | poliwęglan 4х6,szklarnie z poliwęglanu 4x6,PHRASE,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,3425,776,457.833184,50.439241
+Search | Poliweglan | Pl,szklarnie z poliwęglanu producent,szklarnie poliwęglanowe producent,PHRASE,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,3174,672,419.390843,41.108474
+Search | Poliweglan | Pl,namioty z poliwęglanu,namioty poliwęglanowe,PHRASE,8,ABOVE_AVERAGE,ABOVE_AVERAGE,AVERAGE,2679,337,229.698766,11.060133
+Search | Poliweglan | Pl,wymiary | poliwęglan 2х4,tunele z poliwęglanu 2x4,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,2418,290,251.825888,7.122729
+Search | Poliweglan | Pl,wymiary | poliwęglan 2 5х4,szklarnia z poliwęglanu 2 5x4m,BROAD,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,1871,130,104.137523,8.121033
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х2,szklarnie z poliwęglanu 3x2,PHRASE,8,ABOVE_AVERAGE,ABOVE_AVERAGE,AVERAGE,1835,226,157.377597,9.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х8,szklarnie z poliwęglanu 3x8,PHRASE,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,1787,324,255.359801,34.303481
+Search | Poliweglan | Pl,tunele z poliwęglanu,tunele ogrodnicze z poliwęglanu,PHRASE,8,ABOVE_AVERAGE,BELOW_AVERAGE,ABOVE_AVERAGE,1573,246,150.332107,17.969905
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х6,szklarnie poliwęglanowe 3x6,PHRASE,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,1358,221,195.55137,7.720951
+Search | Poliweglan | Pl,cieplarnie z poliwęglanu,cieplarnie z poliwęglanu,PHRASE,8,ABOVE_AVERAGE,BELOW_AVERAGE,ABOVE_AVERAGE,1241,156,103.217183,10.017925
+Search | Poliweglan | Pl,mala szklarnia z poliweglanu,mala szklarnia z poliweglanu,PHRASE,7,ABOVE_AVERAGE,ABOVE_AVERAGE,BELOW_AVERAGE,1080,125,83.426838,5.480487
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х4,szklarnie poliwęglanowe 3x4,PHRASE,10,ABOVE_AVERAGE,ABOVE_AVERAGE,ABOVE_AVERAGE,1062,175,173.029883,4.034764
+Search | Poliweglan | Pl,wymiary | poliwęglan 2 5х4,szklarnie z poliwęglanu 2 5x4,BROAD,8,ABOVE_AVERAGE,ABOVE_AVERAGE,AVERAGE,1060,93,80.13363,2.333333
+Search | Poliweglan | Pl,wymiary | poliwęglan 2х4,tunele z poliwęglanu 2x4,BROAD,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,822,51,35.996134,1.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 2 5х4,szklarnie z poliwęglanu 2 5x4,PHRASE,8,ABOVE_AVERAGE,ABOVE_AVERAGE,AVERAGE,731,159,96.736093,2.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 4х8,szklarnia z poliwęglanu 4x8m,BROAD,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,641,54,36.374116,9.0
+Search | Poliweglan | Pl,tunele z poliwęglanu,tunele ogrodowe poliwęglanowe,PHRASE,7,ABOVE_AVERAGE,AVERAGE,AVERAGE,517,66,36.760376,3.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 2х4,szklarnia z poliwęglanu 2x4m,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,501,75,48.878571,2.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 4х6,szklarnia z poliwęglanu 4x6m,PHRASE,8,ABOVE_AVERAGE,ABOVE_AVERAGE,AVERAGE,475,65,37.936257,1.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х2,szklarnia z poliwęglanu 3x2m,PHRASE,7,AVERAGE,ABOVE_AVERAGE,AVERAGE,332,38,25.501061,0.996096
+Search | Poliweglan | Pl,wymiary | poliwęglan 2 5х4,szklarnia z poliwęglanu 2 5x4m,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,255,22,16.132908,3.889767
+Search | Poliweglan | Pl,cieplarnie z poliwęglanu,cieplarnie poliwęglanowe,PHRASE,8,ABOVE_AVERAGE,ABOVE_AVERAGE,AVERAGE,209,11,12.087415,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 4х6,tunele z poliwęglanu 4x6,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,147,27,14.236044,1.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х8,szklarnie poliwęglanowe 3x8,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,116,16,13.914251,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х6,szklarnie z poliwęglanu 3x6 producent,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,69,10,15.455167,0.069205
+Search | Poliweglan | Pl,wymiary | poliwęglan 4х8,szklarnia z poliwęglanu 4x8m,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,15,2,1.04,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х6,6x3,BROAD,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х6,szklarnia z poliwęglanu 6 mm,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х6,tunele z poliwęglanu 3x6m,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х6,poliwęglan 3x6,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х4,tunele z poliwęglanu 3x4m,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х8,szklarnie z poliwęglanu 3x8 producent,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х8,tunele z poliwęglanu 3x8m,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х2,szklarnie z poliwęglanu 3x2 producent,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х2,tunele z poliwęglanu 3x2,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 3х2,tunele z poliwęglanu 3x2m,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,cieplarnie z poliwęglanu,szklarnie,BROAD,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,cieplarnie z poliwęglanu,szklarnia,BROAD,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,namioty z poliwęglanu,szklarnie,BROAD,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,namioty z poliwęglanu,szklarnia,BROAD,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,szklarnie z poliwęglanu [phrase],szklarnie z poliwęglanu,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,tunele z poliwęglanu,szklarnie,BROAD,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,tunele z poliwęglanu,szklarnia,BROAD,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 4х6,mocna szklarnia pl,BROAD,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 4х6,mocnaszklarnia,BROAD,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 4х6,szklarnie poliwęglanowe 4x6,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 4х6,szklarnie z poliwęglanu 4x6 producent,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 4х6,tunele z poliwęglanu 4x6m,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 4х6,mocnaszklarniapl,BROAD,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 4х8,szklarnie poliwęglanowe 4x8,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 4х8,szklarnie z poliwęglanu 4x8 producent,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 4х8,tunele z poliwęglanu 4x8,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 4х8,tunele z poliwęglanu 4x8m,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 2х4,szklarnie poliwęglanowe 2x4,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 2х4,szklarnie z poliwęglanu 2x4 producent,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 2х4,tunele z poliwęglanu 2x4m,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 2 5х4,szklarnie z poliwęglanu,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 2 5х4,szklarnie poliwęglanowe 2 5x4,BROAD,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 2 5х4,szklarnie z poliwęglanu 2 5x4 producent,BROAD,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 2 5х4,tunele z poliwęglanu 2 5x4m,BROAD,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 2 5х4,tunele z poliwęglanu 2 5x4,BROAD,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 2 5х4,tunele z poliwęglanu 2 5x4m,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 2 5х4,tunele z poliwęglanu 2 5x4,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 2 5х4,szklarnie z poliwęglanu 2 5x4 producent,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,wymiary | poliwęglan 2 5х4,szklarnie poliwęglanowe 2 5x4,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+Search | Poliweglan | Pl,mala szklarnia z poliweglanu,szklarnie z poliwęglanu,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / montaz,poliwęglan z montażem,szklarnia z poliwęglanu z montażem,PHRASE,6,ABOVE_AVERAGE,BELOW_AVERAGE,AVERAGE,13,0,0.0,0.0
+search / montaz,wymiary z montażem,szklarnia z poliwęglanu 3x6 z montażem,EXACT,6,ABOVE_AVERAGE,BELOW_AVERAGE,AVERAGE,8,5,4.97,1.0
+search / montaz,szklarnia z montażem,szklarnia ogrodowa z montażem,PHRASE,7,ABOVE_AVERAGE,AVERAGE,AVERAGE,7,1,0.59,0.0
+search / montaz,tunel z montażem,tunel z poliwęglanu z montażem,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,6,0,0.0,0.0
+search / montaz,wymiary z montażem,szklarnia z poliwęglanu 3x6m z montażem,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,4,2,1.85,0.0
+search / montaz,wymiary z montażem,szklarnia z poliwęglanu 3x4 z montażem,PHRASE,6,ABOVE_AVERAGE,BELOW_AVERAGE,AVERAGE,3,1,1.0,0.0
+search / montaz,szklarnia z montażem,szklarnia z montażem,EXACT,8,ABOVE_AVERAGE,ABOVE_AVERAGE,AVERAGE,2,1,0.99,0.0
+search / montaz,szklarnia z montażem,szklarnia z montazem,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,2,1,0.99,0.0
+search / montaz,wymiary z montażem,szklarnia z poliwęglanu 3x4 z montażem,EXACT,6,ABOVE_AVERAGE,BELOW_AVERAGE,AVERAGE,2,0,0.0,0.0
+search / montaz,poliwęglan z montażem,szklarnie z poliwęglanu z montażem,PHRASE,8,ABOVE_AVERAGE,BELOW_AVERAGE,ABOVE_AVERAGE,2,1,0.99,0.0
+search / montaz,poliwęglan z montażem,szklarnie z poliwęglanu z montażem,EXACT,8,ABOVE_AVERAGE,BELOW_AVERAGE,ABOVE_AVERAGE,2,0,0.0,0.0
+search / montaz,szklarnia z montażem,szklarnie ogrodowe z montażem,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,1,0,0.0,0.0
+search / montaz,szklarnia z montażem,szklarnie z montażem,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,1,0,0.0,0.0
+search / montaz,szklarnia z montażem,szklarnia z montażem,PHRASE,8,ABOVE_AVERAGE,ABOVE_AVERAGE,AVERAGE,0,0,0.0,0.0
+search / montaz,szklarnia z montażem,szklarnie z montażem,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / montaz,szklarnia z montażem,szklarnie ogrodowe z montazem,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / montaz,szklarnia z montażem,szklarnia z montazem,EXACT,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / montaz,wymiary z montażem,szklarnia z poliwęglanu 3x6 z montażem,PHRASE,6,ABOVE_AVERAGE,BELOW_AVERAGE,AVERAGE,0,0,0.0,0.0
+search / montaz,poliwęglan z montażem,szklarnia z poliwęglanu z montażem,EXACT,6,ABOVE_AVERAGE,BELOW_AVERAGE,AVERAGE,0,0,0.0,0.0
+search / montaz,poliwęglan z montażem,szklarnia poliwęglan z montażem,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / montaz,poliwęglan z montażem,szklarnia poliwęglanowa z montażem,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / montaz,poliwęglan z montażem,szklarnie poliwęglanowe z montażem,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0
+search / montaz,tunel z montażem,tunel z poliwęglanu z montażem,PHRASE,0,UNSPECIFIED,UNSPECIFIED,UNSPECIFIED,0,0,0.0,0.0

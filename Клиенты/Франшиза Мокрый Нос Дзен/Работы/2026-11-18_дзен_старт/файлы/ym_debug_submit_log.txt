@@ -1,0 +1,92 @@
+10:22:04.099Z NAV https://franchise.mokryinos.ru/dzen?utm_source=yandex.promopages&utm_medium=article&utm_campaign=test&utm_content=history&utm_term=TEST2&_ym_debug=2
+10:22:04.102Z REQ GET https://static.tildacdn.com/ws/project2774885/tilda-blocks-page38194687.min.css?t=1794496866
+10:22:04.103Z REQ GET https://static.tildacdn.com/ws/project2774885/tilda-blocks-page38194687.min.js?t=1794496866
+10:22:04.169Z CONSOLE error Access to script at 'https://eureca-ai.web.app/widget.js?t=1763018545256' from origin 'https://franchise.mokryinos.ru' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+10:22:04.170Z CONSOLE error Failed to load resource: net::ERR_FAILED
+10:22:04.182Z REQ GET https://static.tildacdn.com/tild6138-3738-4364-b233-326435363338/bb4a92d8.svg
+10:22:04.182Z REQ GET https://static.tildacdn.com/tild3839-3866-4632-b839-333934663233/287acf0d.svg
+10:22:04.182Z REQ GET https://static.tildacdn.com/tild3265-3435-4334-b739-633236363565/c88e0e7f.svg
+10:22:04.182Z REQ GET https://static.tildacdn.com/tild3761-3336-4838-b262-616331326234/dd2edf80.svg
+10:22:04.182Z REQ GET https://static.tildacdn.com/tild3435-3335-4563-b961-356338353530/a3abd9be.svg
+10:22:04.182Z REQ GET https://thb.tildacdn.com/tild3333-6335-4364-b136-376363323563/-/resize/20x/bc974c1d.webp
+10:22:04.182Z REQ GET https://thb.tildacdn.com/tild3136-3064-4430-a365-623639626364/-/resize/20x/353179c1.webp
+10:22:04.182Z REQ GET https://thb.tildacdn.com/tild6636-3339-4864-a138-313961643261/-/resize/20x/0af4a174.webp
+10:22:04.194Z REQ GET https://static.tildacdn.com/tild6436-6535-4765-a163-323737626263/1e5ce9c9.svg
+10:22:04.194Z REQ GET https://thb.tildacdn.com/tild3832-3863-4431-b562-313037663734/-/resize/20x/c3a4a055.webp
+10:22:04.194Z REQ GET https://static.tildacdn.com/tild3839-3230-4037-a430-333264303466/287acf0d.svg
+10:22:04.194Z REQ GET https://static.tildacdn.com/tild3666-3866-4633-a165-306561663462/c88e0e7f.svg
+10:22:04.195Z REQ GET https://static.tildacdn.com/tild6435-6665-4237-a666-616363333836/dd2edf80.svg
+10:22:04.195Z REQ GET https://static.tildacdn.com/tild6333-3561-4434-b762-616563306335/a3abd9be.svg
+10:22:04.195Z REQ GET https://thb.tildacdn.com/tild3230-3161-4131-b332-303432613532/-/resize/20x/3943b166.webp
+10:22:04.195Z REQ GET https://thb.tildacdn.com/tild3131-3030-4261-a130-383333373664/-/resize/20x/bfc0134d.webp
+10:22:04.195Z REQ GET https://thb.tildacdn.com/tild3834-6431-4630-b135-316232623762/-/resize/20x/89a22b3c.webp
+10:22:04.195Z REQ GET https://static.tildacdn.com/tild6131-3635-4264-b332-363832386135/1e5ce9c9.svg
+10:22:04.196Z REQ GET https://thb.tildacdn.com/tild6439-3636-4434-b337-316663653033/-/resize/20x/b21cce42.webp
+10:22:04.196Z REQ GET https://static.tildacdn.com/tild6563-6130-4363-b639-313437353139/287acf0d.svg
+10:22:04.196Z REQ GET https://static.tildacdn.com/tild3135-3066-4837-a431-323139363866/c88e0e7f.svg
+10:22:04.196Z REQ GET https://static.tildacdn.com/tild3932-6635-4430-a365-343265366334/dd2edf80.svg
+10:22:04.196Z REQ GET https://static.tildacdn.com/tild3666-3739-4132-a435-336463616162/a3abd9be.svg
+10:22:04.196Z REQ GET https://thb.tildacdn.com/tild3461-3433-4962-a565-343465366666/-/resize/20x/8af51b09.webp
+10:22:04.196Z REQ GET https://thb.tildacdn.com/tild6230-6532-4965-a139-656366386264/-/resize/20x/68365698.webp
+10:22:04.222Z REQ GET https://static.tildacdn.com/tild6533-3235-4537-b031-313431306435/1e5ce9c9.svg
+10:22:04.222Z REQ GET https://thb.tildacdn.com/tild3561-3462-4230-b062-653932306465/-/resize/20x/8450aff5.webp
+10:22:04.229Z REQ GET https://static.tildacdn.com/tild3233-3966-4663-b964-643335626436/6cbe23ac.svg
+10:22:04.229Z REQ GET https://static.tildacdn.com/tild6135-3936-4233-a265-626565656664/12a5d467.svg
+10:22:04.229Z REQ GET https://static.tildacdn.com/tild3538-3932-4131-b631-643232393862/e464c2ce.svg
+10:22:04.230Z REQ GET https://static.tildacdn.com/tild6562-3031-4539-a131-316631663565/bb4a92d8.svg
+10:22:04.230Z REQ GET https://static.tildacdn.com/tild3165-6534-4463-b065-353861336533/714fb668.svg
+10:22:04.230Z REQ GET https://static.tildacdn.com/tild3235-3263-4365-a662-333262393333/1d5c5967.svg
+10:22:04.534Z REQ GET https://static.tildacdn.com/tild3236-3838-4263-a365-333063626463/TTNorms-Bold.woff
+10:22:04.534Z REQ GET https://static.tildacdn.com/tild6464-6133-4731-b132-633161386163/TTNorms-Regular.woff
+10:22:04.534Z REQ GET https://static.tildacdn.com/tild3136-3962-4330-a664-386363383965/TTNorms-Medium.woff
+10:22:04.799Z REQ GET https://optim.tildacdn.com/tild3935-3533-4564-a466-336630383739/-/resize/240x/-/format/webp/_1_________.png.webp
+10:22:04.799Z REQ GET https://optim.tildacdn.com/tild6431-3933-4565-b564-323432383539/-/cover/600x642/center/center/-/format/webp/IMG_7523_2_1_1.jpg.webp
+10:22:05.090Z REQ POST https://www.google-analytics.com/j/collect?v=1&_v=j102&a=992784017&t=pageview&_s=1&dl=https%3A%2F%2Ffranchise.mokryinos.ru%2Fdzen%3Futm_source%3Dyandex.promopages%26utm_medium%3Darticle%26utm_campaign%3Dtest%26utm_content%3Dhistory%26utm_term%3DTEST2%26_ym_debug%3D2&ul=ru&dt=%D0%9F%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D0%B5%20%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%
+10:22:05.372Z REQ POST https://region1.analytics.google.com/g/collect?v=2&tid=G-2NN6RCVN7C&gtm=45je6bg2v9133691659za20gxf1&_p=1794997324484&_gaz=1&gcd=13l3l3l2l3l1&npa=1&dma_cps=a&dma=1&_eu=EBAIACAC&are=1&cid=1605834067.1794997325&frm=0&ibt=1&ir=1&ngs=1&pscdl=noapi&rcb=1&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uam=&uamb=0&uap=Windows&uapv=19.0
+10:22:06.444Z REQ GET https://mc.yandex.com/metrika/advert.gif?t=gdpr(14)ti(4)
+10:22:06.446Z REQ GET https://mc.yandex.com/watch/66145201?wmode=7&page-url=https%3A%2F%2Fwidster.ru%2Fwidget%2F35ad49dcb95e8484c4b760368000486b132beb69354ca747ad631acc591be55a%2F%3Fkit%3Dfull%26_v%3D1793042756&page-ref=https%3A%2F%2Ffranchise.mokryinos.ru%2F&nohit=1&charset=utf-8&uah=chu%0A%22Not%3AA-Brand%22%3Bv%3D%2299%22%2C%22HeadlessChrome%22%3Bv%3D%22145%22%2C%22Chromium%22%3Bv%3D%22145%22%0Acha%0Ax86%0Achb%0A64%
+10:22:06.555Z REQ GET https://mc.yandex.com/sync_cookie_image_check?scid=7b92e4cd-704b-789e-4b26-9d1b4a79a78a&cid=66145201
+10:22:06.556Z REQ GET https://mc.yandex.com/metrika/advert.gif?t=gdpr(14)ti(4)
+10:22:06.586Z REQ GET https://mc.yandex.com/watch/66145201/1?wmode=7&page-url=https%3A%2F%2Fwidster.ru%2Fwidget%2F35ad49dcb95e8484c4b760368000486b132beb69354ca747ad631acc591be55a%2F%3Fkit%3Dfull%26_v%3D1793042756&page-ref=https%3A%2F%2Ffranchise.mokryinos.ru%2F&nohit=1&charset=utf-8&uah=chu%0A%22Not%3AA-Brand%22%3Bv%3D%2299%22%2C%22HeadlessChrome%22%3Bv%3D%22145%22%2C%22Chromium%22%3Bv%3D%22145%22%0Acha%0Ax86%0Achb%0A6
+10:22:06.635Z REQ GET https://mc.yandex.ru/sync_cookie_image_start?cid=66145201&redirect_domain=mc.yandex.com&scid=7b92e4cd-704b-789e-4b26-9d1b4a79a78a&token=11207.p-9hD287vXYoVv2dKmg61LAh6ASpXqRA6pRJ8bhWjPv-AaLwr2qNmAzmC2lkG-i5.rrjJ6NwhigMPeeVQ7CYgsfjJxiU%2C
+10:22:06.675Z REQ POST https://mc.yandex.com/watch/66145201/1?page-url=goal%3A%2F%2Fwidster.ru%2Fwidster_videowindow_display&page-ref=https%3A%2F%2Fwidster.ru%2Fwidget%2F35ad49dcb95e8484c4b760368000486b132beb69354ca747ad631acc591be55a%2F%3Fkit%3Dfull%26_v%3D1793042756&charset=utf-8&uah=chu%0A%22Not%3AA-Brand%22%3Bv%3D%2299%22%2C%22HeadlessChrome%22%3Bv%3D%22145%22%2C%22Chromium%22%3Bv%3D%22145%22%0Acha%0Ax86%0Achb%0A64%
+10:22:06.725Z REQ GET https://mc.yandex.com/sync_cookie_image_decide?cid=66145201&scid=7b92e4cd-704b-789e-4b26-9d1b4a79a78a&token=11207.X1uGrpOvhCUvuzAwhU6f4pp9fzWMfkzALSx31c_o84NE5e74hlBuR1lT9nHcK4GT1o_vTtncC3MsIP30GiDYnqUfkAgzg40cMOXmd8ByybA%2C.BVuQz54fFv3r7EvGsrFhNpYkaFM%2C
+10:22:06.804Z REQ GET https://mc.yandex.ru/sync_cookie_image_finish?cid=66145201&redirect_domain=mc.yandex.com&scid=7b92e4cd-704b-789e-4b26-9d1b4a79a78a&token=11207.8e1vYqXVQkI9X22-YBjLSNkeOxbLKNmZTgv38qR1_YQdfDZaBjL8p9OVfQfQfYEyFzA0j5SdQsDftjIlT6AOTNG68HktwVzDfk0WvC7HcJK8OSsnqtqWQExtqEdR538varveTf8C98pDHgsTENbkYBgJeaZHFq-_v3vtVzh8ILOJEetiYT7S1-R1JMsWdnBoSngE6HWR3m4Olx7Lyh97eQ%2C%2C.Vqrte6OLQ6j3ygrwquKMfO5Mmxo%2C
+10:22:06.911Z REQ GET https://mc.yandex.com/watch/66145201?wmode=7&page-url=https%3A%2F%2Ffranchise.mokryinos.ru%2Fdzen%3Futm_source%3Dyandex.promopages%26utm_medium%3Darticle%26utm_campaign%3Dtest%26utm_content%3Dhistory%26utm_term%3DTEST2%26_ym_debug%3D2&charset=utf-8&site-info=%7B%22__ym%22%3A%7B%22ymCms%22%3A%7B%22cms%22%3A%22tilda%22%2C%22cmsVersion%22%3A%221.0%22%7D%7D%7D&uah=chu%0A%22Not%3AA-Brand%22%3Bv%3D%2299
+10:22:06.996Z REQ GET https://mc.yandex.com/metrika/tag_debug.js?ver=2710&b=e
+10:22:07.134Z REQ POST https://stat.tildaapi.com/event/
+10:22:07.216Z CONSOLE log PageView. Counter 66145201. URL: https://franchise.mokryinos.ru/dzen?utm_source=yandex.promopages&utm_medium=article&utm_campaign=test&utm_content=history&utm_term=TEST2&_ym_debug=2. Referrer: . Params:  {__ym: Object}
+10:22:07.216Z CONSOLE log Form goal. Counter 66145201. Init.
+10:22:07.231Z LOADED
+10:22:12.260Z FORM_COUNT 1
+10:22:12.315Z REQ GET https://optim.tildacdn.com/tild3965-6235-4361-b733-386335323036/-/resize/510x/-/format/webp/____.png.webp
+10:22:12.315Z REQ GET https://optim.tildacdn.com/tild6232-3137-4063-b931-633363356432/-/resize/734x/-/format/webp/Arrow_6.png.webp
+10:22:12.315Z REQ GET https://optim.tildacdn.com/tild3461-3034-4630-b936-623331343930/-/resize/298x/-/format/webp/Arrow_10.png.webp
+10:22:12.316Z REQ GET https://optim.tildacdn.com/tild3966-3938-4731-b363-316333646337/-/resize/130x/-/format/webp/Arrow_1.png.webp
+10:22:12.316Z REQ GET https://optim.tildacdn.com/tild3361-3163-4166-a563-343533316261/-/resize/134x/-/format/webp/Arrow_2.png.webp
+10:22:12.316Z REQ GET https://optim.tildacdn.com/tild3162-3237-4134-b061-616562653836/-/resize/655x/-/format/webp/Arrow_3.png.webp
+10:22:12.316Z REQ GET https://optim.tildacdn.com/tild3635-6238-4535-b865-336134356564/-/resize/126x/-/format/webp/Arrow_9.png.webp
+10:22:12.331Z REQ GET https://mc.yandex.com/clmap/66145201?page-url=https%3A%2F%2Ffranchise.mokryinos.ru%2Fdzen%3Futm_source%3Dyandex.promopages%26utm_medium%3Darticle%26utm_campaign%3Dtest%26utm_content%3Dhistory%26utm_term%3DTEST2%26_ym_debug%3D2&pointer-click=rn%3A88373031%3Ax%3A36044%3Ay%3A32767%3At%3A57%3Ap%3AAsAA1A2A1FA1AA1AA17A%3AX%3A71%3AY%3A4688&hidv2=6849856145969905882&browser-info=u%3A1794997327370989663%3A
+10:22:12.847Z BEFORE_SUBMIT
+10:22:12.894Z REQ GET https://mc.yandex.com/clmap/66145201?page-url=https%3A%2F%2Ffranchise.mokryinos.ru%2Fdzen%3Futm_source%3Dyandex.promopages%26utm_medium%3Darticle%26utm_campaign%3Dtest%26utm_content%3Dhistory%26utm_term%3DTEST2%26_ym_debug%3D2&pointer-click=rn%3A127763156%3Ax%3A32275%3Ay%3A32195%3At%3A63%3Ap%3AW%3FA7A1FA1AA1AA17A%3AX%3A161%3AY%3A5131&hidv2=6849856145969905882&browser-info=u%3A1794997327370989663%3
+10:22:12.894Z REQ POST https://forms.tildaapi.com/procces/
+10:22:12.896Z CLICKED
+10:22:13.185Z REQ POST https://mc.yandex.com/watch/66145201/1?page-url=form%3A%2F%2Ffranchise.mokryinos.ru%2F%3Fi%3Dform617168339%26n%3Dform617168339%26p%3DFA1AA1AA17A&page-ref=https%3A%2F%2Ffranchise.mokryinos.ru%2Fdzen%3Futm_source%3Dyandex.promopages%26utm_medium%3Darticle%26utm_campaign%3Dtest%26utm_content%3Dhistory%26utm_term%3DTEST2%26_ym_debug%3D2&charset=utf-8&uah=chu%0A%22Not%3AA-Brand%22%3Bv%3D%2299%22%2C%22H
+10:22:13.185Z CONSOLE log Form goal. Counter 66145201. Form: ?i=form617168339&n=form617168339&p=FA1AA1AA17A.
+10:22:13.340Z REQ POST https://stat.tildaapi.com/event/
+10:22:13.340Z REQ POST https://region1.analytics.google.com/measurement/conversion?random=1794997333315&cv=11&tid=G-2NN6RCVN7C&fst=1794997333315&fmt=8&en=%D0%BE%D0%B1%D1%89%D0%B0%D1%8F_jivo___%D1%84%D0%BE%D1%80%D0%BC%D0%B0&gtm=45je6bg2v9133691659za20gxecxf1&gcd=13l3l3l2l3l1&dma_cps=a&dma=1&tag_exp=115616986~115938465~115938469~118897920~118897930~119793972~120213116~120385422~120412526~120420416~120469145~120469153~1211
+10:22:13.340Z REQ POST https://region1.analytics.google.com/g/collect?v=2&tid=G-2NN6RCVN7C&gtm=45je6bg2v9133691659za20gxf1&_p=1794997324484&gcd=13l3l3l2l3l1&npa=1&dma_cps=a&dma=1&_eu=EhAIACQC&are=1&cid=1605834067.1794997325&frm=0&ibt=1&ir=1&ngs=1&pscdl=noapi&rcb=1&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=
+10:22:13.341Z REQ POST https://region1.analytics.google.com/g/collect?v=2&tid=G-2NN6RCVN7C&gtm=45je6bg2v9133691659za20gxf1&_p=1794997324484&gcd=13l3l3l2l3l1&npa=1&dma_cps=a&dma=1&_eu=ABgIACQC&_prs=ok&are=1&cid=1605834067.1794997325&frm=0&ibt=1&ir=1&ngs=1&pscdl=noapi&rcb=1&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uam=&uamb=0&uap=Windows&uapv=19.
+10:22:13.341Z REQ POST https://region1.analytics.google.com/measurement/conversion?random=1794997333329&cv=11&tid=G-2NN6RCVN7C&fst=1794997333329&fmt=8&en=%D0%BE%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B0_%D1%84%D0%BE%D1%80%D0%BC%D1%8B&gtm=45je6bg2v9133691659za20gxecxf1&gcd=13l3l3l2l3l1&dma_cps=a&dma=1&tag_exp=115616986~115938465~115938469~118897920~118897930~119793972~120213116~120385422~120412526~120420416~120469145~120
+10:22:13.341Z REQ POST https://region1.analytics.google.com/g/collect?v=2&tid=G-2NN6RCVN7C&gtm=45je6bg2v9133691659za20gxf1&_p=1794997324484&gcd=13l3l3l2l3l1&npa=1&dma_cps=a&dma=1&_eu=ABgIACQC&_prs=ok&are=1&cid=1605834067.1794997325&frm=0&ibt=1&ir=1&ngs=1&pscdl=noapi&rcb=1&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uam=&uamb=0&uap=Windows&uapv=19.
+10:22:13.341Z REQ GET https://mc.yandex.com/sync_cookie_image_check?scid=4fa77665-5d1d-bb14-e037-3a3d213b31a7&cid=66145201
+10:22:13.341Z REQ GET https://top-fwz1.mail.ru/counter?_=0.6538632377731349;id=3796257;u=https%3A%2F%2Ffranchise.mokryinos.ru%2Ftilda%2Fform617168339%2Fsubmitted%2F;u2=d:h:;title=%D0%9F%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D0%B5%20%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%BF%D0%BB%D0%B0%D0%BD%20%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D1%8F%20%D0%B7%D0%BE%D0%BE%D0%BC%D0%B0%D
+10:22:13.419Z REQ GET https://mc.yandex.com/watch/66145201?wmode=7&page-url=https%3A%2F%2Ffranchise.mokryinos.ru%2Ftilda%2Fform617168339%2Fsubmitted%2F&charset=utf-8&uah=chu%0A%22Not%3AA-Brand%22%3Bv%3D%2299%22%2C%22HeadlessChrome%22%3Bv%3D%22145%22%2C%22Chromium%22%3Bv%3D%22145%22%0Acha%0Ax86%0Achb%0A64%0Achf%0A145.0.7632.6%0Achl%0A%22Not%3AA-Brand%22%3Bv%3D%2299.0.0.0%22%2C%22HeadlessChrome%22%3Bv%3D%22145.0.7632.6%2
+10:22:13.500Z REQ POST https://mc.yandex.com/watch/66145201?page-url=goal%3A%2F%2Ffranchise.mokryinos.ru%2Flead&page-ref=https%3A%2F%2Ffranchise.mokryinos.ru%2Ftilda%2Fform617168339%2Fsubmitted%2F&charset=utf-8&uah=chu%0A%22Not%3AA-Brand%22%3Bv%3D%2299%22%2C%22HeadlessChrome%22%3Bv%3D%22145%22%2C%22Chromium%22%3Bv%3D%22145%22%0Acha%0Ax86%0Achb%0A64%0Achf%0A145.0.7632.6%0Achl%0A%22Not%3AA-Brand%22%3Bv%3D%2299.0.0.0%22%2C
+10:22:13.500Z CONSOLE log PageView. Counter 66145201. URL: /tilda/form617168339/submitted/. Referrer: 
+10:22:13.500Z CONSOLE log Reach goal. Counter: 66145201. Goal id: lead
+10:22:18.341Z REQ GET https://franchise.mokryinos.ru/thank
+10:22:18.586Z NAV https://franchise.mokryinos.ru/thank
+10:22:18.586Z CONSOLE error Failed to load resource: the server responded with a status of 404 ()
+10:22:24.899Z FINAL_URL https://franchise.mokryinos.ru/thank
+10:22:24.971Z DONE

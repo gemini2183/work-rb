@@ -1,0 +1,166 @@
+﻿day,camp_id,camp,seg,segname,action,conv,allconv
+2026-09-21,19158580966,Search | Poliweglan | Pl,agroszklarnia,agroszklarnia,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-09-15,23439487425,search / szklarnia/tunel (excl. poliweglan),mocna szklarnia,mocna szklarnia,addToCart_gtm,0.0,1.0
+2026-09-15,23439487425,search / szklarnia/tunel (excl. poliweglan),mocna szklarnia,mocna szklarnia,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-09-05,19153311519,Search | Brand | Pl,mocna szklarnia pl,mocna szklarnia pl,addToCart_gtm,0.0,0.510076
+2026-09-05,19153311519,Search | Brand | Pl,mocna szklarnia pl,mocna szklarnia pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-09-05,19153311519,Search | Brand | Pl,mocna szklarnia pl,mocna szklarnia pl,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-09-16,19153311519,Search | Brand | Pl,mocna szklarnia pl,mocna szklarnia pl,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-16,19153311519,Search | Brand | Pl,mocna szklarnia pl,mocna szklarnia pl,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-09-26,19153311519,Search | Brand | Pl,mocna szklarnia pl,mocna szklarnia pl,addToCart_gtm,0.0,1.0
+2026-09-26,19153311519,Search | Brand | Pl,mocna szklarnia pl,mocna szklarnia pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-09-10,19158580966,Search | Poliweglan | Pl,namiot z poliwęglanu 3x6,namiot z poliwęglanu 3x6,addToCart_gtm,0.0,1.0
+2026-09-28,19158580966,Search | Poliweglan | Pl,namioty z poliwęglanu,namioty z poliwęglanu,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-28,19158580966,Search | Poliweglan | Pl,namioty z poliwęglanu,namioty z poliwęglanu,Клик по номеру,0.0,1.0
+2026-09-04,19158580966,Search | Poliweglan | Pl,poliwęglanowy tunel,poliwęglanowy tunel,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-15,19153311519,Search | Brand | Pl,profi met,profi met,addToCart_gtm,0.0,0.4
+2026-09-15,19153311519,Search | Brand | Pl,profi met,profi met,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.102768
+2026-09-22,19153311519,Search | Brand | Pl,profi met,profi met,addToCart_gtm,0.0,0.2
+2026-09-22,19153311519,Search | Brand | Pl,profi met,profi met,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.10277
+2026-09-23,19158580966,Search | Poliweglan | Pl,profi met,profi met,form_submit_gtm,1.0,1.0
+2026-09-23,19158580966,Search | Poliweglan | Pl,profi met,profi met,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-09-23,19158580966,Search | Poliweglan | Pl,profi met,profi met,Клик по номеру,0.0,1.0
+2026-09-08,19153311519,Search | Brand | Pl,profi met szklarnie,profi met szklarnie,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-08,19153311519,Search | Brand | Pl,profi met szklarnie,profi met szklarnie,addToCart_gtm,0.0,1.0
+2026-09-08,19153311519,Search | Brand | Pl,profi met szklarnie,profi met szklarnie,form_submit_gtm,1.0,1.0
+2026-09-08,19153311519,Search | Brand | Pl,profi met szklarnie,profi met szklarnie,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-09-08,19153311519,Search | Brand | Pl,profi met szklarnie,profi met szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-09-08,19153311519,Search | Brand | Pl,profi met szklarnie,profi met szklarnie,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-09-23,19153311519,Search | Brand | Pl,profi met szklarnie,profi met szklarnie,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-30,19158580966,Search | Poliweglan | Pl,profi met szklarnie,profi met szklarnie,form_submit_gtm,1.0,1.0
+2026-09-30,19158580966,Search | Poliweglan | Pl,profi met szklarnie,profi met szklarnie,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-09-02,19158580966,Search | Poliweglan | Pl,profimet,profimet,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-07,19153311519,Search | Brand | Pl,profimet,profimet,addToCart_gtm,0.0,2.0
+2026-09-07,19153311519,Search | Brand | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-09-07,19158580966,Search | Poliweglan | Pl,profimet,profimet,form_submit_gtm,1.0,1.0
+2026-09-12,19158580966,Search | Poliweglan | Pl,profimet,profimet,form_submit_gtm,1.0,1.0
+2026-09-12,19158580966,Search | Poliweglan | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-09-18,19158580966,Search | Poliweglan | Pl,profimet,profimet,addToCart_gtm,0.0,1.0
+2026-09-18,19158580966,Search | Poliweglan | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-09-21,19153311519,Search | Brand | Pl,profimet,profimet,addToCart_gtm,0.0,1.0
+2026-09-21,19153311519,Search | Brand | Pl,profimet,profimet,form_submit_gtm,1.0,1.0
+2026-09-21,19153311519,Search | Brand | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-09-21,19153311519,Search | Brand | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.649068
+2026-09-22,19153311519,Search | Brand | Pl,profimet,profimet,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-22,19153311519,Search | Brand | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-09-22,19153311519,Search | Brand | Pl,profimet,profimet,Клик по номеру,0.0,2.0
+2026-09-26,19153311519,Search | Brand | Pl,profimet,profimet,Клик по номеру,0.0,1.0
+2026-09-29,19158580966,Search | Poliweglan | Pl,profimet,profimet,addToCart_gtm,0.0,1.0
+2026-09-29,19158580966,Search | Poliweglan | Pl,profimet,profimet,form_submit_gtm,1.0,1.0
+2026-09-29,19158580966,Search | Poliweglan | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-09-29,19158580966,Search | Poliweglan | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-09-18,19153311519,Search | Brand | Pl,profimet pl,profimet pl,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-18,19153311519,Search | Brand | Pl,profimet pl,profimet pl,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-09-02,19158580966,Search | Poliweglan | Pl,profimet szklarnie,profimet szklarnie,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-04,19158580966,Search | Poliweglan | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-09-07,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-09-07,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,addToCart_gtm,0.0,0.25
+2026-09-07,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.25,0.25
+2026-09-07,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.333334
+2026-09-08,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-08,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.25,0.25
+2026-09-08,19158580966,Search | Poliweglan | Pl,profimet szklarnie,profimet szklarnie,form_submit_gtm,1.0,1.0
+2026-09-08,19158580966,Search | Poliweglan | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-09-10,19158580966,Search | Poliweglan | Pl,profimet szklarnie,profimet szklarnie,addToCart_gtm,0.0,1.0
+2026-09-10,19158580966,Search | Poliweglan | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-09-14,19158580966,Search | Poliweglan | Pl,profimet szklarnie,profimet szklarnie,form_submit_gtm,1.0,1.0
+2026-09-14,19158580966,Search | Poliweglan | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-09-16,19158580966,Search | Poliweglan | Pl,profimet szklarnie,profimet szklarnie,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-16,19158580966,Search | Poliweglan | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-09-21,19158580966,Search | Poliweglan | Pl,profimet szklarnie,profimet szklarnie,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-21,19158580966,Search | Poliweglan | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-09-22,19158580966,Search | Poliweglan | Pl,profimet szklarnie,profimet szklarnie,form_submit_gtm,0.5,0.5
+2026-09-23,19158580966,Search | Poliweglan | Pl,profimet szklarnie,profimet szklarnie,Клик по номеру,0.0,1.0
+2026-09-28,19158580966,Search | Poliweglan | Pl,profimet szklarnie,profimet szklarnie,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-28,19158580966,Search | Poliweglan | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-09-29,19158580966,Search | Poliweglan | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-09-29,19158580966,Search | Poliweglan | Pl,profimet szklarnie,profimet szklarnie,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-29,19158580966,Search | Poliweglan | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-09-29,19158580966,Search | Poliweglan | Pl,profimet szklarnie,profimet szklarnie,Клик по номеру,0.0,1.0
+2026-09-30,19158580966,Search | Poliweglan | Pl,profimet szklarnie,profimet szklarnie,form_submit_gtm,0.917458,0.917458
+2026-09-30,19158580966,Search | Poliweglan | Pl,profimet szklarnie kontakt,profimet szklarnie kontakt,Клик по номеру,0.0,1.0
+2026-09-10,19158580966,Search | Poliweglan | Pl,profimet szklarnie z poliwęglanu,profimet szklarnie z poliwęglanu,form_submit_gtm,1.0,1.0
+2026-09-23,19158580966,Search | Poliweglan | Pl,profimet szklarnie z poliwęglanu,profimet szklarnie z poliwęglanu,Клик по номеру,0.0,1.0
+2026-09-11,19153311519,Search | Brand | Pl,profimet warszawa,profimet warszawa,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-11,19153311519,Search | Brand | Pl,profimet warszawa,profimet warszawa,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-09-22,19153311519,Search | Brand | Pl,profimetpl,profimetpl,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-23,19153311519,Search | Brand | Pl,profimetpl,profimetpl,Клик по номеру,0.0,2.0
+2026-09-23,19153311519,Search | Brand | Pl,sp z o o profimet,sp z o o profimet,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-23,19153311519,Search | Brand | Pl,sp z o o profimet,sp z o o profimet,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-09-14,23439487425,search / szklarnia/tunel (excl. poliweglan),szklarnia 2.5 x5,szklarnia 2.5 x5,addToCart_gtm,0.0,1.0
+2026-09-05,19153311519,Search | Brand | Pl,szklarnia profimet,szklarnia profimet,addToCart_gtm,0.0,0.489924
+2026-09-07,19153311519,Search | Brand | Pl,szklarnia profimet,szklarnia profimet,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-08,19158580966,Search | Poliweglan | Pl,szklarnia profimet,szklarnia profimet,addToCart_gtm,0.0,1.0
+2026-09-07,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-07,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-09-09,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,form_submit_gtm,0.5,0.5
+2026-09-10,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,form_submit_gtm,0.5,0.5
+2026-09-21,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-09-29,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,addToCart_gtm,0.0,1.0
+2026-09-30,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,addToCart_gtm,0.0,1.0
+2026-09-30,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-09-30,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-09-08,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3 x 8,szklarnia z poliwęglanu 3 x 8,form_submit_gtm,1.0,1.0
+2026-09-08,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3 x 8,szklarnia z poliwęglanu 3 x 8,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-09-07,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4,szklarnia z poliwęglanu 3x4,addToCart_gtm,0.0,1.0
+2026-09-21,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4 6mm,szklarnia z poliwęglanu 3x4 6mm,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-21,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4 6mm,szklarnia z poliwęglanu 3x4 6mm,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-09-24,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4 producent,szklarnia z poliwęglanu 3x4 producent,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-24,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4 producent,szklarnia z poliwęglanu 3x4 producent,Клик по номеру,0.0,1.0
+2026-09-10,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,addToCart_gtm,0.0,0.333333
+2026-09-10,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,form_submit_gtm,0.333333,0.333333
+2026-09-10,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2026-09-10,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.5
+2026-09-15,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 4x6,szklarnia z poliwęglanu 4x6,addToCart_gtm,0.0,1.0
+2026-09-15,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 4x6,szklarnia z poliwęglanu 4x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-09-11,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu profimet,szklarnia z poliwęglanu profimet,addToCart_gtm,0.0,1.0
+2026-09-11,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu profimet,szklarnia z poliwęglanu profimet,form_submit_gtm,1.0,1.0
+2026-09-21,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu profimet,szklarnia z poliwęglanu profimet,form_submit_gtm,1.0,1.0
+2026-09-21,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu profimet,szklarnia z poliwęglanu profimet,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-09-21,19158580966,Search | Poliweglan | Pl,szklarnie,szklarnie,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-30,19158580966,Search | Poliweglan | Pl,szklarnie ogrodowe,szklarnie ogrodowe,Клик по номеру,0.0,1.0
+2026-09-21,19158580966,Search | Poliweglan | Pl,szklarnie profimet,szklarnie profimet,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-09-21,19158580966,Search | Poliweglan | Pl,szklarnie profimet,szklarnie profimet,Звонки по объявлениям,0.5,0.5
+2026-09-22,19153311519,Search | Brand | Pl,szklarnie profimet,szklarnie profimet,addToCart_gtm,0.0,0.666667
+2026-09-22,19153311519,Search | Brand | Pl,szklarnie profimet,szklarnie profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2026-09-24,19153311519,Search | Brand | Pl,szklarnie profimet,szklarnie profimet,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-09-24,19153311519,Search | Brand | Pl,szklarnie profimet,szklarnie profimet,Клик по номеру,0.0,1.0
+2026-09-17,19158580966,Search | Poliweglan | Pl,szklarnie z poliweglanu,szklarnie z poliweglanu,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-09-15,19158580966,Search | Poliweglan | Pl,szklarnie z poliwęglanu,szklarnie z poliwęglanu,form_submit_gtm,1.0,1.0
+2026-09-18,19158580966,Search | Poliweglan | Pl,szklarnie z poliwęglanu,szklarnie z poliwęglanu,addToCart_gtm,0.0,1.0
+2026-09-18,19158580966,Search | Poliweglan | Pl,szklarnie z poliwęglanu,szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-09-18,19158580966,Search | Poliweglan | Pl,szklarnie z poliwęglanu,szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-09-21,19158580966,Search | Poliweglan | Pl,szklarnie z poliwęglanu,szklarnie z poliwęglanu,form_submit_gtm,1.0,1.0
+2026-09-21,19158580966,Search | Poliweglan | Pl,szklarnie z poliwęglanu,szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-09-22,19158580966,Search | Poliweglan | Pl,szklarnie z poliwęglanu,szklarnie z poliwęglanu,form_submit_gtm,1.5,1.5
+2026-09-22,19158580966,Search | Poliweglan | Pl,szklarnie z poliwęglanu,szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-09-28,19158580966,Search | Poliweglan | Pl,szklarnie z poliwęglanu warszawa,szklarnie z poliwęglanu warszawa,Клик по номеру,0.0,1.0
+2026-09-30,23439487425,search / szklarnia/tunel (excl. poliweglan),tunel na ogorki,tunel na ogorki,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-09-14,19158580966,Search | Poliweglan | Pl,tunel ogrodowy z poliwęglanu 4x6,tunel ogrodowy z poliwęglanu 4x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-09-14,19158580966,Search | Poliweglan | Pl,tunel ogrodowy z poliwęglanu 4x6,tunel ogrodowy z poliwęglanu 4x6,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-09-21,19158580966,Search | Poliweglan | Pl,tunel poliwęglan 3x4,tunel poliwęglan 3x4,addToCart_gtm,0.0,1.0
+2026-09-21,19158580966,Search | Poliweglan | Pl,tunel poliwęglan 3x4,tunel poliwęglan 3x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-09-28,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu,tunel z poliwęglanu,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-28,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu,tunel z poliwęglanu,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-09-28,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu,tunel z poliwęglanu,Клик по номеру,0.0,1.0
+2026-09-29,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu,tunel z poliwęglanu,Клик по номеру,0.0,1.0
+2026-09-16,19158580966,Search | Poliweglan | Pl,tunele ogrodnicze z poliwęglanu,tunele ogrodnicze z poliwęglanu,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-16,19158580966,Search | Poliweglan | Pl,tunele ogrodnicze z poliwęglanu,tunele ogrodnicze z poliwęglanu,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-09-21,19158580966,Search | Poliweglan | Pl,tunele ogrodnicze z poliwęglanu,tunele ogrodnicze z poliwęglanu,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-09-23,19158580966,Search | Poliweglan | Pl,tunele ogrodowe,tunele ogrodowe,Клик по номеру,0.0,1.0
+2026-09-30,23439487425,search / szklarnia/tunel (excl. poliweglan),tunele ogrodowe,tunele ogrodowe,Клик по номеру,0.0,1.0
+2026-09-12,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,addToCart_gtm,0.0,0.5
+2026-09-12,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,form_submit_gtm,0.5,0.5
+2026-09-12,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2026-09-12,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.5
+2026-09-21,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-09-25,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,addToCart_gtm,0.0,1.0
+2026-09-25,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,form_submit_gtm,1.0,1.0
+2026-09-25,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-09-25,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-09-12,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu 3x6,tunele z poliwęglanu 3x6,addToCart_gtm,0.0,0.5
+2026-09-12,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu 3x6,tunele z poliwęglanu 3x6,form_submit_gtm,0.5,0.5
+2026-09-12,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu 3x6,tunele z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2026-09-12,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu 3x6,tunele z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.5
+2026-09-07,19158580966,Search | Poliweglan | Pl,w m l szklarnie,w m l szklarnie,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-09-07,19158580966,Search | Poliweglan | Pl,w m l szklarnie,w m l szklarnie,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0

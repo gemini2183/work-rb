@@ -1,0 +1,814 @@
+Параметры (не утверждены, кроме указанных в реестре): N_boot=2000, seed=20261116, alpha=0.05, Jeffreys=0.5, kappa-сетка=[0.1, 0.3, 1, 3, 10, 30, 100, 300, 1000.0, 3000.0, 10000.0, 100000.0, 10000000.0], корзины S/T=[0, 1, 1.5, 2, 2.5, 3, 4, 5, inf]
+Кампаний в данных (без yt_): 36; фокус: ['Search | Brand | Pl', 'Search | Poliweglan | Pl', 'pmax1_test']
+
+=== ШАГ 0: сверка суммы среза с кампанией по дням (критерий реестра: расход 0,01 €, клики 0, показы 0) ===
+      срез                 кампания  дней_кампании  дней_совпало  доля_дней_совпало  покрытие_расход  покрытие_клики  покрытие_показы  конв_кампании  конв_среза  пропущено_чанков_выгрузки критерий_шага0
+    device     ВСЕ кампании без yt_           1464          1464             1.0000           1.0000          1.0000           1.0000        7268.67     7268.63                          0        пройден
+    device      Search | Brand | Pl            338           338             1.0000           1.0000          1.0000           1.0000        1510.02     1510.02                          0        пройден
+    device Search | Poliweglan | Pl            376           376             1.0000           1.0000          1.0000           1.0000        1315.37     1315.36                          0        пройден
+    device               pmax1_test            117           117             1.0000           1.0000          1.0000           1.0000         217.40      217.40                          0        пройден
+      hour     ВСЕ кампании без yt_           1464          1464             1.0000           1.0000          1.0000           1.0000        7268.67     7268.54                          0        пройден
+      hour      Search | Brand | Pl            338           338             1.0000           1.0000          1.0000           1.0000        1510.02     1510.01                          0        пройден
+      hour Search | Poliweglan | Pl            376           376             1.0000           1.0000          1.0000           1.0000        1315.37     1315.33                          0        пройден
+      hour               pmax1_test            117           117             1.0000           1.0000          1.0000           1.0000         217.40      217.39                          0        пройден
+   network     ВСЕ кампании без yt_           1464          1464             1.0000           1.0000          1.0000           1.0000        7268.67     7269.65                          0        пройден
+   network      Search | Brand | Pl            338           338             1.0000           1.0000          1.0000           1.0000        1510.02     1510.02                          0        пройден
+   network Search | Poliweglan | Pl            376           376             1.0000           1.0000          1.0000           1.0000        1315.37     1315.37                          0        пройден
+   network               pmax1_test            117           117             1.0000           1.0000          1.0000           1.0000         217.40      218.40                          0        пройден
+       geo     ВСЕ кампании без yt_           1464           906             0.6189           0.9989          0.9995           0.9997        7268.67     7252.86                          0     НЕ пройден
+       geo      Search | Brand | Pl            338           272             0.8047           0.9993          0.9994           0.9940        1510.02     1506.00                          0     НЕ пройден
+       geo Search | Poliweglan | Pl            376           213             0.5665           0.9984          0.9984           0.9985        1315.37     1305.76                          0     НЕ пройден
+       geo               pmax1_test            117            89             0.7607           0.9988          0.9999           1.0000         217.40      217.40                          0     НЕ пройден
+   adgroup     ВСЕ кампании без yt_           1464          1120             0.7650           0.4241          0.1313           0.0625        7268.67     3309.87                          0     НЕ пройден
+   adgroup      Search | Brand | Pl            338           338             1.0000           1.0000          1.0000           1.0000        1510.02     1510.02                          0        пройден
+   adgroup Search | Poliweglan | Pl            376           376             1.0000           1.0000          1.0000           1.0000        1315.37     1315.35                          0        пройден
+   adgroup               pmax1_test            117             0             0.0000           0.0000          0.0000           0.0000         217.40        0.00                          0     НЕ пройден
+   keyword     ВСЕ кампании без yt_           1464           942             0.6434           0.3889          0.0723           0.0084        7268.67     3217.88                          0     НЕ пройден
+   keyword      Search | Brand | Pl            338           338             1.0000           1.0000          1.0000           1.0000        1510.02     1510.00                          0        пройден
+   keyword Search | Poliweglan | Pl            376           375             0.9973           1.0000          1.0000           0.9999        1315.37     1315.33                          0     НЕ пройден
+   keyword               pmax1_test            117             0             0.0000           0.0000          0.0000           0.0000         217.40        0.00                          0     НЕ пройден
+      term     ВСЕ кампании без yt_           1464            12             0.0082           0.2903          0.0555           0.0062        7268.67     2523.06                          0     НЕ пройден
+      term      Search | Brand | Pl            338             6             0.0178           0.8053          0.8567           0.8025        1510.02     1331.65                          0     НЕ пройден
+      term Search | Poliweglan | Pl            376             0             0.0000           0.7310          0.7466           0.7348        1315.37      900.26                          0     НЕ пройден
+      term               pmax1_test            117             0             0.0000           0.0000          0.0000           0.0000         217.40        0.00                          0     НЕ пройден
+assetgroup     ВСЕ кампании без yt_           1464           344             0.2350           0.5759          0.8687           0.9375        7268.67     3959.77                          0     НЕ пройден
+assetgroup      Search | Brand | Pl            338             0             0.0000           0.0000          0.0000           0.0000        1510.02        0.00                          0     НЕ пройден
+assetgroup Search | Poliweglan | Pl            376             0             0.0000           0.0000          0.0000           0.0000        1315.37        0.00                          0     НЕ пройден
+assetgroup               pmax1_test            117           117             1.0000           1.0000          1.0000           1.0000         217.40      218.40                          0        пройден
+ pmax_term     ВСЕ кампании без yt_           1464            12             0.0082           0.3663          0.0689           0.0083        7268.67     3007.93                          0     НЕ пройден
+ pmax_term      Search | Brand | Pl            338             6             0.0178           0.8053          0.8567           0.8025        1510.02     1331.66                          0     НЕ пройден
+ pmax_term Search | Poliweglan | Pl            376             0             0.0000           0.7310          0.7466           0.7348        1315.37      897.23                          0     НЕ пройден
+ pmax_term               pmax1_test            117             0             0.0000           0.3268          0.0279           0.0124         217.40       75.13                          0     НЕ пройден
+       dow     ВСЕ кампании без yt_           1464          1464             1.0000           1.0000          1.0000           1.0000        7268.67     7268.67                          0        пройден
+       dow      Search | Brand | Pl            338           338             1.0000           1.0000          1.0000           1.0000        1510.02     1510.02                          0        пройден
+       dow Search | Poliweglan | Pl            376           376             1.0000           1.0000          1.0000           1.0000        1315.37     1315.37                          0        пройден
+       dow               pmax1_test            117           117             1.0000           1.0000          1.0000           1.0000         217.40      217.40                          0        пройден
+dow: пройден по построению.
+
+Пробелы (API отдаёт не всё), покрытие по ВСЕМ кампаниям:
+  geo: расход 99.9%, клики 100.0%, показы 100.0%; дней совпало 906 из 1464
+  adgroup: расход 42.4%, клики 13.1%, показы 6.2%; дней совпало 1120 из 1464
+  keyword: расход 38.9%, клики 7.2%, показы 0.8%; дней совпало 942 из 1464
+  term: расход 29.0%, клики 5.5%, показы 0.6%; дней совпало 12 из 1464
+  assetgroup: расход 57.6%, клики 86.9%, показы 93.8%; дней совпало 344 из 1464
+  pmax_term: расход 36.6%, клики 6.9%, показы 0.8%; дней совпало 12 из 1464
+
+Заявки leads_standard: кэш; режим звонков из объявлений: ringostat (по умолчанию, старое правило). Формы Supabase доступны с 2026-03-25 (period_backtest).
+
+=== ШАГ 0 (конверсии): Ads по имени действия против leads_standard (по дню и кампании; порога нет, числа для пользователя) ===
+                период                 кампании                                    действие_Ads тип_заявки_leads_standard     режим_leads_standard  дней_кампании  конв_Ads  заявок_leads_standard  разрыв_Ads_минус_заявки  ранговая_корреляция_Спирмен
+2025-08-01..2026-11-15     ВСЕ кампании без yt_   Ringostat — уникальный звонок (офлайн, gclid)                      call ringostat (по умолчанию)           1458      0.00                   3076                 -3076.00                          NaN
+2025-08-01..2026-11-15     ВСЕ кампании без yt_   Ringostat — уникальный звонок (офлайн, gclid)                    adcall ringostat (по умолчанию)           1458      0.00                     41                   -41.00                          NaN
+2025-08-01..2026-11-15     ВСЕ кампании без yt_   Ringostat — уникальный звонок (офлайн, gclid)                      form ringostat (по умолчанию)           1458      0.00                    303                  -303.00                          NaN
+2025-08-01..2026-11-15     ВСЕ кампании без yt_   Ringostat — уникальный звонок (офлайн, gclid)                     total ringostat (по умолчанию)           1458      0.00                   3420                 -3420.00                          NaN
+2025-08-01..2026-11-15     ВСЕ кампании без yt_                                   addToCart_gtm                      call ringostat (по умолчанию)           1458      0.00                   3076                 -3076.00                          NaN
+2025-08-01..2026-11-15     ВСЕ кампании без yt_                                   addToCart_gtm                    adcall ringostat (по умолчанию)           1458      0.00                     41                   -41.00                          NaN
+2025-08-01..2026-11-15     ВСЕ кампании без yt_                                   addToCart_gtm                      form ringostat (по умолчанию)           1458      0.00                    303                  -303.00                          NaN
+2025-08-01..2026-11-15     ВСЕ кампании без yt_                                   addToCart_gtm                     total ringostat (по умолчанию)           1458      0.00                   3420                 -3420.00                          NaN
+2025-08-01..2026-11-15     ВСЕ кампании без yt_                                 form_submit_gtm                      call ringostat (по умолчанию)           1458   1619.97                   3076                 -1456.03                        0.533
+2025-08-01..2026-11-15     ВСЕ кампании без yt_                                 form_submit_gtm                    adcall ringostat (по умолчанию)           1458   1619.97                     41                  1578.97                        0.011
+2025-08-01..2026-11-15     ВСЕ кампании без yt_                                 form_submit_gtm                      form ringostat (по умолчанию)           1458   1619.97                    303                  1316.97                        0.416
+2025-08-01..2026-11-15     ВСЕ кампании без yt_                                 form_submit_gtm                     total ringostat (по умолчанию)           1458   1619.97                   3420                 -1800.03                        0.587
+2025-08-01..2026-11-15     ВСЕ кампании без yt_   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                      call ringostat (по умолчанию)           1458   2692.45                   3076                  -383.55                        0.769
+2025-08-01..2026-11-15     ВСЕ кампании без yt_   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                    adcall ringostat (по умолчанию)           1458   2692.45                     41                  2651.45                        0.060
+2025-08-01..2026-11-15     ВСЕ кампании без yt_   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                      form ringostat (по умолчанию)           1458   2692.45                    303                  2389.45                        0.286
+2025-08-01..2026-11-15     ВСЕ кампании без yt_   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                     total ringostat (по умолчанию)           1458   2692.45                   3420                  -727.55                        0.760
+2025-08-01..2026-11-15     ВСЕ кампании без yt_ mocnaszklarnia.pl - GA4 (web) addToCart_session                      call ringostat (по умолчанию)           1458      0.00                   3076                 -3076.00                          NaN
+2025-08-01..2026-11-15     ВСЕ кампании без yt_ mocnaszklarnia.pl - GA4 (web) addToCart_session                    adcall ringostat (по умолчанию)           1458      0.00                     41                   -41.00                          NaN
+2025-08-01..2026-11-15     ВСЕ кампании без yt_ mocnaszklarnia.pl - GA4 (web) addToCart_session                      form ringostat (по умолчанию)           1458      0.00                    303                  -303.00                          NaN
+2025-08-01..2026-11-15     ВСЕ кампании без yt_ mocnaszklarnia.pl - GA4 (web) addToCart_session                     total ringostat (по умолчанию)           1458      0.00                   3420                 -3420.00                          NaN
+2025-08-01..2026-11-15     ВСЕ кампании без yt_       mocnaszklarnia.pl - GA4 (web) form_submit                      call ringostat (по умолчанию)           1458      0.00                   3076                 -3076.00                          NaN
+2025-08-01..2026-11-15     ВСЕ кампании без yt_       mocnaszklarnia.pl - GA4 (web) form_submit                    adcall ringostat (по умолчанию)           1458      0.00                     41                   -41.00                          NaN
+2025-08-01..2026-11-15     ВСЕ кампании без yt_       mocnaszklarnia.pl - GA4 (web) form_submit                      form ringostat (по умолчанию)           1458      0.00                    303                  -303.00                          NaN
+2025-08-01..2026-11-15     ВСЕ кампании без yt_       mocnaszklarnia.pl - GA4 (web) form_submit                     total ringostat (по умолчанию)           1458      0.00                   3420                 -3420.00                          NaN
+2025-08-01..2026-11-15     ВСЕ кампании без yt_                           Звонки по объявлениям                      call ringostat (по умолчанию)           1458    120.97                   3076                 -2955.03                        0.262
+2025-08-01..2026-11-15     ВСЕ кампании без yt_                           Звонки по объявлениям                    adcall ringostat (по умолчанию)           1458    120.97                     41                    79.97                        0.357
+2025-08-01..2026-11-15     ВСЕ кампании без yt_                           Звонки по объявлениям                      form ringostat (по умолчанию)           1458    120.97                    303                  -182.03                        0.234
+2025-08-01..2026-11-15     ВСЕ кампании без yt_                           Звонки по объявлениям                     total ringostat (по умолчанию)           1458    120.97                   3420                 -3299.03                        0.301
+2025-08-01..2026-11-15     ВСЕ кампании без yt_                                  Клик по номеру                      call ringostat (по умолчанию)           1458   2835.20                   3076                  -240.80                        0.267
+2025-08-01..2026-11-15     ВСЕ кампании без yt_                                  Клик по номеру                    adcall ringostat (по умолчанию)           1458   2835.20                     41                  2794.20                       -0.056
+2025-08-01..2026-11-15     ВСЕ кампании без yt_                                  Клик по номеру                      form ringostat (по умолчанию)           1458   2835.20                    303                  2532.20                       -0.080
+2025-08-01..2026-11-15     ВСЕ кампании без yt_                                  Клик по номеру                     total ringostat (по умолчанию)           1458   2835.20                   3420                  -584.80                        0.246
+2025-08-01..2026-11-15      Search | Brand | Pl   Ringostat — уникальный звонок (офлайн, gclid)                      call ringostat (по умолчанию)            338      0.00                    943                  -943.00                          NaN
+2025-08-01..2026-11-15      Search | Brand | Pl   Ringostat — уникальный звонок (офлайн, gclid)                    adcall ringostat (по умолчанию)            338      0.00                     11                   -11.00                          NaN
+2025-08-01..2026-11-15      Search | Brand | Pl   Ringostat — уникальный звонок (офлайн, gclid)                      form ringostat (по умолчанию)            338      0.00                     81                   -81.00                          NaN
+2025-08-01..2026-11-15      Search | Brand | Pl   Ringostat — уникальный звонок (офлайн, gclid)                     total ringostat (по умолчанию)            338      0.00                   1035                 -1035.00                          NaN
+2025-08-01..2026-11-15      Search | Brand | Pl                                   addToCart_gtm                      call ringostat (по умолчанию)            338      0.00                    943                  -943.00                          NaN
+2025-08-01..2026-11-15      Search | Brand | Pl                                   addToCart_gtm                    adcall ringostat (по умолчанию)            338      0.00                     11                   -11.00                          NaN
+2025-08-01..2026-11-15      Search | Brand | Pl                                   addToCart_gtm                      form ringostat (по умолчанию)            338      0.00                     81                   -81.00                          NaN
+2025-08-01..2026-11-15      Search | Brand | Pl                                   addToCart_gtm                     total ringostat (по умолчанию)            338      0.00                   1035                 -1035.00                          NaN
+2025-08-01..2026-11-15      Search | Brand | Pl                                 form_submit_gtm                      call ringostat (по умолчанию)            338    481.32                    943                  -461.68                        0.641
+2025-08-01..2026-11-15      Search | Brand | Pl                                 form_submit_gtm                    adcall ringostat (по умолчанию)            338    481.32                     11                   470.32                       -0.009
+2025-08-01..2026-11-15      Search | Brand | Pl                                 form_submit_gtm                      form ringostat (по умолчанию)            338    481.32                     81                   400.32                        0.336
+2025-08-01..2026-11-15      Search | Brand | Pl                                 form_submit_gtm                     total ringostat (по умолчанию)            338    481.32                   1035                  -553.68                        0.667
+2025-08-01..2026-11-15      Search | Brand | Pl   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                      call ringostat (по умолчанию)            338    960.93                    943                    17.93                        0.807
+2025-08-01..2026-11-15      Search | Brand | Pl   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                    adcall ringostat (по умолчанию)            338    960.93                     11                   949.93                        0.003
+2025-08-01..2026-11-15      Search | Brand | Pl   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                      form ringostat (по умолчанию)            338    960.93                     81                   879.93                        0.271
+2025-08-01..2026-11-15      Search | Brand | Pl   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                     total ringostat (по умолчанию)            338    960.93                   1035                   -74.07                        0.795
+2025-08-01..2026-11-15      Search | Brand | Pl mocnaszklarnia.pl - GA4 (web) addToCart_session                      call ringostat (по умолчанию)            338      0.00                    943                  -943.00                          NaN
+2025-08-01..2026-11-15      Search | Brand | Pl mocnaszklarnia.pl - GA4 (web) addToCart_session                    adcall ringostat (по умолчанию)            338      0.00                     11                   -11.00                          NaN
+2025-08-01..2026-11-15      Search | Brand | Pl mocnaszklarnia.pl - GA4 (web) addToCart_session                      form ringostat (по умолчанию)            338      0.00                     81                   -81.00                          NaN
+2025-08-01..2026-11-15      Search | Brand | Pl mocnaszklarnia.pl - GA4 (web) addToCart_session                     total ringostat (по умолчанию)            338      0.00                   1035                 -1035.00                          NaN
+2025-08-01..2026-11-15      Search | Brand | Pl       mocnaszklarnia.pl - GA4 (web) form_submit                      call ringostat (по умолчанию)            338      0.00                    943                  -943.00                          NaN
+2025-08-01..2026-11-15      Search | Brand | Pl       mocnaszklarnia.pl - GA4 (web) form_submit                    adcall ringostat (по умолчанию)            338      0.00                     11                   -11.00                          NaN
+2025-08-01..2026-11-15      Search | Brand | Pl       mocnaszklarnia.pl - GA4 (web) form_submit                      form ringostat (по умолчанию)            338      0.00                     81                   -81.00                          NaN
+2025-08-01..2026-11-15      Search | Brand | Pl       mocnaszklarnia.pl - GA4 (web) form_submit                     total ringostat (по умолчанию)            338      0.00                   1035                 -1035.00                          NaN
+2025-08-01..2026-11-15      Search | Brand | Pl                           Звонки по объявлениям                      call ringostat (по умолчанию)            338     67.76                    943                  -875.24                        0.385
+2025-08-01..2026-11-15      Search | Brand | Pl                           Звонки по объявлениям                    adcall ringostat (по умолчанию)            338     67.76                     11                    56.76                        0.255
+2025-08-01..2026-11-15      Search | Brand | Pl                           Звонки по объявлениям                      form ringostat (по умолчанию)            338     67.76                     81                   -13.24                        0.269
+2025-08-01..2026-11-15      Search | Brand | Pl                           Звонки по объявлениям                     total ringostat (по умолчанию)            338     67.76                   1035                  -967.24                        0.426
+2025-08-01..2026-11-15      Search | Brand | Pl                                  Клик по номеру                      call ringostat (по умолчанию)            338      0.00                    943                  -943.00                          NaN
+2025-08-01..2026-11-15      Search | Brand | Pl                                  Клик по номеру                    adcall ringostat (по умолчанию)            338      0.00                     11                   -11.00                          NaN
+2025-08-01..2026-11-15      Search | Brand | Pl                                  Клик по номеру                      form ringostat (по умолчанию)            338      0.00                     81                   -81.00                          NaN
+2025-08-01..2026-11-15      Search | Brand | Pl                                  Клик по номеру                     total ringostat (по умолчанию)            338      0.00                   1035                 -1035.00                          NaN
+2025-08-01..2026-11-15 Search | Poliweglan | Pl   Ringostat — уникальный звонок (офлайн, gclid)                      call ringostat (по умолчанию)            376      0.00                    851                  -851.00                          NaN
+2025-08-01..2026-11-15 Search | Poliweglan | Pl   Ringostat — уникальный звонок (офлайн, gclid)                    adcall ringostat (по умолчанию)            376      0.00                     10                   -10.00                          NaN
+2025-08-01..2026-11-15 Search | Poliweglan | Pl   Ringostat — уникальный звонок (офлайн, gclid)                      form ringostat (по умолчанию)            376      0.00                    136                  -136.00                          NaN
+2025-08-01..2026-11-15 Search | Poliweglan | Pl   Ringostat — уникальный звонок (офлайн, gclid)                     total ringostat (по умолчанию)            376      0.00                    997                  -997.00                          NaN
+2025-08-01..2026-11-15 Search | Poliweglan | Pl                                   addToCart_gtm                      call ringostat (по умолчанию)            376      0.00                    851                  -851.00                          NaN
+2025-08-01..2026-11-15 Search | Poliweglan | Pl                                   addToCart_gtm                    adcall ringostat (по умолчанию)            376      0.00                     10                   -10.00                          NaN
+2025-08-01..2026-11-15 Search | Poliweglan | Pl                                   addToCart_gtm                      form ringostat (по умолчанию)            376      0.00                    136                  -136.00                          NaN
+2025-08-01..2026-11-15 Search | Poliweglan | Pl                                   addToCart_gtm                     total ringostat (по умолчанию)            376      0.00                    997                  -997.00                          NaN
+2025-08-01..2026-11-15 Search | Poliweglan | Pl                                 form_submit_gtm                      call ringostat (по умолчанию)            376    477.46                    851                  -373.54                        0.484
+2025-08-01..2026-11-15 Search | Poliweglan | Pl                                 form_submit_gtm                    adcall ringostat (по умолчанию)            376    477.46                     10                   467.46                        0.020
+2025-08-01..2026-11-15 Search | Poliweglan | Pl                                 form_submit_gtm                      form ringostat (по умолчанию)            376    477.46                    136                   341.46                        0.560
+2025-08-01..2026-11-15 Search | Poliweglan | Pl                                 form_submit_gtm                     total ringostat (по умолчанию)            376    477.46                    997                  -519.54                        0.594
+2025-08-01..2026-11-15 Search | Poliweglan | Pl   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                      call ringostat (по умолчанию)            376    814.73                    851                   -36.27                        0.832
+2025-08-01..2026-11-15 Search | Poliweglan | Pl   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                    adcall ringostat (по умолчанию)            376    814.73                     10                   804.73                        0.090
+2025-08-01..2026-11-15 Search | Poliweglan | Pl   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                      form ringostat (по умолчанию)            376    814.73                    136                   678.73                        0.331
+2025-08-01..2026-11-15 Search | Poliweglan | Pl   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                     total ringostat (по умолчанию)            376    814.73                    997                  -182.27                        0.818
+2025-08-01..2026-11-15 Search | Poliweglan | Pl mocnaszklarnia.pl - GA4 (web) addToCart_session                      call ringostat (по умолчанию)            376      0.00                    851                  -851.00                          NaN
+2025-08-01..2026-11-15 Search | Poliweglan | Pl mocnaszklarnia.pl - GA4 (web) addToCart_session                    adcall ringostat (по умолчанию)            376      0.00                     10                   -10.00                          NaN
+2025-08-01..2026-11-15 Search | Poliweglan | Pl mocnaszklarnia.pl - GA4 (web) addToCart_session                      form ringostat (по умолчанию)            376      0.00                    136                  -136.00                          NaN
+2025-08-01..2026-11-15 Search | Poliweglan | Pl mocnaszklarnia.pl - GA4 (web) addToCart_session                     total ringostat (по умолчанию)            376      0.00                    997                  -997.00                          NaN
+2025-08-01..2026-11-15 Search | Poliweglan | Pl       mocnaszklarnia.pl - GA4 (web) form_submit                      call ringostat (по умолчанию)            376      0.00                    851                  -851.00                          NaN
+2025-08-01..2026-11-15 Search | Poliweglan | Pl       mocnaszklarnia.pl - GA4 (web) form_submit                    adcall ringostat (по умолчанию)            376      0.00                     10                   -10.00                          NaN
+2025-08-01..2026-11-15 Search | Poliweglan | Pl       mocnaszklarnia.pl - GA4 (web) form_submit                      form ringostat (по умолчанию)            376      0.00                    136                  -136.00                          NaN
+2025-08-01..2026-11-15 Search | Poliweglan | Pl       mocnaszklarnia.pl - GA4 (web) form_submit                     total ringostat (по умолчанию)            376      0.00                    997                  -997.00                          NaN
+2025-08-01..2026-11-15 Search | Poliweglan | Pl                           Звонки по объявлениям                      call ringostat (по умолчанию)            376     23.15                    851                  -827.85                        0.282
+2025-08-01..2026-11-15 Search | Poliweglan | Pl                           Звонки по объявлениям                    adcall ringostat (по умолчанию)            376     23.15                     10                    13.15                        0.286
+2025-08-01..2026-11-15 Search | Poliweglan | Pl                           Звонки по объявлениям                      form ringostat (по умолчанию)            376     23.15                    136                  -112.85                        0.176
+2025-08-01..2026-11-15 Search | Poliweglan | Pl                           Звонки по объявлениям                     total ringostat (по умолчанию)            376     23.15                    997                  -973.85                        0.301
+2025-08-01..2026-11-15 Search | Poliweglan | Pl                                  Клик по номеру                      call ringostat (по умолчанию)            376      0.00                    851                  -851.00                          NaN
+2025-08-01..2026-11-15 Search | Poliweglan | Pl                                  Клик по номеру                    adcall ringostat (по умолчанию)            376      0.00                     10                   -10.00                          NaN
+2025-08-01..2026-11-15 Search | Poliweglan | Pl                                  Клик по номеру                      form ringostat (по умолчанию)            376      0.00                    136                  -136.00                          NaN
+2025-08-01..2026-11-15 Search | Poliweglan | Pl                                  Клик по номеру                     total ringostat (по умолчанию)            376      0.00                    997                  -997.00                          NaN
+2025-08-01..2026-11-15               pmax1_test   Ringostat — уникальный звонок (офлайн, gclid)                      call ringostat (по умолчанию)            117      0.00                    228                  -228.00                          NaN
+2025-08-01..2026-11-15               pmax1_test   Ringostat — уникальный звонок (офлайн, gclid)                    adcall ringostat (по умолчанию)            117      0.00                     20                   -20.00                          NaN
+2025-08-01..2026-11-15               pmax1_test   Ringostat — уникальный звонок (офлайн, gclid)                      form ringostat (по умолчанию)            117      0.00                     42                   -42.00                          NaN
+2025-08-01..2026-11-15               pmax1_test   Ringostat — уникальный звонок (офлайн, gclid)                     total ringostat (по умолчанию)            117      0.00                    290                  -290.00                          NaN
+2025-08-01..2026-11-15               pmax1_test                                   addToCart_gtm                      call ringostat (по умолчанию)            117      0.00                    228                  -228.00                          NaN
+2025-08-01..2026-11-15               pmax1_test                                   addToCart_gtm                    adcall ringostat (по умолчанию)            117      0.00                     20                   -20.00                          NaN
+2025-08-01..2026-11-15               pmax1_test                                   addToCart_gtm                      form ringostat (по умолчанию)            117      0.00                     42                   -42.00                          NaN
+2025-08-01..2026-11-15               pmax1_test                                   addToCart_gtm                     total ringostat (по умолчанию)            117      0.00                    290                  -290.00                          NaN
+2025-08-01..2026-11-15               pmax1_test                                 form_submit_gtm                      call ringostat (по умолчанию)            117     71.19                    228                  -156.81                        0.394
+2025-08-01..2026-11-15               pmax1_test                                 form_submit_gtm                    adcall ringostat (по умолчанию)            117     71.19                     20                    51.19                        0.024
+2025-08-01..2026-11-15               pmax1_test                                 form_submit_gtm                      form ringostat (по умолчанию)            117     71.19                     42                    29.19                        0.623
+2025-08-01..2026-11-15               pmax1_test                                 form_submit_gtm                     total ringostat (по умолчанию)            117     71.19                    290                  -218.81                        0.533
+2025-08-01..2026-11-15               pmax1_test   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                      call ringostat (по умолчанию)            117    130.20                    228                   -97.80                        0.669
+2025-08-01..2026-11-15               pmax1_test   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                    adcall ringostat (по умолчанию)            117    130.20                     20                   110.20                        0.128
+2025-08-01..2026-11-15               pmax1_test   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                      form ringostat (по умолчанию)            117    130.20                     42                    88.20                        0.299
+2025-08-01..2026-11-15               pmax1_test   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                     total ringostat (по умолчанию)            117    130.20                    290                  -159.80                        0.653
+2025-08-01..2026-11-15               pmax1_test mocnaszklarnia.pl - GA4 (web) addToCart_session                      call ringostat (по умолчанию)            117      0.00                    228                  -228.00                          NaN
+2025-08-01..2026-11-15               pmax1_test mocnaszklarnia.pl - GA4 (web) addToCart_session                    adcall ringostat (по умолчанию)            117      0.00                     20                   -20.00                          NaN
+2025-08-01..2026-11-15               pmax1_test mocnaszklarnia.pl - GA4 (web) addToCart_session                      form ringostat (по умолчанию)            117      0.00                     42                   -42.00                          NaN
+2025-08-01..2026-11-15               pmax1_test mocnaszklarnia.pl - GA4 (web) addToCart_session                     total ringostat (по умолчанию)            117      0.00                    290                  -290.00                          NaN
+2025-08-01..2026-11-15               pmax1_test       mocnaszklarnia.pl - GA4 (web) form_submit                      call ringostat (по умолчанию)            117      0.00                    228                  -228.00                          NaN
+2025-08-01..2026-11-15               pmax1_test       mocnaszklarnia.pl - GA4 (web) form_submit                    adcall ringostat (по умолчанию)            117      0.00                     20                   -20.00                          NaN
+2025-08-01..2026-11-15               pmax1_test       mocnaszklarnia.pl - GA4 (web) form_submit                      form ringostat (по умолчанию)            117      0.00                     42                   -42.00                          NaN
+2025-08-01..2026-11-15               pmax1_test       mocnaszklarnia.pl - GA4 (web) form_submit                     total ringostat (по умолчанию)            117      0.00                    290                  -290.00                          NaN
+2025-08-01..2026-11-15               pmax1_test                           Звонки по объявлениям                      call ringostat (по умолчанию)            117     16.01                    228                  -211.99                        0.122
+2025-08-01..2026-11-15               pmax1_test                           Звонки по объявлениям                    adcall ringostat (по умолчанию)            117     16.01                     20                    -3.99                        0.709
+2025-08-01..2026-11-15               pmax1_test                           Звонки по объявлениям                      form ringostat (по умолчанию)            117     16.01                     42                   -25.99                        0.102
+2025-08-01..2026-11-15               pmax1_test                           Звонки по объявлениям                     total ringostat (по умолчанию)            117     16.01                    290                  -273.99                        0.255
+2025-08-01..2026-11-15               pmax1_test                                  Клик по номеру                      call ringostat (по умолчанию)            117      0.00                    228                  -228.00                          NaN
+2025-08-01..2026-11-15               pmax1_test                                  Клик по номеру                    adcall ringostat (по умолчанию)            117      0.00                     20                   -20.00                          NaN
+2025-08-01..2026-11-15               pmax1_test                                  Клик по номеру                      form ringostat (по умолчанию)            117      0.00                     42                   -42.00                          NaN
+2025-08-01..2026-11-15               pmax1_test                                  Клик по номеру                     total ringostat (по умолчанию)            117      0.00                    290                  -290.00                          NaN
+2026-04-01..2026-11-15     ВСЕ кампании без yt_   Ringostat — уникальный звонок (офлайн, gclid)                      call ringostat (по умолчанию)            614      0.00                   1058                 -1058.00                          NaN
+2026-04-01..2026-11-15     ВСЕ кампании без yt_   Ringostat — уникальный звонок (офлайн, gclid)                    adcall ringostat (по умолчанию)            614      0.00                     37                   -37.00                          NaN
+2026-04-01..2026-11-15     ВСЕ кампании без yt_   Ringostat — уникальный звонок (офлайн, gclid)                      form ringostat (по умолчанию)            614      0.00                    277                  -277.00                          NaN
+2026-04-01..2026-11-15     ВСЕ кампании без yt_   Ringostat — уникальный звонок (офлайн, gclid)                     total ringostat (по умолчанию)            614      0.00                   1372                 -1372.00                          NaN
+2026-04-01..2026-11-15     ВСЕ кампании без yt_                                   addToCart_gtm                      call ringostat (по умолчанию)            614      0.00                   1058                 -1058.00                          NaN
+2026-04-01..2026-11-15     ВСЕ кампании без yt_                                   addToCart_gtm                    adcall ringostat (по умолчанию)            614      0.00                     37                   -37.00                          NaN
+2026-04-01..2026-11-15     ВСЕ кампании без yt_                                   addToCart_gtm                      form ringostat (по умолчанию)            614      0.00                    277                  -277.00                          NaN
+2026-04-01..2026-11-15     ВСЕ кампании без yt_                                   addToCart_gtm                     total ringostat (по умолчанию)            614      0.00                   1372                 -1372.00                          NaN
+2026-04-01..2026-11-15     ВСЕ кампании без yt_                                 form_submit_gtm                      call ringostat (по умолчанию)            614    534.67                   1058                  -523.33                        0.486
+2026-04-01..2026-11-15     ВСЕ кампании без yt_                                 form_submit_gtm                    adcall ringostat (по умолчанию)            614    534.67                     37                   497.67                       -0.022
+2026-04-01..2026-11-15     ВСЕ кампании без yt_                                 form_submit_gtm                      form ringostat (по умолчанию)            614    534.67                    277                   257.67                        0.741
+2026-04-01..2026-11-15     ВСЕ кампании без yt_                                 form_submit_gtm                     total ringostat (по умолчанию)            614    534.67                   1372                  -837.33                        0.627
+2026-04-01..2026-11-15     ВСЕ кампании без yt_   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                      call ringostat (по умолчанию)            614    916.16                   1058                  -141.84                        0.778
+2026-04-01..2026-11-15     ВСЕ кампании без yt_   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                    adcall ringostat (по умолчанию)            614    916.16                     37                   879.16                        0.061
+2026-04-01..2026-11-15     ВСЕ кампании без yt_   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                      form ringostat (по умолчанию)            614    916.16                    277                   639.16                        0.482
+2026-04-01..2026-11-15     ВСЕ кампании без yt_   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                     total ringostat (по умолчанию)            614    916.16                   1372                  -455.84                        0.769
+2026-04-01..2026-11-15     ВСЕ кампании без yt_ mocnaszklarnia.pl - GA4 (web) addToCart_session                      call ringostat (по умолчанию)            614      0.00                   1058                 -1058.00                          NaN
+2026-04-01..2026-11-15     ВСЕ кампании без yt_ mocnaszklarnia.pl - GA4 (web) addToCart_session                    adcall ringostat (по умолчанию)            614      0.00                     37                   -37.00                          NaN
+2026-04-01..2026-11-15     ВСЕ кампании без yt_ mocnaszklarnia.pl - GA4 (web) addToCart_session                      form ringostat (по умолчанию)            614      0.00                    277                  -277.00                          NaN
+2026-04-01..2026-11-15     ВСЕ кампании без yt_ mocnaszklarnia.pl - GA4 (web) addToCart_session                     total ringostat (по умолчанию)            614      0.00                   1372                 -1372.00                          NaN
+2026-04-01..2026-11-15     ВСЕ кампании без yt_       mocnaszklarnia.pl - GA4 (web) form_submit                      call ringostat (по умолчанию)            614      0.00                   1058                 -1058.00                          NaN
+2026-04-01..2026-11-15     ВСЕ кампании без yt_       mocnaszklarnia.pl - GA4 (web) form_submit                    adcall ringostat (по умолчанию)            614      0.00                     37                   -37.00                          NaN
+2026-04-01..2026-11-15     ВСЕ кампании без yt_       mocnaszklarnia.pl - GA4 (web) form_submit                      form ringostat (по умолчанию)            614      0.00                    277                  -277.00                          NaN
+2026-04-01..2026-11-15     ВСЕ кампании без yt_       mocnaszklarnia.pl - GA4 (web) form_submit                     total ringostat (по умолчанию)            614      0.00                   1372                 -1372.00                          NaN
+2026-04-01..2026-11-15     ВСЕ кампании без yt_                           Звонки по объявлениям                      call ringostat (по умолчанию)            614     84.98                   1058                  -973.02                        0.285
+2026-04-01..2026-11-15     ВСЕ кампании без yt_                           Звонки по объявлениям                    adcall ringostat (по умолчанию)            614     84.98                     37                    47.98                        0.394
+2026-04-01..2026-11-15     ВСЕ кампании без yt_                           Звонки по объявлениям                      form ringostat (по умолчанию)            614     84.98                    277                  -192.02                        0.219
+2026-04-01..2026-11-15     ВСЕ кампании без yt_                           Звонки по объявлениям                     total ringostat (по умолчанию)            614     84.98                   1372                 -1287.02                        0.333
+2026-04-01..2026-11-15     ВСЕ кампании без yt_                                  Клик по номеру                      call ringostat (по умолчанию)            614    643.80                   1058                  -414.20                        0.071
+2026-04-01..2026-11-15     ВСЕ кампании без yt_                                  Клик по номеру                    adcall ringostat (по умолчанию)            614    643.80                     37                   606.80                       -0.052
+2026-04-01..2026-11-15     ВСЕ кампании без yt_                                  Клик по номеру                      form ringostat (по умолчанию)            614    643.80                    277                   366.80                       -0.074
+2026-04-01..2026-11-15     ВСЕ кампании без yt_                                  Клик по номеру                     total ringostat (по умолчанию)            614    643.80                   1372                  -728.20                        0.036
+2026-04-01..2026-11-15      Search | Brand | Pl   Ringostat — уникальный звонок (офлайн, gclid)                      call ringostat (по умолчанию)            164      0.00                    264                  -264.00                          NaN
+2026-04-01..2026-11-15      Search | Brand | Pl   Ringostat — уникальный звонок (офлайн, gclid)                    adcall ringostat (по умолчанию)            164      0.00                      9                    -9.00                          NaN
+2026-04-01..2026-11-15      Search | Brand | Pl   Ringostat — уникальный звонок (офлайн, gclid)                      form ringostat (по умолчанию)            164      0.00                     70                   -70.00                          NaN
+2026-04-01..2026-11-15      Search | Brand | Pl   Ringostat — уникальный звонок (офлайн, gclid)                     total ringostat (по умолчанию)            164      0.00                    343                  -343.00                          NaN
+2026-04-01..2026-11-15      Search | Brand | Pl                                   addToCart_gtm                      call ringostat (по умолчанию)            164      0.00                    264                  -264.00                          NaN
+2026-04-01..2026-11-15      Search | Brand | Pl                                   addToCart_gtm                    adcall ringostat (по умолчанию)            164      0.00                      9                    -9.00                          NaN
+2026-04-01..2026-11-15      Search | Brand | Pl                                   addToCart_gtm                      form ringostat (по умолчанию)            164      0.00                     70                   -70.00                          NaN
+2026-04-01..2026-11-15      Search | Brand | Pl                                   addToCart_gtm                     total ringostat (по умолчанию)            164      0.00                    343                  -343.00                          NaN
+2026-04-01..2026-11-15      Search | Brand | Pl                                 form_submit_gtm                      call ringostat (по умолчанию)            164    126.04                    264                  -137.96                        0.565
+2026-04-01..2026-11-15      Search | Brand | Pl                                 form_submit_gtm                    adcall ringostat (по умолчанию)            164    126.04                      9                   117.04                       -0.065
+2026-04-01..2026-11-15      Search | Brand | Pl                                 form_submit_gtm                      form ringostat (по умолчанию)            164    126.04                     70                    56.04                        0.719
+2026-04-01..2026-11-15      Search | Brand | Pl                                 form_submit_gtm                     total ringostat (по умолчанию)            164    126.04                    343                  -216.96                        0.675
+2026-04-01..2026-11-15      Search | Brand | Pl   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                      call ringostat (по умолчанию)            164    257.13                    264                    -6.87                        0.833
+2026-04-01..2026-11-15      Search | Brand | Pl   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                    adcall ringostat (по умолчанию)            164    257.13                      9                   248.13                       -0.041
+2026-04-01..2026-11-15      Search | Brand | Pl   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                      form ringostat (по умолчанию)            164    257.13                     70                   187.13                        0.497
+2026-04-01..2026-11-15      Search | Brand | Pl   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                     total ringostat (по умолчанию)            164    257.13                    343                   -85.87                        0.810
+2026-04-01..2026-11-15      Search | Brand | Pl mocnaszklarnia.pl - GA4 (web) addToCart_session                      call ringostat (по умолчанию)            164      0.00                    264                  -264.00                          NaN
+2026-04-01..2026-11-15      Search | Brand | Pl mocnaszklarnia.pl - GA4 (web) addToCart_session                    adcall ringostat (по умолчанию)            164      0.00                      9                    -9.00                          NaN
+2026-04-01..2026-11-15      Search | Brand | Pl mocnaszklarnia.pl - GA4 (web) addToCart_session                      form ringostat (по умолчанию)            164      0.00                     70                   -70.00                          NaN
+2026-04-01..2026-11-15      Search | Brand | Pl mocnaszklarnia.pl - GA4 (web) addToCart_session                     total ringostat (по умолчанию)            164      0.00                    343                  -343.00                          NaN
+2026-04-01..2026-11-15      Search | Brand | Pl       mocnaszklarnia.pl - GA4 (web) form_submit                      call ringostat (по умолчанию)            164      0.00                    264                  -264.00                          NaN
+2026-04-01..2026-11-15      Search | Brand | Pl       mocnaszklarnia.pl - GA4 (web) form_submit                    adcall ringostat (по умолчанию)            164      0.00                      9                    -9.00                          NaN
+2026-04-01..2026-11-15      Search | Brand | Pl       mocnaszklarnia.pl - GA4 (web) form_submit                      form ringostat (по умолчанию)            164      0.00                     70                   -70.00                          NaN
+2026-04-01..2026-11-15      Search | Brand | Pl       mocnaszklarnia.pl - GA4 (web) form_submit                     total ringostat (по умолчанию)            164      0.00                    343                  -343.00                          NaN
+2026-04-01..2026-11-15      Search | Brand | Pl                           Звонки по объявлениям                      call ringostat (по умолчанию)            164     39.77                    264                  -224.23                        0.387
+2026-04-01..2026-11-15      Search | Brand | Pl                           Звонки по объявлениям                    adcall ringostat (по умолчанию)            164     39.77                      9                    30.77                        0.302
+2026-04-01..2026-11-15      Search | Brand | Pl                           Звонки по объявлениям                      form ringostat (по умолчанию)            164     39.77                     70                   -30.23                        0.288
+2026-04-01..2026-11-15      Search | Brand | Pl                           Звонки по объявлениям                     total ringostat (по умолчанию)            164     39.77                    343                  -303.23                        0.452
+2026-04-01..2026-11-15      Search | Brand | Pl                                  Клик по номеру                      call ringostat (по умолчанию)            164      0.00                    264                  -264.00                          NaN
+2026-04-01..2026-11-15      Search | Brand | Pl                                  Клик по номеру                    adcall ringostat (по умолчанию)            164      0.00                      9                    -9.00                          NaN
+2026-04-01..2026-11-15      Search | Brand | Pl                                  Клик по номеру                      form ringostat (по умолчанию)            164      0.00                     70                   -70.00                          NaN
+2026-04-01..2026-11-15      Search | Brand | Pl                                  Клик по номеру                     total ringostat (по умолчанию)            164      0.00                    343                  -343.00                          NaN
+2026-04-01..2026-11-15 Search | Poliweglan | Pl   Ringostat — уникальный звонок (офлайн, gclid)                      call ringostat (по умолчанию)            173      0.00                    386                  -386.00                          NaN
+2026-04-01..2026-11-15 Search | Poliweglan | Pl   Ringostat — уникальный звонок (офлайн, gclid)                    adcall ringostat (по умолчанию)            173      0.00                      8                    -8.00                          NaN
+2026-04-01..2026-11-15 Search | Poliweglan | Pl   Ringostat — уникальный звонок (офлайн, gclid)                      form ringostat (по умолчанию)            173      0.00                    126                  -126.00                          NaN
+2026-04-01..2026-11-15 Search | Poliweglan | Pl   Ringostat — уникальный звонок (офлайн, gclid)                     total ringostat (по умолчанию)            173      0.00                    520                  -520.00                          NaN
+2026-04-01..2026-11-15 Search | Poliweglan | Pl                                   addToCart_gtm                      call ringostat (по умолчанию)            173      0.00                    386                  -386.00                          NaN
+2026-04-01..2026-11-15 Search | Poliweglan | Pl                                   addToCart_gtm                    adcall ringostat (по умолчанию)            173      0.00                      8                    -8.00                          NaN
+2026-04-01..2026-11-15 Search | Poliweglan | Pl                                   addToCart_gtm                      form ringostat (по умолчанию)            173      0.00                    126                  -126.00                          NaN
+2026-04-01..2026-11-15 Search | Poliweglan | Pl                                   addToCart_gtm                     total ringostat (по умолчанию)            173      0.00                    520                  -520.00                          NaN
+2026-04-01..2026-11-15 Search | Poliweglan | Pl                                 form_submit_gtm                      call ringostat (по умолчанию)            173    250.31                    386                  -135.69                        0.509
+2026-04-01..2026-11-15 Search | Poliweglan | Pl                                 form_submit_gtm                    adcall ringostat (по умолчанию)            173    250.31                      8                   242.31                       -0.072
+2026-04-01..2026-11-15 Search | Poliweglan | Pl                                 form_submit_gtm                      form ringostat (по умолчанию)            173    250.31                    126                   124.31                        0.777
+2026-04-01..2026-11-15 Search | Poliweglan | Pl                                 form_submit_gtm                     total ringostat (по умолчанию)            173    250.31                    520                  -269.69                        0.669
+2026-04-01..2026-11-15 Search | Poliweglan | Pl   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                      call ringostat (по умолчанию)            173    375.41                    386                   -10.59                        0.833
+2026-04-01..2026-11-15 Search | Poliweglan | Pl   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                    adcall ringostat (по умолчанию)            173    375.41                      8                   367.41                        0.068
+2026-04-01..2026-11-15 Search | Poliweglan | Pl   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                      form ringostat (по умолчанию)            173    375.41                    126                   249.41                        0.492
+2026-04-01..2026-11-15 Search | Poliweglan | Pl   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                     total ringostat (по умолчанию)            173    375.41                    520                  -144.59                        0.798
+2026-04-01..2026-11-15 Search | Poliweglan | Pl mocnaszklarnia.pl - GA4 (web) addToCart_session                      call ringostat (по умолчанию)            173      0.00                    386                  -386.00                          NaN
+2026-04-01..2026-11-15 Search | Poliweglan | Pl mocnaszklarnia.pl - GA4 (web) addToCart_session                    adcall ringostat (по умолчанию)            173      0.00                      8                    -8.00                          NaN
+2026-04-01..2026-11-15 Search | Poliweglan | Pl mocnaszklarnia.pl - GA4 (web) addToCart_session                      form ringostat (по умолчанию)            173      0.00                    126                  -126.00                          NaN
+2026-04-01..2026-11-15 Search | Poliweglan | Pl mocnaszklarnia.pl - GA4 (web) addToCart_session                     total ringostat (по умолчанию)            173      0.00                    520                  -520.00                          NaN
+2026-04-01..2026-11-15 Search | Poliweglan | Pl       mocnaszklarnia.pl - GA4 (web) form_submit                      call ringostat (по умолчанию)            173      0.00                    386                  -386.00                          NaN
+2026-04-01..2026-11-15 Search | Poliweglan | Pl       mocnaszklarnia.pl - GA4 (web) form_submit                    adcall ringostat (по умолчанию)            173      0.00                      8                    -8.00                          NaN
+2026-04-01..2026-11-15 Search | Poliweglan | Pl       mocnaszklarnia.pl - GA4 (web) form_submit                      form ringostat (по умолчанию)            173      0.00                    126                  -126.00                          NaN
+2026-04-01..2026-11-15 Search | Poliweglan | Pl       mocnaszklarnia.pl - GA4 (web) form_submit                     total ringostat (по умолчанию)            173      0.00                    520                  -520.00                          NaN
+2026-04-01..2026-11-15 Search | Poliweglan | Pl                           Звонки по объявлениям                      call ringostat (по умолчанию)            173     16.16                    386                  -369.84                        0.321
+2026-04-01..2026-11-15 Search | Poliweglan | Pl                           Звонки по объявлениям                    adcall ringostat (по умолчанию)            173     16.16                      8                     8.16                        0.294
+2026-04-01..2026-11-15 Search | Poliweglan | Pl                           Звонки по объявлениям                      form ringostat (по умолчанию)            173     16.16                    126                  -109.84                        0.196
+2026-04-01..2026-11-15 Search | Poliweglan | Pl                           Звонки по объявлениям                     total ringostat (по умолчанию)            173     16.16                    520                  -503.84                        0.318
+2026-04-01..2026-11-15 Search | Poliweglan | Pl                                  Клик по номеру                      call ringostat (по умолчанию)            173      0.00                    386                  -386.00                          NaN
+2026-04-01..2026-11-15 Search | Poliweglan | Pl                                  Клик по номеру                    adcall ringostat (по умолчанию)            173      0.00                      8                    -8.00                          NaN
+2026-04-01..2026-11-15 Search | Poliweglan | Pl                                  Клик по номеру                      form ringostat (по умолчанию)            173      0.00                    126                  -126.00                          NaN
+2026-04-01..2026-11-15 Search | Poliweglan | Pl                                  Клик по номеру                     total ringostat (по умолчанию)            173      0.00                    520                  -520.00                          NaN
+2026-04-01..2026-11-15               pmax1_test   Ringostat — уникальный звонок (офлайн, gclid)                      call ringostat (по умолчанию)            117      0.00                    228                  -228.00                          NaN
+2026-04-01..2026-11-15               pmax1_test   Ringostat — уникальный звонок (офлайн, gclid)                    adcall ringostat (по умолчанию)            117      0.00                     20                   -20.00                          NaN
+2026-04-01..2026-11-15               pmax1_test   Ringostat — уникальный звонок (офлайн, gclid)                      form ringostat (по умолчанию)            117      0.00                     42                   -42.00                          NaN
+2026-04-01..2026-11-15               pmax1_test   Ringostat — уникальный звонок (офлайн, gclid)                     total ringostat (по умолчанию)            117      0.00                    290                  -290.00                          NaN
+2026-04-01..2026-11-15               pmax1_test                                   addToCart_gtm                      call ringostat (по умолчанию)            117      0.00                    228                  -228.00                          NaN
+2026-04-01..2026-11-15               pmax1_test                                   addToCart_gtm                    adcall ringostat (по умолчанию)            117      0.00                     20                   -20.00                          NaN
+2026-04-01..2026-11-15               pmax1_test                                   addToCart_gtm                      form ringostat (по умолчанию)            117      0.00                     42                   -42.00                          NaN
+2026-04-01..2026-11-15               pmax1_test                                   addToCart_gtm                     total ringostat (по умолчанию)            117      0.00                    290                  -290.00                          NaN
+2026-04-01..2026-11-15               pmax1_test                                 form_submit_gtm                      call ringostat (по умолчанию)            117     71.19                    228                  -156.81                        0.394
+2026-04-01..2026-11-15               pmax1_test                                 form_submit_gtm                    adcall ringostat (по умолчанию)            117     71.19                     20                    51.19                        0.024
+2026-04-01..2026-11-15               pmax1_test                                 form_submit_gtm                      form ringostat (по умолчанию)            117     71.19                     42                    29.19                        0.623
+2026-04-01..2026-11-15               pmax1_test                                 form_submit_gtm                     total ringostat (по умолчанию)            117     71.19                    290                  -218.81                        0.533
+2026-04-01..2026-11-15               pmax1_test   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                      call ringostat (по умолчанию)            117    130.20                    228                   -97.80                        0.669
+2026-04-01..2026-11-15               pmax1_test   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                    adcall ringostat (по умолчанию)            117    130.20                     20                   110.20                        0.128
+2026-04-01..2026-11-15               pmax1_test   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                      form ringostat (по умолчанию)            117    130.20                     42                    88.20                        0.299
+2026-04-01..2026-11-15               pmax1_test   mocnaszklarnia.pl - GA4 (web) Ringostat_calls                     total ringostat (по умолчанию)            117    130.20                    290                  -159.80                        0.653
+2026-04-01..2026-11-15               pmax1_test mocnaszklarnia.pl - GA4 (web) addToCart_session                      call ringostat (по умолчанию)            117      0.00                    228                  -228.00                          NaN
+2026-04-01..2026-11-15               pmax1_test mocnaszklarnia.pl - GA4 (web) addToCart_session                    adcall ringostat (по умолчанию)            117      0.00                     20                   -20.00                          NaN
+2026-04-01..2026-11-15               pmax1_test mocnaszklarnia.pl - GA4 (web) addToCart_session                      form ringostat (по умолчанию)            117      0.00                     42                   -42.00                          NaN
+2026-04-01..2026-11-15               pmax1_test mocnaszklarnia.pl - GA4 (web) addToCart_session                     total ringostat (по умолчанию)            117      0.00                    290                  -290.00                          NaN
+2026-04-01..2026-11-15               pmax1_test       mocnaszklarnia.pl - GA4 (web) form_submit                      call ringostat (по умолчанию)            117      0.00                    228                  -228.00                          NaN
+2026-04-01..2026-11-15               pmax1_test       mocnaszklarnia.pl - GA4 (web) form_submit                    adcall ringostat (по умолчанию)            117      0.00                     20                   -20.00                          NaN
+2026-04-01..2026-11-15               pmax1_test       mocnaszklarnia.pl - GA4 (web) form_submit                      form ringostat (по умолчанию)            117      0.00                     42                   -42.00                          NaN
+2026-04-01..2026-11-15               pmax1_test       mocnaszklarnia.pl - GA4 (web) form_submit                     total ringostat (по умолчанию)            117      0.00                    290                  -290.00                          NaN
+2026-04-01..2026-11-15               pmax1_test                           Звонки по объявлениям                      call ringostat (по умолчанию)            117     16.01                    228                  -211.99                        0.122
+2026-04-01..2026-11-15               pmax1_test                           Звонки по объявлениям                    adcall ringostat (по умолчанию)            117     16.01                     20                    -3.99                        0.709
+2026-04-01..2026-11-15               pmax1_test                           Звонки по объявлениям                      form ringostat (по умолчанию)            117     16.01                     42                   -25.99                        0.102
+2026-04-01..2026-11-15               pmax1_test                           Звонки по объявлениям                     total ringostat (по умолчанию)            117     16.01                    290                  -273.99                        0.255
+2026-04-01..2026-11-15               pmax1_test                                  Клик по номеру                      call ringostat (по умолчанию)            117      0.00                    228                  -228.00                          NaN
+2026-04-01..2026-11-15               pmax1_test                                  Клик по номеру                    adcall ringostat (по умолчанию)            117      0.00                     20                   -20.00                          NaN
+2026-04-01..2026-11-15               pmax1_test                                  Клик по номеру                      form ringostat (по умолчанию)            117      0.00                     42                   -42.00                          NaN
+2026-04-01..2026-11-15               pmax1_test                                  Клик по номеру                     total ringostat (по умолчанию)            117      0.00                    290                  -290.00                          NaN
+
+Недель в ряду T=67 (с 2025-08-04), T_допустимая цена заявки = 22.0 €
+
+[device] допущено кампаний: ['Search | Brand | Pl', 'Search | Poliweglan | Pl', 'pmax1_test']; сегментов: 10
+
+[hour] допущено кампаний: ['Search | Brand | Pl', 'Search | Poliweglan | Pl', 'pmax1_test']; сегментов: 38
+
+[network] допущено кампаний: ['Search | Brand | Pl', 'Search | Poliweglan | Pl', 'pmax1_test']; сегментов: 10
+
+[geo] шаг 0 НЕ пройден ни по одной фокус-кампании - шаги 1-3 не запускаются.
+
+[adgroup] допущено кампаний: ['Search | Brand | Pl', 'Search | Poliweglan | Pl']; сегментов: 21
+
+[keyword] допущено кампаний: ['Search | Brand | Pl']; сегментов: 16
+
+[term] шаг 0 НЕ пройден ни по одной фокус-кампании - шаги 1-3 не запускаются.
+
+[assetgroup] допущено кампаний: ['pmax1_test']; сегментов: 7
+
+[pmax_term] шаг 0 НЕ пройден ни по одной фокус-кампании - шаги 1-3 не запускаются.
+
+[dow] допущено кампаний: ['Search | Brand | Pl', 'Search | Poliweglan | Pl', 'pmax1_test']; сегментов: 18
+
+=== ШАГ 1: вердикт «тратит впустую» устойчив? (k=3; подтверждено, если верхняя граница ДИ95 отношения наблюдаемое/ожидаемое < 1 для ОБОИХ горизонтов) ===
+      срез  окно_нед  горизонт_нед   k  флагов  сегментов_с_флагом  наблюдено_конв  ожидалось_конв  отношение_набл_к_ожид  ДИ95_нижн  ДИ95_верх  p_бутстреп_R<1 подтверждено_верх<1                          примечание  p_Холм_семья_окно_x_горизонт
+    device         1             1 3.0       5                   4           15.24            7.53                 2.0231     0.3144   128.0241          0.7352               False                                 NaN                        1.0000
+    device         1             2 3.0       5                   4           33.36           15.64                 2.1329     0.5903    21.9286          0.8118               False                                 NaN                        1.0000
+    device         2             1 3.0       4                   2           11.06            6.09                 1.8163     1.7102     2.1817          1.0000               False                                 NaN                        1.0000
+    device         2             2 3.0       4                   2           21.57           15.12                 1.4260     1.3522     1.7492          1.0000               False                                 NaN                        1.0000
+    device         3             1 3.0       1                   1            6.07            4.30                 1.4132        NaN        NaN             NaN               False 1 сегмент с флагом: ДИ не определён                           NaN
+    device         3             2 3.0       1                   1            7.57            9.44                 0.8026        NaN        NaN             NaN               False 1 сегмент с флагом: ДИ не определён                           NaN
+    device         4             1 3.0       0                   0             NaN             NaN                    NaN        NaN        NaN             NaN                 NaN                                 NaN                           NaN
+    device         4             2 3.0       0                   0             NaN             NaN                    NaN        NaN        NaN             NaN                 NaN                                 NaN                           NaN
+    device         6             1 3.0       0                   0             NaN             NaN                    NaN        NaN        NaN             NaN                 NaN                                 NaN                           NaN
+    device         6             2 3.0       0                   0             NaN             NaN                    NaN        NaN        NaN             NaN                 NaN                                 NaN                           NaN
+      hour         1             1 3.0       4                   4           10.67           12.88                 0.8288     0.0000     1.3112          0.2499               False                                 NaN                        1.0000
+      hour         1             2 3.0       4                   4           31.94           27.84                 1.1475     0.0000     1.5521          0.8001               False                                 NaN                        1.0000
+      hour         2             1 3.0      16                   8            5.37           12.54                 0.4281     0.2248     0.6379          0.0005                True                                 NaN                        0.0050
+      hour         2             2 3.0      16                   8           12.56           21.66                 0.5798     0.2663     0.8539          0.0025                True                                 NaN                        0.0200
+      hour         3             1 3.0      22                  12            8.74           18.03                 0.4845     0.2973     0.7315          0.0005                True                                 NaN                        0.0050
+      hour         3             2 3.0      22                  12           22.96           33.90                 0.6773     0.4370     0.9669          0.0175                True                                 NaN                        0.1225
+      hour         4             1 3.0      22                  11           10.24           12.04                 0.8506     0.5111     1.7419          0.3298               False                                 NaN                        1.0000
+      hour         4             2 3.0      22                  11           20.84           22.44                 0.9288     0.6275     1.4465          0.3563               False                                 NaN                        1.0000
+      hour         6             1 3.0      14                   7            5.75            5.88                 0.9787     0.5496     1.7727          0.4563               False                                 NaN                        1.0000
+      hour         6             2 3.0      14                   7           11.42           12.53                 0.9113     0.5119     1.5845          0.3393               False                                 NaN                        1.0000
+   network         1             1 3.0       1                   1            1.00            0.00                    NaN        NaN        NaN             NaN                 NaN                                 NaN                           NaN
+   network         1             2 3.0       1                   1            1.00            0.00                    NaN        NaN        NaN             NaN                 NaN                                 NaN                           NaN
+   network         2             1 3.0       0                   0             NaN             NaN                    NaN        NaN        NaN             NaN                 NaN                                 NaN                           NaN
+   network         2             2 3.0       0                   0             NaN             NaN                    NaN        NaN        NaN             NaN                 NaN                                 NaN                           NaN
+   network         3             1 3.0       0                   0             NaN             NaN                    NaN        NaN        NaN             NaN                 NaN                                 NaN                           NaN
+   network         3             2 3.0       0                   0             NaN             NaN                    NaN        NaN        NaN             NaN                 NaN                                 NaN                           NaN
+   network         4             1 3.0       0                   0             NaN             NaN                    NaN        NaN        NaN             NaN                 NaN                                 NaN                           NaN
+   network         4             2 3.0       0                   0             NaN             NaN                    NaN        NaN        NaN             NaN                 NaN                                 NaN                           NaN
+   network         6             1 3.0       0                   0             NaN             NaN                    NaN        NaN        NaN             NaN                 NaN                                 NaN                           NaN
+   network         6             2 3.0       0                   0             NaN             NaN                    NaN        NaN        NaN             NaN                 NaN                                 NaN                           NaN
+   adgroup         1             1 3.0       9                   5           10.98           12.39                 0.8862     0.5200     1.4124          0.3213               False                                 NaN                        1.0000
+   adgroup         1             2 3.0       9                   5           38.26           27.93                 1.3695     1.0488     1.7892          0.9850               False                                 NaN                        1.0000
+   adgroup         2             1 3.0      13                   5           21.70           17.23                 1.2594     0.6414     1.6982          0.8646               False                                 NaN                        1.0000
+   adgroup         2             2 3.0      13                   5           39.09           32.81                 1.1916     0.8328     1.3021          0.8736               False                                 NaN                        1.0000
+   adgroup         3             1 3.0       8                   5            9.98            7.40                 1.3489     0.7521     2.6798          0.7956               False                                 NaN                        1.0000
+   adgroup         3             2 3.0       7                   4           16.88           12.21                 1.3828     1.1461     1.6045          1.0000               False                                 NaN                        1.0000
+   adgroup         4             1 3.0       3                   3            3.79            4.33                 0.8755     0.6684     2.7263          0.2779               False                                 NaN                        1.0000
+   adgroup         4             2 3.0       3                   3            7.59            5.94                 1.2790     0.6909     3.7113          0.8521               False                                 NaN                        1.0000
+   adgroup         6             1 3.0       2                   1            2.00            5.47                 0.3659        NaN        NaN             NaN               False 1 сегмент с флагом: ДИ не определён                           NaN
+   adgroup         6             2 3.0       2                   1            6.28           11.11                 0.5651        NaN        NaN             NaN               False 1 сегмент с флагом: ДИ не определён                           NaN
+   keyword         1             1 3.0       0                   0             NaN             NaN                    NaN        NaN        NaN             NaN                 NaN                                 NaN                           NaN
+   keyword         1             2 3.0       0                   0             NaN             NaN                    NaN        NaN        NaN             NaN                 NaN                                 NaN                           NaN
+   keyword         2             1 3.0       0                   0             NaN             NaN                    NaN        NaN        NaN             NaN                 NaN                                 NaN                           NaN
+   keyword         2             2 3.0       0                   0             NaN             NaN                    NaN        NaN        NaN             NaN                 NaN                                 NaN                           NaN
+   keyword         3             1 3.0       2                   2            4.33            3.15                 1.3738     0.9052     3.4680          0.7306               False                                 NaN                        0.7306
+   keyword         3             2 3.0       2                   2            5.33            7.25                 0.7352     0.5689     1.4332          0.2499               False                                 NaN                        0.4998
+   keyword         4             1 3.0       2                   1            0.50            3.64                 0.1375        NaN        NaN             NaN               False 1 сегмент с флагом: ДИ не определён                           NaN
+   keyword         4             2 3.0       2                   1            5.04            7.46                 0.6761        NaN        NaN             NaN               False 1 сегмент с флагом: ДИ не определён                           NaN
+   keyword         6             1 3.0       0                   0             NaN             NaN                    NaN        NaN        NaN             NaN                 NaN                                 NaN                           NaN
+   keyword         6             2 3.0       0                   0             NaN             NaN                    NaN        NaN        NaN             NaN                 NaN                                 NaN                           NaN
+assetgroup         1             1 3.0       2                   2            0.00            0.02                 0.0000     0.0000     0.0000          0.0005                True                                 NaN                        0.0030
+assetgroup         1             2 3.0       2                   2            0.00            0.56                 0.0000     0.0000     0.0000          0.0005                True                                 NaN                        0.0030
+assetgroup         2             1 3.0       2                   2            0.00            0.58                 0.0000     0.0000     0.0000          0.0005                True                                 NaN                        0.0030
+assetgroup         2             2 3.0       2                   2            4.00            1.55                 2.5768     0.0000     4.9949          0.7306               False                                 NaN                        1.0000
+assetgroup         3             1 3.0       2                   2            4.00            0.89                 4.4779     0.0000     8.1738          0.7306               False                                 NaN                        1.0000
+assetgroup         3             2 3.0       2                   2           13.00            5.16                 2.5187     1.4060     2.9419          1.0000               False                                 NaN                        1.0000
+assetgroup         4             1 3.0       1                   1            2.00            1.08                 1.8509        NaN        NaN             NaN               False 1 сегмент с флагом: ДИ не определён                           NaN
+assetgroup         4             2 3.0       1                   1            2.00            1.08                 1.8509        NaN        NaN             NaN               False 1 сегмент с флагом: ДИ не определён                           NaN
+assetgroup         6             1 3.0       0                   0             NaN             NaN                    NaN        NaN        NaN             NaN                 NaN                                 NaN                           NaN
+assetgroup         6             2 3.0       0                   0             NaN             NaN                    NaN        NaN        NaN             NaN                 NaN                                 NaN                           NaN
+       dow         1             1 3.0      12                   8           18.22           18.70                 0.9743     0.8328     1.2661          0.3878               False                                 NaN                        1.0000
+       dow         1             2 3.0      12                   8           41.12           42.36                 0.9707     0.7354     1.3133          0.4233               False                                 NaN                        1.0000
+       dow         2             1 3.0      13                   8           17.22           19.09                 0.9023     0.7051     1.0799          0.1354               False                                 NaN                        1.0000
+       dow         2             2 3.0      12                   7           28.57           31.07                 0.9197     0.7237     1.0784          0.1629               False                                 NaN                        1.0000
+       dow         3             1 3.0       7                   3            6.83            6.95                 0.9827     0.0000     1.7469          0.3668               False                                 NaN                        1.0000
+       dow         3             2 3.0       7                   3           21.63           19.82                 1.0915     0.0000     1.3704          0.8311               False                                 NaN                        1.0000
+       dow         4             1 3.0       7                   5           12.25           10.13                 1.2087     0.8138     2.3842          0.7280               False                                 NaN                        1.0000
+       dow         4             2 3.0       7                   5           27.08           28.26                 0.9583     0.8365     1.3590          0.3260               False                                 NaN                        1.0000
+       dow         6             1 3.0       6                   3           10.02            9.52                 1.0526     0.1809     2.5151          0.6827               False                                 NaN                        1.0000
+       dow         6             2 3.0       6                   3           20.86           22.25                 0.9374     0.1473     1.3864          0.2484               False                                 NaN                        1.0000
+
+ШАГ 1, итог по срезу и окну (критерий: верхняя граница ДИ95 < 1 для обоих горизонтов):
+      срез  окно_нед  флагов_сумма_по_2_горизонтам горизонтов_подтверждено  критерий_шага1_пройден_(оба_горизонта)
+   adgroup         1                            18                       0                                   False
+   adgroup         2                            26                       0                                   False
+   adgroup         3                            15                       0                                   False
+   adgroup         4                             6                       0                                   False
+   adgroup         6                             4                       0                                   False
+assetgroup         1                             4                       2                                    True
+assetgroup         2                             4                       1                                   False
+assetgroup         3                             4                       0                                   False
+assetgroup         4                             2                       0                                   False
+assetgroup         6                             0                       0                                   False
+    device         1                            10                       0                                   False
+    device         2                             8                       0                                   False
+    device         3                             2                       0                                   False
+    device         4                             0                       0                                   False
+    device         6                             0                       0                                   False
+       dow         1                            24                       0                                   False
+       dow         2                            25                       0                                   False
+       dow         3                            14                       0                                   False
+       dow         4                            14                       0                                   False
+       dow         6                            12                       0                                   False
+      hour         1                             8                       0                                   False
+      hour         2                            32                       2                                    True
+      hour         3                            44                       2                                    True
+      hour         4                            44                       0                                   False
+      hour         6                            28                       0                                   False
+   keyword         1                             0                       0                                   False
+   keyword         2                             0                       0                                   False
+   keyword         3                             4                       0                                   False
+   keyword         4                             4                       0                                   False
+   keyword         6                             0                       0                                   False
+   network         1                             2                       0                                   False
+   network         2                             0                       0                                   False
+   network         3                             0                       0                                   False
+   network         4                             0                       0                                   False
+   network         6                             0                       0                                   False
+
+=== ШАГ 1: калибровка e^-k (Пуассон подходит, если ожидаемая доля нулей внутри ДИ Уилсона наблюдаемой; корзин внутри / всего) ===
+      срез  окно_нед  корзин  внутри
+   adgroup         1       8       8
+   adgroup         2       8       8
+   adgroup         3       8       8
+   adgroup         4       8       8
+   adgroup         6       8       8
+assetgroup         1       8       8
+assetgroup         2       8       7
+assetgroup         3       8       6
+assetgroup         4       8       6
+assetgroup         6       8       6
+    device         1       8       7
+    device         2       8       8
+    device         3       8       7
+    device         4       8       7
+    device         6       8       6
+       dow         1       8       6
+       dow         2       8       7
+       dow         3       8       8
+       dow         4       8       8
+       dow         6       8       8
+      hour         1       8       6
+      hour         2       8       7
+      hour         3       8       7
+      hour         4       8       7
+      hour         6       8       4
+   keyword         1       8       7
+   keyword         2       8       6
+   keyword         3       8       7
+   keyword         4       8       7
+   keyword         6       8       8
+   network         1       8       8
+   network         2       8       8
+   network         3       8       7
+   network         4       8       8
+   network         6       8       8
+
+=== ШАГ 2: окна и эталон ===
+      срез  окно_нед  строк_сегмент_неделя  сегментов_кластеров  девианс_суммарный  девианс_эталона  девианс_на_строку  kappa_медиана_€  доля_недель_kappa_на_краю_сетки
+    device         1                   407                   10             838.29          1342.88             2.0597             30.0                            0.000
+    device         2                   407                   10             635.14           969.42             1.5605             30.0                            0.000
+    device         3                   407                   10             607.32           928.63             1.4922             30.0                            0.000
+    device         4                   407                   10             599.09           883.78             1.4720             30.0                            0.015
+    device         6                   407                   10             613.11           850.38             1.5064             30.0                            0.015
+      hour         1                  1634                   38            1982.80          1987.42             1.2135            300.0                            0.000
+      hour         2                  1634                   38            1846.16          1842.89             1.1298            300.0                            0.015
+      hour         3                  1634                   38            1836.42          1826.36             1.1239            300.0                            0.015
+      hour         4                  1634                   38            1807.32          1799.23             1.1061           1000.0                            0.000
+      hour         6                  1634                   38            1825.29          1815.87             1.1171           1000.0                            0.000
+   network         1                   235                   10             853.28         79671.43             3.6310              0.3                            0.072
+   network         2                   235                   10             640.14         26052.31             2.7240              1.0                            0.085
+   network         3                   235                   10             620.58         14499.14             2.6408              3.0                            0.098
+   network         4                   235                   10             551.55         10642.20             2.3470             10.0                            0.111
+   network         6                   235                   10             543.56          7905.79             2.3130             10.0                            0.034
+   adgroup         1                   923                   20            1221.81          1271.84             1.3237            100.0                            0.036
+   adgroup         2                   923                   20            1095.52          1172.67             1.1869            100.0                            0.017
+   adgroup         3                   923                   20            1091.03          1151.95             1.1820            300.0                            0.080
+   adgroup         4                   923                   20            1057.07          1122.59             1.1453            300.0                            0.036
+   adgroup         6                   923                   20            1063.49          1120.63             1.1522            300.0                            0.065
+   keyword         1                   626                   16             825.08           876.09             1.3180             30.0                            0.000
+   keyword         2                   626                   16             730.86           821.04             1.1675            100.0                            0.000
+   keyword         3                   626                   16             742.01           808.64             1.1853            100.0                            0.014
+   keyword         4                   626                   16             715.96           791.29             1.1437            100.0                            0.030
+   keyword         6                   626                   16             714.10           784.83             1.1407            300.0                            0.030
+assetgroup         1                   113                    7             232.17           250.02             2.0546             30.0                            0.000
+assetgroup         2                   113                    7             175.98           208.00             1.5573             30.0                            0.000
+assetgroup         3                   113                    7             175.49           187.05             1.5530             30.0                            0.000
+assetgroup         4                   113                    7             171.99           184.58             1.5220            100.0                            0.000
+assetgroup         6                   113                    7             174.55           183.86             1.5447             30.0                            0.000
+       dow         1                   759                   18            1360.76          1409.26             1.7928            100.0                            0.000
+       dow         2                   759                   18            1205.86          1249.24             1.5887            300.0                            0.000
+       dow         3                   759                   18            1213.11          1215.94             1.5983            300.0                            0.000
+       dow         4                   759                   18            1186.86          1184.01             1.5637            300.0                            0.000
+       dow         6                   759                   18            1194.49          1200.53             1.5738            300.0                            0.000
+  вердикт [adgroup]: НИ ОДНО окно не лучше эталона (Холм 5 %): данные сегмента не предсказывают, ранжировать сегменты по заявкам нельзя
+  вердикт [assetgroup]: НИ ОДНО окно не лучше эталона (Холм 5 %): данные сегмента не предсказывают, ранжировать сегменты по заявкам нельзя
+  вердикт [device]: лучшее по ошибке окно 4 нед., но разница с более коротким (2, 3 нед.) не значима: окна НЕ РАЗЛИЧИМЫ, окно не назначается
+  вердикт [dow]: НИ ОДНО окно не лучше эталона (Холм 5 %): данные сегмента не предсказывают, ранжировать сегменты по заявкам нельзя
+  вердикт [hour]: НИ ОДНО окно не лучше эталона (Холм 5 %): данные сегмента не предсказывают, ранжировать сегменты по заявкам нельзя
+  вердикт [keyword]: НИ ОДНО окно не лучше эталона (Холм 5 %): данные сегмента не предсказывают, ранжировать сегменты по заявкам нельзя
+  вердикт [network]: НИ ОДНО окно не лучше эталона (Холм 5 %): данные сегмента не предсказывают, ранжировать сегменты по заявкам нельзя
+
+=== ШАГ 3: порог k (ложная тревога; наименьшее k с верхней границей Уилсона <= 5 %) ===
+      срез  окно_нед   k  флагов  флагов_с_расходом_след2нед>=T  ложных  доля_ложных  Уилсон_верх95  под_риском_(S>=kT и S_след>=T)  ожидаемо_ложных_при_чистом_Пуассоне  расход_флагов_след2нед_€  k_проходит_верх<=5%
+    device         1 1.0      14                             13       6       0.4615         0.7086                             238                                87.56                    2510.6                False
+    device         1 1.5      11                             10       4       0.4000         0.6873                             218                                48.64                    2090.9                False
+    device         1 2.0       7                              7       1       0.1429         0.5131                             197                                26.66                    1825.1                False
+    device         1 2.5       7                              7       1       0.1429         0.5131                             181                                14.86                    1825.1                False
+    device         1 3.0       5                              5       1       0.2000         0.6245                             163                                 8.12                    1390.6                False
+    device         1 4.0       2                              2       0       0.0000         0.6576                             145                                 2.66                     274.5                False
+    device         1 5.0       1                              1       0       0.0000         0.7935                             132                                 0.89                     163.5                False
+    device         2 1.0      13                              9       3       0.3333         0.6458                             251                                92.34                    1657.2                False
+    device         2 1.5       7                              6       2       0.3333         0.7000                             243                                54.22                    1466.7                False
+    device         2 2.0       5                              5       2       0.4000         0.7693                             236                                31.94                     850.6                False
+    device         2 2.5       5                              5       2       0.4000         0.7693                             229                                18.80                     850.6                False
+    device         2 3.0       4                              4       1       0.2500         0.6994                             220                                10.95                     774.6                False
+    device         2 4.0       2                              2       0       0.0000         0.6576                             196                                 3.59                     331.4                False
+    device         2 5.0       1                              1       0       0.0000         0.7935                             177                                 1.19                     111.0                False
+    device         3 1.0      10                              4       0       0.0000         0.4899                             255                                93.81                    1039.5                False
+    device         3 1.5       4                              2       0       0.0000         0.6576                             249                                55.56                     979.7                False
+    device         3 2.0       1                              1       0       0.0000         0.7935                             244                                33.02                     349.2                False
+    device         3 2.5       1                              1       0       0.0000         0.7935                             237                                19.45                     349.2                False
+    device         3 3.0       1                              1       0       0.0000         0.7935                             235                                11.70                     349.2                False
+    device         3 4.0       1                              1       0       0.0000         0.7935                             226                                 4.14                     349.2                False
+    device         3 5.0       1                              1       0       0.0000         0.7935                             211                                 1.42                     349.2                False
+    device         4 1.0      12                              3       1       0.3333         0.7923                             257                                94.55                     715.2                False
+    device         4 1.5       5                              1       0       0.0000         0.7935                             252                                56.23                     641.4                False
+    device         4 2.0       0                              0       0          NaN            NaN                             247                                33.43                       0.0                False
+    device         4 2.5       0                              0       0          NaN            NaN                             242                                19.86                       0.0                False
+    device         4 3.0       0                              0       0          NaN            NaN                             236                                11.75                       0.0                False
+    device         4 4.0       0                              0       0          NaN            NaN                             232                                 4.25                       0.0                False
+    device         4 5.0       0                              0       0          NaN            NaN                             224                                 1.51                       0.0                False
+    device         6 1.0      18                              3       1       0.3333         0.7923                             259                                95.28                     759.5                False
+    device         6 1.5       5                              1       0       0.0000         0.7935                             254                                56.68                     628.0                False
+    device         6 2.0       2                              0       0          NaN            NaN                             249                                33.70                       2.1                False
+    device         6 2.5       0                              0       0          NaN            NaN                             249                                20.44                       0.0                False
+    device         6 3.0       0                              0       0          NaN            NaN                             244                                12.15                       0.0                False
+    device         6 4.0       0                              0       0          NaN            NaN                             235                                 4.30                       0.0                False
+    device         6 5.0       0                              0       0          NaN            NaN                             230                                 1.55                       0.0                False
+      hour         1 1.0     109                            101      22       0.2178         0.3078                             657                               241.70                    7505.7                False
+      hour         1 1.5      64                             61      11       0.1803         0.2947                             478                               106.66                    4982.1                False
+      hour         1 2.0      20                             20       6       0.3000         0.5190                             339                                45.88                    1954.0                False
+      hour         1 2.5       7                              7       4       0.5714         0.8418                             255                                20.93                     802.6                False
+      hour         1 3.0       4                              4       2       0.5000         0.8500                             205                                10.21                     634.5                False
+      hour         1 4.0       1                              1       0       0.0000         0.7935                             139                                 2.55                      57.9                False
+      hour         1 5.0       0                              0       0          NaN            NaN                              89                                 0.60                       0.0                False
+      hour         2 1.0     128                             91      16       0.1758         0.2667                             911                               335.14                    5560.7                False
+      hour         2 1.5      77                             60       8       0.1333         0.2417                             798                               178.06                    3815.4                False
+      hour         2 2.0      44                             41       5       0.1220         0.2554                             672                                90.95                    2776.6                False
+      hour         2 2.5      25                             23       2       0.0870         0.2680                             552                                45.31                    1691.1                False
+      hour         2 3.0      16                             15       1       0.0667         0.2982                             477                                23.75                    1000.0                False
+      hour         2 4.0       5                              4       0       0.0000         0.4899                             347                                 6.36                     273.8                False
+      hour         2 5.0       2                              1       0       0.0000         0.7935                             264                                 1.78                      77.0                False
+      hour         3 1.0     119                             70      18       0.2571         0.3703                             960                               353.16                    4288.1                False
+      hour         3 1.5      79                             50       9       0.1800         0.3080                             889                               198.36                    3269.3                False
+      hour         3 2.0      53                             37       5       0.1351         0.2798                             811                               109.76                    2364.4                False
+      hour         3 2.5      35                             31       4       0.1290         0.2885                             723                                59.35                    1917.5                False
+      hour         3 3.0      22                             19       1       0.0526         0.2464                             652                                32.46                    1354.3                False
+      hour         3 4.0      12                             11       1       0.0909         0.3774                             538                                 9.85                     662.9                False
+      hour         3 5.0       7                              6       0       0.0000         0.3903                             436                                 2.94                     382.1                False
+      hour         4 1.0      97                             58      18       0.3103         0.4380                             987                               363.10                    3466.0                False
+      hour         4 1.5      62                             39       9       0.2308         0.3834                             920                               205.28                    2534.9                False
+      hour         4 2.0      45                             27       6       0.2222         0.4076                             858                               116.12                    1733.6                False
+      hour         4 2.5      29                             18       3       0.1667         0.3922                             795                                65.26                    1239.5                False
+      hour         4 3.0      22                             14       1       0.0714         0.3147                             739                                36.79                     932.4                False
+      hour         4 4.0      12                              9       1       0.1111         0.4350                             643                                11.78                     588.7                False
+      hour         4 5.0       7                              6       0       0.0000         0.3903                             553                                 3.73                     328.5                False
+      hour         6 1.0      48                             24       5       0.2083         0.4047                             987                               363.10                    1252.2                False
+      hour         6 1.5      34                             21       5       0.2381         0.4509                             955                               213.09                    1103.2                False
+      hour         6 2.0      28                             18       4       0.2222         0.4521                             910                               123.16                     924.2                False
+      hour         6 2.5      20                             13       2       0.1538         0.4223                             852                                69.94                     684.2                False
+      hour         6 3.0      14                              9       2       0.2222         0.5474                             808                                40.23                     471.2                False
+      hour         6 4.0       7                              4       1       0.2500         0.6994                             709                                12.99                     181.4                False
+      hour         6 5.0       1                              1       0       0.0000         0.7935                             646                                 4.35                      33.5                False
+   network         1 1.0       5                              3       0       0.0000         0.5615                             148                                54.45                     858.2                False
+   network         1 1.5       4                              3       0       0.0000         0.5615                             147                                32.80                     856.2                False
+   network         1 2.0       2                              2       0       0.0000         0.6576                             142                                19.22                     557.2                False
+   network         1 2.5       2                              2       0       0.0000         0.6576                             134                                11.00                     557.2                False
+   network         1 3.0       2                              2       0       0.0000         0.6576                             127                                 6.32                     557.2                False
+   network         1 4.0       0                              0       0          NaN            NaN                             114                                 2.09                       0.0                False
+   network         1 5.0       0                              0       0          NaN            NaN                             110                                 0.74                       0.0                False
+   network         2 1.0       5                              2       0       0.0000         0.6576                             159                                58.49                     498.6                False
+   network         2 1.5       2                              2       0       0.0000         0.6576                             158                                35.25                     491.4                False
+   network         2 2.0       2                              2       0       0.0000         0.6576                             155                                20.98                     491.4                False
+   network         2 2.5       1                              1       0       0.0000         0.7935                             153                                12.56                     467.7                False
+   network         2 3.0       1                              1       0       0.0000         0.7935                             150                                 7.47                     467.7                False
+   network         2 4.0       1                              1       0       0.0000         0.7935                             142                                 2.60                     467.7                False
+   network         2 5.0       1                              1       0       0.0000         0.7935                             136                                 0.92                     467.7                False
+   network         3 1.0       2                              0       0          NaN            NaN                             159                                58.49                       4.4                False
+   network         3 1.5       0                              0       0          NaN            NaN                             158                                35.25                       0.0                False
+   network         3 2.0       0                              0       0          NaN            NaN                             158                                21.38                       0.0                False
+   network         3 2.5       0                              0       0          NaN            NaN                             158                                12.97                       0.0                False
+   network         3 3.0       0                              0       0          NaN            NaN                             156                                 7.77                       0.0                False
+   network         3 4.0       0                              0       0          NaN            NaN                             151                                 2.77                       0.0                False
+   network         3 5.0       0                              0       0          NaN            NaN                             147                                 0.99                       0.0                False
+   network         4 1.0       2                              0       0          NaN            NaN                             159                                58.49                       8.9                False
+   network         4 1.5       0                              0       0          NaN            NaN                             158                                35.25                       0.0                False
+   network         4 2.0       0                              0       0          NaN            NaN                             158                                21.38                       0.0                False
+   network         4 2.5       0                              0       0          NaN            NaN                             158                                12.97                       0.0                False
+   network         4 3.0       0                              0       0          NaN            NaN                             156                                 7.77                       0.0                False
+   network         4 4.0       0                              0       0          NaN            NaN                             153                                 2.80                       0.0                False
+   network         4 5.0       0                              0       0          NaN            NaN                             150                                 1.01                       0.0                False
+   network         6 1.0       3                              0       0          NaN            NaN                             161                                59.23                      22.1                False
+   network         6 1.5       0                              0       0          NaN            NaN                             158                                35.25                       0.0                False
+   network         6 2.0       0                              0       0          NaN            NaN                             158                                21.38                       0.0                False
+   network         6 2.5       0                              0       0          NaN            NaN                             157                                12.89                       0.0                False
+   network         6 3.0       0                              0       0          NaN            NaN                             156                                 7.77                       0.0                False
+   network         6 4.0       0                              0       0          NaN            NaN                             153                                 2.80                       0.0                False
+   network         6 5.0       0                              0       0          NaN            NaN                             151                                 1.02                       0.0                False
+   adgroup         1 1.0      60                             51      15       0.2941         0.4300                             416                               153.04                    5111.7                False
+   adgroup         1 1.5      36                             34      11       0.3235         0.4916                             334                                74.53                    3906.8                False
+   adgroup         1 2.0      23                             22       6       0.2727         0.4815                             269                                36.41                    2968.4                False
+   adgroup         1 2.5      16                             16       5       0.3125         0.5560                             232                                19.04                    2277.0                False
+   adgroup         1 3.0       9                              9       4       0.4444         0.7333                             201                                10.01                     999.6                False
+   adgroup         1 4.0       2                              2       1       0.5000         0.9055                             144                                 2.64                     193.0                False
+   adgroup         1 5.0       0                              0       0          NaN            NaN                             110                                 0.74                       0.0                False
+   adgroup         2 1.0      45                             33      11       0.3333         0.5039                             494                               181.73                    2773.9                False
+   adgroup         2 1.5      32                             27       6       0.2222         0.4076                             463                               103.31                    2171.0                False
+   adgroup         2 2.0      21                             19       4       0.2105         0.4333                             414                                56.03                    1731.2                False
+   adgroup         2 2.5      15                             14       3       0.2143         0.4759                             365                                29.96                    1267.5                False
+   adgroup         2 3.0      13                             13       3       0.2308         0.5026                             330                                16.43                    1212.8                False
+   adgroup         2 4.0      10                             10       3       0.3000         0.6032                             277                                 5.07                     880.0                False
+   adgroup         2 5.0       5                              5       1       0.2000         0.6245                             232                                 1.56                     442.2                False
+   adgroup         3 1.0      37                             19       6       0.3158         0.5399                             512                               188.35                    1517.5                False
+   adgroup         3 1.5      16                             10       2       0.2000         0.5098                             486                               108.44                     874.3                False
+   adgroup         3 2.0      12                              9       1       0.1111         0.4350                             464                                62.80                     827.8                False
+   adgroup         3 2.5       9                              7       1       0.1429         0.5131                             438                                35.95                     637.2                False
+   adgroup         3 3.0       7                              6       1       0.1667         0.5635                             407                                20.26                     598.9                False
+   adgroup         3 4.0       4                              4       1       0.2500         0.6994                             347                                 6.36                     263.6                False
+   adgroup         3 5.0       3                              3       1       0.3333         0.7923                             305                                 2.06                     211.5                False
+   adgroup         4 1.0      39                             11       4       0.3636         0.6462                             512                               188.35                    1086.5                False
+   adgroup         4 1.5      13                              8       1       0.1250         0.4709                             499                               111.34                     742.0                False
+   adgroup         4 2.0       7                              5       1       0.2000         0.6245                             480                                64.96                     571.8                False
+   adgroup         4 2.5       4                              3       1       0.3333         0.7923                             460                                37.76                     242.3                False
+   adgroup         4 3.0       3                              3       1       0.3333         0.7923                             444                                22.11                     242.3                False
+   adgroup         4 4.0       1                              1       1       1.0000         1.0000                             395                                 7.23                      37.7                False
+   adgroup         4 5.0       1                              1       1       1.0000         1.0000                             352                                 2.37                      37.7                False
+   adgroup         6 1.0      41                              5       3       0.6000         0.8824                             518                               190.56                     760.0                False
+   adgroup         6 1.5      19                              2       0       0.0000         0.6576                             501                               111.79                     504.7                False
+   adgroup         6 2.0       5                              2       0       0.0000         0.6576                             485                                65.64                     369.6                False
+   adgroup         6 2.5       3                              2       0       0.0000         0.6576                             476                                39.07                     353.0                False
+   adgroup         6 3.0       2                              2       0       0.0000         0.6576                             468                                23.30                     353.0                False
+   adgroup         6 4.0       1                              1       0       0.0000         0.7935                             428                                 7.84                     166.2                False
+   adgroup         6 5.0       1                              1       0       0.0000         0.7935                             399                                 2.69                     166.2                False
+   keyword         1 1.0      12                             10       7       0.7000         0.8922                             189                                69.53                     671.5                False
+   keyword         1 1.5       1                              1       0       0.0000         0.7935                             127                                28.34                      60.9                False
+   keyword         1 2.0       0                              0       0          NaN            NaN                             102                                13.80                       0.0                False
+   keyword         1 2.5       0                              0       0          NaN            NaN                              81                                 6.65                       0.0                False
+   keyword         1 3.0       0                              0       0          NaN            NaN                              62                                 3.09                       0.0                False
+   keyword         1 4.0       0                              0       0          NaN            NaN                              38                                 0.70                       0.0                False
+   keyword         1 5.0       0                              0       0          NaN            NaN                              20                                 0.13                       0.0                False
+   keyword         2 1.0      11                              8       6       0.7500         0.9285                             257                                94.55                     446.9                False
+   keyword         2 1.5       7                              6       4       0.6667         0.9032                             212                                47.30                     312.1                False
+   keyword         2 2.0       5                              4       3       0.7500         0.9544                             183                                24.77                     214.2                False
+   keyword         2 2.5       2                              2       1       0.5000         0.9055                             160                                13.13                     132.5                False
+   keyword         2 3.0       0                              0       0          NaN            NaN                             132                                 6.57                       0.0                False
+   keyword         2 4.0       0                              0       0          NaN            NaN                             101                                 1.85                       0.0                False
+   keyword         2 5.0       0                              0       0          NaN            NaN                              76                                 0.51                       0.0                False
+   keyword         3 1.0      15                              9       7       0.7778         0.9368                             280                               103.01                     493.1                False
+   keyword         3 1.5       8                              7       5       0.7143         0.9178                             258                                57.57                     384.7                False
+   keyword         3 2.0       5                              5       3       0.6000         0.8824                             223                                30.18                     257.8                False
+   keyword         3 2.5       3                              3       2       0.6667         0.9385                             199                                16.33                     143.0                False
+   keyword         3 3.0       2                              2       2       1.0000         1.0000                             179                                 8.91                     104.1                False
+   keyword         3 4.0       1                              1       1       1.0000         1.0000                             149                                 2.73                      71.6                False
+   keyword         3 5.0       0                              0       0          NaN            NaN                             115                                 0.77                       0.0                False
+   keyword         4 1.0       9                              3       2       0.6667         0.9385                             288                               105.95                     244.2                False
+   keyword         4 1.5       3                              3       2       0.6667         0.9385                             267                                59.58                     198.2                False
+   keyword         4 2.0       2                              2       1       0.5000         0.9055                             240                                32.48                     114.8                False
+   keyword         4 2.5       2                              2       1       0.5000         0.9055                             226                                18.55                     114.8                False
+   keyword         4 3.0       2                              2       1       0.5000         0.9055                             211                                10.51                     114.8                False
+   keyword         4 4.0       0                              0       0          NaN            NaN                             177                                 3.24                       0.0                False
+   keyword         4 5.0       0                              0       0          NaN            NaN                             151                                 1.02                       0.0                False
+   keyword         6 1.0       6                              0       0          NaN            NaN                             296                               108.89                      58.6                False
+   keyword         6 1.5       0                              0       0          NaN            NaN                             278                                62.03                       0.0                False
+   keyword         6 2.0       0                              0       0          NaN            NaN                             262                                35.46                       0.0                False
+   keyword         6 2.5       0                              0       0          NaN            NaN                             244                                20.03                       0.0                False
+   keyword         6 3.0       0                              0       0          NaN            NaN                             232                                11.55                       0.0                False
+   keyword         6 4.0       0                              0       0          NaN            NaN                             213                                 3.90                       0.0                False
+   keyword         6 5.0       0                              0       0          NaN            NaN                             187                                 1.26                       0.0                False
+assetgroup         1 1.0       9                              6       2       0.3333         0.7000                              54                                19.87                     823.7                False
+assetgroup         1 1.5       5                              3       1       0.3333         0.7923                              47                                10.49                     301.1                False
+assetgroup         1 2.0       3                              1       0       0.0000         0.7935                              37                                 5.01                     229.4                False
+assetgroup         1 2.5       2                              0       0          NaN            NaN                              29                                 2.38                      19.1                False
+assetgroup         1 3.0       2                              0       0          NaN            NaN                              24                                 1.19                      19.1                False
+assetgroup         1 4.0       2                              0       0          NaN            NaN                              20                                 0.37                      19.1                False
+assetgroup         1 5.0       1                              0       0          NaN            NaN                              13                                 0.09                       8.5                False
+assetgroup         2 1.0       4                              3       2       0.6667         0.9385                              64                                23.54                      93.5                False
+assetgroup         2 1.5       2                              2       1       0.5000         0.9055                              60                                13.39                      49.6                False
+assetgroup         2 2.0       2                              2       1       0.5000         0.9055                              58                                 7.85                      49.6                False
+assetgroup         2 2.5       2                              2       1       0.5000         0.9055                              50                                 4.10                      49.6                False
+assetgroup         2 3.0       2                              2       1       0.5000         0.9055                              47                                 2.34                      49.6                False
+assetgroup         2 4.0       2                              2       1       0.5000         0.9055                              38                                 0.70                      49.6                False
+assetgroup         2 5.0       1                              1       1       1.0000         1.0000                              29                                 0.20                      25.2                False
+assetgroup         3 1.0       5                              3       2       0.6667         0.9385                              66                                24.28                     238.7                False
+assetgroup         3 1.5       2                              2       1       0.5000         0.9055                              63                                14.06                     179.2                False
+assetgroup         3 2.0       2                              2       1       0.5000         0.9055                              62                                 8.39                     179.2                False
+assetgroup         3 2.5       2                              2       1       0.5000         0.9055                              57                                 4.68                     179.2                False
+assetgroup         3 3.0       2                              2       1       0.5000         0.9055                              56                                 2.79                     179.2                False
+assetgroup         3 4.0       2                              2       1       0.5000         0.9055                              55                                 1.01                     179.2                False
+assetgroup         3 5.0       2                              2       1       0.5000         0.9055                              43                                 0.29                     179.2                False
+assetgroup         4 1.0       2                              1       1       1.0000         1.0000                              66                                24.28                      50.9                False
+assetgroup         4 1.5       2                              1       1       1.0000         1.0000                              65                                14.50                      50.9                False
+assetgroup         4 2.0       1                              1       1       1.0000         1.0000                              64                                 8.66                      35.6                False
+assetgroup         4 2.5       1                              1       1       1.0000         1.0000                              59                                 4.84                      35.6                False
+assetgroup         4 3.0       1                              1       1       1.0000         1.0000                              59                                 2.94                      35.6                False
+assetgroup         4 4.0       1                              1       1       1.0000         1.0000                              58                                 1.06                      35.6                False
+assetgroup         4 5.0       1                              1       1       1.0000         1.0000                              53                                 0.36                      35.6                False
+assetgroup         6 1.0       0                              0       0          NaN            NaN                              67                                24.65                       0.0                False
+assetgroup         6 1.5       0                              0       0          NaN            NaN                              65                                14.50                       0.0                False
+assetgroup         6 2.0       0                              0       0          NaN            NaN                              64                                 8.66                       0.0                False
+assetgroup         6 2.5       0                              0       0          NaN            NaN                              59                                 4.84                       0.0                False
+assetgroup         6 3.0       0                              0       0          NaN            NaN                              59                                 2.94                       0.0                False
+assetgroup         6 4.0       0                              0       0          NaN            NaN                              58                                 1.06                       0.0                False
+assetgroup         6 5.0       0                              0       0          NaN            NaN                              54                                 0.36                       0.0                False
+       dow         1 1.0      69                             64      15       0.2344         0.3513                             503                               185.04                    6492.7                False
+       dow         1 1.5      40                             39       6       0.1538         0.2973                             408                                91.04                    4247.2                False
+       dow         1 2.0      28                             27       2       0.0741         0.2337                             334                                45.20                    3368.3                False
+       dow         1 2.5      17                             16       0       0.0000         0.1936                             280                                22.98                    2053.6                False
+       dow         1 3.0      12                             11       0       0.0000         0.2588                             234                                11.65                    1720.0                False
+       dow         1 4.0       7                              6       0       0.0000         0.3903                             162                                 2.97                    1178.7                False
+       dow         1 5.0       4                              3       0       0.0000         0.5615                             121                                 0.82                     628.6                False
+       dow         2 1.0      50                             41      10       0.2439         0.3934                             605                               222.57                    3303.3                False
+       dow         2 1.5      28                             27       5       0.1852         0.3670                             559                               124.73                    2394.9                False
+       dow         2 2.0      17                             17       2       0.1176         0.3434                             515                                69.70                    1604.1                False
+       dow         2 2.5      16                             16       1       0.0625         0.2833                             470                                38.58                    1508.9                False
+       dow         2 3.0      12                             12       1       0.0833         0.3539                             434                                21.61                    1331.1                False
+       dow         2 4.0       8                              8       0       0.0000         0.3244                             350                                 6.41                    1029.2                False
+       dow         2 5.0       5                              5       0       0.0000         0.4345                             290                                 1.95                     708.5                False
+       dow         3 1.0      35                             24       7       0.2917         0.4917                             629                               231.40                    1831.3                False
+       dow         3 1.5      24                             20       6       0.3000         0.5190                             603                               134.55                    1515.0                False
+       dow         3 2.0      14                             14       4       0.2857         0.5465                             568                                76.87                    1083.2                False
+       dow         3 2.5      10                             10       3       0.3000         0.6032                             541                                44.41                     714.7                False
+       dow         3 3.0       7                              7       3       0.4286         0.7495                             511                                25.44                     489.6                False
+       dow         3 4.0       4                              4       1       0.2500         0.6994                             452                                 8.28                     181.1                False
+       dow         3 5.0       3                              3       1       0.3333         0.7923                             400                                 2.70                     138.3                False
+       dow         4 1.0      29                             16       5       0.3125         0.5560                             633                               232.87                    1383.4                False
+       dow         4 1.5      19                             12       4       0.3333         0.6094                             613                               136.78                    1101.3                False
+       dow         4 2.0      12                             11       4       0.3636         0.6462                             592                                80.12                     976.0                False
+       dow         4 2.5      11                             10       3       0.3000         0.6032                             569                                46.71                     875.2                False
+       dow         4 3.0       7                              6       2       0.3333         0.7000                             548                                27.28                     693.5                False
+       dow         4 4.0       5                              4       2       0.5000         0.8500                             502                                 9.19                     351.3                False
+       dow         4 5.0       2                              1       0       0.0000         0.7935                             455                                 3.07                      55.0                False
+       dow         6 1.0      22                             12       4       0.3333         0.6094                             637                               234.34                     884.6                False
+       dow         6 1.5      14                              9       3       0.3333         0.6458                             618                               137.89                     697.4                False
+       dow         6 2.0      11                              8       3       0.3750         0.6943                             604                                81.74                     646.0                False
+       dow         6 2.5      10                              8       3       0.3750         0.6943                             589                                48.35                     624.1                False
+       dow         6 3.0       6                              5       2       0.4000         0.7693                             577                                28.73                     497.8                False
+       dow         6 4.0       5                              4       2       0.5000         0.8500                             544                                 9.96                     437.6                False
+       dow         6 5.0       2                              1       1       1.0000         1.0000                             515                                 3.47                     179.4                False
+  [adgroup] окно 1 нед.: порог не найден
+  [adgroup] окно 2 нед.: порог не найден
+  [adgroup] окно 3 нед.: порог не найден
+  [adgroup] окно 4 нед.: порог не найден
+  [adgroup] окно 6 нед.: порог не найден
+  [assetgroup] окно 1 нед.: порог не найден
+  [assetgroup] окно 2 нед.: порог не найден
+  [assetgroup] окно 3 нед.: порог не найден
+  [assetgroup] окно 4 нед.: порог не найден
+  [assetgroup] окно 6 нед.: порог не найден
+  [device] окно 1 нед.: порог не найден
+  [device] окно 2 нед.: порог не найден
+  [device] окно 3 нед.: порог не найден
+  [device] окно 4 нед.: порог не найден
+  [device] окно 6 нед.: порог не найден
+  [dow] окно 1 нед.: порог не найден
+  [dow] окно 2 нед.: порог не найден
+  [dow] окно 3 нед.: порог не найден
+  [dow] окно 4 нед.: порог не найден
+  [dow] окно 6 нед.: порог не найден
+  [hour] окно 1 нед.: порог не найден
+  [hour] окно 2 нед.: порог не найден
+  [hour] окно 3 нед.: порог не найден
+  [hour] окно 4 нед.: порог не найден
+  [hour] окно 6 нед.: порог не найден
+  [keyword] окно 1 нед.: порог не найден
+  [keyword] окно 2 нед.: порог не найден
+  [keyword] окно 3 нед.: порог не найден
+  [keyword] окно 4 нед.: порог не найден
+  [keyword] окно 6 нед.: порог не найден
+  [network] окно 1 нед.: порог не найден
+  [network] окно 2 нед.: порог не найден
+  [network] окно 3 нед.: порог не найден
+  [network] окно 4 нед.: порог не найден
+  [network] окно 6 нед.: порог не найден

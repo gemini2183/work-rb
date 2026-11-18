@@ -1,0 +1,22 @@
+﻿time,user,client,resource_type,operation,detail,changed_fields
+2026-11-17 10:08:43,adwhitemcc@gmail.com,GOOGLE_ADS_API,CAMPAIGN,UPDATE,статус ENABLED -> PAUSED,status
+2026-11-17 08:58:47,infobox.anton@gmail.com,GOOGLE_ADS_WEB_CLIENT,CAMPAIGN,UPDATE,статус PAUSED -> ENABLED,status
+2026-11-17 08:58:43,infobox.anton@gmail.com,GOOGLE_ADS_WEB_CLIENT,CAMPAIGN_BUDGET,UPDATE,бюджет 50.00 -> 30.00,amount_micros
+2026-11-17 08:48:41,adwhitemcc@gmail.com,GOOGLE_ADS_API,CAMPAIGN,UPDATE,статус ENABLED -> PAUSED,status
+2026-11-17 08:46:19,adwhitemcc@gmail.com,GOOGLE_ADS_API,CAMPAIGN,UPDATE,статус PAUSED -> ENABLED,status
+2026-11-16 10:01:11,adwhitemcc@gmail.com,GOOGLE_ADS_API,CAMPAIGN,UPDATE,статус ENABLED -> PAUSED,status
+2026-11-13 15:54:35,infobox.anton@gmail.com,GOOGLE_ADS_WEB_CLIENT,CAMPAIGN,UPDATE,статус PAUSED -> ENABLED,status
+2026-11-13 13:59:45,adwhitemcc@gmail.com,GOOGLE_ADS_API,CAMPAIGN_BUDGET,CREATE,бюджет 0.00 -> 50.00,"amount_micros, delivery_method, explicitly_shared, id, name, resource_name"
+2026-11-13 13:59:45,adwhitemcc@gmail.com,GOOGLE_ADS_API,CAMPAIGN,CREATE,статус UNSPECIFIED -> PAUSED,"advertising_channel_type, campaign_budget, contains_eu_political_advertising, demand_gen_campaign_settings.upgraded_targeting, geo_target_type_setting.negative_geo_target_type, geo_target_type_setting.positive_geo_target_type, id, name, resource_name, status"
+2026-11-13 13:59:45,adwhitemcc@gmail.com,GOOGLE_ADS_API,CAMPAIGN_CRITERION,CREATE,,"campaign, criterion_id, resource_name"
+2026-11-13 13:59:45,adwhitemcc@gmail.com,GOOGLE_ADS_API,CAMPAIGN_CRITERION,CREATE,,"campaign, criterion_id, resource_name"
+2026-11-13 13:59:45,adwhitemcc@gmail.com,GOOGLE_ADS_API,CAMPAIGN_CRITERION,CREATE,,"campaign, criterion_id, resource_name"
+2026-11-13 13:59:45,adwhitemcc@gmail.com,GOOGLE_ADS_API,CAMPAIGN_CRITERION,CREATE,,"ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, campaign, criterion_id, resource_name"
+2026-11-13 13:59:45,adwhitemcc@gmail.com,GOOGLE_ADS_API,CAMPAIGN_CRITERION,CREATE,,"ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, campaign, criterion_id, resource_name"
+2026-11-13 13:59:45,adwhitemcc@gmail.com,GOOGLE_ADS_API,CAMPAIGN_CRITERION,CREATE,,"ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, campaign, criterion_id, resource_name"
+2026-11-13 13:59:45,adwhitemcc@gmail.com,GOOGLE_ADS_API,CAMPAIGN_CRITERION,CREATE,,"ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, campaign, criterion_id, resource_name"
+2026-11-13 13:59:45,adwhitemcc@gmail.com,GOOGLE_ADS_API,CAMPAIGN_CRITERION,CREATE,,"ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_schedule.start_minute, campaign, criterion_id, resource_name"
+2026-11-13 13:59:45,adwhitemcc@gmail.com,GOOGLE_ADS_API,AD_GROUP,CREATE,,"campaign, demand_gen_ad_group_settings.channel_controls.selected_channels.youtube_in_feed, demand_gen_ad_group_settings.channel_controls.selected_channels.youtube_in_stream, demand_gen_ad_group_settings.channel_controls.selected_channels.youtube_shorts, id, name, resource_name, status"
+2026-11-13 13:59:45,adwhitemcc@gmail.com,GOOGLE_ADS_API,AD_GROUP_CRITERION,CREATE,,"ad_group, audience.audience, criterion_id, negative, resource_name"
+2026-11-13 13:59:45,adwhitemcc@gmail.com,GOOGLE_ADS_API,AD_GROUP_AD,CREATE,,"ad, ad_group, resource_name, status"
+2026-11-13 13:59:45,adwhitemcc@gmail.com,GOOGLE_ADS_API,AD_GROUP_AD,CREATE,,"ad, ad_group, resource_name, status"

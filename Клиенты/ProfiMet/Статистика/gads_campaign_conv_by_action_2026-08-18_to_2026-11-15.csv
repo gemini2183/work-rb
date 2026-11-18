@@ -1,0 +1,59 @@
+Campaign,Status,Channel,Action,All_conv,Conv
+Search | Brand | Pl,ENABLED,SEARCH,"Ringostat — уникальный звонок (офлайн, gclid)",29.0,0.0
+Search | Brand | Pl,ENABLED,SEARCH,addToCart_gtm,104.23,0.0
+Search | Brand | Pl,ENABLED,SEARCH,form_submit_gtm,22.0,22.0
+Search | Brand | Pl,ENABLED,SEARCH,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,37.17,37.17
+Search | Brand | Pl,ENABLED,SEARCH,mocnaszklarnia.pl - GA4 (web) addToCart_session,70.04,0.0
+Search | Brand | Pl,ENABLED,SEARCH,mocnaszklarnia.pl - GA4 (web) form_submit,14.65,0.0
+Search | Brand | Pl,ENABLED,SEARCH,Звонки по объявлениям,9.0,9.0
+Search | Brand | Pl,ENABLED,SEARCH,Клик по номеру,51.01,0.0
+Search | Poliweglan | Pl,ENABLED,SEARCH,"Ringostat — уникальный звонок (офлайн, gclid)",44.0,0.0
+Search | Poliweglan | Pl,ENABLED,SEARCH,addToCart_gtm,277.84,0.0
+Search | Poliweglan | Pl,ENABLED,SEARCH,form_submit_gtm,61.78,61.78
+Search | Poliweglan | Pl,ENABLED,SEARCH,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,59.83,59.83
+Search | Poliweglan | Pl,ENABLED,SEARCH,mocnaszklarnia.pl - GA4 (web) addToCart_session,212.94,0.0
+Search | Poliweglan | Pl,ENABLED,SEARCH,mocnaszklarnia.pl - GA4 (web) form_submit,52.44,0.0
+Search | Poliweglan | Pl,ENABLED,SEARCH,Звонки по объявлениям,3.01,3.01
+Search | Poliweglan | Pl,ENABLED,SEARCH,Клик по номеру,42.0,0.0
+demand_gen,PAUSED,DEMAND_GEN,"Ringostat — уникальный звонок (офлайн, gclid)",2.0,0.0
+demand_gen,PAUSED,DEMAND_GEN,addToCart_gtm,4.2,0.0
+demand_gen,PAUSED,DEMAND_GEN,mocnaszklarnia.pl - GA4 (web) addToCart_session,5.0,0.0
+demand_gen,PAUSED,DEMAND_GEN,Клик по номеру,34.0,32.0
+dg_lookalike_test,PAUSED,DEMAND_GEN,addToCart_gtm,6.0,0.0
+dg_lookalike_test,PAUSED,DEMAND_GEN,Клик по номеру,2.0,0.0
+dspl_rtg_basket,ENABLED,DISPLAY,addToCart_gtm,16.0,0.0
+dspl_rtg_basket,ENABLED,DISPLAY,form_submit_gtm,1.0,1.0
+dspl_rtg_basket,ENABLED,DISPLAY,mocnaszklarnia.pl - GA4 (web) addToCart_session,12.0,0.0
+dspl_rtg_basket,ENABLED,DISPLAY,mocnaszklarnia.pl - GA4 (web) form_submit,1.0,0.0
+dspl_rtg_basket,ENABLED,DISPLAY,Клик по номеру,3.0,3.0
+pmax01,PAUSED,PERFORMANCE_MAX,addToCart_gtm,17.0,0.0
+pmax01,PAUSED,PERFORMANCE_MAX,mocnaszklarnia.pl - GA4 (web) addToCart_session,2.0,0.0
+pmax01,PAUSED,PERFORMANCE_MAX,Клик по номеру,14.0,14.0
+pmax01_call_test,PAUSED,PERFORMANCE_MAX,addToCart_gtm,78.0,0.0
+pmax01_call_test,PAUSED,PERFORMANCE_MAX,form_submit_gtm,2.0,2.0
+pmax01_call_test,PAUSED,PERFORMANCE_MAX,mocnaszklarnia.pl - GA4 (web) addToCart_session,11.36,0.0
+pmax01_call_test,PAUSED,PERFORMANCE_MAX,Клик по номеру,26.0,26.0
+pmax1_test,ENABLED,PERFORMANCE_MAX,"Ringostat — уникальный звонок (офлайн, gclid)",96.0,0.0
+pmax1_test,ENABLED,PERFORMANCE_MAX,addToCart_gtm,1743.57,0.0
+pmax1_test,ENABLED,PERFORMANCE_MAX,form_submit_gtm,42.22,42.22
+pmax1_test,ENABLED,PERFORMANCE_MAX,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,103.0,103.0
+pmax1_test,ENABLED,PERFORMANCE_MAX,mocnaszklarnia.pl - GA4 (web) addToCart_session,320.3,0.0
+pmax1_test,ENABLED,PERFORMANCE_MAX,mocnaszklarnia.pl - GA4 (web) form_submit,16.22,0.0
+pmax1_test,ENABLED,PERFORMANCE_MAX,Звонки по объявлениям,15.99,15.99
+pmax1_test,ENABLED,PERFORMANCE_MAX,Клик по номеру,333.97,0.0
+search / montaz,ENABLED,SEARCH,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+search / szklarnia generic,PAUSED,SEARCH,"Ringostat — уникальный звонок (офлайн, gclid)",1.0,0.0
+search / szklarnia generic,PAUSED,SEARCH,addToCart_gtm,4.0,0.0
+search / szklarnia generic,PAUSED,SEARCH,form_submit_gtm,2.0,2.0
+search / szklarnia generic,PAUSED,SEARCH,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+search / szklarnia generic,PAUSED,SEARCH,mocnaszklarnia.pl - GA4 (web) addToCart_session,6.0,0.0
+search / szklarnia generic,PAUSED,SEARCH,mocnaszklarnia.pl - GA4 (web) form_submit,1.0,0.0
+search / szklarnia generic,PAUSED,SEARCH,Клик по номеру,1.0,1.0
+search / szklarnia/tunel (excl. poliweglan),PAUSED,SEARCH,"Ringostat — уникальный звонок (офлайн, gclid)",2.0,0.0
+search / szklarnia/tunel (excl. poliweglan),PAUSED,SEARCH,addToCart_gtm,2.0,0.0
+search / szklarnia/tunel (excl. poliweglan),PAUSED,SEARCH,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+search / szklarnia/tunel (excl. poliweglan),PAUSED,SEARCH,mocnaszklarnia.pl - GA4 (web) addToCart_session,3.0,0.0
+search / szklarnia/tunel (excl. poliweglan),PAUSED,SEARCH,Клик по номеру,1.0,0.0
+yt_warm,PAUSED,DEMAND_GEN,addToCart_gtm,2.0,0.0
+yt_warm,PAUSED,DEMAND_GEN,mocnaszklarnia.pl - GA4 (web) addToCart_session,2.9,0.0
+yt_warm,PAUSED,DEMAND_GEN,Клик по номеру,1.0,0.0

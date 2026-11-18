@@ -1,0 +1,195 @@
+=== разрез: аккаунт 7552781705, 2026-11-01 - 2026-11-17; кампаний 1, типы: DEMAND_GEN x1 ===
+
+[day] Кампания по дням и итого (DEMAND_GEN):
+  24468615055 yt_cold | PAUSED | DEMAND_GEN | ставки: MAXIMIZE_CONVERSIONS | дневной бюджет: 30.00
+  дата         расход   показы  клики    CPC  просм.  конв.  all_кн     CTR view rate
+  2026-11-13     5.56     2519     30   0.19     206    0.0     0.0   1.19%     8.18%   yt_cold
+  2026-11-16    52.08     7068     79   0.66     641    0.0     0.0   1.12%     9.07%   yt_cold
+  2026-11-17    32.66    16911     70   0.47     912    0.0     2.0   0.41%     5.39%   yt_cold
+  ИТОГО yt_cold: расход 90.31, показы 26498, клики 179, CTR 0.68%, CPC 0.50, просмотры 1759, view rate 6.64%, конв. 0.0, all_конв. 2.0
+  (сохранено: ..\Клиенты\ProfiMet\Статистика\breakdown_yt_cold_day_2026-11-01_2026-11-17.csv)
+  потеряно по бюджету / рейтингу (yt_cold): 0.0% (0 дн. с данными) / 0.0% (0 дн.); 0 дн. = API не отдаёт для типа DEMAND_GEN
+
+[hour] По часам суток (DEMAND_GEN):
+  строк: 2, расход 90.31
+    расход   показы  клики    CPC  просм.  конв.  all_кн  час
+     84.75    23979    149   0.57    1553    0.0     2.0  9
+      5.56     2519     30   0.19     206    0.0     0.0  16
+  (сохранено: ..\Клиенты\ProfiMet\Статистика\breakdown_yt_cold_hour_2026-11-01_2026-11-17.csv)
+
+[dow] По дням недели (DEMAND_GEN):
+  строк: 3, расход 90.31
+    расход   показы  клики    CPC  просм.  конв.  all_кн  день недели
+     52.08     7068     79   0.66     641    0.0     0.0  MONDAY
+     32.66    16911     70   0.47     912    0.0     2.0  TUESDAY
+      5.56     2519     30   0.19     206    0.0     0.0  FRIDAY
+  (сохранено: ..\Клиенты\ProfiMet\Статистика\breakdown_yt_cold_dow_2026-11-01_2026-11-17.csv)
+  (сохранено: ..\Клиенты\ProfiMet\Статистика\breakdown_yt_cold_dow_x_hour_2026-11-01_2026-11-17.csv)
+
+[device] По устройствам (DEMAND_GEN):
+  строк: 4, расход 90.31
+    расход   показы  клики    CPC  просм.  конв.  all_кн  устройство
+     75.24    22786    162   0.46    1506    0.0     2.0  MOBILE
+     12.48     2871     14   0.89     185    0.0     0.0  DESKTOP
+      2.07      547      2   1.04      32    0.0     0.0  TABLET
+      0.52      294      1   0.52      36    0.0     0.0  CONNECTED_TV
+  (сохранено: ..\Клиенты\ProfiMet\Статистика\breakdown_yt_cold_device_2026-11-01_2026-11-17.csv)
+
+[network] По сетям (DEMAND_GEN):
+  строк: 2, расход 90.31
+    расход   показы  клики    CPC  просм.  конв.  all_кн  сеть
+     90.29    26495    179   0.50    1758    0.0     2.0  YOUTUBE
+      0.02        3      0      -       1    0.0     0.0  CONTENT
+  (сохранено: ..\Клиенты\ProfiMet\Статистика\breakdown_yt_cold_network_2026-11-01_2026-11-17.csv)
+
+[audience] Аудитории / сегменты таргета (DEMAND_GEN):
+  ad_group_audience_view:
+  строк: 1, расход 90.31
+    расход   показы  клики    CPC  просм.  конв.  all_кн  группа | тип | сегмент
+     90.31    26498    179   0.50    1759    0.0     2.0  yt_cold_g1 | USER_LIST | look-a-like / crm customers / 2.5% narrow 20261008
+  (сохранено: ..\Клиенты\ProfiMet\Статистика\breakdown_yt_cold_ad_group_audience_view_2026-11-01_2026-11-17.csv)
+  campaign_audience_view:
+  строк нет
+
+[ad_group] Группы объявлений / ассетов (DEMAND_GEN):
+  строк: 1, расход 90.31
+    расход   показы  клики    CPC  просм.  конв.  all_кн  кампания | группа | статус
+     90.31    26498    179   0.50    1759    0.0     2.0  yt_cold | yt_cold_g1 | ENABLED
+  (сохранено: ..\Клиенты\ProfiMet\Статистика\breakdown_yt_cold_ad_group_2026-11-01_2026-11-17.csv)
+
+[asset] Ассеты / ролики (DEMAND_GEN):
+  строк: 18, расход 624.35
+    расход   показы  клики    CPC  просм.  конв.  all_кн  asset.id | тип | поле | youtube id | название
+     90.31    26498    179   0.50    1759    0.0     2.0  39375000429 | CALL_TO_ACTION | CALL_TO_ACTION |  | 
+     90.31    26498    179   0.50    1759    0.0     2.0  435987645048 | TEXT | BUSINESS_NAME |  | 
+     90.15    26467    179   0.50    1754    0.0     2.0  435912528022 | IMAGE | LOGO |  | yt_warm_logo_square_20261103_184619
+     49.96    13124     80   0.62    1117    0.0     2.0  438847921438 | YOUTUBE_VIDEO | YOUTUBE_VIDEO | 3ScK4ymdRfY | ProfiMet_YT_cold_v4_9x16.mp4
+     40.35    13374     99   0.41     642    0.0     0.0  438743405729 | YOUTUBE_VIDEO | YOUTUBE_VIDEO | lNlt4LISxyM | ProfiMet_YT_cold_v4_16x9.mp4
+     34.25    12169     60   0.57     618    0.0     2.0  438944801490 | TEXT | LONG_HEADLINE |  | 
+     33.55    11603     58   0.58     630    0.0     0.0  435987645075 | TEXT | LONG_HEADLINE |  | 
+     23.22     6645     35   0.66     440    0.0     2.0  435987645072 | TEXT | HEADLINE |  | 
+     23.18     7607     35   0.66     436    0.0     0.0  17107533553 | TEXT | HEADLINE |  | 
+     22.82     7631     50   0.46     462    0.0     0.0  435987645069 | TEXT | HEADLINE |  | 
+     21.73     6058     46   0.47     406    0.0     0.0  17107533556 | TEXT | HEADLINE |  | 
+     18.37     3117     60   0.31     451    0.0     0.0  421389051719 | IMAGE | LANDING_PAGE_PREVIEW |  | 
+     18.35     6208     41   0.45     362    0.0     0.0  435987645066 | TEXT | HEADLINE |  | 
+     14.15     4794     32   0.44     256    0.0     0.0  435987645054 | TEXT | DESCRIPTION |  | 
+     13.99     4771     27   0.52     252    0.0     2.0  435987645060 | TEXT | DESCRIPTION |  | 
+     13.97     4743     22   0.64     238    0.0     0.0  435987645057 | TEXT | DESCRIPTION |  | 
+     13.78     4766     16   0.86     260    0.0     0.0  435987645063 | TEXT | DESCRIPTION |  | 
+     11.90     4698     21   0.57     242    0.0     0.0  435987645051 | TEXT | DESCRIPTION |  | 
+  (сохранено: ..\Клиенты\ProfiMet\Статистика\breakdown_yt_cold_assets_2026-11-01_2026-11-17.csv)
+
+[placement] Площадки (DEMAND_GEN):
+  group_placement_view (суммарно расход 47.73, клики 179, показы 13580; расход < расхода кампании = API отдаёт не весь инвентарь):
+  строк: 1574, расход 47.73; показаны топ-30
+    расход   показы  клики    CPC  просм.  конв.  all_кн  тип | площадка | название
+      3.37     1540     15   0.22       2    0.0     0.0  WEBSITE | youtube.com | youtube.com
+      1.40      130      1   1.40      12    0.0     0.0  YOUTUBE_CHANNEL | UCE0-PGADADFax_P-6IHP-QA | Full Grown Nonsense
+      0.72        1      0      -       1    0.0     0.0  YOUTUBE_CHANNEL | UCw8SCmBPITxLZ16B6ADVWmA | Khánh Dương Xe Tải - Xe Chuyên Dùng
+      0.72        1      0      -       1    0.0     0.0  YOUTUBE_CHANNEL | UCpiO6CRlXb4FI1Ol0m0UtYg | DIY Creative
+      0.70        1      0      -       1    0.0     0.0  YOUTUBE_CHANNEL | UCDYIhcs5fPVKTI-8SF1WODA | Życie na spokojnie
+      0.58        1      0      -       1    0.0     0.0  YOUTUBE_CHANNEL | UC-vSvjA7ESxbgiDwDpSLQEA | Schlager Sehnsucht
+      0.58      167      0      -       6    0.0     0.0  YOUTUBE_CHANNEL | UCQGNezNa1XE70CPjvtNjNTQ | Babcia Mówi
+      0.56       18      0      -       1    0.0     0.0  YOUTUBE_CHANNEL | UCEIa8kCZ5nFjYYxqAgOkZFw | EVadam
+      0.46      155      1   0.46      15    0.0     0.0  YOUTUBE_CHANNEL | UClhEl4bMD8_escGCCTmRAYg | Kanał Zero
+      0.43       82      0      -       3    0.0     0.0  YOUTUBE_CHANNEL | UC7zLIR2bQ18_yz7ZoL_wV3A | PiraciDrogowi.pl
+      0.40        3      0      -       1    0.0     0.0  YOUTUBE_CHANNEL | UCLTc-RuDCOKYraetggUlrjw | Crevon Music 
+      0.40       65      0      -       8    0.0     0.0  YOUTUBE_CHANNEL | UCuxFjoUgIXFZmWenJcazkwA | Menthly - Konrad Ślusarczyk Podcast
+      0.38       90      0      -       8    0.0     0.0  YOUTUBE_CHANNEL | UC_naReHNJ9LIc6Z3TnTrxiw | Fascynujące Historie
+      0.36      168      2   0.18      13    0.0     0.0  YOUTUBE_CHANNEL | UCIfI7Yo22SMKp5PraztHM6w | Kanał Sportowy
+      0.36       36      1   0.36       3    0.0     0.0  YOUTUBE_CHANNEL | UCHN3GsuHXr7uVMJQ2BMqjjw | Wall Done Kamil Hykalik
+      0.36       94      0      -       8    0.0     0.0  YOUTUBE_CHANNEL | UC88EoN4X2Nq0ZsgHuKi_mBQ | AutoŚmiech PL
+      0.35       43      3   0.12       6    0.0     0.0  YOUTUBE_CHANNEL | UCcPjsUfi5PEQWtXmCB0opvA | SILVER TV
+      0.35       29      0      -       3    0.0     0.0  YOUTUBE_CHANNEL | UCxzQtZIq8Q9FgkIntVrudBA | Dawid Czechowicz
+      0.33       17      0      -       1    0.0     0.0  YOUTUBE_CHANNEL | UCAyqFwFxRscQEdRBoowzUPQ | Smaczny.tv
+      0.32      117      0      -      14    0.0     0.0  YOUTUBE_CHANNEL | UCkNOjcTcgLaNL0-XNoe4gtw | Polsat
+      0.32       34      0      -       4    0.0     0.0  YOUTUBE_CHANNEL | UC0ZKPXwGZmoRE8QfGaMoTrw | Szlak To Widzi
+      0.31       44      1   0.31       2    0.0     0.0  YOUTUBE_CHANNEL | UClYQCS8ZeW6rdSkDzp4g8Vg | Sprytne Triki
+      0.30      103      0      -       3    0.0     0.0  YOUTUBE_CHANNEL | UCalwFtq-BVcszKLZ5k2vbLw | TVP Sport 
+      0.30      117      0      -       5    0.0     0.0  YOUTUBE_CHANNEL | UCSfyAfBq7nvdNbPUEWqUvhQ | techpilot
+      0.30        1      0      -       1    0.0     0.0  YOUTUBE_CHANNEL | UC4RgIJ9XSNILvW2i4YouY9Q | TadeVlogs
+      0.30       11      1   0.30       3    0.0     0.0  YOUTUBE_CHANNEL | UC1Y6NUPZnpG-H-H0WBlthdA | Beamish DIY
+      0.27       84      2   0.14      10    0.0     0.0  YOUTUBE_CHANNEL | UCSG3odlwKQhtL2oVAVDBRqQ | Sassy 
+      0.27      114      0      -       9    0.0     0.0  YOUTUBE_CHANNEL | UCQcQIQHhoOX0SxLMe2eOO3A | WeszłoTV
+      0.26       40      0      -       4    0.0     0.0  YOUTUBE_CHANNEL | UC24mTxLrY0UikEytD3cHv_A | Sprytny Ninja
+      0.24       79      0      -       5    0.0     0.0  YOUTUBE_CHANNEL | UCdSSzq5-SQtX3T4Qf9BMuEg | Kinga Ka
+  (сохранено: ..\Клиенты\ProfiMet\Статистика\breakdown_yt_cold_group_placement_view_2026-11-01_2026-11-17.csv)
+  detail_placement_view (суммарно расход 31.30, клики 179, показы 7960; расход < расхода кампании = API отдаёт не весь инвентарь):
+  строк: 1886, расход 31.30; показаны топ-30
+    расход   показы  клики    CPC  просм.  конв.  all_кн  тип | площадка | название
+      3.37     1540     15   0.22       2    0.0     0.0  WEBSITE | youtube.com | youtube.com
+      1.17       54      1   1.17       7    0.0     0.0  YOUTUBE_VIDEO | 9fq5vmnsrOI | CELNIK PRZEZ 3 LATA SPRAWDZAŁ WORKI… CO PRZEOCZYŁ? 😂
+      0.72        1      0      -       1    0.0     0.0  YOUTUBE_VIDEO | XUdtlVKHojg | Các con vui mừng khi thấy bố lái xe chở hàng ngang nhà #truckdriver #trucklife #family #trucking
+      0.72        1      0      -       1    0.0     0.0  YOUTUBE_VIDEO | ZkCR8sylWPo | Pour Coca-Cola and Batteries into a Hole... What Happens Next Will Shock Everyone! 😱 | DIY Creative
+      0.70        1      0      -       1    0.0     0.0  YOUTUBE_VIDEO | MDAGxNV7-sw | Czy uda się przywrócić mu dawny blask: 100-letni dom i tajemnicza fontanna w ogrodzie
+      0.58        1      0      -       1    0.0     0.0  YOUTUBE_VIDEO | VjZMdt-OdsU | Sag mir, Kalimera ❤️ Griechischer Schlager voller Liebe, Sehnsucht & Sirtaki ☀️ | Nikos Samos
+      0.54        6      0      -       1    0.0     0.0  YOUTUBE_VIDEO | siyYufVtXfU | Skoro tak uwielbiam chińskie samochody to mam się wyprowadzić do Chin.. to no proszę bardzo...
+      0.40        3      0      -       1    0.0     0.0  YOUTUBE_VIDEO | pyfB4iBgexI | 😂 KTO DOSYPAŁ MARYŚKI DO KADZIDŁA?! ⛪ #short #biesiada #muzykabiesiadna
+      0.30        1      0      -       1    0.0     0.0  YOUTUBE_VIDEO | XMF-K52Fnlg | COMPRÉ LOS SQUISHIES Y JUGUETES ABANDONADOS DEL SUPERMERCADO
+      0.28       98      0      -       4    0.0     0.0  YOUTUBE_VIDEO | emBmqaHnFXM | „ZNAJDZIECIE TAŃSZE ZIEMNIAKI? DAMY WAM 100 ZŁ!”… HALINA WZIĘŁA ICH ZA SŁOWO 😂
+      0.21        1      1   0.21       1    0.0     0.0  YOUTUBE_VIDEO | RlnltTVK4Lk | Christmas Decor Ideas and Handmade Holiday Projects 🎄 #unique #diy #christmas #decorations #ideas
+      0.18        2      0      -       1    0.0     0.0  YOUTUBE_VIDEO | 24WDXPvLIuw | trick....connected connection #woodworking #carpenter
+      0.17        1      0      -       1    0.0     0.0  YOUTUBE_VIDEO | HMRDXR8KJK4 | Nie sprzedawaj rodzinnego domu | Wzruszająca piosenka o rodzinie i wspomnieniach
+      0.17       54      0      -       5    0.0     0.0  YOUTUBE_VIDEO | io_a_bVzedE | AdBlue: 1100 km do blokady! 😂 | Janusz u mechanika #shorts
+      0.17        1      0      -       1    0.0     0.0  YOUTUBE_VIDEO | y2l5xkZvd0Y | Boat On The River
+      0.16       19      1   0.16       3    0.0     0.0  YOUTUBE_VIDEO | 9SxsPkPnPZw | Śnieżnobiały śledź? Lepiej go nie kupować
+      0.16        6      1   0.16       2    0.0     0.0  YOUTUBE_VIDEO | mpFexzi8VPY | These Animals Shouldn’t Be Friends    But They Are! Part 2 ❤️🐾
+      0.16       15      1   0.16       2    0.0     0.0  YOUTUBE_VIDEO | 6VNjSzizBCk | Nie wyrzucaj roślin z balonu. Tak możesz je przezimować
+      0.16       49      0      -       5    0.0     0.0  YOUTUBE_VIDEO | dixZw0tvoV4 | Kiedy partner jest mało wylewny… 🤭 #śmieszne #short #związek #para #humor #żart #standup #komedia
+      0.15        5      0      -       0    0.0     0.0  YOUTUBE_VIDEO | pPvMrzK7EvQ | 👨‍⚖️ Mówił, że to po suplementach na masę i powiększenie pe**sa 🤷‍♂️
+      0.14        6      0      -       2    0.0     0.0  YOUTUBE_VIDEO | PnOkwVW-Wmo | Posłowie nie chcą tego, co narzucają innym #podcast #shorts #wywiad
+      0.14       39      0      -       8    0.0     0.0  YOUTUBE_VIDEO | otxM2pvZp6M | Anegdota o piekle
+      0.13        1      0      -       1    0.0     0.0  YOUTUBE_VIDEO | -comFDbul_s | Four Clever Kids, One Master Plan...And All My Fish Are Gone! 😂🐟 #comedy #shorts #funny #viralvideo
+      0.13       40      0      -       3    0.0     0.0  YOUTUBE_VIDEO | g88DprxqstU | Rzeczywiście, strach nas obleciał przed tymi tytanami intelektu! :)
+      0.12        6      1   0.12       1    0.0     0.0  YOUTUBE_VIDEO | ZSxrT8tg4qI | Songs in Indonesian songs  and Learn colors-Five Surprise Eggs-School bus and others-Nursery Rhymes
+      0.12       10      0      -       0    0.0     0.0  YOUTUBE_VIDEO | 39NcxMmWdts | URZĘDNIK KAZAŁ HALINIE PŁACIĆ ZA DESZCZ 😂
+      0.12        1      0      -       1    0.0     0.0  YOUTUBE_VIDEO | vlV6347oqsQ | SpaceX Just CAUGHT a STARSHIP! #spacex #starship #elonmusk
+      0.12        8      0      -       2    0.0     0.0  YOUTUBE_VIDEO | VAVxCDc7N-U | Co zabija Zatokę Pucką? #woda #ryby #zwierzęta #absurd #polska
+      0.11       19      0      -       1    0.0     0.0  YOUTUBE_VIDEO | tDw12TbW9iU | 🚗💨🍩 Uciekał przed policją po "bączkach" i skończył piruetami rozbijając BMW 🚔🚨
+      0.11        9      0      -       0    0.0     0.0  YOUTUBE_VIDEO | JgzozIkk0dA | Dostałeś pismo z firmy parkingowej - ustaw ich jedną odpowiedzią #mecmateuszostrowski #prawnik
+  (сохранено: ..\Клиенты\ProfiMet\Статистика\breakdown_yt_cold_detail_placement_view_2026-11-01_2026-11-17.csv)
+
+[conversion_action] Конверсии по действиям (DEMAND_GEN):
+    конв. all_конв. view-thr.  действие | категория
+      0.0       1.0         0  addToCart_gtm | ADD_TO_CART
+      0.0       1.0         0  mocnaszklarnia.pl - GA4 (web) addToCart_session | ADD_TO_CART
+  (сохранено: ..\Клиенты\ProfiMet\Статистика\breakdown_yt_cold_conversion_action_2026-11-01_2026-11-17.csv)
+
+[change_history] История изменений (DEMAND_GEN):
+  событий: 21
+  2026-11-17 10:08:43 | adwhitemcc@gmail.com | GOOGLE_ADS_API | CAMPAIGN UPDATE | статус ENABLED -> PAUSED | поля: status
+  2026-11-17 08:58:47 | infobox.anton@gmail.com | GOOGLE_ADS_WEB_CLIENT | CAMPAIGN UPDATE | статус PAUSED -> ENABLED | поля: status
+  2026-11-17 08:58:43 | infobox.anton@gmail.com | GOOGLE_ADS_WEB_CLIENT | CAMPAIGN_BUDGET UPDATE | бюджет 50.00 -> 30.00 | поля: amount_micros
+  2026-11-17 08:48:41 | adwhitemcc@gmail.com | GOOGLE_ADS_API | CAMPAIGN UPDATE | статус ENABLED -> PAUSED | поля: status
+  2026-11-17 08:46:19 | adwhitemcc@gmail.com | GOOGLE_ADS_API | CAMPAIGN UPDATE | статус PAUSED -> ENABLED | поля: status
+  2026-11-16 10:01:11 | adwhitemcc@gmail.com | GOOGLE_ADS_API | CAMPAIGN UPDATE | статус ENABLED -> PAUSED | поля: status
+  2026-11-13 15:54:35 | infobox.anton@gmail.com | GOOGLE_ADS_WEB_CLIENT | CAMPAIGN UPDATE | статус PAUSED -> ENABLED | поля: status
+  2026-11-13 13:59:45 | adwhitemcc@gmail.com | GOOGLE_ADS_API | CAMPAIGN_BUDGET CREATE | бюджет 0.00 -> 50.00 | поля: amount_micros, delivery_method, explicitly_shared, id, name, resource_name
+  2026-11-13 13:59:45 | adwhitemcc@gmail.com | GOOGLE_ADS_API | CAMPAIGN CREATE | статус UNSPECIFIED -> PAUSED | поля: advertising_channel_type, campaign_budget, contains_eu_political_advertising, demand_gen_campaign_se
+  2026-11-13 13:59:45 | adwhitemcc@gmail.com | GOOGLE_ADS_API | CAMPAIGN_CRITERION CREATE |  | поля: campaign, criterion_id, resource_name
+  2026-11-13 13:59:45 | adwhitemcc@gmail.com | GOOGLE_ADS_API | CAMPAIGN_CRITERION CREATE |  | поля: campaign, criterion_id, resource_name
+  2026-11-13 13:59:45 | adwhitemcc@gmail.com | GOOGLE_ADS_API | CAMPAIGN_CRITERION CREATE |  | поля: campaign, criterion_id, resource_name
+  2026-11-13 13:59:45 | adwhitemcc@gmail.com | GOOGLE_ADS_API | CAMPAIGN_CRITERION CREATE |  | поля: ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_sc
+  2026-11-13 13:59:45 | adwhitemcc@gmail.com | GOOGLE_ADS_API | CAMPAIGN_CRITERION CREATE |  | поля: ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_sc
+  2026-11-13 13:59:45 | adwhitemcc@gmail.com | GOOGLE_ADS_API | CAMPAIGN_CRITERION CREATE |  | поля: ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_sc
+  2026-11-13 13:59:45 | adwhitemcc@gmail.com | GOOGLE_ADS_API | CAMPAIGN_CRITERION CREATE |  | поля: ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_sc
+  2026-11-13 13:59:45 | adwhitemcc@gmail.com | GOOGLE_ADS_API | CAMPAIGN_CRITERION CREATE |  | поля: ad_schedule.day_of_week, ad_schedule.end_hour, ad_schedule.end_minute, ad_schedule.start_hour, ad_sc
+  2026-11-13 13:59:45 | adwhitemcc@gmail.com | GOOGLE_ADS_API | AD_GROUP CREATE |  | поля: campaign, demand_gen_ad_group_settings.channel_controls.selected_channels.youtube_in_feed, demand_ge
+  2026-11-13 13:59:45 | adwhitemcc@gmail.com | GOOGLE_ADS_API | AD_GROUP_CRITERION CREATE |  | поля: ad_group, audience.audience, criterion_id, negative, resource_name
+  2026-11-13 13:59:45 | adwhitemcc@gmail.com | GOOGLE_ADS_API | AD_GROUP_AD CREATE |  | поля: ad, ad_group, resource_name, status
+  2026-11-13 13:59:45 | adwhitemcc@gmail.com | GOOGLE_ADS_API | AD_GROUP_AD CREATE |  | поля: ad, ad_group, resource_name, status
+  (сохранено: ..\Клиенты\ProfiMet\Статистика\breakdown_yt_cold_changes_2026-11-01_2026-11-17.csv)
+
+=== Итог по разрезам ===
+  day (DEMAND_GEN): ok
+  hour (DEMAND_GEN): ok
+  dow (DEMAND_GEN): ok
+  device (DEMAND_GEN): ok
+  network (DEMAND_GEN): ok
+  audience (DEMAND_GEN): ok
+  ad_group (DEMAND_GEN): ok
+  asset (DEMAND_GEN): ok
+  placement (DEMAND_GEN): ok
+  conversion_action (DEMAND_GEN): ok
+  change_history (DEMAND_GEN): ok

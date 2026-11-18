@@ -1,0 +1,7 @@
+{
+ "name": "yt_cold",
+ "status": "PAUSED",
+ "strategy": "MAXIMIZE_CONVERSIONS",
+ "target_cpa": 0.0,
+ "cpc_ceiling": 0.0
+}

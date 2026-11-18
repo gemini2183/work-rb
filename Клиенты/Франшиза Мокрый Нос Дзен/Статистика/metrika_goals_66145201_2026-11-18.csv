@@ -1,0 +1,3 @@
+﻿id,name,type,status,default_price,is_retargeting,conditions
+195677773,Заявка,action,Active,0.0,0,exact:lead
+143150284,ОТПРАВКА ЛЮБОЙ ФОРМЫ,form,Active,100000.0,0,

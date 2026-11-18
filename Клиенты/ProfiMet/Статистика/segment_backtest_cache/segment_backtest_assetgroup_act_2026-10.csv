@@ -1,0 +1,260 @@
+﻿day,camp_id,camp,seg,segname,action,conv,allconv
+2026-10-07,21692572205,pmax01,6660092933,,addToCart_gtm,0.0,1.0
+2026-10-08,21692572205,pmax01,6660092933,,addToCart_gtm,0.0,13.0
+2026-10-08,21692572205,pmax01,6660092933,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-10-08,21692572205,pmax01,6660092933,,Клик по номеру,1.0,1.0
+2026-10-01,23775369828,pmax1_test,6704435019,,addToCart_gtm,0.0,1.0
+2026-10-01,23775369828,pmax1_test,6704435019,,form_submit_gtm,1.0,1.0
+2026-10-01,23775369828,pmax1_test,6704435019,,Клик по номеру,0.0,2.0
+2026-10-01,23775369828,pmax1_test,6704435145,,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,4.0
+2026-10-01,23775369828,pmax1_test,6704435145,,addToCart_gtm,0.0,1.0
+2026-10-01,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.0,3.0
+2026-10-01,23775369828,pmax1_test,6704435145,,Звонки по объявлениям,1.996321,1.996321
+2026-10-01,23775369828,pmax1_test,6704435145,,Клик по номеру,0.0,10.0
+2026-10-01,23775369828,pmax1_test,6704461081,,addToCart_gtm,0.0,1.0
+2026-10-01,23775369828,pmax1_test,6704461081,,Клик по номеру,0.0,3.0
+2026-10-01,23775369828,pmax1_test,6753581516,,form_submit_gtm,0.811745,0.811745
+2026-10-01,23775369828,pmax1_test,6753581516,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-10-01,23775369828,pmax1_test,6753581516,,Клик по номеру,0.0,6.0
+2026-10-02,23775369828,pmax1_test,6704435145,,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,2.0
+2026-10-02,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-10-02,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-02,23775369828,pmax1_test,6704435145,,Клик по номеру,0.0,2.0
+2026-10-05,23775369828,pmax1_test,6704435145,,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-10-05,23775369828,pmax1_test,6704435145,,Клик по номеру,0.0,1.0
+2026-10-06,23775369828,pmax1_test,6704435145,,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-10-06,23775369828,pmax1_test,6704435145,,addToCart_gtm,0.0,1.684603
+2026-10-06,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-10-06,23775369828,pmax1_test,6704435145,,Звонки по объявлениям,1.0,1.0
+2026-10-06,23775369828,pmax1_test,6704435145,,Клик по номеру,0.0,1.0
+2026-10-07,23775369828,pmax1_test,6704435019,,addToCart_gtm,0.0,1.0
+2026-10-07,23775369828,pmax1_test,6704435145,,addToCart_gtm,0.0,1.0
+2026-10-07,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-10-07,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-07,23775369828,pmax1_test,6704435145,,Клик по номеру,0.0,1.0
+2026-10-07,23775369828,pmax1_test,6704461081,,addToCart_gtm,0.0,1.0
+2026-10-07,23775369828,pmax1_test,6704461255,,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-10-07,23775369828,pmax1_test,6704461255,,addToCart_gtm,0.0,4.014083
+2026-10-07,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-10-07,23775369828,pmax1_test,6704461276,,addToCart_gtm,0.0,1.0
+2026-10-08,23775369828,pmax1_test,6704461081,,addToCart_gtm,0.0,2.890305
+2026-10-08,23775369828,pmax1_test,6704461081,,Клик по номеру,0.0,1.0
+2026-10-08,23775369828,pmax1_test,6704461255,,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,2.0
+2026-10-08,23775369828,pmax1_test,6704461255,,addToCart_gtm,0.0,2.0
+2026-10-08,23775369828,pmax1_test,6704461255,,form_submit_gtm,1.0,1.0
+2026-10-08,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-10-08,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.499704
+2026-10-08,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-10-08,23775369828,pmax1_test,6704461273,,addToCart_gtm,0.0,3.790092
+2026-10-08,23775369828,pmax1_test,6704461273,,Клик по номеру,0.0,1.0
+2026-10-08,23775369828,pmax1_test,6704461276,,addToCart_gtm,0.0,1.997091
+2026-10-08,23775369828,pmax1_test,6704461276,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-09,23775369828,pmax1_test,6704435019,,addToCart_gtm,0.0,1.104646
+2026-10-09,23775369828,pmax1_test,6704435019,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-10-09,23775369828,pmax1_test,6704435019,,Звонки по объявлениям,0.994164,0.994164
+2026-10-09,23775369828,pmax1_test,6704435145,,addToCart_gtm,0.0,2.0
+2026-10-09,23775369828,pmax1_test,6704461081,,addToCart_gtm,0.0,0.994906
+2026-10-09,23775369828,pmax1_test,6704461081,,Клик по номеру,0.0,1.0
+2026-10-09,23775369828,pmax1_test,6704461255,,addToCart_gtm,0.0,2.99606
+2026-10-09,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-12,23775369828,pmax1_test,6704435019,,addToCart_gtm,0.0,1.0
+2026-10-12,23775369828,pmax1_test,6704435145,,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-10-12,23775369828,pmax1_test,6704435145,,addToCart_gtm,0.0,6.0
+2026-10-12,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-10-12,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-10-12,23775369828,pmax1_test,6704435145,,Клик по номеру,0.0,3.0
+2026-10-12,23775369828,pmax1_test,6704461081,,addToCart_gtm,0.0,2.0
+2026-10-12,23775369828,pmax1_test,6704461255,,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-10-12,23775369828,pmax1_test,6704461255,,addToCart_gtm,0.0,6.0
+2026-10-12,23775369828,pmax1_test,6704461255,,form_submit_gtm,1.0,1.0
+2026-10-12,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-10-12,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-12,23775369828,pmax1_test,6704461255,,Клик по номеру,0.0,1.0
+2026-10-12,23775369828,pmax1_test,6704461276,,addToCart_gtm,0.0,1.0
+2026-10-13,23775369828,pmax1_test,6704435019,,addToCart_gtm,0.0,1.0
+2026-10-13,23775369828,pmax1_test,6704435019,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-13,23775369828,pmax1_test,6704435145,,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-10-13,23775369828,pmax1_test,6704435145,,addToCart_gtm,0.0,5.0
+2026-10-13,23775369828,pmax1_test,6704435145,,form_submit_gtm,1.0,1.0
+2026-10-13,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-10-13,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-10-13,23775369828,pmax1_test,6704435145,,Клик по номеру,0.0,1.0
+2026-10-13,23775369828,pmax1_test,6704461081,,addToCart_gtm,0.0,4.0
+2026-10-13,23775369828,pmax1_test,6704461081,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.207459
+2026-10-13,23775369828,pmax1_test,6704461255,,addToCart_gtm,0.0,2.0
+2026-10-13,23775369828,pmax1_test,6704461255,,Клик по номеру,0.0,1.0
+2026-10-13,23775369828,pmax1_test,6704461273,,addToCart_gtm,0.0,1.0
+2026-10-13,23775369828,pmax1_test,6704461276,,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-10-13,23775369828,pmax1_test,6704461276,,addToCart_gtm,0.0,2.0
+2026-10-13,23775369828,pmax1_test,6704461276,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-10-14,23775369828,pmax1_test,6704435019,,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,3.0
+2026-10-14,23775369828,pmax1_test,6704435019,,addToCart_gtm,0.0,3.0
+2026-10-14,23775369828,pmax1_test,6704435019,,form_submit_gtm,1.0,1.0
+2026-10-14,23775369828,pmax1_test,6704435019,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.0,3.0
+2026-10-14,23775369828,pmax1_test,6704435019,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.792541
+2026-10-14,23775369828,pmax1_test,6704435019,,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.5
+2026-10-14,23775369828,pmax1_test,6704435019,,Клик по номеру,0.0,3.0
+2026-10-14,23775369828,pmax1_test,6704435145,,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-10-14,23775369828,pmax1_test,6704435145,,addToCart_gtm,0.0,10.0
+2026-10-14,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-10-14,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.501342
+2026-10-14,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.5
+2026-10-14,23775369828,pmax1_test,6704435145,,Клик по номеру,0.0,1.0
+2026-10-14,23775369828,pmax1_test,6704461081,,addToCart_gtm,0.0,6.0
+2026-10-14,23775369828,pmax1_test,6704461081,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.998064
+2026-10-14,23775369828,pmax1_test,6704461081,,Клик по номеру,0.0,1.0
+2026-10-14,23775369828,pmax1_test,6704461255,,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-10-14,23775369828,pmax1_test,6704461255,,addToCart_gtm,0.0,5.0
+2026-10-14,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-10-14,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-14,23775369828,pmax1_test,6704461255,,Клик по номеру,0.0,2.0
+2026-10-14,23775369828,pmax1_test,6704461273,,addToCart_gtm,0.0,1.0
+2026-10-14,23775369828,pmax1_test,6704461273,,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.5
+2026-10-14,23775369828,pmax1_test,6704461276,,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-10-14,23775369828,pmax1_test,6704461276,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-10-14,23775369828,pmax1_test,6704461276,,Клик по номеру,0.0,3.0
+2026-10-15,23775369828,pmax1_test,6704435019,,addToCart_gtm,0.0,1.0
+2026-10-15,23775369828,pmax1_test,6704435145,,addToCart_gtm,0.0,7.0
+2026-10-15,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-10-15,23775369828,pmax1_test,6704461081,,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-10-15,23775369828,pmax1_test,6704461081,,addToCart_gtm,0.0,6.0
+2026-10-15,23775369828,pmax1_test,6704461081,,form_submit_gtm,1.0,1.0
+2026-10-15,23775369828,pmax1_test,6704461081,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-10-15,23775369828,pmax1_test,6704461081,,Клик по номеру,0.0,1.0
+2026-10-15,23775369828,pmax1_test,6704461255,,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,2.0
+2026-10-15,23775369828,pmax1_test,6704461255,,addToCart_gtm,0.0,9.0
+2026-10-15,23775369828,pmax1_test,6704461255,,form_submit_gtm,2.0,2.0
+2026-10-15,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-10-15,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-10-15,23775369828,pmax1_test,6704461255,,Клик по номеру,0.0,6.0
+2026-10-15,23775369828,pmax1_test,6704461273,,Звонки по объявлениям,1.0,1.0
+2026-10-15,23775369828,pmax1_test,6704461276,,addToCart_gtm,0.0,6.0
+2026-10-15,23775369828,pmax1_test,6704461276,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-15,23775369828,pmax1_test,6704461276,,Клик по номеру,0.0,2.0
+2026-10-16,23775369828,pmax1_test,6704435019,,addToCart_gtm,0.0,1.0
+2026-10-16,23775369828,pmax1_test,6704435145,,addToCart_gtm,0.0,3.0
+2026-10-16,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-16,23775369828,pmax1_test,6704435145,,Звонки по объявлениям,1.0,1.0
+2026-10-16,23775369828,pmax1_test,6704435145,,Клик по номеру,0.0,1.0
+2026-10-16,23775369828,pmax1_test,6704461255,,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,3.0
+2026-10-16,23775369828,pmax1_test,6704461255,,addToCart_gtm,0.0,13.0
+2026-10-16,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-10-16,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-10-16,23775369828,pmax1_test,6704461255,,Клик по номеру,0.0,5.0
+2026-10-19,23775369828,pmax1_test,6704435019,,addToCart_gtm,0.0,3.0
+2026-10-19,23775369828,pmax1_test,6704435019,,form_submit_gtm,1.0,1.0
+2026-10-19,23775369828,pmax1_test,6704435019,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-19,23775369828,pmax1_test,6704435019,,Клик по номеру,0.0,1.0
+2026-10-19,23775369828,pmax1_test,6704435145,,"Ringostat — уникальный звонок (офлайн, gclid)",0.0,1.0
+2026-10-19,23775369828,pmax1_test,6704435145,,addToCart_gtm,0.0,4.0
+2026-10-19,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-10-19,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-19,23775369828,pmax1_test,6704435145,,Клик по номеру,0.0,2.0
+2026-10-19,23775369828,pmax1_test,6704461255,,addToCart_gtm,0.0,7.0
+2026-10-19,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-10-19,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-10-19,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-10-19,23775369828,pmax1_test,6704461255,,Клик по номеру,0.0,5.0
+2026-10-20,23775369828,pmax1_test,6704435019,,addToCart_gtm,0.0,5.0
+2026-10-20,23775369828,pmax1_test,6704435145,,addToCart_gtm,0.0,7.0
+2026-10-20,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-10-20,23775369828,pmax1_test,6704461255,,addToCart_gtm,0.0,19.0
+2026-10-20,23775369828,pmax1_test,6704461255,,form_submit_gtm,1.0,1.0
+2026-10-20,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-10-20,23775369828,pmax1_test,6704461255,,Звонки по объявлениям,1.0,1.0
+2026-10-20,23775369828,pmax1_test,6704461255,,Клик по номеру,0.0,1.0
+2026-10-21,23775369828,pmax1_test,6704435019,,addToCart_gtm,0.0,1.0
+2026-10-21,23775369828,pmax1_test,6704435019,,form_submit_gtm,1.0,1.0
+2026-10-21,23775369828,pmax1_test,6704435019,,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.049806
+2026-10-21,23775369828,pmax1_test,6704435145,,addToCart_gtm,0.0,7.0
+2026-10-21,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.0,3.0
+2026-10-21,23775369828,pmax1_test,6704435145,,Клик по номеру,0.0,3.0
+2026-10-21,23775369828,pmax1_test,6704461255,,addToCart_gtm,0.0,7.0
+2026-10-21,23775369828,pmax1_test,6704461255,,form_submit_gtm,2.0,2.0
+2026-10-21,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-21,23775369828,pmax1_test,6704461255,,Клик по номеру,0.0,1.0
+2026-10-22,23775369828,pmax1_test,6704435019,,addToCart_gtm,0.0,2.0
+2026-10-22,23775369828,pmax1_test,6704435145,,addToCart_gtm,0.0,3.0
+2026-10-22,23775369828,pmax1_test,6704435145,,form_submit_gtm,1.0,1.0
+2026-10-22,23775369828,pmax1_test,6704435145,,Клик по номеру,0.0,1.0
+2026-10-22,23775369828,pmax1_test,6704461255,,addToCart_gtm,0.0,4.0
+2026-10-22,23775369828,pmax1_test,6704461255,,Клик по номеру,0.0,2.0
+2026-10-23,23775369828,pmax1_test,6704435145,,addToCart_gtm,0.0,1.0
+2026-10-23,23775369828,pmax1_test,6704435145,,Клик по номеру,0.0,1.0
+2026-10-23,23775369828,pmax1_test,6704461255,,addToCart_gtm,0.0,10.0
+2026-10-23,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-10-23,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-23,23775369828,pmax1_test,6704461255,,Клик по номеру,0.0,1.0
+2026-10-26,23775369828,pmax1_test,6704435019,,addToCart_gtm,0.0,6.0
+2026-10-26,23775369828,pmax1_test,6704435019,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-10-26,23775369828,pmax1_test,6704435019,,Клик по номеру,0.0,1.0
+2026-10-26,23775369828,pmax1_test,6704435145,,addToCart_gtm,0.0,3.0
+2026-10-26,23775369828,pmax1_test,6704435145,,form_submit_gtm,1.0,1.0
+2026-10-26,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-26,23775369828,pmax1_test,6704435145,,Клик по номеру,0.0,1.0
+2026-10-26,23775369828,pmax1_test,6704461255,,addToCart_gtm,0.0,22.0
+2026-10-26,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-10-26,23775369828,pmax1_test,6704461255,,Клик по номеру,0.0,4.0
+2026-10-27,23775369828,pmax1_test,6704435019,,addToCart_gtm,0.0,1.0
+2026-10-27,23775369828,pmax1_test,6704435145,,addToCart_gtm,0.0,2.0
+2026-10-27,23775369828,pmax1_test,6704435145,,form_submit_gtm,1.0,1.0
+2026-10-27,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-27,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-10-27,23775369828,pmax1_test,6704435145,,Звонки по объявлениям,2.0,2.0
+2026-10-27,23775369828,pmax1_test,6704435145,,Клик по номеру,0.0,1.0
+2026-10-27,23775369828,pmax1_test,6704461255,,addToCart_gtm,0.0,1.0
+2026-10-28,23775369828,pmax1_test,6704435019,,addToCart_gtm,0.0,2.0
+2026-10-28,23775369828,pmax1_test,6704435019,,Клик по номеру,0.0,1.0
+2026-10-28,23775369828,pmax1_test,6704435145,,addToCart_gtm,0.0,4.0
+2026-10-28,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-10-28,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-10-28,23775369828,pmax1_test,6704435145,,Клик по номеру,0.0,1.0
+2026-10-28,23775369828,pmax1_test,6704461255,,addToCart_gtm,0.0,13.0
+2026-10-28,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-10-28,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-28,23775369828,pmax1_test,6704461255,,Клик по номеру,0.0,2.0
+2026-10-29,23775369828,pmax1_test,6704435019,,addToCart_gtm,0.0,1.0
+2026-10-29,23775369828,pmax1_test,6704435145,,addToCart_gtm,0.0,3.0
+2026-10-29,23775369828,pmax1_test,6704435145,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-29,23775369828,pmax1_test,6704435145,,Клик по номеру,0.0,1.0
+2026-10-29,23775369828,pmax1_test,6704461255,,addToCart_gtm,0.0,9.0
+2026-10-29,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-29,23775369828,pmax1_test,6704461255,,Клик по номеру,0.0,1.0
+2026-10-30,23775369828,pmax1_test,6704435019,,addToCart_gtm,0.0,2.0
+2026-10-30,23775369828,pmax1_test,6704435019,,Клик по номеру,0.0,1.0
+2026-10-30,23775369828,pmax1_test,6704435145,,addToCart_gtm,0.0,3.0
+2026-10-30,23775369828,pmax1_test,6704435145,,Клик по номеру,0.0,2.0
+2026-10-30,23775369828,pmax1_test,6704461255,,addToCart_gtm,0.0,10.0
+2026-10-30,23775369828,pmax1_test,6704461255,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-30,23775369828,pmax1_test,6704461255,,Клик по номеру,0.0,1.0
+2026-10-09,24332178236,pmax01_call_test,6757243788,,addToCart_gtm,0.0,3.105177
+2026-10-09,24332178236,pmax01_call_test,6757243788,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-09,24332178236,pmax01_call_test,6757243788,,Клик по номеру,1.0,1.0
+2026-10-09,24332178236,pmax01_call_test,6757243848,,addToCart_gtm,0.0,9.894823
+2026-10-09,24332178236,pmax01_call_test,6757243848,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-09,24332178236,pmax01_call_test,6757243848,,Клик по номеру,7.0,7.0
+2026-10-09,24332178236,pmax01_call_test,6757243854,,addToCart_gtm,0.0,12.0
+2026-10-09,24332178236,pmax01_call_test,6757243854,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-10-09,24332178236,pmax01_call_test,6757243854,,Клик по номеру,1.0,1.0
+2026-10-12,24332178236,pmax01_call_test,6757243788,,addToCart_gtm,0.0,10.0
+2026-10-12,24332178236,pmax01_call_test,6757243788,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.357142
+2026-10-12,24332178236,pmax01_call_test,6757243788,,Клик по номеру,5.0,5.0
+2026-10-12,24332178236,pmax01_call_test,6757243848,,addToCart_gtm,0.0,5.0
+2026-10-12,24332178236,pmax01_call_test,6757243848,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-12,24332178236,pmax01_call_test,6757243854,,addToCart_gtm,0.0,12.0
+2026-10-12,24332178236,pmax01_call_test,6757243854,,form_submit_gtm,1.0,1.0
+2026-10-12,24332178236,pmax01_call_test,6757243854,,Клик по номеру,4.0,4.0
+2026-10-13,24332178236,pmax01_call_test,6757243788,,addToCart_gtm,0.0,4.0
+2026-10-13,24332178236,pmax01_call_test,6757243788,,Клик по номеру,4.0,4.0
+2026-10-13,24332178236,pmax01_call_test,6757243848,,addToCart_gtm,0.0,3.0
+2026-10-13,24332178236,pmax01_call_test,6757243848,,Клик по номеру,1.0,1.0
+2026-10-13,24332178236,pmax01_call_test,6757243854,,addToCart_gtm,0.0,8.0
+2026-10-13,24332178236,pmax01_call_test,6757243854,,form_submit_gtm,1.0,1.0
+2026-10-13,24332178236,pmax01_call_test,6757243854,,Клик по номеру,1.0,1.0
+2026-10-14,24332178236,pmax01_call_test,6757243788,,addToCart_gtm,0.0,2.0
+2026-10-14,24332178236,pmax01_call_test,6757243848,,addToCart_gtm,0.0,2.0
+2026-10-14,24332178236,pmax01_call_test,6757243848,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-14,24332178236,pmax01_call_test,6757243848,,Клик по номеру,1.0,1.0
+2026-10-14,24332178236,pmax01_call_test,6757243854,,addToCart_gtm,0.0,7.0
+2026-10-14,24332178236,pmax01_call_test,6757243854,,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-10-14,24332178236,pmax01_call_test,6757243854,,Клик по номеру,1.0,1.0

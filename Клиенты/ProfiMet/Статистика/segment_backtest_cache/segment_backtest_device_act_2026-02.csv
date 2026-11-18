@@ -1,0 +1,962 @@
+﻿day,camp_id,camp,seg,segname,action,conv,allconv
+2026-02-02,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,3.0
+2026-02-02,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,0.837381,0.837381
+2026-02-02,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-02-02,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-02-02,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-02,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,16.681842
+2026-02-02,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-02-02,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-02,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.887383
+2026-02-02,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.5
+2026-02-02,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Звонки по объявлениям,1.0,1.0
+2026-02-03,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,6.0
+2026-02-03,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.010949,2.010949
+2026-02-03,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-02-03,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,21.92057
+2026-02-03,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.8,1.8
+2026-02-03,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.090649,0.090649
+2026-02-03,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,17.733684
+2026-02-03,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.75
+2026-02-03,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Клик по номеру,0.0,0.006117
+2026-02-03,19153311519,Search | Brand | Pl,TABLET,TABLET,addToCart_gtm,0.0,0.789294
+2026-02-04,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,4.0
+2026-02-04,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-02-04,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,22.084092
+2026-02-04,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,4.0,4.0
+2026-02-04,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.971149,1.971149
+2026-02-04,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,16.911687
+2026-02-04,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,3.5
+2026-02-05,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,8.0
+2026-02-05,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-05,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.761575
+2026-02-05,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,12.166666
+2026-02-05,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,2.0,2.0
+2026-02-05,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.220716
+2026-02-05,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-02-06,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,3.5
+2026-02-06,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.023359,1.023359
+2026-02-06,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-02-06,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,9.527655
+2026-02-06,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-02-06,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-06,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.202979
+2026-02-06,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.447482
+2026-02-07,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,5.39953
+2026-02-07,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.612788
+2026-02-07,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,3.811386
+2026-02-07,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-02-07,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.999246
+2026-02-07,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-09,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,7.0
+2026-02-09,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.010949,2.010949
+2026-02-09,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.000154
+2026-02-09,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,25.175678
+2026-02-09,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,0.666666,0.666666
+2026-02-09,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.960812,1.960812
+2026-02-09,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,16.215732
+2026-02-10,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,4.0
+2026-02-10,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-10,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.714556
+2026-02-10,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,7.736154
+2026-02-10,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.29481,1.29481
+2026-02-10,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.092541,1.092541
+2026-02-10,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.053416
+2026-02-11,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,12.0
+2026-02-11,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-02-11,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-11,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.371502
+2026-02-11,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,23.403684
+2026-02-11,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,0.75,0.75
+2026-02-11,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.02683,0.02683
+2026-02-11,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,11.260199
+2026-02-11,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.666666
+2026-02-11,19153311519,Search | Brand | Pl,TABLET,TABLET,addToCart_gtm,0.0,0.970451
+2026-02-12,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,7.0
+2026-02-12,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-02-12,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-02-12,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-12,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,21.196215
+2026-02-12,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,0.25,0.25
+2026-02-12,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.487335,3.487335
+2026-02-12,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,15.05499
+2026-02-12,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.333334
+2026-02-12,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Звонки по объявлениям,0.998651,0.998651
+2026-02-12,19153311519,Search | Brand | Pl,TABLET,TABLET,addToCart_gtm,0.0,1.52037
+2026-02-12,19153311519,Search | Brand | Pl,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-02-13,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,4.0
+2026-02-13,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.005037,0.005037
+2026-02-13,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-02-13,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,19.15936
+2026-02-13,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-02-13,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.059885,2.059885
+2026-02-13,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,11.747663
+2026-02-13,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-14,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,4.0
+2026-02-14,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.680338,1.680338
+2026-02-14,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.918385
+2026-02-14,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-02-14,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,9.693666
+2026-02-14,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-02-14,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.023025,0.023025
+2026-02-14,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.657541
+2026-02-14,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-14,19153311519,Search | Brand | Pl,TABLET,TABLET,addToCart_gtm,0.0,2.0
+2026-02-14,19153311519,Search | Brand | Pl,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-02-16,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,16.0
+2026-02-16,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,2.080086,2.080086
+2026-02-16,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,4.060796,4.060796
+2026-02-16,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.999509
+2026-02-16,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.004772
+2026-02-16,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,19.393893
+2026-02-16,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,2.0,2.0
+2026-02-16,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,5.428278,5.428278
+2026-02-16,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,12.042235
+2026-02-16,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-02-16,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Клик по номеру,0.0,0.37189
+2026-02-17,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,8.6
+2026-02-17,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,2.0,2.0
+2026-02-17,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.336687,2.336687
+2026-02-17,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.000001
+2026-02-17,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-17,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,10.225408
+2026-02-17,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,0.4,0.4
+2026-02-17,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.00907,0.00907
+2026-02-17,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.165952
+2026-02-17,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.25
+2026-02-17,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Клик по номеру,0.0,0.979627
+2026-02-18,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,7.5
+2026-02-18,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.00994,0.00994
+2026-02-18,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-02-18,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,13.565937
+2026-02-18,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,3.0,3.0
+2026-02-18,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,5.110135,5.110135
+2026-02-18,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,13.565219
+2026-02-18,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-02-19,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,7.0
+2026-02-19,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,2.0,2.0
+2026-02-19,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.220827,3.220827
+2026-02-19,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2026-02-19,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-02-19,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,12.525639
+2026-02-19,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.542499,1.542499
+2026-02-19,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.479915,3.479915
+2026-02-19,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.420536
+2026-02-19,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.492256
+2026-02-19,19153311519,Search | Brand | Pl,TABLET,TABLET,addToCart_gtm,0.0,2.0
+2026-02-19,19153311519,Search | Brand | Pl,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-02-20,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,11.5
+2026-02-20,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,2.0,2.0
+2026-02-20,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.698351,2.698351
+2026-02-20,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.303659
+2026-02-20,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-20,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,18.827714
+2026-02-20,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,3.0,3.0
+2026-02-20,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.036742,0.036742
+2026-02-20,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.365712
+2026-02-20,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-02-21,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,3.0
+2026-02-21,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.255199
+2026-02-21,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,24.564375
+2026-02-21,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.457501,1.457501
+2026-02-21,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.607289,0.607289
+2026-02-21,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,14.149828
+2026-02-21,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.507744
+2026-02-21,19153311519,Search | Brand | Pl,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-23,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,25.594472
+2026-02-23,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,2.55817,2.55817
+2026-02-23,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.786494,3.786494
+2026-02-23,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,12.81947
+2026-02-23,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,3.5
+2026-02-23,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,42.522466
+2026-02-23,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,2.104006,2.104006
+2026-02-23,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,10.890645,10.890645
+2026-02-23,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,30.151443
+2026-02-23,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.542039
+2026-02-23,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Звонки по объявлениям,2.0,2.0
+2026-02-23,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Клик по номеру,0.0,1.5
+2026-02-23,19153311519,Search | Brand | Pl,TABLET,TABLET,addToCart_gtm,0.0,0.01608
+2026-02-24,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,20.721427
+2026-02-24,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,2.5,2.5
+2026-02-24,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,4.791544,4.791544
+2026-02-24,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,11.703152
+2026-02-24,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.5
+2026-02-24,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,26.727434
+2026-02-24,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,3.978497,3.978497
+2026-02-24,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,8.129466,8.129466
+2026-02-24,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,19.191063
+2026-02-24,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,3.0
+2026-02-25,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,28.66786
+2026-02-25,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,5.0,5.0
+2026-02-25,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,11.078228,11.078228
+2026-02-25,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,12.204438
+2026-02-25,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,4.0
+2026-02-25,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,27.51881
+2026-02-25,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.918443,1.918443
+2026-02-25,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,8.068101,8.068101
+2026-02-25,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,14.698405
+2026-02-25,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-02-26,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,20.981316
+2026-02-26,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,5.000002,5.000002
+2026-02-26,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,4.176091,4.176091
+2026-02-26,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,15.31743
+2026-02-26,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,3.495259
+2026-02-26,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,45.681543
+2026-02-26,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,3.25,3.25
+2026-02-26,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,11.745603,11.745603
+2026-02-26,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,30.333554
+2026-02-26,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-02-26,19153311519,Search | Brand | Pl,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.054475,0.054475
+2026-02-27,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,5.702522
+2026-02-27,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,4.333334,4.333334
+2026-02-27,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.449177,2.449177
+2026-02-27,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.418054
+2026-02-27,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,5.504631
+2026-02-27,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,17.490231
+2026-02-27,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,2.75,2.75
+2026-02-27,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,8.3781,8.3781
+2026-02-27,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,13.439164
+2026-02-27,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.5
+2026-02-27,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Звонки по объявлениям,1.0,1.0
+2026-02-27,19153311519,Search | Brand | Pl,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.923808,0.923808
+2026-02-28,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,4.0
+2026-02-28,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-02-28,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.047059,0.047059
+2026-02-28,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.629413
+2026-02-28,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.978283
+2026-02-28,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,26.679208
+2026-02-28,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,6.0,6.0
+2026-02-28,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.013649,2.013649
+2026-02-28,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,17.902641
+2026-02-28,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,5.481535
+2026-02-02,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,14.5
+2026-02-02,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-02,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.0
+2026-02-02,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,10.894111
+2026-02-02,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-02,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.5
+2026-02-02,19158580966,Search | Poliweglan | Pl,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-02-02,19158580966,Search | Poliweglan | Pl,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-02-03,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,13.0
+2026-02-03,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.971503
+2026-02-03,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,18.447485
+2026-02-03,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,2.2,2.2
+2026-02-03,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.889856,1.889856
+2026-02-03,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,12.815787
+2026-02-03,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.25
+2026-02-03,19158580966,Search | Poliweglan | Pl,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-02-04,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,9.898616
+2026-02-04,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.107759
+2026-02-04,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,11.187565
+2026-02-04,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,11.0
+2026-02-05,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,18.0
+2026-02-05,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,11.5
+2026-02-05,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,11.912133
+2026-02-05,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,2.026109,2.026109
+2026-02-05,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.047389
+2026-02-05,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-02-06,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,7.5
+2026-02-06,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.5
+2026-02-06,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,9.802969
+2026-02-06,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.427504,0.427504
+2026-02-06,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.805381
+2026-02-06,19158580966,Search | Poliweglan | Pl,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-02-06,19158580966,Search | Poliweglan | Pl,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-02-09,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,19.613504
+2026-02-09,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-02-09,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.927663,2.927663
+2026-02-09,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,13.514803
+2026-02-09,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-09,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,9.674444
+2026-02-09,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,1.920698,1.920698
+2026-02-09,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.438981,2.438981
+2026-02-09,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.999494
+2026-02-09,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.952957
+2026-02-10,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,9.613504
+2026-02-10,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-10,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.000033
+2026-02-10,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,14.137208
+2026-02-10,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.973517,0.973517
+2026-02-10,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,12.58764
+2026-02-11,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,10.0
+2026-02-11,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-02-11,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2026-02-11,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,16.656105
+2026-02-11,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.032979,0.032979
+2026-02-11,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,14.666666
+2026-02-11,19158580966,Search | Poliweglan | Pl,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-02-11,19158580966,Search | Poliweglan | Pl,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-02-12,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,20.0
+2026-02-12,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-02-12,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.033753,2.033753
+2026-02-12,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.999966
+2026-02-12,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-12,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,14.304258
+2026-02-12,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,2.0,2.0
+2026-02-12,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2026-02-12,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.853341
+2026-02-12,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-02-13,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,17.455413
+2026-02-13,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.885416
+2026-02-13,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,15.37682
+2026-02-13,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,0.142858,0.142858
+2026-02-13,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-13,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.247557
+2026-02-13,19158580966,Search | Poliweglan | Pl,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.25,0.25
+2026-02-16,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,20.006163
+2026-02-16,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.021918,1.021918
+2026-02-16,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.333333,2.333333
+2026-02-16,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,11.666666
+2026-02-16,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.004772
+2026-02-16,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,26.480301
+2026-02-16,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-02-16,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,4.451598,4.451598
+2026-02-16,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,23.109929
+2026-02-16,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-16,19158580966,Search | Poliweglan | Pl,TABLET,TABLET,addToCart_gtm,0.0,2.0
+2026-02-16,19158580966,Search | Poliweglan | Pl,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-02-17,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,14.75
+2026-02-17,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-02-17,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.0,3.0
+2026-02-17,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.919546
+2026-02-17,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,Клик по номеру,0.0,0.810014
+2026-02-17,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,15.5
+2026-02-17,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-02-17,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.994489,1.994489
+2026-02-17,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,12.242684
+2026-02-17,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-18,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,14.75
+2026-02-18,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-02-18,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.020906,0.020906
+2026-02-18,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.166667
+2026-02-18,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,13.344391
+2026-02-18,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-02-18,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-18,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.485837
+2026-02-18,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-18,19158580966,Search | Poliweglan | Pl,TABLET,TABLET,addToCart_gtm,0.0,2.0
+2026-02-19,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,6.013317
+2026-02-19,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2026-02-19,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.0
+2026-02-19,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,13.802539
+2026-02-19,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.049724,1.049724
+2026-02-19,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,14.489885
+2026-02-19,19158580966,Search | Poliweglan | Pl,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-02-19,19158580966,Search | Poliweglan | Pl,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-02-20,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,12.413327
+2026-02-20,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.979094,0.979094
+2026-02-20,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.281476
+2026-02-20,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,17.329281
+2026-02-20,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-20,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,15.98181
+2026-02-23,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,32.408396
+2026-02-23,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-02-23,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2026-02-23,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,19.397571
+2026-02-23,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-23,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,56.951466
+2026-02-23,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,3.50489,3.50489
+2026-02-23,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.155419,3.155419
+2026-02-23,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,43.273358
+2026-02-23,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.000099
+2026-02-24,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,21.610713
+2026-02-24,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,3.0,3.0
+2026-02-24,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,4.122433,4.122433
+2026-02-24,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,13.239848
+2026-02-24,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,3.0
+2026-02-24,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,51.776043
+2026-02-24,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,7.0,7.0
+2026-02-24,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,5.164259,5.164259
+2026-02-24,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,40.19954
+2026-02-24,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,6.0
+2026-02-24,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,Клик по номеру,0.0,1.999998
+2026-02-25,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,32.601556
+2026-02-25,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,5.166664,5.166664
+2026-02-25,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.5,3.5
+2026-02-25,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,18.552938
+2026-02-25,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,4.222851
+2026-02-25,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,49.587888
+2026-02-25,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,0.5,0.5
+2026-02-25,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-25,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,45.091011
+2026-02-26,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,38.092765
+2026-02-26,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,2.5,2.5
+2026-02-26,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-26,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,23.691017
+2026-02-26,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-02-26,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,55.007798
+2026-02-26,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,4.361775,4.361775
+2026-02-26,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.666666,0.666666
+2026-02-26,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,39.31427
+2026-02-26,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-02-26,19158580966,Search | Poliweglan | Pl,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-02-26,19158580966,Search | Poliweglan | Pl,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-02-27,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,16.0
+2026-02-27,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.0,3.0
+2026-02-27,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.0
+2026-02-27,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,36.356058
+2026-02-27,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,0.919179,0.919179
+2026-02-27,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.087593,1.087593
+2026-02-27,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,28.783547
+2026-02-27,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.997624
+2026-02-27,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,Звонки по объявлениям,1.0,1.0
+2026-02-27,19158580966,Search | Poliweglan | Pl,TABLET,TABLET,addToCart_gtm,0.0,0.57796
+2026-02-27,19158580966,Search | Poliweglan | Pl,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-02-28,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2026-02-28,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-02-28,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-02-28,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-28,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,1.0
+2026-02-28,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-28,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-02-02,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,92.666118
+2026-02-02,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.05111,2.05111
+2026-02-02,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,48.309853
+2026-02-02,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.018452
+2026-02-02,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,551.424297
+2026-02-02,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,2.5,2.5
+2026-02-02,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,5.049042,5.049042
+2026-02-02,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,142.201636
+2026-02-02,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-02,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,21.441263,21.441263
+2026-02-02,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,5.041233
+2026-02-02,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-02-03,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,56.597825
+2026-02-03,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.230153,0.230153
+2026-02-03,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,32.011323
+2026-02-03,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,592.509399
+2026-02-03,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,1.072244,1.072244
+2026-02-03,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,4.179912,4.179912
+2026-02-03,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,134.162847
+2026-02-03,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,21.558634,21.558634
+2026-02-03,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,4.986166
+2026-02-03,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.028384
+2026-02-04,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,69.007394
+2026-02-04,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.015014,2.015014
+2026-02-04,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,28.763343
+2026-02-04,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,294.34746
+2026-02-04,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,4.206329,4.206329
+2026-02-04,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,93.848471
+2026-02-04,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,11.939157,11.939157
+2026-02-04,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,4.994692
+2026-02-04,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.938963
+2026-02-05,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,125.985618
+2026-02-05,21692572205,pmax01,DESKTOP,DESKTOP,form_submit_gtm,2.046179,2.046179
+2026-02-05,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.992332,1.992332
+2026-02-05,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,59.252666
+2026-02-05,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,395.805021
+2026-02-05,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,2.994023,2.994023
+2026-02-05,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.991783,1.991783
+2026-02-05,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,183.858629
+2026-02-05,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-05,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,18.543557,18.543557
+2026-02-05,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,1.00452
+2026-02-05,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.001541
+2026-02-05,21692572205,pmax01,CONNECTED_TV,CONNECTED_TV,addToCart_gtm,0.0,2.006718
+2026-02-05,21692572205,pmax01,CONNECTED_TV,CONNECTED_TV,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-02-06,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,76.85814
+2026-02-06,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.338234,3.338234
+2026-02-06,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,39.023933
+2026-02-06,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.018452
+2026-02-06,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,526.465204
+2026-02-06,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,4.335615,4.335615
+2026-02-06,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.372795,1.372795
+2026-02-06,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,207.91762
+2026-02-06,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.047043
+2026-02-06,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,28.737362,28.737362
+2026-02-06,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,6.004319
+2026-02-06,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.18121
+2026-02-06,21692572205,pmax01,CONNECTED_TV,CONNECTED_TV,addToCart_gtm,0.0,1.0
+2026-02-06,21692572205,pmax01,CONNECTED_TV,CONNECTED_TV,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-02-09,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,25.611598
+2026-02-09,21692572205,pmax01,DESKTOP,DESKTOP,form_submit_gtm,2.0,2.0
+2026-02-09,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.753135,3.753135
+2026-02-09,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,15.808636
+2026-02-09,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-09,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,82.14588
+2026-02-09,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,0.080995,0.080995
+2026-02-09,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.644317,1.644317
+2026-02-09,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,41.700329
+2026-02-09,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,3.016989,3.016989
+2026-02-09,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,1.999606
+2026-02-10,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,56.194757
+2026-02-10,21692572205,pmax01,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-02-10,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,4.698554,4.698554
+2026-02-10,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,33.031858
+2026-02-10,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-10,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,461.930553
+2026-02-10,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,3.419005,3.419005
+2026-02-10,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.301243,3.301243
+2026-02-10,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,163.972035
+2026-02-10,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,3.067246
+2026-02-10,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,24.511193,24.511193
+2026-02-10,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,5.993791
+2026-02-10,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-02-11,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,67.801313
+2026-02-11,21692572205,pmax01,DESKTOP,DESKTOP,form_submit_gtm,1.057529,1.057529
+2026-02-11,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.345908,1.345908
+2026-02-11,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,35.784708
+2026-02-11,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.018452
+2026-02-11,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,479.192163
+2026-02-11,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,1.046144,1.046144
+2026-02-11,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,6.975058,6.975058
+2026-02-11,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,263.202323
+2026-02-11,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.137437
+2026-02-11,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,23.224978,23.224978
+2026-02-11,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,7.002587
+2026-02-11,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-02-12,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,59.665316
+2026-02-12,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,4.386331,4.386331
+2026-02-12,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,30.700596
+2026-02-12,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,352.542699
+2026-02-12,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,1.034572,1.034572
+2026-02-12,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,4.95713,4.95713
+2026-02-12,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,198.792117
+2026-02-12,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.069224
+2026-02-12,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,24.750644,24.750644
+2026-02-12,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,3.492057
+2026-02-12,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.966937
+2026-02-13,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,51.38684
+2026-02-13,21692572205,pmax01,DESKTOP,DESKTOP,form_submit_gtm,2.531673,2.531673
+2026-02-13,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.518847,0.518847
+2026-02-13,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,20.726028
+2026-02-13,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.5
+2026-02-13,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,338.717684
+2026-02-13,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,3.969607,3.969607
+2026-02-13,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,7.816495,7.816495
+2026-02-13,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,179.985771
+2026-02-13,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.001478
+2026-02-13,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,18.554721,18.554721
+2026-02-13,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,9.985865
+2026-02-13,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.037308
+2026-02-16,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,42.793466
+2026-02-16,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.060202,1.060202
+2026-02-16,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,25.443841
+2026-02-16,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,489.985722
+2026-02-16,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,4.763963,4.763963
+2026-02-16,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,7.722243,7.722243
+2026-02-16,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,230.304548
+2026-02-16,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.925835
+2026-02-16,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,21.790106,21.790106
+2026-02-16,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,8.483622
+2026-02-16,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.922293,0.922293
+2026-02-16,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.919321
+2026-02-16,21692572205,pmax01,CONNECTED_TV,CONNECTED_TV,addToCart_gtm,0.0,0.998847
+2026-02-16,21692572205,pmax01,CONNECTED_TV,CONNECTED_TV,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.110504
+2026-02-17,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,53.626198
+2026-02-17,21692572205,pmax01,DESKTOP,DESKTOP,form_submit_gtm,2.5,2.5
+2026-02-17,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,4.22395,4.22395
+2026-02-17,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,31.296508
+2026-02-17,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-17,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,502.420609
+2026-02-17,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,8.329232,8.329232
+2026-02-17,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,4.974618,4.974618
+2026-02-17,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,252.883096
+2026-02-17,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,6.801239
+2026-02-17,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,45.012165,45.012165
+2026-02-17,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,7.459711
+2026-02-17,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-02-17,21692572205,pmax01,CONNECTED_TV,CONNECTED_TV,addToCart_gtm,0.0,0.010394
+2026-02-18,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,69.98906
+2026-02-18,21692572205,pmax01,DESKTOP,DESKTOP,form_submit_gtm,2.0,2.0
+2026-02-18,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.966914,2.966914
+2026-02-18,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,40.457937
+2026-02-18,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,467.289128
+2026-02-18,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,6.0,6.0
+2026-02-18,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,10.005914,10.005914
+2026-02-18,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,273.524426
+2026-02-18,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-18,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,63.123492,63.123492
+2026-02-18,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,9.137141
+2026-02-18,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.979745
+2026-02-19,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,48.128493
+2026-02-19,21692572205,pmax01,DESKTOP,DESKTOP,form_submit_gtm,2.0,2.0
+2026-02-19,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.833334,0.833334
+2026-02-19,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,27.691975
+2026-02-19,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-02-19,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,606.452289
+2026-02-19,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,4.964077,4.964077
+2026-02-19,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,6.565579,6.565579
+2026-02-19,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,300.621403
+2026-02-19,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.002764
+2026-02-19,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,43.908354,43.908354
+2026-02-19,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,15.702634
+2026-02-19,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.491896,0.491896
+2026-02-19,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.193041
+2026-02-20,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,35.397212
+2026-02-20,21692572205,pmax01,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-02-20,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,19.63249
+2026-02-20,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-20,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,353.429927
+2026-02-20,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,5.040991,5.040991
+2026-02-20,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,5.38013,5.38013
+2026-02-20,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,156.060848
+2026-02-20,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-02-20,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,16.183893,16.183893
+2026-02-20,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,5.956173
+2026-02-20,21692572205,pmax01,TABLET,TABLET,form_submit_gtm,1.0,1.0
+2026-02-20,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.491897,0.491897
+2026-02-20,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.000053
+2026-02-23,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,167.64511
+2026-02-23,21692572205,pmax01,DESKTOP,DESKTOP,form_submit_gtm,2.534929,2.534929
+2026-02-23,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,5.575356,5.575356
+2026-02-23,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,87.380188
+2026-02-23,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.500304
+2026-02-23,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,421.167278
+2026-02-23,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,3.52719,4.52719
+2026-02-23,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,4.209412,4.209412
+2026-02-23,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,153.107295
+2026-02-23,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.511518
+2026-02-23,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,13.500822,13.500822
+2026-02-23,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,7.006833
+2026-02-23,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-23,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.998459
+2026-02-23,21692572205,pmax01,CONNECTED_TV,CONNECTED_TV,addToCart_gtm,0.0,1.000123
+2026-02-24,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,140.99789
+2026-02-24,21692572205,pmax01,DESKTOP,DESKTOP,form_submit_gtm,3.5,3.5
+2026-02-24,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,6.34717,6.34717
+2026-02-24,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,82.8714
+2026-02-24,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,4.488768
+2026-02-24,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,767.465373
+2026-02-24,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,4.460405,4.460405
+2026-02-24,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,12.221836,12.221836
+2026-02-24,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,304.953359
+2026-02-24,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.027451
+2026-02-24,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,32.494993,32.494993
+2026-02-24,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,11.00302
+2026-02-24,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.157379
+2026-02-25,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,108.303325
+2026-02-25,21692572205,pmax01,DESKTOP,DESKTOP,form_submit_gtm,4.0,4.0
+2026-02-25,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.940536,3.940536
+2026-02-25,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,59.541935
+2026-02-25,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-25,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,917.140835
+2026-02-25,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,9.394971,9.394971
+2026-02-25,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,4.441511,4.441511
+2026-02-25,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,350.938604
+2026-02-25,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,3.27351
+2026-02-25,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,34.837566,34.837566
+2026-02-25,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,10.988613
+2026-02-25,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.459858
+2026-02-25,21692572205,pmax01,CONNECTED_TV,CONNECTED_TV,addToCart_gtm,0.0,0.99378
+2026-02-25,21692572205,pmax01,CONNECTED_TV,CONNECTED_TV,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-25,21692572205,pmax01,CONNECTED_TV,CONNECTED_TV,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.976895
+2026-02-26,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,80.757214
+2026-02-26,21692572205,pmax01,DESKTOP,DESKTOP,form_submit_gtm,2.5,2.5
+2026-02-26,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.944315,2.944315
+2026-02-26,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,38.875046
+2026-02-26,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.489142
+2026-02-26,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,715.980979
+2026-02-26,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,2.644731,2.644731
+2026-02-26,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,9.054833,9.054833
+2026-02-26,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,338.516614
+2026-02-26,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,3.575228
+2026-02-26,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,36.918725,36.918725
+2026-02-26,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,9.993779
+2026-02-26,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.978086
+2026-02-27,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,118.056957
+2026-02-27,21692572205,pmax01,DESKTOP,DESKTOP,form_submit_gtm,2.042699,2.042699
+2026-02-27,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,5.046326,5.046326
+2026-02-27,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,57.908032
+2026-02-27,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.498264
+2026-02-27,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,794.004243
+2026-02-27,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,14.591013,14.591013
+2026-02-27,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,12.424101,12.424101
+2026-02-27,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,319.007443
+2026-02-27,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,8.215924
+2026-02-27,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,48.144348,48.144348
+2026-02-27,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,17.010544
+2026-02-27,21692572205,pmax01,TABLET,TABLET,form_submit_gtm,0.075387,0.075387
+2026-02-27,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.060014
+2026-02-27,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.014568
+2026-02-28,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,20.293484
+2026-02-28,21692572205,pmax01,DESKTOP,DESKTOP,form_submit_gtm,3.887236,3.887236
+2026-02-28,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-28,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.533032
+2026-02-28,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.469127
+2026-02-28,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,214.194044
+2026-02-28,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,8.452279,8.452279
+2026-02-28,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.40182,0.40182
+2026-02-28,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,111.013369
+2026-02-28,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,5.456499
+2026-02-28,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,13.163009,13.163009
+2026-02-28,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,4.0
+2026-02-28,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-02-28,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-02,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,5.0
+2026-02-02,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-02,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.183235
+2026-02-02,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,12.276778
+2026-02-02,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.587716,0.587716
+2026-02-02,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.326108
+2026-02-03,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2026-02-03,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-03,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-02-03,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,2.0
+2026-02-03,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-02-04,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,7.0
+2026-02-04,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.504981
+2026-02-04,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,1.0
+2026-02-04,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-02-06,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,5.39953
+2026-02-06,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2026-02-06,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,2.006251
+2026-02-06,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-02-17,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2026-02-17,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,form_submit_gtm,0.5,0.5
+2026-02-17,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,1.0
+2026-02-17,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.97317,0.97317
+2026-02-17,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-02-18,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,5.0
+2026-02-18,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-02-18,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-02-18,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-19,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2026-02-19,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-02-19,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,8.545871
+2026-02-19,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-19,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-02-26,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,5.714299
+2026-02-26,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.179014
+2026-02-27,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,addToCart_gtm,0.0,9.003089
+2026-02-27,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-02-27,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-27,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-02-27,23439487425,search / szklarnia/tunel (excl. poliweglan),DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-27,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,addToCart_gtm,0.0,19.331124
+2026-02-27,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-02-27,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.078774,1.078774
+2026-02-27,23439487425,search / szklarnia/tunel (excl. poliweglan),MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.0
+2026-02-02,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.980067
+2026-02-02,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.021625
+2026-02-02,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,addToCart_gtm,0.0,21.830735
+2026-02-02,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.913505,0.913505
+2026-02-02,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,22.069112
+2026-02-03,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,addToCart_gtm,0.0,2.001339
+2026-02-03,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.513735
+2026-02-03,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,addToCart_gtm,0.0,19.632728
+2026-02-03,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-03,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,25.117343
+2026-02-03,23456136632,display-rtg / корзина / rtg2,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.947908
+2026-02-04,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,addToCart_gtm,0.0,4.985943
+2026-02-04,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.446435
+2026-02-04,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,Клик по номеру,0.93724,0.93724
+2026-02-04,23456136632,display-rtg / корзина / rtg2,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.104197
+2026-02-06,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,addToCart_gtm,0.0,3.109953
+2026-02-06,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.18469
+2026-02-06,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,addToCart_gtm,0.0,18.727607
+2026-02-06,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.061597,0.061597
+2026-02-06,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,22.059098
+2026-02-06,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,Клик по номеру,0.934144,0.934144
+2026-02-06,23456136632,display-rtg / корзина / rtg2,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.104199
+2026-02-10,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,addToCart_gtm,0.0,1.06827
+2026-02-10,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.020439
+2026-02-11,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.056216
+2026-02-11,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.301132
+2026-02-11,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.03017
+2026-02-11,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,addToCart_gtm,0.0,30.025772
+2026-02-11,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.150678,0.150678
+2026-02-11,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,25.334806
+2026-02-11,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,Клик по номеру,0.030224,0.030224
+2026-02-12,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,addToCart_gtm,0.0,3.974728
+2026-02-12,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,form_submit_gtm,0.884942,0.884942
+2026-02-12,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.610475,0.610475
+2026-02-12,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.93224
+2026-02-12,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.80892
+2026-02-12,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,addToCart_gtm,0.0,22.491364
+2026-02-12,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.90574,0.90574
+2026-02-12,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,20.770442
+2026-02-12,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.017484
+2026-02-12,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,Клик по номеру,0.95323,0.95323
+2026-02-13,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,addToCart_gtm,0.0,0.92836
+2026-02-13,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.124168
+2026-02-13,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.132837
+2026-02-13,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,addToCart_gtm,0.0,29.653178
+2026-02-13,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.777492,0.777492
+2026-02-13,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,33.541458
+2026-02-16,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.996204
+2026-02-16,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.013101
+2026-02-16,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,addToCart_gtm,0.0,27.876492
+2026-02-16,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.330678,1.330678
+2026-02-16,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,31.879217
+2026-02-16,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,Клик по номеру,0.577004,0.577004
+2026-02-16,23456136632,display-rtg / корзина / rtg2,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.058931
+2026-02-17,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,addToCart_gtm,0.0,2.99493
+2026-02-17,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.043597
+2026-02-17,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,addToCart_gtm,0.0,32.030976
+2026-02-17,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.51173,0.51173
+2026-02-17,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,30.342788
+2026-02-17,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,Клик по номеру,0.026092,0.026092
+2026-02-18,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.783044
+2026-02-18,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.635046,0.635046
+2026-02-18,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.891412
+2026-02-18,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.19351
+2026-02-18,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,addToCart_gtm,0.0,15.699218
+2026-02-18,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.016793,0.016793
+2026-02-18,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,14.328034
+2026-02-18,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,Клик по номеру,1.745359,1.745359
+2026-02-19,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.764468
+2026-02-19,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.051313,0.051313
+2026-02-19,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.234146
+2026-02-19,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,addToCart_gtm,0.0,28.16497
+2026-02-19,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.582343,0.582343
+2026-02-19,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,29.444549
+2026-02-19,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,Клик по номеру,0.903626,0.903626
+2026-02-19,23456136632,display-rtg / корзина / rtg2,TABLET,TABLET,addToCart_gtm,0.0,0.286691
+2026-02-19,23456136632,display-rtg / корзина / rtg2,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.110187
+2026-02-27,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.001078
+2026-02-27,23456136632,display-rtg / корзина / rtg2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.019826
+2026-02-27,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,addToCart_gtm,0.0,8.221091
+2026-02-27,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.388276
+2026-02-27,23456136632,display-rtg / корзина / rtg2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.426938
+2026-02-02,23480636149,search-rtg,MOBILE,MOBILE,addToCart_gtm,0.0,3.817634
+2026-02-02,23480636149,search-rtg,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.584684
+2026-02-03,23480636149,search-rtg,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.703472
+2026-02-03,23480636149,search-rtg,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.833078
+2026-02-03,23480636149,search-rtg,MOBILE,MOBILE,addToCart_gtm,0.0,1.053388
+2026-02-03,23480636149,search-rtg,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2026-02-04,23480636149,search-rtg,MOBILE,MOBILE,addToCart_gtm,0.0,3.904998
+2026-02-04,23480636149,search-rtg,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-04,23480636149,search-rtg,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.346792
+2026-02-05,23480636149,search-rtg,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.63513
+2026-02-05,23480636149,search-rtg,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.104826,0.104826
+2026-02-05,23480636149,search-rtg,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.06788
+2026-02-05,23480636149,search-rtg,MOBILE,MOBILE,addToCart_gtm,0.0,1.788852
+2026-02-05,23480636149,search-rtg,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-02-05,23480636149,search-rtg,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.828172
+2026-02-05,23480636149,search-rtg,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.946209
+2026-02-06,23480636149,search-rtg,MOBILE,MOBILE,addToCart_gtm,0.0,5.006251
+2026-02-06,23480636149,search-rtg,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.052068,0.052068
+2026-02-06,23480636149,search-rtg,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-02-17,23480636149,search-rtg,MOBILE,MOBILE,addToCart_gtm,0.0,3.205646
+2026-02-17,23480636149,search-rtg,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.343385
+2026-02-18,23480636149,search-rtg,MOBILE,MOBILE,addToCart_gtm,0.0,1.824194
+2026-02-18,23480636149,search-rtg,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.800025
+2026-02-19,23480636149,search-rtg,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.028956
+2026-02-19,23480636149,search-rtg,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-02-19,23480636149,search-rtg,MOBILE,MOBILE,addToCart_gtm,0.0,2.406492
+2026-02-19,23480636149,search-rtg,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.207477,0.207477
+2026-02-19,23480636149,search-rtg,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.430492
+2026-02-26,23480636149,search-rtg,MOBILE,MOBILE,addToCart_gtm,0.0,0.877491
+2026-02-26,23480636149,search-rtg,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-02-27,23480636149,search-rtg,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2026-02-27,23480636149,search-rtg,MOBILE,MOBILE,addToCart_gtm,0.0,5.899793
+2026-02-27,23480636149,search-rtg,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-02-27,23480636149,search-rtg,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.882845,1.882845
+2026-02-27,23480636149,search-rtg,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.790772
+2026-02-27,23480636149,search-rtg,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-27,23480636149,search-rtg,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-02-28,23480636149,search-rtg,MOBILE,MOBILE,addToCart_gtm,0.0,3.746263
+2026-02-28,23480636149,search-rtg,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-02-28,23480636149,search-rtg,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.815448
+2026-02-28,23480636149,search-rtg,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-02-01,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,addToCart_gtm,0.0,8.0
+2026-02-01,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-02-01,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-01,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-02-01,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.952287
+2026-02-01,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,addToCart_gtm,0.0,57.385571
+2026-02-01,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.012795,1.012795
+2026-02-01,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,45.35693
+2026-02-07,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,addToCart_gtm,0.0,12.0
+2026-02-07,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,form_submit_gtm,2.0,2.0
+2026-02-07,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-07,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-02-07,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-02-07,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,addToCart_gtm,0.0,26.845014
+2026-02-07,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.039188,1.039188
+2026-02-07,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,23.117619
+2026-02-07,23491900460,search / poliweglan / weekend,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-02-07,23491900460,search / poliweglan / weekend,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-02-08,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,addToCart_gtm,0.0,11.0
+2026-02-08,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.999451
+2026-02-08,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,addToCart_gtm,0.0,53.606639
+2026-02-08,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.292173,1.292173
+2026-02-08,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,39.092501
+2026-02-14,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,addToCart_gtm,0.0,28.13516
+2026-02-14,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,19.910951
+2026-02-15,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,addToCart_gtm,0.0,5.0
+2026-02-15,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-02-15,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-02-15,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-15,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,addToCart_gtm,0.0,59.303139
+2026-02-15,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-02-15,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,46.862851
+2026-02-15,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,Клик по номеру,0.0,1.05869
+2026-02-21,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2026-02-21,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-02-21,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.696456
+2026-02-21,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-21,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,addToCart_gtm,0.0,19.27492
+2026-02-21,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-02-21,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.065443,1.065443
+2026-02-21,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,20.237064
+2026-02-21,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-21,23491900460,search / poliweglan / weekend,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-02-21,23491900460,search / poliweglan / weekend,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-02-22,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,addToCart_gtm,0.0,19.0
+2026-02-22,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-02-22,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.962978,0.962978
+2026-02-22,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,13.50867
+2026-02-22,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.985206
+2026-02-22,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,addToCart_gtm,0.0,102.331606
+2026-02-22,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,form_submit_gtm,3.0,3.0
+2026-02-22,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.819958,1.819958
+2026-02-22,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,83.328257
+2026-02-22,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.985163
+2026-02-22,23491900460,search / poliweglan / weekend,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2026-02-28,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,addToCart_gtm,0.0,4.0
+2026-02-28,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2026-02-28,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-02-28,23491900460,search / poliweglan / weekend,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-02-28,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,addToCart_gtm,0.0,55.206721
+2026-02-28,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-02-28,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.091528,2.091528
+2026-02-28,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,47.00143
+2026-02-28,23491900460,search / poliweglan / weekend,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2026-02-02,23496141349,demand_gen,MOBILE,MOBILE,addToCart_gtm,0.0,100.258826
+2026-02-02,23496141349,demand_gen,MOBILE,MOBILE,form_submit_gtm,1.162619,1.162619
+2026-02-02,23496141349,demand_gen,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-02-02,23496141349,demand_gen,MOBILE,MOBILE,Клик по номеру,1.005855,1.005855
+2026-02-03,23496141349,demand_gen,MOBILE,MOBILE,addToCart_gtm,0.0,86.577777
+2026-02-03,23496141349,demand_gen,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-02-04,23496141349,demand_gen,MOBILE,MOBILE,addToCart_gtm,0.0,32.337831
+2026-02-04,23496141349,demand_gen,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-02-05,23496141349,demand_gen,MOBILE,MOBILE,addToCart_gtm,0.0,104.184879
+2026-02-05,23496141349,demand_gen,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-02-06,23496141349,demand_gen,MOBILE,MOBILE,addToCart_gtm,0.0,103.296087
+2026-02-06,23496141349,demand_gen,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-02-06,23496141349,demand_gen,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-02-09,23496141349,demand_gen,MOBILE,MOBILE,addToCart_gtm,0.0,145.648072
+2026-02-09,23496141349,demand_gen,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2026-02-09,23496141349,demand_gen,MOBILE,MOBILE,Клик по номеру,1.0,1.0
+2026-02-10,23496141349,demand_gen,MOBILE,MOBILE,addToCart_gtm,0.0,129.784421
+2026-02-10,23496141349,demand_gen,MOBILE,MOBILE,form_submit_gtm,3.0,3.0
+2026-02-10,23496141349,demand_gen,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.0
+2026-02-11,23496141349,demand_gen,MOBILE,MOBILE,addToCart_gtm,0.0,207.423927
+2026-02-11,23496141349,demand_gen,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-02-11,23496141349,demand_gen,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.033152
+2026-02-12,23496141349,demand_gen,MOBILE,MOBILE,addToCart_gtm,0.0,206.137933
+2026-02-12,23496141349,demand_gen,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.179043
+2026-02-12,23496141349,demand_gen,MOBILE,MOBILE,Клик по номеру,1.001769,1.001769
+2026-02-12,23496141349,demand_gen,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.015548
+2026-02-13,23496141349,demand_gen,MOBILE,MOBILE,addToCart_gtm,0.0,177.313301
+2026-02-13,23496141349,demand_gen,MOBILE,MOBILE,form_submit_gtm,4.0,4.0
+2026-02-13,23496141349,demand_gen,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,17.614575
+2026-02-13,23496141349,demand_gen,MOBILE,MOBILE,Клик по номеру,1.040876,1.040876
+2026-02-16,23496141349,demand_gen,MOBILE,MOBILE,addToCart_gtm,0.0,228.920756
+2026-02-16,23496141349,demand_gen,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2026-02-16,23496141349,demand_gen,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.904882
+2026-02-16,23496141349,demand_gen,MOBILE,MOBILE,Клик по номеру,0.00843,0.00843
+2026-02-17,23496141349,demand_gen,MOBILE,MOBILE,addToCart_gtm,0.0,82.30639
+2026-02-17,23496141349,demand_gen,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.000694
+2026-02-17,23496141349,demand_gen,MOBILE,MOBILE,Клик по номеру,0.040558,0.040558
+2026-02-18,23496141349,demand_gen,MOBILE,MOBILE,addToCart_gtm,0.0,93.035994
+2026-02-18,23496141349,demand_gen,MOBILE,MOBILE,form_submit_gtm,2.0,2.0
+2026-02-18,23496141349,demand_gen,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-02-18,23496141349,demand_gen,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,16.129554
+2026-02-18,23496141349,demand_gen,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-02-20,23496141349,demand_gen,MOBILE,MOBILE,addToCart_gtm,0.0,115.075235
+2026-02-20,23496141349,demand_gen,MOBILE,MOBILE,form_submit_gtm,2.0,2.0
+2026-02-27,23496141349,demand_gen,MOBILE,MOBILE,addToCart_gtm,0.0,3.0
+2026-02-27,23496141349,demand_gen,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.001482

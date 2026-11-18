@@ -1,0 +1,547 @@
+﻿day,camp_id,camp,seg,segname,action,conv,allconv
+2025-09-09,21692572205,pmax01,cieplarnia ogrodowa,cieplarnia ogrodowa,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-05,21692572205,pmax01,e szklarnia,e szklarnia,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-09,21692572205,pmax01,e szklarnia,e szklarnia,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-09,21692572205,pmax01,e szklarnia,e szklarnia,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-09,21692572205,pmax01,e szklarnia,e szklarnia,Клик по номеру,0.0,1.0
+2025-09-11,21692572205,pmax01,e szklarnia,e szklarnia,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-09,21692572205,pmax01,e szklarnia pl,e szklarnia pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-11,21692572205,pmax01,e szklarnia pl,e szklarnia pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-16,19153311519,Search | Brand | Pl,firma profimet,firma profimet,form_submit_gtm,1.0,1.0
+2025-09-18,21692572205,pmax01,folia na szklarnie 3x6,folia na szklarnie 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-11,21692572205,pmax01,folia na tunel 2 5x4m biała,folia na tunel 2 5x4m biała,Клик по номеру,0.0,1.0
+2025-09-17,21692572205,pmax01,folia z poliwęglanu,folia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-17,21692572205,pmax01,garant szklarnie,garant szklarnie,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2025-09-30,20843903465,Search | szklarnia/tunel,ile kosztuje szklarnia ogrodowa,ile kosztuje szklarnia ogrodowa,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-17,21692572205,pmax01,inspekt z poliwęglanu allegro,inspekt z poliwęglanu allegro,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-17,21692572205,pmax01,jaka szklarnia z poliwęglanu forum,jaka szklarnia z poliwęglanu forum,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-05,19158580966,Search | Poliweglan | Pl,kupię szklarnie z poliwęglanu,kupię szklarnie z poliwęglanu,Клик по номеру,0.0,1.0
+2025-09-02,21692572205,pmax01,mocna szklarnia,mocna szklarnia,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.669692
+2025-09-03,21692572205,pmax01,mocna szklarnia,mocna szklarnia,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.933184
+2025-09-09,21692572205,pmax01,mocna szklarnia,mocna szklarnia,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.866371
+2025-09-10,19153311519,Search | Brand | Pl,mocna szklarnia,mocna szklarnia,form_submit_gtm,1.0,1.0
+2025-09-12,19153311519,Search | Brand | Pl,mocna szklarnia,mocna szklarnia,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-09-13,19153311519,Search | Brand | Pl,mocna szklarnia,mocna szklarnia,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-09-15,19153311519,Search | Brand | Pl,mocna szklarnia,mocna szklarnia,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-17,21692572205,pmax01,mocna szklarnia,mocna szklarnia,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-22,19153311519,Search | Brand | Pl,mocna szklarnia,mocna szklarnia,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-09,21692572205,pmax01,mocna szklarnia opinie,mocna szklarnia opinie,form_submit_gtm,1.0,1.0
+2025-09-09,21692572205,pmax01,mocna szklarnia opinie,mocna szklarnia opinie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.333334
+2025-09-09,21692572205,pmax01,mocna szklarnia opinie,mocna szklarnia opinie,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.333334
+2025-09-02,21692572205,pmax01,mocna szklarnia pl,mocna szklarnia pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.574442
+2025-09-04,21692572205,pmax01,mocna szklarnia pl,mocna szklarnia pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-05,21692572205,pmax01,mocna szklarnia pl,mocna szklarnia pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-09,19153311519,Search | Brand | Pl,mocna szklarnia pl,mocna szklarnia pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-10,19153311519,Search | Brand | Pl,mocna szklarnia pl,mocna szklarnia pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-12,19153311519,Search | Brand | Pl,mocna szklarnia pl,mocna szklarnia pl,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-20,19153311519,Search | Brand | Pl,mocna szklarnia pl,mocna szklarnia pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-23,19153311519,Search | Brand | Pl,mocna szklarnia pl,mocna szklarnia pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-02,19158580966,Search | Poliweglan | Pl,mocna szklarnia z poliwęglanu,mocna szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-03,19158580966,Search | Poliweglan | Pl,mocna szklarnia z poliwęglanu,mocna szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.25
+2025-09-08,19158580966,Search | Poliweglan | Pl,mocna szklarnia z poliwęglanu,mocna szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.333334,0.333334
+2025-09-08,19158580966,Search | Poliweglan | Pl,mocna szklarnia z poliwęglanu,mocna szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.333334
+2025-09-13,19158580966,Search | Poliweglan | Pl,mocna szklarnia z poliwęglanu,mocna szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-14,19158580966,Search | Poliweglan | Pl,mocna szklarnia z poliwęglanu,mocna szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-09-15,19158580966,Search | Poliweglan | Pl,mocna szklarnia z poliwęglanu,mocna szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-16,19158580966,Search | Poliweglan | Pl,mocna szklarnia z poliwęglanu,mocna szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-26,19158580966,Search | Poliweglan | Pl,mocna szklarnia z poliwęglanu,mocna szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-26,19158580966,Search | Poliweglan | Pl,mocna szklarnia z poliwęglanu,mocna szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-11,19153311519,Search | Brand | Pl,mocnaszklarnia,mocnaszklarnia,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-26,19153311519,Search | Brand | Pl,mocnaszklarnia,mocnaszklarnia,form_submit_gtm,1.0,1.0
+2025-09-26,19153311519,Search | Brand | Pl,mocnaszklarnia,mocnaszklarnia,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-26,19153311519,Search | Brand | Pl,mocnaszklarnia,mocnaszklarnia,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-09-04,21692572205,pmax01,mocnaszklarnia pl,mocnaszklarnia pl,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.060727,0.060727
+2025-09-04,21692572205,pmax01,mocnaszklarnia pl,mocnaszklarnia pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.060727
+2025-09-04,21692572205,pmax01,mocnaszklarnia pl,mocnaszklarnia pl,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.060727
+2025-09-24,19153311519,Search | Brand | Pl,mocnaszklarnia pl,mocnaszklarnia pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-27,19153311519,Search | Brand | Pl,mocnaszklarnia pl,mocnaszklarnia pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-05,21692572205,pmax01,mocne szklarnie,mocne szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-16,19153311519,Search | Brand | Pl,mocne szklarnie,mocne szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.291791
+2025-09-24,19153311519,Search | Brand | Pl,mocne szklarnie,mocne szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-10,21692572205,pmax01,mocne szklarnie pl,mocne szklarnie pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-23,19153311519,Search | Brand | Pl,mocne szklarnie pl,mocne szklarnie pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-21,19158580966,Search | Poliweglan | Pl,mocne szklarnie z poliwęglanu,mocne szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-03,19158580966,Search | Poliweglan | Pl,najtańsze szklarnie z poliwęglanu,najtańsze szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.65
+2025-09-11,19158580966,Search | Poliweglan | Pl,najtańsze szklarnie z poliwęglanu,najtańsze szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-13,19158580966,Search | Poliweglan | Pl,najtańsze szklarnie z poliwęglanu,najtańsze szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-18,19158580966,Search | Poliweglan | Pl,najtańsze szklarnie z poliwęglanu,najtańsze szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-22,19158580966,Search | Poliweglan | Pl,najtańsze szklarnie z poliwęglanu,najtańsze szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.359954
+2025-09-24,19158580966,Search | Poliweglan | Pl,najtańsze szklarnie z poliwęglanu,najtańsze szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-02,21692572205,pmax01,namiot poliwęglanowy,namiot poliwęglanowy,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-08,21692572205,pmax01,namiot poliwęglanowy,namiot poliwęglanowy,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-18,21692572205,pmax01,namiot z poliwęglanu,namiot z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-03,19158580966,Search | Poliweglan | Pl,namioty z poliwęglanu,namioty z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-08,19158580966,Search | Poliweglan | Pl,namioty z poliwęglanu,namioty z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2025-09-17,21692572205,pmax01,nowaszklarnia pl,nowaszklarnia pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-10,21692572205,pmax01,plyty poliwęglan na szklarnie,plyty poliwęglan na szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-11,21692572205,pmax01,pokrycie na tunel foliowy,pokrycie na tunel foliowy,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-05,21692572205,pmax01,poli green,poli green,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-18,21692572205,pmax01,poli green,poli green,Клик по номеру,0.0,1.0
+2025-09-18,21692572205,pmax01,poliwęglan komorowy,poliwęglan komorowy,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-02,19158580966,Search | Poliweglan | Pl,poliwęglan szklarnia,poliwęglan szklarnia,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-10,22222479761,Performance Max / form_submit - test,poliwęglan szklarnia,poliwęglan szklarnia,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-26,19158580966,Search | Poliweglan | Pl,poliwęglan szklarnia,poliwęglan szklarnia,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-29,20843903465,Search | szklarnia/tunel,polskie szklarnie,polskie szklarnie,form_submit_gtm,1.0,1.0
+2025-09-07,19158580966,Search | Poliweglan | Pl,polskie szklarnie z poliwęglanu,polskie szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-09,21692572205,pmax01,polskie tunele foliowe opinie,polskie tunele foliowe opinie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-12,19158580966,Search | Poliweglan | Pl,producent szklarni z poliwęglanu,producent szklarni z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-19,19158580966,Search | Poliweglan | Pl,producent szklarni z poliwęglanu,producent szklarni z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-22,19153311519,Search | Brand | Pl,profi met,profi met,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.500593
+2025-09-30,19153311519,Search | Brand | Pl,profi met,profi met,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-02,21692572205,pmax01,profimet,profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-03,21692572205,pmax01,profimet,profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-08,21692572205,pmax01,profimet,profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-09,19153311519,Search | Brand | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-10,19153311519,Search | Brand | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-15,19153311519,Search | Brand | Pl,profimet,profimet,form_submit_gtm,0.989709,0.989709
+2025-09-15,19153311519,Search | Brand | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.426606,1.426606
+2025-09-15,19153311519,Search | Brand | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.426606
+2025-09-15,19153311519,Search | Brand | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2025-09-17,19153311519,Search | Brand | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2025-09-17,19153311519,Search | Brand | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-19,19153311519,Search | Brand | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.000193
+2025-09-23,19153311519,Search | Brand | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-23,19153311519,Search | Brand | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-25,19153311519,Search | Brand | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-26,19153311519,Search | Brand | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-26,19153311519,Search | Brand | Pl,profimet,profimet,Клик по номеру,0.0,1.0
+2025-09-27,19153311519,Search | Brand | Pl,profimet,profimet,form_submit_gtm,1.0,1.0
+2025-09-27,19153311519,Search | Brand | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-27,19153311519,Search | Brand | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-09-29,19153311519,Search | Brand | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2025-09-29,19153311519,Search | Brand | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-29,19153311519,Search | Brand | Pl,profimet,profimet,Клик по номеру,0.0,1.0
+2025-09-30,19153311519,Search | Brand | Pl,profimet,profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-12,19153311519,Search | Brand | Pl,profimet kontakt,profimet kontakt,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-30,19153311519,Search | Brand | Pl,profimet kontakt,profimet kontakt,Клик по номеру,0.0,0.5
+2025-09-01,21692572205,pmax01,profimet opinie,profimet opinie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-30,23050397215,pmax2,profimet opinie,profimet opinie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-24,19153311519,Search | Brand | Pl,profimet pl szklarnie,profimet pl szklarnie,form_submit_gtm,0.25,0.25
+2025-09-24,19153311519,Search | Brand | Pl,profimet pl szklarnie,profimet pl szklarnie,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-24,19153311519,Search | Brand | Pl,profimet pl szklarnie,profimet pl szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.333333
+2025-09-24,19153311519,Search | Brand | Pl,profimet pl szklarnie,profimet pl szklarnie,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.333333
+2025-09-24,19153311519,Search | Brand | Pl,profimet pl szklarnie,profimet pl szklarnie,Клик по номеру,0.0,1.003895
+2025-09-25,19153311519,Search | Brand | Pl,profimet pl szklarnie,profimet pl szklarnie,form_submit_gtm,0.75,0.75
+2025-09-25,19153311519,Search | Brand | Pl,profimet pl szklarnie,profimet pl szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.194045
+2025-09-25,19153311519,Search | Brand | Pl,profimet pl szklarnie,profimet pl szklarnie,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.666667
+2025-09-04,21692572205,pmax01,profimet pl szklarnie opinie,profimet pl szklarnie opinie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-01,21692572205,pmax01,profimet szklarnia,profimet szklarnia,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-11,19153311519,Search | Brand | Pl,profimet szklarnia,profimet szklarnia,form_submit_gtm,0.017643,0.017643
+2025-09-11,19153311519,Search | Brand | Pl,profimet szklarnia,profimet szklarnia,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-16,19153311519,Search | Brand | Pl,profimet szklarnia,profimet szklarnia,Клик по номеру,0.0,1.0
+2025-09-29,19153311519,Search | Brand | Pl,profimet szklarnia,profimet szklarnia,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-09,21692572205,pmax01,profimet szklarnia montaż,profimet szklarnia montaż,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.333333
+2025-09-09,21692572205,pmax01,profimet szklarnia montaż,profimet szklarnia montaż,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.333333
+2025-09-16,21692572205,pmax01,profimet szklarnia montaż,profimet szklarnia montaż,Клик по номеру,0.0,1.0
+2025-09-26,23050397215,pmax2,profimet szklarnia montaż,profimet szklarnia montaż,form_submit_gtm,1.0,1.0
+2025-09-09,21692572205,pmax01,profimet szklarnia opinie,profimet szklarnia opinie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.333333
+2025-09-09,21692572205,pmax01,profimet szklarnia opinie,profimet szklarnia opinie,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.333333
+2025-09-02,21692572205,pmax01,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-02,21692572205,pmax01,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-03,21692572205,pmax01,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-03,21692572205,pmax01,profimet szklarnie,profimet szklarnie,Клик по номеру,0.0,0.014246
+2025-09-04,21692572205,pmax01,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-05,21692572205,pmax01,profimet szklarnie,profimet szklarnie,Клик по номеру,0.0,1.0
+2025-09-08,21692572205,pmax01,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-08,21692572205,pmax01,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-09,21692572205,pmax01,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-10,21692572205,pmax01,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.997613
+2025-09-11,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,form_submit_gtm,0.010291,0.010291
+2025-09-11,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-12,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,form_submit_gtm,0.480298,0.480298
+2025-09-12,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-12,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-12,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-09-12,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,Клик по номеру,0.0,1.0
+2025-09-13,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,form_submit_gtm,0.696969,0.696969
+2025-09-13,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.285714
+2025-09-13,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.285714
+2025-09-15,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.333334,0.333334
+2025-09-15,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-16,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-17,21692572205,pmax01,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-17,21692572205,pmax01,profimet szklarnie,profimet szklarnie,Клик по номеру,0.0,1.0
+2025-09-18,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.500592
+2025-09-19,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-20,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-20,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-09-22,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-23,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.000374
+2025-09-23,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,Клик по номеру,0.0,1.0
+2025-09-25,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-26,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,form_submit_gtm,0.333333,0.333333
+2025-09-26,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-29,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-29,19153311519,Search | Brand | Pl,profimet szklarnie,profimet szklarnie,Клик по номеру,0.0,1.0
+2025-09-30,23050397215,pmax2,profimet szklarnie,profimet szklarnie,addToCart_gtm,0.0,2.0
+2025-09-30,23050397215,pmax2,profimet szklarnie,profimet szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-08,21692572205,pmax01,profimet szklarnie kontakt,profimet szklarnie kontakt,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-11,21692572205,pmax01,profimet szklarnie opinie,profimet szklarnie opinie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.333334
+2025-09-10,19153311519,Search | Brand | Pl,profimet szklarnie z poliwęglanu,profimet szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-12,19153311519,Search | Brand | Pl,profimet szklarnie z poliwęglanu,profimet szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-10,21692572205,pmax01,profimet szklarnię z poliwęglanu,profimet szklarnię z poliwęglanu,Клик по номеру,0.0,0.993508
+2025-09-16,19153311519,Search | Brand | Pl,profimet szklarnię z poliwęglanu,profimet szklarnię z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-18,21692572205,pmax01,profimetpl,profimetpl,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-25,19153311519,Search | Brand | Pl,profimetpl,profimetpl,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-26,19153311519,Search | Brand | Pl,profimetpl,profimetpl,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-29,19153311519,Search | Brand | Pl,profimetpl,profimetpl,form_submit_gtm,1.0,1.0
+2025-09-29,19153311519,Search | Brand | Pl,profimetpl,profimetpl,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.998221
+2025-09-18,19158580966,Search | Poliweglan | Pl,sprzedam szklarnie z poliwęglanu,sprzedam szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-09,22222479761,Performance Max / form_submit - test,szklarnia,szklarnia,form_submit_gtm,0.068646,0.068646
+2025-09-11,21692572205,pmax01,szklarnia,szklarnia,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-25,23050397215,pmax2,szklarnia,szklarnia,Клик по номеру,0.0,1.0
+2025-09-08,21692572205,pmax01,szklarnia 2 5 x 4,szklarnia 2 5 x 4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-29,20843903465,Search | szklarnia/tunel,szklarnia 3x2,szklarnia 3x2,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-03,19158580966,Search | Poliweglan | Pl,szklarnia 3x4 6mm,szklarnia 3x4 6mm,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-18,21692572205,pmax01,szklarnia 3x6,szklarnia 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-26,19158580966,Search | Poliweglan | Pl,szklarnia agronom mocna,szklarnia agronom mocna,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-11,21692572205,pmax01,szklarnia do ogrodu,szklarnia do ogrodu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-11,21692572205,pmax01,szklarnia garant,szklarnia garant,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-10,21692572205,pmax01,szklarnia ogrodowa,szklarnia ogrodowa,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-30,20843903465,Search | szklarnia/tunel,szklarnia ogrodowa,szklarnia ogrodowa,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-16,21692572205,pmax01,szklarnia ogrodowa 3x4 z poliwęglanu solid mocna,szklarnia ogrodowa 3x4 z poliwęglanu solid mocna,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.333333
+2025-09-02,19158580966,Search | Poliweglan | Pl,szklarnia ogrodowa poliwęglan,szklarnia ogrodowa poliwęglan,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-09-24,19158580966,Search | Poliweglan | Pl,szklarnia ogrodowa poliwęglan,szklarnia ogrodowa poliwęglan,addToCart_gtm,0.0,1.0
+2025-09-24,19158580966,Search | Poliweglan | Pl,szklarnia ogrodowa poliwęglan,szklarnia ogrodowa poliwęglan,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-12,21692572205,pmax01,szklarnia ogrodowa producent,szklarnia ogrodowa producent,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-11,21692572205,pmax01,szklarnia ogrodowa szklana,szklarnia ogrodowa szklana,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-03,19158580966,Search | Poliweglan | Pl,szklarnia ogrodowa z poliwęglanu,szklarnia ogrodowa z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-18,21692572205,pmax01,szklarnia ogrodowa z poliwęglanu,szklarnia ogrodowa z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-09-19,19158580966,Search | Poliweglan | Pl,szklarnia ogrodowa z poliwęglanu,szklarnia ogrodowa z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-30,19158580966,Search | Poliweglan | Pl,szklarnia ogrodowa z poliwęglanu,szklarnia ogrodowa z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-12,19158580966,Search | Poliweglan | Pl,szklarnia poliweglan,szklarnia poliweglan,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-26,19158580966,Search | Poliweglan | Pl,szklarnia poliweglan,szklarnia poliweglan,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-21,19158580966,Search | Poliweglan | Pl,szklarnia poliweglan 3x6,szklarnia poliweglan 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-03,19158580966,Search | Poliweglan | Pl,szklarnia poliwęglan,szklarnia poliwęglan,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-13,19158580966,Search | Poliweglan | Pl,szklarnia poliwęglan,szklarnia poliwęglan,form_submit_gtm,1.0,1.0
+2025-09-13,19158580966,Search | Poliweglan | Pl,szklarnia poliwęglan,szklarnia poliwęglan,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-13,19158580966,Search | Poliweglan | Pl,szklarnia poliwęglan,szklarnia poliwęglan,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-09-18,19158580966,Search | Poliweglan | Pl,szklarnia poliwęglan,szklarnia poliwęglan,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-19,19158580966,Search | Poliweglan | Pl,szklarnia poliwęglan,szklarnia poliwęglan,form_submit_gtm,1.0,1.0
+2025-09-29,19158580966,Search | Poliweglan | Pl,szklarnia poliwęglan,szklarnia poliwęglan,form_submit_gtm,1.0,1.0
+2025-09-29,19158580966,Search | Poliweglan | Pl,szklarnia poliwęglan,szklarnia poliwęglan,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-29,19158580966,Search | Poliweglan | Pl,szklarnia poliwęglan,szklarnia poliwęglan,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-29,19158580966,Search | Poliweglan | Pl,szklarnia poliwęglan,szklarnia poliwęglan,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-09-23,19158580966,Search | Poliweglan | Pl,szklarnia poliwęglan 2x2,szklarnia poliwęglan 2x2,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-02,19158580966,Search | Poliweglan | Pl,szklarnia poliwęglan 3x6,szklarnia poliwęglan 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-15,19158580966,Search | Poliweglan | Pl,szklarnia poliwęglan 3x6,szklarnia poliwęglan 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-17,19158580966,Search | Poliweglan | Pl,szklarnia poliwęglan 3x6,szklarnia poliwęglan 3x6,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-17,19158580966,Search | Poliweglan | Pl,szklarnia poliwęglan 3x6,szklarnia poliwęglan 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-19,19158580966,Search | Poliweglan | Pl,szklarnia poliwęglan 3x6,szklarnia poliwęglan 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-03,19158580966,Search | Poliweglan | Pl,szklarnia poliwęglan 4x6,szklarnia poliwęglan 4x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-17,19158580966,Search | Poliweglan | Pl,szklarnia poliwęglan 4x6,szklarnia poliwęglan 4x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-10,21692572205,pmax01,szklarnia poliwęglan 4x8,szklarnia poliwęglan 4x8,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-10,22222479761,Performance Max / form_submit - test,szklarnia poliwęglan 8mm,szklarnia poliwęglan 8mm,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-13,19158580966,Search | Poliweglan | Pl,szklarnia poliwęglanowa,szklarnia poliwęglanowa,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-02,21692572205,pmax01,szklarnia profimet,szklarnia profimet,form_submit_gtm,1.0,1.0
+2025-09-02,21692572205,pmax01,szklarnia profimet,szklarnia profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-02,21692572205,pmax01,szklarnia profimet,szklarnia profimet,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-09-03,21692572205,pmax01,szklarnia profimet,szklarnia profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-18,19153311519,Search | Brand | Pl,szklarnia profimet,szklarnia profimet,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-22,19153311519,Search | Brand | Pl,szklarnia profimet,szklarnia profimet,Клик по номеру,0.0,1.0
+2025-09-30,19153311519,Search | Brand | Pl,szklarnia profimet,szklarnia profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-11,19158580966,Search | Poliweglan | Pl,szklarnia z poliweglanu 3x6,szklarnia z poliweglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-14,19158580966,Search | Poliweglan | Pl,szklarnia z poliweglanu 3x6,szklarnia z poliweglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-01,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-02,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2025-09-03,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-04,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.000468
+2025-09-09,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-10,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.557309,1.557309
+2025-09-10,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-10,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,Клик по номеру,0.0,1.0
+2025-09-11,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,addToCart_gtm,0.0,1.0
+2025-09-11,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-11,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.5
+2025-09-12,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.0
+2025-09-13,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-14,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.994083
+2025-09-15,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2025-09-16,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-17,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-17,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-09-18,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-09-19,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-09-20,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.333332
+2025-09-21,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,form_submit_gtm,2.0,2.0
+2025-09-21,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.000235
+2025-09-21,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-09-22,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.335395
+2025-09-23,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,form_submit_gtm,1.0,1.0
+2025-09-23,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2025-09-23,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-09-24,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-09-25,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-09-25,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,Клик по номеру,0.0,0.333333
+2025-09-26,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-09-29,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-29,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-30,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-30,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu,szklarnia z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.0
+2025-09-18,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 2 5 x 4,szklarnia z poliwęglanu 2 5 x 4,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-12,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 2 5x4,szklarnia z poliwęglanu 2 5x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-15,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 2 5x4,szklarnia z poliwęglanu 2 5x4,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.333333,0.333333
+2025-09-09,21692572205,pmax01,szklarnia z poliwęglanu 2 x 3,szklarnia z poliwęglanu 2 x 3,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-15,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 2 x 3 m,szklarnia z poliwęglanu 2 x 3 m,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-10,21692572205,pmax01,szklarnia z poliwęglanu 2.5 x4,szklarnia z poliwęglanu 2.5 x4,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-10,21692572205,pmax01,szklarnia z poliwęglanu 2.5 x4,szklarnia z poliwęglanu 2.5 x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-10,21692572205,pmax01,szklarnia z poliwęglanu 2.5 x4,szklarnia z poliwęglanu 2.5 x4,Клик по номеру,0.0,1.0
+2025-09-18,21692572205,pmax01,szklarnia z poliwęglanu 2x3,szklarnia z poliwęglanu 2x3,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-10,22222479761,Performance Max / form_submit - test,szklarnia z poliwęglanu 2x3 castorama,szklarnia z poliwęglanu 2x3 castorama,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-18,21692572205,pmax01,szklarnia z poliwęglanu 2x3 olx,szklarnia z poliwęglanu 2x3 olx,form_submit_gtm,1.0,1.0
+2025-09-02,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 2x4 6mm,szklarnia z poliwęglanu 2x4 6mm,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-18,21692572205,pmax01,szklarnia z poliwęglanu 3 x 6,szklarnia z poliwęglanu 3 x 6,form_submit_gtm,1.0,1.0
+2025-09-18,21692572205,pmax01,szklarnia z poliwęglanu 3 x 6,szklarnia z poliwęglanu 3 x 6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-18,21692572205,pmax01,szklarnia z poliwęglanu 3 x 6,szklarnia z poliwęglanu 3 x 6,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-09-02,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4,szklarnia z poliwęglanu 3x4,form_submit_gtm,1.0,1.0
+2025-09-03,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4,szklarnia z poliwęglanu 3x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-13,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4,szklarnia z poliwęglanu 3x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-14,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4,szklarnia z poliwęglanu 3x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-15,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4,szklarnia z poliwęglanu 3x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-16,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4,szklarnia z poliwęglanu 3x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.666667
+2025-09-19,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4,szklarnia z poliwęglanu 3x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-09-20,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4,szklarnia z poliwęglanu 3x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-21,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4,szklarnia z poliwęglanu 3x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-09-22,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4,szklarnia z poliwęglanu 3x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-23,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4,szklarnia z poliwęglanu 3x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.25
+2025-09-24,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4,szklarnia z poliwęglanu 3x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-29,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4,szklarnia z poliwęglanu 3x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-30,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4,szklarnia z poliwęglanu 3x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.5
+2025-09-21,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4 6mm,szklarnia z poliwęglanu 3x4 6mm,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-23,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4 6mm,szklarnia z poliwęglanu 3x4 6mm,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-03,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4 domek,szklarnia z poliwęglanu 3x4 domek,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-12,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4 domek,szklarnia z poliwęglanu 3x4 domek,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-14,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4 domek,szklarnia z poliwęglanu 3x4 domek,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-22,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4 domek,szklarnia z poliwęglanu 3x4 domek,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-09-02,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4 producent,szklarnia z poliwęglanu 3x4 producent,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-23,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x4 producent,szklarnia z poliwęglanu 3x4 producent,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.25
+2025-09-01,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.333334
+2025-09-02,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.75
+2025-09-03,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-03,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.975792
+2025-09-03,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,Клик по номеру,0.0,1.0
+2025-09-09,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-11,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-11,21692572205,pmax01,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-12,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2025-09-13,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,form_submit_gtm,0.013438,0.013438
+2025-09-13,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-09-14,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.0
+2025-09-15,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-16,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-18,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-18,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-18,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,Клик по номеру,0.0,0.496254
+2025-09-18,21692572205,pmax01,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,form_submit_gtm,0.986562,0.986562
+2025-09-18,21692572205,pmax01,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2025-09-18,21692572205,pmax01,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.808141
+2025-09-19,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-19,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,Клик по номеру,0.0,0.496254
+2025-09-20,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.8
+2025-09-21,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2025-09-22,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-23,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-24,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-25,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-09-26,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-30,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6,szklarnia z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-20,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 6mm,szklarnia z poliwęglanu 3x6 6mm,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-05,21692572205,pmax01,szklarnia z poliwęglanu 3x6 allegro,szklarnia z poliwęglanu 3x6 allegro,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-02,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 producent,szklarnia z poliwęglanu 3x6 producent,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.75
+2025-09-04,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 producent,szklarnia z poliwęglanu 3x6 producent,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.333333
+2025-09-11,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 producent,szklarnia z poliwęglanu 3x6 producent,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.333333
+2025-09-12,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 producent,szklarnia z poliwęglanu 3x6 producent,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-14,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 producent,szklarnia z poliwęglanu 3x6 producent,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-09-15,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 producent,szklarnia z poliwęglanu 3x6 producent,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.047635
+2025-09-18,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 producent,szklarnia z poliwęglanu 3x6 producent,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-19,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 producent,szklarnia z poliwęglanu 3x6 producent,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.333334
+2025-09-21,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 producent,szklarnia z poliwęglanu 3x6 producent,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.166666
+2025-09-22,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 producent,szklarnia z poliwęglanu 3x6 producent,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-24,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 producent,szklarnia z poliwęglanu 3x6 producent,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-29,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 producent,szklarnia z poliwęglanu 3x6 producent,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-09-30,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 producent,szklarnia z poliwęglanu 3x6 producent,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-10,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 promocja,szklarnia z poliwęglanu 3x6 promocja,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-09-11,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 promocja,szklarnia z poliwęglanu 3x6 promocja,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-14,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 promocja,szklarnia z poliwęglanu 3x6 promocja,form_submit_gtm,0.00915,0.00915
+2025-09-14,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 promocja,szklarnia z poliwęglanu 3x6 promocja,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.426606
+2025-09-15,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 promocja,szklarnia z poliwęglanu 3x6 promocja,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.333334
+2025-09-17,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 promocja,szklarnia z poliwęglanu 3x6 promocja,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.9
+2025-09-17,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 promocja,szklarnia z poliwęglanu 3x6 promocja,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.4
+2025-09-20,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 promocja,szklarnia z poliwęglanu 3x6 promocja,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-21,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 promocja,szklarnia z poliwęglanu 3x6 promocja,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.4
+2025-09-21,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 promocja,szklarnia z poliwęglanu 3x6 promocja,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.4
+2025-09-24,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 promocja,szklarnia z poliwęglanu 3x6 promocja,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-25,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6 promocja,szklarnia z poliwęglanu 3x6 promocja,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-09-21,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x6m,szklarnia z poliwęglanu 3x6m,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-20,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x8,szklarnia z poliwęglanu 3x8,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-16,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 3x8 producent,szklarnia z poliwęglanu 3x8 producent,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-25,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 4 x 6,szklarnia z poliwęglanu 4 x 6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2025-09-20,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 4x10,szklarnia z poliwęglanu 4x10,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.739634
+2025-09-21,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 4x10,szklarnia z poliwęglanu 4x10,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-10,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 4x6,szklarnia z poliwęglanu 4x6,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.304724,0.304724
+2025-09-18,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 4x6,szklarnia z poliwęglanu 4x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-23,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 4x6,szklarnia z poliwęglanu 4x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-21,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 4x8,szklarnia z poliwęglanu 4x8,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-26,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu 4x8,szklarnia z poliwęglanu 4x8,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-25,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu białystok,szklarnia z poliwęglanu białystok,Клик по номеру,0.0,0.008244
+2025-09-02,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu braniewo,szklarnia z poliwęglanu braniewo,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-21,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu cena,szklarnia z poliwęglanu cena,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-04,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu profimet mocna,szklarnia z poliwęglanu profimet mocna,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-10,19153311519,Search | Brand | Pl,szklarnia z poliwęglanu profimet mocna,szklarnia z poliwęglanu profimet mocna,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-10,21692572205,pmax01,szklarnia z poliwęglanu profimet mocna,szklarnia z poliwęglanu profimet mocna,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-26,19153311519,Search | Brand | Pl,szklarnia z poliwęglanu profimet mocna,szklarnia z poliwęglanu profimet mocna,addToCart_gtm,0.0,0.333333
+2025-09-26,19153311519,Search | Brand | Pl,szklarnia z poliwęglanu profimet mocna,szklarnia z poliwęglanu profimet mocna,form_submit_gtm,0.985128,0.985128
+2025-09-26,19153311519,Search | Brand | Pl,szklarnia z poliwęglanu profimet mocna,szklarnia z poliwęglanu profimet mocna,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-26,19153311519,Search | Brand | Pl,szklarnia z poliwęglanu profimet mocna,szklarnia z poliwęglanu profimet mocna,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.000223
+2025-09-26,19153311519,Search | Brand | Pl,szklarnia z poliwęglanu profimet mocna,szklarnia z poliwęglanu profimet mocna,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-09-18,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu tunel,szklarnia z poliwęglanu tunel,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-18,19158580966,Search | Poliweglan | Pl,szklarnia z poliwęglanu tunel,szklarnia z poliwęglanu tunel,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-18,21692572205,pmax01,szklarnia z poliwęglanu tunel,szklarnia z poliwęglanu tunel,form_submit_gtm,1.0,1.0
+2025-09-18,21692572205,pmax01,szklarnia z poliwęglanu tunel,szklarnia z poliwęglanu tunel,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-18,21692572205,pmax01,szklarnia z poliwęglanu tunel,szklarnia z poliwęglanu tunel,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-09-11,21692572205,pmax01,szklarnie,szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.914166
+2025-09-13,19153311519,Search | Brand | Pl,szklarnie,szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-16,19153311519,Search | Brand | Pl,szklarnie,szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-18,21692572205,pmax01,szklarnie,szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-23,19153311519,Search | Brand | Pl,szklarnie,szklarnie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-18,21692572205,pmax01,szklarnie castorama,szklarnie castorama,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-09,21692572205,pmax01,szklarnie lun fix,szklarnie lun fix,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-11,21692572205,pmax01,szklarnie ogrodowe,szklarnie ogrodowe,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-17,21692572205,pmax01,szklarnie ogrodowe,szklarnie ogrodowe,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-18,21692572205,pmax01,szklarnie ogrodowe,szklarnie ogrodowe,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-11,21692572205,pmax01,szklarnie ogrodowe wyprzedaż,szklarnie ogrodowe wyprzedaż,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-11,19158580966,Search | Poliweglan | Pl,szklarnie ogrodowe z poliwęglanu,szklarnie ogrodowe z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-25,19158580966,Search | Poliweglan | Pl,szklarnie ogrodowe z poliwęglanu,szklarnie ogrodowe z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-26,19158580966,Search | Poliweglan | Pl,szklarnie ogrodowe z poliwęglanu 3x4,szklarnie ogrodowe z poliwęglanu 3x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-08,21692572205,pmax01,szklarnie ogrodowe z poliwęglanu arlen team,szklarnie ogrodowe z poliwęglanu arlen team,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.666666,0.666666
+2025-09-08,21692572205,pmax01,szklarnie ogrodowe z poliwęglanu arlen team,szklarnie ogrodowe z poliwęglanu arlen team,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.666666
+2025-09-11,21692572205,pmax01,szklarnie poliweglanowe producent,szklarnie poliweglanowe producent,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-03,19158580966,Search | Poliweglan | Pl,szklarnie poliwęglanowe,szklarnie poliwęglanowe,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-09,19158580966,Search | Poliweglan | Pl,szklarnie poliwęglanowe,szklarnie poliwęglanowe,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-10,19158580966,Search | Poliweglan | Pl,szklarnie poliwęglanowe,szklarnie poliwęglanowe,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-18,21692572205,pmax01,szklarnie poliwęglanowe,szklarnie poliwęglanowe,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-20,19158580966,Search | Poliweglan | Pl,szklarnie poliwęglanowe,szklarnie poliwęglanowe,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-23,19158580966,Search | Poliweglan | Pl,szklarnie poliwęglanowe,szklarnie poliwęglanowe,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-26,19158580966,Search | Poliweglan | Pl,szklarnie poliwęglanowe,szklarnie poliwęglanowe,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-16,19153311519,Search | Brand | Pl,szklarnie profimet,szklarnie profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-09-23,19153311519,Search | Brand | Pl,szklarnie profimet,szklarnie profimet,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-09-17,19158580966,Search | Poliweglan | Pl,szklarnie z poliweglanu,szklarnie z poliweglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-19,19158580966,Search | Poliweglan | Pl,szklarnie z poliweglanu,szklarnie z poliweglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-11,21692572205,pmax01,szklarnie z poliwęglanu,szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.666666
+2025-09-15,19158580966,Search | Poliweglan | Pl,szklarnie z poliwęglanu,szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-16,21692572205,pmax01,szklarnie z poliwęglanu,szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-17,21692572205,pmax01,szklarnie z poliwęglanu,szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-17,21692572205,pmax01,szklarnie z poliwęglanu,szklarnie z poliwęglanu,Клик по номеру,0.0,1.0
+2025-09-19,21692572205,pmax01,szklarnie z poliwęglanu,szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-20,19158580966,Search | Poliweglan | Pl,szklarnie z poliwęglanu,szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-24,21692572205,pmax01,szklarnie z poliwęglanu,szklarnie z poliwęglanu,form_submit_gtm,0.666666,0.666666
+2025-09-24,21692572205,pmax01,szklarnie z poliwęglanu,szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2025-09-24,21692572205,pmax01,szklarnie z poliwęglanu,szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-24,21692572205,pmax01,szklarnie z poliwęglanu,szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.5
+2025-09-24,23050397215,pmax2,szklarnie z poliwęglanu,szklarnie z poliwęglanu,form_submit_gtm,0.333334,0.333334
+2025-09-24,23050397215,pmax2,szklarnie z poliwęglanu,szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2025-09-24,23050397215,pmax2,szklarnie z poliwęglanu,szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.5
+2025-09-25,23050397215,pmax2,szklarnie z poliwęglanu,szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-25,23050397215,pmax2,szklarnie z poliwęglanu,szklarnie z poliwęglanu,Клик по номеру,0.0,1.0
+2025-09-29,23050397215,pmax2,szklarnie z poliwęglanu,szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2025-09-29,23051638776,performance_max / 2509-1,szklarnie z poliwęglanu,szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-30,23050397215,pmax2,szklarnie z poliwęglanu,szklarnie z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-04,19158580966,Search | Poliweglan | Pl,szklarnie z poliwęglanu 3x6,szklarnie z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-14,19158580966,Search | Poliweglan | Pl,szklarnie z poliwęglanu 3x6,szklarnie z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.426606
+2025-09-15,19158580966,Search | Poliweglan | Pl,szklarnie z poliwęglanu 3x6,szklarnie z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-18,19158580966,Search | Poliweglan | Pl,szklarnie z poliwęglanu 3x6,szklarnie z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-03,21692572205,pmax01,szklarnie z poliwęglanu opinie,szklarnie z poliwęglanu opinie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-04,19158580966,Search | Poliweglan | Pl,szklarnie z poliwęglanu producent,szklarnie z poliwęglanu producent,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-30,19158580966,Search | Poliweglan | Pl,szklarnie z poliwęglanu łódzkie,szklarnie z poliwęglanu łódzkie,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-30,19158580966,Search | Poliweglan | Pl,szklarnie z poliwęglanu łódzkie,szklarnie z poliwęglanu łódzkie,Клик по номеру,0.0,0.333333
+2025-09-18,21692572205,pmax01,szklarnie24 pl,szklarnie24 pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-09-18,21692572205,pmax01,tanie tunele foliowe allegro,tanie tunele foliowe allegro,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-11,21692572205,pmax01,tunel foliowy,tunel foliowy,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-19,19158580966,Search | Poliweglan | Pl,tunel ogrodniczy z poliwęglanu,tunel ogrodniczy z poliwęglanu,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-17,19158580966,Search | Poliweglan | Pl,tunel ogrodowy poliwęglan,tunel ogrodowy poliwęglan,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-11,19158580966,Search | Poliweglan | Pl,tunel ogrodowy z poliwęglanu 3x4,tunel ogrodowy z poliwęglanu 3x4,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-23,19158580966,Search | Poliweglan | Pl,tunel ogrodowy z poliwęglanu 3x6,tunel ogrodowy z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-26,19158580966,Search | Poliweglan | Pl,tunel poliweglan,tunel poliweglan,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-29,19158580966,Search | Poliweglan | Pl,tunel poliweglanowy 3x4,tunel poliweglanowy 3x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-02,19158580966,Search | Poliweglan | Pl,tunel poliwęglan,tunel poliwęglan,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-04,19158580966,Search | Poliweglan | Pl,tunel poliwęglan,tunel poliwęglan,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-16,19158580966,Search | Poliweglan | Pl,tunel poliwęglan,tunel poliwęglan,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-23,19158580966,Search | Poliweglan | Pl,tunel poliwęglan,tunel poliwęglan,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-23,19158580966,Search | Poliweglan | Pl,tunel poliwęglan 3x4,tunel poliwęglan 3x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-02,19158580966,Search | Poliweglan | Pl,tunel poliwęglan 3x6,tunel poliwęglan 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-03,19158580966,Search | Poliweglan | Pl,tunel poliwęglan 3x6,tunel poliwęglan 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-04,19158580966,Search | Poliweglan | Pl,tunel poliwęglan 3x6,tunel poliwęglan 3x6,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-07,19158580966,Search | Poliweglan | Pl,tunel poliwęglan 3x6,tunel poliwęglan 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-14,19158580966,Search | Poliweglan | Pl,tunel poliwęglan 3x6,tunel poliwęglan 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-26,19158580966,Search | Poliweglan | Pl,tunel poliwęglan 3x6,tunel poliwęglan 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-19,19158580966,Search | Poliweglan | Pl,tunel poliwęglan 4x6,tunel poliwęglan 4x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-16,19158580966,Search | Poliweglan | Pl,tunel poliwęglanowy,tunel poliwęglanowy,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-12,19158580966,Search | Poliweglan | Pl,tunel z poliweglanu,tunel z poliweglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-18,19158580966,Search | Poliweglan | Pl,tunel z poliweglanu,tunel z poliweglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-04,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu,tunel z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-13,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu,tunel z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-17,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu,tunel z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-19,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu,tunel z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-21,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu,tunel z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-22,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu,tunel z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-23,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu,tunel z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-24,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu,tunel z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-25,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu,tunel z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-26,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu,tunel z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-29,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu,tunel z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-29,23050397215,pmax2,tunel z poliwęglanu,tunel z poliwęglanu,form_submit_gtm,1.0,1.0
+2025-09-30,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu,tunel z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-29,23051638776,performance_max / 2509-1,tunel z poliwęglanu 2 5x4,tunel z poliwęglanu 2 5x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-03,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 2x2,tunel z poliwęglanu 2x2,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-16,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 2x4,tunel z poliwęglanu 2x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-04,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 3x4,tunel z poliwęglanu 3x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-19,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 3x4,tunel z poliwęglanu 3x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-09-22,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 3x4,tunel z poliwęglanu 3x4,form_submit_gtm,0.996056,0.996056
+2025-09-22,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 3x4,tunel z poliwęglanu 3x4,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-22,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 3x4,tunel z poliwęglanu 3x4,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-09-30,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 3x4,tunel z poliwęglanu 3x4,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-04,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 3x6,tunel z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.333333
+2025-09-16,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 3x6,tunel z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-18,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 3x6,tunel z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-20,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 3x6,tunel z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-21,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 3x6,tunel z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-23,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 3x6,tunel z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-25,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 3x6,tunel z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-26,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 3x6,tunel z poliwęglanu 3x6,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-14,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 3x6m,tunel z poliwęglanu 3x6m,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2025-09-14,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 3x6m,tunel z poliwęglanu 3x6m,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2025-09-15,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 3x6m,tunel z poliwęglanu 3x6m,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2025-09-15,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 3x6m,tunel z poliwęglanu 3x6m,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.666666
+2025-09-21,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 3x6m,tunel z poliwęglanu 3x6m,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-30,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 3x6m,tunel z poliwęglanu 3x6m,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-09-16,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 4x10,tunel z poliwęglanu 4x10,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-19,19158580966,Search | Poliweglan | Pl,tunel z poliwęglanu 4x8,tunel z poliwęglanu 4x8,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-05,21692572205,pmax01,tunele foliowe,tunele foliowe,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-11,21692572205,pmax01,tunele foliowe,tunele foliowe,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-09-21,19158580966,Search | Poliweglan | Pl,tunele ogrodowe z poliwęglanu,tunele ogrodowe z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-17,21692572205,pmax01,tunele pod pomidory,tunele pod pomidory,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-07,19158580966,Search | Poliweglan | Pl,tunele poliwęglan,tunele poliwęglan,form_submit_gtm,1.0,1.0
+2025-09-07,19158580966,Search | Poliweglan | Pl,tunele poliwęglan,tunele poliwęglan,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-07,19158580966,Search | Poliweglan | Pl,tunele poliwęglan,tunele poliwęglan,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-09-20,19158580966,Search | Poliweglan | Pl,tunele poliwęglanowe,tunele poliwęglanowe,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-30,19158580966,Search | Poliweglan | Pl,tunele poliwęglanowe,tunele poliwęglanowe,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-09-02,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-10,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-11,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-11,21692572205,pmax01,tunele z poliwęglanu,tunele z poliwęglanu,addToCart_gtm,0.0,1.0
+2025-09-12,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-14,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2025-09-16,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-09-16,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-17,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-18,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,form_submit_gtm,0.5,0.5
+2025-09-21,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,form_submit_gtm,0.5,0.5
+2025-09-21,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-22,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-09-23,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.5
+2025-09-24,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2025-09-25,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-09-26,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-29,19158580966,Search | Poliweglan | Pl,tunele z poliwęglanu,tunele z poliwęglanu,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-02,21692572205,pmax01,twoja szklarnia pl,twoja szklarnia pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-09-09,21692572205,pmax01,wesoły rolnik,wesoły rolnik,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0

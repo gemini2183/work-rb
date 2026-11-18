@@ -1,0 +1,390 @@
+﻿day,camp_id,camp,seg,segname,action,conv,allconv
+2025-12-01,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,10.0
+2025-12-01,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.076462,0.076462
+2025-12-01,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.0
+2025-12-01,19153311519,Search | Brand | Pl,all,вся кампания,Клик по номеру,0.0,2.5
+2025-12-02,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,3.0
+2025-12-02,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2025-12-02,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2025-12-03,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,4.0
+2025-12-03,19153311519,Search | Brand | Pl,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-03,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-03,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.281329
+2025-12-04,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,1.0
+2025-12-04,19153311519,Search | Brand | Pl,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-04,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-04,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-06,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,1.0
+2025-12-06,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.00875
+2025-12-08,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,1.0
+2025-12-08,19153311519,Search | Brand | Pl,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-08,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.998137,2.998137
+2025-12-08,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-08,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-08,19153311519,Search | Brand | Pl,all,вся кампания,Клик по номеру,0.0,1.0
+2025-12-09,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,8.0
+2025-12-09,19153311519,Search | Brand | Pl,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-09,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-09,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2025-12-10,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,2.332745
+2025-12-10,19153311519,Search | Brand | Pl,all,вся кампания,form_submit_gtm,2.0,2.0
+2025-12-10,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.577647
+2025-12-10,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2025-12-11,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,4.0
+2025-12-11,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.011999
+2025-12-12,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,1.574863
+2025-12-12,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.367093
+2025-12-13,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,5.0
+2025-12-13,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.000391
+2025-12-15,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,2.0
+2025-12-15,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-15,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-16,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,8.0
+2025-12-16,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-16,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2025-12-17,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,3.0
+2025-12-17,19153311519,Search | Brand | Pl,all,вся кампания,form_submit_gtm,2.0,2.0
+2025-12-17,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-17,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2025-12-18,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,7.0
+2025-12-18,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.999641
+2025-12-19,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,4.0
+2025-12-19,19153311519,Search | Brand | Pl,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-19,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.009366,0.009366
+2025-12-19,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.999724
+2025-12-19,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-20,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,6.0
+2025-12-20,19153311519,Search | Brand | Pl,all,вся кампания,form_submit_gtm,2.0,2.0
+2025-12-20,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2025-12-20,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2025-12-22,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,8.0
+2025-12-22,19153311519,Search | Brand | Pl,all,вся кампания,form_submit_gtm,2.0,2.0
+2025-12-22,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-22,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2025-12-22,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2025-12-22,19153311519,Search | Brand | Pl,all,вся кампания,Клик по номеру,0.0,0.994392
+2025-12-24,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-12-25,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,3.0
+2025-12-25,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.5
+2025-12-26,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,5.0
+2025-12-26,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2025-12-29,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,6.0
+2025-12-29,19153311519,Search | Brand | Pl,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-29,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.585243
+2025-12-29,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-30,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,3.0
+2025-12-30,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.728414
+2025-12-31,19153311519,Search | Brand | Pl,all,вся кампания,addToCart_gtm,0.0,4.0
+2025-12-31,19153311519,Search | Brand | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.499714
+2025-12-31,19153311519,Search | Brand | Pl,all,вся кампания,Клик по номеру,0.0,1.0
+2025-12-01,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,4.0
+2025-12-01,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2025-12-01,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.5
+2025-12-01,19158580966,Search | Poliweglan | Pl,all,вся кампания,Клик по номеру,0.0,0.5
+2025-12-02,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,7.0
+2025-12-02,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2025-12-02,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.500494
+2025-12-03,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,2.0
+2025-12-03,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-04,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,4.0
+2025-12-04,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-04,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-04,19158580966,Search | Poliweglan | Pl,all,вся кампания,Клик по номеру,0.0,1.0
+2025-12-05,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,5.0
+2025-12-05,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2025-12-06,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,4.0
+2025-12-06,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2025-12-08,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,6.0
+2025-12-08,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2025-12-09,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,12.0
+2025-12-09,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.0
+2025-12-10,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,9.0
+2025-12-10,19158580966,Search | Poliweglan | Pl,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-10,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.395849
+2025-12-10,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-11,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,5.649704
+2025-12-11,19158580966,Search | Poliweglan | Pl,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-11,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.334831
+2025-12-11,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-12,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,4.0
+2025-12-12,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.128961
+2025-12-13,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-12-15,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,7.0
+2025-12-15,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.354523
+2025-12-16,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,1.0
+2025-12-16,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-17,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,2.0
+2025-12-17,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.998102
+2025-12-18,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,4.0
+2025-12-18,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-12-23,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,1.0
+2025-12-23,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-24,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,1.0
+2025-12-24,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-25,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,5.0
+2025-12-25,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2025-12-26,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,14.06216
+2025-12-26,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.545597
+2025-12-27,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,3.0
+2025-12-27,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-12-29,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,10.677105
+2025-12-29,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.0
+2025-12-29,19158580966,Search | Poliweglan | Pl,all,вся кампания,Клик по номеру,0.0,1.0
+2025-12-30,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,12.0
+2025-12-30,19158580966,Search | Poliweglan | Pl,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-30,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.000415
+2025-12-30,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-31,19158580966,Search | Poliweglan | Pl,all,вся кампания,addToCart_gtm,0.0,10.6
+2025-12-31,19158580966,Search | Poliweglan | Pl,all,вся кампания,form_submit_gtm,2.0,2.0
+2025-12-31,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-31,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.1991
+2025-12-31,19158580966,Search | Poliweglan | Pl,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.911965
+2025-12-01,21692572205,pmax01,all,вся кампания,addToCart_gtm,0.0,109.766292
+2025-12-01,21692572205,pmax01,all,вся кампания,form_submit_gtm,2.0,2.0
+2025-12-01,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.019587,0.019587
+2025-12-01,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,38.176375
+2025-12-01,21692572205,pmax01,all,вся кампания,Клик по номеру,3.016172,3.016172
+2025-12-02,21692572205,pmax01,all,вся кампания,addToCart_gtm,0.0,61.744979
+2025-12-02,21692572205,pmax01,all,вся кампания,form_submit_gtm,0.333333,0.333333
+2025-12-02,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,11.986783
+2025-12-02,21692572205,pmax01,all,вся кампания,Клик по номеру,2.0,2.0
+2025-12-03,21692572205,pmax01,all,вся кампания,addToCart_gtm,0.0,399.250907
+2025-12-03,21692572205,pmax01,all,вся кампания,form_submit_gtm,4.667405,4.667405
+2025-12-03,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,106.299821
+2025-12-03,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-03,21692572205,pmax01,all,вся кампания,Клик по номеру,10.982384,10.982384
+2025-12-04,21692572205,pmax01,all,вся кампания,addToCart_gtm,0.0,22.34276
+2025-12-04,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,18.078021
+2025-12-04,21692572205,pmax01,all,вся кампания,Клик по номеру,1.000107,1.000107
+2025-12-05,21692572205,pmax01,all,вся кампания,addToCart_gtm,0.0,342.87188
+2025-12-05,21692572205,pmax01,all,вся кампания,form_submit_gtm,2.0,2.0
+2025-12-05,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.333334,1.333334
+2025-12-05,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,81.466049
+2025-12-05,21692572205,pmax01,all,вся кампания,Клик по номеру,8.000466,8.000466
+2025-12-08,21692572205,pmax01,all,вся кампания,addToCart_gtm,0.0,126.456836
+2025-12-08,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2025-12-08,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,12.352262
+2025-12-08,21692572205,pmax01,all,вся кампания,Клик по номеру,4.967964,4.967964
+2025-12-09,21692572205,pmax01,all,вся кампания,addToCart_gtm,0.0,425.637058
+2025-12-09,21692572205,pmax01,all,вся кампания,form_submit_gtm,5.0,5.0
+2025-12-09,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.510359,3.510359
+2025-12-09,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,107.68196
+2025-12-09,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-09,21692572205,pmax01,all,вся кампания,Клик по номеру,21.010701,21.010701
+2025-12-10,21692572205,pmax01,all,вся кампания,addToCart_gtm,0.0,184.279069
+2025-12-10,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,38.610581
+2025-12-10,21692572205,pmax01,all,вся кампания,Клик по номеру,3.00062,3.00062
+2025-12-11,21692572205,pmax01,all,вся кампания,addToCart_gtm,0.0,12.42723
+2025-12-11,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-11,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.918131
+2025-12-11,21692572205,pmax01,all,вся кампания,Клик по номеру,1.998863,1.998863
+2025-12-12,21692572205,pmax01,all,вся кампания,addToCart_gtm,0.0,277.911251
+2025-12-12,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.494208,1.494208
+2025-12-12,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,60.193558
+2025-12-12,21692572205,pmax01,all,вся кампания,Клик по номеру,11.00258,11.00258
+2025-12-15,21692572205,pmax01,all,вся кампания,addToCart_gtm,0.0,273.322437
+2025-12-15,21692572205,pmax01,all,вся кампания,form_submit_gtm,2.999262,2.999262
+2025-12-15,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.997954,3.997954
+2025-12-15,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,84.480324
+2025-12-15,21692572205,pmax01,all,вся кампания,Клик по номеру,12.003528,12.003528
+2025-12-16,21692572205,pmax01,all,вся кампания,addToCart_gtm,0.0,100.72115
+2025-12-16,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2025-12-16,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,44.474641
+2025-12-16,21692572205,pmax01,all,вся кампания,Клик по номеру,2.506211,2.506211
+2025-12-17,21692572205,pmax01,all,вся кампания,addToCart_gtm,0.0,120.519816
+2025-12-17,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,49.924417
+2025-12-17,21692572205,pmax01,all,вся кампания,Клик по номеру,6.998392,6.998392
+2025-12-18,21692572205,pmax01,all,вся кампания,addToCart_gtm,0.0,30.342259
+2025-12-18,21692572205,pmax01,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-18,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.999641
+2025-12-18,21692572205,pmax01,all,вся кампания,Клик по номеру,1.0,1.0
+2025-12-19,21692572205,pmax01,all,вся кампания,addToCart_gtm,0.0,262.479103
+2025-12-19,21692572205,pmax01,all,вся кампания,form_submit_gtm,1.00633,1.00633
+2025-12-19,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.237422,1.237422
+2025-12-19,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,106.606799
+2025-12-19,21692572205,pmax01,all,вся кампания,Клик по номеру,7.992073,7.992073
+2025-12-22,21692572205,pmax01,all,вся кампания,addToCart_gtm,0.0,14.439464
+2025-12-22,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.101282
+2025-12-23,21692572205,pmax01,all,вся кампания,addToCart_gtm,0.0,182.818515
+2025-12-23,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2025-12-23,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,54.318994
+2025-12-23,21692572205,pmax01,all,вся кампания,Клик по номеру,0.999603,0.999603
+2025-12-25,21692572205,pmax01,all,вся кампания,addToCart_gtm,0.0,19.344767
+2025-12-25,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.099691
+2025-12-26,21692572205,pmax01,all,вся кампания,addToCart_gtm,0.0,62.70617
+2025-12-26,21692572205,pmax01,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-26,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.005627,0.005627
+2025-12-26,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,35.609032
+2025-12-26,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.16561
+2025-12-26,21692572205,pmax01,all,вся кампания,Клик по номеру,0.99949,0.99949
+2025-12-29,21692572205,pmax01,all,вся кампания,addToCart_gtm,0.0,266.277619
+2025-12-29,21692572205,pmax01,all,вся кампания,form_submit_gtm,5.037276,5.037276
+2025-12-29,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.767639,2.767639
+2025-12-29,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,131.882654
+2025-12-29,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,3.994757
+2025-12-29,21692572205,pmax01,all,вся кампания,Клик по номеру,7.000468,7.000468
+2025-12-30,21692572205,pmax01,all,вся кампания,addToCart_gtm,0.0,270.621928
+2025-12-30,21692572205,pmax01,all,вся кампания,form_submit_gtm,3.0,3.0
+2025-12-30,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.116408,2.116408
+2025-12-30,21692572205,pmax01,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,64.642733
+2025-12-30,21692572205,pmax01,all,вся кампания,Клик по номеру,9.964725,9.964725
+2025-12-01,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,1.0
+2025-12-01,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.998351,0.998351
+2025-12-02,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,1.00282
+2025-12-02,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-02,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,Клик по номеру,0.0,1.0
+2025-12-03,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,7.0
+2025-12-03,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2025-12-03,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.000494
+2025-12-04,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,1.0
+2025-12-04,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-05,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,3.0
+2025-12-05,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-12-08,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,8.892169
+2025-12-08,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-08,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.665662
+2025-12-09,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,1.766484
+2025-12-09,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.925858,0.925858
+2025-12-09,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.57851
+2025-12-09,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-09,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,Клик по номеру,0.0,0.979541
+2025-12-10,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,2.0
+2025-12-10,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-11,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,3.0
+2025-12-11,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.999709,0.999709
+2025-12-11,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.656719
+2025-12-12,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,0.667255
+2025-12-12,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.432568
+2025-12-13,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,0.5
+2025-12-13,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-15,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,4.0
+2025-12-15,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-15,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-15,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.75
+2025-12-15,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-16,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,2.0
+2025-12-16,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-17,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,2.0
+2025-12-17,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.998378
+2025-12-18,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,1.0
+2025-12-19,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,5.0
+2025-12-19,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.06292,1.06292
+2025-12-19,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-22,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,2.0
+2025-12-22,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-22,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-23,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,3.0
+2025-12-23,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-24,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,2.0
+2025-12-24,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-25,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,3.0
+2025-12-25,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-26,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,4.0
+2025-12-26,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-26,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-26,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-29,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,7.0
+2025-12-29,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-29,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.5,2.5
+2025-12-29,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.498841
+2025-12-29,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-30,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,4.0
+2025-12-30,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.5,2.5
+2025-12-30,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.5
+2025-12-30,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,Клик по номеру,0.0,2.0
+2025-12-31,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,addToCart_gtm,0.0,4.0
+2025-12-31,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-31,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-31,23276887406,Search | Brand | Pl Макс клики и Макс конв,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-01,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,11.0
+2025-12-01,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-01,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-01,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.117577
+2025-12-01,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-01,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,Клик по номеру,0.0,1.0
+2025-12-02,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,6.0
+2025-12-02,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.297191
+2025-12-03,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,5.0
+2025-12-03,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,form_submit_gtm,2.0,2.0
+2025-12-03,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.4
+2025-12-03,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-04,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,3.0
+2025-12-04,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-04,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,Клик по номеру,0.0,0.005608
+2025-12-05,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,6.0
+2025-12-05,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-05,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2025-12-05,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-06,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,8.663254
+2025-12-06,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.0
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,10.841347
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,form_submit_gtm,3.0,3.0
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.172299
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.94062
+2025-12-08,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,Клик по номеру,0.0,1.032036
+2025-12-09,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,12.018826
+2025-12-09,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-09,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.0
+2025-12-10,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,4.0
+2025-12-10,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-10,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.381451
+2025-12-10,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-10,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,Клик по номеру,0.0,3.0
+2025-12-11,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,3.333333
+2025-12-11,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.000126
+2025-12-11,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,Клик по номеру,0.0,1.0
+2025-12-12,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,8.0
+2025-12-12,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-12,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2025-12-12,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.0
+2025-12-12,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,Клик по номеру,0.0,1.002482
+2025-12-13,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,13.5
+2025-12-13,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.0
+2025-12-15,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,8.0
+2025-12-15,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-15,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-15,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.148966
+2025-12-15,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-15,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,Клик по номеру,0.0,2.0
+2025-12-16,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,4.666667
+2025-12-16,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-16,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.000126
+2025-12-16,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,Клик по номеру,0.0,0.5
+2025-12-17,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,1.0
+2025-12-17,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-18,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,3.0
+2025-12-18,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-18,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-18,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-19,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,2.0
+2025-12-19,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-19,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-20,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,1.0
+2025-12-20,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-22,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,5.0
+2025-12-22,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-22,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2025-12-23,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,5.0
+2025-12-23,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-12-24,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,9.0
+2025-12-24,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2025-12-25,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,3.0
+2025-12-25,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-12-26,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,5.0
+2025-12-26,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.999709
+2025-12-27,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,2.0
+2025-12-27,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-12-29,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,1.626351
+2025-12-29,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.998228
+2025-12-29,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,Клик по номеру,0.0,0.029828
+2025-12-30,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,5.0
+2025-12-30,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-30,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-12-30,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2025-12-30,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-30,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,Клик по номеру,0.0,1.0
+2025-12-31,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,addToCart_gtm,0.0,7.0
+2025-12-31,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,form_submit_gtm,1.0,1.0
+2025-12-31,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.0
+2025-12-31,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-12-31,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,all,вся кампания,Клик по номеру,0.0,0.010385

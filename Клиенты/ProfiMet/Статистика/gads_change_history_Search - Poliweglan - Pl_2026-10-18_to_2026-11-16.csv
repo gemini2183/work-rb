@@ -1,0 +1,14 @@
+Datetime,Campaign_resource,Resource_type,Operation,Client_type,User_email,Changed_fields,Relevant_fields,Is_relevant,Campaign_name
+2026-11-12 00:15:47.259226,customers/7552781705/campaigns/19158580966,CAMPAIGN,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True,Search | Poliweglan | Pl
+2026-11-10 21:51:13.381093,customers/7552781705/campaigns/19158580966,CAMPAIGN,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,status,status,True,Search | Poliweglan | Pl
+2026-11-09 14:30:41.729903,customers/7552781705/campaigns/19158580966,AD_GROUP,UPDATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,status,status,True,Search | Poliweglan | Pl
+2026-11-09 14:29:52.450431,customers/7552781705/campaigns/19158580966,AD_GROUP_AD,UPDATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,"ad, status",status,True,Search | Poliweglan | Pl
+2026-11-09 14:28:36.817887,customers/7552781705/campaigns/19158580966,AD,UPDATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,final_urls,,False,Search | Poliweglan | Pl
+2026-11-09 14:28:21.538815,customers/7552781705/campaigns/19158580966,AD,UPDATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,final_urls,,False,Search | Poliweglan | Pl
+2026-11-09 14:28:21.538815,customers/7552781705/campaigns/19158580966,AD,UPDATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,final_urls,,False,Search | Poliweglan | Pl
+2026-11-09 14:28:03.696719,customers/7552781705/campaigns/19158580966,AD,UPDATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,final_urls,,False,Search | Poliweglan | Pl
+2026-11-09 14:28:03.696719,customers/7552781705/campaigns/19158580966,AD,UPDATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,final_urls,,False,Search | Poliweglan | Pl
+2026-11-09 11:56:11.511087,customers/7552781705/campaigns/19158580966,AD_GROUP,UPDATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,status,status,True,Search | Poliweglan | Pl
+2026-11-09 11:56:11.511087,customers/7552781705/campaigns/19158580966,AD_GROUP,UPDATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,status,status,True,Search | Poliweglan | Pl
+2026-11-09 11:56:11.511087,customers/7552781705/campaigns/19158580966,AD_GROUP,UPDATE,GOOGLE_ADS_API,adwhitemcc@gmail.com,status,status,True,Search | Poliweglan | Pl
+2026-10-31 13:17:58.390863,customers/7552781705/campaigns/19158580966,CAMPAIGN_BUDGET,UPDATE,GOOGLE_ADS_WEB_CLIENT,infobox.anton@gmail.com,,,False,Search | Poliweglan | Pl

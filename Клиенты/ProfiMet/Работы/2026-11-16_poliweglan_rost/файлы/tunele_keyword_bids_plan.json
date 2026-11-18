@@ -1,0 +1,10 @@
+{
+  "campaign": "Search | Poliweglan | Pl",
+  "keyword_bids": [
+    {"group": "tunele z poliwęglanu", "text": "tunele ogrodnicze z poliwęglanu", "match": "PHRASE", "bid": 0.48},
+    {"group": "tunele z poliwęglanu", "text": "tunele ogrodowe poliwęglanowe", "match": "PHRASE", "bid": 0.48},
+    {"group": "tunele z poliwęglanu", "text": "tunele ogrodowe z poliwęglanu", "match": "PHRASE", "bid": 0.48},
+    {"group": "tunele z poliwęglanu", "text": "tunele poliwęglanowe", "match": "PHRASE", "bid": 0.48},
+    {"group": "tunele z poliwęglanu", "text": "tunele z poliwęglanu", "match": "PHRASE", "bid": 0.48}
+  ]
+}

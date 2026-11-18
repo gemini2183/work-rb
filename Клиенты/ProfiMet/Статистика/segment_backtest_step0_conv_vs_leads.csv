@@ -1,0 +1,257 @@
+﻿период,кампании,действие_Ads,тип_заявки_leads_standard,режим_leads_standard,дней_кампании,конв_Ads,заявок_leads_standard,разрыв_Ads_минус_заявки,ранговая_корреляция_Спирмен
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,"Ringostat — уникальный звонок (офлайн, gclid)",call,ringostat (по умолчанию),1458,0.0,3076,-3076.0,
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,"Ringostat — уникальный звонок (офлайн, gclid)",adcall,ringostat (по умолчанию),1458,0.0,41,-41.0,
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,"Ringostat — уникальный звонок (офлайн, gclid)",form,ringostat (по умолчанию),1458,0.0,303,-303.0,
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,"Ringostat — уникальный звонок (офлайн, gclid)",total,ringostat (по умолчанию),1458,0.0,3420,-3420.0,
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,addToCart_gtm,call,ringostat (по умолчанию),1458,0.0,3076,-3076.0,
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,addToCart_gtm,adcall,ringostat (по умолчанию),1458,0.0,41,-41.0,
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,addToCart_gtm,form,ringostat (по умолчанию),1458,0.0,303,-303.0,
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,addToCart_gtm,total,ringostat (по умолчанию),1458,0.0,3420,-3420.0,
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,form_submit_gtm,call,ringostat (по умолчанию),1458,1619.97,3076,-1456.03,0.533
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,form_submit_gtm,adcall,ringostat (по умолчанию),1458,1619.97,41,1578.97,0.011
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,form_submit_gtm,form,ringostat (по умолчанию),1458,1619.97,303,1316.97,0.416
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,form_submit_gtm,total,ringostat (по умолчанию),1458,1619.97,3420,-1800.03,0.587
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,call,ringostat (по умолчанию),1458,2692.45,3076,-383.55,0.769
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,adcall,ringostat (по умолчанию),1458,2692.45,41,2651.45,0.06
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,form,ringostat (по умолчанию),1458,2692.45,303,2389.45,0.286
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,total,ringostat (по умолчанию),1458,2692.45,3420,-727.55,0.76
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) addToCart_session,call,ringostat (по умолчанию),1458,0.0,3076,-3076.0,
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) addToCart_session,adcall,ringostat (по умолчанию),1458,0.0,41,-41.0,
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) addToCart_session,form,ringostat (по умолчанию),1458,0.0,303,-303.0,
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) addToCart_session,total,ringostat (по умолчанию),1458,0.0,3420,-3420.0,
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) form_submit,call,ringostat (по умолчанию),1458,0.0,3076,-3076.0,
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) form_submit,adcall,ringostat (по умолчанию),1458,0.0,41,-41.0,
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) form_submit,form,ringostat (по умолчанию),1458,0.0,303,-303.0,
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) form_submit,total,ringostat (по умолчанию),1458,0.0,3420,-3420.0,
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,Звонки по объявлениям,call,ringostat (по умолчанию),1458,120.97,3076,-2955.03,0.262
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,Звонки по объявлениям,adcall,ringostat (по умолчанию),1458,120.97,41,79.97,0.357
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,Звонки по объявлениям,form,ringostat (по умолчанию),1458,120.97,303,-182.03,0.234
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,Звонки по объявлениям,total,ringostat (по умолчанию),1458,120.97,3420,-3299.03,0.301
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,Клик по номеру,call,ringostat (по умолчанию),1458,2835.2,3076,-240.8,0.267
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,Клик по номеру,adcall,ringostat (по умолчанию),1458,2835.2,41,2794.2,-0.056
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,Клик по номеру,form,ringostat (по умолчанию),1458,2835.2,303,2532.2,-0.08
+2025-08-01..2026-11-15,ВСЕ кампании без yt_,Клик по номеру,total,ringostat (по умолчанию),1458,2835.2,3420,-584.8,0.246
+2025-08-01..2026-11-15,Search | Brand | Pl,"Ringostat — уникальный звонок (офлайн, gclid)",call,ringostat (по умолчанию),338,0.0,943,-943.0,
+2025-08-01..2026-11-15,Search | Brand | Pl,"Ringostat — уникальный звонок (офлайн, gclid)",adcall,ringostat (по умолчанию),338,0.0,11,-11.0,
+2025-08-01..2026-11-15,Search | Brand | Pl,"Ringostat — уникальный звонок (офлайн, gclid)",form,ringostat (по умолчанию),338,0.0,81,-81.0,
+2025-08-01..2026-11-15,Search | Brand | Pl,"Ringostat — уникальный звонок (офлайн, gclid)",total,ringostat (по умолчанию),338,0.0,1035,-1035.0,
+2025-08-01..2026-11-15,Search | Brand | Pl,addToCart_gtm,call,ringostat (по умолчанию),338,0.0,943,-943.0,
+2025-08-01..2026-11-15,Search | Brand | Pl,addToCart_gtm,adcall,ringostat (по умолчанию),338,0.0,11,-11.0,
+2025-08-01..2026-11-15,Search | Brand | Pl,addToCart_gtm,form,ringostat (по умолчанию),338,0.0,81,-81.0,
+2025-08-01..2026-11-15,Search | Brand | Pl,addToCart_gtm,total,ringostat (по умолчанию),338,0.0,1035,-1035.0,
+2025-08-01..2026-11-15,Search | Brand | Pl,form_submit_gtm,call,ringostat (по умолчанию),338,481.32,943,-461.68,0.641
+2025-08-01..2026-11-15,Search | Brand | Pl,form_submit_gtm,adcall,ringostat (по умолчанию),338,481.32,11,470.32,-0.009
+2025-08-01..2026-11-15,Search | Brand | Pl,form_submit_gtm,form,ringostat (по умолчанию),338,481.32,81,400.32,0.336
+2025-08-01..2026-11-15,Search | Brand | Pl,form_submit_gtm,total,ringostat (по умолчанию),338,481.32,1035,-553.68,0.667
+2025-08-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,call,ringostat (по умолчанию),338,960.93,943,17.93,0.807
+2025-08-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,adcall,ringostat (по умолчанию),338,960.93,11,949.93,0.003
+2025-08-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,form,ringostat (по умолчанию),338,960.93,81,879.93,0.271
+2025-08-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,total,ringostat (по умолчанию),338,960.93,1035,-74.07,0.795
+2025-08-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,call,ringostat (по умолчанию),338,0.0,943,-943.0,
+2025-08-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,adcall,ringostat (по умолчанию),338,0.0,11,-11.0,
+2025-08-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,form,ringostat (по умолчанию),338,0.0,81,-81.0,
+2025-08-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,total,ringostat (по умолчанию),338,0.0,1035,-1035.0,
+2025-08-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) form_submit,call,ringostat (по умолчанию),338,0.0,943,-943.0,
+2025-08-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) form_submit,adcall,ringostat (по умолчанию),338,0.0,11,-11.0,
+2025-08-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) form_submit,form,ringostat (по умолчанию),338,0.0,81,-81.0,
+2025-08-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) form_submit,total,ringostat (по умолчанию),338,0.0,1035,-1035.0,
+2025-08-01..2026-11-15,Search | Brand | Pl,Звонки по объявлениям,call,ringostat (по умолчанию),338,67.76,943,-875.24,0.385
+2025-08-01..2026-11-15,Search | Brand | Pl,Звонки по объявлениям,adcall,ringostat (по умолчанию),338,67.76,11,56.76,0.255
+2025-08-01..2026-11-15,Search | Brand | Pl,Звонки по объявлениям,form,ringostat (по умолчанию),338,67.76,81,-13.24,0.269
+2025-08-01..2026-11-15,Search | Brand | Pl,Звонки по объявлениям,total,ringostat (по умолчанию),338,67.76,1035,-967.24,0.426
+2025-08-01..2026-11-15,Search | Brand | Pl,Клик по номеру,call,ringostat (по умолчанию),338,0.0,943,-943.0,
+2025-08-01..2026-11-15,Search | Brand | Pl,Клик по номеру,adcall,ringostat (по умолчанию),338,0.0,11,-11.0,
+2025-08-01..2026-11-15,Search | Brand | Pl,Клик по номеру,form,ringostat (по умолчанию),338,0.0,81,-81.0,
+2025-08-01..2026-11-15,Search | Brand | Pl,Клик по номеру,total,ringostat (по умолчанию),338,0.0,1035,-1035.0,
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,"Ringostat — уникальный звонок (офлайн, gclid)",call,ringostat (по умолчанию),376,0.0,851,-851.0,
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,"Ringostat — уникальный звонок (офлайн, gclid)",adcall,ringostat (по умолчанию),376,0.0,10,-10.0,
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,"Ringostat — уникальный звонок (офлайн, gclid)",form,ringostat (по умолчанию),376,0.0,136,-136.0,
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,"Ringostat — уникальный звонок (офлайн, gclid)",total,ringostat (по умолчанию),376,0.0,997,-997.0,
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,addToCart_gtm,call,ringostat (по умолчанию),376,0.0,851,-851.0,
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,addToCart_gtm,adcall,ringostat (по умолчанию),376,0.0,10,-10.0,
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,addToCart_gtm,form,ringostat (по умолчанию),376,0.0,136,-136.0,
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,addToCart_gtm,total,ringostat (по умолчанию),376,0.0,997,-997.0,
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,form_submit_gtm,call,ringostat (по умолчанию),376,477.46,851,-373.54,0.484
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,form_submit_gtm,adcall,ringostat (по умолчанию),376,477.46,10,467.46,0.02
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,form_submit_gtm,form,ringostat (по умолчанию),376,477.46,136,341.46,0.56
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,form_submit_gtm,total,ringostat (по умолчанию),376,477.46,997,-519.54,0.594
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,call,ringostat (по умолчанию),376,814.73,851,-36.27,0.832
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,adcall,ringostat (по умолчанию),376,814.73,10,804.73,0.09
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,form,ringostat (по умолчанию),376,814.73,136,678.73,0.331
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,total,ringostat (по умолчанию),376,814.73,997,-182.27,0.818
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,call,ringostat (по умолчанию),376,0.0,851,-851.0,
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,adcall,ringostat (по умолчанию),376,0.0,10,-10.0,
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,form,ringostat (по умолчанию),376,0.0,136,-136.0,
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,total,ringostat (по умолчанию),376,0.0,997,-997.0,
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) form_submit,call,ringostat (по умолчанию),376,0.0,851,-851.0,
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) form_submit,adcall,ringostat (по умолчанию),376,0.0,10,-10.0,
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) form_submit,form,ringostat (по умолчанию),376,0.0,136,-136.0,
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) form_submit,total,ringostat (по умолчанию),376,0.0,997,-997.0,
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,Звонки по объявлениям,call,ringostat (по умолчанию),376,23.15,851,-827.85,0.282
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,Звонки по объявлениям,adcall,ringostat (по умолчанию),376,23.15,10,13.15,0.286
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,Звонки по объявлениям,form,ringostat (по умолчанию),376,23.15,136,-112.85,0.176
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,Звонки по объявлениям,total,ringostat (по умолчанию),376,23.15,997,-973.85,0.301
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,Клик по номеру,call,ringostat (по умолчанию),376,0.0,851,-851.0,
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,Клик по номеру,adcall,ringostat (по умолчанию),376,0.0,10,-10.0,
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,Клик по номеру,form,ringostat (по умолчанию),376,0.0,136,-136.0,
+2025-08-01..2026-11-15,Search | Poliweglan | Pl,Клик по номеру,total,ringostat (по умолчанию),376,0.0,997,-997.0,
+2025-08-01..2026-11-15,pmax1_test,"Ringostat — уникальный звонок (офлайн, gclid)",call,ringostat (по умолчанию),117,0.0,228,-228.0,
+2025-08-01..2026-11-15,pmax1_test,"Ringostat — уникальный звонок (офлайн, gclid)",adcall,ringostat (по умолчанию),117,0.0,20,-20.0,
+2025-08-01..2026-11-15,pmax1_test,"Ringostat — уникальный звонок (офлайн, gclid)",form,ringostat (по умолчанию),117,0.0,42,-42.0,
+2025-08-01..2026-11-15,pmax1_test,"Ringostat — уникальный звонок (офлайн, gclid)",total,ringostat (по умолчанию),117,0.0,290,-290.0,
+2025-08-01..2026-11-15,pmax1_test,addToCart_gtm,call,ringostat (по умолчанию),117,0.0,228,-228.0,
+2025-08-01..2026-11-15,pmax1_test,addToCart_gtm,adcall,ringostat (по умолчанию),117,0.0,20,-20.0,
+2025-08-01..2026-11-15,pmax1_test,addToCart_gtm,form,ringostat (по умолчанию),117,0.0,42,-42.0,
+2025-08-01..2026-11-15,pmax1_test,addToCart_gtm,total,ringostat (по умолчанию),117,0.0,290,-290.0,
+2025-08-01..2026-11-15,pmax1_test,form_submit_gtm,call,ringostat (по умолчанию),117,71.19,228,-156.81,0.394
+2025-08-01..2026-11-15,pmax1_test,form_submit_gtm,adcall,ringostat (по умолчанию),117,71.19,20,51.19,0.024
+2025-08-01..2026-11-15,pmax1_test,form_submit_gtm,form,ringostat (по умолчанию),117,71.19,42,29.19,0.623
+2025-08-01..2026-11-15,pmax1_test,form_submit_gtm,total,ringostat (по умолчанию),117,71.19,290,-218.81,0.533
+2025-08-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,call,ringostat (по умолчанию),117,130.2,228,-97.8,0.669
+2025-08-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,adcall,ringostat (по умолчанию),117,130.2,20,110.2,0.128
+2025-08-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,form,ringostat (по умолчанию),117,130.2,42,88.2,0.299
+2025-08-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,total,ringostat (по умолчанию),117,130.2,290,-159.8,0.653
+2025-08-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) addToCart_session,call,ringostat (по умолчанию),117,0.0,228,-228.0,
+2025-08-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) addToCart_session,adcall,ringostat (по умолчанию),117,0.0,20,-20.0,
+2025-08-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) addToCart_session,form,ringostat (по умолчанию),117,0.0,42,-42.0,
+2025-08-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) addToCart_session,total,ringostat (по умолчанию),117,0.0,290,-290.0,
+2025-08-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) form_submit,call,ringostat (по умолчанию),117,0.0,228,-228.0,
+2025-08-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) form_submit,adcall,ringostat (по умолчанию),117,0.0,20,-20.0,
+2025-08-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) form_submit,form,ringostat (по умолчанию),117,0.0,42,-42.0,
+2025-08-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) form_submit,total,ringostat (по умолчанию),117,0.0,290,-290.0,
+2025-08-01..2026-11-15,pmax1_test,Звонки по объявлениям,call,ringostat (по умолчанию),117,16.01,228,-211.99,0.122
+2025-08-01..2026-11-15,pmax1_test,Звонки по объявлениям,adcall,ringostat (по умолчанию),117,16.01,20,-3.99,0.709
+2025-08-01..2026-11-15,pmax1_test,Звонки по объявлениям,form,ringostat (по умолчанию),117,16.01,42,-25.99,0.102
+2025-08-01..2026-11-15,pmax1_test,Звонки по объявлениям,total,ringostat (по умолчанию),117,16.01,290,-273.99,0.255
+2025-08-01..2026-11-15,pmax1_test,Клик по номеру,call,ringostat (по умолчанию),117,0.0,228,-228.0,
+2025-08-01..2026-11-15,pmax1_test,Клик по номеру,adcall,ringostat (по умолчанию),117,0.0,20,-20.0,
+2025-08-01..2026-11-15,pmax1_test,Клик по номеру,form,ringostat (по умолчанию),117,0.0,42,-42.0,
+2025-08-01..2026-11-15,pmax1_test,Клик по номеру,total,ringostat (по умолчанию),117,0.0,290,-290.0,
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,"Ringostat — уникальный звонок (офлайн, gclid)",call,ringostat (по умолчанию),614,0.0,1058,-1058.0,
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,"Ringostat — уникальный звонок (офлайн, gclid)",adcall,ringostat (по умолчанию),614,0.0,37,-37.0,
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,"Ringostat — уникальный звонок (офлайн, gclid)",form,ringostat (по умолчанию),614,0.0,277,-277.0,
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,"Ringostat — уникальный звонок (офлайн, gclid)",total,ringostat (по умолчанию),614,0.0,1372,-1372.0,
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,addToCart_gtm,call,ringostat (по умолчанию),614,0.0,1058,-1058.0,
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,addToCart_gtm,adcall,ringostat (по умолчанию),614,0.0,37,-37.0,
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,addToCart_gtm,form,ringostat (по умолчанию),614,0.0,277,-277.0,
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,addToCart_gtm,total,ringostat (по умолчанию),614,0.0,1372,-1372.0,
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,form_submit_gtm,call,ringostat (по умолчанию),614,534.67,1058,-523.33,0.486
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,form_submit_gtm,adcall,ringostat (по умолчанию),614,534.67,37,497.67,-0.022
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,form_submit_gtm,form,ringostat (по умолчанию),614,534.67,277,257.67,0.741
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,form_submit_gtm,total,ringostat (по умолчанию),614,534.67,1372,-837.33,0.627
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,call,ringostat (по умолчанию),614,916.16,1058,-141.84,0.778
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,adcall,ringostat (по умолчанию),614,916.16,37,879.16,0.061
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,form,ringostat (по умолчанию),614,916.16,277,639.16,0.482
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,total,ringostat (по умолчанию),614,916.16,1372,-455.84,0.769
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) addToCart_session,call,ringostat (по умолчанию),614,0.0,1058,-1058.0,
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) addToCart_session,adcall,ringostat (по умолчанию),614,0.0,37,-37.0,
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) addToCart_session,form,ringostat (по умолчанию),614,0.0,277,-277.0,
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) addToCart_session,total,ringostat (по умолчанию),614,0.0,1372,-1372.0,
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) form_submit,call,ringostat (по умолчанию),614,0.0,1058,-1058.0,
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) form_submit,adcall,ringostat (по умолчанию),614,0.0,37,-37.0,
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) form_submit,form,ringostat (по умолчанию),614,0.0,277,-277.0,
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,mocnaszklarnia.pl - GA4 (web) form_submit,total,ringostat (по умолчанию),614,0.0,1372,-1372.0,
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,Звонки по объявлениям,call,ringostat (по умолчанию),614,84.98,1058,-973.02,0.285
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,Звонки по объявлениям,adcall,ringostat (по умолчанию),614,84.98,37,47.98,0.394
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,Звонки по объявлениям,form,ringostat (по умолчанию),614,84.98,277,-192.02,0.219
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,Звонки по объявлениям,total,ringostat (по умолчанию),614,84.98,1372,-1287.02,0.333
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,Клик по номеру,call,ringostat (по умолчанию),614,643.8,1058,-414.2,0.071
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,Клик по номеру,adcall,ringostat (по умолчанию),614,643.8,37,606.8,-0.052
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,Клик по номеру,form,ringostat (по умолчанию),614,643.8,277,366.8,-0.074
+2026-04-01..2026-11-15,ВСЕ кампании без yt_,Клик по номеру,total,ringostat (по умолчанию),614,643.8,1372,-728.2,0.036
+2026-04-01..2026-11-15,Search | Brand | Pl,"Ringostat — уникальный звонок (офлайн, gclid)",call,ringostat (по умолчанию),164,0.0,264,-264.0,
+2026-04-01..2026-11-15,Search | Brand | Pl,"Ringostat — уникальный звонок (офлайн, gclid)",adcall,ringostat (по умолчанию),164,0.0,9,-9.0,
+2026-04-01..2026-11-15,Search | Brand | Pl,"Ringostat — уникальный звонок (офлайн, gclid)",form,ringostat (по умолчанию),164,0.0,70,-70.0,
+2026-04-01..2026-11-15,Search | Brand | Pl,"Ringostat — уникальный звонок (офлайн, gclid)",total,ringostat (по умолчанию),164,0.0,343,-343.0,
+2026-04-01..2026-11-15,Search | Brand | Pl,addToCart_gtm,call,ringostat (по умолчанию),164,0.0,264,-264.0,
+2026-04-01..2026-11-15,Search | Brand | Pl,addToCart_gtm,adcall,ringostat (по умолчанию),164,0.0,9,-9.0,
+2026-04-01..2026-11-15,Search | Brand | Pl,addToCart_gtm,form,ringostat (по умолчанию),164,0.0,70,-70.0,
+2026-04-01..2026-11-15,Search | Brand | Pl,addToCart_gtm,total,ringostat (по умолчанию),164,0.0,343,-343.0,
+2026-04-01..2026-11-15,Search | Brand | Pl,form_submit_gtm,call,ringostat (по умолчанию),164,126.04,264,-137.96,0.565
+2026-04-01..2026-11-15,Search | Brand | Pl,form_submit_gtm,adcall,ringostat (по умолчанию),164,126.04,9,117.04,-0.065
+2026-04-01..2026-11-15,Search | Brand | Pl,form_submit_gtm,form,ringostat (по умолчанию),164,126.04,70,56.04,0.719
+2026-04-01..2026-11-15,Search | Brand | Pl,form_submit_gtm,total,ringostat (по умолчанию),164,126.04,343,-216.96,0.675
+2026-04-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,call,ringostat (по умолчанию),164,257.13,264,-6.87,0.833
+2026-04-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,adcall,ringostat (по умолчанию),164,257.13,9,248.13,-0.041
+2026-04-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,form,ringostat (по умолчанию),164,257.13,70,187.13,0.497
+2026-04-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,total,ringostat (по умолчанию),164,257.13,343,-85.87,0.81
+2026-04-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,call,ringostat (по умолчанию),164,0.0,264,-264.0,
+2026-04-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,adcall,ringostat (по умолчанию),164,0.0,9,-9.0,
+2026-04-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,form,ringostat (по умолчанию),164,0.0,70,-70.0,
+2026-04-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,total,ringostat (по умолчанию),164,0.0,343,-343.0,
+2026-04-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) form_submit,call,ringostat (по умолчанию),164,0.0,264,-264.0,
+2026-04-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) form_submit,adcall,ringostat (по умолчанию),164,0.0,9,-9.0,
+2026-04-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) form_submit,form,ringostat (по умолчанию),164,0.0,70,-70.0,
+2026-04-01..2026-11-15,Search | Brand | Pl,mocnaszklarnia.pl - GA4 (web) form_submit,total,ringostat (по умолчанию),164,0.0,343,-343.0,
+2026-04-01..2026-11-15,Search | Brand | Pl,Звонки по объявлениям,call,ringostat (по умолчанию),164,39.77,264,-224.23,0.387
+2026-04-01..2026-11-15,Search | Brand | Pl,Звонки по объявлениям,adcall,ringostat (по умолчанию),164,39.77,9,30.77,0.302
+2026-04-01..2026-11-15,Search | Brand | Pl,Звонки по объявлениям,form,ringostat (по умолчанию),164,39.77,70,-30.23,0.288
+2026-04-01..2026-11-15,Search | Brand | Pl,Звонки по объявлениям,total,ringostat (по умолчанию),164,39.77,343,-303.23,0.452
+2026-04-01..2026-11-15,Search | Brand | Pl,Клик по номеру,call,ringostat (по умолчанию),164,0.0,264,-264.0,
+2026-04-01..2026-11-15,Search | Brand | Pl,Клик по номеру,adcall,ringostat (по умолчанию),164,0.0,9,-9.0,
+2026-04-01..2026-11-15,Search | Brand | Pl,Клик по номеру,form,ringostat (по умолчанию),164,0.0,70,-70.0,
+2026-04-01..2026-11-15,Search | Brand | Pl,Клик по номеру,total,ringostat (по умолчанию),164,0.0,343,-343.0,
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,"Ringostat — уникальный звонок (офлайн, gclid)",call,ringostat (по умолчанию),173,0.0,386,-386.0,
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,"Ringostat — уникальный звонок (офлайн, gclid)",adcall,ringostat (по умолчанию),173,0.0,8,-8.0,
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,"Ringostat — уникальный звонок (офлайн, gclid)",form,ringostat (по умолчанию),173,0.0,126,-126.0,
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,"Ringostat — уникальный звонок (офлайн, gclid)",total,ringostat (по умолчанию),173,0.0,520,-520.0,
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,addToCart_gtm,call,ringostat (по умолчанию),173,0.0,386,-386.0,
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,addToCart_gtm,adcall,ringostat (по умолчанию),173,0.0,8,-8.0,
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,addToCart_gtm,form,ringostat (по умолчанию),173,0.0,126,-126.0,
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,addToCart_gtm,total,ringostat (по умолчанию),173,0.0,520,-520.0,
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,form_submit_gtm,call,ringostat (по умолчанию),173,250.31,386,-135.69,0.509
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,form_submit_gtm,adcall,ringostat (по умолчанию),173,250.31,8,242.31,-0.072
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,form_submit_gtm,form,ringostat (по умолчанию),173,250.31,126,124.31,0.777
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,form_submit_gtm,total,ringostat (по умолчанию),173,250.31,520,-269.69,0.669
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,call,ringostat (по умолчанию),173,375.41,386,-10.59,0.833
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,adcall,ringostat (по умолчанию),173,375.41,8,367.41,0.068
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,form,ringostat (по умолчанию),173,375.41,126,249.41,0.492
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,total,ringostat (по умолчанию),173,375.41,520,-144.59,0.798
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,call,ringostat (по умолчанию),173,0.0,386,-386.0,
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,adcall,ringostat (по умолчанию),173,0.0,8,-8.0,
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,form,ringostat (по умолчанию),173,0.0,126,-126.0,
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) addToCart_session,total,ringostat (по умолчанию),173,0.0,520,-520.0,
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) form_submit,call,ringostat (по умолчанию),173,0.0,386,-386.0,
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) form_submit,adcall,ringostat (по умолчанию),173,0.0,8,-8.0,
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) form_submit,form,ringostat (по умолчанию),173,0.0,126,-126.0,
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,mocnaszklarnia.pl - GA4 (web) form_submit,total,ringostat (по умолчанию),173,0.0,520,-520.0,
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,Звонки по объявлениям,call,ringostat (по умолчанию),173,16.16,386,-369.84,0.321
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,Звонки по объявлениям,adcall,ringostat (по умолчанию),173,16.16,8,8.16,0.294
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,Звонки по объявлениям,form,ringostat (по умолчанию),173,16.16,126,-109.84,0.196
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,Звонки по объявлениям,total,ringostat (по умолчанию),173,16.16,520,-503.84,0.318
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,Клик по номеру,call,ringostat (по умолчанию),173,0.0,386,-386.0,
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,Клик по номеру,adcall,ringostat (по умолчанию),173,0.0,8,-8.0,
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,Клик по номеру,form,ringostat (по умолчанию),173,0.0,126,-126.0,
+2026-04-01..2026-11-15,Search | Poliweglan | Pl,Клик по номеру,total,ringostat (по умолчанию),173,0.0,520,-520.0,
+2026-04-01..2026-11-15,pmax1_test,"Ringostat — уникальный звонок (офлайн, gclid)",call,ringostat (по умолчанию),117,0.0,228,-228.0,
+2026-04-01..2026-11-15,pmax1_test,"Ringostat — уникальный звонок (офлайн, gclid)",adcall,ringostat (по умолчанию),117,0.0,20,-20.0,
+2026-04-01..2026-11-15,pmax1_test,"Ringostat — уникальный звонок (офлайн, gclid)",form,ringostat (по умолчанию),117,0.0,42,-42.0,
+2026-04-01..2026-11-15,pmax1_test,"Ringostat — уникальный звонок (офлайн, gclid)",total,ringostat (по умолчанию),117,0.0,290,-290.0,
+2026-04-01..2026-11-15,pmax1_test,addToCart_gtm,call,ringostat (по умолчанию),117,0.0,228,-228.0,
+2026-04-01..2026-11-15,pmax1_test,addToCart_gtm,adcall,ringostat (по умолчанию),117,0.0,20,-20.0,
+2026-04-01..2026-11-15,pmax1_test,addToCart_gtm,form,ringostat (по умолчанию),117,0.0,42,-42.0,
+2026-04-01..2026-11-15,pmax1_test,addToCart_gtm,total,ringostat (по умолчанию),117,0.0,290,-290.0,
+2026-04-01..2026-11-15,pmax1_test,form_submit_gtm,call,ringostat (по умолчанию),117,71.19,228,-156.81,0.394
+2026-04-01..2026-11-15,pmax1_test,form_submit_gtm,adcall,ringostat (по умолчанию),117,71.19,20,51.19,0.024
+2026-04-01..2026-11-15,pmax1_test,form_submit_gtm,form,ringostat (по умолчанию),117,71.19,42,29.19,0.623
+2026-04-01..2026-11-15,pmax1_test,form_submit_gtm,total,ringostat (по умолчанию),117,71.19,290,-218.81,0.533
+2026-04-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,call,ringostat (по умолчанию),117,130.2,228,-97.8,0.669
+2026-04-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,adcall,ringostat (по умолчанию),117,130.2,20,110.2,0.128
+2026-04-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,form,ringostat (по умолчанию),117,130.2,42,88.2,0.299
+2026-04-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,total,ringostat (по умолчанию),117,130.2,290,-159.8,0.653
+2026-04-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) addToCart_session,call,ringostat (по умолчанию),117,0.0,228,-228.0,
+2026-04-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) addToCart_session,adcall,ringostat (по умолчанию),117,0.0,20,-20.0,
+2026-04-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) addToCart_session,form,ringostat (по умолчанию),117,0.0,42,-42.0,
+2026-04-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) addToCart_session,total,ringostat (по умолчанию),117,0.0,290,-290.0,
+2026-04-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) form_submit,call,ringostat (по умолчанию),117,0.0,228,-228.0,
+2026-04-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) form_submit,adcall,ringostat (по умолчанию),117,0.0,20,-20.0,
+2026-04-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) form_submit,form,ringostat (по умолчанию),117,0.0,42,-42.0,
+2026-04-01..2026-11-15,pmax1_test,mocnaszklarnia.pl - GA4 (web) form_submit,total,ringostat (по умолчанию),117,0.0,290,-290.0,
+2026-04-01..2026-11-15,pmax1_test,Звонки по объявлениям,call,ringostat (по умолчанию),117,16.01,228,-211.99,0.122
+2026-04-01..2026-11-15,pmax1_test,Звонки по объявлениям,adcall,ringostat (по умолчанию),117,16.01,20,-3.99,0.709
+2026-04-01..2026-11-15,pmax1_test,Звонки по объявлениям,form,ringostat (по умолчанию),117,16.01,42,-25.99,0.102
+2026-04-01..2026-11-15,pmax1_test,Звонки по объявлениям,total,ringostat (по умолчанию),117,16.01,290,-273.99,0.255
+2026-04-01..2026-11-15,pmax1_test,Клик по номеру,call,ringostat (по умолчанию),117,0.0,228,-228.0,
+2026-04-01..2026-11-15,pmax1_test,Клик по номеру,adcall,ringostat (по умолчанию),117,0.0,20,-20.0,
+2026-04-01..2026-11-15,pmax1_test,Клик по номеру,form,ringostat (по умолчанию),117,0.0,42,-42.0,
+2026-04-01..2026-11-15,pmax1_test,Клик по номеру,total,ringostat (по умолчанию),117,0.0,290,-290.0,

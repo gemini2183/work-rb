@@ -1,0 +1,494 @@
+﻿day,camp_id,camp,seg,segname,action,conv,allconv
+2025-11-01,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,5.0
+2025-11-01,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-11-01,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,3.0
+2025-11-01,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.677534
+2025-11-03,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,4.0
+2025-11-03,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.07866,2.07866
+2025-11-03,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-11-03,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,Клик по номеру,0.0,1.0
+2025-11-03,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,4.0
+2025-11-03,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2025-11-03,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.254927,2.254927
+2025-11-03,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.774826
+2025-11-03,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-03,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Клик по номеру,0.0,2.728889
+2025-11-04,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,5.0
+2025-11-04,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2025-11-04,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.999859
+2025-11-04,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-04,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,4.0
+2025-11-04,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.688815,2.688815
+2025-11-04,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2025-11-04,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Клик по номеру,0.0,3.244186
+2025-11-05,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,4.0
+2025-11-05,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2025-11-05,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-11-05,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-05,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,3.0
+2025-11-05,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.0,2.0
+2025-11-05,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.04677
+2025-11-05,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Клик по номеру,0.0,2.978036
+2025-11-06,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,3.0
+2025-11-06,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2025-11-06,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-11-06,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-06,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,3.333334
+2025-11-06,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2025-11-06,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-06,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.333334
+2025-11-06,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-06,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Клик по номеру,0.0,1.003216
+2025-11-07,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,3.0
+2025-11-07,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2025-11-07,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-07,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-07,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-08,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,1.0
+2025-11-08,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-11-10,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,7.0
+2025-11-10,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2025-11-10,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.996663,0.996663
+2025-11-10,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.998553
+2025-11-10,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-10,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Клик по номеру,0.0,1.988524
+2025-11-11,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,5.0
+2025-11-11,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-11,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,8.666666
+2025-11-11,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.666666,0.666666
+2025-11-11,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.667251
+2025-11-12,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,5.0
+2025-11-12,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2025-11-12,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.083341,0.083341
+2025-11-12,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-11-12,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-12,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,16.333334
+2025-11-12,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.333334,0.333334
+2025-11-12,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,11.177435
+2025-11-12,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Клик по номеру,0.0,0.997352
+2025-11-13,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,5.0
+2025-11-13,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-13,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2025-11-13,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,2.0
+2025-11-13,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,0.911648,0.911648
+2025-11-13,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2025-11-13,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-14,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,6.0
+2025-11-14,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2025-11-14,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.41528
+2025-11-14,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.997295
+2025-11-14,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,1.5
+2025-11-14,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-14,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Клик по номеру,0.0,2.0
+2025-11-15,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2025-11-15,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-15,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-15,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,5.001114
+2025-11-15,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2025-11-15,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-11-17,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,3.786517
+2025-11-17,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2025-11-17,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.188318
+2025-11-17,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.077514
+2025-11-17,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,6.0
+2025-11-17,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.182571
+2025-11-17,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Клик по номеру,0.0,3.0
+2025-11-18,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2025-11-18,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,8.0
+2025-11-18,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,2.0,2.0
+2025-11-18,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.591635
+2025-11-18,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,3.0
+2025-11-18,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Клик по номеру,0.0,3.0
+2025-11-19,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,4.0
+2025-11-19,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.84891
+2025-11-20,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,2.0
+2025-11-20,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.00026
+2025-11-20,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-21,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-22,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,2.0
+2025-11-22,19153311519,Search | Brand | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2025-11-22,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.790726
+2025-11-22,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-24,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,6.0
+2025-11-24,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.804712,2.804712
+2025-11-24,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.098737
+2025-11-24,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,3.387414
+2025-11-24,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.479343
+2025-11-25,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,7.0
+2025-11-25,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2025-11-25,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.203977,1.203977
+2025-11-25,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.280768
+2025-11-25,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.954405
+2025-11-25,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,Клик по номеру,0.0,1.0
+2025-11-26,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2025-11-26,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2025-11-26,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-26,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-27,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2025-11-27,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-28,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,3.0
+2025-11-28,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-28,19153311519,Search | Brand | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.000113
+2025-11-28,19153311519,Search | Brand | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,3.0
+2025-11-28,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-28,19153311519,Search | Brand | Pl,MOBILE,MOBILE,Клик по номеру,0.0,1.0
+2025-11-29,19153311519,Search | Brand | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-01,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,3.0
+2025-11-01,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-01,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,3.0
+2025-11-01,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2025-11-01,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-03,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.078664,0.078664
+2025-11-03,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,13.0
+2025-11-03,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,12.0
+2025-11-04,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2025-11-04,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,5.0
+2025-11-04,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.100603
+2025-11-05,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,4.0
+2025-11-05,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-05,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.201207
+2025-11-06,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2025-11-06,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2025-11-06,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-06,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-06,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,5.666666
+2025-11-06,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-06,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.666666
+2025-11-06,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,Клик по номеру,0.0,0.006432
+2025-11-07,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,4.0
+2025-11-07,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-07,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-11-07,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,5.0
+2025-11-07,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.0
+2025-11-08,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2025-11-08,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-08,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,4.0
+2025-11-08,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-11-10,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,6.0
+2025-11-10,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-10,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,20.0
+2025-11-10,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,19.827837
+2025-11-12,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2025-11-12,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-12,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,9.5
+2025-11-12,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.681717
+2025-11-12,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,Клик по номеру,0.0,4.0
+2025-11-13,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,3.0
+2025-11-13,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,0.666666,0.666666
+2025-11-13,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-11-13,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.5
+2025-11-13,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,8.5
+2025-11-13,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.500519
+2025-11-14,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,5.0
+2025-11-14,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,0.333334,0.333334
+2025-11-14,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-11-14,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.5
+2025-11-14,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,13.5
+2025-11-14,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.695403
+2025-11-15,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2025-11-15,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-15,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,4.0
+2025-11-15,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2025-11-17,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,6.475699
+2025-11-17,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-17,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-11-17,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-17,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,10.0
+2025-11-17,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,8.0
+2025-11-18,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,5.0
+2025-11-18,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-18,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-11-18,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,7.0
+2025-11-18,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,10.5
+2025-11-19,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2025-11-19,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-19,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,2.0
+2025-11-19,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.999357
+2025-11-20,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-20,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,Клик по номеру,0.0,1.0
+2025-11-20,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,7.284819
+2025-11-20,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.0
+2025-11-21,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,6.0
+2025-11-21,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-11-21,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,5.0
+2025-11-21,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.52936
+2025-11-22,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2025-11-22,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-11-22,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,6.0
+2025-11-22,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,11.0
+2025-11-24,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-24,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,2.0
+2025-11-24,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-11-25,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,3.0
+2025-11-25,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-11-26,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,6.0
+2025-11-26,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2025-11-26,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-26,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,3.0
+2025-11-26,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-11-27,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,6.0
+2025-11-27,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-11-27,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,3.0
+2025-11-27,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-27,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.640741
+2025-11-27,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,Клик по номеру,0.0,0.036118
+2025-11-28,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,4.0
+2025-11-28,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-11-28,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,2.0
+2025-11-28,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2025-11-28,19158580966,Search | Poliweglan | Pl,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2025-11-29,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2025-11-29,19158580966,Search | Poliweglan | Pl,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.522618
+2025-11-29,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,addToCart_gtm,0.0,5.0
+2025-11-29,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2025-11-29,19158580966,Search | Poliweglan | Pl,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-11-03,21692572205,pmax01,OTHER,OTHER,addToCart_gtm,0.0,1.0
+2025-11-03,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,4.0
+2025-11-03,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.000023
+2025-11-03,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,174.871129
+2025-11-03,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.134449
+2025-11-03,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,5.0,5.0
+2025-11-03,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2025-11-04,21692572205,pmax01,OTHER,OTHER,addToCart_gtm,0.0,0.007745
+2025-11-04,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,3.0
+2025-11-04,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.998594
+2025-11-04,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,387.016456
+2025-11-04,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2025-11-04,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-04,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,26.428865
+2025-11-04,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,10.952664,10.952664
+2025-11-04,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,4.0
+2025-11-04,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-05,21692572205,pmax01,OTHER,OTHER,addToCart_gtm,0.0,0.997702
+2025-11-05,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,6.022914
+2025-11-05,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.988278
+2025-11-05,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,367.163158
+2025-11-05,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,3.0,3.0
+2025-11-05,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.0,3.0
+2025-11-05,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,36.861585
+2025-11-05,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-05,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,10.0,10.0
+2025-11-05,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,1.995404
+2025-11-06,21692572205,pmax01,OTHER,OTHER,addToCart_gtm,0.0,2.0
+2025-11-06,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,8.934596
+2025-11-06,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.039084
+2025-11-06,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,338.823136
+2025-11-06,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,3.0,3.0
+2025-11-06,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-06,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,25.99053
+2025-11-06,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-06,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,10.001344,10.001344
+2025-11-06,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,2.002309
+2025-11-06,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-07,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,6.0
+2025-11-07,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.003081
+2025-11-07,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,26.282119
+2025-11-07,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,11.388992
+2025-11-07,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,1.0,1.0
+2025-11-10,21692572205,pmax01,OTHER,OTHER,addToCart_gtm,0.0,7.997846
+2025-11-10,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2025-11-10,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.322563
+2025-11-10,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,644.455676
+2025-11-10,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,3.0,3.0
+2025-11-10,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,44.785218
+2025-11-10,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-10,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,10.0,10.0
+2025-11-10,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,9.003185
+2025-11-12,21692572205,pmax01,OTHER,OTHER,addToCart_gtm,0.0,1.0
+2025-11-12,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,9.5
+2025-11-12,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2025-11-12,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,303.673501
+2025-11-12,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,0.997137,0.997137
+2025-11-12,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.8,0.8
+2025-11-12,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,25.385554
+2025-11-12,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-12,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,9.954292,9.954292
+2025-11-12,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-13,21692572205,pmax01,OTHER,OTHER,addToCart_gtm,0.0,3.995382
+2025-11-13,21692572205,pmax01,OTHER,OTHER,form_submit_gtm,0.088352,0.088352
+2025-11-13,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,9.0
+2025-11-13,21692572205,pmax01,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2025-11-13,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.989829
+2025-11-13,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,484.79
+2025-11-13,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,2.007383,2.007383
+2025-11-13,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.2,1.2
+2025-11-13,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,58.009849
+2025-11-13,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,14.999881,14.999881
+2025-11-13,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,3.998105
+2025-11-13,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-11-14,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,6.0
+2025-11-14,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2025-11-14,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,328.657965
+2025-11-14,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,3.992617,3.992617
+2025-11-14,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-14,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,36.494191
+2025-11-14,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.575747
+2025-11-14,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,5.0,5.0
+2025-11-14,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,1.997978
+2025-11-17,21692572205,pmax01,OTHER,OTHER,addToCart_gtm,0.0,1.998652
+2025-11-17,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,16.0
+2025-11-17,21692572205,pmax01,DESKTOP,DESKTOP,form_submit_gtm,1.0,2.0
+2025-11-17,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,9.004775
+2025-11-17,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-17,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,514.752805
+2025-11-17,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2025-11-17,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,42.311198
+2025-11-17,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,13.504908,13.504908
+2025-11-17,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,2.996235
+2025-11-17,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-11-18,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,6.0
+2025-11-18,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.592544
+2025-11-18,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,194.050493
+2025-11-18,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,26.052128
+2025-11-18,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,5.001616,5.001616
+2025-11-18,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,2.0
+2025-11-18,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-19,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2025-11-19,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-19,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-19,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,5.666666
+2025-11-19,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.91951,0.91951
+2025-11-19,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.0
+2025-11-20,21692572205,pmax01,OTHER,OTHER,addToCart_gtm,0.0,2.501912
+2025-11-20,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,14.0
+2025-11-20,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2025-11-20,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,7.0
+2025-11-20,21692572205,pmax01,DESKTOP,DESKTOP,Клик по номеру,1.0,1.0
+2025-11-20,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,474.392294
+2025-11-20,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2025-11-20,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.666666,2.666666
+2025-11-20,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,47.81065
+2025-11-20,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-20,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,13.003046,13.003046
+2025-11-20,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,4.992171
+2025-11-21,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,19.974567
+2025-11-21,21692572205,pmax01,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2025-11-21,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,2.5,2.5
+2025-11-21,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,12.019592
+2025-11-21,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-21,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,259.859262
+2025-11-21,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.03193,0.03193
+2025-11-21,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,54.869919
+2025-11-21,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,11.985651,11.985651
+2025-11-21,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,2.0
+2025-11-24,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,50.363721
+2025-11-24,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-24,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,28.05803
+2025-11-24,21692572205,pmax01,DESKTOP,DESKTOP,Клик по номеру,2.0,2.0
+2025-11-24,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,241.91191
+2025-11-24,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,0.354516,0.354516
+2025-11-24,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.5,1.5
+2025-11-24,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,92.299626
+2025-11-24,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-24,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,7.504371,7.504371
+2025-11-24,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-11-25,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,5.0
+2025-11-25,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-25,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,24.99198
+2025-11-25,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,15.005123
+2025-11-25,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,2.001444,2.001444
+2025-11-25,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,1.0
+2025-11-26,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,11.0
+2025-11-26,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.045412
+2025-11-26,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.998288
+2025-11-26,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,58.467081
+2025-11-26,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2025-11-26,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,24.537501
+2025-11-26,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,2.0,2.0
+2025-11-27,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,10.002469
+2025-11-27,21692572205,pmax01,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,11.438482
+2025-11-27,21692572205,pmax01,DESKTOP,DESKTOP,Клик по номеру,1.0,1.0
+2025-11-27,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,220.009821
+2025-11-27,21692572205,pmax01,MOBILE,MOBILE,form_submit_gtm,1.645484,1.645484
+2025-11-27,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.116408,1.116408
+2025-11-27,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,54.991378
+2025-11-27,21692572205,pmax01,MOBILE,MOBILE,Клик по номеру,9.963805,9.963805
+2025-11-27,21692572205,pmax01,TABLET,TABLET,addToCart_gtm,0.0,2.0
+2025-11-27,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2025-11-27,21692572205,pmax01,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-28,21692572205,pmax01,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2025-11-28,21692572205,pmax01,MOBILE,MOBILE,addToCart_gtm,0.0,4.00266
+2025-11-28,21692572205,pmax01,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.339741
+2025-11-19,23276887406,Search | Brand | Pl Макс клики и Макс конв,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2025-11-19,23276887406,Search | Brand | Pl Макс клики и Макс конв,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2025-11-19,23276887406,Search | Brand | Pl Макс клики и Макс конв,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-19,23276887406,Search | Brand | Pl Макс клики и Макс конв,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-19,23276887406,Search | Brand | Pl Макс клики и Макс конв,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-20,23276887406,Search | Brand | Pl Макс клики и Макс конв,DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2025-11-20,23276887406,Search | Brand | Pl Макс клики и Макс конв,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2025-11-20,23276887406,Search | Brand | Pl Макс клики и Макс конв,MOBILE,MOBILE,addToCart_gtm,0.0,2.0
+2025-11-20,23276887406,Search | Brand | Pl Макс клики и Макс конв,MOBILE,MOBILE,form_submit_gtm,0.5,0.5
+2025-11-20,23276887406,Search | Brand | Pl Макс клики и Макс конв,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.000454
+2025-11-20,23276887406,Search | Brand | Pl Макс клики и Макс конв,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.5
+2025-11-21,23276887406,Search | Brand | Pl Макс клики и Макс конв,MOBILE,MOBILE,form_submit_gtm,0.5,0.5
+2025-11-21,23276887406,Search | Brand | Pl Макс клики и Макс конв,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-11-21,23276887406,Search | Brand | Pl Макс клики и Макс конв,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.5
+2025-11-24,23276887406,Search | Brand | Pl Макс клики и Макс конв,DESKTOP,DESKTOP,addToCart_gtm,0.0,5.0
+2025-11-24,23276887406,Search | Brand | Pl Макс клики и Макс конв,DESKTOP,DESKTOP,form_submit_gtm,2.0,2.0
+2025-11-24,23276887406,Search | Brand | Pl Макс клики и Макс конв,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-24,23276887406,Search | Brand | Pl Макс клики и Макс конв,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-11-24,23276887406,Search | Brand | Pl Макс клики и Макс конв,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-24,23276887406,Search | Brand | Pl Макс клики и Макс конв,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.840248
+2025-11-25,23276887406,Search | Brand | Pl Макс клики и Макс конв,MOBILE,MOBILE,addToCart_gtm,0.0,1.0
+2025-11-25,23276887406,Search | Brand | Pl Макс клики и Макс конв,MOBILE,MOBILE,form_submit_gtm,1.0,1.0
+2025-11-25,23276887406,Search | Brand | Pl Макс клики и Макс конв,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2025-11-25,23276887406,Search | Brand | Pl Макс клики и Макс конв,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2025-11-26,23276887406,Search | Brand | Pl Макс клики и Макс конв,DESKTOP,DESKTOP,addToCart_gtm,0.0,2.0
+2025-11-26,23276887406,Search | Brand | Pl Макс клики и Макс конв,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-26,23276887406,Search | Brand | Pl Макс клики и Макс конв,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-26,23276887406,Search | Brand | Pl Макс клики и Макс конв,MOBILE,MOBILE,addToCart_gtm,0.0,1.0
+2025-11-26,23276887406,Search | Brand | Pl Макс клики и Макс конв,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-11-27,23276887406,Search | Brand | Pl Макс клики и Макс конв,DESKTOP,DESKTOP,addToCart_gtm,0.0,3.0
+2025-11-27,23276887406,Search | Brand | Pl Макс клики и Макс конв,DESKTOP,DESKTOP,form_submit_gtm,2.0,2.0
+2025-11-27,23276887406,Search | Brand | Pl Макс клики и Макс конв,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-11-27,23276887406,Search | Brand | Pl Макс клики и Макс конв,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,2.0
+2025-11-27,23276887406,Search | Brand | Pl Макс клики и Макс конв,MOBILE,MOBILE,addToCart_gtm,0.0,1.0
+2025-11-28,23276887406,Search | Brand | Pl Макс клики и Макс конв,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2025-11-28,23276887406,Search | Brand | Pl Макс клики и Макс конв,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2025-11-28,23276887406,Search | Brand | Pl Макс клики и Макс конв,MOBILE,MOBILE,addToCart_gtm,0.0,1.0
+2025-11-28,23276887406,Search | Brand | Pl Макс клики и Макс конв,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-28,23276887406,Search | Brand | Pl Макс клики и Макс конв,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.000283
+2025-11-29,23276887406,Search | Brand | Pl Макс клики и Макс конв,MOBILE,MOBILE,addToCart_gtm,0.0,1.0
+2025-11-29,23276887406,Search | Brand | Pl Макс клики и Макс конв,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-11-19,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,DESKTOP,DESKTOP,addToCart_gtm,0.0,5.0
+2025-11-19,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-19,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,addToCart_gtm,0.0,3.333334
+2025-11-19,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.999357
+2025-11-20,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,DESKTOP,DESKTOP,addToCart_gtm,0.0,7.0
+2025-11-20,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-20,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.591769
+2025-11-20,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,addToCart_gtm,0.0,7.020758
+2025-11-20,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.987768
+2025-11-20,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,Клик по номеру,0.0,0.998219
+2025-11-21,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2025-11-21,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-21,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,addToCart_gtm,0.0,5.0
+2025-11-21,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-21,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,5.0
+2025-11-22,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,DESKTOP,DESKTOP,addToCart_gtm,0.0,4.0
+2025-11-22,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,addToCart_gtm,0.0,2.0
+2025-11-22,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-11-24,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,addToCart_gtm,0.0,1.0
+2025-11-24,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2025-11-24,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-11-24,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,Клик по номеру,0.0,1.0
+2025-11-25,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,DESKTOP,DESKTOP,addToCart_gtm,0.0,6.0
+2025-11-25,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2025-11-25,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,addToCart_gtm,0.0,2.0
+2025-11-25,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2025-11-26,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,DESKTOP,DESKTOP,addToCart_gtm,0.0,4.0
+2025-11-26,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,DESKTOP,DESKTOP,form_submit_gtm,1.0,1.0
+2025-11-26,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-26,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2025-11-26,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,addToCart_gtm,0.0,2.0
+2025-11-26,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.000177
+2025-11-27,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,DESKTOP,DESKTOP,addToCart_gtm,0.0,1.0
+2025-11-27,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2025-11-27,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,DESKTOP,DESKTOP,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.000045
+2025-11-27,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,addToCart_gtm,0.0,3.0
+2025-11-27,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.148595
+2025-11-28,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,addToCart_gtm,0.0,3.333334
+2025-11-28,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.971119
+2025-11-28,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,TABLET,TABLET,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2025-11-29,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,addToCart_gtm,0.0,5.0
+2025-11-29,23276898422,Search | Poliweglan | Pl Макс клики и Макс конв2,MOBILE,MOBILE,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,6.0

@@ -1,0 +1,938 @@
+﻿day,camp_id,camp,seg,segname,action,conv,allconv
+2026-06-12,23775369828,pmax1_test,geoTargetConstants/21499,geoTargetConstants/21499,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-12,23775369828,pmax1_test,geoTargetConstants/21499,geoTargetConstants/21499,Клик по номеру,0.0,1.0
+2026-06-18,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20243,geoTargetConstants/20243,addToCart_gtm,0.0,1.0
+2026-06-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20229,geoTargetConstants/20229,addToCart_gtm,0.0,1.0
+2026-06-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20229,geoTargetConstants/20229,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-11,23775369828,pmax1_test,geoTargetConstants/20238,geoTargetConstants/20238,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-16,19153311519,Search | Brand | Pl,geoTargetConstants/20234,geoTargetConstants/20234,addToCart_gtm,0.0,1.0
+2026-06-16,19153311519,Search | Brand | Pl,geoTargetConstants/20234,geoTargetConstants/20234,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-16,19153311519,Search | Brand | Pl,geoTargetConstants/20234,geoTargetConstants/20234,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.300957
+2026-06-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20229,geoTargetConstants/20229,addToCart_gtm,0.0,1.0
+2026-06-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20229,geoTargetConstants/20229,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20239,geoTargetConstants/20239,addToCart_gtm,0.0,1.0
+2026-06-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20239,geoTargetConstants/20239,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20235,geoTargetConstants/20235,addToCart_gtm,0.0,1.0
+2026-06-01,19153311519,Search | Brand | Pl,geoTargetConstants/20770,geoTargetConstants/20770,addToCart_gtm,0.0,1.0
+2026-06-01,19153311519,Search | Brand | Pl,geoTargetConstants/20770,geoTargetConstants/20770,form_submit_gtm,1.0,1.0
+2026-06-01,19153311519,Search | Brand | Pl,geoTargetConstants/20770,geoTargetConstants/20770,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-01,19153311519,Search | Brand | Pl,geoTargetConstants/20770,geoTargetConstants/20770,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-06-01,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,8.994679
+2026-06-01,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-01,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-06-01,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-01,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-01,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-06-01,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,2.0
+2026-06-01,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-01,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,2.0
+2026-06-01,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,2.0
+2026-06-01,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-01,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-06-01,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-01,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.962075
+2026-06-01,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,2.0
+2026-06-01,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-01,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-06-01,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-01,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,8.491796
+2026-06-01,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-01,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-01,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,2.0
+2026-06-01,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,1.0
+2026-06-01,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-01,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,1.0
+2026-06-01,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.0
+2026-06-01,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.333334
+2026-06-01,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,5.98672
+2026-06-01,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-06-01,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.0
+2026-06-01,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-01,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.0
+2026-06-01,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,2.0
+2026-06-01,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-01,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.034215
+2026-06-01,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,3.0
+2026-06-01,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-01,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,12.0
+2026-06-01,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,1.0
+2026-06-01,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,Клик по номеру,0.0,1.0
+2026-06-01,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-06-01,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,2.0
+2026-06-01,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,11.0
+2026-06-01,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,3.0
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,form_submit_gtm,0.933741,0.933741
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,form_submit_gtm,0.022086,0.022086
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.0
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-02,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,form_submit_gtm,1.0,1.0
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.000264
+2026-06-02,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,3.0
+2026-06-02,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,3.142857
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,form_submit_gtm,0.017528,0.017528
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,1.0
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-02,19153311519,Search | Brand | Pl,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,2.0
+2026-06-02,19153311519,Search | Brand | Pl,geoTargetConstants/20857,geoTargetConstants/20857,form_submit_gtm,0.933741,0.933741
+2026-06-02,19153311519,Search | Brand | Pl,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-02,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.0
+2026-06-02,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-02,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.0
+2026-06-02,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,2.0
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.5
+2026-06-02,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-03,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-06-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,2.0
+2026-06-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-06-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-03,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-03,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-06-03,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.666667
+2026-06-03,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-03,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,1.0
+2026-06-03,19153311519,Search | Brand | Pl,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.0
+2026-06-03,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,0.965785
+2026-06-03,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20858,geoTargetConstants/20858,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.666667
+2026-06-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-06-03,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-06-03,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,0.979039
+2026-06-03,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.936491
+2026-06-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-06-03,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-03,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,0.5
+2026-06-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-06-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,form_submit_gtm,0.022086,0.022086
+2026-06-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,3.0
+2026-06-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,2.0
+2026-06-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.25
+2026-06-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-06-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,3.0
+2026-06-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-06-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,2.0
+2026-06-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-04,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.0
+2026-06-04,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-04,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-06-04,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,2.0
+2026-06-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,2.0
+2026-06-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.0
+2026-06-04,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-06-04,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-04,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-06-04,19153311519,Search | Brand | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-06-04,19153311519,Search | Brand | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-04,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-06-05,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-06-05,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-05,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-05,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-06-05,19153311519,Search | Brand | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.0
+2026-06-05,19153311519,Search | Brand | Pl,geoTargetConstants/20850,geoTargetConstants/20850,form_submit_gtm,0.944991,0.944991
+2026-06-05,19153311519,Search | Brand | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-05,19153311519,Search | Brand | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,2.0
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-05,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.25
+2026-06-05,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,4.925152
+2026-06-05,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-06-05,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-05,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,3.0
+2026-06-05,19153311519,Search | Brand | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-06-05,19153311519,Search | Brand | Pl,geoTargetConstants/20853,geoTargetConstants/20853,form_submit_gtm,1.0,1.0
+2026-06-05,19153311519,Search | Brand | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.142857
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,form_submit_gtm,0.017528,0.017528
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-05,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,1.0
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-05,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-06-05,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-06-05,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-05,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,5.0
+2026-06-05,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.0
+2026-06-05,19153311519,Search | Brand | Pl,geoTargetConstants/20858,geoTargetConstants/20858,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.0
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-05,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-06-05,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,form_submit_gtm,1.0,1.0
+2026-06-05,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.805154
+2026-06-05,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.0
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-05,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.076769
+2026-06-05,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-06-05,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.926469
+2026-06-05,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.993445,0.993445
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-05,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,2.0
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.000137
+2026-06-05,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.000692
+2026-06-05,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-05,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,7.0
+2026-06-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,0.142858
+2026-06-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,form_submit_gtm,0.017538,0.017538
+2026-06-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,2.0
+2026-06-06,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-06,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.0
+2026-06-06,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20857,geoTargetConstants/20857,form_submit_gtm,1.0,1.0
+2026-06-06,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-06,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-06-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,2.0
+2026-06-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,2.0
+2026-06-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,2.0
+2026-06-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,1.0
+2026-06-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,2.0
+2026-06-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-06-07,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-08,19153311519,Search | Brand | Pl,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-06-08,19153311519,Search | Brand | Pl,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,form_submit_gtm,0.022087,0.022087
+2026-06-08,19153311519,Search | Brand | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-06-08,19153311519,Search | Brand | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-06-08,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,3.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,3.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,form_submit_gtm,1.0,1.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-06-08,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-06-08,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-08,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,2.030808
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.082095
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-08,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,2.0
+2026-06-08,19153311519,Search | Brand | Pl,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.0
+2026-06-08,19153311519,Search | Brand | Pl,geoTargetConstants/20858,geoTargetConstants/20858,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-08,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-06-08,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.999786
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-06-08,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-06-08,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-08,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,3.0
+2026-06-08,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,form_submit_gtm,1.0,1.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,2.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,form_submit_gtm,1.0,1.0
+2026-06-08,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,1.0
+2026-06-08,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-08,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,3.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,2.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,2.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-08,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,5.917905
+2026-06-08,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,Клик по номеру,0.0,1.996296
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9256604,geoTargetConstants/9256604,addToCart_gtm,0.0,1.0
+2026-06-08,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9256604,geoTargetConstants/9256604,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-09,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,1.0
+2026-06-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,4.0
+2026-06-09,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,2.0
+2026-06-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-06-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-09,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,2.888713
+2026-06-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-06-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-09,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,2.0
+2026-06-09,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,1.0
+2026-06-09,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.994908
+2026-06-09,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.0
+2026-06-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.0
+2026-06-09,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.0
+2026-06-09,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,Клик по номеру,0.0,1.003366
+2026-06-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-06-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,form_submit_gtm,1.0,1.0
+2026-06-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-06-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-06-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-09,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-06-09,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.997262
+2026-06-09,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,1.0
+2026-06-09,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-09,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-06-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-06-09,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-09,23775369828,pmax1_test,geoTargetConstants/9256604,geoTargetConstants/9256604,addToCart_gtm,0.0,1.0
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-10,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,4.0
+2026-06-10,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.0
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-10,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.0
+2026-06-10,19153311519,Search | Brand | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-06-10,19153311519,Search | Brand | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.25
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-10,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,4.0
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,9.52631
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,form_submit_gtm,0.02556,0.02556
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-10,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,1.0
+2026-06-10,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.0
+2026-06-10,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-06-10,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,2.0
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-10,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,3.291639
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.0
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.0
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,3.0,3.0
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,Клик по номеру,0.0,0.042083
+2026-06-10,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.0
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-06-10,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,1.0
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-10,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,3.0
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-10,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-06-10,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,3.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-06-11,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-06-11,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-11,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,2.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,2.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,1.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-11,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,1.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,4.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-06-11,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,3.0
+2026-06-11,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,4.0
+2026-06-11,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-06-11,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,2.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-11,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,3.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,3.349102
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,form_submit_gtm,0.605029,0.605029
+2026-06-11,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,0.87096
+2026-06-11,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20853,geoTargetConstants/20853,form_submit_gtm,0.17046,0.17046
+2026-06-11,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.0
+2026-06-11,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-11,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,3.0
+2026-06-11,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-11,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,2.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.997153,0.997153
+2026-06-11,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,Клик по номеру,0.0,1.969575
+2026-06-11,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-06-11,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,form_submit_gtm,1.0,1.0
+2026-06-11,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-11,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-11,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,3.0
+2026-06-11,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,1.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,2.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.5
+2026-06-11,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-06-11,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-11,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.997454
+2026-06-11,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-11,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,2.0
+2026-06-11,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,3.969192
+2026-06-11,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-12,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,3.0
+2026-06-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,2.0
+2026-06-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-12,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-06-12,19153311519,Search | Brand | Pl,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,1.0
+2026-06-12,19153311519,Search | Brand | Pl,geoTargetConstants/20849,geoTargetConstants/20849,form_submit_gtm,0.933741,0.933741
+2026-06-12,19153311519,Search | Brand | Pl,geoTargetConstants/20849,geoTargetConstants/20849,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-12,19153311519,Search | Brand | Pl,geoTargetConstants/20849,geoTargetConstants/20849,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-06-12,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.0
+2026-06-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-06-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-12,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-06-12,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-12,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-06-12,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,form_submit_gtm,1.0,1.0
+2026-06-12,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,2.0
+2026-06-12,19153311519,Search | Brand | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,0.245678
+2026-06-12,19153311519,Search | Brand | Pl,geoTargetConstants/20853,geoTargetConstants/20853,form_submit_gtm,0.084135,0.084135
+2026-06-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,3.00795
+2026-06-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,form_submit_gtm,1.009638,1.009638
+2026-06-12,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,2.0
+2026-06-12,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-12,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-06-12,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.0
+2026-06-12,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-06-12,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,2.0
+2026-06-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-12,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,2.0
+2026-06-12,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2026-06-12,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-06-12,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-06-12,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-06-12,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-12,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,2.0
+2026-06-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-06-13,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-06-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.0
+2026-06-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-06-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-06-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-06-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-13,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-06-13,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-06-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,2.0
+2026-06-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-13,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-06-13,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-06-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,2.0
+2026-06-13,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-06-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,2.0
+2026-06-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-14,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,2.0
+2026-06-14,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20849,geoTargetConstants/20849,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-06-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-06-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.0
+2026-06-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-14,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-06-14,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,3.0
+2026-06-14,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-14,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-06-14,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-06-15,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,4.458305
+2026-06-15,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,Клик по номеру,0.0,0.5
+2026-06-15,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-06-15,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,1.0
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,2.0
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-15,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,4.0
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-06-15,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,3.0
+2026-06-15,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,2.0
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-15,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,2.0
+2026-06-15,19153311519,Search | Brand | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,2.1
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,2.2
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-15,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,5.7
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,2.0
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-15,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,4.0
+2026-06-15,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,5.0
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,4.0
+2026-06-15,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,3.004727
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,3.0
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-06-15,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.931913
+2026-06-15,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.995968
+2026-06-15,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.0
+2026-06-15,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.990866,0.990866
+2026-06-15,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,4.983109
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-06-15,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-06-15,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-15,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,4.0
+2026-06-15,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,2.5
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,form_submit_gtm,0.011567,0.011567
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,2.0
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,form_submit_gtm,1.0,1.0
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-06-15,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,2.0
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,2.5
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,form_submit_gtm,0.011567,0.011567
+2026-06-15,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-15,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-06-15,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-15,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,5.25
+2026-06-15,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,Клик по номеру,0.0,1.0
+2026-06-15,19153311519,Search | Brand | Pl,geoTargetConstants/9256604,geoTargetConstants/9256604,addToCart_gtm,0.0,1.0
+2026-06-15,19153311519,Search | Brand | Pl,geoTargetConstants/9256604,geoTargetConstants/9256604,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.56474
+2026-06-16,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-06-16,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-06-16,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,2.0
+2026-06-16,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-16,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,2.0
+2026-06-16,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.0
+2026-06-16,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-16,19153311519,Search | Brand | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-06-16,19153311519,Search | Brand | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-16,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-06-16,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,3.0
+2026-06-16,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-16,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-06-16,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-06-16,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-16,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-16,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,3.0
+2026-06-16,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-16,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,2.0
+2026-06-16,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-16,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-16,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-06-16,19153311519,Search | Brand | Pl,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,2.0
+2026-06-16,19153311519,Search | Brand | Pl,geoTargetConstants/20857,geoTargetConstants/20857,form_submit_gtm,1.0,1.0
+2026-06-16,19153311519,Search | Brand | Pl,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-16,19153311519,Search | Brand | Pl,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-06-16,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,2.0
+2026-06-16,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,2.0
+2026-06-16,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-16,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,4.0
+2026-06-16,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-16,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.0
+2026-06-16,19153311519,Search | Brand | Pl,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,1.0
+2026-06-16,19153311519,Search | Brand | Pl,geoTargetConstants/20860,geoTargetConstants/20860,form_submit_gtm,0.976866,0.976866
+2026-06-16,19153311519,Search | Brand | Pl,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.760877
+2026-06-16,19153311519,Search | Brand | Pl,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,0.642564
+2026-06-16,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,2.0
+2026-06-16,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,form_submit_gtm,1.0,1.0
+2026-06-16,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-16,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-06-16,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-06-16,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-16,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,4.003664
+2026-06-16,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,2.0
+2026-06-16,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-16,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,4.0
+2026-06-16,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-06-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-06-17,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-06-17,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,2.0
+2026-06-17,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,1.004727
+2026-06-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-06-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-17,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,2.0
+2026-06-17,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-17,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,3.0
+2026-06-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,2.0
+2026-06-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-17,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,2.0
+2026-06-17,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-17,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,2.0
+2026-06-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,2.0
+2026-06-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-17,19153311519,Search | Brand | Pl,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.0
+2026-06-17,19153311519,Search | Brand | Pl,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-17,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-06-17,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,3.0
+2026-06-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-17,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.995273
+2026-06-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.0
+2026-06-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-17,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.0
+2026-06-17,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.854331
+2026-06-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.0
+2026-06-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-17,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,5.996762
+2026-06-17,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-17,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.664224
+2026-06-17,19153311519,Search | Brand | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-06-17,19153311519,Search | Brand | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-17,19153311519,Search | Brand | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-06-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,2.0
+2026-06-17,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-17,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,2.0
+2026-06-17,19153311519,Search | Brand | Pl,geoTargetConstants/9256604,geoTargetConstants/9256604,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.28259
+2026-06-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-06-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-18,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.997262
+2026-06-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-06-18,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,0.995273
+2026-06-18,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,2.0
+2026-06-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,3.0
+2026-06-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-18,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,2.004321
+2026-06-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,2.082095
+2026-06-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-06-18,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,2.917905
+2026-06-18,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,Клик по номеру,0.0,1.0
+2026-06-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,2.0
+2026-06-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,form_submit_gtm,1.0,1.0
+2026-06-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.000145
+2026-06-18,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-06-18,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.995968
+2026-06-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-06-18,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-06-18,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-18,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.0
+2026-06-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-06-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-18,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-18,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,2.329566
+2026-06-18,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-18,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,Клик по номеру,0.0,1.0
+2026-06-18,19153311519,Search | Brand | Pl,geoTargetConstants/9256604,geoTargetConstants/9256604,addToCart_gtm,0.0,1.0
+2026-06-18,19153311519,Search | Brand | Pl,geoTargetConstants/9256604,geoTargetConstants/9256604,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.141324
+2026-06-18,23775369828,pmax1_test,geoTargetConstants/9256604,geoTargetConstants/9256604,addToCart_gtm,0.0,2.0
+2026-06-18,23775369828,pmax1_test,geoTargetConstants/9256604,geoTargetConstants/9256604,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.739026
+2026-06-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-06-19,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,0.997454
+2026-06-19,19153311519,Search | Brand | Pl,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-06-19,19153311519,Search | Brand | Pl,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-19,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,2.0
+2026-06-19,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-19,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,1.0
+2026-06-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.0
+2026-06-19,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-19,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,3.0
+2026-06-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-06-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-19,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,2.0
+2026-06-19,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.000292
+2026-06-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,2.0
+2026-06-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-06-19,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,4.0
+2026-06-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.0
+2026-06-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-19,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.0
+2026-06-19,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-06-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-06-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-19,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,6.0
+2026-06-19,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,1.0
+2026-06-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,2.0
+2026-06-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,form_submit_gtm,1.0,1.0
+2026-06-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-06-19,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-06-19,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20861,geoTargetConstants/20861,form_submit_gtm,1.0,1.0
+2026-06-19,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-19,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-06-19,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-06-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,2.0
+2026-06-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-19,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-19,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,4.002248
+2026-06-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-06-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,2.0
+2026-06-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,0.983109
+2026-06-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,2.0
+2026-06-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-06-20,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-22,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,3.0
+2026-06-22,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-22,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.83333
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,4.0
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,3.0
+2026-06-22,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-06-22,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,0.666666
+2026-06-22,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-22,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,form_submit_gtm,1.0,1.0
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-06-22,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,3.997812
+2026-06-22,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,7.0
+2026-06-22,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,2.0
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,3.0
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-22,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,4.0
+2026-06-22,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.0
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-22,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,4.0
+2026-06-22,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-22,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,Клик по номеру,0.0,0.984976
+2026-06-22,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.0
+2026-06-22,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,4.0
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,2.0
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-22,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-06-22,19153311519,Search | Brand | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-22,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,2.944806
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,3.0
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.666666,0.666666
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-22,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-06-22,19153311519,Search | Brand | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,0.333334
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,2.666666
+2026-06-22,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-22,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,7.0
+2026-06-22,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-23,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-06-23,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,3.0
+2026-06-23,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,2.0
+2026-06-23,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.0
+2026-06-23,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,4.0
+2026-06-23,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.16667
+2026-06-23,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,2.0
+2026-06-23,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,form_submit_gtm,1.0,1.0
+2026-06-23,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-23,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-06-23,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,2.0
+2026-06-23,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-23,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,0.333334
+2026-06-23,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-23,19153311519,Search | Brand | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.5
+2026-06-23,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,2.0
+2026-06-23,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,form_submit_gtm,1.006932,1.006932
+2026-06-23,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-23,23775369828,pmax1_test,geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,1.0
+2026-06-23,23775369828,pmax1_test,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-23,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,2.0
+2026-06-23,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-23,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,4.0
+2026-06-23,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,2.0
+2026-06-23,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-23,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.0
+2026-06-23,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,2.0
+2026-06-23,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.0
+2026-06-23,19153311519,Search | Brand | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.5,0.5
+2026-06-23,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,3.0
+2026-06-23,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-23,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.007807,0.007807
+2026-06-23,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-23,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.333334,0.333334
+2026-06-23,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,6.0
+2026-06-23,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-24,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-06-24,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-06-24,19153311519,Search | Brand | Pl,geoTargetConstants/20849,geoTargetConstants/20849,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.984386,1.984386
+2026-06-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.0
+2026-06-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-24,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.0
+2026-06-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-24,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-06-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-06-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,Звонки по объявлениям,1.0,1.0
+2026-06-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-06-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.0
+2026-06-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,3.0
+2026-06-24,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-24,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-06-24,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-24,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.0
+2026-06-24,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.0
+2026-06-24,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.0
+2026-06-24,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-06-24,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-24,19153311519,Search | Brand | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-06-24,19153311519,Search | Brand | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-24,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,3.0
+2026-06-24,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.000367
+2026-06-24,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,Клик по номеру,0.0,1.00019
+2026-06-25,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-06-25,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.005005,0.005005
+2026-06-25,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.120763
+2026-06-25,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,1.0
+2026-06-25,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.0
+2026-06-25,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-25,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.0
+2026-06-25,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,0.995679
+2026-06-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,1.0
+2026-06-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.5
+2026-06-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,form_submit_gtm,0.496534,0.496534
+2026-06-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-25,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,0.5
+2026-06-25,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20853,geoTargetConstants/20853,form_submit_gtm,0.496534,0.496534
+2026-06-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.083804
+2026-06-25,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20857,geoTargetConstants/20857,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-25,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,1.0
+2026-06-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-06-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-25,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.0
+2026-06-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,1.0
+2026-06-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-25,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,1.0
+2026-06-25,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-25,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,Звонки по объявлениям,1.0,1.0
+2026-06-25,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,5.0
+2026-06-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-06-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,1.0
+2026-06-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20849,geoTargetConstants/20849,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-26,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,2.0
+2026-06-26,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-26,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,Клик по номеру,0.0,0.984791
+2026-06-26,19153311519,Search | Brand | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,0.229049
+2026-06-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.458098
+2026-06-26,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,2.0
+2026-06-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,3.0
+2026-06-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-06-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-26,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-06-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-06-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.007807,0.007807
+2026-06-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-26,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-06-26,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,3.0
+2026-06-26,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,0.999633
+2026-06-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,1.0
+2026-06-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-06-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20848,geoTargetConstants/20848,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,2.0
+2026-06-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20852,geoTargetConstants/20852,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-06-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20853,geoTargetConstants/20853,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,addToCart_gtm,0.0,1.0
+2026-06-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20855,geoTargetConstants/20855,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,0.229049
+2026-06-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.0
+2026-06-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.001711
+2026-06-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-27,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-06-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,2.0
+2026-06-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-29,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,2.0
+2026-06-29,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-29,23775369828,pmax1_test,geoTargetConstants/20848,geoTargetConstants/20848,addToCart_gtm,0.0,1.0
+2026-06-29,23775369828,pmax1_test,geoTargetConstants/20849,geoTargetConstants/20849,addToCart_gtm,0.0,1.0
+2026-06-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.0
+2026-06-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,1.543746
+2026-06-29,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,addToCart_gtm,0.0,2.455949
+2026-06-29,23775369828,pmax1_test,geoTargetConstants/20850,geoTargetConstants/20850,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-29,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-06-29,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-06-29,23775369828,pmax1_test,geoTargetConstants/20852,geoTargetConstants/20852,addToCart_gtm,0.0,3.997752
+2026-06-29,23775369828,pmax1_test,geoTargetConstants/20853,geoTargetConstants/20853,addToCart_gtm,0.0,1.0
+2026-06-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,addToCart_gtm,0.0,0.999308
+2026-06-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20854,geoTargetConstants/20854,Клик по номеру,0.0,0.033973
+2026-06-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-06-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-29,23775369828,pmax1_test,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-06-29,23775369828,pmax1_test,geoTargetConstants/20857,geoTargetConstants/20857,addToCart_gtm,0.0,4.0
+2026-06-29,19153311519,Search | Brand | Pl,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,1.0
+2026-06-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,2.0
+2026-06-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20858,geoTargetConstants/20858,form_submit_gtm,1.0,1.0
+2026-06-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,0.998289
+2026-06-29,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.003679
+2026-06-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-06-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-29,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,4.0
+2026-06-29,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20862,geoTargetConstants/20862,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.992193,0.992193
+2026-06-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,2.0
+2026-06-29,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-29,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,1.0
+2026-06-29,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-29,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-29,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,Клик по номеру,0.0,1.965403
+2026-06-30,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,2.0
+2026-06-30,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-30,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20847,geoTargetConstants/20847,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-30,23775369828,pmax1_test,geoTargetConstants/20847,geoTargetConstants/20847,addToCart_gtm,0.0,3.0
+2026-06-30,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,1.0
+2026-06-30,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,addToCart_gtm,0.0,3.0
+2026-06-30,23775369828,pmax1_test,geoTargetConstants/20851,geoTargetConstants/20851,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-30,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20856,geoTargetConstants/20856,addToCart_gtm,0.0,1.0
+2026-06-30,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,addToCart_gtm,0.0,2.0
+2026-06-30,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-30,23775369828,pmax1_test,geoTargetConstants/20858,geoTargetConstants/20858,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-30,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.0
+2026-06-30,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,form_submit_gtm,1.0,1.0
+2026-06-30,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,2.0
+2026-06-30,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) form_submit,0.0,1.0
+2026-06-30,23439487425,search / szklarnia/tunel (excl. poliweglan),geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,1.0
+2026-06-30,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,addToCart_gtm,0.0,2.996321
+2026-06-30,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,1.0,1.0
+2026-06-30,23775369828,pmax1_test,geoTargetConstants/20859,geoTargetConstants/20859,Клик по номеру,0.0,1.0
+2026-06-30,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20860,geoTargetConstants/20860,mocnaszklarnia.pl - GA4 (web) Ringostat_calls,0.992193,0.992193
+2026-06-30,23775369828,pmax1_test,geoTargetConstants/20860,geoTargetConstants/20860,addToCart_gtm,0.0,2.0
+2026-06-30,23775369828,pmax1_test,geoTargetConstants/20861,geoTargetConstants/20861,addToCart_gtm,0.0,1.0
+2026-06-30,23775369828,pmax1_test,geoTargetConstants/20862,geoTargetConstants/20862,addToCart_gtm,0.0,1.0
+2026-06-30,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,2.999308
+2026-06-30,19158580966,Search | Poliweglan | Pl,geoTargetConstants/9231592,geoTargetConstants/9231592,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-30,23775369828,pmax1_test,geoTargetConstants/9231592,geoTargetConstants/9231592,addToCart_gtm,0.0,2.0
+2026-06-23,19158580966,Search | Poliweglan | Pl,geoTargetConstants/21012,geoTargetConstants/21012,addToCart_gtm,0.0,1.0
+2026-06-23,19158580966,Search | Poliweglan | Pl,geoTargetConstants/21012,geoTargetConstants/21012,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
+2026-06-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20339,geoTargetConstants/20339,addToCart_gtm,0.0,2.0
+2026-06-19,19158580966,Search | Poliweglan | Pl,geoTargetConstants/20339,geoTargetConstants/20339,mocnaszklarnia.pl - GA4 (web) addToCart_session,0.0,1.0
