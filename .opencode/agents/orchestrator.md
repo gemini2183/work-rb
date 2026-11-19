@@ -22,7 +22,10 @@ permissions:
     resource: explore
     effect: allow
   - action: subagent
-    resource: general
+    resource: analyst
+    effect: allow
+  - action: subagent
+    resource: controller
     effect: allow
   - action: edit
     resource: "База_знаний/Проблемы/*"
