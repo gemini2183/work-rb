@@ -44,6 +44,15 @@ permissions:
     resource: "python -X utf8 gtm_read_container.py *"
     effect: allow
   - action: shell
+    resource: "python -X utf8 gads_campaign_settings.py *"
+    effect: allow
+  - action: shell
+    resource: "python -X utf8 gads_campaign_breakdown.py *"
+    effect: allow
+  - action: shell
+    resource: "python -X utf8 leads_standard.py *"
+    effect: allow
+  - action: shell
     resource: "*--execute*"
     effect: deny
   - action: shell
