@@ -20,31 +20,43 @@ permissions:
     resource: "Клиенты/*/Работы/*"
     effect: allow
   - action: shell
-    resource: "python -X utf8 state_digest.py *"
+    resource: "python *"
     effect: allow
   - action: shell
-    resource: "python -X utf8 window_check.py *"
-    effect: allow
-  - action: shell
-    resource: "python -X utf8 ea_sales_by_campaign.py *"
-    effect: allow
-  - action: shell
-    resource: "python -X utf8 ea_cost_per_sale.py *"
-    effect: allow
-  - action: shell
-    resource: "python -X utf8 gads_campaign_settings.py *"
-    effect: allow
-  - action: shell
-    resource: "python -X utf8 gads_campaign_breakdown.py *"
-    effect: allow
-  - action: shell
-    resource: "python -X utf8 leads_standard.py *"
+    resource: "PYTHONUTF8=1 python *"
     effect: allow
   - action: shell
     resource: "*--execute*"
     effect: deny
   - action: shell
     resource: "*>*"
+    effect: deny
+  - action: shell
+    resource: "python -c *"
+    effect: deny
+  - action: shell
+    resource: "python -m *"
+    effect: deny
+  - action: shell
+    resource: "*guard*"
+    effect: deny
+  - action: shell
+    resource: "*builder*"
+    effect: deny
+  - action: shell
+    resource: "*openai_ads*"
+    effect: deny
+  - action: shell
+    resource: "*set_*"
+    effect: deny
+  - action: shell
+    resource: "*create*"
+    effect: deny
+  - action: shell
+    resource: "*pause*"
+    effect: deny
+  - action: shell
+    resource: "*update*"
     effect: deny
 ---
 
@@ -54,7 +66,7 @@ permissions:
 
 Как работать:
 1. Тебе дают папку задачи `Клиенты/<Имя>/Работы/<дата>_<задача>/`. Прочитай `30_вердикт.md` и `20_данные.md`.
-2. Для КАЖДОЙ цифры вердикта найди источник, который указал аналитик, и сверь значение. Где можно, запусти тот же скрипт заново (`python -X utf8 <скрипт>.py <аргументы>`, рабочая папка `D:\GitHub\work-rb\Скрипты`, таймаут не меньше 300000 мс; только скрипты из разрешённого списка) и сравни с данными аналитика. Не пересчитывай то, что считает скрипт.
+2. Для КАЖДОЙ цифры вердикта найди источник, который указал аналитик, и сверь значение. Где можно, запусти тот же скрипт заново (`python <скрипт>.py <аргументы>`, рабочая папка `D:\GitHub\work-rb\Скрипты`, таймаут не меньше 300000 мс; только скрипты из разрешённого списка) и сравни с данными аналитика. Не пересчитывай то, что считает скрипт.
 3. Проверь, что у каждой цифры есть источник и дата, а утверждения вида «причина X» опираются на данные, а не на совпадение дат.
 4. Запиши результат в `40_проверка.md` той же папки: таблица `Цифра | В вердикте | В источнике | Совпало (да/нет/не проверено)`.
 5. Верни оркестратору до 12 строк: сколько цифр проверено, сколько совпало, список расхождений и непроверенного. В конце «Не проверено: …».
