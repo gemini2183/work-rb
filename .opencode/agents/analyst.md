@@ -1,7 +1,7 @@
----
+﻿---
 description: Аналитик - запускает скрипты чтения, анализирует кампанию по Алгоритму анализа, пишет данные и вердикт в папку задачи Работы/<дата>_<задача>/. Только чтение кабинетов, без записи.
 mode: subagent
-model: openrouter/deepseek/deepseek-v4-flash
+model: openrouter/openai/gpt-6-luna
 steps: 30
 permissions:
   - action: "*"

@@ -1,7 +1,7 @@
----
+﻿---
 description: Контролёр цифр - независимо перепроверяет каждую цифру вердикта аналитика по источникам и повторным запуском скриптов чтения. Ничего не меняет, кроме файла проверки в папке задачи.
 mode: subagent
-model: openrouter/deepseek/deepseek-v4-flash
+model: openrouter/openai/gpt-6-luna
 steps: 25
 permissions:
   - action: "*"
