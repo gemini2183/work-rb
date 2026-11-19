@@ -19,16 +19,10 @@ permissions:
     resource: "*"
     effect: allow
   - action: subagent
-    resource: runner
-    effect: allow
-  - action: subagent
     resource: explore
     effect: allow
   - action: subagent
     resource: general
-    effect: allow
-  - action: subagent
-    resource: free-worker
     effect: allow
   - action: edit
     resource: "База_знаний/Проблемы/*"
