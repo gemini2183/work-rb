@@ -26,3 +26,10 @@ time,campaign_id,name,what,was,now,who
 2026-11-18T09:46:38,24468399750,shop_pmax / garden_plants,стратегия ставок / цель,"MAXIMIZE_CONVERSIONS, tCPA 40",MAXIMIZE_CONVERSIONS,
 2026-11-18T09:48:46,24353873699,general / search / rozmiary / katalog,стратегия ставок / цель,TARGET_SPEND,MANUAL_CPC,
 2026-11-18T09:53:05,24397252446,shop_tail,стратегия ставок / цель,TARGET_SPEND,MANUAL_CPC,
+2026-11-19T10:42:59,24468399750,shop_pmax / garden_plants,бюджет,100.0,200.0,
+2026-11-19T10:42:59,24468399750,shop_pmax / garden_plants,стратегия ставок / цель,MAXIMIZE_CONVERSIONS,"MAXIMIZE_CONVERSIONS, tCPA 70",
+2026-11-19T10:45:08,24479597485,general_pmax / in-market,бюджет,120.0,200.0,
+2026-11-19T10:45:08,24479597485,general_pmax / in-market,стратегия ставок / цель,"MAXIMIZE_CONVERSIONS, tCPA 47.54","MAXIMIZE_CONVERSIONS, tCPA 70",
+2026-11-19T10:47:19,23337339547,general / search / poliweglan,стратегия ставок / цель,"MAXIMIZE_CONVERSIONS, tCPA 30",MANUAL_CPC,
+2026-11-19T12:38:55,24397252446,shop_tail,статус,ВКЛ,ПАУЗА,"infobox.anton@gmail.com через GOOGLE_ADS_WEB_CLIENT, 11:18"
+2026-11-19T12:38:58,23337339547,general / search / poliweglan,статус,ВКЛ,ПАУЗА,"infobox.anton@gmail.com через GOOGLE_ADS_WEB_CLIENT, 11:15"

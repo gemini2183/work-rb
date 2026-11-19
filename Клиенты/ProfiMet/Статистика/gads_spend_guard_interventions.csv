@@ -23,3 +23,11 @@ time,campaign_id,name,what,was,now,who
 2026-11-17T09:00:17,24468615055,yt_cold,статус,ПАУЗА,ВКЛ,"adwhitemcc@gmail.com через GOOGLE_ADS_API, 08:48"
 2026-11-18T10:27:53,24468615055,yt_cold,стратегия ставок / цель,MAXIMIZE_CONVERSIONS,"TARGET_CPA, tCPA 33",
 2026-11-18T10:32:28,24468615055,yt_cold,статус,ПАУЗА,ВКЛ,
+2026-11-19T09:09:01,23775369828,pmax1_test,бюджет,100.0,150.0,
+2026-11-19T09:11:20,23775369828,pmax1_test,расписание показов,5 интервалов,5 интервалов,
+2026-11-19T09:11:31,24468615055,yt_cold,бюджет,30.0,62.0,
+2026-11-19T09:43:04,24500414100,pmax1_competitors,новая кампания под защиту,,"цель 30, бюджет 150",
+2026-11-19T10:58:53,24500414100,pmax01_competitors,бюджет,150.0,50.0,"infobox.anton@gmail.com через GOOGLE_ADS_WEB_CLIENT, 10:05"
+2026-11-19T11:01:10,19158580966,Search | Poliweglan | Pl,стратегия ставок / цель,"MAXIMIZE_CONVERSIONS, tCPA 31.99",MANUAL_CPC,"infobox.anton@gmail.com через GOOGLE_ADS_WEB_CLIENT, 10:32"
+2026-11-19T12:16:51,19158580966,Search | Poliweglan | Pl,стратегия ставок / цель,MANUAL_CPC,"MAXIMIZE_CONVERSIONS, tCPA 32","infobox.anton@gmail.com через GOOGLE_ADS_WEB_CLIENT, 11:02"
+2026-11-19T12:39:48,19158580966,Search | Poliweglan | Pl,статус,ПАУЗА,ВКЛ,"infobox.anton@gmail.com через GOOGLE_ADS_WEB_CLIENT, 12:16"
