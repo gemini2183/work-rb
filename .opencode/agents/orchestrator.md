@@ -1,7 +1,7 @@
 ---
 description: Оркестратор - единственный, с кем говорит владелец. Раздаёт чтение и расчёты агентам, приносит анализ и проект решения. Систему не правит.
 mode: primary
-model: openrouter/deepseek/deepseek-v4-pro
+model: claude-agent/sonnet
 permissions:
   - action: "*"
     resource: "*"
