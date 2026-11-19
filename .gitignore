@@ -7,3 +7,13 @@ __pycache__/
 
 # Исходники видео ProfiMet YouTube (гигабайты, в git не нужны)
 Клиенты/ProfiMet_YouTube/видео_drive/
+
+# Шумные автогенерируемые файлы сторожей и логов (перестройка 2026-11-19)
+**/gads_spend_guard_*.csv
+**/gads_spend_guard_*.json
+# резервная копия перед правкой 18.11 оставлена в git осознанно
+!**/gads_spend_guard_state.before_*.json
+Скрипты/_guard_*.out
+Скрипты/_guard_wrapper_*.log
+Скрипты/_clarity_daily.log
+Скрипты/logs/
