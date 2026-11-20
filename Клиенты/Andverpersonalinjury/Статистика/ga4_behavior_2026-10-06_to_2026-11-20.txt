@@ -1,0 +1,143 @@
+GA4 549802233 | 2026-10-06 → 2026-11-20 | исключено: страны ['Spain', 'Ukraine', 'Albania', 'Armenia', 'Afghanistan', 'India', 'Jordan', 'Angola', 'Lithuania'], города —
+
+== 1. Состав сеансов по стране и городу (БЕЗ исключений) — тестовый трафик виден здесь
+страна | город | сеансы | вовлечённые
+Spain | Barcelona | 260 | 57
+Spain | Santa Coloma de Gramenet | 103 | 11
+United States | Los Angeles | 54 | 28
+(not set) | (not set) | 46 | 30
+ |  | 18 | 10
+United States | New York | 16 | 7
+Ukraine | Poltava | 15 | 13
+United States | (not set) | 10 | 2
+Afghanistan | Kabul | 9 | 2
+Armenia | Yerevan | 9 | 0
+Albania | Tirana | 7 | 0
+United States | Chicago | 6 | 0
+India | Delhi | 5 | 3
+Jordan | Amman | 5 | 3
+United States | San Jose | 5 | 1
+United States | San Francisco | 4 | 2
+United States | Stockton | 4 | 1
+United States | Victorville | 4 | 1
+United States | Inglewood | 3 | 2
+United States | Perris | 3 | 1
+United States | Rancho Cucamonga | 3 | 0
+United States | Visalia | 3 | 1
+Angola | Luanda | 2 | 1
+India | Hyderabad | 2 | 1
+Lithuania | (not set) | 2 | 1
+
+== 2. Источник/канал и устройство (после исключений)
+источник / канал | устройство | сеансы | вовлечённые | ср. время вовлечения, с
+google / cpc | desktop | 92 | 54 | 3796
+chatgpt.com / cpc | mobile | 63 | 8 | 166
+google / cpc | mobile | 59 | 27 | 475
+(direct) / (none) | desktop | 33 | 19 | 55
+(direct) / (none) | mobile | 28 | 9 | 97
+chatgpt.com / cpc | desktop | 7 | 3 | 127
+(data not available) | desktop | 5 | 4 | 63
+google / organic | desktop | 5 | 3 | 10
+(data not available) | mobile | 2 | 2 | 17
+google / cpc | tablet | 2 | 1 | 37
+(not set) | desktop | 1 | 0 | 255
+
+== 3. События (после исключений): число событий и сеансов с событием
+событие | событий | пользователей
+block_time | 655 | 112
+block_view | 596 | 170
+page_view | 333 | 276
+session_start | 292 | 276
+first_visit | 272 | 272
+scroll_depth | 227 | 78
+stay_10s | 64 | 50
+scroll | 55 | 51
+user_engagement | 36 | 29
+engaged_30s | 30 | 25
+quiz_step | 30 | 6
+click | 9 | 9
+quiz_start | 7 | 6
+lead_form_start | 5 | 4
+quiz_complete | 5 | 4
+engaged_90s | 4 | 4
+form_start | 4 | 3
+cta_click | 3 | 3
+faq_open | 3 | 1
+form_submit | 3 | 2
+form_popup_open | 2 | 2
+
+== 4. Блоки: показ блока (block_view) и секунды (block_time)
+блок | block_view событий | block_view пользователей
+hero | 101 | 85
+ai_hero | 60 | 52
+insurers | 35 | 27
+form_a | 33 | 27
+attorney | 28 | 26
+final | 28 | 25
+team | 28 | 27
+faq | 27 | 25
+fee | 24 | 24
+reviews | 24 | 23
+situations | 22 | 21
+footer | 20 | 18
+quiz | 20 | 16
+your_crash | 18 | 16
+how | 15 | 14
+crash_scenarios | 9 | 8
+abogado_de_accidentes_de_auto | 8 | 7
+cuntenos_qu_pas_le_llamamos | 8 | 7
+california_uber_and_lyft_accident | 7 | 7
+injuries | 7 | 6
+truck_cases | 7 | 7
+why | 6 | 3
+case_examples | 5 | 5
+evidence | 5 | 4
+california_bicycle_accident_lawyer_free | 4 | 4
+early_offer | 4 | 4
+prefer_we_call_you_leave | 4 | 4
+public_library | 4 | 3
+california_brain_injury_lawyer_free | 3 | 3
+form_b | 3 | 2
+
+== 4b. Секунды по блокам (block_time)
+блок | событий | секунд всего
+ai_hero | 87 | 364
+hero | 66 | 292
+header | 46 | 418
+insurers | 25 | 68
+reviews | 24 | 43
+faq | 22 | 84
+how | 22 | 38
+quiz | 21 | 111
+tell_us_what_happened_well | 21 | 187
+footer | 19 | 74
+team | 19 | 55
+your_crash | 19 | 119
+form_a | 18 | 55
+fee | 16 | 30
+final | 16 | 81
+attorney | 15 | 23
+situations | 14 | 31
+california_brain_injury_lawyer_free | 12 | 169
+california_motorcycle_accident_lawyer_free | 11 | 45
+crash_scenarios | 11 | 26
+truck_cases | 9 | 12
+abogado_de_accidentes_de_auto | 8 | 25
+case_examples | 8 | 27
+injuries | 8 | 21
+california_pedestrian__bicycle_accident | 7 | 15
+california_uber_and_lyft_accident | 7 | 28
+a_dedicated_team_behind_your | 6 | 74
+evidence | 6 | 18
+prefer_we_call_you_leave | 6 | 19
+public_library | 6 | 14
+
+== 5. Клики по телефону по местам
+место | кликов | пользователей
+(нет данных)
+
+== 5b. Вопросы FAQ, которые открывали
+вопрос | раз | пользователей
+How much does it cost to hire Landver Law? | 1 | 1
+How much is my car accident settlement worth? | 1 | 1
+What is the average car accident settlement in California? | 1 | 1

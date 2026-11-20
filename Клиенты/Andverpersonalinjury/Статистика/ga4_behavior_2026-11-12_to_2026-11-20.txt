@@ -1,0 +1,133 @@
+GA4 549802233 | 2026-11-12 → 2026-11-20 | исключено: страны ['Spain'], города —
+
+== 1. Состав сеансов по стране и городу (БЕЗ исключений) — тестовый трафик виден здесь
+страна | город | сеансы | вовлечённые
+(not set) | (not set) | 26 | 20
+ |  | 18 | 10
+Spain | Barcelona | 16 | 7
+United States | Los Angeles | 10 | 7
+Ukraine | Poltava | 4 | 3
+United States | New York | 4 | 0
+United States | Victorville | 4 | 1
+Armenia | Yerevan | 3 | 0
+United States | Chicago | 3 | 0
+United States | (not set) | 2 | 1
+United States | Beverly Hills | 2 | 2
+United States | Redwood Valley | 2 | 0
+Canada | Toronto | 1 | 0
+Egypt | Cairo | 1 | 1
+Spain | Santa Coloma de Gramenet | 1 | 1
+Türkiye | Istanbul | 1 | 1
+Ukraine | Mykolaiv | 1 | 1
+Ukraine | Odesa | 1 | 0
+United States | Arden-Arcade | 1 | 1
+United States | Bakersfield | 1 | 0
+United States | Coeur d'Alene | 1 | 1
+United States | Deming | 1 | 0
+United States | Fremont | 1 | 0
+United States | Ladysmith | 1 | 0
+United States | Lake Village | 1 | 1
+
+== 2. Источник/канал и устройство (после исключений)
+источник / канал | устройство | сеансы | вовлечённые | ср. время вовлечения, с
+google / cpc | desktop | 37 | 24 | 2110
+chatgpt.com / cpc | mobile | 15 | 2 | 14
+google / cpc | mobile | 15 | 6 | 23
+(direct) / (none) | desktop | 14 | 9 | 0
+(direct) / (none) | mobile | 12 | 6 | 31
+chatgpt.com / cpc | desktop | 2 | 1 | 14
+(not set) | desktop | 1 | 0 | 255
+google / cpc | tablet | 1 | 0 | 4
+
+== 3. События (после исключений): число событий и сеансов с событием
+событие | событий | пользователей
+block_time | 361 | 25
+block_view | 295 | 73
+page_view | 132 | 90
+scroll_depth | 124 | 45
+session_start | 95 | 90
+first_visit | 87 | 87
+stay_10s | 34 | 11
+scroll | 30 | 28
+form_start | 17 | 3
+engaged_30s | 16 | 8
+lead_form_start | 13 | 3
+quiz_step | 8 | 2
+click | 6 | 6
+form_submit | 6 | 3
+user_engagement | 6 | 2
+cta_click | 4 | 3
+engaged_90s | 3 | 3
+quiz_start | 2 | 2
+quiz_complete | 1 | 1
+
+== 4. Блоки: показ блока (block_view) и секунды (block_time)
+блок | block_view событий | block_view пользователей
+hero | 73 | 50
+insurers | 25 | 17
+form_a | 21 | 12
+team | 20 | 19
+final | 19 | 17
+attorney | 16 | 15
+fee | 16 | 16
+situations | 16 | 15
+faq | 14 | 13
+reviews | 13 | 12
+abogado_de_accidentes_de_auto | 11 | 10
+footer | 9 | 9
+cuntenos_qu_pas_le_llamamos | 8 | 7
+ai_hero | 7 | 7
+how | 6 | 6
+quiz | 4 | 4
+california_uber_and_lyft_accident | 3 | 3
+crash_scenarios | 3 | 3
+case_process | 2 | 2
+early_offer | 2 | 2
+california_bicycle_accident_lawyer_free | 1 | 1
+california_brain_injury_lawyer_free | 1 | 1
+lo_que_dicen_los_clientes | 1 | 1
+por_qu_la_primera_consulta | 1 | 1
+qu_sucede_cuando_llama_a | 1 | 1
+questions_about_uber_and_lyft | 1 | 1
+what_people_say_after_working | 1 | 1
+
+== 4b. Секунды по блокам (block_time)
+блок | событий | секунд всего
+tell_us_what_happened_well | 76 | 540
+hero | 33 | 147
+california_motorcycle_accident_lawyer_free | 26 | 93
+california_pedestrian__bicycle_accident | 25 | 52
+were_you_hurt_in_the | 18 | 100
+quiz | 16 | 106
+insurers | 12 | 31
+team | 12 | 23
+abogado_de_accidentes_de_auto | 11 | 33
+fee | 11 | 21
+situations | 11 | 14
+form_a | 10 | 26
+attorney | 9 | 13
+how | 9 | 14
+reviews | 8 | 13
+faq | 6 | 6
+questions_about_motorcycle_accidents_and | 6 | 9
+footer | 5 | 15
+get_your_free_motorcycle_accident | 5 | 15
+your_california_motorcycle_accident_attorney | 5 | 7
+final | 4 | 10
+what_insurance_companies_often_tell | 4 | 14
+a_dedicated_team_behind_your | 3 | 19
+after_a_motorcycle_crash_what | 3 | 14
+california_pedestrian_accident_lawyer_free | 3 | 13
+common_motorcycle_accident_situations_landver | 3 | 10
+qu_sucede_cuando_llama_a | 3 | 6
+why_is_the_first_review | 3 | 12
+california_uber_and_lyft_accident | 2 | 8
+crash_scenarios | 2 | 9
+
+== 5. Клики по телефону по местам
+место | кликов | пользователей
+(нет данных)
+
+== 5b. Вопросы FAQ, которые открывали
+вопрос | раз | пользователей
+(нет данных)

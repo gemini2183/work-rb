@@ -1,0 +1,140 @@
+GA4 549802233 | 2026-11-01 → 2026-11-20 | исключено: страны ['Spain', 'Ukraine', 'Albania', 'Armenia', 'Afghanistan', 'India', 'Jordan', 'Angola', 'Lithuania'], города —
+
+== 1. Состав сеансов по стране и городу (БЕЗ исключений) — тестовый трафик виден здесь
+страна | город | сеансы | вовлечённые
+Spain | Santa Coloma de Gramenet | 103 | 11
+(not set) | (not set) | 38 | 30
+United States | Los Angeles | 27 | 12
+Spain | Barcelona | 19 | 9
+ |  | 18 | 10
+Armenia | Yerevan | 7 | 0
+Ukraine | Poltava | 7 | 6
+Afghanistan | Kabul | 5 | 1
+India | Delhi | 5 | 3
+Albania | Tirana | 4 | 0
+United States | (not set) | 4 | 1
+United States | New York | 4 | 0
+United States | San Jose | 4 | 1
+United States | Victorville | 4 | 1
+United States | Chicago | 3 | 0
+Ukraine | Drohobych | 2 | 2
+United States | Beverly Hills | 2 | 2
+United States | Colusa | 2 | 0
+United States | Redwood Valley | 2 | 0
+United States | Rialto | 2 | 1
+United States | San Francisco | 2 | 0
+Belgium | (not set) | 1 | 0
+Canada | Toronto | 1 | 0
+Egypt | Cairo | 1 | 1
+India | Hyderabad | 1 | 1
+
+== 2. Источник/канал и устройство (после исключений)
+источник / канал | устройство | сеансы | вовлечённые | ср. время вовлечения, с
+google / cpc | desktop | 52 | 33 | 3230
+chatgpt.com / cpc | mobile | 39 | 4 | 98
+(direct) / (none) | desktop | 25 | 16 | 1
+google / cpc | mobile | 21 | 9 | 43
+(direct) / (none) | mobile | 15 | 7 | 25
+chatgpt.com / cpc | desktop | 3 | 1 | 14
+(data not available) | desktop | 1 | 1 | 16
+(not set) | desktop | 1 | 0 | 255
+google / cpc | tablet | 1 | 0 | 4
+
+== 3. События (после исключений): число событий и сеансов с событием
+событие | событий | пользователей
+block_view | 382 | 112
+block_time | 366 | 54
+scroll_depth | 178 | 65
+page_view | 164 | 150
+session_start | 155 | 150
+first_visit | 144 | 144
+scroll | 40 | 39
+stay_10s | 26 | 23
+engaged_30s | 13 | 13
+click | 9 | 9
+quiz_step | 8 | 2
+engaged_90s | 4 | 4
+form_start | 4 | 3
+lead_form_start | 4 | 3
+cta_click | 3 | 3
+faq_open | 3 | 1
+form_submit | 3 | 2
+quiz_start | 2 | 2
+quiz_complete | 1 | 1
+user_engagement | 1 | 1
+
+== 4. Блоки: показ блока (block_view) и секунды (block_time)
+блок | block_view событий | block_view пользователей
+hero | 76 | 70
+insurers | 27 | 23
+team | 26 | 25
+attorney | 23 | 22
+final | 23 | 22
+fee | 22 | 22
+situations | 21 | 20
+faq | 20 | 19
+form_a | 19 | 17
+reviews | 19 | 18
+ai_hero | 16 | 16
+footer | 12 | 12
+abogado_de_accidentes_de_auto | 8 | 7
+cuntenos_qu_pas_le_llamamos | 8 | 7
+how | 8 | 8
+quiz | 6 | 6
+california_uber_and_lyft_accident | 5 | 5
+california_bicycle_accident_lawyer_free | 4 | 4
+california_brain_injury_lawyer_free | 3 | 3
+crash_scenarios | 3 | 3
+early_offer | 3 | 3
+what_people_say_after_working | 3 | 3
+case_process | 2 | 2
+injuries | 2 | 2
+lo_que_dicen_los_clientes | 2 | 2
+prefer_we_call_you_leave | 2 | 2
+your_crash | 2 | 2
+a_dedicated_team_behind_your | 1 | 1
+acuerdos_y_veredictos_recientes | 1 | 1
+after_a_bicycle_crash_what | 1 | 1
+
+== 4b. Секунды по блокам (block_time)
+блок | событий | секунд всего
+hero | 50 | 222
+tell_us_what_happened_well | 21 | 187
+quiz | 18 | 108
+insurers | 17 | 48
+team | 16 | 38
+form_a | 15 | 50
+reviews | 15 | 23
+fee | 14 | 26
+ai_hero | 13 | 44
+how | 13 | 21
+situations | 13 | 16
+california_brain_injury_lawyer_free | 12 | 169
+attorney | 11 | 18
+california_motorcycle_accident_lawyer_free | 11 | 45
+faq | 10 | 22
+abogado_de_accidentes_de_auto | 8 | 25
+california_pedestrian__bicycle_accident | 7 | 15
+a_dedicated_team_behind_your | 6 | 74
+footer | 6 | 18
+were_you_hurt_in_the | 6 | 17
+california_uber_and_lyft_accident | 5 | 14
+final | 5 | 11
+questions_about_motorcycle_accidents_and | 5 | 8
+what_insurance_companies_often_tell | 5 | 38
+why_is_the_first_review | 5 | 14
+get_your_free_motorcycle_accident | 4 | 14
+prefer_we_call_you_leave | 4 | 16
+what_happens_when_you_call | 4 | 12
+your_california_motorcycle_accident_attorney | 4 | 6
+after_a_head_injury_what | 3 | 8
+
+== 5. Клики по телефону по местам
+место | кликов | пользователей
+(нет данных)
+
+== 5b. Вопросы FAQ, которые открывали
+вопрос | раз | пользователей
+How much does it cost to hire Landver Law? | 1 | 1
+How much is my car accident settlement worth? | 1 | 1
+What is the average car accident settlement in California? | 1 | 1
