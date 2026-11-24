@@ -1,0 +1,71 @@
+# План для gads_dg_image_builder.py (Demand Gen dg_montaz_warm_lal, ProfiMet, аккаунт 7552781705).
+# Источник значений: 30_план.md (раздел (а)), решения пользователя 24.11. Запись только с --execute (не запускалась).
+campaign_name: dg_montaz_warm_lal
+client_folder: ProfiMet
+budget_per_day: 30
+bidding:
+  strategy: TARGET_CPA
+  target_cpa: 33
+  target_cpa_at_create: true   # проверить validate_only; если Google отклонит - поставить false (второй шаг, П-038)
+geo_ids: [20847, 20852, 20853, 20859]   # Dolnośląskie, Małopolskie, Mazowieckie, Śląskie
+geo_mode: PRESENCE
+languages: [1030]
+schedule:
+  - {days: [MON, TUE, WED, THU, FRI], start: "9:00", end: "17:00"}
+final_url: https://mocnaszklarnia.pl/montaz-szklarni
+utm_campaign: dg_montaz_warm_lal
+business_name: ProfiMet
+logo_asset_id: 286986548910
+images:
+  landscape: [../картинки/dgm_MAXI_1_landscape_1200x628.jpg, ../картинки/dgm_NORDSTAR_1_landscape_1200x628.jpg, ../картинки/dgm_MINI_2_landscape_1200x628.jpg]
+  square: [../картинки/dgm_MAXI_1_square_1200x1200.jpg, ../картинки/dgm_NORDSTAR_1_square_1200x1200.jpg, ../картинки/dgm_MINI_2_square_1200x1200.jpg, ../картинки/dgm_HOBBY_3_square_1200x1200.jpg]
+  portrait: [../картинки/dgm_MAXI_1_portrait_960x1200.jpg, ../картинки/dgm_NORDSTAR_1_portrait_960x1200.jpg, ../картинки/dgm_MINI_2_portrait_960x1200.jpg, ../картинки/dgm_HOBBY_3_portrait_960x1200.jpg]
+# Существующие картинки аккаунта для проверки без загрузки (те же, что в gads_demand_gen_builder.py)
+placeholder_assets:
+  landscape: [297786040282, 322937504523]
+  square: [322886122180, 322937504517, 322937874606, 322937937225]
+  portrait: [322886732212, 322886750212, 322937426502]
+  logo: 286986548910
+groups:
+  - name: warm_montaz
+    status: PAUSED
+    channels: {discover: true, gmail: true, display: true, youtube_in_stream: false, youtube_in_feed: false, youtube_shorts: false, maps: true}
+    optimized_targeting: false
+    include: {user_lists: [8699804100, 8575354546, 8576048211]}        # 60sec (30), engage_mid, engage_hi
+    exclude: {user_lists: [9441800617, 8365697315, 8366436798]}        # CRM-покупатели, GA4-лиды 540 дн., Лиды (60)
+    cta: Get quote
+    headlines:
+      - Wybrana? Zamów montaż
+      - Wróć do szklarni z montażem
+      - Montaż szklarni pod klucz
+      - Sprawdź cenę montażu
+      - Szklarnia złożona za Ciebie
+    descriptions:
+      - "Wybrana szklarnia czeka? Zamów montaż: skręcimy ją i zamontujemy poliwęglan."
+      - Montaż możesz zamówić także do szklarni kupionej wcześniej. Zapytaj o szczegóły.
+      - Złożymy konstrukcję, wypoziomujemy ją i zakotwimy w gruncie. Ty zajmij się uprawą.
+      - Zamontujemy poliwęglan i wyregulujemy drzwi oraz okna. Szklarnia pod klucz.
+      - Wybierz model i długość szklarni, a kalkulator pokaże cenę montażu.
+  - name: lal_crm
+    status: PAUSED
+    channels: {discover: true, gmail: true, display: true, youtube_in_stream: false, youtube_in_feed: false, youtube_shorts: false, maps: true}
+    optimized_targeting: false
+    include: {user_lists: [9484178885, 9475488813]}                     # look-alike 2,5 % и 5 % от CRM
+    exclude: {user_lists: [9441800617, 8365697315, 8366436798]}
+    cta: Learn more
+    headlines:
+      - Szklarnia z montażem
+      - Bez skręcania szklarni samemu
+      - Mniej pracy, więcej czasu
+      - Szklarnia gotowa pod klucz
+      - Cena montażu w kalkulatorze
+    descriptions:
+      - "Szklarnia, którą skręcimy za Ciebie: od konstrukcji po regulację drzwi i okien."
+      - Złożymy konstrukcję, wypoziomujemy ją i zakotwimy w gruncie. Ty zajmij się uprawą.
+      - "Bez skręcania i poziomowania: zmontujemy szklarnię za Ciebie. Zobacz ofertę."
+      - Zamontujemy poliwęglan i wyregulujemy drzwi oraz okna. Szklarnia pod klucz.
+      - Wybierz model i długość szklarni, a kalkulator pokaże cenę montażu.
+goals:
+  on: [PHONE_CALL_LEAD:WEBSITE, PHONE_CALL_LEAD:CALL_FROM_ADS, SUBMIT_LEAD_FORM:WEBSITE]
+  off: [OUTBOUND_CLICK:WEBSITE, PURCHASE:WEBSITE, DOWNLOAD:APP, DEFAULT:WEBSITE]
+snapshot_dir: D:\GitHub\work-rb\Клиенты\ProfiMet\Статистика

@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Макет /dzen v1 — Мокрый Нос франшиза (черновик, не боевая страница)</title>
+<style>
+  :root{--p:#b01c8f;--pd:#8c1673;--bg:#faf6fa;--ink:#1c1c1c;--mut:#666;--ok:#2e7d32}
+  *{box-sizing:border-box}
+  body{margin:0;font:16px/1.45 system-ui,Segoe UI,Arial,sans-serif;color:var(--ink);background:#e9e3ea}
+  .wrap{max-width:440px;margin:0 auto;background:#fff;min-height:100vh;box-shadow:0 0 30px #0002}
+  .note{background:#fff3cd;border-left:4px solid #e0a800;padding:8px 12px;font-size:12px;color:#5c4400;margin:0}
+  .todo{background:#fff3cd;padding:0 3px;border-radius:3px;font-size:.85em}
+  header{display:flex;justify-content:space-between;align-items:center;padding:12px 16px}
+  .logo{font-weight:900;color:var(--p);font-size:20px;line-height:1}
+  header small{color:var(--p);font-weight:600;font-size:12px;text-align:right}
+  section{padding:22px 16px}
+  h1{font-size:24px;line-height:1.2;margin:0 0 10px}
+  h1 b{color:var(--p)}
+  h2{font-size:20px;margin:0 0 12px}
+  .lead{color:var(--mut);margin:0 0 14px}
+  .hero{background:linear-gradient(180deg,#fff,var(--bg));padding-bottom:26px}
+  .facts{display:flex;gap:8px;margin:14px 0}
+  .facts div{flex:1;background:#fff;border:1px solid #eadbe7;border-radius:10px;padding:8px;text-align:center;font-size:12px;color:var(--mut)}
+  .facts strong{display:block;font-size:17px;color:var(--p)}
+  form{background:#fff;border:2px solid var(--p);border-radius:14px;padding:14px}
+  form h3{margin:0 0 4px;font-size:17px}
+  form p{margin:0 0 10px;font-size:13px;color:var(--mut)}
+  input[type=text],input[type=tel]{width:100%;padding:12px;border:1px solid #cfc3cd;border-radius:8px;font-size:16px;margin-bottom:8px}
+  .msg{display:flex;gap:6px;margin-bottom:8px;flex-wrap:wrap}
+  .msg label{flex:1;min-width:80px;border:1px solid #cfc3cd;border-radius:8px;padding:8px;text-align:center;font-size:13px}
+  button,.btn{display:block;width:100%;background:var(--p);color:#fff;border:0;border-radius:10px;padding:14px;font-size:17px;font-weight:700;text-align:center;text-decoration:none;cursor:pointer}
+  button:hover{background:var(--pd)}
+  .tiny{font-size:11px;color:var(--mut);margin-top:8px}
+  .tiny label{display:block;margin-bottom:4px}
+  .grid{display:grid;gap:10px}
+  .card{border:1px solid #eadbe7;border-radius:12px;padding:12px;background:#fff}
+  .card strong{color:var(--p)}
+  .num{display:flex;justify-content:space-between;border-bottom:1px solid #f0e4ee;padding:8px 0}
+  .num span:last-child{font-weight:700}
+  .rev{display:flex;gap:10px;align-items:center}
+  .ph{width:64px;height:64px;border-radius:50%;background:#e6d2e2;flex:none;display:grid;place-items:center;font-size:11px;color:var(--pd);text-align:center}
+  details{border:1px solid #eadbe7;border-radius:10px;padding:10px 12px;margin-bottom:8px}
+  summary{font-weight:600;cursor:pointer}
+  details p{margin:8px 0 0;color:var(--mut);font-size:14px}
+  .steps{list-style:none;padding:0;margin:0}
+  .steps li{padding:6px 0 6px 14px;border-left:3px solid var(--p);margin-left:6px;font-size:14px}
+  .bg{background:var(--bg)}
+  .sticky{position:sticky;bottom:0;padding:10px 16px;background:#fff;border-top:1px solid #eadbe7;box-shadow:0 -4px 12px #0001}
+</style>
+</head>
+<body>
+<div class="wrap">
+<p class="note"><b>Макет v1, черновик.</b> Жёлтым выделено то, что нужно подтвердить у клиента: цифры не выдуманы, взяты со страницы /dzen и главной (24.11.2026) и расходятся между собой. Это схема блоков и их порядка, не готовая вёрстка.</p>
+
+<header>
+  <div class="logo">МОКРЫЙ<br>НОС</div>
+  <small>Франшиза сети<br>зоомагазинов</small>
+</header>
+
+<!-- 1. ПЕРВЫЙ ЭКРАН: продолжение статьи + форма сразу -->
+<section class="hero">
+  <h1>Вы прочитали историю. Теперь посмотрите, как <b>посчитать зоомагазин в вашем городе</b></h1>
+  <p class="lead">Бизнес-план с тремя форматами магазина: вложения, выручка, срок выхода в плюс.</p>
+  <div class="facts">
+    <div><strong><span class="todo">114 или 213</span></strong>магазинов открыто</div>
+    <div><strong><span class="todo">45</span> дней</strong>до открытия</div>
+    <div><strong><span class="todo">от 250 000 ₽</span></strong>доход в месяц</div>
+  </div>
+  <form onsubmit="return false">
+    <h3>Получите бизнес-план для вашего города</h3>
+    <p>Бесплатно. Займёт 30 секунд.</p>
+    <input type="text" placeholder="Ваше имя">
+    <input type="text" placeholder="Город, например: Новосибирск">
+    <input type="tel" placeholder="Телефон">
+    <div class="msg">
+      <label><input type="radio" name="m" checked> Telegram</label>
+      <label><input type="radio" name="m"> WhatsApp</label>
+      <label><input type="radio" name="m"> Звонок</label>
+    </div>
+    <button>Получить бизнес-план</button>
+    <div class="tiny">
+      <label><input type="checkbox" checked> Согласен с политикой обработки персональных данных</label>
+      <label><input type="checkbox"> Согласен получать информацию от ООО «Нос Ритейл» <span class="todo">(по закону отдельно, не обязательно)</span></label>
+    </div>
+  </form>
+</section>
+
+<!-- 2. ЧТО В БИЗНЕС-ПЛАНЕ -->
+<section>
+  <h2>Что вы получите</h2>
+  <div class="grid">
+    <div class="card"><strong>3 формата магазина.</strong> От небольшого уголка до магазина с широким ассортиментом.</div>
+    <div class="card"><strong>Расчёт под ваш город.</strong> Сколько вложить, когда выйти в плюс, сколько можно зарабатывать.</div>
+    <div class="card"><strong>План запуска по дням.</strong> Что делаем с первого дня до открытия.</div>
+  </div>
+  <p class="tiny"><span class="todo">Как получает: файлом в мессенджер или после звонка менеджера? Сейчас в заголовке «Скачайте», в форме «отправим в мессенджер». Выбрать одно.</span></p>
+</section>
+
+<!-- 3. ЦИФРЫ, которые снимают главный вопрос -->
+<section class="bg">
+  <h2>Цифры действующих магазинов</h2>
+  <div class="card">
+    <div class="num"><span>Средняя выручка магазина в месяц</span><span><span class="todo">1 360 800 ₽</span></span></div>
+    <div class="num"><span>Средний чек</span><span><span class="todo">809 ₽</span></span></div>
+    <div class="num"><span>Рентабельность</span><span><span class="todo">42% или 45%?</span></span></div>
+    <div class="num"><span>Вложения в формат «Стандарт» 30 м²</span><span><span class="todo">из блока «Инвестиции»</span></span></div>
+    <div class="num"><span>Срок окупаемости</span><span><span class="todo">нет на страницах</span></span></div>
+  </div>
+  <p class="tiny">Источник цифр и период укажите под таблицей, например «данные сети за 2025 год».</p>
+  <a class="btn" href="#form2" style="margin-top:10px">Получить расчёт для моего города</a>
+</section>
+
+<!-- 4. ОТЗЫВЫ -->
+<section>
+  <h2>Партнёры, которые уже открылись</h2>
+  <div class="grid">
+    <div class="card rev"><div class="ph">фото / видео</div><div><strong>Елена, Ангарск</strong><br>«Месяц с открытия магазина…» Рекорд рентабельности 48%.<br><small>▶ видео-отзыв</small></div></div>
+    <div class="card rev"><div class="ph">фото / видео</div><div><strong>Виктория, Новосибирск</strong><br>4 магазина в управлении. Рекордная выручка за день 122 000 ₽.<br><small>▶ видео-отзыв</small></div></div>
+    <div class="card rev"><div class="ph">фото / видео</div><div><strong>София, Тарко-Сале</strong><br>Первый магазин на Севере.<br><small>▶ видео-отзыв</small></div></div>
+  </div>
+  <p class="tiny"><span class="todo">Имена и города проверить по видео: в выгрузке карточки с двумя партнёрами перепутаны.</span></p>
+</section>
+
+<!-- 5. ВОЗРАЖЕНИЯ -->
+<section class="bg">
+  <h2>Частые вопросы</h2>
+  <details><summary>Сколько нужно вложить?</summary><p><span class="todo">Ответ из блока «Инвестиции»: паушальный взнос и стоимость по форматам.</span></p></details>
+  <details><summary>Через сколько окупится?</summary><p><span class="todo">Нет цифры ни на /dzen, ни на главной. Нужна от клиента.</span></p></details>
+  <details><summary>Нужен ли опыт в торговле?</summary><p><span class="todo">Ответ клиента. В статье героиня пришла из государственной службы.</span></p></details>
+  <details><summary>Что если не получится?</summary><p><span class="todo">На главной обещан выкуп с возвратом до 70% вложений. Условия уточнить, на /dzen без них не выносить.</span></p></details>
+  <details><summary>Что делаете вы, а что я?</summary><p>Помогаем пройти запуск за <span class="todo">45</span> дней: поставщики, оборудование, ремонт, найм и обучение, выкладка, открытие.</p></details>
+</section>
+
+<!-- 6. СЖАТЫЙ ПЛАН ЗАПУСКА -->
+<section>
+  <h2>Запуск за <span class="todo">45</span> дней</h2>
+  <ul class="steps">
+    <li><b>1–7:</b> команда открытия, анализ конкурентов, договоры с поставщиками</li>
+    <li><b>8–22:</b> оборудование, ремонт, найм и обучение</li>
+    <li><b>23–39:</b> закупка товара, выкладка, вывеска</li>
+    <li><b>40–45:</b> открытие</li>
+  </ul>
+</section>
+
+<!-- 7. ФИНАЛЬНАЯ ФОРМА -->
+<section class="bg" id="form2">
+  <h2>Посчитаем для вашего города</h2>
+  <form onsubmit="return false">
+    <input type="text" placeholder="Ваше имя">
+    <input type="text" placeholder="Город">
+    <input type="tel" placeholder="Телефон">
+    <button>Получить бизнес-план</button>
+    <div class="tiny">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности.</div>
+  </form>
+  <p class="tiny" style="margin-top:14px">ООО «НОС РИТЕЙЛ», ИНН 5401982307. Отдел развития франчайзинговой сети.</p>
+</section>
+
+<div class="sticky"><a class="btn" href="#form2">Получить бизнес-план</a></div>
+</div>
+</body>
+</html>

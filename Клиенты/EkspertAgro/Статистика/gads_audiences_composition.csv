@@ -1,38 +1,4 @@
 Audience_id,Audience_name,Status,Kind,Ref_id,Name_or_detail,Excluded
-333030479,AssetGroupPersona_6644424768_2025-12-11T11:51:21.240061Z,ENABLED,user_interest,80237,Home & Garden [IN_MARKET],False
-333030479,AssetGroupPersona_6644424768_2025-12-11T11:51:21.240061Z,ENABLED,user_interest,80253,Garden & Outdoor Furniture [IN_MARKET],False
-333030479,AssetGroupPersona_6644424768_2025-12-11T11:51:21.240061Z,ENABLED,user_interest,80483,Home & Garden Services [IN_MARKET],False
-333030479,AssetGroupPersona_6644424768_2025-12-11T11:51:21.240061Z,ENABLED,user_interest,80494,Landscape Design [IN_MARKET],False
-333030479,AssetGroupPersona_6644424768_2025-12-11T11:51:21.240061Z,ENABLED,user_interest,80501,Outdoor Items [IN_MARKET],False
-333030479,AssetGroupPersona_6644424768_2025-12-11T11:51:21.240061Z,ENABLED,user_interest,80896,Lawn Care & Gardening Supplies [IN_MARKET],False
-339053706,AssetGroupPersona_281481652541816_2026-02-17T11:16:02.279485Z,ENABLED,age,,age_ranges { min_age: 45 } include_undetermined: true,False
-339053706,AssetGroupPersona_281481652541816_2026-02-17T11:16:02.279485Z,ENABLED,user_interest,80896,Lawn Care & Gardening Supplies [IN_MARKET],False
-339969586,AssetGroupPersona_6675840448_2026-02-17T11:30:32.285008Z,ENABLED,age,,age_ranges { min_age: 45 } include_undetermined: true,False
-339969589,AssetGroupPersona_6675840460_2026-02-17T11:30:32.285008Z,ENABLED,custom_audience,949333839,"Конкуренты [AUTO; members=15: URL:wesoly-rolnik.online, URL:focusgarden.pl, URL:ekoszklarnia.pl, URL:mocnaszklarnia.pl, URL:www.szklarnie-online.pl, URL:nowaszklarnia.pl, URL:szklarnie24.pl, URL:ekotunele.pl, URL:e-szklarnia.pl, URL:www.agroszklarnia.pl, URL:poliszklarnia.pl, URL:dobraszklarnia.pl, URL:wm-szklarnia.pl, URL:www.moja-szklarnia-ogrodowa.pl, URL:szklarnie-online.pl]",False
-339969592,AssetGroupPersona_6675724163_2026-02-17T11:30:32.285008Z,ENABLED,age,,age_ranges { min_age: 45 } include_undetermined: true,False
-339969592,AssetGroupPersona_6675724163_2026-02-17T11:30:32.285008Z,ENABLED,user_interest,80896,Lawn Care & Gardening Supplies [IN_MARKET],False
-340687117,AssetGroupPersona_6679863478_2026-02-25T07:48:18.129723Z,ENABLED,user_interest,80237,Home & Garden [IN_MARKET],False
-340687117,AssetGroupPersona_6679863478_2026-02-25T07:48:18.129723Z,ENABLED,user_interest,80253,Garden & Outdoor Furniture [IN_MARKET],False
-340687117,AssetGroupPersona_6679863478_2026-02-25T07:48:18.129723Z,ENABLED,user_interest,80483,Home & Garden Services [IN_MARKET],False
-340687117,AssetGroupPersona_6679863478_2026-02-25T07:48:18.129723Z,ENABLED,user_interest,80494,Landscape Design [IN_MARKET],False
-340687117,AssetGroupPersona_6679863478_2026-02-25T07:48:18.129723Z,ENABLED,user_interest,80501,Outdoor Items [IN_MARKET],False
-340687117,AssetGroupPersona_6679863478_2026-02-25T07:48:18.129723Z,ENABLED,user_interest,80896,Lawn Care & Gardening Supplies [IN_MARKET],False
-340687120,AssetGroupPersona_6679863376_2026-02-25T07:48:18.129723Z,ENABLED,custom_audience,949333839,"Конкуренты [AUTO; members=15: URL:wesoly-rolnik.online, URL:focusgarden.pl, URL:ekoszklarnia.pl, URL:mocnaszklarnia.pl, URL:www.szklarnie-online.pl, URL:nowaszklarnia.pl, URL:szklarnie24.pl, URL:ekotunele.pl, URL:e-szklarnia.pl, URL:www.agroszklarnia.pl, URL:poliszklarnia.pl, URL:dobraszklarnia.pl, URL:wm-szklarnia.pl, URL:www.moja-szklarnia-ogrodowa.pl, URL:szklarnie-online.pl]",False
-340695736,AssetGroupPersona_6679857159_2026-02-25T09:18:49.849024Z,ENABLED,user_interest,80237,Home & Garden [IN_MARKET],False
-340695736,AssetGroupPersona_6679857159_2026-02-25T09:18:49.849024Z,ENABLED,user_interest,80253,Garden & Outdoor Furniture [IN_MARKET],False
-340695736,AssetGroupPersona_6679857159_2026-02-25T09:18:49.849024Z,ENABLED,user_interest,80483,Home & Garden Services [IN_MARKET],False
-340695736,AssetGroupPersona_6679857159_2026-02-25T09:18:49.849024Z,ENABLED,user_interest,80494,Landscape Design [IN_MARKET],False
-340695736,AssetGroupPersona_6679857159_2026-02-25T09:18:49.849024Z,ENABLED,user_interest,80501,Outdoor Items [IN_MARKET],False
-340695736,AssetGroupPersona_6679857159_2026-02-25T09:18:49.849024Z,ENABLED,user_interest,80896,Lawn Care & Gardening Supplies [IN_MARKET],False
-340695739,AssetGroupPersona_6679857219_2026-02-25T09:18:49.849024Z,ENABLED,custom_audience,949333839,"Конкуренты [AUTO; members=15: URL:wesoly-rolnik.online, URL:focusgarden.pl, URL:ekoszklarnia.pl, URL:mocnaszklarnia.pl, URL:www.szklarnie-online.pl, URL:nowaszklarnia.pl, URL:szklarnie24.pl, URL:ekotunele.pl, URL:e-szklarnia.pl, URL:www.agroszklarnia.pl, URL:poliszklarnia.pl, URL:dobraszklarnia.pl, URL:wm-szklarnia.pl, URL:www.moja-szklarnia-ogrodowa.pl, URL:szklarnie-online.pl]",False
-360516473,AssetGroupPersona_6753252828_2026-09-29T08:17:07.788131Z,ENABLED,custom_audience,1020619941,Garden Plants [PURCHASE_INTENT; members=0: ],False
-362371630,ExpertAgro сигнал 20261014: CRM-покупатели + in-market,ENABLED,user_list,9475706784,"Profimet ekspertagro.pl — уже купившие клиенты [CRM_BASED; display=12000, search=12000]",False
-362371630,ExpertAgro сигнал 20261014: CRM-покупатели + in-market,ENABLED,user_interest,80501,Outdoor Items [IN_MARKET],False
-362371630,ExpertAgro сигнал 20261014: CRM-покупатели + in-market,ENABLED,user_interest,80896,Lawn Care & Gardening Supplies [IN_MARKET],False
-364835571,AssetGroupPersona_6774334868_2026-11-17T08:37:48.410542Z,ENABLED,user_interest,80237,Home & Garden [IN_MARKET],False
-364835571,AssetGroupPersona_6774334868_2026-11-17T08:37:48.410542Z,ENABLED,user_interest,80253,Garden & Outdoor Furniture [IN_MARKET],False
-364835571,AssetGroupPersona_6774334868_2026-11-17T08:37:48.410542Z,ENABLED,user_interest,80483,Home & Garden Services [IN_MARKET],False
-364835571,AssetGroupPersona_6774334868_2026-11-17T08:37:48.410542Z,ENABLED,user_interest,80494,Landscape Design [IN_MARKET],False
-364835571,AssetGroupPersona_6774334868_2026-11-17T08:37:48.410542Z,ENABLED,user_interest,80501,Outdoor Items [IN_MARKET],False
-364835571,AssetGroupPersona_6774334868_2026-11-17T08:37:48.410542Z,ENABLED,user_interest,80896,Lawn Care & Gardening Supplies [IN_MARKET],False
-364837701,AssetGroupPersona_6774341939_2026-11-17T08:57:17.583367Z,ENABLED,custom_audience,1020619941,Garden Plants [PURCHASE_INTENT; members=0: ],False
+366434863,general_demand_gen / inmarket аудитория 20261124_102325,ENABLED,user_interest,80501,Outdoor Items [IN_MARKET],False
+366434863,general_demand_gen / inmarket аудитория 20261124_102325,ENABLED,user_interest,80896,Lawn Care & Gardening Supplies [IN_MARKET],False
+366434863,general_demand_gen / inmarket аудитория 20261124_102325,ENABLED,EXCLUSION,,"user_list { user_list: ""customers/8826134558/userLists/9475706784"" }",True

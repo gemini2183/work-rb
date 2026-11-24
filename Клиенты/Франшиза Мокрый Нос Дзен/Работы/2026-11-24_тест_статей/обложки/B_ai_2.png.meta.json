@@ -1,0 +1,10 @@
+{
+  "ai_generated": true,
+  "backend": "openai",
+  "model": "gpt-image-2",
+  "prompt": "Realistic documentary photo of a man about 38 years old, owner of a small pet store, standing in an aisle in front of a shelf with pet food bags in a bright modern shop. Calm confident smile, looking at the camera, plain casual shirt and a plain apron without any print. Natural window light, shallow depth of field. Strictly no readable brands, no logos, no signs, no text, no prices, no labels with letters anywhere in the image; pet food bags are plain neutral colors with blank packaging. No other people. Arms relaxed at his sides or one hand holding a plain unlabeled pet food bag, correct anatomy. Square composition, subject in the central area.",
+  "client": "Франшиза Мокрый Нос Дзен",
+  "purpose": "обложка статьи B (ПромоСтраницы), ИИ, да пользователя 24.11",
+  "size": "1024x1024",
+  "created": "2026-11-24T14:42:12"
+}

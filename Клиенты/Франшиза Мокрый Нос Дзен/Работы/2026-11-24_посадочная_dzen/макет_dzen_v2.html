@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Макет /dzen v2 — Мокрый Нос франшиза (черновик)</title>
+<style>
+  :root{--p:#b5199a;--pd:#8f1179;--pl:#f6e8f3;--ink:#1d1a1d;--mut:#6b616a;--g:#6cc04a}
+  *{box-sizing:border-box;margin:0}
+  html{scroll-behavior:smooth}
+  body{font:17px/1.4 "Segoe UI",system-ui,Arial,sans-serif;color:var(--ink);background:#fff}
+  .todo{background:#ffe27a;color:#4a3800;padding:0 4px;border-radius:3px;font-size:.8em;font-weight:600;white-space:nowrap}
+  .in{max-width:1080px;margin:0 auto;padding:0 18px}
+
+  /* ШАПКА */
+  .top{background:#fff;padding:12px 0}
+  .top .in{display:flex;align-items:center;justify-content:space-between;gap:12px}
+  .top img{height:46px;display:block}
+  .top a.tel{color:var(--p);font-weight:700;text-decoration:none;font-size:15px}
+
+  /* ПЕРВЫЙ ЭКРАН */
+  .hero{background:var(--p);color:#fff;position:relative;overflow:hidden;padding:26px 0 34px}
+  .hero .in{display:grid;grid-template-columns:1fr;gap:22px}
+  .tag{display:inline-block;background:#ffffff26;border-radius:20px;padding:5px 12px;font-size:13px;font-weight:600;margin-bottom:12px}
+  h1{font-size:31px;line-height:1.12;font-weight:800;letter-spacing:-.3px}
+  h1 em{font-style:normal;background:#fff;color:var(--p);padding:0 8px;border-radius:8px;white-space:nowrap}
+  .sub{margin:14px 0 18px;font-size:18px;line-height:1.35;opacity:.95}
+  .chk{list-style:none;padding:0;display:grid;gap:9px;font-size:16px}
+  .chk li{display:flex;gap:10px;align-items:flex-start}
+  .chk li:before{content:"✓";flex:none;width:22px;height:22px;border-radius:50%;background:var(--g);color:#fff;font-weight:900;font-size:14px;display:grid;place-items:center;margin-top:1px}
+
+  .card{background:#fff;color:var(--ink);border-radius:18px;padding:20px 18px;box-shadow:0 14px 40px #0004}
+  .card h3{font-size:21px;line-height:1.2;margin-bottom:4px}
+  .card .s{font-size:14px;color:var(--mut);margin-bottom:14px}
+  .f{width:100%;padding:15px 14px;border:1.5px solid #d9cfd7;border-radius:11px;font-size:17px;margin-bottom:10px;background:#fff;font-family:inherit}
+  .f:focus{outline:0;border-color:var(--p)}
+  .lbl{font-size:13px;color:var(--mut);margin:2px 0 6px}
+  .chips{display:flex;gap:6px;margin-bottom:12px}
+  .chips label{flex:1}
+  .chips input{display:none}
+  .chips span{display:block;text-align:center;padding:10px 4px;border:1.5px solid #d9cfd7;border-radius:10px;font-size:14px;font-weight:600;cursor:pointer}
+  .chips input:checked+span{border-color:var(--p);background:var(--pl);color:var(--pd)}
+  .btn{display:block;width:100%;border:0;border-radius:12px;background:var(--g);color:#fff;font-size:19px;font-weight:800;padding:17px 10px;cursor:pointer;text-align:center;text-decoration:none;box-shadow:0 6px 0 #4c9a2d;transition:.1s;font-family:inherit}
+  .btn:active{transform:translateY(3px);box-shadow:0 3px 0 #4c9a2d}
+  .ok{font-size:12px;color:var(--mut);margin-top:12px;line-height:1.35}
+  .ok label{display:flex;gap:7px;margin-bottom:5px;align-items:flex-start}
+  .ok input{margin-top:2px;accent-color:var(--p)}
+  .secure{display:flex;gap:6px;align-items:center;justify-content:center;font-size:13px;color:var(--mut);margin-top:10px}
+
+  /* ЦИФРЫ */
+  .nums{background:var(--pl);padding:22px 0}
+  .nums .in{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center}
+  .nums b{display:block;font-size:26px;color:var(--p);font-weight:900;line-height:1.1}
+  .nums div>span{font-size:13px;color:var(--mut);line-height:1.25;display:block;margin-top:3px}
+  .nums b .todo{font-size:inherit;display:inline}
+  @media(max-width:859px){.hero .chk{display:none}.sub{margin-bottom:0}}
+
+  section.s{padding:34px 0}
+  h2{font-size:26px;line-height:1.15;font-weight:800;margin-bottom:18px;letter-spacing:-.2px}
+
+  /* ЧТО ВНУТРИ */
+  .inside{display:grid;gap:12px}
+  .it{display:flex;gap:14px;align-items:flex-start;background:#fff;border:1.5px solid #eadbe7;border-radius:14px;padding:14px}
+  .ic{flex:none;width:44px;height:44px;border-radius:12px;background:var(--p);color:#fff;display:grid;place-items:center;font-size:22px}
+  .it b{display:block;font-size:17px;margin-bottom:2px}
+  .it span{font-size:15px;color:var(--mut)}
+
+  /* ЧТО ДАЛЬШЕ */
+  .dark{background:#2a1226;color:#fff}
+  .dark h2{color:#fff}
+  .st{display:grid;gap:14px;counter-reset:s}
+  .st div{position:relative;padding-left:52px;font-size:16px}
+  .st div:before{counter-increment:s;content:counter(s);position:absolute;left:0;top:-2px;width:38px;height:38px;border-radius:50%;background:var(--g);color:#fff;font-weight:900;font-size:19px;display:grid;place-items:center}
+  .st b{display:block;font-size:17px}
+  .st span{opacity:.8;font-size:14px}
+
+  /* ОТЗЫВЫ */
+  .rv{display:grid;gap:12px}
+  .r{display:flex;gap:14px;align-items:center;border:1.5px solid #eadbe7;border-radius:14px;padding:12px}
+  .play{flex:none;width:76px;height:76px;border-radius:14px;background:linear-gradient(135deg,var(--p),var(--pd));display:grid;place-items:center;color:#fff;font-size:26px;position:relative}
+  .play small{position:absolute;bottom:3px;font-size:9px;opacity:.85}
+  .r b{display:block;font-size:16px}
+  .r span{font-size:14px;color:var(--mut);line-height:1.3;display:block}
+  .r .big{font-size:18px;font-weight:800;color:var(--p)}
+
+  /* ФИНАЛ */
+  .fin{background:var(--p);color:#fff;padding:34px 0 120px}
+  .fin .in{display:grid;gap:20px}
+  .fin h2{color:#fff}
+  .fin p.l{font-size:17px;opacity:.95;margin-top:-8px}
+  footer{background:#1d1a1d;color:#a99fa8;font-size:11px;padding:16px 0 90px;line-height:1.4}
+
+  /* ЛИПКАЯ КНОПКА */
+  .stick{position:fixed;left:0;right:0;bottom:0;z-index:9;padding:10px 14px;background:#fff;box-shadow:0 -6px 18px #0003;transform:translateY(110%);transition:.25s}
+  .stick.on{transform:none}
+
+  .note{position:sticky;top:0;z-index:20;background:#fff3cd;border-bottom:2px solid #e0a800;padding:7px 12px;font-size:12px;color:#5c4400}
+
+  @media(min-width:860px){
+    body{font-size:18px}
+    .hero{padding:44px 0 56px}
+    .hero .in{grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+    h1{font-size:46px}
+    .sub{font-size:21px}
+    .chk{font-size:18px}
+    .card{padding:26px}
+    .nums b{font-size:38px}.nums div>span{font-size:15px}
+    .inside{grid-template-columns:repeat(3,1fr)}
+    .it{flex-direction:column}
+    .st{grid-template-columns:repeat(3,1fr);gap:28px}
+    .rv{grid-template-columns:repeat(3,1fr)}
+    .r{flex-direction:column;text-align:center}
+    .play{width:100%;height:110px}
+    .fin .in{grid-template-columns:1fr 1fr;align-items:center;gap:48px}
+    h2{font-size:34px}
+    .stick{display:none}
+  }
+</style>
+</head>
+<body>
+<div class="note"><b>Макет v2.</b> Жёлтым — цифры, которые клиент должен подтвердить (на страницах они расходятся). Тексты и порядок блоков — финальные для Тильды, вёрстка — ориентир. Смотреть и на телефоне, и на десктопе.</div>
+
+<div class="top"><div class="in">
+  <img src="https://static.tildacdn.com/tild3334-3239-4130-a632-616664396465/logo_Mokryinos_purpu.svg" alt="Мокрый Нос">
+  <a class="tel" href="#f1">Франшиза зоомагазинов</a>
+</div></div>
+
+<!-- 1. ПЕРВЫЙ ЭКРАН: оффер + форма сразу -->
+<section class="hero"><div class="in">
+  <div>
+    <span class="tag">Вы прочитали историю — теперь цифры</span>
+    <h1>Бизнес-план зоомагазина <em>для вашего города</em></h1>
+    <p class="sub">Сколько вложить, когда выйти в плюс и сколько зарабатывать — посчитаем под ваш город и пришлём в мессенджер.</p>
+    <ul class="chk">
+      <li>3 формата магазина — от небольшого до большого</li>
+      <li>Доход от 250 000 ₽ в месяц <span class="todo">подтвердить</span></li>
+      <li>Запуск под ключ за 45 дней</li>
+    </ul>
+  </div>
+
+  <form class="card" id="f1" onsubmit="return false">
+    <h3>Получите бизнес-план бесплатно</h3>
+    <div class="s">Без обязательств. Займёт 30 секунд.</div>
+    <input class="f" type="text" placeholder="Ваше имя">
+    <input class="f" type="text" placeholder="Ваш город">
+    <input class="f" type="tel" placeholder="Телефон">
+    <div class="lbl">Куда прислать бизнес-план</div>
+    <div class="chips">
+      <label><input type="radio" name="m" checked><span>Telegram</span></label>
+      <label><input type="radio" name="m"><span>WhatsApp</span></label>
+      <label><input type="radio" name="m"><span>Звонок</span></label>
+    </div>
+    <button class="btn">Получить бизнес-план →</button>
+    <div class="secure">🔒 Данные не передаём третьим лицам</div>
+    <div class="ok">
+      <label><input type="checkbox" checked> Согласен с политикой обработки персональных данных</label>
+      <label><input type="checkbox"> Согласен получать рассылку от ООО «Нос Ритейл»</label>
+    </div>
+  </form>
+</div></section>
+
+<!-- 2. ДОВЕРИЕ: три цифры -->
+<div class="nums"><div class="in">
+  <div><b><span class="todo">114</span></b><span>магазинов уже открыли по франшизе</span></div>
+  <div><b>13 лет</b><span>сеть работает с 2012 года</span></div>
+  <div><b><span class="todo">213</span></b><span>точек в сети по России</span></div>
+</div></div>
+
+<!-- 3. ЧТО ВНУТРИ -->
+<section class="s"><div class="in">
+  <h2>Что будет в вашем бизнес-плане</h2>
+  <div class="inside">
+    <div class="it"><div class="ic">₽</div><div><b>Вложения и окупаемость</b><span>Сколько нужно вложить и через сколько месяцев выйдете в плюс <span class="todo">срок — у клиента</span></span></div></div>
+    <div class="it"><div class="ic">📍</div><div><b>Расчёт под ваш город</b><span>Выручка и прибыль с учётом вашего города, а не средние по России</span></div></div>
+    <div class="it"><div class="ic">🏪</div><div><b>Три формата магазина</b><span>От небольшого уголка до магазина с широким ассортиментом</span></div></div>
+  </div>
+</div></section>
+
+<!-- 4. ЧТО ДАЛЬШЕ: снимает страх «заполню — и что будет» -->
+<section class="s dark"><div class="in">
+  <h2>Что будет после заявки</h2>
+  <div class="st">
+    <div><b>Вы оставляете заявку</b><span>Имя, город, телефон — это всё</span></div>
+    <div><b>Мы считаем под ваш город</b><span>Менеджер подбирает формат и готовит расчёт <span class="todo">срок — у клиента</span></span></div>
+    <div><b>Бизнес-план у вас в мессенджере</b><span>Дальше решаете сами — без давления</span></div>
+  </div>
+</div></section>
+
+<!-- 5. ОТЗЫВЫ: коротко, с цифрами -->
+<section class="s"><div class="in">
+  <h2>Те, кто уже открылся</h2>
+  <div class="rv">
+    <div class="r"><div class="play">▶<small>видео</small></div><div><b>Виктория, Новосибирск</b><span class="big">4 магазина</span><span>Рекордная выручка за день — 122 000 ₽</span></div></div>
+    <div class="r"><div class="play">▶<small>видео</small></div><div><b>Елена, Ангарск</b><span class="big">48%</span><span>Рекорд по рентабельности валовой прибыли</span></div></div>
+    <div class="r"><div class="play">▶<small>видео</small></div><div><b>София, Тарко-Сале</b><span class="big">Первый на Севере</span><span>Магазин открыт в 2024 году <span class="todo">проверить</span></span></div></div>
+  </div>
+  <p style="font-size:12px;margin-top:10px"><span class="todo">Имена, города, цифры сверить по видео: в выгрузке карточки двух партнёров перепутаны</span></p>
+</div></section>
+
+<!-- 6. ФИНАЛЬНАЯ ФОРМА -->
+<section class="fin" id="f2"><div class="in">
+  <div>
+    <h2>Получите расчёт для вашего города</h2>
+    <p class="l">Бесплатно, без обязательств. Бизнес-план придёт в мессенджер.</p>
+  </div>
+  <form class="card" onsubmit="return false">
+    <input class="f" type="text" placeholder="Ваше имя">
+    <input class="f" type="text" placeholder="Ваш город">
+    <input class="f" type="tel" placeholder="Телефон">
+    <button class="btn">Получить бизнес-план →</button>
+    <div class="ok" style="text-align:center">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности</div>
+  </form>
+</div></section>
+
+<footer><div class="in">© Мокрый нос. Отдел развития франчайзинговой сети. ООО «НОС РИТЕЙЛ», ИНН 5401982307, КПП 540101001. Юридический адрес: 107140, г. Москва, ул. Краснопрудная, д. 15, помещ. 3А/2.</div></footer>
+
+<div class="stick" id="stick"><a class="btn" href="#f1">Получить бизнес-план →</a></div>
+<script>
+  // липкая кнопка: показываем, когда первая форма ушла с экрана, прячем у финальной
+  const a=document.getElementById('f1'),b=document.getElementById('f2'),s=document.getElementById('stick');
+  let va=true,vb=false;
+  const up=()=>s.classList.toggle('on',!va&&!vb);
+  new IntersectionObserver(e=>{va=e[0].isIntersecting;up()}).observe(a);
+  new IntersectionObserver(e=>{vb=e[0].isIntersecting;up()}).observe(b);
+</script>
+</body>
+</html>

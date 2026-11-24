@@ -43,3 +43,5 @@ Audience_id,Name,Status,Description
 361776052,dg_lookalike_test look-alike без CRM-покупателей 20261008_162645,ENABLED,Look-alike от CRM-покупателей; исключены сами CRM-покупатели
 363921062,yt_warm тёплые списки без покупателей и лидов 20261103_184620,ENABLED,60sec (30) + engage_mid + engage_hi + корзина 60 дн.; исключены CRM-покупатели и GA4-лиды (540 дн.)
 364509195,"yt_cold look-alike 2.5% CRM без покупателей, лидов и тёплых 20261113_135941",ENABLED,"look-alike 2,5% от CRM-покупателей; исключены CRM-покупатели, GA4-лиды (540 дн.), 60sec (30), engage_mid, engage_hi, корзина 60 дн."
+365542680,dg_montaz_warm_lal lal_crm 20261124_114727,ENABLED,dg_montaz_warm_lal / lal_crm: включения и исключения из плана
+366122981,dg_montaz_warm_lal warm_montaz 20261124_114727,ENABLED,dg_montaz_warm_lal / warm_montaz: включения и исключения из плана

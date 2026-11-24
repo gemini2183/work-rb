@@ -13,6 +13,7 @@
     python ringostat_channel_matrix.py --url https://mocnaszklarnia.pl/ \\
         --campaigns dspl_rtg_basket dspl_rtg_engage_mid dspl_other pmax1_test xdspl_rtg_basket \\
         --pool-file "../Клиенты/ProfiMet/Коллтрекинг/Пул_номеров.yaml" --repeats 2
+    # utm_term (одно или несколько значений, матрица utm_campaign x utm_term): --term competitors  или  --term "" competitors
     # другие UTM: --source facebook --medium cpc ; без utm_campaign: добавить пустую строку "" в --campaigns
 """
 import argparse
@@ -50,6 +51,8 @@ def main():
     ap.add_argument("--source", default="google")
     ap.add_argument("--medium", default="cpc")
     ap.add_argument("--content", default=None, help="значение utm_content (для каналов с фильтром по utm_content, напр. yt_16x9)")
+    ap.add_argument("--term", nargs="+", default=None,
+                    help='значения utm_term (одно или несколько; "" — без utm_term). Без аргумента utm_term не передаётся')
     ap.add_argument("--campaigns", nargs="+", required=True, help='значения utm_campaign; "" — без utm_campaign')
     ap.add_argument("--pool-file", help="Пул_номеров.yaml клиента (для подписи пула)")
     ap.add_argument("--repeats", type=int, default=2)
@@ -59,12 +62,14 @@ def main():
     pools = load_pools(args.pool_file)
     with sync_playwright() as p:
         browser = p.chromium.launch()
-        for camp in args.campaigns:
+        for camp, term in [(c, t) for c in args.campaigns for t in (args.term if args.term else [None])]:
             q = {"utm_source": args.source, "utm_medium": args.medium}
             if camp:
                 q["utm_campaign"] = camp
             if args.content:
                 q["utm_content"] = args.content
+            if term:
+                q["utm_term"] = term
             url = args.url + ("&" if "?" in args.url else "?") + urlencode(q)
             seen = []
             all_hrefs = []
@@ -81,7 +86,8 @@ def main():
                 all_hrefs.append(nums)  # все различные href tel: на странице (2026-11-12: подмена должна затронуть все ссылки)
                 ctx.close()
             labels = sorted({pools.get(digits(n), "вне пулов yaml (номер сайта или другой статический)") for n in seen if n})
-            print(f"{camp or '(без utm_campaign)':34} {seen}  -> {'; '.join(labels)}")
+            label = (camp or '(без utm_campaign)') + (f" | term={term or '(пусто)'}" if term is not None else "")
+            print(f"{label:34} {seen}  -> {'; '.join(labels)}")
             multi = [h for h in all_hrefs if len({digits(x) for x in h}) > 1]
             print(f"{'':34} все href tel: по заходам: {all_hrefs}" + ("  ! в одном заходе РАЗНЫЕ номера — подмена затронула не все ссылки" if multi else ""))
         browser.close()

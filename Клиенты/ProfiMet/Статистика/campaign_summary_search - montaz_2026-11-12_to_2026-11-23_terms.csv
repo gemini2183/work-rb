@@ -1,0 +1,17 @@
+﻿term,impr,clicks,cost,conv,match,keywords
+szklarnia z poliwęglanu 3x6 z montażem,21,7,6.56,2.0,EXACT,szklarnia z poliwęglanu 3x6 z montażem
+szklarnia z poliwęglanu z montażem,20,6,4.78,1.0,EXACT,szklarnia z poliwęglanu z montażem
+szklarnia z poliwęglanu 3x4 montaż,10,3,3.0,0.0,NEAR_PHRASE,szklarnia z poliwęglanu 3x4 z montażem; szklarnia z poliwęglanu z montażem
+szklarnia z poliwęglanu 3x6 montaż,11,3,2.25,0.0,NEAR_PHRASE,szklarnia z montazem; szklarnia z poliwęglanu 3x6m z montażem; szklarnia z poliwęglanu z montażem
+szklarnia z montażem,4,2,2.17,0.0,EXACT,szklarnia z montażem
+szklarnia ogrodowa z montażem,6,2,1.06,0.0,EXACT,szklarnia ogrodowa z montażem
+szklarnia poliwęglanowa z montażem,2,1,1.0,0.0,EXACT,szklarnia poliwęglanowa z montażem
+szklarnie z poliwęglanu z montażem,4,1,0.97,0.0,EXACT,szklarnie z poliwęglanu z montażem
+tunel ogrodowy z poliwęglanu,19,1,0.96,0.0,NEAR_EXACT,tunel z poliwęglanu z montażem
+szklarnie z montażem,2,1,0.74,0.0,EXACT,szklarnie z montażem
+szklarnia z montazem,4,1,0.64,0.0,EXACT,szklarnia z montazem
+montaż szklarni z poliwęglanu na fundamencie,10,0,0.0,0.0,NEAR_PHRASE,szklarnia z poliwęglanu z montażem
+szklarnia z poliwęglanu 3x4 z montażem,4,0,0.0,0.0,EXACT,szklarnia z poliwęglanu 3x4 z montażem
+szklarnia z poliwęglanu montaż,2,0,0.0,0.0,NEAR_PHRASE,szklarnia z poliwęglanu z montażem
+szklarnie poliwęglanowe z montażem,2,0,0.0,0.0,NEAR_PHRASE,szklarnia z poliwęglanu z montażem
+ile kosztuje montaż szklarni z poliwęglanu,1,0,0.0,0.0,NEAR_PHRASE,szklarnia z poliwęglanu z montażem

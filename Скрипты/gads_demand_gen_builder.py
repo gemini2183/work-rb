@@ -260,7 +260,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--customer-id", required=True)
     ap.add_argument("--lookalike-list-id", type=int, help="id look-alike списка для группы (для проверки можно взять существующий)")
-    ap.add_argument("--create-lookalike", action="store_true", help="создать (или проверить создание) look-alike 2.5% от CRM")
+    ap.add_argument("--create-lookalike", action="store_true", help="создать (или проверить создание) look-alike 2.5%% от CRM")
     ap.add_argument("--execute", action="store_true", help="Реально создать объекты. Без флага — только validate_only")
     args = ap.parse_args()
 

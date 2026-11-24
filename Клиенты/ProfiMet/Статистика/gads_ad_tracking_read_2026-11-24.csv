@@ -1,0 +1,15 @@
+﻿campaign,ad_group,ad,level,field,value_repr,utm
+[аккаунт],,,customer,tracking_url_template,'',
+[аккаунт],,,customer,final_url_suffix,'',
+24536034396 dg_montaz_warm_lal [PAUSED],,,campaign,tracking_url_template,'{lpurl}?utm_source=google&utm_medium=cpc&utm_campaign=dg_montaz_warm_lal&utm_content=rb_cid_{campaignid}_{ifsearch:search}{ifcontent:context}|gid_{adgroupid}|aid_{creative}|pos_{adposition}|dev_{device}|plc_{placement}|region_id_{loc_physical_ms}|targetid_{targetid}|gclid_{gclid}&utm_term={keyword}',"{'utm_source': 'google', 'utm_medium': 'cpc', 'utm_campaign': 'dg_montaz_warm_lal', 'utm_content': 'rb_cid_{campaignid}_{ifsearch:search}{ifcontent:context}|gid_{adgroupid}|aid_{creative}|pos_{adposition}|dev_{device}|plc_{placement}|region_id_{loc_physical_ms}|targetid_{targetid}|gclid_{gclid}', 'utm_term': '{keyword}'}"
+24536034396 dg_montaz_warm_lal [PAUSED],,,campaign,final_url_suffix,'',
+24536034396 dg_montaz_warm_lal [PAUSED],201842447906 warm_montaz [PAUSED],,ad_group,tracking_url_template,'',
+24536034396 dg_montaz_warm_lal [PAUSED],201842447906 warm_montaz [PAUSED],,ad_group,final_url_suffix,'',
+24536034396 dg_montaz_warm_lal [PAUSED],201842450146 lal_crm [PAUSED],,ad_group,tracking_url_template,'',
+24536034396 dg_montaz_warm_lal [PAUSED],201842450146 lal_crm [PAUSED],,ad_group,final_url_suffix,'',
+24536034396 dg_montaz_warm_lal [PAUSED],201842450146 lal_crm,832484101389 'dg_montaz_warm_lal lal_crm multi asset' [ENABLED],ad,tracking_url_template,'',
+24536034396 dg_montaz_warm_lal [PAUSED],201842450146 lal_crm,832484101389 'dg_montaz_warm_lal lal_crm multi asset' [ENABLED],ad,final_url_suffix,'',
+24536034396 dg_montaz_warm_lal [PAUSED],201842450146 lal_crm,832484101389 'dg_montaz_warm_lal lal_crm multi asset' [ENABLED],ad,final_urls,['https://mocnaszklarnia.pl/montaz-szklarni'],
+24536034396 dg_montaz_warm_lal [PAUSED],201842447906 warm_montaz,832621308371 'dg_montaz_warm_lal warm_montaz multi asset' [ENABLED],ad,tracking_url_template,'',
+24536034396 dg_montaz_warm_lal [PAUSED],201842447906 warm_montaz,832621308371 'dg_montaz_warm_lal warm_montaz multi asset' [ENABLED],ad,final_url_suffix,'',
+24536034396 dg_montaz_warm_lal [PAUSED],201842447906 warm_montaz,832621308371 'dg_montaz_warm_lal warm_montaz multi asset' [ENABLED],ad,final_urls,['https://mocnaszklarnia.pl/montaz-szklarni'],

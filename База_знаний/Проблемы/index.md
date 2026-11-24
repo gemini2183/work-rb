@@ -2,7 +2,7 @@
 name: problems-index
 description: Реестр проблем и сбоев: симптом → причина → решение; открытые копятся и решаются агентом «Проблем-солвер»
 status: живой документ
-updated: 2026-11-23
+updated: 2026-11-24
 ---
 
 # Проблемы: реестр сбоев и решений
@@ -19,6 +19,16 @@ updated: 2026-11-23
 ## Реестр
 | № | Статус | Система | Проблема |
 |---|---|---|---|
+| [[П-053_нет-общего-сборщика-demand-gen-зашит-под-образец|П-053]] | открыта | Скрипты / Google Ads | Нет общего сборщика Demand Gen: `gads_demand_gen_builder.py` зашит под `dg_lookalike_test` (одна группа, Польша, карусель, ENABLED); validate_only для `dg_montaz_warm_lal` упал на занятом имени и каскаде «Resource was not found»; обход - `gads_dg_image_builder.py` (один боевой прогон, проверка повтором не сделана); найдено 24.11 |
+| [[П-052_нет-оценки-размера-аудитории-по-гео-reach-planner-токен|П-052]] | открыта | Google Ads API / Скрипты | Нет скрипта оценки размера аудитории в границах гео; Reach Planner отказал по токену (24.11, текст ошибки не сохранён); `gads_audience_insights.py` для Польши блокируется (см. П-044); обход - интерфейс Audience manager; причина токена не установлена; найдено 24.11 |
+| [[П-051_demand-gen-канал-maps-нет-в-api-v23|П-051]] | обходится | Google Ads API | В `DemandGenSelectedChannels` google-ads v23 нет канала Maps (есть только YouTube-каналы, discover, gmail, display); обход - включить Maps вручную в интерфейсе; найдено 24.11 |
+| [[П-050_gads-demand-gen-builder-help-падает-на-проценте|П-050]] | открыта | Скрипты | `gads_demand_gen_builder.py --help` падает: `ValueError: unsupported format character` (строка помощи с «2.5%»); на запуск без --help не влияет; обход - не вызывать --help; найдено 24.11 |
+| [[П-049_search-montaz-клик-по-номеру-при-выключенной-цели|П-049]] | открыта | Google Ads / конверсии | У `search / montaz` (16.11) в конверсиях учтён «Клик по номеру» при выключенной цели OUTBOUND_CLICK на уровне кампании; причина не установлена; обход - исключать «клик по номеру» из заявок при оценке; найдено 24.11 |
+| [[П-048_размеры-аудиторий-user-engagement-и-lookalike-без-объяснения|П-048]] | открыта | Google Ads / аудитории | Размеры аудиторий меняются между выгрузками без объяснения: `user_engagement (30 дн.)` 1 900 → 180; look-alike 2,5 % 540 000 → 2 100 000; обход - размер брать из интерфейса Audience manager с пометкой источника; найдено 24.11 |
+| [[П-047_state-digest-yt-в-расходе-и-заявках|П-047]] | открыта | Скрипты | `state_digest.py` раздел [4] считает `yt_*` в расходе и заявках ProfiMet (2 627 € / 151 против 2 117 € / 120 в `sales_pace.py`); обход - для темпа и цены заявки брать `sales_pace.py`; связано с П-029; найдено 24.11 |
+| [[П-046_gads-campaign-summary-валюта-доллар-при-eur|П-046]] | открыта | Скрипты / Google Ads | `gads_campaign_summary.py` печатает «$» для аккаунта в EUR (ProfiMet 7552781705); риск перепутать валюту в отчётах; обход - сверять валюту по аккаунту; найдено 24.11 |
+| [[П-045_gads-customer-type-labels-нет-read-only-чтения|П-045]] | открыта | Скрипты / Google Ads | Нет read-only чтения меток «Customer Type» на списках; единственный способ прочитать - пишущий `gads_remove_customer_type_labels.py --ids 0` (до мутации не доходит, но это обход); нужен скрипт чтения; найдено 24.11 |
+| [[П-044_audience-insights-api-polsha-blocked|П-044]] | обходится | Google Ads API / Скрипты | `gads_audience_insights.py` (GenerateAudienceCompositionInsights) для Польши отказывает: `Request validation error: Location [2616] is not supported for insights`, BLOCKED_VALUE, INVALID_ARGUMENT, request_id yag2gxR-JZNXbhF_ohwPHw, 24.11 ~10:07, клиент 8826134558, список 9475706784; не установлено: принимает ли API CRM-список и какие страны поддерживаются; обход: Audience Manager > Audience insights в интерфейсе (работает, проверено пользователем 24.11, скрины); найдено 24.11 |
 | [[П-043_yelp-boosted-слова-не-связаны-с-категорией|П-043]] | открыта | Yelp Ads | После смены категории Gold Buyers → Jewelry 5 из 6 Boosted-слов серые «no longer related to your business categories»; при добавлении «Jewelry Buyers» и «Sell Jewelry» Yelp отказывает («must be related to your business»); обход (вернуть Gold Buyers) не принят; найдено 23.11 |
 | [[П-042_gads-remove-asset-group-texts-headline-not-enough|П-042]] | открыта | Скрипты / Google Ads | `gads_remove_asset_group_texts.py` без --execute (как чтение) на группе 6774334868 кампании 24479597485 вернул «Headline asset ... not enough» (около 11:45, 23.11); причина не установлена (вероятно минимум ассетов группы - не проверено); обход - добавлять тексты до отвязки (порядок A -> B -> C); найдено 23.11 |
 | [[П-041_gads-campaign-settings-пустые-csv-без-enabled|П-041]] | обходится | Скрипты / Google Ads | `gads_campaign_settings.py` при отсутствии ENABLED-кампаний по фильтру перезаписал CSV core, geo, schedule в `Статистика` клиента EkspertAgro пустыми; восстановлено `git checkout` 23.11; причина не установлена; обход — не запускать на PAUSED-кампаниях, для Demand Gen на паузе `gads_campaign_settings_xlsx.py`; найдено 23.11 |

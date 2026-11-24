@@ -1,0 +1,55 @@
+# Конфиг для Скрипты/gads_dg_yt_builder.py: EkspertAgro, ВТОРАЯ Demand Gen (YouTube), аудитория in-market. Создан 2026-11-24. Образец: Работы/2026-11-23_холодный_тест_DG_YT/dg_yt_config.yaml (не менять).
+# Запуск (из папки Скрипты):
+#   python gads_dg_yt_builder.py --customer-id 8826134558 --config <этот файл>            # validate_only
+#   python gads_dg_yt_builder.py --customer-id 8826134558 --config <этот файл> --execute  # запись, кампания на ПАУЗЕ (только по «да»)
+# ПРОБЕЛ: id категории in-market «Tools (Home Improvement)» не найден ни в скриптах, ни в данных клиента; в include.user_interests только 2 из 3 категорий.
+
+campaign_name: "general_demand_gen / inmarket"   # формат действующей «general_demand_gen / search_themes» (допущение: вариант имени)
+utm_campaign: general_demand_gen_inmarket        # решение пользователя 24.11
+ad_group_name: inmarket_g1                       # по образцу search_themes_g1
+budget_per_day: 160                              # решение пользователя 24.11 (как у действующей)
+final_url: https://ekspertagro.pl/
+business_name: "Ekspert Agro"
+
+geo: [2616]                                      # Польша, как у действующей
+languages: [1030, 1000]                          # pl + en, как у действующей
+schedule:
+  - {days: [MON, TUE, WED, THU, FRI], start: "9:00", end: "17:00"}
+
+include:
+  user_lists: []                                 # look-alike не используем (размер 0 на 24.11)
+  custom_audiences: []
+  user_interests:
+    - 80896                                      # Lawn Care & Gardening Supplies (in-market)
+    - 80501                                      # Outdoor Items (in-market)
+    # ПРОБЕЛ: Tools (Home Improvement) - id не найден, не угадывать; добавить строкой после уточнения id
+
+exclude:
+  user_lists:
+    - 9475706784                                 # CRM-покупатели; в действующей группе стоит только он (чтение 24.11). 9269330900 и 9475732717 из образца-конфига в действующей не найдены
+
+audience_description: "EA general_demand_gen / inmarket: in-market (Lawn Care & Gardening Supplies, Outdoor Items, Tools), исключены CRM-покупатели"
+
+videos:
+  - {asset_id: 442369466909, label: vid_16x9, ad_name: inmarket ad A 16x9}   # YouTube xb13kyfPwTM
+  - {asset_id: 442474862569, label: vid_9x16, ad_name: inmarket ad B 9x16}   # YouTube 5fpKTP4YvJ4
+
+texts:
+  headlines:
+    - "Płatność przy odbiorze"
+    - "Sprawdzasz, potem płacisz"
+    - "Producent szklarni od 2008"
+    - "Dostawa w 3–7 dni"
+    - "Prezenty o wartości 249 zł"
+  long_headlines:
+    - "Szklarnia z poliwęglanu od producenta. Płacisz dopiero po odbiorze, bez przedpłat"
+    - "Tylko dziś: prezenty o wartości 249 zł do każdej szklarni. Dostawa w całej Polsce"
+  descriptions:
+    - "Płacisz po odbiorze, bez przedpłat. Paczka u Ciebie w 3–7 dni, dostawa w całej Polsce."
+    - "Poliwęglan 4 lub 6 mm z ochroną UV, ocynkowany profil stalowy. Żywotność ponad 15 lat."
+    - "Tylko dziś: okno boczne i akcesoria w prezencie, razem o wartości 249 zł."
+    - "Własne warzywa od wiosny do jesieni. Wcześniejszy siew i ochrona przed wiatrem i deszczem."
+    - "Szklarnie od 1 199 zł. Producent od 2008 roku. Doradca oddzwoni i potwierdzi zamówienie."
+call_to_action: LEARN_MORE
+logo_asset_id: 315822292116
+logo_file: null

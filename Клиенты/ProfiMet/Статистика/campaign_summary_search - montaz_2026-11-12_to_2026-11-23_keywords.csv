@@ -1,0 +1,20 @@
+﻿group,keyword,match,status,impr,clicks,cost,conv
+wymiary z montażem,szklarnia z poliwęglanu 3x6 z montażem,EXACT,ENABLED,21,7,6.56,2.0
+poliwęglan z montażem,szklarnia z poliwęglanu z montażem,EXACT,ENABLED,20,6,4.78,1.0
+poliwęglan z montażem,szklarnia z poliwęglanu z montażem,PHRASE,ENABLED,45,9,7.08,0.0
+szklarnia z montażem,szklarnia z montazem,PHRASE,ENABLED,14,4,3.56,0.0
+wymiary z montażem,szklarnia z poliwęglanu 3x6m z montażem,PHRASE,ENABLED,7,3,3.05,0.0
+wymiary z montażem,szklarnia z poliwęglanu 3x4 z montażem,PHRASE,ENABLED,10,3,3.0,0.0
+szklarnia z montażem,szklarnia z montażem,EXACT,ENABLED,4,2,2.17,0.0
+szklarnia z montażem,szklarnie ogrodowe z montażem,PHRASE,ENABLED,7,1,1.2,0.0
+szklarnia z montażem,szklarnia ogrodowa z montażem,PHRASE,ENABLED,12,2,1.06,0.0
+poliwęglan z montażem,szklarnia poliwęglanowa z montażem,PHRASE,ENABLED,2,1,1.0,0.0
+poliwęglan z montażem,szklarnie z poliwęglanu z montażem,PHRASE,ENABLED,2,1,0.99,0.0
+poliwęglan z montażem,szklarnie z poliwęglanu z montażem,EXACT,ENABLED,4,1,0.97,0.0
+tunel z montażem,tunel z poliwęglanu z montażem,EXACT,ENABLED,19,1,0.96,0.0
+szklarnia z montażem,szklarnie z montażem,PHRASE,ENABLED,5,1,0.86,0.0
+szklarnia z montażem,szklarnie z montażem,EXACT,ENABLED,2,1,0.74,0.0
+szklarnia z montażem,szklarnia z montazem,EXACT,ENABLED,4,1,0.64,0.0
+szklarnia z montażem,szklarnia z montażem,PHRASE,ENABLED,3,0,0.0,0.0
+wymiary z montażem,szklarnia z poliwęglanu 3x4 z montażem,EXACT,ENABLED,4,0,0.0,0.0
+tunel z montażem,tunel z poliwęglanu z montażem,PHRASE,ENABLED,2,0,0.0,0.0
