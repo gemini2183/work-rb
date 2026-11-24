@@ -1,0 +1,4 @@
+Level,Campaign,Campaign_status,Channel,Ad_group,Ad_group_status,List_id,Negative,Criterion_status,Bid_modifier
+ad_group,yt_cold_search_segment,PAUSED,DEMAND_GEN,yt_cold_search_segment_g1,ENABLED,9475706784,True,ENABLED,0.0
+ad_group,yt_cold_search_segment,PAUSED,DEMAND_GEN,yt_cold_search_segment_g1,ENABLED,9475732717,True,ENABLED,0.0
+ad_group,yt_cold_search_segment,PAUSED,DEMAND_GEN,yt_cold_search_segment_g1,ENABLED,9269330900,True,ENABLED,0.0

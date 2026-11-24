@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-"""Замена текстов в PMax (группы ассетов), Display (адаптивное объявление) и Demand Gen (мультиассетное объявление). ЗАПИСЬ,
+"""Замена текстов в PMax (группы ассетов), Display (адаптивное объявление) и Demand Gen (мультиассетное и видео-объявление). ЗАПИСЬ,
 по умолчанию validate_only.
 
 Зачем: 2026-10-13 ProfiMet — «3 prezenty» → 4 и неподтверждённые фразы («Najniższe ceny», «Eksport UE», «2,4 m» и др.) остались в
@@ -10,12 +10,15 @@ PMax, Display и Demand Gen (контролёр `ads_facts_audit.py`), в Search
   • PMax: текст ассета группы неизменяем (`text_asset.text` нельзя обновить) → для каждой привязки со старым текстом создаётся
     новый текстовый ассет (один на уникальный текст) и привязывается к ТЕМ ЖЕ группам с тем же типом поля, старая привязка
     удаляется (в одном запросе: сначала удаления, потом создания — чтобы не упереться в лимит 15/5/5). Старые ассеты остаются в аккаунте.
-  • Display и Demand Gen: объявление правится на месте (AdService update заголовков/описаний).
+  • Display и Demand Gen (multi_asset и video_responsive): объявление правится на месте (AdService update заголовков/описаний/
+    длинных заголовков; в update_mask только эти поля, видео/лого/CTA не трогаются). --campaign-ids ограничивает кампании объявлений.
 Карта — YAML {texts: {старый: новый}}. Проверка лимитов (заголовок ≤ 30, длинный и описание ≤ 90). Снимок «до» — CSV в Статистике
 клиента; после записи — чтение обратно.
 
 Использование:
-    python gads_text_swap_other.py --customer-id 7552781705 --client-folder ProfiMet --map <yaml> [--execute]
+    python gads_text_swap_other.py --customer-id 7552781705 --client-folder ProfiMet --map <yaml> [--campaign-ids ID ...] [--execute]
+
+Дата правки: 2026-11-23 (добавлен demand_gen_video_responsive_ad, --campaign-ids).
 """
 import argparse
 import csv
@@ -41,6 +44,8 @@ def main():
     ap.add_argument("--customer-id", required=True)
     ap.add_argument("--client-folder", required=True)
     ap.add_argument("--map", required=True)
+    ap.add_argument("--campaign-ids", nargs="+", type=int, default=None,
+                    help="ограничить правку объявлений (Display/Demand Gen) этими кампаниями; без него - все ENABLED")
     ap.add_argument("--execute", action="store_true")
     a = ap.parse_args()
     cid = a.customer_id.replace("-", "")
@@ -109,46 +114,75 @@ def main():
             ops.extend([rem, add])      # группа на максимуме: сначала убрать старый
         # число привязок в группе после пары не меняется
 
-    # ---- Display и Demand Gen: объявления на месте
+    # ---- Display и Demand Gen (мультиассет и видео): объявления на месте
+    camp_f = ""
+    if a.campaign_ids:
+        camp_f = " AND campaign.id IN (" + ",".join(str(int(x)) for x in a.campaign_ids) + ")"
     q = ("SELECT campaign.name, campaign.status, ad_group_ad.status, ad_group_ad.ad.id, "
          "ad_group_ad.ad.responsive_display_ad.headlines, ad_group_ad.ad.responsive_display_ad.long_headline, "
          "ad_group_ad.ad.responsive_display_ad.descriptions, ad_group_ad.ad.demand_gen_multi_asset_ad.headlines, "
-         "ad_group_ad.ad.demand_gen_multi_asset_ad.descriptions FROM ad_group_ad "
-         "WHERE campaign.status = 'ENABLED' AND ad_group_ad.status = 'ENABLED'")
-    ad_ops, snap = [], []
+         "ad_group_ad.ad.demand_gen_multi_asset_ad.descriptions, "
+         "ad_group_ad.ad.demand_gen_video_responsive_ad.headlines, ad_group_ad.ad.demand_gen_video_responsive_ad.long_headlines, "
+         "ad_group_ad.ad.demand_gen_video_responsive_ad.descriptions FROM ad_group_ad "
+         "WHERE campaign.status = 'ENABLED' AND ad_group_ad.status = 'ENABLED'" + camp_f)
+    ad_ops, snap, ad_errs = [], [], []
     for r in ga.search(customer_id=cid, query=q):
         ad = r.ad_group_ad.ad
-        rda, dg = ad.responsive_display_ad, ad.demand_gen_multi_asset_ad
-        is_dg = bool(dg.headlines or dg.descriptions)
-        src = dg if is_dg else rda
-        heads = [(x.text, int(x.pinned_field) if hasattr(x, "pinned_field") else 0) for x in src.headlines]
-        descs = [(x.text, int(x.pinned_field) if hasattr(x, "pinned_field") else 0) for x in src.descriptions]
-        long_h = None if is_dg else (rda.long_headline.text or None)
-        if not any(t in MAP for t, _ in heads + descs) and not (long_h and long_h in MAP):
+        rda, dg, dgv = ad.responsive_display_ad, ad.demand_gen_multi_asset_ad, ad.demand_gen_video_responsive_ad
+        if dgv.headlines or dgv.descriptions or dgv.long_headlines:
+            kind, pre, src = "DEMAND_GEN_VIDEO", "demand_gen_video_responsive_ad", dgv
+        elif dg.headlines or dg.descriptions:
+            kind, pre, src = "DEMAND_GEN", "demand_gen_multi_asset_ad", dg
+        else:
+            kind, pre, src = "DISPLAY", "responsive_display_ad", rda
+        heads = [(x.text, int(x.pinned_field)) for x in src.headlines]
+        descs = [(x.text, int(x.pinned_field)) for x in src.descriptions]
+        if kind == "DEMAND_GEN_VIDEO":
+            longs = [(x.text, int(x.pinned_field)) for x in dgv.long_headlines]
+        elif kind == "DISPLAY":
+            longs = [(rda.long_headline.text, 0)] if rda.long_headline.text else []
+        else:
+            longs = []
+        if not any(t in MAP for t, _ in heads + descs + longs):
             continue
         op = client.get_type("AdOperation")
         u = op.update
         u.resource_name = f"customers/{cid}/ads/{ad.id}"
-        tgt = u.demand_gen_multi_asset_ad if is_dg else u.responsive_display_ad
-        pre = "demand_gen_multi_asset_ad" if is_dg else "responsive_display_ad"
+        tgt = getattr(u, pre)
         for t, p in heads:
             h = client.get_type("AdTextAsset"); h.text = MAP.get(t, t)
             if p:
                 h.pinned_field = p
             tgt.headlines.append(h)
+            if len(h.text) > 30:
+                ad_errs.append(f"ad {ad.id} заголовок {len(h.text)}>30: {h.text}")
         for t, p in descs:
             d = client.get_type("AdTextAsset"); d.text = MAP.get(t, t)
             if p:
                 d.pinned_field = p
             tgt.descriptions.append(d)
+            if len(d.text) > 90:
+                ad_errs.append(f"ad {ad.id} описание {len(d.text)}>90: {d.text}")
         paths = [f"{pre}.headlines", f"{pre}.descriptions"]
-        if long_h and not is_dg:
-            tgt.long_headline.text = MAP.get(long_h, long_h)
+        if kind == "DEMAND_GEN_VIDEO":
+            for t, p in longs:
+                lh = client.get_type("AdTextAsset"); lh.text = MAP.get(t, t)
+                if p:
+                    lh.pinned_field = p
+                tgt.long_headlines.append(lh)
+                if len(lh.text) > 90:
+                    ad_errs.append(f"ad {ad.id} длинный заголовок {len(lh.text)}>90: {lh.text}")
+            if longs:
+                paths.append(f"{pre}.long_headlines")
+        elif kind == "DISPLAY" and longs:
+            tgt.long_headline.text = MAP.get(longs[0][0], longs[0][0])
             paths.append(f"{pre}.long_headline.text")
         op.update_mask.paths.extend(paths)
-        ad_ops.append((r.campaign.name, "DEMAND_GEN" if is_dg else "DISPLAY", ad.id, op))
-        snap.append([ad.id, r.campaign.name, "DEMAND_GEN" if is_dg else "DISPLAY",
-                     " | ".join(t for t, _ in heads), " | ".join(t for t, _ in descs), long_h or ""])
+        ad_ops.append((r.campaign.name, kind, ad.id, op))
+        snap.append([ad.id, r.campaign.name, kind,
+                     " | ".join(t for t, _ in heads), " | ".join(t for t, _ in descs), " | ".join(t for t, _ in longs)])
+    if ad_errs:
+        raise SystemExit("лимиты знаков в объявлениях:" + "".join("\n  " + e for e in sorted(set(ad_errs))))
     print(f"Display/Demand Gen: объявлений на правку {len(ad_ops)}: " +
           ", ".join(f"{c}/{k}/{i}" for c, k, i, _ in ad_ops))
 
@@ -182,11 +216,11 @@ def main():
         path = client_stats_dir(a.client_folder) / f"snapshot_before_text_swap_{datetime.now():%Y%m%d_%H%M}.csv"
         with open(path, "w", newline="", encoding="utf-8-sig") as f:
             w = csv.writer(f)
-            w.writerow(["вид", "кампания", "группа/ad", "поле", "старый текст", "новый текст"])
+            w.writerow(["вид", "кампания", "группа/ad", "поле", "заголовки/старый текст", "описания/новый текст", "длинные заголовки"])
             for l in links:
                 w.writerow(["PMax", l["camp"], l["group"], nm(E.AssetFieldTypeEnum, l["ft"]), l["old"], l["new"]])
             for s in snap:
-                w.writerow([s[2], s[1], s[0], "ad", s[3][:300], s[4][:300]])
+                w.writerow([s[2], s[1], s[0], "ad", s[3][:300], s[4][:300], s[5][:300]])
         print("Снимок «до»:", path)
     else:
         print("ПЛАН. Ничего не записано (добавьте --execute).")

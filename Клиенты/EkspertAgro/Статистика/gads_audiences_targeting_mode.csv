@@ -1,0 +1,16 @@
+Campaign,Ad_group,Audience_mode
+general / search / poliweglan,szklarnie z poliwęglanu [phrase],OBSERVATION
+general / search / poliweglan,tunele z poliwęglanu,OBSERVATION
+general / search / poliweglan,szklarnie z poliwęglanu producent,OBSERVATION
+general / search / poliweglan,szklarnie z poliwęglanu [exact],OBSERVATION
+general / search / poliweglan,Динамика,OBSERVATION
+shop1 /search,Группа объявлений 1,TARGETING
+general / search / szklarnia/tunel,cena,OBSERVATION
+general / search / szklarnia/tunel,szklarnia [exact],OBSERVATION
+general / search / szklarnia/tunel,szklarnia producent polski,OBSERVATION
+general / search / szklarnia/tunel,szklarnia ogrodowa,OBSERVATION
+general / search / szklarnia/tunel,tunele ogrodowe,OBSERVATION
+general / search / szklarnia/tunel,kupić,OBSERVATION
+general / search / szklarnia/tunel,szklarnia producent,OBSERVATION
+general / search / szklarnia/tunel,reszta,OBSERVATION
+shop2 / search,Top Sales,TARGETING

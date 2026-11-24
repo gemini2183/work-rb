@@ -1,0 +1,63 @@
+=== Состояние кампании «diamonds» на 2026-11-23 15:27 (чтение) ===
+[1] id 21863567679; статус ENABLED; стратегия MAXIMIZE_CONVERSIONS; бюджет/день 350.00
+    сеть: Google Search=True, партнёры=False, контекст=False
+    шаблон отслеживания: {lpurl}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_content=rb|campaign_{campaignid}_{ifsearch:search}{ifcontent:context}|group_{adgroupid}|aid_{creative}|kw_{keyword}_{matchtype}|pos_{adposition}||dev_{device}|pl_{placement}|region_id_{loc_physical_ms}|targetid_{targetid}|gclid|{gclid}&utm_term={keyword}; суффикс: —
+
+[2] Гео и расписание (критерии кампании):
+    LANGUAGE False
+    УСТРОЙСТВО DESKTOP модификатор 0.0
+    УСТРОЙСТВО MOBILE модификатор 0.0
+    УСТРОЙСТВО TABLET модификатор 0.0
+    РАСПИСАНИЕ MONDAY 9-19 модификатор 0.0
+    РАСПИСАНИЕ TUESDAY 9-19 модификатор 0.0
+    РАСПИСАНИЕ WEDNESDAY 9-19 модификатор 0.0
+    РАСПИСАНИЕ THURSDAY 9-19 модификатор 0.0
+    РАСПИСАНИЕ FRIDAY 9-19 модификатор 0.0
+    РАСПИСАНИЕ SATURDAY 9-19 модификатор 0.0
+    РАСПИСАНИЕ SUNDAY 9-19 модификатор 0.0
+    PROXIMITY радиус 5.0 KILOMETERS центр 34.0638,-118.3725
+
+[3] Группы объявлений (статус, ставка):
+    diamonds / harvest 10-26           ENABLED  ставка $0.01  (id 203995037889)
+    jewelry / diamond earrings         ENABLED  ставка $0.01  (id 188924689679)
+    jewelry / diamond ring             ENABLED  ставка $0.01  (id 172907250154)
+    jewelry / diamonds                 ENABLED  ставка $0.01  (id 172907249994)
+
+[4] Активы уровня КАМПАНИИ:
+    LEAD_FORM          LEAD_FORM              PAUSED   asset 165010433117: 
+    STRUCTURED_SNIPPET STRUCTURED_SNIPPET     ENABLED  asset 151684357895: Types: ['Jewelry', 'Watches', 'Diamonds', 'Coins and Bars']
+    CALLOUT            CALLOUT                ENABLED  asset 151741284624: Complete confidentiality
+    CALLOUT            CALLOUT                ENABLED  asset 151741284627: Transaction up to 10 min
+    CALLOUT            CALLOUT                ENABLED  asset 151741284630: No hidden fees
+    TEXT               BUSINESS_NAME          PAUSED   asset 164551065757: 
+    IMAGE              BUSINESS_LOGO          ENABLED  asset 164528289422: logo_5-removebg-preview.png
+    IMAGE              AD_IMAGE               ENABLED  asset 154609149386: Free stock image - 2024-08-01 17:44:17_1.498 (3)
+    IMAGE              AD_IMAGE               ENABLED  asset 154609163093: Free stock image - 2024-08-01 17:44:17_1.9108.503
+    IMAGE              AD_IMAGE               ENABLED  asset 154609184612: Free stock image - 2024-08-01 17:44:17_1.9108.505 (3)
+    IMAGE              AD_IMAGE               ENABLED  asset 154622847307: Free stock image - 2024-08-01 17:44:17_1.503
+    IMAGE              AD_IMAGE               ENABLED  asset 154622855986: Free stock image - 2024-08-01 17:44:17_1.9108.498 (3)
+    IMAGE              AD_IMAGE               ENABLED  asset 154622873350: Free stock image - 2024-08-01 17:44:17_1.9108.497
+    IMAGE              AD_IMAGE               ENABLED  asset 154662650067: Free stock image - 2024-08-01 17:44:17_1.501 (1)
+    IMAGE              AD_IMAGE               ENABLED  asset 154662652659: Free stock image - 2024-08-01 17:44:17_1.9108.501 (1)
+    IMAGE              AD_IMAGE               ENABLED  asset 154662682050: Free stock image - 2024-08-01 17:44:17_1.500 (1)
+    IMAGE              AD_IMAGE               ENABLED  asset 154662692598: Free stock image - 2024-08-01 17:44:17_1.505 (3)
+    IMAGE              AD_IMAGE               ENABLED  asset 154662721557: Free stock image - 2024-08-01 17:44:17_1.497
+    IMAGE              AD_IMAGE               ENABLED  asset 154662721656: Free stock image - 2024-08-01 17:44:17_1.9108.500 (1)
+    IMAGE              AD_IMAGE               ENABLED  asset 164561564002: google.png
+
+[5] Активы уровня ГРУППЫ (по группам):
+
+[6] Активы уровня АККАУНТА (customer_asset):
+    SITELINK           SITELINK               ENABLED  asset 154446929847: «Free Evaluation» | Contact us for a no-obligation, |  -> ['https://jewelryfastsale.com/#s1']
+    SITELINK           SITELINK               ENABLED  asset 154446929850: «Fast and Easy Process» | Experience a quick and |  -> ['https://jewelryfastsale.com/#s2']
+    SITELINK           SITELINK               ENABLED  asset 154446929853: «Customer Satisfaction» | Join our satisfied customers who |  -> ['https://jewelryfastsale.com/#s3']
+    SITELINK           SITELINK               ENABLED  asset 154446929856: «Secure Transactions» | Your privacy and security are |  -> ['https://jewelryfastsale.com/#s4']
+    SITELINK           SITELINK               ENABLED  asset 308316476650: «Sell Designer Jewelry» | Cartier, Tiffany, Bulgari |  -> ['https://jewelryfastsale.com/#s5']
+    SITELINK           SITELINK               ENABLED  asset 308316476653: «Sell Luxury Watch» | Rolex, Omega, Cartier |  -> ['https://jewelryfastsale.com/#s6']
+    CALL               CALL                   PAUSED   asset 154407394261: US +14246533105
+    CALL               CALL                   PAUSED   asset 213510073230: US +1 (213) 794-76-66
+    CALL               CALL                   ENABLED  asset 428670297459: US (213) 301-0474
+    IMAGE              BUSINESS_LOGO          ENABLED  asset 164528289422: logo_5-removebg-preview.png
+    BUSINESS_MESSAGE   BUSINESS_MESSAGE       ENABLED  asset 349842366122: 
+
+[7] Кампанийные минус-слова: число = 107

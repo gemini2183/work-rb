@@ -1,0 +1,62 @@
+# Конфиг для Скрипты\gads_dg_yt_builder.py: EkspertAgro, холодный тест Demand Gen, только YouTube. Создан 2026-11-23.
+# Запуск (из папки Скрипты):
+#   python gads_dg_yt_builder.py --customer-id 8826134558 --config <этот файл>            # план / validate_only
+#   python gads_dg_yt_builder.py --customer-id 8826134558 --config <этот файл> --execute  # запись, кампания на ПАУЗЕ (по «да»)
+# Пока в файле есть TODO (видео, тексты, логотип), скрипт печатает только план и --execute отказывается.
+
+campaign_name: yt_cold_search_segment   # имя предложено 23.11 (стиль yt_cold у ProfiMet + аудитория); utm_campaign = имя кампании
+utm_campaign: general_demand_gen     # метка пула Ringostat «Google CPC Demand Gen» (условие по utm_campaign), со слов пользователя 23.11
+ad_group_name: yt_cold_search_segment_g1
+budget_per_day: 100                  # решение пользователя 23.11 (в 10_данные.md стоит 50 - устарело)
+final_url: https://ekspertagro.pl/
+business_name: "Ekspert Agro"        # 12/25, 25_тексты.md
+
+geo: [2616]                          # Польша
+languages: [1030, 1000]              # pl + en
+# Расписание как у действующего PMax in-market EA (campaign_settings_24479597485_20261123_1001.xlsx): ПН-ПТ 8-18, СБ 9-16, ВС нет
+schedule:
+  - {days: [MON, TUE, WED, THU, FRI], start: "9:00", end: "17:00"}   # решение пользователя 23.11: пн-пт 9-17, сб и вс выключено
+
+# Решение 23.11: тестируем ОДНУ аудиторию за раз. Первая - пользовательский сегмент по поисковым запросам.
+include:
+  user_lists: []
+  custom_audiences:
+    - 1038964620                     # EA холодная: искали теплицы 20261123 (29 запросов)
+  user_interests: []
+  # СЛЕДУЮЩИЕ ТЕСТЫ (не включать сейчас):
+  # user_lists:  9509955865 (look-alike 2.5%), 9509968495 (5%), 9510664500 (10%) - размер 0 на 23.11
+  # user_interests (in-market, из сигнала Performance Max-1): 80237, 80253, 80483, 80494, 80501, 80896
+
+exclude:
+  user_lists:
+    - 9475706784                     # CRM-покупатели
+    - 9269330900                     # All Converters (180 дн.)
+    - 9475732717                     # Shopping cart abandoners (корзина)
+
+audience_description: "EA yt_cold_search_segment: сегмент SEARCH (искали теплицы); исключены CRM-покупатели, конвертировавшие, корзина"
+
+videos:
+  - {asset_id: 442192922851, label: vid_16x9, ad_name: yt_cold_search_segment ad A 16x9}   # utm_content по решению пользователя 23.11
+  - {asset_id: 442192921726, label: vid_9x16, ad_name: yt_cold_search_segment ad B 9x16}   # utm_content по решению пользователя 23.11
+
+texts:
+  headlines:
+    - "Płatność przy odbiorze"
+    - "Sprawdzasz, potem płacisz"
+    - "Producent szklarni od 2008"
+    - "Dostawa w 3–7 dni"
+    - "Prezenty o wartości 249 zł"
+  long_headlines:
+    - "Szklarnia z poliwęglanu od producenta. Płacisz dopiero po odbiorze, bez przedpłat"
+    - "Tylko dziś: prezenty o wartości 249 zł do każdej szklarni. Dostawa w całej Polsce"
+  descriptions:
+    - "Płacisz po odbiorze, bez przedpłat. Paczka u Ciebie w 3–7 dni, dostawa w całej Polsce."
+    - "Poliwęglan 6 mm z ochroną UV i ocynkowany profil 40×20 mm. Żywotność ponad 15 lat."
+    - "Tylko dziś: okno boczne i akcesoria w prezencie, razem o wartości 249 zł."
+    - "Własne warzywa od wiosny do jesieni. Wcześniejszy siew i ochrona przed wiatrem i deszczem."
+    - "Szklarnie od 1 799 zł. Producent od 2008 roku. Doradca oddzwoni i potwierdzi zamówienie."
+call_to_action: LEARN_MORE
+
+# Логотип: ассет logo-1.png 500x500 уже есть в аккаунте (asset 315822292116), совпадает с файлом пользователя по имени и размеру
+logo_asset_id: 315822292116
+logo_file: null

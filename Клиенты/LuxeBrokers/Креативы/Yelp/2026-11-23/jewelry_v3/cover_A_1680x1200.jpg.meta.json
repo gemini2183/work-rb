@@ -1,0 +1,25 @@
+{
+  "ai_generated": false,
+  "derived_from_real_photo": true,
+  "created": "2026-11-23",
+  "client": "LuxeBrokers",
+  "purpose": "Yelp Portfolio cover 1680x1200",
+  "variant": "cover A dark, 2 panels",
+  "size": "1680x1200",
+  "source_files": [
+    "D:\\Luxe Yelp\\Jewelry Yelp\\o (3).jpg",
+    "D:\\Luxe Yelp\\Jewelry Yelp\\o.jpg"
+  ],
+  "origin_of_photos": "фото клиента, предоставил пользователь 23.11, права не подтверждены письменно; фон, рамки, текст нарисованы кодом (Pillow)",
+  "text_on_banner": [
+    "WE BUY",
+    "JEWELRY",
+    "FREE EVALUATION • NO FEES",
+    "Deals up to 10 min • Beverly Hills"
+  ],
+  "text_facts_source": "как в jewelry_v2: jewelryfastsale.com (free evaluation, no fees, up to 10 minutes), пакет Э-8; не сверено с facts_registry (файла нет)",
+  "fonts": "Noto Serif Bold (заголовок), Noto Sans Regular/Bold (строки); SIL OFL 1.1 (C:/Windows/Fonts)",
+  "safe_zone": "весь текст внутри центральных 80% по каждой оси (поля 10%)",
+  "ai_label_needed": false,
+  "generator": "Скрипты/yelp_gold_cover.py (Pillow, не ИИ)"
+}

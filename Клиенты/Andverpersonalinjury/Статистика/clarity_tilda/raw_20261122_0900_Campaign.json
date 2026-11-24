@@ -1,0 +1,239 @@
+[
+ {
+  "metricName": "DeadClickCount",
+  "information": [
+   {
+    "sessionsCount": 1,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": null
+   },
+   {
+    "sessionsCount": 2,
+    "sessionsWithMetricPercentage": 50,
+    "sessionsWithoutMetricPercentage": 50,
+    "pagesViews": 1,
+    "subTotal": 1,
+    "Campaign": "topics_tilda"
+   },
+   {
+    "sessionsCount": 1,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "24460857016_search"
+   }
+  ]
+ },
+ {
+  "metricName": "ExcessiveScroll",
+  "information": [
+   {
+    "sessionsCount": 1,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": null
+   },
+   {
+    "sessionsCount": 2,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "topics_tilda"
+   },
+   {
+    "sessionsCount": 1,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "24460857016_search"
+   }
+  ]
+ },
+ {
+  "metricName": "RageClickCount",
+  "information": [
+   {
+    "sessionsCount": 1,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": null
+   },
+   {
+    "sessionsCount": 2,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "topics_tilda"
+   },
+   {
+    "sessionsCount": 1,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "24460857016_search"
+   }
+  ]
+ },
+ {
+  "metricName": "QuickbackClick",
+  "information": [
+   {
+    "sessionsCount": 1,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": null
+   },
+   {
+    "sessionsCount": 2,
+    "sessionsWithMetricPercentage": 50,
+    "sessionsWithoutMetricPercentage": 50,
+    "pagesViews": 1,
+    "subTotal": 1,
+    "Campaign": "topics_tilda"
+   },
+   {
+    "sessionsCount": 1,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "24460857016_search"
+   }
+  ]
+ },
+ {
+  "metricName": "ScriptErrorCount",
+  "information": [
+   {
+    "sessionsCount": 1,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": null
+   },
+   {
+    "sessionsCount": 2,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "topics_tilda"
+   },
+   {
+    "sessionsCount": 1,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "24460857016_search"
+   }
+  ]
+ },
+ {
+  "metricName": "ErrorClickCount",
+  "information": [
+   {
+    "sessionsCount": 1,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": null
+   },
+   {
+    "sessionsCount": 2,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "topics_tilda"
+   },
+   {
+    "sessionsCount": 1,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0,
+    "Campaign": "24460857016_search"
+   }
+  ]
+ },
+ {
+  "metricName": "ScrollDepth",
+  "information": [
+   {
+    "averageScrollDepth": 5,
+    "Campaign": null
+   },
+   {
+    "averageScrollDepth": 26.5,
+    "Campaign": "topics_tilda"
+   },
+   {
+    "averageScrollDepth": 57,
+    "Campaign": "24460857016_search"
+   }
+  ]
+ },
+ {
+  "metricName": "Traffic",
+  "information": [
+   {
+    "totalSessionCount": 1,
+    "totalBotSessionCount": 2,
+    "distinctUserCount": 1,
+    "pagesPerSessionPercentage": 1,
+    "Campaign": null
+   },
+   {
+    "totalSessionCount": 2,
+    "totalBotSessionCount": 3,
+    "distinctUserCount": 2,
+    "pagesPerSessionPercentage": 2,
+    "Campaign": "topics_tilda"
+   },
+   {
+    "totalSessionCount": 1,
+    "totalBotSessionCount": 0,
+    "distinctUserCount": 1,
+    "pagesPerSessionPercentage": 1,
+    "Campaign": "24460857016_search"
+   }
+  ]
+ },
+ {
+  "metricName": "EngagementTime",
+  "information": [
+   {
+    "totalTime": 5,
+    "activeTime": 5,
+    "Campaign": null
+   },
+   {
+    "totalTime": 77,
+    "activeTime": 72,
+    "Campaign": "topics_tilda"
+   },
+   {
+    "totalTime": 10,
+    "activeTime": 10,
+    "Campaign": "24460857016_search"
+   }
+  ]
+ }
+]

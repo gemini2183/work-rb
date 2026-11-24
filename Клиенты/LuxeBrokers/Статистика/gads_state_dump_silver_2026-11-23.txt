@@ -1,0 +1,76 @@
+=== Состояние кампании «silver» на 2026-11-23 15:27 (чтение) ===
+[1] id 22021627355; статус ENABLED; стратегия TARGET_SPEND; бюджет/день 75.00
+    сеть: Google Search=True, партнёры=False, контекст=False
+    шаблон отслеживания: {lpurl}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_content=rb|campaign_{campaignid}_{ifsearch:search}{ifcontent:context}|group_{adgroupid}|aid_{creative}|kw_{keyword}_{matchtype}|pos_{adposition}||dev_{device}|pl_{placement}|region_id_{loc_physical_ms}|targetid_{targetid}|gclid|{gclid}&utm_term={keyword}; суффикс: —
+
+[2] Гео и расписание (критерии кампании):
+    LANGUAGE False
+    УСТРОЙСТВО DESKTOP модификатор 0.0
+    УСТРОЙСТВО MOBILE модификатор 0.0
+    УСТРОЙСТВО TABLET модификатор 0.0
+    РАСПИСАНИЕ MONDAY 9-18 модификатор 0.0
+    РАСПИСАНИЕ MONDAY 18-20 модификатор 0.699999988079071
+    РАСПИСАНИЕ TUESDAY 9-18 модификатор 0.0
+    РАСПИСАНИЕ TUESDAY 18-20 модификатор 0.699999988079071
+    РАСПИСАНИЕ WEDNESDAY 9-18 модификатор 0.0
+    РАСПИСАНИЕ WEDNESDAY 18-20 модификатор 0.699999988079071
+    РАСПИСАНИЕ THURSDAY 9-18 модификатор 0.0
+    РАСПИСАНИЕ THURSDAY 18-20 модификатор 0.699999988079071
+    РАСПИСАНИЕ FRIDAY 9-18 модификатор 0.0
+    РАСПИСАНИЕ FRIDAY 18-20 модификатор 0.699999988079071
+    РАСПИСАНИЕ SATURDAY 9-18 модификатор 0.0
+    РАСПИСАНИЕ SATURDAY 18-20 модификатор 0.699999988079071
+    РАСПИСАНИЕ SUNDAY 9-18 модификатор 0.0
+    РАСПИСАНИЕ SUNDAY 18-20 модификатор 0.699999988079071
+    PROXIMITY радиус 5.0 KILOMETERS центр 34.0638,-118.3725
+
+[3] Группы объявлений (статус, ставка):
+    Silver                             PAUSED   ставка $0.01  (id 174937740671)
+    Silver - New                       PAUSED   ставка $0.01  (id 201002005672)
+    Silver Chain                       PAUSED   ставка $0.01  (id 174937740871)
+    Silver Coins                       PAUSED   ставка $0.01  (id 174937740711)
+    Silver Coins - New                 ENABLED  ставка $0.01  (id 197772585781)
+    Silver Ring                        PAUSED   ставка $0.01  (id 174937740911)
+    Sterling Silver - New              ENABLED  ставка $0.01  (id 197772585741)
+
+[4] Активы уровня КАМПАНИИ:
+    LEAD_FORM          LEAD_FORM              ENABLED  asset 165010433117: 
+    STRUCTURED_SNIPPET STRUCTURED_SNIPPET     ENABLED  asset 151684357895: Types: ['Jewelry', 'Watches', 'Diamonds', 'Coins and Bars']
+    SITELINK           SITELINK               ENABLED  asset 425411678990: «Fast and Easy Process» | Experience a quick and | easy selling process. -> ['https://jewelryfastsale.com/gold-silver#s2']
+    SITELINK           SITELINK               ENABLED  asset 425411709272: «Sell Luxury Watch» | Rolex, Omega, Cartier | Top dollar guaranteed -> ['https://jewelryfastsale.com/gold-silver#s6']
+    SITELINK           SITELINK               ENABLED  asset 425513417620: «Sell Designer Jewelry» | Cartier, Tiffany, Bulgari | Luxury brands accepted -> ['https://jewelryfastsale.com/gold-silver#s5']
+    SITELINK           SITELINK               ENABLED  asset 425597214588: «Customer Satisfaction» | Join our satisfied customers who | have sold their jewelry with ease. -> ['https://jewelryfastsale.com/gold-silver#s3']
+    SITELINK           SITELINK               ENABLED  asset 425597308245: «Free Evaluation» | Contact us for a no-obligation, | free evaluation of your jewelry -> ['https://jewelryfastsale.com/gold-silver#s1']
+    SITELINK           SITELINK               ENABLED  asset 425597363118: «Secure Transactions» | Your privacy and security are | our top priorities. -> ['https://jewelryfastsale.com/gold-silver#s4']
+    CALLOUT            CALLOUT                ENABLED  asset 151741284624: Complete confidentiality
+    CALLOUT            CALLOUT                ENABLED  asset 151741284627: Transaction up to 10 min
+    CALLOUT            CALLOUT                ENABLED  asset 151741284630: No hidden fees
+    IMAGE              AD_IMAGE               ENABLED  asset 154609149386: Free stock image - 2024-08-01 17:44:17_1.498 (3)
+    IMAGE              AD_IMAGE               ENABLED  asset 154609163093: Free stock image - 2024-08-01 17:44:17_1.9108.503
+    IMAGE              AD_IMAGE               ENABLED  asset 154609184612: Free stock image - 2024-08-01 17:44:17_1.9108.505 (3)
+    IMAGE              AD_IMAGE               ENABLED  asset 154622847307: Free stock image - 2024-08-01 17:44:17_1.503
+    IMAGE              AD_IMAGE               ENABLED  asset 154622855986: Free stock image - 2024-08-01 17:44:17_1.9108.498 (3)
+    IMAGE              AD_IMAGE               ENABLED  asset 154622873350: Free stock image - 2024-08-01 17:44:17_1.9108.497
+    IMAGE              AD_IMAGE               ENABLED  asset 154662650067: Free stock image - 2024-08-01 17:44:17_1.501 (1)
+    IMAGE              AD_IMAGE               ENABLED  asset 154662652659: Free stock image - 2024-08-01 17:44:17_1.9108.501 (1)
+    IMAGE              AD_IMAGE               ENABLED  asset 154662682050: Free stock image - 2024-08-01 17:44:17_1.500 (1)
+    IMAGE              AD_IMAGE               ENABLED  asset 154662692598: Free stock image - 2024-08-01 17:44:17_1.505 (3)
+    IMAGE              AD_IMAGE               ENABLED  asset 154662721557: Free stock image - 2024-08-01 17:44:17_1.497
+    IMAGE              AD_IMAGE               ENABLED  asset 154662721656: Free stock image - 2024-08-01 17:44:17_1.9108.500 (1)
+
+[5] Активы уровня ГРУППЫ (по группам):
+
+[6] Активы уровня АККАУНТА (customer_asset):
+    SITELINK           SITELINK               ENABLED  asset 154446929847: «Free Evaluation» | Contact us for a no-obligation, |  -> ['https://jewelryfastsale.com/#s1']
+    SITELINK           SITELINK               ENABLED  asset 154446929850: «Fast and Easy Process» | Experience a quick and |  -> ['https://jewelryfastsale.com/#s2']
+    SITELINK           SITELINK               ENABLED  asset 154446929853: «Customer Satisfaction» | Join our satisfied customers who |  -> ['https://jewelryfastsale.com/#s3']
+    SITELINK           SITELINK               ENABLED  asset 154446929856: «Secure Transactions» | Your privacy and security are |  -> ['https://jewelryfastsale.com/#s4']
+    SITELINK           SITELINK               ENABLED  asset 308316476650: «Sell Designer Jewelry» | Cartier, Tiffany, Bulgari |  -> ['https://jewelryfastsale.com/#s5']
+    SITELINK           SITELINK               ENABLED  asset 308316476653: «Sell Luxury Watch» | Rolex, Omega, Cartier |  -> ['https://jewelryfastsale.com/#s6']
+    CALL               CALL                   PAUSED   asset 154407394261: US +14246533105
+    CALL               CALL                   PAUSED   asset 213510073230: US +1 (213) 794-76-66
+    CALL               CALL                   ENABLED  asset 428670297459: US (213) 301-0474
+    IMAGE              BUSINESS_LOGO          ENABLED  asset 164528289422: logo_5-removebg-preview.png
+    BUSINESS_MESSAGE   BUSINESS_MESSAGE       ENABLED  asset 349842366122: 
+
+[7] Кампанийные минус-слова: число = 92

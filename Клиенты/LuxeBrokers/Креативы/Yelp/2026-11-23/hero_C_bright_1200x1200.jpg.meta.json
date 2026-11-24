@@ -1,0 +1,23 @@
+{
+  "ai_generated": false,
+  "derived_from_real_photo": true,
+  "created": "2026-11-23",
+  "client": "LuxeBrokers",
+  "purpose": "Yelp Ad photo 1200x1200",
+  "variant": "hero_C bright",
+  "source_files": [
+    "Клиенты/LuxeBrokers/Креативы/Yelp/2026-10-19/gallery_square/04_gold_coins_square_1200x1200.jpg",
+    "Клиенты/LuxeBrokers/Креативы/Yelp/2026-10-19/gallery_square/03_scrap_broken_gold_square_1200x1200.jpg",
+    "Клиенты/LuxeBrokers/Креативы/Yelp/2026-10-19/gallery_square/05_gold_bars_square_1200x1200.jpg (обрезан: правые два слитка, левый с надписью METALOR исключён)"
+  ],
+  "origin_of_photos": "фото со страницы jewelryfastsale.com/gold-silver (автор и лицензия неизвестны, допущены решением пользователя 19.10), см. Креативы/Yelp/Лицензии-изображений.md",
+  "text_on_banner": [
+    "WE BUY",
+    "GOLD & JEWELRY",
+    "FREE EVALUATION • NO FEES",
+    "Deals up to 10 min • Beverly Hills"
+  ],
+  "text_facts_source": "jewelryfastsale.com / (free evaluation, no fees or commissions, up to 10 minutes), пакет Э-8 п.3; не сверено с facts_registry (файла нет)",
+  "ai_label_needed": false,
+  "generator": "Pillow (наложение текста, не ИИ)"
+}

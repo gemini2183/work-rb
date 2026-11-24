@@ -108,6 +108,8 @@ def main():
         asset.sitelink_asset.link_text, asset.sitelink_asset.description1, asset.sitelink_asset.description2,
         asset.final_urls, asset.callout_asset.callout_text, asset.call_asset.phone_number, asset.call_asset.country_code,
         asset.structured_snippet_asset.header, asset.structured_snippet_asset.values, asset.promotion_asset.promotion_target,
+        asset.price_asset.type, asset.price_asset.language_code, asset.price_asset.price_qualifier, asset.price_asset.price_offerings,
+        asset.promotion_asset.discount_modifier, asset.promotion_asset.percent_off, asset.promotion_asset.money_amount_off.amount_micros, asset.promotion_asset.money_amount_off.currency_code, asset.promotion_asset.promotion_code, asset.promotion_asset.orders_over_amount.amount_micros, asset.promotion_asset.occasion, asset.promotion_asset.language_code, asset.promotion_asset.start_date, asset.promotion_asset.end_date,
         asset.text_asset.text
         FROM campaign_asset WHERE campaign.id = {cid_camp} AND campaign_asset.status != 'REMOVED'"""):
         P("    " + fmt_asset(x, "campaign_asset"))
@@ -116,7 +118,9 @@ def main():
     for x in q(svc, cid, f"""SELECT campaign.id, ad_group.name, ad_group_asset.field_type, ad_group_asset.status, asset.id, asset.type, asset.name,
         asset.sitelink_asset.link_text, asset.sitelink_asset.description1, asset.sitelink_asset.description2,
         asset.final_urls, asset.callout_asset.callout_text, asset.call_asset.phone_number, asset.call_asset.country_code,
-        asset.structured_snippet_asset.header, asset.structured_snippet_asset.values, asset.promotion_asset.promotion_target
+        asset.structured_snippet_asset.header, asset.structured_snippet_asset.values, asset.promotion_asset.promotion_target,
+        asset.price_asset.type, asset.price_asset.language_code, asset.price_asset.price_qualifier, asset.price_asset.price_offerings,
+        asset.promotion_asset.discount_modifier, asset.promotion_asset.percent_off, asset.promotion_asset.money_amount_off.amount_micros, asset.promotion_asset.money_amount_off.currency_code, asset.promotion_asset.promotion_code, asset.promotion_asset.orders_over_amount.amount_micros, asset.promotion_asset.occasion, asset.promotion_asset.language_code, asset.promotion_asset.start_date, asset.promotion_asset.end_date
         FROM ad_group_asset WHERE campaign.id = {cid_camp} AND ad_group_asset.status != 'REMOVED' ORDER BY ad_group.name"""):
         P(f"    [{x.ad_group.name}] " + fmt_asset(x, "ad_group_asset"))
 
@@ -124,7 +128,9 @@ def main():
     for x in q(svc, cid, """SELECT customer_asset.field_type, customer_asset.status, asset.id, asset.type, asset.name,
         asset.sitelink_asset.link_text, asset.sitelink_asset.description1, asset.final_urls, asset.callout_asset.callout_text,
         asset.call_asset.phone_number, asset.call_asset.country_code, asset.structured_snippet_asset.header,
-        asset.structured_snippet_asset.values, asset.text_asset.text
+        asset.structured_snippet_asset.values, asset.text_asset.text,
+        asset.price_asset.type, asset.price_asset.language_code, asset.price_asset.price_qualifier, asset.price_asset.price_offerings,
+        asset.promotion_asset.discount_modifier, asset.promotion_asset.percent_off, asset.promotion_asset.money_amount_off.amount_micros, asset.promotion_asset.money_amount_off.currency_code, asset.promotion_asset.promotion_code, asset.promotion_asset.orders_over_amount.amount_micros, asset.promotion_asset.occasion, asset.promotion_asset.language_code, asset.promotion_asset.start_date, asset.promotion_asset.end_date
         FROM customer_asset WHERE customer_asset.status != 'REMOVED'"""):
         P("    " + fmt_asset(x, "customer_asset"))
 
@@ -154,7 +160,19 @@ def fmt_asset(x, link_attr):
     elif ty == "STRUCTURED_SNIPPET":
         d = f"{a.structured_snippet_asset.header}: {list(a.structured_snippet_asset.values)}"
     elif ty == "PROMOTION":
-        d = a.promotion_asset.promotion_target
+        pa = a.promotion_asset
+        d = (f"{pa.promotion_target} | lang={pa.language_code} | скидка%={pa.percent_off / 10000 if pa.percent_off else 0} "
+             f"| сумма_скидки={pa.money_amount_off.amount_micros / 1e6 if pa.money_amount_off.amount_micros else 0} {pa.money_amount_off.currency_code} "
+             f"| код={pa.promotion_code} | от_суммы={pa.orders_over_amount.amount_micros / 1e6 if pa.orders_over_amount.amount_micros else 0} "
+             f"| повод={enum_name('PromotionExtensionOccasionEnum','PromotionExtensionOccasion',pa.occasion)} "
+             f"| {pa.start_date or '—'}..{pa.end_date or '—'} -> {list(a.final_urls)}")
+    elif ty == "PRICE":
+        pr = a.price_asset
+        d = (f"тип={enum_name('PriceExtensionTypeEnum','PriceExtensionType',pr.type_)} | lang={pr.language_code} "
+             f"| qualifier={enum_name('PriceExtensionPriceQualifierEnum','PriceExtensionPriceQualifier',pr.price_qualifier)}")
+        for po in pr.price_offerings:
+            d += (f"\n        - {po.header} | {po.description} | {po.price.amount_micros / 1e6:g} {po.price.currency_code} "
+                  f"| {enum_name('PriceExtensionPriceUnitEnum','PriceExtensionPriceUnit',po.unit)} | {po.final_url}")
     elif ty == "BUSINESS_NAME":
         d = a.text_asset.text
     else:

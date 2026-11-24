@@ -20,3 +20,6 @@ updated: 2026-11-13
 **Как проверить.** Список проектов Ringostat: есть «mocnaszklarnia.pl» (id 93983). Страница `…/script_settings/numbers_pools?project_id=93983` показывает пулы `yt_warm_1`, `yt_warm_2`, `Google CPC_yt_dyn`. Источник: `Клиенты\ProfiMet_YouTube\Работы\2026-11-13_ringostat_yt_cold\40_запись.md`.
 
 **Связано:** Журнал ProfiMet_YouTube Ю-010 (`Клиенты\ProfiMet_YouTube\Журнал_изменений.md`).
+
+### Использовано / повтор 2026-11-23 (EkspertAgro)
+Chrome залогинен в аккаунт Ringostat без проектов EA и ProfiMet (в списке 5 проектов: landverpersonalinjury.tilda.ws, desertinjurylaw.com, darza-siltumnica.lv, eldalita-garden.lt, jewelryfastsale.com; `traffic_channels?project_id=93983` редиректит на список). Агент остановился, в Ringostat ничего не создано. Нужно: войти в нужный аккаунт Ringostat в Chrome. Файл: Клиенты/EkspertAgro/Работы/2026-11-23_холодный_тест_DG_YT/50_ringostat.md.

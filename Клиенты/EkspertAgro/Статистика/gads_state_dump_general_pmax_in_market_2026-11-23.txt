@@ -1,0 +1,49 @@
+=== Состояние кампании «general_pmax / in-market» на 2026-11-23 12:57 (чтение) ===
+[1] id 24479597485; статус ENABLED; стратегия MAXIMIZE_CONVERSIONS; бюджет/день 200.00
+    сеть: Google Search=True, партнёры=True, контекст=True
+    шаблон отслеживания: —; суффикс: utm_source=google&utm_medium=cpc&utm_campaign=general_pmax&utm_content=rb_cid_{campaignid}_{ifsearch:search}{ifcontent:context}|gid_{adgroupid}|aid_{creative}|pos_{adposition}|dev_{device}|plc_{placement}|region_id_{loc_physical_ms}|targetid_{targetid}|gclid_{gclid}&utm_term={keyword}
+
+[2] Гео и расписание (критерии кампании):
+    LANGUAGE False
+    LANGUAGE False
+    УСТРОЙСТВО DESKTOP модификатор 0.0
+    УСТРОЙСТВО MOBILE модификатор 0.0
+    УСТРОЙСТВО TABLET модификатор 0.0
+    УСТРОЙСТВО CONNECTED_TV модификатор 0.0
+    РАСПИСАНИЕ MONDAY 8-18 модификатор 0.0
+    РАСПИСАНИЕ TUESDAY 8-18 модификатор 0.0
+    РАСПИСАНИЕ WEDNESDAY 8-18 модификатор 0.0
+    РАСПИСАНИЕ THURSDAY 8-18 модификатор 0.0
+    РАСПИСАНИЕ FRIDAY 8-18 модификатор 0.0
+    РАСПИСАНИЕ SATURDAY 9-16 модификатор 0.0
+
+[3] Группы объявлений (статус, ставка):
+
+[4] Активы уровня КАМПАНИИ:
+    IMAGE              LOGO                   ENABLED  asset 315822292116: logo-1.png
+    STRUCTURED_SNIPPET STRUCTURED_SNIPPET     ENABLED  asset 315776994688: Typy: ['Szklarnie 3x4 m', 'Szklarnie 3x6 m', 'Mini-szklarnie', 'Wzmocniona konstrukcja']
+    SITELINK           SITELINK               ENABLED  asset 315545297514: «Wszystkie rozmiary» | Od kompaktowych do profesjonalnych | Szybka wysyłka z magazynu -> ['https://ekspertagro.pl/#bs1']
+    SITELINK           SITELINK               ENABLED  asset 315545297520: «Pomoc w wyborze szklarni» | Ekspert-ogrodnik odpowie na pytania | Pomożemy wybrać idealny rozmiar -> ['https://ekspertagro.pl/#bs3']
+    SITELINK           SITELINK               ENABLED  asset 315545297526: «Sprawdzony producent» | Własna produkcja od 2008 roku | Eksport do 7 krajów Europy -> ['https://ekspertagro.pl/#bs5']
+    SITELINK           SITELINK               ENABLED  asset 315545297529: «Wygodna płatność» | Płatność za pobraniem towaru | Bez wymaganej przedpłaty -> ['https://ekspertagro.pl/#bs6']
+    SITELINK           SITELINK               ENABLED  asset 442204663075: «Szybka dostawa» | Darmowa dostawa w 3–7 dni | Wysyłka w całej Polsce -> ['https://ekspertagro.pl/#bs4']
+    SITELINK           SITELINK               ENABLED  asset 442204682812: «Oszczędność przy zakupie» | Rabat od 100 zł na 2+ sztuki | 4 prezenty gratis przy zamówieniu -> ['https://ekspertagro.pl/#bs2']
+    CALLOUT            CALLOUT                ENABLED  asset 315426059831: Trwałość 15+ lat
+    CALLOUT            CALLOUT                ENABLED  asset 315426059834: Ochrona przed UV
+    CALLOUT            CALLOUT                ENABLED  asset 315426059837: Najlepsza termoizolacja
+    CALLOUT            CALLOUT                ENABLED  asset 442204659379: 4 prezenty gratis
+    CALLOUT            CALLOUT                ENABLED  asset 442279464942: Poliwęglan 6 mm na zimę
+    TEXT               BUSINESS_NAME          ENABLED  asset 314556660604: 
+    CALL               CALL                   PAUSED   asset 426265129071: PL +48-172-508-541
+    CALL               CALL                   ENABLED  asset 440002089836: PL +48-222-572-372
+    PRICE              PRICE                  ENABLED  asset 315701787953: тип=BRANDS | lang=pl | qualifier=UNSPECIFIED
+        - Szklarnia Ekspert 3x2m | 2 drzwi i 2 okna | 1299 PLN | UNSPECIFIED | https://ekspertagro.pl/szklarni/tproduct/1500649011-759704932172-szklarnia-ekspert-tunel-2020-3x2m-z-poli
+        - Szklarnia Ekspert 3x4m | 2 drzwi i 2 okna | 1929 PLN | UNSPECIFIED | https://ekspertagro.pl/szklarni/tproduct/1500649011-616744282622-szklarnia-ekspert-tunel-4020-3x4m-z-poli
+        - Szklarnia Ekspert 3x6m | 2 drzwi i 2 okna | 2329 PLN | UNSPECIFIED | https://ekspertagro.pl/szklarni/tproduct/1500649011-611456390152-szklarnia-ekspert-tunel-4020-3x6m-z-poli
+        - Szklarnia Ekspert 3x8m | 2 drzwi i 2 okna | 2679 PLN | UNSPECIFIED | https://ekspertagro.pl/szklarni/tproduct/1500649011-917018440262-szklarnia-ekspert-tunel-4020-3x8m-z-poli
+
+[5] Активы уровня ГРУППЫ (по группам):
+
+[6] Активы уровня АККАУНТА (customer_asset):
+
+[7] Кампанийные минус-слова: число = 7

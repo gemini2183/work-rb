@@ -1,0 +1,16 @@
+List_id,Name,Type,Membership,Life_span_days,Size_display,Size_search,Eligible_display,Eligible_search,Read_only,Description
+9266747113,Purchasers of ekspertagro.pl,REMARKETING,OPEN,540,0,0,True,True,True,Users who have purchased in the last 540 days
+9267103483,AdWords optimized list,LOGICAL,OPEN,30,80,88,True,True,True,Combined audience based on available data sources
+9268195353,All Users of ekspertagro.pl,REMARKETING,OPEN,540,0,0,True,True,True,All users
+9269330900,All Converters,RULE_BASED,OPEN,180,0,0,True,True,True,People who converted on your site.
+9293473658,All visitors (AdWords) (system-defined),RULE_BASED,OPEN,30,80,88,True,True,True,People who visited pages that contain your remarketing tags
+9293699769,All visitors (AdWords),RULE_BASED,OPEN,30,80,88,True,True,True,People who visited pages that contain your remarketing tags
+9293918196,All visitors (AdWords) (system-defined),RULE_BASED,OPEN,30,80,88,True,True,True,People who visited pages that contain your remarketing tags
+9475706784,Profimet ekspertagro.pl — уже купившие клиенты,CRM_BASED,OPEN,540,12000,12000,True,True,False,"Автоформирование из CRM: клиенты минимум с одной отгрузкой (status=Отгружено). Используется как исключение в поисковых кампаниях, чтобы не платить за клики повторных покупателей."
+9475732621,General visitors (Retail) (AdWords),RULE_BASED,OPEN,30,7500,0,True,True,True,People who visited your website but did not view any specific products
+9475732714,Product viewers (Retail) (AdWords),RULE_BASED,OPEN,30,0,0,True,True,True,People who viewed specific product pages on your site but did not create a shopping cart
+9475732717,Shopping cart abandoners (Retail) (AdWords),RULE_BASED,OPEN,30,0,0,True,True,True,People who added products to the shopping cart but did not complete the purchase
+9475732720,Past buyers (Retail) (AdWords),RULE_BASED,OPEN,30,0,0,True,True,True,People who purchased products from you in the past
+9509955865,look-a-like / crm customers / 2.5% narrow 20261123,LOOKALIKE,OPEN,540,0,0,True,True,False,Look-alike NARROW (2.5%) от списков 9475706784
+9509968495,look-a-like / crm customers / 5% balanced 20261123,LOOKALIKE,OPEN,540,0,0,True,True,False,Look-alike BALANCED (5%) от списков 9475706784
+9510664500,look-a-like / crm customers / 10% broad 20261123,LOOKALIKE,OPEN,540,0,0,True,True,False,Look-alike BROAD (10%) от списков 9475706784

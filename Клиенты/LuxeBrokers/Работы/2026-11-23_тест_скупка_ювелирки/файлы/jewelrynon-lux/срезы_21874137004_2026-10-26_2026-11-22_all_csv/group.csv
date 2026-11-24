@@ -1,0 +1,14 @@
+﻿Группа,Статус,Потолок цены клика,imp,clk,cost,conv,mark
+jewelry / non-lux / harvest 10-26,ENABLED,0.01,1537,69,419.4543,7.0,
+jewelry / lux / generic / sell,ENABLED,0.01,170,12,179.6124,5.0,
+jewelry / non-lux / generic / sell,ENABLED,0.01,99,7,99.9993,1.0,
+jewelry / non-lux / generic / near me,ENABLED,0.01,128,8,77.5741,4.0,дешевле допустимой (80 %)
+jewelry / lux / generic / cash,ENABLED,0.01,87,7,74.55,1.0,
+jewelry / non-lux / generic / cash,ENABLED,0.01,160,10,64.74,1.0,
+jewelry / non-lux / generic / beverly hills,ENABLED,0.01,39,7,52.3906,0.0,
+jewelry / lux / generic / buyers,ENABLED,0.01,35,2,45.8981,1.0,
+jewelry / non-lux / items / engagement ring,ENABLED,0.01,28,5,42.29,0.0,
+jewelry / non-lux / items / wedding ring,ENABLED,0.01,33,4,31.3116,0.0,
+jewelry / non-lux / generic / buyers,ENABLED,0.01,86,2,17.19,1.0,
+jewelry / non-lux / items / ring,ENABLED,0.01,45,2,17.07,0.0,
+jewelry / lux / generic / near me,ENABLED,0.01,32,1,2.86,0.0,

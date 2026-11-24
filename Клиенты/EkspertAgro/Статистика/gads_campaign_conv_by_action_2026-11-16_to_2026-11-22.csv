@@ -1,0 +1,7 @@
+Campaign,Status,Channel,Action,All_conv,Conv
+general_pmax / in-market,ENABLED,PERFORMANCE_MAX,Ringostat_calls,1.98,1.98
+general_pmax / in-market,ENABLED,PERFORMANCE_MAX,addToCart_web,1.0,0.0
+general_pmax / in-market,ENABLED,PERFORMANCE_MAX,form_submit_web,1.0,1.0
+general_pmax / in-market,ENABLED,PERFORMANCE_MAX,Клик по номеру,14.0,14.0
+shop_pmax / garden_plants,ENABLED,PERFORMANCE_MAX,Клик по номеру,1.0,1.0
+shop_tail,PAUSED,SHOPPING,Ringostat_calls,1.0,1.0

@@ -1,0 +1,11 @@
+{
+ "customer_id": "8826134558",
+ "client_folder": "EkspertAgro",
+ "campaign": "general_pmax / in-market",
+ "unlink_assets": [315545297517, 315545297523, 315426059843, 315426059840],
+ "sitelinks": [
+  {"text": "Oszczędność przy zakupie", "desc1": "Rabat od 100 zł na 2+ sztuki", "desc2": "4 prezenty gratis przy zamówieniu", "url": "https://ekspertagro.pl/#bs2"},
+  {"text": "Szybka dostawa", "desc1": "Darmowa dostawa w 3–7 dni", "desc2": "Wysyłka w całej Polsce", "url": "https://ekspertagro.pl/#bs4"}
+ ],
+ "callouts": ["4 prezenty gratis", "Poliwęglan 6 mm na zimę"]
+}

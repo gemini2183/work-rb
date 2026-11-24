@@ -19,7 +19,10 @@
     python gads_dg_search_segment_builder.py --customer-id 213-621-6123            # проверка
     python gads_dg_search_segment_builder.py --customer-id 213-621-6123 --execute  # запись (на паузе)
     python gads_dg_search_segment_builder.py --customer-id 213-621-6123 --read-back-only
-Для другого клиента копировать и менять константы вверху.
+Режим --segment-only (любой клиент, только сегмент SEARCH, validate_only по умолчанию, дубль по имени не создаётся):
+    python gads_dg_search_segment_builder.py --customer-id 882-613-4558 --segment-only --audience-name "Имя"         --keyword "запрос 1" --keyword "запрос 2" [--keywords-file файл.txt] [--description "..."] [--execute]
+    ... --segment-only --audience-name "Имя" --keyword x --read-back-only   # прочитать сегмент
+Без --segment-only работает прежний сценарий Landver (константы вверху). Дата правки режима: 2026-11-23.
 """
 import argparse
 from datetime import datetime
@@ -86,16 +89,54 @@ def check_limits():
     assert len(BUSINESS_NAME) <= 25 and 10 <= len(SEARCH_KEYWORDS) <= 15
 
 
-def create_custom_audience(client, cid, execute):
+def find_audience(client, cid, name):
+    """Сегменты с точно таким именем -> [(resource_name, id, status)]"""
+    ga = client.get_service("GoogleAdsService")
+    esc = name.replace("\\", "\\\\").replace("'", "\'")
+    E = client.enums
+    return [(r.custom_audience.resource_name, r.custom_audience.id,
+             E.CustomAudienceStatusEnum.CustomAudienceStatus.Name(r.custom_audience.status))
+            for r in ga.search(customer_id=cid, query=(
+                "SELECT custom_audience.id, custom_audience.name, custom_audience.status FROM custom_audience "
+                f"WHERE custom_audience.name = '{esc}'"))]
+
+
+def read_back_audience(client, cid, name):
+    ga = client.get_service("GoogleAdsService")
+    E = client.enums
+    esc = name.replace("\\", "\\\\").replace("'", "\'")
+    n = 0
+    for r in ga.search(customer_id=cid, query=(
+            "SELECT custom_audience.id, custom_audience.name, custom_audience.type, custom_audience.status, "
+            f"custom_audience.members FROM custom_audience WHERE custom_audience.name = '{esc}'")):
+        c = r.custom_audience
+        n += 1
+        print(f"сегмент: id {c.id} | {c.name} | {E.CustomAudienceTypeEnum.CustomAudienceType.Name(c.type_)} | "
+              f"{E.CustomAudienceStatusEnum.CustomAudienceStatus.Name(c.status)} | участников {len(c.members)}")
+        for m in c.members:
+            print("   ", E.CustomAudienceMemberTypeEnum.CustomAudienceMemberType.Name(m.member_type), "|", m.keyword)
+    if not n:
+        print("сегмент с таким именем не найден")
+
+
+def create_custom_audience(client, cid, execute, name=None, keywords=None, description=None):
+    """По умолчанию (name=None) - прежнее поведение Landver; иначе имя/запросы/описание из аргументов (имя без даты)."""
+    name = name or (AUDIENCE_NAME + " " + datetime.now().strftime("%Y%m%d"))
+    keywords = keywords or SEARCH_KEYWORDS
+    exist = find_audience(client, cid, name)
+    if exist:
+        print(f"Сегмент с именем «{name}» уже есть: {exist[0][0]} ({exist[0][2]}). Дубль не создаю.")
+        return exist[0][0] if execute else None
     op = client.get_type("CustomAudienceOperation")
     ca = op.create
-    ca.name = AUDIENCE_NAME + " " + datetime.now().strftime("%Y%m%d")
-    ca.description = "Люди, искавшие эти запросы в Google (тип SEARCH). Demand Gen dg_search_segment, Э-10."
+    ca.name = name
+    ca.description = description or "Люди, искавшие эти запросы в Google (тип SEARCH). Demand Gen dg_search_segment, Э-10."
     ca.type_ = client.enums.CustomAudienceTypeEnum.SEARCH
-    for kw in SEARCH_KEYWORDS:
+    for kw in keywords:
         m = ca.members.add()
         m.member_type = client.enums.CustomAudienceMemberTypeEnum.KEYWORD
         m.keyword = kw
+    print(f"Было: сегмента «{name}» нет -> станет: SEARCH, {len(keywords)} запросов")
     req = client.get_type("MutateCustomAudiencesRequest")
     req.customer_id = cid
     req.operations.append(op)
@@ -104,6 +145,7 @@ def create_custom_audience(client, cid, execute):
     if execute:
         rn = resp.results[0].resource_name
         print("Создан пользовательский сегмент:", rn)
+        read_back_audience(client, cid, name)
         return rn
     print("Проверка сегмента SEARCH пройдена (validate_only).")
     return None
@@ -286,10 +328,36 @@ def main():
     ap.add_argument("--customer-id", required=True)
     ap.add_argument("--execute", action="store_true", help="Реально создать объекты. Без флага — только validate_only")
     ap.add_argument("--read-back-only", action="store_true")
+    ap.add_argument("--segment-only", action="store_true",
+                    help="Только пользовательский сегмент SEARCH, без кампании/групп/объявлений (любой клиент)")
+    ap.add_argument("--audience-name", help="Имя сегмента (точно, без даты); для --segment-only обязательно")
+    ap.add_argument("--keyword", action="append", default=[], help="Запрос (повторяемый)")
+    ap.add_argument("--keywords-file", help="Файл с запросами, по строке на запрос (utf-8)")
+    ap.add_argument("--description", help="Описание сегмента")
     args = ap.parse_args()
-    check_limits()
     cid = args.customer_id.replace("-", "").strip()
     client = GoogleAdsClient.load_from_storage(GOOGLE_ADS_YAML)
+    kws = list(args.keyword)
+    if args.keywords_file:
+        kws += [l.strip() for l in Path(args.keywords_file).read_text(encoding="utf-8-sig").splitlines() if l.strip()]
+    kws = list(dict.fromkeys(kws))
+    if args.segment_only:
+        if not args.audience_name or not kws:
+            ap.error("--segment-only требует --audience-name и хотя бы один --keyword/--keywords-file")
+        if args.read_back_only:
+            read_back_audience(client, cid, args.audience_name)
+            return
+        try:
+            create_custom_audience(client, cid, args.execute, args.audience_name, kws, args.description)
+        except GoogleAdsException as ex:
+            print("ОШИБКА от Google Ads:")
+            for err in ex.failure.errors:
+                print(f"  - {err.message}")
+            raise SystemExit(1)
+        return
+    if args.audience_name or kws or args.description:
+        ap.error("--audience-name/--keyword/--keywords-file/--description работают с --segment-only")
+    check_limits()
     ga = client.get_service("GoogleAdsService")
     if args.read_back_only:
         for r in ga.search(customer_id=cid, query=f"SELECT campaign.id FROM campaign WHERE campaign.name = '{CAMPAIGN_NAME}'"):

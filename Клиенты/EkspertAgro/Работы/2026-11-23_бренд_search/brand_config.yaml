@@ -1,0 +1,34 @@
+# Конфиг бренд-Search EkspertAgro для Скрипты/gads_search_campaign_builder.py (23.11.2026, версия под план 30_план.md).
+# Запуск из D:\GitHub\work-rb\Скрипты:  python gads_search_campaign_builder.py --config "<этот файл>"
+customer_id: 8826134558
+campaign_name: "general_search / brand"
+rsa_texts_file: rsa_texts.yaml
+budget: 12                           # PLN в день (валюта аккаунта PLN, GAQL customer.currency_code 23.11)
+strategy: maximize_clicks
+cpc_ceiling: 3.00                    # PLN; обоснование в 30_план.md
+schedule:
+  - {days: MON-FRI, start: 8, end: 18}
+geo: [2616]
+languages: [pl, en]
+exclude_user_lists: [9475706784]
+landing_url: "https://ekspertagro.pl/"
+# Суффикс как у образца EA, меняется только utm_campaign (решение пользователя: general_search_brand)
+final_url_suffix: "utm_source=google&utm_medium=cpc&utm_campaign=general_search_brand&utm_content=rb_cid_{campaignid}_{ifsearch:search}{ifcontent:context}|gid_{adgroupid}|aid_{creative}|pos_{adposition}|dev_{device}|region_id_{loc_physical_ms}|targetid_{targetid}|gclid_{gclid}&utm_term={keyword}"
+match_types: [EXACT, PHRASE]
+negatives:
+  - spawanie
+  - spawarka
+  - spawarki
+  - welding
+  - welder
+  - spawać
+  - "tig welding"
+groups:
+  - name: "brand ekspertagro"
+    keywords:
+      exact: [ekspertagro, ekspert agro, ekspertagro.pl, ekspertagro szklarnia, ekspertagro szklarnie, ekspertagro cena, ekspertagro opinie, ekspertagro poliwęglan, ekspert agro szklarnia, ekspert agro szklarnie, ekspert agro cena, ekspert agro opinie, ekspert agro poliwęglan]
+      phrase: [ekspertagro, ekspert agro, ekspertagro.pl]
+  - name: "tig"
+    keywords:
+      exact: [tig szklarnie, tig szklarnia, szklarnie tig, tig cena, tig pl]
+      phrase: [tig szklarnie, tig szklarnia, szklarnie tig, tig pl]

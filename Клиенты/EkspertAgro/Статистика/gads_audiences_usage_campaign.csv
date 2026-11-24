@@ -1,0 +1,10 @@
+Level,Campaign,Campaign_status,Channel,Ad_group,Ad_group_status,List_id,Negative,Criterion_status,Bid_modifier
+campaign,general / search / poliweglan,PAUSED,SEARCH,,,9475706784,True,ENABLED,
+campaign,general_pmax,PAUSED,PERFORMANCE_MAX,,,9475706784,True,ENABLED,
+campaign,shop_search,PAUSED,SHOPPING,,,9475706784,True,ENABLED,
+campaign,shop_pmax,PAUSED,PERFORMANCE_MAX,,,9475706784,True,ENABLED,
+campaign,general / search / rozmiary / katalog,PAUSED,SEARCH,,,9475706784,True,ENABLED,
+campaign,general_pmax_rozmiary,PAUSED,PERFORMANCE_MAX,,,9475706784,True,ENABLED,
+campaign,shop_tail,PAUSED,SHOPPING,,,9475706784,True,ENABLED,
+campaign,shop_pmax / garden_plants,ENABLED,PERFORMANCE_MAX,,,9475706784,True,ENABLED,
+campaign,general_pmax / in-market,ENABLED,PERFORMANCE_MAX,,,9475706784,True,ENABLED,

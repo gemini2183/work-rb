@@ -1,0 +1,17 @@
+Campaign,Status,Channel,Impr,Clicks,Cost
+Performance Max-1,PAUSED,PERFORMANCE_MAX,0,0,0.0
+general / search / poliweglan,PAUSED,SEARCH,1474,164,643.42
+general / search / rozmiary / katalog,PAUSED,SEARCH,3923,358,661.98
+general / search / szklarnia/tunel,PAUSED,SEARCH,0,0,0.0
+general_pmax,PAUSED,PERFORMANCE_MAX,333453,15696,7721.13
+general_pmax / in-market,ENABLED,PERFORMANCE_MAX,22841,794,550.35
+general_pmax_rozmiary,PAUSED,PERFORMANCE_MAX,104891,3274,1398.1
+shop / pm,PAUSED,PERFORMANCE_MAX,0,0,0.0
+shop / pmax,REMOVED,PERFORMANCE_MAX,0,0,0.0
+shop1 /search,PAUSED,SHOPPING,0,0,0.0
+shop2 / search,PAUSED,SHOPPING,0,0,0.0
+shop_pmax,PAUSED,PERFORMANCE_MAX,157807,4353,1792.98
+shop_pmax / garden_plants,ENABLED,PERFORMANCE_MAX,8517,208,183.85
+shop_search,PAUSED,SHOPPING,133788,2908,3372.33
+shop_tail,PAUSED,SHOPPING,15418,361,373.83
+yt_cold_search_segment,PAUSED,DEMAND_GEN,0,0,0.0

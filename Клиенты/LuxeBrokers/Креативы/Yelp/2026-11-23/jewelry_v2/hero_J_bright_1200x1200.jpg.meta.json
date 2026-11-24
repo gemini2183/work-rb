@@ -1,0 +1,21 @@
+{
+  "ai_generated": false,
+  "derived_from_real_photo": false,
+  "created": "2026-11-23",
+  "client": "LuxeBrokers",
+  "purpose": "Yelp Ad photo 1200x1200",
+  "variant": "hero_J bright (typographic, no photos)",
+  "source_files": [],
+  "origin_of_photos": "фотографий нет: градиентный фон, линия с ромбом и плашка нарисованы кодом (Pillow); чужих брендов, слитков, монет, слов GOLD/SILVER, знака & на баннере нет",
+  "text_on_banner": [
+    "WE BUY",
+    "JEWELRY",
+    "FREE EVALUATION • NO FEES",
+    "Deals up to 10 min • Beverly Hills"
+  ],
+  "text_facts_source": "jewelryfastsale.com / (free evaluation, no fees or commissions, up to 10 minutes), пакет Э-8 п.3 и п.4; не сверено с facts_registry (файла нет)",
+  "fonts": "Noto Serif Bold (заголовок), Noto Sans Bold (строки); Noto Project Authors, SIL Open Font License 1.1 (поле license в файлах шрифтов C:/Windows/Fonts/NotoSerif-Bold.ttf, NotoSans-Bold.ttf, прочитано fontTools); коммерческое использование и встраивание в изображения разрешены OFL (по тексту лицензии, не юр. проверка)",
+  "safe_zone": "весь текст и плашка внутри центральных 80% по каждой оси (поля 10%)",
+  "ai_label_needed": false,
+  "generator": "Pillow (рисунок и текст кодом, не ИИ)"
+}

@@ -1,0 +1,201 @@
+[
+ {
+  "metricName": "DeadClickCount",
+  "information": [
+   {
+    "sessionsCount": 4,
+    "sessionsWithMetricPercentage": 25,
+    "sessionsWithoutMetricPercentage": 75,
+    "pagesViews": 1,
+    "subTotal": 1
+   }
+  ]
+ },
+ {
+  "metricName": "ExcessiveScroll",
+  "information": [
+   {
+    "sessionsCount": 4,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0
+   }
+  ]
+ },
+ {
+  "metricName": "RageClickCount",
+  "information": [
+   {
+    "sessionsCount": 4,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0
+   }
+  ]
+ },
+ {
+  "metricName": "QuickbackClick",
+  "information": [
+   {
+    "sessionsCount": 4,
+    "sessionsWithMetricPercentage": 25,
+    "sessionsWithoutMetricPercentage": 75,
+    "pagesViews": 1,
+    "subTotal": 1
+   }
+  ]
+ },
+ {
+  "metricName": "ScriptErrorCount",
+  "information": [
+   {
+    "sessionsCount": 4,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0
+   }
+  ]
+ },
+ {
+  "metricName": "ErrorClickCount",
+  "information": [
+   {
+    "sessionsCount": 4,
+    "sessionsWithMetricPercentage": 0,
+    "sessionsWithoutMetricPercentage": 100,
+    "pagesViews": 0,
+    "subTotal": 0
+   }
+  ]
+ },
+ {
+  "metricName": "ScrollDepth",
+  "information": [
+   {
+    "averageScrollDepth": 28
+   }
+  ]
+ },
+ {
+  "metricName": "Traffic",
+  "information": [
+   {
+    "totalSessionCount": 4,
+    "totalBotSessionCount": 5,
+    "distinctUserCount": 4,
+    "pagesPerSessionPercentage": 1.5
+   }
+  ]
+ },
+ {
+  "metricName": "EngagementTime",
+  "information": [
+   {
+    "totalTime": 42,
+    "activeTime": 40
+   }
+  ]
+ },
+ {
+  "metricName": "Browser",
+  "information": [
+   {
+    "name": "MobileSafari",
+    "sessionsCount": 2
+   },
+   {
+    "name": "Chrome",
+    "sessionsCount": 1
+   },
+   {
+    "name": "ChromeMobile",
+    "sessionsCount": 1
+   }
+  ]
+ },
+ {
+  "metricName": "Device",
+  "information": [
+   {
+    "name": "Mobile",
+    "sessionsCount": 3
+   },
+   {
+    "name": "PC",
+    "sessionsCount": 1
+   }
+  ]
+ },
+ {
+  "metricName": "OS",
+  "information": [
+   {
+    "name": "IOS",
+    "sessionsCount": 2
+   },
+   {
+    "name": "Android",
+    "sessionsCount": 1
+   },
+   {
+    "name": "Windows",
+    "sessionsCount": 1
+   }
+  ]
+ },
+ {
+  "metricName": "Country",
+  "information": [
+   {
+    "name": "United States",
+    "sessionsCount": 4
+   }
+  ]
+ },
+ {
+  "metricName": "PageTitle",
+  "information": [
+   {
+    "name": "Abogado de Accidentes de Auto en California | Landver Law",
+    "sessionsCount": 2
+   },
+   {
+    "name": "California Uber & Lyft Accident Lawyer | Landver Law",
+    "sessionsCount": 1
+   },
+   {
+    "name": "Palm Springs Car Accident Lawyer | Landver Law",
+    "sessionsCount": 1
+   }
+  ]
+ },
+ {
+  "metricName": "ReferrerUrl",
+  "information": [
+   {
+    "name": "www.google.com",
+    "sessionsCount": 1
+   }
+  ]
+ },
+ {
+  "metricName": "PopularPages",
+  "information": [
+   {
+    "url": "https://landverpersonalinjury.tilda.ws/abogado-accidentes-auto-lawyer-california",
+    "visitsCount": 2
+   },
+   {
+    "url": "https://landverpersonalinjury.tilda.ws/",
+    "visitsCount": 1
+   },
+   {
+    "url": "https://landverpersonalinjury.tilda.ws/uber-lyft-accident-lawyer-california",
+    "visitsCount": 1
+   }
+  ]
+ }
+]

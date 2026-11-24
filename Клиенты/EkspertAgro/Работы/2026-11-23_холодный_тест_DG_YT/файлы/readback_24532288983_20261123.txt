@@ -1,0 +1,299 @@
+CAMP 24532288983 yt_cold_search_segment 3 14 tmpl=  suffix=  budget= 100.0 2
+CC 20  languageConstants/1000 0 0 0 0 0 False
+CC 20  languageConstants/1030 0 0 0 0 0 False
+CC 7 geoTargetConstants/2616  0 0 0 0 0 False
+CC 6   0 0 0 0 0 False
+CC 6   0 0 0 0 0 False
+CC 6   0 0 0 0 0 False
+CC 6   0 0 0 0 0 False
+CC 9   2 9 2 17 2 False
+CC 9   3 9 2 17 2 False
+CC 9   4 9 2 17 2 False
+CC 9   5 9 2 17 2 False
+CC 9   6 9 2 17 2 False
+AG resource_name: "customers/8826134558/adGroups/202206346453"
+status: ENABLED
+id: 202206346453
+name: "yt_cold_search_segment_g1"
+demand_gen_ad_group_settings {
+  channel_controls {
+    selected_channels {
+      youtube_in_stream: true
+      youtube_in_feed: true
+      youtube_shorts: true
+    }
+  }
+}
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~10"
+status: ENABLED
+type_: GENDER
+negative: false
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~11"
+status: ENABLED
+type_: GENDER
+negative: false
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~20"
+status: ENABLED
+type_: GENDER
+negative: false
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~300"
+status: ENABLED
+type_: PARENTAL_STATUS
+negative: false
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~301"
+status: ENABLED
+type_: PARENTAL_STATUS
+negative: false
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~302"
+status: ENABLED
+type_: PARENTAL_STATUS
+negative: false
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~503001"
+status: ENABLED
+type_: AGE_RANGE
+negative: false
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~503002"
+status: ENABLED
+type_: AGE_RANGE
+negative: false
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~503003"
+status: ENABLED
+type_: AGE_RANGE
+negative: false
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~503004"
+status: ENABLED
+type_: AGE_RANGE
+negative: false
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~503005"
+status: ENABLED
+type_: AGE_RANGE
+negative: false
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~503006"
+status: ENABLED
+type_: AGE_RANGE
+negative: false
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~503999"
+status: ENABLED
+type_: AGE_RANGE
+negative: false
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~510000"
+status: ENABLED
+type_: INCOME_RANGE
+negative: false
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~510001"
+status: ENABLED
+type_: INCOME_RANGE
+negative: false
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~510002"
+status: ENABLED
+type_: INCOME_RANGE
+negative: false
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~510003"
+status: ENABLED
+type_: INCOME_RANGE
+negative: false
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~510004"
+status: ENABLED
+type_: INCOME_RANGE
+negative: false
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~510005"
+status: ENABLED
+type_: INCOME_RANGE
+negative: false
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~510006"
+status: ENABLED
+type_: INCOME_RANGE
+negative: false
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~2499829685942"
+status: ENABLED
+type_: USER_LIST
+user_list {
+  user_list: "customers/8826134558/userLists/9475706784"
+}
+negative: true
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~2512032121125"
+status: ENABLED
+type_: AUDIENCE
+negative: false
+audience {
+  audience: "customers/8826134558/audiences/366337234"
+}
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~2512735668675"
+status: ENABLED
+type_: USER_LIST
+user_list {
+  user_list: "customers/8826134558/userLists/9475732717"
+}
+negative: true
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~2512735668915"
+status: ENABLED
+type_: CUSTOM_AUDIENCE
+negative: false
+custom_audience {
+  custom_audience: "customers/8826134558/customAudiences/1038964620"
+}
+
+AGC resource_name: "customers/8826134558/adGroupCriteria/202206346453~2512735672315"
+status: ENABLED
+type_: USER_LIST
+user_list {
+  user_list: "customers/8826134558/userLists/9269330900"
+}
+negative: true
+
+AUD resource_name: "customers/8826134558/audiences/366337234"
+id: 366337234
+dimensions {
+  audience_segments {
+    segments {
+      custom_audience {
+        custom_audience: "customers/8826134558/customAudiences/1038964620"
+      }
+    }
+  }
+}
+exclusion_dimension {
+  exclusions {
+    user_list {
+      user_list: "customers/8826134558/userLists/9475706784"
+    }
+  }
+  exclusions {
+    user_list {
+      user_list: "customers/8826134558/userLists/9269330900"
+    }
+  }
+  exclusions {
+    user_list {
+      user_list: "customers/8826134558/userLists/9475732717"
+    }
+  }
+}
+name: "yt_cold_search_segment аудитория 20261123_113544"
+
+AD 832375521786 yt_cold_search_segment ad A 16x9 2 1 2
+  final_urls ['https://ekspertagro.pl/'] tmpl= {lpurl}?utm_source=google&utm_medium=cpc&utm_campaign=general_demand_gen&utm_content=vid_16x9_rb_cid_{campaignid}|gid_{adgroupid}|aid_{creative}|pos_{adposition}|dev_{device}|plc_{placement}|region_id_{loc_physical_ms}|targetid_{targetid}|gclid_{gclid} suffix= 
+headlines {
+  text: "Płatność przy odbiorze"
+}
+headlines {
+  text: "Sprawdzasz, potem płacisz"
+}
+headlines {
+  text: "Producent szklarni od 2008"
+}
+headlines {
+  text: "Dostawa w 3–7 dni"
+}
+headlines {
+  text: "Prezenty o wartości 249 zł"
+}
+long_headlines {
+  text: "Szklarnia z poliwęglanu od producenta. Płacisz dopiero po odbiorze, bez przedpłat"
+}
+long_headlines {
+  text: "Tylko dziś: prezenty o wartości 249 zł do każdej szklarni. Dostawa w całej Polsce"
+}
+descriptions {
+  text: "Płacisz po odbiorze, bez przedpłat. Paczka u Ciebie w 3–7 dni, dostawa w całej Polsce."
+}
+descriptions {
+  text: "Poliwęglan 6 mm z ochroną UV i ocynkowany profil 40×20 mm. Żywotność ponad 15 lat."
+}
+descriptions {
+  text: "Tylko dziś: okno boczne i akcesoria w prezencie, razem o wartości 249 zł."
+}
+descriptions {
+  text: "Własne warzywa od wiosny do jesieni. Wcześniejszy siew i ochrona przed wiatrem i deszczem."
+}
+descriptions {
+  text: "Szklarnie od 1 799 zł. Producent od 2008 roku. Doradca oddzwoni i potwierdzi zamówienie."
+}
+videos {
+  asset: "customers/8826134558/assets/442192922851"
+}
+logo_images {
+  asset: "customers/8826134558/assets/315822292116"
+}
+business_name {
+  text: "Ekspert Agro"
+}
+call_to_actions {
+  asset: "customers/8826134558/assets/442273101213"
+}
+
+AD 832375521789 yt_cold_search_segment ad B 9x16 2 1 2
+  final_urls ['https://ekspertagro.pl/'] tmpl= {lpurl}?utm_source=google&utm_medium=cpc&utm_campaign=general_demand_gen&utm_content=vid_9x16_rb_cid_{campaignid}|gid_{adgroupid}|aid_{creative}|pos_{adposition}|dev_{device}|plc_{placement}|region_id_{loc_physical_ms}|targetid_{targetid}|gclid_{gclid} suffix= 
+headlines {
+  text: "Płatność przy odbiorze"
+}
+headlines {
+  text: "Sprawdzasz, potem płacisz"
+}
+headlines {
+  text: "Producent szklarni od 2008"
+}
+headlines {
+  text: "Dostawa w 3–7 dni"
+}
+headlines {
+  text: "Prezenty o wartości 249 zł"
+}
+long_headlines {
+  text: "Szklarnia z poliwęglanu od producenta. Płacisz dopiero po odbiorze, bez przedpłat"
+}
+long_headlines {
+  text: "Tylko dziś: prezenty o wartości 249 zł do każdej szklarni. Dostawa w całej Polsce"
+}
+descriptions {
+  text: "Płacisz po odbiorze, bez przedpłat. Paczka u Ciebie w 3–7 dni, dostawa w całej Polsce."
+}
+descriptions {
+  text: "Poliwęglan 6 mm z ochroną UV i ocynkowany profil 40×20 mm. Żywotność ponad 15 lat."
+}
+descriptions {
+  text: "Tylko dziś: okno boczne i akcesoria w prezencie, razem o wartości 249 zł."
+}
+descriptions {
+  text: "Własne warzywa od wiosny do jesieni. Wcześniejszy siew i ochrona przed wiatrem i deszczem."
+}
+descriptions {
+  text: "Szklarnie od 1 799 zł. Producent od 2008 roku. Doradca oddzwoni i potwierdzi zamówienie."
+}
+videos {
+  asset: "customers/8826134558/assets/442192921726"
+}
+logo_images {
+  asset: "customers/8826134558/assets/315822292116"
+}
+business_name {
+  text: "Ekspert Agro"
+}
+call_to_actions {
+  asset: "customers/8826134558/assets/442273101213"
+}
+

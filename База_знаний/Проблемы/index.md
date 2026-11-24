@@ -2,7 +2,7 @@
 name: problems-index
 description: Реестр проблем и сбоев: симптом → причина → решение; открытые копятся и решаются агентом «Проблем-солвер»
 status: живой документ
-updated: 2026-11-17
+updated: 2026-11-23
 ---
 
 # Проблемы: реестр сбоев и решений
@@ -19,6 +19,10 @@ updated: 2026-11-17
 ## Реестр
 | № | Статус | Система | Проблема |
 |---|---|---|---|
+| [[П-043_yelp-boosted-слова-не-связаны-с-категорией|П-043]] | открыта | Yelp Ads | После смены категории Gold Buyers → Jewelry 5 из 6 Boosted-слов серые «no longer related to your business categories»; при добавлении «Jewelry Buyers» и «Sell Jewelry» Yelp отказывает («must be related to your business»); обход (вернуть Gold Buyers) не принят; найдено 23.11 |
+| [[П-042_gads-remove-asset-group-texts-headline-not-enough|П-042]] | открыта | Скрипты / Google Ads | `gads_remove_asset_group_texts.py` без --execute (как чтение) на группе 6774334868 кампании 24479597485 вернул «Headline asset ... not enough» (около 11:45, 23.11); причина не установлена (вероятно минимум ассетов группы - не проверено); обход - добавлять тексты до отвязки (порядок A -> B -> C); найдено 23.11 |
+| [[П-041_gads-campaign-settings-пустые-csv-без-enabled|П-041]] | обходится | Скрипты / Google Ads | `gads_campaign_settings.py` при отсутствии ENABLED-кампаний по фильтру перезаписал CSV core, geo, schedule в `Статистика` клиента EkspertAgro пустыми; восстановлено `git checkout` 23.11; причина не установлена; обход — не запускать на PAUSED-кампаниях, для Demand Gen на паузе `gads_campaign_settings_xlsx.py`; найдено 23.11 |
+| [[П-040_gads-dg-search-segment-builder-старый-режим-resource-not-found|П-040]] | открыта | Скрипты / Google Ads | gads_dg_search_segment_builder.py в старом режиме (Landver, customer 213-621-6123) на validate_only падает «Resource was not found» по ad_group (временные id); оригинал из HEAD падает так же; `--segment-only` работает (проверен на EkspertAgro 23.11); причина не установлена; обход — `--segment-only`; найдено 23.11 |
 | [[П-035_нет-скрипта-чтения-target-impression-share|П-035]] | открыта | Скрипты / Google Ads | Нет скрипта чтения значений target IS (цель, лимит ставки) кампании 24331208797; change_event даёт только имена полей; найдено 17.11; обход — скриншот пользователя |
 | [[П-036_нет-скрипта-группы-показы-top-is-по-дням|П-036]] | открыта | Скрипты / Google Ads | Нет скрипта показов, Top IS, CTR и цены клика по группам объявлений по дням; search_term_view видит 53–64% показов; найдено 17.11 |
 | [[П-037_window-check-customer-id-без-дефисов|П-037]] | открыта | Скрипты / документация | window_check.py работает с customer-id без дефисов; указание в README не проверено; поведение с дефисами не проверено; найдено 17.11 |
